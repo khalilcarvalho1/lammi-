@@ -1,25 +1,15 @@
 import { createClient } from '@supabase/supabase-js'
 
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL as string
-const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY as string
+const supabaseUrl = (import.meta as any).env?.VITE_SUPABASE_URL || 'https://placeholder.supabase.co'
+const supabaseAnonKey = (import.meta as any).env?.VITE_SUPABASE_ANON_KEY || 'placeholder-key'
 
-if (!supabaseUrl || !supabaseAnonKey) {
-  console.warn('[LAMMI] Variáveis de ambiente do Supabase não configuradas. Use .env.local')
-}
-
-export const supabase = createClient(
-  supabaseUrl || 'https://placeholder.supabase.co',
-  supabaseAnonKey || 'placeholder-key',
-  {
-    auth: {
-      autoRefreshToken: true,
-      persistSession: true,
-      detectSessionInUrl: true,
-    },
-  }
-)
-
-// ─── Tipos principais ────────────────────────────────────────────────────────
+export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
+  auth: {
+    autoRefreshToken: true,
+    persistSession: true,
+    detectSessionInUrl: true,
+  },
+})
 
 export type UserRole = 'admin' | 'member'
 
@@ -38,18 +28,18 @@ export type StudyTheme =
   | 'atls_coluna'
 
 export const THEMES: Record<StudyTheme, string> = {
-  avaliacao_cena:      'Avaliação da Cena e Atendimento Inicial',
-  cinetica_trauma:     'Cinética do Trauma',
-  atls_inicial:        'ATLS: Atendimento Inicial ao Politraumatizado',
-  atls_via_aerea:      'ATLS: Via Aérea',
-  atls_face:           'ATLS: Trauma de Face',
-  atls_pescoco:        'ATLS: Trauma de Pescoço',
-  atls_toracico:       'ATLS: Trauma Torácico',
-  atls_choque:         'ATLS: Choque',
-  atls_abdominal:      'ATLS: Trauma Abdominal',
-  atls_genitourinario: 'ATLS: Trauma Genitourinário',
+  avaliacao_cena:        'Avaliação da Cena e Atendimento Inicial',
+  cinetica_trauma:       'Cinética do Trauma',
+  atls_inicial:          'ATLS: Atendimento Inicial ao Politraumatizado',
+  atls_via_aerea:        'ATLS: Via Aérea',
+  atls_face:             'ATLS: Trauma de Face',
+  atls_pescoco:          'ATLS: Trauma de Pescoço',
+  atls_toracico:         'ATLS: Trauma Torácico',
+  atls_choque:           'ATLS: Choque',
+  atls_abdominal:        'ATLS: Trauma Abdominal',
+  atls_genitourinario:   'ATLS: Trauma Genitourinário',
   atls_cranioencefalico: 'ATLS: Trauma Cranioencefálico',
-  atls_coluna:         'ATLS: Trauma de Coluna e Raquimedular (TRM)',
+  atls_coluna:           'ATLS: Trauma de Coluna e Raquimedular (TRM)',
 }
 
 export type Difficulty = 'facil' | 'medio' | 'dificil'
@@ -87,14 +77,25 @@ export interface Flashcard {
   created_at: string
 }
 
-export interface UserFlashcard {
+export interface ClinicalCase {
   id: string
-  user_id: string
-  flashcard_id: string
-  ease_factor: number       // SM-2: fator de facilidade, começa em 2.5
-  interval: number          // dias até próxima revisão
-  repetitions: number       // vezes que acertou consecutivamente
-  due_date: string          // próxima data de revisão (ISO)
+  title: string
+  description: string
+  theme: StudyTheme
+  steps: CaseStep[]
+  created_at: string
+}
+
+export interface CaseStep {
+  id: string
+  content: string
+  options: {
+    id: string
+    text: string
+    next_step_id: string | null
+    feedback: string
+    is_correct: boolean
+  }[]
 }
 
 export interface SimuladoRecord {
@@ -109,26 +110,11 @@ export interface SimuladoRecord {
   question_results: { question_id: string; chosen_key: string; correct: boolean }[]
 }
 
-export interface ClinicalCase {
-  id: string
-  title: string
-  description: string
-  theme: StudyTheme
-  steps: CaseStep[]
-  created_at: string
-}
-
-export interface CaseStep {
-  id: string
-  content: string
-  options: { id: string; text: string; next_step_id: string | null; feedback: string; is_correct: boolean }[]
-}
-
 export interface StudyLog {
   id: string
   user_id: string
   activity_type: 'question' | 'flashcard' | 'simulado' | 'case'
   theme: StudyTheme | null
-  date: string   // YYYY-MM-DD
+  date: string
   count: number
 }

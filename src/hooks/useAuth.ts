@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
 import { Session, User } from '@supabase/supabase-js'
-import { authService } from '@/services/authService'
+import { supabase } from '@/services/supabaseClient'
 import { profileService } from '@/services/profileService'
 import { Profile } from '@/services/supabaseClient'
 
@@ -32,8 +32,7 @@ export function useAuth() {
   }, [])
 
   useEffect(() => {
-    // Carrega sessão inicial
-    authService.getSession().then(({ data: { session } }) => {
+    supabase.auth.getSession().then(({ data: { session } }) => {
       setState(prev => ({ ...prev, session, user: session?.user ?? null }))
       if (session?.user) {
         loadProfile(session.user.id)
@@ -42,8 +41,7 @@ export function useAuth() {
       }
     })
 
-    // Escuta mudanças de auth
-    const { data: { subscription } } = authService.onAuthStateChange((_event, session) => {
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
       setState(prev => ({ ...prev, session, user: session?.user ?? null }))
       if (session?.user) {
         loadProfile(session.user.id)
@@ -55,14 +53,33 @@ export function useAuth() {
     return () => subscription.unsubscribe()
   }, [loadProfile])
 
+  const signInWithGoogle = () => supabase.auth.signInWithOAuth({
+    provider: 'google',
+    options: { redirectTo: window.location.origin }
+  })
+
+  const signInWithEmail = (email: string, password: string) =>
+    supabase.auth.signInWithPassword({ email, password })
+
+  const signUpWithEmail = (email: string, password: string, displayName: string) =>
+    supabase.auth.signUp({ email, password, options: { data: { display_name: displayName } } })
+
+  const sendPasswordReset = (email: string) =>
+    supabase.auth.resetPasswordForEmail(email, { redirectTo: `${window.location.origin}/reset-password` })
+
+  const updatePassword = (newPassword: string) =>
+    supabase.auth.updateUser({ password: newPassword })
+
+  const signOut = () => supabase.auth.signOut()
+
   return {
     ...state,
-    signInWithGoogle: authService.signInWithGoogle,
-    signInWithEmail: authService.signInWithEmail,
-    signUpWithEmail: authService.signUpWithEmail,
-    sendPasswordReset: authService.sendPasswordReset,
-    updatePassword: authService.updatePassword,
-    signOut: authService.signOut,
+    signInWithGoogle,
+    signInWithEmail,
+    signUpWithEmail,
+    sendPasswordReset,
+    updatePassword,
+    signOut,
     refreshProfile: () => state.user ? loadProfile(state.user.id) : Promise.resolve(),
   }
 }
