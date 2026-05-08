@@ -1,39 +1,42 @@
 import { useState } from 'react'
+import { useNavigate, useLocation } from 'react-router-dom'
 import { useAuthContext } from '@/contexts/AuthContext'
 import { useOfflineHandler } from '@/hooks/useOfflineHandler'
 
 interface NavbarProps {
-  page: string
-  setPage: (p: string) => void
   darkMode: boolean
   setDarkMode: (fn: (d: boolean) => boolean) => void
 }
 
 const NAV_ITEMS = [
-  { id: 'home',       label: 'Início'     },
-  { id: 'banco',      label: 'Banco'      },
-  { id: 'flashcards', label: 'Flashcards' },
-  { id: 'simulado',   label: 'Simulado'   },
-  { id: 'aulas',      label: 'Aulas'      },
-  { id: 'casos',      label: 'Casos'      },
-  { id: 'diretrizes', label: 'Diretrizes' },
-  { id: 'ranking',    label: 'Ranking'    },
-  { id: 'dashboard',  label: 'Dashboard'  },
-  { id: 'sobre',      label: 'Sobre'      },
+  { path: '/',           label: 'Início'     },
+  { path: '/banco',      label: 'Banco'      },
+  { path: '/flashcards', label: 'Flashcards' },
+  { path: '/simulado',   label: 'Simulado'   },
+  { path: '/aulas',      label: 'Aulas'      },
+  { path: '/casos',      label: 'Casos'      },
+  { path: '/diretrizes', label: 'Diretrizes' },
+  { path: '/ranking',    label: 'Ranking'    },
+  { path: '/dashboard',  label: 'Dashboard'  },
+  { path: '/sobre',      label: 'Sobre'      },
 ]
 
-export function Navbar({ page, setPage, darkMode, setDarkMode }: NavbarProps) {
+export function Navbar({ darkMode, setDarkMode }: NavbarProps) {
   const [menuOpen, setMenuOpen] = useState(false)
   const { user, profile, signOut, isAdmin } = useAuthContext()
   const { isOnline } = useOfflineHandler()
+  const navigate  = useNavigate()
+  const location  = useLocation()
 
-  const go = (id: string) => { setPage(id); setMenuOpen(false) }
+  const go = (path: string) => { navigate(path); setMenuOpen(false) }
+  const isActive = (path: string) =>
+    path === '/' ? location.pathname === '/' : location.pathname.startsWith(path)
 
   return (
     <header className="nav bg-mil">
       <div className="nav-inner">
         {/* Brand */}
-        <button onClick={() => go('home')} className="nav-brand">
+        <button onClick={() => go('/')} className="nav-brand">
           <LogoIcon size={40} />
           <div style={{ textAlign: 'left' }}>
             <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.15rem', color: 'white', fontWeight: 700, letterSpacing: '.06em', lineHeight: 1.1 }}>LAMMI</div>
@@ -44,13 +47,20 @@ export function Navbar({ page, setPage, darkMode, setDarkMode }: NavbarProps) {
         {/* Desktop nav */}
         <nav className="nav-desktop">
           {NAV_ITEMS.map(item => (
-            <button key={item.id} className={`nav-link ${page === item.id ? 'active' : ''}`} onClick={() => go(item.id)}>
+            <button
+              key={item.path}
+              className={`nav-link ${isActive(item.path) ? 'active' : ''}`}
+              onClick={() => go(item.path)}
+            >
               {item.label}
             </button>
           ))}
           {isAdmin && (
-            <button className={`nav-link ${page === 'admin' ? 'active' : ''}`} onClick={() => go('admin')}
-              style={{ color: '#E53935' }}>
+            <button
+              className={`nav-link ${isActive('/admin') ? 'active' : ''}`}
+              onClick={() => go('/admin')}
+              style={{ color: '#E53935' }}
+            >
               Admin
             </button>
           )}
@@ -65,7 +75,8 @@ export function Navbar({ page, setPage, darkMode, setDarkMode }: NavbarProps) {
         <button
           onClick={() => setDarkMode(d => !d)}
           title={darkMode ? 'Modo claro' : 'Modo escuro'}
-          style={{ background: 'transparent', border: '1px solid rgba(192,57,43,.4)', color: '#E53935', width: 36, height: 36, borderRadius: '50%', cursor: 'pointer', fontSize: '1rem', display: 'flex', alignItems: 'center', justifyContent: 'center', transition: 'all .2s', flexShrink: 0 }}>
+          style={{ background: 'transparent', border: '1px solid rgba(192,57,43,.4)', color: '#E53935', width: 36, height: 36, borderRadius: '50%', cursor: 'pointer', fontSize: '1rem', display: 'flex', alignItems: 'center', justifyContent: 'center', transition: 'all .2s', flexShrink: 0 }}
+        >
           {darkMode ? '☀' : '🌙'}
         </button>
 
@@ -76,7 +87,7 @@ export function Navbar({ page, setPage, darkMode, setDarkMode }: NavbarProps) {
             <button className="btn-ghost" style={{ fontSize: '.75rem', padding: '.35rem .7rem' }} onClick={() => signOut()}>Sair</button>
           </div>
         ) : (
-          <button className="btn-red" style={{ padding: '.4rem 1rem', fontSize: '.75rem' }} onClick={() => go('login')}>
+          <button className="btn-red" style={{ padding: '.4rem 1rem', fontSize: '.75rem' }} onClick={() => go('/login')}>
             Entrar
           </button>
         )}
@@ -93,17 +104,27 @@ export function Navbar({ page, setPage, darkMode, setDarkMode }: NavbarProps) {
       {menuOpen && (
         <nav className="nav-mobile-drawer" style={{ display: 'flex' }}>
           {NAV_ITEMS.map(item => (
-            <button key={item.id} className={`nav-link-mobile ${page === item.id ? 'active' : ''}`} onClick={() => go(item.id)}>
+            <button
+              key={item.path}
+              className={`nav-link-mobile ${isActive(item.path) ? 'active' : ''}`}
+              onClick={() => go(item.path)}
+            >
               {item.label}
             </button>
           ))}
           {isAdmin && (
-            <button className={`nav-link-mobile ${page === 'admin' ? 'active' : ''}`} onClick={() => go('admin')} style={{ color: '#E53935' }}>Admin</button>
+            <button
+              className={`nav-link-mobile ${isActive('/admin') ? 'active' : ''}`}
+              onClick={() => go('/admin')}
+              style={{ color: '#E53935' }}
+            >
+              Admin
+            </button>
           )}
           <div style={{ height: 1, background: 'rgba(192,57,43,.2)', margin: '.5rem 0' }} />
           {user
             ? <button className="nav-link-mobile" onClick={() => { signOut(); setMenuOpen(false) }}>Sair</button>
-            : <button className="nav-link-mobile" onClick={() => go('login')}>Entrar</button>
+            : <button className="nav-link-mobile" onClick={() => go('/login')}>Entrar</button>
           }
           <button className="nav-link-mobile" onClick={() => setDarkMode(d => !d)}>
             {darkMode ? '☀ Modo claro' : '🌙 Modo escuro'}

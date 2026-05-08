@@ -1,25 +1,15 @@
 import { useState, useEffect } from 'react'
 
-type Theme = 'light' | 'dark'
-
 export function useTheme() {
-  const [theme, setTheme] = useState<Theme>(() => {
-    const stored = localStorage.getItem('lammi-theme') as Theme | null
-    if (stored) return stored
-    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+  const [darkMode, setDarkMode] = useState<boolean>(() => {
+    const stored = localStorage.getItem('lammi-theme')
+    return stored ? stored === 'dark' : true // padrão dark
   })
 
   useEffect(() => {
-    const root = document.documentElement
-    if (theme === 'dark') {
-      root.classList.add('dark')
-    } else {
-      root.classList.remove('dark')
-    }
-    localStorage.setItem('lammi-theme', theme)
-  }, [theme])
+    document.documentElement.setAttribute('data-theme', darkMode ? 'dark' : 'light')
+    localStorage.setItem('lammi-theme', darkMode ? 'dark' : 'light')
+  }, [darkMode])
 
-  const toggleTheme = () => setTheme(t => (t === 'dark' ? 'light' : 'dark'))
-
-  return { theme, toggleTheme, isDark: theme === 'dark' }
+  return { darkMode, setDarkMode }
 }

@@ -1,7 +1,9 @@
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { THEMES, StudyTheme } from '@/services/supabaseClient'
 
-const MOCK_DIR = [
+// Exportado para uso em DiretrizDetailPage
+export const MOCK_DIR = [
   { id:'d1', title:'ATLS 10ª Edição – Atendimento Inicial', resumo:'Sequência ABCDE, avaliação primária e secundária, damage control, critérios de transferência.', tema:'atls_inicial' as StudyTheme,
     conteudo:[
       'Via aérea e proteção cervical sempre como primeira prioridade absoluta.',
@@ -20,7 +22,7 @@ const MOCK_DIR = [
       'Fase 3 — TACEVAC: monitorização, reavaliação e comunicação com hospital receptor.',
       'Torniquete: posicionar 5–7 cm acima da lesão, apertar até cessar o sangramento.',
       'Curativo hemostático: comprimir por 3 minutos mínimos após aplicação.',
-      'Hipotermia: cobrir o paciente após controle de hemorragia — "frio mata tanto quanto bala".',
+      'Hipotermia: cobrir o paciente após controle de hemorragia.',
       'Acesso IO: úmero proximal ou tíbia proximal se acesso venoso impossível em 90 segundos.',
     ]},
   { id:'d3', title:'Damage Control Resuscitation (DCR)', resumo:'Hipotensão permissiva, hemostasia cirúrgica precoce, reversão da tríade da morte.', tema:'atls_choque' as StudyTheme,
@@ -36,7 +38,7 @@ const MOCK_DIR = [
     conteudo:[
       'TCE grave: Glasgow ≤ 8 — intubação orotraqueal com sequência rápida.',
       'Meta de PPC ≥ 60 mmHg e PIC < 20 mmHg após craniectomia/monitorização.',
-      'Evitar hipotensão (PAS < 90 mmHg) e hipoxemia (SpO2 < 95%) — dobram mortalidade.',
+      'Evitar hipotensão (PAS < 90 mmHg) e hipoxemia (SpO2 < 95%).',
       'Hiperventilação controlada (PaCO2 35–40 mmHg) — somente como medida temporária.',
       'Manitol 20%: 0,25–1 g/kg em bolus para crises de hipertensão intracraniana.',
       'Solução salina hipertônica (SSH 3%): alternativa ao manitol, especialmente em hipotensão.',
@@ -53,34 +55,13 @@ const MOCK_DIR = [
 ]
 
 export function DiretrizesPage() {
+  const navigate = useNavigate()
   const [filtro, setFiltro] = useState<StudyTheme | ''>('')
   const [busca,  setBusca]  = useState('')
-  const [sel,    setSel]    = useState<string | null>(null)
 
   const filtradas = MOCK_DIR.filter(d =>
     (!filtro || d.tema === filtro) &&
     (!busca || d.title.toLowerCase().includes(busca.toLowerCase()) || d.resumo.toLowerCase().includes(busca.toLowerCase()))
-  )
-
-  const diretriz = sel ? MOCK_DIR.find(d => d.id === sel) : null
-
-  if (diretriz) return (
-    <section style={{ padding: '4rem 2rem', background: '#0D0D0D' }}>
-      <div style={{ maxWidth: 840, margin: '0 auto' }}>
-        <button className="btn-ghost" style={{ marginBottom: '1.5rem', fontSize: '.8rem' }} onClick={() => setSel(null)}>← Diretrizes</button>
-        <div style={{ display: 'flex', gap: 6, marginBottom: '1rem', flexWrap: 'wrap' }}>
-          <span className="tag-pill">{THEMES[diretriz.tema]}</span>
-        </div>
-        <h1 style={{ fontFamily: 'var(--font-d)', fontSize: '1.8rem', color: 'white', marginBottom: '.5rem', lineHeight: 1.25 }}>{diretriz.title}</h1>
-        <p style={{ color: 'var(--text-muted)', fontSize: '.88rem', marginBottom: '2rem' }}>{diretriz.resumo}</p>
-        <div className="diretriz-card">
-          <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.05rem', color: '#E53935', marginBottom: '1.25rem', fontWeight: 600 }}>Pontos-chave</div>
-          {diretriz.conteudo.map((ponto, i) => (
-            <div key={i} className="diretriz-ponto">{ponto}</div>
-          ))}
-        </div>
-      </div>
-    </section>
   )
 
   return (
@@ -102,7 +83,8 @@ export function DiretrizesPage() {
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '.75rem' }}>
           {filtradas.map(d => (
-            <button key={d.id} onClick={() => setSel(d.id)}
+            /* MIGRAÇÃO: navigate para /diretrizes/:id em vez de setSel */
+            <button key={d.id} onClick={() => navigate(`/diretrizes/${d.id}`)}
               style={{ display: 'flex', alignItems: 'center', gap: '1.25rem', background: 'var(--bg-card)', border: '1px solid var(--border)', padding: '1.25rem 1.5rem', cursor: 'pointer', textAlign: 'left', transition: 'all .2s', width: '100%' }}
               onMouseEnter={e => { (e.currentTarget as HTMLElement).style.borderColor = '#E53935'; (e.currentTarget as HTMLElement).style.background = 'rgba(192,57,43,.06)' }}
               onMouseLeave={e => { (e.currentTarget as HTMLElement).style.borderColor = 'var(--border)'; (e.currentTarget as HTMLElement).style.background = 'var(--bg-card)' }}>

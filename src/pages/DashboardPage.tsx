@@ -2,10 +2,29 @@ import { useMemo } from 'react'
 import { MOCK_QUESTIONS, MOCK_STUDY_HEATMAP, MOCK_THEME_STATS } from '@/data/mockData'
 import { THEMES } from '@/services/supabaseClient'
 import { Heatmap } from '@/components/common/Heatmap'
+import { useStudyContext } from '@/contexts/StudyContext'
 
-interface Props { historico: Record<string, any> }
+// Calcula streak de dias consecutivos a partir de um array de datas ISO
+function computeStreak(dates: string[]): number {
+  if (!dates.length) return 0
+  const sorted = [...new Set(dates.map(d => d.split('T')[0]))].sort().reverse()
+  let streak = 0
+  let expected = new Date().toISOString().split('T')[0]
+  for (const date of sorted) {
+    if (date === expected) {
+      streak++
+      const d = new Date(expected)
+      d.setDate(d.getDate() - 1)
+      expected = d.toISOString().split('T')[0]
+    } else break
+  }
+  return streak
+}
 
-export function DashboardPage({ historico }: Props) {
+export function DashboardPage() {
+  // MIGRAÇÃO: historico agora vem do StudyContext, não de props
+  const { historico } = useStudyContext()
+
   const respondidas = Object.keys(historico).length
   const acertos     = Object.values(historico).filter((h: any) => h.acertou).length
   const pct         = respondidas > 0 ? Math.round(acertos / respondidas * 100) : 0
@@ -46,10 +65,10 @@ export function DashboardPage({ historico }: Props) {
             {/* Cards de stats */}
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: '1rem', marginBottom: '1.5rem' }}>
               {[
-                { lbl: 'Respondidas', val: respondidas,         color: '#E53935' },
-                { lbl: 'Acertos',     val: acertos,             color: '#4ade80' },
+                { lbl: 'Respondidas', val: respondidas,           color: '#E53935' },
+                { lbl: 'Acertos',     val: acertos,               color: '#4ade80' },
                 { lbl: 'Erros',       val: respondidas - acertos, color: '#f87171' },
-                { lbl: 'Aproveit.',   val: pct + '%',           color: pct >= 70 ? '#4ade80' : pct >= 50 ? '#EF5350' : '#f87171' },
+                { lbl: 'Aproveit.',   val: pct + '%',             color: pct >= 70 ? '#4ade80' : pct >= 50 ? '#EF5350' : '#f87171' },
               ].map((d, i) => (
                 <div key={i} className="dash-card" style={{ textAlign: 'center' }}>
                   <div style={{ fontSize: '.7rem', textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--text-muted)', marginBottom: '.5rem', fontWeight: 700 }}>{d.lbl}</div>
@@ -80,50 +99,28 @@ export function DashboardPage({ historico }: Props) {
               <Heatmap data={MOCK_STUDY_HEATMAP} weeks={52} />
             </div>
 
-            {/* Por módulo */}
-            <div className="dash-grid">
-              <div className="dash-card">
-                <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.1rem', color: '#E53935', marginBottom: '1.25rem', fontWeight: 600 }}>Por Módulo</div>
-                {Object.entries(THEMES).map(([t, label]) => (
-                  <div key={t} style={{ marginBottom: '1.25rem' }}>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '.4rem', fontSize: '.85rem' }}>
-                      <span style={{ fontWeight: 600, color: 'var(--text)' }}>{label}</span>
-                      <span style={{ color: porTema[t]?.total === 0 ? 'var(--text-dim)' : '#E53935', fontWeight: 700, fontSize: '.82rem' }}>
-                        {porTema[t]?.total === 0 ? '—' : `${porTema[t].acertos}/${porTema[t].total} (${porTema[t].pct}%)`}
-                      </span>
-                    </div>
-                    <div className="dash-bar-track">
-                      <div className="dash-bar-fill" style={{ width: (porTema[t]?.pct ?? 0) + '%', background: (porTema[t]?.pct ?? 0) >= 70 ? '#4ade80' : (porTema[t]?.pct ?? 0) >= 50 ? '#EF5350' : '#f87171' }} />
-                    </div>
-                    <div style={{ fontSize: '.68rem', color: 'var(--text-dim)', marginTop: '.25rem' }}>{porTema[t]?.total ?? 0}/{porTema[t]?.totalTema ?? 0} questões</div>
-                  </div>
-                ))}
-              </div>
-              <div className="dash-card">
-                <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.1rem', color: '#E53935', marginBottom: '1.25rem', fontWeight: 600 }}>Metas</div>
-                {[
-                  { meta: 3,                      lbl: '3 questões' },
-                  { meta: 5,                      lbl: '5 questões' },
-                  { meta: MOCK_QUESTIONS.length,  lbl: 'Banco completo!' },
-                ].map(({ meta, lbl }) => (
-                  <div key={meta} style={{ display: 'flex', alignItems: 'center', gap: '.75rem', marginBottom: '.6rem', fontSize: '.82rem' }}>
-                    <span>{respondidas >= meta ? '✅' : '⏳'}</span>
-                    <span style={{ color: respondidas >= meta ? '#4ade80' : 'var(--text-muted)', fontWeight: respondidas >= meta ? 600 : 400 }}>{lbl}</span>
-                  </div>
-                ))}
-
-                <div style={{ marginTop: '2rem', paddingTop: '1.5rem', borderTop: '1px solid var(--border)' }}>
-                  <div style={{ fontFamily: 'var(--font-d)', fontSize: '1rem', color: '#E53935', marginBottom: '1rem', fontWeight: 600 }}>Histórico de Simulados</div>
-                  {MOCK_SIMULADOS.map(s => (
-                    <div key={s.id} style={{ padding: '.6rem 0', borderBottom: '1px solid rgba(192,57,43,.1)' }}>
-                      <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '.82rem' }}>
-                        <span style={{ color: 'var(--text)' }}>{s.temas}</span>
-                        <span style={{ fontWeight: 700, color: s.pct >= 70 ? '#4ade80' : s.pct >= 50 ? '#EF5350' : '#f87171' }}>{s.pct}%</span>
+            {/* Por tema */}
+            <div className="dash-card">
+              <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.1rem', color: '#E53935', marginBottom: '1.25rem', fontWeight: 600 }}>Por Tema</div>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '.75rem' }}>
+                {(Object.entries(THEMES) as [string, string][]).map(([k, v]) => {
+                  const d = porTema[k]
+                  if (!d || d.total === 0) return null
+                  return (
+                    <div key={k}>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '.3rem', fontSize: '.83rem', color: 'var(--text)' }}>
+                        <span>{v}</span>
+                        <span style={{ color: d.pct >= 70 ? '#4ade80' : d.pct >= 50 ? '#EF5350' : '#f87171', fontWeight: 700 }}>{d.pct}%</span>
                       </div>
-                      <div style={{ fontSize: '.7rem', color: 'var(--text-dim)' }}>{s.data} · {s.tempo}</div>
+                      <div style={{ height: 6, background: 'rgba(192,57,43,.12)' }}>
+                        <div style={{ height: '100%', width: d.pct + '%', background: d.pct >= 70 ? '#4ade80' : d.pct >= 50 ? '#EF5350' : '#f87171', transition: 'width .5s' }} />
+                      </div>
+                      <div style={{ fontSize: '.7rem', color: 'var(--text-dim)', marginTop: '.2rem' }}>
+                        {d.acertos}/{d.total} acertos · {d.totalTema} questões no tema
+                      </div>
                     </div>
-                  ))}
-                </div>
+                  )
+                })}
               </div>
             </div>
           </>
@@ -132,23 +129,3 @@ export function DashboardPage({ historico }: Props) {
     </section>
   )
 }
-
-function computeStreak(data: { date: string; count: number }[]): number {
-  const today = new Date().toISOString().split('T')[0]
-  const set   = new Set(data.filter(d => d.count > 0).map(d => d.date))
-  let streak  = 0
-  const cursor = new Date(today)
-  while (true) {
-    const dateStr = cursor.toISOString().split('T')[0]
-    if (!set.has(dateStr)) break
-    streak++
-    cursor.setDate(cursor.getDate() - 1)
-  }
-  return streak
-}
-
-const MOCK_SIMULADOS = [
-  { id: '1', temas: 'ATLS + Choque', data: '03/05/2026', tempo: '14min', pct: 80 },
-  { id: '2', temas: 'Via Aérea + TCE', data: '01/05/2026', tempo: '22min', pct: 60 },
-  { id: '3', temas: 'Trauma Torácico', data: '28/04/2026', tempo: '18min', pct: 75 },
-]

@@ -1,6 +1,8 @@
+import { useNavigate } from 'react-router-dom'
 import { MilDecor } from '@/components/layout/Navbar'
 import { THEMES } from '@/services/supabaseClient'
-import { MOCK_QUESTIONS, MOCK_FLASHCARDS } from '@/data/mockData'
+import { MOCK_QUESTIONS } from '@/data/mockData'
+import { useStudyContext } from '@/contexts/StudyContext'
 
 const TEMA_ICONS: Record<string, string> = {
   avaliacao_cena:'🩺', cinetica_trauma:'💥', atls_inicial:'⚕️',
@@ -9,15 +11,15 @@ const TEMA_ICONS: Record<string, string> = {
   atls_genitourinario:'🔵', atls_cranioencefalico:'🧠', atls_coluna:'🦴',
 }
 
-interface HomePageProps {
-  setPage: (p: string) => void
-  acertos: number
-  respondidas: number
-}
+export function HomePage() {
+  const navigate  = useNavigate()
+  // MIGRAÇÃO: acertos/respondidas agora vêm do StudyContext em vez de props
+  const { historico } = useStudyContext()
 
-export function HomePage({ setPage, acertos, respondidas }: HomePageProps) {
-  const total = MOCK_QUESTIONS.length
-  const pct = respondidas > 0 ? Math.round(acertos / respondidas * 100) : 0
+  const total       = MOCK_QUESTIONS.length
+  const respondidas = Object.keys(historico).length
+  const acertos     = Object.values(historico).filter(h => h.acertou).length
+  const pct         = respondidas > 0 ? Math.round(acertos / respondidas * 100) : 0
 
   return (
     <>
@@ -26,25 +28,24 @@ export function HomePage({ setPage, acertos, respondidas }: HomePageProps) {
         <div className="noise" />
         <MilDecor />
         <div style={{ maxWidth: 1200, margin: '0 auto', padding: '5rem 2rem 4rem', position: 'relative' }}>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'center' }}
-            className="hero-grid">
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'center' }} className="hero-grid">
             <div className="fade-up">
               <div className="ornament" style={{ maxWidth: 300, marginBottom: '1.75rem' }}>Irecê · Bahia · 2024</div>
               <h1 style={{ fontFamily: 'var(--font-d)', fontSize: 'clamp(2.4rem,5vw,4rem)', color: 'white', lineHeight: 1.08, fontWeight: 700, marginBottom: '1.25rem' }}>
                 Medicina Militar<br />com <span style={{ fontStyle: 'italic', color: '#E53935' }}>precisão e preparo</span>
               </h1>
               <p style={{ color: 'rgba(240,240,240,.75)', fontSize: '1.05rem', lineHeight: 1.75, maxWidth: 520, marginBottom: '2.5rem' }}>
-                Banco de questões da <strong style={{ color: '#E53935' }}>LAMMI</strong>. Protocolos ATLS, TCCC, PHTLS e Medicina Operacional. Raciocínio clínico tático em primeiro plano.
+                Banco de questões da <strong style={{ color: '#E53935' }}>LAMMI</strong>. Protocolos ATLS, TCCC, PHTLS e Medicina Operacional.
               </p>
               <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-                <button className="btn-red" onClick={() => setPage('banco')}>Começar a Estudar</button>
-                <button className="btn-outline-red" onClick={() => setPage('simulado')}>Fazer Simulado</button>
+                <button className="btn-red" onClick={() => navigate('/banco')}>Começar a Estudar</button>
+                <button className="btn-outline-red" onClick={() => navigate('/simulado')}>Fazer Simulado</button>
               </div>
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: '2rem', marginTop: '3.5rem', paddingTop: '2.5rem', borderTop: '1px solid rgba(192,57,43,.25)' }}>
                 {[
-                  { val: total,                          lbl: 'Questões'       },
-                  { val: Object.keys(THEMES).length,     lbl: 'Temas ATLS'     },
-                  { val: pct ? pct + '%' : '—',          lbl: 'Aproveitamento' },
+                  { val: total,                       lbl: 'Questões'       },
+                  { val: Object.keys(THEMES).length,  lbl: 'Temas ATLS'     },
+                  { val: pct ? pct + '%' : '—',       lbl: 'Aproveitamento' },
                 ].map((s, i) => (
                   <div key={i}>
                     <div className="stat-val">{s.val}</div>
@@ -70,7 +71,7 @@ export function HomePage({ setPage, acertos, respondidas }: HomePageProps) {
                     </span>
                   </div>
                 ))}
-                <button className="btn-red" style={{ marginTop: '1.75rem', width: '100%' }} onClick={() => setPage('banco')}>
+                <button className="btn-red" style={{ marginTop: '1.75rem', width: '100%' }} onClick={() => navigate('/banco')}>
                   Acessar Banco →
                 </button>
               </div>
@@ -109,7 +110,7 @@ export function HomePage({ setPage, acertos, respondidas }: HomePageProps) {
           <p style={{ color: 'rgba(240,240,240,.55)', marginBottom: '2rem', fontSize: '.97rem' }}>
             {total} questões · ATLS · TCE · Trauma · Medicina Operacional
           </p>
-          <button className="btn-red" onClick={() => setPage('banco')}>Iniciar agora →</button>
+          <button className="btn-red" onClick={() => navigate('/banco')}>Iniciar agora →</button>
         </div>
       </section>
     </>
@@ -117,10 +118,10 @@ export function HomePage({ setPage, acertos, respondidas }: HomePageProps) {
 }
 
 const FEATURES = [
-  { icon: '📋', title: 'Questões Táticas',    desc: 'Questões baseadas em protocolos ATLS, TCCC, PHTLS e manuais do Exército Brasileiro.' },
-  { icon: '🎴', title: 'Flashcards SRS',       desc: 'Cards com repetição espaçada SM-2 para memorizar protocolos críticos com eficiência.' },
-  { icon: '💡', title: 'Gabarito Comentado',   desc: 'Cada questão com comentário baseado nas diretrizes mais atuais de medicina tática.' },
-  { icon: '🎚️', title: 'Filtros por Módulo',  desc: 'Filtre por tema, subtema e dificuldade para estudo direcionado por déficit.' },
-  { icon: '⏱️', title: 'Modo Simulado',        desc: 'Provas cronometradas simulando condições de avaliação real com análise de desempenho.' },
-  { icon: '📊', title: 'Dashboard',            desc: 'Acompanhe seu progresso por módulo e identifique pontos de melhoria.' },
+  { icon: '📋', title: 'Questões Táticas',   desc: 'Questões baseadas em protocolos ATLS, TCCC, PHTLS e manuais do Exército Brasileiro.' },
+  { icon: '🎴', title: 'Flashcards SRS',      desc: 'Cards com repetição espaçada SM-2 para memorizar protocolos críticos com eficiência.' },
+  { icon: '💡', title: 'Gabarito Comentado',  desc: 'Cada questão com comentário baseado nas diretrizes mais atuais de medicina tática.' },
+  { icon: '🎚️', title: 'Filtros por Módulo', desc: 'Filtre por tema, subtema e dificuldade para estudo direcionado por déficit.' },
+  { icon: '⏱️', title: 'Modo Simulado',       desc: 'Provas cronometradas simulando condições de avaliação real com análise de desempenho.' },
+  { icon: '📊', title: 'Dashboard',           desc: 'Acompanhe seu progresso por módulo e identifique pontos de melhoria.' },
 ]

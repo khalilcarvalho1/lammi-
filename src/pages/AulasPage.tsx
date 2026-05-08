@@ -1,7 +1,8 @@
+import { useNavigate } from 'react-router-dom'
 import { useState } from 'react'
 import { THEMES, StudyTheme } from '@/services/supabaseClient'
 
-const MOCK_AULAS = [
+export const MOCK_AULAS = [
   { id:'a1', title:'Introdução ao ATLS – Atendimento Inicial', desc:'Visão geral do protocolo ABCDE, avaliação primária e secundária, manobras essenciais.', theme:'atls_inicial' as StudyTheme, type:'video', dur:'42min', autor:'Prof. Dr. Carlos Mendes',
     conteudo:`## Protocolo ABCDE\n\n**A – Via Aérea + Colar Cervical**\nGarantir perviedade com proteção da coluna cervical. Jaw thrust em suspeita de lesão cervical.\n\n**B – Respiração e Ventilação**\nAvaliar FR, expansão torácica, SpO2. Tratar pneumotórax e hemotórax imediatamente.\n\n**C – Circulação**\nControlar hemorragias. Acesso venoso calibroso. Reposição criteriosa.\n\n**D – Neurológico**\nGlasgow, pupilas, déficits focais.\n\n**E – Exposição**\nExpor completamente. Controlar hipotermia.` },
   { id:'a2', title:'Via Aérea no Trauma – Do Básico à IOT', desc:'Manejo da VA no traumatizado: jaw thrust, cânulas, máscara laríngea e SRI.', theme:'atls_via_aerea' as StudyTheme, type:'video', dur:'38min', autor:'Prof. Dr. Ana Souza', conteudo:'Conteúdo em breve.' },
@@ -20,69 +21,12 @@ const TIPO_CORES: Record<string,string>  = {
 }
 
 export function AulasPage() {
+  const navigate = useNavigate()
   const [filtroTema, setFiltroTema] = useState<StudyTheme | ''>('')
   const [filtroTipo, setFiltroTipo] = useState('')
-  const [aulaId,     setAulaId]     = useState<string | null>(null)
 
   const filtradas = MOCK_AULAS.filter(a =>
     (!filtroTema || a.theme === filtroTema) && (!filtroTipo || a.type === filtroTipo)
-  )
-
-  const aula = aulaId ? MOCK_AULAS.find(a => a.id === aulaId) : null
-
-  if (aula) return (
-    <section style={{ padding: '4rem 2rem', background: '#0D0D0D' }}>
-      <div style={{ maxWidth: 960, margin: '0 auto' }}>
-        <button className="btn-ghost" style={{ marginBottom: '1.5rem', fontSize: '.8rem' }} onClick={() => setAulaId(null)}>
-          ← Aulas
-        </button>
-        <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginBottom: '1rem' }}>
-          <span className="tag-pill">{THEMES[aula.theme]}</span>
-          <span className="tag-pill">{TIPO_ICONS[aula.type]} {aula.type.toUpperCase()}</span>
-          {aula.dur && <span className="tag-pill">⏱ {aula.dur}</span>}
-        </div>
-        <h1 style={{ fontFamily: 'var(--font-d)', fontSize: '2rem', color: 'white', marginBottom: '.5rem', lineHeight: 1.2 }}>{aula.title}</h1>
-        {aula.autor && <p style={{ color: 'var(--text-muted)', fontSize: '.85rem', marginBottom: '2rem' }}>Por {aula.autor}</p>}
-
-        {/* Espaço para vídeo */}
-        {aula.type === 'video' && (
-          <div style={{ width: '100%', aspectRatio: '16/9', background: '#080808', border: '1px solid var(--border)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '1.5rem' }}>
-            <div style={{ textAlign: 'center' }}>
-              <div style={{ fontSize: '3rem', marginBottom: '.75rem' }}>🎬</div>
-              <p style={{ color: 'var(--text-muted)', fontSize: '.88rem' }}>Vídeo será incorporado aqui (YouTube/Vimeo)</p>
-            </div>
-          </div>
-        )}
-
-        {/* Espaço para PDF */}
-        {aula.type === 'pdf' && (
-          <div style={{ width: '100%', height: 240, background: '#080808', border: '1px solid var(--border)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '1.5rem' }}>
-            <div style={{ textAlign: 'center' }}>
-              <div style={{ fontSize: '2.5rem', marginBottom: '.75rem' }}>📄</div>
-              <p style={{ color: 'var(--text-muted)', fontSize: '.88rem', marginBottom: '1rem' }}>PDF será exibido aqui</p>
-              <button className="btn-ghost" style={{ fontSize: '.8rem' }}>Baixar PDF</button>
-            </div>
-          </div>
-        )}
-
-        {/* Conteúdo */}
-        <div className="card-dark" style={{ padding: '2rem' }}>
-          {aula.conteudo.split('\n').map((linha, i) => {
-            if (linha.startsWith('## ')) return <h2 key={i} style={{ fontFamily: 'var(--font-d)', fontSize: '1.35rem', color: '#E53935', margin: '1.5rem 0 .75rem', fontWeight: 600 }}>{linha.slice(3)}</h2>
-            const partes = linha.split(/(\*\*[^*]+\*\*)/)
-            if (linha === '') return <div key={i} style={{ height: '.5rem' }} />
-            return (
-              <p key={i} style={{ fontSize: '.9rem', color: 'var(--text)', lineHeight: 1.8, marginBottom: '.35rem' }}>
-                {partes.map((p, j) => p.startsWith('**') && p.endsWith('**')
-                  ? <strong key={j} style={{ color: '#E53935' }}>{p.slice(2,-2)}</strong>
-                  : p
-                )}
-              </p>
-            )
-          })}
-        </div>
-      </div>
-    </section>
   )
 
   return (
@@ -107,7 +51,8 @@ export function AulasPage() {
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill,minmax(340px,1fr))', gap: '1.25rem' }}>
           {filtradas.map(a => (
-            <button key={a.id} className="aula-card" onClick={() => setAulaId(a.id)}>
+            /* MIGRAÇÃO: navigate para URL real /aulas/:id em vez de setState */
+            <button key={a.id} className="aula-card" onClick={() => navigate(`/aulas/${a.id}`)}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1rem' }}>
                 <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
                   <span className="tag-pill">{THEMES[a.theme]}</span>

@@ -1,17 +1,17 @@
 import { useState, FormEvent } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { useAuthContext } from '@/contexts/AuthContext'
 import { LogoIcon } from '@/components/layout/Navbar'
 
-interface Props { setPage: (p: string) => void }
-
-export function RegisterPage({ setPage }: Props) {
+export function RegisterPage() {
   const { signUpWithEmail } = useAuthContext()
-  const [name, setName] = useState('')
-  const [email, setEmail] = useState('')
+  const navigate = useNavigate()
+  const [name,     setName]     = useState('')
+  const [email,    setEmail]    = useState('')
   const [password, setPassword] = useState('')
-  const [loading, setLoading] = useState(false)
-  const [error, setError] = useState<string | null>(null)
-  const [success, setSuccess] = useState(false)
+  const [loading,  setLoading]  = useState(false)
+  const [error,    setError]    = useState<string | null>(null)
+  const [success,  setSuccess]  = useState(false)
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault()
@@ -28,7 +28,7 @@ export function RegisterPage({ setPage }: Props) {
         <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>✅</div>
         <h2 style={{ fontFamily: 'var(--font-d)', fontSize: '1.4rem', color: 'white', marginBottom: '.5rem' }}>Conta criada!</h2>
         <p style={{ color: 'var(--text-muted)', fontSize: '.88rem', marginBottom: '1.5rem' }}>Verifique seu e-mail antes de entrar.</p>
-        <button className="btn-red" style={{ width: '100%' }} onClick={() => setPage('login')}>Ir para login</button>
+        <button className="btn-red" style={{ width: '100%' }} onClick={() => navigate('/login')}>Ir para login</button>
       </div>
     </div>
   )
@@ -52,7 +52,7 @@ export function RegisterPage({ setPage }: Props) {
         </form>
         <p style={{ textAlign: 'center', fontSize: '.82rem', color: 'var(--text-muted)', marginTop: '1.5rem' }}>
           Já tem conta?{' '}
-          <button onClick={() => setPage('login')} style={{ background: 'none', border: 'none', color: '#E53935', cursor: 'pointer', fontWeight: 600 }}>Entrar</button>
+          <button onClick={() => navigate('/login')} style={{ background: 'none', border: 'none', color: '#E53935', cursor: 'pointer', fontWeight: 600 }}>Entrar</button>
         </p>
       </div>
     </div>

@@ -1,17 +1,13 @@
 import { useState, useEffect, useMemo } from 'react'
 import { useAuthContext } from '@/contexts/AuthContext'
+import { useStudyContext } from '@/contexts/StudyContext'
 import { useTimer } from '@/hooks/useTimer'
 import { MOCK_QUESTIONS } from '@/data/mockData'
 import { THEMES, StudyTheme, Difficulty, Question } from '@/services/supabaseClient'
 
-type HistoricoMap = Record<string, { selecionada: string; acertou: boolean; em: string }>
-
-interface Props {
-  historico: HistoricoMap
-  setHistorico: (fn: (h: HistoricoMap) => HistoricoMap) => void
-}
-
-export function BancoPage({ historico, setHistorico }: Props) {
+export function BancoPage() {
+  // MIGRAÇÃO: historico e setHistorico agora vêm do StudyContext, não de props
+  const { historico, setHistorico } = useStudyContext()
   const { user } = useAuthContext()
   const timer = useTimer()
 
@@ -30,10 +26,10 @@ export function BancoPage({ historico, setHistorico }: Props) {
   }
 
   const filtradas = useMemo(() => MOCK_QUESTIONS.filter(q => {
-    if (filtroRes === 'respondidas'    && !historico[q.id])            return false
-    if (filtroRes === 'nao_respondidas' && historico[q.id])            return false
-    if (filtroRes === 'erradas'        && (!historico[q.id] || historico[q.id].acertou)) return false
-    if (filtroTemas.size > 0  && !filtroTemas.has(q.theme))  return false
+    if (filtroRes === 'respondidas'     && !historico[q.id])                          return false
+    if (filtroRes === 'nao_respondidas' && historico[q.id])                           return false
+    if (filtroRes === 'erradas'         && (!historico[q.id] || historico[q.id].acertou)) return false
+    if (filtroTemas.size > 0  && !filtroTemas.has(q.theme))    return false
     if (filtroNiveis.size > 0 && !filtroNiveis.has(q.difficulty)) return false
     return true
   }), [filtroTemas, filtroNiveis, filtroRes, historico])
@@ -41,8 +37,8 @@ export function BancoPage({ historico, setHistorico }: Props) {
   useEffect(() => { setIdx(0); setFeedback(false); setSel(null) }, [filtroTemas, filtroNiveis, filtroRes])
   useEffect(() => { setSel(null); setFeedback(false) }, [idx])
 
-  const total = filtradas.length
-  const q     = filtradas[idx] ?? null
+  const total    = filtradas.length
+  const q        = filtradas[idx] ?? null
   const acertos  = Object.values(historico).filter(h => h.acertou).length
   const resp     = Object.keys(historico).length
 
@@ -62,13 +58,27 @@ export function BancoPage({ historico, setHistorico }: Props) {
 
   const addComentario = () => {
     if (!comentario.trim()) return
-    setComentarios(prev => [...prev, { id: Date.now().toString(), texto: comentario.trim(), em: new Date().toLocaleString('pt-BR') }])
+    setComentarios(prev => [...prev, {
+      id: Date.now().toString(),
+      texto: comentario.trim(),
+      em: new Date().toLocaleString('pt-BR'),
+    }])
     setComentario('')
   }
+
+  // ─── Sem questões ───────────────────────────────────────────────
+  const renderEmpty = () => (
+    <div style={{ textAlign: 'center', padding: '4rem', background: 'var(--bg-card)', border: '1px solid var(--border)' }}>
+      <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>🔍</div>
+      <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.2rem', color: '#E53935' }}>Nenhuma questão encontrada</div>
+      <p style={{ color: 'var(--text-muted)', fontSize: '.88rem', marginTop: '.5rem' }}>Tente ajustar os filtros.</p>
+    </div>
+  )
 
   return (
     <section style={{ padding: '3rem 2rem', background: '#0D0D0D' }}>
       <div style={{ maxWidth: 1200, margin: '0 auto' }}>
+
         {/* Header */}
         <div style={{ marginBottom: '1.75rem' }}>
           <div className="accent-bar" />
@@ -77,213 +87,190 @@ export function BancoPage({ historico, setHistorico }: Props) {
               <h2 style={{ fontFamily: 'var(--font-d)', fontSize: '2rem', color: 'white', marginBottom: '.35rem' }}>Banco de Questões</h2>
               <p style={{ fontSize: '.88rem', color: 'rgba(240,240,240,.5)' }}>ATLS · TCCC · PHTLS · {MOCK_QUESTIONS.length} questões</p>
             </div>
-            {/* Timer */}
-            <div style={{ display: 'flex', alignItems: 'center', gap: '.75rem' }}>
-              <label style={{ fontSize: '.75rem', color: 'var(--text-muted)', display: 'flex', alignItems: 'center', gap: '.4rem', cursor: 'pointer' }}>
-                <input type="checkbox" checked={timerOn} onChange={e => { setTimerOn(e.target.checked); e.target.checked ? timer.start() : timer.stop() }}
-                  style={{ accentColor: 'var(--red)' }} />
-                Cronômetro
-              </label>
-              {timerOn && (
-                <div style={{ display: 'flex', alignItems: 'center', gap: '.5rem', background: 'rgba(192,57,43,.1)', border: '1px solid var(--border)', padding: '.35rem .75rem' }}>
-                  <span style={{ fontFamily: 'var(--font-d)', fontSize: '1.2rem', color: '#E53935', fontWeight: 700, letterSpacing: '.05em' }}>{timer.formatted}</span>
-                  <button onClick={timer.toggle} style={{ background: 'none', border: 'none', color: '#E53935', cursor: 'pointer', fontSize: '.8rem' }}>{timer.running ? '⏸' : '▶'}</button>
-                  <button onClick={timer.reset} style={{ background: 'none', border: 'none', color: 'var(--text-muted)', cursor: 'pointer', fontSize: '.8rem' }}>↺</button>
-                </div>
-              )}
+
+            {/* Timer toggle */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+              <button
+                className={timerOn ? 'btn-red' : 'btn-ghost'}
+                style={{ fontSize: '.78rem' }}
+                onClick={() => {
+                  if (!timerOn) { timer.reset(); timer.start() }
+                  else timer.stop()
+                  setTimerOn(t => !t)
+                }}
+              >
+                ⏱ {timerOn
+                  ? `${String(Math.floor(timer.seconds / 60)).padStart(2,'0')}:${String(timer.seconds % 60).padStart(2,'0')}`
+                  : 'Cronômetro'}
+              </button>
             </div>
           </div>
         </div>
 
-        {/* Desemp strip */}
-        {resp > 0 && (
-          <div className="desemp-strip">
-            {[
-              { val: acertos,                            lbl: 'Acertos'       },
-              { val: resp - acertos,                     lbl: 'Erros'         },
-              { val: resp,                               lbl: 'Respondidas'   },
-              { val: Math.round(acertos / resp * 100) + '%', lbl: 'Aproveitamento' },
-            ].map((d, i) => (
-              <div key={i} style={{ textAlign: 'center' }}>
-                <div className="desemp-val">{d.val}</div>
-                <div className="desemp-lbl">{d.lbl}</div>
-              </div>
-            ))}
-          </div>
-        )}
-
-        <div className="banco-grid">
-          {/* Filtros */}
-          <aside className="filtros-panel">
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
-              <div className="filtros-title" style={{ margin: 0, padding: 0, border: 'none' }}>Filtros</div>
-              <button className="btn-ghost" style={{ fontSize: '.7rem', padding: '.3rem .7rem' }}
-                onClick={() => { setFiltroTemas(new Set()); setFiltroNiveis(new Set()); setFiltroRes('todas') }}>
-                Limpar
-              </button>
+        {/* Stats rápidas */}
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: '1rem', marginBottom: '1.5rem' }}>
+          {[
+            { lbl: 'Total', val: MOCK_QUESTIONS.length, col: '#E53935' },
+            { lbl: 'Respondidas', val: resp, col: 'var(--text)' },
+            { lbl: 'Acertos', val: acertos, col: '#4ade80' },
+            { lbl: 'Aproveit.', val: resp > 0 ? Math.round(acertos / resp * 100) + '%' : '—', col: acertos / resp > .7 ? '#4ade80' : '#f87171' },
+          ].map((s, i) => (
+            <div key={i} className="dash-card" style={{ textAlign: 'center' }}>
+              <div style={{ fontSize: '.65rem', textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--text-muted)', marginBottom: '.25rem' }}>{s.lbl}</div>
+              <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.6rem', fontWeight: 700, color: s.col }}>{s.val}</div>
             </div>
+          ))}
+        </div>
 
-            <div className="filtro-label">Status</div>
-            {[
-              { val: 'todas',          lbl: '📋 Todas',           count: MOCK_QUESTIONS.length },
-              { val: 'nao_respondidas',lbl: '🆕 Não respondidas', count: MOCK_QUESTIONS.length - Object.keys(historico).length },
-              { val: 'respondidas',    lbl: '✓ Respondidas',      count: Object.keys(historico).length },
-              { val: 'erradas',        lbl: '❌ Erradas',          count: Object.values(historico).filter(h => !h.acertou).length },
-            ].map(({ val, lbl, count }) => (
-              <button key={val} onClick={() => setFiltroRes(val)}
-                style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '.5rem .75rem', marginBottom: '.35rem', border: '1px solid', borderColor: filtroRes === val ? 'var(--red)' : 'var(--border)', background: filtroRes === val ? 'var(--red)' : 'transparent', cursor: 'pointer', fontSize: '.82rem', color: 'var(--text)' }}>
-                <span>{lbl}</span>
-                <span className="count-badge" style={filtroRes === val ? { background: 'rgba(255,255,255,.2)', color: 'white' } : {}}>{count}</span>
-              </button>
-            ))}
+        <div style={{ display: 'grid', gridTemplateColumns: '280px 1fr', gap: '1.5rem', alignItems: 'start' }}>
 
-            <div className="filtro-label">Temas</div>
-            {(Object.entries(THEMES) as [StudyTheme, string][]).map(([k, v]) => (
-              <button key={k} className={`tema-btn ${filtroTemas.has(k) ? 'active' : ''}`}
-                onClick={() => setFiltroTemas(s => toggleSet(s, k))}>
-                <span style={{ fontSize: '.8rem' }}>{v}</span>
-                <span className="count-badge">{MOCK_QUESTIONS.filter(q => q.theme === k).length}</span>
-              </button>
-            ))}
+          {/* ── Filtros ── */}
+          <aside className="card-dark" style={{ padding: '1.5rem', position: 'sticky', top: '1rem' }}>
+            <div style={{ fontSize: '.7rem', textTransform: 'uppercase', letterSpacing: '.12em', color: 'var(--text-muted)', fontWeight: 700, marginBottom: '1rem' }}>Filtros</div>
 
-            <div className="filtro-label">Dificuldade</div>
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4 }}>
-              {[{ val: 'facil', lbl: 'Fácil' }, { val: 'medio', lbl: 'Médio' }, { val: 'dificil', lbl: 'Difícil' }].map(({ val, lbl }) => (
-                <button key={val}
-                  className={`nivel-chip ${filtroNiveis.has(val) ? 'active-' + val[0] : ''}`}
-                  onClick={() => setFiltroNiveis(s => toggleSet(s, val))}>
+            {/* Status */}
+            <div style={{ marginBottom: '1.25rem' }}>
+              <div style={{ fontSize: '.68rem', color: 'var(--text-dim)', marginBottom: '.5rem', textTransform: 'uppercase', letterSpacing: '.1em' }}>Status</div>
+              {[
+                ['todas',           'Todas'],
+                ['respondidas',     'Respondidas'],
+                ['nao_respondidas', 'Não respondidas'],
+                ['erradas',         'Erradas'],
+              ].map(([val, lbl]) => (
+                <button key={val} onClick={() => setFiltroRes(val)}
+                  style={{ display: 'block', width: '100%', textAlign: 'left', padding: '.45rem .7rem', marginBottom: 2, background: filtroRes === val ? 'rgba(192,57,43,.2)' : 'transparent', border: filtroRes === val ? '1px solid rgba(192,57,43,.4)' : '1px solid transparent', color: filtroRes === val ? '#E53935' : 'var(--text-muted)', fontSize: '.82rem', cursor: 'pointer', transition: 'all .15s' }}>
                   {lbl}
                 </button>
               ))}
             </div>
 
-            <div className="filtro-label">Navegação ({total})</div>
-            <div className="q-grid-container">
-              {filtradas.map((q, i) => {
-                const h = historico[q.id]
-                let cls = 'q-nav-dot'
-                if (i === idx) cls += ' current'
-                else if (h) cls += h.acertou ? ' answered-correct' : ' answered-wrong'
-                return (
-                  <button key={q.id} className={cls} title={`Q${i + 1}`} onClick={() => setIdx(i)}>{i + 1}</button>
-                )
-              })}
-              {total === 0 && <span style={{ fontSize: '.75rem', color: 'var(--text-dim)' }}>Nenhuma</span>}
+            {/* Dificuldade */}
+            <div style={{ marginBottom: '1.25rem' }}>
+              <div style={{ fontSize: '.68rem', color: 'var(--text-dim)', marginBottom: '.5rem', textTransform: 'uppercase', letterSpacing: '.1em' }}>Dificuldade</div>
+              {(['facil','medio','dificil'] as Difficulty[]).map(n => (
+                <label key={n} style={{ display: 'flex', alignItems: 'center', gap: '.5rem', padding: '.4rem 0', cursor: 'pointer', fontSize: '.82rem', color: filtroNiveis.has(n) ? '#E53935' : 'var(--text-muted)' }}>
+                  <input type="checkbox" checked={filtroNiveis.has(n)} onChange={() => setFiltroNiveis(s => toggleSet(s, n))} style={{ accentColor: '#E53935' }} />
+                  {n.charAt(0).toUpperCase() + n.slice(1)}
+                </label>
+              ))}
+            </div>
+
+            {/* Temas */}
+            <div>
+              <div style={{ fontSize: '.68rem', color: 'var(--text-dim)', marginBottom: '.5rem', textTransform: 'uppercase', letterSpacing: '.1em' }}>Tema</div>
+              {(Object.entries(THEMES) as [StudyTheme, string][]).map(([k, v]) => (
+                <label key={k} style={{ display: 'flex', alignItems: 'flex-start', gap: '.5rem', padding: '.3rem 0', cursor: 'pointer', fontSize: '.75rem', color: filtroTemas.has(k) ? '#E53935' : 'var(--text-muted)', lineHeight: 1.4 }}>
+                  <input type="checkbox" checked={filtroTemas.has(k)} onChange={() => setFiltroTemas(s => toggleSet(s, k))} style={{ accentColor: '#E53935', flexShrink: 0, marginTop: 2 }} />
+                  {v}
+                </label>
+              ))}
             </div>
           </aside>
 
-          {/* Questão */}
+          {/* ── Questão ── */}
           <div>
-            {!q ? (
-              <div className="questao-card" style={{ textAlign: 'center', padding: '4rem' }}>
-                <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>🔍</div>
-                <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.2rem', color: '#E53935' }}>Nenhuma questão encontrada</div>
-                <p style={{ color: 'var(--text-muted)', fontSize: '.88rem', marginTop: '.5rem' }}>Ajuste os filtros.</p>
-              </div>
-            ) : (
+            {!q ? renderEmpty() : (
               <>
-                <div className="questao-card">
-                  <div className="progress-track">
-                    <div className="progress-fill" style={{ width: `${((idx + 1) / total) * 100}%` }} />
+                {/* Navegação */}
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', flexWrap: 'wrap', gap: '.5rem' }}>
+                  <span style={{ fontSize: '.8rem', color: 'var(--text-muted)' }}>
+                    {idx + 1} / {total}
+                  </span>
+                  <div style={{ display: 'flex', gap: '.5rem' }}>
+                    <button className="btn-ghost" style={{ fontSize: '.78rem' }} disabled={idx === 0} onClick={() => setIdx(i => i - 1)}>← Anterior</button>
+                    <button className="btn-ghost" style={{ fontSize: '.78rem' }} disabled={idx >= total - 1} onClick={() => setIdx(i => i + 1)}>Próxima →</button>
                   </div>
+                </div>
 
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', flexWrap: 'wrap', gap: 8 }}>
-                    <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
-                      <span className="tag-pill">{THEMES[q.theme]}</span>
-                      <span className={`tag-pill ${q.difficulty === 'facil' ? 'tag-green' : ''}`}>
-                        {q.difficulty === 'facil' ? 'Fácil' : q.difficulty === 'medio' ? 'Médio' : 'Difícil'}
+                <div className="card-dark" style={{ padding: '2rem', marginBottom: '1rem' }}>
+                  {/* Badges */}
+                  <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', marginBottom: '1.25rem' }}>
+                    <span className="tag-pill">{THEMES[q.theme]}</span>
+                    <span className="tag-pill" style={{ textTransform: 'capitalize' }}>{q.difficulty}</span>
+                    {historico[q.id] && (
+                      <span className="tag-pill" style={{ background: historico[q.id].acertou ? 'rgba(47,122,63,.2)' : 'rgba(178,59,59,.2)', color: historico[q.id].acertou ? '#4ade80' : '#f87171' }}>
+                        {historico[q.id].acertou ? '✓ Acertou' : '✗ Errou'}
                       </span>
-                    </div>
-                    <span style={{ fontSize: '.78rem', color: 'var(--text-muted)' }}>Q {idx + 1}/{total}</span>
+                    )}
                   </div>
 
-                  <p className="enunciado">{q.statement}</p>
+                  <p style={{ fontSize: '1rem', color: 'var(--text)', lineHeight: 1.75, marginBottom: '1.5rem' }}>
+                    {q.statement}
+                  </p>
 
-                  <div>
+                  {/* Alternativas */}
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '.6rem' }}>
                     {q.alternatives.map(alt => {
-                      let cls = 'alt-btn'
-                      if (feedback) {
-                        if (alt.key === q.correct_key) cls += ' correct'
-                        else if (alt.key === sel && alt.key !== q.correct_key) cls += ' wrong'
-                      } else if (sel === alt.key) cls += ' selected-pending'
+                      const isSelected = sel === alt.key
+                      const isCorrect  = feedback && alt.key === q.correct_key
+                      const isWrong    = feedback && isSelected && alt.key !== q.correct_key
                       return (
-                        <button key={alt.key} className={cls} onClick={() => !feedback && setSel(alt.key)} disabled={feedback}>
-                          <span className="alt-letter">{alt.key}</span>
-                          <span>{alt.text}</span>
-                          {feedback && alt.key === q.correct_key && <span style={{ marginLeft: 'auto', fontSize: '.85rem' }}>✓</span>}
-                          {feedback && alt.key === sel && alt.key !== q.correct_key && <span style={{ marginLeft: 'auto', fontSize: '.85rem' }}>✗</span>}
+                        <button key={alt.key} onClick={() => !feedback && setSel(alt.key)}
+                          style={{
+                            display: 'flex', alignItems: 'flex-start', gap: '1rem', padding: '1rem 1.25rem',
+                            border: `1px solid ${isCorrect ? '#2f7a3f' : isWrong ? '#b23b3b' : isSelected ? 'rgba(192,57,43,.6)' : 'var(--border)'}`,
+                            background: isCorrect ? 'rgba(47,122,63,.1)' : isWrong ? 'rgba(178,59,59,.1)' : isSelected ? 'rgba(192,57,43,.1)' : 'transparent',
+                            cursor: feedback ? 'default' : 'pointer', textAlign: 'left', width: '100%', transition: 'all .15s',
+                          }}>
+                          <span style={{ fontFamily: 'var(--font-d)', color: isCorrect ? '#4ade80' : isWrong ? '#f87171' : isSelected ? '#E53935' : 'var(--text-dim)', fontWeight: 700, fontSize: '1rem', flexShrink: 0, minWidth: 20 }}>
+                            {alt.key}
+                          </span>
+                          <span style={{ fontSize: '.9rem', color: 'var(--text)', lineHeight: 1.55 }}>{alt.text}</span>
                         </button>
                       )
                     })}
                   </div>
 
-                  {sel && !feedback && (
-                    <div style={{ marginTop: '1rem' }}>
-                      <button onClick={confirmar} className="btn-red" style={{ width: '100%', fontWeight: 700 }}>
+                  {/* Ação */}
+                  <div style={{ marginTop: '1.25rem' }}>
+                    {!feedback ? (
+                      <button className="btn-red" style={{ width: '100%' }} disabled={!sel} onClick={confirmar}>
                         Confirmar resposta
                       </button>
-                    </div>
-                  )}
-
-                  {feedback && (
-                    <div style={{ marginTop: '.75rem', display: 'flex', alignItems: 'center', gap: 10, padding: '.6rem .9rem', background: historico[q.id]?.acertou ? 'rgba(47,122,63,.15)' : 'rgba(178,59,59,.15)', border: `1px solid ${historico[q.id]?.acertou ? '#2f7a3f' : '#b23b3b'}` }}>
-                      {historico[q.id]?.acertou
-                        ? <span style={{ fontSize: '.9rem', color: '#4ade80', fontWeight: 700 }}>✓ Correto!</span>
-                        : <span style={{ fontSize: '.9rem', color: '#f87171', fontWeight: 700 }}>✗ Incorreto</span>
-                      }
-                    </div>
-                  )}
-
-                  {feedback && q.explanation && (
-                    <div className="explicacao-box" style={{ marginTop: '1rem' }}>
-                      <div className="explicacao-label">📋 Comentário</div>
-                      <p style={{ fontSize: '.88rem', color: 'var(--text)', lineHeight: 1.75 }}>{q.explanation}</p>
-                    </div>
-                  )}
-
-                  <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '1.5rem', paddingTop: '1.25rem', borderTop: '1px solid var(--border)', gap: 8 }}>
-                    <button className="btn-ghost" onClick={() => setIdx(i => Math.max(0, i - 1))} disabled={idx === 0} style={{ opacity: idx === 0 ? .35 : 1 }}>
-                      ← Anterior
-                    </button>
-                    <button className="btn-red" onClick={() => setIdx(i => Math.min(total - 1, i + 1))} disabled={idx === total - 1} style={{ opacity: idx === total - 1 ? .35 : 1 }}>
-                      Próxima →
-                    </button>
+                    ) : (
+                      <div>
+                        <div style={{ padding: '1rem 1.25rem', background: 'rgba(192,57,43,.08)', border: '1px solid rgba(192,57,43,.25)', marginBottom: '1rem' }}>
+                          <div style={{ fontSize: '.7rem', textTransform: 'uppercase', letterSpacing: '.1em', color: '#E53935', marginBottom: '.5rem', fontWeight: 700 }}>Explicação</div>
+                          <p style={{ fontSize: '.88rem', color: 'var(--text)', lineHeight: 1.7 }}>{q.explanation}</p>
+                        </div>
+                        <button className="btn-ghost" style={{ width: '100%' }} onClick={() => setIdx(i => Math.min(i + 1, total - 1))}>
+                          Próxima questão →
+                        </button>
+                      </div>
+                    )}
                   </div>
                 </div>
 
-                {/* Comentários */}
-                <div className="card-dark" style={{ padding: '1.5rem', marginTop: '1rem' }}>
-                  <div style={{ fontFamily: 'var(--font-d)', fontSize: '1rem', color: '#E53935', marginBottom: '1rem', fontWeight: 600 }}>
+                {/* ── Comentários ── */}
+                <div className="card-dark" style={{ padding: '1.5rem' }}>
+                  <div style={{ fontSize: '.78rem', textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--text-muted)', fontWeight: 700, marginBottom: '1rem' }}>
                     Comentários ({comentarios.length})
                   </div>
-
                   {comentarios.length === 0 && (
-                    <p style={{ fontSize: '.82rem', color: 'var(--text-dim)', marginBottom: '1rem' }}>Nenhum comentário ainda. Seja o primeiro!</p>
+                    <p style={{ fontSize: '.82rem', color: 'var(--text-dim)', marginBottom: '1rem' }}>Nenhum comentário. Seja o primeiro!</p>
                   )}
-
                   {comentarios.map(c => (
-                    <div key={c.id} style={{ padding: '.6rem 0', borderBottom: '1px solid rgba(192,57,43,.1)' }}>
-                      <div style={{ fontSize: '.75rem', color: 'var(--text-dim)', marginBottom: '.25rem' }}>{c.em}</div>
+                    <div key={c.id} style={{ padding: '.75rem', background: 'rgba(192,57,43,.06)', border: '1px solid var(--border)', marginBottom: '.5rem' }}>
                       <p style={{ fontSize: '.85rem', color: 'var(--text)', lineHeight: 1.6 }}>{c.texto}</p>
+                      <p style={{ fontSize: '.7rem', color: 'var(--text-dim)', marginTop: '.3rem' }}>{c.em}</p>
                     </div>
                   ))}
-
                   {user ? (
                     <div style={{ display: 'flex', gap: '.5rem', marginTop: '1rem' }}>
                       <input
                         value={comentario}
                         onChange={e => setComentario(e.target.value)}
+                        placeholder="Adicionar comentário..."
                         onKeyDown={e => e.key === 'Enter' && addComentario()}
-                        placeholder="Escreva um comentário..."
-                        style={{ flex: 1, padding: '.6rem .85rem', border: '1px solid var(--border)', background: 'var(--bg-surface)', color: 'var(--text)', fontFamily: 'var(--font-s)', fontSize: '.85rem', outline: 'none' }}
+                        style={{ flex: 1, padding: '.6rem .9rem', border: '1px solid var(--border)', background: 'var(--bg-surface)', color: 'var(--text)', fontFamily: 'var(--font-s)', fontSize: '.88rem', outline: 'none' }}
                       />
-                      <button onClick={addComentario} disabled={!comentario.trim()} className="btn-red" style={{ padding: '.6rem 1rem' }}>
+                      <button className="btn-red" style={{ padding: '.6rem 1rem', fontSize: '.82rem' }} onClick={addComentario}>
                         Enviar
                       </button>
                     </div>
                   ) : (
-                    <p style={{ fontSize: '.8rem', color: 'var(--text-dim)', marginTop: '.75rem' }}>
-                      Entre para comentar.
+                    <p style={{ fontSize: '.78rem', color: 'var(--text-dim)', marginTop: '1rem' }}>
+                      Faça login para comentar.
                     </p>
                   )}
                 </div>
