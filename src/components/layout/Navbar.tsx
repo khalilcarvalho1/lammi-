@@ -9,17 +9,18 @@ interface NavbarProps {
 }
 
 const NAV_ITEMS = [
-  { path: '/',           label: 'Início'     },
-  { path: '/banco',      label: 'Banco'      },
-  { path: '/flashcards', label: 'Flashcards' },
-  { path: '/simulado',   label: 'Simulado'   },
-  { path: '/aulas',      label: 'Aulas'      },
-  { path: '/casos',      label: 'Casos'      },
-  { path: '/diretrizes', label: 'Diretrizes' },
-  { path: '/ranking',    label: 'Ranking'    },
-  { path: '/dashboard',  label: 'Dashboard'  },
-  { path: '/sobre',      label: 'Sobre'      },
+  { id: 'home',       label: 'Início'     },
+  { id: 'banco',      label: 'Banco'      },
+  { id: 'flashcards', label: 'Cards'      },
+  { id: 'simulado',   label: 'Simulado'   },
+  { id: 'aulas',      label: 'Aulas'      },
+  { id: 'casos',      label: 'Casos'      },
+  { id: 'diretrizes', label: 'Diretrizes' },
+  { id: 'ranking',    label: 'Ranking'    },
+  { id: 'dashboard',  label: 'Stats'      },
+  { id: 'sobre',      label: 'Sobre'      },
 ]
+ 
 
 export function Navbar({ darkMode, setDarkMode }: NavbarProps) {
   const [menuOpen, setMenuOpen] = useState(false)
