@@ -19,6 +19,18 @@ export function BancoPage() {
   const { historico, setHistorico } = useStudyContext()
   const timer = useTimer()
 
+  // Marcadas para revisão — persistidas em localStorage
+  const [marcadas, setMarcadas] = useState<Set<string>>(() => {
+    try { return new Set(JSON.parse(localStorage.getItem('lammi_marcadas') || '[]')) }
+    catch { return new Set() }
+  })
+  useEffect(() => {
+    localStorage.setItem('lammi_marcadas', JSON.stringify([...marcadas]))
+  }, [marcadas])
+  const toggleMarcada = (id: string) => {
+    setMarcadas(prev => { const n = new Set(prev); n.has(id) ? n.delete(id) : n.add(id); return n })
+  }
+
   // ─── Filtros ───────────────────────────────────────────────
   const [filtroTemas,  setFiltroTemas]  = useState<Set<StudyTheme>>(new Set())
   const [filtroNiveis, setFiltroNiveis] = useState<Set<string>>(new Set())
@@ -40,10 +52,11 @@ export function BancoPage() {
     if (filtroRes === 'respondidas'     && !historico[q.id])                              return false
     if (filtroRes === 'nao_respondidas' && historico[q.id])                               return false
     if (filtroRes === 'erradas'         && (!historico[q.id] || historico[q.id].acertou)) return false
-    if (filtroTemas.size > 0  && !filtroTemas.has(q.theme))     return false
+    if (filtroRes === 'marcadas'        && !marcadas.has(q.id))                           return false
+    if (filtroTemas.size > 0  && !filtroTemas.has(q.theme))       return false
     if (filtroNiveis.size > 0 && !filtroNiveis.has(q.difficulty)) return false
     return true
-  }), [filtroTemas, filtroNiveis, filtroRes, historico])
+  }), [filtroTemas, filtroNiveis, filtroRes, historico, marcadas])
 
   useEffect(() => { setIdx(0); setFeedback(false); setSel(null) }, [filtroTemas, filtroNiveis, filtroRes])
   useEffect(() => { setSel(null); setFeedback(false); setComentarios([]) }, [idx])
@@ -171,6 +184,7 @@ export function BancoPage() {
                 ['respondidas',     'Respondidas'],
                 ['nao_respondidas', 'Não respondidas'],
                 ['erradas',         'Erradas'],
+                ['marcadas',        `🔖 Marcadas (${marcadas.size})`],
               ].map(([val, lbl]) => (
                 <button key={val} onClick={() => setFiltroRes(val)}
                   style={{ display: 'block', width: '100%', textAlign: 'left', padding: '.45rem .7rem', marginBottom: 2, background: filtroRes === val ? 'rgba(192,57,43,.2)' : 'transparent', border: filtroRes === val ? '1px solid rgba(192,57,43,.4)' : '1px solid transparent', color: filtroRes === val ? '#E53935' : 'var(--text-muted)', fontSize: '.82rem', cursor: 'pointer', transition: 'all .15s' }}>
@@ -221,6 +235,10 @@ export function BancoPage() {
                         {historico[q.id].acertou ? '✓ Acertou' : '✗ Errou'}
                       </span>
                     )}
+                    <button onClick={() => toggleMarcada(q.id)}
+                      style={{ background: marcadas.has(q.id) ? 'rgba(192,57,43,.2)' : 'transparent', border: `1px solid ${marcadas.has(q.id) ? '#E53935' : 'var(--border)'}`, color: marcadas.has(q.id) ? '#E53935' : 'var(--text-dim)', padding: '2px 10px', borderRadius: 999, fontSize: '.7rem', cursor: 'pointer', transition: 'all .15s' }}>
+                      🔖 {marcadas.has(q.id) ? 'Marcada' : 'Marcar'}
+                    </button>
                     {!user && (
                       <span className="tag-pill" style={{ background: 'rgba(192,57,43,.1)', color: 'var(--text-dim)' }}>
                         Sem login — progresso local
