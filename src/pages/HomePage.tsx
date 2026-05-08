@@ -28,7 +28,7 @@ export function HomePage() {
         <div className="noise" />
         <MilDecor />
         <div style={{ maxWidth: 1200, margin: '0 auto', padding: '5rem 2rem 4rem', position: 'relative' }}>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'center' }} className="hero-grid">
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '3rem', alignItems: 'center' }} className="hero-grid">
             <div className="fade-up">
               <div className="ornament" style={{ maxWidth: 300, marginBottom: '1.75rem' }}>Irecê · Bahia · 2024</div>
               <h1 style={{ fontFamily: 'var(--font-d)', fontSize: 'clamp(2.4rem,5vw,4rem)', color: 'white', lineHeight: 1.08, fontWeight: 700, marginBottom: '1.25rem' }}>
@@ -87,7 +87,7 @@ export function HomePage() {
           <h2 style={{ fontFamily: 'var(--font-d)', fontSize: 'clamp(1.8rem,3vw,2.6rem)', textAlign: 'center', color: 'white', marginBottom: '3rem' }}>
             Tudo para dominar a <span style={{ color: '#E53935' }}>Medicina Militar</span>
           </h2>
-          <div className="features-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: '1.25rem' }}>
+          <div className="features-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1.25rem' }}>
             {FEATURES.map((f, i) => (
               <div className="feature-card" key={i}>
                 <div className="feature-icon">{f.icon}</div>

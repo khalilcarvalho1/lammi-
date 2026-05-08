@@ -346,3 +346,18 @@ body {
   .features-grid { grid-template-columns: 1fr !important; }
   .srs-respostas { grid-template-columns: repeat(2,1fr) !important; }
 }
+
+/* ── Responsividade mobile ── */
+@media (max-width: 768px) {
+  .nav-desktop { display: none !important; }
+  .nav-burger  { display: flex !important; }
+  .hero-grid   { grid-template-columns: 1fr !important; gap: 2rem !important; }
+  .features-grid { grid-template-columns: 1fr !important; }
+  .banco-grid  { grid-template-columns: 1fr !important; }
+  .nav-inner   { padding: 0 1rem !important; gap: .75rem !important; }
+  section { padding-left: 1rem !important; padding-right: 1rem !important; }
+}
+@media (min-width: 769px) {
+  .nav-burger        { display: none !important; }
+  .nav-mobile-drawer { display: none !important; }
+}

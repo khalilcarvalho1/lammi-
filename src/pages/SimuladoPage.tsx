@@ -25,7 +25,7 @@ export function SimuladoPage() {
   const [res,       setRes]       = useState<Resultado[]>([])
   const [idx,       setIdx]       = useState(0)
   const [sel,       setSel]       = useState<string | null>(null)
-  const [detalhe,   setDetalhe]   = useState<Resultado | null>(null)
+
   const [salvando,  setSalvando]  = useState(false)
   const [savedId,   setSavedId]   = useState<string | null>(null)
   const [startedAt, setStartedAt] = useState('')
@@ -265,32 +265,7 @@ export function SimuladoPage() {
   return (
     <section style={{ padding: '4rem 2rem', background: '#0D0D0D' }}>
       <div style={{ maxWidth: 860, margin: '0 auto' }}>
-        {detalhe ? (
-          <div className="card-dark" style={{ padding: '2rem' }}>
-            <button className="btn-ghost" style={{ marginBottom: '1.5rem' }} onClick={() => setDetalhe(null)}>← Voltar</button>
-            <p className="enunciado">{detalhe.question.statement}</p>
-            {detalhe.question.alternatives.map(alt => {
-              const isCorr = alt.key === detalhe.question.correct_key
-              const isEsc  = alt.key === detalhe.escolha
-              let cls = 'alt-btn'
-              if (isCorr) cls += ' correct'
-              else if (isEsc) cls += ' wrong'
-              return (
-                <div key={alt.key} className={cls} style={{ cursor: 'default' }}>
-                  <span className="alt-letter">{alt.key}</span>
-                  <span>{alt.text}</span>
-                </div>
-              )
-            })}
-            {detalhe.question.explanation && (
-              <div className="explicacao-box">
-                <div className="explicacao-label">Comentário</div>
-                <p style={{ fontSize: '.88rem', color: 'var(--text)', lineHeight: 1.75 }}>{detalhe.question.explanation}</p>
-              </div>
-            )}
-          </div>
-        ) : (
-          <>
+        <>
             <div className="bg-mil" style={{ padding: '3rem', textAlign: 'center', position: 'relative', overflow: 'hidden', marginBottom: '1.5rem' }}>
               <div className="noise" />
               <div style={{ position: 'relative' }}>
@@ -342,8 +317,8 @@ export function SimuladoPage() {
             <div className="card-dark" style={{ padding: '1.75rem', marginBottom: '1.5rem' }}>
               <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.1rem', color: '#E53935', marginBottom: '1.25rem', fontWeight: 600 }}>Revisão</div>
               {res.map((r, i) => (
-                <div key={i} onClick={() => setDetalhe(r)}
-                  style={{ display: 'flex', alignItems: 'flex-start', gap: '.75rem', padding: '.75rem 0', borderBottom: '1px solid rgba(192,57,43,.1)', cursor: 'pointer' }}>
+                <div key={i}
+                  style={{ display: 'flex', alignItems: 'flex-start', gap: '.75rem', padding: '.75rem 0', borderBottom: '1px solid rgba(192,57,43,.1)' }}>
                   <div style={{ width: 26, height: 26, borderRadius: '50%', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '.78rem', fontWeight: 700, background: r.acertou ? '#2f7a3f' : '#b23b3b', color: 'white' }}>
                     {r.acertou ? '✓' : '✗'}
                   </div>
@@ -351,7 +326,7 @@ export function SimuladoPage() {
                     <p style={{ fontSize: '.85rem', color: 'var(--text)', lineHeight: 1.5, display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{r.question.statement}</p>
                     <p style={{ fontSize: '.72rem', color: 'var(--text-dim)', marginTop: '.2rem' }}>Sua: {r.escolha ?? '—'} · Correta: {r.question.correct_key}</p>
                   </div>
-                  <span style={{ color: '#E53935', fontSize: '.8rem', flexShrink: 0 }}>ver →</span>
+
                 </div>
               ))}
             </div>
@@ -367,7 +342,6 @@ export function SimuladoPage() {
               )}
             </div>
           </>
-        )}
       </div>
     </section>
   )

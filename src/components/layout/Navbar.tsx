@@ -83,7 +83,7 @@ export function Navbar({ darkMode, setDarkMode }: NavbarProps) {
         {/* Auth button */}
         {user ? (
           <div style={{ display: 'flex', alignItems: 'center', gap: '.5rem' }}>
-            <span style={{ fontSize: '.8rem', color: 'var(--text-muted)' }}>{profile?.display_name?.split(' ')[0]}</span>
+            <span style={{ fontSize: '.8rem', color: 'var(--text-muted)' }}>{typeof profile?.display_name === 'string' ? profile.display_name.split(' ')[0] : ''}</span>
             <button className="btn-ghost" style={{ fontSize: '.75rem', padding: '.35rem .7rem' }} onClick={() => signOut()}>Sair</button>
           </div>
         ) : (

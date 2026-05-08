@@ -157,7 +157,7 @@ export function BancoPage() {
         </div>
 
         {/* Stats */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: '1rem', marginBottom: '1.5rem' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(120px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
           {[
             { lbl: 'Total',       val: MOCK_QUESTIONS.length, col: '#E53935' },
             { lbl: 'Respondidas', val: resp,                  col: 'var(--text)' },
@@ -171,7 +171,7 @@ export function BancoPage() {
           ))}
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: '280px 1fr', gap: '1.5rem', alignItems: 'start' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.5rem', alignItems: 'start' }}>
 
           {/* ── Filtros ── */}
           <aside className="card-dark" style={{ padding: '1.5rem', position: 'sticky', top: '1rem' }}>

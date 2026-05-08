@@ -147,7 +147,7 @@ export function FlashcardsPage() {
         </div>
 
         {/* Stats */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: '1rem', marginBottom: '2rem' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(120px, 1fr))', gap: '1rem', marginBottom: '2rem' }}>
           {[
             { lbl: 'Para hoje', val: due.length,  col: '#E53935' },
             { lbl: 'Novos',     val: novos,        col: 'var(--text)' },

@@ -66,8 +66,10 @@ export function DashboardPage() {
     studyLogService.getStreak(user.id).then(s => setStreakReal(s))
   }, [user])
 
-  const heatmap = heatmapData.length > 0 ? heatmapData.map(d => d.date) : MOCK_STUDY_HEATMAP
-  const streak  = streakReal !== null ? streakReal : computeStreak(heatmap)
+  // heatmapObjects is always {date, count}[] — used for <Heatmap> component
+  const heatmapObjects = heatmapData.length > 0 ? heatmapData : MOCK_STUDY_HEATMAP
+  // streak uses date strings — computeStreak accepts string[]
+  const streak = streakReal !== null ? streakReal : computeStreak(heatmapObjects.map(d => d.date))
 
   const porTema = useMemo(() => {
     const r: Record<string, { total: number; acertos: number; totalTema: number; pct: number }> = {}
@@ -171,7 +173,7 @@ export function DashboardPage() {
               </div>
             ) : (
               <>
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: '1rem', marginBottom: '1.5rem' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
                   {[
                     { lbl: 'Respondidas', val: respondidas,           color: '#E53935' },
                     { lbl: 'Acertos',     val: acertos,               color: '#4ade80' },
@@ -185,7 +187,7 @@ export function DashboardPage() {
                   ))}
                 </div>
 
-                <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr', gap: '1rem', marginBottom: '1.5rem' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
                   <div className="dash-card" style={{ textAlign: 'center', padding: '2rem' }}>
                     <div style={{ fontSize: '.75rem', textTransform: 'uppercase', letterSpacing: '.15em', color: 'var(--text-muted)', marginBottom: '.5rem' }}>Aproveitamento Geral</div>
                     <div style={{ fontFamily: 'var(--font-d)', fontSize: '4.5rem', fontWeight: 700, lineHeight: 1, color: pct >= 70 ? '#4ade80' : '#f87171' }}>{pct}%</div>
@@ -202,7 +204,7 @@ export function DashboardPage() {
 
                 <div className="dash-card" style={{ marginBottom: '1.5rem' }}>
                   <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.1rem', color: '#E53935', marginBottom: '1.25rem', fontWeight: 600 }}>Atividade de Estudo</div>
-                  <Heatmap data={heatmap} weeks={52} />
+                  <Heatmap data={heatmapObjects} weeks={52} />
                 </div>
 
                 <div className="dash-card">
