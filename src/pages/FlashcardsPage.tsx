@@ -1,36 +1,77 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { MOCK_FLASHCARDS } from '@/data/mockData'
 import { THEMES, StudyTheme } from '@/services/supabaseClient'
-import { calculateSM2, initSRSCard, isDue, SRSQuality } from '@/hooks/useSRS'
+import { calculateSM2, initSRSCard, isDue, SRSQuality, SRSCard } from '@/hooks/useSRS'
 import { useStudyContext } from '@/contexts/StudyContext'
+import { useAuthContext } from '@/contexts/AuthContext'
+import { flashcardsService } from '@/services/flashcardsService'
+import { studyLogService } from '@/services/studyLogService'
 
 export function FlashcardsPage() {
-  // MIGRAÇÃO: srsData e setSrsData agora vêm do StudyContext, não de props
   const { srsData, setSrsData } = useStudyContext()
+  const { user } = useAuthContext()
 
   const [filtroTema, setFiltroTema] = useState<StudyTheme | ''>('')
   const [flipped,    setFlipped]    = useState(false)
   const [idx,        setIdx]        = useState(0)
   const [done,       setDone]       = useState<string[]>([])
   const [summary,    setSummary]    = useState(false)
+  // true enquanto carrega estado SRS do Supabase na inicialização
+  const [syncing,    setSyncing]    = useState(false)
+
+  // ─── Sincroniza estado SRS do Supabase na montagem ────────
+  // Se logado, puxa os estados do servidor e mescla com localStorage
+  useEffect(() => {
+    if (!user) return
+    setSyncing(true)
+    flashcardsService.getUserSRSStates(user.id).then(({ data }) => {
+      if (data && data.length > 0) {
+        setSrsData(local => {
+          const merged: Record<string, SRSCard> = { ...local }
+          data.forEach((row: any) => {
+            // Supabase ganha se a due_date for mais recente
+            const localCard = local[row.flashcard_id]
+            if (!localCard || row.due_date >= localCard.due_date) {
+              merged[row.flashcard_id] = {
+                ease_factor: row.ease_factor,
+                interval:    row.interval,
+                repetitions: row.repetitions,
+                due_date:    row.due_date,
+              }
+            }
+          })
+          return merged
+        })
+      }
+      setSyncing(false)
+    })
+  }, [user])
 
   const todos = MOCK_FLASHCARDS.filter(f => !filtroTema || f.theme === filtroTema)
-  const due   = todos.filter(f => {
-    const s = srsData[f.id]
-    return !s || isDue(s)
-  })
+  const due   = todos.filter(f => { const s = srsData[f.id]; return !s || isDue(s) })
 
   useEffect(() => { setIdx(0); setDone([]); setSummary(false); setFlipped(false) }, [filtroTema])
 
   const current = due[idx] ?? null
 
-  const responder = (q: SRSQuality) => {
+  const responder = async (q: SRSQuality) => {
     if (!current) return
+
     const prev = srsData[current.id] ?? initSRSCard()
     const next = calculateSM2(prev, q)
+
+    // 1. Atualiza local imediatamente (não espera Supabase)
     setSrsData(s => ({ ...s, [current.id]: next }))
     setDone(d => [...d, current.id])
     setFlipped(false)
+
+    // 2. Sincroniza com Supabase em background
+    if (user) {
+      flashcardsService.upsertSRSState(user.id, current.id, next)
+      studyLogService.log(user.id, 'flashcard', 1, current.theme)
+      studyLogService.updateProfileStreak(user.id)
+    }
+
     setTimeout(() => {
       if (idx >= due.length - 1) setSummary(true)
       else setIdx(i => i + 1)
@@ -41,7 +82,7 @@ export function FlashcardsPage() {
   const novos     = todos.filter(f => !srsData[f.id]).length
   const dominados = todos.filter(f => { const s = srsData[f.id]; return s && s.repetitions >= 3 }).length
 
-  // ─── Summary ──────────────────────────────────────────────
+  // ─── Tela de resumo ───────────────────────────────────────
   if (summary || (due.length === 0 && todos.length > 0)) {
     const corretos = done.filter(id => (srsData[id]?.repetitions ?? 0) > 0).length
     return (
@@ -56,15 +97,15 @@ export function FlashcardsPage() {
             </div>
             <p style={{ color: 'var(--text-muted)', fontSize: '.88rem', marginBottom: '2rem' }}>
               {done.length > 0
-                ? `${done.length} cards revisados · ${corretos} lembrados · algoritmo SM-2 atualizado`
-                : 'Nenhum card pendente para este tema hoje.'}
+                ? `${done.length} cards revisados · ${corretos} lembrados · SM-2 salvo ${user ? 'no servidor' : 'localmente'}`
+                : 'Nenhum card pendente hoje.'}
             </p>
             {done.length > 0 && (
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: '1rem', marginBottom: '2rem' }}>
                 {[
-                  { val: done.length,             lbl: 'Revisados',  col: '#E53935' },
-                  { val: corretos,                lbl: 'Lembrados',  col: '#4ade80' },
-                  { val: done.length - corretos,  lbl: 'Para rever', col: '#f87171' },
+                  { val: done.length,            lbl: 'Revisados',  col: '#E53935' },
+                  { val: corretos,               lbl: 'Lembrados',  col: '#4ade80' },
+                  { val: done.length - corretos, lbl: 'Para rever', col: '#f87171' },
                 ].map((s, i) => (
                   <div key={i} className="card-dark" style={{ padding: '1rem', textAlign: 'center' }}>
                     <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.75rem', fontWeight: 700, color: s.col }}>{s.val}</div>
@@ -72,6 +113,11 @@ export function FlashcardsPage() {
                   </div>
                 ))}
               </div>
+            )}
+            {!user && (
+              <p style={{ fontSize: '.75rem', color: 'var(--text-dim)', marginBottom: '1rem' }}>
+                Progresso salvo localmente. <a href="/login" style={{ color: '#E53935' }}>Faça login</a> para sincronizar entre dispositivos.
+              </p>
             )}
             <button className="btn-red" style={{ width: '100%' }} onClick={() => { setIdx(0); setDone([]); setSummary(false); setFlipped(false) }}>
               Nova sessão
@@ -89,7 +135,9 @@ export function FlashcardsPage() {
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '2rem', flexWrap: 'wrap', gap: '1rem' }}>
           <div>
             <h2 style={{ fontFamily: 'var(--font-d)', fontSize: '2rem', color: 'white', marginBottom: '.35rem' }}>Flashcards</h2>
-            <p style={{ fontSize: '.88rem', color: 'rgba(240,240,240,.5)' }}>Repetição espaçada SM-2</p>
+            <p style={{ fontSize: '.88rem', color: 'rgba(240,240,240,.5)' }}>
+              Repetição espaçada SM-2 {syncing ? '· sincronizando…' : user ? '· sincronizado' : '· local'}
+            </p>
           </div>
           <select value={filtroTema} onChange={e => setFiltroTema(e.target.value as StudyTheme | '')}
             style={{ padding: '.65rem .9rem', border: '1px solid var(--border)', background: 'var(--bg-surface)', color: 'var(--text)', fontFamily: 'var(--font-s)', fontSize: '.88rem', outline: 'none', minWidth: 220 }}>
@@ -136,10 +184,10 @@ export function FlashcardsPage() {
             {flipped && (
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: '.75rem', marginTop: '1.25rem' }}>
                 {[
-                  { q: 0 as SRSQuality, lbl: 'Errei',   col: '#b23b3b', bg: 'rgba(178,59,59,.12)' },
-                  { q: 1 as SRSQuality, lbl: 'Difícil',  col: '#f87171', bg: 'rgba(248,113,113,.1)' },
-                  { q: 2 as SRSQuality, lbl: 'Bom',      col: '#60a5fa', bg: 'rgba(96,165,250,.1)'  },
-                  { q: 3 as SRSQuality, lbl: 'Fácil',    col: '#4ade80', bg: 'rgba(74,222,128,.1)'  },
+                  { q: 0 as SRSQuality, lbl: 'Errei',  col: '#b23b3b', bg: 'rgba(178,59,59,.12)' },
+                  { q: 1 as SRSQuality, lbl: 'Difícil', col: '#f87171', bg: 'rgba(248,113,113,.1)' },
+                  { q: 2 as SRSQuality, lbl: 'Bom',     col: '#60a5fa', bg: 'rgba(96,165,250,.1)'  },
+                  { q: 3 as SRSQuality, lbl: 'Fácil',   col: '#4ade80', bg: 'rgba(74,222,128,.1)'  },
                 ].map(b => (
                   <button key={b.q} onClick={() => responder(b.q)}
                     style={{ padding: '.9rem', border: `1px solid ${b.col}`, background: b.bg, color: b.col, fontFamily: 'var(--font-s)', fontWeight: 700, fontSize: '.88rem', cursor: 'pointer', transition: 'all .15s' }}>

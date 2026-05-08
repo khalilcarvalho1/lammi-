@@ -1,16 +1,25 @@
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useEffect, useMemo, useCallback } from 'react'
 import { useAuthContext } from '@/contexts/AuthContext'
 import { useStudyContext } from '@/contexts/StudyContext'
 import { useTimer } from '@/hooks/useTimer'
 import { MOCK_QUESTIONS } from '@/data/mockData'
 import { THEMES, StudyTheme, Difficulty, Question } from '@/services/supabaseClient'
+import { questionsService } from '@/services/questionsService'
+import { studyLogService } from '@/services/studyLogService'
+
+interface Comentario {
+  id: string
+  content: string
+  created_at: string
+  profiles?: { display_name: string; nickname: string }
+}
 
 export function BancoPage() {
-  // MIGRAÇÃO: historico e setHistorico agora vêm do StudyContext, não de props
-  const { historico, setHistorico } = useStudyContext()
   const { user } = useAuthContext()
+  const { historico, setHistorico } = useStudyContext()
   const timer = useTimer()
 
+  // ─── Filtros ───────────────────────────────────────────────
   const [filtroTemas,  setFiltroTemas]  = useState<Set<StudyTheme>>(new Set())
   const [filtroNiveis, setFiltroNiveis] = useState<Set<string>>(new Set())
   const [filtroRes,    setFiltroRes]    = useState('todas')
@@ -18,33 +27,52 @@ export function BancoPage() {
   const [feedback,     setFeedback]     = useState(false)
   const [sel,          setSel]          = useState<string | null>(null)
   const [timerOn,      setTimerOn]      = useState(false)
-  const [comentario,   setComentario]   = useState('')
-  const [comentarios,  setComentarios]  = useState<{ id: string; texto: string; em: string }[]>([])
 
-  const toggleSet = <T,>(s: Set<T>, item: T): Set<T> => {
-    const n = new Set(s); n.has(item) ? n.delete(item) : n.add(item); return n
-  }
+  // ─── Comentários ───────────────────────────────────────────
+  const [comentarios,  setComentarios]  = useState<Comentario[]>([])
+  const [novoComent,   setNovoComent]   = useState('')
+  const [loadingComent, setLoadingComent] = useState(false)
 
+  // ─── Questões ──────────────────────────────────────────────
+  // Usa mock localmente; quando o Supabase tiver questões, basta trocar MOCK_QUESTIONS
+  // pela chamada questionsService.getPage(page, filters)
   const filtradas = useMemo(() => MOCK_QUESTIONS.filter(q => {
-    if (filtroRes === 'respondidas'     && !historico[q.id])                          return false
-    if (filtroRes === 'nao_respondidas' && historico[q.id])                           return false
+    if (filtroRes === 'respondidas'     && !historico[q.id])                              return false
+    if (filtroRes === 'nao_respondidas' && historico[q.id])                               return false
     if (filtroRes === 'erradas'         && (!historico[q.id] || historico[q.id].acertou)) return false
-    if (filtroTemas.size > 0  && !filtroTemas.has(q.theme))    return false
+    if (filtroTemas.size > 0  && !filtroTemas.has(q.theme))     return false
     if (filtroNiveis.size > 0 && !filtroNiveis.has(q.difficulty)) return false
     return true
   }), [filtroTemas, filtroNiveis, filtroRes, historico])
 
   useEffect(() => { setIdx(0); setFeedback(false); setSel(null) }, [filtroTemas, filtroNiveis, filtroRes])
-  useEffect(() => { setSel(null); setFeedback(false) }, [idx])
+  useEffect(() => { setSel(null); setFeedback(false); setComentarios([]) }, [idx])
 
-  const total    = filtradas.length
   const q        = filtradas[idx] ?? null
+  const total    = filtradas.length
   const acertos  = Object.values(historico).filter(h => h.acertou).length
   const resp     = Object.keys(historico).length
 
-  const confirmar = () => {
+  const toggleSet = <T,>(s: Set<T>, item: T): Set<T> => {
+    const n = new Set(s); n.has(item) ? n.delete(item) : n.add(item); return n
+  }
+
+  // ─── Carregar comentários da questão atual ─────────────────
+  const carregarComentarios = useCallback(async (questionId: string) => {
+    const { data } = await questionsService.getComments(questionId)
+    if (data) setComentarios(data as Comentario[])
+  }, [])
+
+  useEffect(() => {
+    if (q) carregarComentarios(q.id)
+  }, [q, carregarComentarios])
+
+  // ─── Confirmar resposta + gravar no Supabase ───────────────
+  const confirmar = async () => {
     if (!q || !sel || feedback) return
     const ok = sel === q.correct_key
+
+    // 1. Atualiza historico local (StudyContext → localStorage)
     setHistorico(h => ({
       ...h,
       [q.id]: {
@@ -54,19 +82,32 @@ export function BancoPage() {
       },
     }))
     setFeedback(true)
+
+    // 2. Grava progresso no Supabase (apenas se logado)
+    if (user) {
+      await questionsService.recordAnswer(user.id, q.id, sel, ok)
+      // 3. Registra no study_log para heatmap e streak
+      await studyLogService.log(user.id, 'question', 1, q.theme)
+      await studyLogService.updateProfileStreak(user.id)
+    }
   }
 
-  const addComentario = () => {
-    if (!comentario.trim()) return
-    setComentarios(prev => [...prev, {
-      id: Date.now().toString(),
-      texto: comentario.trim(),
-      em: new Date().toLocaleString('pt-BR'),
-    }])
-    setComentario('')
+  // ─── Adicionar comentário ──────────────────────────────────
+  const addComentario = async () => {
+    if (!novoComent.trim() || !user || !q) return
+    setLoadingComent(true)
+    const { data } = await questionsService.addComment(q.id, user.id, novoComent.trim())
+    if (data) setComentarios(prev => [...prev, data as Comentario])
+    setNovoComent('')
+    setLoadingComent(false)
   }
 
-  // ─── Sem questões ───────────────────────────────────────────────
+  // ─── Deletar comentário próprio ────────────────────────────
+  const deletarComentario = async (commentId: string) => {
+    await questionsService.deleteComment(commentId)
+    setComentarios(prev => prev.filter(c => c.id !== commentId))
+  }
+
   const renderEmpty = () => (
     <div style={{ textAlign: 'center', padding: '4rem', background: 'var(--bg-card)', border: '1px solid var(--border)' }}>
       <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>🔍</div>
@@ -87,33 +128,28 @@ export function BancoPage() {
               <h2 style={{ fontFamily: 'var(--font-d)', fontSize: '2rem', color: 'white', marginBottom: '.35rem' }}>Banco de Questões</h2>
               <p style={{ fontSize: '.88rem', color: 'rgba(240,240,240,.5)' }}>ATLS · TCCC · PHTLS · {MOCK_QUESTIONS.length} questões</p>
             </div>
-
-            {/* Timer toggle */}
-            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-              <button
-                className={timerOn ? 'btn-red' : 'btn-ghost'}
-                style={{ fontSize: '.78rem' }}
-                onClick={() => {
-                  if (!timerOn) { timer.reset(); timer.start() }
-                  else timer.stop()
-                  setTimerOn(t => !t)
-                }}
-              >
-                ⏱ {timerOn
-                  ? `${String(Math.floor(timer.seconds / 60)).padStart(2,'0')}:${String(timer.seconds % 60).padStart(2,'0')}`
-                  : 'Cronômetro'}
-              </button>
-            </div>
+            <button
+              className={timerOn ? 'btn-red' : 'btn-ghost'}
+              style={{ fontSize: '.78rem' }}
+              onClick={() => {
+                if (!timerOn) { timer.reset(); timer.start() } else timer.stop()
+                setTimerOn(t => !t)
+              }}
+            >
+              ⏱ {timerOn
+                ? `${String(Math.floor(timer.seconds / 60)).padStart(2,'0')}:${String(timer.seconds % 60).padStart(2,'0')}`
+                : 'Cronômetro'}
+            </button>
           </div>
         </div>
 
-        {/* Stats rápidas */}
+        {/* Stats */}
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: '1rem', marginBottom: '1.5rem' }}>
           {[
-            { lbl: 'Total', val: MOCK_QUESTIONS.length, col: '#E53935' },
-            { lbl: 'Respondidas', val: resp, col: 'var(--text)' },
-            { lbl: 'Acertos', val: acertos, col: '#4ade80' },
-            { lbl: 'Aproveit.', val: resp > 0 ? Math.round(acertos / resp * 100) + '%' : '—', col: acertos / resp > .7 ? '#4ade80' : '#f87171' },
+            { lbl: 'Total',       val: MOCK_QUESTIONS.length, col: '#E53935' },
+            { lbl: 'Respondidas', val: resp,                  col: 'var(--text)' },
+            { lbl: 'Acertos',     val: acertos,               col: '#4ade80' },
+            { lbl: 'Aproveit.',   val: resp > 0 ? Math.round(acertos / resp * 100) + '%' : '—', col: '#4ade80' },
           ].map((s, i) => (
             <div key={i} className="dash-card" style={{ textAlign: 'center' }}>
               <div style={{ fontSize: '.65rem', textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--text-muted)', marginBottom: '.25rem' }}>{s.lbl}</div>
@@ -128,7 +164,6 @@ export function BancoPage() {
           <aside className="card-dark" style={{ padding: '1.5rem', position: 'sticky', top: '1rem' }}>
             <div style={{ fontSize: '.7rem', textTransform: 'uppercase', letterSpacing: '.12em', color: 'var(--text-muted)', fontWeight: 700, marginBottom: '1rem' }}>Filtros</div>
 
-            {/* Status */}
             <div style={{ marginBottom: '1.25rem' }}>
               <div style={{ fontSize: '.68rem', color: 'var(--text-dim)', marginBottom: '.5rem', textTransform: 'uppercase', letterSpacing: '.1em' }}>Status</div>
               {[
@@ -144,7 +179,6 @@ export function BancoPage() {
               ))}
             </div>
 
-            {/* Dificuldade */}
             <div style={{ marginBottom: '1.25rem' }}>
               <div style={{ fontSize: '.68rem', color: 'var(--text-dim)', marginBottom: '.5rem', textTransform: 'uppercase', letterSpacing: '.1em' }}>Dificuldade</div>
               {(['facil','medio','dificil'] as Difficulty[]).map(n => (
@@ -155,7 +189,6 @@ export function BancoPage() {
               ))}
             </div>
 
-            {/* Temas */}
             <div>
               <div style={{ fontSize: '.68rem', color: 'var(--text-dim)', marginBottom: '.5rem', textTransform: 'uppercase', letterSpacing: '.1em' }}>Tema</div>
               {(Object.entries(THEMES) as [StudyTheme, string][]).map(([k, v]) => (
@@ -171,11 +204,8 @@ export function BancoPage() {
           <div>
             {!q ? renderEmpty() : (
               <>
-                {/* Navegação */}
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', flexWrap: 'wrap', gap: '.5rem' }}>
-                  <span style={{ fontSize: '.8rem', color: 'var(--text-muted)' }}>
-                    {idx + 1} / {total}
-                  </span>
+                  <span style={{ fontSize: '.8rem', color: 'var(--text-muted)' }}>{idx + 1} / {total}</span>
                   <div style={{ display: 'flex', gap: '.5rem' }}>
                     <button className="btn-ghost" style={{ fontSize: '.78rem' }} disabled={idx === 0} onClick={() => setIdx(i => i - 1)}>← Anterior</button>
                     <button className="btn-ghost" style={{ fontSize: '.78rem' }} disabled={idx >= total - 1} onClick={() => setIdx(i => i + 1)}>Próxima →</button>
@@ -183,7 +213,6 @@ export function BancoPage() {
                 </div>
 
                 <div className="card-dark" style={{ padding: '2rem', marginBottom: '1rem' }}>
-                  {/* Badges */}
                   <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', marginBottom: '1.25rem' }}>
                     <span className="tag-pill">{THEMES[q.theme]}</span>
                     <span className="tag-pill" style={{ textTransform: 'capitalize' }}>{q.difficulty}</span>
@@ -192,13 +221,15 @@ export function BancoPage() {
                         {historico[q.id].acertou ? '✓ Acertou' : '✗ Errou'}
                       </span>
                     )}
+                    {!user && (
+                      <span className="tag-pill" style={{ background: 'rgba(192,57,43,.1)', color: 'var(--text-dim)' }}>
+                        Sem login — progresso local
+                      </span>
+                    )}
                   </div>
 
-                  <p style={{ fontSize: '1rem', color: 'var(--text)', lineHeight: 1.75, marginBottom: '1.5rem' }}>
-                    {q.statement}
-                  </p>
+                  <p style={{ fontSize: '1rem', color: 'var(--text)', lineHeight: 1.75, marginBottom: '1.5rem' }}>{q.statement}</p>
 
-                  {/* Alternativas */}
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '.6rem' }}>
                     {q.alternatives.map(alt => {
                       const isSelected = sel === alt.key
@@ -221,7 +252,6 @@ export function BancoPage() {
                     })}
                   </div>
 
-                  {/* Ação */}
                   <div style={{ marginTop: '1.25rem' }}>
                     {!feedback ? (
                       <button className="btn-red" style={{ width: '100%' }} disabled={!sel} onClick={confirmar}>
@@ -241,36 +271,58 @@ export function BancoPage() {
                   </div>
                 </div>
 
-                {/* ── Comentários ── */}
+                {/* ── Comentários (Supabase) ── */}
                 <div className="card-dark" style={{ padding: '1.5rem' }}>
                   <div style={{ fontSize: '.78rem', textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--text-muted)', fontWeight: 700, marginBottom: '1rem' }}>
                     Comentários ({comentarios.length})
                   </div>
+
                   {comentarios.length === 0 && (
-                    <p style={{ fontSize: '.82rem', color: 'var(--text-dim)', marginBottom: '1rem' }}>Nenhum comentário. Seja o primeiro!</p>
+                    <p style={{ fontSize: '.82rem', color: 'var(--text-dim)', marginBottom: '1rem' }}>
+                      Nenhum comentário ainda. Seja o primeiro!
+                    </p>
                   )}
+
                   {comentarios.map(c => (
                     <div key={c.id} style={{ padding: '.75rem', background: 'rgba(192,57,43,.06)', border: '1px solid var(--border)', marginBottom: '.5rem' }}>
-                      <p style={{ fontSize: '.85rem', color: 'var(--text)', lineHeight: 1.6 }}>{c.texto}</p>
-                      <p style={{ fontSize: '.7rem', color: 'var(--text-dim)', marginTop: '.3rem' }}>{c.em}</p>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '1rem' }}>
+                        <div>
+                          <p style={{ fontSize: '.75rem', color: '#E53935', fontWeight: 600, marginBottom: '.25rem' }}>
+                            {c.profiles?.nickname || c.profiles?.display_name || 'Anônimo'}
+                          </p>
+                          <p style={{ fontSize: '.85rem', color: 'var(--text)', lineHeight: 1.6 }}>{c.content}</p>
+                        </div>
+                        {/* Botão deletar só para comentários do próprio usuário */}
+                        {user && (
+                          <button onClick={() => deletarComentario(c.id)}
+                            style={{ background: 'none', border: 'none', color: 'var(--text-dim)', cursor: 'pointer', fontSize: '.75rem', flexShrink: 0, padding: '0 .25rem' }}
+                            title="Deletar comentário">
+                            ✕
+                          </button>
+                        )}
+                      </div>
+                      <p style={{ fontSize: '.7rem', color: 'var(--text-dim)', marginTop: '.3rem' }}>
+                        {new Date(c.created_at).toLocaleString('pt-BR')}
+                      </p>
                     </div>
                   ))}
+
                   {user ? (
                     <div style={{ display: 'flex', gap: '.5rem', marginTop: '1rem' }}>
                       <input
-                        value={comentario}
-                        onChange={e => setComentario(e.target.value)}
+                        value={novoComent}
+                        onChange={e => setNovoComent(e.target.value)}
                         placeholder="Adicionar comentário..."
                         onKeyDown={e => e.key === 'Enter' && addComentario()}
                         style={{ flex: 1, padding: '.6rem .9rem', border: '1px solid var(--border)', background: 'var(--bg-surface)', color: 'var(--text)', fontFamily: 'var(--font-s)', fontSize: '.88rem', outline: 'none' }}
                       />
-                      <button className="btn-red" style={{ padding: '.6rem 1rem', fontSize: '.82rem' }} onClick={addComentario}>
-                        Enviar
+                      <button className="btn-red" style={{ padding: '.6rem 1rem', fontSize: '.82rem' }} disabled={loadingComent} onClick={addComentario}>
+                        {loadingComent ? '...' : 'Enviar'}
                       </button>
                     </div>
                   ) : (
                     <p style={{ fontSize: '.78rem', color: 'var(--text-dim)', marginTop: '1rem' }}>
-                      Faça login para comentar.
+                      <a href="/login" style={{ color: '#E53935' }}>Faça login</a> para comentar.
                     </p>
                   )}
                 </div>
