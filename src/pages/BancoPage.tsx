@@ -259,7 +259,7 @@ export function BancoPage() {
           ))}
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.5rem', alignItems: 'start' }}>
+        <div className="banco-grid" style={{ gap: '1.5rem', alignItems: 'start' }}>
 
           {/* ── Busca por texto ── */}
           <div style={{ marginBottom: '1rem' }}>
@@ -285,7 +285,7 @@ export function BancoPage() {
           </div>
 
           {/* ── Filtros ── */}
-          <aside className="card-dark" style={{ padding: '1.5rem', position: 'sticky', top: '1rem' }}>
+          <aside className="card-dark" style={{ padding: '1.5rem' }}>
             <div style={{ fontSize: '.7rem', textTransform: 'uppercase', letterSpacing: '.12em', color: 'var(--text-muted)', fontWeight: 700, marginBottom: '1rem' }}>Filtros</div>
 
             <div style={{ marginBottom: '1.25rem' }}>
