@@ -35,7 +35,7 @@ function formatDuracao(segundos: number) {
 
 export function DashboardPage() {
   const { historico } = useStudyContext()
-  const { user }      = useAuthContext()
+  const { user, profile } = useAuthContext()
 
   const [aba,          setAba]          = useState<Aba>('stats')
   const [simulados,    setSimulados]    = useState<SimuladoRecord[]>([])
