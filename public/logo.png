@@ -1,0 +1,1 @@
+copy "%USERPROFILE%\Downloads\logo.png" "public\logo.png"
