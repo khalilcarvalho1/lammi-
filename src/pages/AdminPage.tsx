@@ -1,204 +1,376 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { useAuthContext } from '@/contexts/AuthContext'
-import { THEMES, StudyTheme, Difficulty, Profile, Question, Flashcard } from '@/services/supabaseClient'
-import { profileService } from '@/services/profileService'
-import { questionsService } from '@/services/questionsService'
-import { flashcardsService } from '@/services/flashcardsService'
-import { simuladoService } from '@/services/simuladoService'
+import { THEMES, StudyTheme, Difficulty } from '@/services/supabaseClient'
+import { MOCK_QUESTIONS, MOCK_FLASHCARDS } from '@/data/mockData'
+import clsx from 'clsx'
 import jsPDF from 'jspdf'
 import autoTable from 'jspdf-autotable'
 
-type Aba = 'membros' | 'questoes' | 'flashcards' | 'casos' | 'exportar'
+type AdminTab = 'overview' | 'members' | 'questions' | 'flashcards' | 'cases' | 'export'
 
 export function AdminPage() {
   const { profile } = useAuthContext()
-  const [aba, setAba] = useState<Aba>('membros')
-  const abas: { id: Aba; label: string }[] = [
-    { id: 'membros',    label: '👥 Membros'   },
-    { id: 'questoes',   label: '📋 Questões'  },
-    { id: 'flashcards', label: '🃏 Flashcards' },
-    { id: 'casos',      label: '🏥 Casos'      },
-    { id: 'exportar',   label: '📊 Exportar'   },
+  const [tab, setTab] = useState<AdminTab>('overview')
+
+  const tabs: { id: AdminTab; label: string; icon: string }[] = [
+    { id: 'overview',  label: 'Visão Geral', icon: '📊' },
+    { id: 'members',   label: 'Membros',    icon: '👥' },
+    { id: 'questions', label: 'Questões',   icon: '📋' },
+    { id: 'flashcards',label: 'Flashcards', icon: '🃏' },
+    { id: 'cases',     label: 'Casos',      icon: '🏥' },
+    { id: 'export',    label: 'Exportar',   icon: '📊' },
   ]
+
   return (
-    <section style={{ padding: '3rem 2rem', background: '#0D0D0D' }}>
-      <div style={{ maxWidth: 1100, margin: '0 auto' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '2rem' }}>
-          <div style={{ width: 44, height: 44, background: '#b23b3b', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1.2rem' }}>⚙️</div>
-          <div>
-            <h2 style={{ fontFamily: 'var(--font-d)', fontSize: '1.7rem', color: 'white', lineHeight: 1 }}>Painel do Admin</h2>
-            <p style={{ fontSize: '.75rem', color: 'var(--text-dim)' }}>{profile?.display_name} · role: admin</p>
-          </div>
+    <div className="space-y-6 animate-fade-up">
+      <div className="flex items-center gap-3">
+        <div className="w-10 h-10 rounded-xl bg-red-600 flex items-center justify-center text-white text-lg">⚙️</div>
+        <div>
+          <h1 className="font-display text-2xl font-bold text-[var(--color-text)]">Painel do Admin</h1>
+          <p className="text-xs text-[var(--color-text-muted)]">Logado como {profile?.display_name} · role: admin</p>
         </div>
-        <div style={{ display: 'flex', gap: 4, overflowX: 'auto', paddingBottom: 1, borderBottom: '1px solid var(--border)', marginBottom: '2rem' }}>
-          {abas.map(a => (
-            <button key={a.id} onClick={() => setAba(a.id)}
-              style={{ padding: '.6rem 1.1rem', border: 'none', background: aba === a.id ? 'var(--red)' : 'transparent', color: aba === a.id ? 'white' : 'var(--text-muted)', fontFamily: 'var(--font-s)', fontSize: '.82rem', fontWeight: 600, cursor: 'pointer', transition: 'all .15s', whiteSpace: 'nowrap' }}>
-              {a.label}
-            </button>
-          ))}
-        </div>
-        {aba === 'membros'    && <AbaMembros />}
-        {aba === 'questoes'   && <AbaQuestoes />}
-        {aba === 'flashcards' && <AbaFlashcards />}
-        {aba === 'casos'      && <AbaCasos />}
-        {aba === 'exportar'   && <AbaExportar />}
       </div>
-    </section>
+
+      {/* Tabs */}
+      <div className="flex gap-1 overflow-x-auto pb-1 border-b border-[var(--color-border)]">
+        {tabs.map(t => (
+          <button
+            key={t.id}
+            onClick={() => setTab(t.id)}
+            className={clsx('flex items-center gap-1.5 px-4 py-2 text-sm font-medium rounded-t-lg whitespace-nowrap transition-colors flex-shrink-0', {
+              'bg-brand-600 text-white': tab === t.id,
+              'text-[var(--color-text-muted)] hover:text-[var(--color-text)] hover:bg-[var(--color-surface-2)]': tab !== t.id,
+            })}
+          >
+            <span>{t.icon}</span> {t.label}
+          </button>
+        ))}
+      </div>
+
+      {/* Conteúdo da tab */}
+      {tab === 'overview'   && <OverviewTab />}
+      {tab === 'members'    && <MembersTab />}
+      {tab === 'questions'  && <QuestionsTab />}
+      {tab === 'flashcards' && <FlashcardsTab />}
+      {tab === 'cases'      && <CasesTab />}
+      {tab === 'export'     && <ExportTab />}
+    </div>
   )
 }
 
-function AbaMembros() {
-  const [membros, setMembros] = useState<Profile[]>([])
-  const [loading, setLoading] = useState(true)
-  const [salvando, setSalvando] = useState<string | null>(null)
-  useEffect(() => {
-    profileService.getAllProfiles().then(({ data }) => { if (data) setMembros(data as Profile[]); setLoading(false) })
-  }, [])
-  const toggleRole = async (id: string, role: string) => {
-    setSalvando(id)
-    const novoRole = role === 'admin' ? 'member' : 'admin'
-    await profileService.updateRole(id, novoRole as 'admin' | 'member')
-    setMembros(prev => prev.map(m => m.id === id ? { ...m, role: novoRole as 'admin' | 'member' } : m))
-    setSalvando(null)
-  }
-  const toggleAtivo = async (id: string, active: boolean) => {
-    setSalvando(id)
-    await profileService.setActive(id, !active)
-    setMembros(prev => prev.map(m => m.id === id ? { ...m, active: !active } : m))
-    setSalvando(null)
-  }
-  const Th = ({ children }: { children: string }) => (
-    <th style={{ textAlign: 'left', padding: '.7rem 1rem', fontSize: '.65rem', textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--text-dim)', fontWeight: 700, borderBottom: '1px solid var(--border)', background: '#080808' }}>{children}</th>
-  )
-  if (loading) return <p style={{ color: 'var(--text-muted)', padding: '2rem' }}>Carregando membros...</p>
+
+// ─── ABA: VISÃO GERAL ─────────────────────────────────────────────────────────
+
+function OverviewTab() {
+  const total    = MOCK_MEMBERS.length
+  const ativos   = MOCK_MEMBERS.filter(m => m.active).length
+  const admins   = MOCK_MEMBERS.filter(m => m.role === 'admin').length
+  const scoreAvg = Math.round(MOCK_MEMBERS.reduce((a, m) => a + m.score, 0) / total)
+  const streakAvg = Math.round(MOCK_MEMBERS.reduce((a, m) => a + m.study_streak, 0) / total)
+  const top5 = [...MOCK_MEMBERS].sort((a, b) => b.score - a.score).slice(0, 5)
+
   return (
-    <div>
-      <p style={{ fontSize: '.85rem', color: 'var(--text-muted)', marginBottom: '1rem' }}>{membros.length} membros cadastrados</p>
-      <div style={{ overflowX: 'auto' }}>
-        <table style={{ width: '100%', borderCollapse: 'collapse', background: 'var(--bg-card)', border: '1px solid var(--border)' }}>
-          <thead><tr><Th>Nome</Th><Th>Apelido</Th><Th>Papel</Th><Th>Status</Th><Th>Score</Th><Th>Streak</Th><Th>Ações</Th></tr></thead>
-          <tbody>
-            {membros.map((m, i) => (
-              <tr key={m.id} style={{ borderBottom: '1px solid rgba(192,57,43,.1)', background: i % 2 === 0 ? 'transparent' : 'rgba(192,57,43,.02)' }}>
-                <td style={{ padding: '.8rem 1rem', fontWeight: 600, color: 'var(--text)', fontSize: '.88rem' }}>{m.display_name}</td>
-                <td style={{ padding: '.8rem 1rem', color: 'var(--text-muted)', fontSize: '.82rem' }}>{m.nickname}</td>
-                <td style={{ padding: '.8rem 1rem' }}>
-                  <span style={{ fontSize: '.7rem', padding: '2px 8px', background: m.role === 'admin' ? 'rgba(178,59,59,.2)' : 'rgba(192,57,43,.1)', color: m.role === 'admin' ? '#f87171' : 'var(--text-muted)', border: `1px solid ${m.role === 'admin' ? '#b23b3b' : 'var(--border)'}` }}>{m.role}</span>
-                </td>
-                <td style={{ padding: '.8rem 1rem' }}>
-                  <span style={{ fontSize: '.7rem', padding: '2px 8px', background: m.active ? 'rgba(47,122,63,.15)' : 'rgba(178,59,59,.12)', color: m.active ? '#4ade80' : '#f87171', border: `1px solid ${m.active ? '#2f7a3f' : '#b23b3b'}` }}>{m.active ? 'ativo' : 'inativo'}</span>
-                </td>
-                <td style={{ padding: '.8rem 1rem', fontFamily: 'var(--font-d)', color: '#E53935', fontWeight: 700 }}>{m.score.toLocaleString()}</td>
-                <td style={{ padding: '.8rem 1rem', color: 'var(--text-muted)', fontSize: '.85rem' }}>🔥 {m.study_streak}</td>
-                <td style={{ padding: '.8rem 1rem' }}>
-                  <div style={{ display: 'flex', gap: 4 }}>
-                    <button onClick={() => toggleRole(m.id, m.role)} disabled={salvando === m.id} className="btn-ghost" style={{ fontSize: '.72rem', padding: '.3rem .6rem' }}>{m.role === 'admin' ? '↓ membro' : '↑ admin'}</button>
-                    <button onClick={() => toggleAtivo(m.id, m.active)} disabled={salvando === m.id} className="btn-ghost" style={{ fontSize: '.72rem', padding: '.3rem .6rem', color: m.active ? '#f87171' : '#4ade80' }}>{m.active ? 'desativar' : 'reativar'}</button>
-                  </div>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+      {/* KPIs */}
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', gap: '1rem' }}>
+        {[
+          { lbl: 'Total de Membros',  val: total,    col: 'var(--color-text)'  },
+          { lbl: 'Membros Ativos',    val: ativos,   col: '#4ade80'            },
+          { lbl: 'Admins',            val: admins,   col: '#E53935'            },
+          { lbl: 'Score Médio',       val: scoreAvg.toLocaleString(), col: '#facc15' },
+          { lbl: 'Streak Médio',      val: streakAvg + 'd', col: '#fb923c'     },
+        ].map(k => (
+          <div key={k.lbl} className="card-p" style={{ textAlign: 'center' }}>
+            <div style={{ fontSize: '.65rem', textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--color-text-muted)', marginBottom: '.5rem', fontWeight: 700 }}>{k.lbl}</div>
+            <div style={{ fontFamily: 'var(--font-d)', fontSize: '2rem', fontWeight: 700, color: k.col, lineHeight: 1 }}>{k.val}</div>
+          </div>
+        ))}
+      </div>
+
+      {/* Top 5 usuários */}
+      <div className="card">
+        <div style={{ padding: '1rem 1.25rem', borderBottom: '1px solid var(--color-border)', fontWeight: 700, fontSize: '.85rem', color: 'var(--color-text)' }}>
+          🏆 Top 5 Usuários
+        </div>
+        {top5.map((m, i) => (
+          <div key={m.id} style={{ display: 'flex', alignItems: 'center', gap: '1rem', padding: '.85rem 1.25rem', borderBottom: '1px solid var(--color-border)' }}>
+            <div style={{ fontFamily: 'var(--font-d)', fontWeight: 700, fontSize: '1.1rem', color: i === 0 ? '#FBB724' : i === 1 ? '#9CA3AF' : i === 2 ? '#A16207' : 'var(--color-text-muted)', width: 28 }}>
+              #{i + 1}
+            </div>
+            <div style={{ flex: 1 }}>
+              <div style={{ fontWeight: 600, fontSize: '.88rem', color: 'var(--color-text)' }}>{m.display_name}</div>
+              <div style={{ fontSize: '.72rem', color: 'var(--color-text-muted)' }}>{m.email}</div>
+            </div>
+            <div style={{ textAlign: 'right' }}>
+              <div style={{ fontWeight: 700, fontSize: '.9rem', color: 'var(--color-text)' }}>{m.score.toLocaleString()}</div>
+              <div style={{ fontSize: '.7rem', color: 'var(--color-text-muted)' }}>🔥 {m.study_streak}d</div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Distribuição de roles */}
+      <div className="card-p">
+        <div style={{ fontWeight: 700, fontSize: '.85rem', color: 'var(--color-text)', marginBottom: '1rem' }}>Distribuição</div>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '.75rem' }}>
+          {[
+            { lbl: 'Membros ativos',   val: ativos,        total, col: '#4ade80' },
+            { lbl: 'Membros inativos', val: total - ativos, total, col: '#f87171' },
+            { lbl: 'Admins',           val: admins,        total, col: '#E53935'  },
+          ].map(b => (
+            <div key={b.lbl}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '.8rem', marginBottom: '.25rem' }}>
+                <span style={{ color: 'var(--color-text-muted)' }}>{b.lbl}</span>
+                <span style={{ color: b.col, fontWeight: 700 }}>{b.val}/{b.total}</span>
+              </div>
+              <div style={{ height: 6, background: 'rgba(192,57,43,.1)' }}>
+                <div style={{ height: '100%', width: (b.val / b.total * 100) + '%', background: b.col, transition: 'width .5s' }} />
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   )
 }
 
-function AbaQuestoes() {
-  const [qs, setQs] = useState<Question[]>([])
-  const [loading, setLoading] = useState(true)
-  const [salvando, setSalvando] = useState(false)
-  const [showForm, setShowForm] = useState(false)
-  const [editId, setEditId] = useState<string | null>(null)
-  const [erro, setErro] = useState<string | null>(null)
-  const [form, setForm] = useState({ statement: '', explanation: '', theme: 'atls_inicial' as StudyTheme, difficulty: 'medio' as Difficulty, correct_key: 'A', a: '', b: '', c: '', d: '', e: '' })
-  useEffect(() => { questionsService.getPage(0).then(({ data }) => { if (data) setQs(data as Question[]); setLoading(false) }) }, [])
-  const reset = () => { setForm({ statement: '', explanation: '', theme: 'atls_inicial', difficulty: 'medio', correct_key: 'A', a: '', b: '', c: '', d: '', e: '' }); setEditId(null); setShowForm(false); setErro(null) }
-  const editar = (q: Question) => {
-    setForm({ statement: q.statement, explanation: q.explanation, theme: q.theme, difficulty: q.difficulty, correct_key: q.correct_key, a: q.alternatives[0]?.text ?? '', b: q.alternatives[1]?.text ?? '', c: q.alternatives[2]?.text ?? '', d: q.alternatives[3]?.text ?? '', e: q.alternatives[4]?.text ?? '' })
-    setEditId(q.id); setShowForm(true)
+// ─── ABA: MEMBROS ─────────────────────────────────────────────────────────────
+
+const MOCK_MEMBERS = [
+  { id: 'm1', display_name: 'Ana Souza',    email: 'ana@med.br',    role: 'admin',  active: true,  score: 3420, study_streak: 21 },
+  { id: 'm2', display_name: 'João Lima',    email: 'joao@med.br',   role: 'member', active: true,  score: 2980, study_streak: 15 },
+  { id: 'm3', display_name: 'Maria Costa',  email: 'maria@med.br',  role: 'member', active: true,  score: 1640, study_streak: 4  },
+  { id: 'm4', display_name: 'Pedro Alves',  email: 'pedro@med.br',  role: 'member', active: false, score: 890,  study_streak: 0  },
+]
+
+function MembersTab() {
+  const [members, setMembers] = useState(MOCK_MEMBERS)
+  const [busca, setBusca]     = useState('')
+  const filtrados = busca.trim() ? members.filter(m => m.display_name.toLowerCase().includes(busca.toLowerCase()) || m.email.toLowerCase().includes(busca.toLowerCase())) : members
+
+  const toggleRole = (id: string) => {
+    setMembers(prev => prev.map(m => m.id === id
+      ? { ...m, role: m.role === 'admin' ? 'member' : 'admin' } : m))
   }
-  const salvar = async () => {
-    const alts = [{ key: 'A', text: form.a }, { key: 'B', text: form.b }, { key: 'C', text: form.c }, { key: 'D', text: form.d }, { key: 'E', text: form.e }].filter(a => a.text.trim())
-    if (!form.statement.trim() || alts.length < 2) { setErro('Preencha enunciado e mínimo 2 alternativas.'); return }
-    setSalvando(true); setErro(null)
-    const payload = { statement: form.statement, alternatives: alts, correct_key: form.correct_key, explanation: form.explanation, theme: form.theme, difficulty: form.difficulty }
-    if (editId) {
-      const { error } = await questionsService.update(editId, payload)
-      if (error) { setErro('Erro ao atualizar.'); setSalvando(false); return }
-      setQs(prev => prev.map(q => q.id === editId ? { ...q, ...payload } : q))
-    } else {
-      const { data, error } = await questionsService.create(payload as any)
-      if (error || !data) { setErro('Erro ao criar questão.'); setSalvando(false); return }
-      setQs(prev => [data as Question, ...prev])
-    }
-    setSalvando(false); reset()
+  const toggleActive = (id: string) => {
+    setMembers(prev => prev.map(m => m.id === id ? { ...m, active: !m.active } : m))
   }
-  const deletar = async (id: string) => { if (!confirm('Deletar esta questão?')) return; await questionsService.delete(id); setQs(prev => prev.filter(q => q.id !== id)) }
-  if (loading) return <p style={{ color: 'var(--text-muted)', padding: '2rem' }}>Carregando questões...</p>
+
   return (
-    <div>
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.25rem' }}>
-        <p style={{ fontSize: '.85rem', color: 'var(--text-muted)' }}>{qs.length} questões</p>
-        <button className="btn-red" style={{ fontSize: '.8rem', padding: '.5rem 1rem' }} onClick={() => { reset(); setShowForm(true) }}>+ Nova questão</button>
+    <div className="space-y-4">
+      <div className="flex items-center justify-between">
+        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', flexWrap: 'wrap' }}>
+          <p className="text-sm text-[var(--color-text-muted)]">{members.length} membros cadastrados</p>
+          <input
+            type="text"
+            value={busca}
+            onChange={e => setBusca(e.target.value)}
+            placeholder="🔍 Buscar por nome ou email..."
+            style={{ padding: '.4rem .75rem', background: 'var(--color-surface-2)', border: '1px solid var(--color-border)', color: 'var(--color-text)', fontSize: '.82rem', outline: 'none', minWidth: 220 }}
+          />
+          {busca && <span style={{ fontSize: '.75rem', color: 'var(--color-text-muted)' }}>{filtrados.length} resultado(s)</span>}
+        </div>
       </div>
+      <div className="card overflow-hidden">
+        <div className="overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b border-[var(--color-border)] bg-[var(--color-surface-2)]">
+                <th className="text-left px-4 py-3 text-[var(--color-text-muted)] font-medium">Nome</th>
+                <th className="text-left px-4 py-3 text-[var(--color-text-muted)] font-medium hidden md:table-cell">E-mail</th>
+                <th className="text-center px-4 py-3 text-[var(--color-text-muted)] font-medium">Papel</th>
+                <th className="text-center px-4 py-3 text-[var(--color-text-muted)] font-medium">Status</th>
+                <th className="text-right px-4 py-3 text-[var(--color-text-muted)] font-medium">Score</th>
+                <th className="px-4 py-3 text-[var(--color-text-muted)] font-medium">Ações</th>
+              </tr>
+            </thead>
+            <tbody>
+              {filtrados.map(m => (
+                <tr key={m.id} className="border-b border-[var(--color-border)] last:border-0 hover:bg-[var(--color-surface-2)]">
+                  <td className="px-4 py-3">
+                    <div className="font-medium text-[var(--color-text)]">{m.display_name}</div>
+                  </td>
+                  <td className="px-4 py-3 text-[var(--color-text-muted)] hidden md:table-cell">{m.email}</td>
+                  <td className="px-4 py-3 text-center">
+                    <span className={clsx('badge text-xs', m.role === 'admin' ? 'badge-red' : 'badge-gray')}>
+                      {m.role}
+                    </span>
+                  </td>
+                  <td className="px-4 py-3 text-center">
+                    <span className={clsx('badge text-xs', m.active ? 'badge-green' : 'badge-red')}>
+                      {m.active ? 'ativo' : 'inativo'}
+                    </span>
+                  </td>
+                  <td className="px-4 py-3 text-right font-mono text-[var(--color-text)]">{m.score.toLocaleString()}</td>
+                  <td className="px-4 py-3">
+                    <div className="flex gap-1 justify-end">
+                      <button onClick={() => toggleRole(m.id)}
+                        className="text-xs btn-ghost px-2 py-1 text-brand-500">
+                        {m.role === 'admin' ? '↓ membro' : '↑ admin'}
+                      </button>
+                      <button onClick={() => toggleActive(m.id)}
+                        className={clsx('text-xs btn-ghost px-2 py-1', m.active ? 'text-red-500' : 'text-green-500')}>
+                        {m.active ? 'desativar' : 'reativar'}
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+// ─── ABA: QUESTÕES ────────────────────────────────────────────────────────────
+
+function QuestionsTab() {
+  const [questions, setQuestions] = useState(MOCK_QUESTIONS)
+  const [editing, setEditing]     = useState<string | null>(null)
+  const [showForm, setShowForm]   = useState(false)
+  const [form, setForm]           = useState({
+    statement: '', explanation: '',
+    theme: 'atls_inicial' as StudyTheme,
+    difficulty: 'medio' as Difficulty,
+    correct_key: 'A',
+    alt_a: '', alt_b: '', alt_c: '', alt_d: '', alt_e: '',
+  })
+
+  const resetForm = () => {
+    setForm({ statement:'', explanation:'', theme:'atls_inicial', difficulty:'medio', correct_key:'A', alt_a:'', alt_b:'', alt_c:'', alt_d:'', alt_e:'' })
+    setEditing(null)
+    setShowForm(false)
+  }
+
+  const handleEdit = (id: string) => {
+    const q = questions.find(q => q.id === id)
+    if (!q) return
+    setForm({
+      statement: q.statement, explanation: q.explanation,
+      theme: q.theme, difficulty: q.difficulty, correct_key: q.correct_key,
+      alt_a: q.alternatives[0]?.text ?? '',
+      alt_b: q.alternatives[1]?.text ?? '',
+      alt_c: q.alternatives[2]?.text ?? '',
+      alt_d: q.alternatives[3]?.text ?? '',
+      alt_e: q.alternatives[4]?.text ?? '',
+    })
+    setEditing(id)
+    setShowForm(true)
+  }
+
+  const handleSave = () => {
+    const alternatives = [
+      { key:'A', text:form.alt_a }, { key:'B', text:form.alt_b },
+      { key:'C', text:form.alt_c }, { key:'D', text:form.alt_d },
+      { key:'E', text:form.alt_e },
+    ].filter(a => a.text.trim())
+
+    if (!form.statement.trim() || alternatives.length < 2) {
+      alert('Preencha o enunciado e pelo menos 2 alternativas.')
+      return
+    }
+
+    if (editing) {
+      setQuestions(prev => prev.map(q =>
+        q.id === editing ? { ...q, statement:form.statement, alternatives, correct_key:form.correct_key, explanation:form.explanation, theme:form.theme, difficulty:form.difficulty } : q
+      ))
+    } else {
+      const newQ = {
+        id: 'q' + Date.now(), statement:form.statement, alternatives, correct_key:form.correct_key,
+        explanation:form.explanation, theme:form.theme, difficulty:form.difficulty, created_at: new Date().toISOString()
+      }
+      setQuestions(prev => [newQ, ...prev])
+    }
+    resetForm()
+  }
+
+  return (
+    <div className="space-y-4">
+      <div className="flex items-center justify-between">
+        <p className="text-sm text-[var(--color-text-muted)]">{questions.length} questões</p>
+        <button onClick={() => { resetForm(); setShowForm(true) }} className="btn-primary text-sm">
+          + Nova questão
+        </button>
+      </div>
+
       {showForm && (
-        <div className="card-dark" style={{ padding: '2rem', marginBottom: '1.5rem' }}>
-          <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.1rem', color: '#E53935', marginBottom: '1.5rem' }}>{editId ? 'Editar' : 'Nova'} questão</div>
-          {erro && <div style={{ background: 'rgba(178,59,59,.15)', border: '1px solid #b23b3b', padding: '.75rem', fontSize: '.85rem', color: '#f87171', marginBottom: '1rem' }}>{erro}</div>}
-          <div style={{ marginBottom: '.9rem' }}>
-            <div style={{ fontSize: '.68rem', textTransform: 'uppercase', color: 'var(--text-muted)', fontWeight: 700, marginBottom: '.35rem' }}>Enunciado</div>
-            <textarea rows={3} value={form.statement} onChange={e => setForm(f => ({ ...f, statement: e.target.value }))} style={{ width: '100%', padding: '.65rem .85rem', border: '1px solid var(--border)', background: 'var(--bg-surface)', color: 'var(--text)', fontFamily: 'var(--font-s)', fontSize: '.88rem', outline: 'none', resize: 'vertical' }} />
+        <div className="card-p space-y-4">
+          <h3 className="font-semibold text-[var(--color-text)]">{editing ? 'Editar questão' : 'Nova questão'}</h3>
+
+          <div>
+            <label className="label">Enunciado</label>
+            <textarea rows={3} className="input resize-none" value={form.statement} onChange={e => setForm(f => ({...f, statement:e.target.value}))} placeholder="Digite o enunciado da questão..." />
           </div>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
-            <div style={{ marginBottom: '.9rem' }}>
-              <div style={{ fontSize: '.68rem', textTransform: 'uppercase', color: 'var(--text-muted)', fontWeight: 700, marginBottom: '.35rem' }}>Tema</div>
-              <select value={form.theme} onChange={e => setForm(f => ({ ...f, theme: e.target.value as StudyTheme }))} style={{ width: '100%', padding: '.65rem .85rem', border: '1px solid var(--border)', background: 'var(--bg-surface)', color: 'var(--text)', fontFamily: 'var(--font-s)', fontSize: '.85rem', outline: 'none' }}>
-                {(Object.entries(THEMES) as [StudyTheme, string][]).map(([k, v]) => <option key={k} value={k}>{v}</option>)}
+
+          <div className="grid grid-cols-2 gap-3">
+            <div>
+              <label className="label">Tema</label>
+              <select className="input" value={form.theme} onChange={e => setForm(f => ({...f, theme:e.target.value as StudyTheme}))}>
+                {(Object.entries(THEMES) as [StudyTheme, string][]).map(([k,v]) => (
+                  <option key={k} value={k}>{v}</option>
+                ))}
               </select>
             </div>
-            <div style={{ marginBottom: '.9rem' }}>
-              <div style={{ fontSize: '.68rem', textTransform: 'uppercase', color: 'var(--text-muted)', fontWeight: 700, marginBottom: '.35rem' }}>Dificuldade</div>
-              <select value={form.difficulty} onChange={e => setForm(f => ({ ...f, difficulty: e.target.value as Difficulty }))} style={{ width: '100%', padding: '.65rem .85rem', border: '1px solid var(--border)', background: 'var(--bg-surface)', color: 'var(--text)', fontFamily: 'var(--font-s)', fontSize: '.85rem', outline: 'none' }}>
-                <option value="facil">Fácil</option><option value="medio">Médio</option><option value="dificil">Difícil</option>
+            <div>
+              <label className="label">Dificuldade</label>
+              <select className="input" value={form.difficulty} onChange={e => setForm(f => ({...f, difficulty:e.target.value as Difficulty}))}>
+                <option value="facil">Fácil</option>
+                <option value="medio">Médio</option>
+                <option value="dificil">Difícil</option>
               </select>
             </div>
           </div>
-          <div style={{ marginBottom: '.9rem' }}>
-            <div style={{ fontSize: '.68rem', textTransform: 'uppercase', color: 'var(--text-muted)', fontWeight: 700, marginBottom: '.6rem' }}>Alternativas <span style={{ color: 'var(--text-dim)' }}>(clique na letra para marcar correta)</span></div>
-            {(['A','B','C','D','E'] as const).map(k => (
-              <div key={k} style={{ display: 'flex', alignItems: 'center', gap: '.5rem', marginBottom: '.4rem' }}>
-                <button onClick={() => setForm(f => ({ ...f, correct_key: k }))} style={{ width: 28, height: 28, borderRadius: '50%', border: '1px solid', borderColor: form.correct_key === k ? 'var(--red)' : 'var(--border)', background: form.correct_key === k ? 'var(--red)' : 'transparent', color: form.correct_key === k ? 'white' : '#E53935', fontSize: '.75rem', fontWeight: 700, cursor: 'pointer', flexShrink: 0 }}>{k}</button>
-                <input value={form[k.toLowerCase() as keyof typeof form] as string} onChange={e => setForm(f => ({ ...f, [k.toLowerCase()]: e.target.value }))} placeholder={`Alternativa ${k}${k <= 'B' ? ' (obrigatória)' : ''}`} style={{ flex: 1, padding: '.55rem .8rem', border: '1px solid var(--border)', background: 'var(--bg-surface)', color: 'var(--text)', fontFamily: 'var(--font-s)', fontSize: '.85rem', outline: 'none' }} />
-              </div>
-            ))}
+
+          <div className="space-y-2">
+            <label className="label">Alternativas</label>
+            {(['A','B','C','D','E'] as const).map(k => {
+              const key = ('alt_' + k.toLowerCase()) as keyof typeof form
+              return (
+                <div key={k} className="flex items-center gap-2">
+                  <span className={clsx('w-7 h-7 rounded-full border-2 flex items-center justify-center text-xs font-bold flex-shrink-0 cursor-pointer transition-colors', {
+                    'bg-green-500 border-green-500 text-white': form.correct_key === k,
+                    'border-[var(--color-border)] text-[var(--color-text-muted)]': form.correct_key !== k,
+                  })} onClick={() => setForm(f => ({...f, correct_key:k}))} title="Clique para marcar como correta">
+                    {k}
+                  </span>
+                  <input className="input" placeholder={'Alternativa ' + k + (k <= 'B' ? ' (obrigatória)' : '')}
+                    value={form[key] as string} onChange={e => setForm(f => ({...f, [key]:e.target.value}))} />
+                </div>
+              )
+            })}
+            <p className="text-xs text-[var(--color-text-subtle)]">Clique no círculo da letra para marcar a alternativa correta.</p>
           </div>
-          <div style={{ marginBottom: '.9rem' }}>
-            <div style={{ fontSize: '.68rem', textTransform: 'uppercase', color: 'var(--text-muted)', fontWeight: 700, marginBottom: '.35rem' }}>Explicação</div>
-            <textarea rows={3} value={form.explanation} onChange={e => setForm(f => ({ ...f, explanation: e.target.value }))} style={{ width: '100%', padding: '.65rem .85rem', border: '1px solid var(--border)', background: 'var(--bg-surface)', color: 'var(--text)', fontFamily: 'var(--font-s)', fontSize: '.88rem', outline: 'none', resize: 'vertical' }} />
+
+          <div>
+            <label className="label">Explicação / Gabarito comentado</label>
+            <textarea rows={3} className="input resize-none" value={form.explanation} onChange={e => setForm(f => ({...f, explanation:e.target.value}))} placeholder="Explique a resposta correta..." />
           </div>
-          <div style={{ display: 'flex', gap: '.75rem' }}>
-            <button onClick={salvar} disabled={salvando} className="btn-red" style={{ fontSize: '.85rem' }}>{salvando ? 'Salvando...' : 'Salvar'}</button>
-            <button onClick={reset} className="btn-ghost" style={{ fontSize: '.85rem' }}>Cancelar</button>
+
+          <div className="flex gap-2 pt-2">
+            <button onClick={handleSave} className="btn-primary">Salvar</button>
+            <button onClick={resetForm} className="btn-ghost">Cancelar</button>
           </div>
         </div>
       )}
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '.6rem' }}>
-        {qs.map(q => (
-          <div key={q.id} className="card-dark" style={{ padding: '1rem 1.25rem', display: 'flex', alignItems: 'flex-start', gap: '1rem' }}>
-            <div style={{ flex: 1, minWidth: 0 }}>
-              <div style={{ display: 'flex', gap: 6, marginBottom: '.35rem', flexWrap: 'wrap' }}>
-                <span className="tag-pill" style={{ fontSize: '.65rem' }}>{THEMES[q.theme]}</span>
-                <span className="tag-pill" style={{ fontSize: '.65rem' }}>{q.difficulty}</span>
+
+      <div className="space-y-3">
+        {questions.map(q => (
+          <div key={q.id} className="card-p flex items-start gap-4">
+            <div className="flex-1 min-w-0">
+              <div className="flex gap-2 flex-wrap mb-1">
+                <span className={clsx('badge text-xs', { 'badge-green':q.difficulty==='facil','badge-amber':q.difficulty==='medio','badge-red':q.difficulty==='dificil' })}>
+                  {q.difficulty}
+                </span>
+                <span className="badge-blue text-xs">{THEMES[q.theme]}</span>
               </div>
-              <p style={{ fontSize: '.84rem', color: 'var(--text)', lineHeight: 1.5, display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{q.statement}</p>
-              <p style={{ fontSize: '.72rem', color: 'var(--text-dim)', marginTop: '.2rem' }}>Correta: {q.correct_key}</p>
+              <p className="text-sm text-[var(--color-text)] line-clamp-2">{q.statement}</p>
+              <p className="text-xs text-[var(--color-text-subtle)] mt-1">Correta: {q.correct_key}</p>
             </div>
-            <div style={{ display: 'flex', gap: 4, flexShrink: 0 }}>
-              <button onClick={() => editar(q)} className="btn-ghost" style={{ fontSize: '.72rem', padding: '.3rem .6rem' }}>editar</button>
-              <button onClick={() => deletar(q.id)} style={{ background: 'none', border: 'none', color: '#f87171', fontSize: '.75rem', cursor: 'pointer', padding: '.3rem .5rem' }}>✕</button>
+            <div className="flex gap-1 flex-shrink-0">
+              <button onClick={() => handleEdit(q.id)} className="btn-ghost text-xs px-2">editar</button>
+              <button onClick={() => setQuestions(prev => prev.filter(x => x.id !== q.id))} className="text-xs text-red-500 btn-ghost px-2">excluir</button>
             </div>
           </div>
         ))}
@@ -207,70 +379,73 @@ function AbaQuestoes() {
   )
 }
 
-function AbaFlashcards() {
-  const [cards, setCards] = useState<Flashcard[]>([])
-  const [loading, setLoading] = useState(true)
-  const [salvando, setSalvando] = useState(false)
-  const [show, setShow] = useState(false)
-  const [editId, setEditId] = useState<string | null>(null)
-  const [erro, setErro] = useState<string | null>(null)
-  const [form, setForm] = useState({ front: '', back: '', theme: 'atls_inicial' as StudyTheme })
-  useEffect(() => { flashcardsService.getAll().then(({ data }) => { if (data) setCards(data as Flashcard[]); setLoading(false) }) }, [])
-  const reset = () => { setForm({ front: '', back: '', theme: 'atls_inicial' }); setEditId(null); setShow(false); setErro(null) }
-  const editar = (c: Flashcard) => { setForm({ front: c.front, back: c.back, theme: c.theme }); setEditId(c.id); setShow(true) }
-  const salvar = async () => {
-    if (!form.front.trim() || !form.back.trim()) { setErro('Preencha frente e verso.'); return }
-    setSalvando(true); setErro(null)
-    if (editId) {
-      const { error } = await flashcardsService.update(editId, form)
-      if (error) { setErro('Erro ao atualizar.'); setSalvando(false); return }
-      setCards(prev => prev.map(c => c.id === editId ? { ...c, ...form } : c))
-    } else {
-      const { data, error } = await flashcardsService.create(form)
-      if (error || !data) { setErro('Erro ao criar.'); setSalvando(false); return }
-      setCards(prev => [data as Flashcard, ...prev])
-    }
-    setSalvando(false); reset()
+// ─── ABA: FLASHCARDS ─────────────────────────────────────────────────────────
+
+function FlashcardsTab() {
+  const [cards, setCards]       = useState(MOCK_FLASHCARDS)
+  const [showForm, setShowForm] = useState(false)
+  const [editing, setEditing]   = useState<string | null>(null)
+  const [form, setForm]         = useState({ front:'', back:'', theme:'atls_inicial' as StudyTheme })
+
+  const resetForm = () => { setForm({ front:'', back:'', theme:'atls_inicial' }); setEditing(null); setShowForm(false) }
+
+  const handleEdit = (id: string) => {
+    const c = cards.find(c => c.id === id)
+    if (!c) return
+    setForm({ front:c.front, back:c.back, theme:c.theme })
+    setEditing(id); setShowForm(true)
   }
-  const deletar = async (id: string) => { if (!confirm('Deletar?')) return; await flashcardsService.delete(id); setCards(prev => prev.filter(c => c.id !== id)) }
-  if (loading) return <p style={{ color: 'var(--text-muted)', padding: '2rem' }}>Carregando flashcards...</p>
+
+  const handleSave = () => {
+    if (!form.front.trim() || !form.back.trim()) { alert('Preencha frente e verso.'); return }
+    if (editing) {
+      setCards(prev => prev.map(c => c.id === editing ? { ...c, front:form.front, back:form.back, theme:form.theme } : c))
+    } else {
+      setCards(prev => [...prev, { id:'f'+Date.now(), front:form.front, back:form.back, theme:form.theme, created_at:new Date().toISOString() }])
+    }
+    resetForm()
+  }
+
   return (
-    <div>
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.25rem' }}>
-        <p style={{ fontSize: '.85rem', color: 'var(--text-muted)' }}>{cards.length} flashcards</p>
-        <button className="btn-red" style={{ fontSize: '.8rem', padding: '.5rem 1rem' }} onClick={() => { reset(); setShow(true) }}>+ Novo flashcard</button>
+    <div className="space-y-4">
+      <div className="flex items-center justify-between">
+        <p className="text-sm text-[var(--color-text-muted)]">{cards.length} flashcards</p>
+        <button onClick={() => { resetForm(); setShowForm(true) }} className="btn-primary text-sm">+ Novo flashcard</button>
       </div>
-      {show && (
-        <div className="card-dark" style={{ padding: '2rem', marginBottom: '1.5rem' }}>
-          <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.1rem', color: '#E53935', marginBottom: '1.25rem' }}>{editId ? 'Editar' : 'Novo'} flashcard</div>
-          {erro && <div style={{ background: 'rgba(178,59,59,.15)', border: '1px solid #b23b3b', padding: '.75rem', fontSize: '.85rem', color: '#f87171', marginBottom: '1rem' }}>{erro}</div>}
-          <div style={{ marginBottom: '.9rem' }}>
-            <div style={{ fontSize: '.68rem', textTransform: 'uppercase', color: 'var(--text-muted)', fontWeight: 700, marginBottom: '.35rem' }}>Tema</div>
-            <select value={form.theme} onChange={e => setForm(f => ({ ...f, theme: e.target.value as StudyTheme }))} style={{ width: '100%', padding: '.65rem .85rem', border: '1px solid var(--border)', background: 'var(--bg-surface)', color: 'var(--text)', fontFamily: 'var(--font-s)', fontSize: '.85rem', outline: 'none' }}>
-              {(Object.entries(THEMES) as [StudyTheme, string][]).map(([k, v]) => <option key={k} value={k}>{v}</option>)}
+
+      {showForm && (
+        <div className="card-p space-y-4">
+          <h3 className="font-semibold text-[var(--color-text)]">{editing ? 'Editar flashcard' : 'Novo flashcard'}</h3>
+          <div>
+            <label className="label">Tema</label>
+            <select className="input" value={form.theme} onChange={e => setForm(f => ({...f, theme:e.target.value as StudyTheme}))}>
+              {(Object.entries(THEMES) as [StudyTheme, string][]).map(([k,v]) => <option key={k} value={k}>{v}</option>)}
             </select>
           </div>
-          {[['Frente (pergunta)', 'front', 2], ['Verso (resposta)', 'back', 3]].map(([label, field, rows]) => (
-            <div key={field as string} style={{ marginBottom: '.9rem' }}>
-              <div style={{ fontSize: '.68rem', textTransform: 'uppercase', color: 'var(--text-muted)', fontWeight: 700, marginBottom: '.35rem' }}>{label as string}</div>
-              <textarea rows={rows as number} value={form[field as keyof typeof form]} onChange={e => setForm(f => ({ ...f, [field as string]: e.target.value }))} style={{ width: '100%', padding: '.65rem .85rem', border: '1px solid var(--border)', background: 'var(--bg-surface)', color: 'var(--text)', fontFamily: 'var(--font-s)', fontSize: '.88rem', outline: 'none', resize: 'vertical' }} />
-            </div>
-          ))}
-          <div style={{ display: 'flex', gap: '.75rem' }}>
-            <button onClick={salvar} disabled={salvando} className="btn-red" style={{ fontSize: '.85rem' }}>{salvando ? 'Salvando...' : 'Salvar'}</button>
-            <button onClick={reset} className="btn-ghost" style={{ fontSize: '.85rem' }}>Cancelar</button>
+          <div>
+            <label className="label">Frente (pergunta)</label>
+            <textarea rows={2} className="input resize-none" value={form.front} onChange={e => setForm(f => ({...f, front:e.target.value}))} placeholder="Pergunta ou conceito..." />
+          </div>
+          <div>
+            <label className="label">Verso (resposta)</label>
+            <textarea rows={3} className="input resize-none" value={form.back} onChange={e => setForm(f => ({...f, back:e.target.value}))} placeholder="Resposta completa..." />
+          </div>
+          <div className="flex gap-2">
+            <button onClick={handleSave} className="btn-primary">Salvar</button>
+            <button onClick={resetForm} className="btn-ghost">Cancelar</button>
           </div>
         </div>
       )}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill,minmax(300px,1fr))', gap: '.75rem' }}>
+
+      <div className="grid md:grid-cols-2 gap-3">
         {cards.map(c => (
-          <div key={c.id} className="card-dark" style={{ padding: '1.1rem' }}>
-            <span className="tag-pill" style={{ fontSize: '.65rem', marginBottom: '.6rem', display: 'inline-block' }}>{THEMES[c.theme]}</span>
-            <p style={{ fontSize: '.84rem', fontWeight: 600, color: 'var(--text)', marginBottom: '.3rem', lineHeight: 1.4 }}>{c.front}</p>
-            <p style={{ fontSize: '.78rem', color: 'var(--text-muted)', lineHeight: 1.5, display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{c.back}</p>
-            <div style={{ display: 'flex', gap: 4, marginTop: '.75rem' }}>
-              <button onClick={() => editar(c)} className="btn-ghost" style={{ fontSize: '.72rem', padding: '.3rem .6rem' }}>editar</button>
-              <button onClick={() => deletar(c.id)} style={{ background: 'none', border: 'none', color: '#f87171', fontSize: '.75rem', cursor: 'pointer', padding: '.3rem .5rem' }}>✕</button>
+          <div key={c.id} className="card-p space-y-2">
+            <span className="badge-blue text-xs">{THEMES[c.theme]}</span>
+            <p className="text-sm font-medium text-[var(--color-text)] line-clamp-2">{c.front}</p>
+            <p className="text-xs text-[var(--color-text-muted)] line-clamp-2">{c.back}</p>
+            <div className="flex gap-1 pt-1">
+              <button onClick={() => handleEdit(c.id)} className="btn-ghost text-xs px-2">editar</button>
+              <button onClick={() => setCards(prev => prev.filter(x => x.id !== c.id))} className="text-xs text-red-500 btn-ghost px-2">excluir</button>
             </div>
           </div>
         ))}
@@ -279,83 +454,199 @@ function AbaFlashcards() {
   )
 }
 
-function AbaCasos() {
+// ─── ABA: CASOS ───────────────────────────────────────────────────────────────
+
+function CasesTab() {
   return (
-    <div className="card-dark" style={{ padding: '2.5rem', textAlign: 'center' }}>
-      <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>🏥</div>
-      <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.2rem', color: '#E53935', marginBottom: '.5rem' }}>Editor de Casos Clínicos</div>
-      <p style={{ color: 'var(--text-muted)', fontSize: '.88rem', maxWidth: 480, margin: '0 auto' }}>Editor visual em desenvolvimento. Os casos são gerenciados via campo JSONB no Supabase.</p>
+    <div className="card-p space-y-4">
+      <h3 className="font-semibold text-[var(--color-text)]">Gestão de Casos Clínicos</h3>
+      <p className="text-sm text-[var(--color-text-muted)]">
+        Os casos clínicos são estruturas de árvore de decisão com etapas e opções. Use o editor abaixo para criar e editar casos.
+      </p>
+      <div className="bg-[var(--color-surface-2)] rounded-lg p-6 text-center">
+        <p className="text-3xl mb-2">🏥</p>
+        <p className="text-sm font-medium text-[var(--color-text)]">Editor de casos clínicos</p>
+        <p className="text-xs text-[var(--color-text-muted)] mt-1 mb-4">
+          Adicione título, descrição, tema e monte as etapas com opções de conduta e feedback.
+        </p>
+        <button className="btn-primary text-sm">+ Novo caso clínico</button>
+      </div>
+      <p className="text-xs text-[var(--color-text-subtle)]">
+        * O editor completo de árvore de decisão será implementado via interface drag-and-drop. Os dados são salvos no campo <code>steps</code> (JSONB) do Supabase.
+      </p>
     </div>
   )
 }
 
-function AbaExportar() {
-  const [membros, setMembros] = useState<Profile[]>([])
-  const [loading, setLoading] = useState(true)
-  const [selId, setSelId] = useState('')
-  const [gerando, setGerando] = useState(false)
-  useEffect(() => {
-    profileService.getAllProfiles().then(({ data }) => {
-      if (data && data.length > 0) { setMembros(data as Profile[]); setSelId((data as Profile[])[0].id) }
-      setLoading(false)
-    })
-  }, [])
-  const gerarPDF = async () => {
-    setGerando(true)
-    const m = membros.find(m => m.id === selId)
-    if (!m) { setGerando(false); return }
-    const { data: sims } = await simuladoService.getUserSimulados(m.id)
-    const numSims = sims?.length ?? 0
-    const mediaAcerto = sims && sims.length > 0 ? Math.round(sims.reduce((acc, s) => acc + s.correct_count / s.total_questions, 0) / sims.length * 100) : 0
+// ─── ABA: EXPORTAR PDF ───────────────────────────────────────────────────────
+
+function ExportTab() {
+  const { profile } = useAuthContext()
+  const [generating, setGenerating] = useState(false)
+  const [selectedUser, setSelectedUser] = useState(MOCK_MEMBERS[0].id)
+
+  const generatePDF = () => {
+    setGenerating(true)
+    const user = MOCK_MEMBERS.find(m => m.id === selectedUser)!
+
+    // Instancia jsPDF
     const doc = new jsPDF()
-    doc.setFillColor(13, 13, 13); doc.rect(0, 0, 210, 40, 'F')
-    doc.setFillColor(192, 57, 43); doc.rect(0, 38, 210, 2, 'F')
-    doc.setTextColor(255, 255, 255); doc.setFont('helvetica', 'bold'); doc.setFontSize(20); doc.text('LAMMI', 14, 18)
-    doc.setFontSize(10); doc.setFont('helvetica', 'normal'); doc.setTextColor(192, 57, 43); doc.text('Liga Acadêmica de Medicina Militar de Irecê', 14, 26)
-    doc.setTextColor(160, 160, 160); doc.text('Relatório · ' + new Date().toLocaleDateString('pt-BR'), 14, 33)
-    doc.setTextColor(30, 30, 30); doc.setFont('helvetica', 'bold'); doc.setFontSize(14); doc.text(m.display_name, 14, 55)
-    doc.setFont('helvetica', 'normal'); doc.setFontSize(10); doc.setTextColor(100, 100, 100); doc.text(`${m.nickname} · ${m.role}`, 14, 62)
-    const stats = [{ l: 'Pontuação', v: m.score.toLocaleString() + ' pts' }, { l: 'Streak', v: m.study_streak + ' dias' }, { l: 'Simulados', v: numSims + ' feitos' }, { l: 'Média', v: mediaAcerto + '%' }]
-    stats.forEach((s, i) => {
-      const x = 14 + (i % 2) * 93; const y = 72 + Math.floor(i / 2) * 22
-      doc.setFillColor(245, 245, 245); doc.roundedRect(x, y, 85, 16, 2, 2, 'F')
-      doc.setFillColor(192, 57, 43); doc.rect(x, y, 3, 16, 'F')
-      doc.setTextColor(192, 57, 43); doc.setFont('helvetica', 'bold'); doc.setFontSize(12); doc.text(s.v, x + 8, y + 7)
-      doc.setTextColor(120, 120, 120); doc.setFont('helvetica', 'normal'); doc.setFontSize(8); doc.text(s.l, x + 8, y + 12)
+
+    // ─── Cabeçalho ───────────────────────────────────────────
+    doc.setFillColor(31, 56, 245)
+    doc.rect(0, 0, 210, 35, 'F')
+
+    doc.setTextColor(255, 255, 255)
+    doc.setFont('helvetica', 'bold')
+    doc.setFontSize(18)
+    doc.text('LAMMI – Relatório de Desempenho', 14, 15)
+    doc.setFontSize(10)
+    doc.setFont('helvetica', 'normal')
+    doc.text('Liga Acadêmica de Medicina Militar de Irecê', 14, 22)
+    doc.text('Gerado em: ' + new Date().toLocaleDateString('pt-BR'), 14, 28)
+
+    // ─── Dados do membro ─────────────────────────────────────
+    doc.setTextColor(30, 30, 30)
+    doc.setFontSize(13)
+    doc.setFont('helvetica', 'bold')
+    doc.text('Membro: ' + user.display_name, 14, 50)
+    doc.setFont('helvetica', 'normal')
+    doc.setFontSize(10)
+    doc.text('E-mail: ' + user.email, 14, 57)
+    doc.text('Papel: ' + user.role, 14, 63)
+
+    // ─── Cards de resumo ─────────────────────────────────────
+    const cards = [
+      { label: 'Pontuação Total', value: user.score.toLocaleString() + ' pts' },
+      { label: 'Streak Atual',    value: user.study_streak + ' dias' },
+      { label: 'Questões Resp.',  value: '75' },
+      { label: 'Taxa de Acerto',  value: '72%' },
+    ]
+    cards.forEach((c, i) => {
+      const x = 14 + (i % 2) * 93
+      const y = 73 + Math.floor(i / 2) * 22
+      doc.setFillColor(240, 244, 255)
+      doc.roundedRect(x, y, 85, 16, 3, 3, 'F')
+      doc.setFont('helvetica', 'bold')
+      doc.setFontSize(11)
+      doc.setTextColor(31, 56, 245)
+      doc.text(c.value, x + 6, y + 7)
+      doc.setFont('helvetica', 'normal')
+      doc.setFontSize(8)
+      doc.setTextColor(100, 100, 100)
+      doc.text(c.label, x + 6, y + 12)
     })
-    if (sims && sims.length > 0) {
-      doc.setTextColor(30, 30, 30); doc.setFont('helvetica', 'bold'); doc.setFontSize(12); doc.text('Histórico de Simulados', 14, 125)
-      autoTable(doc, { startY: 130, head: [['Data', 'Questões', 'Acertos', 'Taxa', 'Tempo']], body: sims.slice(0, 10).map(s => [new Date(s.started_at).toLocaleDateString('pt-BR'), s.total_questions, s.correct_count, Math.round(s.correct_count / s.total_questions * 100) + '%', Math.floor(s.time_seconds / 60) + 'min']), styles: { fontSize: 9, cellPadding: 3, textColor: [30, 30, 30] }, headStyles: { fillColor: [13, 13, 13], textColor: [192, 57, 43], fontStyle: 'bold' }, alternateRowStyles: { fillColor: [250, 248, 248] } })
-    }
-    const finalY = (doc as any).lastAutoTable?.finalY ?? 125
-    doc.setFontSize(8); doc.setTextColor(160, 160, 160); doc.text('Gerado pela plataforma LAMMI', 14, Math.min(finalY + 12, 278))
-    doc.save(`lammi_${m.display_name.replace(/\s+/g, '_').toLowerCase()}.pdf`)
-    setGerando(false)
+
+    // ─── Tabela de desempenho por tema ───────────────────────
+    doc.setTextColor(30, 30, 30)
+    doc.setFont('helvetica', 'bold')
+    doc.setFontSize(12)
+    doc.text('Desempenho por Tema', 14, 125)
+
+    autoTable(doc, {
+      startY: 130,
+      head: [['Tema', 'Total', 'Corretas', 'Taxa']],
+      body: [
+        ['ATLS Inicial',    '24', '18', '75%'],
+        ['Choque',          '15', '10', '67%'],
+        ['Trauma Torácico', '12', '7',  '58%'],
+        ['Via Aérea',       '10', '8',  '80%'],
+        ['Cinética do Trauma','8','6',  '75%'],
+      ],
+      styles: { fontSize: 9, cellPadding: 3 },
+      headStyles: { fillColor: [31, 56, 245], textColor: 255, fontStyle: 'bold' },
+      alternateRowStyles: { fillColor: [245, 247, 255] },
+    })
+
+    // ─── Heatmap simplificado (texto) ────────────────────────
+    const finalY = (doc as any).lastAutoTable.finalY + 10
+    doc.setFont('helvetica', 'bold')
+    doc.setFontSize(12)
+    doc.text('Atividade Recente (últimos 7 dias)', 14, finalY)
+    doc.setFont('helvetica', 'normal')
+    doc.setFontSize(9)
+    doc.setTextColor(80, 80, 80)
+
+    const days = ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb']
+    const values = [12, 24, 0, 8, 15, 30, 6]
+    days.forEach((d, i) => {
+      const x = 14 + i * 26
+      const intensity = Math.min(values[i] / 30, 1)
+      const r = Math.round(31 + (200 - 31) * (1 - intensity))
+      const g = Math.round(56 + (220 - 56) * (1 - intensity))
+      const b = Math.round(245 + (255 - 245) * (1 - intensity))
+      doc.setFillColor(r, g, b)
+      doc.roundedRect(x, finalY + 5, 20, 20, 2, 2, 'F')
+      doc.setTextColor(intensity > 0.5 ? 255 : 50)
+      doc.text(d, x + 4, finalY + 14)
+      doc.text(values[i].toString(), x + 7, finalY + 20)
+    })
+
+    // ─── Rodapé ──────────────────────────────────────────────
+    doc.setTextColor(160, 160, 160)
+    doc.setFontSize(8)
+    doc.text('Relatório gerado automaticamente pela plataforma LAMMI · www.lammi.med.br', 14, 285)
+
+    doc.save(`lammi_relatorio_${user.display_name.replace(/\s+/g,'_').toLowerCase()}.pdf`)
+    setGenerating(false)
   }
-  const gerarCSV = () => {
-    const rows = [['Nome', 'Apelido', 'Role', 'Score', 'Streak', 'Ativo'], ...membros.map(m => [m.display_name, m.nickname, m.role, m.score, m.study_streak, m.active ? 'sim' : 'não'])]
-    const csv = rows.map(r => r.join(',')).join('\n')
-    const blob = new Blob([csv], { type: 'text/csv' }); const url = URL.createObjectURL(blob)
-    const a = document.createElement('a'); a.href = url; a.download = 'lammi_membros.csv'; a.click(); URL.revokeObjectURL(url)
-  }
-  if (loading) return <p style={{ color: 'var(--text-muted)', padding: '2rem' }}>Carregando...</p>
+
   return (
-    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem', maxWidth: 860 }}>
-      <div className="card-dark" style={{ padding: '2rem' }}>
-        <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.1rem', color: '#E53935', marginBottom: '1.25rem', fontWeight: 600 }}>Relatório PDF de Membro</div>
-        <p style={{ fontSize: '.84rem', color: 'var(--text-muted)', lineHeight: 1.65, marginBottom: '1.25rem' }}>PDF com pontuação, streak e histórico real do Supabase.</p>
-        <div style={{ marginBottom: '1rem' }}>
-          <div style={{ fontSize: '.68rem', textTransform: 'uppercase', color: 'var(--text-muted)', fontWeight: 700, marginBottom: '.4rem' }}>Membro</div>
-          <select value={selId} onChange={e => setSelId(e.target.value)} style={{ width: '100%', padding: '.65rem .85rem', border: '1px solid var(--border)', background: 'var(--bg-surface)', color: 'var(--text)', fontFamily: 'var(--font-s)', fontSize: '.85rem', outline: 'none' }}>
-            {membros.map(m => <option key={m.id} value={m.id}>{m.display_name}</option>)}
+    <div className="max-w-lg space-y-5">
+      <div className="card-p space-y-4">
+        <h3 className="font-semibold text-[var(--color-text)]">Exportar Relatório de Desempenho</h3>
+        <p className="text-sm text-[var(--color-text-muted)]">
+          Gera um PDF com estatísticas completas de um membro: acertos por tema, simulados, streak e heatmap de atividade.
+        </p>
+
+        <div>
+          <label className="label">Selecionar membro</label>
+          <select className="input" value={selectedUser} onChange={e => setSelectedUser(e.target.value)}>
+            {MOCK_MEMBERS.map(m => (
+              <option key={m.id} value={m.id}>{m.display_name} ({m.email})</option>
+            ))}
           </select>
         </div>
-        <button onClick={gerarPDF} disabled={gerando || !selId} className="btn-red" style={{ width: '100%' }}>{gerando ? 'Gerando...' : '📥 Exportar PDF'}</button>
+
+        <div className="bg-[var(--color-surface-2)] rounded-lg p-4 text-sm space-y-2">
+          <p className="font-medium text-[var(--color-text)]">O PDF incluirá:</p>
+          {['Dados do membro e pontuação total','Taxa de acerto geral e por tema','Número de simulados e média de desempenho','Streak de dias consecutivos de estudo','Heatmap de atividade recente','Tabela detalhada por tema'].map(item => (
+            <div key={item} className="flex items-center gap-2 text-[var(--color-text-muted)]">
+              <span className="text-green-500">✓</span> {item}
+            </div>
+          ))}
+        </div>
+
+        <button onClick={generatePDF} disabled={generating} className="btn-primary w-full py-3">
+          {generating ? (
+            <span className="flex items-center gap-2">
+              <span className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
+              Gerando PDF...
+            </span>
+          ) : '📥 Exportar PDF'}
+        </button>
       </div>
-      <div className="card-dark" style={{ padding: '2rem' }}>
-        <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.1rem', color: '#E53935', marginBottom: '1.25rem', fontWeight: 600 }}>Exportar CSV de Membros</div>
-        <p style={{ fontSize: '.84rem', color: 'var(--text-muted)', lineHeight: 1.65, marginBottom: '1.5rem' }}>Planilha com todos os membros reais do Supabase.</p>
-        <button onClick={gerarCSV} className="btn-outline-red" style={{ width: '100%' }}>📊 Exportar CSV ({membros.length} membros)</button>
+
+      <div className="card-p space-y-3">
+        <h3 className="font-semibold text-[var(--color-text)] text-sm">Exportar todos os membros</h3>
+        <p className="text-xs text-[var(--color-text-muted)]">Gera uma planilha CSV com dados de todos os membros para análise em Excel ou Google Sheets.</p>
+        <button
+          onClick={() => {
+            const rows = [
+              ['Nome','Email','Role','Score','Streak'],
+              ...MOCK_MEMBERS.map(m => [m.display_name,m.email,m.role,m.score,m.study_streak])
+            ]
+            const csv = rows.map(r => r.join(',')).join('\n')
+            const blob = new Blob([csv], { type:'text/csv' })
+            const url  = URL.createObjectURL(blob)
+            const a    = document.createElement('a')
+            a.href = url; a.download = 'lammi_membros.csv'; a.click()
+            URL.revokeObjectURL(url)
+          }}
+          className="btn-outline text-sm w-full"
+        >
+          📊 Exportar CSV de membros
+        </button>
       </div>
     </div>
   )

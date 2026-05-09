@@ -1,4 +1,6 @@
 import { useMemo, useState, useEffect } from 'react'
+import jsPDF from 'jspdf'
+import autoTable from 'jspdf-autotable'
 import { MOCK_QUESTIONS, MOCK_STUDY_HEATMAP } from '@/data/mockData'
 import { THEMES, StudyTheme, SimuladoRecord } from '@/services/supabaseClient'
 import { Heatmap } from '@/components/common/Heatmap'
@@ -35,31 +37,124 @@ export function DashboardPage() {
   const { historico } = useStudyContext()
   const { user }      = useAuthContext()
 
-  const [aba,            setAba]            = useState<Aba>('stats')
-  const [simulados,      setSimulados]      = useState<SimuladoRecord[]>([])
-  const [loadingSimul,   setLoadingSimul]   = useState(false)
-  const [heatmapData,    setHeatmapData]    = useState<{ date: string; count: number }[]>([])
-  const [streakReal,     setStreakReal]      = useState<number | null>(null)
+  const [aba,          setAba]          = useState<Aba>('stats')
+  const [simulados,    setSimulados]    = useState<SimuladoRecord[]>([])
+  const [loadingSimul, setLoadingSimul] = useState(false)
+  const [heatmapData,  setHeatmapData]  = useState<{ date: string; count: number }[]>([])
+  const [streakReal,   setStreakReal]    = useState<number | null>(null)
   const [simuladoAberto, setSimuladoAberto] = useState<SimuladoRecord | null>(null)
+  const [gerando, setGerando] = useState(false)
+
+  const exportarPDF = () => {
+    setGerando(true)
+    try {
+      const doc = new jsPDF()
+
+      // Cabeçalho vermelho
+      doc.setFillColor(192, 57, 43)
+      doc.rect(0, 0, 210, 32, 'F')
+      doc.setTextColor(255, 255, 255)
+      doc.setFont('helvetica', 'bold')
+      doc.setFontSize(16)
+      doc.text('LAMMI – Relatório de Desempenho', 14, 14)
+      doc.setFontSize(9)
+      doc.setFont('helvetica', 'normal')
+      doc.text('Liga Acadêmica de Medicina Militar de Irecê', 14, 21)
+      doc.text('Gerado em: ' + new Date().toLocaleDateString('pt-BR'), 14, 27)
+
+      // Nome
+      doc.setTextColor(30, 30, 30)
+      doc.setFont('helvetica', 'bold')
+      doc.setFontSize(12)
+      doc.text('Membro: ' + (profile?.display_name ?? user?.email ?? '—'), 14, 46)
+
+      // KPIs
+      const kpis = [
+        { lbl: 'Respondidas', val: String(respondidas) },
+        { lbl: 'Acertos',     val: String(acertos)     },
+        { lbl: 'Erros',       val: String(respondidas - acertos) },
+        { lbl: 'Aproveit.',   val: respondidas > 0 ? pct + '%' : '—' },
+      ]
+      kpis.forEach((k, i) => {
+        const x = 14 + (i % 2) * 93
+        const y = 54 + Math.floor(i / 2) * 20
+        doc.setFillColor(245, 245, 245)
+        doc.roundedRect(x, y, 85, 14, 2, 2, 'F')
+        doc.setFont('helvetica', 'bold')
+        doc.setFontSize(11)
+        doc.setTextColor(192, 57, 43)
+        doc.text(k.val, x + 6, y + 6)
+        doc.setFont('helvetica', 'normal')
+        doc.setFontSize(7)
+        doc.setTextColor(100, 100, 100)
+        doc.text(k.lbl, x + 6, y + 11)
+      })
+
+      // Tabela por tema
+      doc.setTextColor(30, 30, 30)
+      doc.setFont('helvetica', 'bold')
+      doc.setFontSize(11)
+      doc.text('Desempenho por Tema', 14, 100)
+
+      const rows = (Object.entries(THEMES) as [string, string][])
+        .map(([k, v]) => {
+          const entries = Object.entries(historico).filter(([id]) =>
+            MOCK_QUESTIONS.find(q => String(q.id) === String(id))?.theme === k
+          )
+          const tot = entries.length
+          const ac  = entries.filter(([, h]: any) => h.acertou).length
+          return [v, String(tot), String(ac), tot > 0 ? Math.round(ac / tot * 100) + '%' : '—']
+        })
+        .filter(r => r[1] !== '0')
+
+      autoTable(doc, {
+        startY: 104,
+        head: [['Tema', 'Respondidas', 'Acertos', 'Taxa']],
+        body: rows,
+        styles: { fontSize: 9, cellPadding: 3 },
+        headStyles: { fillColor: [192, 57, 43], textColor: 255, fontStyle: 'bold' },
+        alternateRowStyles: { fillColor: [250, 248, 248] },
+      })
+
+      // Rodapé
+      doc.setTextColor(180, 180, 180)
+      doc.setFontSize(7)
+      doc.text('Relatório gerado pela plataforma LAMMI · lammi-ruddy.vercel.app', 14, 285)
+
+      const nome = (profile?.display_name ?? 'membro').replace(/\s+/g, '_').toLowerCase()
+      doc.save('lammi_desempenho_' + nome + '.pdf')
+    } finally {
+      setGerando(false)
+    }
+  }
 
   const respondidas = Object.keys(historico).length
   const acertos     = Object.values(historico).filter((h: any) => h.acertou).length
   const pct         = respondidas > 0 ? Math.round(acertos / respondidas * 100) : 0
 
+  // ─── Carrega dados do Supabase se logado ──────────────────
   useEffect(() => {
     if (!user) return
+
+    // Histórico de simulados
     setLoadingSimul(true)
     simuladoService.getUserSimulados(user.id).then(({ data }) => {
       if (data) setSimulados(data as SimuladoRecord[])
       setLoadingSimul(false)
     })
+
+    // Heatmap real
     studyLogService.getHeatmapData(user.id).then(data => {
       if (data.length > 0) setHeatmapData(data)
     })
+
+    // Streak real
     studyLogService.getStreak(user.id).then(s => setStreakReal(s))
   }, [user])
 
+  // heatmapObjects is always {date, count}[] — used for <Heatmap> component
   const heatmapObjects = heatmapData.length > 0 ? heatmapData : MOCK_STUDY_HEATMAP
+  // streak uses date strings — computeStreak accepts string[]
   const streak = streakReal !== null ? streakReal : computeStreak(heatmapObjects.map(d => d.date))
 
   const porTema = useMemo(() => {
@@ -73,6 +168,7 @@ export function DashboardPage() {
     return r
   }, [historico])
 
+  // ─── Detalhe de um simulado ────────────────────────────────
   if (simuladoAberto) {
     const acertosS = simuladoAberto.correct_count
     const totalS   = simuladoAberto.total_questions
@@ -97,6 +193,7 @@ export function DashboardPage() {
               ))}
             </div>
           </div>
+
           <div className="card-dark" style={{ padding: '1.75rem' }}>
             <div style={{ fontFamily: 'var(--font-d)', fontSize: '1rem', color: '#E53935', marginBottom: '1.25rem', fontWeight: 600 }}>Questões</div>
             {simuladoAberto.question_results.map((qr, i) => {
@@ -132,7 +229,19 @@ export function DashboardPage() {
     <section style={{ padding: '4rem 2rem', background: '#0D0D0D' }}>
       <div style={{ maxWidth: 960, margin: '0 auto' }}>
         <div className="accent-bar" />
-        <h2 style={{ fontFamily: 'var(--font-d)', fontSize: '2rem', color: 'white', marginBottom: '.4rem' }}>Dashboard</h2>
+        <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', flexWrap: 'wrap', gap: '1rem' }}>
+          <h2 style={{ fontFamily: 'var(--font-d)', fontSize: '2rem', color: 'white', marginBottom: '.4rem' }}>Dashboard</h2>
+          {respondidas > 0 && (
+            <button
+              onClick={exportarPDF}
+              disabled={gerando}
+              className="btn-ghost"
+              style={{ fontSize: '.78rem', padding: '.45rem 1rem', flexShrink: 0 }}
+            >
+              {gerando ? '⏳ Gerando...' : '📄 Exportar PDF'}
+            </button>
+          )}
+        </div>
         <p style={{ color: 'var(--text-muted)', fontSize: '.88rem', marginBottom: '1.5rem' }}>
           {respondidas} de {MOCK_QUESTIONS.length} questões respondidas
           {!user && ' · Faça login para sincronizar progresso'}
@@ -197,21 +306,24 @@ export function DashboardPage() {
                   <Heatmap data={heatmapObjects} weeks={52} />
                 </div>
 
-                {/* Por Dificuldade */}
+
                 <div className="dash-card" style={{ marginBottom: '1.5rem' }}>
                   <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.1rem', color: '#E53935', marginBottom: '1.25rem', fontWeight: 600 }}>Por Dificuldade</div>
                   {(['facil', 'medio', 'dificil'] as const).map(nivel => {
-                    const entries    = Object.entries(historico).filter(([id]) => MOCK_QUESTIONS.find(q => String(q.id) === String(id))?.difficulty === nivel)
-                    const total      = entries.length
-                    const ac         = entries.filter(([, h]: any) => h.acertou).length
-                    const pctN       = total > 0 ? Math.round(ac / total * 100) : 0
+                    const entries = Object.entries(historico).filter(([id]) => {
+                      const q = MOCK_QUESTIONS.find(q => String(q.id) === String(id))
+                      return q?.difficulty === nivel
+                    })
+                    const total  = entries.length
+                    const ac     = entries.filter(([, h]: any) => h.acertou).length
+                    const pctN   = total > 0 ? Math.round(ac / total * 100) : 0
                     const totalBanco = MOCK_QUESTIONS.filter(q => q.difficulty === nivel).length
-                    const label      = nivel === 'facil' ? 'Fácil' : nivel === 'medio' ? 'Médio' : 'Difícil'
-                    const col        = nivel === 'facil' ? '#4ade80' : nivel === 'medio' ? '#facc15' : '#f87171'
+                    const label  = nivel === 'facil' ? 'Fácil' : nivel === 'medio' ? 'Médio' : 'Difícil'
+                    const col    = nivel === 'facil' ? '#4ade80' : nivel === 'medio' ? '#facc15' : '#f87171'
                     if (total === 0) return null
                     return (
                       <div key={nivel} style={{ marginBottom: '.9rem' }}>
-                        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '.3rem', fontSize: '.83rem' }}>
+                        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '.3rem', fontSize: '.83rem', color: 'var(--text)' }}>
                           <span style={{ color: col, fontWeight: 600 }}>{label}</span>
                           <span style={{ color: col, fontWeight: 700 }}>{pctN}%</span>
                         </div>
@@ -224,14 +336,13 @@ export function DashboardPage() {
                   })}
                 </div>
 
-                {/* Metas */}
                 <div className="dash-card" style={{ marginBottom: '1.5rem' }}>
                   <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.1rem', color: '#E53935', marginBottom: '1.25rem', fontWeight: 600 }}>Metas</div>
                   {[
-                    { meta: 10,  label: '10 questões respondidas'  },
-                    { meta: 50,  label: '50 questões respondidas'  },
-                    { meta: 100, label: '100 questões respondidas' },
-                    { meta: 300, label: '300 questões respondidas' },
+                    { meta: 10,   label: '10 questões respondidas'    },
+                    { meta: 50,   label: '50 questões respondidas'    },
+                    { meta: 100,  label: '100 questões respondidas'   },
+                    { meta: 300,  label: '300 questões respondidas'   },
                     { meta: MOCK_QUESTIONS.length, label: 'Banco completo!' },
                   ].map(({ meta, label }) => {
                     const atingiu = respondidas >= meta
@@ -239,13 +350,13 @@ export function DashboardPage() {
                       <div key={meta} style={{ display: 'flex', alignItems: 'center', gap: '.75rem', padding: '.5rem 0', borderBottom: '1px solid rgba(192,57,43,.08)' }}>
                         <span style={{ fontSize: '1.1rem' }}>{atingiu ? '✅' : '⏳'}</span>
                         <span style={{ fontSize: '.84rem', color: atingiu ? '#4ade80' : 'var(--text-muted)', fontWeight: atingiu ? 600 : 400 }}>{label}</span>
-                        {!atingiu && <span style={{ marginLeft: 'auto', fontSize: '.72rem', color: 'var(--text-dim)' }}>{respondidas}/{meta}</span>}
+                        {!atingiu && (
+                          <span style={{ marginLeft: 'auto', fontSize: '.72rem', color: 'var(--text-dim)' }}>{respondidas}/{meta}</span>
+                        )}
                       </div>
                     )
                   })}
                 </div>
-
-                {/* Por Tema */}
                 <div className="dash-card">
                   <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.1rem', color: '#E53935', marginBottom: '1.25rem', fontWeight: 600 }}>Por Tema</div>
                   {(Object.entries(THEMES) as [string, string][]).map(([k, v]) => {
@@ -270,6 +381,7 @@ export function DashboardPage() {
           </>
         )}
 
+
         {/* ── ABA QUESTÕES ── */}
         {aba === 'questoes' && (
           <>
@@ -287,7 +399,7 @@ export function DashboardPage() {
                   Últimas questões respondidas
                 </div>
                 {Object.entries(historico)
-                  .sort((a, b) => new Date((b[1] as any).em).getTime() - new Date((a[1] as any).em).getTime())
+                  .sort((a, b) => new Date(b[1].em).getTime() - new Date(a[1].em).getTime())
                   .slice(0, 100)
                   .map(([id, h]: any) => {
                     const q = MOCK_QUESTIONS.find(q => String(q.id) === String(id))
@@ -342,7 +454,9 @@ export function DashboardPage() {
                       style={{ display: 'flex', alignItems: 'center', gap: '1.25rem', background: 'var(--bg-card)', border: '1px solid var(--border)', padding: '1.25rem 1.5rem', cursor: 'pointer', textAlign: 'left', transition: 'all .2s', width: '100%' }}
                       onMouseEnter={e => { (e.currentTarget as HTMLElement).style.borderColor = '#E53935' }}
                       onMouseLeave={e => { (e.currentTarget as HTMLElement).style.borderColor = 'var(--border)' }}>
-                      <div style={{ fontFamily: 'var(--font-d)', fontSize: '2rem', fontWeight: 700, color: col, minWidth: 70 }}>{pctS}%</div>
+                      <div style={{ fontFamily: 'var(--font-d)', fontSize: '2rem', fontWeight: 700, color: col, minWidth: 70 }}>
+                        {pctS}%
+                      </div>
                       <div style={{ flex: 1, minWidth: 0 }}>
                         <div style={{ fontSize: '.85rem', color: 'var(--text)', fontWeight: 600, marginBottom: '.3rem' }}>
                           {s.correct_count}/{s.total_questions} corretas · {formatDuracao(s.time_seconds)}
