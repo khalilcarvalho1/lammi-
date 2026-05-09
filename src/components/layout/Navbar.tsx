@@ -215,26 +215,17 @@ export function Navbar({ darkMode, setDarkMode }: NavbarProps) {
 
 export function LogoIcon({ size = 44 }: { size?: number }) {
   return (
-    <div style={{ width: size, height: size, borderRadius: '50%', background: '#0D0D0D', border: '2px solid #C0392B', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, overflow: 'hidden' }}>
-      <svg width={size * 0.82} height={size * 0.82} viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <polygon points="50,5 61,28 89,28 67,45 75,70 50,55 25,70 33,45 11,28 39,28" fill="#C0392B" stroke="#8B0000" strokeWidth="1.5"/>
-        <rect x="43" y="20" width="14" height="60" rx="2" fill="rgba(255,255,255,0.08)"/>
-        <rect x="20" y="43" width="60" height="14" rx="2" fill="rgba(255,255,255,0.08)"/>
-        <ellipse cx="50" cy="46" rx="14" ry="13" fill="#e8e0d0"/>
-        <rect x="40" y="56" width="20" height="9" rx="2" fill="#d4c8b8"/>
-        <rect x="42" y="59" width="4" height="5" rx="1" fill="#f5f0e8"/>
-        <rect x="48" y="59" width="4" height="5" rx="1" fill="#f5f0e8"/>
-        <rect x="54" y="59" width="4" height="5" rx="1" fill="#f5f0e8"/>
-        <ellipse cx="44" cy="44" rx="4" ry="4.5" fill="#1a1a1a"/>
-        <ellipse cx="56" cy="44" rx="4" ry="4.5" fill="#1a1a1a"/>
-        <path d="M48,50 L50,54 L52,50 Z" fill="#1a1a1a"/>
-        <path d="M50,28 C38,20 30,35 40,46 C50,55 58,48 56,60 C54,70 46,72 50,80" fill="none" stroke="#2d5a1a" strokeWidth="3" strokeLinecap="round"/>
-        <path d="M50,28 C38,20 30,35 40,46 C50,55 58,48 56,60 C54,70 46,72 50,80" fill="none" stroke="#4a8a2a" strokeWidth="2" strokeLinecap="round" strokeDasharray="3,5"/>
-        <ellipse cx="48" cy="24" rx="4" ry="3" fill="#2d5a1a" transform="rotate(-20,48,24)"/>
-        <path d="M44,20 L40,17 M44,20 L41,23" fill="none" stroke="#C0392B" strokeWidth="1" strokeLinecap="round"/>
-        <circle cx="47" cy="23" r="1" fill="#ffcc00"/>
-      </svg>
-    </div>
+    <img
+      src="/logo.png"
+      alt="LAMMI"
+      style={{
+        width: size,
+        height: size,
+        borderRadius: '50%',
+        objectFit: 'cover',
+        flexShrink: 0,
+      }}
+    />
   )
 }
 
