@@ -9,16 +9,16 @@ interface NavbarProps {
 }
 
 const NAV_ITEMS = [
-  { id: 'home',       label: 'Início'     },
-  { id: 'banco',      label: 'Banco'      },
-  { id: 'flashcards', label: 'Cards'      },
-  { id: 'simulado',   label: 'Simulado'   },
-  { id: 'aulas',      label: 'Aulas'      },
-  { id: 'casos',      label: 'Casos'      },
-  { id: 'diretrizes', label: 'Diretrizes' },
-  { id: 'ranking',    label: 'Ranking'    },
-  { id: 'dashboard',  label: 'Stats'      },
-  { id: 'sobre',      label: 'Sobre'      },
+  { id: 'home',       path: '/',           label: 'Início'     },
+  { id: 'banco',      path: '/banco',      label: 'Banco'      },
+  { id: 'flashcards', path: '/flashcards', label: 'Cards'      },
+  { id: 'simulado',   path: '/simulado',   label: 'Simulado'   },
+  { id: 'aulas',      path: '/aulas',      label: 'Aulas'      },
+  { id: 'casos',      path: '/casos',      label: 'Casos'      },
+  { id: 'diretrizes', path: '/diretrizes', label: 'Diretrizes' },
+  { id: 'ranking',    path: '/ranking',    label: 'Ranking'    },
+  { id: 'dashboard',  path: '/dashboard',  label: 'Stats'      },
+  { id: 'sobre',      path: '/sobre',      label: 'Sobre'      },
 ]
  
 
