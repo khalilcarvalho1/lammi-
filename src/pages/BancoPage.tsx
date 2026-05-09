@@ -118,6 +118,7 @@ export function BancoPage() {
   const [filtroTemas,  setFiltroTemas]  = useState<Set<StudyTheme>>(new Set())
   const [filtroNiveis, setFiltroNiveis] = useState<Set<string>>(new Set())
   const [filtroRes,    setFiltroRes]    = useState('todas')
+  const [busca,        setBusca]        = useState('')
   const [idx,          setIdx]          = useState(0)
   const [feedback,     setFeedback]     = useState(false)
   const [sel,          setSel]          = useState<string | null>(null)
@@ -131,7 +132,10 @@ export function BancoPage() {
   // ─── Questões ──────────────────────────────────────────────
   // Usa mock localmente; quando o Supabase tiver questões, basta trocar MOCK_QUESTIONS
   // pela chamada questionsService.getPage(page, filters)
-  const filtradas = useMemo(() => MOCK_QUESTIONS.filter(q => {
+  const filtradas = useMemo(() => {
+    const buscaLower = busca.trim().toLowerCase()
+    return MOCK_QUESTIONS.filter(q => {
+      if (buscaLower && !q.statement.toLowerCase().includes(buscaLower) && !(q.explanation ?? '').toLowerCase().includes(buscaLower)) return false
     if (filtroRes === 'respondidas'     && !historico[q.id])                              return false
     if (filtroRes === 'nao_respondidas' && historico[q.id])                               return false
     if (filtroRes === 'erradas'         && (!historico[q.id] || historico[q.id].acertou)) return false
@@ -139,9 +143,10 @@ export function BancoPage() {
     if (filtroTemas.size > 0  && !filtroTemas.has(q.theme))       return false
     if (filtroNiveis.size > 0 && !filtroNiveis.has(q.difficulty)) return false
     return true
-  }), [filtroTemas, filtroNiveis, filtroRes, historico, marcadas])
+    })
+  }, [filtroTemas, filtroNiveis, filtroRes, historico, marcadas, busca])
 
-  useEffect(() => { setIdx(0); setFeedback(false); setSel(null) }, [filtroTemas, filtroNiveis, filtroRes])
+  useEffect(() => { setIdx(0); setFeedback(false); setSel(null); }, [filtroTemas, filtroNiveis, filtroRes, busca])
   useEffect(() => { setSel(null); setFeedback(false); setComentarios([]) }, [idx])
 
   const q        = filtradas[idx] ?? null
@@ -255,6 +260,29 @@ export function BancoPage() {
         </div>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.5rem', alignItems: 'start' }}>
+
+          {/* ── Busca por texto ── */}
+          <div style={{ marginBottom: '1rem' }}>
+            <input
+              type="text"
+              value={busca}
+              onChange={e => setBusca(e.target.value)}
+              placeholder="🔍 Buscar no enunciado..."
+              style={{
+                width: '100%', padding: '.55rem .85rem',
+                background: 'var(--bg-surface)', border: '1px solid rgba(192,57,43,.25)',
+                color: 'var(--text)', fontFamily: 'var(--font-s)', fontSize: '.83rem',
+                outline: 'none', boxSizing: 'border-box',
+              }}
+              onFocus={e => e.currentTarget.style.borderColor = '#E53935'}
+              onBlur={e  => e.currentTarget.style.borderColor = 'rgba(192,57,43,.25)'}
+            />
+            {busca.trim() && (
+              <div style={{ fontSize: '.72rem', color: 'var(--text-muted)', marginTop: '.35rem' }}>
+                {filtradas.length} resultado{filtradas.length !== 1 ? 's' : ''} para "{busca}"
+              </div>
+            )}
+          </div>
 
           {/* ── Filtros ── */}
           <aside className="card-dark" style={{ padding: '1.5rem', position: 'sticky', top: '1rem' }}>
