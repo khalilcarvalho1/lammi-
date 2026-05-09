@@ -39,7 +39,7 @@ export const questionsService = {
     return supabase.from('questions').delete().eq('id', id)
   },
 
-  // Comentários
+  // ─── Comentários ───────────────────────────────────────────
   async getComments(questionId: string) {
     return supabase
       .from('question_comments')
@@ -57,19 +57,22 @@ export const questionsService = {
   },
 
   async updateComment(commentId: string, content: string) {
-    return supabase.from('question_comments').update({ content, updated_at: new Date().toISOString() }).eq('id', commentId)
+    return supabase
+      .from('question_comments')
+      .update({ content, updated_at: new Date().toISOString() })
+      .eq('id', commentId)
   },
 
   async deleteComment(commentId: string) {
     return supabase.from('question_comments').delete().eq('id', commentId)
   },
 
-  // Progresso
+  // ─── Progresso do usuário ──────────────────────────────────
   async recordAnswer(userId: string, questionId: string, chosenKey: string, correct: boolean) {
     return supabase.from('user_question_progress').upsert({
-      user_id: userId,
+      user_id:     userId,
       question_id: questionId,
-      chosen_key: chosenKey,
+      chosen_key:  chosenKey,
       correct,
       answered_at: new Date().toISOString(),
     })
@@ -79,6 +82,14 @@ export const questionsService = {
     return supabase
       .from('user_question_progress')
       .select('question_id, correct, chosen_key, answered_at')
+      .eq('user_id', userId)
+  },
+
+  // Apaga todo o progresso do usuário (usado no reset de progresso)
+  async deleteUserProgress(userId: string) {
+    return supabase
+      .from('user_question_progress')
+      .delete()
       .eq('user_id', userId)
   },
 }
