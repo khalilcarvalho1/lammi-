@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useCallback } from 'react'
+import { useState, useEffect, useMemo, useCallback, useRef } from 'react'
 import { useAuthContext } from '@/contexts/AuthContext'
 import { useStudyContext } from '@/contexts/StudyContext'
 import { useTimer } from '@/hooks/useTimer'
@@ -6,6 +6,89 @@ import { MOCK_QUESTIONS } from '@/data/mockData'
 import { THEMES, StudyTheme, Difficulty, Question } from '@/services/supabaseClient'
 import { questionsService } from '@/services/questionsService'
 import { studyLogService } from '@/services/studyLogService'
+
+// ─── Anotação pessoal por questão ─────────────────────────────
+function AnotacaoQuestao({ questionId }: { questionId: string }) {
+  const key = `lammi_nota_${questionId}`
+  const [texto,    setTexto]    = useState(() => localStorage.getItem(key) || '')
+  const [editando, setEditando] = useState(false)
+  const [draft,    setDraft]    = useState('')
+  const textareaRef = useRef<HTMLTextAreaElement>(null)
+
+  useEffect(() => {
+    setTexto(localStorage.getItem(`lammi_nota_${questionId}`) || '')
+    setEditando(false)
+  }, [questionId])
+
+  const abrirEditor = () => {
+    setDraft(texto)
+    setEditando(true)
+    setTimeout(() => textareaRef.current?.focus(), 50)
+  }
+
+  const salvar = () => {
+    const valor = draft.trim()
+    localStorage.setItem(key, valor)
+    setTexto(valor)
+    setEditando(false)
+  }
+
+  // stopPropagation: evita que atalhos do BancoPage disparem dentro do textarea
+  const stopPropagation = (e: React.KeyboardEvent) => e.stopPropagation()
+
+  if (editando) return (
+    <div style={{ marginTop: '1rem', padding: '1rem', background: 'rgba(201,169,97,.06)', border: '1px solid rgba(201,169,97,.2)' }}>
+      <div style={{ fontSize: '.68rem', textTransform: 'uppercase', letterSpacing: '.1em', color: 'rgba(201,169,97,.7)', fontWeight: 700, marginBottom: '.5rem' }}>
+        ✏️ Minha anotação
+      </div>
+      <textarea
+        ref={textareaRef}
+        value={draft}
+        onChange={e => setDraft(e.target.value)}
+        onKeyDown={stopPropagation}
+        placeholder="Escreva sua anotação pessoal sobre esta questão..."
+        rows={4}
+        style={{
+          width: '100%', padding: '.65rem .85rem', resize: 'vertical',
+          background: 'var(--bg-surface)', border: '1px solid rgba(201,169,97,.25)',
+          color: 'var(--text)', fontFamily: 'var(--font-s)', fontSize: '.85rem',
+          lineHeight: 1.6, outline: 'none', boxSizing: 'border-box',
+        }}
+      />
+      <div style={{ display: 'flex', gap: '.5rem', marginTop: '.5rem' }}>
+        <button className="btn-red" style={{ fontSize: '.78rem', padding: '.4rem 1rem' }} onClick={salvar}>Salvar</button>
+        <button className="btn-ghost" style={{ fontSize: '.78rem', padding: '.4rem 1rem' }} onClick={() => setEditando(false)}>Cancelar</button>
+      </div>
+    </div>
+  )
+
+  if (texto) return (
+    <div style={{ marginTop: '1rem', padding: '1rem', background: 'rgba(201,169,97,.06)', border: '1px solid rgba(201,169,97,.2)' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '.4rem' }}>
+        <div style={{ fontSize: '.68rem', textTransform: 'uppercase', letterSpacing: '.1em', color: 'rgba(201,169,97,.7)', fontWeight: 700 }}>
+          📝 Minha anotação
+        </div>
+        <button onClick={abrirEditor} style={{ background: 'none', border: 'none', color: 'rgba(201,169,97,.6)', cursor: 'pointer', fontSize: '.75rem', padding: '0 .25rem' }}>
+          ✏️ Editar
+        </button>
+      </div>
+      <p style={{ fontSize: '.85rem', color: 'var(--text)', lineHeight: 1.65, whiteSpace: 'pre-wrap', margin: 0 }}>{texto}</p>
+    </div>
+  )
+
+  return (
+    <button onClick={abrirEditor}
+      style={{
+        marginTop: '1rem', width: '100%', padding: '.6rem 1rem',
+        border: '1px dashed rgba(201,169,97,.25)', background: 'transparent',
+        color: 'rgba(201,169,97,.45)', fontSize: '.78rem', cursor: 'pointer',
+        textAlign: 'left', fontFamily: 'var(--font-s)', transition: 'border-color .15s',
+      }}>
+      ✏️ Adicionar anotação pessoal...
+    </button>
+  )
+}
+
 
 interface Comentario {
   id: string
@@ -288,6 +371,9 @@ export function BancoPage() {
                     )}
                   </div>
                 </div>
+
+                {/* ── Anotação pessoal ── */}
+                {feedback && <AnotacaoQuestao questionId={q.id} />}
 
                 {/* ── Comentários (Supabase) ── */}
                 <div className="card-dark" style={{ padding: '1.5rem' }}>

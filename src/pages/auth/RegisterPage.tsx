@@ -6,16 +6,18 @@ import { LogoIcon } from '@/components/layout/Navbar'
 export function RegisterPage() {
   const { signUpWithEmail } = useAuthContext()
   const navigate = useNavigate()
-  const [name,     setName]     = useState('')
-  const [email,    setEmail]    = useState('')
-  const [password, setPassword] = useState('')
-  const [loading,  setLoading]  = useState(false)
-  const [error,    setError]    = useState<string | null>(null)
-  const [success,  setSuccess]  = useState(false)
+  const [name,      setName]      = useState('')
+  const [email,     setEmail]     = useState('')
+  const [password,  setPassword]  = useState('')
+  const [password2, setPassword2] = useState('')
+  const [loading,   setLoading]   = useState(false)
+  const [error,     setError]     = useState<string | null>(null)
+  const [success,   setSuccess]   = useState(false)
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault()
-    if (password.length < 6) { setError('Senha mínima de 6 caracteres.'); return }
+    if (password.length < 6)      { setError('Senha mínima de 6 caracteres.'); return }
+    if (password !== password2)   { setError('As senhas não coincidem.'); return }
     setLoading(true); setError(null)
     const { error } = await signUpWithEmail(email, password, name)
     if (error) { setError('Erro ao criar conta. Tente novamente.'); setLoading(false) }
@@ -41,11 +43,28 @@ export function RegisterPage() {
           <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.4rem', color: 'white', fontWeight: 700, marginTop: '.75rem' }}>Criar conta</div>
           <div style={{ fontSize: '.7rem', textTransform: 'uppercase', letterSpacing: '.15em', color: '#E53935', marginTop: '.25rem' }}>LAMMI · Medicina Militar</div>
         </div>
-        {error && <div style={{ background: 'rgba(178,59,59,.15)', border: '1px solid #b23b3b', padding: '.75rem 1rem', fontSize: '.85rem', color: '#f87171', marginBottom: '1rem' }}>{error}</div>}
+        {error && (
+          <div style={{ background: 'rgba(178,59,59,.15)', border: '1px solid #b23b3b', padding: '.75rem 1rem', fontSize: '.85rem', color: '#f87171', marginBottom: '1rem' }}>
+            {error}
+          </div>
+        )}
         <form onSubmit={handleSubmit}>
-          <div className="auth-field"><label>Nome completo</label><input type="text" value={name} onChange={e => setName(e.target.value)} placeholder="Seu nome" required /></div>
-          <div className="auth-field"><label>E-mail</label><input type="email" value={email} onChange={e => setEmail(e.target.value)} placeholder="seu@email.com" required /></div>
-          <div className="auth-field"><label>Senha</label><input type="password" value={password} onChange={e => setPassword(e.target.value)} placeholder="Mínimo 6 caracteres" required /></div>
+          <div className="auth-field">
+            <label>Nome completo</label>
+            <input type="text" value={name} onChange={e => setName(e.target.value)} placeholder="Seu nome" required />
+          </div>
+          <div className="auth-field">
+            <label>E-mail</label>
+            <input type="email" value={email} onChange={e => setEmail(e.target.value)} placeholder="seu@email.com" required />
+          </div>
+          <div className="auth-field">
+            <label>Senha</label>
+            <input type="password" value={password} onChange={e => setPassword(e.target.value)} placeholder="Mínimo 6 caracteres" required />
+          </div>
+          <div className="auth-field">
+            <label>Confirmar senha</label>
+            <input type="password" value={password2} onChange={e => setPassword2(e.target.value)} placeholder="Repita a senha" required />
+          </div>
           <button type="submit" disabled={loading} className="btn-red" style={{ width: '100%' }}>
             {loading ? 'Criando...' : 'Criar conta'}
           </button>

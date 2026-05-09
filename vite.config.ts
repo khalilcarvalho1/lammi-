@@ -19,11 +19,13 @@ export default defineConfig({
         orientation: 'portrait',
         scope: '/',
         start_url: '/',
+        lang: 'pt-BR',
+        categories: ['education', 'medical'],
         icons: [
           { src: 'pwa-192x192.png', sizes: '192x192', type: 'image/png' },
           { src: 'pwa-512x512.png', sizes: '512x512', type: 'image/png' },
-          { src: 'pwa-512x512.png', sizes: '512x512', type: 'image/png', purpose: 'any maskable' }
-        ]
+          { src: 'pwa-512x512.png', sizes: '512x512', type: 'image/png', purpose: 'any maskable' },
+        ],
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg,woff2}'],
@@ -34,15 +36,15 @@ export default defineConfig({
             options: {
               cacheName: 'supabase-api-cache',
               expiration: { maxEntries: 100, maxAgeSeconds: 60 * 60 * 24 },
-              cacheableResponse: { statuses: [0, 200] }
-            }
-          }
-        ]
+              cacheableResponse: { statuses: [0, 200] },
+            },
+          },
+        ],
       },
-      devOptions: { enabled: true }
-    })
+      devOptions: { enabled: true },
+    }),
   ],
   resolve: {
-    alias: { '@': path.resolve(__dirname, './src') }
-  }
+    alias: { '@': path.resolve(__dirname, './src') },
+  },
 })
