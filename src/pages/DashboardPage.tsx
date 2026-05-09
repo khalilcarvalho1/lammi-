@@ -7,7 +7,7 @@ import { useAuthContext } from '@/contexts/AuthContext'
 import { simuladoService } from '@/services/simuladoService'
 import { studyLogService } from '@/services/studyLogService'
 
-type Aba = 'stats' | 'historico'
+type Aba = 'stats' | 'questoes' | 'historico'
 
 function computeStreak(dates: string[]): number {
   if (!dates.length) return 0
@@ -35,40 +35,31 @@ export function DashboardPage() {
   const { historico } = useStudyContext()
   const { user }      = useAuthContext()
 
-  const [aba,          setAba]          = useState<Aba>('stats')
-  const [simulados,    setSimulados]    = useState<SimuladoRecord[]>([])
-  const [loadingSimul, setLoadingSimul] = useState(false)
-  const [heatmapData,  setHeatmapData]  = useState<{ date: string; count: number }[]>([])
-  const [streakReal,   setStreakReal]    = useState<number | null>(null)
+  const [aba,            setAba]            = useState<Aba>('stats')
+  const [simulados,      setSimulados]      = useState<SimuladoRecord[]>([])
+  const [loadingSimul,   setLoadingSimul]   = useState(false)
+  const [heatmapData,    setHeatmapData]    = useState<{ date: string; count: number }[]>([])
+  const [streakReal,     setStreakReal]      = useState<number | null>(null)
   const [simuladoAberto, setSimuladoAberto] = useState<SimuladoRecord | null>(null)
 
   const respondidas = Object.keys(historico).length
   const acertos     = Object.values(historico).filter((h: any) => h.acertou).length
   const pct         = respondidas > 0 ? Math.round(acertos / respondidas * 100) : 0
 
-  // ─── Carrega dados do Supabase se logado ──────────────────
   useEffect(() => {
     if (!user) return
-
-    // Histórico de simulados
     setLoadingSimul(true)
     simuladoService.getUserSimulados(user.id).then(({ data }) => {
       if (data) setSimulados(data as SimuladoRecord[])
       setLoadingSimul(false)
     })
-
-    // Heatmap real
     studyLogService.getHeatmapData(user.id).then(data => {
       if (data.length > 0) setHeatmapData(data)
     })
-
-    // Streak real
     studyLogService.getStreak(user.id).then(s => setStreakReal(s))
   }, [user])
 
-  // heatmapObjects is always {date, count}[] — used for <Heatmap> component
   const heatmapObjects = heatmapData.length > 0 ? heatmapData : MOCK_STUDY_HEATMAP
-  // streak uses date strings — computeStreak accepts string[]
   const streak = streakReal !== null ? streakReal : computeStreak(heatmapObjects.map(d => d.date))
 
   const porTema = useMemo(() => {
@@ -82,7 +73,6 @@ export function DashboardPage() {
     return r
   }, [historico])
 
-  // ─── Detalhe de um simulado ────────────────────────────────
   if (simuladoAberto) {
     const acertosS = simuladoAberto.correct_count
     const totalS   = simuladoAberto.total_questions
@@ -107,7 +97,6 @@ export function DashboardPage() {
               ))}
             </div>
           </div>
-
           <div className="card-dark" style={{ padding: '1.75rem' }}>
             <div style={{ fontFamily: 'var(--font-d)', fontSize: '1rem', color: '#E53935', marginBottom: '1.25rem', fontWeight: 600 }}>Questões</div>
             {simuladoAberto.question_results.map((qr, i) => {
@@ -153,7 +142,8 @@ export function DashboardPage() {
         <div style={{ display: 'flex', gap: 4, marginBottom: '2rem', borderBottom: '1px solid var(--border)', paddingBottom: 1 }}>
           {[
             { id: 'stats',     lbl: 'Estatísticas' },
-            { id: 'historico', lbl: `Histórico de Simulados${simulados.length > 0 ? ` (${simulados.length})` : ''}` },
+            { id: 'questoes',  lbl: `Questões${respondidas > 0 ? ` (${respondidas})` : ''}` },
+            { id: 'historico', lbl: `Simulados${simulados.length > 0 ? ` (${simulados.length})` : ''}` },
           ].map(a => (
             <button key={a.id} onClick={() => setAba(a.id as Aba)}
               style={{ padding: '.6rem 1.1rem', border: 'none', background: aba === a.id ? 'var(--red)' : 'transparent', color: aba === a.id ? 'white' : 'var(--text-muted)', fontFamily: 'var(--font-s)', fontSize: '.82rem', fontWeight: 600, cursor: 'pointer', transition: 'all .15s' }}>
@@ -207,6 +197,55 @@ export function DashboardPage() {
                   <Heatmap data={heatmapObjects} weeks={52} />
                 </div>
 
+                {/* Por Dificuldade */}
+                <div className="dash-card" style={{ marginBottom: '1.5rem' }}>
+                  <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.1rem', color: '#E53935', marginBottom: '1.25rem', fontWeight: 600 }}>Por Dificuldade</div>
+                  {(['facil', 'medio', 'dificil'] as const).map(nivel => {
+                    const entries    = Object.entries(historico).filter(([id]) => MOCK_QUESTIONS.find(q => String(q.id) === String(id))?.difficulty === nivel)
+                    const total      = entries.length
+                    const ac         = entries.filter(([, h]: any) => h.acertou).length
+                    const pctN       = total > 0 ? Math.round(ac / total * 100) : 0
+                    const totalBanco = MOCK_QUESTIONS.filter(q => q.difficulty === nivel).length
+                    const label      = nivel === 'facil' ? 'Fácil' : nivel === 'medio' ? 'Médio' : 'Difícil'
+                    const col        = nivel === 'facil' ? '#4ade80' : nivel === 'medio' ? '#facc15' : '#f87171'
+                    if (total === 0) return null
+                    return (
+                      <div key={nivel} style={{ marginBottom: '.9rem' }}>
+                        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '.3rem', fontSize: '.83rem' }}>
+                          <span style={{ color: col, fontWeight: 600 }}>{label}</span>
+                          <span style={{ color: col, fontWeight: 700 }}>{pctN}%</span>
+                        </div>
+                        <div style={{ height: 6, background: 'rgba(192,57,43,.12)' }}>
+                          <div style={{ height: '100%', width: pctN + '%', background: col, transition: 'width .5s' }} />
+                        </div>
+                        <div style={{ fontSize: '.7rem', color: 'var(--text-dim)', marginTop: '.2rem' }}>{ac}/{total} respondidas · {totalBanco} no banco</div>
+                      </div>
+                    )
+                  })}
+                </div>
+
+                {/* Metas */}
+                <div className="dash-card" style={{ marginBottom: '1.5rem' }}>
+                  <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.1rem', color: '#E53935', marginBottom: '1.25rem', fontWeight: 600 }}>Metas</div>
+                  {[
+                    { meta: 10,  label: '10 questões respondidas'  },
+                    { meta: 50,  label: '50 questões respondidas'  },
+                    { meta: 100, label: '100 questões respondidas' },
+                    { meta: 300, label: '300 questões respondidas' },
+                    { meta: MOCK_QUESTIONS.length, label: 'Banco completo!' },
+                  ].map(({ meta, label }) => {
+                    const atingiu = respondidas >= meta
+                    return (
+                      <div key={meta} style={{ display: 'flex', alignItems: 'center', gap: '.75rem', padding: '.5rem 0', borderBottom: '1px solid rgba(192,57,43,.08)' }}>
+                        <span style={{ fontSize: '1.1rem' }}>{atingiu ? '✅' : '⏳'}</span>
+                        <span style={{ fontSize: '.84rem', color: atingiu ? '#4ade80' : 'var(--text-muted)', fontWeight: atingiu ? 600 : 400 }}>{label}</span>
+                        {!atingiu && <span style={{ marginLeft: 'auto', fontSize: '.72rem', color: 'var(--text-dim)' }}>{respondidas}/{meta}</span>}
+                      </div>
+                    )
+                  })}
+                </div>
+
+                {/* Por Tema */}
                 <div className="dash-card">
                   <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.1rem', color: '#E53935', marginBottom: '1.25rem', fontWeight: 600 }}>Por Tema</div>
                   {(Object.entries(THEMES) as [string, string][]).map(([k, v]) => {
@@ -227,6 +266,50 @@ export function DashboardPage() {
                   })}
                 </div>
               </>
+            )}
+          </>
+        )}
+
+        {/* ── ABA QUESTÕES ── */}
+        {aba === 'questoes' && (
+          <>
+            {respondidas === 0 ? (
+              <div style={{ textAlign: 'center', padding: '4rem', background: 'var(--bg-card)', border: '1px solid var(--border)' }}>
+                <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>📝</div>
+                <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.2rem', color: '#E53935' }}>Nenhuma questão respondida ainda</div>
+                <p style={{ color: 'var(--text-muted)', fontSize: '.88rem', marginTop: '.5rem' }}>
+                  <a href="/banco" style={{ color: '#E53935' }}>Ir ao Banco de Questões →</a>
+                </p>
+              </div>
+            ) : (
+              <div className="dash-card">
+                <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.1rem', color: '#E53935', marginBottom: '1.25rem', fontWeight: 600 }}>
+                  Últimas questões respondidas
+                </div>
+                {Object.entries(historico)
+                  .sort((a, b) => new Date((b[1] as any).em).getTime() - new Date((a[1] as any).em).getTime())
+                  .slice(0, 100)
+                  .map(([id, h]: any) => {
+                    const q = MOCK_QUESTIONS.find(q => String(q.id) === String(id))
+                    return (
+                      <div key={id} style={{ display: 'flex', alignItems: 'flex-start', gap: '.75rem', padding: '.65rem 0', borderBottom: '1px solid rgba(192,57,43,.08)' }}>
+                        <div style={{ width: 24, height: 24, borderRadius: '50%', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '.72rem', fontWeight: 700, background: h.acertou ? '#2f7a3f' : '#b23b3b', color: 'white', marginTop: 2 }}>
+                          {h.acertou ? '✓' : '✗'}
+                        </div>
+                        <div style={{ flex: 1, minWidth: 0 }}>
+                          <p style={{ fontSize: '.83rem', color: 'var(--text)', lineHeight: 1.5, display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
+                            {q?.statement ?? `Questão ${id}`}
+                          </p>
+                          <div style={{ display: 'flex', gap: '.5rem', marginTop: '.25rem', flexWrap: 'wrap' }}>
+                            {q && <span className="tag-pill" style={{ fontSize: '.65rem' }}>{THEMES[q.theme as StudyTheme]}</span>}
+                            {q && <span className="tag-pill" style={{ fontSize: '.65rem', textTransform: 'capitalize' }}>{q.difficulty}</span>}
+                            <span style={{ fontSize: '.7rem', color: 'var(--text-dim)' }}>{new Date(h.em).toLocaleDateString('pt-BR')}</span>
+                          </div>
+                        </div>
+                      </div>
+                    )
+                  })}
+              </div>
             )}
           </>
         )}
@@ -259,9 +342,7 @@ export function DashboardPage() {
                       style={{ display: 'flex', alignItems: 'center', gap: '1.25rem', background: 'var(--bg-card)', border: '1px solid var(--border)', padding: '1.25rem 1.5rem', cursor: 'pointer', textAlign: 'left', transition: 'all .2s', width: '100%' }}
                       onMouseEnter={e => { (e.currentTarget as HTMLElement).style.borderColor = '#E53935' }}
                       onMouseLeave={e => { (e.currentTarget as HTMLElement).style.borderColor = 'var(--border)' }}>
-                      <div style={{ fontFamily: 'var(--font-d)', fontSize: '2rem', fontWeight: 700, color: col, minWidth: 70 }}>
-                        {pctS}%
-                      </div>
+                      <div style={{ fontFamily: 'var(--font-d)', fontSize: '2rem', fontWeight: 700, color: col, minWidth: 70 }}>{pctS}%</div>
                       <div style={{ flex: 1, minWidth: 0 }}>
                         <div style={{ fontSize: '.85rem', color: 'var(--text)', fontWeight: 600, marginBottom: '.3rem' }}>
                           {s.correct_count}/{s.total_questions} corretas · {formatDuracao(s.time_seconds)}
