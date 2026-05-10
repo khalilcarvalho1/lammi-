@@ -361,3 +361,32 @@ body {
   .nav-burger        { display: none !important; }
   .nav-mobile-drawer { display: none !important; }
 }
+
+/* ── Aula layout duas colunas ── */
+.aula-layout { display: grid; grid-template-columns: 280px 1fr; gap: 2rem; }
+@media (max-width: 900px) {
+  .aula-layout { grid-template-columns: 1fr !important; gap: 1rem; }
+  .aula-sumario { position: static; max-height: 280px; }
+}
+
+/* ── Busca input ── */
+.busca-input {
+  width: 100%; padding: .6rem 1rem;
+  border: 1px solid var(--border);
+  background: var(--bg-surface);
+  color: var(--text);
+  font-family: var(--font-s); font-size: .9rem;
+  outline: none; transition: border .2s;
+}
+.busca-input:focus { border-color: var(--red); }
+
+/* ── Subtema btn (diretriz filtros) ── */
+.subtema-btn {
+  display: flex; align-items: center; justify-content: space-between;
+  width: 100%; padding: .5rem .8rem;
+  border: 1px solid var(--border); background: transparent;
+  cursor: pointer; font-family: var(--font-s); color: var(--text);
+  transition: all .18s; margin-bottom: .35rem; text-align: left;
+}
+.subtema-btn:hover { border-color: var(--red); background: rgba(192,57,43,.08); }
+.subtema-btn.active { background: var(--red); color: white; border-color: var(--red); }
