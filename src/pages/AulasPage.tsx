@@ -1,81 +1,108 @@
-import { useNavigate } from 'react-router-dom'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import { THEMES, StudyTheme } from '@/services/supabaseClient'
+import { aulasService, Aula } from '@/services/aulasService'
 
-export const MOCK_AULAS = [
-  { id:'a1', title:'Introdução ao ATLS – Atendimento Inicial', desc:'Visão geral do protocolo ABCDE, avaliação primária e secundária, manobras essenciais.', theme:'atls_inicial' as StudyTheme, type:'video', dur:'42min', autor:'Prof. Dr. Carlos Mendes',
-    conteudo:`## Protocolo ABCDE\n\n**A – Via Aérea + Colar Cervical**\nGarantir perviedade com proteção da coluna cervical. Jaw thrust em suspeita de lesão cervical.\n\n**B – Respiração e Ventilação**\nAvaliar FR, expansão torácica, SpO2. Tratar pneumotórax e hemotórax imediatamente.\n\n**C – Circulação**\nControlar hemorragias. Acesso venoso calibroso. Reposição criteriosa.\n\n**D – Neurológico**\nGlasgow, pupilas, déficits focais.\n\n**E – Exposição**\nExpor completamente. Controlar hipotermia.` },
-  { id:'a2', title:'Via Aérea no Trauma – Do Básico à IOT', desc:'Manejo da VA no traumatizado: jaw thrust, cânulas, máscara laríngea e SRI.', theme:'atls_via_aerea' as StudyTheme, type:'video', dur:'38min', autor:'Prof. Dr. Ana Souza', conteudo:'Conteúdo em breve.' },
-  { id:'a3', title:'Classificação e Manejo do Choque Hemorrágico', desc:'4 classes de choque, hipotensão permissiva, DCR e acesso venoso no campo.', theme:'atls_choque' as StudyTheme, type:'pdf', autor:'LAMMI', conteudo:'Conteúdo em breve.' },
-  { id:'a4', title:'Trauma Torácico: Pneumotórax e Hemotórax', desc:'Diagnóstico e tratamento de pneumotórax simples, aberto e hipertensivo.', theme:'atls_toracico' as StudyTheme, type:'slide', autor:'Res. João Ferreira', conteudo:'Conteúdo em breve.' },
-  { id:'a5', title:'TCE – Avaliação Neurológica e Glasgow', desc:'Escala de Coma de Glasgow, classificação do TCE, neuroproteção e TC craniana.', theme:'atls_cranioencefalico' as StudyTheme, type:'texto', autor:'LAMMI', conteudo:'Conteúdo em breve.' },
-  { id:'a6', title:'Cinética do Trauma – Mecanismos de Lesão', desc:'Física do trauma, transferência de energia, colisões de alta e baixa velocidade.', theme:'cinetica_trauma' as StudyTheme, type:'video', dur:'28min', autor:'Prof. Dr. Marcos Lima', conteudo:'Conteúdo em breve.' },
-]
-
-const TIPO_ICONS: Record<string,string>  = { video:'🎬', pdf:'📄', slide:'🖥️', texto:'📝' }
-const TIPO_CORES: Record<string,string>  = {
-  video: 'rgba(178,59,59,.2)',
-  pdf:   'rgba(192,57,43,.12)',
-  slide: 'rgba(31,56,245,.15)',
-  texto: 'rgba(47,122,63,.15)',
+const TYPE_ICONS:  Record<string, string> = { video: '🎬', pdf: '📄', slide: '🖥️', article: '📝', texto: '📝' }
+const TYPE_LABELS: Record<string, string> = { video: 'Vídeo', pdf: 'PDF', slide: 'Slide', article: 'Texto', texto: 'Texto' }
+const TYPE_COLORS: Record<string, string> = {
+  video:   'badge-red',
+  pdf:     'badge-amber',
+  slide:   'badge-blue',
+  article: 'badge-green',
+  texto:   'badge-green',
 }
 
 export function AulasPage() {
-  const navigate = useNavigate()
-  const [filtroTema, setFiltroTema] = useState<StudyTheme | ''>('')
-  const [filtroTipo, setFiltroTipo] = useState('')
+  const [aulas,       setAulas]       = useState<Aula[]>([])
+  const [loading,     setLoading]     = useState(true)
+  const [filterTheme, setFilterTheme] = useState<string>('')
+  const [filterType,  setFilterType]  = useState<string>('')
 
-  const filtradas = MOCK_AULAS.filter(a =>
-    (!filtroTema || a.theme === filtroTema) && (!filtroTipo || a.type === filtroTipo)
+  useEffect(() => {
+    aulasService.getAll().then(({ data, error }) => {
+      if (!error && data) setAulas(data as Aula[])
+      setLoading(false)
+    })
+  }, [])
+
+  const filtered = aulas.filter(a =>
+    (!filterTheme || a.theme === filterTheme) &&
+    (!filterType  || a.type  === filterType)
   )
 
   return (
-    <section style={{ padding: '4rem 2rem', background: '#0D0D0D' }}>
-      <div style={{ maxWidth: 960, margin: '0 auto' }}>
-        <div className="accent-bar" />
-        <h2 style={{ fontFamily: 'var(--font-d)', fontSize: '2rem', color: 'white', marginBottom: '.4rem' }}>Aulas</h2>
-        <p style={{ color: 'var(--text-muted)', fontSize: '.88rem', marginBottom: '2rem' }}>Vídeos, PDFs, slides e textos sobre trauma e APH</p>
-
-        <div style={{ display: 'flex', gap: '1rem', marginBottom: '1.75rem', flexWrap: 'wrap' }}>
-          <select value={filtroTema} onChange={e => setFiltroTema(e.target.value as StudyTheme | '')}
-            style={{ flex: 1, minWidth: 180, padding: '.65rem .9rem', border: '1px solid var(--border)', background: 'var(--bg-surface)', color: 'var(--text)', fontFamily: 'var(--font-s)', fontSize: '.88rem', outline: 'none' }}>
-            <option value="">Todos os temas</option>
-            {(Object.entries(THEMES) as [StudyTheme, string][]).map(([k,v]) => <option key={k} value={k}>{v}</option>)}
-          </select>
-          <select value={filtroTipo} onChange={e => setFiltroTipo(e.target.value)}
-            style={{ minWidth: 140, padding: '.65rem .9rem', border: '1px solid var(--border)', background: 'var(--bg-surface)', color: 'var(--text)', fontFamily: 'var(--font-s)', fontSize: '.88rem', outline: 'none' }}>
-            <option value="">Todos os tipos</option>
-            {['video','pdf','slide','texto'].map(t => <option key={t} value={t}>{TIPO_ICONS[t]} {t}</option>)}
-          </select>
-        </div>
-
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill,minmax(340px,1fr))', gap: '1.25rem' }}>
-          {filtradas.map(a => (
-            /* MIGRAÇÃO: navigate para URL real /aulas/:id em vez de setState */
-            <button key={a.id} className="aula-card" onClick={() => navigate(`/aulas/${a.id}`)}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1rem' }}>
-                <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
-                  <span className="tag-pill">{THEMES[a.theme]}</span>
-                  <span style={{ fontSize: '.7rem', padding: '3px 8px', background: TIPO_CORES[a.type], color: '#E53935', border: '1px solid rgba(192,57,43,.25)' }}>
-                    {TIPO_ICONS[a.type]} {a.type.toUpperCase()}
-                  </span>
-                </div>
-                {a.dur && <span style={{ fontSize: '.72rem', color: 'var(--text-dim)' }}>⏱ {a.dur}</span>}
-              </div>
-              <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.05rem', color: 'white', fontWeight: 600, marginBottom: '.4rem', lineHeight: 1.25 }}>{a.title}</div>
-              <p style={{ fontSize: '.83rem', color: 'var(--text-muted)', lineHeight: 1.6, marginBottom: '.75rem', display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{a.desc}</p>
-              {a.autor && <p style={{ fontSize: '.72rem', color: 'var(--text-dim)' }}>Por {a.autor}</p>}
-            </button>
-          ))}
-        </div>
-
-        {filtradas.length === 0 && (
-          <div style={{ textAlign: 'center', padding: '4rem', color: 'var(--text-muted)' }}>
-            <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>📚</div>
-            <p>Nenhuma aula encontrada.</p>
-          </div>
-        )}
+    <div className="space-y-6 animate-fade-up">
+      <div>
+        <h1 className="font-display text-2xl font-bold text-[var(--color-text)]">Aulas</h1>
+        <p className="text-sm text-[var(--color-text-muted)] mt-1">Textos, vídeos, PDFs e slides sobre trauma e APH</p>
       </div>
-    </section>
+
+      {/* Filtros */}
+      <div className="flex flex-wrap gap-3">
+        <div className="flex-1 min-w-[180px]">
+          <select className="input" value={filterTheme} onChange={e => setFilterTheme(e.target.value)}>
+            <option value="">Todos os temas</option>
+            {(Object.entries(THEMES) as [StudyTheme, string][]).map(([k, v]) => (
+              <option key={k} value={k}>{v}</option>
+            ))}
+          </select>
+        </div>
+        <div className="min-w-[140px]">
+          <select className="input" value={filterType} onChange={e => setFilterType(e.target.value)}>
+            <option value="">Todos os tipos</option>
+            <option value="article">📝 Texto</option>
+            <option value="video">🎬 Vídeo</option>
+            <option value="pdf">📄 PDF</option>
+            <option value="slide">🖥️ Slide</option>
+          </select>
+        </div>
+      </div>
+
+      {loading ? (
+        <div style={{ textAlign: 'center', padding: '3rem', color: 'var(--color-text-muted)' }}>
+          Carregando aulas...
+        </div>
+      ) : (
+        <>
+          <p className="text-xs text-[var(--color-text-subtle)]">{filtered.length} aula(s) encontrada(s)</p>
+
+          <div className="grid md:grid-cols-2 gap-4">
+            {filtered.map(a => (
+              <Link
+                key={a.id}
+                to={'/aulas/' + a.id}
+                className="card-p group hover:border-brand-400 transition-all flex flex-col gap-3"
+              >
+                <div className="flex items-start justify-between gap-3">
+                  <div className="flex gap-2 flex-wrap">
+                    <span className={(TYPE_COLORS[a.type] ?? 'badge-gray') + ' badge text-xs'}>
+                      {TYPE_ICONS[a.type] ?? '📄'} {TYPE_LABELS[a.type] ?? a.type}
+                    </span>
+                    {a.theme && THEMES[a.theme as StudyTheme] && (
+                      <span className="badge-blue text-xs">{THEMES[a.theme as StudyTheme]}</span>
+                    )}
+                  </div>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-[var(--color-text)] group-hover:text-brand-600 transition-colors leading-snug">
+                    {a.title}
+                  </h3>
+                  <p className="text-sm text-[var(--color-text-muted)] mt-1.5 line-clamp-2">{a.description}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
+
+          {filtered.length === 0 && (
+            <div className="text-center py-16 text-[var(--color-text-muted)]">
+              <p className="text-4xl mb-3">📚</p>
+              <p>Nenhuma aula encontrada.</p>
+            </div>
+          )}
+        </>
+      )}
+    </div>
   )
 }
