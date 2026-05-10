@@ -390,7 +390,7 @@ export const MOCK_CASES: any[] = [
 ]
 {
     id: 'caso_via_aerea_01',
-    theme: 'atls_via_aerea' as any,
+    theme: 'atls_via_aerea',
     title: 'Via Aérea em Colapso',
     description: 'Você é o médico da sala de emergência. Um homem de 52 anos chega após queimadura em incêndio doméstico. Gerencie a via aérea de forma progressiva e sistematizada.',
     steps: [
@@ -464,7 +464,7 @@ export const MOCK_CASES: any[] = [
   },
   {
     id: 'caso_trauma_face_01',
-    theme: 'atls_face' as any,
+    theme: 'atls_face',
     title: 'Trauma Maxilofacial Grave',
     description: 'Você atende um homem de 29 anos vítima de agressão com objeto contundente. Trauma maxilofacial extenso com sangramento abundante. Gerencie as prioridades.',
     steps: [
@@ -538,7 +538,7 @@ export const MOCK_CASES: any[] = [
   },
   {
     id: 'caso_trauma_pescoco_01',
-    theme: 'atls_pescoco' as any,
+    theme: 'atls_pescoco',
     title: 'Ferimento Penetrante de Pescoço',
     description: 'Você é o médico da emergência. Um homem de 34 anos chega com ferimento por arma branca no pescoço esquerdo. Zona II. Aplique o protocolo de trauma penetrante de pescoço.',
     steps: [
