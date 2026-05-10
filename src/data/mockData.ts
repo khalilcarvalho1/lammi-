@@ -114,7 +114,7 @@ export const MOCK_FLASHCARDS: Flashcard[] = [
   },
 ]
 
-export const MOCK_CASES: ClinicalCase[] = [
+export const MOCK_CASES: any[] = [
   {
     id: 'c1',
     title: 'Acidente de Moto – Politraumatizado na Cena',
