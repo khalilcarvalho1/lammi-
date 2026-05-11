@@ -1189,6 +1189,83 @@ export const MOCK_CASES: any[] = [
     ],
     created_at: new Date().toISOString(),
   },
+  const caso_genitourinario = {
+  id: 'caso_genitourinario_01',
+  theme: 'atls_genitourinario',
+  title: 'Trauma Genitourinário Complexo',
+  description: 'Homem de 31 anos após colisão motociclística com trauma pélvico e abdominal. Avalie e maneie as lesões genitourinárias.',
+  steps: [
+    {
+      id: 'step1',
+      content: '## Apresentação\n\nHomem, 31 anos, motociclista, colisão com poste a ~60 km/h. GCS 15, FC 122, PA 94/58, FR 20, SpO₂ 96%. Trauma direto no períneo — "queda a cavaleiro" sobre o guidão. Dor intensa no períneo e hipogástrio. Hematoma perineal bilateral em borboleta. Impossibilidade de urinar. Ao exame: próstata não palpável ao toque retal.\n\n**Qual é a conduta correta para cateterização vesical?**',
+      options: [
+        { id: 's1a', text: 'Cateterizar imediatamente — a bexiga distendida precisa ser drenada com urgência', is_correct: false, next_step_id: 'step2', feedback: 'Incorreto. Hematoma perineal em borboleta + próstata alta + impossibilidade de urinar = sinais clássicos de lesão uretral. Cateterizar antes de excluir lesão uretral pode transformar ruptura parcial em completa.' },
+        { id: 's1b', text: 'Cistostomia suprapúbica imediata — único acesso seguro em qualquer trauma pélvico', is_correct: false, next_step_id: 'step2', feedback: 'Incorreto. Cistostomia é a conduta para lesão uretral CONFIRMADA. Antes de qualquer intervenção, a uretrografia retrógrada deve ser realizada para definir se há lesão e qual é sua extensão.' },
+        { id: 's1c', text: 'Uretrografia retrógrada antes de qualquer cateterização', is_correct: true, next_step_id: 'step2', feedback: 'Correto. Hematoma em borboleta + próstata alta + impossibilidade de urinar = tríade diagnóstica de lesão uretral posterior. Uretrografia retrógrada é obrigatória antes de qualquer cateterização.' },
+        { id: 's1d', text: 'Ultrassonografia de uretra antes de decidir', is_correct: false, next_step_id: 'step2', feedback: 'Incorreto. Ultrassonografia de uretra não é o exame padrão. Uretrografia retrógrada é o método de escolha para avaliação de lesão uretral — rápido, acessível e diagnóstico.' },
+      ]
+    },
+    {
+      id: 'step2',
+      content: '## Uretrografia Retrógrada\n\nUretrografia: extravasamento de contraste no nível da uretra membranosa com separação de 2,5 cm — lesão completa confirmada.\n\n**Qual é a conduta imediata?**',
+      options: [
+        { id: 's2a', text: 'Cistostomia suprapúbica imediata para derivação urinária', is_correct: true, next_step_id: 'step3', feedback: 'Correto. Lesão uretral completa (Biffl grau IV-V): cistostomia suprapúbica imediata. Derivação urinária segura enquanto o paciente é estabilizado. Reparo uretral primário ou reconstrução diferida a ser definida por urologista.' },
+        { id: 's2b', text: 'Cateterismo uretral delicado com cateter 12F guiado por fluoroscopia', is_correct: false, next_step_id: 'step3', feedback: 'Incorreto. Lesão uretral COMPLETA com 2,5 cm de separação não permite passagem de cateter sem risco de agravamento. Cistostomia suprapúbica é a conduta segura.' },
+        { id: 's2c', text: 'Reparo cirúrgico imediato da uretra na sala de emergência', is_correct: false, next_step_id: 'step3', feedback: 'Incorreto. Reparo uretral de emergência na sala de urgência, fora de contexto cirúrgico adequado, tem alta taxa de complicações. A cistostomia suprapúbica estabiliza o paciente para reparo eletivo ou diferido.' },
+        { id: 's2d', text: 'Observação e tentar micção espontânea nas próximas 6 horas', is_correct: false, next_step_id: 'step3', feedback: 'Incorreto. Lesão uretral completa não resolve espontaneamente. A retenção urinária aguda precisa ser resolvida imediatamente — cistostomia suprapúbica é a intervenção correta.' },
+      ]
+    },
+    {
+      id: 'step3',
+      content: '## Avaliação Renal\n\nApós estabilização e cistostomia. TC de abdome e pelve: hematoma perirrenal direito contido pela fascia de Gerota, laceração renal de 2,5 cm sem atingir o sistema coletor, sem extravasamento de contraste. Hematúria macroscópica presente.\n\n**Como classificar e manejar essa lesão renal?**',
+      options: [
+        { id: 's3a', text: 'Grau I — observação e hidratação', is_correct: false, next_step_id: 'step4', feedback: 'Incorreto. Grau I é contusão ou hematoma subcapsular < 10% sem laceração. Laceração de 2,5 cm com hematoma perirrenal contido = grau III. Mas o manejo conservador (MNO) ainda é correto.' },
+        { id: 's3b', text: 'Grau II — cateterismo e observação', is_correct: false, next_step_id: 'step4', feedback: 'Incorreto. Grau II tem laceração < 1 cm. Laceração de 2,5 cm com hematoma perirrenal = grau III. O manejo continua sendo conservador, mas a classificação está errada.' },
+        { id: 's3c', text: 'Grau III — MNO com TC de controle em 48-72h', is_correct: false, next_step_id: 'step4', feedback: 'Correto na classificação, mas incompleto na conduta. Grau III sem extravasamento = MNO com repouso relativo, monitorização da hematúria e TC de controle. Taxa de sucesso > 95%.' },
+        { id: 's3d', text: 'Grau III — MNO: repouso relativo, monitorização de hematúria seriada, TC de controle em 48-72h, angioembolização se blush aparecer', is_correct: true, next_step_id: 'step4', feedback: 'Correto. Laceração 2,5 cm + hematoma contido + sem extravasamento = grau III. MNO é o padrão. TC de controle obrigatória. Se blush aparecer → angioembolização. Taxa de sucesso > 95% no grau III.' },
+      ]
+    },
+    {
+      id: 'step4',
+      content: '## Avaliação Vesical\n\nCistografia pelo cateter suprapúbico: extravasamento de contraste em "chama de vela" ao redor da base da bexiga, confinado ao espaço pélvico extraperitoneal. Sem contraste na cavidade peritoneal.\n\n**Qual é o tratamento?**',
+      options: [
+        { id: 's4a', text: 'Cirurgia imediata — toda ruptura vesical requer reparo cirúrgico', is_correct: false, next_step_id: 'step5', feedback: 'Incorreto. Apenas a ruptura vesical INTRAPERITONEAL requer cirurgia obrigatória. A ruptura extraperitoneal sem indicações específicas é tratada conservadoramente com cateterismo contínuo.' },
+        { id: 's4b', text: 'Cateterismo contínuo por 10-14 dias + cistografia de controle antes de retirar', is_correct: true, next_step_id: 'step5', feedback: 'Correto. Ruptura vesical extraperitoneal: cateterismo contínuo (via suprapúbica já inserida) por 10-14 dias. 85% resolvem sem cirurgia. Cistografia de controle antes da retirada do cateter confirma cicatrização.' },
+        { id: 's4c', text: 'Drenagem percutânea do extravasamento + antibióticos', is_correct: false, next_step_id: 'step5', feedback: 'Incorreto. Drenagem percutânea não é indicada em ruptura vesical extraperitoneal. O cateterismo contínuo drena a bexiga e permite a cicatrização espontânea do defeito.' },
+        { id: 's4d', text: 'Observação sem cateterismo — a cistostomia suprapúbica já resolve o problema', is_correct: false, next_step_id: 'step5', feedback: 'Parcialmente correto — a cistostomia suprapúbica já proporciona derivação urinária. Mas a ruptura vesical requer confirmação de cicatrização por cistografia antes de retirar o cateter.' },
+      ]
+    },
+    {
+      id: 'step5',
+      content: '## Complicação Tardia\n\n12 dias após o trauma, o paciente retorna com hematúria macroscópica súbita e intensa, sem trauma adicional. TC com contraste: pseudoaneurisma da artéria segmentar renal direita de 1,2 cm.\n\n**Qual é a conduta?**',
+      options: [
+        { id: 's5a', text: 'Nefrectomia total de emergência — risco de rotura do pseudoaneurisma', is_correct: false, next_step_id: 'step6', feedback: 'Incorreto. Nefrectomia é uma medida extrema e irreversível. Angioembolização superseletiva do ramo arterial afetado preserva o parênquima renal não lesado com taxa de sucesso de 85-90%.' },
+        { id: 's5b', text: 'Observação e repouso — pseudoaneurismas renais pequenos regridem espontaneamente', is_correct: false, next_step_id: 'step6', feedback: 'Incorreto. Pseudoaneurisma de 1,2 cm com hematúria macroscópica ativa tem risco real de rotura e sangramento maciço. Angioembolização é o tratamento indicado.' },
+        { id: 's5c', text: 'Angioembolização superseletiva do ramo arterial afetado', is_correct: true, next_step_id: 'step6', feedback: 'Correto. Pseudoaneurisma renal pós-trauma + hematúria macroscópica = angioembolização superseletiva. Preserva o parênquima renal não lesado. Taxa de sucesso 85-90% (EAU 2023).' },
+        { id: 's5d', text: 'Cirurgia aberta com rafia da artéria segmentar', is_correct: false, next_step_id: 'step6', feedback: 'Incorreto. Cirurgia aberta para pseudoaneurisma renal tem maior morbidade que a angioembolização. O tratamento endovascular é a primeira escolha em centros com radiologia intervencionista disponível.' },
+      ]
+    },
+    {
+      id: 'step6',
+      content: '## Decisão de Reparo Uretral\n\n3 meses após o trauma, o paciente está estável. A cistostomia suprapúbica está funcionando. Urologista planeja a reconstrução uretral definitiva.\n\n**Qual é o padrão atual de reconstrução uretral em lesão completa com 2,5 cm de separação?**',
+      options: [
+        { id: 's6a', text: 'Dilatação uretral progressiva com sondas de Bougie à Boule', is_correct: false, next_step_id: 'final', feedback: 'Incorreto. Dilatação é para estenoses pós-inflamatórias ou pós-cirúrgicas. Lesão uretral completa com 2,5 cm de separação requer reconstrução cirúrgica — uretroplastia.' },
+        { id: 's6b', text: 'Anastomose uretrouretral com excisão do segmento fibrótico', is_correct: false, next_step_id: 'final', feedback: 'Parcialmente correto para lesões com < 2 cm de separação. Com 2,5 cm de separação, a anastomose primária tensa pode falhar. A uretroplastia com enxerto de mucosa oral é o padrão atual para defeitos maiores.' },
+        { id: 's6c', text: 'Uretroplastia com enxerto de mucosa oral (bochecha) — padrão atual para defeitos > 2 cm', is_correct: false, next_step_id: 'final', feedback: 'Correto como técnica, mas a resposta D é mais completa com o timing correto.' },
+        { id: 's6d', text: 'Uretroplastia com enxerto de mucosa oral em 3-6 meses — após resolução do hematoma e fibrose inicial', is_correct: true, next_step_id: 'final', feedback: 'Correto. Uretroplastia com enxerto de mucosa oral é o padrão atual para defeitos uretrais > 2 cm. Timing: 3-6 meses após o trauma — aguarda resolução do hematoma pélvico e fibrose inicial, que facilitam a cirurgia.' },
+      ]
+    },
+    {
+      id: 'final',
+      content: '## Caso Concluído\n\nVocê identificou a tríade de lesão uretral posterior, indicou uretrografia antes de cateterizar, realizou cistostomia suprapúbica, classificou lesão renal grau III com MNO, tratou ruptura vesical extraperitoneal conservadoramente, indicou angioembolização para pseudoaneurisma e planejou uretroplastia diferida.',
+      options: []
+    }
+  ],
+  created_at: new Date().toISOString(),
+}
+ 
+export { caso_genitourinario }
+ 
 ]
 
 export const MOCK_STUDY_HEATMAP = (() => {
