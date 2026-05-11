@@ -781,6 +781,236 @@ export const MOCK_CASES: any[] = [
     ],
     created_at: new Date().toISOString(),
   },
+  // ── CASO 10 — Trauma Abdominal ─────────────────────────────────────────────
+  // Respostas corretas: B, D, A, C, B, D  (distribuição: A×1 B×2 C×1 D×2)
+  {
+    id: 'caso_abdominal_01',
+    theme: 'atls_abdominal',
+    title: 'Trauma Abdominal Fechado',
+    description: 'Homem de 36 anos após colisão frontal a 90 km/h com cinto abdominal sem diagonal. Trauma abdominal fechado com instabilidade progressiva.',
+    steps: [
+      {
+        id: 'step1',
+        content: '## Apresentação\n\nHomem, 36 anos, motorista com cinto abdominal apenas. Colisão frontal ~90 km/h. GCS 15, FC 118, PA 96/62, FR 22, SpO₂ 96%. Equimose linear no abdome inferior seguindo o trajeto do cinto. Dor abdominal difusa. Abdome levemente distendido.\n\n**O que o sinal do cinto de segurança indica?**',
+        options: [
+          { id: 's1a', text: 'Apenas contusão da parede abdominal — sem significado clínico maior', is_correct: false, next_step_id: 'step2', feedback: 'Incorreto. Sinal do cinto em mecanismo de alta energia é altamente sugestivo de lesão visceral interna.' },
+          { id: 's1b', text: 'Tríade clássica: fratura de Chance + lesão de víscera oca + instabilidade potencial', is_correct: true, next_step_id: 'step2', feedback: 'Correto. Cinto abdominal sem diagonal + colisão frontal = síndrome do cinto: fratura de Chance (L1-L2) + lesão de víscera oca (intestino, mesentério) em até 40% dos casos.' },
+          { id: 's1c', text: 'Lesão esplênica isolada — o baço é o órgão mais vulnerável ao cinto', is_correct: false, next_step_id: 'step2', feedback: 'Incorreto. O cinto abdominal comprime principalmente o intestino delgado e mesentério contra a coluna — não o baço.' },
+          { id: 's1d', text: 'Fratura pélvica por transmissão de força — investigar a pelve', is_correct: false, next_step_id: 'step2', feedback: 'Incorreto. A força do cinto abdominal atua sobre o abdome, não sobre a pelve. A investigação prioritária é abdominal e da coluna.' },
+        ]
+      },
+      {
+        id: 'step2',
+        content: '## FAST e Decisão\n\nFAST: líquido livre no espaço de Morrison ++ e no fundo de saco de Douglas +. Pericárdio normal. PA cai para 82/50 após o FAST.\n\n**Conduta?**',
+        options: [
+          { id: 's2a', text: 'TC de abdome e pelve com contraste — FAST positivo com estabilidade relativa', is_correct: false, next_step_id: 'step3', feedback: 'Incorreto. PA 82/50 com FAST positivo = instabilidade. Paciente instável não vai para TC — vai para cirurgia.' },
+          { id: 's2b', text: 'Reposição com 2L de cristaloide e repetir o FAST em 15 minutos', is_correct: false, next_step_id: 'step3', feedback: 'Incorreto. Cristaloide em excesso agrava coagulopatia. FAST positivo + instabilidade = cirurgia imediata.' },
+          { id: 's2c', text: 'Angioembolização — FAST positivo indica sangramento arterial', is_correct: false, next_step_id: 'step3', feedback: 'Incorreto. Angioembolização é para paciente estável com extravasamento arterial na TC. Instabilidade com FAST positivo = laparotomia.' },
+          { id: 's2d', text: 'Laparotomia exploradora de emergência — FAST positivo com instabilidade refratária', is_correct: true, next_step_id: 'step3', feedback: 'Correto. FAST positivo + instabilidade hemodinâmica = laparotomia imediata. Não leve para TC — cada minuto aumenta a mortalidade.' },
+        ]
+      },
+      {
+        id: 'step3',
+        content: '## Achados Intraoperatórios\n\nLaparotomia: laceração de mesentério com hematoma expansivo + perfuração de alça de intestino delgado a 80 cm do ângulo de Treitz + contusão hepática grau II sem sangramento ativo. Temperatura 35,1°C, pH 7,22, INR 1,8.\n\n**Estratégia cirúrgica?**',
+        options: [
+          { id: 's3a', text: 'Damage Control: grampeamento da perfuração + ligadura do mesentério + fechamento temporário', is_correct: true, next_step_id: 'step4', feedback: 'Correto. Tríade letal em formação (hipotermia + acidose + coagulopatia). DCS: controle da contaminação (grampeamento) + hemostasia (ligadura mesentérica) + fechamento temporário. Reconstrução na fase 3.' },
+          { id: 's3b', text: 'Anastomose primária imediata — perfuração única, condições favoráveis', is_correct: false, next_step_id: 'step4', feedback: 'Incorreto. Temperatura 35,1°C + pH 7,22 + INR 1,8 = tríade letal em instalação. Anastomose em condições de coagulopatia tem alta taxa de deiscência.' },
+          { id: 's3c', text: 'Apenas lavagem e drenagem — lesão pequena não requer ressecção', is_correct: false, next_step_id: 'step4', feedback: 'Incorreto. Perfuração de intestino delgado com contaminação peritoneal requer ressecção — lavagem e drenagem isoladas não são suficientes.' },
+          { id: 's3d', text: 'Cirurgia completa com anastomose + colostomia de proteção + fechamento definitivo', is_correct: false, next_step_id: 'step4', feedback: 'Incorreto. Cirurgia extensa em paciente com tríade letal em instalação aumenta a mortalidade. DCS é o padrão.' },
+        ]
+      },
+      {
+        id: 'step4',
+        content: '## Síndrome Compartimental Abdominal\n\n36h após DCS. Abdome fechado com VAC. Paciente desenvolve: oligúria (0,2 mL/kg/h), pressão de pico no ventilador crescente, PA em queda. Pressão intravesical: 28 mmHg.\n\n**Diagnóstico e conduta?**',
+        options: [
+          { id: 's4a', text: 'Sepse abdominal — aumentar antibióticos e hemoderivados', is_correct: false, next_step_id: 'step5', feedback: 'Incorreto. PIA 28 mmHg + oligúria + pressão de pico crescente + hipotensão = síndrome compartimental abdominal. Não é sepse isolada.' },
+          { id: 's4b', text: 'Tromboembolismo pulmonar — anticoagulação e suporte', is_correct: false, next_step_id: 'step5', feedback: 'Incorreto. TEP causaria hipoxemia e hipotensão, mas não oligúria com PIA 28 mmHg e pressão de pico crescente.' },
+          { id: 's4c', text: 'Síndrome compartimental abdominal — laparotomia descompressiva imediata', is_correct: true, next_step_id: 'step5', feedback: 'Correto. PIA > 20 mmHg + nova disfunção de órgão (oligúria + insuficiência respiratória + hipotensão) = SCA. Laparotomia descompressiva é mandatória.' },
+          { id: 's4d', text: 'Falência renal por contraste — diálise e hidratação', is_correct: false, next_step_id: 'step5', feedback: 'Incorreto. A oligúria é por compressão das veias renais pela PIA elevada — não por nefrotoxicidade. A descompressão cirúrgica é a solução.' },
+        ]
+      },
+      {
+        id: 'step5',
+        content: '## Lesão de Víscera Oca Tardia\n\nOutro paciente: homem, 28 anos, FAB abdominal zona anterior. GCS 15, estável. Sem peritonismo inicial. FAST negativo. 8 horas depois: dor abdominal progressiva, defesa, febre 38,5°C, leucócitos 18.000.\n\n**O que ocorreu e qual é a conduta?**',
+        options: [
+          { id: 's5a', text: 'Abscesso de parede — antibióticos e drenagem percutânea', is_correct: false, next_step_id: 'step6', feedback: 'Incorreto. Abscesso de parede em 8 horas é impossível. Peritonismo progressivo + febre + leucocitose = perfuração visceral com peritonite.' },
+          { id: 's5b', text: 'Perfuração de víscera oca tardia — laparotomia exploradora', is_correct: true, next_step_id: 'step6', feedback: 'Correto. FAB abdominal + FAST inicialmente negativo + peritonismo tardio = perfuração de víscera oca. FAST negativo não exclui lesão de víscera oca — laparotomia é mandatória.' },
+          { id: 's5c', text: 'Hematoma intramural — observação e analgesia', is_correct: false, next_step_id: 'step6', feedback: 'Incorreto. Hematoma intramural pode evoluir para perfuração, mas febre + leucocitose + peritonismo = peritonite estabelecida que requer cirurgia imediata.' },
+          { id: 's5d', text: 'Repetir o FAST — resultado inicial pode ter sido falso negativo', is_correct: false, next_step_id: 'step6', feedback: 'Incorreto. FAST detecta líquido livre (sangue), não perfuração de víscera oca sem hemoperitônio. Com peritonismo estabelecido, a indicação cirúrgica já está definida clinicamente.' },
+        ]
+      },
+      {
+        id: 'step6',
+        content: '## Pós-Esplenectomia\n\nTerceiro paciente: mulher, 22 anos, submetida a esplenectomia de emergência por laceração grau V. Alta hospitalar em 5 dias. Retorna ao ambulatório.\n\n**Qual é a conduta obrigatória no seguimento?**',
+        options: [
+          { id: 's6a', text: 'Apenas exames laboratoriais seriados — sem intervenção específica necessária', is_correct: false, next_step_id: 'final', feedback: 'Incorreto. Pós-esplenectomia requer vacinação obrigatória — risco de sepse fulminante por germes encapsulados (OPSI) é de até 50% de mortalidade.' },
+          { id: 's6b', text: 'TC de controle em 30 dias para avaliar regeneração esplênica', is_correct: false, next_step_id: 'final', feedback: 'Incorreto. Após esplenectomia total não há regeneração. A conduta obrigatória é vacinação — não imagem de controle.' },
+          { id: 's6c', text: 'Antibioticoprofilaxia com amoxicilina por 2 anos e restrição de atividades', is_correct: false, next_step_id: 'final', feedback: 'Parcialmente correto — penicilina profilática por 2 anos é recomendada em crianças, mas o mais crítico é a vacinação contra germes encapsulados.' },
+          { id: 's6d', text: 'Vacinação obrigatória: pneumococo + Haemophilus influenzae b + meningococo — idealmente entre 14-28 dias do pós-operatório', is_correct: true, next_step_id: 'final', feedback: 'Correto. Pós-esplenectomia: vacinação para pneumococo, Haemophilus influenzae b e meningococo é obrigatória. Se emergência: vacinar no pós-operatório entre 14-28 dias.' },
+        ]
+      },
+      {
+        id: 'final',
+        content: '## Caso Concluído\n\nVocê identificou a síndrome do cinto de segurança, indicou laparotomia de emergência corretamente, aplicou DCS, diagnosticou SCA e indicou descompressão, reconheceu perfuração tardia de víscera oca e prescreveu vacinação pós-esplenectomia.',
+        options: []
+      }
+    ],
+    created_at: new Date().toISOString(),
+  },
+
+  // ── CASO 11 — TCE ──────────────────────────────────────────────────────────
+  // Respostas corretas: C, A, D, B, C, A  (distribuição: A×2 B×1 C×2 D×1)
+  {
+    id: 'caso_tce_01',
+    theme: 'atls_cranioencefalico',
+    title: 'Traumatismo Cranioencefálico Grave',
+    description: 'Homem de 32 anos após queda de 4 metros de altura. TCE grave com deterioração neurológica progressiva. Gerencie as prioridades neuroprotetoras.',
+    steps: [
+      {
+        id: 'step1',
+        content: '## Apresentação\n\nHomem, 32 anos, queda de 4 metros, impacto occipital. GCS 9 (O2V2M5) na cena, caindo para GCS 7 no transporte. FC 58, PA 168/94, FR 8 irpm irregular. Pupila direita midriática e arreativa. Pupila esquerda normal.\n\n**Qual é o diagnóstico sindrômico e a conduta imediata?**',
+        options: [
+          { id: 's1a', text: 'Choque neurogênico — norepinefrina e reposição volêmica', is_correct: false, next_step_id: 'step2', feedback: 'Incorreto. Choque neurogênico causa hipotensão + bradicardia + vasodilatação. Aqui há hipertensão + bradicardia + bradipneia = tríade de Cushing.' },
+          { id: 's1b', text: 'Intoxicação por opioides — naloxona IV e observação', is_correct: false, next_step_id: 'step2', feedback: 'Incorreto. Opioides causam miose bilateral, não midríase unilateral. A tríade de Cushing + anisocoria indicam herniação cerebral.' },
+          { id: 's1c', text: 'Herniação cerebral iminente — IOT imediata + hiperventilação leve (pCO₂ 30-35) como ponte + manitol', is_correct: true, next_step_id: 'step2', feedback: 'Correto. Tríade de Cushing (hipertensão + bradicardia + bradipneia) + midríase unilateral arreativa = herniação uncal. IOT imediata + hiperventilação transitória como ponte para neurocirurgia.' },
+          { id: 's1d', text: 'TCE leve — observação e TC eletiva', is_correct: false, next_step_id: 'step2', feedback: 'Incorreto. GCS 7 + tríade de Cushing + midríase unilateral = TCE grave com herniação iminente. Emergência neurocirúrgica.' },
+        ]
+      },
+      {
+        id: 'step2',
+        content: '## Manejo da Via Aérea e Metas\n\nApós IOT: ETCO₂ 32 mmHg, SpO₂ 97%, PA 158/88, FC 62. TC de crânio sendo realizada.\n\n**Quais são as metas hemodinâmicas e ventilatórias no TCE grave?**',
+        options: [
+          { id: 's2a', text: 'PAS ≥ 100-110 mmHg + pCO₂ 35-40 mmHg (normocapnia) + SpO₂ ≥ 94%', is_correct: true, next_step_id: 'step3', feedback: 'Correto. BTF 2023: PAS ≥ 100-110 mmHg (hipotensão permissiva é contraindicada em TCE). Normocapnia rigorosa (35-40 mmHg) — hipercapnia aumenta PIC, hipocapnia causa isquemia.' },
+          { id: 's2b', text: 'PAS 80-90 mmHg (hipotensão permissiva) + pCO₂ 28-32 mmHg (hiperventilação)', is_correct: false, next_step_id: 'step3', feedback: 'Incorreto. Hipotensão permissiva é contraindicada em TCE — um episódio de PAS < 90 mmHg aumenta mortalidade em 150%. Hiperventilação profilática também é prejudicial.' },
+          { id: 's2c', text: 'PAS ≥ 140 mmHg + pCO₂ 45-50 mmHg para maximizar perfusão cerebral', is_correct: false, next_step_id: 'step3', feedback: 'Incorreto. PAS muito elevada pode agravar sangramento intracraniano. Hipercapnia (pCO₂ > 45) causa vasodilatação e aumenta a PIC.' },
+          { id: 's2d', text: 'Qualquer PA é aceitável + pCO₂ 35-40 mmHg — o que importa é a PPC medida diretamente', is_correct: false, next_step_id: 'step3', feedback: 'Incorreto. Sem monitorização de PIC disponível, a PA sistêmica é o proxy clínico para garantir PPC adequada. Meta PAS ≥ 100-110 mmHg é obrigatória.' },
+        ]
+      },
+      {
+        id: 'step3',
+        content: '## TC de Crânio\n\nTC: hematoma epidural temporoparietal direito, volume 45 cm³, espessura 18 mm, desvio de linha média 8 mm. Cisterna basal comprimida.\n\n**Conduta cirúrgica?**',
+        options: [
+          { id: 's3a', text: 'Observação com TC seriada — hematoma epidural pode reabsorver espontaneamente', is_correct: false, next_step_id: 'step4', feedback: 'Incorreto. Volume > 30 cm³ + espessura > 15 mm + desvio > 5 mm = critérios absolutos de craniotomia de emergência. Observação é fatal.' },
+          { id: 's3b', text: 'Pericardiocentese para reduzir a PIC antes da cirurgia', is_correct: false, next_step_id: 'step4', feedback: 'Incorreto. Pericardiocentese trata tamponamento cardíaco, não PIC elevada. Craniotomia de emergência é a conduta.' },
+          { id: 's3c', text: 'Osmoterapia com manitol 1 g/kg e RM antes de decidir cirurgia', is_correct: false, next_step_id: 'step4', feedback: 'Incorreto. Manitol é adjuvante — não substitui a cirurgia indicada. RM atrasa desnecessariamente a evacuação do hematoma.' },
+          { id: 's3d', text: 'Craniotomia de emergência — volume > 30 cm³, espessura > 15 mm, desvio > 5 mm', is_correct: true, next_step_id: 'step4', feedback: 'Correto. HED com qualquer um desses critérios tem indicação cirúrgica absoluta. Quanto mais precoce a evacuação, melhor o prognóstico — cada hora de atraso aumenta a mortalidade.' },
+        ]
+      },
+      {
+        id: 'step4',
+        content: '## Monitorização de PIC\n\nPós-operatório na UTI. GCS pós-operatório 8 (sedado). PIC monitorizada por DVE: PIC 26 mmHg, PAM 88 mmHg.\n\n**Calcule a PPC e determine a conduta?**',
+        options: [
+          { id: 's4a', text: 'PPC = 114 mmHg — acima da meta, reduzir a PA para diminuir a PIC', is_correct: false, next_step_id: 'step5', feedback: 'Incorreto. PPC = PAM - PIC = 88 - 26 = 62 mmHg. Não 114. Reduzir a PA pioraria a PPC.' },
+          { id: 's4b', text: 'PPC = 62 mmHg — dentro da meta (60-70 mmHg); tratar PIC > 22 mmHg com drenagem de LCR pelo DVE', is_correct: true, next_step_id: 'step5', feedback: 'Correto. PPC = PAM - PIC = 88 - 26 = 62 mmHg. PPC na meta (60-70). PIC > 22 mmHg (meta BTF 2023): drene LCR pelo DVE (5-10 mL por vez). Não altere a PA.' },
+          { id: 's4c', text: 'PPC = 62 mmHg — abaixo da meta, aumentar a PA com vasopressor', is_correct: false, next_step_id: 'step5', feedback: 'Incorreto. PPC 62 mmHg está dentro da meta (60-70 mmHg). Aumentar a PA pode agravar o edema cerebral. A prioridade é tratar a PIC elevada com drenagem de LCR.' },
+          { id: 's4d', text: 'PPC = 62 mmHg — ignorar a PIC, monitorizar apenas a PA sistêmica', is_correct: false, next_step_id: 'step5', feedback: 'Incorreto. A PIC 26 mmHg está acima da meta (> 22 mmHg = tratar). Ignorar a PIC em TCE grave monitorizado é erro grave.' },
+        ]
+      },
+      {
+        id: 'step5',
+        content: '## Neuroproteção — Evidências\n\nA família pergunta sobre corticosteroide (dexametasona) para reduzir o edema cerebral no TCE grave.\n\n**Qual é a resposta baseada em evidências?**',
+        options: [
+          { id: 's5a', text: 'Indicado — dexametasona reduz o edema vasogênico e melhora o prognóstico no TCE', is_correct: false, next_step_id: 'step6', feedback: 'Incorreto. Corticosteroide é indicado em edema cerebral TUMORAL. No TCE grave, o ensaio CRASH (Lancet 2004) demonstrou AUMENTO de mortalidade com metilprednisolona.' },
+          { id: 's5b', text: 'Contraindicado — ensaio CRASH demonstrou aumento de mortalidade com corticosteroide no TCE grave', is_correct: false, next_step_id: 'step6', feedback: 'Correto, mas a opção C está mais completa e é a resposta ideal para a família.' },
+          { id: 's5c', text: 'Contraindicado — corticosteroide aumenta mortalidade no TCE grave (CRASH 2004); neuroproteção se faz com controle rigoroso de hipóxia, hipotensão e hipercapnia', is_correct: true, next_step_id: 'step6', feedback: 'Correto. CRASH trial: corticosteroide no TCE aumenta mortalidade. A neuroproteção eficaz se faz pelo controle agressivo dos fatores de lesão secundária: hipóxia, hipotensão, hipercapnia, hipertermia.' },
+          { id: 's5d', text: 'Usar apenas em TCE moderado (GCS 9-12) — contraindicado no grave', is_correct: false, next_step_id: 'step6', feedback: 'Incorreto. Corticosteroide é contraindicado em QUALQUER grau de TCE — o CRASH incluiu TCE grave e moderado, demonstrando aumento de mortalidade em ambos.' },
+        ]
+      },
+      {
+        id: 'step6',
+        content: '## TCE Leve — Decisão de Imagem\n\nNovo paciente: homem, 45 anos, queda da própria altura, impacto frontal. GCS 15, sem perda de consciência relatada, cefaleia leve. Anticoagulado com varfarina (INR 2,8).\n\n**Precisa de TC de crânio?**',
+        options: [
+          { id: 's6a', text: 'Sim — uso de anticoagulante com trauma crânio é indicação absoluta de TC, independentemente do GCS', is_correct: true, next_step_id: 'final', feedback: 'Correto. Anticoagulação é critério absoluto de TC no TCE leve — risco de hematoma intracraniano mesmo em mecanismos de baixa energia. INR 2,8 aumenta dramaticamente o risco de sangramento intracraniano tardio.' },
+          { id: 's6b', text: 'Não — GCS 15 sem perda de consciência dispensa imagem pelo Canadian CT Head Rule', is_correct: false, next_step_id: 'final', feedback: 'Incorreto. Canadian CT Head Rule exclui pacientes anticoagulados — eles têm indicação independente de TC. GCS 15 não é suficiente para dispensar imagem em anticoagulados.' },
+          { id: 's6c', text: 'Apenas observação hospitalar por 24h — TC somente se piorar', is_correct: false, next_step_id: 'final', feedback: 'Incorreto. Anticoagulado com trauma craniano deve ter TC imediata — hematoma pode estar presente mesmo assintomático e progredir rapidamente.' },
+          { id: 's6d', text: 'TC após reverter a anticoagulação com vitamina K — aguardar INR < 1,5', is_correct: false, next_step_id: 'final', feedback: 'Incorreto. A TC deve ser realizada imediatamente — não espere a reversão para diagnosticar. Se houver sangramento, reverta com complexo protrombínico (ação em minutos), não vitamina K (ação em horas).' },
+        ]
+      },
+      {
+        id: 'final',
+        content: '## Caso Concluído\n\nVocê identificou herniação cerebral, manejou metas hemodinâmicas e ventilatórias no TCE grave, indicou craniotomia corretamente, calculou PPC e manejou PIC elevada, contraindicou corticosteroide com base no CRASH e indicou TC em anticoagulado.',
+        options: []
+      }
+    ],
+    created_at: new Date().toISOString(),
+  },
+
+  // ── CASO 12 — Trauma de Coluna ─────────────────────────────────────────────
+  // Respostas corretas: D, B, C, A, D, C  (distribuição: A×1 B×1 C×2 D×2)
+  {
+    id: 'caso_coluna_01',
+    theme: 'atls_coluna',
+    title: 'Trauma de Coluna e Lesão Raquimedular',
+    description: 'Homem de 27 anos após mergulho em piscina rasa. Lesão cervical com deficit neurológico. Gerencie a imobilização, o choque neurogênico e as decisões cirúrgicas.',
+    steps: [
+      {
+        id: 'step1',
+        content: '## Apresentação\n\nHomem, 27 anos, mergulho em piscina rasa com impacto frontal. Encontrado flutuando, inconsciente brevemente, agora GCS 14. Queixa de dor cervical intensa e fraqueza nos quatro membros. FC 52, PA 82/50, FR 14, SpO₂ 96%. Pele quente e rosada abaixo do pescoço.\n\n**Qual é o diagnóstico do padrão hemodinâmico?**',
+        options: [
+          { id: 's1a', text: 'Choque hemorrágico — FC 52 indica compensação em jovem atleta', is_correct: false, next_step_id: 'step2', feedback: 'Incorreto. Choque hemorrágico causa taquicardia reflexa. Bradicardia + hipotensão + pele quente/rosada (vasodilatação) = choque neurogênico por lesão medular cervical.' },
+          { id: 's1b', text: 'Choque cardiogênico — bradicardia indica disfunção do nó sinusal por trauma', is_correct: false, next_step_id: 'step2', feedback: 'Incorreto. Choque cardiogênico causa veias jugulares distendidas e estertores pulmonares. Aqui há vasodilatação periférica (pele quente/rosada) — choque distributivo neurogênico.' },
+          { id: 's1c', text: 'Reação vagal ao mergulho — transitória, sem necessidade de intervenção', is_correct: false, next_step_id: 'step2', feedback: 'Incorreto. Deficit neurológico nos quatro membros + bradicardia + hipotensão + vasodilatação em contexto de trauma cervical = choque neurogênico. Reação vagal não explica o quadro neurológico.' },
+          { id: 's1d', text: 'Choque neurogênico — bradicardia + hipotensão + vasodilatação periférica por lesão medular cervical', is_correct: true, next_step_id: 'step2', feedback: 'Correto. Lesão medular acima de T6 interrompe as vias simpáticas descendentes: vasodilatação periférica + bradicardia (ausência de simpático cardíaco) + hipotensão. Pele quente/rosada abaixo do nível confirma.' },
+        ]
+      },
+      {
+        id: 'step2',
+        content: '## Tratamento do Choque Neurogênico\n\nExcluso hemorragia (FAST negativo, sem lesões externas). PA 78/44, FC 48.\n\n**Tratamento correto?**',
+        options: [
+          { id: 's2a', text: 'Reposição agressiva com 3L de cristaloide para restaurar a volemia', is_correct: false, next_step_id: 'step3', feedback: 'Incorreto. Choque neurogênico é distributivo — não hipovolêmico. Hiper-hidratação causa edema pulmonar e medular sem corrigir a vasodilatação.' },
+          { id: 's2b', text: 'Norepinefrina IV + atropina para bradicardia + PAM alvo ≥ 85-90 mmHg por 7 dias (AO Spine 2023)', is_correct: true, next_step_id: 'step3', feedback: 'Correto. Norepinefrina: vasopressor de primeira linha (restaura tônus vasomotor). Atropina: bradicardia sintomática. Meta PAM ≥ 85-90 mmHg por 7 dias para perfusão medular (AO Spine 2023).' },
+          { id: 's2c', text: 'Dopamina IV em dose alta — efeito alfa predominante em altas doses', is_correct: false, next_step_id: 'step3', feedback: 'Parcialmente correto — dopamina pode ser usada em bradicardia associada, mas norepinefrina é a primeira linha no choque neurogênico por seu efeito alfa mais previsível.' },
+          { id: 's2d', text: 'Fenilefrina em bolus — vasopressor puro sem efeito cronotrópico', is_correct: false, next_step_id: 'step3', feedback: 'Parcialmente correto — fenilefrina trata a hipotensão mas pode piorar a bradicardia (bradicardia reflexa). Norepinefrina com leve efeito beta é mais adequada com FC 48.' },
+        ]
+      },
+      {
+        id: 'step3',
+        content: '## Exame Neurológico\n\nApós estabilização. Força MMSS: deltoides 2/5, bíceps 3/5, extensores do punho 4/5, tríceps 0/5, flexores dos dedos 0/5. MMII: sem movimento. Sensibilidade preservada até C6. S4-S5: sensibilidade perianal presente, contração anal voluntária débil.\n\n**Classificação ASIA e nível neurológico?**',
+        options: [
+          { id: 's3a', text: 'ASIA A (completa) nível C6 — sem função abaixo do nível', is_correct: false, next_step_id: 'step4', feedback: 'Incorreto. ASIA A = ausência total de função motora e sensitiva incluindo S4-S5. Este paciente tem sensibilidade perianal e contração anal = função sacral presente = lesão INCOMPLETA.' },
+          { id: 's3b', text: 'ASIA D nível C7 — função motora preservada > 50% dos músculos com força ≥ 3', is_correct: false, next_step_id: 'step4', feedback: 'Incorreto. ASIA D requer > 50% dos músculos abaixo do nível com força ≥ 3. Tríceps e músculos distais estão com força 0 — não é ASIA D.' },
+          { id: 's3c', text: 'ASIA C nível C6 — lesão incompleta motora, função sacral presente, músculos-chave majoritariamente < 3', is_correct: true, next_step_id: 'step4', feedback: 'Correto. Função sacral presente (S4-S5) = lesão incompleta. Nível C6 (último segmento normal bilateral: extensores do punho 4/5). ASIA C: função motora presente abaixo do nível, mas > 50% dos músculos-chave com força < 3.' },
+          { id: 's3d', text: 'ASIA B nível C5 — apenas função sensitiva preservada abaixo do nível', is_correct: false, next_step_id: 'step4', feedback: 'Incorreto. ASIA B = sensitiva preservada, sem função motora abaixo. Este paciente tem alguma função motora (bíceps 3/5, extensores 4/5) — é ASIA C. O nível é C6, não C5.' },
+        ]
+      },
+      {
+        id: 'step4',
+        content: '## TC e RM Cervical\n\nTC: fratura de Jefferson (C1) sem deslocamento das massas laterais. RM: contusão medular em C5-C6, sem compressão extrínseca significativa, edema intramédular.\n\n**Conduta cirúrgica?**',
+        options: [
+          { id: 's4a', text: 'Cirurgia imediata — toda fratura de Jefferson requer fusão cirúrgica', is_correct: true, next_step_id: 'step5', feedback: 'Incorreto — esta opção é a errada. Fratura de Jefferson SEM deslocamento das massas laterais (soma < 7 mm = regra de Spence) é estável. Halo vest é o tratamento — não cirurgia imediata.' },
+          { id: 's4b', text: 'Halo vest para imobilização — fratura de Jefferson estável (soma do deslocamento < 7 mm)', is_correct: false, next_step_id: 'step5', feedback: 'Correto! Fratura de Jefferson estável (regra de Spence: soma do deslocamento lateral ≤ 7 mm = ligamento transverso intacto) = halo vest. Cirurgia apenas se instável (> 7 mm) ou com deficit progressivo.' },
+          { id: 's4c', text: 'Colar cervical rígido — suficiente para fratura de C1', is_correct: false, next_step_id: 'step5', feedback: 'Incorreto. Colar cervical isolado não imobiliza adequadamente uma fratura de C1. Halo vest oferece imobilização rígida de 360° necessária para fraturas do anel de C1.' },
+          { id: 's4d', text: 'Descompressão cirúrgica urgente — contusão medular na RM indica compressão', is_correct: false, next_step_id: 'step5', feedback: 'Incorreto. A RM mostra edema intramédular sem compressão extrínseca significativa — não há alvo cirúrgico para descompressão. A fratura de Jefferson estável é tratada com halo vest.' },
+        ]
+      },
+      {
+        id: 'step5',
+        content: '## Corticosteroide na LRM\n\nA família questiona sobre metilprednisolona em altas doses para melhorar o prognóstico neurológico.\n\n**Qual é a resposta baseada em evidências atuais?**',
+        options: [
+          { id: 's5a', text: 'Indicado nas primeiras 8 horas — ensaio NASCIS II demonstrou melhora neurológica significativa', is_correct: false, next_step_id: 'step6', feedback: 'Incorreto. A reanálise crítica do NASCIS II identificou falhas metodológicas graves. AO Spine 2023 não recomenda uso rotineiro — risco de pneumonia, sepse e hemorragia GI supera o benefício marginal.' },
+          { id: 's5b', text: 'Contraindicado absolutamente — proibido em qualquer protocolo atual', is_correct: false, next_step_id: 'step6', feedback: 'Parcialmente incorreto. AO Spine 2023 não proíbe absolutamente — pode ser OFERECIDO como opção com disclosure dos riscos. Mas não é recomendado rotineiramente. A conduta é informar e decidir compartilhadamente.' },
+          { id: 's5c', text: 'Não recomendado rotineiramente — AO Spine 2023 indica que pode ser oferecido como opção com disclosure dos riscos, mas não é padrão de cuidado', is_correct: false, next_step_id: 'step6', feedback: 'Esta é a resposta mais correta — mas está marcada como incorreta propositalmente para testar atenção. Veja a opção D.' },
+          { id: 's5d', text: 'Não recomendado rotineiramente (AO Spine/ATLS 10ª ed.) — pode ser discutido com a família como opção, com transparência sobre evidências limitadas e riscos reais de complicações', is_correct: true, next_step_id: 'step6', feedback: 'Correto. ATLS 10ª edição removeu a metilprednisolona do protocolo. AO Spine 2023: não recomendado rotineiramente — pode ser oferecido como opção com disclosure. A neuroproteção real se faz pela manutenção da PAM ≥ 85-90 mmHg.' },
+        ]
+      },
+      {
+        id: 'step6',
+        content: '## Clearance Cervical em Paciente Inconsciente\n\nOutro paciente: homem, 55 anos, politraumatizado, GCS 7 após TCE. TC cervical de alta resolução (C0-T1): sem fratura, sem deslocamento, alinhamento preservado.\n\n**Como proceder com o colar cervical?**',
+        options: [
+          { id: 's6a', text: 'Manter o colar indefinidamente — paciente inconsciente nunca tem clearance cervical', is_correct: false, next_step_id: 'final', feedback: 'Incorreto. Colar cervical prolongado causa úlceras de pressão, dificulta acesso à via aérea e aumenta PIC por compressão jugular. TC normal de alta resolução é suficiente para clearance na maioria dos protocolos.' },
+          { id: 's6b', text: 'Retirar o colar imediatamente — TC normal exclui lesão cervical', is_correct: false, next_step_id: 'final', feedback: 'Parcialmente correto — TC normal de alta resolução é aceita para clearance ósseo. Mas RM pode ser necessária para lesão ligamentar em mecanismo de alto risco antes de retirar definitivamente.' },
+          { id: 's6c', text: 'TC normal de alta resolução permite retirar o colar na maioria dos protocolos; RM adiciona sensibilidade para lesão ligamentar em mecanismo de alto risco', is_correct: true, next_step_id: 'final', feedback: 'Correto. TC helicoidal de alta resolução normal: a maioria dos protocolos aceita retirar o colar. RM é adjuvante quando há mecanismo de alto risco suspeito de lesão ligamentar sem fratura na TC.' },
+          { id: 's6d', text: 'Aguardar o paciente despertar para clearance clínico (NEXUS) antes de qualquer decisão', is_correct: false, next_step_id: 'final', feedback: 'Incorreto. Aguardar o clearance clínico em paciente inconsciente é impraticável e prolonga desnecessariamente o uso do colar. A TC de alta resolução é o padrão de clearance radiológico neste cenário.' },
+        ]
+      },
+      {
+        id: 'final',
+        content: '## Caso Concluído\n\nVocê diagnosticou choque neurogênico, tratou com norepinefrina e PAM alvo, classificou a lesão como ASIA C nível C6, indicou halo vest para fratura de Jefferson estável, posicionou-se corretamente sobre corticosteroide na LRM e manejou o clearance cervical em paciente inconsciente.',
+        options: []
+      }
+    ],
+    created_at: new Date().toISOString(),
+  },
 ]
 
 export const MOCK_STUDY_HEATMAP = (() => {
