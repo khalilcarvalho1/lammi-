@@ -2,21 +2,18 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { THEMES, StudyTheme } from '@/services/supabaseClient'
 
-// ─── MOCK_DIR completo — cole em DiretrizesPage.tsx ───────────────────────────
-
 export const MOCK_DIR = [
 
-  // ── 1. AVALIAÇÃO DA CENA ────────────────────────────────────────────────
   {
     id: 'd_ac_01',
     title: 'Segurança da Cena e Atendimento Pré-Hospitalar',
-    fonte: 'PHTLS 9ª Ed. / TCCC 2023',
+    fonte: 'PHTLS 9ª Ed. / TCCC 2024',
     resumo: 'Princípios de segurança da cena, triagem START, protocolo MARCH e decisão de transporte no ambiente pré-hospitalar.',
     tema: 'avaliacao_cena' as any,
     conteudo: [
       'Segurança da cena é a primeira prioridade absoluta — socorrista ferido vira mais uma vítima e sobrecarrega o sistema de resposta.',
       'Avalie o mnemônico CENA: Contaminação CBRN, Estrutura instável, Natureza da violência, Acidente de trânsito com tráfego não controlado.',
-      'No TCCC, o mnemônico MARCH precede o ABCDE: Massive hemorrhage → Airway → Respiration → Circulation → Hypothermia.',
+      'No TCCC, o mnemônico MARCH precede o xABCDE: Massive hemorrhage → Airway → Respiration → Circulation → Hypothermia.',
       'Sistema START: deambulação → respiração (FR > 30 = vermelho) → perfusão (TEC > 2s = vermelho) → neurológico (não obedece = vermelho).',
       'Ácido tranexâmico (ATX): 1g IV em 10 min + 1g em 8h — janela máxima de 3 horas; após esse prazo, pode aumentar a mortalidade.',
       'Hipotensão permissiva: PAS 80-90 mmHg em trauma penetrante sem TCE — não aplique em TCE ou lesão medular.',
@@ -27,11 +24,10 @@ export const MOCK_DIR = [
     ]
   },
 
-  // ── 2. CINEMÁTICA DO TRAUMA ─────────────────────────────────────────────
   {
     id: 'd_ct_01',
     title: 'Cinemática do Trauma — Princípios e Padrões de Lesão',
-    fonte: 'ATLS 10ª Ed. / PHTLS 9ª Ed.',
+    fonte: 'ATLS 11ª Ed. (ACS, 2025) / PHTLS 9ª Ed.',
     resumo: 'Aplicação dos princípios físicos para antecipar lesões antes do exame físico — base do raciocínio cinemático.',
     tema: 'cinetica_trauma' as any,
     conteudo: [
@@ -48,53 +44,50 @@ export const MOCK_DIR = [
     ]
   },
 
-  // ── 3. ATLS INICIAL ─────────────────────────────────────────────────────
   {
     id: 'd_ai_01',
-    title: 'ATLS — Atendimento Inicial ao Politraumatizado',
-    fonte: 'ATLS 10ª Ed. (ACS)',
-    resumo: 'Sequência ABCDE, reanimação simultânea, FAST, DCR e Damage Control Surgery no politraumatizado grave.',
+    title: 'ATLS 11 — Atendimento Inicial ao Politraumatizado (xABCDE)',
+    fonte: 'ATLS 11ª Ed. (ACS, 2025)',
+    resumo: 'Nova sequência xABCDE, controle de hemorragia exsanguinante como prioridade zero, DCR com sangue total e Damage Control Surgery.',
     tema: 'atls_inicial' as any,
     conteudo: [
-      'ABCDE reflete a ordem de letalidade — trate primeiro o que mata primeiro, independentemente do diagnóstico definitivo.',
+      'xABCDE: o "x" representa controle da hemorragia exsanguinante ANTES da via aérea — torniquete e agentes hemostáticos são prioridade zero.',
+      'Hemorragia externa maciça visível é controlada imediatamente, antes de qualquer outra intervenção — ATLS 11 formaliza o que a medicina militar já praticava.',
       'FAST positivo + instabilidade hemodinâmica = laparotomia de emergência imediata — não leve para TC.',
-      'Damage Control Resuscitation (DCR): hipotensão permissiva + 1:1:1 (plasma:plaquetas:hemácias) + ATX nas primeiras 3h.',
+      'Damage Control Resuscitation (DCR): hipotensão permissiva + sangue total (whole blood) preferencialmente, ou 1:1:1 + ATX nas primeiras 3h — cristaloides são minimizados.',
       'ABC Score ≥ 2 → ativar Protocolo de Transfusão Maciça — não aguarde confirmação laboratorial.',
       'Damage Control Surgery: cirurgia abreviada (< 90 min) → UTI (correção da tríade letal) → cirurgia definitiva.',
-      'Critérios para DCS: pH < 7,2, temperatura < 35°C, INR > 1,5, transfusão > 10 unidades, hipotensão refratária.',
+      'Estabilização hemodinâmica deve preceder a intubação sempre que possível — intubação em hipovolemia grave causa colapso cardiovascular.',
       'Corticosteroide no TCE: aumenta a mortalidade — contraindicado (CRASH Trial, Lancet 2004).',
       'Hipotensão permissiva é contraindicada no TCE — meta PAS ≥ 100-110 mmHg conforme a faixa etária (BTF 2023).',
-      'Avaliação secundária só começa após ABCDE completo e paciente estabilizado.',
       'Lactato e seu clearance (≥ 10% em 2h) são os melhores marcadores de adequação da ressuscitação.',
     ]
   },
 
-  // ── 4. VIA AÉREA ────────────────────────────────────────────────────────
   {
     id: 'd_va_01',
-    title: 'ATLS — Via Aérea e Ventilação no Trauma',
-    fonte: 'ATLS 10ª Ed. / DAS Guidelines 2015',
-    resumo: 'Manejo progressivo da via aérea no trauma — manobras básicas, SIR, via aérea difícil e ventilação protetora.',
+    title: 'ATLS 11 — Via Aérea e Ventilação no Trauma',
+    fonte: 'ATLS 11ª Ed. (ACS, 2025) / DAS Guidelines 2015',
+    resumo: 'Manejo progressivo da via aérea no trauma — hemorragia controlada primeiro, manobras básicas, SIR, via aérea difícil e ventilação protetora.',
     tema: 'atls_via_aerea' as any,
     conteudo: [
-      'Obstrução de via aérea mata em 3-5 minutos — é a primeira prioridade absoluta do ATLS.',
+      'No xABCDE, a via aérea é prioridade "A" — mas hemorragia exsanguinante ("x") é controlada antes, se presente.',
       'GCS ≤ 8 = via aérea definitiva imediata — não espere deterioração adicional.',
+      'Estabilize a hemodinâmica antes de intubar quando possível — indução em choque hemorrágico grave causa parada cardíaca.',
       'Via aérea difícil prevista (LEMON positivo): acorde o plano B ANTES de paralisar — videolaringoscópio, bougie e cricotireoidostomia abertos.',
       'Pré-oxigenação adequada com máscara com reservatório por 3-5 minutos antes da SIR é obrigatória.',
       'Etomidato 0,3 mg/kg: indutor de escolha no trauma por mínimo efeito hemodinâmico.',
       'Succinilcolina: contraindicada em hipercalemia, esmagamento > 24h, queimaduras extensas > 24h e miopatias.',
       'Rocurônio 1,2 mg/kg: alternativa à succinilcolina — use sempre com sugammadex disponível.',
       'Capnografia (ETCO₂): padrão-ouro para confirmação do tubo — ETCO₂ > 20 mmHg com forma de onda confirma posição traqueal.',
-      'CICO (can\'t intubate, can\'t oxygenate): cricotireoidostomia cirúrgica imediata — não perca tempo em tentativas repetidas.',
-      'Ventilação protetora: volume corrente 6-8 mL/kg de peso predito — evita lesão pulmonar induzida pelo ventilador.',
+      "CICO (can't intubate, can't oxygenate): cricotireoidostomia cirúrgica imediata — não perca tempo em tentativas repetidas.",
     ]
   },
 
-  // ── 5. TRAUMA DE FACE ────────────────────────────────────────────────────
   {
     id: 'd_tf_01',
-    title: 'ATLS — Trauma Maxilofacial',
-    fonte: 'ATLS 10ª Ed. / IATSIC 2023',
+    title: 'ATLS 11 — Trauma Maxilofacial',
+    fonte: 'ATLS 11ª Ed. (ACS, 2025) / IATSIC 2023',
     resumo: 'Prioridades no trauma de face — via aérea, controle de hemorragia, classificação de Le Fort e urgências oftalmológicas.',
     tema: 'atls_face' as any,
     conteudo: [
@@ -111,12 +104,11 @@ export const MOCK_DIR = [
     ]
   },
 
-  // ── 6. TRAUMA DE PESCOÇO ────────────────────────────────────────────────
   {
     id: 'd_tp_01',
-    title: 'ATLS — Trauma de Pescoço',
-    fonte: 'ATLS 10ª Ed. / EAST 2023',
-    resumo: 'Zonas cervicais, sinais duros e moles, BCVI, lesão esofágica e clearance cervical no trauma penetrante e contuso.',
+    title: 'ATLS 11 — Trauma de Pescoço',
+    fonte: 'ATLS 11ª Ed. (ACS, 2025) / EAST 2023',
+    resumo: 'Zonas cervicais, sinais duros e moles, BCVI, lesão esofágica e restrição seletiva de coluna no trauma penetrante e contuso.',
     tema: 'atls_pescoco' as any,
     conteudo: [
       'Hematoma cervical expansivo: via aérea definitiva imediata — não aguarde obstrução completa.',
@@ -126,17 +118,16 @@ export const MOCK_DIR = [
       'BCVI: rastreie com angio-TC em todos com fatores de risco (Denver Criteria) — AVC isquêmico em 10-58% sem tratamento.',
       'Síndrome de Horner após trauma cervical = lesão de carótida interna até que se prove o contrário.',
       'Biffl grau I-II: antiagregação com AAS; grau III: stent endovascular; grau IV: anticoagulação.',
-      'NEXUS e Canadian C-Spine Rule: evitam imagem cervical em até 85% dos pacientes de baixo risco.',
+      'Restrição de coluna cervical agora é SELETIVA no ATLS 11 — aplique apenas com indicação clínica, não de forma universal; a via aérea tem prioridade sobre a proteção de coluna.',
       'Nunca clampee vasos cervicais cegamente — risco de lesão dos nervos vago, hipoglosso e frênico.',
       'Enfisema subcutâneo cervical: investigue sempre lesão de traqueia e esôfago.',
     ]
   },
 
-  // ── 7. TRAUMA TORÁCICO ──────────────────────────────────────────────────
   {
     id: 'd_tt_01',
-    title: 'ATLS — Trauma Torácico',
-    fonte: 'ATLS 10ª Ed. / AAST 2023',
+    title: 'ATLS 11 — Trauma Torácico',
+    fonte: 'ATLS 11ª Ed. (ACS, 2025) / AAST 2023',
     resumo: '6 lesões que matam na avaliação primária, 6 que matam na secundária, hemotórax residual e lesão de aorta traumática.',
     tema: 'atls_toracico' as any,
     conteudo: [
@@ -153,32 +144,30 @@ export const MOCK_DIR = [
     ]
   },
 
-  // ── 8. CHOQUE ───────────────────────────────────────────────────────────
   {
     id: 'd_ch_01',
-    title: 'ATLS — Choque no Trauma',
-    fonte: 'ATLS 10ª Ed. / EAST 2023 / PROPPR / CRASH-2',
-    resumo: 'Classificação do choque hemorrágico, DCR, reanimação hemostática e Damage Control Surgery.',
+    title: 'ATLS 11 — Choque no Trauma e DCR',
+    fonte: 'ATLS 11ª Ed. (ACS, 2025) / PROPPR / CRASH-2',
+    resumo: 'Classificação do choque hemorrágico, DCR com sangue total, cristaloides limitados, reanimação hemostática e Damage Control Surgery.',
     tema: 'atls_choque' as any,
     conteudo: [
-      'Hemorragia não controlada é a principal causa de morte evitável no trauma — controle da fonte antes da reposição.',
+      'Hemorragia não controlada é a principal causa de morte evitável no trauma — controle da fonte (x do xABCDE) antes de qualquer outra intervenção.',
       'Tríade letal (hipotermia + acidose + coagulopatia): ciclo vicioso — prevenção desde o APH é mais eficaz que tratamento.',
       'Coagulopatia aguda induzida pelo trauma (CAT): presente em 25-35% dos pacientes na admissão, antes de qualquer reposição.',
-      'Razão 1:1:1 (plasma:plaquetas:hemácias) reduz mortalidade em 25% vs 1:1:2 — PROPPR Trial (JAMA 2015).',
+      'Sangue total (whole blood) é a ressuscitação ideal no ATLS 11 — quando não disponível, use razão 1:1:1 (plasma:plaquetas:hemácias).',
+      'Cristaloides devem ser MINIMIZADOS — uso excessivo causa coagulopatia dilucional, síndrome compartimental abdominal e piora de mortalidade.',
       'ATX: 1g IV nas primeiras 3 horas — janela terapêutica rigorosa; após 3h pode aumentar a mortalidade (CRASH-2).',
       'TEG/ROTEM: guia reposição específica em tempo real — superior ao coagulograma convencional.',
       'Hipotensão permissiva (PAS 80-90) em penetrante sem TCE — contraindicada em TCE, lesão medular e idosos.',
       'ABC Score ≥ 2: ative o PTM sem aguardar laboratório.',
-      'Choque neurogênico: bradicardia + vasodilatação — norepinefrina + PAM ≥ 85-90 mmHg por 7 dias (AO Spine 2023).',
       'Lactato e seu clearance são os melhores marcadores de adequação da ressuscitação — meta: normalização (< 2 mmol/L).',
     ]
   },
 
-  // ── 9. TRAUMA ABDOMINAL ─────────────────────────────────────────────────
   {
     id: 'd_ab_01',
-    title: 'ATLS — Trauma Abdominal',
-    fonte: 'ATLS 10ª Ed. / AAST 2023 / WSES 2023',
+    title: 'ATLS 11 — Trauma Abdominal',
+    fonte: 'ATLS 11ª Ed. (ACS, 2025) / AAST 2023 / WSES 2023',
     resumo: 'FAST, manejo não operatório, angioembolização, packing pélvico e síndrome compartimental abdominal.',
     tema: 'atls_abdominal' as any,
     conteudo: [
@@ -193,4 +182,5 @@ export const MOCK_DIR = [
       'SCA: PIA > 20 mmHg + nova disfunção de órgão → laparotomia descompressiva obrigatória.',
       'DCS: packing + controle de contaminação (< 90 min) → UTI (24-72h) → cirurgia definitiva.',
     ]
-  
+  },
+]
