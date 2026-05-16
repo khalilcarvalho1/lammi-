@@ -183,4 +183,132 @@ export const MOCK_DIR = [
       'DCS: packing + controle de contaminação (< 90 min) → UTI (24-72h) → cirurgia definitiva.',
     ]
   },
+
+  {
+    id: 'd_gu_01',
+    title: 'ATLS 11 — Trauma Genitourinário',
+    fonte: 'ATLS 11ª Ed. (ACS, 2025) / EAU 2023',
+    resumo: 'Avaliação do trauma renal, uretral e vesical — quando cateterizar, uretrografia retrógrada e manejo não operatório.',
+    tema: 'atls_genitourinario' as any,
+    conteudo: [
+      'Hematúria macroscópica após trauma: TC trifásica com contraste — investigação obrigatória.',
+      'Hematúria microscópica + choque (PAS < 90): sempre investigar com TC.',
+      'Ausência de hematúria NÃO exclui lesão renal grave — lesão de pedículo renal pode ocorrer sem hematúria.',
+      'Sangue no meato uretral + hematoma perineal em borboleta + próstata alta: tríade de lesão uretral — uretrografia retrógrada ANTES de cateterizar.',
+      'Cateterização em lesão uretral não diagnosticada: converte ruptura parcial em completa — evitar.',
+      'Ruptura vesical extraperitoneal: cateterismo contínuo 10-14 dias — 85% resolvem sem cirurgia.',
+      'Ruptura vesical intraperitoneal: cirurgia obrigatória — peritonite química por urina.',
+      'Lesão renal grau I-III estável: MNO com taxa de sucesso > 95%.',
+      'Pseudoaneurisma renal pós-trauma: angioembolização superseletiva — preserva parênquima renal.',
+      'Lesão uretral completa com defeito > 2 cm: uretroplastia com mucosa oral em 3-6 meses.',
+    ]
+  },
+
+  {
+    id: 'd_tce_01',
+    title: 'ATLS 11 — Trauma Cranioencefálico Grave',
+    fonte: 'ATLS 11ª Ed. (ACS, 2025) / BTF 2023',
+    resumo: 'Lesão secundária, metas hemodinâmicas e ventilatórias, osmoterapia, monitorização de PIC e indicações cirúrgicas.',
+    tema: 'atls_cranioencefalico' as any,
+    conteudo: [
+      'Hipotensão (PAS < 90) + hipóxia (SpO₂ < 90%): combinação mais letal no TCE — um único episódio dobra a mortalidade.',
+      'Meta de PAS no TCE grave (BTF 2023): ≥ 110 mmHg (15-49 anos e > 70 anos) ou ≥ 100 mmHg (50-69 anos).',
+      'Hipotensão permissiva é CONTRAINDICADA no TCE — autorregulação comprometida torna o FSC dependente direto da PAM.',
+      'ATX no TCE (ATLS 11ª Ed., 2025): 2g IV em bolus quando há suspeita de hemorragia intracraniana ativa — dose maior que o regime padrão de hemorragia (1g+1g).',
+      'Hiperventilação profilática (pCO₂ < 35): CONTRAINDICADA — causa vasoconstrição e isquemia cerebral.',
+      'Hiperventilação transitória (pCO₂ 30-35): apenas em herniação iminente como PONTE para tratamento definitivo.',
+      'Manitol 0,5-1 g/kg: osmoterapia de primeira linha — monitorize osmolaridade (máximo 320 mOsm/L).',
+      'HED > 30 cm³ ou espessura > 15 mm ou desvio > 5 mm: craniotomia de emergência.',
+      'Corticosteroide no TCE: CONTRAINDICADO — aumenta mortalidade (CRASH Trial, Lancet 2004).',
+      'PIC > 22 mmHg: tratamento obrigatório — meta de PPC 60-70 mmHg (BTF 2023).',
+    ]
+  },
+
+  {
+    id: 'd_col_01',
+    title: 'ATLS 11 — Trauma de Coluna e Lesão Raquimedular',
+    fonte: 'ATLS 11ª Ed. (ACS, 2025) / AO Spine 2023',
+    resumo: 'Restrição espinal seletiva, choque neurogênico, síndromes medulares, metas de PAM e decisão cirúrgica.',
+    tema: 'atls_coluna' as any,
+    conteudo: [
+      'Restrição de movimento espinal no ATLS 11 é SELETIVA — não aplique universalmente; no trauma penetrante cervical é desfavorável.',
+      'Choque neurogênico: bradicardia + hipotensão + vasodilatação (pele quente) — norepinefrina é o vasopressor de escolha.',
+      'Meta de PAM ≥ 85-90 mmHg por 7 dias após LRM cervical ou torácica (AO Spine 2023).',
+      'ASIA A (completa): sem função motora ou sensitiva em S4-S5 — função sacral ausente define lesão completa.',
+      'Síndrome do cordão central: fraqueza MMSS > MMII — mais comum, melhor prognóstico entre as incompletas.',
+      'Metilprednisolona: NÃO recomendada rotineiramente (AO Spine 2023) — pode ser oferecida como opção com disclosure dos riscos.',
+      'Fratura de Jefferson estável (soma deslocamento ≤ 7 mm): halo vest — instável (> 7 mm): fusão cirúrgica.',
+      'Descompressão cirúrgica precoce (< 24h) em LRM incompleta melhora desfechos neurológicos (STASCIS 2012).',
+      'Síndrome de cauda equina: urgência cirúrgica — descompressão em < 24-48h.',
+      'Gruen RL et al. Advanced trauma life support 2025: A brief review of updates. Injury. 2026;57(4):113079.',
+    ]
+  },
 ]
+
+export function DiretrizesPage() {
+  const navigate = useNavigate()
+  const [temaSelecionado, setTemaSelecionado] = useState<string>('todos')
+  const [busca, setBusca] = useState('')
+
+  const temasFiltro = ['todos', ...Array.from(new Set(MOCK_DIR.map(d => d.tema)))]
+
+  const diretrizesFiltradas = MOCK_DIR.filter(d => {
+    const matchTema = temaSelecionado === 'todos' || d.tema === temaSelecionado
+    const matchBusca = busca === '' ||
+      d.title.toLowerCase().includes(busca.toLowerCase()) ||
+      d.resumo.toLowerCase().includes(busca.toLowerCase())
+    return matchTema && matchBusca
+  })
+
+  return (
+    <div className="pagina-container">
+      <div className="pagina-header">
+        <button className="btn-voltar" onClick={() => navigate('/')}>← Voltar</button>
+        <h1 className="pagina-titulo">Diretrizes</h1>
+        <p className="pagina-subtitulo">Pontos-chave das principais diretrizes de medicina militar</p>
+      </div>
+
+      <div className="filtros-container">
+        <input
+          className="busca-input"
+          placeholder="Buscar diretriz..."
+          value={busca}
+          onChange={e => setBusca(e.target.value)}
+        />
+        <div className="subtemas-row">
+          {temasFiltro.map(t => (
+            <button
+              key={t}
+              className={`subtema-btn ${temaSelecionado === t ? 'ativo' : ''}`}
+              onClick={() => setTemaSelecionado(t)}
+            >
+              {t === 'todos' ? 'Todos' : (THEMES as any)[t] ?? t}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div className="grid-cards">
+        {diretrizesFiltradas.map(d => (
+          <div
+            key={d.id}
+            className="aula-card"
+            onClick={() => navigate(`/diretrizes/${d.id}`)}
+          >
+            <div className="aula-card-tema">{(THEMES as any)[d.tema] ?? d.tema}</div>
+            <h3 className="aula-card-titulo">{d.title}</h3>
+            <p className="aula-card-desc">{d.resumo}</p>
+            <div className="aula-card-fonte">📋 {d.fonte}</div>
+            <div className="aula-card-pontos">{d.conteudo.length} pontos-chave</div>
+          </div>
+        ))}
+      </div>
+
+      {diretrizesFiltradas.length === 0 && (
+        <div className="empty-state">
+          <p>Nenhuma diretriz encontrada para os filtros selecionados.</p>
+        </div>
+      )}
+    </div>
+  )
+}
