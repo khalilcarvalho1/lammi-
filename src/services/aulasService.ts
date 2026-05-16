@@ -1,29 +1,14 @@
-import { supabase } from './supabaseClient'
+import { MOCK_AULAS, Aula } from '@/data/mockAulas'
 
-export interface Aula {
-  id: string
-  title: string
-  description: string
-  theme: string
-  type: string
-  content_url?: string
-  content?: string
-  created_at?: string
-}
+export type { Aula }
 
 export const aulasService = {
-  async getAll() {
-    return supabase
-      .from('aulas')
-      .select('*')
-      .order('created_at', { ascending: true })
+  async getAll(): Promise<{ data: Aula[]; error: null }> {
+    return { data: MOCK_AULAS, error: null }
   },
 
-  async getById(id: string) {
-    return supabase
-      .from('aulas')
-      .select('*')
-      .eq('id', id)
-      .single()
+  async getById(id: string): Promise<{ data: Aula | null; error: null }> {
+    const aula = MOCK_AULAS.find(a => a.id === id) ?? null
+    return { data: aula, error: null }
   },
 }
