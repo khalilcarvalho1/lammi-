@@ -1,9 +1,7 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { THEMES, StudyTheme } from '@/services/supabaseClient'
 
 export const MOCK_DIR = [
-
   {
     id: 'd_ac_01',
     title: 'Segurança da Cena e Atendimento Pré-Hospitalar',
@@ -23,7 +21,6 @@ export const MOCK_DIR = [
       'MIST deve ser comunicado DURANTE o transporte, não na chegada — prepare a equipe receptora antes de chegar.',
     ]
   },
-
   {
     id: 'd_ct_01',
     title: 'Cinemática do Trauma — Princípios e Padrões de Lesão',
@@ -43,7 +40,6 @@ export const MOCK_DIR = [
       'Objeto empalado: nunca remova no APH — pode estar tamponando hemorragia vascular letal.',
     ]
   },
-
   {
     id: 'd_ai_01',
     title: 'ATLS 11 — Atendimento Inicial ao Politraumatizado (xABCDE)',
@@ -63,7 +59,6 @@ export const MOCK_DIR = [
       'Lactato e seu clearance (≥ 10% em 2h) são os melhores marcadores de adequação da ressuscitação.',
     ]
   },
-
   {
     id: 'd_va_01',
     title: 'ATLS 11 — Via Aérea e Ventilação no Trauma',
@@ -83,7 +78,6 @@ export const MOCK_DIR = [
       "CICO (can't intubate, can't oxygenate): cricotireoidostomia cirúrgica imediata — não perca tempo em tentativas repetidas.",
     ]
   },
-
   {
     id: 'd_tf_01',
     title: 'ATLS 11 — Trauma Maxilofacial',
@@ -103,7 +97,6 @@ export const MOCK_DIR = [
       'TC com reconstrução 3D é o padrão diagnóstico atual — radiografias simples têm papel muito limitado.',
     ]
   },
-
   {
     id: 'd_tp_01',
     title: 'ATLS 11 — Trauma de Pescoço',
@@ -123,7 +116,6 @@ export const MOCK_DIR = [
       'Enfisema subcutâneo cervical: investigue sempre lesão de traqueia e esôfago.',
     ]
   },
-
   {
     id: 'd_tt_01',
     title: 'ATLS 11 — Trauma Torácico',
@@ -143,7 +135,6 @@ export const MOCK_DIR = [
       'Pneumomediastino: sempre investigue lesão de traqueia ou esôfago antes de atribuir a outra causa.',
     ]
   },
-
   {
     id: 'd_ch_01',
     title: 'ATLS 11 — Choque no Trauma e DCR',
@@ -163,7 +154,6 @@ export const MOCK_DIR = [
       'Lactato e seu clearance são os melhores marcadores de adequação da ressuscitação — meta: normalização (< 2 mmol/L).',
     ]
   },
-
   {
     id: 'd_ab_01',
     title: 'ATLS 11 — Trauma Abdominal',
@@ -183,7 +173,6 @@ export const MOCK_DIR = [
       'DCS: packing + controle de contaminação (< 90 min) → UTI (24-72h) → cirurgia definitiva.',
     ]
   },
-
   {
     id: 'd_gu_01',
     title: 'ATLS 11 — Trauma Genitourinário',
@@ -203,7 +192,6 @@ export const MOCK_DIR = [
       'Lesão uretral completa com defeito > 2 cm: uretroplastia com mucosa oral em 3-6 meses.',
     ]
   },
-
   {
     id: 'd_tce_01',
     title: 'ATLS 11 — Trauma Cranioencefálico Grave',
@@ -223,7 +211,6 @@ export const MOCK_DIR = [
       'PIC > 22 mmHg: tratamento obrigatório — meta de PPC 60-70 mmHg (BTF 2023).',
     ]
   },
-
   {
     id: 'd_col_01',
     title: 'ATLS 11 — Trauma de Coluna e Lesão Raquimedular',
@@ -245,6 +232,21 @@ export const MOCK_DIR = [
   },
 ]
 
+const TEMA_LABELS: Record<string, string> = {
+  avaliacao_cena:       'Avaliação da Cena',
+  cinetica_trauma:      'Cinética do Trauma',
+  atls_inicial:         'ATLS: Atendimento Inicial',
+  atls_via_aerea:       'ATLS: Via Aérea',
+  atls_face:            'ATLS: Trauma de Face',
+  atls_pescoco:         'ATLS: Trauma de Pescoço',
+  atls_toracico:        'ATLS: Trauma Torácico',
+  atls_choque:          'ATLS: Choque',
+  atls_abdominal:       'ATLS: Trauma Abdominal',
+  atls_genitourinario:  'ATLS: Trauma Genitourinário',
+  atls_cranioencefalico:'ATLS: Trauma Cranioencefálico',
+  atls_coluna:          'ATLS: Coluna e TRM',
+}
+
 export function DiretrizesPage() {
   const navigate = useNavigate()
   const [temaSelecionado, setTemaSelecionado] = useState<string>('todos')
@@ -261,52 +263,145 @@ export function DiretrizesPage() {
   })
 
   return (
-    <div className="pagina-container">
-      <div className="pagina-header">
-        <button className="btn-voltar" onClick={() => navigate('/')}>← Voltar</button>
-        <h1 className="pagina-titulo">Diretrizes</h1>
-        <p className="pagina-subtitulo">Pontos-chave das principais diretrizes de medicina militar</p>
+    <div style={{ padding: '2rem 1.5rem', maxWidth: 900, margin: '0 auto' }}>
+
+      {/* Cabeçalho */}
+      <div style={{ marginBottom: '2rem' }}>
+        <button
+          onClick={() => navigate('/')}
+          style={{
+            background: 'none', border: 'none', color: '#c0392b',
+            cursor: 'pointer', fontSize: '0.88rem', marginBottom: '0.75rem',
+            padding: 0, display: 'flex', alignItems: 'center', gap: '0.4rem'
+          }}
+        >
+          ← Voltar
+        </button>
+        <div style={{ width: 40, height: 4, background: '#c0392b', borderRadius: 2, marginBottom: '0.75rem' }} />
+        <h1 style={{
+          fontFamily: 'Georgia, serif', fontSize: '2rem', fontWeight: 700,
+          color: '#e8d5b0', margin: '0 0 0.3rem'
+        }}>
+          Diretrizes
+        </h1>
+        <p style={{ color: 'rgba(200,180,140,0.55)', fontSize: '0.85rem', margin: 0 }}>
+          Pontos-chave para consulta rápida — ATLS 11ª Ed. 2025 · PHTLS 9ª Ed. · BTF 2023
+        </p>
       </div>
 
-      <div className="filtros-container">
+      {/* Filtros */}
+      <div style={{ marginBottom: '2rem', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
         <input
-          className="busca-input"
-          placeholder="Buscar diretriz..."
           value={busca}
           onChange={e => setBusca(e.target.value)}
+          placeholder="Buscar diretriz..."
+          style={{
+            background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(192,57,43,0.3)',
+            borderRadius: 8, padding: '0.6rem 1rem', color: '#e8d5b0',
+            fontSize: '0.9rem', outline: 'none', width: '100%', boxSizing: 'border-box'
+          }}
         />
-        <div className="subtemas-row">
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
           {temasFiltro.map(t => (
             <button
               key={t}
-              className={`subtema-btn ${temaSelecionado === t ? 'ativo' : ''}`}
               onClick={() => setTemaSelecionado(t)}
+              style={{
+                padding: '0.35rem 0.85rem', borderRadius: 20, cursor: 'pointer',
+                border: temaSelecionado === t ? '1px solid #c0392b' : '1px solid rgba(192,57,43,0.25)',
+                background: temaSelecionado === t ? 'rgba(192,57,43,0.2)' : 'rgba(255,255,255,0.03)',
+                color: temaSelecionado === t ? '#e8d5b0' : 'rgba(200,180,140,0.5)',
+                fontSize: '0.78rem', transition: 'all .15s'
+              }}
             >
-              {t === 'todos' ? 'Todos' : (THEMES as any)[t] ?? t}
+              {t === 'todos' ? 'Todos' : TEMA_LABELS[t] ?? t}
             </button>
           ))}
         </div>
       </div>
 
-      <div className="grid-cards">
+      {/* Cards */}
+      <div style={{ display: 'grid', gap: '1.5rem' }}>
         {diretrizesFiltradas.map(d => (
           <div
             key={d.id}
-            className="aula-card"
-            onClick={() => navigate(`/diretrizes/${d.id}`)}
+            style={{
+              background: 'rgba(255,255,255,0.04)',
+              border: '1px solid rgba(192,57,43,0.2)',
+              borderRadius: 12, padding: '1.5rem',
+            }}
           >
-            <div className="aula-card-tema">{(THEMES as any)[d.tema] ?? d.tema}</div>
-            <h3 className="aula-card-titulo">{d.title}</h3>
-            <p className="aula-card-desc">{d.resumo}</p>
-            <div className="aula-card-fonte">📋 {d.fonte}</div>
-            <div className="aula-card-pontos">{d.conteudo.length} pontos-chave</div>
+            {/* Header do card */}
+            <div style={{
+              display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between',
+              gap: '1rem', marginBottom: '1rem', paddingBottom: '0.85rem',
+              borderBottom: '1px solid rgba(192,57,43,0.15)'
+            }}>
+              <div>
+                <div style={{
+                  fontSize: '0.7rem', fontWeight: 700, letterSpacing: '0.1em',
+                  color: '#c0392b', textTransform: 'uppercase', marginBottom: '0.35rem'
+                }}>
+                  {TEMA_LABELS[d.tema] ?? d.tema}
+                </div>
+                <h3 style={{
+                  fontFamily: 'Georgia, serif', fontSize: '1.15rem', fontWeight: 700,
+                  color: '#e8d5b0', margin: 0, lineHeight: 1.3
+                }}>
+                  {d.title}
+                </h3>
+              </div>
+              <span style={{
+                flexShrink: 0, padding: '0.28rem 0.7rem', borderRadius: 20,
+                border: '1px solid rgba(192,57,43,0.4)',
+                background: 'rgba(192,57,43,0.1)',
+                color: '#c0392b', fontSize: '0.7rem', fontWeight: 700,
+                whiteSpace: 'nowrap'
+              }}>
+                {d.fonte}
+              </span>
+            </div>
+
+            {/* Resumo */}
+            <p style={{
+              color: 'rgba(200,180,140,0.55)', fontSize: '0.84rem',
+              margin: '0 0 1rem', lineHeight: 1.55
+            }}>
+              {d.resumo}
+            </p>
+
+            {/* Pontos-chave */}
+            <div>
+              {d.conteudo.map((ponto, i) => (
+                <div
+                  key={i}
+                  style={{
+                    display: 'flex', alignItems: 'flex-start', gap: '0.75rem',
+                    padding: '0.55rem 0',
+                    borderBottom: i < d.conteudo.length - 1
+                      ? '1px solid rgba(192,57,43,0.08)' : 'none',
+                  }}
+                >
+                  <span style={{
+                    flexShrink: 0, width: 6, height: 6, borderRadius: '50%',
+                    background: '#c0392b', marginTop: '0.48rem', opacity: 0.8
+                  }} />
+                  <span style={{ color: 'rgba(220,200,160,0.88)', fontSize: '0.88rem', lineHeight: 1.6 }}>
+                    {ponto}
+                  </span>
+                </div>
+              ))}
+            </div>
           </div>
         ))}
       </div>
 
       {diretrizesFiltradas.length === 0 && (
-        <div className="empty-state">
-          <p>Nenhuma diretriz encontrada para os filtros selecionados.</p>
+        <div style={{
+          textAlign: 'center', padding: '3rem',
+          color: 'rgba(200,180,140,0.35)', fontSize: '0.9rem'
+        }}>
+          Nenhuma diretriz encontrada.
         </div>
       )}
     </div>
