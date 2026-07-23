@@ -5,7 +5,7 @@ import { useAuthContext }     from '@/contexts/AuthContext'
 import { AppShell }           from '@/components/layout/AppShell'
 import { ProtectedRoute }     from '@/components/common/ProtectedRoute'
 
-// Pages
+// Pages existentes
 import { HomePage }           from '@/pages/HomePage'
 import { BancoPage }          from '@/pages/BancoPage'
 import { FlashcardsPage }     from '@/pages/FlashcardsPage'
@@ -25,13 +25,11 @@ import { RegisterPage }       from '@/pages/auth/RegisterPage'
 import { ForgotPasswordPage } from '@/pages/auth/ForgotPasswordPage'
 import { ResetPasswordPage }  from '@/pages/auth/ResetPasswordPage'
 
-/**
- * StudyProviderWithAuth
- * --------------------
- * Wrapper que consome o user do AuthContext e o passa para o StudyProvider.
- * Necessário porque StudyProvider precisa saber quando o usuário loga/desloga
- * para sincronizar o historico com o Supabase.
- */
+// Novas páginas de hierarquia
+import { AreasListPage }      from '@/pages/AreasListPage'
+import { AreaDetailPage }     from '@/pages/AreaDetailPage'
+import { TemaDetailPage }     from '@/pages/TemaDetailPage'
+
 function StudyProviderWithAuth({ children }: { children: React.ReactNode }) {
   const { user } = useAuthContext()
   return <StudyProvider user={user}>{children}</StudyProvider>
@@ -52,6 +50,13 @@ export default function App() {
             {/* App — com Navbar + footer */}
             <Route element={<AppShell />}>
               <Route path="/"            element={<HomePage />} />
+
+              {/* ── Navegação hierárquica (NOVO) ── */}
+              <Route path="/areas"                              element={<AreasListPage />} />
+              <Route path="/areas/:areaId"                     element={<AreaDetailPage />} />
+              <Route path="/areas/:areaId/temas/:temaId"       element={<TemaDetailPage />} />
+
+              {/* ── Conteúdo (agora aceita ?theme= ou ?tema= via query params) ── */}
               <Route path="/banco"       element={<BancoPage />} />
               <Route path="/flashcards"  element={<FlashcardsPage />} />
               <Route path="/simulado"    element={<SimuladoPage />} />
@@ -64,7 +69,7 @@ export default function App() {
               <Route path="/dashboard"   element={<DashboardPage />} />
               <Route path="/sobre"       element={<SobrePage />} />
 
-              {/* Admin: apenas role='admin' */}
+              {/* Admin */}
               <Route element={<ProtectedRoute adminOnly />}>
                 <Route path="/admin" element={<AdminPage />} />
               </Route>
