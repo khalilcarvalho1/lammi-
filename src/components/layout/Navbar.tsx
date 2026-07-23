@@ -13,6 +13,7 @@ interface NavbarProps {
 
 const NAV_ITEMS = [
   { id: 'home',       path: '/',           label: 'Início'     },
+  { id: 'areas',      path: '/areas',      label: 'Áreas'      },
   { id: 'banco',      path: '/banco',      label: 'Banco'      },
   { id: 'flashcards', path: '/flashcards', label: 'Cards'      },
   { id: 'simulado',   path: '/simulado',   label: 'Simulado'   },
