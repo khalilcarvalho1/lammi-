@@ -12,6 +12,9 @@ export function AreaDetailPage() {
     return null
   }
 
+  const totalQArea = area.temas.reduce((acc, t) => acc + countByTema(t.id, MOCK_QUESTIONS), 0)
+  const totalFArea = area.temas.reduce((acc, t) => acc + countByTema(t.id, MOCK_FLASHCARDS), 0)
+
   return (
     <div style={{ padding: '2rem 1.5rem', maxWidth: 900, margin: '0 auto' }}>
 
@@ -27,9 +30,55 @@ export function AreaDetailPage() {
         <h1 style={{ fontFamily: 'Georgia, serif', fontSize: '2rem', fontWeight: 700, color: '#e8d5b0', margin: '0 0 0.3rem' }}>
           {area.emoji} {area.label}
         </h1>
-        <p style={{ color: 'rgba(200,180,140,0.55)', fontSize: '0.85rem', margin: 0 }}>
+        <p style={{ color: 'rgba(200,180,140,0.55)', fontSize: '0.85rem', margin: '0 0 1.25rem' }}>
           {area.temas.length} temas disponíveis
         </p>
+
+        {/* Botões de ação da área inteira */}
+        {(totalQArea > 0 || totalFArea > 0) && (
+          <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
+            {totalQArea > 0 && (
+              <button
+                onClick={() => navigate(`/banco?area=${areaId}`)}
+                style={{
+                  padding: '0.5rem 1.1rem',
+                  background: 'rgba(192,57,43,0.15)',
+                  border: '1px solid rgba(192,57,43,0.4)',
+                  color: '#c0392b',
+                  cursor: 'pointer',
+                  fontSize: '0.82rem',
+                  fontWeight: 600,
+                  borderRadius: 6,
+                  transition: 'background .15s',
+                }}
+                onMouseEnter={e => (e.currentTarget.style.background = 'rgba(192,57,43,0.28)')}
+                onMouseLeave={e => (e.currentTarget.style.background = 'rgba(192,57,43,0.15)')}
+              >
+                📝 {totalQArea} questões da área
+              </button>
+            )}
+            {totalFArea > 0 && (
+              <button
+                onClick={() => navigate(`/flashcards?area=${areaId}`)}
+                style={{
+                  padding: '0.5rem 1.1rem',
+                  background: 'rgba(255,255,255,0.05)',
+                  border: '1px solid rgba(200,180,140,0.2)',
+                  color: 'rgba(200,180,140,0.65)',
+                  cursor: 'pointer',
+                  fontSize: '0.82rem',
+                  fontWeight: 600,
+                  borderRadius: 6,
+                  transition: 'background .15s',
+                }}
+                onMouseEnter={e => (e.currentTarget.style.background = 'rgba(255,255,255,0.09)')}
+                onMouseLeave={e => (e.currentTarget.style.background = 'rgba(255,255,255,0.05)')}
+              >
+                🃏 {totalFArea} flashcards da área
+              </button>
+            )}
+          </div>
+        )}
       </div>
 
       {/* Lista de temas */}

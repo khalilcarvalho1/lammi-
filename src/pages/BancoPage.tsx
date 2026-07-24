@@ -4,7 +4,7 @@ import { useAuthContext } from '@/contexts/AuthContext'
 import { useStudyContext } from '@/contexts/StudyContext'
 import { MOCK_QUESTIONS } from '@/data/mockData'
 import { THEMES, StudyTheme } from '@/services/supabaseClient'
-import { temaLabel, resolverFiltroURL, filtroOrigemLabel } from '@/utils/temaFilters'
+import { temaLabel, resolverFiltroURL, filtroOrigemLabel, temaIdsDeArea } from '@/utils/temaFilters'
 import { questionsService } from '@/services/questionsService'
 import { studyLogService } from '@/services/studyLogService'
 
@@ -69,19 +69,20 @@ export function BancoPage() {
   })
   useEffect(()=>{ localStorage.setItem('lammi_marcadas', JSON.stringify([...marcadas])) }, [marcadas])
 
-  // Lê ?theme= e ?tema= da URL
+  // Lê ?theme=, ?tema= e ?area= da URL
   const [searchParams] = useSearchParams()
   const themeParam = searchParams.get('theme')
   const temaParam  = searchParams.get('tema')
+  const areaParam  = searchParams.get('area')
 
-  const [filtroTemas,  setFiltroTemas]  = useState<Set<StudyTheme>>(
-    () => resolverFiltroURL(themeParam, temaParam)
+  const [filtroTemas, setFiltroTemas] = useState<Set<StudyTheme>>(
+    () => resolverFiltroURL(themeParam, temaParam, areaParam)
   )
 
   // Ressincroniza quando a URL muda com a página já montada
   useEffect(()=>{
-    setFiltroTemas(resolverFiltroURL(themeParam, temaParam))
-  },[themeParam, temaParam])
+    setFiltroTemas(resolverFiltroURL(themeParam, temaParam, areaParam))
+  },[themeParam, temaParam, areaParam])
 
   const [filtroNiveis, setFiltroNiveis] = useState<Set<string>>(new Set())
   const [filtroRes,    setFiltroRes]    = useState('todas')
@@ -99,11 +100,15 @@ export function BancoPage() {
     return c
   },[])
 
-  // Só mostra na sidebar temas que têm questões (ou que estão ativos)
+  // Sidebar: quando há ?area=, limita aos temas dessa área; senão, mostra só temas com questões
   const temasVisiveis = useMemo(()=>{
+    const temasArea = areaParam ? temaIdsDeArea(areaParam) : null
     return (Object.entries(THEMES) as [StudyTheme,string][])
-      .filter(([t])=> (temaCount[t]||0) > 0 || filtroTemas.has(t))
-  },[temaCount, filtroTemas])
+      .filter(([t])=>{
+        if (temasArea) return temasArea.has(t)
+        return (temaCount[t]||0) > 0 || filtroTemas.has(t)
+      })
+  },[temaCount, filtroTemas, areaParam])
 
   const filtradas = useMemo(()=>{
     const bl = busca.trim().toLowerCase()
@@ -147,10 +152,9 @@ export function BancoPage() {
 
   const limparFiltros = ()=>{ setFiltroTemas(new Set()); setFiltroNiveis(new Set()); setFiltroRes('todas'); setBusca('') }
 
-  // Rótulo do filtro vindo da URL
   const filtroOrigem = useMemo(
-    ()=> filtroOrigemLabel(themeParam, temaParam),
-    [themeParam,temaParam]
+    ()=> filtroOrigemLabel(themeParam, temaParam, areaParam),
+    [themeParam, temaParam, areaParam]
   )
 
   return (

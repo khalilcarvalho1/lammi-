@@ -13,31 +13,30 @@ export function FlashcardsPage() {
   const { srsData, setSrsData } = useStudyContext()
   const { user } = useAuthContext()
 
-  // Lê ?theme= e ?tema= da URL
+  // Lê ?theme=, ?tema= e ?area= da URL
   const [searchParams] = useSearchParams()
   const themeParam = searchParams.get('theme')
   const temaParam  = searchParams.get('tema')
+  const areaParam  = searchParams.get('area')
 
   const [temasAtivos, setTemasAtivos] = useState<Set<StudyTheme>>(
-    () => resolverFiltroURL(themeParam, temaParam)
+    () => resolverFiltroURL(themeParam, temaParam, areaParam)
   )
 
   // Ressincroniza quando a URL muda com a página já montada
   useEffect(()=>{
-    setTemasAtivos(resolverFiltroURL(themeParam, temaParam))
-  },[themeParam, temaParam])
+    setTemasAtivos(resolverFiltroURL(themeParam, temaParam, areaParam))
+  },[themeParam, temaParam, areaParam])
 
-  const [flipped,    setFlipped]    = useState(false)
-  const [idx,        setIdx]        = useState(0)
-  const [done,       setDone]       = useState<string[]>([])
-  const [summary,    setSummary]    = useState(false)
+  const [flipped,   setFlipped]   = useState(false)
+  const [idx,       setIdx]       = useState(0)
+  const [done,      setDone]      = useState<string[]>([])
+  const [summary,   setSummary]   = useState(false)
   // true = ignora o agendamento SM-2 e revisa todos os cards do filtro
-  const [modoLivre,  setModoLivre]  = useState(false)
-  // true enquanto carrega estado SRS do Supabase na inicialização
-  const [syncing,    setSyncing]    = useState(false)
+  const [modoLivre, setModoLivre] = useState(false)
+  const [syncing,   setSyncing]   = useState(false)
 
   // ─── Sincroniza estado SRS do Supabase na montagem ────────
-  // Se logado, puxa os estados do servidor e mescla com localStorage
   useEffect(() => {
     if (!user) return
     setSyncing(true)
@@ -46,7 +45,6 @@ export function FlashcardsPage() {
         setSrsData(local => {
           const merged: Record<string, SRSCard> = { ...local }
           data.forEach((row: any) => {
-            // Supabase ganha se a due_date for mais recente
             const localCard = local[row.flashcard_id]
             if (!localCard || row.due_date >= localCard.due_date) {
               merged[row.flashcard_id] = {
@@ -80,7 +78,7 @@ export function FlashcardsPage() {
     setModoLivre(livre); setIdx(0); setDone([]); setSummary(false); setFlipped(false)
   }
 
-  // Valor do <select>: '' = todos, '__multi__' = filtro de tema inteiro vindo da URL
+  // Valor do <select>: '' = todos, '__multi__' = filtro de tema/área vindos da URL
   const selectValue = temasAtivos.size === 1
     ? [...temasAtivos][0]
     : temasAtivos.size > 1 ? '__multi__' : ''
@@ -92,34 +90,27 @@ export function FlashcardsPage() {
     return (Object.entries(THEMES) as [StudyTheme,string][]).filter(([k]) => (c[k]||0) > 0)
   },[])
 
-  // Rótulo do filtro vindo da URL
   const filtroOrigem = useMemo(
-    ()=> filtroOrigemLabel(themeParam, temaParam),
-    [themeParam,temaParam]
+    ()=> filtroOrigemLabel(themeParam, temaParam, areaParam),
+    [themeParam, temaParam, areaParam]
   )
   const filtroCurto = useMemo(
-    ()=> filtroOrigemCurto(themeParam, temaParam),
-    [themeParam,temaParam]
+    ()=> filtroOrigemCurto(themeParam, temaParam, areaParam),
+    [themeParam, temaParam, areaParam]
   )
 
   const responder = async (q: SRSQuality) => {
     if (!current) return
-
     const prev = srsData[current.id] ?? initSRSCard()
     const next = calculateSM2(prev, q)
-
-    // 1. Atualiza local imediatamente (não espera Supabase)
     setSrsData(s => ({ ...s, [current.id]: next }))
     setDone(d => [...d, current.id])
     setFlipped(false)
-
-    // 2. Sincroniza com Supabase em background
     if (user) {
       flashcardsService.upsertSRSState(user.id, current.id, next)
       studyLogService.log(user.id, 'flashcard', 1, current.theme)
       studyLogService.updateProfileStreak(user.id)
     }
-
     setTimeout(() => {
       if (idx >= due.length - 1) setSummary(true)
       else setIdx(i => i + 1)
@@ -168,9 +159,6 @@ export function FlashcardsPage() {
                 Progresso salvo localmente. <a href="/login" style={{ color: '#E53935' }}>Faça login</a> para sincronizar entre dispositivos.
               </p>
             )}
-
-            {/* Se ainda há cards agendados para hoje, retoma a fila normal.
-                Se não há, oferece revisar o baralho inteiro fora do agendamento. */}
             {pendentes.length > 0 ? (
               <button className="btn-red" style={{ width: '100%' }} onClick={() => iniciarSessao(false)}>
                 Continuar revisão ({pendentes.length} pendentes)
@@ -180,7 +168,6 @@ export function FlashcardsPage() {
                 Revisar todos os {todos.length} cards mesmo assim
               </button>
             )}
-
             {temasAtivos.size > 0 && (
               <button className="btn-ghost" style={{ width: '100%', marginTop: '.6rem', justifyContent: 'center' }}
                 onClick={() => setTemasAtivos(new Set())}>
@@ -214,7 +201,7 @@ export function FlashcardsPage() {
             style={{ padding: '.65rem .9rem', border: '1px solid var(--border)', background: 'var(--bg-surface)', color: 'var(--text)', fontFamily: 'var(--font-s)', fontSize: '.88rem', outline: 'none', minWidth: 220 }}>
             <option value="">Todos os temas</option>
             {temasAtivos.size > 1 && (
-              <option value="__multi__">{filtroCurto ?? 'Filtro do tema'} ({temasAtivos.size} subtemas)</option>
+              <option value="__multi__">{filtroCurto ?? 'Filtro ativo'} ({temasAtivos.size} subtemas)</option>
             )}
             {temasComCards.map(([k, v]) => <option key={k} value={k}>{v}</option>)}
           </select>
