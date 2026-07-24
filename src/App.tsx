@@ -5,7 +5,6 @@ import { useAuthContext }     from '@/contexts/AuthContext'
 import { AppShell }           from '@/components/layout/AppShell'
 import { ProtectedRoute }     from '@/components/common/ProtectedRoute'
 
-// Pages existentes
 import { HomePage }           from '@/pages/HomePage'
 import { BancoPage }          from '@/pages/BancoPage'
 import { FlashcardsPage }     from '@/pages/FlashcardsPage'
@@ -25,10 +24,10 @@ import { RegisterPage }       from '@/pages/auth/RegisterPage'
 import { ForgotPasswordPage } from '@/pages/auth/ForgotPasswordPage'
 import { ResetPasswordPage }  from '@/pages/auth/ResetPasswordPage'
 
-// Novas páginas de hierarquia
 import { AreasListPage }      from '@/pages/AreasListPage'
 import { AreaDetailPage }     from '@/pages/AreaDetailPage'
 import { TemaDetailPage }     from '@/pages/TemaDetailPage'
+import { RevisaoErrosPage }   from '@/pages/RevisaoErrosPage'
 
 function StudyProviderWithAuth({ children }: { children: React.ReactNode }) {
   const { user } = useAuthContext()
@@ -41,35 +40,31 @@ export default function App() {
       <AuthProvider>
         <StudyProviderWithAuth>
           <Routes>
-            {/* Auth — sem shell */}
             <Route path="/login"           element={<LoginPage />} />
             <Route path="/register"        element={<RegisterPage />} />
             <Route path="/forgot-password" element={<ForgotPasswordPage />} />
             <Route path="/reset-password"  element={<ResetPasswordPage />} />
 
-            {/* App — com Navbar + footer */}
             <Route element={<AppShell />}>
               <Route path="/"            element={<HomePage />} />
 
-              {/* ── Navegação hierárquica (NOVO) ── */}
-              <Route path="/areas"                              element={<AreasListPage />} />
-              <Route path="/areas/:areaId"                     element={<AreaDetailPage />} />
-              <Route path="/areas/:areaId/temas/:temaId"       element={<TemaDetailPage />} />
+              <Route path="/areas"                        element={<AreasListPage />} />
+              <Route path="/areas/:areaId"                element={<AreaDetailPage />} />
+              <Route path="/areas/:areaId/temas/:temaId"  element={<TemaDetailPage />} />
 
-              {/* ── Conteúdo (agora aceita ?theme= ou ?tema= via query params) ── */}
-              <Route path="/banco"       element={<BancoPage />} />
-              <Route path="/flashcards"  element={<FlashcardsPage />} />
-              <Route path="/simulado"    element={<SimuladoPage />} />
-              <Route path="/aulas"       element={<AulasPage />} />
-              <Route path="/aulas/:id"   element={<AulaDetailPage />} />
-              <Route path="/casos"       element={<CasosPage />} />
-              <Route path="/diretrizes"  element={<DiretrizesPage />} />
+              <Route path="/banco"          element={<BancoPage />} />
+              <Route path="/flashcards"     element={<FlashcardsPage />} />
+              <Route path="/simulado"       element={<SimuladoPage />} />
+              <Route path="/aulas"          element={<AulasPage />} />
+              <Route path="/aulas/:id"      element={<AulaDetailPage />} />
+              <Route path="/casos"          element={<CasosPage />} />
+              <Route path="/diretrizes"     element={<DiretrizesPage />} />
               <Route path="/diretrizes/:id" element={<DiretrizDetailPage />} />
-              <Route path="/ranking"     element={<RankingPage />} />
-              <Route path="/dashboard"   element={<DashboardPage />} />
-              <Route path="/sobre"       element={<SobrePage />} />
+              <Route path="/ranking"        element={<RankingPage />} />
+              <Route path="/dashboard"      element={<DashboardPage />} />
+              <Route path="/sobre"          element={<SobrePage />} />
+              <Route path="/revisao-erros"  element={<RevisaoErrosPage />} />
 
-              {/* Admin */}
               <Route element={<ProtectedRoute adminOnly />}>
                 <Route path="/admin" element={<AdminPage />} />
               </Route>
