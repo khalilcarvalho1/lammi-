@@ -1,24 +1,24 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useAuthContext } from '@/contexts/AuthContext'
-import { THEMES, StudyTheme, Difficulty } from '@/services/supabaseClient'
+import { THEMES, StudyTheme, Difficulty, supabase } from '@/services/supabaseClient'
 import { MOCK_QUESTIONS, MOCK_FLASHCARDS } from '@/data/mockData'
 import clsx from 'clsx'
 import jsPDF from 'jspdf'
 import autoTable from 'jspdf-autotable'
 
-type AdminTab = 'overview' | 'members' | 'questions' | 'flashcards' | 'cases' | 'export'
+type AdminTab = 'overview' | 'members' | 'questions' | 'flashcards' | 'reports' | 'export'
 
 export function AdminPage() {
   const { profile } = useAuthContext()
   const [tab, setTab] = useState<AdminTab>('overview')
 
   const tabs: { id: AdminTab; label: string; icon: string }[] = [
-    { id: 'overview',  label: 'Visão Geral', icon: '📊' },
-    { id: 'members',   label: 'Membros',    icon: '👥' },
-    { id: 'questions', label: 'Questões',   icon: '📋' },
-    { id: 'flashcards',label: 'Flashcards', icon: '🃏' },
-    { id: 'cases',     label: 'Casos',      icon: '🏥' },
-    { id: 'export',    label: 'Exportar',   icon: '📊' },
+    { id: 'overview',   label: 'Visão Geral', icon: '📊' },
+    { id: 'members',    label: 'Membros',     icon: '👥' },
+    { id: 'questions',  label: 'Questões',    icon: '📋' },
+    { id: 'flashcards', label: 'Flashcards',  icon: '🃏' },
+    { id: 'reports',    label: 'Relatórios',  icon: '🚩' },
+    { id: 'export',     label: 'Exportar',    icon: '📤' },
   ]
 
   return (
@@ -31,54 +31,55 @@ export function AdminPage() {
         </div>
       </div>
 
-      {/* Tabs */}
       <div className="flex gap-1 overflow-x-auto pb-1 border-b border-[var(--color-border)]">
         {tabs.map(t => (
-          <button
-            key={t.id}
-            onClick={() => setTab(t.id)}
+          <button key={t.id} onClick={() => setTab(t.id)}
             className={clsx('flex items-center gap-1.5 px-4 py-2 text-sm font-medium rounded-t-lg whitespace-nowrap transition-colors flex-shrink-0', {
               'bg-brand-600 text-white': tab === t.id,
               'text-[var(--color-text-muted)] hover:text-[var(--color-text)] hover:bg-[var(--color-surface-2)]': tab !== t.id,
-            })}
-          >
+            })}>
             <span>{t.icon}</span> {t.label}
           </button>
         ))}
       </div>
 
-      {/* Conteúdo da tab */}
       {tab === 'overview'   && <OverviewTab />}
       {tab === 'members'    && <MembersTab />}
       {tab === 'questions'  && <QuestionsTab />}
       {tab === 'flashcards' && <FlashcardsTab />}
-      {tab === 'cases'      && <CasesTab />}
+      {tab === 'reports'    && <ReportsTab />}
       {tab === 'export'     && <ExportTab />}
     </div>
   )
 }
 
-
-// ─── ABA: VISÃO GERAL ─────────────────────────────────────────────────────────
+// ─── VISÃO GERAL ──────────────────────────────────────────────────────────────
 
 function OverviewTab() {
-  const total    = MOCK_MEMBERS.length
-  const ativos   = MOCK_MEMBERS.filter(m => m.active).length
-  const admins   = MOCK_MEMBERS.filter(m => m.role === 'admin').length
-  const scoreAvg = Math.round(MOCK_MEMBERS.reduce((a, m) => a + m.score, 0) / total)
-  const streakAvg = Math.round(MOCK_MEMBERS.reduce((a, m) => a + m.study_streak, 0) / total)
-  const top5 = [...MOCK_MEMBERS].sort((a, b) => b.score - a.score).slice(0, 5)
+  const totalQ  = MOCK_QUESTIONS.length
+  const totalF  = MOCK_FLASHCARDS.length
+  const temas   = new Set(MOCK_QUESTIONS.map(q => q.theme)).size
+  const facil   = MOCK_QUESTIONS.filter(q => q.difficulty === 'facil').length
+  const medio   = MOCK_QUESTIONS.filter(q => q.difficulty === 'medio').length
+  const dificil = MOCK_QUESTIONS.filter(q => q.difficulty === 'dificil').length
+
+  const porTema = Object.entries(
+    MOCK_QUESTIONS.reduce<Record<string, number>>((acc, q) => {
+      acc[q.theme] = (acc[q.theme] || 0) + 1
+      return acc
+    }, {})
+  ).sort((a, b) => b[1] - a[1]).slice(0, 6)
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
-      {/* KPIs */}
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', gap: '1rem' }}>
         {[
-          { lbl: 'Total de Membros',  val: total,    col: 'var(--color-text)'  },
-          { lbl: 'Membros Ativos',    val: ativos,   col: '#4ade80'            },
-          { lbl: 'Admins',            val: admins,   col: '#E53935'            },
-          { lbl: 'Score Médio',       val: scoreAvg.toLocaleString(), col: '#facc15' },
-          { lbl: 'Streak Médio',      val: streakAvg + 'd', col: '#fb923c'     },
+          { lbl: 'Questões',    val: totalQ,   col: 'var(--color-text)' },
+          { lbl: 'Flashcards',  val: totalF,   col: '#4ade80'           },
+          { lbl: 'Temas ativos',val: temas,    col: '#60a5fa'           },
+          { lbl: 'Fáceis',      val: facil,    col: '#4ade80'           },
+          { lbl: 'Médias',      val: medio,    col: '#facc15'           },
+          { lbl: 'Difíceis',    val: dificil,  col: '#f87171'           },
         ].map(k => (
           <div key={k.lbl} className="card-p" style={{ textAlign: 'center' }}>
             <div style={{ fontSize: '.65rem', textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--color-text-muted)', marginBottom: '.5rem', fontWeight: 700 }}>{k.lbl}</div>
@@ -87,89 +88,74 @@ function OverviewTab() {
         ))}
       </div>
 
-      {/* Top 5 usuários */}
       <div className="card">
         <div style={{ padding: '1rem 1.25rem', borderBottom: '1px solid var(--color-border)', fontWeight: 700, fontSize: '.85rem', color: 'var(--color-text)' }}>
-          🏆 Top 5 Usuários
+          📋 Questões por tema (top 6)
         </div>
-        {top5.map((m, i) => (
-          <div key={m.id} style={{ display: 'flex', alignItems: 'center', gap: '1rem', padding: '.85rem 1.25rem', borderBottom: '1px solid var(--color-border)' }}>
-            <div style={{ fontFamily: 'var(--font-d)', fontWeight: 700, fontSize: '1.1rem', color: i === 0 ? '#FBB724' : i === 1 ? '#9CA3AF' : i === 2 ? '#A16207' : 'var(--color-text-muted)', width: 28 }}>
-              #{i + 1}
+        {porTema.map(([theme, count]) => (
+          <div key={theme} style={{ padding: '.75rem 1.25rem', borderBottom: '1px solid var(--color-border)', display: 'flex', alignItems: 'center', gap: '1rem' }}>
+            <div style={{ flex: 1, fontSize: '.85rem', color: 'var(--color-text)' }}>
+              {THEMES[theme as StudyTheme] ?? theme}
             </div>
-            <div style={{ flex: 1 }}>
-              <div style={{ fontWeight: 600, fontSize: '.88rem', color: 'var(--color-text)' }}>{m.display_name}</div>
-              <div style={{ fontSize: '.72rem', color: 'var(--color-text-muted)' }}>{m.email}</div>
-            </div>
-            <div style={{ textAlign: 'right' }}>
-              <div style={{ fontWeight: 700, fontSize: '.9rem', color: 'var(--color-text)' }}>{m.score.toLocaleString()}</div>
-              <div style={{ fontSize: '.7rem', color: 'var(--color-text-muted)' }}>🔥 {m.study_streak}d</div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '.75rem' }}>
+              <div style={{ width: 120, height: 6, background: 'rgba(192,57,43,.1)' }}>
+                <div style={{ height: '100%', width: (count / totalQ * 100) + '%', background: 'var(--red)', transition: 'width .5s' }} />
+              </div>
+              <span style={{ fontSize: '.8rem', fontWeight: 700, color: 'var(--color-text)', minWidth: 24, textAlign: 'right' }}>{count}</span>
             </div>
           </div>
         ))}
       </div>
 
-      {/* Distribuição de roles */}
       <div className="card-p">
-        <div style={{ fontWeight: 700, fontSize: '.85rem', color: 'var(--color-text)', marginBottom: '1rem' }}>Distribuição</div>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '.75rem' }}>
-          {[
-            { lbl: 'Membros ativos',   val: ativos,        total, col: '#4ade80' },
-            { lbl: 'Membros inativos', val: total - ativos, total, col: '#f87171' },
-            { lbl: 'Admins',           val: admins,        total, col: '#E53935'  },
-          ].map(b => (
-            <div key={b.lbl}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '.8rem', marginBottom: '.25rem' }}>
-                <span style={{ color: 'var(--color-text-muted)' }}>{b.lbl}</span>
-                <span style={{ color: b.col, fontWeight: 700 }}>{b.val}/{b.total}</span>
-              </div>
-              <div style={{ height: 6, background: 'rgba(192,57,43,.1)' }}>
-                <div style={{ height: '100%', width: (b.val / b.total * 100) + '%', background: b.col, transition: 'width .5s' }} />
-              </div>
+        <div style={{ fontWeight: 700, fontSize: '.85rem', color: 'var(--color-text)', marginBottom: '1rem' }}>Distribuição por dificuldade</div>
+        {[
+          { lbl: 'Fácil',   val: facil,   col: '#4ade80' },
+          { lbl: 'Médio',   val: medio,   col: '#facc15' },
+          { lbl: 'Difícil', val: dificil, col: '#f87171' },
+        ].map(b => (
+          <div key={b.lbl} style={{ marginBottom: '.75rem' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '.8rem', marginBottom: '.25rem' }}>
+              <span style={{ color: 'var(--color-text-muted)' }}>{b.lbl}</span>
+              <span style={{ color: b.col, fontWeight: 700 }}>{b.val} / {totalQ}</span>
             </div>
-          ))}
-        </div>
+            <div style={{ height: 6, background: 'rgba(192,57,43,.1)' }}>
+              <div style={{ height: '100%', width: (b.val / totalQ * 100) + '%', background: b.col, transition: 'width .5s' }} />
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   )
 }
 
-// ─── ABA: MEMBROS ─────────────────────────────────────────────────────────────
+// ─── MEMBROS ──────────────────────────────────────────────────────────────────
 
 const MOCK_MEMBERS = [
-  { id: 'm1', display_name: 'Ana Souza',    email: 'ana@med.br',    role: 'admin',  active: true,  score: 3420, study_streak: 21 },
-  { id: 'm2', display_name: 'João Lima',    email: 'joao@med.br',   role: 'member', active: true,  score: 2980, study_streak: 15 },
-  { id: 'm3', display_name: 'Maria Costa',  email: 'maria@med.br',  role: 'member', active: true,  score: 1640, study_streak: 4  },
-  { id: 'm4', display_name: 'Pedro Alves',  email: 'pedro@med.br',  role: 'member', active: false, score: 890,  study_streak: 0  },
+  { id: 'm1', display_name: 'Ana Souza',   email: 'ana@med.br',   role: 'admin',  active: true,  score: 3420, study_streak: 21 },
+  { id: 'm2', display_name: 'João Lima',   email: 'joao@med.br',  role: 'member', active: true,  score: 2980, study_streak: 15 },
+  { id: 'm3', display_name: 'Maria Costa', email: 'maria@med.br', role: 'member', active: true,  score: 1640, study_streak: 4  },
+  { id: 'm4', display_name: 'Pedro Alves', email: 'pedro@med.br', role: 'member', active: false, score: 890,  study_streak: 0  },
 ]
 
 function MembersTab() {
   const [members, setMembers] = useState(MOCK_MEMBERS)
   const [busca, setBusca]     = useState('')
-  const filtrados = busca.trim() ? members.filter(m => m.display_name.toLowerCase().includes(busca.toLowerCase()) || m.email.toLowerCase().includes(busca.toLowerCase())) : members
+  const filtrados = busca.trim()
+    ? members.filter(m => m.display_name.toLowerCase().includes(busca.toLowerCase()) || m.email.toLowerCase().includes(busca.toLowerCase()))
+    : members
 
-  const toggleRole = (id: string) => {
-    setMembers(prev => prev.map(m => m.id === id
-      ? { ...m, role: m.role === 'admin' ? 'member' : 'admin' } : m))
-  }
-  const toggleActive = (id: string) => {
-    setMembers(prev => prev.map(m => m.id === id ? { ...m, active: !m.active } : m))
-  }
+  const toggleRole   = (id: string) => setMembers(prev => prev.map(m => m.id === id ? { ...m, role: m.role === 'admin' ? 'member' : 'admin' } : m))
+  const toggleActive = (id: string) => setMembers(prev => prev.map(m => m.id === id ? { ...m, active: !m.active } : m))
 
   return (
     <div className="space-y-4">
-      <div className="flex items-center justify-between">
-        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', flexWrap: 'wrap' }}>
-          <p className="text-sm text-[var(--color-text-muted)]">{members.length} membros cadastrados</p>
-          <input
-            type="text"
-            value={busca}
-            onChange={e => setBusca(e.target.value)}
-            placeholder="🔍 Buscar por nome ou email..."
-            style={{ padding: '.4rem .75rem', background: 'var(--color-surface-2)', border: '1px solid var(--color-border)', color: 'var(--color-text)', fontSize: '.82rem', outline: 'none', minWidth: 220 }}
-          />
-          {busca && <span style={{ fontSize: '.75rem', color: 'var(--color-text-muted)' }}>{filtrados.length} resultado(s)</span>}
-        </div>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', flexWrap: 'wrap' }}>
+        <p className="text-sm text-[var(--color-text-muted)]">{members.length} membros cadastrados</p>
+        <input type="text" value={busca} onChange={e => setBusca(e.target.value)}
+          placeholder="🔍 Buscar por nome ou email..."
+          style={{ padding: '.4rem .75rem', background: 'var(--color-surface-2)', border: '1px solid var(--color-border)', color: 'var(--color-text)', fontSize: '.82rem', outline: 'none', minWidth: 220 }} />
+        {busca && <span style={{ fontSize: '.75rem', color: 'var(--color-text-muted)' }}>{filtrados.length} resultado(s)</span>}
       </div>
       <div className="card overflow-hidden">
         <div className="overflow-x-auto">
@@ -187,29 +173,21 @@ function MembersTab() {
             <tbody>
               {filtrados.map(m => (
                 <tr key={m.id} className="border-b border-[var(--color-border)] last:border-0 hover:bg-[var(--color-surface-2)]">
-                  <td className="px-4 py-3">
-                    <div className="font-medium text-[var(--color-text)]">{m.display_name}</div>
-                  </td>
+                  <td className="px-4 py-3 font-medium text-[var(--color-text)]">{m.display_name}</td>
                   <td className="px-4 py-3 text-[var(--color-text-muted)] hidden md:table-cell">{m.email}</td>
                   <td className="px-4 py-3 text-center">
-                    <span className={clsx('badge text-xs', m.role === 'admin' ? 'badge-red' : 'badge-gray')}>
-                      {m.role}
-                    </span>
+                    <span className={clsx('badge text-xs', m.role === 'admin' ? 'badge-red' : 'badge-gray')}>{m.role}</span>
                   </td>
                   <td className="px-4 py-3 text-center">
-                    <span className={clsx('badge text-xs', m.active ? 'badge-green' : 'badge-red')}>
-                      {m.active ? 'ativo' : 'inativo'}
-                    </span>
+                    <span className={clsx('badge text-xs', m.active ? 'badge-green' : 'badge-red')}>{m.active ? 'ativo' : 'inativo'}</span>
                   </td>
                   <td className="px-4 py-3 text-right font-mono text-[var(--color-text)]">{m.score.toLocaleString()}</td>
                   <td className="px-4 py-3">
                     <div className="flex gap-1 justify-end">
-                      <button onClick={() => toggleRole(m.id)}
-                        className="text-xs btn-ghost px-2 py-1 text-brand-500">
+                      <button onClick={() => toggleRole(m.id)} className="text-xs btn-ghost px-2 py-1 text-brand-500">
                         {m.role === 'admin' ? '↓ membro' : '↑ admin'}
                       </button>
-                      <button onClick={() => toggleActive(m.id)}
-                        className={clsx('text-xs btn-ghost px-2 py-1', m.active ? 'text-red-500' : 'text-green-500')}>
+                      <button onClick={() => toggleActive(m.id)} className={clsx('text-xs btn-ghost px-2 py-1', m.active ? 'text-red-500' : 'text-green-500')}>
                         {m.active ? 'desativar' : 'reativar'}
                       </button>
                     </div>
@@ -224,13 +202,13 @@ function MembersTab() {
   )
 }
 
-// ─── ABA: QUESTÕES ────────────────────────────────────────────────────────────
+// ─── QUESTÕES ─────────────────────────────────────────────────────────────────
 
 function QuestionsTab() {
   const [questions, setQuestions] = useState(MOCK_QUESTIONS)
   const [editing, setEditing]     = useState<string | null>(null)
   const [showForm, setShowForm]   = useState(false)
-  const [form, setForm]           = useState({
+  const [form, setForm] = useState({
     statement: '', explanation: '',
     theme: 'atls_inicial' as StudyTheme,
     difficulty: 'medio' as Difficulty,
@@ -240,8 +218,7 @@ function QuestionsTab() {
 
   const resetForm = () => {
     setForm({ statement:'', explanation:'', theme:'atls_inicial', difficulty:'medio', correct_key:'A', alt_a:'', alt_b:'', alt_c:'', alt_d:'', alt_e:'' })
-    setEditing(null)
-    setShowForm(false)
+    setEditing(null); setShowForm(false)
   }
 
   const handleEdit = (id: string) => {
@@ -250,14 +227,11 @@ function QuestionsTab() {
     setForm({
       statement: q.statement, explanation: q.explanation,
       theme: q.theme, difficulty: q.difficulty, correct_key: q.correct_key,
-      alt_a: q.alternatives[0]?.text ?? '',
-      alt_b: q.alternatives[1]?.text ?? '',
-      alt_c: q.alternatives[2]?.text ?? '',
-      alt_d: q.alternatives[3]?.text ?? '',
+      alt_a: q.alternatives[0]?.text ?? '', alt_b: q.alternatives[1]?.text ?? '',
+      alt_c: q.alternatives[2]?.text ?? '', alt_d: q.alternatives[3]?.text ?? '',
       alt_e: q.alternatives[4]?.text ?? '',
     })
-    setEditing(id)
-    setShowForm(true)
+    setEditing(id); setShowForm(true)
   }
 
   const handleSave = () => {
@@ -266,22 +240,11 @@ function QuestionsTab() {
       { key:'C', text:form.alt_c }, { key:'D', text:form.alt_d },
       { key:'E', text:form.alt_e },
     ].filter(a => a.text.trim())
-
-    if (!form.statement.trim() || alternatives.length < 2) {
-      alert('Preencha o enunciado e pelo menos 2 alternativas.')
-      return
-    }
-
+    if (!form.statement.trim() || alternatives.length < 2) { alert('Preencha o enunciado e pelo menos 2 alternativas.'); return }
     if (editing) {
-      setQuestions(prev => prev.map(q =>
-        q.id === editing ? { ...q, statement:form.statement, alternatives, correct_key:form.correct_key, explanation:form.explanation, theme:form.theme, difficulty:form.difficulty } : q
-      ))
+      setQuestions(prev => prev.map(q => q.id === editing ? { ...q, statement:form.statement, alternatives, correct_key:form.correct_key, explanation:form.explanation, theme:form.theme, difficulty:form.difficulty } : q))
     } else {
-      const newQ = {
-        id: 'q' + Date.now(), statement:form.statement, alternatives, correct_key:form.correct_key,
-        explanation:form.explanation, theme:form.theme, difficulty:form.difficulty, created_at: new Date().toISOString()
-      }
-      setQuestions(prev => [newQ, ...prev])
+      setQuestions(prev => [{ id:'q'+Date.now(), statement:form.statement, alternatives, correct_key:form.correct_key, explanation:form.explanation, theme:form.theme, difficulty:form.difficulty, created_at:new Date().toISOString() }, ...prev])
     }
     resetForm()
   }
@@ -290,27 +253,21 @@ function QuestionsTab() {
     <div className="space-y-4">
       <div className="flex items-center justify-between">
         <p className="text-sm text-[var(--color-text-muted)]">{questions.length} questões</p>
-        <button onClick={() => { resetForm(); setShowForm(true) }} className="btn-primary text-sm">
-          + Nova questão
-        </button>
+        <button onClick={() => { resetForm(); setShowForm(true) }} className="btn-primary text-sm">+ Nova questão</button>
       </div>
 
       {showForm && (
         <div className="card-p space-y-4">
           <h3 className="font-semibold text-[var(--color-text)]">{editing ? 'Editar questão' : 'Nova questão'}</h3>
-
           <div>
             <label className="label">Enunciado</label>
-            <textarea rows={3} className="input resize-none" value={form.statement} onChange={e => setForm(f => ({...f, statement:e.target.value}))} placeholder="Digite o enunciado da questão..." />
+            <textarea rows={3} className="input resize-none" value={form.statement} onChange={e => setForm(f => ({...f, statement:e.target.value}))} placeholder="Digite o enunciado..." />
           </div>
-
           <div className="grid grid-cols-2 gap-3">
             <div>
               <label className="label">Tema</label>
               <select className="input" value={form.theme} onChange={e => setForm(f => ({...f, theme:e.target.value as StudyTheme}))}>
-                {(Object.entries(THEMES) as [StudyTheme, string][]).map(([k,v]) => (
-                  <option key={k} value={k}>{v}</option>
-                ))}
+                {(Object.entries(THEMES) as [StudyTheme,string][]).map(([k,v]) => <option key={k} value={k}>{v}</option>)}
               </select>
             </div>
             <div>
@@ -322,32 +279,29 @@ function QuestionsTab() {
               </select>
             </div>
           </div>
-
           <div className="space-y-2">
             <label className="label">Alternativas</label>
             {(['A','B','C','D','E'] as const).map(k => {
-              const key = ('alt_' + k.toLowerCase()) as keyof typeof form
+              const key = ('alt_'+k.toLowerCase()) as keyof typeof form
               return (
                 <div key={k} className="flex items-center gap-2">
                   <span className={clsx('w-7 h-7 rounded-full border-2 flex items-center justify-center text-xs font-bold flex-shrink-0 cursor-pointer transition-colors', {
                     'bg-green-500 border-green-500 text-white': form.correct_key === k,
                     'border-[var(--color-border)] text-[var(--color-text-muted)]': form.correct_key !== k,
-                  })} onClick={() => setForm(f => ({...f, correct_key:k}))} title="Clique para marcar como correta">
+                  })} onClick={() => setForm(f => ({...f, correct_key:k}))}>
                     {k}
                   </span>
-                  <input className="input" placeholder={'Alternativa ' + k + (k <= 'B' ? ' (obrigatória)' : '')}
+                  <input className="input" placeholder={`Alternativa ${k}${k <= 'B' ? ' (obrigatória)' : ''}`}
                     value={form[key] as string} onChange={e => setForm(f => ({...f, [key]:e.target.value}))} />
                 </div>
               )
             })}
-            <p className="text-xs text-[var(--color-text-subtle)]">Clique no círculo da letra para marcar a alternativa correta.</p>
+            <p className="text-xs text-[var(--color-text-subtle)]">Clique no círculo para marcar a alternativa correta.</p>
           </div>
-
           <div>
             <label className="label">Explicação / Gabarito comentado</label>
             <textarea rows={3} className="input resize-none" value={form.explanation} onChange={e => setForm(f => ({...f, explanation:e.target.value}))} placeholder="Explique a resposta correta..." />
           </div>
-
           <div className="flex gap-2 pt-2">
             <button onClick={handleSave} className="btn-primary">Salvar</button>
             <button onClick={resetForm} className="btn-ghost">Cancelar</button>
@@ -360,12 +314,10 @@ function QuestionsTab() {
           <div key={q.id} className="card-p flex items-start gap-4">
             <div className="flex-1 min-w-0">
               <div className="flex gap-2 flex-wrap mb-1">
-                <span className={clsx('badge text-xs', { 'badge-green':q.difficulty==='facil','badge-amber':q.difficulty==='medio','badge-red':q.difficulty==='dificil' })}>
-                  {q.difficulty}
-                </span>
+                <span className={clsx('badge text-xs', { 'badge-green':q.difficulty==='facil','badge-amber':q.difficulty==='medio','badge-red':q.difficulty==='dificil' })}>{q.difficulty}</span>
                 <span className="badge-blue text-xs">{THEMES[q.theme]}</span>
               </div>
-              <p className="text-sm text-[var(--color-text)] line-clamp-2">{q.statement}</p>
+              <p className="text-sm text-[var(--color-text)] line-clamp-2">{q.statement || <span className="text-[var(--color-text-muted)] italic">Sem enunciado</span>}</p>
               <p className="text-xs text-[var(--color-text-subtle)] mt-1">Correta: {q.correct_key}</p>
             </div>
             <div className="flex gap-1 flex-shrink-0">
@@ -379,7 +331,7 @@ function QuestionsTab() {
   )
 }
 
-// ─── ABA: FLASHCARDS ─────────────────────────────────────────────────────────
+// ─── FLASHCARDS ───────────────────────────────────────────────────────────────
 
 function FlashcardsTab() {
   const [cards, setCards]       = useState(MOCK_FLASHCARDS)
@@ -399,9 +351,9 @@ function FlashcardsTab() {
   const handleSave = () => {
     if (!form.front.trim() || !form.back.trim()) { alert('Preencha frente e verso.'); return }
     if (editing) {
-      setCards(prev => prev.map(c => c.id === editing ? { ...c, front:form.front, back:form.back, theme:form.theme } : c))
+      setCards(prev => prev.map(c => c.id === editing ? { ...c, ...form } : c))
     } else {
-      setCards(prev => [...prev, { id:'f'+Date.now(), front:form.front, back:form.back, theme:form.theme, created_at:new Date().toISOString() }])
+      setCards(prev => [...prev, { id:'f'+Date.now(), ...form, created_at:new Date().toISOString() }])
     }
     resetForm()
   }
@@ -419,7 +371,7 @@ function FlashcardsTab() {
           <div>
             <label className="label">Tema</label>
             <select className="input" value={form.theme} onChange={e => setForm(f => ({...f, theme:e.target.value as StudyTheme}))}>
-              {(Object.entries(THEMES) as [StudyTheme, string][]).map(([k,v]) => <option key={k} value={k}>{v}</option>)}
+              {(Object.entries(THEMES) as [StudyTheme,string][]).map(([k,v]) => <option key={k} value={k}>{v}</option>)}
             </select>
           </div>
           <div>
@@ -454,198 +406,250 @@ function FlashcardsTab() {
   )
 }
 
-// ─── ABA: CASOS ───────────────────────────────────────────────────────────────
+// ─── RELATÓRIOS DE ERRO ───────────────────────────────────────────────────────
 
-function CasesTab() {
+type Report = {
+  id: string
+  question_id: string
+  user_id: string | null
+  tipo: string
+  descricao: string
+  status: string
+  created_at: string
+}
+
+const TIPO_LABELS: Record<string, string> = {
+  gabarito_errado:       '❌ Gabarito errado',
+  enunciado_incompleto:  '✂️ Enunciado incompleto',
+  alternativa_errada:    '⚠️ Alternativa errada',
+  comentario_errado:     '💬 Comentário errado',
+  questao_duplicada:     '🔁 Duplicada',
+  outro:                 '📌 Outro',
+}
+
+function ReportsTab() {
+  const [reports, setReports]   = useState<Report[]>([])
+  const [loading, setLoading]   = useState(true)
+  const [filtro, setFiltro]     = useState<'todos' | 'pendente' | 'resolvido'>('todos')
+  const [expandido, setExpandido] = useState<string | null>(null)
+
+  const carregar = async () => {
+    setLoading(true)
+    const { data } = await supabase
+      .from('question_reports')
+      .select('*')
+      .order('created_at', { ascending: false })
+    setReports((data as Report[]) ?? [])
+    setLoading(false)
+  }
+
+  useEffect(() => { carregar() }, [])
+
+  const marcarResolvido = async (id: string) => {
+    await supabase.from('question_reports').update({ status: 'resolvido' }).eq('id', id)
+    setReports(prev => prev.map(r => r.id === id ? { ...r, status: 'resolvido' } : r))
+  }
+
+  const excluir = async (id: string) => {
+    if (!confirm('Excluir este relatório?')) return
+    await supabase.from('question_reports').delete().eq('id', id)
+    setReports(prev => prev.filter(r => r.id !== id))
+  }
+
+  const filtrados = reports.filter(r => filtro === 'todos' || r.status === filtro)
+  const pendentes  = reports.filter(r => r.status === 'pendente').length
+  const resolvidos = reports.filter(r => r.status === 'resolvido').length
+
   return (
-    <div className="card-p space-y-4">
-      <h3 className="font-semibold text-[var(--color-text)]">Gestão de Casos Clínicos</h3>
-      <p className="text-sm text-[var(--color-text-muted)]">
-        Os casos clínicos são estruturas de árvore de decisão com etapas e opções. Use o editor abaixo para criar e editar casos.
-      </p>
-      <div className="bg-[var(--color-surface-2)] rounded-lg p-6 text-center">
-        <p className="text-3xl mb-2">🏥</p>
-        <p className="text-sm font-medium text-[var(--color-text)]">Editor de casos clínicos</p>
-        <p className="text-xs text-[var(--color-text-muted)] mt-1 mb-4">
-          Adicione título, descrição, tema e monte as etapas com opções de conduta e feedback.
-        </p>
-        <button className="btn-primary text-sm">+ Novo caso clínico</button>
+    <div className="space-y-4">
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '1rem' }}>
+        <div style={{ display: 'flex', gap: '1rem' }}>
+          {[
+            { val: 'todos',     lbl: `Todos (${reports.length})` },
+            { val: 'pendente',  lbl: `Pendentes (${pendentes})` },
+            { val: 'resolvido', lbl: `Resolvidos (${resolvidos})` },
+          ].map(f => (
+            <button key={f.val}
+              onClick={() => setFiltro(f.val as typeof filtro)}
+              style={{
+                padding: '.35rem .85rem', fontSize: '.8rem', fontWeight: 600, cursor: 'pointer',
+                border: '1px solid', borderColor: filtro === f.val ? 'var(--red)' : 'var(--border)',
+                background: filtro === f.val ? 'rgba(192,57,43,.15)' : 'transparent',
+                color: filtro === f.val ? 'var(--red)' : 'var(--color-text-muted)',
+              }}>
+              {f.lbl}
+            </button>
+          ))}
+        </div>
+        <button onClick={carregar} className="btn-ghost" style={{ fontSize: '.8rem' }}>↻ Atualizar</button>
       </div>
-      <p className="text-xs text-[var(--color-text-subtle)]">
-        * O editor completo de árvore de decisão será implementado via interface drag-and-drop. Os dados são salvos no campo <code>steps</code> (JSONB) do Supabase.
-      </p>
+
+      {loading ? (
+        <div style={{ textAlign: 'center', padding: '3rem', color: 'var(--color-text-muted)', fontSize: '.9rem' }}>
+          Carregando relatórios...
+        </div>
+      ) : filtrados.length === 0 ? (
+        <div style={{ textAlign: 'center', padding: '3rem' }}>
+          <div style={{ fontSize: '2rem', marginBottom: '.5rem' }}>🎉</div>
+          <p style={{ color: 'var(--color-text-muted)', fontSize: '.9rem' }}>Nenhum relatório {filtro !== 'todos' ? filtro : ''} encontrado.</p>
+        </div>
+      ) : (
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '.75rem' }}>
+          {filtrados.map(r => (
+            <div key={r.id} style={{
+              border: '1px solid', padding: '1rem',
+              borderColor: r.status === 'pendente' ? 'rgba(248,113,113,.35)' : 'var(--border)',
+              background: r.status === 'pendente' ? 'rgba(178,59,59,.04)' : 'var(--bg-surface)',
+            }}>
+              <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '1rem', flexWrap: 'wrap' }}>
+                <div style={{ flex: 1 }}>
+                  <div style={{ display: 'flex', gap: '.5rem', flexWrap: 'wrap', marginBottom: '.35rem' }}>
+                    <span style={{
+                      fontSize: '.72rem', fontWeight: 700, padding: '.2rem .55rem',
+                      background: r.status === 'pendente' ? 'rgba(248,113,113,.15)' : 'rgba(74,222,128,.1)',
+                      color: r.status === 'pendente' ? '#f87171' : '#4ade80',
+                      border: `1px solid ${r.status === 'pendente' ? 'rgba(248,113,113,.3)' : 'rgba(74,222,128,.2)'}`,
+                    }}>
+                      {r.status === 'pendente' ? '⏳ pendente' : '✓ resolvido'}
+                    </span>
+                    <span style={{ fontSize: '.72rem', color: 'var(--color-text-muted)', padding: '.2rem .55rem', border: '1px solid var(--border)' }}>
+                      {TIPO_LABELS[r.tipo] ?? r.tipo}
+                    </span>
+                    <span style={{ fontSize: '.72rem', color: 'var(--color-text-muted)', fontFamily: 'monospace' }}>
+                      questão: {r.question_id}
+                    </span>
+                  </div>
+                  <p style={{ fontSize: '.85rem', color: 'var(--color-text)', lineHeight: 1.6 }}>
+                    {r.descricao}
+                  </p>
+                  <p style={{ fontSize: '.7rem', color: 'var(--color-text-muted)', marginTop: '.3rem' }}>
+                    {new Date(r.created_at).toLocaleString('pt-BR')}
+                    {r.user_id && ` · user: ${r.user_id.slice(0, 8)}...`}
+                  </p>
+                </div>
+                <div style={{ display: 'flex', gap: '.5rem', flexShrink: 0 }}>
+                  {r.status === 'pendente' && (
+                    <button onClick={() => marcarResolvido(r.id)} className="btn-ghost"
+                      style={{ fontSize: '.75rem', padding: '.3rem .7rem', color: '#4ade80' }}>
+                      ✓ Resolver
+                    </button>
+                  )}
+                  <button onClick={() => excluir(r.id)} className="btn-ghost"
+                    style={{ fontSize: '.75rem', padding: '.3rem .7rem', color: '#f87171' }}>
+                    🗑
+                  </button>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   )
 }
 
-// ─── ABA: EXPORTAR PDF ───────────────────────────────────────────────────────
+// ─── EXPORTAR ─────────────────────────────────────────────────────────────────
 
 function ExportTab() {
-  const { profile } = useAuthContext()
   const [generating, setGenerating] = useState(false)
-  const [selectedUser, setSelectedUser] = useState(MOCK_MEMBERS[0].id)
 
-  const generatePDF = () => {
-    setGenerating(true)
-    const user = MOCK_MEMBERS.find(m => m.id === selectedUser)!
-
-    // Instancia jsPDF
-    const doc = new jsPDF()
-
-    // ─── Cabeçalho ───────────────────────────────────────────
-    doc.setFillColor(31, 56, 245)
-    doc.rect(0, 0, 210, 35, 'F')
-
-    doc.setTextColor(255, 255, 255)
-    doc.setFont('helvetica', 'bold')
-    doc.setFontSize(18)
-    doc.text('LAMMI – Relatório de Desempenho', 14, 15)
-    doc.setFontSize(10)
-    doc.setFont('helvetica', 'normal')
-    doc.text('Liga Acadêmica de Medicina Militar de Irecê', 14, 22)
-    doc.text('Gerado em: ' + new Date().toLocaleDateString('pt-BR'), 14, 28)
-
-    // ─── Dados do membro ─────────────────────────────────────
-    doc.setTextColor(30, 30, 30)
-    doc.setFontSize(13)
-    doc.setFont('helvetica', 'bold')
-    doc.text('Membro: ' + user.display_name, 14, 50)
-    doc.setFont('helvetica', 'normal')
-    doc.setFontSize(10)
-    doc.text('E-mail: ' + user.email, 14, 57)
-    doc.text('Papel: ' + user.role, 14, 63)
-
-    // ─── Cards de resumo ─────────────────────────────────────
-    const cards = [
-      { label: 'Pontuação Total', value: user.score.toLocaleString() + ' pts' },
-      { label: 'Streak Atual',    value: user.study_streak + ' dias' },
-      { label: 'Questões Resp.',  value: '75' },
-      { label: 'Taxa de Acerto',  value: '72%' },
+  const exportarQuestoesCSV = () => {
+    const rows = [
+      ['ID','Enunciado','Tema','Dificuldade','Correta','Alternativas','Explicação'],
+      ...MOCK_QUESTIONS.map(q => [
+        q.id,
+        `"${q.statement.replace(/"/g,'""')}"`,
+        THEMES[q.theme] ?? q.theme,
+        q.difficulty,
+        q.correct_key,
+        `"${q.alternatives.map(a => `${a.key}: ${a.text}`).join(' | ').replace(/"/g,'""')}"`,
+        `"${(q.explanation ?? '').replace(/"/g,'""')}"`,
+      ])
     ]
-    cards.forEach((c, i) => {
-      const x = 14 + (i % 2) * 93
-      const y = 73 + Math.floor(i / 2) * 22
-      doc.setFillColor(240, 244, 255)
-      doc.roundedRect(x, y, 85, 16, 3, 3, 'F')
-      doc.setFont('helvetica', 'bold')
-      doc.setFontSize(11)
-      doc.setTextColor(31, 56, 245)
-      doc.text(c.value, x + 6, y + 7)
-      doc.setFont('helvetica', 'normal')
-      doc.setFontSize(8)
-      doc.setTextColor(100, 100, 100)
-      doc.text(c.label, x + 6, y + 12)
-    })
+    const csv = rows.map(r => r.join(',')).join('\n')
+    const blob = new Blob(['\uFEFF' + csv], { type: 'text/csv;charset=utf-8;' })
+    const url  = URL.createObjectURL(blob)
+    const a    = document.createElement('a'); a.href = url; a.download = 'lammi_questoes.csv'; a.click()
+    URL.revokeObjectURL(url)
+  }
 
-    // ─── Tabela de desempenho por tema ───────────────────────
-    doc.setTextColor(30, 30, 30)
-    doc.setFont('helvetica', 'bold')
-    doc.setFontSize(12)
-    doc.text('Desempenho por Tema', 14, 125)
+  const exportarFlashcardsCSV = () => {
+    const rows = [
+      ['ID','Tema','Frente','Verso'],
+      ...MOCK_FLASHCARDS.map(f => [
+        f.id,
+        THEMES[f.theme] ?? f.theme,
+        `"${f.front.replace(/"/g,'""')}"`,
+        `"${f.back.replace(/"/g,'""')}"`,
+      ])
+    ]
+    const csv = rows.map(r => r.join(',')).join('\n')
+    const blob = new Blob(['\uFEFF' + csv], { type: 'text/csv;charset=utf-8;' })
+    const url  = URL.createObjectURL(blob)
+    const a    = document.createElement('a'); a.href = url; a.download = 'lammi_flashcards.csv'; a.click()
+    URL.revokeObjectURL(url)
+  }
+
+  const exportarRelatoriosPDF = async () => {
+    setGenerating(true)
+    const { data } = await supabase.from('question_reports').select('*').order('created_at', { ascending: false })
+    const reports = (data ?? []) as Report[]
+
+    const doc = new jsPDF()
+    doc.setFillColor(192, 57, 43)
+    doc.rect(0, 0, 210, 30, 'F')
+    doc.setTextColor(255,255,255)
+    doc.setFont('helvetica','bold')
+    doc.setFontSize(16)
+    doc.text('LAMMI – Relatório de Erros Reportados', 14, 18)
+    doc.setTextColor(30,30,30)
+    doc.setFontSize(9)
+    doc.setFont('helvetica','normal')
+    doc.text(`Gerado em: ${new Date().toLocaleString('pt-BR')} · Total: ${reports.length} relatórios`, 14, 38)
 
     autoTable(doc, {
-      startY: 130,
-      head: [['Tema', 'Total', 'Corretas', 'Taxa']],
-      body: [
-        ['ATLS Inicial',    '24', '18', '75%'],
-        ['Choque',          '15', '10', '67%'],
-        ['Trauma Torácico', '12', '7',  '58%'],
-        ['Via Aérea',       '10', '8',  '80%'],
-        ['Cinética do Trauma','8','6',  '75%'],
-      ],
-      styles: { fontSize: 9, cellPadding: 3 },
-      headStyles: { fillColor: [31, 56, 245], textColor: 255, fontStyle: 'bold' },
-      alternateRowStyles: { fillColor: [245, 247, 255] },
+      startY: 44,
+      head: [['Questão','Tipo','Descrição','Status','Data']],
+      body: reports.map(r => [
+        r.question_id,
+        TIPO_LABELS[r.tipo] ?? r.tipo,
+        r.descricao.slice(0, 60) + (r.descricao.length > 60 ? '...' : ''),
+        r.status,
+        new Date(r.created_at).toLocaleDateString('pt-BR'),
+      ]),
+      styles: { fontSize: 8, cellPadding: 3 },
+      headStyles: { fillColor: [192, 57, 43], textColor: 255, fontStyle: 'bold' },
+      alternateRowStyles: { fillColor: [250, 245, 245] },
     })
 
-    // ─── Heatmap simplificado (texto) ────────────────────────
-    const finalY = (doc as any).lastAutoTable.finalY + 10
-    doc.setFont('helvetica', 'bold')
-    doc.setFontSize(12)
-    doc.text('Atividade Recente (últimos 7 dias)', 14, finalY)
-    doc.setFont('helvetica', 'normal')
-    doc.setFontSize(9)
-    doc.setTextColor(80, 80, 80)
-
-    const days = ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb']
-    const values = [12, 24, 0, 8, 15, 30, 6]
-    days.forEach((d, i) => {
-      const x = 14 + i * 26
-      const intensity = Math.min(values[i] / 30, 1)
-      const r = Math.round(31 + (200 - 31) * (1 - intensity))
-      const g = Math.round(56 + (220 - 56) * (1 - intensity))
-      const b = Math.round(245 + (255 - 245) * (1 - intensity))
-      doc.setFillColor(r, g, b)
-      doc.roundedRect(x, finalY + 5, 20, 20, 2, 2, 'F')
-      doc.setTextColor(intensity > 0.5 ? 255 : 50)
-      doc.text(d, x + 4, finalY + 14)
-      doc.text(values[i].toString(), x + 7, finalY + 20)
-    })
-
-    // ─── Rodapé ──────────────────────────────────────────────
-    doc.setTextColor(160, 160, 160)
-    doc.setFontSize(8)
-    doc.text('Relatório gerado automaticamente pela plataforma LAMMI · www.lammi.med.br', 14, 285)
-
-    doc.save(`lammi_relatorio_${user.display_name.replace(/\s+/g,'_').toLowerCase()}.pdf`)
+    doc.save('lammi_relatorios_erro.pdf')
     setGenerating(false)
   }
 
   return (
-    <div className="max-w-lg space-y-5">
-      <div className="card-p space-y-4">
-        <h3 className="font-semibold text-[var(--color-text)]">Exportar Relatório de Desempenho</h3>
-        <p className="text-sm text-[var(--color-text-muted)]">
-          Gera um PDF com estatísticas completas de um membro: acertos por tema, simulados, streak e heatmap de atividade.
-        </p>
+    <div style={{ maxWidth: 520, display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+      {[
+        { icon: '📋', title: 'Exportar Questões', desc: `${MOCK_QUESTIONS.length} questões em CSV com enunciado, alternativas, gabarito e explicação.`, fn: exportarQuestoesCSV, lbl: 'Baixar CSV de Questões' },
+        { icon: '🃏', title: 'Exportar Flashcards', desc: `${MOCK_FLASHCARDS.length} flashcards em CSV com frente, verso e tema.`, fn: exportarFlashcardsCSV, lbl: 'Baixar CSV de Flashcards' },
+      ].map(item => (
+        <div key={item.title} className="card-p" style={{ display: 'flex', flexDirection: 'column', gap: '.75rem' }}>
+          <div>
+            <div style={{ fontWeight: 700, fontSize: '.9rem', color: 'var(--color-text)', marginBottom: '.25rem' }}>{item.icon} {item.title}</div>
+            <p style={{ fontSize: '.82rem', color: 'var(--color-text-muted)' }}>{item.desc}</p>
+          </div>
+          <button onClick={item.fn} className="btn-ghost" style={{ fontSize: '.85rem', justifyContent: 'center' }}>
+            📥 {item.lbl}
+          </button>
+        </div>
+      ))}
 
+      <div className="card-p" style={{ display: 'flex', flexDirection: 'column', gap: '.75rem' }}>
         <div>
-          <label className="label">Selecionar membro</label>
-          <select className="input" value={selectedUser} onChange={e => setSelectedUser(e.target.value)}>
-            {MOCK_MEMBERS.map(m => (
-              <option key={m.id} value={m.id}>{m.display_name} ({m.email})</option>
-            ))}
-          </select>
+          <div style={{ fontWeight: 700, fontSize: '.9rem', color: 'var(--color-text)', marginBottom: '.25rem' }}>🚩 Exportar Relatórios de Erro</div>
+          <p style={{ fontSize: '.82rem', color: 'var(--color-text-muted)' }}>PDF com todos os erros reportados pelos usuários, status e data.</p>
         </div>
-
-        <div className="bg-[var(--color-surface-2)] rounded-lg p-4 text-sm space-y-2">
-          <p className="font-medium text-[var(--color-text)]">O PDF incluirá:</p>
-          {['Dados do membro e pontuação total','Taxa de acerto geral e por tema','Número de simulados e média de desempenho','Streak de dias consecutivos de estudo','Heatmap de atividade recente','Tabela detalhada por tema'].map(item => (
-            <div key={item} className="flex items-center gap-2 text-[var(--color-text-muted)]">
-              <span className="text-green-500">✓</span> {item}
-            </div>
-          ))}
-        </div>
-
-        <button onClick={generatePDF} disabled={generating} className="btn-primary w-full py-3">
-          {generating ? (
-            <span className="flex items-center gap-2">
-              <span className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
-              Gerando PDF...
-            </span>
-          ) : '📥 Exportar PDF'}
-        </button>
-      </div>
-
-      <div className="card-p space-y-3">
-        <h3 className="font-semibold text-[var(--color-text)] text-sm">Exportar todos os membros</h3>
-        <p className="text-xs text-[var(--color-text-muted)]">Gera uma planilha CSV com dados de todos os membros para análise em Excel ou Google Sheets.</p>
-        <button
-          onClick={() => {
-            const rows = [
-              ['Nome','Email','Role','Score','Streak'],
-              ...MOCK_MEMBERS.map(m => [m.display_name,m.email,m.role,m.score,m.study_streak])
-            ]
-            const csv = rows.map(r => r.join(',')).join('\n')
-            const blob = new Blob([csv], { type:'text/csv' })
-            const url  = URL.createObjectURL(blob)
-            const a    = document.createElement('a')
-            a.href = url; a.download = 'lammi_membros.csv'; a.click()
-            URL.revokeObjectURL(url)
-          }}
-          className="btn-outline text-sm w-full"
-        >
-          📊 Exportar CSV de membros
+        <button onClick={exportarRelatoriosPDF} disabled={generating} className="btn-ghost" style={{ fontSize: '.85rem', justifyContent: 'center' }}>
+          {generating ? '⏳ Gerando...' : '📥 Baixar PDF de Relatórios'}
         </button>
       </div>
     </div>
