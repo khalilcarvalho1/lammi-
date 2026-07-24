@@ -2,49 +2,27 @@ import { useState, useEffect, useMemo } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { MOCK_FLASHCARDS } from '@/data/mockData'
 import { THEMES, StudyTheme } from '@/services/supabaseClient'
-import { findTema, findSubtema } from '@/services/content-hierarchy'
+import { temaLabel, resolverFiltroURL, filtroOrigemLabel, filtroOrigemCurto } from '@/utils/temaFilters'
 import { calculateSM2, initSRSCard, isDue, SRSQuality, SRSCard } from '@/hooks/useSRS'
 import { useStudyContext } from '@/contexts/StudyContext'
 import { useAuthContext } from '@/contexts/AuthContext'
 import { flashcardsService } from '@/services/flashcardsService'
 import { studyLogService } from '@/services/studyLogService'
 
-// NOVO — nome legível de qualquer id
-function temaLabel(id: string): string {
-  const direto = (THEMES as Record<string,string>)[id]
-  if (direto) return direto
-  const sub = findSubtema(id)
-  if (sub) return sub.subtema.label
-  const tem = findTema(id)
-  if (tem) return tem.tema.label
-  return id
-}
-
-// NOVO — traduz ?theme= (subtema) ou ?tema= (tema inteiro) em um Set de filtros
-function resolverFiltroURL(theme: string|null, tema: string|null): Set<string> {
-  if (theme) return new Set([theme])
-  if (tema) {
-    const found = findTema(tema)
-    if (found) return new Set([tema, ...found.tema.subtemas.map(s=>s.id)])
-    return new Set([tema])
-  }
-  return new Set()
-}
-
 export function FlashcardsPage() {
   const { srsData, setSrsData } = useStudyContext()
   const { user } = useAuthContext()
 
-  // NOVO — lê ?theme= e ?tema= da URL
+  // Lê ?theme= e ?tema= da URL
   const [searchParams] = useSearchParams()
   const themeParam = searchParams.get('theme')
   const temaParam  = searchParams.get('tema')
 
-  const [temasAtivos, setTemasAtivos] = useState<Set<string>>(
+  const [temasAtivos, setTemasAtivos] = useState<Set<StudyTheme>>(
     () => resolverFiltroURL(themeParam, temaParam)
   )
 
-  // NOVO — ressincroniza quando a URL muda com a página já montada
+  // Ressincroniza quando a URL muda com a página já montada
   useEffect(()=>{
     setTemasAtivos(resolverFiltroURL(themeParam, temaParam))
   },[themeParam, temaParam])
@@ -53,6 +31,8 @@ export function FlashcardsPage() {
   const [idx,        setIdx]        = useState(0)
   const [done,       setDone]       = useState<string[]>([])
   const [summary,    setSummary]    = useState(false)
+  // true = ignora o agendamento SM-2 e revisa todos os cards do filtro
+  const [modoLivre,  setModoLivre]  = useState(false)
   // true enquanto carrega estado SRS do Supabase na inicialização
   const [syncing,    setSyncing]    = useState(false)
 
@@ -84,29 +64,43 @@ export function FlashcardsPage() {
     })
   }, [user])
 
-  const todos = MOCK_FLASHCARDS.filter(f => temasAtivos.size === 0 || temasAtivos.has(f.theme))
-  const due   = todos.filter(f => { const s = srsData[f.id]; return !s || isDue(s) })
+  const todos     = MOCK_FLASHCARDS.filter(f => temasAtivos.size === 0 || temasAtivos.has(f.theme))
+  const pendentes = todos.filter(f => { const s = srsData[f.id]; return !s || isDue(s) })
+  // No modo livre a fila é o baralho inteiro, ignorando a data de revisão
+  const due       = modoLivre ? todos : pendentes
 
-  useEffect(() => { setIdx(0); setDone([]); setSummary(false); setFlipped(false) }, [temasAtivos])
+  // Trocar de tema sempre volta ao modo agendado
+  useEffect(() => {
+    setIdx(0); setDone([]); setSummary(false); setFlipped(false); setModoLivre(false)
+  }, [temasAtivos])
 
   const current = due[idx] ?? null
 
-  // NOVO — valor do <select>: só reflete seleção de um tema único
-  const selectValue = temasAtivos.size === 1 ? [...temasAtivos][0] : ''
+  const iniciarSessao = (livre: boolean) => {
+    setModoLivre(livre); setIdx(0); setDone([]); setSummary(false); setFlipped(false)
+  }
 
-  // NOVO — só lista no select temas que têm cards
+  // Valor do <select>: '' = todos, '__multi__' = filtro de tema inteiro vindo da URL
+  const selectValue = temasAtivos.size === 1
+    ? [...temasAtivos][0]
+    : temasAtivos.size > 1 ? '__multi__' : ''
+
+  // Só lista no select temas que têm cards
   const temasComCards = useMemo(()=>{
     const c: Record<string,number> = {}
     for (const f of MOCK_FLASHCARDS) c[f.theme] = (c[f.theme]||0)+1
     return (Object.entries(THEMES) as [StudyTheme,string][]).filter(([k]) => (c[k]||0) > 0)
   },[])
 
-  // NOVO — rótulo do filtro vindo da URL
-  const filtroOrigem = useMemo(()=>{
-    if (themeParam) { const s=findSubtema(themeParam); return s ? `${s.area.emoji} ${s.area.label} › ${s.subtema.label}` : temaLabel(themeParam) }
-    if (temaParam)  { const t=findTema(temaParam);     return t ? `${t.area.emoji} ${t.area.label} › ${t.tema.label}` : temaLabel(temaParam) }
-    return null
-  },[themeParam,temaParam])
+  // Rótulo do filtro vindo da URL
+  const filtroOrigem = useMemo(
+    ()=> filtroOrigemLabel(themeParam, temaParam),
+    [themeParam,temaParam]
+  )
+  const filtroCurto = useMemo(
+    ()=> filtroOrigemCurto(themeParam, temaParam),
+    [themeParam,temaParam]
+  )
 
   const responder = async (q: SRSQuality) => {
     if (!current) return
@@ -139,20 +133,21 @@ export function FlashcardsPage() {
   // ─── Tela de resumo ───────────────────────────────────────
   if (summary || (due.length === 0 && todos.length > 0)) {
     const corretos = done.filter(id => (srsData[id]?.repetitions ?? 0) > 0).length
+    const nadaPendente = pendentes.length === 0 && done.length === 0
     return (
       <section style={{ padding: '4rem 2rem', background: '#0D0D0D' }}>
         <div style={{ maxWidth: 640, margin: '0 auto' }}>
           <div className="card-dark" style={{ padding: '3rem', textAlign: 'center' }}>
             <div style={{ fontFamily: 'var(--font-d)', fontSize: '4rem', fontWeight: 700, color: '#E53935', marginBottom: '.5rem' }}>
-              {due.length === 0 && done.length === 0 ? '🎉' : Math.round((corretos / (done.length || 1)) * 100) + '%'}
+              {nadaPendente ? '🎉' : Math.round((corretos / (done.length || 1)) * 100) + '%'}
             </div>
             <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.4rem', color: 'white', marginBottom: '.5rem' }}>
-              {due.length === 0 && done.length === 0 ? 'Tudo em dia!' : 'Sessão concluída'}
+              {nadaPendente ? 'Tudo em dia!' : 'Sessão concluída'}
             </div>
             <p style={{ color: 'var(--text-muted)', fontSize: '.88rem', marginBottom: '2rem' }}>
               {done.length > 0
                 ? `${done.length} cards revisados · ${corretos} lembrados · SM-2 salvo ${user ? 'no servidor' : 'localmente'}`
-                : 'Nenhum card pendente hoje.'}
+                : `Nenhum card pendente hoje neste filtro · ${todos.length} cards no total.`}
             </p>
             {done.length > 0 && (
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: '1rem', marginBottom: '2rem' }}>
@@ -173,9 +168,25 @@ export function FlashcardsPage() {
                 Progresso salvo localmente. <a href="/login" style={{ color: '#E53935' }}>Faça login</a> para sincronizar entre dispositivos.
               </p>
             )}
-            <button className="btn-red" style={{ width: '100%' }} onClick={() => { setIdx(0); setDone([]); setSummary(false); setFlipped(false) }}>
-              Nova sessão
-            </button>
+
+            {/* Se ainda há cards agendados para hoje, retoma a fila normal.
+                Se não há, oferece revisar o baralho inteiro fora do agendamento. */}
+            {pendentes.length > 0 ? (
+              <button className="btn-red" style={{ width: '100%' }} onClick={() => iniciarSessao(false)}>
+                Continuar revisão ({pendentes.length} pendentes)
+              </button>
+            ) : (
+              <button className="btn-red" style={{ width: '100%' }} onClick={() => iniciarSessao(true)} disabled={todos.length === 0}>
+                Revisar todos os {todos.length} cards mesmo assim
+              </button>
+            )}
+
+            {temasAtivos.size > 0 && (
+              <button className="btn-ghost" style={{ width: '100%', marginTop: '.6rem', justifyContent: 'center' }}
+                onClick={() => setTemasAtivos(new Set())}>
+                Estudar todos os temas
+              </button>
+            )}
           </div>
         </div>
       </section>
@@ -191,16 +202,25 @@ export function FlashcardsPage() {
             <h2 style={{ fontFamily: 'var(--font-d)', fontSize: '2rem', color: 'white', marginBottom: '.35rem' }}>Flashcards</h2>
             <p style={{ fontSize: '.88rem', color: 'rgba(240,240,240,.5)' }}>
               Repetição espaçada SM-2 {syncing ? '· sincronizando…' : user ? '· sincronizado' : '· local'}
+              {modoLivre && ' · modo livre'}
             </p>
           </div>
-          <select value={selectValue} onChange={e => setTemasAtivos(e.target.value ? new Set([e.target.value]) : new Set())}
+          <select value={selectValue}
+            onChange={e => {
+              const v = e.target.value
+              if (v === '__multi__') return
+              setTemasAtivos(v ? new Set([v as StudyTheme]) : new Set())
+            }}
             style={{ padding: '.65rem .9rem', border: '1px solid var(--border)', background: 'var(--bg-surface)', color: 'var(--text)', fontFamily: 'var(--font-s)', fontSize: '.88rem', outline: 'none', minWidth: 220 }}>
             <option value="">Todos os temas</option>
+            {temasAtivos.size > 1 && (
+              <option value="__multi__">{filtroCurto ?? 'Filtro do tema'} ({temasAtivos.size} subtemas)</option>
+            )}
             {temasComCards.map(([k, v]) => <option key={k} value={k}>{v}</option>)}
           </select>
         </div>
 
-        {/* NOVO — aviso de filtro vindo do drill-down */}
+        {/* Aviso de filtro vindo do drill-down */}
         {filtroOrigem && temasAtivos.size > 0 && (
           <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', gap:'1rem', flexWrap:'wrap', marginBottom:'1.5rem', padding:'.6rem .9rem', background:'rgba(192,57,43,.1)', border:'1px solid rgba(192,57,43,.3)' }}>
             <span style={{ fontSize:'.8rem', color:'var(--text)' }}>🎯 Filtrando por: <strong>{filtroOrigem}</strong> · {todos.length} cards</span>
@@ -211,10 +231,10 @@ export function FlashcardsPage() {
         {/* Stats */}
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(120px, 1fr))', gap: '1rem', marginBottom: '2rem' }}>
           {[
-            { lbl: 'Para hoje', val: due.length,  col: '#E53935' },
-            { lbl: 'Novos',     val: novos,        col: 'var(--text)' },
-            { lbl: 'Vencidos',  val: vencidos,     col: '#f87171' },
-            { lbl: 'Dominados', val: dominados,    col: '#4ade80' },
+            { lbl: 'Para hoje', val: pendentes.length, col: '#E53935' },
+            { lbl: 'Novos',     val: novos,            col: 'var(--text)' },
+            { lbl: 'Vencidos',  val: vencidos,         col: '#f87171' },
+            { lbl: 'Dominados', val: dominados,        col: '#4ade80' },
           ].map((s, i) => (
             <div key={i} className="dash-card" style={{ textAlign: 'center' }}>
               <div style={{ fontSize: '.65rem', textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--text-muted)', marginBottom: '.25rem' }}>{s.lbl}</div>

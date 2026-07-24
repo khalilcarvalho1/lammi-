@@ -4,7 +4,7 @@ import { useAuthContext } from '@/contexts/AuthContext'
 import { useStudyContext } from '@/contexts/StudyContext'
 import { MOCK_QUESTIONS } from '@/data/mockData'
 import { THEMES, StudyTheme } from '@/services/supabaseClient'
-import { findTema, findSubtema } from '@/services/content-hierarchy'
+import { temaLabel, resolverFiltroURL, filtroOrigemLabel } from '@/utils/temaFilters'
 import { questionsService } from '@/services/questionsService'
 import { studyLogService } from '@/services/studyLogService'
 
@@ -19,31 +19,6 @@ const NIVEL_LABELS: Record<string,string> = {
 }
 function toggleSet<T>(s: Set<T>, item: T): Set<T> {
   const n = new Set(s); n.has(item) ? n.delete(item) : n.add(item); return n
-}
-
-// NOVO — nome legível de qualquer id (tema legado, tema novo ou subtema)
-function temaLabel(id: string): string {
-  const direto = (THEMES as Record<string,string>)[id]
-  if (direto) return direto
-  const sub = findSubtema(id)
-  if (sub) return sub.subtema.label
-  const tem = findTema(id)
-  if (tem) return tem.tema.label
-  return id
-}
-
-// NOVO — traduz ?theme= (subtema) ou ?tema= (tema inteiro) em um Set de filtros
-function resolverFiltroURL(theme: string|null, tema: string|null): Set<StudyTheme> {
-  if (theme) return new Set([theme as StudyTheme])
-  if (tema) {
-    const found = findTema(tema)
-    if (found) {
-      const ids = [tema, ...found.tema.subtemas.map(s=>s.id)]
-      return new Set(ids as StudyTheme[])
-    }
-    return new Set([tema as StudyTheme])
-  }
-  return new Set()
 }
 
 function AnotacaoQuestao({ questionId }: { questionId: string }) {
@@ -94,7 +69,7 @@ export function BancoPage() {
   })
   useEffect(()=>{ localStorage.setItem('lammi_marcadas', JSON.stringify([...marcadas])) }, [marcadas])
 
-  // NOVO — lê ?theme= e ?tema= da URL
+  // Lê ?theme= e ?tema= da URL
   const [searchParams] = useSearchParams()
   const themeParam = searchParams.get('theme')
   const temaParam  = searchParams.get('tema')
@@ -103,7 +78,7 @@ export function BancoPage() {
     () => resolverFiltroURL(themeParam, temaParam)
   )
 
-  // NOVO — ressincroniza quando a URL muda com a página já montada
+  // Ressincroniza quando a URL muda com a página já montada
   useEffect(()=>{
     setFiltroTemas(resolverFiltroURL(themeParam, temaParam))
   },[themeParam, temaParam])
@@ -124,7 +99,7 @@ export function BancoPage() {
     return c
   },[])
 
-  // NOVO — só mostra na sidebar temas que têm questões (ou que estão ativos)
+  // Só mostra na sidebar temas que têm questões (ou que estão ativos)
   const temasVisiveis = useMemo(()=>{
     return (Object.entries(THEMES) as [StudyTheme,string][])
       .filter(([t])=> (temaCount[t]||0) > 0 || filtroTemas.has(t))
@@ -172,12 +147,11 @@ export function BancoPage() {
 
   const limparFiltros = ()=>{ setFiltroTemas(new Set()); setFiltroNiveis(new Set()); setFiltroRes('todas'); setBusca('') }
 
-  // NOVO — rótulo do filtro vindo da URL
-  const filtroOrigem = useMemo(()=>{
-    if (themeParam) { const s=findSubtema(themeParam); return s ? `${s.area.emoji} ${s.area.label} › ${s.tema.label} › ${s.subtema.label}` : temaLabel(themeParam) }
-    if (temaParam)  { const t=findTema(temaParam);     return t ? `${t.area.emoji} ${t.area.label} › ${t.tema.label}` : temaLabel(temaParam) }
-    return null
-  },[themeParam,temaParam])
+  // Rótulo do filtro vindo da URL
+  const filtroOrigem = useMemo(
+    ()=> filtroOrigemLabel(themeParam, temaParam),
+    [themeParam,temaParam]
+  )
 
   return (
     <section style={{padding:isMobile?'1.5rem 1rem':'3rem 2rem',background:'var(--bg)'}}>
@@ -189,7 +163,7 @@ export function BancoPage() {
           <p style={{fontSize:'.88rem',color:'var(--text-muted)'}}>Medicina Militar · ATLS · TCCC · PHTLS · {MOCK_QUESTIONS.length} questões</p>
         </div>
 
-        {/* NOVO — aviso de filtro vindo do drill-down */}
+        {/* Aviso de filtro vindo do drill-down */}
         {filtroOrigem && filtroTemas.size>0 && (
           <div style={{display:'flex',alignItems:'center',justifyContent:'space-between',gap:'1rem',flexWrap:'wrap',marginBottom:'1.25rem',padding:'.6rem .9rem',background:'rgba(192,57,43,.1)',border:'1px solid rgba(192,57,43,.3)'}}>
             <span style={{fontSize:'.8rem',color:'var(--text)'}}>🎯 Filtrando por: <strong>{filtroOrigem}</strong> · {total} questões</span>
