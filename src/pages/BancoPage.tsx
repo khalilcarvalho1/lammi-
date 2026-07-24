@@ -1,4 +1,5 @@
 import { useState, useMemo, useEffect, useCallback, useRef } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { useAuthContext } from '@/contexts/AuthContext'
 import { useStudyContext } from '@/contexts/StudyContext'
 import { MOCK_QUESTIONS } from '@/data/mockData'
@@ -67,7 +68,21 @@ export function BancoPage() {
   })
   useEffect(()=>{ localStorage.setItem('lammi_marcadas', JSON.stringify([...marcadas])) }, [marcadas])
 
-  const [filtroTemas,  setFiltroTemas]  = useState<Set<StudyTheme>>(new Set())
+  // NOVO — lê ?theme= da URL e pré-filtra as questões
+  const [searchParams] = useSearchParams()
+  const themeParam = searchParams.get('theme')
+
+  const [filtroTemas,  setFiltroTemas]  = useState<Set<StudyTheme>>(() =>
+    themeParam && themeParam in THEMES ? new Set([themeParam as StudyTheme]) : new Set()
+  )
+
+  // NOVO — ressincroniza quando a URL muda com a página já montada
+  useEffect(()=>{
+    setFiltroTemas(
+      themeParam && themeParam in THEMES ? new Set([themeParam as StudyTheme]) : new Set()
+    )
+  },[themeParam])
+
   const [filtroNiveis, setFiltroNiveis] = useState<Set<string>>(new Set())
   const [filtroRes,    setFiltroRes]    = useState('todas')
   const [busca,        setBusca]        = useState('')
