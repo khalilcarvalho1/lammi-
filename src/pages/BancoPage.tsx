@@ -4,6 +4,7 @@ import { useAuthContext } from '@/contexts/AuthContext'
 import { useStudyContext } from '@/contexts/StudyContext'
 import { MOCK_QUESTIONS } from '@/data/mockData'
 import { THEMES, StudyTheme } from '@/services/supabaseClient'
+import { findTema, findSubtema } from '@/services/content-hierarchy'
 import { questionsService } from '@/services/questionsService'
 import { studyLogService } from '@/services/studyLogService'
 
@@ -18,6 +19,31 @@ const NIVEL_LABELS: Record<string,string> = {
 }
 function toggleSet<T>(s: Set<T>, item: T): Set<T> {
   const n = new Set(s); n.has(item) ? n.delete(item) : n.add(item); return n
+}
+
+// NOVO — nome legível de qualquer id (tema legado, tema novo ou subtema)
+function temaLabel(id: string): string {
+  const direto = (THEMES as Record<string,string>)[id]
+  if (direto) return direto
+  const sub = findSubtema(id)
+  if (sub) return sub.subtema.label
+  const tem = findTema(id)
+  if (tem) return tem.tema.label
+  return id
+}
+
+// NOVO — traduz ?theme= (subtema) ou ?tema= (tema inteiro) em um Set de filtros
+function resolverFiltroURL(theme: string|null, tema: string|null): Set<StudyTheme> {
+  if (theme) return new Set([theme as StudyTheme])
+  if (tema) {
+    const found = findTema(tema)
+    if (found) {
+      const ids = [tema, ...found.tema.subtemas.map(s=>s.id)]
+      return new Set(ids as StudyTheme[])
+    }
+    return new Set([tema as StudyTheme])
+  }
+  return new Set()
 }
 
 function AnotacaoQuestao({ questionId }: { questionId: string }) {
@@ -68,20 +94,19 @@ export function BancoPage() {
   })
   useEffect(()=>{ localStorage.setItem('lammi_marcadas', JSON.stringify([...marcadas])) }, [marcadas])
 
-  // NOVO — lê ?theme= da URL e pré-filtra as questões
+  // NOVO — lê ?theme= e ?tema= da URL
   const [searchParams] = useSearchParams()
   const themeParam = searchParams.get('theme')
+  const temaParam  = searchParams.get('tema')
 
-  const [filtroTemas,  setFiltroTemas]  = useState<Set<StudyTheme>>(() =>
-    themeParam && themeParam in THEMES ? new Set([themeParam as StudyTheme]) : new Set()
+  const [filtroTemas,  setFiltroTemas]  = useState<Set<StudyTheme>>(
+    () => resolverFiltroURL(themeParam, temaParam)
   )
 
   // NOVO — ressincroniza quando a URL muda com a página já montada
   useEffect(()=>{
-    setFiltroTemas(
-      themeParam && themeParam in THEMES ? new Set([themeParam as StudyTheme]) : new Set()
-    )
-  },[themeParam])
+    setFiltroTemas(resolverFiltroURL(themeParam, temaParam))
+  },[themeParam, temaParam])
 
   const [filtroNiveis, setFiltroNiveis] = useState<Set<string>>(new Set())
   const [filtroRes,    setFiltroRes]    = useState('todas')
@@ -98,6 +123,12 @@ export function BancoPage() {
     for (const q of MOCK_QUESTIONS) c[q.theme]=(c[q.theme]||0)+1
     return c
   },[])
+
+  // NOVO — só mostra na sidebar temas que têm questões (ou que estão ativos)
+  const temasVisiveis = useMemo(()=>{
+    return (Object.entries(THEMES) as [StudyTheme,string][])
+      .filter(([t])=> (temaCount[t]||0) > 0 || filtroTemas.has(t))
+  },[temaCount, filtroTemas])
 
   const filtradas = useMemo(()=>{
     const bl = busca.trim().toLowerCase()
@@ -141,6 +172,13 @@ export function BancoPage() {
 
   const limparFiltros = ()=>{ setFiltroTemas(new Set()); setFiltroNiveis(new Set()); setFiltroRes('todas'); setBusca('') }
 
+  // NOVO — rótulo do filtro vindo da URL
+  const filtroOrigem = useMemo(()=>{
+    if (themeParam) { const s=findSubtema(themeParam); return s ? `${s.area.emoji} ${s.area.label} › ${s.tema.label} › ${s.subtema.label}` : temaLabel(themeParam) }
+    if (temaParam)  { const t=findTema(temaParam);     return t ? `${t.area.emoji} ${t.area.label} › ${t.tema.label}` : temaLabel(temaParam) }
+    return null
+  },[themeParam,temaParam])
+
   return (
     <section style={{padding:isMobile?'1.5rem 1rem':'3rem 2rem',background:'var(--bg)'}}>
       <div style={{maxWidth:1200,margin:'0 auto'}}>
@@ -150,6 +188,14 @@ export function BancoPage() {
           <h2 style={{fontFamily:'var(--font-d)',fontSize:isMobile?'1.5rem':'2rem',color:'var(--text)',marginBottom:'.35rem'}}>Banco de Questões</h2>
           <p style={{fontSize:'.88rem',color:'var(--text-muted)'}}>Medicina Militar · ATLS · TCCC · PHTLS · {MOCK_QUESTIONS.length} questões</p>
         </div>
+
+        {/* NOVO — aviso de filtro vindo do drill-down */}
+        {filtroOrigem && filtroTemas.size>0 && (
+          <div style={{display:'flex',alignItems:'center',justifyContent:'space-between',gap:'1rem',flexWrap:'wrap',marginBottom:'1.25rem',padding:'.6rem .9rem',background:'rgba(192,57,43,.1)',border:'1px solid rgba(192,57,43,.3)'}}>
+            <span style={{fontSize:'.8rem',color:'var(--text)'}}>🎯 Filtrando por: <strong>{filtroOrigem}</strong> · {total} questões</span>
+            <button className="btn-ghost" style={{fontSize:'.72rem',padding:'.3rem .7rem'}} onClick={()=>setFiltroTemas(new Set())}>Ver todas</button>
+          </div>
+        )}
 
         {resp>0 && (
           <div className="desemp-strip" style={{marginBottom:'1.5rem'}}>
@@ -199,12 +245,15 @@ export function BancoPage() {
               ))}
 
               <div className="filtro-label">Temas</div>
-              {(Object.entries(THEMES) as [StudyTheme,string][]).map(([t,label])=>(
+              {temasVisiveis.map(([t,label])=>(
                 <button key={t} className={`tema-btn ${filtroTemas.has(t)?'active':''}`} onClick={()=>setFiltroTemas(s=>toggleSet(s,t))}>
                   <span style={{fontSize:'.78rem'}}>{TEMA_ICONS[t]??'📋'} {label}</span>
                   <span className="count-badge">{temaCount[t]||0}</span>
                 </button>
               ))}
+              {temasVisiveis.length===0 && (
+                <span style={{fontSize:'.72rem',color:'var(--text-dim)'}}>Nenhum tema com questões ainda</span>
+              )}
 
               <div className="filtro-label">Dificuldade</div>
               <div style={{display:'flex',flexWrap:'wrap',gap:4}}>
@@ -223,7 +272,7 @@ export function BancoPage() {
                   if (i===idx) cls+=' current'
                   if (h) cls+=h.acertou?' answered-correct':' answered-wrong'
                   return (
-                    <button key={qt.id} className={cls} title={`Q${i+1} · ${THEMES[qt.theme]}${marcadas.has(qt.id)?' · ⭐':''}`}
+                    <button key={qt.id} className={cls} title={`Q${i+1} · ${temaLabel(qt.theme)}${marcadas.has(qt.id)?' · ⭐':''}`}
                       onClick={()=>setIdx(i)} style={marcadas.has(qt.id)?{outline:'2px solid var(--red-bright)',outlineOffset:1}:{}}>
                       {i+1}
                     </button>
@@ -249,7 +298,7 @@ export function BancoPage() {
 
                 <div style={{display:'flex',justifyContent:'space-between',alignItems:'center',marginBottom:'1rem',flexWrap:'wrap',gap:8}}>
                   <div style={{display:'flex',gap:6,flexWrap:'wrap'}}>
-                    <span className="tag-pill">{TEMA_ICONS[q.theme]} {THEMES[q.theme]}</span>
+                    <span className="tag-pill">{TEMA_ICONS[q.theme]??'📋'} {temaLabel(q.theme)}</span>
                     <span className={`tag-pill ${q.difficulty==='facil'?'tag-green':''}`}>{NIVEL_LABELS[q.difficulty]}</span>
                   </div>
                   <div style={{display:'flex',alignItems:'center',gap:10}}>

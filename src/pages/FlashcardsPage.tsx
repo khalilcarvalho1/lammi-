@@ -1,17 +1,54 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useMemo } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { MOCK_FLASHCARDS } from '@/data/mockData'
 import { THEMES, StudyTheme } from '@/services/supabaseClient'
+import { findTema, findSubtema } from '@/services/content-hierarchy'
 import { calculateSM2, initSRSCard, isDue, SRSQuality, SRSCard } from '@/hooks/useSRS'
 import { useStudyContext } from '@/contexts/StudyContext'
 import { useAuthContext } from '@/contexts/AuthContext'
 import { flashcardsService } from '@/services/flashcardsService'
 import { studyLogService } from '@/services/studyLogService'
 
+// NOVO — nome legível de qualquer id
+function temaLabel(id: string): string {
+  const direto = (THEMES as Record<string,string>)[id]
+  if (direto) return direto
+  const sub = findSubtema(id)
+  if (sub) return sub.subtema.label
+  const tem = findTema(id)
+  if (tem) return tem.tema.label
+  return id
+}
+
+// NOVO — traduz ?theme= (subtema) ou ?tema= (tema inteiro) em um Set de filtros
+function resolverFiltroURL(theme: string|null, tema: string|null): Set<string> {
+  if (theme) return new Set([theme])
+  if (tema) {
+    const found = findTema(tema)
+    if (found) return new Set([tema, ...found.tema.subtemas.map(s=>s.id)])
+    return new Set([tema])
+  }
+  return new Set()
+}
+
 export function FlashcardsPage() {
   const { srsData, setSrsData } = useStudyContext()
   const { user } = useAuthContext()
 
-  const [filtroTema, setFiltroTema] = useState<StudyTheme | ''>('')
+  // NOVO — lê ?theme= e ?tema= da URL
+  const [searchParams] = useSearchParams()
+  const themeParam = searchParams.get('theme')
+  const temaParam  = searchParams.get('tema')
+
+  const [temasAtivos, setTemasAtivos] = useState<Set<string>>(
+    () => resolverFiltroURL(themeParam, temaParam)
+  )
+
+  // NOVO — ressincroniza quando a URL muda com a página já montada
+  useEffect(()=>{
+    setTemasAtivos(resolverFiltroURL(themeParam, temaParam))
+  },[themeParam, temaParam])
+
   const [flipped,    setFlipped]    = useState(false)
   const [idx,        setIdx]        = useState(0)
   const [done,       setDone]       = useState<string[]>([])
@@ -47,12 +84,29 @@ export function FlashcardsPage() {
     })
   }, [user])
 
-  const todos = MOCK_FLASHCARDS.filter(f => !filtroTema || f.theme === filtroTema)
+  const todos = MOCK_FLASHCARDS.filter(f => temasAtivos.size === 0 || temasAtivos.has(f.theme))
   const due   = todos.filter(f => { const s = srsData[f.id]; return !s || isDue(s) })
 
-  useEffect(() => { setIdx(0); setDone([]); setSummary(false); setFlipped(false) }, [filtroTema])
+  useEffect(() => { setIdx(0); setDone([]); setSummary(false); setFlipped(false) }, [temasAtivos])
 
   const current = due[idx] ?? null
+
+  // NOVO — valor do <select>: só reflete seleção de um tema único
+  const selectValue = temasAtivos.size === 1 ? [...temasAtivos][0] : ''
+
+  // NOVO — só lista no select temas que têm cards
+  const temasComCards = useMemo(()=>{
+    const c: Record<string,number> = {}
+    for (const f of MOCK_FLASHCARDS) c[f.theme] = (c[f.theme]||0)+1
+    return (Object.entries(THEMES) as [StudyTheme,string][]).filter(([k]) => (c[k]||0) > 0)
+  },[])
+
+  // NOVO — rótulo do filtro vindo da URL
+  const filtroOrigem = useMemo(()=>{
+    if (themeParam) { const s=findSubtema(themeParam); return s ? `${s.area.emoji} ${s.area.label} › ${s.subtema.label}` : temaLabel(themeParam) }
+    if (temaParam)  { const t=findTema(temaParam);     return t ? `${t.area.emoji} ${t.area.label} › ${t.tema.label}` : temaLabel(temaParam) }
+    return null
+  },[themeParam,temaParam])
 
   const responder = async (q: SRSQuality) => {
     if (!current) return
@@ -139,12 +193,20 @@ export function FlashcardsPage() {
               Repetição espaçada SM-2 {syncing ? '· sincronizando…' : user ? '· sincronizado' : '· local'}
             </p>
           </div>
-          <select value={filtroTema} onChange={e => setFiltroTema(e.target.value as StudyTheme | '')}
+          <select value={selectValue} onChange={e => setTemasAtivos(e.target.value ? new Set([e.target.value]) : new Set())}
             style={{ padding: '.65rem .9rem', border: '1px solid var(--border)', background: 'var(--bg-surface)', color: 'var(--text)', fontFamily: 'var(--font-s)', fontSize: '.88rem', outline: 'none', minWidth: 220 }}>
             <option value="">Todos os temas</option>
-            {(Object.entries(THEMES) as [StudyTheme, string][]).map(([k, v]) => <option key={k} value={k}>{v}</option>)}
+            {temasComCards.map(([k, v]) => <option key={k} value={k}>{v}</option>)}
           </select>
         </div>
+
+        {/* NOVO — aviso de filtro vindo do drill-down */}
+        {filtroOrigem && temasAtivos.size > 0 && (
+          <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', gap:'1rem', flexWrap:'wrap', marginBottom:'1.5rem', padding:'.6rem .9rem', background:'rgba(192,57,43,.1)', border:'1px solid rgba(192,57,43,.3)' }}>
+            <span style={{ fontSize:'.8rem', color:'var(--text)' }}>🎯 Filtrando por: <strong>{filtroOrigem}</strong> · {todos.length} cards</span>
+            <button className="btn-ghost" style={{ fontSize:'.72rem', padding:'.3rem .7rem' }} onClick={()=>setTemasAtivos(new Set())}>Ver todos</button>
+          </div>
+        )}
 
         {/* Stats */}
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(120px, 1fr))', gap: '1rem', marginBottom: '2rem' }}>
@@ -172,7 +234,7 @@ export function FlashcardsPage() {
               <div style={{ fontSize: '.65rem', textTransform: 'uppercase', letterSpacing: '.15em', color: '#E53935', fontWeight: 700 }}>
                 {flipped ? 'Verso (resposta)' : 'Frente (pergunta)'}
               </div>
-              <div className="tag-pill" style={{ fontSize: '.72rem' }}>{THEMES[current.theme]}</div>
+              <div className="tag-pill" style={{ fontSize: '.72rem' }}>{temaLabel(current.theme)}</div>
               <p style={{ fontSize: '1.15rem', color: 'white', lineHeight: 1.65, maxWidth: 560 }}>
                 {flipped ? current.back : current.front}
               </p>
