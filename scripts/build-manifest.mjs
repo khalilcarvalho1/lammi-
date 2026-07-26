@@ -46,13 +46,15 @@ function readThemeCounts(fullPath, key) {
 
 const questionFiles = listAreaSlugFiles('questions')
 const flashcardFiles = listAreaSlugFiles('flashcards')
+const casoFiles = listAreaSlugFiles('casos')
 
 const entriesMap = new Map() // key `${area}/${slug}` -> entry
 const questionThemeCounts = {}
 const flashcardThemeCounts = {}
+const casoThemeCounts = {}
 
 function newEntry(area, slug) {
-  return { area, slug, themes: [], questionsCount: 0, flashcardsCount: 0 }
+  return { area, slug, themes: [], questionsCount: 0, flashcardsCount: 0, casosCount: 0 }
 }
 
 for (const f of questionFiles) {
@@ -75,6 +77,16 @@ for (const f of flashcardFiles) {
   for (const [theme, n] of Object.entries(themeCounts)) addCount(flashcardThemeCounts, theme, n)
 }
 
+for (const f of casoFiles) {
+  const { count, themeCounts } = readThemeCounts(f.fullPath, 'casos')
+  const key = `${f.area}/${f.slug}`
+  const entry = entriesMap.get(key) ?? newEntry(f.area, f.slug)
+  entry.casosCount = count
+  entry.themes = [...new Set([...entry.themes, ...Object.keys(themeCounts)])]
+  entriesMap.set(key, entry)
+  for (const [theme, n] of Object.entries(themeCounts)) addCount(casoThemeCounts, theme, n)
+}
+
 const entries = [...entriesMap.values()].sort((a, b) => (a.area + a.slug).localeCompare(b.area + b.slug))
 const areas = [...new Set(entries.map(e => e.area))].sort()
 
@@ -83,8 +95,10 @@ const manifest = {
   areas,
   totalQuestions: entries.reduce((s, e) => s + e.questionsCount, 0),
   totalFlashcards: entries.reduce((s, e) => s + e.flashcardsCount, 0),
+  totalCasos: entries.reduce((s, e) => s + e.casosCount, 0),
   questionThemeCounts,
   flashcardThemeCounts,
+  casoThemeCounts,
   entries,
 }
 
@@ -92,5 +106,5 @@ const outPath = path.join(DATA_DIR, 'manifest.json')
 fs.writeFileSync(outPath, JSON.stringify(manifest, null, 2) + '\n')
 
 console.log(`manifest.json gerado: ${entries.length} arquivos catalogados`)
-console.log(`  questoes: ${manifest.totalQuestions} | flashcards: ${manifest.totalFlashcards}`)
-console.log(`  arquivos com conteudo: ${entries.filter(e => e.questionsCount > 0 || e.flashcardsCount > 0).length}`)
+console.log(`  questoes: ${manifest.totalQuestions} | flashcards: ${manifest.totalFlashcards} | casos: ${manifest.totalCasos}`)
+console.log(`  arquivos com conteudo: ${entries.filter(e => e.questionsCount > 0 || e.flashcardsCount > 0 || e.casosCount > 0).length}`)

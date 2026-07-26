@@ -1,6 +1,6 @@
-import { useState } from 'react'
-import { MOCK_CASES } from '@/data/mockData'
+import { useState, useEffect } from 'react'
 import { THEMES, StudyTheme, ClinicalCase, CaseStep } from '@/services/supabaseClient'
+import { loadCasosForFilter } from '@/services/contentService'
 
 const TEMA_ICONS: Record<string,string> = {
   avaliacao_cena:'🩺', cinetica_trauma:'💥', atls_inicial:'⚕️',
@@ -34,7 +34,16 @@ export function CasosPage() {
   const [acertos,   setAcertos]   = useState(0)
   const [filtro,    setFiltro]    = useState<StudyTheme|''>('')
 
-  const filtrados = MOCK_CASES.filter(c => !filtro || c.theme === filtro)
+  const [casos, setCasos] = useState<ClinicalCase[]>([])
+  const [loadingCasos, setLoadingCasos] = useState(true)
+  useEffect(() => {
+    loadCasosForFilter(new Set())
+      .then(setCasos)
+      .catch(() => setCasos([]))
+      .finally(() => setLoadingCasos(false))
+  }, [])
+
+  const filtrados = casos.filter(c => !filtro || c.theme === filtro)
   const stepAtual = caso?.steps.find(s => s.id === stepId) ?? null
 
   const iniciar = (c: ClinicalCase) => {
@@ -180,6 +189,17 @@ export function CasosPage() {
   }
 
   // ── LISTA DE CASOS ──
+  if (loadingCasos) {
+    return (
+      <section style={{padding:'4rem 2rem',background:'var(--bg)'}}>
+        <div style={{maxWidth:900,margin:'0 auto',textAlign:'center',color:'var(--text-muted)'}}>
+          <div style={{fontSize:'2.5rem',marginBottom:'1rem'}}>⏳</div>
+          <p>Carregando casos clínicos...</p>
+        </div>
+      </section>
+    )
+  }
+
   return (
     <section style={{padding:'4rem 2rem',background:'var(--bg)'}}>
       <div style={{maxWidth:900,margin:'0 auto'}}>
@@ -194,7 +214,7 @@ export function CasosPage() {
           <button className={`tema-btn ${filtro===''?'active':''}`} style={{width:'auto',padding:'.45rem .9rem'}} onClick={()=>setFiltro('')}>
             Todos os temas
           </button>
-          {(Object.entries(THEMES) as [StudyTheme,string][]).filter(([k])=>MOCK_CASES.some(c=>c.theme===k)).map(([k,v])=>(
+          {(Object.entries(THEMES) as [StudyTheme,string][]).filter(([k])=>casos.some(c=>c.theme===k)).map(([k,v])=>(
             <button key={k} className={`tema-btn ${filtro===k?'active':''}`} style={{width:'auto',padding:'.45rem .9rem'}} onClick={()=>setFiltro(k)}>
               {TEMA_ICONS[k]??'📋'} {v}
             </button>

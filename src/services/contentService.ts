@@ -1,7 +1,8 @@
 // Fetch + cache dos JSONs estáticos em public/data/ (servidos pela CDN da Vercel).
 // Supabase guarda apenas dados do usuário (progresso, SRS, auth, rankings) — o
-// conteúdo (questões e flashcards) vive inteiramente aqui, carregado sob demanda.
-import { Question, Flashcard, StudyTheme } from './supabaseClient'
+// conteúdo (questões, flashcards e casos clínicos) vive inteiramente aqui,
+// carregado sob demanda.
+import { Question, Flashcard, ClinicalCase, StudyTheme } from './supabaseClient'
 
 export interface ManifestEntry {
   area: string
@@ -9,6 +10,7 @@ export interface ManifestEntry {
   themes: string[]
   questionsCount: number
   flashcardsCount: number
+  casosCount: number
 }
 
 export interface Manifest {
@@ -16,8 +18,10 @@ export interface Manifest {
   areas: string[]
   totalQuestions: number
   totalFlashcards: number
+  totalCasos: number
   questionThemeCounts: Record<string, number>
   flashcardThemeCounts: Record<string, number>
+  casoThemeCounts: Record<string, number>
   entries: ManifestEntry[]
 }
 
@@ -53,12 +57,17 @@ export async function getFlashcards(area: string, slug: string): Promise<Flashca
   return data.flashcards ?? []
 }
 
+export async function getCasos(area: string, slug: string): Promise<ClinicalCase[]> {
+  const data = await fetchJSON<{ casos: ClinicalCase[] }>(`/data/casos/${area}/${slug}.json`)
+  return data.casos ?? []
+}
+
 // Resolve quais arquivos do manifesto atendem a um conjunto de temas/subtemas.
 // Conjunto vazio ("todas") -> todo arquivo com conteúdo real (>0), evitando
 // buscar os centenas de stubs vazios ainda não escritos.
 function resolveEntries(manifest: Manifest, temas: Set<string>): ManifestEntry[] {
   if (temas.size === 0) {
-    return manifest.entries.filter(e => e.questionsCount > 0 || e.flashcardsCount > 0)
+    return manifest.entries.filter(e => e.questionsCount > 0 || e.flashcardsCount > 0 || e.casosCount > 0)
   }
   return manifest.entries.filter(e => e.themes.some(t => temas.has(t)))
 }
@@ -77,6 +86,13 @@ export async function loadFlashcardsForFilter(temas: Set<StudyTheme>): Promise<F
   return batches.flat()
 }
 
+export async function loadCasosForFilter(temas: Set<StudyTheme>): Promise<ClinicalCase[]> {
+  const manifest = await getManifest()
+  const entries = resolveEntries(manifest, temas).filter(e => e.casosCount > 0)
+  const batches = await Promise.all(entries.map(e => getCasos(e.area, e.slug)))
+  return batches.flat()
+}
+
 // Contagens por tema direto do manifesto — leve, sem baixar o conteúdo completo.
 // Usado para popular a barra lateral de filtros (números de cada tema).
 export async function getQuestionThemeCounts(): Promise<Record<string, number>> {
@@ -87,4 +103,9 @@ export async function getQuestionThemeCounts(): Promise<Record<string, number>> 
 export async function getFlashcardThemeCounts(): Promise<Record<string, number>> {
   const manifest = await getManifest()
   return manifest.flashcardThemeCounts
+}
+
+export async function getCasoThemeCounts(): Promise<Record<string, number>> {
+  const manifest = await getManifest()
+  return manifest.casoThemeCounts
 }

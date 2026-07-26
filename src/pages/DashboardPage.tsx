@@ -1,7 +1,6 @@
 import { useMemo, useState, useEffect } from 'react'
 import jsPDF from 'jspdf'
 import autoTable from 'jspdf-autotable'
-import { MOCK_STUDY_HEATMAP } from '@/data/mockData'
 import { THEMES, StudyTheme, SimuladoRecord, Question } from '@/services/supabaseClient'
 import { Heatmap } from '@/components/common/Heatmap'
 import { useStudyContext } from '@/contexts/StudyContext'
@@ -11,6 +10,21 @@ import { studyLogService } from '@/services/studyLogService'
 import { loadQuestionsForFilter } from '@/services/contentService'
 
 type Aba = 'stats' | 'questoes' | 'historico'
+
+// Heatmap de exemplo — usado só como fallback visual até o usuário logar
+// e termos dados reais do Supabase (studyLogService.getHeatmapData).
+function generateMockHeatmap(): { date: string; count: number }[] {
+  const today = new Date()
+  const data: { date: string; count: number }[] = []
+  for (let i = 364; i >= 0; i--) {
+    const d = new Date(today)
+    d.setDate(d.getDate() - i)
+    const dateStr = d.toISOString().split('T')[0]
+    const rand = Math.random()
+    data.push({ date: dateStr, count: rand > 0.65 ? Math.floor(rand * 30) : 0 })
+  }
+  return data
+}
 
 function computeStreak(dates: string[]): number {
   if (!dates.length) return 0
@@ -42,6 +56,7 @@ export function DashboardPage() {
   const [simulados,    setSimulados]    = useState<SimuladoRecord[]>([])
   const [loadingSimul, setLoadingSimul] = useState(false)
   const [heatmapData,  setHeatmapData]  = useState<{ date: string; count: number }[]>([])
+  const [mockHeatmap] = useState(generateMockHeatmap)
   const [streakReal,   setStreakReal]    = useState<number | null>(null)
   const [simuladoAberto, setSimuladoAberto] = useState<SimuladoRecord | null>(null)
   const [gerando, setGerando] = useState(false)
@@ -161,7 +176,7 @@ export function DashboardPage() {
   }, [user])
 
   // heatmapObjects is always {date, count}[] — used for <Heatmap> component
-  const heatmapObjects = heatmapData.length > 0 ? heatmapData : MOCK_STUDY_HEATMAP
+  const heatmapObjects = heatmapData.length > 0 ? heatmapData : mockHeatmap
   // streak uses date strings — computeStreak accepts string[]
   const streak = streakReal !== null ? streakReal : computeStreak(heatmapObjects.map(d => d.date))
 
