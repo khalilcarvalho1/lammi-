@@ -215,7 +215,7 @@ export function CasosPage() {
                 {c.description}
               </p>
               <div style={{display:'flex',justifyContent:'space-between',alignItems:'center',paddingTop:'.75rem',borderTop:'1px solid var(--border)',fontSize:'.75rem',color:'var(--text-dim)'}}>
-                <span>📋 {c.steps.filter(s=>s.id!=='final').length} etapas</span>
+                <span>📋 {c.steps.filter((s: any)=>s.id!=='final').length} etapas</span>
                 <span style={{color:'var(--red-bright)',fontWeight:600}}>Iniciar →</span>
               </div>
             </button>

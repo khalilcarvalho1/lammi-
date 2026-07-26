@@ -385,6 +385,7 @@ export interface Question {
   explanation: string
   theme: StudyTheme
   difficulty: Difficulty
+  source?: string
   created_at: string
 }
 

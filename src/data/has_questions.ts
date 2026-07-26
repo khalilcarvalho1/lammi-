@@ -4,10 +4,12 @@
 // Tema: cardio_has
 // ============================================================
 
-export const HAS_QUESTIONS = [
+import { Question } from '@/services/supabaseClient'
+
+export const HAS_QUESTIONS: Question[] = [
   {
     id: 'has_001',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'facil',
     source: '[PÚBLICA] UERN R1 2025',
     statement: '(UERN R1 2025) Para auxiliar o diagnóstico de hipertensão, pode ser proposta a medição da PA fora do consultório. As principais vantagens da medição da PA fora do consultório estão listadas a seguir, com a EXCEÇÃO de uma delas. Aponte-a:',
@@ -23,7 +25,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_002',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] FAMERP R3CM 2026',
     statement: '(FAMERP R3CM 2026) Paciente feminina de 58 anos, obesa (IMC = 33 kg/m²), com diabetes tipo 2 de 8 anos de evolução, faz aferição ambulatorial com média de PA de 134/86 mmHg e já apresenta retinopatia diabética. Qual a melhor abordagem inicial?',
@@ -39,7 +41,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_003',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] ABC R1 2026',
     statement: '(ABC R1 2026) Sobre o manejo da hipertensão segundo as diretrizes SBC 2025 e PCDT do MS, assinale a alternativa correta.',
@@ -55,7 +57,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_004',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'facil',
     source: '[PÚBLICA] ISCMSC R1 2025',
     statement: '(ISCMSC R1 2025) Deve-se ter atenção à glicemia em idosos com uso concomitante de tiazídicos e antidiabéticos orais ou insulina, pois:',
@@ -71,7 +73,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_005',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'dificil',
     source: '[PÚBLICA] Hospital Regional de Presidente Prudente R3CM 2026',
     statement: '(Hospital Regional de Presidente Prudente R3CM 2026) Homem de 54 anos com HAS e AIT há 2 anos. Em uso de anlodipino 10 mg, ramipril 10 mg, indapamida 2,5 mg e sinvastatina 40 mg. PA 165×99 mmHg. MAPA: PA diurna 155×95, noturna 158×98. K+ 4,9, creatinina 1,39, TFG 53, albumina/creatinina 130 mg/g. O próximo passo correto é:',
@@ -88,7 +90,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_006',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'facil',
     source: '[PÚBLICA] Hospital São Lucas RP R1 2025',
     statement: '(Hospital São Lucas RP R1 2025) Deve-se ter atenção à glicemia em idosos com uso concomitante de tiazídicos e antidiabéticos orais ou insulina, pois:',
@@ -104,7 +106,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_007',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] USP-RP 2026',
     statement: '(USP-RP 2026) Criança de 10 anos pós-transplante renal há 2 anos. PA de consultório normal para idade. MAPA 24h: PA média vigília >p95 e PA média sono >p95. Função renal preservada, assintomática. Qual a conduta mais adequada?',
@@ -120,7 +122,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_008',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] Hospital São Lucas RP R1 2025',
     statement: '(Hospital São Lucas RP R1 2025) Sobre antagonistas de canal de cálcio di-hidropiridínicos e não di-hidropiridínicos, assinale o item correto:',
@@ -136,7 +138,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_009',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'facil',
     source: '[PÚBLICA] HOB-DF R1 2026',
     statement: '(HOB-DF R1 2026) De acordo com as VI Diretrizes Brasileiras de Hipertensão Arterial, é CORRETO afirmar:',
@@ -152,7 +154,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_010',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] HCPA R1 2025',
     statement: '(HCPA R1 2025) Assinale a assertiva correta sobre hipertensão arterial sistêmica em crianças e adolescentes.',
@@ -168,7 +170,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_011',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] INEP REVALIDA 2025',
     statement: '(REVALIDA 2025) Mulher de 82 anos, sem história prévia de hipertensão. Medidas: 146×86, 144×88 e 148×88 mmHg em três ocasiões distintas. Assintomática, sem outros agravos. Qual é a abordagem adequada?',
@@ -184,7 +186,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_012',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'facil',
     source: '[PÚBLICA] USP 2026',
     statement: '(USP 2026) Sobre hipertensão arterial na infância e impacto cardiovascular, assinale a alternativa correta.',
@@ -200,7 +202,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_013',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'dificil',
     source: '[PÚBLICA] SCMRP R3CM 2026',
     statement: '(SCMRP R3CM 2026) Homem, 70 anos, hipertenso, dislipidêmico, doença coronariana. Em uso de valsartana 160 mg, HCTZ 25 mg e metoprolol 50 mg. FC 66 bpm, PA 105×60 mmHg confirmada, assintomático. Qual a conduta em relação à PA, conforme diretrizes brasileiras?',
@@ -217,7 +219,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_014',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] AMRIGS R1 2025',
     statement: '(AMRIGS R1 2025) Sobre a hipertensão arterial sistêmica: I. Para diagnóstico, indica-se medição anual de PA se PA aferida for inferior a 140/90 mmHg. II. O diagnóstico deve ser baseado na medição fora do consultório com MAPA, desde que viável. III. História prévia de pré-eclâmpsia em mulheres é fator de risco para HAS. Quais estão corretas?',
@@ -233,7 +235,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_015',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'dificil',
     source: '[PÚBLICA] HCPA R3CM 2026',
     statement: '(HCPA R3CM 2026) Conforme ESC 2024 e AHA/ACC 2025, assinale a assertiva correta sobre diagnóstico e manejo inicial da HAS em adultos.',
@@ -249,7 +251,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_016',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'facil',
     source: '[PÚBLICA] USP-RP 2026',
     statement: '(USP-RP 2026) Criança de 5 anos em consulta de puericultura, sem sintomas, sem doenças previamente diagnosticadas. Qual a conduta correta em relação à aferição de PA?',
@@ -265,7 +267,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_017',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'dificil',
     source: '[PÚBLICA] UEPA R1 2026',
     statement: '(UEPA R1 2026) Homem de 59 anos, hipertenso há 6 anos, sem LOA. Em uso de losartana 50 mg 2x/dia, HCTZ 50 mg, anlodipino 10 mg. MRPA: média 155×95 mmHg. O manejo adequado é:',
@@ -282,7 +284,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_018',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] HUSE R1 2025',
     statement: '(HUSE R1 2025) Considerando as diretrizes mais recentes para o manejo da HAS, qual afirmação é verdadeira?',
@@ -299,7 +301,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_019',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'facil',
     source: '[PÚBLICA] SUS-BA R1 2025',
     statement: '(SUS-BA R1 2025) Homem de 40 anos com PA confirmada de 140-155×90-100 mmHg em múltiplas medidas, dieta rica em sal. Indique o consumo máximo de sódio para este paciente:',
@@ -312,7 +314,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_020',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] ISCMSC R1 2025',
     statement: '(ISCMSC R1 2025) Os diuréticos tiazídicos são considerados fármacos de primeira linha em idosos. Qual afirmação está correta?',
@@ -328,7 +330,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_021',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'dificil',
     source: '[PÚBLICA] ENARE R3CM 2025',
     statement: '(ENARE R3CM 2025) Paciente de 79 anos com doença de Parkinson e episódios de queda ao se levantar. PA supina 140×88; ortostatismo: PA 88×60 com sintomas. Sem anti-hipertensivos. Sem mudança significativa da FC. Qual a medicação mais indicada?',
@@ -345,7 +347,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_022',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'dificil',
     source: '[PÚBLICA] FAMERP R1 2025',
     statement: '(FAMERP R1 2025) Homem de 62 anos com DRC G3aA3, HAS e DM. Em uso de anlodipino 10 mg, losartana 100 mg, carvedilol 6,25 mg 2x, atorvastatina, AAS e dapagliflozina. PA 117/80, FC 72. Creatinina 2,2 mg/dL, proteína/creatinina 0,5 mg/mg. Qual medida em relação ao controle pressórico?',
@@ -361,7 +363,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_023',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] ABC R3CM 2025',
     statement: '(ABC R3CM 2025) Homem, 57 anos, hipertenso em uso de anlodipina 5 mg há 3 anos. PA mantida em ~150×95 mmHg. Sem comorbidades. Qual a conduta inicial mais adequada?',
@@ -377,7 +379,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_024',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] Hospital Regional de Presidente Prudente R1 2025',
     statement: '(Hospital Regional de Presidente Prudente R1 2025) Mulher de 50 anos com PA de consultório 142×88 mmHg. MAPA solicitado. Para diagnóstico de HAS pela MAPA, o resultado deve ser:',
@@ -394,7 +396,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_025',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'facil',
     source: '[PÚBLICA] FAMERP R3CM 2026',
     statement: '(FAMERP R3CM 2026) Homem de 46 anos com queixa de mal-estar e PA elevada. Sobre epidemiologia e fatores de risco da HAS, assinale a correta:',
@@ -410,7 +412,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_026',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'dificil',
     source: '[PÚBLICA] FMJ R1 2026',
     statement: '(FMJ R1 2026) Homem de 65 anos, diabético, DRC estágio 4 (TFG 28 mL/min), HAS, arritmia e ICFEp. Em uso de losartana, PA 150/90 e FC 115. Qual o próximo agente farmacológico preferencial?',
@@ -427,7 +429,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_027',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] UERJ R1 2025',
     statement: '(UERJ R1 2025) Homem de 55 anos, IMC 31, PA 150×105 mmHg, clearance creatinina 55 mL/min, sem ICC. Tabagismo, asma brônquica controlada com beclometasona e formoterol. Melhor opção terapêutica:',
@@ -443,7 +445,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_028',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] SES-DF R1 2025',
     statement: '(SES-DF R1 2025) Em relação ao manejo da hipertensão arterial resistente, assinale a alternativa correta.',
@@ -459,7 +461,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_029',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] SUS-SP R1 2026',
     statement: '(SUS-SP R1 2026) Homem de 48 anos, sedentário, PA 128×84 mmHg em 3 ocasiões. IMC 28,5, CA 99 cm, CT 210, HDL 42, TG 160, glicemia 98. Pai com IAM aos 55. Qual afirmação está correta?',
@@ -476,7 +478,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_030',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'facil',
     source: '[PÚBLICA] IAMSPE R3CM 2026',
     statement: '(IAMSPE R3CM 2026) A obtenção da pressão sistólica estimada é realizada corretamente por qual método?',
@@ -493,7 +495,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_031',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] FMJ R1 2025',
     statement: '(FMJ R1 2025) Homem de 70 anos, diabético há 10 anos, retinopatia grau III. MAPA com controle pressórico inadequado. Meta pressórica e classes preferências segundo Diretrizes Brasileiras 2020:',
@@ -510,7 +512,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_032',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] ENAMED R1 2026',
     statement: '(ENAMED R1 2026) Mulher de 82 anos, sem história de HAS, com PA de 146×86, 144×88 e 148×88 mmHg em 3 ocasiões. Assintomática. Qual a abordagem adequada?',
@@ -526,7 +528,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_033',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] UFSC R1 2025',
     statement: '(UFSC R1 2025) Sobre aferição da PA: I. Manguito pequeno subestima a PA. II. PA sistólica e diastólica são definidas pelo 1º e 5º sons de Korotkoff. III. A PAS aumenta e a PAD diminui em artérias mais distais. Quais estão corretas?',
@@ -542,7 +544,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_034',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] FAMECA R1 2025',
     statement: '(FAMECA R1 2025) Sobre hipertensão arterial em pediatria, assinale a alternativa correta.',
@@ -559,7 +561,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_035',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] HECI R1 2026',
     statement: '(HECI R1 2026) Homem de 52 anos, HAS há 10 anos, uso esporádico de losartana 50 mg. PA 172×102 em duas medidas. HVE no ECG. Creatinina 1,6, K+ 5,2. Tabagismo, história familiar de IAM. Sobre este paciente: I. HVE no ECG caracteriza LOA. II. Creatinina elevada + K+ alto pode sugerir DRC ou estenose de artéria renal. III. Losartana em baixa dose é suficiente para este paciente de alto risco. IV. Deve otimizar com combinação de anti-hipertensivos e MEV. Estão CORRETAS:',
@@ -575,7 +577,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_036',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'dificil',
     source: '[PÚBLICA] AMP R3CM 2026',
     statement: '(AMP R3CM 2026) Homem de 55 anos com HAS resistente em uso de losartana 100 mg, anlodipino 10 mg e HCTZ 25 mg em doses máximas, com PA > 160/100 mmHg. Sobre causas de hipertensão resistente, assinale a correta:',
@@ -592,7 +594,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_037',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] HIS R1 2025',
     statement: '(HIS R1 2025) Mulher de 58 anos, PA 160×98 mmHg repetida em ambos os braços. IMC 32. Em consulta anterior há 1 mês: PA 150×92 mmHg. Edema leve em MMII. Qual a conduta farmacológica correta?',
@@ -609,7 +611,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_038',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'dificil',
     source: '[PÚBLICA] HCPA R3CM 2025',
     statement: '(HCPA R3CM 2025) Paciente em uso de indapamida 1,5 mg, anlodipino 10 mg, perindopril 10 mg, espironolactona 100 mg e nebivolol 10 mg, com PA de consultório média de 136/88 mmHg. Conforme Diretrizes Brasileiras 2020, este paciente possui:',
@@ -625,7 +627,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_039',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] UNESP R3CM 2025',
     statement: '(UNESP R3CM 2025) Sobre medidas não farmacológicas para controle da HAS, assinale a alternativa correta.',
@@ -641,7 +643,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_040',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] UNIFESP R1 2025',
     statement: '(UNIFESP R1 2025) Mulher de 66 anos, DM tipo 2 e HAS. PA 140/96 mmHg. TFG 28 mL/min, proteinúria 1,9 g/24h. Qual a conduta mais apropriada?',
@@ -657,7 +659,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_041',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'facil',
     source: '[PÚBLICA] CMC R1 2025',
     statement: '(CMC R1 2025) Sobre o diagnóstico de HAS, é correto afirmar que:',
@@ -673,7 +675,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_042',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] SCMRP R3CM 2026',
     statement: '(SCMRP R3CM 2026) Homem de 45 anos com medidas domiciliares irregulares (1-6 medidas/dia, horários variados) mostrando média de PAS 150 e PAD 95 mmHg. Além de MEV, deve-se:',
@@ -690,7 +692,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_043',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'facil',
     source: '[PÚBLICA] ENARE R1 2025',
     statement: '(ENARE R1 2025) José, 55 anos, hipertenso há 3 anos, em uso regular de medicação, com PA 130×80 mmHg e baixo risco cardiovascular. A conduta é:',
@@ -707,7 +709,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_044',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] USP-RP 2026',
     statement: '(USP-RP 2026) Criança de 10 anos pós-transplante renal há 2 anos. PA de consultório normal. MAPA 24h: vigília >p95 e sono >p95. Função renal preservada, assintomática. Qual a conduta?',
@@ -723,7 +725,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_045',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'facil',
     source: '[PÚBLICA] ABC R1 2025',
     statement: '(ABC R1 2025) Reinaldo, 48 anos, hipertenso, relata que uma medicação causou inchaço nas pernas a ponto de não conseguir calçar as botas de trabalho. Qual medicação tem maior probabilidade de ter sido prescrita?',
@@ -739,7 +741,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_046',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] FAMERP R3CM 2026',
     statement: '(FAMERP R3CM 2026) Sobre a técnica de aferição da PA segundo a nova Diretriz Brasileira de HAS 2025:',
@@ -755,7 +757,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_047',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] USP-RP R1 2025',
     statement: '(USP-RP R1 2025) Homem de 38 anos assintomático com PA de consultório 140×90 mmHg. ECG normal. MAPA solicitada (veja imagem — resultado normal fora do consultório). Qual o diagnóstico e conduta?',
@@ -771,7 +773,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_048',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] ISCMSC R1 2025',
     statement: '(ISCMSC R1 2025) Sobre antagonistas de canal de cálcio di-hidropiridínicos e não di-hidropiridínicos, assinale o item correto:',
@@ -787,7 +789,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_049',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] PSU-GO R1 2025',
     statement: '(PSU-GO R1 2025) A rotina de exames para o hipertenso segundo a Diretriz Brasileira 2020 constitui-se de:',
@@ -803,7 +805,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_050',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] UFSC R1 2026',
     statement: '(UFSC R1 2026) Sobre aferição da PA: I. Manguito pequeno subestima a PA. II. PA sistólica e diastólica definidas pelo 1º e 5º sons de Korotkoff. III. PAS aumenta e PAD diminui em artérias mais distais. Quais estão corretas?',
@@ -820,7 +822,7 @@ export const HAS_QUESTIONS = [
 
   {
     id: 'has_051',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] Hospital São Lucas RP R1 2026',
     statement: '(Hospital São Lucas RP R1 2026) Sobre a PA no paciente pediátrico, é correto afirmar:',
@@ -836,7 +838,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_052',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] FAMERP R3CM 2026',
     statement: '(FAMERP R3CM 2026) A nova classificação da PA proposta pela Diretriz Brasileira de HAS 2025 apresenta alterações. As principais mudanças são:',
@@ -852,7 +854,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_053',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'dificil',
     source: '[PÚBLICA] SES-PE R3CM 2025',
     statement: '(SES-PE R3CM 2025) De acordo com as diretrizes ESC 2024, é INCORRETO afirmar que:',
@@ -869,7 +871,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_054',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'facil',
     source: '[PÚBLICA] PSU-GO R1 2026',
     statement: '(PSU-GO R1 2026) Menino de 12 anos com PA 135/90 mmHg em 3 ocasiões. Baixo peso ao nascer, TDAH, IMC > p95. Sem sintomas. Qual o fator modificável que pode ser abordado?',
@@ -885,7 +887,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_055',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'facil',
     source: '[PÚBLICA] SCMRP R1 2026',
     statement: '(SCMRP R1 2026) Para o diagnóstico de HAS em adultos segundo as novas diretrizes brasileiras, assinale a alternativa correta.',
@@ -902,7 +904,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_056',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'facil',
     source: '[PÚBLICA] HOB-DF R1 2025',
     statement: '(HOB-DF R1 2025) Paciente com PAS 155 mmHg e PAD 95 mmHg. Segundo a Diretriz SBC 2016, a pressão arterial é classificada como:',
@@ -918,7 +920,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_057',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] UNESP R1 2025',
     statement: '(UNESP R1 2025) Sobre medidas não farmacológicas para HAS, assinale a alternativa correta.',
@@ -934,7 +936,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_058',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] AMRIGS R1 2026',
     statement: '(AMRIGS R1 2026) Sobre aferição da PA: I. Manguito pequeno subestima a PA. II. PAS e PAD definidas pelo 1º e 5º sons de Korotkoff. III. PAS aumenta e PAD diminui em artérias mais distais. Quais estão corretas?',
@@ -950,7 +952,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_059',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] USP R1 2026',
     statement: '(USP R1 2026) Homem de 43 anos, DM tipo 2 e sobrepeso, com PA de 148×92 mmHg na triagem. Cônjuge relata ronco esporádico após álcool, sem pausas. Paciente nega sonolência diurna. Qual o próximo passo na avaliação da PA em consultório?',
@@ -966,7 +968,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_060',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'dificil',
     source: '[PÚBLICA] UNAERP R1 2025',
     statement: '(UNAERP R1 2025) Paciente de 59 anos, diabético, dislipidêmico, HAS há 3 anos. PA 180×100 (repetida e confirmada), IMC 38. Em uso de enalapril 20 mg 2x, clortalidona 25 mg, anlodipino 10 mg. MRPA 145×85. Retorna com PA 170×90. Creatinina 1,7, K+ 4,6, microalbuminúria 80 mg/g. Conduta correta:',
@@ -983,7 +985,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_061',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] FAMERP R1 2026',
     statement: '(FAMERP R1 2026) Paciente de 78 anos com episódios de vertigem ao se levantar. PA sentada 120×72, PA em pé 98×60 mmHg. Em uso de enalapril 10 mg, HCTZ 25 mg e anlodipina 5 mg. Qual a melhor conduta?',
@@ -999,7 +1001,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_062',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'facil',
     source: '[PÚBLICA] ENARE R1 2025',
     statement: '(ENARE R1 2025) Rodrigo, 48 anos, com PA 165×90 mmHg na consulta atual e múltiplas medidas anteriores > 140×90 mmHg no último ano. Qual o fato que permite o diagnóstico de HAS?',
@@ -1016,7 +1018,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_063',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] FMJ R1 2026',
     statement: '(FMJ R1 2026) Asmático de 53 anos, HAS há 10 anos. Em uso de HCTZ 25 mg, losartana 50 mg 2x e anlodipina 2,5 mg. PA 155×95 mmHg confirmada por automonitoramento. MEV e adesão confirmadas. Conduta adequada:',
@@ -1033,7 +1035,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_064',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] PSU-GO R3CM 2026',
     statement: '(PSU-GO R3CM 2026) A aferição de PA por técnica oscilométrica apresenta vantagens, exceto:',
@@ -1049,7 +1051,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_065',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'dificil',
     source: '[PÚBLICA] ABC R1 2025',
     statement: '(ABC R1 2025) Paciente de 60 anos, HAS desde os 47, em uso regular de HCTZ 25 mg, enalapril 40 mg, amlodipina 10 mg e atenolol 100 mg. PA sempre > 140/90 mmHg na MRPA há 2 anos. Trata-se de:',
@@ -1065,7 +1067,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_066',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'dificil',
     source: '[PÚBLICA] UNIFESP R3CM 2025',
     statement: '(UNIFESP R3CM 2025) A prevalência de HAS aumenta com a idade, sendo o enrijecimento arterial o principal fator etiopatogênico. Qual método/marcador está diretamente relacionado à rigidez arterial?',
@@ -1081,7 +1083,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_067',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'dificil',
     source: '[PÚBLICA] SES-PE R1 2026',
     statement: '(SES-PE R1 2026) De acordo com a Diretriz Brasileira de HAS 2025, assinale a alternativa INCORRETA.',
@@ -1098,7 +1100,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_068',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] PSU-GO R1 2026',
     statement: '(PSU-GO R1 2026) A Diretriz Brasileira de HAS 2025 trouxe atualizações. Qual exame foi adicionado, em relação à diretriz de 2020, ao rol dos recomendados rotineiramente no seguimento do hipertenso?',
@@ -1114,7 +1116,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_069',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] USP-RP R3CM 2025',
     statement: '(USP-RP R3CM 2025) Homem de 38 anos assintomático, PA de consultório 140×90 mmHg, ECG normal. MAPA com resultado normal fora do consultório. Diagnóstico e conduta:',
@@ -1130,7 +1132,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_070',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] Sírio Libanês SP R1 2026',
     statement: '(Sírio Libanês SP R1 2026) Menina de 8 anos em consulta de rotina. Sem queixas, sem tratamento. IMC p85. Média de 3 aferições de PA: 111×73 mmHg; 112×76 mmHg e 110×75 mmHg em dois momentos diferentes. Diagnóstico da PA:',
@@ -1147,7 +1149,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_071',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] SCMRP R3CM 2026',
     statement: '(SCMRP R3CM 2026) Homem de 55 anos, hipertenso, dislipidêmico. Em uso de enalapril, HCTZ e anlodipino em doses máximas. PA 140×90 e FC 76 bpm em mais de uma medida em duas consultas. Exames normais. Conduta:',
@@ -1164,7 +1166,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_072',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] PSU-GO R1 2025',
     statement: '(PSU-GO R1 2025) Para o hipertenso estágio I de alto risco cardiovascular, segundo a Diretriz SBC 2020, a farmacoterapia inicial e o alvo pressórico são:',
@@ -1180,7 +1182,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_073',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] UNESP R3CM 2026',
     statement: '(UNESP R3CM 2026) Homem de 82 anos com PA média 138/84 mmHg em consultas seriadas. HAS e DM. Segundo a Diretriz Brasileira 2025, a meta de PA é:',
@@ -1196,7 +1198,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_074',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] IAMSPE R1 2026',
     statement: '(IAMSPE R1 2026) Paciente de 62 anos, hipertenso com taquicardia supraventricular, inicia tratamento com fármaco também usado para tremores essenciais. O efeito se dá pela redução do DC e da RVP. Qual o mecanismo de ação principal do propranolol?',
@@ -1213,7 +1215,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_075',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'facil',
     source: '[PÚBLICA] AMRIGS R1 2025',
     statement: '(AMRIGS R1 2025) Vilmar, 62 anos, HAS, DM e história de depressão. Queixa de edema em ambos os tornozelos. Qual medicação de uso contínuo é a causa mais provável do edema perimaleolar?',
@@ -1229,7 +1231,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_076',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'dificil',
     source: '[PÚBLICA] ENARE R3CM 2025',
     statement: '(ENARE R3CM 2025) Paciente de 62 anos, hipertenso, em uso de enalapril, indapamida e amlodipina em doses plenas. PA 155×96, FC 71. Sem causas secundárias. Quarta bulha à ausculta. K+ 3,9, creatinina 1,0. Qual medicação deve ser associada?',
@@ -1246,7 +1248,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_077',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] HCPA R1 2026',
     statement: '(HCPA R1 2026) Associe corretamente as classes de anti-hipertensivos aos seus principais efeitos colaterais:',
@@ -1262,7 +1264,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_078',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'dificil',
     source: '[PÚBLICA] ENARE R3CM 2026',
     statement: '(ENARE R3CM 2026) Paciente de 56 anos, hipertensão resistente. Em uso de anlodipino 5 mg 2x, losartana 50 mg 2x e HCTZ 25 mg. DM tipo 2, HbA1c 7,2%. PA 150×90 e FC 89 bpm. HVE no ECG, RAC 200 mg/g, TFG 90. MAPA: valores normais em vigília, 24h e sono. Conduta:',
@@ -1279,7 +1281,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_079',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] FMJ R1 2025',
     statement: '(FMJ R1 2025) Asmático de 59 anos, HAS há 16 anos. Em uso de HCTZ 25 mg, losartana 50 mg 2x e anlodipina 10 mg. PA > 160×100 no automonitoramento e 165×95 na consulta. MEV e adesão confirmadas. Conduta indicada:',
@@ -1296,7 +1298,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_080',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] HSL-SP R1 2025',
     statement: '(HSL-SP R1 2025) Homem de 48 anos, HAS, com ácido úrico sérico de 8,5 mg/dL, sem episódios de gota. Anti-hipertensivo de escolha:',
@@ -1313,7 +1315,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_081',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] FELUMA R1 2025',
     statement: '(FELUMA R1 2025) Quando a PA continua descontrolada com o uso adequado de três drogas de primeira linha, deve-se:',
@@ -1329,7 +1331,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_082',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'facil',
     source: '[PÚBLICA] HECI R1 2025',
     statement: '(HECI R1 2025) Mulher de 46 anos, HAS há 5 anos, em uso de losartana 50 mg/dia. PA 160×95 mmHg em consulta de rotina. A MELHOR conduta é:',
@@ -1345,7 +1347,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_083',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] PSU-MG R1 2026',
     statement: '(PSU-MG R1 2026) Fernando, 50 anos, negro, PA 160-170×100 mmHg em 2 medidas na mesma consulta. Sem acesso a aplicativo de risco na UBS. Sobre o manejo inicial, assinale a alternativa CORRETA:',
@@ -1361,7 +1363,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_084',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'facil',
     source: '[PÚBLICA] HPP R1 2025',
     statement: '(HPP R1 2025) Associe os medicamentos aos seus efeitos colaterais: 1-Enalapril; 2-Anlodipino; 3-Hidroclorotiazida; 4-Atenolol. A-Hiperuricemia; B-Edema periférico; C-Tosse seca; D-Disfunção erétil.',
@@ -1377,7 +1379,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_085',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] UERN R1 2025',
     statement: '(UERN R1 2025) Mulher de 69 anos, obesa, sedentária, artrite gotosa. PA 200/110 mmHg, FC 89. Ausência de edema pulmonar. Edema MMII ++/4+. Qual a conduta mais adequada?',
@@ -1393,7 +1395,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_086',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] ABC R1 2026',
     statement: '(ABC R1 2026) Homem de 56 anos, histórico de gota, em uso de colchicina. Etilismo leve, sedentário, alimentação inadequada. FC 103, PA 140×90 mmHg. IMC 33, CA 115 cm. Conduta mais adequada:',
@@ -1409,7 +1411,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_087',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] REVALIDA 2026',
     statement: '(REVALIDA 2026) Mulher de 58 anos, PA 150×92 e 154×96 mmHg em 2 consultas. Dieta inadequada, sedentária. Sem LOA, risco CV baixo. Segundo o PCDT HAS MS 2025, qual a ação que deve integrar o plano terapêutico?',
@@ -1425,7 +1427,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_088',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'facil',
     source: '[PÚBLICA] SCM-BH R1 2026',
     statement: '(SCM-BH R1 2026) Marque a alternativa CORRETA sobre hipertensão arterial em pediatria.',
@@ -1441,7 +1443,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_089',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'dificil',
     source: '[PÚBLICA] ABC R3CM 2026',
     statement: '(ABC R3CM 2026) Com base nas diretrizes atuais sobre HAS, assinale a alternativa correta.',
@@ -1457,7 +1459,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_090',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'dificil',
     source: '[PÚBLICA] UNIFESP R3CM 2025',
     statement: '(UNIFESP R3CM 2025) Mulher de 47 anos, obesa, DM tipo 2, em uso de metformina e gliclazida. PA 160/95 mmHg, FC 75. MAPA: média 24h 148/100 mmHg, descenso noturno 9% (sistólica) e 6% (diastólica). Qual a terapia medicamentosa anti-hipertensiva mais adequada?',
@@ -1473,7 +1475,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_091',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'dificil',
     source: '[PÚBLICA] IAMSPE R3CM 2025',
     statement: '(IAMSPE R3CM 2025) Em relação à investigação de causas endocrinológicas de HAS, assinale a alternativa correta.',
@@ -1490,7 +1492,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_092',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'dificil',
     source: '[PÚBLICA] HSL-SP R1 2025',
     statement: '(HSL-SP R1 2025) Homem de 57 anos, HAS, em uso regular de enalapril, clortalidona e anlodipina em doses otimizadas. Sem queixas. PA 152×94, FC 72. MAPA confirmou hipertensão. Melhor proposta terapêutica:',
@@ -1507,7 +1509,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_093',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] HEVV R1 2025',
     statement: '(HEVV R1 2025) Adolescente de 13 anos, PA p50 de estatura, IMC p90. PA nas últimas 3 ocasiões: 126/84, 130/84 e 128/80 mmHg. Tabela: p90=121/75, p95=125/78. Afirmar:',
@@ -1523,7 +1525,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_094',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'dificil',
     source: '[PÚBLICA] EINSTEIN R1 2025',
     statement: '(EINSTEIN R1 2025) Paciente de 59 anos, hipertenso, sedentário, obeso, em uso de enalapril 20 mg 12/12h, anlodipino 10 mg, clortalidona 25 mg, espironolactona 25 mg e carvedilol 25 mg 12/12h. PA > 140/90 mmHg apesar da adesão. Conduta correta:',
@@ -1539,7 +1541,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_095',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] SEMAD R1 2025',
     statement: '(SEMAD R1 2025) Paciente de 65 anos em uso de losartana 50 mg 12/12h, HCTZ 25 mg 12/12h e anlodipina 10 mg/dia. PA 180×100 mmHg com MAPA mostrando resposta inadequada. Próximo tratamento farmacológico:',
@@ -1556,7 +1558,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_096',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'facil',
     source: '[PÚBLICA] HIS R1 2025',
     statement: '(HIS R1 2025) Mulher de 58 anos com PA 160×98 mmHg em ambos os braços (consulta atual) e PA 150×92 mmHg há 1 mês. Qual afirmativa correta sobre o diagnóstico de HAS para esta paciente?',
@@ -1573,7 +1575,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_097',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'facil',
     source: '[PÚBLICA] CMC R1 2025',
     statement: '(CMC R1 2025) Qual medicamento de primeira linha é geralmente recomendado para iniciar o tratamento em pacientes com HAS estágio 1 sem comorbidades?',
@@ -1589,7 +1591,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_098',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] IAMSPE R1 2025',
     statement: '(IAMSPE R1 2025) O efeito anti-hipertensivo da Candesartana é mediado por:',
@@ -1606,7 +1608,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_099',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'medio',
     source: '[PÚBLICA] EINSTEIN R1 2026',
     statement: '(EINSTEIN R1 2026) Homem de 58 anos, DM tipo 2 há 10 anos, MAPA 24h com PA 150×92 mmHg. Sem DCV prévia. TFG > 60, microalbuminúria positiva. Melhor conduta além da MEV:',
@@ -1622,7 +1624,7 @@ export const HAS_QUESTIONS = [
   },
   {
     id: 'has_100',
-    theme: 'cardio_has' as any,
+    theme: 'cardio_has',
     difficulty: 'dificil',
     source: '[PÚBLICA] UNICAMP R3CM 2026',
     statement: '(UNICAMP R3CM 2026) Mulher de 66 anos, HAS há 10 anos. Em uso de HCTZ 25 mg, anlodipina 10 mg e atenolol 50 mg. PA 162/82 e FC 68. Após adicionar uma 4ª medicação, retorna com tonturas. PA sentada 132/76; deitada 134/78; após 1 min em pé 128/74; após 3 min em pé 126/72. ECG disponível. A medicação prescrita foi:',
