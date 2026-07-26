@@ -1,11 +1,18 @@
+import { useState, useEffect } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { findTema } from '@/services/content-hierarchy'
-import { MOCK_QUESTIONS, MOCK_FLASHCARDS } from '@/data/mockData'
+import { getManifest } from '@/services/contentService'
 
 export function TemaDetailPage() {
   const { areaId, temaId } = useParams<{ areaId: string; temaId: string }>()
   const navigate = useNavigate()
   const found = findTema(temaId ?? '')
+
+  const [qCounts, setQCounts] = useState<Record<string, number>>({})
+  const [fCounts, setFCounts] = useState<Record<string, number>>({})
+  useEffect(() => {
+    getManifest().then(m => { setQCounts(m.questionThemeCounts); setFCounts(m.flashcardThemeCounts) }).catch(() => {})
+  }, [])
 
   if (!found) {
     navigate('/areas')
@@ -78,8 +85,8 @@ export function TemaDetailPage() {
       {/* Lista de subtemas */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
         {tema.subtemas.map(sub => {
-          const qtdQ = MOCK_QUESTIONS.filter(q => q.theme === sub.id).length
-          const qtdF = MOCK_FLASHCARDS.filter(f => f.theme === sub.id).length
+          const qtdQ = qCounts[sub.id] ?? 0
+          const qtdF = fCounts[sub.id] ?? 0
           const temConteudo = qtdQ > 0 || qtdF > 0
 
           return (

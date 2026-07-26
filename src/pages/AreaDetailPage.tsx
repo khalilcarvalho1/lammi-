@@ -1,19 +1,26 @@
+import { useState, useEffect } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { findArea, countByTema } from '@/services/content-hierarchy'
-import { MOCK_QUESTIONS, MOCK_FLASHCARDS } from '@/data/mockData'
+import { getManifest } from '@/services/contentService'
 
 export function AreaDetailPage() {
   const { areaId } = useParams<{ areaId: string }>()
   const navigate = useNavigate()
   const area = findArea(areaId ?? '')
 
+  const [qCounts, setQCounts] = useState<Record<string, number>>({})
+  const [fCounts, setFCounts] = useState<Record<string, number>>({})
+  useEffect(() => {
+    getManifest().then(m => { setQCounts(m.questionThemeCounts); setFCounts(m.flashcardThemeCounts) }).catch(() => {})
+  }, [])
+
   if (!area) {
     navigate('/areas')
     return null
   }
 
-  const totalQArea = area.temas.reduce((acc, t) => acc + countByTema(t.id, MOCK_QUESTIONS), 0)
-  const totalFArea = area.temas.reduce((acc, t) => acc + countByTema(t.id, MOCK_FLASHCARDS), 0)
+  const totalQArea = area.temas.reduce((acc, t) => acc + countByTema(t.id, qCounts), 0)
+  const totalFArea = area.temas.reduce((acc, t) => acc + countByTema(t.id, fCounts), 0)
 
   return (
     <div style={{ padding: '2rem 1.5rem', maxWidth: 900, margin: '0 auto' }}>
@@ -84,8 +91,8 @@ export function AreaDetailPage() {
       {/* Lista de temas */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
         {area.temas.map(tema => {
-          const totalQ = countByTema(tema.id, MOCK_QUESTIONS)
-          const totalF = countByTema(tema.id, MOCK_FLASHCARDS)
+          const totalQ = countByTema(tema.id, qCounts)
+          const totalF = countByTema(tema.id, fCounts)
           const temConteudo = totalQ > 0 || totalF > 0
 
           return (

@@ -1,9 +1,9 @@
+import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { MilDecor } from '@/components/layout/Navbar'
-import { MOCK_QUESTIONS } from '@/data/mockData'
-import { MOCK_FLASHCARDS } from '@/data/mockData'
 import { useStudyContext } from '@/contexts/StudyContext'
 import { AREAS } from '@/services/content-hierarchy'
+import { getManifest } from '@/services/contentService'
 
 const FEATURES = [
   { icon:'📋', title:'Questões de Residência', desc:'Questões extraídas de provas reais, organizadas por especialidade, tema e dificuldade.' },
@@ -18,8 +18,11 @@ export function HomePage() {
   const navigate = useNavigate()
   const { historico } = useStudyContext()
 
-  const total       = MOCK_QUESTIONS.length
-  const totalCards  = MOCK_FLASHCARDS.length
+  const [total, setTotal]           = useState(0)
+  const [totalCards, setTotalCards] = useState(0)
+  useEffect(() => {
+    getManifest().then(m => { setTotal(m.totalQuestions); setTotalCards(m.totalFlashcards) }).catch(() => {})
+  }, [])
   const respondidas = Object.keys(historico).length
   const acertos     = Object.values(historico).filter(h => h.acertou).length
   const pct         = respondidas > 0 ? Math.round(acertos / respondidas * 100) : 0

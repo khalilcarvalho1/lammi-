@@ -2,10 +2,11 @@ import { useState, useMemo, useCallback, useRef, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { useStudyContext } from '@/contexts/StudyContext'
 import { useAuthContext } from '@/contexts/AuthContext'
-import { MOCK_QUESTIONS } from '@/data/mockData'
+import { Question } from '@/services/supabaseClient'
 import { temaLabel } from '@/utils/temaFilters'
 import { questionsService } from '@/services/questionsService'
 import { studyLogService } from '@/services/studyLogService'
+import { loadQuestionsForFilter } from '@/services/contentService'
 
 const NIVEL_LABELS: Record<string, string> = {
   facil: 'Facil', medio: 'Medio', dificil: 'Dificil',
@@ -60,9 +61,20 @@ export function RevisaoErrosPage() {
   const { historico, setHistorico } = useStudyContext()
   const { user } = useAuthContext()
 
+  // Precisa do banco inteiro publicado, pois o histórico pode referenciar
+  // questão de qualquer tema já respondido.
+  const [questions, setQuestions] = useState<Question[]>([])
+  const [loadingQuestions, setLoadingQuestions] = useState(true)
+  useEffect(() => {
+    loadQuestionsForFilter(new Set())
+      .then(setQuestions)
+      .catch(() => setQuestions([]))
+      .finally(() => setLoadingQuestions(false))
+  }, [])
+
   const erradas = useMemo(() =>
-    MOCK_QUESTIONS.filter(q => historico[q.id] && !historico[q.id].acertou),
-    [historico]
+    questions.filter(q => historico[q.id] && !historico[q.id].acertou),
+    [questions, historico]
   )
 
   const [idx, setIdx] = useState(0)
@@ -92,6 +104,15 @@ export function RevisaoErrosPage() {
       await studyLogService.updateProfileStreak(user.id)
     }
   }, [q, sel, feedback, setHistorico, user])
+
+  if (loadingQuestions) return (
+    <section style={{padding: isMobile ? '1.5rem 1rem' : '3rem 2rem', background:'var(--bg)'}}>
+      <div style={{maxWidth:700,margin:'0 auto',textAlign:'center',paddingTop:'4rem',color:'var(--text-muted)'}}>
+        <div style={{fontSize:'2.5rem',marginBottom:'1rem'}}>⏳</div>
+        <p>Carregando...</p>
+      </div>
+    </section>
+  )
 
   if (total === 0) return (
     <section style={{padding: isMobile ? '1.5rem 1rem' : '3rem 2rem', background:'var(--bg)'}}>

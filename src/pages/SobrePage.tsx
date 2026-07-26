@@ -1,9 +1,14 @@
+import { useState, useEffect } from 'react'
 import { MilDecor } from '@/components/layout/Navbar'
 import { LogoIcon } from '@/components/layout/Navbar'
-import { MOCK_QUESTIONS } from '@/data/mockData'
 import { THEMES } from '@/services/supabaseClient'
+import { getManifest } from '@/services/contentService'
 
 export function SobrePage() {
+  const [totalQ, setTotalQ] = useState(0)
+  useEffect(() => {
+    getManifest().then(m => setTotalQ(m.totalQuestions)).catch(() => {})
+  }, [])
   return (
     <section style={{ padding: '4rem 2rem', background: '#0D0D0D' }}>
       <div style={{ maxWidth: 900, margin: '0 auto' }}>
@@ -28,7 +33,7 @@ export function SobrePage() {
           <MilDecor />
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: '2rem', textAlign: 'center', position: 'relative' }}>
             {[
-              { val: MOCK_QUESTIONS.length, lbl: 'Questões no banco'   },
+              { val: totalQ, lbl: 'Questões no banco'   },
               { val: Object.keys(THEMES).length, lbl: 'Temas de estudo' },
               { val: '2024',               lbl: 'Protocolos atualizados' },
             ].map((s, i) => (

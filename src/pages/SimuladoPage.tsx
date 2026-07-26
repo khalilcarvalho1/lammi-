@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react'
-import { MOCK_QUESTIONS } from '@/data/mockData'
 import { THEMES, StudyTheme, Question } from '@/services/supabaseClient'
 import { useTimer } from '@/hooks/useTimer'
 import { useAuthContext } from '@/contexts/AuthContext'
 import { simuladoService } from '@/services/simuladoService'
 import { studyLogService } from '@/services/studyLogService'
+import { loadQuestionsForFilter } from '@/services/contentService'
 
 type Fase = 'config' | 'prova' | 'resultado'
 
@@ -29,6 +29,7 @@ export function SimuladoPage() {
   const [salvando,  setSalvando]  = useState(false)
   const [savedId,   setSavedId]   = useState<string | null>(null)
   const [startedAt, setStartedAt] = useState('')
+  const [gerando,   setGerando]   = useState(false)
   const timer = useTimer()
 
   const limSeg   = tempoMin * 60
@@ -40,16 +41,22 @@ export function SimuladoPage() {
   const toggleTema = (t: StudyTheme) =>
     setTemas(prev => { const n = new Set(prev); n.has(t) ? n.delete(t) : n.add(t); return n })
 
-  const iniciar = () => {
-    const pool    = MOCK_QUESTIONS.filter(q => temas.size === 0 || temas.has(q.theme))
-    const shuffle = [...pool].sort(() => Math.random() - .5).slice(0, qtd)
-    if (!shuffle.length) { alert('Nenhuma questão para os temas selecionados.'); return }
-    setQs(shuffle)
-    setRes(shuffle.map(q => ({ question: q, escolha: null, acertou: false })))
-    setIdx(0); setSel(null); setSavedId(null)
-    setStartedAt(new Date().toISOString())
-    setFase('prova')
-    timer.reset(); timer.start()
+  const iniciar = async () => {
+    setGerando(true)
+    try {
+      const pool    = await loadQuestionsForFilter(temas)
+      const filtrado = pool.filter(q => temas.size === 0 || temas.has(q.theme))
+      const shuffle = [...filtrado].sort(() => Math.random() - .5).slice(0, qtd)
+      if (!shuffle.length) { alert('Nenhuma questão para os temas selecionados.'); return }
+      setQs(shuffle)
+      setRes(shuffle.map(q => ({ question: q, escolha: null, acertou: false })))
+      setIdx(0); setSel(null); setSavedId(null)
+      setStartedAt(new Date().toISOString())
+      setFase('prova')
+      timer.reset(); timer.start()
+    } finally {
+      setGerando(false)
+    }
   }
 
   const responder = (key: string) => {
@@ -164,8 +171,8 @@ export function SimuladoPage() {
             </div>
           )}
 
-          <button onClick={iniciar} className="btn-red" style={{ width: '100%', padding: '1rem', fontSize: '.95rem' }}>
-            Iniciar Simulado →
+          <button onClick={iniciar} disabled={gerando} className="btn-red" style={{ width: '100%', padding: '1rem', fontSize: '.95rem', opacity: gerando ? .6 : 1 }}>
+            {gerando ? '⏳ Preparando questões...' : 'Iniciar Simulado →'}
           </button>
         </div>
       </div>

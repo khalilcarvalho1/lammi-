@@ -1,13 +1,14 @@
 import { useMemo, useState, useEffect } from 'react'
 import jsPDF from 'jspdf'
 import autoTable from 'jspdf-autotable'
-import { MOCK_QUESTIONS, MOCK_STUDY_HEATMAP } from '@/data/mockData'
-import { THEMES, StudyTheme, SimuladoRecord } from '@/services/supabaseClient'
+import { MOCK_STUDY_HEATMAP } from '@/data/mockData'
+import { THEMES, StudyTheme, SimuladoRecord, Question } from '@/services/supabaseClient'
 import { Heatmap } from '@/components/common/Heatmap'
 import { useStudyContext } from '@/contexts/StudyContext'
 import { useAuthContext } from '@/contexts/AuthContext'
 import { simuladoService } from '@/services/simuladoService'
 import { studyLogService } from '@/services/studyLogService'
+import { loadQuestionsForFilter } from '@/services/contentService'
 
 type Aba = 'stats' | 'questoes' | 'historico'
 
@@ -44,6 +45,13 @@ export function DashboardPage() {
   const [streakReal,   setStreakReal]    = useState<number | null>(null)
   const [simuladoAberto, setSimuladoAberto] = useState<SimuladoRecord | null>(null)
   const [gerando, setGerando] = useState(false)
+
+  // Precisa do banco inteiro publicado, pois o histórico pode referenciar
+  // questão de qualquer tema já respondido.
+  const [questions, setQuestions] = useState<Question[]>([])
+  useEffect(() => {
+    loadQuestionsForFilter(new Set()).then(setQuestions).catch(() => setQuestions([]))
+  }, [])
 
   const exportarPDF = () => {
     setGerando(true)
@@ -99,7 +107,7 @@ export function DashboardPage() {
       const rows = (Object.entries(THEMES) as [string, string][])
         .map(([k, v]) => {
           const entries = Object.entries(historico).filter(([id]) =>
-            MOCK_QUESTIONS.find(q => String(q.id) === String(id))?.theme === k
+            questions.find(q => String(q.id) === String(id))?.theme === k
           )
           const tot = entries.length
           const ac  = entries.filter(([, h]: any) => h.acertou).length
@@ -160,13 +168,13 @@ export function DashboardPage() {
   const porTema = useMemo(() => {
     const r: Record<string, { total: number; acertos: number; totalTema: number; pct: number }> = {}
     for (const t of Object.keys(THEMES)) {
-      const arr   = Object.entries(historico).filter(([id]) => MOCK_QUESTIONS.find(q => String(q.id) === String(id))?.theme === t)
+      const arr   = Object.entries(historico).filter(([id]) => questions.find(q => String(q.id) === String(id))?.theme === t)
       const total = arr.length
       const ac    = arr.filter(([, h]: any) => h.acertou).length
-      r[t] = { total, acertos: ac, totalTema: MOCK_QUESTIONS.filter(q => q.theme === t).length, pct: total > 0 ? Math.round(ac / total * 100) : 0 }
+      r[t] = { total, acertos: ac, totalTema: questions.filter(q => q.theme === t).length, pct: total > 0 ? Math.round(ac / total * 100) : 0 }
     }
     return r
-  }, [historico])
+  }, [historico, questions])
 
   // ─── Detalhe de um simulado ────────────────────────────────
   if (simuladoAberto) {
@@ -197,7 +205,7 @@ export function DashboardPage() {
           <div className="card-dark" style={{ padding: '1.75rem' }}>
             <div style={{ fontFamily: 'var(--font-d)', fontSize: '1rem', color: '#E53935', marginBottom: '1.25rem', fontWeight: 600 }}>Questões</div>
             {simuladoAberto.question_results.map((qr, i) => {
-              const questao = MOCK_QUESTIONS.find(q => q.id === qr.question_id)
+              const questao = questions.find(q => q.id === qr.question_id)
               return (
                 <div key={i} style={{ display: 'flex', gap: '.75rem', padding: '.75rem 0', borderBottom: '1px solid rgba(192,57,43,.1)', alignItems: 'flex-start' }}>
                   <div style={{ width: 26, height: 26, borderRadius: '50%', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '.75rem', fontWeight: 700, background: qr.correct ? '#2f7a3f' : '#b23b3b', color: 'white' }}>
@@ -243,7 +251,7 @@ export function DashboardPage() {
           )}
         </div>
         <p style={{ color: 'var(--text-muted)', fontSize: '.88rem', marginBottom: '1.5rem' }}>
-          {respondidas} de {MOCK_QUESTIONS.length} questões respondidas
+          {respondidas} de {questions.length} questões respondidas
           {!user && ' · Faça login para sincronizar progresso'}
         </p>
 
@@ -311,13 +319,13 @@ export function DashboardPage() {
                   <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.1rem', color: '#E53935', marginBottom: '1.25rem', fontWeight: 600 }}>Por Dificuldade</div>
                   {(['facil', 'medio', 'dificil'] as const).map(nivel => {
                     const entries = Object.entries(historico).filter(([id]) => {
-                      const q = MOCK_QUESTIONS.find(q => String(q.id) === String(id))
+                      const q = questions.find(q => String(q.id) === String(id))
                       return q?.difficulty === nivel
                     })
                     const total  = entries.length
                     const ac     = entries.filter(([, h]: any) => h.acertou).length
                     const pctN   = total > 0 ? Math.round(ac / total * 100) : 0
-                    const totalBanco = MOCK_QUESTIONS.filter(q => q.difficulty === nivel).length
+                    const totalBanco = questions.filter(q => q.difficulty === nivel).length
                     const label  = nivel === 'facil' ? 'Fácil' : nivel === 'medio' ? 'Médio' : 'Difícil'
                     const col    = nivel === 'facil' ? '#4ade80' : nivel === 'medio' ? '#facc15' : '#f87171'
                     if (total === 0) return null
@@ -343,7 +351,7 @@ export function DashboardPage() {
                     { meta: 50,   label: '50 questões respondidas'    },
                     { meta: 100,  label: '100 questões respondidas'   },
                     { meta: 300,  label: '300 questões respondidas'   },
-                    { meta: MOCK_QUESTIONS.length, label: 'Banco completo!' },
+                    { meta: questions.length, label: 'Banco completo!' },
                   ].map(({ meta, label }) => {
                     const atingiu = respondidas >= meta
                     return (
@@ -402,7 +410,7 @@ export function DashboardPage() {
                   .sort((a, b) => new Date(b[1].em).getTime() - new Date(a[1].em).getTime())
                   .slice(0, 100)
                   .map(([id, h]: any) => {
-                    const q = MOCK_QUESTIONS.find(q => String(q.id) === String(id))
+                    const q = questions.find(q => String(q.id) === String(id))
                     return (
                       <div key={id} style={{ display: 'flex', alignItems: 'flex-start', gap: '.75rem', padding: '.65rem 0', borderBottom: '1px solid rgba(192,57,43,.08)' }}>
                         <div style={{ width: 24, height: 24, borderRadius: '50%', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '.72rem', fontWeight: 700, background: h.acertou ? '#2f7a3f' : '#b23b3b', color: 'white', marginTop: 2 }}>

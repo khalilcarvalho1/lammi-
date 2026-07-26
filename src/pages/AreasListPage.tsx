@@ -1,10 +1,16 @@
+import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { AREAS, countByArea } from '@/services/content-hierarchy'
-import { MOCK_QUESTIONS } from '@/data/mockData'
-import { MOCK_FLASHCARDS } from '@/data/mockData'
+import { getManifest } from '@/services/contentService'
 
 export function AreasListPage() {
   const navigate = useNavigate()
+
+  const [qCounts, setQCounts] = useState<Record<string, number>>({})
+  const [fCounts, setFCounts] = useState<Record<string, number>>({})
+  useEffect(() => {
+    getManifest().then(m => { setQCounts(m.questionThemeCounts); setFCounts(m.flashcardThemeCounts) }).catch(() => {})
+  }, [])
 
   return (
     <div style={{ padding: '2rem 1.5rem', maxWidth: 900, margin: '0 auto' }}>
@@ -27,8 +33,8 @@ export function AreasListPage() {
         gap: '1rem'
       }}>
         {AREAS.map(area => {
-          const totalQ = countByArea(area.id, MOCK_QUESTIONS)
-          const totalF = countByArea(area.id, MOCK_FLASHCARDS)
+          const totalQ = countByArea(area.id, qCounts)
+          const totalF = countByArea(area.id, fCounts)
           const temConteudo = totalQ > 0 || totalF > 0
 
           return (

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useAuthContext } from '@/contexts/AuthContext'
-import { THEMES, StudyTheme, Difficulty, supabase } from '@/services/supabaseClient'
-import { MOCK_QUESTIONS, MOCK_FLASHCARDS } from '@/data/mockData'
+import { THEMES, StudyTheme, Difficulty, Question, Flashcard, supabase } from '@/services/supabaseClient'
+import { loadQuestionsForFilter, loadFlashcardsForFilter } from '@/services/contentService'
 import clsx from 'clsx'
 import jsPDF from 'jspdf'
 import autoTable from 'jspdf-autotable'
@@ -11,6 +11,18 @@ type AdminTab = 'overview' | 'members' | 'questions' | 'flashcards' | 'reports' 
 export function AdminPage() {
   const { profile } = useAuthContext()
   const [tab, setTab] = useState<AdminTab>('overview')
+
+  // Conteúdo publicado (banco inteiro) — carregado uma vez e compartilhado
+  // entre as abas que dependem dele (visão geral, questões, flashcards, exportar).
+  const [questions, setQuestions] = useState<Question[]>([])
+  const [flashcards, setFlashcards] = useState<Flashcard[]>([])
+  const [loadingContent, setLoadingContent] = useState(true)
+  useEffect(() => {
+    Promise.all([loadQuestionsForFilter(new Set()), loadFlashcardsForFilter(new Set())])
+      .then(([qs, fs]) => { setQuestions(qs); setFlashcards(fs) })
+      .catch(() => { setQuestions([]); setFlashcards([]) })
+      .finally(() => setLoadingContent(false))
+  }, [])
 
   const tabs: { id: AdminTab; label: string; icon: string }[] = [
     { id: 'overview',   label: 'Visão Geral', icon: '📊' },
@@ -43,28 +55,34 @@ export function AdminPage() {
         ))}
       </div>
 
-      {tab === 'overview'   && <OverviewTab />}
-      {tab === 'members'    && <MembersTab />}
-      {tab === 'questions'  && <QuestionsTab />}
-      {tab === 'flashcards' && <FlashcardsTab />}
-      {tab === 'reports'    && <ReportsTab />}
-      {tab === 'export'     && <ExportTab />}
+      {loadingContent ? (
+        <div style={{ textAlign: 'center', padding: '3rem', color: 'var(--color-text-muted)' }}>Carregando conteúdo...</div>
+      ) : (
+        <>
+          {tab === 'overview'   && <OverviewTab questions={questions} flashcards={flashcards} />}
+          {tab === 'members'    && <MembersTab />}
+          {tab === 'questions'  && <QuestionsTab initialQuestions={questions} />}
+          {tab === 'flashcards' && <FlashcardsTab initialFlashcards={flashcards} />}
+          {tab === 'reports'    && <ReportsTab />}
+          {tab === 'export'     && <ExportTab questions={questions} flashcards={flashcards} />}
+        </>
+      )}
     </div>
   )
 }
 
 // ─── VISÃO GERAL ──────────────────────────────────────────────────────────────
 
-function OverviewTab() {
-  const totalQ  = MOCK_QUESTIONS.length
-  const totalF  = MOCK_FLASHCARDS.length
-  const temas   = new Set(MOCK_QUESTIONS.map(q => q.theme)).size
-  const facil   = MOCK_QUESTIONS.filter(q => q.difficulty === 'facil').length
-  const medio   = MOCK_QUESTIONS.filter(q => q.difficulty === 'medio').length
-  const dificil = MOCK_QUESTIONS.filter(q => q.difficulty === 'dificil').length
+function OverviewTab({ questions, flashcards }: { questions: Question[]; flashcards: Flashcard[] }) {
+  const totalQ  = questions.length
+  const totalF  = flashcards.length
+  const temas   = new Set(questions.map(q => q.theme)).size
+  const facil   = questions.filter(q => q.difficulty === 'facil').length
+  const medio   = questions.filter(q => q.difficulty === 'medio').length
+  const dificil = questions.filter(q => q.difficulty === 'dificil').length
 
   const porTema = Object.entries(
-    MOCK_QUESTIONS.reduce<Record<string, number>>((acc, q) => {
+    questions.reduce<Record<string, number>>((acc, q) => {
       acc[q.theme] = (acc[q.theme] || 0) + 1
       return acc
     }, {})
@@ -204,8 +222,8 @@ function MembersTab() {
 
 // ─── QUESTÕES ─────────────────────────────────────────────────────────────────
 
-function QuestionsTab() {
-  const [questions, setQuestions] = useState(MOCK_QUESTIONS)
+function QuestionsTab({ initialQuestions }: { initialQuestions: Question[] }) {
+  const [questions, setQuestions] = useState(initialQuestions)
   const [editing, setEditing]     = useState<string | null>(null)
   const [showForm, setShowForm]   = useState(false)
   const [form, setForm] = useState({
@@ -333,8 +351,8 @@ function QuestionsTab() {
 
 // ─── FLASHCARDS ───────────────────────────────────────────────────────────────
 
-function FlashcardsTab() {
-  const [cards, setCards]       = useState(MOCK_FLASHCARDS)
+function FlashcardsTab({ initialFlashcards }: { initialFlashcards: Flashcard[] }) {
+  const [cards, setCards]       = useState(initialFlashcards)
   const [showForm, setShowForm] = useState(false)
   const [editing, setEditing]   = useState<string | null>(null)
   const [form, setForm]         = useState({ front:'', back:'', theme:'atls_inicial' as StudyTheme })
@@ -550,13 +568,13 @@ function ReportsTab() {
 
 // ─── EXPORTAR ─────────────────────────────────────────────────────────────────
 
-function ExportTab() {
+function ExportTab({ questions, flashcards }: { questions: Question[]; flashcards: Flashcard[] }) {
   const [generating, setGenerating] = useState(false)
 
   const exportarQuestoesCSV = () => {
     const rows = [
       ['ID','Enunciado','Tema','Dificuldade','Correta','Alternativas','Explicação'],
-      ...MOCK_QUESTIONS.map(q => [
+      ...questions.map(q => [
         q.id,
         `"${q.statement.replace(/"/g,'""')}"`,
         THEMES[q.theme] ?? q.theme,
@@ -576,7 +594,7 @@ function ExportTab() {
   const exportarFlashcardsCSV = () => {
     const rows = [
       ['ID','Tema','Frente','Verso'],
-      ...MOCK_FLASHCARDS.map(f => [
+      ...flashcards.map(f => [
         f.id,
         THEMES[f.theme] ?? f.theme,
         `"${f.front.replace(/"/g,'""')}"`,
@@ -629,8 +647,8 @@ function ExportTab() {
   return (
     <div style={{ maxWidth: 520, display: 'flex', flexDirection: 'column', gap: '1rem' }}>
       {[
-        { icon: '📋', title: 'Exportar Questões', desc: `${MOCK_QUESTIONS.length} questões em CSV com enunciado, alternativas, gabarito e explicação.`, fn: exportarQuestoesCSV, lbl: 'Baixar CSV de Questões' },
-        { icon: '🃏', title: 'Exportar Flashcards', desc: `${MOCK_FLASHCARDS.length} flashcards em CSV com frente, verso e tema.`, fn: exportarFlashcardsCSV, lbl: 'Baixar CSV de Flashcards' },
+        { icon: '📋', title: 'Exportar Questões', desc: `${questions.length} questões em CSV com enunciado, alternativas, gabarito e explicação.`, fn: exportarQuestoesCSV, lbl: 'Baixar CSV de Questões' },
+        { icon: '🃏', title: 'Exportar Flashcards', desc: `${flashcards.length} flashcards em CSV com frente, verso e tema.`, fn: exportarFlashcardsCSV, lbl: 'Baixar CSV de Flashcards' },
       ].map(item => (
         <div key={item.title} className="card-p" style={{ display: 'flex', flexDirection: 'column', gap: '.75rem' }}>
           <div>

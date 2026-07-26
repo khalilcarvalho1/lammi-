@@ -1288,17 +1288,19 @@ export function getAllSubtemaIds(areaId: string): string[] {
   return area.temas.flatMap(t => t.subtemas.map(s => s.id))
 }
 
-export function countByArea(areaId: string, items: { theme: string }[]): number {
+// `counts` vem do manifesto (questionThemeCounts / flashcardThemeCounts) —
+// soma direta em vez de filtrar o array completo de itens carregados.
+export function countByArea(areaId: string, counts: Record<string, number>): number {
   const ids = getAllSubtemaIds(areaId)
   // também conta itens com theme direto de tema (LAMMI legado)
   const area = findArea(areaId)
   const temaIds = area?.temas.map(t => t.id) ?? []
-  return items.filter(i => ids.includes(i.theme) || temaIds.includes(i.theme)).length
+  return [...new Set([...ids, ...temaIds])].reduce((sum, id) => sum + (counts[id] ?? 0), 0)
 }
 
-export function countByTema(temaId: string, items: { theme: string }[]): number {
+export function countByTema(temaId: string, counts: Record<string, number>): number {
   const found = findTema(temaId)
   if (!found) return 0
   const subIds = found.tema.subtemas.map(s => s.id)
-  return items.filter(i => subIds.includes(i.theme) || i.theme === temaId).length
+  return subIds.reduce((sum, id) => sum + (counts[id] ?? 0), 0) + (counts[temaId] ?? 0)
 }
