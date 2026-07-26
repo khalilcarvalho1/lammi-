@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T21:16:05.156Z",
+  "generatedAt": "2026-07-26T21:49:42.593Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,11 +26,12 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 112,
+  "totalQuestions": 232,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
     "cardio_has": 100,
+    "cardio_sca": 120,
     "atls_inicial": 1,
     "atls_choque": 2,
     "atls_toracico": 1,
@@ -266,8 +267,10 @@
     {
       "area": "cardiologia",
       "slug": "sca",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "cardio_sca"
+      ],
+      "questionsCount": 120,
       "flashcardsCount": 0,
       "casosCount": 0
     },

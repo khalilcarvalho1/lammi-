@@ -1,1 +1,2069 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "sca_001",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "Hospital Regional de Presidente Prudente R1 2025",
+      "statement": "Homem de 63 anos queixa-se de dor torácica precordial difusa de forte intensidade iniciada após evento emocional, fazendo-o procurar o pronto-socorro. Eletrocardiograma mostrou infradesnivelamento do segmento ST de V4 a V6, sem outras alterações. Após tratamento inicial com antiagregação, anticoagulação e nitratos, paciente manteve a dor. Troponina apresentou resultado positivo. A angiografia coronariana invasiva deve ser realizada",
+      "alternatives": [
+        { "key": "A", "text": "Imediatamente." },
+        { "key": "B", "text": "em até 6 horas." },
+        { "key": "C", "text": "em até 12 horas." },
+        { "key": "D", "text": "em até 24 horas." },
+        { "key": "E", "text": "em até 48 horas." }
+      ],
+      "correct_key": "A",
+      "explanation": "Angina refratária apesar de tratamento clínico otimizado é critério de muito alto risco na SCA sem supra de ST, indicando estratégia invasiva imediata (<2h).",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_002",
+      "theme": "cardio_sca",
+      "difficulty": "facil",
+      "source": "SES-DF R3CM 2026",
+      "statement": "Caso clínico: paciente de 59 anos, hipertenso e tabagista, procurou o pronto-socorro em razão de dor torácica em aperto há 40 minutos, irradiando para o braço esquerdo, associada a intensa sudorese fria. PA=140x85mmHg, FC=96bpm, FR=20irpm, SatO2=95%. Foi realizado ECG. Qual marcador laboratorial é mais específico para detecção de necrose miocárdica?",
+      "alternatives": [
+        { "key": "A", "text": "CK total" },
+        { "key": "B", "text": "Troponina I" },
+        { "key": "C", "text": "Mioglobina" },
+        { "key": "D", "text": "CK-MB massa" }
+      ],
+      "correct_key": "B",
+      "explanation": "A troponina cardíaca (I ou T) é o biomarcador mais sensível e específico para necrose miocárdica, superior a CK-MB, CK total e mioglobina.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_003",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "PSU-GO R3CM 2026",
+      "statement": "O teste de esforço na síndrome coronariana aguda na sala de emergência pode ser indicado para pacientes:",
+      "alternatives": [
+        { "key": "A", "text": "Com biomarcadores (necrose) e ECG basal alterado, desde que estável hemodinamicamente." },
+        { "key": "B", "text": "Identificados com dor precordial ou dispneia, desde que estável hemodinamicamente." },
+        { "key": "C", "text": "Com condições gerais adequadas para o esforço físico, desde que estável hemodinamicamente." },
+        { "key": "D", "text": "Identificados como de alto risco, desde que estável hemodinamicamente." }
+      ],
+      "correct_key": "C",
+      "explanation": "O teste de esforço em protocolos de dor torácica é reservado a pacientes de baixo risco, com biomarcadores e ECG seriados normais, capazes de realizar esforço físico e hemodinamicamente estáveis. Biomarcadores positivos, ECG alterado ou alto risco contraindicam o teste.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_004",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "USP-RP R1 2024",
+      "statement": "Menino de 8 anos apresentou episódio de dor torácica intensa em precórdio durante brincadeira em cama elástica; a dor aliviou com repouso e se intensificou ao esforço. Identificada lesão miocárdica isquêmica secundária a trombose de aneurisma em trajeto da artéria descendente anterior. Para a investigação causal, qual a pergunta mais importante a ser feita?",
+      "alternatives": [
+        { "key": "A", "text": "A criança teve episódio prévio de febre prolongada, conjuntivite e lesões de pele?" },
+        { "key": "B", "text": "A criança ou a família tem história de malformação congênita ou síndrome genética?" },
+        { "key": "C", "text": "A criança fez algum procedimento dentário ou usou medicações endovenosas recentemente?" },
+        { "key": "D", "text": "A criança teve episódios de febre e dor articular recorrente nos últimos meses?" }
+      ],
+      "correct_key": "A",
+      "explanation": "Aneurisma coronariano em criança sugere sequela de Doença de Kawasaki, cujo quadro clássico inclui febre prolongada, conjuntivite não purulenta e exantema/descamação cutânea.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_005",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "ENARE R3CM 2025",
+      "statement": "Mulher de 44 anos, previamente saudável, em festa surpresa de aniversário no trabalho, apresenta dor precordial súbita, taquicardia e mal-estar. PA 130x95mmHg, FC 98bpm. Troponinas levemente aumentadas, ECG com inversão profunda de onda T de V1 a V6 e discreta elevação de ST. Ecocardiograma: hipocinesia apical do VE com balonamento nesse sítio e queda importante da FE. O diagnóstico mais provável é:",
+      "alternatives": [
+        { "key": "A", "text": "infarto agudo do miocárdio" },
+        { "key": "B", "text": "tromboembolismo pulmonar" },
+        { "key": "C", "text": "miocardite aguda" },
+        { "key": "D", "text": "síndrome do coração partido" },
+        { "key": "E", "text": "angina instável" }
+      ],
+      "correct_key": "D",
+      "explanation": "Gatilho emocional intenso + balonamento apical com hipercinesia basal ao ecocardiograma é o quadro clássico de cardiomiopatia de Takotsubo (síndrome do coração partido).",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_006",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "AMP R3CM 2025",
+      "statement": "Sobre a miocardiopatia de Takotsubo: I. É também conhecida como Síndrome do Balonamento Apical ou Miocardiopatia Induzida por Estresse. II. Tem quadro benigno, com complicações e mortalidade muito inferiores ao IAM. III. São descritas recorrências em até 50% dos pacientes. IV. O VE apresenta dilatação global com contração basal, forma de \"pote de colo estreito\" (takotsubo). Quais assertivas estão corretas?",
+      "alternatives": [
+        { "key": "A", "text": "I e II apenas." },
+        { "key": "B", "text": "III e IV apenas." },
+        { "key": "C", "text": "I, II e III apenas." },
+        { "key": "D", "text": "II e IV apenas." },
+        { "key": "E", "text": "I e IV apenas." }
+      ],
+      "correct_key": "E",
+      "explanation": "I e IV são corretas (sinonímia estabelecida e morfologia clássica em \"pote de polvo\"). II é falsa — a fase aguda tem morbimortalidade comparável ao IAM. III é falsa — a taxa de recorrência relatada é muito menor que 50% (em torno de poucos % ao ano).",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_007",
+      "theme": "cardio_sca",
+      "difficulty": "facil",
+      "source": "SCML R1 2024",
+      "statement": "O sinal mais precoce de uma emergência de insuficiência coronariana é:",
+      "alternatives": [
+        { "key": "A", "text": "Dispneia." },
+        { "key": "B", "text": "Dor torácica." },
+        { "key": "C", "text": "Síncope." },
+        { "key": "D", "text": "Edema agudo de pulmão." }
+      ],
+      "correct_key": "B",
+      "explanation": "A dor torácica é o sintoma cardinal e mais precoce da isquemia miocárdica aguda, precedendo as demais manifestações listadas.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_008",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "UNESP R3CM 2023",
+      "statement": "Sobre o tratamento antitrombótico preconizado pela atual diretriz brasileira de síndrome coronária aguda sem supradesnivelamento de ST, assinale a alternativa correta.",
+      "alternatives": [
+        { "key": "A", "text": "Nos raros casos de hipersensibilidade ao AAS, para dupla antiagregação recomenda-se clopidogrel com ticagrelor, ou clopidogrel com prasugrel, todos sem dose de ataque." },
+        { "key": "B", "text": "O período de tratamento com enoxaparina em dose plena é de 5 dias; após, se o paciente permanecer internado, deve ser reduzida para dose profilática." },
+        { "key": "C", "text": "Não há indicação rotineira de iniciar inibidor do receptor P2Y12 como pré-tratamento em pacientes indicados para estratégia invasiva precoce (<24h)." },
+        { "key": "D", "text": "Deve-se preferir fondaparinux como anticoagulante em pacientes de baixo risco hemorrágico e clearance de creatinina <20mL/min." }
+      ],
+      "correct_key": "C",
+      "explanation": "As diretrizes atuais (ESC/SBC) não recomendam pré-tratamento rotineiro com inibidor de P2Y12 quando a estratégia invasiva precoce (<24h) já está definida, evitando exposição desnecessária antes de conhecer a anatomia coronariana. Fondaparinux é contraindicado em clearance <20-30mL/min.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_009",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "UNIFESP R3CM 2023",
+      "statement": "A realização do exame de escore de cálcio de artérias coronárias está indicada em qual situação clínica?",
+      "alternatives": [
+        { "key": "A", "text": "Após infarto agudo do miocárdio sem supra de segmento ST." },
+        { "key": "B", "text": "Em pacientes submetidos à cirurgia de revascularização do miocárdio." },
+        { "key": "C", "text": "Na estratificação de risco em pacientes assintomáticos." },
+        { "key": "D", "text": "No seguimento de pacientes submetidos a implante de stent." }
+      ],
+      "correct_key": "C",
+      "explanation": "O escore de cálcio coronariano é ferramenta de estratificação de risco cardiovascular em indivíduos assintomáticos, sem indicação em quadro agudo, pós-CRM ou seguimento de stent.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_010",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "PSU-GO R3CM 2024",
+      "statement": "Mulher de 70 anos, IAM de parede inferior (dor há 120min), FC 85bpm, PA 150x90mmHg, radiografia de tórax normal. Hospital com tenecteplase e hemodinâmica (angioplastia estimada em 90min). Cerca de 4h após admissão na UTI, evolui com rebaixamento do nível de consciência, intensa sudorese e palidez cutânea. FC 110bpm, PA 80x50mmHg. Qual a principal hipótese diagnóstica?",
+      "alternatives": [
+        { "key": "A", "text": "Choque séptico." },
+        { "key": "B", "text": "Choque hipovolêmico." },
+        { "key": "C", "text": "Complicação mecânica do ventrículo esquerdo." },
+        { "key": "D", "text": "Infarto agudo do miocárdio do ventrículo direito." }
+      ],
+      "correct_key": "D",
+      "explanation": "IAM de parede inferior frequentemente se estende ao ventrículo direito (irrigado pela RCA), causando hipotensão súbita por queda do débito por falência de VD, sem congestão pulmonar (radiografia normal), quadro clássico de infarto de VD.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_011",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "IAMSPE R3CM 2026",
+      "statement": "Dor torácica aguda com padrão inferior: paciente chega à emergência com dor retroesternal súbita; ECG inicial com supradesnivelamento de ST em DII, DIII e aVF. Diante desse achado, a conduta imediata em relação ao registro eletrocardiográfico e ao uso de vasodilatadores deve ser:",
+      "alternatives": [
+        { "key": "A", "text": "Repetir o ECG em 6-12 horas e administrar nitratos sublinguais." },
+        { "key": "B", "text": "Solicitar V3R-V4R para avaliar ventrículo direito e evitar nitratos." },
+        { "key": "C", "text": "Solicitar derivações V7-V8 e manter nitratos venosos." },
+        { "key": "D", "text": "Interpretar como pericardite aguda e iniciar anti-inflamatório não esteroidal." },
+        { "key": "E", "text": "Prosseguir com trombólise sem novos registros derivados direitos." }
+      ],
+      "correct_key": "B",
+      "explanation": "Todo IAM inferior deve ter derivações direitas (V3R-V4R) pesquisadas para infarto de VD; se presente, nitratos e outros redutores de pré-carga devem ser evitados pelo risco de hipotensão grave.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_012",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "USP R3CM 2024",
+      "statement": "Homem de 64 anos, etilista, tabagista e hipertenso, com dor epigástrica contínua, náuseas e vômitos há 2 horas. PA 130x80mmHg, FC 95bpm, FR 22ipm. Ausculta normal. Realizado ECG (imagem não incluída na extração deste PDF). Assinale a próxima conduta mais adequada.",
+      "alternatives": [
+        { "key": "A", "text": "Prescrever omeprazol e solicitar lipase e tomografia de abdome." },
+        { "key": "B", "text": "Prescrever dipirona e solicitar angiotomografia de tórax e abdome." },
+        { "key": "C", "text": "Indicar fibrinólise e solicitar transferência a serviço com hemodinâmica." },
+        { "key": "D", "text": "Iniciar ácido acetilsalicílico e solicitar troponina ultrassensível." }
+      ],
+      "correct_key": "D",
+      "explanation": "Dor epigástrica em paciente com múltiplos fatores de risco cardiovascular deve levantar suspeita de IAM inferior mimetizando quadro digestivo — AAS e troponina são a conduta inicial segura enquanto se define o ECG. ATENÇÃO: esta questão depende de um ECG que não estava disponível no texto extraído do PDF; confirmar achado antes de validar o gabarito.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_013",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "HPP R1 2026",
+      "statement": "Homem, 59 anos, tabagista, hipertenso, dor torácica súbita há 90 minutos. ECG mostra supradesnivelamento do segmento ST em parede anterior. Hospital do interior; centro de referência para angioplastia a 2 horas de distância. Qual a conduta imediata mais adequada?",
+      "alternatives": [
+        { "key": "A", "text": "Transferir para o centro de referência após administrar AAS e Clopidogrel." },
+        { "key": "B", "text": "Administrar AAS, Clopidogrel, Enoxaparina e realizar trombólise imediata." },
+        { "key": "C", "text": "Realizar trombólise imediata, evitando outras terapias antitrombóticas pelo risco de sangramento." },
+        { "key": "D", "text": "Seriar troponina para definir necessidade de transporte para o centro de referência." }
+      ],
+      "correct_key": "B",
+      "explanation": "Com centro de hemodinâmica a 2h de distância (delay >120min), a estratégia fármaco-invasiva é preferível: AAS + clopidogrel + anticoagulação + trombólise em até 30 minutos da chegada.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_014",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "FAMEMA R3CM 2026",
+      "statement": "Sobre a dupla antiagregação plaquetária (AAS + inibidor P2Y12) em síndrome coronariana aguda (SCA), assinale a alternativa correta.",
+      "alternatives": [
+        { "key": "A", "text": "Após ICP em SCA, a DUAP deve durar indefinidamente, pois eventos trombóticos tardios persistem ao longo da vida." },
+        { "key": "B", "text": "Em SCA com ICP, recomenda-se DUAP por 12 meses (classe I), podendo encurtar (3-6 meses) se alto risco de sangramento, ou prolongar se risco isquêmico alto e baixo sangramento." },
+        { "key": "C", "text": "Após fibrinólise, o inibidor P2Y12 de escolha é prasugrel, independentemente da idade e peso." },
+        { "key": "D", "text": "Em ICP eletiva com stent farmacológico, a DUAP mínima é 24 meses para prevenir trombose subaguda." }
+      ],
+      "correct_key": "B",
+      "explanation": "O padrão de 12 meses de DUAP após SCA com ICP, ajustável conforme risco isquêmico versus hemorrágico, é a recomendação central das diretrizes atuais.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_015",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "ABC R1 2025",
+      "statement": "Homem, 60 anos, DM e dislipidemia, dor torácica de forte intensidade há 2 horas, duração de 20 minutos, sem melhora ao repouso, irradiação para membros superiores. Exame físico normal e ECG sem alterações. Troponina positiva. A medicação que apresenta alteração na mortalidade é:",
+      "alternatives": [
+        { "key": "A", "text": "betabloqueador." },
+        { "key": "B", "text": "alteplase." },
+        { "key": "C", "text": "estreptoquinase." },
+        { "key": "D", "text": "AAS." }
+      ],
+      "correct_key": "D",
+      "explanation": "Sem supradesnivelamento de ST não há indicação de fibrinolíticos. Dentre as opções, o AAS é a medicação com impacto comprovado em redução de mortalidade na SCA.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_016",
+      "theme": "cardio_sca",
+      "difficulty": "facil",
+      "source": "PSU-GO R3CM 2025",
+      "statement": "São características de risco para manifestação atípica de infarto agudo do miocárdio:",
+      "alternatives": [
+        { "key": "A", "text": "Raça negra e idoso." },
+        { "key": "B", "text": "Hemofílico e marcapasso cardíaco." },
+        { "key": "C", "text": "Atleta e insuficiência cardíaca." },
+        { "key": "D", "text": "Sexo feminino e diabetes melito." }
+      ],
+      "correct_key": "D",
+      "explanation": "Mulheres e diabéticos (neuropatia autonômica) são classicamente associados a apresentações atípicas de IAM, com maior frequência de dor atípica ou ausente.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_017",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "SES-DF R1 2025",
+      "statement": "Paciente de 65 anos, hipertenso e diabético, dor torácica de forte intensidade há 2 horas. FC 105bpm, FR 20irpm, SatO2 96%, PA 160x100mmHg. ECG com supradesnivelamento de ST em DII, DIII e aVF. Qual a conduta inicial mais indicada?",
+      "alternatives": [
+        { "key": "A", "text": "Realizar ecocardiograma transtorácico imediatamente." },
+        { "key": "B", "text": "Iniciar terapia fibrinolítica e transferir para hemodinâmica." },
+        { "key": "C", "text": "Administrar AAS, clopidogrel, heparina e encaminhar para angioplastia primária." },
+        { "key": "D", "text": "Solicitar biomarcadores de necrose miocárdica e repetir ECG após seis horas." }
+      ],
+      "correct_key": "C",
+      "explanation": "STEMI inferior confirmado: conduta padrão é dupla antiagregação + anticoagulação e reperfusão por angioplastia primária, a estratégia preferencial quando disponível.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_018",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "HCPA R1 2026",
+      "statement": "Paciente masculino, 67 anos, dor torácica típica em repouso há 2 horas, irradiando para braço esquerdo, com sudorese. HAS e DM2. Exames laboratoriais normais exceto troponina ultrassensível discretamente aumentada (2,3x o valor de referência). ECG reproduzido (imagem não incluída). Com base nas diretrizes atuais, qual a conduta inicial mais adequada?",
+      "alternatives": [
+        { "key": "A", "text": "Instituir tratamento clínico conservador e agendar teste ergométrico ambulatorial em 72 horas." },
+        { "key": "B", "text": "Iniciar dupla antiagregação plaquetária e anticoagulação e encaminhar para cinecoronariografia em até 72 horas." },
+        { "key": "C", "text": "Iniciar apenas AAS e observar a evolução clínica, com dosagem de troponina em 6 horas." },
+        { "key": "D", "text": "Indicar trombólise com alteplase em razão da dor torácica e da troponina elevada." }
+      ],
+      "correct_key": "B",
+      "explanation": "Elevação discreta de troponina em quadro de NSTE-ACS de risco intermediário justifica DAPT + anticoagulação com estratégia invasiva não urgente (até 72h). ATENÇÃO: esta questão depende do ECG da imagem, não disponível no texto extraído — confirmar antes de publicar.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_019",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "IAMSPE R3CM 2025",
+      "statement": "Homem de 62 anos, hipertenso e tabagista, dor torácica forte irradiada para as costas há 2 horas. ECG inicial sem elevação de ST nas derivações padrão, mas com supradesnivelamento de ST em V1 e V2, associado a ondas R proeminentes nessas derivações. Qual o diagnóstico mais provável?",
+      "alternatives": [
+        { "key": "A", "text": "Infarto agudo do miocárdio da parede posterior." },
+        { "key": "B", "text": "Infarto agudo do miocárdio da parede anterior." },
+        { "key": "C", "text": "Infarto agudo do miocárdio da parede inferior." },
+        { "key": "D", "text": "Bloqueio de ramo esquerdo agudo." },
+        { "key": "E", "text": "Pericardite aguda." }
+      ],
+      "correct_key": "A",
+      "explanation": "Onda R proeminente em V1-V2 é o achado espelhado clássico de infarto de parede posterior nas derivações anteriores.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_020",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "SES-DF R1 2023",
+      "statement": "Paciente de 80 anos encontrado em via pública após síncope. PA 80x40mmHg, estertores pulmonares difusos com turgência jugular; glicemia normal. ECG e ritmo cardíaco no monitor mostrados (imagem não incluída). Julgue: \"No contexto clínico apresentado, o paciente não apresenta benefício na revascularização miocárdica imediata.\"",
+      "alternatives": [
+        { "key": "A", "text": "CERTO" },
+        { "key": "B", "text": "ERRADO" }
+      ],
+      "correct_key": "B",
+      "explanation": "O quadro descrito (hipotensão + congestão pulmonar + turgência jugular) sugere choque cardiogênico associado a SCA; evidências (estudo SHOCK) mostram benefício de revascularização precoce nesse cenário, tornando a afirmativa falsa.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_021",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "ENARE R1 2024",
+      "statement": "Em relação ao uso de trombolíticos em paciente com IAM com supra de ST, é considerada contraindicação absoluta:",
+      "alternatives": [
+        { "key": "A", "text": "uso crônico de AAS 100mg diário." },
+        { "key": "B", "text": "trauma cranioencefálico importante nos últimos 3 meses." },
+        { "key": "C", "text": "histórico de úlcera péptica mesmo sem evidência de sangramento ativo." },
+        { "key": "D", "text": "acidente vascular encefálico isquêmico há 1 ano." },
+        { "key": "E", "text": "gestação." }
+      ],
+      "correct_key": "B",
+      "explanation": "TCE significativo nos últimos 3 meses é contraindicação absoluta à fibrinólise. AVEi >3 meses e úlcera péptica sem sangramento ativo são contraindicações relativas; gestação também é relativa.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_022",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "UNESP R1 2025",
+      "statement": "Mulher de 62 anos, dor epigástrica em queimação com irradiação retroesternal e membros superiores, duração de 50 minutos. Exame físico normal. ECG: infradesnivelamento de segmento ST >1mm em derivações inferiores. Segundo as diretrizes da Sociedade Europeia de Cardiologia para SCA, é correto afirmar que:",
+      "alternatives": [
+        { "key": "A", "text": "é possível inferir a artéria culpada a partir da alteração eletrocardiográfica descrita." },
+        { "key": "B", "text": "a alteração é precedida de inversão simétrica de onda T na evolução natural da isquemia." },
+        { "key": "C", "text": "o quadro é compatível apenas com suboclusão coronariana, não sendo possível oclusão total." },
+        { "key": "D", "text": "a alteração eletrocardiográfica mencionada é compatível com lesão miocárdica do tipo isquemia." }
+      ],
+      "correct_key": "D",
+      "explanation": "Infradesnivelamento de ST reflete isquemia subendocárdica; não permite localizar a artéria culpada nem excluir oclusão total (pode haver colateralização).",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_023",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "HPP R1 2024",
+      "statement": "Paciente de 88 anos, dor torácica há 30 minutos, ECG compatível com STEMI. Serviço sem angioplastia disponível, referência a 120km, tempo estimado de transporte de 100 minutos + 20 minutos para a ambulância chegar. Qual a conduta?",
+      "alternatives": [
+        { "key": "A", "text": "Iniciar AAS 300mg, Clopidogrel 75mg, Heparina e solicitar transferência imediata." },
+        { "key": "B", "text": "Iniciar AAS 300mg, Clopidogrel 300mg, Heparina e solicitar transferência imediata." },
+        { "key": "C", "text": "Iniciar AAS 300mg, Clopidogrel 75mg, Heparina e infundir trombolítico em até 30 minutos." },
+        { "key": "D", "text": "Iniciar AAS 300mg, Clopidogrel 300mg, Heparina e infundir trombolítico em até 30 minutos." }
+      ],
+      "correct_key": "C",
+      "explanation": "Delay total >120 minutos favorece estratégia fármaco-invasiva (trombólise em até 30min). Em pacientes >75 anos, a dose de clopidogrel associada a fibrinolítico é 75mg, sem dose de ataque, pelo maior risco hemorrágico.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_024",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "UEL R1 2026",
+      "statement": "Paciente, 78 anos, HAS e DM2, dor torácica retroesternal forte há 4 horas, sudorese profusa, dispneia e náuseas. PA 85x62mmHg, FC 115bpm, TEC 5s, extremidades frias. ECG apresentado (imagem não incluída). Assinale a alternativa correta.",
+      "alternatives": [
+        { "key": "A", "text": "Devido à instabilidade hemodinâmica, classifica-se como Killip IV, indicando cateterismo de urgência após AAS 300mg e clopidogrel 600mg." },
+        { "key": "B", "text": "SCA é o diagnóstico mais provável; dose de ataque de AAS 300mg e clopidogrel 300mg, cateterismo em até 24 horas." },
+        { "key": "C", "text": "Principal hipótese é SCA sem supra de ST; devido à instabilidade, cateterismo o mais breve possível, podendo omitir dose de ataque de P2Y12 até definir anatomia." },
+        { "key": "D", "text": "Sem avaliação invasiva de urgência disponível, fibrinólise com alteplase após AAS 300mg e ticagrelor 180mg, pelo início de ação mais rápido dos novos P2Y12." },
+        { "key": "E", "text": "SCA sem supra de ST; AAS 300mg e clopidogrel 75mg, omitindo dose de ataque de P2Y12 pela idade >75 anos." }
+      ],
+      "correct_key": "A",
+      "explanation": "Sinais de choque cardiogênico (hipotensão + má perfusão) definem Killip IV; conduta é cateterismo de urgência com dose de ataque completa de AAS e clopidogrel (600mg é a dose padrão pré-angioplastia primária). ATENÇÃO: depende do ECG da imagem, não disponível — confirmar antes de publicar.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_025",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "UFSC R3CM 2026",
+      "statement": "Em pacientes com bloqueio de ramo esquerdo, o diagnóstico de IAM pelo ECG pode ser difícil. Em 1996, Sgarbossa descreveu critérios para auxiliar nesse diagnóstico. Fazem parte desses critérios os apresentados a seguir, EXCETO:",
+      "alternatives": [
+        { "key": "A", "text": "QRS >6mm." },
+        { "key": "B", "text": "Elevação concordante do segmento ST >1mm em derivações com QRS positivo." },
+        { "key": "C", "text": "Depressão ST concordante >1mm em V1-V3." },
+        { "key": "D", "text": "Elevação ST excessivamente discordante >5mm em derivações com complexo QRS negativo." }
+      ],
+      "correct_key": "A",
+      "explanation": "Os critérios de Sgarbossa são: elevação concordante de ST ≥1mm, depressão concordante de ST ≥1mm em V1-V3, e elevação discordante excessiva ≥5mm. \"QRS >6mm\" não é um dos critérios.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_026",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "HSL-SP R3CM 2023",
+      "statement": "Mulher de 52 anos, sem antecedentes mórbidos, no início da menopausa, em uso de reposição hormonal, com dor precordial intensa após uso de cocaína há 1 hora. Agitada, nauseada, pulso 102bpm, PA 160x90mmHg, ausculta cardíaca normal, estertores nas bases. A terapia medicamentosa inicial NÃO deve incluir:",
+      "alternatives": [
+        { "key": "A", "text": "clonazepam." },
+        { "key": "B", "text": "betabloqueador." },
+        { "key": "C", "text": "heparina de baixo peso molecular." },
+        { "key": "D", "text": "nitrato parenteral." },
+        { "key": "E", "text": "ácido acetilsalicílico." }
+      ],
+      "correct_key": "B",
+      "explanation": "Betabloqueadores são contraindicados na dor torácica associada à cocaína pelo risco de vasoconstrição coronariana sem oposição pela ação alfa-adrenérgica não antagonizada.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_027",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "UNICAMP R1 2023",
+      "statement": "Homem, 67 anos, dor torácica intensa com irradiação para pescoço, mandíbula e braço esquerdo, dispneia. PA=60x35mmHg, FC=120bpm, cianose, pulsos fracos. ECG: extenso infarto anterolateral. Evoluiu a óbito antes do cateterismo. Necropsia: secção do coração mostrada (imagem não incluída). Sobre a imagem, é correto afirmar que:",
+      "alternatives": [
+        { "key": "A", "text": "Há uma área de infarto antigo e o novo infarto é recente demais para identificação à histologia convencional." },
+        { "key": "B", "text": "Há uma área de necrose coagulativa do miocárdio, compatível com o infarto recente." },
+        { "key": "C", "text": "Existe hipertrofia dos cardiomiócitos decorrente de hipertensão arterial crônica." },
+        { "key": "D", "text": "O infarto produziu redução súbita da pressão arterial, com trombose vascular e sinais de recanalização." }
+      ],
+      "correct_key": "B",
+      "explanation": "Necrose de coagulação é o achado histopatológico clássico do infarto agudo do miocárdio, visível já nas primeiras horas em microscopia convencional.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_028",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "HCPA R1 2023",
+      "statement": "Homem, 54 anos, dor retroesternal moderada há 3 horas, sem irradiação, atualmente sem dor. HAS e dislipidemia em tratamento. Killip I. ECG reproduzido (imagem não incluída). Troponina I ultrassensível: 12pg/mL na admissão e 154pg/mL após 3h (referência <5pg/mL). Qual diagnóstico é mais provável?",
+      "alternatives": [
+        { "key": "A", "text": "Angina instável" },
+        { "key": "B", "text": "IAM com supra de ST na parede lateral" },
+        { "key": "C", "text": "IAM com supra de ST na parede anterior" },
+        { "key": "D", "text": "IAM sem supradesnivelamento do segmento ST" }
+      ],
+      "correct_key": "D",
+      "explanation": "Elevação expressiva e dinâmica de troponina confirma necrose miocárdica (afasta angina instável); sem indicação de supra de ST no enunciado, o quadro é compatível com IAMSSST.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_029",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "UERJ R3CM 2023",
+      "statement": "Mulher de 64 anos, hígida, dor precordial em aperto com irradiação para MSE, supradesnivelamento de ST em parede anterior, aumento significativo de troponina e discreto aumento de CK-MB. Dislipidêmica, tabagista 30 maços-ano, relata falecimento do único filho há 3 dias. ECO: balonamento apical e hipercinesia dos segmentos basais, FE 50%. Sobre o diagnóstico mais provável, é correto afirmar que:",
+      "alternatives": [
+        { "key": "A", "text": "a RM apresenta, em geral, edema miocárdico difuso, sem necrose" },
+        { "key": "B", "text": "AAS, betabloqueador e heparina em dose plena devem ser usados nesses casos" },
+        { "key": "C", "text": "com esse ECO, a conduta será realizada sem qualquer necessidade de coronariografia" },
+        { "key": "D", "text": "o prognóstico nos casos com disfunção do VE é reservado, com mortalidade acima de" }
+      ],
+      "correct_key": "A",
+      "explanation": "Na cardiomiopatia de Takotsubo (sugerida pelo gatilho emocional e balonamento apical), a RM cardíaca classicamente mostra edema miocárdico difuso sem padrão de realce tardio (necrose), diferenciando de IAM verdadeiro.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_030",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "HSL-SP R1 2023",
+      "statement": "Homem de 64 anos, diabético, em uso de dapaglifozina, dor precordial intensa há 1 hora; hemodinamicamente estável, ausculta normal. ECG e ecocardiograma mostram alterações típicas de IAM de ventrículo direito, com elevação de ST. Nas primeiras 24-48h deve ser empregado com cautela, ou mesmo evitado, o uso de:",
+      "alternatives": [
+        { "key": "A", "text": "nitratos." },
+        { "key": "B", "text": "inibidor de P2Y12." },
+        { "key": "C", "text": "heparina de baixo peso molecular." },
+        { "key": "D", "text": "betabloqueadores." },
+        { "key": "E", "text": "ácido acetilsalicílico." }
+      ],
+      "correct_key": "A",
+      "explanation": "No IAM de VD, o débito cardíaco depende de pré-carga; nitratos reduzem a pré-carga e podem causar hipotensão grave, devendo ser evitados nas primeiras 24-48h.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_031",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "FMJ R3CM 2026",
+      "statement": "Com base no quadro clínico e eletrocardiograma da questão anterior (IAM de ventrículo direito), assinale a parede cardíaca acometida.",
+      "alternatives": [
+        { "key": "A", "text": "parede inferior" },
+        { "key": "B", "text": "parede lateral baixa" },
+        { "key": "C", "text": "parede septal" },
+        { "key": "D", "text": "parede lateral alta" },
+        { "key": "E", "text": "parede anterior" }
+      ],
+      "correct_key": "A",
+      "explanation": "O infarto de ventrículo direito está classicamente associado ao infarto de parede inferior, pois ambos são irrigados predominantemente pela artéria coronária direita.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_032",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "IAMSPE R3CM 2023",
+      "statement": "Paciente de 65 anos, hemodinamicamente estável, dor precordial forte, náuseas e sudorese há 2 horas. ECG: inversão de onda T sem desnivelamento de ST de V1 a V6, D1 e aVL. Enzimas cardíacas elevadas. Assinale o diagnóstico e a melhor conduta.",
+      "alternatives": [
+        { "key": "A", "text": "infarto com supra de ST com necessidade de cineangiocoronariografia imediata" },
+        { "key": "B", "text": "infarto sem supra de ST com necessidade de trombólise imediata, se não houver contraindicações" },
+        { "key": "C", "text": "infarto sem supra de ST com necessidade de tratamento medicamentoso inicial, estabilização e cineangiocoronariografia precoce" },
+        { "key": "D", "text": "angina instável de alto risco com necessidade de cineangiocoronariografia imediata" },
+        { "key": "E", "text": "angina instável de alto risco com necessidade de trombólise imediata, se não houver contraindicações" }
+      ],
+      "correct_key": "C",
+      "explanation": "Padrão de inversão de onda T anterior com enzimas elevadas (padrão sugestivo de Wellens/lesão crítica de DA) configura IAMSSST — tratamento medicamentoso inicial seguido de coronariografia precoce, não trombólise (não indicada fora de supra de ST).",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_033",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "UNICAMP R1 2026",
+      "statement": "Mulher, 59 anos, trazida por dor precordial e dispneia há três horas. HAS em uso de hidroclorotiazida. Glasgow=15; PA=84/52mmHg; FC=124bpm; FR=25irpm; SpO2=94%; extremidades frias; TEC=4s. Estertores crepitantes em bases. ECG realizado. Recebeu aspirina e clopidogrel na sala de emergência. Qual a conduta?",
+      "alternatives": [
+        { "key": "A", "text": "angioplastia primária, cateterismo cardíaco." }
+      ],
+      "correct_key": "A",
+      "explanation": "Quadro de choque cardiogênico associado a SCA em vigência de dupla antiagregação já iniciada — conduta definitiva é reperfusão por angioplastia primária/cateterismo de urgência (resposta fornecida no próprio enunciado da prova, formato dissertativo).",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_034",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "CESUPA R1 2024",
+      "statement": "Jurandir, 54 anos, consulta 2 meses após IAM, hospitalizado por 1 semana. Usa apenas AAS e clopidogrel; suspendeu os demais remédios após 1 mês. Dispneia aos grandes esforços, nega dor torácica. Exame normal. PA 142x85mmHg, FC 88bpm. Ecocardiograma: hipocinesia segmentar de VE, FE 52%. Qual a conduta mais adequada?",
+      "alternatives": [
+        { "key": "A", "text": "Manter o AAS até finalização dos exames." },
+        { "key": "B", "text": "Associar Rosuvastatina, Carvedilol e enalapril." },
+        { "key": "C", "text": "Associar Rosuvastatina e avaliar a pressão em nova consulta." },
+        { "key": "D", "text": "Caso tenha colocado Stent, associar sinvastatina ao AAS e clopidogrel." }
+      ],
+      "correct_key": "B",
+      "explanation": "Prevenção secundária pós-IAM exige estatina de alta potência, betabloqueador e IECA/BRA — todos foram suspensos indevidamente e devem ser reintroduzidos.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_035",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "HOB-DF R1 2025",
+      "statement": "Sobre o IAM: I. Angina e IAMSSST têm fisiopatologias semelhantes, ambas por desbalanço entre oferta e consumo de oxigênio. II. No IAMCSST, a ruptura de placa leva a obstrução total do fluxo, resultando em infarto transmural. III. Placa aterosclerótica estável é a principal causa de eventos cardiovasculares, independentemente de composição ou grau de estenose. Está CORRETO o que se afirma em:",
+      "alternatives": [
+        { "key": "A", "text": "Apenas III." },
+        { "key": "B", "text": "Apenas II." },
+        { "key": "C", "text": "Apenas I e II." },
+        { "key": "D", "text": "Apenas I e III." }
+      ],
+      "correct_key": "C",
+      "explanation": "I e II são conceitos corretos e bem estabelecidos. III é falsa: são as placas instáveis/vulneráveis (não as estáveis) as principais responsáveis por eventos agudos.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_036",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "UNIFESP R1 2025",
+      "statement": "Homem, 65 anos, dor precordial forte com irradiação para MSE e sudorese, procurou atendimento 14h após o quadro, já sem dor. Exame inicial sem alterações. ECG: supra de ST ~1mm em D2, D3, aVF, com inversão de onda T e onda Q patológica nas mesmas derivações. Após 48h, sopro holossistólico em ápice irradiado para axila, hipotensão e má perfusão. Qual a explicação mais provável?",
+      "alternatives": [
+        { "key": "A", "text": "Ruptura do músculo papilar posterior" },
+        { "key": "B", "text": "Ruptura da parede livre de ventrículo esquerdo." },
+        { "key": "C", "text": "Comunicação interventricular." },
+        { "key": "D", "text": "Insuficiência aórtica." }
+      ],
+      "correct_key": "A",
+      "explanation": "Novo sopro holossistólico em ápice com irradiação para axila após IAM inferior sugere insuficiência mitral aguda por ruptura do músculo papilar posteromedial, irrigado pela mesma artéria do território inferior (RCA/descendente posterior).",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_037",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "INEP REVALIDA 2024",
+      "statement": "Homem, 68 anos, dor precordial tipo aperto, irradiada para região cervical, dois episódios em poucas horas (o segundo diminuindo de intensidade). HAS há 16 anos, DM há 7 anos. Irmão faleceu de IAM há 30 dias. Exame físico sem alterações. Troponina normal na admissão e após 3h. Dois ECGs (admissão e 30min depois) sem alterações diagnósticas. A conduta terapêutica correta é proceder com:",
+      "alternatives": [
+        { "key": "A", "text": "oxigenioterapia, analgesia, terapias anti-isquêmica, antitrombótica e anticoagulante, e encaminhamento à UTI." },
+        { "key": "B", "text": "fibrinólise pré-hospitalar e encaminhamento ao hospital de referência." },
+        { "key": "C", "text": "encaminhamento ao laboratório de hemodinâmica para angioplastia primária." },
+        { "key": "D", "text": "acolhimento do paciente, orientações e encaminhamento ao ambulatório de cardiologia." }
+      ],
+      "correct_key": "A",
+      "explanation": "Apesar de troponina e ECG normais, o quadro clínico e os múltiplos fatores de risco justificam tratamento completo como SCA e internação, dado que biomarcadores/ECG normais não excluem definitivamente o diagnóstico neste momento precoce.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_038",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "USP-RP R3CM 2025",
+      "statement": "Homem, 68 anos, dor epigástrica em queimação aos grandes esforços há 3 meses, piorando nos últimos 15 dias e agora aos pequenos esforços. FC 70bpm, PA 146x94mmHg. ECG (imagem não incluída). Troponina ultrassensível normal na admissão e após 6h. Lipidograma alterado (LDL 172, HDL 32). Qual a conduta mais apropriada para investigação de DAC?",
+      "alternatives": [
+        { "key": "A", "text": "Estratificação não invasiva ambulatorial." },
+        { "key": "B", "text": "Estratificação invasiva emergencial." },
+        { "key": "C", "text": "Estratificação não invasiva antes da alta." },
+        { "key": "D", "text": "Estratificação invasiva eletiva." }
+      ],
+      "correct_key": "D",
+      "explanation": "Padrão de angina em crescendo (progressão para mínimos esforços) com troponina negativa configura angina instável de alto risco clínico, justificando estratificação invasiva, porém de forma eletiva já que os biomarcadores são negativos e o paciente está estável.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_039",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "AMP R1 2024",
+      "statement": "Avalie as afirmativas sobre o IAM e assinale V ou F: ( ) Cerca de 50% das mortes por IAM ocorrem antes da chegada ao hospital. ( ) A mortalidade é aproximadamente 4x maior em pacientes >75 anos. ( ) Entre os pacientes com IAM com supra de ST, a maioria não apresenta onda Q no ECG evolutivo. ( ) Placas suscetíveis à ruptura têm centro rico em lipídeos e capa fibrosa calcificada. ( ) Em casos raros, o IAM com supra de ST pode advir de êmbolos, anormalidades congênitas, espasmo coronariano e doenças inflamatórias sistêmicas. A sequência correta é:",
+      "alternatives": [
+        { "key": "A", "text": "V, V, V, F, F." },
+        { "key": "B", "text": "F, V, V, V, F." },
+        { "key": "C", "text": "V, V, F, F, V" },
+        { "key": "D", "text": "F, F, V, V, V." },
+        { "key": "E", "text": "V, F, V, V, F." }
+      ],
+      "correct_key": "C",
+      "explanation": "1ª: verdadeira (mortalidade pré-hospitalar ~50%). 2ª: verdadeira (mortalidade ~4x maior em idosos). 3ª: considerada falsa pela literatura clássica (a maioria evolui com onda Q). 4ª: falsa — placas vulneráveis têm capa FINA, não calcificada/espessa. 5ª: verdadeira (causas raras/tipo 2 de IAM).",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_040",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "UNICAMP R3CM 2025",
+      "statement": "Mulher, 56 anos, dor precordial há duas horas. Quadro gripal há seis dias. HAS há 10 anos e hipercolesterolemia há 6 anos. Uso de enalapril, hidroclorotiazida e sinvastatina. PA=156/78mmHg, FC=102bpm, FR=26irpm. Ausculta sem alterações. ECG apresentado (imagem não incluída). O diagnóstico é:",
+      "alternatives": [
+        { "key": "A", "text": "Sobrecarga ventricular esquerda." },
+        { "key": "B", "text": "Oclusão da artéria coronária direita." },
+        { "key": "C", "text": "Lesão de tronco da coronária esquerda." },
+        { "key": "D", "text": "Pericardite aguda." }
+      ],
+      "correct_key": "D",
+      "explanation": "O quadro gripal recente associado à dor precordial sugere pericardite aguda (possivelmente pós-viral). ATENÇÃO: esta questão depende do ECG da imagem, não disponível no texto extraído — confirmar antes de publicar.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_041",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "SURCE R1 2024",
+      "statement": "Paciente de 67 anos, dor torácica indefinida com sensação de queimação, irradiação para MSE e sudorese, iniciada após esforço leve, há 2 horas. HAS e DM em uso irregular de medicações. Tabagista. Melhora com morfina venosa. ECG realizado (imagem não incluída). Assinale o item com o melhor planejamento diagnóstico neste momento.",
+      "alternatives": [
+        { "key": "A", "text": "Solicitar dosagem de CK-MB e mioglobina." },
+        { "key": "B", "text": "Realizar ECG e dosagem de troponinas de maneira seriada." },
+        { "key": "C", "text": "Realizar ECG apenas na chegada e solicitar TGO, LDH e CK-MB." },
+        { "key": "D", "text": "Transferir paciente para tratamento invasivo percutâneo de imediato." }
+      ],
+      "correct_key": "B",
+      "explanation": "A abordagem moderna e padronizada para dor torácica de origem indeterminada é ECG e troponina ultrassensível seriados, não marcadores obsoletos (mioglobina, TGO/LDH) nem procedimento invasivo sem confirmação diagnóstica.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_042",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "UNESP R1 2026",
+      "statement": "Mulher de 61 anos, dor retroesternal em queimação com irradiação para MSE há uma hora. HAS e tabagismo. ECG apresentado (imagem não incluída). A parede ventricular acometida e a conduta, além de 300mg de AAS, são, respectivamente:",
+      "alternatives": [
+        { "key": "A", "text": "posterior; 300mg de clopidogrel e encaminhamento para angioplastia primária." },
+        { "key": "B", "text": "inferior; 600mg de clopidogrel e trombólise química." },
+        { "key": "C", "text": "posterior; 300mg de clopidogrel e trombólise química." },
+        { "key": "D", "text": "inferior; 600mg de clopidogrel e encaminhamento para angioplastia primária." }
+      ],
+      "correct_key": "D",
+      "explanation": "600mg de clopidogrel é a dose de ataque padrão pré-angioplastia primária (300mg é usado quando associado a trombólise), tornando esta a combinação internamente consistente. ATENÇÃO: depende do ECG da imagem para confirmar a parede acometida — confirmar antes de publicar.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_043",
+      "theme": "cardio_sca",
+      "difficulty": "facil",
+      "source": "SEMAD R1 2025",
+      "statement": "Com relação ao tempo recomendado entre a porta de atendimento do Pronto Socorro e a insuflação do balão para um paciente com IAM com Supra ST, assinale a alternativa correta.",
+      "alternatives": [
+        { "key": "A", "text": "Não deve ultrapassar 30 min." },
+        { "key": "B", "text": "Não deve ultrapassar 60 min." },
+        { "key": "C", "text": "Não deve ultrapassar 90 min." },
+        { "key": "D", "text": "Não deve ultrapassar 120 min." },
+        { "key": "E", "text": "Não deve ultrapassar 15 min." }
+      ],
+      "correct_key": "C",
+      "explanation": "O tempo porta-balão recomendado para angioplastia primária em centros com hemodinâmica é ≤90 minutos.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_044",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "UNIFESP R3CM 2026",
+      "statement": "Mulher, 50 anos, hipercolesterolemia, câncer de mama metastático (ER/PR+, HER2-). Tratamento modificado para capecitabina por progressão de doença. Após semanas, dor retroesternal em aperto, intermitente, sem fatores de piora/melhora. ECG basal normal. Qual a causa mais provável da dor torácica?",
+      "alternatives": [
+        { "key": "A", "text": "Ruptura aguda de placa aterosclerótica" },
+        { "key": "B", "text": "Pericardite aguda" },
+        { "key": "C", "text": "Embolia pulmonar" },
+        { "key": "D", "text": "Vasoespasmo coronariano" }
+      ],
+      "correct_key": "D",
+      "explanation": "A capecitabina (fluoropirimidina) é classicamente associada a vasoespasmo coronariano (cardiotoxicidade isquêmica reversível), causa mais provável neste contexto.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_045",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "Hospital Regional de Presidente Prudente R1 2026",
+      "statement": "Mulher de 82 anos, dor torácica forte há duas horas. HAS, DM e AVC isquêmico há 2 anos. Exame físico normal. ECG: supradesnivelamento de ST em derivações precordiais V1 a V6. Será encaminhada à hemodinâmica para angioplastia primária. Segundo a atualização de 2025 da diretriz AHA, além do AAS, o que mais deve ser adicionado ao tratamento farmacológico?",
+      "alternatives": [
+        { "key": "A", "text": "Apenas prasugrel." },
+        { "key": "B", "text": "Apenas ticagrelor." },
+        { "key": "C", "text": "Prasugrel e enoxaparina." },
+        { "key": "D", "text": "Prasugrel e heparina não fracionada." },
+        { "key": "E", "text": "Ticagrelor e heparina não fracionada." }
+      ],
+      "correct_key": "E",
+      "explanation": "Em pacientes idosos (≥75 anos) encaminhados a angioplastia primária, prasugrel é evitado pelo maior risco hemorrágico; ticagrelor associado a heparina não fracionada é a combinação padrão para angioplastia primária.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_046",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "UERN R1 2024",
+      "statement": "Seu Marcolino, 46 anos, obeso e tabagista, começou a sentir desconforto retroesternal após ingerir pizza no jantar; apenas procurou assistência médica após 15 horas do início dos sintomas. Considerando a história clínica, qual a descrição eletrocardiográfica CORRETA:",
+      "alternatives": [
+        { "key": "A", "text": "Onda T negativa, pontiaguda e simétrica em V1 e D2." },
+        { "key": "B", "text": "Onda T negativa, pontiaguda e simétrica em D2, D3 e AVF." },
+        { "key": "C", "text": "Ondas QS ou Qr, acompanhadas de ondas T negativas em V3 e V4." },
+        { "key": "D", "text": "Ondas QS ou Qr, acompanhadas de ondas T negativas em D2, D3 e AVF." }
+      ],
+      "correct_key": "D",
+      "explanation": "Apresentação tardia (15h) implica IAM já evoluído, com padrão de necrose estabelecida (ondas Q patológicas) associado a inversão de onda T, compatível com território inferior (D2, D3, aVF).",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_047",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "UNICAMP R1 2023",
+      "statement": "Homem, 51 anos, trazido pelo SAMU com dispneia e dor torácica em aperto há duas horas, irradiando para MSD. Tabagismo, HAS e AVE hemorrágico há duas semanas. PA e demais sinais estáveis; crepitações em ambas as bases. Recebeu AAS e clopidogrel no atendimento móvel. ECG na admissão.",
+      "alternatives": [
+        { "key": "A", "text": "Cateterismo cardíaco ou angioplastia ou cineangiocoronariografia. Não aceitar trombólise química, ATPlase." }
+      ],
+      "correct_key": "A",
+      "explanation": "AVE hemorrágico recente (2 semanas) é contraindicação absoluta à fibrinólise; em quadro sugestivo de STEMI, a única via de reperfusão segura é a angioplastia/cateterismo (resposta fornecida no próprio enunciado da prova).",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_048",
+      "theme": "cardio_sca",
+      "difficulty": "facil",
+      "source": "UERN R1 2024",
+      "statement": "Seu Marcolino, 46 anos, obeso e tabagista, desconforto retroesternal após ingerir pizza no jantar, procurou assistência médica após 15 horas do início dos sintomas. Após colher história clínica dirigida, quais exames complementares deveriam ser solicitados na entrada?",
+      "alternatives": [
+        { "key": "A", "text": "Eletrocardiograma, troponina, CPK e CK-MB." },
+        { "key": "B", "text": "Eletrocardiograma, função renal, troponina e CK-MB." },
+        { "key": "C", "text": "Eletrocardiograma, AST/ALT, CPK, CK-MB e hemograma." },
+        { "key": "D", "text": "Eletrocardiograma, função renal, marcadores hepáticos e CK-MB." }
+      ],
+      "correct_key": "A",
+      "explanation": "A investigação inicial padrão de dor torácica com suspeita de SCA inclui ECG e marcadores de necrose miocárdica (troponina, CPK, CK-MB).",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_049",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "FMJ R1 2026",
+      "statement": "Paciente de 62 anos, hipertenso, dor torácica típica há 2 horas, irradiando para o braço esquerdo, sudorese e náuseas. Estável hemodinamicamente. ECG de admissão apresentado (imagem não incluída). Chegou às 19h, na troca de plantão, ficando 45 minutos sem reavaliação. Hospital sem hemodinâmica; centro de referência com tempo estimado de recebimento em 80 minutos. Assinale a conduta adequada.",
+      "alternatives": [
+        { "key": "A", "text": "transferir o paciente imediatamente para o centro com hemodinâmica, sem realizar trombólise" },
+        { "key": "B", "text": "realizar trombólise imediatamente, se não houver contraindicações, e transferir posteriormente" },
+        { "key": "C", "text": "manter tratamento clínico conservador, devido ao paciente estar hemodinamicamente estável" },
+        { "key": "D", "text": "transferir para o centro de referência e realizar angioplastia eletiva após 24 horas" },
+        { "key": "E", "text": "realizar trombólise e manter o paciente no hospital de origem, sem transferência, em caso de melhora clínica" }
+      ],
+      "correct_key": "A",
+      "explanation": "Com tempo estimado de transferência de 80 minutos (dentro da janela de 120 minutos), a angioplastia primária via transferência é preferível à trombólise, mesmo considerando o atraso de reavaliação.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_050",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "IOG R1 2024",
+      "statement": "Paciente masculino, 60 anos, dor precordial constritiva iniciada em repouso há 2 horas. Diaforético e pálido; PA=110/75mmHg, FC=106bpm, ritmo regular sem sopros. Troponina elevada e ECG compatível com IAM sem elevação do segmento ST. Assinale a melhor opção terapêutica:",
+      "alternatives": [
+        { "key": "A", "text": "ácido acetilsalicílico" },
+        { "key": "B", "text": "AAS, betabloqueador, clopidogrel e enoxaparina" },
+        { "key": "C", "text": "betabloqueador, maleato de enalapril e enoxaparina" },
+        { "key": "D", "text": "nitroglicerina, sulfato de morfina e betabloqueador" },
+        { "key": "E", "text": "estreptoquinase, AAS, fondaparinux e clopidogrel" }
+      ],
+      "correct_key": "B",
+      "explanation": "O tratamento medicamentoso padrão do IAMSSST combina dupla antiagregação (AAS+clopidogrel), betabloqueador e anticoagulação (enoxaparina). Fibrinolíticos (estreptoquinase) não são indicados sem supra de ST.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_051",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "FAMEMA R1 2023",
+      "statement": "Considera-se contraindicação absoluta ao uso de trombolítico nos casos de IAM a presença de:",
+      "alternatives": [
+        { "key": "A", "text": "gravidez." },
+        { "key": "B", "text": "neoplasia no sistema nervoso central." },
+        { "key": "C", "text": "úlcera péptica ativa." },
+        { "key": "D", "text": "hipertensão arterial não controlada - sistólica acima de 180mmHg e diastólica acima de 100mmHg." }
+      ],
+      "correct_key": "B",
+      "explanation": "Neoplasia intracraniana é contraindicação absoluta à fibrinólise pelo risco de sangramento no SNC. As demais opções são contraindicações relativas.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_052",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "UNITAU R1 2025",
+      "statement": "Paciente masculino, 60 anos, precordialgia em aperto de forte intensidade, náuseas, diaforese e dispneia, há cerca de 1 hora. HAS, DM e obesidade grau II. ECG: taquicardia sinusal, bloqueio de ramo esquerdo (novo, comparado a ECG sem alterações há 2 meses). Qual a hipótese diagnóstica e conduta mais coerente?",
+      "alternatives": [
+        { "key": "A", "text": "Angina instável de alto risco; AAS, clopidogrel, enoxaparina, nitrato VO e morfina EV." },
+        { "key": "B", "text": "IAM sem supra ST; AAS, clopidogrel, enoxaparina, metoprolol, nitrato VO e morfina EV." },
+        { "key": "C", "text": "IAM sem supra ST; AAS, clopidogrel, enoxaparina, metoprolol, nitrato VO, morfina EV e Alteplase EV" },
+        { "key": "D", "text": "IAM com supra ST; AAS, clopidogrel, metoprolol, atorvastatina, nitrato VO e morfina EV, com acionamento imediato da hemodinâmica para angioplastia primária." }
+      ],
+      "correct_key": "D",
+      "explanation": "BRE novo com quadro isquêmico agudo é equivalente a STEMI, exigindo reperfusão imediata por angioplastia primária.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_053",
+      "theme": "cardio_sca",
+      "difficulty": "facil",
+      "source": "UEPA R1 2025",
+      "statement": "O Infarto Agudo do Miocárdio (IAM) é uma das principais causas de mortalidade mundial. Sobre essa condição, assinale a alternativa correta.",
+      "alternatives": [
+        { "key": "A", "text": "O IAM ocorre exclusivamente em indivíduos com dislipidemia e hipertensão, sendo raros os casos sem fatores de risco tradicionais." },
+        { "key": "B", "text": "O IAM com supra de ST afeta predominantemente a camada subendocárdica e não costuma apresentar ondas Q." },
+        { "key": "C", "text": "Mulheres na pós-menopausa apresentam risco aumentado de infarto devido à queda dos níveis de estrogênio, que exerce efeito protetor cardiovascular." },
+        { "key": "D", "text": "A principal causa do IAM é a vasculite autoimune, sendo a aterosclerose um fator secundário." },
+        { "key": "E", "text": "O uso de tabaco e álcool não está associado ao risco de infarto, sendo a hipertensão o único fator modificável." }
+      ],
+      "correct_key": "C",
+      "explanation": "A queda do estrogênio pós-menopausa remove um fator cardioprotetor, aumentando o risco cardiovascular nas mulheres — conceito bem estabelecido.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_054",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "UFPB R1 2023",
+      "statement": "Em relação à Síndrome Coronariana Aguda (SCA), é correto afirmar:",
+      "alternatives": [
+        { "key": "A", "text": "A terapia fibrinolítica é crucial tanto na SCA com supra de ST quanto na SCA sem supra de ST." },
+        { "key": "B", "text": "Cerca de um terço dos pacientes com IAM não têm dor no peito; tendem a ser idosos, do sexo feminino, diabéticos, com maior risco de morte subsequente." },
+        { "key": "C", "text": "Paciente com dor torácica típica, marcadores de necrose normais e sem supra de ST exclui-se IAM." },
+        { "key": "D", "text": "O deslocamento dinâmico do segmento ST é a alteração eletrocardiográfica mais sensível para SCA." },
+        { "key": "E", "text": "Se o LDL for baixo, não há recomendação de estatina na SCA." }
+      ],
+      "correct_key": "B",
+      "explanation": "É bem documentado que cerca de 1/3 dos pacientes com IAM apresentam dor torácica ausente/atípica, principalmente idosos, mulheres e diabéticos, com pior prognóstico.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_055",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "USP R1 2025",
+      "statement": "Homem, 64 anos, HAS, DM2, ICFEp, internado por pielonefrite em uso de ceftriaxona. Enfermagem realizou ECG (imagem não incluída) e chama por dor no flanco de moderada intensidade e palpitações. PA 110x70mmHg, FC 115bpm, Tax 37,6°C, FR 18ipm, SatO2 95%; bulhas hiperfonéticas sem sopros; TEC 3s. Assinale a conduta indicada neste momento.",
+      "alternatives": [
+        { "key": "A", "text": "Manobra vagal." },
+        { "key": "B", "text": "Amiodarona." },
+        { "key": "C", "text": "Dipirona." },
+        { "key": "D", "text": "Metoprolol." }
+      ],
+      "correct_key": "A",
+      "explanation": "Palpitações com taquicardia em paciente hemodinamicamente estável sugerem taquiarritmia supraventricular; a manobra vagal é a primeira conduta, não farmacológica. ATENÇÃO: depende do ECG da imagem — confirmar antes de publicar.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_056",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "UNITAU R1 2026",
+      "statement": "Mulher, 55 anos, tabagista, hipertensa, diabética e obesa. Dor torácica há duas horas, em aperto, irradiando para membros superiores, piora ao esforço, dispneia e sudorese. ECG realizado em 5 minutos da admissão (imagem não incluída). Qual a sua conduta?",
+      "alternatives": [
+        { "key": "A", "text": "Administrar AAS e Clopidogrel, trombolisar com Alteplase e prescrever Enoxaparina intravenosa." },
+        { "key": "B", "text": "Administrar AAS e Clopidogrel e solicitar Troponina Ultrassensível." },
+        { "key": "C", "text": "Administrar AAS e Clopidogrel e trombolisar com Alteplase." },
+        { "key": "D", "text": "Solicitar Troponina Ultrassensível e só administrar medicações se resultado positivo." }
+      ],
+      "correct_key": "A",
+      "explanation": "O contexto de urgência do ECG em 5 minutos sugere STEMI confirmado, exigindo o pacote completo de reperfusão (dupla antiagregação + trombólise + anticoagulação). ATENÇÃO: depende do ECG da imagem — confirmar antes de publicar.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_057",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "AMRIGS R3CG 2026",
+      "statement": "Em pacientes com bloqueio de ramo esquerdo, o diagnóstico de IAM pelo ECG pode ser difícil. Em 1996, Sgarbossa descreveu critérios para auxiliar nesse diagnóstico. Fazem parte desses critérios os apresentados a seguir, EXCETO:",
+      "alternatives": [
+        { "key": "A", "text": "QRS >6mm." },
+        { "key": "B", "text": "Elevação concordante do segmento ST >1mm em derivações com QRS positivo." },
+        { "key": "C", "text": "Depressão ST concordante >1mm em V1-V3." },
+        { "key": "D", "text": "Elevação ST excessivamente discordante >5mm em derivações com complexo QRS." }
+      ],
+      "correct_key": "A",
+      "explanation": "Os três critérios de Sgarbossa envolvem concordância/discordância do ST, não amplitude do QRS.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_058",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "USP R3CG 2026",
+      "statement": "Paciente, 72 anos, DM2 e doença arterial obstrutiva periférica, dor torácica há cerca de 90 minutos com irradiação para ombro esquerdo e sudorese. ECG apresentado (imagem não incluída). História de prurido intenso e eritema importante de face e pescoço associado ao uso de aspirina. Assinale a conduta mais adequada quanto à antiagregação plaquetária.",
+      "alternatives": [
+        { "key": "A", "text": "Realizar ataque de dupla antiagregação com AAS 300mg e clopidogrel 600mg." },
+        { "key": "B", "text": "Realizar dupla antiagregação com AAS 100mg e clopidogrel 600mg." },
+        { "key": "C", "text": "Omitir a dose de AAS e realizar ataque com clopidogrel 600mg." },
+        { "key": "D", "text": "Realizar ataque com clopidogrel 600mg e substituir AAS por tirofibam." }
+      ],
+      "correct_key": "C",
+      "explanation": "Reação de hipersensibilidade cutânea documentada ao AAS contraindica seu uso agudo; a conduta segura é antiagregação apenas com inibidor de P2Y12 em dose de ataque plena.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_059",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "HPP R1 2025",
+      "statement": "Paciente obeso de 58 anos, dor torácica, admitido na emergência. Troponina abaixo do valor de referência. Clearance de creatinina 45mL/min, PA 150/95mmHg, ECG com infradesnível de ST. Classificado como alto risco pelo escore GRACE e HEART Score. Qual deve ser a próxima conduta?",
+      "alternatives": [
+        { "key": "A", "text": "Realizar teste ergométrico." },
+        { "key": "B", "text": "O paciente pode receber alta, já que a troponina está abaixo do limite superior da normalidade." },
+        { "key": "C", "text": "Realizar ecocardiograma de estresse." },
+        { "key": "D", "text": "Realizar cateterismo cardíaco em até 24 horas." }
+      ],
+      "correct_key": "D",
+      "explanation": "Alto risco pelos escores GRACE/HEART com alteração dinâmica de ST indica estratégia invasiva precoce (<24h), independentemente da troponina inicial negativa.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_060",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "AMRIGS R1 2024",
+      "statement": "A dupla antiagregação plaquetária deve ser mantida: I. Indefinidamente para pacientes com doença arterial periférica aterosclerótica. II. Por pelo menos 12 meses após IAM com angioplastia percutânea primária. III. Indefinidamente em diabéticos que tiveram episódio cerebrovascular isquêmico. Quais estão corretas?",
+      "alternatives": [
+        { "key": "A", "text": "Apenas I." },
+        { "key": "B", "text": "Apenas II." },
+        { "key": "C", "text": "Apenas I e II." },
+        { "key": "D", "text": "I, II e III." }
+      ],
+      "correct_key": "B",
+      "explanation": "Apenas a recomendação de 12 meses de DAPT após angioplastia primária no IAM é padrão estabelecido; DAPT indefinida não é rotina em DAP ou em diabéticos pós-AVCi (usa-se antiagregação simples/anticoagulação, não DAPT vitalícia).",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_061",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "PSU-MG R1 2024",
+      "statement": "Homem de 64 anos, IAM com supra de ST tratado com trombólise (Alteplase) em hospital sem hemodinâmica, com resposta clínica e eletrocardiográfica. Assintomático, FC 68bpm, FR 18ipm, SpO2 95%, PA 136/84mmHg, quando observado um traçado eletrocardiográfico (imagem não incluída). Assinale o achado semiológico que NÃO poderia ter sido causado pela anormalidade identificada.",
+      "alternatives": [
+        { "key": "A", "text": "Desdobramento amplo da primeira bulha cardíaca (B1)." },
+        { "key": "B", "text": "Desdobramento amplo e variável, mais acentuado durante a inspiração, da segunda bulha cardíaca (B2)." },
+        { "key": "C", "text": "Ondas A em canhão irregulares ao exame do pulso venoso central." },
+        { "key": "D", "text": "Variação da intensidade de B1 a cada batimento cardíaco." }
+      ],
+      "correct_key": "B",
+      "explanation": "O desdobramento fisiológico de B2 acentuado na inspiração ocorre normalmente e não é causado por dissociação AV; as demais opções (variação de B1, ondas A em canhão) são achados clássicos de dissociação AV/BAVT, uma arritmia de reperfusão possível pós-trombólise. ATENÇÃO: depende da imagem do ECG — confirmar antes de publicar.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_062",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "CMC R1 2026",
+      "statement": "O espasmo coronariano nas mulheres:",
+      "alternatives": [
+        { "key": "A", "text": "Como causa de isquemia não é diagnosticado quando há dor torácica, com ou sem alteração isquêmica no ECG e vasoconstrição >90% na angiografia, espontânea ou induzida com acetilcolina ou ergonovina." },
+        { "key": "B", "text": "É diagnosticado quando há dor torácica, com ou sem alteração isquêmica no ECG e vasoconstrição >90% na angiografia, espontânea mas não induzida com acetilcolina ou ergonovina." },
+        { "key": "C", "text": "É diagnosticado quando há dor torácica, com ou sem alteração isquêmica no ECG e vasoconstrição >98% na angiografia, espontânea ou induzida com acetilcolina, mas não ergonovina." },
+        { "key": "D", "text": "É diagnosticado quando há dor torácica, com ou sem alteração isquêmica no ECG e vasoconstrição >90% na angiografia, espontânea ou induzida com acetilcolina ou ergonovina." }
+      ],
+      "correct_key": "D",
+      "explanation": "Critério diagnóstico padrão de espasmo coronariano: dor torácica + vasoconstrição >90% (espontânea ou provocada por acetilcolina/ergonovina), com ou sem alteração isquêmica no ECG.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_063",
+      "theme": "cardio_sca",
+      "difficulty": "facil",
+      "source": "AMP R1 2025",
+      "statement": "Paciente de 50 anos com episódios recorrentes de dor torácica, principalmente em repouso e à noite. ECG durante a dor mostra elevação transitória do segmento ST. Após nitrato sublingual, sintomas cessam rapidamente. Qual o diagnóstico mais provável?",
+      "alternatives": [
+        { "key": "A", "text": "Angina Estável." },
+        { "key": "B", "text": "Angina Instável." },
+        { "key": "C", "text": "Pericardite Aguda." },
+        { "key": "D", "text": "Angina de Prinzmetal." },
+        { "key": "E", "text": "Infarto Agudo do Miocárdio com Supra de ST." }
+      ],
+      "correct_key": "D",
+      "explanation": "Dor em repouso/noturna com supra transitório de ST que reverte rapidamente com nitrato é o quadro clássico da angina vasoespástica (Prinzmetal).",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_064",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "Hospital São Lucas - RP R1 2025",
+      "statement": "A prevalência do IAM em mulheres é menor nos jovens do que em outras faixas etárias:",
+      "alternatives": [
+        { "key": "A", "text": "Mas existem tendências preocupantes, dado que a proporção atribuível a jovens (35-54 anos) aumentou de 27% para 32% nas últimas duas décadas, com maior aumento de mulheres jovens (21% a 31%)." },
+        { "key": "B", "text": "Mas existem tendências preocupantes, dado que a proporção atribuível a jovens (35-54 anos) aumentou de 27% para 32%, com menor aumento de mulheres jovens." },
+        { "key": "C", "text": "Mas existem tendências preocupantes, dado que a proporção atribuível a jovens (35-54 anos) reduziu nas últimas duas décadas, com maior aumento de mulheres jovens (21% a 31%)." },
+        { "key": "D", "text": "Mas existem tendências preocupantes, dado que a proporção atribuível a jovens (35-54 anos) não aumentou nas últimas duas décadas, com maior aumento de mulheres jovens (21% a 31%)." }
+      ],
+      "correct_key": "A",
+      "explanation": "Dados epidemiológicos mostram aumento da proporção de IAM em jovens (27%→32%) nas últimas duas décadas, com aumento desproporcionalmente maior entre mulheres jovens (21%→31%).",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_065",
+      "theme": "cardio_sca",
+      "difficulty": "facil",
+      "source": "HOB-DF R1 2026",
+      "statement": "No contexto da SCA, o ECG é fundamental para estratificação de risco e definição de terapia de reperfusão. A identificação de um IAMCSST baseia-se em critérios eletrocardiográficos. O diagnóstico para IAMCSST é:",
+      "alternatives": [
+        { "key": "A", "text": "Nova elevação do segmento ST no ponto J em pelo menos duas derivações contíguas." },
+        { "key": "B", "text": "Inversão simétrica da onda T com amplitude superior a 2mm em derivações precordiais." },
+        { "key": "C", "text": "Infradesnivelamento do segmento ST superior a 0,5mm em derivações de parede inferior." },
+        { "key": "D", "text": "Presença de novas ondas Q patológicas em qualquer derivação, com duração superior a 0,02 segundos." }
+      ],
+      "correct_key": "A",
+      "explanation": "A definição eletrocardiográfica padrão de IAMCSST é nova elevação do ponto J em duas ou mais derivações contíguas, com os limiares específicos por idade/sexo/derivação.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_066",
+      "theme": "cardio_sca",
+      "difficulty": "facil",
+      "source": "IAMSPE R3CG 2025",
+      "statement": "Na cirurgia de revascularização miocárdica, a escolha da técnica e do enxerto é crucial para o sucesso do procedimento. Analise as alternativas abaixo.",
+      "alternatives": [
+        { "key": "A", "text": "O uso de enxertos venosos, como a veia safena, é desaconselhado pois apresenta taxa de patência superior aos enxertos arteriais." },
+        { "key": "B", "text": "A técnica minimamente invasiva geralmente não utiliza a artéria mamária interna, pela abordagem limitada." },
+        { "key": "C", "text": "Enxertos de artérias radiais têm eficácia semelhante à mamária interna, mas sua utilização é limitada pelo risco de trombose e espasmo arterial." },
+        { "key": "D", "text": "O enxerto arterial com a artéria mamária interna é o padrão-ouro na revascularização miocárdica, devido à maior patência a longo prazo e menor incidência de infarto em comparação aos enxertos venosos." },
+        { "key": "E", "text": "A circulação extracorpórea não é recomendada em idosos, pois aumenta significativamente o risco de complicações neurológicas e cardíacas." }
+      ],
+      "correct_key": "D",
+      "explanation": "O enxerto de artéria mamária interna (torácica interna) é o padrão-ouro em CRM pela excelente patência a longo prazo, conceito consolidado na literatura.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_067",
+      "theme": "cardio_sca",
+      "difficulty": "facil",
+      "source": "SUS-BA R1 2023",
+      "statement": "Homem, 49 anos, atendido pelo SAMU em via pública após perda de consciência presenciada. Ausência de movimentos respiratórios e de pulso. RCP e DEA indicaram necessidade de choque. Após 4 choques, evoluiu para atividade elétrica com pulso. Conforme protocolos da AHA, determine a etiologia mais provável para a parada cardiorrespiratória.",
+      "alternatives": [
+        { "key": "A", "text": "Síndrome coronariana aguda / Infarto agudo do miocárdio / Doença arterial coronariana / Isquemia cardíaca / Oclusão coronariana aguda." }
+      ],
+      "correct_key": "A",
+      "explanation": "Parada cardiorrespiratória súbita em adulto com ritmo chocável (FV/TVSP) tem a doença coronariana aguda como causa mais frequente (resposta fornecida no próprio enunciado da prova, formato dissertativo).",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_068",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "UNESP R3CM 2025",
+      "statement": "Mulher de 62 anos, dor epigástrica em queimação com irradiação retroesternal e membros superiores há 50 minutos. ECG (10 minutos da admissão): infradesnivelamento de ST >1mm em derivações inferiores. Considerando as diretrizes da Sociedade Europeia de Cardiologia para SCA,",
+      "alternatives": [
+        { "key": "A", "text": "a alteração eletrocardiográfica é compatível com lesão miocárdica do tipo isquemia." },
+        { "key": "B", "text": "é possível inferir a artéria envolvida a partir da alteração eletrocardiográfica descrita." },
+        { "key": "C", "text": "a alteração eletrocardiográfica é precedida de inversão simétrica de onda T." },
+        { "key": "D", "text": "a apresentação clínica e eletrocardiográfica são compatíveis com suboclusão coronariana, não sendo possível a oclusão total." }
+      ],
+      "correct_key": "A",
+      "explanation": "Infradesnivelamento de ST indica lesão isquêmica subendocárdica, sem permitir localizar a artéria culpada nem afastar oclusão total com colateralização.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_069",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "IAMSPE R3CM 2026",
+      "statement": "Durante a análise de um ECG de paciente com dor torácica, o médico identifica onda T apiculada assimétrica positiva em derivações V1 a V6. Considerando as alterações eletrocardiográficas nas SCA, essa alteração sugere isquemia em localização miocárdica:",
+      "alternatives": [
+        { "key": "A", "text": "Subepicárdica, com corrente de lesão." },
+        { "key": "B", "text": "Subendocárdica, caracterizando isquemia." },
+        { "key": "C", "text": "Transmural, com necrose instalada." },
+        { "key": "D", "text": "Subepicárdica, com zona de necrose." },
+        { "key": "E", "text": "Pericárdica, sem acometimento miocárdico." }
+      ],
+      "correct_key": "A",
+      "explanation": "Ondas T hiperagudas/apiculadas representam a fase mais precoce da isquemia transmural (subepicárdica), precedendo a elevação de ST (corrente de lesão).",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_070",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "SEMAD R1 2025",
+      "statement": "Alguns pacientes podem apresentar taquiarritmias ventriculares tardias após IAM e receber indicação de implante de cardioversor-desfibrilador (CDI). Assinale a alternativa correta em relação ao implante de CDI:",
+      "alternatives": [
+        { "key": "A", "text": "Pacientes com função ventricular deprimida devem esperar pelo menos 40 dias após o IAMCSST para serem encaminhados ao implante do CDI." },
+        { "key": "B", "text": "Pacientes com FE preservada devem receber CDI se apresentarem classe funcional III e IV de NYHA." },
+        { "key": "C", "text": "Em casos de FEVE <30% com classe funcional I de NYHA, não há indicação de CDI e o tratamento clínico com antiarrítmicos pode ser adotado." },
+        { "key": "D", "text": "O paciente que apresenta fibrilação ventricular após IAMCSST tem indicação de implante de CDI." },
+        { "key": "E", "text": "Pacientes com história de FV primária têm pior prognóstico e recebem indicação de CDI quando comparados aos com FV secundária durante IAMCSST." }
+      ],
+      "correct_key": "A",
+      "explanation": "A regra clássica de reavaliação da fração de ejeção pelo menos 40 dias após o evento de IAM antes de indicar CDI para prevenção primária é o critério consolidado nas diretrizes.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_071",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "INTO R1 2026",
+      "statement": "Mulher, 71 anos, dor torácica opressiva desencadeada ao subir escadas, início há 90 minutos, alívio parcial em repouso. HAS, DRC estágio 3, dislipidemia, ex-tabagista. ECG da admissão reproduzido (imagem não incluída). Assinale a conduta.",
+      "alternatives": [
+        { "key": "A", "text": "Cateterismo precoce." },
+        { "key": "B", "text": "AAS, clopidogrel + morfina e cateterismo para estratificação em segundo momento, antes da alta." },
+        { "key": "C", "text": "AAS, clopidogrel e angiotomografia de coronária ambulatorialmente." },
+        { "key": "D", "text": "AAS, clopidogrel, heparina e cateterismo na mesma internação, antes da alta." },
+        { "key": "E", "text": "AAS, clopidogrel e angiotomografia de coronária na mesma internação." }
+      ],
+      "correct_key": "D",
+      "explanation": "Angina desencadeada por esforço com alívio parcial em repouso, em paciente com DRC (fator de risco elevando o GRACE), configura risco intermediário-alto, justificando estratégia invasiva ainda na mesma internação. ATENÇÃO: depende do ECG da imagem — confirmar antes de publicar.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_072",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "FGV OUTRAS PROVAS 2023",
+      "statement": "Paciente feminina de 75 anos, hipertensa, diabética, com DAC e 2 IAM prévios, dor torácica tipo B há 8 horas. Duas troponinas ultrassensíveis negativas com 2h de intervalo. Melhora importante após analgesia. ECG: onda P precedendo todos os QRS, sem supra/infra de ST, onda T bifásica em V2, V3 e V4. Frente ao quadro, a melhor conduta é:",
+      "alternatives": [
+        { "key": "A", "text": "internação hospitalar com medidas para SCA e realização de angiotomografia de coronárias." },
+        { "key": "B", "text": "alta hospitalar com orientações e angiotomografia de coronária ambulatorialmente." },
+        { "key": "C", "text": "internação hospitalar e cineangiocoronariografia precocemente." },
+        { "key": "D", "text": "realização de trombólise com alteplase." },
+        { "key": "E", "text": "internação hospitalar e teste ergométrico em leito de UTI." }
+      ],
+      "correct_key": "A",
+      "explanation": "Duas troponinas negativas seriadas afastam necrose miocárdica aguda, mas a onda T bifásica e o histórico extenso de DAC justificam internação para investigação (angiotomografia), sem necessidade de cateterismo emergencial nem trombólise.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_073",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "HEVV R1 2026",
+      "statement": "Paciente do sexo masculino, 58 anos, dor torácica típica há 90 minutos, ECG representado (imagem não incluída). PA 130x80mmHg, SatO2 95%. A conduta inicial mais adequada antes da reperfusão é:",
+      "alternatives": [
+        { "key": "A", "text": "AAS 100mg VO + clopidogrel 75mg VO + HNF em dose profilática" },
+        { "key": "B", "text": "AAS 300mg VO mastigável + ticagrelor 180mg VO + anticoagulação terapêutica" },
+        { "key": "C", "text": "AAS 500mg EV + prasugrel 10mg VO + enoxaparina 40mg SC" },
+        { "key": "D", "text": "AAS 81mg VO + nenhum P2Y12 até o cateterismo" }
+      ],
+      "correct_key": "B",
+      "explanation": "As doses de ataque padronizadas em SCA são AAS 300mg mastigável, ticagrelor 180mg (dose de ataque) e anticoagulação plena — a única opção com doses corretas em todos os fármacos. ATENÇÃO: depende do ECG da imagem — confirmar antes de publicar.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_074",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "UNESP R1 2026",
+      "statement": "As complicações mais comuns após IAM que levam a cirurgia de urgência ou emergência para correção são:",
+      "alternatives": [
+        { "key": "A", "text": "ruptura cardíaca, insuficiência valvar aórtica e aneurisma de ventrículo esquerdo." },
+        { "key": "B", "text": "comunicação interventricular, insuficiência mitral aguda e ruptura cardíaca." },
+        { "key": "C", "text": "estenose valvar aórtica aguda, dissecção de aorta e trombose em átrio direito." },
+        { "key": "D", "text": "ruptura cardíaca, aneurisma dissecante de aorta e trombose em átrio esquerdo." }
+      ],
+      "correct_key": "B",
+      "explanation": "As três complicações mecânicas clássicas do IAM que exigem correção cirúrgica de urgência são CIV, insuficiência mitral aguda (ruptura de músculo papilar) e ruptura de parede livre.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_075",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "UNIFESP R3CM 2024",
+      "statement": "Homem, 57 anos, HAS e DM de longa data, dor epigástrica forte, náuseas, sudorese fria. PA=80/40mmHg bilateral, FC=88bpm, SpO2=98%, ausculta normal, sem sopros/edemas. ECG: ritmo sinusal e supra de ST em DII, DIII e AVF. Recebeu AAS 300mg e prasugrel 60mg. Enquanto aguarda angioplastia primária, qual a terapia adicional mais adequada?",
+      "alternatives": [
+        { "key": "A", "text": "Associação de noradrenalina e dobutamina." },
+        { "key": "B", "text": "Expansão volêmica com solução cristaloide." },
+        { "key": "C", "text": "Isordil sublingual e enoxaparina endovenosa." },
+        { "key": "D", "text": "Associação de heparina com inibidor de glicoproteína IIB-IIIA." }
+      ],
+      "correct_key": "B",
+      "explanation": "IAM inferior com hipotensão sugere comprometimento de ventrículo direito, dependente de pré-carga: a conduta é expansão volêmica com cristaloide, evitando nitratos e diuréticos.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_076",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "UHG R1 2025",
+      "statement": "Qual é o principal objetivo do tratamento do Infarto Agudo do Miocárdio sem ST (IAM sem ST)?",
+      "alternatives": [
+        { "key": "A", "text": "Controle da dor e redução do estresse cardíaco." },
+        { "key": "B", "text": "Reperfusão miocárdica imediata com angioplastia primária." },
+        { "key": "C", "text": "Prevenção de arritmias ventriculares." },
+        { "key": "D", "text": "Redução da inflamação miocárdica com corticosteroides." }
+      ],
+      "correct_key": "A",
+      "explanation": "Diferentemente do IAMCSST, o IAMSSST não exige reperfusão imediata; o foco inicial é terapia anti-isquêmica (controle da dor/estresse cardíaco) e estratificação de risco, com invasão em tempo variável conforme risco.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_077",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "IAMSPE R3CM 2024",
+      "statement": "Paciente feminina, 47 anos, admitida com sudorese profusa, ansiedade generalizada e dor precordial opressiva sem irradiação. O médico considerou MINOCA ou TINOCA. Assinale a opção correta.",
+      "alternatives": [
+        { "key": "A", "text": "A faixa etária da paciente afasta a possibilidade de MINOCA e TINOCA." },
+        { "key": "B", "text": "Na MINOCA ocorre um quadro de infarto agudo do miocárdio sem doença arterial coronariana (DAC) obstrutiva." },
+        { "key": "C", "text": "No cateterismo cardíaco da MINOCA pode haver aterosclerose incipiente <20% de obstrução coronariana." },
+        { "key": "D", "text": "A TINOCA, devido às etiologias não isquêmicas de dor torácica, exclui a MINOCA." },
+        { "key": "E", "text": "A troponina deve ser negativa para se considerar quadro de TINOCA." }
+      ],
+      "correct_key": "B",
+      "explanation": "MINOCA é definida como IAM (troponina positiva com critérios clínicos/ECG de isquemia) na ausência de doença coronariana obstrutiva (>50%) à angiografia — é essa a definição central.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_078",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "SES-DF R3CM 2026",
+      "statement": "Caso clínico: paciente de 59 anos, hipertenso e tabagista, dor torácica em aperto há 40 minutos, irradiando para o braço esquerdo, sudorese fria. PA=140x85mmHg, FC=96bpm, FR=20irpm, SatO2=95%. ECG realizado (imagem não incluída). Qual é o diagnóstico mais provável para o quadro clínico apresentado?",
+      "alternatives": [
+        { "key": "A", "text": "Angina estável" },
+        { "key": "B", "text": "Síndrome coronariana aguda sem supra de ST" },
+        { "key": "C", "text": "Infarto agudo do miocárdio com supra de ST inferior" },
+        { "key": "D", "text": "Pericardite aguda" }
+      ],
+      "correct_key": "C",
+      "explanation": "Este caso clínico se repete no PDF (associado às questões sobre troponina e conduta de reperfusão imediata), sugerindo tratar-se de um IAM com supra de ST inferior confirmado no ECG. ATENÇÃO: depende do ECG da imagem, não disponível — confirmar antes de publicar.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_079",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "UNESP R3CM 2024",
+      "statement": "Homem de 52 anos, dor torácica há duas horas, forte intensidade, precordial, irradiação para MSE. HAS e tabagismo. PA 150x80mmHg, FC 82bpm, SatO2 93%, FR 22ipm. ECG: ritmo sinusal com inversão de onda T nas derivações precordiais. Variação de mais de mil unidades no intervalo de 1 hora entre duas troponinas ultrassensíveis. Em hospital com hemodinâmica disponível, a melhor conduta terapêutica inicial é:",
+      "alternatives": [
+        { "key": "A", "text": "iniciar aspirina 300mg VO, inibidor de P2Y12 VO e enoxaparina em dose de anticoagulação plena." },
+        { "key": "B", "text": "iniciar aspirina 300mg VO e enoxaparina em dose de anticoagulação plena." },
+        { "key": "C", "text": "iniciar aspirina 300mg VO, inibidor de P2Y12 VO e heparina não fracionada em dose de anticoagulação plena." },
+        { "key": "D", "text": "iniciar aspirina 300mg VO e heparina não fracionada em dose de anticoagulação plena." }
+      ],
+      "correct_key": "C",
+      "explanation": "Variação muito acentuada de troponina em 1h caracteriza risco muito alto, com cateterismo iminente — nesse contexto, heparina não fracionada é preferida à enoxaparina por sua meia-vida curta e reversibilidade, facilitando o manejo periprocedimento.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_080",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "UNESP R3CM 2026",
+      "statement": "De acordo com as Diretrizes da Sociedade Brasileira de Cardiologia sobre Angina Instável e IAM sem supra de ST - 2021, é correto afirmar que:",
+      "alternatives": [
+        { "key": "A", "text": "pacientes de Alto Risco (troponina positiva, GRACE >140 ou alterações dinâmicas do segmento ST) devem realizar intervenção invasiva em menos de 24 horas." },
+        { "key": "B", "text": "não é recomendada a troca entre inibidores P2Y12 nos primeiros 30 dias após a SCA." },
+        { "key": "C", "text": "pode ser realizada na sala de emergência dose de ataque de clopidogrel 300mg, ticagrelor 180mg ou prasugrel 60mg." },
+        { "key": "D", "text": "pacientes de Muito Alto Risco (troponina positiva, GRACE >140 ou alterações dinâmicas do segmento ST) devem realizar intervenção invasiva imediata." }
+      ],
+      "correct_key": "A",
+      "explanation": "Os critérios listados (troponina positiva, GRACE>140, alterações dinâmicas de ST) definem a categoria de Alto Risco, com indicação de invasão em <24h — não Muito Alto Risco (que exige instabilidade hemodinâmica, arritmia grave ou complicação mecânica para intervenção imediata).",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_081",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "USP-RP R3CM 2023",
+      "statement": "Homem, 45 anos, dislipidêmico, dor precordial há 2 horas com irradiação para ombro direito, diaforese e náuseas. Exame físico: estertores pulmonares basais; FC=70bpm, PA=100x60mmHg. Traçado ECG mostrado (imagem não incluída). Qual a conduta?",
+      "alternatives": [
+        { "key": "A", "text": "Intervenção coronariana percutânea." },
+        { "key": "B", "text": "Seriar ECG e observação clínica." },
+        { "key": "C", "text": "Tomografia computadorizada de tórax." },
+        { "key": "D", "text": "Seriar troponina e eletrocardiograma." }
+      ],
+      "correct_key": "D",
+      "explanation": "Sem confirmação de STEMI descrita no texto e paciente estável, a conduta padrão e mais segura é a monitorização seriada de ECG e troponina. ATENÇÃO: depende do ECG da imagem — confirmar antes de publicar.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_082",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "FGV OUTRAS PROVAS 2023",
+      "statement": "Assinale a opção que indica a complicação mecânica que, após o infarto agudo do miocárdio, apresenta maior incidência.",
+      "alternatives": [
+        { "key": "A", "text": "Comunicação interventricular." },
+        { "key": "B", "text": "Ruptura da parede livre do VE." },
+        { "key": "C", "text": "Trombo apical de VE." },
+        { "key": "D", "text": "Insuficiência mitral aguda." },
+        { "key": "E", "text": "Tamponamento cardíaco." }
+      ],
+      "correct_key": "D",
+      "explanation": "Entre as complicações mecânicas clássicas do IAM (CIV, ruptura de parede livre, insuficiência mitral aguda), a insuficiência mitral aguda por disfunção/ruptura de músculo papilar é a mais frequente.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_083",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "UNESP R3CM 2026",
+      "statement": "Homem de 50 anos, IAM com supra de parede anterior extensa, trombólise química sem critérios de reperfusão. Angioplastia de DA após 8h, sem lesões residuais graves. ECO: FE 36%, hipocinesia anterior/apical, trombo apical mantido em controles de 6 e 12 meses. Sobre a terapia instituída, é correta a seguinte conduta:",
+      "alternatives": [
+        { "key": "A", "text": "tripla terapia durante internação; na alta, manter clopidogrel + anticoagulante por 1 ano e após somente anticoagulante." },
+        { "key": "B", "text": "tripla terapia durante internação; na alta, manter AAS + anticoagulante por 1 ano e após somente anticoagulante." },
+        { "key": "C", "text": "tripla terapia durante internação; na alta, manter apenas AAS + clopidogrel por 1 ano e após somente AAS." },
+        { "key": "D", "text": "dupla terapia durante internação; na alta, manter AAS + clopidogrel por 1 ano e após somente AAS." }
+      ],
+      "correct_key": "B",
+      "explanation": "Trombo apical persistente exige manutenção da anticoagulação além do período padrão de DAPT; com persistência do trombo em 12 meses, a anticoagulação deve continuar além desse prazo, mantendo AAS como antiagregante de base.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_084",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "UNICAMP R3CM 2024",
+      "statement": "Homem, 72 anos, dor precordial com irradiação para membros superiores há quatro horas. Uso de sildenafil há 1 semana. Diabético (60 anos-maço tabagismo). ECG apresentado (imagem não incluída). É CORRETO AFIRMAR:",
+      "alternatives": [
+        { "key": "A", "text": "Não há contraindicações ao uso de nitroglicerina EV, visto que o paciente fez uso de sildenafil há uma semana." },
+        { "key": "B", "text": "Há uma lesão suboclusiva na artéria que irriga a parede lateral-alta." },
+        { "key": "C", "text": "Há um trombo branco na artéria que irriga a parede inferior, que deve ser tratado com trombolíticos." },
+        { "key": "D", "text": "O uso de betabloqueador endovenoso não está indicado neste caso." }
+      ],
+      "correct_key": "A",
+      "explanation": "O sildenafil tem meia-vida curta (interação com nitratos limitada a ~24-48h); uso há 1 semana já eliminou o risco de hipotensão grave, tornando o nitrato seguro. ATENÇÃO: depende do ECG da imagem — confirmar antes de publicar.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_085",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "AMP R1 2023",
+      "statement": "Paciente do sexo masculino, 60 anos, dor retroesternal opressiva, forte intensidade, início há 30 minutos, sudorese, palidez e ansiedade. ECG com ondas T isoelétricas em V3 a V6, sem alteração do segmento ST. Mioglobina, troponina cTNI e CK-MB normais. Após 3h de observação, melhora dos sintomas, ECG inalterado e biomarcadores cardíacos séricos elevados. Qual o diagnóstico?",
+      "alternatives": [
+        { "key": "A", "text": "Angina estável." },
+        { "key": "B", "text": "Angina instável." },
+        { "key": "C", "text": "Angina variante de Prinzmetal." },
+        { "key": "D", "text": "Infarto do miocárdio com elevação do segmento ST." },
+        { "key": "E", "text": "Infarto do miocárdio sem elevação do segmento ST." }
+      ],
+      "correct_key": "E",
+      "explanation": "Elevação de biomarcadores confirma necrose miocárdica; ausência de supra de ST classifica como IAMSSST.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_086",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "CMC R1 2024",
+      "statement": "O mecanismo fisiopatológico do Espasmo Coronariano é uma hiper-reatividade da camada muscular tanto das artérias epicárdicas quanto da microcirculação. Podemos indicar como correto que:",
+      "alternatives": [
+        { "key": "A", "text": "Gatilhos como estresse, hiperventilação, períodos diurnos e ciclos sazonais sugerem alterações intracelulares e não em pós-receptores relacionados à hiper-reatividade." },
+        { "key": "B", "text": "Os mesmos gatilhos sugerem alterações intracelulares e pós-receptores relacionados à hipo-reatividade." },
+        { "key": "C", "text": "Os mesmos gatilhos sugerem alterações intracelulares e pós-receptores relacionados à hiper-reatividade." },
+        { "key": "D", "text": "Os mesmos gatilhos, exceto ciclos sazonais, sugerem alterações intracelulares e pós-receptores relacionados à hiper-reatividade." }
+      ],
+      "correct_key": "C",
+      "explanation": "A fisiopatologia do espasmo coronariano envolve tanto mecanismos intracelulares quanto pós-receptores relacionados à hiper-reatividade da musculatura lisa vascular, com gatilhos incluindo estresse, hiperventilação, variação diurna e sazonal.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_087",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "FAMERP R3CM 2026",
+      "statement": "Mulher de 55 anos, sem fatores de risco, dor torácica súbita após estresse emocional intenso. ECG: supradesnível do segmento ST difuso; coronárias sem obstrução significativa. Segundo guideline ACC/AHA 2025, qual o diagnóstico e conduta inicial corretos?",
+      "alternatives": [
+        { "key": "A", "text": "Provável cardiomiopatia de Takotsubo; manejo semelhante à SCA, com suporte hemodinâmico." },
+        { "key": "B", "text": "Diagnóstico de miocardite viral com necessidade de biópsia cardíaca imediata." },
+        { "key": "C", "text": "Indicação de anticoagulação plena até normalização total da curva de troponina, mantendo o paciente internado em Unidade Coronariana." },
+        { "key": "D", "text": "Indicação de angioplastia emergencial com stent e suporte hemodinâmico em Unidade Coronariana." }
+      ],
+      "correct_key": "A",
+      "explanation": "Gatilho emocional + supra de ST difuso + coronárias sem obstrução significativa é o quadro típico de Takotsubo, tratado inicialmente como SCA até confirmação diagnóstica, com suporte hemodinâmico conforme necessário.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_088",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "UEL R1 2023",
+      "statement": "Paciente masculino, 14 anos, jogador de futebol de base, mal-estar no treino, dor torácica em aperto e náuseas. Evoluiu com hipotensão, instabilidade hemodinâmica e óbito. ECG: supra de ST anterior. Necropsia: coronárias anatomicamente sem alterações, sem placas ateromatosas, com áreas de necrose em parede anterior. Segundo a classificação de IAM por fatores desencadeantes (Diretriz de Angina Instável e IAMSSST, 2021), assinale a classificação provável.",
+      "alternatives": [
+        { "key": "A", "text": "Tipo 2." },
+        { "key": "B", "text": "Tipo 3." },
+        { "key": "C", "text": "Tipo 4a." },
+        { "key": "D", "text": "Tipo 4b." },
+        { "key": "E", "text": "Tipo 4c." }
+      ],
+      "correct_key": "A",
+      "explanation": "Necrose miocárdica sem evidência de ruptura de placa/trombose (coronárias normais) durante esforço extremo é compatível com IAM Tipo 2, causado por desbalanço entre oferta e demanda de oxigênio (ex.: espasmo coronariano intenso).",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_089",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "HSA-GUARUJA R1 2023",
+      "statement": "Homem de 45 anos, dor torácica subesternal irradiando para o braço esquerdo há 3 horas. ECG mostra apenas alterações inespecíficas. Ao ser informado de que o ECG está normal, o paciente pediu para ir para casa. Qual afirmativa é a mais correta?",
+      "alternatives": [
+        { "key": "A", "text": "É seguro dar alta para o paciente ir para casa." },
+        { "key": "B", "text": "Se um ECG repetido em 30 minutos resultar normal, a hipótese de infarto é excluída e o paciente pode receber alta com segurança." },
+        { "key": "C", "text": "O paciente deve ser alertado de que metade dos pacientes com ataque cardíaco tem ECG não diagnóstico e requer avaliação seriada de biomarcadores." },
+        { "key": "D", "text": "O paciente deve ser submetido imediatamente a teste de estresse com tálio para avaliação adicional." }
+      ],
+      "correct_key": "C",
+      "explanation": "É bem estabelecido que até 50% dos pacientes com IAM apresentam ECG inicial não diagnóstico, justificando avaliação seriada de biomarcadores antes de excluir o diagnóstico.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_090",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "UHG R1 2024",
+      "statement": "Paciente do sexo feminino, 50 anos, hipertensa, tabagista e diabética, trazida pelo SAMU com precordialgia em pontada, forte intensidade, há 30 minutos, sem relação com esforço, irradiada para região epigástrica, sudorese fria. ECG realizado imediatamente (imagem não incluída). A hipótese diagnóstica e a conduta visando a efetiva reperfusão miocárdica são:",
+      "alternatives": [
+        { "key": "A", "text": "IAM com infradesnivelamento do segmento ST em parede inferior. Tratamento com trombolítico endovenoso imediatamente." },
+        { "key": "B", "text": "IAM com supradesnivelamento do segmento ST em parede septal. Aguardar marcadores de necrose para determinar a conduta." },
+        { "key": "C", "text": "IAM com supradesnivelamento do segmento ST em parede anterior extensa. Encaminhar para angioplastia primária imediatamente." },
+        { "key": "D", "text": "IAM com supradesnivelamento do segmento ST em parede infero-látero-dorsal. Aguardar marcadores de necrose para determinar a conduta." }
+      ],
+      "correct_key": "C",
+      "explanation": "Dentre as opções, apenas a alternativa C descreve corretamente a conduta padrão para STEMI confirmado (reperfusão imediata, não aguardar biomarcadores). ATENÇÃO: depende do ECG da imagem para confirmar localização — confirmar antes de publicar.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_091",
+      "theme": "cardio_sca",
+      "difficulty": "facil",
+      "source": "SCML R1 2024",
+      "statement": "A maioria das mulheres com IAM apresentam:",
+      "alternatives": [
+        { "key": "A", "text": "Sintomas prodrômicos sem falta de ar, fadiga incomum ou desconforto em braço/mandíbula nas semanas anteriores." },
+        { "key": "B", "text": "Sintomas prodrômicos de falta de ar, fadiga incomum ou desconforto em braço, mas não na mandíbula, nas semanas anteriores." },
+        { "key": "C", "text": "Sintomas prodrômicos de falta de ar e fadiga incomum, mas não com desconforto em braço/mandíbula, nas semanas anteriores." },
+        { "key": "D", "text": "Sintomas prodrômicos de falta de ar, fadiga incomum ou desconforto em braço/mandíbula nas semanas anteriores." }
+      ],
+      "correct_key": "D",
+      "explanation": "Estudos clássicos (McSweeney) mostram que a maioria das mulheres relata sintomas prodrômicos inespecíficos (dispneia, fadiga incomum, desconforto em braço/mandíbula) semanas antes do evento agudo.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_092",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "USP-RP R1 2023",
+      "statement": "Homem de 66 anos, diabético, coronariopatia obstrutiva e DAOP ateroscleróticas, creatinina 1,4mg/dl, FEVE 30%, 22% de miocárdio isquêmico, lesão de 55% de tronco de coronária esquerda e obstruções >70% em ramo marginal da circunflexa, DA proximal, segundo diagonal e porção distal da coronária direita dominante. Syntax Score I = 38. Angina classe III (CCS). Qual conduta oferece maior sobrevida em 4 anos?",
+      "alternatives": [
+        { "key": "A", "text": "Cirurgia de revascularização do miocárdio." },
+        { "key": "B", "text": "Tratamento paliativo." },
+        { "key": "C", "text": "Tratamento medicamentoso otimizado apenas." },
+        { "key": "D", "text": "Intervenção coronária percutânea." }
+      ],
+      "correct_key": "A",
+      "explanation": "Doença de tronco de coronária esquerda associada a multiarterial complexa (Syntax Score alto, >32) e disfunção ventricular tem indicação preferencial de CRM, com melhor sobrevida em relação à ICP nesse perfil de complexidade.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_093",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "UEPA R1 2026",
+      "statement": "Homem de 58 anos, com IAM prévio tratado com angioplastia há 3 meses, em uso de AAS + clopidogrel + atorvastatina, aderente ao tratamento. Retorna com dor torácica e nova elevação de troponina; cineangiografia revela trombose do stent apesar da adesão. Farmacogenômica: CYP2C19 *2/*2 LoF (metabolizador pobre); SLCO1B1 c.521CC (alto risco de miopatia com estatinas); genótipo normal para CES1, ABCB1 e CYP3A4. A conduta mais adequada para reduzir o risco de novo evento trombótico é:",
+      "alternatives": [
+        { "key": "A", "text": "substituir clopidogrel por prasugrel ou ticagrelor devido à ineficácia mediada por CYP2C19." },
+        { "key": "B", "text": "manter clopidogrel e aumentar a dose, para 150mg/dia." },
+        { "key": "C", "text": "suspender a dupla antiagregação e introduzir anticoagulação plena com rivaroxabana." },
+        { "key": "D", "text": "trocar atorvastatina por rosuvastatina devido ao genótipo SLCO1B1." },
+        { "key": "E", "text": "suspender estatina e manter apenas antiagregação até completar 12 meses pós-IAM." }
+      ],
+      "correct_key": "A",
+      "explanation": "Metabolizador pobre de CYP2C19 explica a falha do clopidogrel (pró-fármaco que depende dessa via para ativação); a conduta correta é trocar para prasugrel ou ticagrelor, cuja eficácia não depende dessa enzima.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_094",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "UNESP R1 2024",
+      "statement": "Homem de 60 anos, dor precordial intensa há uma hora. HAS e tabagismo. ECG conforme figura (imagem não incluída). A conduta mais adequada é administrar AAS e:",
+      "alternatives": [
+        { "key": "A", "text": "clopidogrel, enoxaparina e aguardar marcadores de necrose para definir necessidade de intervenção." },
+        { "key": "B", "text": "clopidogrel e realizar trombólise com tenecteplase se não houver contraindicação." },
+        { "key": "C", "text": "ticagrelor e encaminhar imediatamente para angioplastia primária." },
+        { "key": "D", "text": "não realizar pré-tratamento com outro antitrombótico/antiplaquetário e encaminhar para angioplastia primária." }
+      ],
+      "correct_key": "D",
+      "explanation": "As diretrizes atuais recomendam não fazer pré-tratamento com P2Y12 quando o paciente será encaminhado diretamente à angioplastia primária, administrando o inibidor apenas no momento do procedimento. ATENÇÃO: depende do ECG da imagem — confirmar antes de publicar.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_095",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "ISCMSC R1 2025",
+      "statement": "A prevalência do IAM em mulheres é menor nos jovens do que em outras faixas etárias:",
+      "alternatives": [
+        { "key": "A", "text": "Mas existem tendências preocupantes, dado que a proporção atribuível a jovens (35-54 anos) aumentou de 27% para 32% nas últimas duas décadas, com maior aumento de mulheres jovens (21% a 31%)." },
+        { "key": "B", "text": "Mas existem tendências preocupantes, dado que a proporção atribuível a jovens (35-54 anos) aumentou de 27% para 32%, com menor aumento de mulheres jovens." },
+        { "key": "C", "text": "Mas existem tendências preocupantes, dado que a proporção atribuível a jovens (35-54 anos) reduziu nas últimas duas décadas, com maior aumento de mulheres jovens (21% a 31%)." },
+        { "key": "D", "text": "Mas existem tendências preocupantes, dado que a proporção atribuível a jovens (35-54 anos) não aumentou nas últimas duas décadas, com maior aumento de mulheres jovens (21% a 31%)." }
+      ],
+      "correct_key": "A",
+      "explanation": "Mesma questão epidemiológica repetida no documento: aumento de 27% para 32% na proporção de IAM em jovens, com aumento desproporcional em mulheres jovens (21% para 31%).",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_096",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "UFRJ R1 2025",
+      "statement": "É CONTRAINDICAÇÃO ABSOLUTA à fibrinólise nas síndromes coronarianas com supra desnível do segmento ST:",
+      "alternatives": [
+        { "key": "A", "text": "AVE hemorrágico prévio" },
+        { "key": "B", "text": "idade avançada" },
+        { "key": "C", "text": "úlcera péptica em atividade" },
+        { "key": "D", "text": "menstruação" }
+      ],
+      "correct_key": "A",
+      "explanation": "AVE hemorrágico prévio (a qualquer tempo) é contraindicação absoluta à fibrinólise. As demais opções são contraindicações relativas ou não constituem contraindicação.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_097",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "UFCSPA R1 2023",
+      "statement": "No manejo das SCA sem supradesnível de ST, analise: I. O uso de nitrato é contraindicado com PAS <90mmHg. II. Estatinas precoces e em doses elevadas (Atorvastatina 80mg ou Rosuvastatina 40mg) associam-se a menor recorrência de SCA. III. Morfina pode retardar a absorção e diminuir o efeito antiplaquetário dos inibidores P2Y12 orais (Clopidogrel, Ticagrelor e Prasugrel). Está(ão) CORRETO(S):",
+      "alternatives": [
+        { "key": "A", "text": "Somente o item I." },
+        { "key": "B", "text": "Somente os itens I e II." },
+        { "key": "C", "text": "Somente os itens II e III." },
+        { "key": "D", "text": "Todos os itens." }
+      ],
+      "correct_key": "D",
+      "explanation": "Todas as três afirmativas são bem estabelecidas: nitrato contraindicado em hipotensão, estatina de alta intensidade precoce reduz recorrência, e morfina retarda/reduz a absorção de P2Y12 orais.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_098",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "FAMERP R1 2025",
+      "statement": "Paciente de 32 anos, previamente saudável, admitido com sepse urinária por pielonefrite, febril, taquicárdico e hipotenso, em reposição volêmica e noradrenalina. Gasometria: acidose metabólica com lactato elevado. Troponina T ultrassensível 80 e 125 ng/L (normal <14). ECG: taquicardia sinusal e alteração difusa da repolarização. ECO: FEVE 55%, sem alterações segmentares de contratilidade. Qual o principal diagnóstico?",
+      "alternatives": [
+        { "key": "A", "text": "Miocardite" },
+        { "key": "B", "text": "Infarto sem supra ST" },
+        { "key": "C", "text": "Injúria miocárdica aguda" },
+        { "key": "D", "text": "Infarto do miocárdico sem coronariopatia obstrutiva (MINOCA)" }
+      ],
+      "correct_key": "C",
+      "explanation": "Elevação de troponina em contexto de sepse grave, sem alterações segmentares de contratilidade nem critérios clínicos claros de isquemia, é classificada como injúria miocárdica aguda não isquêmica (demand-related), não IAM verdadeiro.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_099",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "SES-DF R3CM 2026",
+      "statement": "Caso clínico: paciente de 59 anos, hipertenso e tabagista, dor torácica em aperto há 40 minutos, irradiando para o braço esquerdo, sudorese fria. PA=140x85mmHg, FC=96bpm, FR=20irpm, SatO2=95%. ECG realizado (imagem não incluída). Qual é a conduta imediata indicada nesse cenário?",
+      "alternatives": [
+        { "key": "A", "text": "Realizar terapia de reperfusão imediata (angioplastia primária ou trombólise)." },
+        { "key": "B", "text": "Solicitar ecocardiograma antes de qualquer intervenção." },
+        { "key": "C", "text": "Administrar nitrato sublingual e observar a evolução." },
+        { "key": "D", "text": "Solicitar teste ergométrico após analgesia." }
+      ],
+      "correct_key": "A",
+      "explanation": "Mesmo caso repetido no documento, apontando para IAM com supra de ST — a conduta correta é reperfusão imediata. ATENÇÃO: depende do ECG da imagem — confirmar antes de publicar.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_100",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "UNIFESP R3CM 2026",
+      "statement": "Homem, 65 anos, dor retroesternal em aperto há 2 horas, náuseas e sudorese. HAS e hipercolesterolemia. PA=140/90mmHg, FR=20irpm, FC=90bpm, SpO2=96%, peso=80Kg; exame sem alterações. ECG: supradesnivelamento de ST de parede anterior. Previsão de transferência para hospital com cateterismo é de 120 minutos. Qual a terapêutica imediata mais adequada?",
+      "alternatives": [
+        { "key": "A", "text": "AAS 200mg VO, clopidogrel 300mg VO, enoxaparina 30mg EV e tenecteplase 45mg EV." },
+        { "key": "B", "text": "AAS 200mg VO, clopidogrel 600mg VO, heparina não fracionada 4.000 UI EV e transferência para ICP primária." },
+        { "key": "C", "text": "AAS 200mg VO, clopidogrel 300mg VO, enoxaparina 30mg EV e enoxaparina 80mg subcutânea." },
+        { "key": "D", "text": "AAS 200mg VO, clopidogrel 75mg VO, enoxaparina 30mg EV, enoxaparina 80mg subcutânea e alteplase em dose acelerada." }
+      ],
+      "correct_key": "A",
+      "explanation": "Com delay de 120 minutos (limite da janela), a estratégia fármaco-invasiva é adequada. A dose de tenecteplase de 45mg corresponde exatamente à faixa de peso 80-90kg da tabela de dosagem ponderal, tornando esta a opção com dosagem tecnicamente correta.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_101",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "PUC-SP R1 2026",
+      "statement": "Paciente de 76 anos, dor precordial típica de início súbito há duas horas, sinais vitais estáveis. Sala de hemodinâmica disponível somente em 2h30 (150 minutos). ECG apresentado (imagem não incluída). Qual alternativa expressa melhor o diagnóstico e a conduta imediata?",
+      "alternatives": [
+        { "key": "A", "text": "IAM de parede anterior; AAS 200mg, Clopidogrel 75mg e trombólise imediata." },
+        { "key": "B", "text": "IAM de parede anterior; AAS 200mg, Clopidogrel 300mg, enoxaparina 30mg IV e trombólise imediata." },
+        { "key": "C", "text": "IAM de parede anterior; AAS 200mg, Clopidogrel 300mg, enviar para sala de hemodinâmica." },
+        { "key": "D", "text": "IAM de parede inferior; AAS 200mg, Clopidogrel 300mg, enviar para sala de hemodinâmica." }
+      ],
+      "correct_key": "B",
+      "explanation": "Delay de 150 minutos ultrapassa a janela de 120 min, favorecendo trombólise imediata com o pacote completo de antitrombóticos. ATENÇÃO: depende do ECG da imagem para confirmar a parede acometida — confirmar antes de publicar.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_102",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "HEVV R1 2025",
+      "statement": "Homem, 62 anos, diabético, hipertenso grave há 20 anos, náuseas e dor precordial intensa com irradiação para braço esquerdo há uma hora. Refere dor semelhante de menor intensidade em esforços, aliviada com nitrato e repouso em 15-20min. Dor atual iniciou em repouso após o almoço. Calmo, pálido, hemodinamicamente estável. ECG apresentado (imagem não incluída). Qual é o diagnóstico mais provável?",
+      "alternatives": [
+        { "key": "A", "text": "Angina estável." },
+        { "key": "B", "text": "Angina prolongada em paciente já portador de insuficiência coronária crônica." },
+        { "key": "C", "text": "Angina instável ou infarto agudo do miocárdio sem elevação de ST." },
+        { "key": "D", "text": "Angina instável ou infarto agudo do miocárdio com elevação de ST." }
+      ],
+      "correct_key": "C",
+      "explanation": "Mudança do padrão anginoso prévio (agora ocorrendo em repouso, mais intensa e prolongada) caracteriza síndrome coronariana aguda — angina instável/IAMSSST. ATENÇÃO: depende do ECG da imagem para confirmar ausência de supra de ST — confirmar antes de publicar.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_103",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "IAMSPE R3CM 2025",
+      "statement": "Paciente masculino, 54 anos, diabético, dor torácica típica há 2 horas. ECG: supradesnivelamento de ST de 3mm em DII, DIII, aVF com infradesnivelamento especular em V2-V3. PA 85/50mmHg, FC 110bpm, B3 presente. Killip III. Centro de hemodinâmica disponível em 90 minutos. Na definição da estratégia de reperfusão e terapia adjuvante do IAM inferior com disfunção de VD, selecione a afirmativa correta.",
+      "alternatives": [
+        { "key": "A", "text": "O uso de morfina deve ser evitado pelo risco de bradicardia/hipotensão, sendo preferencial sulfato de magnésio 2g EV para controle da dor isquêmica." },
+        { "key": "B", "text": "A administração de nitrato sublingual está indicada na fase inicial para redução da pré-carga, independente dos níveis pressóricos e acometimento de VD." },
+        { "key": "C", "text": "A trombólise com tenecteplase seguida de angioplastia entre 3-24h (estratégia fármaco-invasiva) tem desfechos superiores à transferência para ICP primária quando o delta porta-balão estimado é >90 minutos." },
+        { "key": "D", "text": "Infradesnivelamento do ST >2mm em V1-V2 associado a supra em V1 sugere extensão para VD, contraindicando diurético mesmo em congestão pulmonar." },
+        { "key": "E", "text": "O bloqueio AV total transitório no IAM inferior com instabilidade hemodinâmica deve ser tratado inicialmente com atropina, reservando-se marca-passo provisório para falha terapêutica." }
+      ],
+      "correct_key": "E",
+      "explanation": "É conduta padrão (ACLS) tratar bradiarritmias/BAVT sintomático no IAM inferior primeiro com atropina, reservando marca-passo transcutâneo/transvenoso para os casos refratários.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_104",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "SUS-SP R1 2025",
+      "statement": "Homem de 52 anos, tabagista 30 anos/maço, diabético e dislipidêmico, dor precordial inespecífica sem irradiação, iniciada há 10 minutos ao levantar uma caixa, com sudorese e mal-estar. ECG (imagem não incluída) e troponina dentro do valor de referência. Assinale a conduta adequada.",
+      "alternatives": [
+        { "key": "A", "text": "Trata-se de angina, sem IAM; realizar teste ergométrico ambulatorialmente." },
+        { "key": "B", "text": "Angioplastia primária, por se tratar de infarto com supra de ST de V2 a V4." },
+        { "key": "C", "text": "Deverá ser mantido no pronto-socorro para seriar ECG e troponina." },
+        { "key": "D", "text": "Angina sem IAM; realizar angiotomografia de coronárias ambulatorialmente." },
+        { "key": "E", "text": "Trombólise química devido a IAM sem critérios para angioplastia primária." }
+      ],
+      "correct_key": "C",
+      "explanation": "Sintomas muito recentes (10 minutos) com troponina ainda normal não permitem excluir SCA com segurança; a conduta correta é observação com ECG e troponina seriados. ATENÇÃO: depende do ECG da imagem — confirmar antes de publicar.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_105",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "HSM-DF R1 2023",
+      "statement": "Paciente de 61 anos, sedentário, obeso e tabagista, epigastralgia em queimação de forte intensidade há duas horas após o almoço. FC 60bpm, FR 25irpm, SatO2 92%, PA 100x60mmHg, ausculta normal. ECG realizado (imagem não incluída). Qual é a principal hipótese de diagnóstico?",
+      "alternatives": [
+        { "key": "A", "text": "Bloqueio de ramo direito." },
+        { "key": "B", "text": "Infarto agudo do miocárdio" },
+        { "key": "C", "text": "Síndrome de Wolf Parkinson White" },
+        { "key": "D", "text": "Hipertonia vagal" },
+        { "key": "E", "text": "Fibrilação atrial" }
+      ],
+      "correct_key": "B",
+      "explanation": "Epigastralgia com fatores de risco cardiovascular e taquipneia/hipoxemia sugere IAM (frequentemente inferior) mimetizando quadro digestivo — mensagem central testada repetidamente neste conjunto de questões. ATENÇÃO: depende do ECG da imagem — confirmar antes de publicar.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_106",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "INTO R1 2024",
+      "statement": "Homem de 67 anos, doente renal crônico, hipertenso e diabético, mal-estar e náuseas há 30 minutos, com sudorese. Pulso 84bpm; FR 12irpm; PA 168x104mmHg; pulsos simétricos; bulhas normofonéticas; exame pulmonar/abdominal normal. ECG realizado na sala de emergência (imagem não incluída). Assinale o provável diagnóstico:",
+      "alternatives": [
+        { "key": "A", "text": "Hipercalcemia." },
+        { "key": "B", "text": "Hipercalemia." },
+        { "key": "C", "text": "Infarto agudo do miocárdio." },
+        { "key": "D", "text": "Bloqueio de ramo esquerdo." },
+        { "key": "E", "text": "Dissecção aguda de aorta." }
+      ],
+      "correct_key": "B",
+      "explanation": "Paciente com doença renal crônica tem risco elevado de hipercalemia, causa metabólica clássica de alterações eletrocardiográficas que não deve ser esquecida neste contexto. ATENÇÃO: depende do ECG da imagem — confirmar antes de publicar.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_107",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "SCMRP R3CM 2026",
+      "statement": "Assinale a alternativa correta sobre o eletrocardiograma na avaliação de pacientes com dor torácica na sala de emergência.",
+      "alternatives": [
+        { "key": "A", "text": "Infradesnivelamento do segmento ST em V1-V3 pode indicar IAM com supra de parede posterior." },
+        { "key": "B", "text": "Em indivíduos <40 anos, considera-se infarto com supra de ST em V2-V3 se o supradesnível for de 1mm ou maior." },
+        { "key": "C", "text": "ECG não diagnóstico deve ser repetido após uma hora se o paciente permanecer sintomático." },
+        { "key": "D", "text": "A presença de ondas T bifásicas em V2-V3 pode indicar síndrome de Wellens se houver ondas Q associadas." },
+        { "key": "E", "text": "ECG com critérios diagnósticos inequívocos representam 50-60% dos pacientes incluídos em protocolos de dor torácica." }
+      ],
+      "correct_key": "A",
+      "explanation": "É teoria clássica que o padrão em espelho de infradesnivelamento de ST em V1-V3 (com onda R proeminente) representa infarto de parede posterior. A síndrome de Wellens (D), ao contrário, NÃO apresenta ondas Q patológicas — presença de Q afastaria o diagnóstico.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_108",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "UNESC-ES R1 2023",
+      "statement": "As síndromes coronarianas agudas são emergências clínicas de alta morbimortalidade. Acerca do tratamento dessas condições, julgue as alternativas e marque a correta:",
+      "alternatives": [
+        { "key": "A", "text": "O uso de oxigenoterapia deve ser realizado de rotina na sala de emergência." },
+        { "key": "B", "text": "O uso de beta-bloqueadores (via oral) deve ser feito nos pacientes sem sinais de baixo débito." },
+        { "key": "C", "text": "A morfina deve ser evitada, pois aumenta o consumo miocárdico de oxigênio." },
+        { "key": "D", "text": "A dose de ataque de enoxaparina deve ser feita na dose de 1mg/kg, via subcutânea." },
+        { "key": "E", "text": "A fibrinólise pode ser realizada para pacientes com SCA sem supra de ST de alto risco." }
+      ],
+      "correct_key": "D",
+      "explanation": "A dose padrão de enoxaparina na SCA é 1mg/kg SC a cada 12h, correspondendo à alternativa D. Oxigênio de rotina não é mais recomendado (só se SpO2<90%), betabloqueador oral já é indicado mesmo sem baixo débito (é contraindicado apenas SE houver baixo débito), morfina não tem essa justificativa fisiológica como principal razão de evitar, e fibrinólise não é indicada em SCA sem supra de ST.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_109",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "IAMSPE R1 2025",
+      "statement": "Um homem de 55 anos sofre parada cardiorrespiratória durante esforço físico. ECG mostra fibrilação ventricular como ritmo inicial. Qual é a causa cardíaca mais provável dessa parada cardiorrespiratória?",
+      "alternatives": [
+        { "key": "A", "text": "Miocardite viral, frequentemente associada a bloqueios cardíacos completos." },
+        { "key": "B", "text": "Infarto agudo do miocárdio, levando a isquemia miocárdica severa e arritmias malignas." },
+        { "key": "C", "text": "Tamponamento cardíaco, causando colapso hemodinâmico por compressão do coração." },
+        { "key": "D", "text": "Dissecção aguda de aorta, resultando em tamponamento e colapso circulatório." },
+        { "key": "E", "text": "Síndrome do QT longo, predispondo à taquiarritmia polimórfica." }
+      ],
+      "correct_key": "B",
+      "explanation": "Doença coronariana aguda é a causa mais comum de FV/morte súbita associada a esforço em adultos, na ausência de outros achados sugestivos de canalopatia ou doença estrutural específica.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_110",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "HCPA R3CM 2024",
+      "statement": "Paciente masculino, 76 anos, dor retroesternal de forte intensidade, sudorese e mal-estar há 2 horas. Ex-tabagista, HAS sem controle regular. PA 82/64mmHg, FC 102bpm, estertores bibasais, má perfusão periférica. ECG e ecocardiograma à beira do leito reproduzidos (imagens não incluídas). A conduta a ser seguida deve incluir:",
+      "alternatives": [
+        { "key": "A", "text": "administração de antiagregantes plaquetários e infusão de soro fisiológico e noradrenalina." },
+        { "key": "B", "text": "administração de antiagregantes plaquetários e realização de angioplastia primária." },
+        { "key": "C", "text": "realização de cateterismo cardíaco e cirurgia cardíaca de urgência." },
+        { "key": "D", "text": "realização de angiotomografia computadorizada de aorta e estabilização clínica." }
+      ],
+      "correct_key": "C",
+      "explanation": "A inclusão de ecocardiograma à beira-leito no enunciado sugere identificação de uma complicação mecânica (ex.: ruptura de músculo papilar/CIV), justificando cateterismo diagnóstico seguido de correção cirúrgica de urgência. ATENÇÃO: depende das imagens de ECG/ECO, não disponíveis — confirmar antes de publicar.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_111",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "INEP REVALIDA 2023",
+      "statement": "Homem de 56 anos, dor precordial há 6 horas irradiando para pescoço, ombro e braço esquerdos. HAS, tabagista há 30 anos, Escore de Framingham 22 pontos, uso regular de hidroclorotiazida e losartana. PA 160x100mmHg, SatO2 86%. ECG na UBS: ritmo sinusal, FC 105bpm, supradesnivelamento de ST de V1 a V4. a) Qual a hipótese diagnóstica mais provável? b) Cite as sete principais medidas de abordagem imediata na UBS. c) Indique o tipo de transporte seguro.",
+      "alternatives": [
+        { "key": "A", "text": "a) IAM (IAMCSST de parede anterior). b) Monitorar sinais vitais; oxigênio; AAS 300mg; nitratos; morfina se falha de nitratos; acesso venoso calibroso; referenciar com transporte seguro. c) Ambulância com suporte avançado, ou suporte básico com médico da UBS na equipe." }
+      ],
+      "correct_key": "A",
+      "explanation": "Gabarito oficial fornecido no próprio enunciado da prova (questão dissertativa do INEP/Revalida), com a hipótese diagnóstica, as sete medidas de abordagem imediata e o tipo de transporte adequado já discriminados no texto.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_112",
+      "theme": "cardio_sca",
+      "difficulty": "dificil",
+      "source": "IAMSPE R1 2026",
+      "statement": "Paciente de 54 anos, tabagista, dor torácica em aperto iniciada há 1 hora durante caminhada leve. HAS e dislipidemia em tratamento irregular. ECG: depressão do segmento ST em derivações precordiais. Troponina convencional na admissão 0,8ng/mL (limite superior 0,04ng/mL); nova dosagem 3h após: 1,5ng/mL. Determine a classificação diagnóstica e a interpretação da variação dos biomarcadores:",
+      "alternatives": [
+        { "key": "A", "text": "IAM sem supradesnivelamento de ST; curva de troponina negativa com variação de 87,5% entre as dosagens." },
+        { "key": "B", "text": "Angina instável; curva de troponina positiva indicando lesão miocárdica progressiva." },
+        { "key": "C", "text": "IAM com supradesnivelamento de ST; marcadores de necrose elevados confirmando infarto transmural." },
+        { "key": "D", "text": "Síndrome coronariana aguda sem supradesnivelamento de ST; curva de troponina positiva com variação superior a 20% entre vale e pico." },
+        { "key": "E", "text": "Angina estável classe II da Canadian Cardiovascular Society; troponina elevada por esforço físico habitual." }
+      ],
+      "correct_key": "D",
+      "explanation": "Troponina já claramente acima do limite superior (0,8 e 1,5ng/mL vs referência 0,04) é POSITIVA (não negativa como afirma a opção A), com variação significativa >20% caracterizando curva dinâmica positiva de NSTE-ACS.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_113",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "AMP R3CM 2025",
+      "statement": "Sobre o tratamento do IAM com Supra de ST (IAMCSST), assinale a alternativa correta.",
+      "alternatives": [
+        { "key": "A", "text": "O uso de aspirina deve ser evitado nas primeiras 24 horas para prevenir efeitos colaterais gastrointestinais." },
+        { "key": "B", "text": "A angioplastia primária (ICP) é indicada como tratamento de escolha no IAMCSST, preferencialmente realizada até 90 minutos após o diagnóstico." },
+        { "key": "C", "text": "O uso de beta-bloqueadores intravenosos deve ser feito rotineiramente em todos os pacientes com IAMCSST, independentemente de contraindicações." },
+        { "key": "D", "text": "A trombólise é preferível à angioplastia primária em todos os pacientes com IAMCSST, independentemente da estrutura disponível no hospital." },
+        { "key": "E", "text": "Os nitratos intravenosos são indicados em todos os pacientes com IAMCSST, mesmo em casos de pressão arterial baixa." }
+      ],
+      "correct_key": "B",
+      "explanation": "A angioplastia primária em até 90 minutos (em centro com hemodinâmica) é o tratamento de escolha padrão-ouro do IAMCSST.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_114",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "USP-RP R3CM 2026",
+      "statement": "Homem, 50 anos, dor precordial em aperto iniciada 2 horas antes. HAS e hipercolesterolemia. FC 88bpm, PA 152x90mmHg, sudoreico. ECG: supradesnivelamento de ST de 3mm de V1 a V4. Submetido a fibrinólise com alteplase. Após 60 minutos, apresentou arritmia (imagem não incluída). Qual a conduta mais apropriada?",
+      "alternatives": [
+        { "key": "A", "text": "Reposição endovenosa de cloreto de potássio." },
+        { "key": "B", "text": "Observação contínua sem intervenção imediata." },
+        { "key": "C", "text": "Reposição endovenosa de sulfato de magnésio." },
+        { "key": "D", "text": "Cardioversão elétrica sincronizada com ECG." }
+      ],
+      "correct_key": "B",
+      "explanation": "Arritmia de reperfusão surgindo pouco após fibrinólise bem-sucedida é classicamente o ritmo idioventricular acelerado (RIVA), benigno e autolimitado, não exigindo tratamento específico. ATENÇÃO: depende da imagem da arritmia — confirmar antes de publicar.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_115",
+      "theme": "cardio_sca",
+      "difficulty": "facil",
+      "source": "SES-DF R1 2026",
+      "statement": "Nos casos de infarto agudo do miocárdio com supradesnivelamento do ST (STEMI), qual é a intervenção considerada primordial para reduzir a mortalidade dos pacientes?",
+      "alternatives": [
+        { "key": "A", "text": "Reperfusão imediata por angioplastia primária ou trombólise" },
+        { "key": "B", "text": "Administração isolada de nitrato sublingual" },
+        { "key": "C", "text": "Controle ambulatorial da pressão arterial" },
+        { "key": "D", "text": "Administração isolada de betabloqueador" }
+      ],
+      "correct_key": "A",
+      "explanation": "A reperfusão precoce (angioplastia primária ou fibrinólise) é a intervenção com maior impacto comprovado na redução de mortalidade do STEMI.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_116",
+      "theme": "cardio_sca",
+      "difficulty": "facil",
+      "source": "SES-DF R1 2025",
+      "statement": "Paciente de 60 anos, HAS e dislipidemia, dor torácica intensa, sudorese e náusea. FC=110bpm, FR=24irpm, SatO2=92%. Qual o diagnóstico mais provável nesse caso?",
+      "alternatives": [
+        { "key": "A", "text": "Refluxo gastroesofágico" },
+        { "key": "B", "text": "Pneumonia" },
+        { "key": "C", "text": "Pericardite" },
+        { "key": "D", "text": "Infarto agudo do miocárdio" }
+      ],
+      "correct_key": "D",
+      "explanation": "Dor torácica intensa associada a taquicardia, taquipneia, hipoxemia leve, sudorese e náusea em paciente com fatores de risco cardiovascular é altamente sugestiva de IAM.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_117",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "UFES R1 2025",
+      "statement": "Paciente de 67 anos, feminina, dor torácica prolongada, hemodinamicamente estável, três episódios nas últimas 12 horas. PA 100/60mmHg, FC 95bpm. HAS, tabagismo e diabetes. ECG: infradesnivelamento de ST de 2mm. Nitroglicerina EV com melhora completa da dor. Troponina positiva; creatinina 1,7mg/dL. Qual o risco isquêmico e em quanto tempo deve ser feita a cineangiocoronariografia?",
+      "alternatives": [
+        { "key": "A", "text": "Risco muito alto, <2 horas" },
+        { "key": "B", "text": "Risco alto, <24 horas" },
+        { "key": "C", "text": "Risco intermediário, entre 25 a 72 horas" },
+        { "key": "D", "text": "Risco Baixo. Realizar teste não invasivo antes de indicar a cineangiocoronariografia" }
+      ],
+      "correct_key": "B",
+      "explanation": "Troponina positiva com alteração dinâmica de ST e disfunção renal (fatores de alto risco pelo GRACE), sem sinais de instabilidade hemodinâmica/arritmia grave que caracterizariam \"muito alto risco\", define categoria de alto risco com invasão em <24h.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_118",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "HPP R1 2023",
+      "statement": "Paciente de 88 anos com queixa de dor torácica. ECG realizado (imagem não incluída). Qual o diagnóstico do paciente?",
+      "alternatives": [
+        { "key": "A", "text": "Infarto agudo do miocárdio de parede inferior isolada." },
+        { "key": "B", "text": "Infarto agudo do miocárdio de parede anterior isolada." },
+        { "key": "C", "text": "Infarto Agudo do miocárdio de parede posterior." },
+        { "key": "D", "text": "Infarto agudo do miocárdio anterior extenso." }
+      ],
+      "correct_key": "D",
+      "explanation": "Sem o ECG da imagem não é possível determinar com segurança a localização exata do infarto. Esta é uma resposta de baixíssima confiança — ATENÇÃO PRIORITÁRIA: revisar com a imagem original antes de publicar ou usar em estudo.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_119",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "AMP R3CM 2023",
+      "statement": "Paciente do sexo masculino, 60 anos, dor retroesternal opressiva, forte intensidade, início há 30 minutos, sudorese, palidez e ansiedade. ECG com ondas T isoelétricas em V3 a V6, sem alteração do segmento ST. Mioglobina, Troponina cTNI e CK-MB normais. Após 3h de observação, melhora dos sintomas, ECG inalterado, biomarcadores cardíacos séricos elevados. Qual o diagnóstico?",
+      "alternatives": [
+        { "key": "A", "text": "Angina estável." },
+        { "key": "B", "text": "Angina instável." },
+        { "key": "C", "text": "Angina variante de Prinzmetal." },
+        { "key": "D", "text": "Infarto do miocárdio sem elevação do segmento ST." },
+        { "key": "E", "text": "Infarto do miocárdio com elevação do segmento ST." }
+      ],
+      "correct_key": "D",
+      "explanation": "Elevação de biomarcadores confirma necrose miocárdica, sem elevação de ST — configura IAMSSST (mesma lógica da questão 85, com lettering diferente).",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "sca_120",
+      "theme": "cardio_sca",
+      "difficulty": "medio",
+      "source": "USP R1 2026",
+      "statement": "Homem, 53 anos, HAS e DM2. Uso de hidroclorotiazida, metformina e gliclazida. Dor torácica há cerca de uma hora. PA 90x60mmHg, FC 60bpm, FR 25irpm. Regular estado geral, sudoreico. Ausculta cardíaca e pulmonar sem alterações. ECG apresentado (imagem não incluída). Assinale a alternativa que indica a terapia intravenosa imediata pertinente.",
+      "alternatives": [
+        { "key": "A", "text": "Dobutamina." },
+        { "key": "B", "text": "Nitroglicerina." },
+        { "key": "C", "text": "Noradrenalina." },
+        { "key": "D", "text": "Cloreto de sódio 0,9%." }
+      ],
+      "correct_key": "D",
+      "explanation": "Hipotensão associada a bradicardia relativa em quadro sugestivo de IAM inferior/VD contraindica agentes redutores de pré-carga (nitroglicerina); a conduta é expansão volêmica. ATENÇÃO: depende do ECG da imagem — confirmar antes de publicar.",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    }
+  ]
+}

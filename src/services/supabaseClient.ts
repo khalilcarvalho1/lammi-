@@ -386,6 +386,8 @@ export interface Question {
   theme: StudyTheme
   difficulty: Difficulty
   source?: string
+  // false = gabarito determinado por IA sem fonte oficial, pendente de revisão humana
+  reviewed?: boolean
   created_at: string
 }
 
