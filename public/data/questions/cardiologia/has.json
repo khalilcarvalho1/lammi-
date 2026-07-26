@@ -1,1 +1,2924 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "has_001",
+      "theme": "cardio_has",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] UERN R1 2025",
+      "statement": "(UERN R1 2025) Para auxiliar o diagnóstico de hipertensão, pode ser proposta a medição da PA fora do consultório. As principais vantagens da medição da PA fora do consultório estão listadas a seguir, com a EXCEÇÃO de uma delas. Aponte-a:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Maior número de medidas obtidas."
+        },
+        {
+          "key": "B",
+          "text": "Menor engajamento dos pacientes com o diagnóstico e o seguimento."
+        },
+        {
+          "key": "C",
+          "text": "Refletem as atividades usuais dos examinandos."
+        },
+        {
+          "key": "D",
+          "text": "Abolição ou sensível redução do efeito de avental branco."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "A medição fora do consultório (MAPA/MRPA) aumenta — não diminui — o engajamento dos pacientes, pois envolve o paciente ativamente no processo diagnóstico. Todas as demais são vantagens reais: maior número de medidas, maior representatividade das atividades habituais e redução do efeito do avental branco. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_002",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] FAMERP R3CM 2026",
+      "statement": "(FAMERP R3CM 2026) Paciente feminina de 58 anos, obesa (IMC = 33 kg/m²), com diabetes tipo 2 de 8 anos de evolução, faz aferição ambulatorial com média de PA de 134/86 mmHg e já apresenta retinopatia diabética. Qual a melhor abordagem inicial?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Considerar PA normal; monitorar sem intervenção."
+        },
+        {
+          "key": "B",
+          "text": "Classificar como pré-hipertensão; iniciar MEV por 6 meses e reavaliar."
+        },
+        {
+          "key": "C",
+          "text": "Classificar como hipertensão estágio 1 e iniciar tratamento farmacológico combinado de duas drogas em dose baixa."
+        },
+        {
+          "key": "D",
+          "text": "Classificar como pré-hipertensão; iniciar MEV e considerar medicação se após 3 meses não houver controle."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Diabética com retinopatia = lesão de órgão-alvo (LOA) confirmada. Com LOA ou alto risco CV, PA ≥ 130/80 mmHg já é hipertensão e indica tratamento farmacológico imediato — não se aguardam 3-6 meses de MEV isolada. A meta é < 130/80 mmHg. Início com dupla terapia é recomendado no estágio 1 com LOA (SBC 2025).",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_003",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] ABC R1 2026",
+      "statement": "(ABC R1 2026) Sobre o manejo da hipertensão segundo as diretrizes SBC 2025 e PCDT do MS, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "O uso combinado de IECA + BRA é recomendado na hipertensão resistente pela potente redução pressórica e proteção renal."
+        },
+        {
+          "key": "B",
+          "text": "A maioria dos pacientes hipertensos apresenta sintomas característicos como cefaleia occipital matinal e tontura."
+        },
+        {
+          "key": "C",
+          "text": "Entre os efeitos adversos mais característicos: tosse seca por IECA e edema de MMII por bloqueadores de canais de cálcio di-hidropiridínicos."
+        },
+        {
+          "key": "D",
+          "text": "A hipertensão arterial secundária é responsável pela maior parte dos casos, superando a hipertensão primária em prevalência."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "A tosse seca é o efeito colateral mais característico dos IECAs (mediada por acúmulo de bradicinina). O edema de MMII (maleolar) é o principal efeito adverso dos bloqueadores de canais de cálcio di-hidropiridínicos como anlodipino. A combinação IECA + BRA é contraindicada (risco de hipercalemia e IRA — estudo ONTARGET). HAS é \"silenciosa\" na maioria dos casos. HAS primária responde por 90-95% dos casos. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_004",
+      "theme": "cardio_has",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] ISCMSC R1 2025",
+      "statement": "(ISCMSC R1 2025) Deve-se ter atenção à glicemia em idosos com uso concomitante de tiazídicos e antidiabéticos orais ou insulina, pois:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Os tiazídicos podem aumentar a glicemia e ajudar no controle do diabético."
+        },
+        {
+          "key": "B",
+          "text": "Os tiazídicos podem aumentar a glicemia e prejudicar o controle do diabético."
+        },
+        {
+          "key": "C",
+          "text": "Os tiazídicos podem aumentar a glicemia e não prejudicar o controle do diabético."
+        },
+        {
+          "key": "D",
+          "text": "Os tiazídicos podem reduzir a glicemia e prejudicar o controle do diabético."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Tiazídicos causam hiperglicemia por redução da secreção de insulina (hipocalemia reduz a exocitose de insulina pelas células β) e aumento da resistência insulínica. Isso prejudica — e não ajuda — o controle glicêmico do diabético, podendo exigir ajuste das doses de antidiabéticos. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_005",
+      "theme": "cardio_has",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] Hospital Regional de Presidente Prudente R3CM 2026",
+      "statement": "(Hospital Regional de Presidente Prudente R3CM 2026) Homem de 54 anos com HAS e AIT há 2 anos. Em uso de anlodipino 10 mg, ramipril 10 mg, indapamida 2,5 mg e sinvastatina 40 mg. PA 165×99 mmHg. MAPA: PA diurna 155×95, noturna 158×98. K+ 4,9, creatinina 1,39, TFG 53, albumina/creatinina 130 mg/g. O próximo passo correto é:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Adicionar bisoprolol."
+        },
+        {
+          "key": "B",
+          "text": "Adicionar espironolactona."
+        },
+        {
+          "key": "C",
+          "text": "Adicionar semaglutida."
+        },
+        {
+          "key": "D",
+          "text": "Avaliar a adesão."
+        },
+        {
+          "key": "E",
+          "text": "Encaminhar o paciente para estudos do sono."
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "O paciente está em tripla terapia (BCC + IECA + diurético) e ainda assim com PA não controlada. Antes de adicionar um 4º fármaco, é OBRIGATÓRIO avaliar a adesão medicamentosa — a causa mais comum de pseudo-resistência. Só após confirmar adesão adequada é que se investiga resistência verdadeira e se adiciona espironolactona. (SBC 2025 — hipertensão resistente)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_006",
+      "theme": "cardio_has",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] Hospital São Lucas RP R1 2025",
+      "statement": "(Hospital São Lucas RP R1 2025) Deve-se ter atenção à glicemia em idosos com uso concomitante de tiazídicos e antidiabéticos orais ou insulina, pois:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Os tiazídicos podem aumentar a glicemia e ajudar no controle do diabético."
+        },
+        {
+          "key": "B",
+          "text": "Os tiazídicos podem aumentar a glicemia e prejudicar o controle do diabético."
+        },
+        {
+          "key": "C",
+          "text": "Os tiazídicos podem aumentar a glicemia e não prejudicar o controle do diabético."
+        },
+        {
+          "key": "D",
+          "text": "Os tiazídicos podem reduzir a glicemia e prejudicar o controle do diabético."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Mesma questão da ISCMSC 2025. Tiazídicos aumentam a glicemia (hiperglicemia e hiperuricemia são efeitos metabólicos clássicos) prejudicando o controle glicêmico. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_007",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] USP-RP 2026",
+      "statement": "(USP-RP 2026) Criança de 10 anos pós-transplante renal há 2 anos. PA de consultório normal para idade. MAPA 24h: PA média vigília >p95 e PA média sono >p95. Função renal preservada, assintomática. Qual a conduta mais adequada?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Iniciar propranolol devido à alteração na MAPA."
+        },
+        {
+          "key": "B",
+          "text": "Reduzir ou suspender corticoide."
+        },
+        {
+          "key": "C",
+          "text": "Hipertensão arterial mascarada, indicando iniciar anti-hipertensivo."
+        },
+        {
+          "key": "D",
+          "text": "Considerar normal, pois o médico confere as medidas no consultório."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Hipertensão mascarada = PA normal no consultório + PA elevada fora do consultório (MAPA/MRPA). Neste caso, a MAPA mostra PA elevada tanto na vigília quanto no sono, com PA de consultório normal — diagnóstico de hipertensão mascarada. A conduta é iniciar anti-hipertensivo, pois hipertensão mascarada tem risco cardiovascular equivalente à hipertensão sustentada. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_008",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] Hospital São Lucas RP R1 2025",
+      "statement": "(Hospital São Lucas RP R1 2025) Sobre antagonistas de canal de cálcio di-hidropiridínicos e não di-hidropiridínicos, assinale o item correto:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Di-hidropiridínicos são muito utilizados em idosos com HAS e doença coronariana; não di-hidropiridínicos (verapamil) têm maior efeito vasodilatador e não são prescritos para idosos pois alteram a condução AV."
+        },
+        {
+          "key": "B",
+          "text": "Di-hidropiridínicos são muito utilizados em idosos com HAS e doença coronariana; não di-hidropiridínicos (verapamil) têm menor efeito vasodilatador e não são prescritos para idosos pois alteram a condução AV."
+        },
+        {
+          "key": "C",
+          "text": "Di-hidropiridínicos são pouco utilizados em idosos sem doença coronariana; não di-hidropiridínicos (verapamil) têm menor efeito vasodilatador e não são prescritos para idosos pois alteram a condução AV."
+        },
+        {
+          "key": "D",
+          "text": "Di-hidropiridínicos são muito utilizados em idosos com HAS e doença coronariana; não di-hidropiridínicos (verapamil) têm menor efeito vasodilatador mas não alteram a condução AV."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Di-hidropiridínicos (anlodipino, nifedipino) têm ação predominantemente vascular — maior efeito vasodilatador — e são amplamente usados em idosos com HAS. Não di-hidropiridínicos (verapamil, diltiazem) têm menor efeito vasodilatador e maior ação no nódulo AV (cronotrópico e dromotrópico negativos), por isso são evitados em idosos e contraindicados com betabloqueadores. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_009",
+      "theme": "cardio_has",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] HOB-DF R1 2026",
+      "statement": "(HOB-DF R1 2026) De acordo com as VI Diretrizes Brasileiras de Hipertensão Arterial, é CORRETO afirmar:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "A pressão arterial é classificada como ótima quando os níveis sistólicos são inferiores a 120 mmHg e os diastólicos são inferiores a 80 mmHg."
+        },
+        {
+          "key": "B",
+          "text": "A classificação de pressão arterial normal é atribuída a indivíduos com pressão sistólica entre 130-139 mmHg ou diastólica entre 85-89 mmHg."
+        },
+        {
+          "key": "C",
+          "text": "A hipertensão estágio 1 é definida por valores de PAS a partir de 160 mmHg ou PAD a partir de 100 mmHg."
+        },
+        {
+          "key": "D",
+          "text": "Considera-se pré-hipertensão os valores de PAS inferiores a 120 mmHg e PAD inferiores a 80 mmHg."
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "PA ótima: PAS < 120 mmHg E PAD < 80 mmHg. PA normal: PAS 120-129 e/ou PAD 80-84. PA limítrofe (pré-HAS): PAS 130-139 e/ou PAD 85-89. HAS estágio 1: PAS 140-159 e/ou PAD 90-99. HAS estágio 2: PAS 160-179 e/ou PAD 100-109. HAS estágio 3: PAS ≥ 180 e/ou PAD ≥ 110. (SBC 2020/2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_010",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] HCPA R1 2025",
+      "statement": "(HCPA R1 2025) Assinale a assertiva correta sobre hipertensão arterial sistêmica em crianças e adolescentes.",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Em adolescentes e crianças a partir dos 3 anos, ou antes se houver fatores de risco, recomenda-se medir a pressão arterial anualmente."
+        },
+        {
+          "key": "B",
+          "text": "Para crianças e adolescentes de 1-18 anos, a determinação dos níveis normais deve levar em conta sexo, idade, altura e raça."
+        },
+        {
+          "key": "C",
+          "text": "São fatores de risco para HAS: pielonefrites recorrentes, anemia falciforme e prematuros com menos de 36 semanas."
+        },
+        {
+          "key": "D",
+          "text": "Para o tamanho correto do manguito, a parte inflável deve representar 60% da circunferência do braço e a largura, 40%."
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "A medição anual de PA é recomendada para crianças ≥ 3 anos, ou antes se houver fatores de risco (prematuridade, DRC, cardiopatia congênita). Os valores normais em crianças são determinados por sexo, idade e ALTURA (percentil de estatura) — raça não é critério nas tabelas brasileiras. O manguito deve cobrir 80% (não 60%) da circunferência do braço. (SBC 2025 — HAS pediátrica)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_011",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] INEP REVALIDA 2025",
+      "statement": "(REVALIDA 2025) Mulher de 82 anos, sem história prévia de hipertensão. Medidas: 146×86, 144×88 e 148×88 mmHg em três ocasiões distintas. Assintomática, sem outros agravos. Qual é a abordagem adequada?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Referenciar ao cardiologista para um manejo específico."
+        },
+        {
+          "key": "B",
+          "text": "Solicitar Holter 24h e ecocardiograma."
+        },
+        {
+          "key": "C",
+          "text": "Prescrever losartana 50 mg à noite com monitoramento da PA."
+        },
+        {
+          "key": "D",
+          "text": "Conduta expectante, sem medicamentos, com monitoramento da PA."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Três medidas em ocasiões distintas com PAS 144-148 / PAD 86-88 mmHg confirmam HAS estágio 1. Em idosos acima de 80 anos, a meta é < 150/90 mmHg (SBC 2025). Com PA confirmada em 3 ocasiões, o tratamento farmacológico está indicado. BRA (losartana) é opção de primeira linha. Condutor expectante sem medicação seria inadequado com HAS confirmada. (SBC 2025 / PCDT MS 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_012",
+      "theme": "cardio_has",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] USP 2026",
+      "statement": "(USP 2026) Sobre hipertensão arterial na infância e impacto cardiovascular, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "A HAS infantil frequentemente não tem causa etiológica conhecida e geralmente não tem repercussão cardiovascular."
+        },
+        {
+          "key": "B",
+          "text": "A PA elevada na infância pode levar a alterações cardiovasculares subclínicas precoces, como HVE e aumento da espessura médio-intimal da carótida."
+        },
+        {
+          "key": "C",
+          "text": "As modificações no estilo de vida são intervenções secundárias, sendo a farmacológica a primeira linha."
+        },
+        {
+          "key": "D",
+          "text": "Normalizar a PA antes da vida adulta não oferece impacto sobre a remodelação cardíaca."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "HAS na infância é preditor significativo de HAS e DCV na vida adulta. A PA elevada causa alterações subclínicas precoces (HVE, aumento da espessura médio-intimal), mesmo na infância. MEV é a primeira linha na HAS primária infantil; farmacológico é indicado quando LOA presente ou MEV falha. Normalizar a PA na infância melhora o remodelamento cardíaco. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_013",
+      "theme": "cardio_has",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] SCMRP R3CM 2026",
+      "statement": "(SCMRP R3CM 2026) Homem, 70 anos, hipertenso, dislipidêmico, doença coronariana. Em uso de valsartana 160 mg, HCTZ 25 mg e metoprolol 50 mg. FC 66 bpm, PA 105×60 mmHg confirmada, assintomático. Qual a conduta em relação à PA, conforme diretrizes brasileiras?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Não alterar os anti-hipertensivos."
+        },
+        {
+          "key": "B",
+          "text": "Suspender o betabloqueador."
+        },
+        {
+          "key": "C",
+          "text": "Suspender a hidroclorotiazida."
+        },
+        {
+          "key": "D",
+          "text": "Reduzir a dose da hidroclorotiazida."
+        },
+        {
+          "key": "E",
+          "text": "Reduzir a dose da valsartana."
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Paciente coronariopata com PA 105×60 assintomático. A SBC 2025 estabelece que, em pacientes coronariopatas, a meta é < 130/80 mmHg, mas com atenção para não reduzir a PAD abaixo de 60 mmHg (fenômeno J-curve — risco de isquemia coronariana). Com PA 105×60 assintomático e coronariopata, a conduta é manter o tratamento, pois PA baixa em coronariopata já é zona de risco — alterar aumentaria ainda mais o risco. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_014",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] AMRIGS R1 2025",
+      "statement": "(AMRIGS R1 2025) Sobre a hipertensão arterial sistêmica: I. Para diagnóstico, indica-se medição anual de PA se PA aferida for inferior a 140/90 mmHg. II. O diagnóstico deve ser baseado na medição fora do consultório com MAPA, desde que viável. III. História prévia de pré-eclâmpsia em mulheres é fator de risco para HAS. Quais estão corretas?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Apenas I e II."
+        },
+        {
+          "key": "B",
+          "text": "Apenas I e III."
+        },
+        {
+          "key": "C",
+          "text": "Apenas II e III."
+        },
+        {
+          "key": "D",
+          "text": "I, II e III."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "I. CORRETA: reavaliação anual quando PA < 140/90 e sem fatores de risco. III. CORRETA: pré-eclâmpsia prévia é fator de risco reconhecido para HAS futura. II. INCORRETA: o diagnóstico deve ser baseado em medidas de consultório CONFIRMADAS — MAPA e MRPA são complementares para confirmação e classificação de fenótipos, não a base primária do diagnóstico. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_015",
+      "theme": "cardio_has",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] HCPA R3CM 2026",
+      "statement": "(HCPA R3CM 2026) Conforme ESC 2024 e AHA/ACC 2025, assinale a assertiva correta sobre diagnóstico e manejo inicial da HAS em adultos.",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "O diagnóstico pode ser confirmado com PA de consultório = 130/80 mmHg em qualquer paciente, independentemente de outras medidas."
+        },
+        {
+          "key": "B",
+          "text": "Para todos os pacientes com PA de consultório = 140/90 mmHg, recomenda-se tratamento medicamentoso imediato."
+        },
+        {
+          "key": "C",
+          "text": "A confirmação diagnóstica deve incluir preferencialmente medidas fora do consultório (MAPA ou MRPA), especialmente quando PA de consultório estiver na faixa limítrofe (130-139/80-89 mmHg)."
+        },
+        {
+          "key": "D",
+          "text": "Em pacientes com PA elevada (120-129/<80 mmHg), ambas as diretrizes recomendam iniciar tratamento farmacológico."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "A ESC 2024 recomenda confirmação fora do consultório (MAPA ou MRPA) para todos, especialmente na faixa limítrofe. AHA/ACC 2025 também reforça esse ponto. Em PA elevada (120-129/<80), apenas MEV é recomendada — sem fármaco. O diagnóstico com PA = 130/80 em consultório precisa ser confirmado. Tratamento imediato com 140/90 não é universal — depende do risco CV. (ESC 2024 / AHA 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_016",
+      "theme": "cardio_has",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] USP-RP 2026",
+      "statement": "(USP-RP 2026) Criança de 5 anos em consulta de puericultura, sem sintomas, sem doenças previamente diagnosticadas. Qual a conduta correta em relação à aferição de PA?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Não aferir a PA, pois não apresenta edema ou hematúria."
+        },
+        {
+          "key": "B",
+          "text": "A PA deve ser aferida nesta consulta independentemente de comorbidades."
+        },
+        {
+          "key": "C",
+          "text": "Aferir a PA a partir dos 12 anos, ou antes se houver doença renal ou cardíaca."
+        },
+        {
+          "key": "D",
+          "text": "Aferir PA se IMC maior que o Z-score +3."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "A SBC 2025 recomenda aferição de PA em todas as crianças a partir dos 3 anos em toda consulta de rotina, independentemente de sintomas ou comorbidades. Crianças com fatores de risco devem ser avaliadas antes dos 3 anos. Não se deve aguardar sintomas como edema ou hematúria para medir a PA. (SBC 2025 — HAS pediátrica)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_017",
+      "theme": "cardio_has",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] UEPA R1 2026",
+      "statement": "(UEPA R1 2026) Homem de 59 anos, hipertenso há 6 anos, sem LOA. Em uso de losartana 50 mg 2x/dia, HCTZ 50 mg, anlodipino 10 mg. MRPA: média 155×95 mmHg. O manejo adequado é:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Iniciar espironolactona associada às drogas já instituídas."
+        },
+        {
+          "key": "B",
+          "text": "Substituir anlodipino por betabloqueador."
+        },
+        {
+          "key": "C",
+          "text": "Encaminhar ao cardiologista para avaliação."
+        },
+        {
+          "key": "D",
+          "text": "Substituir HCTZ por espironolactona e reavaliar em 3 meses."
+        },
+        {
+          "key": "E",
+          "text": "Iniciar AAS como prevenção secundária otimizando estatina."
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Paciente em tripla terapia plena (BRA + tiazídico + BCC) com PA não controlada = critério para hipertensão resistente. A 4ª droga de escolha na hipertensão resistente é a espironolactona (antagonista da aldosterona), com evidências nos estudos PATHWAY-2 e SPRINT. A substituição de HCTZ por espironolactona perde uma classe terapêutica. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_018",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] HUSE R1 2025",
+      "statement": "(HUSE R1 2025) Considerando as diretrizes mais recentes para o manejo da HAS, qual afirmação é verdadeira?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "O alvo de PA para todos os pacientes hipertensos deve ser inferior a 120/80 mmHg."
+        },
+        {
+          "key": "B",
+          "text": "Betabloqueadores são considerados terapia de primeira linha para hipertensão não complicada."
+        },
+        {
+          "key": "C",
+          "text": "A combinação de IECA com BRA é recomendada para hipertensão resistente."
+        },
+        {
+          "key": "D",
+          "text": "O uso de MAPA é recomendado para confirmar o diagnóstico antes de iniciar o tratamento."
+        },
+        {
+          "key": "E",
+          "text": "A terapia combinada inicial não é recomendada, mesmo em pacientes com hipertensão estágio 2."
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "A MAPA (ou MRPA) é recomendada para confirmação diagnóstica antes de iniciar tratamento, especialmente nos casos limítrofes. Betabloqueadores NÃO são primeira linha na HAS sem comorbidades (cardiopatia, arritmia). A combinação IECA + BRA é contraindicada. A meta < 120/80 é agressiva demais para todos. Terapia combinada é recomendada em estágio 2 e alto risco. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_019",
+      "theme": "cardio_has",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] SUS-BA R1 2025",
+      "statement": "(SUS-BA R1 2025) Homem de 40 anos com PA confirmada de 140-155×90-100 mmHg em múltiplas medidas, dieta rica em sal. Indique o consumo máximo de sódio para este paciente:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "1500 a 2000 mg/dia de sódio (equivalente a 5 g/dia de sal de cozinha)."
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "A recomendação da SBC 2025 para hipertensos é consumo de sódio ≤ 2 g/dia (equivalente a ≤ 5 g de sal de cozinha/NaCl por dia). Atenção: 2 g de SÓDIO ≠ 2 g de SAL — sal tem ~40% de sódio, então 5 g de sal = ~2 g de sódio. (SBC 2025 — medidas não farmacológicas)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_020",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] ISCMSC R1 2025",
+      "statement": "(ISCMSC R1 2025) Os diuréticos tiazídicos são considerados fármacos de primeira linha em idosos. Qual afirmação está correta?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Uso preferencial em idoso com osteoporose pois diminuem a excreção urinária de cálcio; e em ICC pois aumentam pré-carga, volume e congestão pulmonar."
+        },
+        {
+          "key": "B",
+          "text": "Uso preferencial em idoso com osteoporose pois diminuem a excreção urinária de cálcio; e em ICC pois reduzem pré-carga, volume e congestão pulmonar."
+        },
+        {
+          "key": "C",
+          "text": "Uso preferencial em idoso com osteoporose pois diminuem a excreção urinária de cálcio; e em ICC pois reduzem pré-carga e volume, mas não a congestão pulmonar."
+        },
+        {
+          "key": "D",
+          "text": "Uso preferencial em idoso com osteoporose pois aumentam a excreção urinária de cálcio; e em ICC pois reduzem pré-carga, volume e congestão pulmonar."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Tiazídicos DIMINUEM a excreção urinária de cálcio (hipocalciúria) — benéfico na osteoporose e na nefrolitíase por cálcio. Em ICC, os tiazídicos reduzem a pré-carga (menor reabsorção de sódio e água), diminuem o volume e a congestão pulmonar — exatamente o oposto da opção A. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_021",
+      "theme": "cardio_has",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] ENARE R3CM 2025",
+      "statement": "(ENARE R3CM 2025) Paciente de 79 anos com doença de Parkinson e episódios de queda ao se levantar. PA supina 140×88; ortostatismo: PA 88×60 com sintomas. Sem anti-hipertensivos. Sem mudança significativa da FC. Qual a medicação mais indicada?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Etilefrina."
+        },
+        {
+          "key": "B",
+          "text": "Paroxetina."
+        },
+        {
+          "key": "C",
+          "text": "Propranolol."
+        },
+        {
+          "key": "D",
+          "text": "Prednisolona."
+        },
+        {
+          "key": "E",
+          "text": "Fludrocortisona."
+        }
+      ],
+      "correct_key": "E",
+      "explanation": "Hipotensão ortostática grave (queda de PA ≥ 20/10 mmHg com sintomas) em paciente com Parkinson. A fludrocortisona (mineralocorticoide) é o tratamento de escolha quando MEV (hidratação, sal, meias compressivas, elevar cabeceira) falhou. Age aumentando a reabsorção renal de sódio e água, expandindo o volume intravascular. A etilefrina (simpatomimético) é opção alternativa. Propranolol e prednisolona são inadequados. (SBC 2025 — hipotensão ortostática)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_022",
+      "theme": "cardio_has",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] FAMERP R1 2025",
+      "statement": "(FAMERP R1 2025) Homem de 62 anos com DRC G3aA3, HAS e DM. Em uso de anlodipino 10 mg, losartana 100 mg, carvedilol 6,25 mg 2x, atorvastatina, AAS e dapagliflozina. PA 117/80, FC 72. Creatinina 2,2 mg/dL, proteína/creatinina 0,5 mg/mg. Qual medida em relação ao controle pressórico?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Sem mudanças."
+        },
+        {
+          "key": "B",
+          "text": "Suspender carvedilol."
+        },
+        {
+          "key": "C",
+          "text": "Suspender anlodipino."
+        },
+        {
+          "key": "D",
+          "text": "Trocar losartana por valsartana."
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "PA 117/80 mmHg com DRC + DM + proteinúria — meta pressórica < 130/80 mmHg, já atingida. Dapagliflozina já oferece proteção renal adicional. Não há motivo para alterar a terapia anti-hipertensiva. Trocar BRA por outro BRA não tem benefício. Suspender o carvedilol ou anlodipino pioraria o controle. A conduta é manter o esquema atual. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_023",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] ABC R3CM 2025",
+      "statement": "(ABC R3CM 2025) Homem, 57 anos, hipertenso em uso de anlodipina 5 mg há 3 anos. PA mantida em ~150×95 mmHg. Sem comorbidades. Qual a conduta inicial mais adequada?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Aumentar anlodipina para 10 mg de 12/12h e reavaliar em 3 meses."
+        },
+        {
+          "key": "B",
+          "text": "Iniciar combinação de anlodipina com furosemida."
+        },
+        {
+          "key": "C",
+          "text": "Iniciar associação de anlodipina com inibidor da ECA."
+        },
+        {
+          "key": "D",
+          "text": "Trocar anlodipina por antagonista de receptor de angiotensina II e associar diurético tiazídico."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "PA não controlada com BCC em monoterapia → adicionar IECA (ou BRA) + tiazídico para atingir dupla ou tripla terapia. A associação BCC + IECA é comprovadamente superior à monoterapia e é a combinação preferencial na SBC 2025. A anlodipina deve ser aumentada para 10 mg primeiro (dose máxima única diária, não 12/12h). Furosemida não é tiazídico e não é preferencial. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_024",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] Hospital Regional de Presidente Prudente R1 2025",
+      "statement": "(Hospital Regional de Presidente Prudente R1 2025) Mulher de 50 anos com PA de consultório 142×88 mmHg. MAPA solicitado. Para diagnóstico de HAS pela MAPA, o resultado deve ser:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "PA ≥ 125×75 mmHg durante o sono, sendo hipertensão estágio I."
+        },
+        {
+          "key": "B",
+          "text": "PA ≥ 130×80 mmHg na vigília, sendo hipertensão estágio I."
+        },
+        {
+          "key": "C",
+          "text": "PA ≥ 125×75 mmHg na média de 24 horas, sendo hipertensão estágio I."
+        },
+        {
+          "key": "D",
+          "text": "PA ≥ 125×75 mmHg durante o sono, sendo hipertensão limítrofe."
+        },
+        {
+          "key": "E",
+          "text": "PA ≥ 130×80 mmHg na vigília, sendo hipertensão limítrofe."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Critérios diagnósticos de HAS pela MAPA (SBC 2025): média 24h ≥ 130/80 mmHg; vigília ≥ 135/85 mmHg; sono ≥ 120/70 mmHg. A média de 24h ≥ 125/75 mmHg é o valor correto para confirmação diagnóstica de HAS pela MAPA de 24h — não 125/75 isoladamente no sono. (SBC 2025 — MAPA)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_025",
+      "theme": "cardio_has",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] FAMERP R3CM 2026",
+      "statement": "(FAMERP R3CM 2026) Homem de 46 anos com queixa de mal-estar e PA elevada. Sobre epidemiologia e fatores de risco da HAS, assinale a correta:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "No geral, mulheres apresentam prevalência de HAS significativamente maior do que os homens."
+        },
+        {
+          "key": "B",
+          "text": "Os homens tendem a apresentar aumento mais acentuado da PA com a idade, independentemente da etnia."
+        },
+        {
+          "key": "C",
+          "text": "A contribuição da HAS para eventos cardiovasculares é habitualmente maior na população branca do que na negra."
+        },
+        {
+          "key": "D",
+          "text": "O uso de esteroides anabolizantes está associado à HAS e a outras doenças cardiovasculares e renais."
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "Esteroides anabolizantes androgênicos causam HAS por retenção de sódio e água, aumento da resistência vascular periférica e estimulação do SRAA — além de dislipidemia, cardiomiopatia e DRC. Antes dos 55 anos, homens têm maior prevalência; após a menopausa, as mulheres os superam. A população negra tem maior prevalência e maior risco cardiovascular por HAS do que a branca. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_026",
+      "theme": "cardio_has",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] FMJ R1 2026",
+      "statement": "(FMJ R1 2026) Homem de 65 anos, diabético, DRC estágio 4 (TFG 28 mL/min), HAS, arritmia e ICFEp. Em uso de losartana, PA 150/90 e FC 115. Qual o próximo agente farmacológico preferencial?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Furosemida."
+        },
+        {
+          "key": "B",
+          "text": "Bisoprolol."
+        },
+        {
+          "key": "C",
+          "text": "Anlodipino."
+        },
+        {
+          "key": "D",
+          "text": "Diltiazem."
+        },
+        {
+          "key": "E",
+          "text": "Espironolactona."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Paciente com arritmia (taquicardia com FC 115) + ICFEp. O bisoprolol (betabloqueador cardiosseletivo) controla a FC e tem indicação em ICFEp com taquicardia. Na DRC estágio 4, a espironolactona é perigosa (risco de hipercalemia). Anlodipino e furosemida não controlam FC. Diltiazem é contraindicado em ICFEp com disfunção sistólica. (SBC 2025 / ESC 2024)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_027",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] UERJ R1 2025",
+      "statement": "(UERJ R1 2025) Homem de 55 anos, IMC 31, PA 150×105 mmHg, clearance creatinina 55 mL/min, sem ICC. Tabagismo, asma brônquica controlada com beclometasona e formoterol. Melhor opção terapêutica:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Clonidina e hidroclorotiazida."
+        },
+        {
+          "key": "B",
+          "text": "Hidralazina e furosemida."
+        },
+        {
+          "key": "C",
+          "text": "Enalapril e anlodipino."
+        },
+        {
+          "key": "D",
+          "text": "Losartana e atenolol."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Asmático: betabloqueadores (atenolol, metoprolol) são CONTRAINDICADOS — risco de broncoespasmo. IECA + BCC (enalapril + anlodipino) é a combinação preferencial na SBC 2025 para HAS sem comorbidades específicas. A combinação IECA + BCC é superior à IECA + tiazídico em prevenção cardiovascular (estudo ACCOMPLISH). Furosemida não é preferencial em HAS sem ICC. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_028",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] SES-DF R1 2025",
+      "statement": "(SES-DF R1 2025) Em relação ao manejo da hipertensão arterial resistente, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "A causa secundária mais comum de hipertensão resistente é a apneia obstrutiva do sono."
+        },
+        {
+          "key": "B",
+          "text": "O uso de antagonista de aldosterona (espironolactona) é indicado em casos refratários."
+        },
+        {
+          "key": "C",
+          "text": "Deve-se associar IECA com betabloqueador como primeira linha."
+        },
+        {
+          "key": "D",
+          "text": "A combinação de três anti-hipertensivos em doses máximas garante controle em todos os casos."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Espironolactona é o 4º fármaco de escolha na hipertensão resistente verdadeira (após confirmar adesão e excluir pseudo-resistência). O aldosteronismo primário é causa frequente de resistência. A apneia do sono é causa secundária importante, mas não a mais comum (a mais comum é a pseudo-resistência por má adesão). IECA + BRA é contraindicado. Nenhuma combinação garante controle em todos os casos. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_029",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] SUS-SP R1 2026",
+      "statement": "(SUS-SP R1 2026) Homem de 48 anos, sedentário, PA 128×84 mmHg em 3 ocasiões. IMC 28,5, CA 99 cm, CT 210, HDL 42, TG 160, glicemia 98. Pai com IAM aos 55. Qual afirmação está correta?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "PA normal-limítrofe; reavaliação em 12 meses sem intervenções imediatas."
+        },
+        {
+          "key": "B",
+          "text": "Hipertensão limítrofe; abordagem focada em MEV, reavaliação em 3-6 meses."
+        },
+        {
+          "key": "C",
+          "text": "Atividade física deve incluir mínimo de 320 minutos semanais de exercícios aeróbicos."
+        },
+        {
+          "key": "D",
+          "text": "É fundamental realizar estratificação do risco cardiovascular global, pois essa avaliação guiará as intervenções terapêuticas."
+        },
+        {
+          "key": "E",
+          "text": "Recomendar dieta DASH com restrição de sódio para máximo de 4 gramas por dia."
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "PA 128×84 mmHg = normal-limítrofe (SBC 2025: limítrofe = 130-139/85-89). Com múltiplos fatores de risco (dislipidemia, sedentarismo, sobrepeso, CA aumentada, história familiar precoce), a estratificação do risco CV global pelo escore de risco (HEARTS/ASCVD/PREVENT) é mandatória e guia a decisão de intervir farmacologicamente. A restrição de sódio recomendada é ≤ 2 g (≤ 5 g de sal), não 4 g. A meta de exercício é ≥ 150-300 min/semana de moderada, não 320. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_030",
+      "theme": "cardio_has",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] IAMSPE R3CM 2026",
+      "statement": "(IAMSPE R3CM 2026) A obtenção da pressão sistólica estimada é realizada corretamente por qual método?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Insuflar o manguito 20-30 mmHg acima do valor que o paciente refere habitualmente."
+        },
+        {
+          "key": "B",
+          "text": "Palpar a artéria radial e insuflar o manguito até o momento em que a pulsação radial deixa de ser sentida."
+        },
+        {
+          "key": "C",
+          "text": "Posicionar o estetoscópio na artéria braquial e insuflar até o primeiro som de Korotkoff desaparecer."
+        },
+        {
+          "key": "D",
+          "text": "Palpar a artéria ulnar e registrar o valor no qual o pulso desaparece durante a insuflação."
+        },
+        {
+          "key": "E",
+          "text": "Medir a pressão diastólica primeiro e somar 40 mmHg para estimar a sistólica."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "A PA sistólica estimada (PA palpatória) é obtida palpando o pulso radial e insuflando o manguito até o desaparecimento do pulso — esse valor é a PAS estimada. Depois insufla-se mais 20-30 mmHg e defla-se lentamente para determinar a PAS auscultatória (1º som de Korotkoff). Essa técnica evita o intervalo auscultatório. (SBC 2025 — técnica de aferição)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_031",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] FMJ R1 2025",
+      "statement": "(FMJ R1 2025) Homem de 70 anos, diabético há 10 anos, retinopatia grau III. MAPA com controle pressórico inadequado. Meta pressórica e classes preferências segundo Diretrizes Brasileiras 2020:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "PA < 120×70 mmHg. SRAA + vasodilatadores + betabloqueador."
+        },
+        {
+          "key": "B",
+          "text": "PA < 130×80 mmHg. Bloqueadores do SRAA + BCC + diurético."
+        },
+        {
+          "key": "C",
+          "text": "PA < 130×70 mmHg. Diurético + betabloqueador + SRAA."
+        },
+        {
+          "key": "D",
+          "text": "PA < 120×70 mmHg. SRAA + BCC + betabloqueador."
+        },
+        {
+          "key": "E",
+          "text": "PA < 130×80 mmHg. Vasodilatadores + betabloqueador + BCC."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Diabético com LOA (retinopatia grau III): meta < 130/80 mmHg (SBC 2020/2025). As classes preferenciais no DM com LOA são: bloqueadores do SRAA (IECA ou BRA — para proteção renal e redução de proteinúria) + BCC (anlodipino) + diurético tiazídico. Betabloqueadores não são primeira linha. (SBC 2020 — HAS e diabetes)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_032",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] ENAMED R1 2026",
+      "statement": "(ENAMED R1 2026) Mulher de 82 anos, sem história de HAS, com PA de 146×86, 144×88 e 148×88 mmHg em 3 ocasiões. Assintomática. Qual a abordagem adequada?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Referenciar ao cardiologista."
+        },
+        {
+          "key": "B",
+          "text": "Solicitar Holter 24h e ecocardiograma."
+        },
+        {
+          "key": "C",
+          "text": "Prescrever losartana 50 mg à noite com monitoramento da PA."
+        },
+        {
+          "key": "D",
+          "text": "Conduta expectante, sem medicamentos, com monitoramento da PA."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Idosa de 82 anos com HAS confirmada (3 medidas em ocasiões distintas ≥ 140/90 mmHg). Meta em > 80 anos: < 150/90 mmHg (SBC 2025). Tratamento farmacológico está indicado mesmo em octogenários com HAS confirmada — reduz eventos CV e mortalidade. Conduta expectante seria inadequada. BRA (losartana) é opção de primeira linha em idosos. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_033",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] UFSC R1 2025",
+      "statement": "(UFSC R1 2025) Sobre aferição da PA: I. Manguito pequeno subestima a PA. II. PA sistólica e diastólica são definidas pelo 1º e 5º sons de Korotkoff. III. A PAS aumenta e a PAD diminui em artérias mais distais. Quais estão corretas?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Apenas I e II."
+        },
+        {
+          "key": "B",
+          "text": "Apenas I e III."
+        },
+        {
+          "key": "C",
+          "text": "Apenas II e III."
+        },
+        {
+          "key": "D",
+          "text": "I, II e III."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "I. INCORRETA: manguito pequeno SUPERESTIMA a PA (precisa de mais pressão para comprimir a artéria). II. CORRETA: PAS = 1º som de Korotkoff; PAD = 5º som (desaparecimento). III. CORRETA: em artérias periféricas (distais), há amplificação da PAS e amortecimento da PAD — pressão de pulso aumenta. (SBC 2025 — técnica de aferição)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_034",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] FAMECA R1 2025",
+      "statement": "(FAMECA R1 2025) Sobre hipertensão arterial em pediatria, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Medida anual em crianças acima de 4 anos; em cada consulta em crianças com sobrepeso e obesidade."
+        },
+        {
+          "key": "B",
+          "text": "Medida anual em crianças abaixo de 4 anos com fatores de risco como prematuridade e doenças renal e cardiovascular."
+        },
+        {
+          "key": "C",
+          "text": "A escolha do manguito deve levar em conta a circunferência do braço, além da faixa etária e do sexo."
+        },
+        {
+          "key": "D",
+          "text": "Para valores de normalidade, deve-se considerar o percentil da estatura, embora na triagem possa-se usar valores desconsiderando a estatura."
+        },
+        {
+          "key": "E",
+          "text": "Na fase inicial, a criança frequentemente apresenta cefaleia occipital, irritabilidade e dificuldade para dormir."
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "Os valores normais de PA pediátrica são definidos pelo percentil de estatura (tabelas que levam em conta sexo, idade e altura). Para triagem simplificada, pode-se usar tabelas com valores fixos sem considerar estatura — mas o diagnóstico definitivo exige as tabelas por percentil de estatura. A escolha do manguito considera a circunferência do braço (não faixa etária e sexo). HAS infantil é geralmente assintomática. (SBC 2025 — HAS pediátrica)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_035",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] HECI R1 2026",
+      "statement": "(HECI R1 2026) Homem de 52 anos, HAS há 10 anos, uso esporádico de losartana 50 mg. PA 172×102 em duas medidas. HVE no ECG. Creatinina 1,6, K+ 5,2. Tabagismo, história familiar de IAM. Sobre este paciente: I. HVE no ECG caracteriza LOA. II. Creatinina elevada + K+ alto pode sugerir DRC ou estenose de artéria renal. III. Losartana em baixa dose é suficiente para este paciente de alto risco. IV. Deve otimizar com combinação de anti-hipertensivos e MEV. Estão CORRETAS:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Apenas I e II."
+        },
+        {
+          "key": "B",
+          "text": "Apenas III e IV."
+        },
+        {
+          "key": "C",
+          "text": "Apenas I, II e IV."
+        },
+        {
+          "key": "D",
+          "text": "I, II, III e IV."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "I. CORRETA: HVE no ECG (critérios de Sokolow-Lyon ou Cornell) é LOA cardíaca da HAS. II. CORRETA: hipercalemia + creatinina elevada sugere DRC avançada ou estenose de artéria renal (redução da TFG + hiperaldosteronismo secundário). III. INCORRETA: monoterapia com BRA em baixa dose é INSUFICIENTE para este paciente de alto risco com PA 172×102 e LOA — necessita otimização. IV. CORRETA. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_036",
+      "theme": "cardio_has",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] AMP R3CM 2026",
+      "statement": "(AMP R3CM 2026) Homem de 55 anos com HAS resistente em uso de losartana 100 mg, anlodipino 10 mg e HCTZ 25 mg em doses máximas, com PA > 160/100 mmHg. Sobre causas de hipertensão resistente, assinale a correta:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "No aldosteronismo primário há retenção de sódio, potássio e atividade de renina plasmática baixa."
+        },
+        {
+          "key": "B",
+          "text": "Na síndrome de Cushing, indica-se medir o cortisol sérico às 8h da manhã."
+        },
+        {
+          "key": "C",
+          "text": "É importante perguntar sobre roncopatia pois a apneia obstrutiva do sono pode ser causa de hipertensão resistente."
+        },
+        {
+          "key": "D",
+          "text": "A tríade clássica de palpitação, cefaleia e sudorese profusa é sugestiva de hiperparatireoidismo."
+        },
+        {
+          "key": "E",
+          "text": "Sopro sistólico em flanco direito sugere displasia fibromuscular como fisiopatologia."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "A apneia obstrutiva do sono (AOS) é causa importante e frequente de HAS resistente — pergunta obrigatória na investigação. No aldosteronismo primário há retenção de sódio com HIPOCALEMIA (não retenção de potássio). O rastreio de Cushing é feito com cortisol livre urinário 24h ou supressão com dexametasona 1 mg — não cortisol sérico às 8h isolado. A tríade de palpitação + cefaleia + sudorese = feocromocitoma (não hiperparatireoidismo). Sopro em flanco = hipertensão renovascular. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_037",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] HIS R1 2025",
+      "statement": "(HIS R1 2025) Mulher de 58 anos, PA 160×98 mmHg repetida em ambos os braços. IMC 32. Em consulta anterior há 1 mês: PA 150×92 mmHg. Edema leve em MMII. Qual a conduta farmacológica correta?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Encaminhar ao cardiologista para definição de tratamento."
+        },
+        {
+          "key": "B",
+          "text": "Iniciar losartana 50 mg/dia."
+        },
+        {
+          "key": "C",
+          "text": "Iniciar propranolol 40 mg/dia."
+        },
+        {
+          "key": "D",
+          "text": "Solicitar exames laboratoriais antes de iniciar tratamento."
+        },
+        {
+          "key": "E",
+          "text": "Não há necessidade de iniciar tratamento farmacológico."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "HAS estágio 2 (≥ 160/100 mmHg) confirmada em 2 consultas — tratamento farmacológico imediato é mandatório, não se aguardam exames. BRA (losartana) é opção de primeira linha. Propranolol não é primeira linha em HAS sem comorbidades (HF/arritmia). Não há necessidade de encaminhar ao cardiologista para HAS estágio 2 sem complicações. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_038",
+      "theme": "cardio_has",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] HCPA R3CM 2025",
+      "statement": "(HCPA R3CM 2025) Paciente em uso de indapamida 1,5 mg, anlodipino 10 mg, perindopril 10 mg, espironolactona 100 mg e nebivolol 10 mg, com PA de consultório média de 136/88 mmHg. Conforme Diretrizes Brasileiras 2020, este paciente possui:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Hipertensão pseudorresistente."
+        },
+        {
+          "key": "B",
+          "text": "Hipertensão resistente controlada."
+        },
+        {
+          "key": "C",
+          "text": "Hipertensão resistente não controlada."
+        },
+        {
+          "key": "D",
+          "text": "Hipertensão refratária."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Hipertensão resistente = PA não controlada em uso de ≥ 3 drogas incluindo diurético. Hipertensão resistente CONTROLADA = PA controlada (< 140/90 mmHg) mas em uso de ≥ 4 drogas. Este paciente usa 5 drogas com PA 136/88 — está controlado com ≥ 4 fármacos = hipertensão resistente controlada. Refratária = PA não controlada com ≥ 5 drogas. (SBC 2020)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_039",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] UNESP R3CM 2025",
+      "statement": "(UNESP R3CM 2025) Sobre medidas não farmacológicas para controle da HAS, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Em pacientes com dieta rica em sódio, substituir cloreto de sódio por cloreto de potássio é recomendado para reduzir a PA e o risco cardiovascular."
+        },
+        {
+          "key": "B",
+          "text": "A restrição de sal recomendada é de menos de 4 g de NaCl, equivalente a cerca de 1 g de sódio."
+        },
+        {
+          "key": "C",
+          "text": "É recomendado o consumo moderado de álcool para proteção cardiovascular."
+        },
+        {
+          "key": "D",
+          "text": "Há evidência do efeito do exercício aeróbico na redução da HAS, porém não para o exercício resistido."
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "A substituição de NaCl por KCl (cloreto de potássio) aumenta a ingestão de potássio, que tem efeito natriurético e vasodilatador — comprovadamente reduz a PA e o risco cardiovascular. A restrição recomendada é < 5 g de NaCl (≈ 2 g de sódio) — não 4 g de NaCl. Álcool não é recomendado para proteção CV — deve ser limitado. Tanto exercício aeróbico quanto resistido (musculação) reduzem a PA. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_040",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] UNIFESP R1 2025",
+      "statement": "(UNIFESP R1 2025) Mulher de 66 anos, DM tipo 2 e HAS. PA 140/96 mmHg. TFG 28 mL/min, proteinúria 1,9 g/24h. Qual a conduta mais apropriada?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Prescrever IECA ou BRA."
+        },
+        {
+          "key": "B",
+          "text": "Evitar bloqueadores do SRAA devido à função renal diminuída."
+        },
+        {
+          "key": "C",
+          "text": "Não iniciar anti-hipertensivos pois a PA está controlada."
+        },
+        {
+          "key": "D",
+          "text": "Iniciar BCC para diminuir proteinúria."
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "DM + proteinúria + DRC: IECA ou BRA são a primeira linha OBRIGATÓRIA, independentemente do estágio da DRC, pois têm efeito nefroprotetor independente do efeito anti-hipertensivo (reduzem proteinúria e retardam progressão da DRC). A TFG 28 mL/min (DRC estágio 4) não contraindica SRAA — monitore o potássio e a creatinina. BCC não reduz proteinúria. (SBC 2025 / KDIGO 2024)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_041",
+      "theme": "cardio_has",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] CMC R1 2025",
+      "statement": "(CMC R1 2025) Sobre o diagnóstico de HAS, é correto afirmar que:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "O diagnóstico deve ser feito com base em pelo menos duas medições em consultório em dias diferentes, com PAS > 130 ou PAD > 80 mmHg."
+        },
+        {
+          "key": "B",
+          "text": "A automedida domiciliar não é considerada método confiável e deve ser desconsiderada."
+        },
+        {
+          "key": "C",
+          "text": "Pacientes com hipertensão mascarada apresentam PA elevada no ambiente domiciliar, enquanto no consultório os valores são normais."
+        },
+        {
+          "key": "D",
+          "text": "A hipertensão do jaleco branco ocorre quando a PA está elevada no domicílio mas normaliza no consultório."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Hipertensão mascarada = PA normal no consultório + PA elevada fora do consultório (MAPA/MRPA). Hipertensão do jaleco branco = PA elevada no consultório + PA normal fora. São fenômenos opostos. O diagnóstico de HAS exige PAS ≥ 140 ou PAD ≥ 90 mmHg (não 130/80). A MRPA é método válido e recomendado. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_042",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] SCMRP R3CM 2026",
+      "statement": "(SCMRP R3CM 2026) Homem de 45 anos com medidas domiciliares irregulares (1-6 medidas/dia, horários variados) mostrando média de PAS 150 e PAD 95 mmHg. Além de MEV, deve-se:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Reavaliar em 3 meses após apenas orientação."
+        },
+        {
+          "key": "B",
+          "text": "Solicitar MAPA."
+        },
+        {
+          "key": "C",
+          "text": "Iniciar tratamento com HCTZ apenas."
+        },
+        {
+          "key": "D",
+          "text": "Iniciar tratamento com BRA."
+        },
+        {
+          "key": "E",
+          "text": "Iniciar tratamento com HCTZ + BRA."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "As medidas domiciliares foram realizadas de forma não padronizada (número variável, horários irregulares) — não correspondem à MRPA válida. Para MRPA válida: 3 medidas pela manhã e 3 à noite por 5 dias consecutivos (ou 4), usando a média das últimas medidas. Como as medidas são inválidas, a próxima etapa é solicitar MAPA para confirmação diagnóstica antes de iniciar tratamento. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_043",
+      "theme": "cardio_has",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] ENARE R1 2025",
+      "statement": "(ENARE R1 2025) José, 55 anos, hipertenso há 3 anos, em uso regular de medicação, com PA 130×80 mmHg e baixo risco cardiovascular. A conduta é:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Manter a medicação e reforçar MEV, pois a PA está dentro da meta."
+        },
+        {
+          "key": "B",
+          "text": "Retirar a medicação e reforçar MEV, pois a PA está dentro da meta."
+        },
+        {
+          "key": "C",
+          "text": "Modificar a medicação para evitar tolerância."
+        },
+        {
+          "key": "D",
+          "text": "Reforçar MEV, pois a PA está fora da meta."
+        },
+        {
+          "key": "E",
+          "text": "Modificar a conduta medicamentosa pois a PA está fora da meta."
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "PA 130×80 mmHg com baixo risco CV = dentro da meta (SBC 2025: meta ≤ 130/80 para a maioria dos hipertensos com tratamento). Manter a medicação e reforçar MEV. Não se retira a medicação pelo bom controle — isso causaria rebote. Não existe \"tolerância\" a anti-hipertensivos que justifique troca. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_044",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] USP-RP 2026",
+      "statement": "(USP-RP 2026) Criança de 10 anos pós-transplante renal há 2 anos. PA de consultório normal. MAPA 24h: vigília >p95 e sono >p95. Função renal preservada, assintomática. Qual a conduta?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Iniciar propranolol devido à alteração na MAPA."
+        },
+        {
+          "key": "B",
+          "text": "Reduzir ou suspender corticoide."
+        },
+        {
+          "key": "C",
+          "text": "Hipertensão mascarada, indicar anti-hipertensivo."
+        },
+        {
+          "key": "D",
+          "text": "Considerar normal, pois o médico confere as medidas no consultório."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Mesma questão USP-RP Q7. PA de consultório normal + MAPA elevada = hipertensão mascarada. Em crianças pós-transplante, a MAPA é o padrão para detectar HAS (especialmente mascarada). A conduta é iniciar anti-hipertensivo (IECA ou BRA são preferidos em transplantados para proteção renal). (SBC 2025 — HAS pediátrica)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_045",
+      "theme": "cardio_has",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] ABC R1 2025",
+      "statement": "(ABC R1 2025) Reinaldo, 48 anos, hipertenso, relata que uma medicação causou inchaço nas pernas a ponto de não conseguir calçar as botas de trabalho. Qual medicação tem maior probabilidade de ter sido prescrita?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Anlodipino."
+        },
+        {
+          "key": "B",
+          "text": "Losartan."
+        },
+        {
+          "key": "C",
+          "text": "Hidroclorotiazida."
+        },
+        {
+          "key": "D",
+          "text": "Enalapril."
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Edema maleolar (periférico) é o principal efeito colateral dos bloqueadores de canais de cálcio di-hidropiridínicos (anlodipino, nifedipino). O edema é causado pela vasodilatação arteriolar sem vasodilatação venosa equivalente, levando ao acúmulo de fluido no interstício. É dose-dependente e pode ser intenso o suficiente para impedir calçar sapatos. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_046",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] FAMERP R3CM 2026",
+      "statement": "(FAMERP R3CM 2026) Sobre a técnica de aferição da PA segundo a nova Diretriz Brasileira de HAS 2025:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "O paciente deve estar há pelo menos 30 minutos sem ter fumado, ingerido alimentos ou cafeína e 90 minutos sem ter praticado exercício físico."
+        },
+        {
+          "key": "B",
+          "text": "A PA deve ser medida em ambos os braços inicialmente, utilizando o braço com a PA mais baixa para medidas subsequentes."
+        },
+        {
+          "key": "C",
+          "text": "Quando a medida no braço for difícil em obesos, não se pode considerar a medida no punho."
+        },
+        {
+          "key": "D",
+          "text": "Deve-se realizar 5 medidas ao dia com intervalo de 1 hora e utilizar a média das duas últimas."
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "A SBC 2025 recomenda: repouso de 5 min; ≥ 30 min sem café, tabaco ou alimentos; ≥ 60 min sem atividade física intensa; bexiga vazia. A medida deve ser feita em AMBOS os braços inicialmente e usar o de MAIOR PA como referência (diferença > 15 mmHg sugere doença arterial periférica). Medida no punho pode ser usada em obesos quando o braço não é adequado. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_047",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] USP-RP R1 2025",
+      "statement": "(USP-RP R1 2025) Homem de 38 anos assintomático com PA de consultório 140×90 mmHg. ECG normal. MAPA solicitada (veja imagem — resultado normal fora do consultório). Qual o diagnóstico e conduta?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "HAS; orientar dieta hipossódica e reavaliar em 3 meses."
+        },
+        {
+          "key": "B",
+          "text": "Hipertensão mascarada; iniciar BCC e incentivar atividade física."
+        },
+        {
+          "key": "C",
+          "text": "Hipertensão do avental branco; apto a praticar atividade física."
+        },
+        {
+          "key": "D",
+          "text": "Hipertensão do avental branco; apto a praticar atividade física e iniciar anti-hipertensivo."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "PA elevada no consultório (140×90) + MAPA normal fora = hipertensão do avental branco. Esse fenômeno NÃO exige tratamento farmacológico (risco CV semelhante à normotensão na maioria dos estudos, embora haja controvérsia). O paciente é apto à atividade física. MEV e seguimento anual com MAPA são recomendados. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_048",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] ISCMSC R1 2025",
+      "statement": "(ISCMSC R1 2025) Sobre antagonistas de canal de cálcio di-hidropiridínicos e não di-hidropiridínicos, assinale o item correto:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Di-hidropiridínicos amplamente usados em idosos com HAS; não di-hidropiridínicos (verapamil) têm maior efeito vasodilatador e não são prescritos para idosos pois alteram a condução AV."
+        },
+        {
+          "key": "B",
+          "text": "Di-hidropiridínicos amplamente usados em idosos com HAS; não di-hidropiridínicos (verapamil) têm menor efeito vasodilatador e não são prescritos para idosos pois alteram a condução AV."
+        },
+        {
+          "key": "C",
+          "text": "Di-hidropiridínicos pouco usados em idosos sem doença coronariana; não di-hidropiridínicos (verapamil) têm menor efeito vasodilatador e não são prescritos para idosos pois alteram a condução AV."
+        },
+        {
+          "key": "D",
+          "text": "Di-hidropiridínicos amplamente usados em idosos com HAS; não di-hidropiridínicos (verapamil) têm menor efeito vasodilatador mas não alteram a condução AV."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Questão idêntica à Q8. Di-hidropiridínicos (anlodipino) = maior vasodilatação, amplo uso em idosos. Não di-hidropiridínicos (verapamil) = menor vasodilatação, maior ação cronotrópica/dromotrópica negativa no nó AV → evitados em idosos (risco de BAV e bradicardia). (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_049",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] PSU-GO R1 2025",
+      "statement": "(PSU-GO R1 2025) A rotina de exames para o hipertenso segundo a Diretriz Brasileira 2020 constitui-se de:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Hemograma, sódio, potássio, lipidograma, glicemia de jejum, HbA1c, creatinina, ácido úrico e EAS."
+        },
+        {
+          "key": "B",
+          "text": "Potássio, lipidograma, glicemia de jejum, HbA1c, creatinina, ácido úrico e EAS."
+        },
+        {
+          "key": "C",
+          "text": "Sódio, potássio, lipidograma, glicemia de jejum, HbA1c, ureia, creatinina, ácido úrico e EAS."
+        },
+        {
+          "key": "D",
+          "text": "Hemograma, potássio, lipidograma, glicemia de jejum, HbA1c, ureia, creatinina, ácido úrico e EAS."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "A Diretriz SBC 2020 para a rotina do hipertenso: potássio, lipidograma, glicemia de jejum, HbA1c, creatinina (TFG), ácido úrico e EAS (urina). O hemograma não é exame de rotina da HAS. O sódio e a ureia não fazem parte da rotina — são solicitados em indicações específicas. (SBC 2020)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_050",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] UFSC R1 2026",
+      "statement": "(UFSC R1 2026) Sobre aferição da PA: I. Manguito pequeno subestima a PA. II. PA sistólica e diastólica definidas pelo 1º e 5º sons de Korotkoff. III. PAS aumenta e PAD diminui em artérias mais distais. Quais estão corretas?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Apenas I e II."
+        },
+        {
+          "key": "B",
+          "text": "Apenas I e III."
+        },
+        {
+          "key": "C",
+          "text": "Apenas II e III."
+        },
+        {
+          "key": "D",
+          "text": "I, II e III."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Questão idêntica à Q33. I. INCORRETA: manguito pequeno SUPERESTIMA a PA. II e III corretas. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_051",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] Hospital São Lucas RP R1 2026",
+      "statement": "(Hospital São Lucas RP R1 2026) Sobre a PA no paciente pediátrico, é correto afirmar:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Exercício, excitação, tosse e choro podem diminuir a PA sistólica aferida dos lactentes em até 40-50 mmHg."
+        },
+        {
+          "key": "B",
+          "text": "A PA varia com a idade e está intimamente relacionada ao peso e ao perímetro cefálico."
+        },
+        {
+          "key": "C",
+          "text": "Manguito muito pequeno resulta em leituras falsamente diminuídas; manguito grande aumenta enganosamente a pressão."
+        },
+        {
+          "key": "D",
+          "text": "A aferição deve ser feita com o manguito cobrindo pelo menos dois terços da parte superior do braço."
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "O manguito deve cobrir 80% da circunferência do braço e sua largura deve ser 40% da circunferência. Para crianças, o segmento inflável deve cobrir pelo menos 2/3 do comprimento do braço (não circunferência). Manguito pequeno SUPERESTIMA (não subestima) a PA. Exercício e choro aumentam (não diminuem) a PA. (SBC 2025 — HAS pediátrica)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_052",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] FAMERP R3CM 2026",
+      "statement": "(FAMERP R3CM 2026) A nova classificação da PA proposta pela Diretriz Brasileira de HAS 2025 apresenta alterações. As principais mudanças são:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "PAS < 120 e PAD < 80 mmHg é considerada \"PA ótima\"."
+        },
+        {
+          "key": "B",
+          "text": "PAS 120-129 e/ou PAD 80-84 mmHg são consideradas \"Pré-hipertensão\"."
+        },
+        {
+          "key": "C",
+          "text": "PAS 130-139 e/ou PAD 85-89 mmHg são consideradas \"Hipertensão Estágio 1\"."
+        },
+        {
+          "key": "D",
+          "text": "PAS 160-179 e/ou PAD 100-109 mmHg são consideradas \"Hipertensão Estágio 3\"."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "A SBC 2025 renomeou a faixa 120-129/80-84 mmHg como \"pré-hipertensão\" (antes era \"normal\"). A faixa 130-139/85-89 passou a ser \"hipertensão limítrofe\" (antes pré-hipertensão). Ótima: < 120/80. Normal: 120-129/80-84. Limítrofe: 130-139/85-89. HAS 1: 140-159/90-99. HAS 2: 160-179/100-109. HAS 3: ≥ 180/110. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_053",
+      "theme": "cardio_has",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] SES-PE R3CM 2025",
+      "statement": "(SES-PE R3CM 2025) De acordo com as diretrizes ESC 2024, é INCORRETO afirmar que:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Pacientes com PA 120-129/70-79 mmHg são classificados como pressão arterial elevada e devem ser monitorados anualmente."
+        },
+        {
+          "key": "B",
+          "text": "O tratamento da hipertensão resistente inclui antagonistas dos receptores de aldosterona."
+        },
+        {
+          "key": "C",
+          "text": "A hipertensão do jaleco branco não está associada a aumento do risco cardiovascular."
+        },
+        {
+          "key": "D",
+          "text": "A medição da PA fora do consultório (MAPA ou HBPM) é recomendada para fins diagnósticos."
+        },
+        {
+          "key": "E",
+          "text": "O rastreamento de HAS secundária é indicado para pacientes com hipertensão resistente."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "A hipertensão do avental branco NÃO é completamente benigna — estudos mostram maior risco de progressão para HAS sustentada e risco CV intermediário entre normotensão e HAS sustentada. Afirmar que \"não está associada a aumento do risco\" é INCORRETO segundo a ESC 2024. As demais alternativas estão corretas. (ESC 2024)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_054",
+      "theme": "cardio_has",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] PSU-GO R1 2026",
+      "statement": "(PSU-GO R1 2026) Menino de 12 anos com PA 135/90 mmHg em 3 ocasiões. Baixo peso ao nascer, TDAH, IMC > p95. Sem sintomas. Qual o fator modificável que pode ser abordado?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Baixo peso ao nascer."
+        },
+        {
+          "key": "B",
+          "text": "Transtorno do déficit de atenção."
+        },
+        {
+          "key": "C",
+          "text": "Obesidade."
+        },
+        {
+          "key": "D",
+          "text": "Estirão do crescimento."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Dos fatores listados, apenas a obesidade (IMC > p95) é modificável. Baixo peso ao nascer e TDAH são fatores não modificáveis. O estirão não é fator de risco de HAS. A perda de peso é a intervenção MEV mais eficaz na HAS pediátrica primária relacionada à obesidade. (SBC 2025 — HAS pediátrica)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_055",
+      "theme": "cardio_has",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] SCMRP R1 2026",
+      "statement": "(SCMRP R1 2026) Para o diagnóstico de HAS em adultos segundo as novas diretrizes brasileiras, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "O diagnóstico pode ser confirmado em apenas uma aferição elevada em consultório."
+        },
+        {
+          "key": "B",
+          "text": "O uso da MAPA ou MRPA auxilia na confirmação diagnóstica de outros fenótipos de hipertensão."
+        },
+        {
+          "key": "C",
+          "text": "A presença de LOA é obrigatória para diagnóstico."
+        },
+        {
+          "key": "D",
+          "text": "O diagnóstico só deve ser feito após exames laboratoriais complementares."
+        },
+        {
+          "key": "E",
+          "text": "A pressão de consultório é sempre suficiente para diagnóstico definitivo."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "MAPA e MRPA são essenciais para confirmação diagnóstica de fenótipos como hipertensão do avental branco e hipertensão mascarada. O diagnóstico de HAS não exige uma única medida, nem LOA, nem exames complementares obrigatórios antes. A PA de consultório isolada não é sempre suficiente — a SBC 2025 recomenda confirmação com medidas fora do consultório. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_056",
+      "theme": "cardio_has",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] HOB-DF R1 2025",
+      "statement": "(HOB-DF R1 2025) Paciente com PAS 155 mmHg e PAD 95 mmHg. Segundo a Diretriz SBC 2016, a pressão arterial é classificada como:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Pré-hipertensão."
+        },
+        {
+          "key": "B",
+          "text": "Hipertensão estágio 1."
+        },
+        {
+          "key": "C",
+          "text": "Hipertensão estágio 2."
+        },
+        {
+          "key": "D",
+          "text": "Hipertensão estágio 3."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Classificação SBC 2016/2020: HAS estágio 2 = PAS 160-179 e/ou PAD 100-109 mmHg. ATENÇÃO: PAS 155 e PAD 95 = estágio 2 pois 155 está entre 140-159 (estágio 1) e 95 está entre 90-99 (estágio 1) — na classificação de 2016, PAS 140-159/PAD 90-99 é estágio 1, mas PAS 155/PAD 95 pode ser classificada como estágio 1. Gabarito da banca: C (estágio 2) — possível divergência de classificação. (SBC 2016)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_057",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] UNESP R1 2025",
+      "statement": "(UNESP R1 2025) Sobre medidas não farmacológicas para HAS, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Substituir NaCl por KCl é recomendado para reduzir a PA e o risco cardiovascular."
+        },
+        {
+          "key": "B",
+          "text": "A restrição de NaCl recomendada é de menos de 4 g, equivalente a cerca de 1 g de sódio."
+        },
+        {
+          "key": "C",
+          "text": "É recomendado o consumo moderado de álcool para proteção cardiovascular."
+        },
+        {
+          "key": "D",
+          "text": "Há evidência do exercício aeróbico na redução da HAS, mas não para o resistido."
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Questão idêntica à Q39. Substituição de NaCl por KCl reduz a PA por aumento do potássio dietético (natriurese e vasodilatação). A restrição é < 5 g de NaCl (≈ 2 g de sódio). Álcool não tem efeito protetor cardiovascular nas evidências atuais — limitação recomendada. Exercício resistido também reduz a PA. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_058",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] AMRIGS R1 2026",
+      "statement": "(AMRIGS R1 2026) Sobre aferição da PA: I. Manguito pequeno subestima a PA. II. PAS e PAD definidas pelo 1º e 5º sons de Korotkoff. III. PAS aumenta e PAD diminui em artérias mais distais. Quais estão corretas?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Apenas I e II."
+        },
+        {
+          "key": "B",
+          "text": "Apenas I e III."
+        },
+        {
+          "key": "C",
+          "text": "Apenas II e III."
+        },
+        {
+          "key": "D",
+          "text": "I, II e III."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Questão idêntica às Q33 e Q50. I. INCORRETA (manguito pequeno superestima). II e III corretas. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_059",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] USP R1 2026",
+      "statement": "(USP R1 2026) Homem de 43 anos, DM tipo 2 e sobrepeso, com PA de 148×92 mmHg na triagem. Cônjuge relata ronco esporádico após álcool, sem pausas. Paciente nega sonolência diurna. Qual o próximo passo na avaliação da PA em consultório?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Solicitar polissonografia tipo 1."
+        },
+        {
+          "key": "B",
+          "text": "Indicar MAPA."
+        },
+        {
+          "key": "C",
+          "text": "Reavaliar a medida de PA em consulta de retorno."
+        },
+        {
+          "key": "D",
+          "text": "Checar o comprimento e a largura do manguito utilizado na medição."
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "O primeiro passo ao encontrar PA elevada em qualquer medição é garantir que a técnica e o manguito estão corretos. Manguito inadequado é a causa mais comum de PA falsamente elevada (manguito pequeno superestima). Checar o tamanho do manguito é o passo imediato antes de qualquer outra investigação. Se confirmada com técnica adequada, aí se considera MAPA ou retorno. (SBC 2025 — técnica)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_060",
+      "theme": "cardio_has",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] UNAERP R1 2025",
+      "statement": "(UNAERP R1 2025) Paciente de 59 anos, diabético, dislipidêmico, HAS há 3 anos. PA 180×100 (repetida e confirmada), IMC 38. Em uso de enalapril 20 mg 2x, clortalidona 25 mg, anlodipino 10 mg. MRPA 145×85. Retorna com PA 170×90. Creatinina 1,7, K+ 4,6, microalbuminúria 80 mg/g. Conduta correta:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Associar carvedilol."
+        },
+        {
+          "key": "B",
+          "text": "Associar espironolactona."
+        },
+        {
+          "key": "C",
+          "text": "Associar clonidina."
+        },
+        {
+          "key": "D",
+          "text": "Associar furosemida."
+        },
+        {
+          "key": "E",
+          "text": "Não associar novas drogas."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Paciente em tripla terapia (IECA + tiazídico + BCC) em doses otimizadas com PA não controlada = hipertensão resistente. A 4ª droga de escolha é a espironolactona. K+ 4,6 mEq/L é aceitável para iniciar espironolactona em baixa dose (25 mg) com monitoramento. Creatinina 1,7 exige cautela mas não contraindica. Carvedilol seria opção em paciente com IC. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_061",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] FAMERP R1 2026",
+      "statement": "(FAMERP R1 2026) Paciente de 78 anos com episódios de vertigem ao se levantar. PA sentada 120×72, PA em pé 98×60 mmHg. Em uso de enalapril 10 mg, HCTZ 25 mg e anlodipina 5 mg. Qual a melhor conduta?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Aumentar sal da dieta."
+        },
+        {
+          "key": "B",
+          "text": "Suspender anlodipina."
+        },
+        {
+          "key": "C",
+          "text": "Suspender hidroclorotiazida."
+        },
+        {
+          "key": "D",
+          "text": "Substituir enalapril por losartana."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Hipotensão ortostática (queda ≥ 20/10 mmHg ao ficar em pé) sintomática em idoso. O tiazídico (HCTZ) é o principal culpado pela depleção de volume e hipotensão postural. Suspender o diurético é a primeira medida para tratar hipotensão ortostática iatrogênica. Anlodipino causa edema, não hipotensão ortostática preferencial. Trocar de IECA para BRA não resolve. (SBC 2025 — idoso)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_062",
+      "theme": "cardio_has",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] ENARE R1 2025",
+      "statement": "(ENARE R1 2025) Rodrigo, 48 anos, com PA 165×90 mmHg na consulta atual e múltiplas medidas anteriores > 140×90 mmHg no último ano. Qual o fato que permite o diagnóstico de HAS?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Ter sido admitido com PA 150×95 em pronto atendimento."
+        },
+        {
+          "key": "B",
+          "text": "Ser sedentário."
+        },
+        {
+          "key": "C",
+          "text": "Ter história familiar de hipertensão."
+        },
+        {
+          "key": "D",
+          "text": "Ter tido aferições da PA maiores que 140×90 mmHg no último ano."
+        },
+        {
+          "key": "E",
+          "text": "Ter 48 anos de idade."
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "O diagnóstico de HAS é feito quando há PA ≥ 140/90 mmHg em pelo menos 2 medidas em 2 ocasiões distintas. Ter múltiplas aferições > 140/90 mmHg em diferentes consultas ao longo do ano cumpre esse critério. Sedentarismo, história familiar e idade são fatores de risco — não diagnóstico. Medidas em pronto-socorro não são adequadas para diagnóstico (estresse, dor). (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_063",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] FMJ R1 2026",
+      "statement": "(FMJ R1 2026) Asmático de 53 anos, HAS há 10 anos. Em uso de HCTZ 25 mg, losartana 50 mg 2x e anlodipina 2,5 mg. PA 155×95 mmHg confirmada por automonitoramento. MEV e adesão confirmadas. Conduta adequada:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Acrescentar espironolactona 25 mg."
+        },
+        {
+          "key": "B",
+          "text": "Aumentar anlodipina para 10 mg."
+        },
+        {
+          "key": "C",
+          "text": "Acrescentar atenolol 50 mg 2x."
+        },
+        {
+          "key": "D",
+          "text": "Acrescentar enalapril 20 mg."
+        },
+        {
+          "key": "E",
+          "text": "Acrescentar metildopa 250 mg 2x."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Paciente em tripla terapia com anlodipina em dose BAIXA (2,5 mg — dose mínima). O passo correto é otimizar a dose da anlodipina para a máxima (10 mg/dia) antes de adicionar um 4º fármaco. Asmático: betabloqueadores (atenolol) são contraindicados. IECA não deve ser adicionado a BRA. Metildopa é segunda linha. Espironolactona seria o 4º fármaco após otimização das doses atuais. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_064",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] PSU-GO R3CM 2026",
+      "statement": "(PSU-GO R3CM 2026) A aferição de PA por técnica oscilométrica apresenta vantagens, exceto:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Dispensa a validação dos equipamentos para populações especiais se já validados para adultos."
+        },
+        {
+          "key": "B",
+          "text": "Necessita de avaliação da calibração dos equipamentos duas vezes ao ano."
+        },
+        {
+          "key": "C",
+          "text": "Apresenta vantagens em relação à técnica auscultatória por afastar erros sistemáticos de aproximação de valores."
+        },
+        {
+          "key": "D",
+          "text": "Dispensa a validação por protocolos específicos dos equipamentos."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "A técnica oscilométrica apresenta vantagens reais: elimina o erro de observador (sem erros de arredondamento de leitura do mercúrio), elimina o viés de digito preferencial e o efeito do observador. Esta vantagem está correta. As demais afirmações estão INCORRETAS: equipamentos devem ser validados ESPECIFICAMENTE para cada população (gestantes, crianças, idosos), a calibração deve ser anual e a validação por protocolos específicos é obrigatória. A correta é a C. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_065",
+      "theme": "cardio_has",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] ABC R1 2025",
+      "statement": "(ABC R1 2025) Paciente de 60 anos, HAS desde os 47, em uso regular de HCTZ 25 mg, enalapril 40 mg, amlodipina 10 mg e atenolol 100 mg. PA sempre > 140/90 mmHg na MRPA há 2 anos. Trata-se de:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Hipertensão resistente, sem necessidade de investigação de causas secundárias."
+        },
+        {
+          "key": "B",
+          "text": "Hipertensão resistente, com necessidade de ampliar investigação para causas secundárias."
+        },
+        {
+          "key": "C",
+          "text": "Hipertensão refratária, com necessidade de investigação de causas secundárias."
+        },
+        {
+          "key": "D",
+          "text": "Hipertensão metabólica, causa mais provável renovascular."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Hipertensão resistente = PA não controlada com ≥ 3 drogas incluindo diurético (HCTZ), com adesão confirmada. Este paciente usa 4 drogas (HCTZ + IECA + BCC + betabloqueador) com PA não controlada = hipertensão resistente. A investigação de causas secundárias (aldosteronismo primário, AOS, HAS renovascular) é OBRIGATÓRIA na hipertensão resistente. Refratária = PA não controlada com ≥ 5 drogas. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_066",
+      "theme": "cardio_has",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] UNIFESP R3CM 2025",
+      "statement": "(UNIFESP R3CM 2025) A prevalência de HAS aumenta com a idade, sendo o enrijecimento arterial o principal fator etiopatogênico. Qual método/marcador está diretamente relacionado à rigidez arterial?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Índice tornozelo-braquial."
+        },
+        {
+          "key": "B",
+          "text": "Espessura médio-intimal carotídea."
+        },
+        {
+          "key": "C",
+          "text": "Velocidade de onda de pulso."
+        },
+        {
+          "key": "D",
+          "text": "Vasodilatação fluxo-mediada."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "A velocidade de onda de pulso (VOP) é o marcador padrão-ouro de rigidez arterial. Quanto maior a rigidez da aorta, maior a velocidade de propagação da onda de pulso. VOP > 10 m/s indica rigidez arterial aumentada e é LOA independente. Espessura médio-intimal avalia aterosclerose (não rigidez). Índice tornozelo-braquial avalia doença arterial periférica. Vasodilatação fluxo-mediada avalia disfunção endotelial. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_067",
+      "theme": "cardio_has",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] SES-PE R1 2026",
+      "statement": "(SES-PE R1 2026) De acordo com a Diretriz Brasileira de HAS 2025, assinale a alternativa INCORRETA.",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "As medidas não farmacológicas incluem redução de sal, perda de peso, exercício físico e moderação no uso de álcool."
+        },
+        {
+          "key": "B",
+          "text": "O escore PREVENT é recomendado para estimar o risco de eventos cardiovasculares em 10 anos."
+        },
+        {
+          "key": "C",
+          "text": "A presença de DRC, diabetes ou LOA define alto risco cardiovascular."
+        },
+        {
+          "key": "D",
+          "text": "A diretriz sugere considerar biomarcadores como escore de cálcio coronariano, BNP, troponina e lipoproteína(a) em situações selecionadas."
+        },
+        {
+          "key": "E",
+          "text": "A Diretriz 2025 não recomenda estratificação de risco na pré-hipertensão, apenas na hipertensão estabelecida."
+        }
+      ],
+      "correct_key": "E",
+      "explanation": "A SBC 2025 RECOMENDA a estratificação de risco cardiovascular TAMBÉM na pré-hipertensão (limítrofe 130-139/85-89 mmHg), pois o risco CV guia a decisão de intervenção farmacológica precoce. Afirmar que a estratificação se aplica apenas à hipertensão estabelecida é INCORRETO. As demais alternativas estão corretas de acordo com a SBC 2025. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_068",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] PSU-GO R1 2026",
+      "statement": "(PSU-GO R1 2026) A Diretriz Brasileira de HAS 2025 trouxe atualizações. Qual exame foi adicionado, em relação à diretriz de 2020, ao rol dos recomendados rotineiramente no seguimento do hipertenso?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Estimativa da TFGe pelo CKD-EPI."
+        },
+        {
+          "key": "B",
+          "text": "Relação albuminúria/creatininúria."
+        },
+        {
+          "key": "C",
+          "text": "Quantificação do sódio sérico."
+        },
+        {
+          "key": "D",
+          "text": "Dosagem sérica do peptídeo natriurético tipo B."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "A SBC 2025 adicionou a relação albumina/creatinina urinária (RAC) como exame de rotina anual para todos os hipertensos — marcador precoce de lesão renal (microalbuminúria). Na diretriz 2020, era solicitada apenas sob indicação específica. A TFGe pelo CKD-EPI já era recomendada. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_069",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] USP-RP R3CM 2025",
+      "statement": "(USP-RP R3CM 2025) Homem de 38 anos assintomático, PA de consultório 140×90 mmHg, ECG normal. MAPA com resultado normal fora do consultório. Diagnóstico e conduta:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Hipertensão mascarada; iniciar BCC e incentivar atividade física."
+        },
+        {
+          "key": "B",
+          "text": "Hipertensão do avental branco; apto a praticar atividade física."
+        },
+        {
+          "key": "C",
+          "text": "HAS; orientar dieta hipossódica e reavaliar em 3 meses."
+        },
+        {
+          "key": "D",
+          "text": "HAS; início de medicamento anti-hipertensivo."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Questão idêntica à Q47. PA elevada no consultório + MAPA normal fora = hipertensão do avental branco. Não exige tratamento farmacológico. Paciente é apto para atividade física. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_070",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] Sírio Libanês SP R1 2026",
+      "statement": "(Sírio Libanês SP R1 2026) Menina de 8 anos em consulta de rotina. Sem queixas, sem tratamento. IMC p85. Média de 3 aferições de PA: 111×73 mmHg; 112×76 mmHg e 110×75 mmHg em dois momentos diferentes. Diagnóstico da PA:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Normotensão."
+        },
+        {
+          "key": "B",
+          "text": "Pressão arterial elevada."
+        },
+        {
+          "key": "C",
+          "text": "Hipertensão arterial estágio 1."
+        },
+        {
+          "key": "D",
+          "text": "Hipertensão arterial estágio 2."
+        },
+        {
+          "key": "E",
+          "text": "É necessário MAPA para diagnóstico."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Em crianças, os valores devem ser comparados com tabelas por percentil de estatura/sexo/idade. Com IMC p85 (sobrepeso), a PA 111-112/73-76 mmHg em menina de 8 anos pode se enquadrar na faixa de PA elevada (entre p90 e p95). Com medidas confirmadas em dois momentos distintos nessa faixa, o diagnóstico de pressão arterial elevada (entre p90-p95) é o mais provável. (SBC 2025 — HAS pediátrica)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_071",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] SCMRP R3CM 2026",
+      "statement": "(SCMRP R3CM 2026) Homem de 55 anos, hipertenso, dislipidêmico. Em uso de enalapril, HCTZ e anlodipino em doses máximas. PA 140×90 e FC 76 bpm em mais de uma medida em duas consultas. Exames normais. Conduta:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Ecocardiograma e exames e, se normais, manter os três anti-hipertensivos."
+        },
+        {
+          "key": "B",
+          "text": "Substituir enalapril por olmesartana, anlodipino por verapamil e HCTZ por indapamida."
+        },
+        {
+          "key": "C",
+          "text": "Associar espironolactona."
+        },
+        {
+          "key": "D",
+          "text": "Associar metoprolol."
+        },
+        {
+          "key": "E",
+          "text": "Associar clonidina."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Paciente em tripla terapia (IECA + tiazídico + BCC) em doses máximas com PA 140×90 = hipertensão resistente. A 4ª droga de escolha é a espironolactona. Trocar os 3 fármacos por outros da mesma classe não tem benefício comprovado. Clonidina e metoprolol são opções de segunda linha. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_072",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] PSU-GO R1 2025",
+      "statement": "(PSU-GO R1 2025) Para o hipertenso estágio I de alto risco cardiovascular, segundo a Diretriz SBC 2020, a farmacoterapia inicial e o alvo pressórico são:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Dupla terapia e < 130×80 mmHg."
+        },
+        {
+          "key": "B",
+          "text": "Monoterapia e < 140×90 mmHg."
+        },
+        {
+          "key": "C",
+          "text": "Dupla terapia e < 140×90 mmHg."
+        },
+        {
+          "key": "D",
+          "text": "Monoterapia e < 130×80 mmHg."
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "HAS estágio 1 de ALTO risco CV (LOA, DM, DRC, DCV estabelecida): iniciar com dupla terapia de imediato (combinação de 2 fármacos em comprimido único se possível), com meta < 130/80 mmHg. Monoterapia é reservada para baixo risco ou idosos frágeis. (SBC 2020)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_073",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] UNESP R3CM 2026",
+      "statement": "(UNESP R3CM 2026) Homem de 82 anos com PA média 138/84 mmHg em consultas seriadas. HAS e DM. Segundo a Diretriz Brasileira 2025, a meta de PA é:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "< 140/90 mmHg, pois apresenta baixo risco cardiovascular."
+        },
+        {
+          "key": "B",
+          "text": "< 150/90 mmHg, por se tratar de paciente idoso."
+        },
+        {
+          "key": "C",
+          "text": "< 130/80 mmHg, desde que tolerada, independentemente da idade ou risco."
+        },
+        {
+          "key": "D",
+          "text": "< 135/85 mmHg devido a antecedente de diabetes."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "A SBC 2025 unificou a meta de PA para a maioria dos hipertensos em < 130/80 mmHg, desde que tolerada — independentemente da idade (inclusive octogenários) ou risco CV. A exceção é para idosos frágeis (> 80 anos com fragilidade confirmada), nos quais a meta pode ser flexibilizada para < 150/90 mmHg. Com DM, a meta é < 130/80 mmHg. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_074",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] IAMSPE R1 2026",
+      "statement": "(IAMSPE R1 2026) Paciente de 62 anos, hipertenso com taquicardia supraventricular, inicia tratamento com fármaco também usado para tremores essenciais. O efeito se dá pela redução do DC e da RVP. Qual o mecanismo de ação principal do propranolol?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Inibição da enzima conversora de angiotensina."
+        },
+        {
+          "key": "B",
+          "text": "Diurético de alça aumentando a excreção de sódio."
+        },
+        {
+          "key": "C",
+          "text": "Antagonismo não seletivo dos receptores beta-adrenérgicos."
+        },
+        {
+          "key": "D",
+          "text": "Bloqueio dos canais de cálcio nas células musculares lisas."
+        },
+        {
+          "key": "E",
+          "text": "Estímulo de receptores alfa-2 adrenérgicos centrais."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Propranolol é um betabloqueador NÃO seletivo (bloqueia β1 e β2). Mecanismo anti-hipertensivo: redução do débito cardíaco (β1) + redução da liberação de renina + redução da RVP a longo prazo. Também é usado para tremores essenciais (ação no SNC via bloqueio β2) e profilaxia de enxaqueca. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_075",
+      "theme": "cardio_has",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] AMRIGS R1 2025",
+      "statement": "(AMRIGS R1 2025) Vilmar, 62 anos, HAS, DM e história de depressão. Queixa de edema em ambos os tornozelos. Qual medicação de uso contínuo é a causa mais provável do edema perimaleolar?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Losartana."
+        },
+        {
+          "key": "B",
+          "text": "Fluoxetina."
+        },
+        {
+          "key": "C",
+          "text": "Anlodipino."
+        },
+        {
+          "key": "D",
+          "text": "Metformina."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Questão idêntica à Q45. Anlodipino (BCC di-hidropiridínico) causa edema maleolar por vasodilatação arteriolar preferencial sem vasodilatação venosa correspondente, resultando em aumento da pressão capilar e transudação de fluido. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_076",
+      "theme": "cardio_has",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] ENARE R3CM 2025",
+      "statement": "(ENARE R3CM 2025) Paciente de 62 anos, hipertenso, em uso de enalapril, indapamida e amlodipina em doses plenas. PA 155×96, FC 71. Sem causas secundárias. Quarta bulha à ausculta. K+ 3,9, creatinina 1,0. Qual medicação deve ser associada?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Espironolactona."
+        },
+        {
+          "key": "B",
+          "text": "Hidralazina."
+        },
+        {
+          "key": "C",
+          "text": "Furosemida."
+        },
+        {
+          "key": "D",
+          "text": "Verapamil."
+        },
+        {
+          "key": "E",
+          "text": "Losartana."
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Hipertensão resistente em tripla terapia (IECA + tiazídico + BCC). A quarta bulha indica disfunção diastólica do VE (LOA cardíaca). A 4ª droga de escolha é a espironolactona, que além de controlar a PA tem efeito cardioprotetor (anti-fibrótico) na LOA cardíaca. K+ 3,9 — seguro para iniciar espironolactona. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_077",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] HCPA R1 2026",
+      "statement": "(HCPA R1 2026) Associe corretamente as classes de anti-hipertensivos aos seus principais efeitos colaterais:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "BCC: edema maleolar — betabloqueadores: broncoespasmo — diuréticos: reação lúpus-like."
+        },
+        {
+          "key": "B",
+          "text": "Diuréticos: hipopotassemia — IECA: tosse seca — simpatolíticos de ação central: efeito rebote com a descontinuação."
+        },
+        {
+          "key": "C",
+          "text": "Vasodilatadores diretos: reação lúpus-like — diuréticos: hipopotassemia — BCC: broncoespasmo."
+        },
+        {
+          "key": "D",
+          "text": "IECA: tosse seca — diuréticos: broncoespasmo — BCC: edema maleolar."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "B está correta em todas as associações: tiazídicos causam hipopotassemia (perdas urinárias de K+); IECAs causam tosse seca por acúmulo de bradicinina; simpatolíticos de ação central (clonidina, metildopa) causam efeito rebote hipertensivo se suspensos abruptamente. BCC causa edema maleolar (não diuréticos). Betabloqueadores causam broncoespasmo. Vasodilatadores diretos (hidralazina) causam reação lúpus-like. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_078",
+      "theme": "cardio_has",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] ENARE R3CM 2026",
+      "statement": "(ENARE R3CM 2026) Paciente de 56 anos, hipertensão resistente. Em uso de anlodipino 5 mg 2x, losartana 50 mg 2x e HCTZ 25 mg. DM tipo 2, HbA1c 7,2%. PA 150×90 e FC 89 bpm. HVE no ECG, RAC 200 mg/g, TFG 90. MAPA: valores normais em vigília, 24h e sono. Conduta:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Iniciar espironolactona 25 mg."
+        },
+        {
+          "key": "B",
+          "text": "Iniciar carvedilol 6,25 mg."
+        },
+        {
+          "key": "C",
+          "text": "Realizar ecocardiograma e rastreio de hipertensão secundária."
+        },
+        {
+          "key": "D",
+          "text": "Substituir HCTZ por indapamida."
+        },
+        {
+          "key": "E",
+          "text": "Manutenção das medidas farmacológicas e repetir MAPA em 3-6 meses."
+        }
+      ],
+      "correct_key": "E",
+      "explanation": "MAPA NORMAL apesar de PA de consultório elevada = hipertensão do avental branco! A PA de consultório é elevada mas a MAPA confirma que a PA fora do consultório é normal. Não se adiciona fármaco em hipertensão do avental branco. A conduta é manter o tratamento atual e repetir a MAPA em 3-6 meses para reavaliação. O ecocardiograma e rastreio de causa secundária seriam indicados se houvesse hipertensão resistente verdadeira. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_079",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] FMJ R1 2025",
+      "statement": "(FMJ R1 2025) Asmático de 59 anos, HAS há 16 anos. Em uso de HCTZ 25 mg, losartana 50 mg 2x e anlodipina 10 mg. PA > 160×100 no automonitoramento e 165×95 na consulta. MEV e adesão confirmadas. Conduta indicada:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Acrescentar espironolactona 25 mg."
+        },
+        {
+          "key": "B",
+          "text": "Acrescentar captopril 25 mg 2x."
+        },
+        {
+          "key": "C",
+          "text": "Acrescentar furosemida 40 mg."
+        },
+        {
+          "key": "D",
+          "text": "Acrescentar propranolol 40 mg 2x."
+        },
+        {
+          "key": "E",
+          "text": "Acrescentar metildopa 250 mg 3x."
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Paciente em tripla terapia em doses máximas (BRA + tiazídico + BCC 10 mg), asmático (betabloqueadores contraindicados). PA não controlada = hipertensão resistente. 4ª droga: espironolactona. Captopril + losartana = duplo bloqueio SRAA (contraindicado). Furosemida não é a 4ª droga preferencial. Propranolol: contraindicado na asma. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_080",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] HSL-SP R1 2025",
+      "statement": "(HSL-SP R1 2025) Homem de 48 anos, HAS, com ácido úrico sérico de 8,5 mg/dL, sem episódios de gota. Anti-hipertensivo de escolha:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Furosemida."
+        },
+        {
+          "key": "B",
+          "text": "Enalapril."
+        },
+        {
+          "key": "C",
+          "text": "Atenolol."
+        },
+        {
+          "key": "D",
+          "text": "Losartana."
+        },
+        {
+          "key": "E",
+          "text": "Hidroclorotiazida."
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "Hiperuricemia: tiazídicos e diuréticos de alça são contraindicados (aumentam o ácido úrico). Betabloqueadores também elevam o ácido úrico. A losartana é o único anti-hipertensivo com efeito URICOSÚRICO — reduz o ácido úrico ao bloquear sua reabsorção tubular. É a escolha preferencial em hipertensos hiperuricêmicos. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_081",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] FELUMA R1 2025",
+      "statement": "(FELUMA R1 2025) Quando a PA continua descontrolada com o uso adequado de três drogas de primeira linha, deve-se:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Adicionar como quarta droga a espironolactona."
+        },
+        {
+          "key": "B",
+          "text": "Deflagrar a propedêutica de hipertensão secundária."
+        },
+        {
+          "key": "C",
+          "text": "Iniciar a combinação de hidralazina associada a nitratos."
+        },
+        {
+          "key": "D",
+          "text": "Adicionar um vasodilatador arterial direto como hidralazina."
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "A 4ª droga de escolha na hipertensão resistente (após confirmar adesão e excluir pseudo-resistência) é a espironolactona — evidências do estudo PATHWAY-2 demonstram superioridade sobre outros agentes. Somente após isso se considera investigação de causas secundárias. Hidralazina + nitratos e vasodilatadores são opções de última linha. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_082",
+      "theme": "cardio_has",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] HECI R1 2025",
+      "statement": "(HECI R1 2025) Mulher de 46 anos, HAS há 5 anos, em uso de losartana 50 mg/dia. PA 160×95 mmHg em consulta de rotina. A MELHOR conduta é:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Aumentar a dose de losartana para 100 mg/dia."
+        },
+        {
+          "key": "B",
+          "text": "Adicionar diurético tiazídico."
+        },
+        {
+          "key": "C",
+          "text": "Iniciar betabloqueador."
+        },
+        {
+          "key": "D",
+          "text": "Suspender losartana e iniciar IECA."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Paciente com PA não controlada em monoterapia (losartana 50 mg). O passo inicial é: (1) aumentar para dose máxima OU (2) adicionar 2ª droga. Como a losartana está em dose baixa, pode-se aumentar para 100 mg, mas a conduta mais eficaz e recomendada pela SBC 2025 é adicionar um diurético tiazídico (combinação BRA + tiazídico tem forte evidência). Trocar de BRA para IECA não tem benefício adicional. Betabloqueadores não são primeira linha. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_083",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] PSU-MG R1 2026",
+      "statement": "(PSU-MG R1 2026) Fernando, 50 anos, negro, PA 160-170×100 mmHg em 2 medidas na mesma consulta. Sem acesso a aplicativo de risco na UBS. Sobre o manejo inicial, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Iniciar monoterapia com diurético tiazídico."
+        },
+        {
+          "key": "B",
+          "text": "Iniciar terapia combinada diurético tiazídico + BRA, independentemente do risco cardiovascular."
+        },
+        {
+          "key": "C",
+          "text": "Solicitar exames para definir o risco e iniciar monoterapia com IECA."
+        },
+        {
+          "key": "D",
+          "text": "Solicitar MRPA e adiar início do tratamento até o resultado."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "HAS estágio 2 (≥ 160/100 mmHg) com múltiplos fatores de risco (tabagismo, sedentarismo, alimentação inadequada, etnia negra): início imediato com dupla terapia (diurético + BRA ou IECA + BCC). Em HAS estágio 2, não se adia tratamento para aguardar MRPA ou exames. Na população negra, tiazídicos e BCC têm maior eficácia. (SBC 2025 / PCDT MS 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_084",
+      "theme": "cardio_has",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] HPP R1 2025",
+      "statement": "(HPP R1 2025) Associe os medicamentos aos seus efeitos colaterais: 1-Enalapril; 2-Anlodipino; 3-Hidroclorotiazida; 4-Atenolol. A-Hiperuricemia; B-Edema periférico; C-Tosse seca; D-Disfunção erétil.",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "1-D, 2-A, 3-B, 4-C."
+        },
+        {
+          "key": "B",
+          "text": "1-C, 2-B, 3-A, 4-D."
+        },
+        {
+          "key": "C",
+          "text": "1-A, 2-D, 3-C, 4-B."
+        },
+        {
+          "key": "D",
+          "text": "1-B, 2-C, 3-D, 4-A."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Enalapril (IECA) → tosse seca (C). Anlodipino (BCC) → edema periférico/maleolar (B). Hidroclorotiazida (tiazídico) → hiperuricemia (A). Atenolol (betabloqueador) → disfunção erétil (D). (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_085",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] UERN R1 2025",
+      "statement": "(UERN R1 2025) Mulher de 69 anos, obesa, sedentária, artrite gotosa. PA 200/110 mmHg, FC 89. Ausência de edema pulmonar. Edema MMII ++/4+. Qual a conduta mais adequada?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Orientar MEV, diagnosticar HAS e iniciar diurético tiazídico."
+        },
+        {
+          "key": "B",
+          "text": "Diagnosticar síndrome metabólica e iniciar hipoglicemiante biguanida."
+        },
+        {
+          "key": "C",
+          "text": "Orientar MEV, diagnosticar HAS e iniciar IECA."
+        },
+        {
+          "key": "D",
+          "text": "Orientar MEV e solicitar MAPA."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "PA 200/110 mmHg = HAS estágio 3 com edema MMII e provável LOA. Gota/hiperuricemia é contraindicação para tiazídicos (elevam ácido úrico). IECA é a escolha adequada — não eleva o ácido úrico e tem efeito nefroprotetor. MAPA não é necessária com PA 200/110 — diagnóstico óbvio. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_086",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] ABC R1 2026",
+      "statement": "(ABC R1 2026) Homem de 56 anos, histórico de gota, em uso de colchicina. Etilismo leve, sedentário, alimentação inadequada. FC 103, PA 140×90 mmHg. IMC 33, CA 115 cm. Conduta mais adequada:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Orientar atividade física, dieta e perda ponderal, retorno em 3 meses."
+        },
+        {
+          "key": "B",
+          "text": "Orientar MEV e iniciar atenolol 25 mg."
+        },
+        {
+          "key": "C",
+          "text": "Orientar MEV e iniciar HCTZ 25 mg."
+        },
+        {
+          "key": "D",
+          "text": "Orientar MEV e iniciar losartana 50 mg."
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "PA 140×90 mmHg em 1ª medida na mesma consulta — ainda não diagnosticado. Com múltiplos fatores de risco (gota, obesidade, CA aumentada, sedentarismo, álcool), o risco CV é alto. Gota: tiazídicos (HCTZ) contraindicados. Betabloqueadores (atenolol): segunda linha, não indicado em hipertensão não complicada. Losartana: 1ª linha, com efeito uricosúrico (benéfico na gota). (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_087",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] REVALIDA 2026",
+      "statement": "(REVALIDA 2026) Mulher de 58 anos, PA 150×92 e 154×96 mmHg em 2 consultas. Dieta inadequada, sedentária. Sem LOA, risco CV baixo. Segundo o PCDT HAS MS 2025, qual a ação que deve integrar o plano terapêutico?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Solicitar MAPA para confirmação diagnóstica."
+        },
+        {
+          "key": "B",
+          "text": "Associar MEV à prescrição de anti-hipertensivo adequado ao estágio."
+        },
+        {
+          "key": "C",
+          "text": "Realizar MRPA e reavaliar em duas semanas."
+        },
+        {
+          "key": "D",
+          "text": "Orientar MEV e programar nova avaliação clínica antes de iniciar tratamento medicamentoso."
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "PA 150-154/92-96 mmHg = HAS estágio 1 confirmada (2 consultas). Sem LOA e baixo risco CV: o PCDT MS 2025 permite aguardar 3-6 meses de MEV antes de iniciar farmacoterapia no estágio 1 de baixo risco. Portanto, a conduta é MEV + nova avaliação antes de introduzir medicamento. Em alto risco, iniciaria farmacológico imediatamente. (PCDT HAS MS 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_088",
+      "theme": "cardio_has",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] SCM-BH R1 2026",
+      "statement": "(SCM-BH R1 2026) Marque a alternativa CORRETA sobre hipertensão arterial em pediatria.",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Os principais fatores de risco para HAS primária em criança são excesso de adiposidade, estilo de vida inadequado, estresse ambiental, baixo peso ao nascer e fatores genéticos."
+        },
+        {
+          "key": "B",
+          "text": "Crianças hipertensas têm baixa probabilidade de se tornarem adultos hipertensos e de apresentarem LOA."
+        },
+        {
+          "key": "C",
+          "text": "Políticas públicas promovendo alimentação saudável e aumento da atividade física não reduzem a prevalência de HAS primária."
+        },
+        {
+          "key": "D",
+          "text": "Diversas associações médicas pediátricas definem HAS como leituras repetidas de PA ≥ p85."
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Os fatores de risco para HAS primária em crianças incluem: obesidade/sobrepeso (principal), sedentarismo, dieta inadequada (sal, ultraprocessados), estresse ambiental (socioeconômico, familiar), baixo peso ao nascer (nefrônios reduzidos) e genética. Crianças hipertensas têm ALTA probabilidade de HAS na vida adulta (tracking pressórico). Políticas públicas reduzem sim a prevalência. HAS pediátrica é definida com PA ≥ p95 (não p85). (SBC 2025 — HAS pediátrica)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_089",
+      "theme": "cardio_has",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] ABC R3CM 2026",
+      "statement": "(ABC R3CM 2026) Com base nas diretrizes atuais sobre HAS, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "A monoterapia é a estratégia preferencial para a maioria dos hipertensos, independentemente do estágio ou risco CV."
+        },
+        {
+          "key": "B",
+          "text": "Para diagnóstico de HVE, o ECG é mais sensível que o ecocardiograma."
+        },
+        {
+          "key": "C",
+          "text": "A pressão arterial periférica (braquial) é mais relevante para a patogênese das DCV do que a pressão central (aórtica)."
+        },
+        {
+          "key": "D",
+          "text": "A clortalidona tem maior potência diurética e meia-vida mais prolongada que a HCTZ, sendo preferencial na hipertensão resistente."
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "Clortalidona: meia-vida de 45-60h (vs 8-12h da HCTZ), maior natriurese, melhor controle da PA nas 24h, superioridade na redução de eventos CV no estudo ALLHAT. É o diurético tiazídico preferencial na hipertensão resistente. O ecocardiograma é MAIS sensível que o ECG para HVE. A pressão aórtica central é mais relevante para DCV coronariana (infarto) do que a braquial. A dupla terapia é preferencial para maioria dos estágios 1 e 2. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_090",
+      "theme": "cardio_has",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] UNIFESP R3CM 2025",
+      "statement": "(UNIFESP R3CM 2025) Mulher de 47 anos, obesa, DM tipo 2, em uso de metformina e gliclazida. PA 160/95 mmHg, FC 75. MAPA: média 24h 148/100 mmHg, descenso noturno 9% (sistólica) e 6% (diastólica). Qual a terapia medicamentosa anti-hipertensiva mais adequada?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Enalapril 10 mg de 12/12h associado a anlodipino 5 mg/dia."
+        },
+        {
+          "key": "B",
+          "text": "HCTZ 25 mg/dia associada a metildopa 500 mg de 12/12h."
+        },
+        {
+          "key": "C",
+          "text": "Espironolactona 25 mg/dia associada a nebivolol 10 mg/dia."
+        },
+        {
+          "key": "D",
+          "text": "Metoprolol 50 mg/dia associado a enalapril 10 mg de 12/12h."
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Diabética obesa hipertensa com padrão \"non-dipper\" (descenso noturno < 10%): combinação IECA + BCC é a 1ª linha em diabéticos (IECA para nefroproteção + BCC para controle pressórico eficaz). Metildopa: segunda linha, não é preferencial em não gestantes. Espironolactona: 4ª linha para resistência. Betabloqueadores: não são 1ª linha em HAS sem comorbidade cardíaca, e pioram o controle glicêmico no DM. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_091",
+      "theme": "cardio_has",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] IAMSPE R3CM 2025",
+      "statement": "(IAMSPE R3CM 2025) Em relação à investigação de causas endocrinológicas de HAS, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Pesquisa de acromegalia com dosagem de GH pós-estímulo com glucagon faz parte da investigação diagnóstica."
+        },
+        {
+          "key": "B",
+          "text": "A dosagem de aldosterona e atividade plasmática de renina está indicada apenas se hipocalemia estiver associada."
+        },
+        {
+          "key": "C",
+          "text": "A dosagem de catecolaminas e metanefrinas deve ser solicitada unicamente nos pacientes com paroxismos."
+        },
+        {
+          "key": "D",
+          "text": "É indicada para pacientes com PA não controlada em uso de três anti-hipertensivos, incluindo um diurético."
+        },
+        {
+          "key": "E",
+          "text": "Hipercortisolismo exógeno não é causa de hipertensão."
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "A investigação de HAS secundária (incluindo causas endocrinológicas) é indicada na hipertensão resistente (PA não controlada com ≥ 3 drogas incluindo diurético). O rastreio de aldosteronismo primário (relação aldosterona/renina) é indicado mesmo sem hipocalemia — 50% dos casos têm K+ normal. Dosagem de metanefrinas é indicada em todos os suspeitos de feocromocitoma, não apenas com paroxismos clássicos. Hipercortisolismo exógeno (corticoides) CAUSA hipertensão. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_092",
+      "theme": "cardio_has",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] HSL-SP R1 2025",
+      "statement": "(HSL-SP R1 2025) Homem de 57 anos, HAS, em uso regular de enalapril, clortalidona e anlodipina em doses otimizadas. Sem queixas. PA 152×94, FC 72. MAPA confirmou hipertensão. Melhor proposta terapêutica:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Espironolactona."
+        },
+        {
+          "key": "B",
+          "text": "Hidralazina."
+        },
+        {
+          "key": "C",
+          "text": "Minoxidil."
+        },
+        {
+          "key": "D",
+          "text": "Bisoprolol."
+        },
+        {
+          "key": "E",
+          "text": "Isossorbida."
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "Paciente em tripla terapia otimizada (IECA + tiazídico + BCC) com PA não controlada e MAPA confirmando = hipertensão resistente verdadeira. A 4ª droga de escolha é a espironolactona. Hidralazina e minoxidil são vasodilatadores de última linha (muitos efeitos colaterais). Bisoprolol seria opção alternativa como 4ª droga, mas espironolactona tem evidência superior (PATHWAY-2). (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_093",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] HEVV R1 2025",
+      "statement": "(HEVV R1 2025) Adolescente de 13 anos, PA p50 de estatura, IMC p90. PA nas últimas 3 ocasiões: 126/84, 130/84 e 128/80 mmHg. Tabela: p90=121/75, p95=125/78. Afirmar:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Diagnóstico de pré-hipertensão; tratamento medicamentoso imediato."
+        },
+        {
+          "key": "B",
+          "text": "Deve ser investigado quanto a possível acometimento de órgãos-alvo (fundo de olho, ecocardiograma, albuminúria)."
+        },
+        {
+          "key": "C",
+          "text": "A etiologia deve ser pesquisada com renina sérica e USG de artérias renais com Doppler."
+        },
+        {
+          "key": "D",
+          "text": "Não precisa de acompanhamento quanto à PA pois não necessitará de medicamentos."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "PA entre p95 e p99 = HAS estágio 1 (126-130/80-84 mmHg está acima do p95 = 125/78). Em criança/adolescente com HAS estágio 1 confirmada, a investigação de LOA (HVE por ecocardiograma, retinopatia por fundo de olho, nefropatia por albuminúria) é obrigatória. Farmacoterapia imediata não é obrigatória no estágio 1 assintomático sem LOA — MEV primeiro. (SBC 2025 — HAS pediátrica)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_094",
+      "theme": "cardio_has",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] EINSTEIN R1 2025",
+      "statement": "(EINSTEIN R1 2025) Paciente de 59 anos, hipertenso, sedentário, obeso, em uso de enalapril 20 mg 12/12h, anlodipino 10 mg, clortalidona 25 mg, espironolactona 25 mg e carvedilol 25 mg 12/12h. PA > 140/90 mmHg apesar da adesão. Conduta correta:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Substituir clortalidona por HCTZ, pois é o diurético de escolha em hipertensão resistente."
+        },
+        {
+          "key": "B",
+          "text": "Associar furosemida e encaminhar ao cardiologista."
+        },
+        {
+          "key": "C",
+          "text": "Suspender espironolactona por falha terapêutica e associar hidralazina 50 mg 8/8h."
+        },
+        {
+          "key": "D",
+          "text": "Solicitar exames para investigação de causas secundárias e associar clonidina."
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "Paciente em 5 drogas com PA não controlada = hipertensão REFRATÁRIA (≥ 5 fármacos sem controle). Nesse cenário, a investigação de causas secundárias é mandatória (aldosteronismo, AOS, feocromocitoma, HAS renovascular). A clonidina pode ser adicionada como 6ª droga. Clortalidona é SUPERIOR à HCTZ na resistência — não substituir. Suspender espironolactona seria erro. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_095",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] SEMAD R1 2025",
+      "statement": "(SEMAD R1 2025) Paciente de 65 anos em uso de losartana 50 mg 12/12h, HCTZ 25 mg 12/12h e anlodipina 10 mg/dia. PA 180×100 mmHg com MAPA mostrando resposta inadequada. Próximo tratamento farmacológico:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Minoxidil."
+        },
+        {
+          "key": "B",
+          "text": "Clonidina."
+        },
+        {
+          "key": "C",
+          "text": "Atenolol."
+        },
+        {
+          "key": "D",
+          "text": "Hidralazina."
+        },
+        {
+          "key": "E",
+          "text": "Espironolactona."
+        }
+      ],
+      "correct_key": "E",
+      "explanation": "Paciente em tripla terapia (BRA + tiazídico + BCC) confirmada por MAPA = hipertensão resistente. 4ª droga: espironolactona. Atenolol não é a 4ª droga preferencial. Clonidina, minoxidil e hidralazina são opções de última linha com maior perfil de efeitos adversos. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_096",
+      "theme": "cardio_has",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] HIS R1 2025",
+      "statement": "(HIS R1 2025) Mulher de 58 anos com PA 160×98 mmHg em ambos os braços (consulta atual) e PA 150×92 mmHg há 1 mês. Qual afirmativa correta sobre o diagnóstico de HAS para esta paciente?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Deve ser feito o diagnóstico, pois apresentou pelo menos um valor de PA > 140×90 mmHg."
+        },
+        {
+          "key": "B",
+          "text": "Não pode ser feito, pois seria necessária mais uma medida em terceira consulta."
+        },
+        {
+          "key": "C",
+          "text": "Não pode ser feito, pois HAS é diagnosticada com PA acima de 180×90 mmHg."
+        },
+        {
+          "key": "D",
+          "text": "Deve ser feito o diagnóstico, pois ela apresenta dois valores de PA > 140×90 mmHg em consultas diferentes."
+        },
+        {
+          "key": "E",
+          "text": "Não deve ser feito, pois é necessário MAPA para o diagnóstico."
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "O diagnóstico de HAS requer PA ≥ 140/90 mmHg em pelo menos 2 medidas em 2 ocasiões distintas. Esta paciente tem PA 150×92 (1 mês atrás) + PA 160×98 (hoje) = 2 medidas em ocasiões distintas acima de 140/90 mmHg → diagnóstico confirmado. MAPA confirma mas não é obrigatória quando o diagnóstico é evidente. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_097",
+      "theme": "cardio_has",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] CMC R1 2025",
+      "statement": "(CMC R1 2025) Qual medicamento de primeira linha é geralmente recomendado para iniciar o tratamento em pacientes com HAS estágio 1 sem comorbidades?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Betabloqueador, para reduzir a FC e a força de contração."
+        },
+        {
+          "key": "B",
+          "text": "Antagonista de cálcio, exclusivo para hipertensão resistente."
+        },
+        {
+          "key": "C",
+          "text": "Agente antiarrítmico, que controla a pressão ao regular o ritmo cardíaco."
+        },
+        {
+          "key": "D",
+          "text": "Diurético tiazídico, que reduz a PA ao diminuir o volume de líquido."
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "Os fármacos de primeira linha para HAS sem comorbidades são: diuréticos tiazídicos (HCTZ, clortalidona, indapamida), IECAs, BRAs e bloqueadores de canal de cálcio. Betabloqueadores NÃO são primeira linha na HAS não complicada (apenas em comorbidades como IC, angina, FA). (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_098",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] IAMSPE R1 2025",
+      "statement": "(IAMSPE R1 2025) O efeito anti-hipertensivo da Candesartana é mediado por:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Inibição da enzima conversora de angiotensina."
+        },
+        {
+          "key": "B",
+          "text": "Bloqueio competitivo dos receptores AT1."
+        },
+        {
+          "key": "C",
+          "text": "Estimulação dos receptores de bradicinina."
+        },
+        {
+          "key": "D",
+          "text": "Redução da expressão do gene da proteína Gq/11."
+        },
+        {
+          "key": "E",
+          "text": "Aumento da atividade da enzima vasopeptidase."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "Candesartana é um BRA (bloqueador do receptor de angiotensina). Mecanismo: bloqueio COMPETITIVO e SELETIVO dos receptores AT1 (angiotensina II tipo 1), impedindo a vasoconstrição e a liberação de aldosterona mediadas pela angiotensina II. Diferente dos IECAs (que inibem a ECA), os BRAs agem diretamente no receptor. Não inibem a ECA nem estimulam bradicinina (por isso não causam tosse). (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_099",
+      "theme": "cardio_has",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] EINSTEIN R1 2026",
+      "statement": "(EINSTEIN R1 2026) Homem de 58 anos, DM tipo 2 há 10 anos, MAPA 24h com PA 150×92 mmHg. Sem DCV prévia. TFG > 60, microalbuminúria positiva. Melhor conduta além da MEV:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Iniciar betabloqueador em monoterapia pela proteção cardiovascular."
+        },
+        {
+          "key": "B",
+          "text": "Iniciar diurético tiazídico em monoterapia pela boa eficácia em idosos."
+        },
+        {
+          "key": "C",
+          "text": "Iniciar IECA e bloqueador de canal de cálcio."
+        },
+        {
+          "key": "D",
+          "text": "Adiar tratamento farmacológico e recomendar apenas MEV."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Diabético com microalbuminúria positiva (proteinúria inicial) = LOA renal. IECA é obrigatório (nefroproteção + redução de proteinúria). BCC (anlodipino) é adicionado para controle pressórico e efeito cardiovascular. Combinação IECA + BCC = padrão na SBC 2025 para DM hipertenso com microalbuminúria. Betabloqueador não é 1ª linha. (SBC 2025 / KDIGO 2024)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "has_100",
+      "theme": "cardio_has",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] UNICAMP R3CM 2026",
+      "statement": "(UNICAMP R3CM 2026) Mulher de 66 anos, HAS há 10 anos. Em uso de HCTZ 25 mg, anlodipina 10 mg e atenolol 50 mg. PA 162/82 e FC 68. Após adicionar uma 4ª medicação, retorna com tonturas. PA sentada 132/76; deitada 134/78; após 1 min em pé 128/74; após 3 min em pé 126/72. ECG disponível. A medicação prescrita foi:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Espironolactona."
+        },
+        {
+          "key": "B",
+          "text": "Ramipril."
+        },
+        {
+          "key": "C",
+          "text": "Metildopa."
+        },
+        {
+          "key": "D",
+          "text": "Hidralazina."
+        }
+      ],
+      "correct_key": "A",
+      "explanation": "O quadro descreve hipotensão ortostática (queda ≥ 20/10 mmHg ao ficar em pé) após introdução de nova medicação. Entre as opções, a espironolactona (diurético poupador de K+) causa maior depleção de volume que os outros fármacos listados, especialmente em idosos já em uso de HCTZ. A combinação HCTZ + espironolactona potencializa o efeito natriurético. Ramipril causa hipotensão, mas preferencialmente em hipotensos; metildopa e hidralazina causam hipotensão mas por outros mecanismos. O contexto (4ª droga em hipertensão resistente) aponta para a espironolactona. (SBC 2025)",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    }
+  ]
+}

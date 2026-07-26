@@ -1,0 +1,2395 @@
+{
+  "generatedAt": "2026-07-26T20:34:59.964Z",
+  "areas": [
+    "cardiologia",
+    "cirurgia-geral",
+    "dermatologia",
+    "endocrinologia",
+    "gastroenterologia",
+    "ginecologia",
+    "hematologia",
+    "infectologia",
+    "medicina-emergencia",
+    "medicina-intensiva",
+    "medicina-militar",
+    "medicina-preventiva",
+    "nefrologia",
+    "neurologia",
+    "obstetricia",
+    "oftalmologia",
+    "oncologia",
+    "ortopedia",
+    "otorrinolaringologia",
+    "pediatria",
+    "pneumologia",
+    "psiquiatria",
+    "reumatologia",
+    "urologia"
+  ],
+  "totalQuestions": 112,
+  "totalFlashcards": 15,
+  "questionThemeCounts": {
+    "cardio_has": 100,
+    "atls_inicial": 1,
+    "atls_choque": 2,
+    "atls_toracico": 1,
+    "atls_cranioencefalico": 1,
+    "atls_coluna": 2,
+    "avaliacao_cena": 1,
+    "atls_abdominal": 1,
+    "atls_via_aerea": 1,
+    "cinetica_trauma": 1,
+    "atls_genitourinario": 1
+  },
+  "flashcardThemeCounts": {
+    "atls_choque": 3,
+    "atls_toracico": 3,
+    "atls_cranioencefalico": 1,
+    "atls_inicial": 2,
+    "avaliacao_cena": 1,
+    "atls_abdominal": 1,
+    "cinetica_trauma": 1,
+    "atls_coluna": 1,
+    "atls_via_aerea": 1,
+    "atls_genitourinario": 1
+  },
+  "entries": [
+    {
+      "area": "cardiologia",
+      "slug": "anatomia-fisiologia",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "angina-estavel",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "arritmias",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "bloqueios-av",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "bradiarritmias",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "cardiologia-preventiva",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "cardiomiopatias",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "choque-cardiogenico",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "dac",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "dap",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "disseccao-aorta",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "emergencias-hipertensivas",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "endocardite",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "fibrilacao-atrial",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "flutter-atrial",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "has",
+      "themes": [
+        "cardio_has"
+      ],
+      "questionsCount": 100,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "has-resistente",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "iam-sem-supra",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "iam-supra",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "insuficiencia-cardiaca",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "miocardites",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "morte-subita",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "pericardites",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "reabilitacao-cardiaca",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "sca",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "semiologia",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "tamponamento",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "taquicardia-ventricular",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "taquicardias-sv",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "tromboembolismo-arterial",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "valvopatias",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cirurgia-geral",
+      "slug": "abdome-agudo",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cirurgia-geral",
+      "slug": "apendicite",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cirurgia-geral",
+      "slug": "atls",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cirurgia-geral",
+      "slug": "avaliacao-preoperatoria",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cirurgia-geral",
+      "slug": "cancer-colorretal",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cirurgia-geral",
+      "slug": "choque",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cirurgia-geral",
+      "slug": "colecistite",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cirurgia-geral",
+      "slug": "cuidados-posoperatorios",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cirurgia-geral",
+      "slug": "drenos",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cirurgia-geral",
+      "slug": "feridas",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cirurgia-geral",
+      "slug": "hernias",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cirurgia-geral",
+      "slug": "obstrucao-intestinal",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cirurgia-geral",
+      "slug": "pancreatite",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cirurgia-geral",
+      "slug": "perfuracao-intestinal",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cirurgia-geral",
+      "slug": "suturas",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "cirurgia-geral",
+      "slug": "trauma",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "dermatologia",
+      "slug": "acne",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "dermatologia",
+      "slug": "carcinomas-cutaneos",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "dermatologia",
+      "slug": "dermatites",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "dermatologia",
+      "slug": "hanseniase",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "dermatologia",
+      "slug": "lupus-cutaneo",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "dermatologia",
+      "slug": "melanoma",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "dermatologia",
+      "slug": "micoses",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "dermatologia",
+      "slug": "penfigo",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "dermatologia",
+      "slug": "psoriase",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "dermatologia",
+      "slug": "rosacea",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "dermatologia",
+      "slug": "urticaria",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "acromegalia",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "adrenal",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "cancer-tireoide",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "cetoacidose",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "cushing",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "diabetes-insipidus",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "disturbios-calcio",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "disturbios-fosforo",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "dm1",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "dm2",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "estado-hiperosmolar",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "feocromocitoma",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "hiperaldosteronismo",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "hipertireoidismo",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "hipofise",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "hipoglicemia",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "hipotireoidismo",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "insuficiencia-adrenal",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "nodulos-tireoide",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "obesidade",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "osteoporose",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "prolactinoma",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "siadh",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "sindrome-metabolica",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "tireoide",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "tireoidites",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "acalasia",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "ascite",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "barrett",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "cirrose",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "colangite",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "colecistite",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "colelitiase",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "constipacao",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "crohn",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "diarreia-aguda",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "diarreia-cronica",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "dispepsia",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "diverticulite",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "diverticulose",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "doenca-celiaca",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "drge",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "encefalopatia-hepatica",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "esofagites",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "gastrites",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "hemorragia-digestiva",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "hepatites",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "hipertensao-portal",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "pancreatite",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "retocolite",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "sii",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "tumores-digestivos",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "ulcera-peptica",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "ginecologia",
+      "slug": "anticoncepcao",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "ginecologia",
+      "slug": "cancer-ginecologico",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "ginecologia",
+      "slug": "ciclo-menstrual",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "ginecologia",
+      "slug": "climaterio",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "ginecologia",
+      "slug": "endometriose",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "ginecologia",
+      "slug": "infeccoes-vaginais",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "ginecologia",
+      "slug": "ists",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "ginecologia",
+      "slug": "menopausa",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "ginecologia",
+      "slug": "miomas",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "ginecologia",
+      "slug": "sangramento-uterino",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "ginecologia",
+      "slug": "sop",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "hematologia",
+      "slug": "anemia-falciforme",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "hematologia",
+      "slug": "anemias",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "hematologia",
+      "slug": "civd",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "hematologia",
+      "slug": "coagulopatias",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "hematologia",
+      "slug": "ferropriva",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "hematologia",
+      "slug": "hemofilia",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "hematologia",
+      "slug": "hemolitica",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "hematologia",
+      "slug": "leucemias",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "hematologia",
+      "slug": "linfomas",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "hematologia",
+      "slug": "megaloblastica",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "hematologia",
+      "slug": "mieloma-multiplo",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "hematologia",
+      "slug": "talassemias",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "hematologia",
+      "slug": "tep",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "hematologia",
+      "slug": "transfusoes",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "hematologia",
+      "slug": "tvp",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "hematologia",
+      "slug": "von-willebrand",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "infectologia",
+      "slug": "aids",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "infectologia",
+      "slug": "antibioticoterapia",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "infectologia",
+      "slug": "chikungunya",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "infectologia",
+      "slug": "choque-septico",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "infectologia",
+      "slug": "clamida",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "infectologia",
+      "slug": "dengue",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "infectologia",
+      "slug": "febre-amarela",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "infectologia",
+      "slug": "gonorreia",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "infectologia",
+      "slug": "hanseniase",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "infectologia",
+      "slug": "hepatites",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "infectologia",
+      "slug": "herpes",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "infectologia",
+      "slug": "hiv",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "infectologia",
+      "slug": "hpv",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "infectologia",
+      "slug": "leishmaniose",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "infectologia",
+      "slug": "leptospirose",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "infectologia",
+      "slug": "malaria",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "infectologia",
+      "slug": "meningites",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "infectologia",
+      "slug": "sepse",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "infectologia",
+      "slug": "sifilis",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "infectologia",
+      "slug": "toxoplasmose",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "infectologia",
+      "slug": "tuberculose",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "infectologia",
+      "slug": "vacinas",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "infectologia",
+      "slug": "zika",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-emergencia",
+      "slug": "acls",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-emergencia",
+      "slug": "anafilaxia",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-emergencia",
+      "slug": "bls",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-emergencia",
+      "slug": "intoxicacoes",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-emergencia",
+      "slug": "pals",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-emergencia",
+      "slug": "pcr",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-emergencia",
+      "slug": "queimaduras",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-emergencia",
+      "slug": "trauma",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-intensiva",
+      "slug": "choques",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-intensiva",
+      "slug": "drogas-vasoativas",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-intensiva",
+      "slug": "monitorizacao",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-intensiva",
+      "slug": "nutricao",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-intensiva",
+      "slug": "sedacao",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-intensiva",
+      "slug": "sepse",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-intensiva",
+      "slug": "ventilacao-mecanica",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-militar",
+      "slug": "atls",
+      "themes": [
+        "atls_inicial",
+        "atls_choque",
+        "atls_toracico",
+        "atls_cranioencefalico",
+        "atls_coluna",
+        "avaliacao_cena",
+        "atls_abdominal",
+        "atls_via_aerea",
+        "cinetica_trauma",
+        "atls_genitourinario"
+      ],
+      "questionsCount": 12,
+      "flashcardsCount": 15
+    },
+    {
+      "area": "medicina-militar",
+      "slug": "avaliacao-cena",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-militar",
+      "slug": "choque-hemorragico",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-militar",
+      "slug": "cinetica-trauma",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-militar",
+      "slug": "genitourinario",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-militar",
+      "slug": "phtls",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-militar",
+      "slug": "tccc",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-militar",
+      "slug": "trauma-abdominal",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-militar",
+      "slug": "trauma-coluna",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-militar",
+      "slug": "trauma-cranioencefalico",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-militar",
+      "slug": "trauma-toracico",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-militar",
+      "slug": "via-aerea",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-preventiva",
+      "slug": "aps",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-preventiva",
+      "slug": "bioestatistica",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-preventiva",
+      "slug": "bioetica",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-preventiva",
+      "slug": "epidemiologia",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-preventiva",
+      "slug": "esf",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-preventiva",
+      "slug": "etica-medica",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-preventiva",
+      "slug": "mbe",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-preventiva",
+      "slug": "sus",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-preventiva",
+      "slug": "vigilancia-ambiental",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-preventiva",
+      "slug": "vigilancia-epidemiologica",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "medicina-preventiva",
+      "slug": "vigilancia-sanitaria",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "nefrologia",
+      "slug": "acidose",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "nefrologia",
+      "slug": "alcalose",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "nefrologia",
+      "slug": "dialise-peritoneal",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "nefrologia",
+      "slug": "disturbios-hidroeletroliticos",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "nefrologia",
+      "slug": "drc",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "nefrologia",
+      "slug": "glomerulopatias",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "nefrologia",
+      "slug": "hemodialise",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "nefrologia",
+      "slug": "hipercalemia",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "nefrologia",
+      "slug": "hipocalemia",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "nefrologia",
+      "slug": "hiponatremia",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "nefrologia",
+      "slug": "ira",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "nefrologia",
+      "slug": "itu",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "nefrologia",
+      "slug": "nefrolitiase",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "nefrologia",
+      "slug": "nefropatia-diabetica",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "nefrologia",
+      "slug": "pielonefrite",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "nefrologia",
+      "slug": "sindrome-nefritica",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "nefrologia",
+      "slug": "sindrome-nefrotica",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "neurologia",
+      "slug": "ait",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "neurologia",
+      "slug": "alzheimer",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "neurologia",
+      "slug": "avc",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "neurologia",
+      "slug": "cefaleias",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "neurologia",
+      "slug": "demencias",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "neurologia",
+      "slug": "enxaqueca",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "neurologia",
+      "slug": "epilepsia",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "neurologia",
+      "slug": "esclerose-multipla",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "neurologia",
+      "slug": "guillain-barre",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "neurologia",
+      "slug": "miastenia",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "neurologia",
+      "slug": "mielopatias",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "neurologia",
+      "slug": "neuropatias",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "neurologia",
+      "slug": "parkinson",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "neurologia",
+      "slug": "tce",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "neurologia",
+      "slug": "tumores-cerebrais",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "obstetricia",
+      "slug": "aleitamento",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "obstetricia",
+      "slug": "diabetes-gestacional",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "obstetricia",
+      "slug": "distocias",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "obstetricia",
+      "slug": "eclampsia",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "obstetricia",
+      "slug": "gestacao-alto-risco",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "obstetricia",
+      "slug": "has-gestacional",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "obstetricia",
+      "slug": "hemorragia-pos-parto",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "obstetricia",
+      "slug": "parto",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "obstetricia",
+      "slug": "pre-eclampsia",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "obstetricia",
+      "slug": "pre-natal",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "obstetricia",
+      "slug": "puerperio",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "oftalmologia",
+      "slug": "catarata",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "oftalmologia",
+      "slug": "conjuntivites",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "oftalmologia",
+      "slug": "glaucoma",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "oftalmologia",
+      "slug": "retinopatias",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "oftalmologia",
+      "slug": "trauma-ocular",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "oftalmologia",
+      "slug": "uveites",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "oncologia",
+      "slug": "bases-oncologia",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "oncologia",
+      "slug": "cuidados-paliativos",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "oncologia",
+      "slug": "onco-hematologia",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "oncologia",
+      "slug": "rastreamento",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "oncologia",
+      "slug": "tumores-solidos",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "ortopedia",
+      "slug": "artrose",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "ortopedia",
+      "slug": "entorses",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "ortopedia",
+      "slug": "fraturas",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "ortopedia",
+      "slug": "lesoes-ligamentares",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "ortopedia",
+      "slug": "luxacoes",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "ortopedia",
+      "slug": "osteomielite",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "ortopedia",
+      "slug": "osteoporose",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "ortopedia",
+      "slug": "trauma-ortopedico",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "otorrinolaringologia",
+      "slug": "epistaxe",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "otorrinolaringologia",
+      "slug": "faringites",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "otorrinolaringologia",
+      "slug": "laringites",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "otorrinolaringologia",
+      "slug": "otites",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "otorrinolaringologia",
+      "slug": "rinites",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "otorrinolaringologia",
+      "slug": "sinusites",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "otorrinolaringologia",
+      "slug": "surdez",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "otorrinolaringologia",
+      "slug": "vertigem",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pediatria",
+      "slug": "aleitamento",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pediatria",
+      "slug": "asma",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pediatria",
+      "slug": "bronquiolite",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pediatria",
+      "slug": "cardiopatias-congenitas",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pediatria",
+      "slug": "convulsao-febril",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pediatria",
+      "slug": "crescimento",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pediatria",
+      "slug": "desenvolvimento",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pediatria",
+      "slug": "desidratacao",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pediatria",
+      "slug": "gastroenterite",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pediatria",
+      "slug": "ictericia-neonatal",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pediatria",
+      "slug": "meningite",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pediatria",
+      "slug": "neonatologia",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pediatria",
+      "slug": "pneumonia",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pediatria",
+      "slug": "prematuridade",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pediatria",
+      "slug": "sepse-neonatal",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pediatria",
+      "slug": "vacinacao",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pneumologia",
+      "slug": "anatomia-respiratoria",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pneumologia",
+      "slug": "asma",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pneumologia",
+      "slug": "bronquiectasias",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pneumologia",
+      "slug": "cancer-pulmao",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pneumologia",
+      "slug": "derrame-pleural",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pneumologia",
+      "slug": "disturbios-sono",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pneumologia",
+      "slug": "doencas-intersticiais",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pneumologia",
+      "slug": "dpoc",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pneumologia",
+      "slug": "espirometria",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pneumologia",
+      "slug": "fibrose-pulmonar",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pneumologia",
+      "slug": "hemotorax",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pneumologia",
+      "slug": "hipertensao-pulmonar",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pneumologia",
+      "slug": "insuficiencia-respiratoria",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pneumologia",
+      "slug": "pneumonias",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pneumologia",
+      "slug": "pneumotorax",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pneumologia",
+      "slug": "sarcoidose",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pneumologia",
+      "slug": "sdra",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pneumologia",
+      "slug": "semiologia-pulmonar",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pneumologia",
+      "slug": "tep",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pneumologia",
+      "slug": "tuberculose",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "pneumologia",
+      "slug": "ventilacao-mecanica",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "psiquiatria",
+      "slug": "ansiedade",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "psiquiatria",
+      "slug": "bipolar",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "psiquiatria",
+      "slug": "delirium",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "psiquiatria",
+      "slug": "demencia",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "psiquiatria",
+      "slug": "dependencia-quimica",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "psiquiatria",
+      "slug": "depressao",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "psiquiatria",
+      "slug": "esquizofrenia",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "psiquiatria",
+      "slug": "tag",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "psiquiatria",
+      "slug": "tept",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "psiquiatria",
+      "slug": "toc",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "psiquiatria",
+      "slug": "transtornos-alimentares",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "reumatologia",
+      "slug": "artrite-reumatoide",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "reumatologia",
+      "slug": "esclerodermia",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "reumatologia",
+      "slug": "espondiloartrites",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "reumatologia",
+      "slug": "fibromialgia",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "reumatologia",
+      "slug": "gota",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "reumatologia",
+      "slug": "les",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "reumatologia",
+      "slug": "osteoartrite",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "reumatologia",
+      "slug": "osteoporose",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "reumatologia",
+      "slug": "vasculites",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "urologia",
+      "slug": "cancer-prostata",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "urologia",
+      "slug": "disfuncao-eretil",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "urologia",
+      "slug": "hpb",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "urologia",
+      "slug": "incontinencia-urinaria",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "urologia",
+      "slug": "itu",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    },
+    {
+      "area": "urologia",
+      "slug": "litiase-urinaria",
+      "themes": [],
+      "questionsCount": 0,
+      "flashcardsCount": 0
+    }
+  ]
+}

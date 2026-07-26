@@ -1,1 +1,376 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "q_001",
+      "theme": "atls_inicial",
+      "difficulty": "medio",
+      "statement": "Um paciente politraumatizado chega ao pronto-socorro após acidente de moto. Segundo o ATLS, qual é a sequência correta de avaliação primária?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Circulação → Via aérea → Respiração → Incapacidade → Exposição"
+        },
+        {
+          "key": "B",
+          "text": "Via aérea com controle cervical → Respiração → Circulação → Incapacidade → Exposição"
+        },
+        {
+          "key": "C",
+          "text": "Respiração → Circulação → Via aérea → Incapacidade → Exposição"
+        },
+        {
+          "key": "D",
+          "text": "Via aérea → Circulação → Respiração → Exposição → Incapacidade"
+        },
+        {
+          "key": "E",
+          "text": "Incapacidade → Via aérea → Respiração → Circulação → Exposição"
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "O ABCDE do ATLS: Airway (via aérea com controle cervical) → Breathing (respiração) → Circulation (circulação com controle de hemorragia) → Disability (incapacidade neurológica) → Exposure (exposição com controle do ambiente). Esta sequência prioriza as ameaças mais imediatas à vida.",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "q_002",
+      "theme": "atls_choque",
+      "difficulty": "medio",
+      "statement": "Paciente masculino, 25 anos, vítima de trauma abdominal. Apresenta FC 128 bpm, PA 90/60 mmHg, FR 24 rpm, SatO2 94%, rebaixamento leve de consciência. Qual classe de choque hemorrágico melhor descreve este quadro?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Classe I — perda de até 750 mL"
+        },
+        {
+          "key": "B",
+          "text": "Classe II — perda de 750 a 1500 mL"
+        },
+        {
+          "key": "C",
+          "text": "Classe III — perda de 1500 a 2000 mL"
+        },
+        {
+          "key": "D",
+          "text": "Classe IV — perda acima de 2000 mL"
+        },
+        {
+          "key": "E",
+          "text": "Não é choque hemorrágico"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Classe III: FC > 120 bpm, PA com redução, FR 20-30 rpm, alteração do nível de consciência (confusão/ansiedade) e perda estimada de 1500-2000 mL (30-40% da volemia). Requer reposição volêmica agressiva e considerar hemotransfusão.",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "q_003",
+      "theme": "atls_toracico",
+      "difficulty": "dificil",
+      "statement": "Paciente trazido pelo SAMU após trauma torácico por projétil de arma de fogo. Ausência de murmúrio vesicular à direita, hipotensão, turgência jugular e desvio de traqueia para a esquerda. Qual é o diagnóstico e a conduta imediata?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Hemotórax maciço — drenagem torácica imediata"
+        },
+        {
+          "key": "B",
+          "text": "Pneumotórax aberto — selo d'água"
+        },
+        {
+          "key": "C",
+          "text": "Pneumotórax hipertensivo — descompressão por agulha no 2º EIC, linha hemiclavicular"
+        },
+        {
+          "key": "D",
+          "text": "Tamponamento cardíaco — pericardiocentese"
+        },
+        {
+          "key": "E",
+          "text": "Contusão pulmonar — intubação orotraqueal"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Tríade do pneumotórax hipertensivo: ausência de MV unilateral + hipotensão + desvio de traqueia contralateral. Turgência jugular pode estar presente. É emergência — descompressão imediata por agulha no 2º EIC, LHC do lado afetado, seguida de drenagem torácica.",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "q_004",
+      "theme": "atls_cranioencefalico",
+      "difficulty": "medio",
+      "statement": "Vítima de acidente automobilístico apresenta: abertura ocular ao estímulo doloroso (2), resposta verbal com palavras inapropriadas (3) e flexão anormal ao estímulo doloroso (3). Qual o escore na Escala de Coma de Glasgow e a classificação do TCE?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "GCS 6 — TCE grave"
+        },
+        {
+          "key": "B",
+          "text": "GCS 7 — TCE grave"
+        },
+        {
+          "key": "C",
+          "text": "GCS 8 — TCE grave"
+        },
+        {
+          "key": "D",
+          "text": "GCS 9 — TCE moderado"
+        },
+        {
+          "key": "E",
+          "text": "GCS 10 — TCE moderado"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "GCS = ocular (2) + verbal (3) + motor (3) = 8. TCE grave: GCS ≤ 8 — indica necessidade de via aérea definitiva (intubação orotraqueal) para proteção das vias aéreas.",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "q_005",
+      "theme": "atls_coluna",
+      "difficulty": "facil",
+      "statement": "Sobre a imobilização da coluna cervical no atendimento pré-hospitalar ao politraumatizado, é CORRETO afirmar:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "O colar cervical rígido deve ser aplicado em todos os pacientes conscientes."
+        },
+        {
+          "key": "B",
+          "text": "A imobilização cervical deve ser mantida mesmo após radiografia cervical normal."
+        },
+        {
+          "key": "C",
+          "text": "O colar cervical é suficiente para imobilização completa da coluna cervical."
+        },
+        {
+          "key": "D",
+          "text": "Deve-se suspeitar de lesão cervical em todo paciente com trauma significativo acima das clavículas."
+        },
+        {
+          "key": "E",
+          "text": "A retirada do capacete em motociclistas deve ser sempre evitada para não mobilizar a coluna."
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "Todo trauma acima das clavículas deve levantar suspeita de lesão cervical. O colar cervical não imobiliza completamente a coluna — requer prancha longa e blocos laterais. A retirada do capacete deve ser feita por dois profissionais em situações que impeçam adequada avaliação da via aérea.",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "q_006",
+      "theme": "avaliacao_cena",
+      "difficulty": "facil",
+      "statement": "Na avaliação da cena de um trauma, qual é a principal prioridade do socorrista ao chegar ao local?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Imobilizar a coluna cervical da vítima imediatamente."
+        },
+        {
+          "key": "B",
+          "text": "Garantir a segurança da cena para si, equipe e vítima."
+        },
+        {
+          "key": "C",
+          "text": "Iniciar a avaliação primária (ABCDE) da vítima."
+        },
+        {
+          "key": "D",
+          "text": "Solicitar recursos adicionais ao SAMU."
+        },
+        {
+          "key": "E",
+          "text": "Identificar o mecanismo de trauma."
+        }
+      ],
+      "correct_key": "B",
+      "explanation": "A segurança da cena é a primeira prioridade — socorrista em risco não consegue ajudar a vítima. Somente após garantir segurança inicia-se a avaliação da vítima. A identificação do mecanismo de trauma é parte desta etapa inicial.",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "q_007",
+      "theme": "atls_abdominal",
+      "difficulty": "medio",
+      "statement": "Paciente politraumatizado, hemodinamicamente instável, com suspeita de lesão abdominal. Qual o exame de escolha na avaliação inicial?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "TC de abdome com contraste"
+        },
+        {
+          "key": "B",
+          "text": "Radiografia simples de abdome"
+        },
+        {
+          "key": "C",
+          "text": "FAST (Focused Assessment with Sonography for Trauma)"
+        },
+        {
+          "key": "D",
+          "text": "Lavado peritoneal diagnóstico"
+        },
+        {
+          "key": "E",
+          "text": "Laparotomia exploradora imediata"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "O FAST é o exame de escolha no trauma abdominal em paciente instável — rápido, à beira do leito, não invasivo, sem necessidade de transporte. Detecta líquido livre (sangue) em pericárdio e abdome. TC é para pacientes estáveis. LPD foi substituído pelo FAST na maioria dos serviços.",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "q_008",
+      "theme": "atls_via_aerea",
+      "difficulty": "medio",
+      "statement": "Paciente com trauma facial grave e impossibilidade de intubação orotraqueal. Qual a próxima conduta para garantir via aérea definitiva?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Ventilação com máscara e bolsa-válvula-máscara"
+        },
+        {
+          "key": "B",
+          "text": "Intubação nasotraqueal às cegas"
+        },
+        {
+          "key": "C",
+          "text": "Cricotireoidostomia cirúrgica"
+        },
+        {
+          "key": "D",
+          "text": "Traqueostomia de urgência"
+        },
+        {
+          "key": "E",
+          "text": "Intubação retrógrada com fio-guia"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Na situação \"cannot intubate, cannot oxygenate\" (CICO), a cricotireoidostomia cirúrgica é a via aérea de resgate de eleição no adulto segundo o ATLS. É mais rápida que a traqueostomia. A traqueostomia de urgência é complexa e não é recomendada como primeira opção na sala de emergência.",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "q_009",
+      "theme": "atls_choque",
+      "difficulty": "dificil",
+      "statement": "Paciente com trauma torácico apresenta hipotensão, turgência jugular e bulhas cardíacas abafadas. FC 120 bpm. Ausência de desvio de traqueia. Qual o diagnóstico mais provável e a conduta imediata?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Pneumotórax hipertensivo — descompressão por agulha"
+        },
+        {
+          "key": "B",
+          "text": "Hemotórax maciço — drenagem torácica"
+        },
+        {
+          "key": "C",
+          "text": "Tamponamento cardíaco — pericardiocentese de Marfan"
+        },
+        {
+          "key": "D",
+          "text": "Contusão miocárdica — monitorização"
+        },
+        {
+          "key": "E",
+          "text": "Choque neurogênico — vasopressor"
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Tríade de Beck: hipotensão + turgência jugular + bulhas abafadas = tamponamento cardíaco. Ausência de desvio de traqueia afasta pneumotórax hipertensivo. A pericardiocentese (técnica de Marfan: subxifoide, 45°, em direção ao ombro esquerdo) é a conduta imediata. Toracotomia de reanimação se instabilidade extrema.",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "q_010",
+      "theme": "cinetica_trauma",
+      "difficulty": "facil",
+      "statement": "Sobre a cinemática do trauma por projétil de arma de fogo (PAF), é CORRETO afirmar:",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "A lesão tecidual é proporcional à massa do projétil apenas."
+        },
+        {
+          "key": "B",
+          "text": "Projéteis de alta velocidade causam lesão apenas no trajeto direto."
+        },
+        {
+          "key": "C",
+          "text": "A energia cinética é proporcional ao quadrado da velocidade do projétil."
+        },
+        {
+          "key": "D",
+          "text": "Projéteis de baixa velocidade causam maior cavitação temporária."
+        },
+        {
+          "key": "E",
+          "text": "O calibre do projétil é o principal determinante da lesão."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Ec = ½mv². A energia cinética é proporcional ao quadrado da velocidade — por isso projéteis de alta velocidade (rifles) causam muito mais dano que os de baixa velocidade (pistolas), mesmo com mesma massa. Alta velocidade = maior cavitação temporária e permanente. O trajeto do projétil + cavitação temporária determinam a extensão da lesão.",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "q_011",
+      "theme": "atls_genitourinario",
+      "difficulty": "medio",
+      "statement": "Paciente masculino com trauma pélvico. Uretrorragia, hematoma perineal em \"asa de borboleta\" e incapacidade de urinar. Qual a conduta correta?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Cateterismo vesical de alívio imediato para avaliar hematúria."
+        },
+        {
+          "key": "B",
+          "text": "Sondagem vesical de Foley com cuidado redobrado."
+        },
+        {
+          "key": "C",
+          "text": "Não realizar cateterismo antes de confirmar integridade uretral — realizar uretrografia retrógrada."
+        },
+        {
+          "key": "D",
+          "text": "TC de pelve com contraste imediata."
+        },
+        {
+          "key": "E",
+          "text": "Cistostomia suprapúbica imediata sem exames."
+        }
+      ],
+      "correct_key": "C",
+      "explanation": "Uretrorragia + hematoma em \"asa de borboleta\" + incapacidade de urinar = suspeita de lesão uretral. Sondagem vesical é CONTRAINDICADA — pode completar a ruptura. A uretrografia retrógrada confirma o diagnóstico. Se confirmada lesão, a cistostomia suprapúbica é realizada.",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "q_012",
+      "theme": "atls_coluna",
+      "difficulty": "medio",
+      "statement": "Paciente com trauma de coluna apresenta lesão em C5. Qual padrão respiratório e motor esperado?",
+      "alternatives": [
+        {
+          "key": "A",
+          "text": "Ventilação preservada, tetraplegia."
+        },
+        {
+          "key": "B",
+          "text": "Ventilação diafragmática preservada (C3-C5), paraplegia."
+        },
+        {
+          "key": "C",
+          "text": "Ventilação dependente de VM, paraplegia."
+        },
+        {
+          "key": "D",
+          "text": "Ventilação diafragmática preservada, tetraplegia abaixo de C5."
+        },
+        {
+          "key": "E",
+          "text": "Ventilação normal, perda sensitiva apenas."
+        }
+      ],
+      "correct_key": "D",
+      "explanation": "\"C3, C4, C5 keep the diaphragm alive.\" Lesão em C5 preserva o nervo frênico (C3-C5) → ventilação diafragmática mantida, mas sem músculos intercostais/abdominais. Tetraplegia abaixo de C5: paralisia de MMSS parcial e MMII completa. Lesão acima de C3 exige VM.",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    }
+  ]
+}

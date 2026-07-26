@@ -2,12 +2,12 @@ import { useState, useMemo, useEffect, useCallback, useRef } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { useAuthContext } from '@/contexts/AuthContext'
 import { useStudyContext } from '@/contexts/StudyContext'
-import { MOCK_QUESTIONS } from '@/data/mockData'
-import { THEMES, StudyTheme } from '@/services/supabaseClient'
+import { THEMES, StudyTheme, Question } from '@/services/supabaseClient'
 import { temaLabel, resolverFiltroURL, filtroOrigemLabel, temaIdsDeArea } from '@/utils/temaFilters'
 import { questionsService } from '@/services/questionsService'
 import { studyLogService } from '@/services/studyLogService'
 import { supabase } from '@/services/supabaseClient'
+import { loadQuestionsForFilter, getQuestionThemeCounts, getManifest } from '@/services/contentService'
 
 const TEMA_ICONS: Record<string, string> = {
   avaliacao_cena: '🩺', cinetica_trauma: '💥', atls_inicial: '⚕️',
@@ -201,11 +201,27 @@ export function BancoPage() {
     return () => window.removeEventListener('resize', h)
   }, [])
 
-  const temaCount = useMemo(() => {
-    const c: Record<string, number> = {}
-    for (const q of MOCK_QUESTIONS) c[q.theme] = (c[q.theme] || 0) + 1
-    return c
+  // Contagem por tema vem do manifesto (leve — não baixa o conteúdo completo)
+  const [temaCount, setTemaCount] = useState<Record<string, number>>({})
+  const [totalBanco, setTotalBanco] = useState(0)
+  useEffect(() => {
+    getQuestionThemeCounts().then(setTemaCount).catch(() => setTemaCount({}))
+    getManifest().then(m => setTotalBanco(m.totalQuestions)).catch(() => setTotalBanco(0))
   }, [])
+
+  // Questões carregadas sob demanda: só os arquivos relevantes ao filtro ativo
+  // (ou todo o conteúdo publicado, se nenhum filtro estiver selecionado).
+  const [questions, setQuestions] = useState<Question[]>([])
+  const [loadingQuestions, setLoadingQuestions] = useState(true)
+  useEffect(() => {
+    let cancelado = false
+    setLoadingQuestions(true)
+    loadQuestionsForFilter(filtroTemas)
+      .then(qs => { if (!cancelado) setQuestions(qs) })
+      .catch(() => { if (!cancelado) setQuestions([]) })
+      .finally(() => { if (!cancelado) setLoadingQuestions(false) })
+    return () => { cancelado = true }
+  }, [filtroTemas])
 
   const temasVisiveis = useMemo(() => {
     const temasArea = areaParam ? temaIdsDeArea(areaParam) : null
@@ -218,7 +234,7 @@ export function BancoPage() {
 
   const filtradas = useMemo(() => {
     const bl = busca.trim().toLowerCase()
-    return MOCK_QUESTIONS.filter(q => {
+    return questions.filter(q => {
       if (bl && !q.statement.toLowerCase().includes(bl) && !(q.explanation ?? '').toLowerCase().includes(bl)) return false
       if (filtroRes === 'respondidas' && !historico[q.id]) return false
       if (filtroRes === 'nao_respondidas' && historico[q.id]) return false
@@ -228,7 +244,7 @@ export function BancoPage() {
       if (filtroNiveis.size > 0 && !filtroNiveis.has(q.difficulty)) return false
       return true
     })
-  }, [filtroTemas, filtroNiveis, filtroRes, historico, marcadas, busca])
+  }, [questions, filtroTemas, filtroNiveis, filtroRes, historico, marcadas, busca])
 
   useEffect(() => { setIdx(0); setFeedback(false); setSel(null) }, [filtroTemas, filtroNiveis, filtroRes, busca])
   useEffect(() => { setSel(null); setFeedback(false) }, [idx])
@@ -278,7 +294,7 @@ export function BancoPage() {
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '1rem' }}>
             <div>
               <h2 style={{ fontFamily: 'var(--font-d)', fontSize: isMobile ? '1.5rem' : '2rem', color: 'var(--text)', marginBottom: '.35rem' }}>Banco de Questões</h2>
-              <p style={{ fontSize: '.88rem', color: 'var(--text-muted)' }}>Medicina Militar · ATLS · TCCC · PHTLS · {MOCK_QUESTIONS.length} questões</p>
+              <p style={{ fontSize: '.88rem', color: 'var(--text-muted)' }}>Medicina Militar · ATLS · TCCC · PHTLS · {totalBanco} questões</p>
             </div>
             {qtdErros > 0 && (
               <a href="/revisao-erros" style={{ textDecoration: 'none' }}>
@@ -337,7 +353,7 @@ export function BancoPage() {
               </button>
 
               <div className="filtro-label">Status</div>
-              {[{ val: 'todas', lbl: '📋 Todas', count: MOCK_QUESTIONS.length }, { val: 'nao_respondidas', lbl: '🆕 Não respondidas', count: MOCK_QUESTIONS.length - resp }, { val: 'respondidas', lbl: '✓ Já respondidas', count: resp }, { val: 'erradas', lbl: '❌ Erradas', count: Object.values(historico).filter(h => !h.acertou).length }].map(({ val, lbl, count }) => (
+              {[{ val: 'todas', lbl: '📋 Todas', count: totalBanco }, { val: 'nao_respondidas', lbl: '🆕 Não respondidas', count: Math.max(0, totalBanco - resp) }, { val: 'respondidas', lbl: '✓ Já respondidas', count: resp }, { val: 'erradas', lbl: '❌ Erradas', count: Object.values(historico).filter(h => !h.acertou).length }].map(({ val, lbl, count }) => (
                 <button key={val} onClick={() => setFiltroRes(val)} style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '.5rem .75rem', marginBottom: '.35rem', border: '1px solid', borderColor: filtroRes === val ? 'var(--red)' : 'var(--border)', background: filtroRes === val ? 'var(--red)' : 'transparent', cursor: 'pointer', fontSize: '.82rem', color: filtroRes === val ? 'white' : 'var(--text)' }}>
                   <span>{lbl}</span>
                   <span className="count-badge" style={filtroRes === val ? { background: 'rgba(255,255,255,.2)', color: 'white' } : {}}>{count}</span>
@@ -384,7 +400,12 @@ export function BancoPage() {
           )}
 
           <div>
-            {!q ? (
+            {loadingQuestions ? (
+              <div className="questao-card" style={{ textAlign: 'center', padding: '4rem' }}>
+                <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>⏳</div>
+                <p style={{ color: 'var(--text-muted)', fontSize: '.88rem' }}>Carregando questões...</p>
+              </div>
+            ) : !q ? (
               <div className="questao-card" style={{ textAlign: 'center', padding: '4rem' }}>
                 <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>🔍</div>
                 <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.2rem', color: 'var(--text)', marginBottom: '.5rem' }}>Nenhuma questão encontrada</div>

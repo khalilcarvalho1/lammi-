@@ -1,13 +1,13 @@
 import { useState, useEffect, useMemo } from 'react'
 import { useSearchParams } from 'react-router-dom'
-import { MOCK_FLASHCARDS } from '@/data/mockData'
-import { THEMES, StudyTheme } from '@/services/supabaseClient'
+import { THEMES, StudyTheme, Flashcard } from '@/services/supabaseClient'
 import { temaLabel, resolverFiltroURL, filtroOrigemLabel, filtroOrigemCurto } from '@/utils/temaFilters'
 import { calculateSM2, initSRSCard, isDue, SRSQuality, SRSCard } from '@/hooks/useSRS'
 import { useStudyContext } from '@/contexts/StudyContext'
 import { useAuthContext } from '@/contexts/AuthContext'
 import { flashcardsService } from '@/services/flashcardsService'
 import { studyLogService } from '@/services/studyLogService'
+import { loadFlashcardsForFilter, getFlashcardThemeCounts } from '@/services/contentService'
 
 export function FlashcardsPage() {
   const { srsData, setSrsData } = useStudyContext()
@@ -62,7 +62,21 @@ export function FlashcardsPage() {
     })
   }, [user])
 
-  const todos     = MOCK_FLASHCARDS.filter(f => temasAtivos.size === 0 || temasAtivos.has(f.theme))
+  // Flashcards carregados sob demanda: só os arquivos relevantes ao filtro ativo
+  // (ou todo o conteúdo publicado, se nenhum filtro estiver selecionado).
+  const [flashcards, setFlashcards] = useState<Flashcard[]>([])
+  const [loadingCards, setLoadingCards] = useState(true)
+  useEffect(() => {
+    let cancelado = false
+    setLoadingCards(true)
+    loadFlashcardsForFilter(temasAtivos)
+      .then(fs => { if (!cancelado) setFlashcards(fs) })
+      .catch(() => { if (!cancelado) setFlashcards([]) })
+      .finally(() => { if (!cancelado) setLoadingCards(false) })
+    return () => { cancelado = true }
+  }, [temasAtivos])
+
+  const todos     = flashcards.filter(f => temasAtivos.size === 0 || temasAtivos.has(f.theme))
   const pendentes = todos.filter(f => { const s = srsData[f.id]; return !s || isDue(s) })
   // No modo livre a fila é o baralho inteiro, ignorando a data de revisão
   const due       = modoLivre ? todos : pendentes
@@ -83,12 +97,14 @@ export function FlashcardsPage() {
     ? [...temasAtivos][0]
     : temasAtivos.size > 1 ? '__multi__' : ''
 
-  // Só lista no select temas que têm cards
-  const temasComCards = useMemo(()=>{
-    const c: Record<string,number> = {}
-    for (const f of MOCK_FLASHCARDS) c[f.theme] = (c[f.theme]||0)+1
-    return (Object.entries(THEMES) as [StudyTheme,string][]).filter(([k]) => (c[k]||0) > 0)
-  },[])
+  // Só lista no select temas que têm cards — contagem vem do manifesto (leve)
+  const [cardThemeCounts, setCardThemeCounts] = useState<Record<string, number>>({})
+  useEffect(() => {
+    getFlashcardThemeCounts().then(setCardThemeCounts).catch(() => setCardThemeCounts({}))
+  }, [])
+  const temasComCards = useMemo(() => {
+    return (Object.entries(THEMES) as [StudyTheme, string][]).filter(([k]) => (cardThemeCounts[k] || 0) > 0)
+  }, [cardThemeCounts])
 
   const filtroOrigem = useMemo(
     ()=> filtroOrigemLabel(themeParam, temaParam, areaParam),
@@ -120,6 +136,17 @@ export function FlashcardsPage() {
   const vencidos  = todos.filter(f => { const s = srsData[f.id]; return s && isDue(s) }).length
   const novos     = todos.filter(f => !srsData[f.id]).length
   const dominados = todos.filter(f => { const s = srsData[f.id]; return s && s.repetitions >= 3 }).length
+
+  if (loadingCards) {
+    return (
+      <section style={{ padding: '4rem 2rem', background: '#0D0D0D' }}>
+        <div style={{ maxWidth: 640, margin: '0 auto', textAlign: 'center', color: 'var(--text-muted)' }}>
+          <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>⏳</div>
+          <p>Carregando flashcards...</p>
+        </div>
+      </section>
+    )
+  }
 
   // ─── Tela de resumo ───────────────────────────────────────
   if (summary || (due.length === 0 && todos.length > 0)) {

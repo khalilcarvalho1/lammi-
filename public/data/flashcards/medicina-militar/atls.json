@@ -1,1 +1,109 @@
-{"flashcards":[]}
+{
+  "flashcards": [
+    {
+      "id": "f_001",
+      "theme": "atls_choque",
+      "front": "Quais as 4 classes de choque hemorrágico do ATLS e suas perdas estimadas?",
+      "back": "Classe I: < 750 mL (<15%). Classe II: 750-1500 mL (15-30%). Classe III: 1500-2000 mL (30-40%). Classe IV: > 2000 mL (>40%). Classe III já cursa com alteração do nível de consciência e necessita de hemotransfusão.",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "f_002",
+      "theme": "atls_toracico",
+      "front": "Quais são as 6 lesões torácicas imediatamente fatais do ATLS?",
+      "back": "1. Pneumotórax hipertensivo. 2. Pneumotórax aberto. 3. Hemotórax maciço. 4. Tórax instável + contusão pulmonar. 5. Tamponamento cardíaco. 6. Ruptura de aorta. Mnemônico: \"Pneumo Pneumo Hemo Tórax Tampa Aorta\".",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "f_003",
+      "theme": "atls_cranioencefalico",
+      "front": "Qual a classificação do TCE pela Escala de Coma de Glasgow?",
+      "back": "TCE Leve: GCS 13-15. TCE Moderado: GCS 9-12. TCE Grave: GCS ≤ 8 (indica via aérea definitiva — intubação orotraqueal).",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "f_004",
+      "theme": "atls_inicial",
+      "front": "Qual a sequência do ABCDE do ATLS?",
+      "back": "A — Airway (via aérea + controle cervical). B — Breathing (ventilação). C — Circulation (circulação + controle de hemorragia). D — Disability (avaliação neurológica: GCS + pupilas + déficit motor). E — Exposure (exposição + controle do ambiente).",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "f_005",
+      "theme": "atls_choque",
+      "front": "O que é a tríade de Beck e qual o diagnóstico?",
+      "back": "Tríade de Beck: hipotensão + turgência jugular + bulhas cardíacas abafadas = Tamponamento Cardíaco. Conduta imediata: pericardiocentese pela técnica de Marfan (subxifoide, 45°, em direção ao ombro esquerdo).",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "f_006",
+      "theme": "avaliacao_cena",
+      "front": "Qual a primeira prioridade na avaliação da cena de trauma?",
+      "back": "Segurança da cena — para o socorrista, a equipe e a vítima. Somente após garantir segurança inicia-se a avaliação da vítima. \"Cena segura → avalia a vítima → chama reforço se necessário\".",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "f_007",
+      "theme": "atls_toracico",
+      "front": "Como diferenciar pneumotórax hipertensivo de tamponamento cardíaco?",
+      "back": "Ambos: hipotensão + turgência jugular. Pneumotórax hipertensivo: ausência de MV unilateral + DESVIO de traqueia contralateral. Tamponamento: bulhas abafadas + SEM desvio de traqueia. Conduta: PTX hiper → agulha 2º EIC LHC. Tamponamento → pericardiocentese.",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "f_008",
+      "theme": "atls_abdominal",
+      "front": "Quando está indicada a laparotomia exploradora sem exames adicionais no trauma abdominal?",
+      "back": "Laparotomia imediata: instabilidade hemodinâmica + FAST positivo (líquido livre) OU peritonite ao exame físico OU evisceração OU PAF com trajeto transabdominal. Paciente estável com suspeita → TC de abdome.",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "f_009",
+      "theme": "cinetica_trauma",
+      "front": "Qual a fórmula da energia cinética e por que a velocidade é mais importante que a massa?",
+      "back": "Ec = ½mv². A velocidade é elevada ao quadrado — dobrar a velocidade quadruplica a energia. Por isso PAF de alta velocidade (rifle ~900 m/s) é muito mais letal que baixa velocidade (pistola ~300 m/s), mesmo com projétil mais leve.",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "f_010",
+      "theme": "atls_coluna",
+      "front": "Quais raízes nervosas formam o nervo frênico e por que são importantes no trauma raqui?",
+      "back": "\"C3, C4, C5 keep the diaphragm alive.\" Lesão abaixo de C5 → ventilação diafragmática preservada. Lesão entre C3-C5 → comprometimento parcial. Lesão acima de C3 → apneia, necessita de VM. Tetraplegia em lesões cervicais; paraplegia em lesões torácicas/lombares.",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "f_011",
+      "theme": "atls_via_aerea",
+      "front": "Quando está indicada a cricotireoidostomia no trauma?",
+      "back": "Situação CICO (Cannot Intubate, Cannot Oxygenate): falha de IOT + impossibilidade de ventilar com máscara. Ex: trauma facial grave, edema de glote, corpo estranho irremovível. É a via aérea cirúrgica de eleição no adulto. Contraindicada em < 12 anos (cricotireoidostomia por agulha nestes casos).",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "f_012",
+      "theme": "atls_genitourinario",
+      "front": "Quais os sinais de lesão uretral e o que é contraindicado?",
+      "back": "Sinais: uretrorragia (principal), hematoma perineal em \"asa de borboleta\", próstata flutuante ao toque retal, incapacidade de urinar. CONTRAINDICADO: sondagem vesical antes de confirmar integridade uretral. Diagnóstico: uretrografia retrógrada. Se confirmado: cistostomia suprapúbica.",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "f_013",
+      "theme": "atls_inicial",
+      "front": "O que é o protocolo XABCDE e quando é usado?",
+      "back": "X — eXanguinating hemorrhage control (controle de hemorragia exsanguinante — torniquete, curativo compressivo). A — Airway. B — Breathing. C — Circulation. D — Disability. E — Exposure. Usado no contexto TCCC/PHTLS quando há hemorragia externa grave como primeira ameaça à vida.",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "f_014",
+      "theme": "atls_choque",
+      "front": "O que é o damage control resuscitation (DCR)?",
+      "back": "Estratégia de ressuscitação em trauma grave: 1. Controle hemorrágico cirúrgico (damage control surgery). 2. Hipotensão permissiva (PAS 80-90 mmHg) até controle da hemorragia. 3. Razão 1:1:1 de hemácias:plasma:plaquetas. 4. Evitar cristaloides em excesso (previne tríade letal: hipotermia + acidose + coagulopatia).",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    },
+    {
+      "id": "f_015",
+      "theme": "atls_toracico",
+      "front": "Quais os critérios para hemotórax maciço e sua conduta?",
+      "back": "Hemotórax maciço: > 1500 mL de sangue na cavidade pleural (ou > 200 mL/h por 2-4h após drenagem). Causa: rotura de vasos intercostais ou hilares. Conduta: 1. Reposição volêmica. 2. Drenagem torácica (5º EIC, linha axilar média). 3. Se > 1500 mL inicial ou > 200 mL/h → toracotomia.",
+      "created_at": "2026-07-24T00:00:00.000Z"
+    }
+  ]
+}
