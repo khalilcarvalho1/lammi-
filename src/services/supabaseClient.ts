@@ -388,6 +388,8 @@ export interface Question {
   source?: string
   // false = gabarito determinado por IA sem fonte oficial, pendente de revisão humana
   reviewed?: boolean
+  // URL de imagem (ECG, radiografia etc.) exibida entre o enunciado e as alternativas
+  image_url?: string
   created_at: string
 }
 

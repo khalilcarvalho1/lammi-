@@ -441,6 +441,16 @@ export function BancoPage() {
 
                 <p className="enunciado">{q.statement}</p>
 
+                {q.image_url && (
+                  <div style={{ margin: '0 0 1rem', textAlign: 'center' }}>
+                    <img
+                      src={q.image_url}
+                      alt="Imagem da questão"
+                      style={{ maxWidth: '100%', border: '1px solid var(--border)', borderRadius: 4 }}
+                    />
+                  </div>
+                )}
+
                 <div>
                   {q.alternatives.map(({ key: letra, text: texto }) => {
                     let cls = 'alt-btn'
