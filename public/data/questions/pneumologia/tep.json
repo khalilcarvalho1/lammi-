@@ -16,6 +16,23 @@
       "source": "USP-RP R3CM 2025",
       "reviewed": false,
       "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "tep_002",
+      "statement": "Homem de 50 anos, hipertenso, com dispneia, tosse produtiva e dor torácica ventilatório-dependente, com irradiação para o dorso há quatro dias. Esteve internado até uma semana atrás, quando foi submetido a colecistectomia aberta. Exame clínico: PA 100x60 mmHg; FC 104 bpm; T 37,6°C; FR 22 irpm; SpO2 93% em ar ambiente. Boa perfusão periférica com extremidades quentes, ausculta cardíaca sem sopros. Ausculta pulmonar com MV audíveis em todos os campos e estertores em base direita. Edema discreto de membros inferiores, com panturrilha direita 1 cm maior que a esquerda. Restante normal. A imagem de ultrassom mais provável de ser encontrada é:",
+      "alternatives": [
+        {"key": "a", "text": "ALTERNATIVA CONFORME IMAGEM."},
+        {"key": "b", "text": "ALTERNATIVA CONFORME IMAGEM."},
+        {"key": "c", "text": "ALTERNATIVA CONFORME IMAGEM."},
+        {"key": "d", "text": "ALTERNATIVA CONFORME IMAGEM."}
+      ],
+      "correct_key": "a",
+      "explanation": "ATENÇÃO: as 4 alternativas remetem apenas a imagens de ultrassom não disponíveis na extração do PDF, sem texto distintivo — resposta arbitrária, impossível determinar sem a imagem. Clinicamente, cirurgia recente (imobilização, colecistectomia há 1 semana) associada a assimetria de panturrilha e dispneia/dor pleurítica é altamente sugestiva de TVP com TEP secundário; a imagem esperada seria veia não compressível ao ultrassom Doppler de membro inferior.",
+      "theme": "tep_dx",
+      "difficulty": "dificil",
+      "source": "USP R3CM 2023",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
     }
   ]
 }

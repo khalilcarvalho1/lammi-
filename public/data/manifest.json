@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T16:11:49.388Z",
+  "generatedAt": "2026-07-27T17:35:05.003Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,13 +26,13 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 837,
+  "totalQuestions": 1037,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
     "cardio_arritmias": 100,
     "mio_amiloide": 10,
-    "cardio_perimio": 71,
+    "cardio_perimio": 72,
     "cardio_has": 100,
     "cardio_ic": 140,
     "peri_aguda": 16,
@@ -49,11 +49,16 @@
     "atls_via_aerea": 1,
     "cinetica_trauma": 1,
     "atls_genitourinario": 1,
+    "ped_bronco": 2,
+    "pneumo_outros": 6,
     "dpoc_dx": 21,
-    "dpoc_exac": 23,
+    "dpoc_exac": 24,
     "dpoc_tto": 36,
-    "pneumo_outros": 4,
-    "tep_dx": 1
+    "pna_pac": 176,
+    "pna_asp": 4,
+    "pna_imuno": 4,
+    "pna_pah": 9,
+    "tep_dx": 2
   },
   "flashcardThemeCounts": {
     "atls_choque": 3,
@@ -266,7 +271,7 @@
       "themes": [
         "cardio_perimio"
       ],
-      "questionsCount": 4,
+      "questionsCount": 5,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -2296,8 +2301,10 @@
     {
       "area": "pediatria",
       "slug": "bronquiolite",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "ped_bronco"
+      ],
+      "questionsCount": 2,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -2456,8 +2463,10 @@
     {
       "area": "pneumologia",
       "slug": "doencas-intersticiais",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "pneumo_outros"
+      ],
+      "questionsCount": 1,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -2469,7 +2478,7 @@
         "dpoc_exac",
         "dpoc_tto"
       ],
-      "questionsCount": 80,
+      "questionsCount": 81,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -2520,16 +2529,23 @@
     {
       "area": "pneumologia",
       "slug": "pneumonias",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "pna_pac",
+        "pna_asp",
+        "pna_imuno",
+        "pna_pah"
+      ],
+      "questionsCount": 193,
       "flashcardsCount": 0,
       "casosCount": 0
     },
     {
       "area": "pneumologia",
       "slug": "pneumotorax",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "pneumo_outros"
+      ],
+      "questionsCount": 1,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -2563,7 +2579,7 @@
       "themes": [
         "tep_dx"
       ],
-      "questionsCount": 1,
+      "questionsCount": 2,
       "flashcardsCount": 0,
       "casosCount": 0
     },

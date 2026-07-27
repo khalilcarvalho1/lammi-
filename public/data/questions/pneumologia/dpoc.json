@@ -1387,6 +1387,23 @@
       "source": "INEP REVALIDA 2025",
       "reviewed": false,
       "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_081",
+      "statement": "Homem de 67 anos é levado ao PS com a queixa de dispneia intensa ao repouso. Apresenta tosse produtiva com escarro amarelo, coriza, dor de garganta há dois dias e dispneia progressiva desde então. Não há relato de febre ou dor torácica. Era assintomático antes do quadro clínico atual. Nega comorbidades conhecidas, internações prévias ou uso de antimicrobianos no último ano. É tabagista (42 maços/ano) e elitista. Ao exame, PA 130/86mmHg, FC 102bpm, FR 22ipm, SpO2 90% (em ar ambiente). O exame respiratório revelou taquipneia, aumento do tempo expiratório e sibilos expiratórios polifônicos difusamente nos hemitórax. Recebeu salbutamol e ipratrópio pela via inalatória (três ciclos), hidrocortisona IV e oxigenoterapia pelo cateter nasal a 2L/min, sem melhora. A radiografia do tórax revelou retificação das cúpulas diafragmáticas e hipertransparência dos campos pulmonares. Testes rápidos para influenza e SARS-CoV-2 resultaram negativos. EXAMES DE LABORATÓRIO: Hg 15,4g/dL; LG 10.350/mm³; NS 7.650/mm³; PLQ 154.000/mm³; PCR 54mg/L; creat 0,9mg/dL. Assinale a alternativa que apresenta o tratamento antimicrobiano MAIS ADEQUADO nesse paciente:",
+      "alternatives": [
+        {"key": "a", "text": "Amoxicilina-clavulanato e azitromicina"},
+        {"key": "b", "text": "Ceftriaxona e oseltamivir"},
+        {"key": "c", "text": "Ciprofloxacino e claritromicina"},
+        {"key": "d", "text": "Piperacilina-tazobactam e oseltamivir"}
+      ],
+      "correct_key": "a",
+      "explanation": "Tabagista com sinais radiológicos de hiperinsuflação (retificação diafragmática, hipertransparência) sem consolidação, sibilos difusos e refratariedade a broncodilatadores/corticoide caracteriza exacerbação de DPOC (não pneumonia) com critérios de Anthonisen (aumento de dispneia + escarro purulento) indicando antibioticoterapia; testes de influenza/covid negativos afastam necessidade de oseltamivir.",
+      "theme": "dpoc_exac",
+      "difficulty": "dificil",
+      "source": "PSU-MG R3CM 2023",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
     }
   ]
 }

@@ -69,6 +69,23 @@
       "source": "SES-GO R3CM 2022",
       "reviewed": false,
       "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "mio_005",
+      "statement": "Fernando, 8 anos, é levado pelo pai ao pronto-socorro devido a quadro de febre até 39 ºC, taquicardia, dispneia e anorexia. Ao exame físico, febril, prostrado, regular estado geral com boa perfusão capilar e sem estase jugular. Ausculta cardíaca apresenta bulhas rítmicas normofonéticas. Ausculta pulmonar normal. Abdômen flácido, indolor, com figado palpável a 4 cm do rebordo costal direito. Realizada a seguinte radiografia de tórax. Entre os agentes abaixo, o que mais frequentemente causa o quadro descrito é:",
+      "alternatives": [
+        {"key": "a", "text": "SARS-CoV-2."},
+        {"key": "b", "text": "Coxsackie B."},
+        {"key": "c", "text": "Staphylococcus aureus."},
+        {"key": "d", "text": "Staphylococcus viridans."}
+      ],
+      "correct_key": "b",
+      "explanation": "ATENÇÃO: radiografia de tórax citada mas não disponível na extração do PDF. Febre, taquicardia desproporcional, dispneia e hepatomegalia (congestão) com ausculta pulmonar e cardíaca aparentemente normais sugerem miocardite viral com disfunção ventricular incipiente — Coxsackie B é o agente viral clássico mais associado a miocardite em crianças.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "source": "EINSTEIN R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
     }
   ]
 }
