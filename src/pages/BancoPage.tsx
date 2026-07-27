@@ -2,12 +2,13 @@ import { useState, useMemo, useEffect, useCallback, useRef } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { useAuthContext } from '@/contexts/AuthContext'
 import { useStudyContext } from '@/contexts/StudyContext'
-import { THEMES, StudyTheme, Question } from '@/services/supabaseClient'
-import { temaLabel, resolverFiltroURL, filtroOrigemLabel, temaIdsDeArea } from '@/utils/temaFilters'
+import { StudyTheme, Question } from '@/services/supabaseClient'
+import { temaLabel, resolverFiltroURL, filtroOrigemLabel } from '@/utils/temaFilters'
 import { questionsService } from '@/services/questionsService'
 import { studyLogService } from '@/services/studyLogService'
 import { supabase } from '@/services/supabaseClient'
 import { loadQuestionsForFilter, getQuestionThemeCounts, getManifest } from '@/services/contentService'
+import { ThemeHierarchyFilter } from '@/components/ThemeHierarchyFilter'
 
 const TEMA_ICONS: Record<string, string> = {
   avaliacao_cena: '🩺', cinetica_trauma: '💥', atls_inicial: '⚕️',
@@ -191,7 +192,9 @@ export function BancoPage() {
   const [idx, setIdx] = useState(0)
   const [feedback, setFeedback] = useState(false)
   const [sel, setSel] = useState<string | null>(null)
-  const [showFilters, setShowFilters] = useState(true)
+  const [showFilters, setShowFilters] = useState(() => sessionStorage.getItem('lammi_show_filters') !== '0')
+  useEffect(() => { sessionStorage.setItem('lammi_show_filters', showFilters ? '1' : '0') }, [showFilters])
+  const [showTags, setShowTags] = useState(true)
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 900)
   const [reportando, setReportando] = useState<string | null>(null) // id da questão sendo reportada
 
@@ -222,15 +225,6 @@ export function BancoPage() {
       .finally(() => { if (!cancelado) setLoadingQuestions(false) })
     return () => { cancelado = true }
   }, [filtroTemas])
-
-  const temasVisiveis = useMemo(() => {
-    const temasArea = areaParam ? temaIdsDeArea(areaParam) : null
-    return (Object.entries(THEMES) as [StudyTheme, string][])
-      .filter(([t]) => {
-        if (temasArea) return temasArea.has(t)
-        return (temaCount[t] || 0) > 0 || filtroTemas.has(t)
-      })
-  }, [temaCount, filtroTemas, areaParam])
 
   const filtradas = useMemo(() => {
     const bl = busca.trim().toLowerCase()
@@ -324,11 +318,13 @@ export function BancoPage() {
           </div>
         )}
 
-        {isMobile && (
-          <button className="btn-ghost" style={{ marginBottom: '1rem', width: '100%', justifyContent: 'center' }} onClick={() => setShowFilters(v => !v)}>
-            {showFilters ? '▲ Ocultar filtros' : '▼ Mostrar filtros'}
-          </button>
-        )}
+        <button
+          className="btn-ghost"
+          style={{ marginBottom: '1rem', width: isMobile ? '100%' : 'auto', justifyContent: 'center', fontSize: '.8rem' }}
+          onClick={() => setShowFilters(v => !v)}
+        >
+          {showFilters ? '◀ Ocultar filtros' : '▶ Mostrar filtros'}
+        </button>
 
         <div style={{ marginBottom: '1rem' }}>
           <input type="text" placeholder="🔍 Buscar por texto, palavra-chave..." value={busca}
@@ -339,8 +335,8 @@ export function BancoPage() {
           />
         </div>
 
-        <div className="banco-grid">
-          {(!isMobile || showFilters) && (
+        <div className="banco-grid" style={!showFilters ? { gridTemplateColumns: '1fr' } : undefined}>
+          {showFilters && (
             <aside className="filtros-panel">
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
                 <div className="filtros-title" style={{ margin: 0, padding: 0, border: 'none' }}>Filtros</div>
@@ -361,15 +357,7 @@ export function BancoPage() {
               ))}
 
               <div className="filtro-label">Temas</div>
-              {temasVisiveis.map(([t, label]) => (
-                <button key={t} className={`tema-btn ${filtroTemas.has(t) ? 'active' : ''}`} onClick={() => setFiltroTemas(s => toggleSet(s, t))}>
-                  <span style={{ fontSize: '.78rem' }}>{TEMA_ICONS[t] ?? '📋'} {label}</span>
-                  <span className="count-badge">{temaCount[t] || 0}</span>
-                </button>
-              ))}
-              {temasVisiveis.length === 0 && (
-                <span style={{ fontSize: '.72rem', color: 'var(--text-dim)' }}>Nenhum tema com questões ainda</span>
-              )}
+              <ThemeHierarchyFilter selected={filtroTemas} onChange={setFiltroTemas} counts={temaCount} />
 
               <div className="filtro-label">Dificuldade</div>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4 }}>
@@ -419,13 +407,25 @@ export function BancoPage() {
 
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', flexWrap: 'wrap', gap: 8 }}>
                   <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
-                    <span className="tag-pill">{TEMA_ICONS[q.theme] ?? '📋'} {temaLabel(q.theme)}</span>
-                    <span className={`tag-pill ${q.difficulty === 'facil' ? 'tag-green' : ''}`}>{NIVEL_LABELS[q.difficulty]}</span>
+                    {showTags && (
+                      <>
+                        <span className="tag-pill">{TEMA_ICONS[q.theme] ?? '📋'} {temaLabel(q.theme)}</span>
+                        <span className={`tag-pill ${q.difficulty === 'facil' ? 'tag-green' : ''}`}>{NIVEL_LABELS[q.difficulty]}</span>
+                      </>
+                    )}
                     {q.source && (
                       <span className="tag-pill" title="Fonte / banca examinadora" style={{ opacity: .75 }}>📌 {q.source}</span>
                     )}
                   </div>
                   <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                    {/* Ocultar tags de tema/dificuldade — discreto, evita dicas visuais */}
+                    <button
+                      onClick={() => setShowTags(v => !v)}
+                      title={showTags ? 'Ocultar tags de tema/dificuldade' : 'Mostrar tags de tema/dificuldade'}
+                      className="icon-toggle-btn"
+                    >
+                      {showTags ? '👁' : '🙈'}
+                    </button>
                     {/* Reportar erro — discreto, aparece sempre */}
                     <button
                       onClick={() => setReportando(q.id)}

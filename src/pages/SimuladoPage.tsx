@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react'
-import { THEMES, StudyTheme, Question } from '@/services/supabaseClient'
+import { StudyTheme, Question } from '@/services/supabaseClient'
 import { useTimer } from '@/hooks/useTimer'
 import { useAuthContext } from '@/contexts/AuthContext'
 import { simuladoService } from '@/services/simuladoService'
 import { studyLogService } from '@/services/studyLogService'
-import { loadQuestionsForFilter } from '@/services/contentService'
+import { loadQuestionsForFilter, getQuestionThemeCounts } from '@/services/contentService'
 import { temaLabel } from '@/utils/temaFilters'
+import { ThemeHierarchyFilter } from '@/components/ThemeHierarchyFilter'
 
 type Fase = 'config' | 'prova' | 'resultado'
 
@@ -25,7 +26,6 @@ export function SimuladoPage() {
   const [qs,        setQs]        = useState<Question[]>([])
   const [res,       setRes]       = useState<Resultado[]>([])
   const [idx,       setIdx]       = useState(0)
-  const [sel,       setSel]       = useState<string | null>(null)
 
   const [salvando,  setSalvando]  = useState(false)
   const [savedId,   setSavedId]   = useState<string | null>(null)
@@ -33,14 +33,20 @@ export function SimuladoPage() {
   const [gerando,   setGerando]   = useState(false)
   const timer = useTimer()
 
+  // Contagem por tema (para o filtro hierárquico) e visibilidade da barra lateral
+  const [temaCount, setTemaCount] = useState<Record<string, number>>({})
+  useEffect(() => { getQuestionThemeCounts().then(setTemaCount).catch(() => setTemaCount({})) }, [])
+
+  const [showFilters, setShowFilters] = useState(() => sessionStorage.getItem('lammi_show_filters') !== '0')
+  useEffect(() => { sessionStorage.setItem('lammi_show_filters', showFilters ? '1' : '0') }, [showFilters])
+
+  const [showTags, setShowTags] = useState(true)
+
   const limSeg   = tempoMin * 60
   const timeLeft = limSeg - timer.seconds
   const esgotado = timer.running && timeLeft <= 0
 
   useEffect(() => { if (esgotado) finalizar() }, [esgotado])
-
-  const toggleTema = (t: StudyTheme) =>
-    setTemas(prev => { const n = new Set(prev); n.has(t) ? n.delete(t) : n.add(t); return n })
 
   const iniciar = async () => {
     setGerando(true)
@@ -51,7 +57,7 @@ export function SimuladoPage() {
       if (!shuffle.length) { alert('Nenhuma questão para os temas selecionados.'); return }
       setQs(shuffle)
       setRes(shuffle.map(q => ({ question: q, escolha: null, acertou: false })))
-      setIdx(0); setSel(null); setSavedId(null)
+      setIdx(0); setSavedId(null)
       setStartedAt(new Date().toISOString())
       setFase('prova')
       timer.reset(); timer.start()
@@ -60,39 +66,41 @@ export function SimuladoPage() {
     }
   }
 
+  // Seleciona/troca a resposta da questão atual — livre até finalizar a prova,
+  // sem revelar se está certa ou errada (isso só aparece na tela de resultado).
   const responder = (key: string) => {
-    if (sel || res[idx].escolha) return
-    setSel(key)
-    const acertou = key === qs[idx].correct_key
-    setRes(prev => prev.map((r, i) => i === idx ? { ...r, escolha: key, acertou } : r))
+    setRes(prev => prev.map((r, i) => i === idx ? { ...r, escolha: key } : r))
   }
 
   const avancar = () => {
     if (idx >= qs.length - 1) { finalizar(); return }
-    setIdx(i => i + 1); setSel(null)
+    setIdx(i => i + 1)
   }
 
   // ─── Finalizar e salvar no Supabase ───────────────────────
   const finalizar = async () => {
     timer.stop()
+    // Só aqui, ao finalizar, é que se apura o gabarito de cada questão.
+    const finalRes = res.map(r => ({ ...r, acertou: r.escolha === r.question.correct_key }))
+    setRes(finalRes)
     setFase('resultado')
 
     if (!user) return // sem login, não salva
 
     setSalvando(true)
     const finishedAt   = new Date().toISOString()
-    const acertosCount = res.filter(r => r.acertou).length
-    const temasList    = [...new Set(res.map(r => r.question.theme))] as StudyTheme[]
+    const acertosCount = finalRes.filter(r => r.acertou).length
+    const temasList    = [...new Set(finalRes.map(r => r.question.theme))] as StudyTheme[]
 
     const { data } = await simuladoService.save({
       user_id:          user.id,
       themes:           temasList,
-      total_questions:  res.length,
+      total_questions:  finalRes.length,
       correct_count:    acertosCount,
       time_seconds:     timer.seconds,
       started_at:       startedAt,
       finished_at:      finishedAt,
-      question_results: res.map(r => ({
+      question_results: finalRes.map(r => ({
         question_id: r.question.id,
         chosen_key:  r.escolha ?? '',
         correct:     r.acertou,
@@ -116,65 +124,70 @@ export function SimuladoPage() {
   // ─── CONFIG ──────────────────────────────────────────────
   if (fase === 'config') return (
     <section style={{ padding: '4rem 2rem', background: '#0D0D0D' }}>
-      <div style={{ maxWidth: 860, margin: '0 auto' }}>
+      <div style={{ maxWidth: 1200, margin: '0 auto' }}>
         <div className="accent-bar" />
         <h2 style={{ fontFamily: 'var(--font-d)', fontSize: '2rem', color: 'white', marginBottom: '.4rem' }}>Novo Simulado</h2>
-        <p style={{ color: 'var(--text-muted)', fontSize: '.88rem', marginBottom: '2rem' }}>Configure sua prova personalizada</p>
+        <p style={{ color: 'var(--text-muted)', fontSize: '.88rem', marginBottom: '1.5rem' }}>Configure sua prova personalizada</p>
 
-        <div className="card-dark" style={{ padding: '2.5rem', marginBottom: '1.5rem' }}>
-          <div style={{ marginBottom: '2rem' }}>
-            <div style={{ fontSize: '.72rem', textTransform: 'uppercase', letterSpacing: '.12em', color: 'var(--text-muted)', fontWeight: 700, marginBottom: '.9rem' }}>
-              Temas <span style={{ color: 'var(--text-dim)' }}>(vazio = todos)</span>
-            </div>
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '.5rem' }}>
-              {(Object.entries(THEMES) as [StudyTheme, string][]).map(([k, v]) => (
-                <button key={k} onClick={() => toggleTema(k)}
-                  style={{ padding: '.45rem .9rem', border: '1px solid', borderColor: temas.has(k) ? 'var(--red)' : 'var(--border)', background: temas.has(k) ? 'var(--red)' : 'transparent', color: 'var(--text)', fontSize: '.8rem', cursor: 'pointer', transition: 'all .15s', fontFamily: 'var(--font-s)' }}>
-                  {v}
-                </button>
-              ))}
-            </div>
-          </div>
+        <button
+          className="btn-ghost"
+          style={{ marginBottom: '1rem', fontSize: '.8rem' }}
+          onClick={() => setShowFilters(v => !v)}
+        >
+          {showFilters ? '◀ Ocultar filtros' : '▶ Mostrar filtros'}
+        </button>
 
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem', marginBottom: '2rem' }}>
-            {[
-              { label: 'Nº de questões', val: qtd,      set: setQtd,      opts: [5, 10, 15, 20, 30] },
-              { label: 'Tempo limite',   val: tempoMin, set: setTempoMin, opts: [10, 15, 20, 30, 45, 60], suffix: ' min' },
-            ].map(({ label, val, set, opts, suffix }) => (
-              <div key={label}>
-                <div style={{ fontSize: '.72rem', textTransform: 'uppercase', letterSpacing: '.12em', color: 'var(--text-muted)', fontWeight: 700, marginBottom: '.5rem' }}>{label}</div>
-                <select value={val} onChange={e => set(+e.target.value)}
-                  style={{ width: '100%', padding: '.7rem .9rem', border: '1px solid var(--border)', background: 'var(--bg-surface)', color: 'var(--text)', fontFamily: 'var(--font-s)', fontSize: '.92rem', outline: 'none' }}>
-                  {opts.map(o => <option key={o} value={o}>{o}{suffix ?? ''}</option>)}
-                </select>
+        <div className="banco-grid" style={!showFilters ? { gridTemplateColumns: '1fr' } : undefined}>
+          {showFilters && (
+            <aside className="filtros-panel">
+              <div className="filtros-title" style={{ margin: 0, marginBottom: '1rem', padding: 0, border: 'none' }}>
+                Temas <span style={{ color: 'var(--text-dim)', fontWeight: 400, fontSize: '.75rem' }}>(vazio = todos)</span>
               </div>
-            ))}
-          </div>
-
-          <div style={{ background: 'rgba(192,57,43,.07)', border: '1px solid var(--border)', padding: '1rem 1.25rem', marginBottom: '2rem', display: 'flex', gap: '2rem', flexWrap: 'wrap' }}>
-            {[
-              { lbl: 'Questões', val: qtd },
-              { lbl: 'Tempo',    val: tempoMin + ' min' },
-              { lbl: 'Temas',    val: temas.size === 0 ? 'Todos' : temas.size + ' selecionado(s)' },
-              { lbl: 'Tempo/Q',  val: (tempoMin / qtd).toFixed(1) + ' min' },
-            ].map(({ lbl, val }) => (
-              <div key={lbl}>
-                <div style={{ fontSize: '.65rem', textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--text-dim)', fontWeight: 700 }}>{lbl}</div>
-                <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.15rem', fontWeight: 700, color: '#E53935', marginTop: '.15rem' }}>{val}</div>
-              </div>
-            ))}
-          </div>
-
-          {!user && (
-            <div style={{ background: 'rgba(192,57,43,.07)', border: '1px solid rgba(192,57,43,.25)', padding: '.75rem 1rem', fontSize: '.82rem', color: 'var(--text-muted)', marginBottom: '1rem' }}>
-              ⚠ Sem login o resultado não será salvo no histórico.{' '}
-              <a href="/login" style={{ color: '#E53935' }}>Entrar</a>
-            </div>
+              <ThemeHierarchyFilter selected={temas} onChange={setTemas} counts={temaCount} />
+            </aside>
           )}
 
-          <button onClick={iniciar} disabled={gerando} className="btn-red" style={{ width: '100%', padding: '1rem', fontSize: '.95rem', opacity: gerando ? .6 : 1 }}>
-            {gerando ? '⏳ Preparando questões...' : 'Iniciar Simulado →'}
-          </button>
+          <div className="card-dark" style={{ padding: '2.5rem' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem', marginBottom: '2rem' }}>
+              {[
+                { label: 'Nº de questões', val: qtd,      set: setQtd,      opts: [5, 10, 15, 20, 30] },
+                { label: 'Tempo limite',   val: tempoMin, set: setTempoMin, opts: [10, 15, 20, 30, 45, 60], suffix: ' min' },
+              ].map(({ label, val, set, opts, suffix }) => (
+                <div key={label}>
+                  <div style={{ fontSize: '.72rem', textTransform: 'uppercase', letterSpacing: '.12em', color: 'var(--text-muted)', fontWeight: 700, marginBottom: '.5rem' }}>{label}</div>
+                  <select value={val} onChange={e => set(+e.target.value)}
+                    style={{ width: '100%', padding: '.7rem .9rem', border: '1px solid var(--border)', background: 'var(--bg-surface)', color: 'var(--text)', fontFamily: 'var(--font-s)', fontSize: '.92rem', outline: 'none' }}>
+                    {opts.map(o => <option key={o} value={o}>{o}{suffix ?? ''}</option>)}
+                  </select>
+                </div>
+              ))}
+            </div>
+
+            <div style={{ background: 'rgba(192,57,43,.07)', border: '1px solid var(--border)', padding: '1rem 1.25rem', marginBottom: '2rem', display: 'flex', gap: '2rem', flexWrap: 'wrap' }}>
+              {[
+                { lbl: 'Questões', val: qtd },
+                { lbl: 'Tempo',    val: tempoMin + ' min' },
+                { lbl: 'Temas',    val: temas.size === 0 ? 'Todos' : temas.size + ' selecionado(s)' },
+                { lbl: 'Tempo/Q',  val: (tempoMin / qtd).toFixed(1) + ' min' },
+              ].map(({ lbl, val }) => (
+                <div key={lbl}>
+                  <div style={{ fontSize: '.65rem', textTransform: 'uppercase', letterSpacing: '.1em', color: 'var(--text-dim)', fontWeight: 700 }}>{lbl}</div>
+                  <div style={{ fontFamily: 'var(--font-d)', fontSize: '1.15rem', fontWeight: 700, color: '#E53935', marginTop: '.15rem' }}>{val}</div>
+                </div>
+              ))}
+            </div>
+
+            {!user && (
+              <div style={{ background: 'rgba(192,57,43,.07)', border: '1px solid rgba(192,57,43,.25)', padding: '.75rem 1rem', fontSize: '.82rem', color: 'var(--text-muted)', marginBottom: '1rem' }}>
+                ⚠ Sem login o resultado não será salvo no histórico.{' '}
+                <a href="/login" style={{ color: '#E53935' }}>Entrar</a>
+              </div>
+            )}
+
+            <button onClick={iniciar} disabled={gerando} className="btn-red" style={{ width: '100%', padding: '1rem', fontSize: '.95rem', opacity: gerando ? .6 : 1 }}>
+              {gerando ? '⏳ Preparando questões...' : 'Iniciar Simulado →'}
+            </button>
+          </div>
         </div>
       </div>
     </section>
@@ -209,12 +222,13 @@ export function SimuladoPage() {
 
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4, marginBottom: '1.25rem' }}>
             {qs.map((_, i) => {
+              // Durante a prova, os quadrados só indicam "atual" ou "respondida" —
+              // nunca certo/errado, para não revelar o gabarito antes de finalizar.
               let bg = 'transparent'; let col = 'var(--text-muted)'; let border = 'var(--border)'
               if (i === idx) { bg = 'var(--red)'; col = 'white'; border = 'var(--red)' }
-              else if (res[i].acertou && res[i].escolha) { bg = '#2f7a3f'; col = 'white'; border = '#2f7a3f' }
-              else if (res[i].escolha && !res[i].acertou) { bg = '#b23b3b'; col = 'white'; border = '#b23b3b' }
+              else if (res[i].escolha) { bg = 'rgba(192,57,43,.25)'; col = 'var(--text)'; border = 'rgba(192,57,43,.45)' }
               return (
-                <button key={i} onClick={() => { setIdx(i); setSel(res[i].escolha) }}
+                <button key={i} onClick={() => setIdx(i)}
                   style={{ width: 30, height: 30, border: `1px solid ${border}`, background: bg, color: col, fontSize: '.75rem', fontWeight: 700, cursor: 'pointer', transition: 'all .15s' }}>
                   {i + 1}
                 </button>
@@ -223,22 +237,30 @@ export function SimuladoPage() {
           </div>
 
           <div className="questao-card">
-            <div style={{ display: 'flex', gap: 6, marginBottom: '1.25rem', flexWrap: 'wrap' }}>
-              <span className="tag-pill">{temaLabel(q.theme)}</span>
-              <span className="tag-pill">{q.difficulty === 'facil' ? 'Fácil' : q.difficulty === 'medio' ? 'Médio' : 'Difícil'}</span>
-              {q.source && <span className="tag-pill" style={{ opacity: .75 }}>📌 {q.source}</span>}
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 6, marginBottom: '1.25rem', flexWrap: 'wrap' }}>
+              <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
+                {showTags && (
+                  <>
+                    <span className="tag-pill">{temaLabel(q.theme)}</span>
+                    <span className="tag-pill">{q.difficulty === 'facil' ? 'Fácil' : q.difficulty === 'medio' ? 'Médio' : 'Difícil'}</span>
+                  </>
+                )}
+                {q.source && <span className="tag-pill" style={{ opacity: .75 }}>📌 {q.source}</span>}
+              </div>
+              <button
+                onClick={() => setShowTags(v => !v)}
+                title={showTags ? 'Ocultar tags de tema/dificuldade' : 'Mostrar tags de tema/dificuldade'}
+                className="icon-toggle-btn"
+              >
+                {showTags ? '👁' : '🙈'}
+              </button>
             </div>
             <p className="enunciado">{q.statement}</p>
             <div>
               {q.alternatives.map(alt => {
-                const escolha = res[idx].escolha
-                let cls = 'alt-btn'
-                if (escolha) {
-                  if (alt.key === q.correct_key) cls += ' correct'
-                  else if (alt.key === escolha) cls += ' wrong'
-                } else if (sel === alt.key) cls += ' selected-pending'
+                const escolhida = res[idx].escolha === alt.key
                 return (
-                  <button key={alt.key} className={cls} onClick={() => responder(alt.key)} disabled={!!escolha}>
+                  <button key={alt.key} className={`alt-btn ${escolhida ? 'selected-pending' : ''}`} onClick={() => responder(alt.key)}>
                     <span className="alt-letter">{alt.key}</span>
                     <span>{alt.text}</span>
                   </button>
@@ -246,7 +268,7 @@ export function SimuladoPage() {
               })}
             </div>
             <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '1.5rem', paddingTop: '1.25rem', borderTop: '1px solid var(--border)' }}>
-              <button className="btn-ghost" onClick={() => { setIdx(i => Math.max(0, i - 1)); setSel(res[Math.max(0, idx - 1)].escolha) }} disabled={idx === 0}>
+              <button className="btn-ghost" onClick={() => setIdx(i => Math.max(0, i - 1))} disabled={idx === 0}>
                 ← Anterior
               </button>
               <button className="btn-red" onClick={avancar}>
@@ -312,7 +334,7 @@ export function SimuladoPage() {
                 return (
                   <div key={t} style={{ marginBottom: '1rem' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '.84rem', marginBottom: '.35rem' }}>
-                      <span style={{ color: 'var(--text)' }}>{THEMES[t as StudyTheme]}</span>
+                      <span style={{ color: 'var(--text)' }}>{temaLabel(t)}</span>
                       <span style={{ fontWeight: 700, color: col }}>{s.acertos}/{s.total} ({p}%)</span>
                     </div>
                     <div style={{ height: 6, background: 'rgba(192,57,43,.12)' }}>

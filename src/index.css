@@ -390,3 +390,12 @@ body {
 }
 .subtema-btn:hover { border-color: var(--red); background: rgba(192,57,43,.08); }
 .subtema-btn.active { background: var(--red); color: white; border-color: var(--red); }
+.subtema-btn.active .count-badge { background: rgba(255,255,255,.2); color: #fff; }
+
+/* ── Toggle discreto (ocultar tags / ocultar sidebar) ── */
+.icon-toggle-btn {
+  background: none; border: 1px solid var(--border); cursor: pointer;
+  font-size: .78rem; padding: 3px 8px; color: var(--text-muted);
+  opacity: .6; transition: opacity .2s, border-color .2s; border-radius: 4px;
+}
+.icon-toggle-btn:hover { opacity: 1; border-color: var(--red); }
