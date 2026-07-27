@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T01:06:37.484Z",
+  "generatedAt": "2026-07-27T01:32:54.101Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,10 +26,11 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 372,
+  "totalQuestions": 472,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
+    "cardio_arritmias": 100,
     "cardio_has": 100,
     "cardio_ic": 140,
     "cardio_sca": 120,
@@ -90,8 +91,10 @@
     {
       "area": "cardiologia",
       "slug": "arritmias",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "cardio_arritmias"
+      ],
+      "questionsCount": 100,
       "flashcardsCount": 0,
       "casosCount": 0
     },
