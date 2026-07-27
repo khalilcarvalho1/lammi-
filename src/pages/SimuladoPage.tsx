@@ -5,6 +5,7 @@ import { useAuthContext } from '@/contexts/AuthContext'
 import { simuladoService } from '@/services/simuladoService'
 import { studyLogService } from '@/services/studyLogService'
 import { loadQuestionsForFilter } from '@/services/contentService'
+import { temaLabel } from '@/utils/temaFilters'
 
 type Fase = 'config' | 'prova' | 'resultado'
 
@@ -223,8 +224,9 @@ export function SimuladoPage() {
 
           <div className="questao-card">
             <div style={{ display: 'flex', gap: 6, marginBottom: '1.25rem', flexWrap: 'wrap' }}>
-              <span className="tag-pill">{THEMES[q.theme]}</span>
+              <span className="tag-pill">{temaLabel(q.theme)}</span>
               <span className="tag-pill">{q.difficulty === 'facil' ? 'Fácil' : q.difficulty === 'medio' ? 'Médio' : 'Difícil'}</span>
+              {q.source && <span className="tag-pill" style={{ opacity: .75 }}>📌 {q.source}</span>}
             </div>
             <p className="enunciado">{q.statement}</p>
             <div>

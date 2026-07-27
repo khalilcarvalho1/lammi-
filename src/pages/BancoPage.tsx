@@ -421,6 +421,9 @@ export function BancoPage() {
                   <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
                     <span className="tag-pill">{TEMA_ICONS[q.theme] ?? '📋'} {temaLabel(q.theme)}</span>
                     <span className={`tag-pill ${q.difficulty === 'facil' ? 'tag-green' : ''}`}>{NIVEL_LABELS[q.difficulty]}</span>
+                    {q.source && (
+                      <span className="tag-pill" title="Fonte / banca examinadora" style={{ opacity: .75 }}>📌 {q.source}</span>
+                    )}
                   </div>
                   <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
                     {/* Reportar erro — discreto, aparece sempre */}

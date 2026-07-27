@@ -1,1 +1,231 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "tamp_001",
+      "statement": "Uma paciente feminina de 64 anos, magra, chegou ao pronto atendimento, com queixa de dispneia de início súbito, acompanhada de desconforto torácico tipo queimação retroesternal, sem irradiação. Tinha histórico prévio de hipertensão arterial sistêmica, diabetes mellitus e tabagismo de 100 anos-maço. Na chegada, apresentava pressão arterial de 160/90 mmHg, frequência cardíaca de 90 batimentos/minuto, frequência respiratória de 37 incursões/minuto e saturação de oxigênio de 90% em ar ambiente. À ausculta pulmonar podiam-se perceber crepitações finas em todos os campos pulmonares bilateralmente, com alguns sibilos expiratórios. À ausculta cardíaca, ouvia-se ritmo de galope. Foram dosados marcadores de necrose miocárdica: troponina 0,039 ng/mL na chegada e 0,036 ng/mL após seis horas (VR < 0,04 ng/mL). No dia seguinte, foi submetida a cineangiocoronariografia que evidenciou lesões obstrutivas superiores a 80% da luz da artéria interventricular anterior, artéria circunflexa e artéria coronária direita. Optou-se por não se realizar angioplastia. Cerca de 12 horas após o procedimento, a paciente evoluiu com mal-estar e sonolência. Ao exame, apresentava palidez cutâneo-mucosa, sudorese, pressão arterial de 80/40 mmHg, frequência cardíaca de 60 batimentos/minuto, turgência jugular, bulhas cardíacas pouco audíveis. Foi realizada ultrassonografia cardíaca à beira-leito. Com base na história relatada e no quadro clínico descrito, assinale a alternativa correta.",
+      "alternatives": [
+        {"key": "a", "text": "É um derrame pleural volumoso de instalação aguda, provável hemotórax. O tratamento é toracotomia de urgência, seguida de drenagem de tórax."},
+        {"key": "b", "text": "Trata-se de um choque hipovolêmico. A conduta baseia-se em transfusão de hemoderivados, incluindo correção de potenciais distúrbios de coagulação e até mesmo reversão da antiagregação plaquetária com a administração de desmopressina."},
+        {"key": "c", "text": "É um tamponamento cardíaco, secundário a um provável hemopericárdio. O tratamento é pericardiocentese e/ou confecção de janela pericárdica."},
+        {"key": "d", "text": "É um provável choque distributivo, por reação anafilática ao meio de contraste iodado. Seu tratamento é infusão de cristaloides e administração de adrenalina intramuscular, anti-histamínicos e corticoesteroides."},
+        {"key": "e", "text": "É um quadro de insuficiência ventricular direita, secundário a infarto agudo do miocárdio por oclusão completa da artéria coronária direita. A conduta imediata é angioplastia percutânea primária do referido vaso."}
+      ],
+      "correct_key": "c",
+      "explanation": "ATENÇÃO: eletrocardiogramas e imagem de ultrassonografia cardíaca citados mas não disponíveis na extração do PDF. Paciente com doença coronariana grave não revascularizada, evoluindo 12h após cateterismo com hipotensão + bradicardia + turgência jugular + bulhas hipofonéticas, é o quadro clássico de tamponamento cardíaco — no contexto, provavelmente por rotura de parede livre pós-infarto (complicação mecânica) ou hemopericárdio relacionado ao procedimento invasivo recente. Tratamento: pericardiocentese e/ou janela pericárdica.",
+      "theme": "peri_tampon",
+      "difficulty": "dificil",
+      "source": "UFSC R3CM 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tamp_002",
+      "statement": "Homem, 62 anos, procura o serviço de emergência com quadro de dispneia e dor torácica, que se iniciaram há 2 meses e vêm evoluindo com piora progressiva. Ao exame clínico, o paciente apresentava diminuição do murmúrio vesicular bilateralmente e estase jugular a 45°. Exame radiológico apresentado. A punção pleural demonstrou líquido exsudativo com predomínio de outras células, provavelmente células neoplásicas. Durante atendimento, o paciente apresentou piora da dispneia e PA 80x40 mmHg. A ultrassonografia cardíaca à beira do leito apresentada. Qual é a conduta imediata?",
+      "alternatives": [
+        {"key": "a", "text": "Trombólise."},
+        {"key": "b", "text": "Drenagem torácica."},
+        {"key": "c", "text": "Cineangiocoronariografia."},
+        {"key": "d", "text": "Pericardiocentese."}
+      ],
+      "correct_key": "d",
+      "explanation": "ATENÇÃO: radiografia e ultrassonografia cardíaca citadas mas não disponíveis na extração do PDF. Derrame pleural neoplásico associado a hipotensão + estase jugular + piora súbita da dispneia sugere derrame pericárdico maligno evoluindo para tamponamento cardíaco, exigindo pericardiocentese imediata.",
+      "theme": "peri_tampon",
+      "difficulty": "medio",
+      "source": "USP R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tamp_003",
+      "statement": "Em relação ao tamponamento cardíaco, assinale a alternativa INCORRETA:",
+      "alternatives": [
+        {"key": "a", "text": "O tamponamento cardíaco pode ser agudo ou crônico"},
+        {"key": "b", "text": "Hipotensão, distensão das veias do pescoço, abafamento das bulhas e pulso paradoxal são sinais de tamponamento cardíaco"},
+        {"key": "c", "text": "É uma emergência cirurgia necessitando de tratamento cirúrgico imediato"},
+        {"key": "d", "text": "Para ocorre um tamponamento cardíaco agudo é necessário o acúmulo de mais de 300 ml de sangue no saco pericárdico"},
+        {"key": "e", "text": "A ultrassonografia é uma ferramenta valiosa para avaliar rapidamente o pericárdio para presença de líquido"}
+      ],
+      "correct_key": "d",
+      "explanation": "É a alternativa INCORRETA: no tamponamento cardíaco AGUDO, volumes muito menores (frequentemente 100-200 mL, acumulados rapidamente) já são suficientes para causar comprometimento hemodinâmico grave, pois o pericárdio não tem tempo de se distender/adaptar — diferente do acúmulo crônico, que pode tolerar volumes muito maiores (acima de 1-2 litros) sem tamponamento.",
+      "theme": "peri_tampon",
+      "difficulty": "medio",
+      "source": "HMA-SP R3CG 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tamp_004",
+      "statement": "Um paciente de 47 anos de idade foi levado ao pronto-socorro com quadro de hipotensão, PA = 90 mmHg x 47 mmHg, FC = 102 bpm, SatO² = 96%, temperatura = 36,6 ºC e FR = 24 irpm. Observaram-se também estase jugular evidente, ausculta pulmonar limpa, sem achados, e abafamento de bulhas cardíacas em toda a ausculta. Ele relata que a dispneia melhora quando se senta e inclina-se para frente. Imagem de janela subcostal de 4 câmaras. Com base nessa imagem, é correto afirmar que o número \"1\" corresponde ao (à):",
+      "alternatives": [
+        {"key": "a", "text": "parênquima pulmonar envolto no coração."},
+        {"key": "b", "text": "sombra acústica do coração atrofiado."},
+        {"key": "c", "text": "veia cava inferior dilatada."},
+        {"key": "d", "text": "derrame pericárdico."},
+        {"key": "e", "text": "aorta do paciente dilatada."}
+      ],
+      "correct_key": "d",
+      "explanation": "ATENÇÃO: imagem ecocardiográfica (janela subcostal 4 câmaras) citada mas não disponível na extração do PDF, sendo essencial para identificar exatamente o que o número \"1\" indica. Considerando o quadro clínico clássico de tamponamento cardíaco (estase jugular, bulhas abafadas, ausculta pulmonar limpa, melhora ao inclinar-se para frente), a estrutura mais provavelmente apontada na janela subcostal é o derrame pericárdico.",
+      "theme": "peri_tampon",
+      "difficulty": "dificil",
+      "source": "HSM-DF R3CM 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tamp_005",
+      "statement": "O tamponamento cardíaco é identificado pela presença da clássica tríade diagnóstica de Beck, composta de",
+      "alternatives": [
+        {"key": "a", "text": "Diminuição da pressão venosa, diminuição da pressão arterial e abafamento das bulhas cardíacas."},
+        {"key": "b", "text": "Diminuição da pressão venosa, aumento da pressão arterial e abafamento das bulhas cardíacas."},
+        {"key": "c", "text": "Elevação da pressão venosa, diminuição da pressão arterial e dor torácica."},
+        {"key": "d", "text": "Elevação da pressão venosa, diminuição da pressão arterial e abafamento das bulhas cardíacas."}
+      ],
+      "correct_key": "d",
+      "explanation": "A tríade de Beck clássica do tamponamento cardíaco é composta por elevação da pressão venosa (turgência jugular), diminuição da pressão arterial (hipotensão) e abafamento das bulhas cardíacas.",
+      "theme": "peri_tampon",
+      "difficulty": "facil",
+      "source": "SUS-RR R1 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tamp_006",
+      "statement": "Um paciente do sexo masculino, 65 anos, apresentou-se ao PS devido à dispneia progressiva aos esforços, de início há 03 dias, agora, afetando-o em repouso. Ele nega adoecimento recente, nega uso de medicamentos e de drogas ilícitas ou lícitas. Ao exame, ele apresenta pressão venosa jugular de 12 cm e uma queda na pressão arterial à inspiração de 15 mmHg. Seus dados vitais são PA 100/70 mmHg, FC 122 bpm, Sat 95% e FR 24 irpm. Assinale a alternativa que apresenta corretamente os achados esperados no ecocardiograma desse paciente, considerando o diagnóstico mais provável.",
+      "alternatives": [
+        {"key": "a", "text": "Fração de ejeção normal e aumento marcante de átrio esquerdo."},
+        {"key": "b", "text": "Colapso diastólico do ventrículo direito e veia cava inferior pletórica"},
+        {"key": "c", "text": "Aumento da PSAP e veia cava inferior colapsada."},
+        {"key": "d", "text": "Colapso diastólico do ventrículo esquerdo e hipocontratilidade difusa."},
+        {"key": "e", "text": "Colapso sistólico do ventrículo direito e veia cava inferior pletórica"}
+      ],
+      "correct_key": "b",
+      "explanation": "Pressão venosa jugular elevada (12cm) associada a pulso paradoxal (queda de PA >10mmHg na inspiração) é o quadro clássico de tamponamento cardíaco. Os achados ecocardiográficos esperados são colapso DIASTÓLICO do ventrículo direito (câmara de menor pressão, colabada primeiro pelo aumento da pressão intrapericárdica) e veia cava inferior pletórica (sem colapso inspiratório, refletindo pressões de enchimento elevadas).",
+      "theme": "peri_tampon",
+      "difficulty": "dificil",
+      "source": "ENARE R3CM 2024",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tamp_007",
+      "statement": "Homem, 68 anos de idade, portador de insuficiência renal crônica dialítica, é admitido em Pronto Socorro com quadro de confusão mental há 1 hora. Exame físico: FC 120 bpm, PA 70x30 mmHg, estase jugular, abafamento de bulhas cardíacas e má perfusão periférica. Qual é a conduta apropriada?",
+      "alternatives": [
+        {"key": "a", "text": "Tomografia de tórax."},
+        {"key": "b", "text": "Drenagem pleural esquerda."},
+        {"key": "c", "text": "Ecocardiograma transtorácico."},
+        {"key": "d", "text": "Punção pericárdica."}
+      ],
+      "correct_key": "d",
+      "explanation": "Paciente em hemodiálise (risco de derrame pericárdico urêmico) com choque + estase jugular + bulhas abafadas configura tamponamento cardíaco com instabilidade hemodinâmica grave, exigindo punção pericárdica (pericardiocentese) imediata como medida salvadora.",
+      "theme": "peri_tampon",
+      "difficulty": "medio",
+      "source": "SCMMA R1 2020",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tamp_008",
+      "statement": "São causas de QRS com baixa voltagem no eletrocardiograma.",
+      "alternatives": [
+        {"key": "a", "text": "Anasarca e Síndrome de Wolf Parkinson White."},
+        {"key": "b", "text": "Derrame pericárdico e DPOC."},
+        {"key": "c", "text": "Miocardite e Tetralogia de Fallot."},
+        {"key": "d", "text": "Intoxicação por lítio e DPOC."},
+        {"key": "e", "text": "Febre Reumática e aneurisma de aorta."}
+      ],
+      "correct_key": "b",
+      "explanation": "Derrame pericárdico (o líquido atenua a transmissão do sinal elétrico até os eletrodos de superfície) e DPOC (hiperinsuflação pulmonar interpondo ar entre o coração e a parede torácica) são causas clássicas de baixa voltagem do QRS.",
+      "theme": "peri_tampon",
+      "difficulty": "medio",
+      "source": "HNMD R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tamp_009",
+      "statement": "Homem de 24 anos procura atendimento médico com febre de 38ºC, queixa de dor torácica de forte intensidade na região precordial, irradiada para a omoplata, que piora ao deitar e durante a inspiração profunda. O exame cardiovascular mostra ruído rude sistodiastólico em precórdio e turgência jugular a 45º. O paciente evolui com piora de dispneia e queda da PA. Para ajudar na principal complicação do diagnóstico, é provável verificar no exame físico:",
+      "alternatives": [
+        {"key": "a", "text": "sinal de Broadbent no ictus"},
+        {"key": "b", "text": "turgência jugular com sinal de Kussmaul"},
+        {"key": "c", "text": "ausculta de Knock pericárdico no precórdio"},
+        {"key": "d", "text": "queda da PA sistólica na inspiração acima de 10mmHg"}
+      ],
+      "correct_key": "d",
+      "explanation": "Quadro de pericardite aguda (dor pleurítica/postural, febre, atrito pericárdico) evoluindo com dispneia e queda de PA sugere a principal complicação: tamponamento cardíaco. O achado físico que confirma essa complicação é o pulso paradoxal — queda da PA sistólica acima de 10mmHg durante a inspiração.",
+      "theme": "peri_tampon",
+      "difficulty": "medio",
+      "source": "UERJ R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tamp_010",
+      "statement": "Homem, 63 anos, comparece a unidade de emergência apresentando dispneia progressiva e, em repouso, há dois dias. Há um mês percebeu edema de membros inferiores e ganho de peso. Antecedentes pessoais: hipertensão arterial de difícil controle e doença renal crônica. Há dois meses, ao esquema inicial de clonidina, atenolol e hidroclorotiazida, foi associado minoxidil 10 mg/dia. Exame físico: PA 92/64 mmHg, FC 112 bpm, FR 28 irpm, saturação O2 91% (ar ambiente). Pulso paradoxal. Turgência jugular bilateral a 45º. Ausculta cardiopulmonar: estertores finos em bases. Bulhas rítmicas hipofonéticas. Ausência de atrito pericárdico. Edema de membros inferiores (+++/4) até raiz de coxa. Exames laboratoriais: ureia 156 mg/dL; creatinina 3,6 mg/dL; potássio 5 mEq/L; HCO³ 19mmol/l. A hipótese diagnóstica e a etiologia para o quadro atual do paciente são:",
+      "alternatives": [
+        {"key": "a", "text": "Insuficiência cardíaca por hipertensão arterial refratária."},
+        {"key": "b", "text": "Pericardite por uremia."},
+        {"key": "c", "text": "Derrame pericárdico por minoxidil."},
+        {"key": "d", "text": "Cardiomiopatia restritiva por amiloidose."}
+      ],
+      "correct_key": "c",
+      "explanation": "Pulso paradoxal + turgência jugular + bulhas hipofonéticas configuram tamponamento cardíaco/derrame pericárdico significativo. O minoxidil é uma causa medicamentosa bem documentada de derrame pericárdico, introduzido há 2 meses (janela temporal compatível), representando a etiologia mais especificamente implicada neste caso frente à uremia concomitante (distrator).",
+      "theme": "peri_tampon",
+      "difficulty": "dificil",
+      "source": "UNICAMP R3CM 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tamp_011",
+      "statement": "Mulher de 32 anos é submetida à valvoplastia mitral por cateter-balão devido à dispneia de caráter progressivo nos últimos 6 meses. Ecocardiograma transesofágico pré-operatório sem evidência de trombos ou insuficiência mitral. Durante o procedimento, evoluiu com agitação intensa. Exame clínico: FC 112 bpm, PA 92x62 mmHg, sopro sistólico regurgitativo 2+/6+ em foco tricúspide/rebordo esternal esquerdo de maior intensidade com a inspiração, B1 hipofonética, P2 hiperfonética, turgência jugular fixa, extremidades frias e tempo de enchimento capilar prolongado. A causa mais provável dos sintomas apresentados é:",
+      "alternatives": [
+        {"key": "a", "text": "comunicação interatrial aguda."},
+        {"key": "b", "text": "insuficiência mitral aguda."},
+        {"key": "c", "text": "tamponamento cardíaco."},
+        {"key": "d", "text": "tromboembolismo pulmonar."}
+      ],
+      "correct_key": "c",
+      "explanation": "Agitação súbita intraprocedimento (valvoplastia mitral por cateter-balão, com risco de perfuração cardíaca pela punção transseptal) evoluindo com hipotensão, turgência jugular fixa e má perfusão periférica é o quadro clássico de tamponamento cardíaco iatrogênico.",
+      "theme": "peri_tampon",
+      "difficulty": "dificil",
+      "source": "USP R3CM 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tamp_012",
+      "statement": "Em pacientes com tamponamento cardíaco o exame físico pode revelar",
+      "alternatives": [
+        {"key": "a", "text": "elevação da pressão arterial diastólica a cada batimento cardíaco."},
+        {"key": "b", "text": "variação da pressão diastólica a cada batimento cardíaco."},
+        {"key": "c", "text": "desaparecimento do pulso radial alternadamente a cada batimento cardíaco."},
+        {"key": "d", "text": "elevação da pressão arterial sistólica durante a inspiração."},
+        {"key": "e", "text": "queda acentuada da pressão sistólica durante a inspiração."}
+      ],
+      "correct_key": "e",
+      "explanation": "O achado clássico do tamponamento cardíaco é o pulso paradoxal: queda acentuada (>10mmHg) da pressão arterial sistólica durante a inspiração, refletindo a interdependência ventricular exagerada pela compressão pericárdica.",
+      "theme": "peri_tampon",
+      "difficulty": "medio",
+      "source": "HSL-SP R3CM 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tamp_013",
+      "statement": "Mulher, 52 anos, tabagista, portadora de lúpus eritematoso sistêmico e hipertensão arterial sistêmica, chega no pronto socorro com precordialgia intensa iniciada há 5 horas, espontaneamente, em repouso, que piora durante a inspiração forçada, irradiada para ombros, sem melhora desde então. Ao exame: regular estado geral, corada, acianótica, anictérica, desidratada +/4+, Tax: 38,1°C. Lúcida, orientada em tempo e espaço, pupilas isocóricas e fotorreagentes, sem déficits focais. Ritmo cardíaco regular, 2 tempos, bulhas hipofonéticas, sem sopros, FC: 106 bpm, PA: 142/80 mmHg, jugulares túrgidas, TEC < 3 segundos. Murmúrio vesicular fisiológico, sem ruídos adventícios, eupneica em ar ambiente, SpO2: 97%. Realizado eletrocardiograma e ultrassonografia cardíaca point-of-care na admissão, cujas imagens estão abaixo. O diagnóstico e tratamento, deste paciente são, respectivamente:",
+      "alternatives": [
+        {"key": "a", "text": "Miocardite aguda / Prednisona + amoxicilina"},
+        {"key": "b", "text": "Pericardite aguda / Ibuprofeno + colchicina"},
+        {"key": "c", "text": "Infarto agudo do miocárdio com supradesnivelamento de ST / Alteplase"},
+        {"key": "d", "text": "Tamponamento cardíaco / Pericardiocentese imediata"}
+      ],
+      "correct_key": "d",
+      "explanation": "ATENÇÃO: ECG e ultrassonografia point-of-care citados mas não disponíveis na extração do PDF. Paciente lúpica com febre, dor pleurítica/postural, bulhas hipofonéticas e jugulares túrgidas sugere serosite lúpica com derrame pericárdico — dado o quadro descrito e as imagens à beira-leito (presumivelmente mostrando efusão significativa), a resposta esperada pela banca é tamponamento cardíaco com indicação de pericardiocentese imediata.",
+      "theme": "peri_tampon",
+      "difficulty": "dificil",
+      "source": "MULTIVIX R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    }
+  ]
+}

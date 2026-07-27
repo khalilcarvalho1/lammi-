@@ -1,1 +1,177 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "cmp_001",
+      "statement": "Macroglossia, equimoses periorbitárias e distrofia das unhas são sinais clínicos observados em quais das patologias abaixo:",
+      "alternatives": [
+        {"key": "a", "text": "Sarcoidose."},
+        {"key": "b", "text": "Amiloidose AL."},
+        {"key": "c", "text": "Doença do enxerto versus hospedeiro."},
+        {"key": "d", "text": "Anemia falciforme."},
+        {"key": "e", "text": "Artrite psoriásica."}
+      ],
+      "correct_key": "b",
+      "explanation": "Macroglossia, equimoses periorbitárias (\"olhos de guaxinim\") e distrofia ungueal são sinais clássicos e relativamente específicos da amiloidose AL (de cadeias leves), decorrentes do depósito de amiloide em tecidos moles.",
+      "theme": "mio_amiloide",
+      "difficulty": "medio",
+      "source": "SEMAD R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "cmp_002",
+      "statement": "Mulher, 25 anos de idade, está em tratamento para tuberculose com uso irregular de rifampicina, isoniazida, pirazinamida e etambutol. Apresenta queixa de astenia, emagrecimento e edema de membros inferiores. Exames: Hb = 10,5 g/dL, leucócitos e plaquetas normais; creatinina = 2,4 mg/dL, albumina sérica = 3,3 g/dL; urina 1 com proteínas 3+, hemácias 12.000/mL, leucócitos = 15.000/mL; proteinúria = 4,0 g/24h. Qual é a alteração histológica mais provável de ser encontrada em uma biópsia renal desta paciente?",
+      "alternatives": [
+        {"key": "a", "text": "Fusões podocitárias"},
+        {"key": "b", "text": "Depósito de amiloide AA."},
+        {"key": "c", "text": "Depósito mesangial de IgA."},
+        {"key": "d", "text": "Depósitos subepiteliais."}
+      ],
+      "correct_key": "b",
+      "explanation": "Infecção/inflamação crônica (tuberculose com tratamento irregular, mantendo atividade da doença) é causa clássica de amiloidose secundária/reativa (AA), que se manifesta com síndrome nefrótica e depósito renal de amiloide AA.",
+      "theme": "mio_amiloide",
+      "difficulty": "medio",
+      "source": "UNIFESP R3CM 2024",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "cmp_003",
+      "statement": "Homem de 65 anos procura o consultório médico referindo progressiva fadiga nos últimos 6 meses. Traz estes exames realizados há 30 dias: hemoglobina: 9 g/dL; creatinina: 2,5 mg/dL; eletroforese de proteínas. Qual o provável diagnóstico?",
+      "alternatives": [
+        {"key": "a", "text": "Gamopatia monoclonal de significado incerto (MGUS)."},
+        {"key": "b", "text": "Macroglobulinemia de Waldenstrom."},
+        {"key": "c", "text": "Mieloma múltiplo."},
+        {"key": "d", "text": "Amiloidose."},
+        {"key": "e", "text": "Sepse urinária."}
+      ],
+      "correct_key": "d",
+      "explanation": "ATENÇÃO: eletroforese de proteínas citada mas o traçado/padrão não veio na extração do PDF, sendo essencial para diferenciar entre as gamopatias monoclonais listadas — resposta de confiança moderada. Considerando o contexto temático predominante deste lote de questões (amiloidose), e a apresentação com anemia + insuficiência renal progressiva em idoso, optou-se por amiloidose (d) como hipótese mais provável, embora mieloma múltiplo permaneça diagnóstico diferencial relevante sem critérios CRAB explícitos (hipercalcemia, lesões ósseas) mencionados no enunciado.",
+      "theme": "mio_amiloide",
+      "difficulty": "dificil",
+      "source": "HEVV R1 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "cmp_004",
+      "statement": "Qual das situações abaixo não é etiologia de miocardiopatia restritiva?",
+      "alternatives": [
+        {"key": "a", "text": "Endomiocardiofibrose."},
+        {"key": "b", "text": "Amiloidose."},
+        {"key": "c", "text": "Lúpus."},
+        {"key": "d", "text": "Sarcoidose."}
+      ],
+      "correct_key": "c",
+      "explanation": "Endomiocardiofibrose, amiloidose e sarcoidose são causas clássicas de miocardiopatia restritiva por infiltração/fibrose miocárdica. O lúpus eritematoso sistêmico classicamente acomete o coração predominantemente via pericardite/serosite e miocardite, não sendo uma etiologia clássica de miocardiopatia restritiva.",
+      "theme": "mio_amiloide",
+      "difficulty": "medio",
+      "source": "HSJC R1 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "cmp_005",
+      "statement": "Homem de 68 anos apresenta síndrome nefrótica com proteinúria maciça, além de neuropatia periférica progressiva e cardiomiopatia restritiva. A biópsia renal mostra depósito de material eosinofílico amorfo na microscopia de luz, com birrefringência em verde-maçã após coloração com vermelho Congo. Qual é o diagnóstico provável?",
+      "alternatives": [
+        {"key": "a", "text": "Amiloidose."},
+        {"key": "b", "text": "Glomerulonefrite pós-estreptocócica."},
+        {"key": "c", "text": "Síndrome nefrótica por lesão mínima."},
+        {"key": "d", "text": "Doença renal policística."}
+      ],
+      "correct_key": "a",
+      "explanation": "Birrefringência verde-maçã à coloração com vermelho Congo é o achado histológico patognomônico de amiloidose, associada aqui a acometimento multissistêmico clássico (renal, neurológico periférico, cardíaco restritivo).",
+      "theme": "mio_amiloide",
+      "difficulty": "facil",
+      "source": "EINSTEIN R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "cmp_006",
+      "statement": "Paciente masculino, de 67 anos, com histórico de perda de peso, edema de membros inferiores, dispneia progressiva e episódios de diarreia crônica, apresentou macroglossia ao exame físico. Exames laboratoriais mostraram proteinúria nefrótica, e biópsia de gordura abdominal revelou depósitos corados por vermelho Congo. Qual o diagnóstico mais provável?",
+      "alternatives": [
+        {"key": "a", "text": "Amiloidose AL (cadeias leves)"},
+        {"key": "b", "text": "Amiloidose AA (secundária)"},
+        {"key": "c", "text": "Amiloidose hereditária por transtirretina"},
+        {"key": "d", "text": "Nefropatia membranosa"}
+      ],
+      "correct_key": "a",
+      "explanation": "A presença de macroglossia é um achado particularmente sugestivo de amiloidose AL (associada a discrasia de plasmócitos/cadeias leves), diferentemente da amiloidose AA (secundária a inflamação crônica) e da ATTR (transtirretina), que raramente causam macroglossia.",
+      "theme": "mio_amiloide",
+      "difficulty": "medio",
+      "source": "HCPA R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "cmp_007",
+      "statement": "Mulher, de 55 anos, portadora de artrite reumatoide há vinte anos, com tratamento irregular, tem comparecido na unidade de saúde devido a edema persistente de membros inferiores há 6 meses. Os exames realizados têm mostrado uma proteinúria progressiva evidenciando lesão renal. Qual das afirmativas abaixo melhor explica o acometimento renal?",
+      "alternatives": [
+        {"key": "a", "text": "Amiloidose secundária"},
+        {"key": "b", "text": "Vasculite necrotizante"},
+        {"key": "c", "text": "Glomeruloesclererose"},
+        {"key": "d", "text": "Nefrite mesangial"},
+        {"key": "e", "text": "Nefroesclerose"}
+      ],
+      "correct_key": "a",
+      "explanation": "Doença inflamatória crônica mal controlada por longo período (artrite reumatoide de 20 anos, tratamento irregular) é causa clássica de amiloidose secundária (AA), que se manifesta com proteinúria progressiva/síndrome nefrótica.",
+      "theme": "mio_amiloide",
+      "difficulty": "medio",
+      "source": "SMS Piracicaba R1 2020",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "cmp_008",
+      "statement": "Homem, 68 anos, apresenta queixa de edema de membros inferiores (MMII) há 1 ano. Tem história de espondilite anquilosante e uveíte, com mau controle com antiinflamatório não hormonal. Ao exame clínico apresentou PA 140x90 mmHg, redução da mobilidade da coluna torácica e lombar. Edema de MMII ++/4+. Exames laboratoriais: Albumina: 2,7 g/dL Creatinina: 1,9 mg/dL Urina I: proteinúria +++, sem leucócitos ou hemácias Proteína C reativa: 10 mg/dL Proteinúria/Creatininúria: 4.500 mg/g. Assinale a hipótese diagnóstica mais provável.",
+      "alternatives": [
+        {"key": "a", "text": "Amiloidose renal."},
+        {"key": "b", "text": "Doença renal intersticial."},
+        {"key": "c", "text": "Glomerulopatia por imunocomplexos"},
+        {"key": "d", "text": "Nefropatia por analgésico."}
+      ],
+      "correct_key": "a",
+      "explanation": "Doença inflamatória crônica mal controlada (espondilite anquilosante ativa, com PCR elevada) associada a síndrome nefrótica de longa evolução é o quadro clássico de amiloidose renal secundária (AA).",
+      "theme": "mio_amiloide",
+      "difficulty": "medio",
+      "source": "USP R3CM 2024",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "cmp_009",
+      "statement": "Mulher, 55 anos, refere dispneia para realizar as atividades rotineiras e ortopneia há 4 meses. Queixa-se também de perda de 5 kg neste período, alguns episódios de diarreia e formigamento nos pés. Antecedentes: síndrome do túnel do carpo bilateral. Exame físico: sem gânglios palpáveis, ritmo cardíaco regular em 2 tempos sem sopros, pulmões limpos, ausência de hepatomegalia e esplenomegalia, edema de membros inferiores 1+/4+. Fotografia da paciente e eletrocardiograma mostrados nas figuras. Ecocardiograma: espessura de septo interventricular de 15 mm, aumento moderado do átrio esquerdo e função ventricular normal. Exames laboratoriais: hemograma normal; creatinina: 1,1 mg/dl; glicemia: 95 mg/dl; hemoglobina glicada: 5,2%; urina rotina: proteinúria 1+. Considerando a principal hipótese diagnóstica, qual o exame prioritário neste momento?",
+      "alternatives": [
+        {"key": "a", "text": "Ressonância magnética cardíaca."},
+        {"key": "b", "text": "Cintilografia miocárdica com pirofosfato."},
+        {"key": "c", "text": "Imunofixação sérica e dosagem de kappa e lambda."},
+        {"key": "d", "text": "Cateterismo cardíaco."}
+      ],
+      "correct_key": "c",
+      "explanation": "ATENÇÃO: fotografia da paciente e ECG citados mas não disponíveis na extração do PDF. Quadro clássico de amiloidose cardíaca (síndrome do túnel do carpo bilateral, neuropatia periférica/diarreia, espessamento septal com átrios aumentados e função sistólica preservada). Antes de avançar para cintilografia com pirofosfato (para diagnosticar ATTR), é obrigatório excluir amiloidose AL com imunofixação sérica/urinária e dosagem de cadeias leves livres — pois a cintilografia positiva não é confiável na presença de AL não excluída.",
+      "theme": "mio_amiloide",
+      "difficulty": "dificil",
+      "source": "USP-RP R3CM 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "cmp_010",
+      "statement": "Dentre as alterações a seguir, assinale as relacionadas à amiloidose do tipo ATTR (transtirretina). I) ECG com sobrecarga biatrial e baixa voltagem difusa II) Ecocardiograma com átrios maiores que ventrículos e hipertrofia de septo interventricular e/ou de parede posterior de ventrículo esquerdo III) Hipertrofia ventricular apical e obstrução da via de saída ventricular. IV) Disfunção renal associada a neuropatia periférica.",
+      "alternatives": [
+        {"key": "a", "text": "I, II, III, IV"},
+        {"key": "b", "text": "I, III e IV"},
+        {"key": "c", "text": "I, II, IV"},
+        {"key": "d", "text": "II e III"}
+      ],
+      "correct_key": "c",
+      "explanation": "I, II e IV são achados clássicos de amiloidose ATTR: ECG com sobrecarga biatrial/baixa voltagem difusa (desproporcional à espessura miocárdica), ecocardiograma com espessamento simétrico do septo/parede posterior e átrios proeminentes, e associação com neuropatia periférica (mais marcante na forma hereditária) e algum grau de disfunção renal. III é falsa: hipertrofia apical com obstrução da via de saída é o padrão da miocardiopatia hipertrófica apical (Yamaguchi), não da amiloidose (que causa espessamento concêntrico/simétrico, sem obstrução dinâmica típica).",
+      "theme": "mio_amiloide",
+      "difficulty": "dificil",
+      "source": "UNIFESP R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    }
+  ]
+}

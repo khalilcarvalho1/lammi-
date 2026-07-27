@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T02:23:36.560Z",
+  "generatedAt": "2026-07-27T15:17:26.663Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,18 +26,22 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 612,
+  "totalQuestions": 752,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
     "cardio_arritmias": 100,
+    "mio_amiloide": 10,
+    "cardio_perimio": 71,
     "cardio_has": 100,
     "cardio_ic": 140,
+    "peri_aguda": 16,
     "cardio_sca": 120,
+    "peri_tampon": 13,
     "cardio_valvopatias": 140,
     "atls_inicial": 1,
     "atls_choque": 2,
-    "atls_toracico": 1,
+    "atls_toracico": 31,
     "atls_cranioencefalico": 1,
     "atls_coluna": 2,
     "avaliacao_cena": 1,
@@ -126,8 +130,20 @@
     {
       "area": "cardiologia",
       "slug": "cardiomiopatias",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "mio_amiloide"
+      ],
+      "questionsCount": 10,
+      "flashcardsCount": 0,
+      "casosCount": 0
+    },
+    {
+      "area": "cardiologia",
+      "slug": "cardiopatias-congenitas",
+      "themes": [
+        "cardio_perimio"
+      ],
+      "questionsCount": 67,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -242,8 +258,10 @@
     {
       "area": "cardiologia",
       "slug": "miocardites",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "cardio_perimio"
+      ],
+      "questionsCount": 4,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -258,8 +276,10 @@
     {
       "area": "cardiologia",
       "slug": "pericardites",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "peri_aguda"
+      ],
+      "questionsCount": 16,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -292,8 +312,10 @@
     {
       "area": "cardiologia",
       "slug": "tamponamento",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "peri_tampon"
+      ],
+      "questionsCount": 13,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -1587,8 +1609,10 @@
     {
       "area": "medicina-militar",
       "slug": "trauma-toracico",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "atls_toracico"
+      ],
+      "questionsCount": 30,
       "flashcardsCount": 0,
       "casosCount": 0
     },

@@ -163,6 +163,7 @@ export function RevisaoErrosPage() {
               <div style={{display:'flex',gap:6,flexWrap:'wrap'}}>
                 <span className="tag-pill">{TEMA_ICONS[q.theme] ?? '📋'} {temaLabel(q.theme)}</span>
                 <span className={`tag-pill ${q.difficulty==='facil'?'tag-green':''}`}>{NIVEL_LABELS[q.difficulty]}</span>
+                {q.source && <span className="tag-pill" style={{opacity:.75}}>📌 {q.source}</span>}
                 <span className="tag-pill" style={{background:'rgba(178,59,59,.15)',color:'#f87171',border:'1px solid rgba(178,59,59,.3)'}}>
                   Ja errei
                 </span>

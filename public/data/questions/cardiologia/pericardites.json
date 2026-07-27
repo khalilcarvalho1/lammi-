@@ -1,1 +1,279 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "peri_001",
+      "statement": "Um jovem previamente hígido de 22 anos dá entrada na emergência com dor em pontada no hemitórax esquerdo e febre após 3 dias de um quadro de gastroenterocolite aguda. Ao exame físico, apresentava com FC = 70bpm, PA 100x60mmHg e Temp. 37,8º. A dosagem laboratorial de troponina foi de 2.000ng/ml (VR < 0,04ng/ml) e o eletrocardiograma foi o seguinte: O quadro clínico apresentado sugere como diagnóstico:",
+      "alternatives": [
+        {"key": "a", "text": "infarto agudo do miocárdio com supra desnivelamento do segmento ST."},
+        {"key": "b", "text": "dissecção de coronária."},
+        {"key": "c", "text": "miopericardite."},
+        {"key": "d", "text": "vasoespasmo coronariano."}
+      ],
+      "correct_key": "c",
+      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Jovem previamente hígido, dor torácica após pródromo infeccioso (gastroenterocolite viral), com troponina muito elevada (sugerindo lesão miocárdica) — quadro clássico de miopericardite viral, diagnóstico muito mais provável que SCA aterosclerótica nesse perfil de paciente.",
+      "theme": "peri_aguda",
+      "difficulty": "medio",
+      "source": "SES-GO R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "peri_002",
+      "statement": "Homem, 22a, procura o Pronto Atendimento por dor precordial de forte intensidade, iniciada há quatro dias e que piora com a inspiração. Apresentou coriza, odinofagia, febre e tosse há uma semana, com melhora espontânea. Antecedentes pessoais: diabetes tipo 1 há 10 anos em tratamento com insulina NPH e regular. Exame físico: regular estado geral; ansioso; PA=122/68mmHg; FC=112bpm; FR=22irpm. Ausculta pulmonar normal. Ausculta cardíaca: ritmo regular, em dois tempos, sem sopros. Realizado ECG. A HIPÓTESE DIAGNÓSTICA É:",
+      "alternatives": [
+        {"key": "a", "text": "Pericardite aguda ou pericardite aguda pós viral."}
+      ],
+      "correct_key": "a",
+      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF, e apenas uma alternativa foi capturada no texto extraído (as demais, se houver, não vieram na extração) — dados incompletos, mantidos conforme extração original sem invenção de alternativas adicionais. Dor torácica pleurítica após pródromo viral respiratório recente (coriza, odinofagia, febre, tosse) é o quadro clássico de pericardite aguda pós-viral, conforme confirma o próprio gabarito da banca.",
+      "theme": "peri_aguda",
+      "difficulty": "facil",
+      "source": "UNICAMP R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "peri_003",
+      "statement": "Paciente de 20 anos foi encaminhado ao pronto atendimento devido a quadro de dor precordial do tipo ventilatório-dependente de forte intensidade e que melhorava quando o paciente fletia o tórax para a frente. Na ocasião, foi realizado o seguinte eletrocardiograma. O diagnóstico clínico-eletrocardiográfico é compatível com",
+      "alternatives": [
+        {"key": "a", "text": "dissecção de aorta."},
+        {"key": "b", "text": "tamponamento cardíaco."},
+        {"key": "c", "text": "pericardite aguda."},
+        {"key": "d", "text": "infarto agudo do miocárdio de parede ínfero-latero-dorsal."},
+        {"key": "e", "text": "infarto agudo do miocárdio com acometimento de tronco de coronária esquerda."}
+      ],
+      "correct_key": "c",
+      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Dor torácica pleurítica que melhora com a flexão do tórax para frente é o achado clínico clássico e mais característico de pericardite aguda.",
+      "theme": "peri_aguda",
+      "difficulty": "medio",
+      "source": "UNAERP R1 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "peri_004",
+      "statement": "Paciente de 64 anos com história prévia de radioterapia com irradiação do tórax apresenta-se com sintomas gradualmente progressivos de fadiga, ascite, edema de membros inferiores e elevação da pressão venosa jugular ao longo dos últimos 4 meses. A radiografia do paciente é mostrada abaixo. A respeito do provável diagnóstico é CORRETO afirmar:",
+      "alternatives": [
+        {"key": "a", "text": "O paciente irá apresentar a onda Y do pulso venoso jugular atenuada."},
+        {"key": "b", "text": "A tomografia de tórax é menos precisa que o ecocardiograma para demonstrar o diagnóstico."},
+        {"key": "c", "text": "A tuberculose não é causa importante do diagnóstico nos países em desenvolvimento."},
+        {"key": "d", "text": "Pode haver Knock pericárdico na diástole."}
+      ],
+      "correct_key": "d",
+      "explanation": "ATENÇÃO: radiografia de tórax citada mas não disponível na extração do PDF. Quadro de insuficiência cardíaca direita progressiva (ascite, edema, turgência jugular) em paciente com radioterapia torácica prévia (causa clássica de pericardite constritiva tardia) é compatível com pericardite constritiva crônica. O Knock pericárdico (som protodiastólico agudo, análogo a uma B3 mais precoce e de tom mais alto) é achado característico dessa condição, ao contrário das demais alternativas: a onda Y do pulso jugular é classicamente PROEMINENTE (não atenuada) na constrição; a TC de tórax é ferramenta valiosa e frequentemente MAIS precisa que o eco para demonstrar espessamento/calcificação pericárdica; e a tuberculose É causa importante de pericardite constritiva em países em desenvolvimento.",
+      "theme": "peri_aguda",
+      "difficulty": "dificil",
+      "source": "HPM-MG R1 2018",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "peri_005",
+      "statement": "Homem, 48 anos, com dor precordial há 4 horas, constante, sem irradiação e sem fatores de melhora ou piora. Nega doenças prévias, mas é sedentário, tem sobrepeso e há uma semana tem sentido indisposição e leve mialgia difusa que aliviou com uso regular de piroxicam. Exame físico inalterado com exceção da PA de 160 x 90 mmHg e FC de 120 bpm. Com base nessas informações e ECG abaixo, qual a conduta inicial?",
+      "alternatives": [
+        {"key": "a", "text": "AAS 100 mg, metoprolol 5 mg EV, enoxaparina 60 mg e rTPA"},
+        {"key": "b", "text": "Colher troponina e CKMB seriadas"},
+        {"key": "c", "text": "Realizar ecocardiograma"},
+        {"key": "d", "text": "Gluconato de cálcio 10% 10 ml EV"}
+      ],
+      "correct_key": "b",
+      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Diante de dor torácica com pródromo viral/inflamatório recente (mialgia, indisposição, uso de AINE) e sem quadro claramente definido de STEMI franco (sem indicação de instituir trombólise/dupla antiagregação empiricamente), a conduta prudente inicial é a dosagem seriada de marcadores de necrose miocárdica (troponina/CK-MB) para estratificar o diagnóstico diferencial (SCA vs. miopericardite) antes de terapias mais agressivas e irreversíveis.",
+      "theme": "peri_aguda",
+      "difficulty": "dificil",
+      "source": "UNICAMP R3CM 2013",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "peri_006",
+      "statement": "Sobre a Pericardite Aguda, assinale a afirmativa correta.",
+      "alternatives": [
+        {"key": "a", "text": "A radiografia de tórax é geralmente alterada, pois pequenos volumes de líquido no pericárdio 30 a 50 mL alteram a silhueta cardíaca."},
+        {"key": "b", "text": "A grande maioria dos pacientes com pericardite aguda não apresenta dor torácica."},
+        {"key": "c", "text": "A pericardite aguda pode se manifestar com uma variedade de sinais e sintomas inespecíficos, dependendo da etiologia subjacente. No ECG, pode-se observar novo supradesnivelamento do segmento ST generalizado e depressão do PR."},
+        {"key": "d", "text": "O derrame pericárdico hemorrágico normalmente tem como causa a infecção viral."}
+      ],
+      "correct_key": "c",
+      "explanation": "Correto: o padrão eletrocardiográfico clássico da pericardite aguda é supradesnivelamento difuso/generalizado do segmento ST (côncavo para cima) associado a infradesnivelamento do segmento PR. As demais alternativas estão incorretas: pequenos volumes (30-50mL) geralmente NÃO alteram a silhueta cardíaca na radiografia; a grande maioria dos pacientes com pericardite aguda APRESENTA dor torácica (é o sintoma cardinal); e o derrame hemorrágico está mais associado a causas neoplásicas, tuberculosas ou traumáticas do que virais.",
+      "theme": "peri_aguda",
+      "difficulty": "medio",
+      "source": "HOSPITAL UNIVERSITÁRIO JÚLIO MÜLLER - UFMT R1 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "peri_007",
+      "statement": "O traçado eletrocardiográfico ao lado pertence a um paciente adulto com dor precordial contínua em repouso há mais de 6 horas. Em que situação clínica, dentre as abaixo, é mais provável que esse traçado seja encontrado?",
+      "alternatives": [
+        {"key": "a", "text": "Cor pulmonale."},
+        {"key": "b", "text": "Pericardite aguda."},
+        {"key": "c", "text": "Endocardite bacteriana de cabo de marca-passo."},
+        {"key": "d", "text": "Infarto agudo do miocárdio subendocárdico."},
+        {"key": "e", "text": "Infarto agudo do miocárdio transmural."}
+      ],
+      "correct_key": "e",
+      "explanation": "ATENÇÃO: traçado eletrocardiográfico citado mas não disponível na extração do PDF — resposta de confiança moderada. Dor precordial CONTÍNUA (sem caráter pleurítico/postural descrito) por mais de 6 horas em paciente adulto favorece o diagnóstico de infarto agudo do miocárdio transmural, sendo a pericardite aguda (opção distratora clássica desse tipo de questão) menos provável dado o caráter não-posicional da dor descrita.",
+      "theme": "peri_aguda",
+      "difficulty": "dificil",
+      "source": "HCPA R1 2019",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "peri_008",
+      "statement": "Mulher de 23 anos se queixa de fraqueza generalizada, artralgia nas mãos e nos joelhos e edema nos membros inferiores e na face há 3 semanas. Relata dor retroesternal, mais intensa à inspiração profunda e na posição supina, há 5 horas. Ao exame físico, apresenta PA = 160 x 98 mmHg, FC = 130 bpm, FR = 15 irpm, SpO2 = 98%, TAx = 36,7ºC. O exame cardiovascular revela taquicardia. Os punhos, algumas articulações metacarpofalangeanas, interfalangeanas e os joelhos apresentam edema e derrame articular. Percebe-se edema depressível nas pernas e coxas. Exames de laboratório mostram: anemia leve, plaquetopenia leve, fator antinuclear > 1:640, anti-DNA nativo positivo, anti-Sm positivo, C3 e C4 baixos, e proteinúria nefrótica com hematúria dismórfica — quadro compatível com nefrite lúpica ativa. Leia o eletrocardiograma da paciente que se encontra a seguir: Assinale a alternativa que apresenta o diagnóstico MAIS PROVÁVEL para os achados eletrocardiográficos, à luz dos dados clínicos.",
+      "alternatives": [
+        {"key": "a", "text": "Miocardite aguda."},
+        {"key": "b", "text": "Pericardite aguda."},
+        {"key": "c", "text": "Síndrome coronariana aguda."},
+        {"key": "d", "text": "Tromboembolia pulmonar aguda."}
+      ],
+      "correct_key": "b",
+      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Dor torácica pleurítica que piora na posição supina e à inspiração profunda é o padrão clínico clássico de pericardite aguda, aqui no contexto de lúpus eritematoso sistêmico em atividade (serosite lúpica), quadro extremamente característico dessa etiologia.",
+      "theme": "peri_aguda",
+      "difficulty": "dificil",
+      "source": "INCA R3CM 2020",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "peri_009",
+      "statement": "Um paciente de 40 anos procurou a emergência com queixas de dor precordial há 12 horas que piorava com a inspiração profunda. À admissão, realizou ECG que mostrou supradesnivelamento do segmento ST com concavidade para cima em quase todas as derivações, exceto V1 e aVR, onde estava infradesnivelado. As ondas T tinham aspecto normal, mas foi identificado infradesnivelamento do segmento PR em V5, V6 e periféricas. Que exame teria maior acurácia para o diagnóstico diferencial nesse caso?",
+      "alternatives": [
+        {"key": "a", "text": "Troponina"},
+        {"key": "b", "text": "Ecocardiograma transtorácico"},
+        {"key": "c", "text": "Radiografia de tórax"},
+        {"key": "d", "text": "Angiografia coronariana"},
+        {"key": "e", "text": "VSH (velocidade de sedimentação das hemácias)"}
+      ],
+      "correct_key": "b",
+      "explanation": "O ECG descrito (supra difuso côncavo, infra em V1/aVR, infra de PR) é o padrão clássico de pericardite aguda. O ecocardiograma transtorácico é o exame de maior utilidade para diagnóstico diferencial nesse contexto — permite identificar derrame pericárdico associado (reforçando o diagnóstico de pericardite) e excluir alterações segmentares de contratilidade (que apontariam para SCA), com boa acurácia e sem radiação/invasividade.",
+      "theme": "peri_aguda",
+      "difficulty": "medio",
+      "source": "SES-PE R1 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "peri_010",
+      "statement": "Um homem de 38 anos apresenta dor torácica à inspiração profunda, dispneia e mal estar. Relato de dor de início há dois dias com piora nas últimas horas. Eletrocardiograma em ritmo sinusal, frequência cardíaca 106bpm, supradesnivelamento difuso do segmento ST. Qual é o diagnóstico mais provável?",
+      "alternatives": [
+        {"key": "a", "text": "Infarto agudo do miocárdio com elevação do segmento ST."},
+        {"key": "b", "text": "Tromboembolismo pulmonar."},
+        {"key": "c", "text": "Dissecção de aorta."},
+        {"key": "d", "text": "Pericardite aguda."},
+        {"key": "e", "text": "Pneumonia bacteriana."}
+      ],
+      "correct_key": "d",
+      "explanation": "Dor torácica pleurítica associada a supradesnivelamento DIFUSO do segmento ST (não restrito a território coronariano específico) é o padrão eletrocardiográfico clássico de pericardite aguda.",
+      "theme": "peri_aguda",
+      "difficulty": "facil",
+      "source": "HNMD R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "peri_011",
+      "statement": "José, 65 anos, com antecedente de hipertensão arterial sistêmica e doença renal crônica estágio III. Procura o pronto-socorro com queixa de dor torácica aguda retroesternal há 3 horas. O paciente nega dispneia, tosse ou febre. Refere que apresenta melhora direta da dor quando se senta inclinado para frente. Ao exame físico, apresentou sinais vitais normais, bom estado geral, ausculta cardíaca e pulmonar sem alterações. Radiografia de tórax normal. O eletrocardiograma é apresentado a seguir: Com base nessas informações, assinale a alternativa que apresenta a conduta farmacológica adequada.",
+      "alternatives": [
+        {"key": "a", "text": "AAS por via oral."},
+        {"key": "b", "text": "Alteplase intravenosa."},
+        {"key": "c", "text": "Prednisona por via oral."},
+        {"key": "d", "text": "Ibuprofeno por via oral."},
+        {"key": "e", "text": "Enoxaparina subcutânea."}
+      ],
+      "correct_key": "d",
+      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF — resposta de confiança moderada, dada a doença renal crônica estágio III do paciente (fator que exige cautela com AINEs, incluindo ibuprofeno). Dor torácica que melhora ao sentar-se inclinado para frente é o achado clínico clássico de pericardite aguda. O tratamento de primeira linha padrão é um anti-inflamatório não hormonal associado a colchicina; entre as opções disponíveis, o ibuprofeno oral é o classicamente citado como referência de primeira escolha em provas de residência, apesar da ressalva de uso cauteloso na DRC.",
+      "theme": "peri_aguda",
+      "difficulty": "dificil",
+      "source": "HEDA R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "peri_012",
+      "statement": "Um paciente de 22 anos de idade, previamente saudável, apresenta queixa de dor torácica. Há dois dias, ele iniciou um quadro de precordialgia do tipo pontada, com piora à inspiração profunda e com irradiação para o ombro esquerdo. No exame físico, encontrava-se hemodinamicamente normal e sem achados clinicamente relevantes. A dosagem das enzimas cardíacas (CK-MB massa e troponina) e os demais exames laboratoriais de rotina resultaram normais. O paciente fez exame de eletrocardiograma, o qual está apresentado a seguir. No caso clínico, a terapia recomendada no momento é",
+      "alternatives": [
+        {"key": "a", "text": "a administração de tirofiban."},
+        {"key": "b", "text": "a administração de alteplase."},
+        {"key": "c", "text": "a angioplastia primária."},
+        {"key": "d", "text": "a administração de ácido acetilsalicílico."}
+      ],
+      "correct_key": "d",
+      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Dor pleurítica em jovem hígido com enzimas cardíacas normais é compatível com pericardite aguda; o AAS (ácido acetilsalicílico) é uma opção de primeira linha para tratamento sintomático da pericardite aguda, entre as alternativas oferecidas.",
+      "theme": "peri_aguda",
+      "difficulty": "medio",
+      "source": "FAMEMA R3CM 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "peri_013",
+      "statement": "Homem de 40 anos, transplantado renal há 7 anos com boa evolução do enxerto, apresenta piora progressiva do tipo funcional cardiopulmonar há 3 anos, com cansaço aos esforços, hepatomegalia, ascite importante e edema de membros inferiores discreto. Qual é a conduta terapêutica recomendada após análise do radiograma?",
+      "alternatives": [
+        {"key": "a", "text": "Revascularização miocárdica."},
+        {"key": "b", "text": "Cirurgia de Bentall de Bonno."},
+        {"key": "c", "text": "Troca valvar mitral."},
+        {"key": "d", "text": "Pericardiectomia."}
+      ],
+      "correct_key": "d",
+      "explanation": "ATENÇÃO: radiograma citado mas não disponível na extração do PDF. Paciente imunossuprimido (risco aumentado de tuberculose) com quadro arrastado de insuficiência cardíaca DIREITA predominante (hepatomegalia, ascite importante, edema discreto) sugere pericardite constritiva crônica, cujo tratamento definitivo é a pericardiectomia.",
+      "theme": "peri_aguda",
+      "difficulty": "dificil",
+      "source": "UNIFESP R3CG 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "peri_014",
+      "statement": "No Brasil, a pericardite constritiva crônica é complicação frequente de que patologia:",
+      "alternatives": [
+        {"key": "a", "text": "Pericardite viral."},
+        {"key": "b", "text": "Infarto agudo do miocárdio."},
+        {"key": "c", "text": "Osteoartrite."},
+        {"key": "d", "text": "Tuberculose."}
+      ],
+      "correct_key": "d",
+      "explanation": "No Brasil e em outros países em desenvolvimento, a tuberculose permanece uma das principais causas de pericardite constritiva crônica, diferentemente de países desenvolvidos onde causas idiopáticas/pós-cirúrgicas predominam.",
+      "theme": "peri_aguda",
+      "difficulty": "facil",
+      "source": "HST R1 2019",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "peri_015",
+      "statement": "A pericardite aguda é a patologia que mais comumente afeta o pericárdio. Tem entre outros achados diagnósticos dor torácica, atrito pericárdico e derrame pericárdico. Com respeito ao tratamento da pericardite aguda idiopática, analise as assertivas abaixo. I - Não existe tratamento específico para a pericardite aguda idiopática. Repouso, anti-inflamatórios não hormonais e colchicina devem ser usados, salvo intolerância. II - O uso eventual de glicocorticóides deve ser feito com cautela, pelo tempo e dose mínimos, já que seu uso aumenta o risco de recorrência. III - Sendo associado a risco aumentado de eventos embólicos, o uso de anticoagulantes deve ser sistemático. Selecione a opção correta.",
+      "alternatives": [
+        {"key": "a", "text": "As afirmativas I e II são verdadeiras. A afirmativa III é falsa."},
+        {"key": "b", "text": "As afirmativas I e III são verdadeiras. A afirmativa II é falsa."},
+        {"key": "c", "text": "As afirmativas II e III são verdadeiras. A afirmativa I é falsa."},
+        {"key": "d", "text": "As afirmativas I, II e III são verdadeiras."},
+        {"key": "e", "text": "As afirmativas I, II e III são falsas."}
+      ],
+      "correct_key": "a",
+      "explanation": "I e II são verdadeiras: o tratamento padrão da pericardite aguda idiopática é repouso + AINE + colchicina, e os glicocorticoides devem ser reservados/usados com cautela pelo aumento do risco de recorrência. III é falsa: a anticoagulação NÃO é recomendada de forma sistemática na pericardite aguda, sendo geralmente evitada (risco de transformação hemorrágica do derrame pericárdico), salvo indicação específica concomitante.",
+      "theme": "peri_aguda",
+      "difficulty": "medio",
+      "source": "AMP R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "peri_016",
+      "statement": "Mulher, 25 anos, sem comorbidades, relata dispneia progressiva, atualmente classe funcional III da NYHA, associada a palpitações taquicárdicas aos esforços. Exame físico: FC = 85 bpm, PA = 112 x 70 mmHg, FR = 18 irpm, elevação do pulso venoso jugular na inspiração, hepatomegalia com ascite moderada e edema 1+/4+ de membros inferiores. Radiografia de tórax (PA) e eletrocardiograma abaixo. Qual é a principal hipótese diagnóstica?",
+      "alternatives": [
+        {"key": "a", "text": "Endomiocardiofibrose."},
+        {"key": "b", "text": "Pericardite constritiva."},
+        {"key": "c", "text": "Tamponamento cardíaco."},
+        {"key": "d", "text": "Amiloidose cardíaca."}
+      ],
+      "correct_key": "b",
+      "explanation": "ATENÇÃO: radiografia de tórax e ECG citados mas não disponíveis na extração do PDF. O achado central desta questão — elevação do pulso venoso jugular DURANTE A INSPIRAÇÃO (sinal de Kussmaul) — é o diferenciador clássico que aponta para pericardite constritiva (e não para tamponamento cardíaco, onde esse sinal tipicamente está ausente, ou amiloidose/endomiocardiofibrose, miocardiopatias restritivas verdadeiras).",
+      "theme": "peri_aguda",
+      "difficulty": "dificil",
+      "source": "USP-RP R1 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    }
+  ]
+}

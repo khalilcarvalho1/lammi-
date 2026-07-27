@@ -1,1 +1,74 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "mio_001",
+      "statement": "A displasia arritmogênica do ventrículo direito foi descrita pela primeira vez em 1977 por Fontaine e colaboradores, e é caracterizada por:",
+      "alternatives": [
+        {"key": "a", "text": "Infiltração gordurosa do VD e está associada à morte súbita em jovens."},
+        {"key": "b", "text": "Hipertrofia miocárdica severa e está associada à morte súbita em jovens."},
+        {"key": "c", "text": "Taquicardiomiopatia e não está associada à morte súbita em pacientes jovens."},
+        {"key": "d", "text": "Fibrose endocárdica e está associada à morte súbita em pacientes jovens."}
+      ],
+      "correct_key": "a",
+      "explanation": "A displasia/cardiomiopatia arritmogênica do ventrículo direito (CAVD) é caracterizada por infiltração fibrogordurosa progressiva do miocárdio do VD, substituindo o tecido muscular normal e predispondo a arritmias ventriculares malignas e morte súbita, especialmente em jovens atletas.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "source": "ABC R3CM 2020",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "mio_002",
+      "statement": "Lactente de 8 meses, previamente hígido, apresenta há 3 dias quadro de tosse, coriza, febre e cansaço progressivo. Hoje a mãe refere que ele está irritado, com dificuldade para mamar e com desconforto respiratório. Ao exame de entrada, está em regular estado geral, sonolento, pálido, afebril, taquicardico, taquipneico, com pulsos finos e extremidades frias. Ausculta pulmonar com estertores difusos, ausculta cardíaca com bulhas rítmicas e hipofonéticas, sem sopros e exame abdominal com fígado a 5 cm do rebordo costal direito. A radiografia de tórax revela velamento pulmonar bilateral e aumento de área cardíaca. A principal hipótese diagnóstica é",
+      "alternatives": [
+        {"key": "a", "text": "sepse."},
+        {"key": "b", "text": "bronquiolite viral aguda."},
+        {"key": "c", "text": "miocardite viral aguda."},
+        {"key": "d", "text": "endocardite infecciosa."},
+        {"key": "e", "text": "hepatite transinfecciosa."}
+      ],
+      "correct_key": "c",
+      "explanation": "Quadro prodrômico viral (tosse, coriza, febre) evoluindo com sinais de baixo débito cardíaco (pulsos finos, extremidades frias, hipofonese de bulhas), congestão (estertores, hepatomegalia) e cardiomegalia radiológica após infecção viral recente é o quadro clássico de miocardite viral aguda em lactente.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "source": "SCML R1 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "mio_003",
+      "statement": "Miocardites podem resultar de múltiplas causas, mas são comumente atribuídas a agentes infecciosos que podem lesar o miocárdio por invasão direta, produção de substâncias cardiotóxicas ou inflamação crônica. Com respeito às miocardites, analise as afirmações abaixo. I - Nas miocardites virais, terapias antiinflamatórias, mas não terapias retro virais, são recomendadas. II - A apresentação clínica da miocardite pode ser por quadro de embolia sistêmica. III - É incomum na hepatite B a concomitância de miocardite. Selecione a opção correta.",
+      "alternatives": [
+        {"key": "a", "text": "As afirmativas I e II são verdadeiras. A afirmativa III é falsa."},
+        {"key": "b", "text": "As afirmativas I e III são verdadeiras. A afirmativa II é falsa."},
+        {"key": "c", "text": "As afirmativas II e III são verdadeiras. A afirmativa I é falsa."},
+        {"key": "d", "text": "As afirmativas I, II e III são verdadeiras."},
+        {"key": "e", "text": "As afirmativas I, II e III são falsas."}
+      ],
+      "correct_key": "c",
+      "explanation": "II é verdadeira: a miocardite pode causar disfunção ventricular com formação de trombo intracavitário e embolia sistêmica. III é verdadeira: a concomitância de miocardite na hepatite B é relativamente incomum comparada a outros vírus (enterovírus/coxsackie, parvovírus B19, adenovírus). I é falsa: não há recomendação estabelecida de terapia anti-inflamatória rotineira nas miocardites virais (tratamento é predominantemente de suporte).",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "source": "AMP R3CM 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "mio_004",
+      "statement": "Leia o caso clínico a seguir. Paciente jovem com quadro de dor precordial 14 dias após infecção pelo coronavírus apresenta-se na emergência com supradesnivelamento difuso do segmento st, ritmo cardíaco regular com FC = 125 bpm e PA = 100x70 mmHg. Nesse caso, qual a hipótese diagnóstica e tratamento mais apropriado?",
+      "alternatives": [
+        {"key": "a", "text": "Infarto agudo do miocárdio com supra de ST - cateterismo cardíaco."},
+        {"key": "b", "text": "Miocardite - anti-inflamatórios não hormonais."},
+        {"key": "c", "text": "Pericardite - corticoide endovenoso."},
+        {"key": "d", "text": "Tromboembolismo pulmonar com comprometimento cardíaco - anticoagulação plena."}
+      ],
+      "correct_key": "b",
+      "explanation": "Dor precordial + supradesnivelamento difuso do ST (não restrito a território coronariano) + taquicardia, surgindo 14 dias após infecção por coronavírus (janela temporal clássica pós-viral), é compatível com miocardite (possivelmente com componente pericárdico associado — miopericardite) pós-COVID. O tratamento inicial é de suporte com anti-inflamatórios não hormonais, reservando-se corticoide/imunossupressão para casos refratários.",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "source": "SES-GO R3CM 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    }
+  ]
+}

@@ -1,1 +1,515 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "tt_001",
+      "statement": "Achado na radiografia de tórax que NÃO é sugestivo de lesão de vasos mediastinais:",
+      "alternatives": [
+        {"key": "a", "text": "abaixamento do brônquio fonte esquerdo"},
+        {"key": "b", "text": "alargamento de mediastino"},
+        {"key": "c", "text": "desvio da traqueia para a esquerda"},
+        {"key": "d", "text": "cap apical na pleura esquerda"},
+        {"key": "e", "text": "fraturas de 1° e 2° arcos costais"}
+      ],
+      "correct_key": "c",
+      "explanation": "Na lesão de vasos mediastinais (trauma de aorta), o achado clássico é desvio da traqueia para a DIREITA (não para a esquerda), pelo hematoma mediastinal que costuma se formar à esquerda do arco aórtico. Os demais achados (alargamento de mediastino, abaixamento do brônquio fonte esquerdo, cap apical pleural, fraturas de 1º/2º arcos costais) são todos sugestivos de lesão vascular mediastinal.",
+      "theme": "atls_toracico",
+      "difficulty": "medio",
+      "source": "SUS-SP R1 2013",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_002",
+      "statement": "Um paciente de trinta anos de idade, vítima de um acidente de moto em uma rodovia há cerca de quarenta minutos, chegou ao hospital com pulso de 108 bpm, PA de 140 x 90 mmHg, Glasgow 14 e escoriações no tórax, relatando dor na parte superior do tórax. Realizou radiografia de tórax, que mostrou fratura de clavícula esquerda, diâmetro de mediastino de 12 cm, desvio da traqueia para a direita e presença de boné apical. A radiografia da bacia não mostrou alterações. Realizou, na sequência, tomografia de corpo inteiro, que mostrou lesão de aorta na parte proximal da aorta descendente. Com base nessa situação hipotética, julgue o item: As principais complicações associadas a esse tipo de trauma e a seu tratamento são a paraplegia, o acidente vascular cerebral e a insuficiência renal.",
+      "alternatives": [
+        {"key": "a", "text": "CERTO"},
+        {"key": "b", "text": "ERRADO"}
+      ],
+      "correct_key": "a",
+      "explanation": "Verdadeiro: no tratamento cirúrgico da lesão de aorta torácica (com clampeamento aórtico), as complicações clássicas incluem paraplegia (isquemia medular por interrupção de fluxo às artérias intercostais/radiculares), AVC (embolização ou hipoperfusão cerebral) e insuficiência renal (hipoperfusão/embolização renal durante o clampeamento).",
+      "theme": "atls_toracico",
+      "difficulty": "medio",
+      "source": "HFA R3CG 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_003",
+      "statement": "Paciente Pedro dá entrada na emergência da Santa Casa de BM vítima de acidente automobilístico com Glasgow 7, anisocórico com midríase à direita, hipofonese de bulhas, hipotensão e turgência jugular. Murmúrio vesicular preservado e sem alteração na percussão de tórax. Qual é a sua principal hipótese diagnóstica e qual seria a primeira medida a ser tomada?",
+      "alternatives": [
+        {"key": "a", "text": "TCE e Pneumotórax hipertensivo - toracocentese."},
+        {"key": "b", "text": "TCE e Tamponamento cardíaco - pericardiocentese."},
+        {"key": "c", "text": "TCE e Tamponamento cardíaco - oxigenação e intubação orotraqueal."},
+        {"key": "d", "text": "TCE e Pneumotórax hipertensivo - toracotomia de emergência."}
+      ],
+      "correct_key": "c",
+      "explanation": "Murmúrio vesicular preservado e percussão normal excluem pneumotórax hipertensivo; hipofonese de bulhas + hipotensão + turgência jugular sugerem tamponamento cardíaco. Porém, com Glasgow 7, a via aérea está em risco iminente — pela sequência ABCDE do ATLS, a PRIMEIRA medida deve ser garantir via aérea definitiva (oxigenação e intubação orotraqueal) antes de qualquer procedimento dirigido ao tamponamento.",
+      "theme": "atls_toracico",
+      "difficulty": "dificil",
+      "source": "SCM-BM R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_004",
+      "statement": "Paciente de 60 anos é vítima de ferimento por arma branca em tórax (foto). O exame físico revela ferimento abaixo do mamilo esquerdo. Pressão arterial = 90 x 70 mmHg, frequência cardíaca = 120 bpm, Sat O² = 90%. Na ausculta pulmonar nota-se murmúrio vesicular preservado em ambos hemitórax. Qual é a principal suspeita clínica e o tratamento recomendado?",
+      "alternatives": [
+        {"key": "a", "text": "Ferimento toracoabdominal - laparoscopia."},
+        {"key": "b", "text": "Pneumotórax hipertensivo - descompressão torácica."},
+        {"key": "c", "text": "Tamponamento cardíaco - toracotomia de urgência."},
+        {"key": "d", "text": "Hemotórax maciço - drenagem torácica."}
+      ],
+      "correct_key": "c",
+      "explanation": "ATENÇÃO: foto do ferimento citada mas não disponível na extração do PDF. Ferimento penetrante na Zona de Ziedler (abaixo do mamilo esquerdo, área precordial) com instabilidade hemodinâmica e murmúrio vesicular preservado bilateralmente (excluindo pneumotórax como causa) é altamente sugestivo de tamponamento cardíaco, exigindo toracotomia de urgência.",
+      "theme": "atls_toracico",
+      "difficulty": "medio",
+      "source": "USP R3CG 2019",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_005",
+      "statement": "Um paciente de 34 anos de idade foi levado ao pronto-socorro com história de ferimento por arma branca em linha hemiclavicular esquerda, em nível do sexto espaço intercostal. Os sinais vitais estavam alterados, com frequência cardíaca de 106 batimentos por minuto, pressão arterial de 90 x 75 mmHg e saturação de oxigênio de 91%, com oxigênio suplementar em máscara, com fluxo de 12 L/min. Encontrava-se orientado, sudoreico, taquipneico e com traumatopneia através da lesão, além de estase jugular bilateral e hipofonese de bulhas cardíacas à ausculta. O FAST pericárdico foi positivo. Com base nessa situação hipotética, assinale a alternativa que apresenta a melhor sequência terapêutica.",
+      "alternatives": [
+        {"key": "a", "text": "radiografia de tórax na sala de trauma, com achado de hemopneumotórax, drenagem de tórax em sistema fechado (selo d'água) e toracotomia se o débito for superior a 200 mL de sangue/hora."},
+        {"key": "b", "text": "drenagem de tórax na sala de trauma, toracotomia anterolateral esquerda em centro cirúrgico para pericardiotomia longitudinal e síntese de lesão cardíaca com pontos em \"U\", seguida de síntese não hermética do pericárdio se houver ressecção pulmonar concomitante."},
+        {"key": "c", "text": "drenagem de tórax na sala de trauma, seguida de videotoracoscopia em centro cirúrgico para síntese do músculo diafragma à esquerda, com pontos de algodão em \"X\"."},
+        {"key": "d", "text": "drenagem de tórax na sala de trauma, toracotomia anterolateral esquerda no centro cirúrgico, seguida de pericardiotomia longitudinal, sutura cardíaca com pontos em \"X\" e síntese do pericárdio somente se houver pneumectomia associada."},
+        {"key": "e", "text": "drenagem de tórax na sala de trauma, associada à toracotomia anterolateral esquerda no centro cirúrgico, seguida de pericardiotomia transversal com síntese hermética, independentemente de ressecção pulmonar concomitante."}
+      ],
+      "correct_key": "b",
+      "explanation": "FAST pericárdico positivo + instabilidade + traumatopneia confirmam tamponamento cardíaco por ferimento penetrante. A sequência correta é drenagem torácica (para o pneumotórax aberto) seguida de toracotomia anterolateral esquerda com pericardiotomia LONGITUDINAL (evita lesão do nervo frênico) e síntese da lesão cardíaca com pontos em \"U\" (menos isquemiantes que pontos simples), com síntese pericárdica NÃO hermética caso haja ressecção pulmonar concomitante (evita tamponamento secundário por acúmulo de sangue/ar).",
+      "theme": "atls_toracico",
+      "difficulty": "dificil",
+      "source": "SCM-SP R3CG 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_006",
+      "statement": "O trauma torácico é uma causa significativa de mortalidade; na verdade, muitos pacientes com trauma torácico morrem logo após chegarem ao hospital. No entanto, muitas dessas mortes podem ser evitadas se o diagnóstico e subsequente tratamento forem realizados a tempo. Assinale a alternativa correta.",
+      "alternatives": [
+        {"key": "a", "text": "as lesões torácicas com risco de vida não podem ser tratadas com simples controle das vias aéreas ou descompressão do tórax com uma agulha, o dedo ou um tubo."},
+        {"key": "b", "text": "o tamponamento cardíaco pode se desenvolver lentamente, permitindo uma avaliação menos urgente, e a tríade clínica clássica - sons cardíacos abafados, hipotensão e regurgitamento de veias - nem sempre está presente e detectável."},
+        {"key": "c", "text": "o pneumotórax hipertensivo é a presença de ar sob pressão no espaço pleural afetado e é recomendada uma confirmação radiológica, antes do tratamento ser efetuado."},
+        {"key": "d", "text": "o tamponamento cardíaco e o pneumotórax hipertensivo são sugeridos pela presença de veias cervicais distendidas, e a hipovolemia associada não elimina esse achado."},
+        {"key": "e", "text": "a toracotomia deve ser realizada quando necessária para salvar a vida do paciente, independente da experiência de quem está fazendo o atendimento."}
+      ],
+      "correct_key": "d",
+      "explanation": "Correto: tanto o tamponamento cardíaco quanto o pneumotórax hipertensivo classicamente cursam com turgência jugular; entretanto, a hipovolemia concomitante (comum no politraumatizado) pode mascarar esse achado sem eliminar a possibilidade diagnóstica. As demais alternativas contêm erros: lesões com risco de vida PODEM sim ser tratadas com medidas simples (agulha, dedo, tubo); o tamponamento cardíaco é uma condição que se desenvolve RAPIDAMENTE e a tríade de Beck nem sempre está presente (mas a urgência não deve ser subestimada); o pneumotórax hipertensivo é diagnóstico CLÍNICO, não deve aguardar confirmação radiológica; e a toracotomia de reanimação deve ser realizada por profissional experiente e treinado.",
+      "theme": "atls_toracico",
+      "difficulty": "dificil",
+      "source": "SCML R3CG 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_007",
+      "statement": "Paciente 23 anos, trazido pelo resgate após ferimento por arma branca em Zona de Ziedler há 2 horas. Chega ao pronto-socorro com os seguintes sinais vitais: PA: 90 x 60 mmHg, FC 130 bpm, FR 24 irpm. Ao exame físico tem suas vias aéreas pérvias, apresenta estase jugular bilateral, e você não consegue ter precisão na ausculta cardíaca pois as bulhas estão abafadas. Exame físico pulmonar normal. Baseado no caso acima, a PRINCIPAL hipótese diagnóstica:",
+      "alternatives": [
+        {"key": "a", "text": "pneumotórax hipertensivo."},
+        {"key": "b", "text": "tamponamento cardíaco."},
+        {"key": "c", "text": "ruptura de aorta."},
+        {"key": "d", "text": "trauma esplênico."}
+      ],
+      "correct_key": "b",
+      "explanation": "Ferimento na Zona de Ziedler (área de risco cardíaco) com estase jugular bilateral, bulhas abafadas e exame pulmonar normal (excluindo pneumotórax) configura o quadro clássico de tamponamento cardíaco.",
+      "theme": "atls_toracico",
+      "difficulty": "medio",
+      "source": "FUBOG R1 2020",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_008",
+      "statement": "Vítima de perfuração por arma branca (faca) em hemitórax esquerdo dá entrada no PS, trazido por familiares. Ao exame: taquipnéico, PA 90/55 mmHg, apesar de ressuscitação hídrica, bulhas cardíacas abafadas e dilatação de veias jugulares. Nesse caso, o diagnóstico mais provável é:",
+      "alternatives": [
+        {"key": "a", "text": "Pneumotórax hipertensivo."},
+        {"key": "b", "text": "Tamponamento cardíaco."},
+        {"key": "c", "text": "Hemotórax."},
+        {"key": "d", "text": "Hérnia diafragmática."}
+      ],
+      "correct_key": "b",
+      "explanation": "Hipotensão refratária à reposição volêmica, bulhas abafadas e dilatação de jugulares após ferimento penetrante em hemitórax esquerdo compõem a tríade de Beck, característica de tamponamento cardíaco.",
+      "theme": "atls_toracico",
+      "difficulty": "facil",
+      "source": "SES-GO R3CG 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_009",
+      "statement": "Paciente de 15 anos de idade, sexo masculino, foi admitido no pronto socorro em estado crítico, após acidente de moto. Encontra-se falando claramente, com taquipnéia (32irpm), frequência cardíaca de 118 bpm, pressão arterial de 90x50 mmHg, glasgow 13 e várias escoriações no tórax. Após medidas iniciais foi observado alargamento do mediastino superior no raio x de tórax. A principal hipótese diagnóstica, nesse caso, é:",
+      "alternatives": [
+        {"key": "a", "text": "Perfuração traumática do esôfago."},
+        {"key": "b", "text": "Lesão de traquéia."},
+        {"key": "c", "text": "Rotura do ligamento arterioso."},
+        {"key": "d", "text": "Lesão miocárdica."},
+        {"key": "e", "text": "Lesão de timo."}
+      ],
+      "correct_key": "c",
+      "explanation": "Alargamento do mediastino superior em trauma torácico contuso de alta energia é o achado radiológico clássico sugestivo de lesão da aorta torácica, mais comumente por rotura do ligamento arterioso (região do istmo aórtico, ponto de maior fixação e vulnerabilidade a lesões de desaceleração).",
+      "theme": "atls_toracico",
+      "difficulty": "medio",
+      "source": "UNESC-ES R3CG 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_010",
+      "statement": "Um homem de 56 anos é arremessado violentamente contra o volante do seu caminhão durante uma colisão automobilística. Na chegada ao departamento de emergência, ele estava diaforético, e se queixando de dor torácica. Sua PA é de 60/40 mmHg e sua FR é de 40mpm. Qual das alternativas a seguir, melhor diferencia tamponamento cardíaco de pneumotórax hipertensivo como a causa de sua hipotensão.",
+      "alternatives": [
+        {"key": "a", "text": "Taquicardia"},
+        {"key": "b", "text": "Volume de pulso"},
+        {"key": "c", "text": "Sons respiratórios"},
+        {"key": "d", "text": "Pressão de pulso"}
+      ],
+      "correct_key": "d",
+      "explanation": "A ausculta pulmonar (sons respiratórios) é o achado mais útil para diferenciar as duas condições na prática: normal/simétrica no tamponamento vs. abolida/diminuída unilateralmente no pneumotórax hipertensivo. Dentre as opções listadas, sons respiratórios (c) seria o classicamente mais discriminativo; porém, como essa alternativa refere-se a achado semelhante em ambas quando bilateral e a questão pede o item que MELHOR diferencia, a pressão de pulso (que tende a estar mais preservada/divergente no tamponamento e mais estreita/hipotensão franca no pneumotórax hipertensivo terminal) foi considerada a resposta esperada pela banca.",
+      "theme": "atls_toracico",
+      "difficulty": "dificil",
+      "source": "UERN R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_011",
+      "statement": "O achado radiológico mais sugestivo de lesão traumática de aorta é:",
+      "alternatives": [
+        {"key": "a", "text": "derrame extrapleural apical."},
+        {"key": "b", "text": "pneumomediastino."},
+        {"key": "c", "text": "pneumotórax à esquerda."},
+        {"key": "d", "text": "hemotórax à direita."}
+      ],
+      "correct_key": "a",
+      "explanation": "O derrame extrapleural apical (cap apical, geralmente à esquerda) é um dos achados radiológicos clássicos mais sugestivos de lesão traumática de aorta, refletindo sangramento extrapleural que se acumula no ápice pulmonar.",
+      "theme": "atls_toracico",
+      "difficulty": "medio",
+      "source": "UNESP R3CG 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_012",
+      "statement": "Um paciente de trinta anos de idade, vítima de um acidente de moto em uma rodovia há cerca de quarenta minutos, chegou ao hospital com pulso de 108 bpm, PA de 140 x 90 mmHg, Glasgow 14 e escoriações no tórax, relatando dor na parte superior do tórax. Realizou radiografia de tórax, que mostrou fratura de clavícula esquerda, diâmetro de mediastino de 12 cm, desvio da traqueia para a direita e presença de boné apical. A radiografia da bacia não mostrou alterações. Realizou, na sequência, tomografia de corpo inteiro, que mostrou lesão de aorta na parte proximal da aorta descendente. Com base nessa situação hipotética, julgue o item: Antes do tratamento definitivo, o uso de medicamentos anti-hipertensivos é desaconselhado no controle desses pacientes.",
+      "alternatives": [
+        {"key": "a", "text": "CERTO"},
+        {"key": "b", "text": "ERRADO"}
+      ],
+      "correct_key": "b",
+      "explanation": "Falso: o controle rigoroso da pressão arterial e da frequência cardíaca com anti-hipertensivos (classicamente betabloqueadores) ANTES do tratamento definitivo é recomendado na lesão traumática de aorta, reduzindo o estresse de cisalhamento na parede aórtica lesada e o risco de ruptura completa — de forma análoga ao manejo da dissecção de aorta.",
+      "theme": "atls_toracico",
+      "difficulty": "medio",
+      "source": "HFA R3CG 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_013",
+      "statement": "Após um traumatismo torácico contuso, um paciente apresenta sinais de tamponamento cardíaco, incluindo hipotensão, taquicardia, aumento da turgência jugular e pulso fino. A conduta clínico-cirúrgica mais apropriada para esse paciente é:",
+      "alternatives": [
+        {"key": "a", "text": "realização de pericardiocentese emergencial;"},
+        {"key": "b", "text": "ultrassonografia e punção aspirativa por agulha fina;"},
+        {"key": "c", "text": "administração de fluidos intravenosos e monitoramento continuo;"},
+        {"key": "d", "text": "realização de toracotomia de emergência para drenagem do pericárdio;"},
+        {"key": "e", "text": "inserção de um tubo torácico para drenagem do espaço pleural esquerdo."}
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de tamponamento cardíaco pós-trauma com instabilidade hemodinâmica, a pericardiocentese emergencial é a medida imediata para alívio temporário da compressão cardíaca, enquanto se prepara o tratamento cirúrgico definitivo.",
+      "theme": "atls_toracico",
+      "difficulty": "medio",
+      "source": "ENARE R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_014",
+      "statement": "Homem, 19a, colidiu sua motocicleta contra um muro a 100 km/h. Exame físico: PA = 130 x 80 mmHg; FC = 94 bpm; FR = 22 irpm; oximetria de pulso (ar ambiente) = 98%; escala de coma de Glasgow = 15. Radiograma de tórax: fraturas no primeiro e segundo arcos costais e clavícula esquerdos e alargamento de mediastino. A conduta é:",
+      "alternatives": [
+        {"key": "a", "text": "Endoscopia digestiva alta."},
+        {"key": "b", "text": "Angiotomografia."},
+        {"key": "c", "text": "Mediastinoscopia."},
+        {"key": "d", "text": "Broncoscopia flexível."}
+      ],
+      "correct_key": "b",
+      "explanation": "Fraturas de 1º/2º arcos costais e clavícula associadas a alargamento de mediastino após trauma de alta energia exigem investigação de lesão de grandes vasos com angiotomografia de tórax, exame de escolha (não invasivo, alta sensibilidade/especificidade) no paciente estável.",
+      "theme": "atls_toracico",
+      "difficulty": "medio",
+      "source": "UNICAMP R1 2018",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_015",
+      "statement": "Homem, 20 anos de idade, chega ao pronto-socorro vítima de acidente automobilístico. A radiografia de tórax mostra fratura de primeiros arcos costais à esquerda, alargamento mediastinal e rebaixamento de brônquio principal esquerdo. Qual é o diagnóstico mais provável?",
+      "alternatives": [
+        {"key": "a", "text": "Lesão de aorta"},
+        {"key": "b", "text": "Lesão de esôfago"},
+        {"key": "c", "text": "Lesão cardíaca"},
+        {"key": "d", "text": "Lesão de hilo pulmunar"}
+      ],
+      "correct_key": "a",
+      "explanation": "A tríade fratura de 1º arco costal + alargamento mediastinal + rebaixamento do brônquio principal esquerdo é um conjunto de achados radiológicos clássicos de lesão traumática de aorta torácica.",
+      "theme": "atls_toracico",
+      "difficulty": "medio",
+      "source": "UNIFESP R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_016",
+      "statement": "Homem, 25a, vítima de colisão frontal entre dois veículos em alta velocidade. Refere acionamento do \"air-bag\". Admitido em um Centro de Trauma, consciente e orientado, escala de coma de Glasgow=15, PA=106/58mmHg, FC=115bpm, FR=26irpm, oximetria de pulso=95% em aporte de O2 12L/min com máscara não reinalante. Radiograma de tórax: (imagem). O EXAME QUE CONFIRMA A HIPÓTESE DIAGNÓSTICA É:",
+      "alternatives": [
+        {"key": "a", "text": "Angiotomografia de tórax ou tomografia de tórax contrastado."}
+      ],
+      "correct_key": "a",
+      "explanation": "ATENÇÃO: radiografia de tórax citada mas não disponível na extração do PDF, e apenas uma alternativa foi capturada no texto extraído (as demais, se houver, não vieram na extração) — dados incompletos, mantidos conforme extração original sem invenção de alternativas adicionais. O gabarito da própria banca confirma explicitamente que o exame confirmatório é a angiotomografia/tomografia de tórax contrastada, compatível com suspeita de lesão traumática de aorta em colisão frontal de alta energia com acionamento de air-bag.",
+      "theme": "atls_toracico",
+      "difficulty": "medio",
+      "source": "UNICAMP R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_017",
+      "statement": "Homem de 24 anos, vítima de colisão carro x caminhão, queixa-se de dor torácica à direita, dispneia e sensação de fraqueza. Exame físico (entrada): FC: 110 bpm, PA: 90 x 60 mmHg, enchimento capilar lentificado, veias jugulares turgidas, abdome inocente, pelve estável, hematoma na região anterior do tórax e ausência de sangramentos aparentes em tronco ou membros, MV diminuído à direita. Foi realizada drenagem torácica à direita, e dreno encontra-se funcionante. Paciente evolui com parada cardiorrespiratória. Após início de massagem cardíaca e intubação orotraqueal, a melhor conduta é:",
+      "alternatives": [
+        {"key": "a", "text": "troca do dreno torácico."},
+        {"key": "b", "text": "radiografia de tórax seguida de toracotomia de reanimação."},
+        {"key": "c", "text": "toracostomia à esquerda seguida de pericardiocentese."},
+        {"key": "d", "text": "colocação de segundo dreno torácico à direita."}
+      ],
+      "correct_key": "c",
+      "explanation": "Com o dreno direito já funcionante (excluindo pneumotórax à direita como causa persistente) e parada cardiorrespiratória com turgência jugular prévia (sugerindo componente de tamponamento ou pneumotórax hipertensivo contralateral não avaliado), a conduta é investigar/tratar o lado esquerdo ainda não abordado (toracostomia) e abordar possível tamponamento (pericardiocentese) como causas reversíveis de PCR no trauma, antes de proceder à toracotomia de reanimação.",
+      "theme": "atls_toracico",
+      "difficulty": "dificil",
+      "source": "UNESP R3CG 2026",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_018",
+      "statement": "Homem de 43 anos, vítima de acidente automobilístico com contusão frontal é admitido no Pronto-Socorro com fraturas múltiplas de costelas, fratura de tíbia direita e escoriações generalizadas. Está consciente, acianótico, normal hemodinamicamente, ligeiramente taquipneico e queixando-se de dor no HTE. A ausculta torácica revela uma diminuição do MV à esquerda sendo feito o diagnóstico de pneumotórax. Após drenagem no 5o EICE, melhora a taquipneia e o paciente sente-se mais confortável. No atendimento primário, apresenta durante o monitoramento cardíaco, contrações atriais prematuras múltiplas. Durante o exame secundário deste paciente, a avaliação de uma radiografia de tórax de boa qualidade técnica levanta a suspeita de uma possível ruptura da aorta torácica. Qual achado radiológico abaixo determinou este suposto diagnóstico?",
+      "alternatives": [
+        {"key": "a", "text": "Pneumomediastino."},
+        {"key": "b", "text": "Pequeno derrame pleural à E."},
+        {"key": "c", "text": "Alargamento da imagem cardíaca."},
+        {"key": "d", "text": "Apagamento do botão aórtico."}
+      ],
+      "correct_key": "d",
+      "explanation": "O apagamento (obliteração) do botão aórtico na radiografia de tórax é um dos achados radiológicos clássicos e mais específicos de lesão/rotura da aorta torácica.",
+      "theme": "atls_toracico",
+      "difficulty": "medio",
+      "source": "ABC R3CG 2015",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_019",
+      "statement": "Assinale a alternativa correta em relação às Lesões Cardíacas Contusas.",
+      "alternatives": [
+        {"key": "a", "text": "As lesões cardíacas contusas consistem em ocorrências de média gravidade, o que é bastante comum."},
+        {"key": "b", "text": "A combinação de ECG e troponina I normais exclui lesão cardíaca contusa e pediatria."},
+        {"key": "c", "text": "O único objetivo do manejo da contusão cardíaca é a analgesia adequada."},
+        {"key": "d", "text": "Os pacientes hemodinamicamente instáveis devem ser submetidos a ecocardiografia para identificar rupturas estruturais no coração."}
+      ],
+      "correct_key": "d",
+      "explanation": "Pacientes hemodinamicamente instáveis com suspeita de contusão miocárdica devem realizar ecocardiografia para identificar complicações estruturais (ruptura valvar, septal, tamponamento, disfunção ventricular). As demais alternativas contêm erros: a gravidade é variável (não uniformemente moderada); ECG+troponina normais têm bom valor preditivo negativo mas não excluem 100% dos casos; o manejo vai além da analgesia (monitorização de arritmias, suporte hemodinâmico).",
+      "theme": "atls_toracico",
+      "difficulty": "medio",
+      "source": "HNJ R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_020",
+      "statement": "Uma mulher de 33 anos se envolveu em uma colisão automobilística frontal. Foram necessários 30 min para retirá-la do carro. Após a chegada ao departamento de emergência, sua FC é de 120 bpm, PA 90/70 mmHg, FR 16 mpm e ECG score 15. O exame físico revela murmúrios vesiculares presentes bilateralmente, equimose da parede torácica anterior, e veias do pescoço distendidas. O abdome é plano e flácido. A pelve está estável. Os pulsos distais estão cheios e palpáveis em todas as extremidades. Dos seguintes, qual é o diagnóstico mais provável?",
+      "alternatives": [
+        {"key": "a", "text": "Choque hemorrágico."},
+        {"key": "b", "text": "Tamponamento cardíaco."},
+        {"key": "c", "text": "Hemotórax maciço."},
+        {"key": "d", "text": "Pneumotórax hipertensivo."}
+      ],
+      "correct_key": "b",
+      "explanation": "Extração prolongada (30 min, mecanismo de desaceleração/compressão torácica), equimose de parede torácica anterior, veias cervicais distendidas, murmúrio vesicular preservado bilateralmente (excluindo pneumotórax/hemotórax) e pulsos periféricos plenos (excluindo choque hemorrágico hipovolêmico franco) compõem quadro sugestivo de tamponamento cardíaco por trauma contuso.",
+      "theme": "atls_toracico",
+      "difficulty": "dificil",
+      "source": "UERN R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_021",
+      "statement": "Masculino, jovem, é vítima de trauma torácico penetrante com ferimento por arma branca em Zona de Ziedler há 1 hora. É admitido hipotenso, taquicárdico, taquipneico, confuso e agitado. Ao exame físico tem suas vias aéreas pérvias, apresenta jugulares túrgidas mesmo com cabeceira elevada e sinais de choque e abafamento de bulhas cardíacas. Assinale a principal hipótese diagnóstica.",
+      "alternatives": [
+        {"key": "a", "text": "Pneumotórax hipertensivo."},
+        {"key": "b", "text": "Tamponamento cardíaco."},
+        {"key": "c", "text": "Hérnia diafragmática traumática."},
+        {"key": "d", "text": "Lesão de árvore traqueobrônquica."}
+      ],
+      "correct_key": "b",
+      "explanation": "Ferimento na Zona de Ziedler com jugulares túrgidas, choque e abafamento de bulhas cardíacas configura tríade de Beck, característica de tamponamento cardíaco.",
+      "theme": "atls_toracico",
+      "difficulty": "facil",
+      "source": "HSJC R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_022",
+      "statement": "Doente de 37 anos, vítima de colisão de auto x muro, sem cinto de segurança, deu entrada no pronto socorro referindo dor torácica e dispneia. Ao exame físico, apresentava: palidez cutânea, sudorese, Glasgow 15, pressão arterial de 170x110mmHg e frequência cardíaca de 108 bpm. Ausculta pulmonar com murmúrio vesicular presente em ambos os hemitórax, porém diminuído à esquerda. A radiografia de tórax é a que segue. Uma vez confirmado o diagnóstico mais compatível no caso acima, qual o tratamento recomendado?",
+      "alternatives": [
+        {"key": "a", "text": "Tratamento endovascular"},
+        {"key": "b", "text": "Punção no 2º espaço intercostal esquerdo, linha hemiclavicular"},
+        {"key": "c", "text": "Laparotomia exploradora"},
+        {"key": "d", "text": "Toracotomia mediana com intubação seletiva e circulação extracorpórea"}
+      ],
+      "correct_key": "a",
+      "explanation": "ATENÇÃO: radiografia de tórax citada mas não disponível na extração do PDF. Considerando o quadro clínico compatível com lesão traumática de aorta (hipertensão paradoxal, dor torácica, hipoperfusão de MMSS ocasional), o tratamento atualmente preferencial é o endovascular (TEVAR), menos invasivo que a cirurgia aberta.",
+      "theme": "atls_toracico",
+      "difficulty": "medio",
+      "source": "USP R3CG 2017",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_023",
+      "statement": "Paciente de 19 anos de idade, sexo masculino, foi admitido no pronto atendimento de um centro de trauma com ferimento por arma de fogo em transição tóraco abdominal. Encontra-se falando claramente; com respiração rápida; Frequência Cardíaca de 118bmp; Pressão arterial de 90 x 50 mmhg, abafamento de bulhas cardíacas e turgescência jugular; Glasgow 15. O ferimento apresenta entrada no 6° espaço intercostal esquerdo, linha axilar anterior com saída na região infra escapular direita. Após medidas iniciais, o próximo passo, no caso acima, é:",
+      "alternatives": [
+        {"key": "a", "text": "Pericardiotomia sub xifoideana"},
+        {"key": "b", "text": "FAST do pericárdio"},
+        {"key": "c", "text": "Pericardiocentese de urgência"},
+        {"key": "d", "text": "Angiotomografia"},
+        {"key": "e", "text": "Acionamento urgente do cirurgião torácico."}
+      ],
+      "correct_key": "e",
+      "explanation": "Trajeto transfixante transmediastinal (entrada em 6º EIC esquerdo com saída infraescapular direita), com sinais de tamponamento cardíaco (bulhas abafadas, turgência jugular, hipotensão), representa altíssimo risco de lesão de grandes vasos/estruturas mediastinais e exige acionamento urgente do cirurgião torácico para intervenção cirúrgica definitiva, independentemente de exames complementares adicionais.",
+      "theme": "atls_toracico",
+      "difficulty": "dificil",
+      "source": "UEPABELEM R1 2020",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_024",
+      "statement": "Um jovem de 18 anos foi vítima de facada no epigástrio. Deu entrada no centro de trauma hipotenso e com veias distendidas no pescoço. A ausculta pulmonar mostrou murmúrio vesicular presente bilateralmente, ainda que a ventilação fosse superficial. Sequência mais apropriada de atendimento e tratamento:",
+      "alternatives": [
+        {"key": "a", "text": "Acesso venoso central - radiografia de tórax - FAST (focused assessment with sonography for trauma) - tipagem e prova cruzada para transfusão sanguínea."},
+        {"key": "b", "text": "Intubação traqueal - acesso venoso - FAST (focused assessment with sonography for trauma) - toracotomia."},
+        {"key": "c", "text": "Intubação traqueal - FAST (focused assessment with sonography for trauma) - janela pericárdica."},
+        {"key": "d", "text": "Acesso venoso - transfusão sanguínea - pericardiocentese."},
+        {"key": "e", "text": "Intubação traqueal - radiografia de tórax - FAST (focused assessment with sonography for trauma) - esternotomia mediana."}
+      ],
+      "correct_key": "c",
+      "explanation": "Ferimento epigástrico (Zona de Ziedler) com hipotensão e distensão jugular sugere tamponamento cardíaco por lesão cardíaca transdiafragmática. A sequência apropriada é garantir via aérea (intubação), confirmar com FAST pericárdico e, se positivo/inconclusivo em paciente instável, proceder à janela pericárdica subxifoide para diagnóstico e tratamento.",
+      "theme": "atls_toracico",
+      "difficulty": "dificil",
+      "source": "SUS-SP R3CG 2020",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_025",
+      "statement": "Um paciente com 25 anos, vítima de acidente motociclístico, apresenta trauma contuso toracoabdominal. No local do acidente, encontrava-se com pressão arterial sistólica de 90 mmHg e com frequência cardíaca de 120 batimentos por minuto. Durante o transporte para o hospital, evoluiu com inconsistência, queda da pressão arterial sistólica para 60 mmHg e aumento da frequência cardíaca para 140 batimentos por minuto. Apresenta distensão de veias cervicais e murmúrio vesicular presente bilateralmente. Nesse caso, o manejo mais adequado para o paciente é",
+      "alternatives": [
+        {"key": "a", "text": "Toracocentese e drenagem pleural fechada."},
+        {"key": "b", "text": "Manutenção de vias aéreas e pericardiocentese."},
+        {"key": "c", "text": "Entubação orotraqueal e ultrassonografia de tórax."},
+        {"key": "d", "text": "Cricotireoidostomia e toracotomia anterolateral esquerda."}
+      ],
+      "correct_key": "b",
+      "explanation": "Deterioração hemodinâmica progressiva com distensão jugular e murmúrio vesicular preservado bilateralmente (excluindo pneumotórax) é sugestiva de tamponamento cardíaco; a conduta é manutenção de vias aéreas com pericardiocentese como medida temporizadora salvadora.",
+      "theme": "atls_toracico",
+      "difficulty": "medio",
+      "source": "INEP REVALIDA 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_026",
+      "statement": "Em caso de suspeita de lesão no trauma de aorta torácica, o melhor exame para se fazer o diagnóstico é a",
+      "alternatives": [
+        {"key": "a", "text": "Ecografia transtorácica."},
+        {"key": "b", "text": "Radiografia do tórax."},
+        {"key": "c", "text": "Tomografia do tórax."},
+        {"key": "d", "text": "Ecografia transesofágica."},
+        {"key": "e", "text": "Angiotomografia de tórax."}
+      ],
+      "correct_key": "e",
+      "explanation": "A angiotomografia de tórax é o exame de escolha (padrão-ouro na prática atual, não invasivo, alta acurácia) para diagnóstico de lesão traumática de aorta em pacientes estáveis.",
+      "theme": "atls_toracico",
+      "difficulty": "facil",
+      "source": "UFF R1 2020",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_027",
+      "statement": "Sobre paciente vítima de trauma com suspeita de tamponamento cardíaco, assinale a alternativa INCORRETA.",
+      "alternatives": [
+        {"key": "a", "text": "O tamponamento cardíaco é identificado pela presença da clássica tríade diagnóstica de Beck, que consiste em elevação da pressão venosa, diminuição da pressão arterial e abafamento das bulhas cardíacas."},
+        {"key": "b", "text": "O sinal de Kussmaul (aumento da pressão venosa na inspiração durante a respiração espontânea), reflete um comportamento paradoxal da pressão venosa efetivamente associado ao tamponamento."},
+        {"key": "c", "text": "O tamponamento cardíaco resulta, mais comumente, de traumas contusos, devido a lesão de desaceleração, com rompimento de vasos no espaço pericárdico."},
+        {"key": "d", "text": "A pericardiocentese pode ser tanto diagnóstica como terapêutica, mas não se constitui em tratamento definitivo para o tamponamento cardíaco."}
+      ],
+      "correct_key": "b",
+      "explanation": "É a alternativa INCORRETA: o sinal de Kussmaul é classicamente associado à pericardite CONSTRITIVA (não ao tamponamento agudo), já que no tamponamento o espaço pericárdico está maximamente distendido, tornando esse sinal menos aplicável/tipicamente ausente nessa condição.",
+      "theme": "atls_toracico",
+      "difficulty": "dificil",
+      "source": "FHEMIG R1 2018",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_028",
+      "statement": "Homem de 23 anos é levado ao pronto-socorro após sofrer queda de motocicleta. Ao exame inicial é feito o atendimento conforme o protocolo ATLS. O paciente apresenta confusão mental e está estável hemodinamicamente. Ele é encaminhado à tomografia de crânio, tórax e abdome e obtém-se a imagem mostrada a seguir. Sobre o trauma de aorta, é correto afirmar:",
+      "alternatives": [
+        {"key": "a", "text": "Este paciente é jovem e não deve ser tratado por via endovascular, uma toracotomia no 5º espaço, à esquerda, é uma opção de acesso cirúrgico."},
+        {"key": "b", "text": "Este trauma de aorta deve ser tratado antes de neurotraumas de indicação cirúrgica."},
+        {"key": "c", "text": "A maioria dos traumas de aorta pode ser tratada de forma conservadora, com controle vigoroso de pressão arterial, como no caso deste paciente."},
+        {"key": "d", "text": "Trata-se de pseudoaneurisma de aorta traumático e deve ser tratado pelo risco de rotura, e o tratamento endovascular é o preferencial."}
+      ],
+      "correct_key": "d",
+      "explanation": "ATENÇÃO: imagem tomográfica citada mas não disponível na extração do PDF. Pela descrição do enunciado (paciente estável hemodinamicamente, achado em TC de tórax), o quadro é compatível com pseudoaneurisma de aorta traumático (lesão contida), que deve ser tratado pelo risco de rotura tardia, sendo o tratamento endovascular (TEVAR) atualmente preferencial em relação à cirurgia aberta.",
+      "theme": "atls_toracico",
+      "difficulty": "dificil",
+      "source": "USP R3CG 2024",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_029",
+      "statement": "Assinale a alternativa mais adequada em relação à contusão miocárdica.",
+      "alternatives": [
+        {"key": "a", "text": "Nas contusões miocárdicas, o bloqueio de ramo mais comum é o esquerdo."},
+        {"key": "b", "text": "Múltiplas extrassístoles ventriculares e taquicardia sinusal inexplicada podem estar presentes no trauma cardíaco."},
+        {"key": "c", "text": "A ausência de alterações eletrocardiográficas exclui a possibilidade de lesão cardíaca contusa após trauma torácico."},
+        {"key": "d", "text": "A ocorrência de infradesnivelamento do segmento ST tem alta especificidade para descartar lesões cardíacas associadas ao trauma, pois o padrão mais usual é o de supradesnivelamento."}
+      ],
+      "correct_key": "b",
+      "explanation": "Extrassístoles ventriculares múltiplas e taquicardia sinusal inexplicada são achados eletrocardiográficos reconhecidos na contusão miocárdica. As demais alternativas estão incorretas: o bloqueio de ramo mais associado é o DIREITO (não esquerdo, dada a posição anterior do VD); ECG normal NÃO exclui completamente lesão cardíaca contusa; e não há um padrão específico e altamente específico de infra/supradesnivelamento que descarte a lesão.",
+      "theme": "atls_toracico",
+      "difficulty": "dificil",
+      "source": "FAMEMA R3CG 2026",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "tt_030",
+      "statement": "Paciente vítima de acidente automobilístico dá entrada na sala de emergência, trazido pela USA do SAMU. Durante a realização do atendimento inicial, é identificada a presença de tatuagem traumática em região do tórax. Sobre a condução dos traumatismos torácicos, é CORRETO afirmar que:",
+      "alternatives": [
+        {"key": "a", "text": "A identificação do pneumotórax hipertensivo deve ocorrer clinicamente, durante a avaliação inicial, e seu tratamento deve ser imediato. A confirmação radiológica pode resultar em agravamento significativo das condições do paciente."},
+        {"key": "b", "text": "Na presença de pneumotórax aberto, feridas cujo diâmetro é de duas a três vezes o da traqueia podem comprometer a ventilação pulmonar."},
+        {"key": "c", "text": "Na ocorrência de tamponamento cardíaco, uma resposta hemodinâmica adequada é obtida quando se removem, pelo menos, 100ml do saco pericárdico."},
+        {"key": "d", "text": "A presença de rotura da aorta não pode ser suspeitada simplesmente com base em quadro clínico e em radiografia simples de tórax, não sendo necessária a realização de aortografia."}
+      ],
+      "correct_key": "b",
+      "explanation": "Correto: no pneumotórax aberto, feridas com diâmetro de 2/3 ou mais o do lúmen traqueal permitem que o ar siga preferencialmente pelo trajeto de menor resistência (a ferida), comprometendo a ventilação pulmonar efetiva (\"ferida soprante\").",
+      "theme": "atls_toracico",
+      "difficulty": "medio",
+      "source": "SCMBH R1 2017",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    }
+  ]
+}
