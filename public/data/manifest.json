@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T21:49:42.593Z",
+  "generatedAt": "2026-07-27T01:06:37.484Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,11 +26,12 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 232,
+  "totalQuestions": 372,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
     "cardio_has": 100,
+    "cardio_ic": 140,
     "cardio_sca": 120,
     "atls_inicial": 1,
     "atls_choque": 2,
@@ -227,8 +228,10 @@
     {
       "area": "cardiologia",
       "slug": "insuficiencia-cardiaca",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "cardio_ic"
+      ],
+      "questionsCount": 140,
       "flashcardsCount": 0,
       "casosCount": 0
     },
