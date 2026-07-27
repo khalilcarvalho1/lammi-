@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T01:32:54.101Z",
+  "generatedAt": "2026-07-27T02:23:36.560Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,7 +26,7 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 472,
+  "totalQuestions": 612,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
@@ -34,6 +34,7 @@
     "cardio_has": 100,
     "cardio_ic": 140,
     "cardio_sca": 120,
+    "cardio_valvopatias": 140,
     "atls_inicial": 1,
     "atls_choque": 2,
     "atls_toracico": 1,
@@ -323,8 +324,10 @@
     {
       "area": "cardiologia",
       "slug": "valvopatias",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "cardio_valvopatias"
+      ],
+      "questionsCount": 140,
       "flashcardsCount": 0,
       "casosCount": 0
     },

@@ -1,1 +1,2395 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "valv_001",
+      "statement": "Um homem de 48 anos, portador de prótese valvar mitral há 6 meses, apresenta quadro agudo de febre alta com calafrios, sudorese, toxemia e taquicardia. Um ecocardiograma realizado na sala de emergência revela endocardite infecciosa. Após coleta de hemoculturas o médico opta por tratamento antibiótico empírico. Considerando-se os germes mais frequentes, a efetividade do tratamento, custos e possível efeitos colaterais a melhor opção é:",
+      "alternatives": [
+        {"key": "a", "text": "ampicilina, gentamicina e oxacilina."},
+        {"key": "b", "text": "meropenem."},
+        {"key": "c", "text": "vancomicina."},
+        {"key": "d", "text": "ampicilina e amicacina."},
+        {"key": "e", "text": "vancomicina, gentamicina e cefepime."}
+      ],
+      "correct_key": "e",
+      "explanation": "Endocardite protética precoce (<1 ano de implante) exige cobertura empírica ampla para Staphylococcus (incluindo MRSA/estafilococos coagulase-negativos, comuns nesse contexto) e gram-negativos: vancomicina + gentamicina + cefepime é o esquema empírico padrão recomendado.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "HSL-SP R3CM 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_002",
+      "statement": "Mulher de 42 anos vem com episódios de sudorese e piora da dispneia nos últimos sete dias, atualmente aos pequenos esforços. Nega febre, dor, palpitação e síncope. Realizou troca valvar mitral biológica há oito anos por valvulopatia reumática. Exame clínico: descorada +/4+, ictérica 2+/4+, afebril, FR 25 ipm, FC 90 bpm, SpO2 92%, PA 110x60 mmHg, tempo de enchimento capilar 2 seg. Bulhas rítmicas com hipofonese de B1 e sopro holossistólico 4+/6+ em área mitral, estertores finos em bases bilaterais, fígado palpável a 3 cm do rebordo costal direito, doloroso e homogêneo. Baço percutível e não palpável. Edema 2+/4+ bilateral de membros inferiores. Exames: Hb 10,2 g/dL, leucócitos 9.800/mm³, plaquetas 87.000/mm³, Na 132 mEq/L, K 4,5 mEq/L, Cr 1,3 mg/dL, Ur 40 mg/dL, PCR 47 mg/dL. Urina I: 1,2 g/L de proteínas, leucócitos 43.000/mm³, cilindros hemáticos. Eletrocardiograma: ritmo sinusal e sobrecarga de câmaras esquerdas. Ecocardiograma transtorácico: regurgitação periprotética mitral importante, sem vegetações ou trombos. Além de compensação da insuficiência cardíaca, a conduta mais adequada é:",
+      "alternatives": [
+        {"key": "a", "text": "Ceftriaxone."},
+        {"key": "b", "text": "Troca valvar nesta internação."},
+        {"key": "c", "text": "Aguardar resultado de hemocultura."},
+        {"key": "d", "text": "Ceftriaxone, oxacilina e troca valvar nesta internação."}
+      ],
+      "correct_key": "b",
+      "explanation": "Sem febre, sem vegetações/trombos ao ecocardiograma (afastando endocardite ativa), o quadro é de disfunção estrutural da prótese biológica (regurgitação periprotética importante) causando insuficiência cardíaca — indicação de troca valvar cirúrgica nesta internação, sem necessidade de antibioticoterapia empírica para endocardite.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "USP R3CM 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_003",
+      "statement": "Com o envelhecimento da população, o aparecimento de um número maior de casos de estenose aórtica é uma situação que se torna cada vez mais frequente. Com relação à avaliação do grau de estenose valvar aórtica é correto afirmar que os principais parâmetros ecocardiográficos são",
+      "alternatives": [
+        {"key": "a", "text": "gradiente trans-valvar, diâmetro sistólico final do VE e volume do AE."},
+        {"key": "b", "text": "gradiente trans-valvar, velocidade do fluxo trans-valvar e área do orifício valvar."},
+        {"key": "c", "text": "diâmetro sistólico final do VE, velocidade de fluxo trans-valvar e área do orifício valvar."},
+        {"key": "d", "text": "área do orifício valvar, diâmetro diastólico final do VE e volume do AE."},
+        {"key": "e", "text": "Velocidade de fluxo trans-valvar, área do orifício valvar e diâmetro diastólico final do VE."}
+      ],
+      "correct_key": "b",
+      "explanation": "Os três parâmetros ecocardiográficos centrais para graduar estenose aórtica são: gradiente transvalvar, velocidade de fluxo transvalvar e área do orifício valvar (AVA).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "facil",
+      "source": "FGV OUTRAS PROVAS 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_004",
+      "statement": "Mulher de 37 anos, com doença renal crônica, realiza há 1 ano hemodiálise, 3 vezes por semana. Há 10 dias apresenta tosse e dispneia. Há também episódios de febre de 38 a 39 °C. A tomografia de tórax é mostrada. Para confirmar a principal hipótese diagnóstica é indicado:",
+      "alternatives": [
+        {"key": "a", "text": "Teste genético de fibrose cística."},
+        {"key": "b", "text": "Lavado broncoalveolar com cultura de escarro."},
+        {"key": "c", "text": "Teste rápido molecular para tuberculose."},
+        {"key": "d", "text": "Dosagem de anticorpo anticitoplasma de neutrófilo."},
+        {"key": "e", "text": "Hemocultura e ecocardiograma."}
+      ],
+      "correct_key": "e",
+      "explanation": "ATENÇÃO: tomografia de tórax citada mas não disponível na extração do PDF. Paciente em hemodiálise (risco de bacteremia por acesso vascular) com febre + sintomas respiratórios sugere quadro compatível com êmbolos sépticos pulmonares secundários a endocardite infecciosa (frequentemente originada no cateter/acesso de diálise) — investigação com hemocultura e ecocardiograma é a conduta indicada para confirmar essa hipótese.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "SANTA CASA-SP R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_005",
+      "statement": "Um paciente de 58 anos em tratamento de endocardite infecciosa de válvula nativa por Streptococcus bovis deve prosseguir investigação, após a cura da endocardite, inicialmente com",
+      "alternatives": [
+        {"key": "a", "text": "PET-CT de corpo inteiro."},
+        {"key": "b", "text": "RNM de coração."},
+        {"key": "c", "text": "Endoscopia digestiva alta."},
+        {"key": "d", "text": "Colangiopancreatografia endoscópica retrógrada."},
+        {"key": "e", "text": "Colonoscopia."}
+      ],
+      "correct_key": "e",
+      "explanation": "Streptococcus bovis (S. gallolyticus) na endocardite tem forte associação com neoplasia/pólipos colorretais, exigindo colonoscopia de rastreamento após a cura da endocardite.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "UNAERP R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_006",
+      "statement": "Qual dos casos abaixo tem indicação de profilaxia para endocardite, segundo as recomendações atuais?",
+      "alternatives": [
+        {"key": "a", "text": "Paciente com prótese valvar mitral que será submetido a colonoscopia com biópsia."},
+        {"key": "b", "text": "Paciente com cardiopatia congênita cianótica não corrigida que será submetido a procedimento dentário invasivo."},
+        {"key": "c", "text": "Paciente com prolapso valvar mitral com regurgitação moderada que será submetido a procedimento dentário invasivo."},
+        {"key": "d", "text": "Paciente com história de endocardite que será submetido a biópsia renal."}
+      ],
+      "correct_key": "b",
+      "explanation": "As diretrizes atuais restringem a profilaxia a procedimentos DENTÁRIOS de alto risco em grupos de altíssimo risco (prótese valvar, endocardite prévia, cardiopatia congênita cianótica não corrigida). Procedimentos gastrointestinais/geniturinários (colonoscopia, biópsia renal) não exigem profilaxia rotineira, mesmo em pacientes de alto risco.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "HCPA R3CM 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_007",
+      "statement": "Paciente de 40 anos, sem comorbidades conhecidas, com queixa de dor precordial aos esforços e perda súbita da consciência há 20 dias. Exame físico: sopro sistólico rude em foco aórtico, com irradiação para a fúrcula. Eletrocardiograma: ritmo sinusal, sobrecarga do ventrículo esquerdo (VE) com padrão strain. Ecocardiograma: estenose aórtica importante, fração de ejeção do VE de 65%. A conduta neste caso é indicar",
+      "alternatives": [
+        {"key": "a", "text": "ecocardiograma de estresse com dobutamina."},
+        {"key": "b", "text": "cirurgia de troca valvar aórtica."},
+        {"key": "c", "text": "tratamento medicamentoso e repetir ecocardiograma em 6 meses para reavaliação."},
+        {"key": "d", "text": "realização de tilt-test."}
+      ],
+      "correct_key": "b",
+      "explanation": "Estenose aórtica importante SINTOMÁTICA (angina + síncope) é indicação clara e inequívoca de cirurgia de troca valvar, independentemente da FE preservada.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "facil",
+      "source": "UNESP R3CM 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_008",
+      "statement": "Paciente de 55 anos, assintomático e em consulta de rotina, foi diagnosticado com insuficiência mitral primária de grau importante. O ecodopplercardiograma demonstrou área cardíaca normal, diâmetro sistólico do ventrículo esquerdo de 40 mm e FEVE de 60%. Nesse caso, qual é a conduta mais apropriada?",
+      "alternatives": [
+        {"key": "a", "text": "Cirurgia de troca valvar."},
+        {"key": "b", "text": "Acompanhamento clínico."},
+        {"key": "c", "text": "Cateterismo para investigar a causa da valvopatia."},
+        {"key": "d", "text": "Eco de stress farmacológico."}
+      ],
+      "correct_key": "a",
+      "explanation": "Diâmetro sistólico do VE de 40mm e FEVE de 60% estão exatamente nos limiares clássicos que indicam intervenção cirúrgica em IM primária importante mesmo em pacientes assintomáticos (LVESD≥40mm e/ou FEVE≤60%).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "UFG R3CM 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_009",
+      "statement": "Mulher de 41 anos de idade é avaliada por sopro cardíaco. Ao exame, há estalido e sopro sistólico de ejeção. O ecocardiograma revela valva aórtica bicúspide com comissura horizontal, sem disfunção valvar, estenose ou indícios de insuficiência aórtica; o diâmetro da raiz da aorta é de 3,6 cm. Nessa paciente, a recomendação correta é",
+      "alternatives": [
+        {"key": "a", "text": "indicar teste genético para mutação no gene da fibrilina-1."},
+        {"key": "b", "text": "indicar rastreamento para aneurisma da aorta torácica nos familiares de 1º grau."},
+        {"key": "c", "text": "solicitar tomografia ou ressonância magnética para determinar se a aorta torácica ascendente está dilatada."},
+        {"key": "d", "text": "solicitar uma angiografia coronariana percutânea."},
+        {"key": "e", "text": "recomendar acompanhamento com ecocargiograma semestral."}
+      ],
+      "correct_key": "c",
+      "explanation": "Valva aórtica bicúspide tem risco de aortopatia associada (aneurisma/dissecção da aorta ascendente), independente da gravidade da disfunção valvar — a raiz aórtica normal não exclui dilatação da aorta ascendente propriamente dita, sendo necessária avaliação por TC ou RM para essa segmento específico.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "ABC R3CM 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_010",
+      "statement": "A endocardite infecciosa é uma doença com mortalidade em torno de 25%, sendo importante a administração de antibioticoprofilaxia nos casos indicados. Entre as indicações de profilaxia para endocardite infecciosa durante o parto, é correto citar:",
+      "alternatives": [
+        {"key": "a", "text": "tetralogia de Fallot"},
+        {"key": "b", "text": "coarctação da aorta"},
+        {"key": "c", "text": "cardiomiopatia dilatada"},
+        {"key": "d", "text": "aneurisma de septo interatrial"}
+      ],
+      "correct_key": "a",
+      "explanation": "Cardiopatia congênita cianótica não corrigida (como tetralogia de Fallot) é uma das categorias de altíssimo risco que mantêm indicação de profilaxia de endocardite, incluindo em procedimentos obstétricos de alto risco quando aplicável.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "UERJ R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_011",
+      "statement": "Homem de 44 anos encontra-se internado na enfermaria de clínica médica para investigação de febre diária de 38 graus há cerca de dois meses. O exame físico evidencia sopro sistólico em foco mitral e presença de nódulos eritematosos e dolorosos em palmas das mãos. Os exames laboratoriais apresentam resultados normais, exceto por leucocitose e aumento de marcadores inflamatórios, e o exame de urina revela hematúria dismórfica. Nesse caso, a fisiopatologia presumida do acometimento renal e o microorganismo responsável pela doença, respectivamente, são:",
+      "alternatives": [
+        {"key": "a", "text": "infarto renal / Streptococcus viridans"},
+        {"key": "b", "text": "infarto renal / Staphylococcus aureus"},
+        {"key": "c", "text": "deposição de imunocomplexos / Streptococcus viridans"},
+        {"key": "d", "text": "deposição de imunocomplexos / Staphylococcus aureus"}
+      ],
+      "correct_key": "c",
+      "explanation": "Nódulos de Osler (dolorosos) refletem fenômeno imunológico (deposição de imunocomplexos), assim como a hematúria dismórfica (padrão glomerulonefrítico, não de infarto renal). Apresentação subaguda (2 meses) com fenômenos imunológicos é mais típica de Streptococcus viridans, organismo clássico de endocardite subaguda em valva nativa.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "UERJ R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_012",
+      "statement": "Qual das condições abaixo tem MENOR risco para o transcorrer da gestação:",
+      "alternatives": [
+        {"key": "a", "text": "Estenose mitral."},
+        {"key": "b", "text": "Hipertensão arterial pulmonar."},
+        {"key": "c", "text": "Marfan com aneurisma de raiz de aorta > 40 mm."},
+        {"key": "d", "text": "Miocardiopatia periparto prévia com disfunção residual de VE."}
+      ],
+      "correct_key": "a",
+      "explanation": "HAP, Marfan com aneurisma de raiz >40mm e miocardiopatia periparto com disfunção residual são classicamente classificadas como risco gestacional muito alto (OMS classe IV, frequentemente contraindicando gestação). Estenose mitral, apesar de risco real, é relativamente de menor risco entre as opções listadas quando não especificada como grave.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "PSU-GO R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_013",
+      "statement": "O Prolapso da Valva Mitral (PVM) é uma síndrome clínica comum, com apresentações clínicas muito variáveis. Analise as assertivas: I. Um achado frequente na ausculta é o clique meso ou telessistólico (não ejetivo), que ocorre 0,14 segundos ou mais após a primeira bulha. II. Os cliques sistólicos podem ser múltiplos, causados pela súbita distensão das cordas tendíneas, e seguidos por um sopro meso-telessistólico. III. A irradiação do sopro irá depender do folheto envolvido. Com o prolapso do folheto posterior, o jato regurgitante é dirigido posteriormente e o sopro se irradia para axila e costas. IV. Com o prolapso do folheto anterior o jato se dirige anteriormente e o sopro irá se irradiar para a base do coração. Escolha as assertivas corretas:",
+      "alternatives": [
+        {"key": "a", "text": "I e II apenas."},
+        {"key": "b", "text": "I e IV apenas."},
+        {"key": "c", "text": "II e III apenas."},
+        {"key": "d", "text": "I, III e IV apenas."},
+        {"key": "e", "text": "Todas as assertivas estão corretas."}
+      ],
+      "correct_key": "a",
+      "explanation": "I e II descrevem corretamente o clique e o sopro do PVM. III e IV estão INVERTIDAS: no prolapso do folheto POSTERIOR, o jato regurgitante é dirigido ANTERIORMENTE (em direção à raiz aórtica), irradiando-se para a BASE; no prolapso do folheto ANTERIOR, o jato é dirigido POSTERIORMENTE, irradiando-se para axila/costas — exatamente o oposto do afirmado nas assertivas III e IV.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "AMP R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_014",
+      "statement": "Homem, 46 anos, queixa-se de dispneia, palpitações e dor precordial em queimação de moderada intensidade aos grandes esforços, que melhora com repouso, há 4 meses. Sem outras queixas. Nega comorbidades. Exame físico: PA = 138 × 85 mmHg, FC = 80 bpm, ictus palpável no 5º espaço intercostal esquerdo na linha hemiclavicular com 2 polpas digitais, ritmo cardíaco regular em 2 tempos, sopro mesossistólico ejetivo 3+/6+ em foco aórtico acessório, mais intenso em ortostase, e sopro mesotelessitólico 2+/6+ em foco mitral. Pulso carotídeo amplo, bífido (pico e domo), com dois componentes sistólicos, sem outras alterações. Considerando esta apresentação clínica, qual é a principal hipótese diagnóstica?",
+      "alternatives": [
+        {"key": "a", "text": "Comunicação interventricular."},
+        {"key": "b", "text": "Estenose aórtica."},
+        {"key": "c", "text": "Insuficiência mitral."},
+        {"key": "d", "text": "Cardiomiopatia hipertrófica."}
+      ],
+      "correct_key": "d",
+      "explanation": "Sopro que AUMENTA em ortostase (redução de pré-carga piora obstrução dinâmica), pulso bisferiens (pico e domo, dois componentes sistólicos) e sopro mitral concomitante (por SAM/regurgitação mitral) são o quadro clássico de cardiomiopatia hipertrófica obstrutiva.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "USP-RP R3CM 2025",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_015",
+      "statement": "Um homem de 68 anos, obeso, hipertenso e portador de estenose aórtica moderada (válvula tricúspide calcificada), é atendido por um quadro de febre de 38,2 a 38,9°C por um período de 7 dias. Queixou-se também da presença de manchas violáceas em extremidades. Após dois dias da admissão, três hemoculturas com intervalo de algumas horas retornaram positivas para Streptococcus gallolyticus (antigo Streptococcus bovis). Porém, nesse ínterim, o paciente apresentou um quadro de acidente vascular encefálico isquêmico. Qual é o significado, em termos de especificidade, das hemoculturas resultarem positivas em todas as coletas?",
+      "alternatives": [
+        {"key": "a", "text": "Indica apenas a gravidade do caso."},
+        {"key": "b", "text": "É uma característica do micro-organismo em questão."},
+        {"key": "c", "text": "Indica que o local da infecção está em contato direto com o compartimento intravascular."},
+        {"key": "d", "text": "Reflete a qualidade das hemoculturas e a facilidade de crescimento do agente."},
+        {"key": "e", "text": "Reflete a bacteremia que o paciente teve no momento da coleta."}
+      ],
+      "correct_key": "c",
+      "explanation": "ATENÇÃO: figura das manchas violáceas citada mas explicitamente não cedida pela banca (\"IMAGEM NÃO CEDIDA PELA BANCA\"). Independentemente da imagem, o crescimento em TODAS as hemoculturas (bacteremia contínua/sustentada) reflete que o foco infeccioso está em contato direto e constante com o compartimento intravascular — critério clássico de especificidade para endocardite, distinguindo de bacteremia transitória de outras origens.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "UNAERP R3CM 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_016",
+      "statement": "Homem, 80 anos, tabagista e hipertenso, é internado por dor precordial ao pequenos esforços e um episódio de síncope enquanto caminhava dentro de casa. Exame físico: FC = 85 bpm, PA = 115 x 80 mmHg, pulso carotídeo com ascenso lento e baixa amplitude, ritmo cardíaco regular em 2 tempos, ictus cordis com 2 polpas digitais, sopro sistólico rude com pico tardio em foco aórtico, sopro mitral piante e desdobramento paradoxal da segunda bulha, sem outras alterações. Qual é a principal hipótese diagnóstica?",
+      "alternatives": [
+        {"key": "a", "text": "Estenose aórtica."},
+        {"key": "b", "text": "Estenose mitral."},
+        {"key": "c", "text": "Insuficiência mitral."},
+        {"key": "d", "text": "Estenose pulmonar."}
+      ],
+      "correct_key": "a",
+      "explanation": "Pulso parvus et tardus, sopro sistólico rude com pico tardio em foco aórtico, sopro mitral (fenômeno de Gallavardin) e desdobramento paradoxal de B2 (por prolongamento da ejeção do VE) são o quadro clássico de estenose aórtica grave sintomática (angina + síncope).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "USP-RP R3CM 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_017",
+      "statement": "Homem, 41 anos de idade, dá entrada na Unidade de Pronto Atendimento (UPA) por sintomas e dispneia aos esforços e fadiga progressiva, há cerca de 4 meses. Inicialmente, as queixas eram aos esforços moderados e agora ocorrem mesmo em repouso. Ele relata ainda palpitações. Nega febre, sudorese noturna, ou perda de peso; ao exame, PA: 130x80mmHg, FC: 100bpm. Ausculta com ritmo cardíaco regular, sopro diastólico em foco aórtico, irradiado para vasos cervicais. Considerando o relato do caso, indique o achado do exame físico provavelmente observado:",
+      "alternatives": [
+        {"key": "a", "text": "Pulsos periféricos normais."},
+        {"key": "b", "text": "Pulsos periféricos de menor amplitude."},
+        {"key": "c", "text": "Pulsos periféricos de maior amplitude."},
+        {"key": "d", "text": "Pulsos periféricos alternantes."}
+      ],
+      "correct_key": "c",
+      "explanation": "Sopro diastólico em foco aórtico é característico de insuficiência aórtica, cuja fisiopatologia (aumento do volume sistólico + queda rápida da pressão diastólica) gera pulsos periféricos de MAIOR amplitude (pulso em martelo d'água/Corrigan).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "PSU-AL R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_018",
+      "statement": "Homem, 72 anos, hipertenso e diabético, apresenta quadro de dispneia de leve intensidade há 2 meses e episódio de síncope há 2 dias. Comparece para realização de ecodopplercardiograma transtorácico que demonstra insuficiência aórtica grave. Sobre os possíveis achados no exame físico desse paciente, assinale a alternativa correta.",
+      "alternatives": [
+        {"key": "a", "text": "A pulsação na base de língua corresponde ao sinal de Musset"},
+        {"key": "b", "text": "O sinal de Quincke corresponde à pulsação dos capilares observada no leito ungueal e que se torna alternadamente vermelho, durante a sístole cardíaca, e branco durante a diástole."},
+        {"key": "c", "text": "O sopro da insuficiência aórtica é sistólico e melhor auscultado no ápice cardíaco."},
+        {"key": "d", "text": "O sinal de Duroziez corresponde ao duplo sopro auscultado à compressão da artéria radial."},
+        {"key": "e", "text": "A posição de cócoras reduz a intensidade do sopro."}
+      ],
+      "correct_key": "b",
+      "explanation": "O sinal de Quincke está corretamente descrito: pulsações capilares no leito ungueal alternando vermelho (sístole)/branco (diástole). Os demais estão incorretos: sinal de Musset é a movimentação da CABEÇA (não pulsação na base da língua); o sopro de IAo é DIASTÓLICO (não sistólico) e melhor audível na borda esternal esquerda (não ápice); o sinal de Duroziez ocorre à compressão da artéria FEMORAL (não radial); cócoras AUMENTA (não reduz) o sopro por elevar a pós-carga.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "ENARE R3CM 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_019",
+      "statement": "Em pacientes com endocardite infecciosa, UMA INDICAÇÃO CLÁSSICA DE CIRURGIA É:",
+      "alternatives": [
+        {"key": "a", "text": "Endocardite tricúspide em usuários de drogas sem complicações."},
+        {"key": "b", "text": "Febre persistente após uso menor que 7 dias de antibiótico."},
+        {"key": "c", "text": "Vegetação menor que 5mm em válvula nativa."},
+        {"key": "d", "text": "Insuficiência cardíaca refratária causada por disfunção valvar aguda."}
+      ],
+      "correct_key": "d",
+      "explanation": "Insuficiência cardíaca refratária secundária a disfunção valvar aguda é a indicação clássica Classe I mais robusta para cirurgia precoce na endocardite infecciosa.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "facil",
+      "source": "UNICAMP R3CG 2026",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_020",
+      "statement": "Homem, 57a, é trazido ao serviço médico após episódio de desmaio ao realizar grande esforço no trabalho. Conta que subitamente perdeu a consciência, sem referir qualquer outro sintoma, e que ao acordar não apresentava déficits. Nas últimas semanas sentiu aperto no peito ao realizar os esforços que desaparecia o repouso. Exame físico: PA= 110x85 mmHg; FC= 92 bpm; FR= 16 irpm; Oximetria de pulso (ar ambiente)= 97%, corado, hidratado. Pulso carotídeo diminuído e tardio; Coração: ictus no 5º espaço intercostal esquerdo desviado 2 cm para a esquerda da linha hemiclavicular ipsilateral, bulhas rítmicas com sopro mesos sistólico ejetivo, rude, audível em focos aórtico, aórtico acessório e mitral, irradiado para o pescoço com B4 presente; extremidades: pulsos de baixa amplitude. O DIAGNÓSTICO É:",
+      "alternatives": [
+        {"key": "a", "text": "Insuficiência aórtica."},
+        {"key": "b", "text": "Insuficiência mitral."},
+        {"key": "c", "text": "Estenose aórtica."},
+        {"key": "d", "text": "Estenose mitral."}
+      ],
+      "correct_key": "c",
+      "explanation": "Pulso carotídeo diminuído e tardio (parvus et tardus), sopro sistólico ejetivo irradiado para pescoço, B4 e pulsos periféricos de baixa amplitude compõem o quadro clássico de estenose aórtica grave sintomática (angina + síncope).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "UNICAMP R1 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_021",
+      "statement": "Mulher, 72 anos, queixa-se de dispneia aos moderados esforços, sem outras queixas. Apresenta doença valvar cardíaca de etiologia reumática, sem comorbidades. Não faz uso de medicamentos. Exame físico: FC = 72 bpm, PA = 128 x 80 mmHg, sopro holossistólico em foco mitral, intensidade 3+/6+, com irradiação para a região axilar esquerda, sem outras alterações. Ecocardiograma: fração de ejeção do ventrículo esquerdo = 55%, valva mitral bastante espessada e com calcificação extensa apresentando dupla lesão com predomínio de insuficiência de grau acentuado. Qual é a recomendação mais apropriada para essa paciente?",
+      "alternatives": [
+        {"key": "a", "text": "Tratamento cirúrgico com prótese mecânica."},
+        {"key": "b", "text": "Tratamento cirúrgico com prótese biológica."},
+        {"key": "c", "text": "Conduta conservadora com dapagliflozina."},
+        {"key": "d", "text": "Conduta conservadora com vasodilatador"}
+      ],
+      "correct_key": "b",
+      "explanation": "Insuficiência mitral acentuada sintomática, com valva extensamente calcificada (baixa chance de reparo), tem indicação cirúrgica. Dada a idade avançada (72 anos), prótese BIOLÓGICA é preferível para evitar anticoagulação crônica de longo prazo.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "USP-RP R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_022",
+      "statement": "Nas endocardites infecciosas podem surgir sinais bastante característicos entre os quais NÃO se incluem:",
+      "alternatives": [
+        {"key": "a", "text": "manchas cutâneas róseas, com bordas definidas e centro pálido, evanescentes, não pruriginosas, principalmente no tronco."},
+        {"key": "b", "text": "petéquias em extremidades e palato."},
+        {"key": "c", "text": "pequenas hemorragias em farpas subungueais."},
+        {"key": "d", "text": "máculas palmo-plantares."},
+        {"key": "e", "text": "pápulo-pústulas em polpas digitais."}
+      ],
+      "correct_key": "a",
+      "explanation": "A descrição de manchas róseas evanescentes com centro pálido, principalmente no tronco, corresponde às 'roseolas' clássicas da FEBRE TIFOIDE, não sendo um achado cutâneo característico de endocardite infecciosa (que classicamente inclui petéquias, hemorragias em farpa, lesões de Janeway/Osler).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "HSL-SP R3CM 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_023",
+      "statement": "A maioria dos pacientes > 80 anos de idade apresenta FA com elevada FC que, associada a maior diâmetro anteroposterior do tórax, dificulta a ausculta. Sendo correto que:",
+      "alternatives": [
+        {"key": "a", "text": "Quanto menos fibrosada e calcificada a valva mitral, menos audíveis serão os sinais auscultatórios da EM, cuja suspeita diagnóstica pode ser estabelecida a partir dos sinais de hipertensão arterial pulmonar."},
+        {"key": "b", "text": "Quanto mais fibrosada e calcificada a valva mitral, mais audíveis serão os sinais auscultatórios da EM, cuja suspeita diagnóstica pode ser estabelecida a partir dos sinais de hipertensão arterial pulmonar."},
+        {"key": "c", "text": "Quanto mais fibrosada e calcificada a valva mitral, menos audíveis serão os sinais auscultatórios da EM, cuja suspeita diagnóstica pode ser estabelecida a partir dos sinais de hipertensão arterial pulmonar."},
+        {"key": "d", "text": "Quanto mais fibrosada e calcificada a valva mitral, menos audíveis serão os sinais auscultatórios da EM, cuja suspeita diagnóstica nunca pode ser estabelecida a partir dos sinais de hipertensão arterial pulmonar."}
+      ],
+      "correct_key": "c",
+      "explanation": "Valvas mais fibrosadas/calcificadas perdem mobilidade, reduzindo a audibilidade dos sinais clássicos (estalido, ruflar). Nesses casos, a suspeita diagnóstica pode ser estabelecida indiretamente pelos sinais de hipertensão pulmonar secundária (hiperfonese de P2, sinais de falência direita).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "ISCMSC R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_024",
+      "statement": "Homem, 65 anos de idade, apresenta cansaço, falta de ar e edema de membros inferiores há 2 meses. Exame físico: sopro sistólico em crescendo-decrescendo na borda esternal superior esquerda, com o paciente sentado e inclinado para frente. Qual é a doença valvar mais provável?",
+      "alternatives": [
+        {"key": "a", "text": "Estenose aórtica."},
+        {"key": "b", "text": "Dupla lesão aórtica."},
+        {"key": "c", "text": "Dupla lesão mitral."},
+        {"key": "d", "text": "Insuficiência mitral grave."}
+      ],
+      "correct_key": "b",
+      "explanation": "A posição de sentado inclinado para frente é a manobra clássica para acentuar o sopro diastólico da insuficiência aórtica; associada ao sopro sistólico em crescendo-decrescendo na base, sugere acometimento misto da valva aórtica (dupla lesão aórtica).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "UNIFESP R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_025",
+      "statement": "Mulher, 58 anos, com história de dispneia progressiva e rouquidão há 3 meses. Laringoscopia evidencia paralisia da prega vocal esquerda. TC de tórax mostra aumento do átrio esquerdo com compressão de estruturas adjacentes. Qual patologia cardíaca está classicamente associada?",
+      "alternatives": [
+        {"key": "a", "text": "Insuficiência aórtica crônica, síndrome cardiovocal."},
+        {"key": "b", "text": "Estenose mitral reumática, síndrome de Ortner."},
+        {"key": "c", "text": "Miocardiopatia dilatada idiopática, síndrome de Heyde."},
+        {"key": "d", "text": "Hipertensão arterial sistêmica isolada, fenômeno de Gallavardin."}
+      ],
+      "correct_key": "b",
+      "explanation": "Aumento importante do átrio esquerdo (classicamente por estenose mitral reumática) comprimindo o nervo laríngeo recorrente esquerdo, causando rouquidão/paralisia de corda vocal, é a síndrome de Ortner (síndrome cardiovocal).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "HMA-SP R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_026",
+      "statement": "Em relação às indicações de tratamento cirúrgico na endocardite infecciosa em adultos, assinale a alternativa que corresponde à situação que representa indicação formal de intervenção cirúrgica precoce (durante o tratamento antibiótico, na mesma internação).",
+      "alternatives": [
+        {"key": "a", "text": "Endocardite em válvula nativa com insuficiência valvar aguda grave e sinais de congestão pulmonar refratária à terapia clínica"},
+        {"key": "b", "text": "Endocardite em válvula nativa com insuficiência valvar leve, febre em resolução hemoculturas negativas"},
+        {"key": "c", "text": "Vegetação em válvula nativa com > 7 mm, hemodinamicamente estável, sem embolias prévias, e boa resposta clínica ao antibiótico"},
+        {"key": "d", "text": "Endocardite com hemoculturas persistentemente negativas, sem insuficiência cardíaca sem abscesso perivalvar"}
+      ],
+      "correct_key": "a",
+      "explanation": "Insuficiência valvar aguda grave com congestão pulmonar refratária representa indicação Classe I clássica de cirurgia precoce na endocardite infecciosa.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "SES-DF R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_027",
+      "statement": "A estenose mitral é uma doença que acarreta importante morbidade para os pacientes, causando diminuição da tolerância ao exercício e dispneia. Dentre as causas de estenose mitral, destaca-se em nosso meio a estenose mitral reumática, cujas características são:",
+      "alternatives": [
+        {"key": "a", "text": "Ausência de acometimento comissural."},
+        {"key": "b", "text": "Aumento da espessura das bases dos folhetos, próximo ao anel valvar."},
+        {"key": "c", "text": "Acometimento preferencial das bordas dos folhetos."},
+        {"key": "d", "text": "Temporalmente, ocorre na fase aguda da doença reumática."},
+        {"key": "e", "text": "Acometimento exclusivo das bordas dos folhetos, poupando comissuras."}
+      ],
+      "correct_key": "b",
+      "explanation": "A estenose mitral reumática caracteriza-se por espessamento das BASES dos folhetos próximo ao anel valvar e fusão comissural, sendo um processo CRÔNICO (não da fase aguda da doença reumática).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "UNESC-ES R3CM 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_028",
+      "statement": "Assinale a alternativa que contém o caso clínico mais provavelmente relacionado à lesão valvar apresentada pelo paciente (imagem):",
+      "alternatives": [
+        {"key": "a", "text": "Homem de 75 anos, tabagista, com dor torácica retroesternal de forte intensidade irradiada para o dorso, do tipo lancinante, com assimetria de pressão e pulsos nos membros, com sopro mais audível no foco aórtico."},
+        {"key": "b", "text": "Homem de 35 anos, usuário de drogas injetáveis, com febre, lesões de Janeway e manchas de Roth, com sopro mais audível no foco tricúspide."},
+        {"key": "c", "text": "Homem de 50 anos com doença de Chagas, dispneia aos mínimos esforços e importante cardiomegalia, com dilatação das câmaras cardíacas, com sopro mais audível no foco mitral."},
+        {"key": "d", "text": "Homem de 40 anos, com histórico de febre reumática na infância, com sopro mais audível no foco mitral."}
+      ],
+      "correct_key": "d",
+      "explanation": "ATENÇÃO: imagem da lesão valvar citada mas não disponível na extração do PDF, sendo essencial para determinar qual caso corresponde à lesão mostrada. Resposta é um chute informado baseado na alta prevalência de valvopatia mitral reumática em bancos de questões brasileiros; confiança baixa, revisão obrigatória com a imagem original.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "SCMA-SP R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_029",
+      "statement": "A ausculta cardíaca é importante etapa da semiologia das doenças cardiológicas. Em relação à ausculta dos sopros cardíacos, marque a alternativa CORRETA:",
+      "alternatives": [
+        {"key": "a", "text": "na insuficiência aórtica importante, percebemos sopro diastólico que, a depender da gravidade da disfunção valvar, pode ocupar a proto, meso ou toda a diástole."},
+        {"key": "b", "text": "na insuficiência mitral, observamos sopro diastólico de regurgitação, que pode se irradiar para a região axilar."},
+        {"key": "c", "text": "na estenose mitral, observamos estalido de fechamento da valva logo após a 2ª bulha."},
+        {"key": "d", "text": "na estenose pulmonar, observamos sopro diastólico no 2º espaço intercostal esquerdo, linha hemiclavicular."},
+        {"key": "e", "text": "a estenose aórtica caracteriza-se por sopro diastólico ejetivo, que pode se irradiar para pescoço, sendo mais audível no foco aórtico."}
+      ],
+      "correct_key": "a",
+      "explanation": "Correto: na IAo importante, o sopro diastólico pode ocupar proto, meso ou toda a diástole conforme a gravidade. IM tem sopro SISTÓLICO (não diastólico); EM tem estalido de ABERTURA (não fechamento); estenose pulmonar tem sopro SISTÓLICO; EAo tem sopro SISTÓLICO ejetivo (não diastólico).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "UNESC-ES R1 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_030",
+      "statement": "Considerando pacientes elegíveis à profilaxia antimicrobiana contra endocardite infecciosa antes da realização de procedimentos dentários de alto risco, assinale a alternativa que apresenta a droga de escolha.",
+      "alternatives": [
+        {"key": "a", "text": "Ciprofloxacino."},
+        {"key": "b", "text": "Claritromicina."},
+        {"key": "c", "text": "Metronidazol."},
+        {"key": "d", "text": "Amoxicilina."}
+      ],
+      "correct_key": "d",
+      "explanation": "Amoxicilina é a droga de primeira escolha para profilaxia de endocardite em procedimentos dentários de alto risco em pacientes elegíveis.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "facil",
+      "source": "UNESP R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_031",
+      "statement": "Homem, 48 anos, procura atendimento com queixa de fraqueza, dispneia progressiva aos esforços há 3 semanas e episódios de febre de até 39ºC. Antecedentes pessoais: febre reumática com prótese biológica em valva mitral há 8 anos. Exame físico: regular estado geral, descorado +2/4, presença de petéquias em conjuntiva e leito ungueal. Ausculta cardíaca: sopro sistólico em foco mitral. Ausculta pulmonar: estertores finos até campos médios bilateralmente. Exames laboratoriais: hemoglobina 10,3 g/dL; leucócitos 13.560/mm³ (10% bastões); fator reumatoide 87UI/L; exame de urina: proteína +/4; hemácias 30/campo; leucócitos 12/campo, presença de acantócitos. Para a hipótese diagnóstica de endocardite bacteriana, é correto:",
+      "alternatives": [
+        {"key": "a", "text": "O diagnóstico é excluído se o ecocardiograma transtorácico for normal."},
+        {"key": "b", "text": "Os agentes bacterianos são os mesmos da endocardite de valva nativa."},
+        {"key": "c", "text": "Febre, sopro novo e fator reumatoide positivo são critérios diagnósticos menores."},
+        {"key": "d", "text": "O tratamento deve ser com Vancomicina associada a Gentamicina por 6 semanas."}
+      ],
+      "correct_key": "b",
+      "explanation": "Endocardite protética TARDIA (>1 ano de implante — aqui 8 anos) tem espectro de agentes bacterianos semelhante ao da endocardite de valva nativa (predomínio de estreptococos/estafilococos), diferente da endocardite protética precoce (organismos nosocomiais). O ecoTT normal não exclui o diagnóstico (baixa sensibilidade, especialmente em prótese).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "UNICAMP R3CM 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_032",
+      "statement": "Homem de 66 anos apresenta quadro súbito de dor torácica subesternal há 3 dias. Seus sintomas aumentaram e diminuíram em um período de 3 horas e depois cederam espontaneamente. Hoje, ele começou a sentir falta de ar progressiva, com sintomas ocorrendo em repouso. Seu histórico médico é significativo para hipertensão e hiperlipidemia, em uso de hidroclorotiazida, atenolol e atorvastatina. Ao exame físico: ele parece angustiado; afebril; PA: 95 x 50 mmHg; FC: 115 bpm; FR: 24 ipm; SatO2: 90% com 4 litros de oxigênio por cateter nasal; turgência venosa jugular; pulmonar: crepitações bilaterais; cardíaco: sopro sistólico inicial suave, com 3ª bulha (B3) audível na área apical; sopro diastólico precoce está presente. ECG: ondas Q significativas nas derivações inferolaterais com segmentos ST elevados. Uma radiografia de tórax confirma a presença de insuficiência cardíaca com cardiomegalia e edema pulmonar bilateral. O diagnóstico mais provável é:",
+      "alternatives": [
+        {"key": "a", "text": "endocardite infecciosa."},
+        {"key": "b", "text": "insuficiência mitral."},
+        {"key": "c", "text": "insuficiência tricúspide."},
+        {"key": "d", "text": "miocardite aguda."},
+        {"key": "e", "text": "tamponamento cardíaco."}
+      ],
+      "correct_key": "b",
+      "explanation": "Dor torácica há 3 dias com padrão de infarto (ondas Q + ST elevado inferolateral no ECG) evoluindo com sopro sistólico novo e insuficiência cardíaca aguda é o quadro clássico de complicação mecânica pós-IAM: ruptura de músculo papilar causando insuficiência mitral aguda grave.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "ABC R3CM 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_033",
+      "statement": "O ecodopplercardiograma transtorácico:",
+      "alternatives": [
+        {"key": "a", "text": "É o método de primeira linha para o diagnóstico e a classificação da gravidade das valvopatias, por meio de uma análise combinada das alterações da anatomia e da função valvar."},
+        {"key": "b", "text": "É o método de primeira linha para o diagnóstico e não da classificação da gravidade das valvopatias, por meio de uma análise combinada das alterações da anatomia e da função valvar."},
+        {"key": "c", "text": "É o método de primeira linha para o diagnóstico e a classificação da gravidade das valvopatias, por meio de uma análise combinada das alterações da anatomia e da map da função valvar."},
+        {"key": "d", "text": "Não é o método de primeira linha para o diagnóstico e a classificação da gravidade das valvopatias, por meio de uma análise combinada das alterações da anatomia e da função valvar."}
+      ],
+      "correct_key": "a",
+      "explanation": "O ecoDopplercardiograma transtorácico é o método de primeira linha tanto para o diagnóstico quanto para a classificação de gravidade das valvopatias.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "facil",
+      "source": "ISCMSC R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_034",
+      "statement": "Em cirurgia de troca valvar aórtica por prótese biológica em paciente jovem, A PRINCIPAL LIMITAÇÃO É:",
+      "alternatives": [
+        {"key": "a", "text": "Necessidade de anticoagulação oral crônica."},
+        {"key": "b", "text": "Degeneração estrutural precoce da prótese."},
+        {"key": "c", "text": "Maior risco infeccioso imediato."},
+        {"key": "d", "text": "Alta mortalidade intraoperatória em comparação à mecânica."}
+      ],
+      "correct_key": "b",
+      "explanation": "Próteses biológicas degeneram mais rapidamente em pacientes jovens (maior metabolismo do cálcio), sendo essa a principal limitação — diferente das próteses mecânicas, que duram mais mas exigem anticoagulação crônica.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "facil",
+      "source": "UNICAMP R3CG 2026",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_035",
+      "statement": "Menino de 14 anos vem a consulta visando liberação para a prática de atividade física. Irá iniciar aulas de jiu-jitsu e o professor solicitou um atestado. Não há relato de queixas, nem doenças prévias. Irmão mais velho fez uma cirurgia de troca valvar aórtica há 3 anos. Ao exame físico, você observa somente as seguintes alterações: pressão arterial em membro superior direito 110x40mmHg e sopro diastólico 2+/6 em foco aórtico. Ao passar o caso para a preceptoria, sua chefe recomenda que você reavalie os pulsos deste paciente. Qual alteração se espera encontrar nos pulsos?",
+      "alternatives": [
+        {"key": "a", "text": "Diferença entre membros."},
+        {"key": "b", "text": "Pulsos em martelo d'água."},
+        {"key": "c", "text": "Pulsos paradoxais."},
+        {"key": "d", "text": "Pulsos parvus et tardus."}
+      ],
+      "correct_key": "a",
+      "explanation": "Histórico familiar de cirurgia valvar aórtica sugere possível valva aórtica bicúspide congênita, condição frequentemente associada a coarctação da aorta. A recomendação explícita de reavaliar os PULSOS (não apenas caracterizá-los) aponta para investigar diferença de pulsos/pressão entre membros, sinal clássico de coarctação — achado adicional além do esperado 'martelo d'água' da insuficiência aórtica isolada.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "USP-RP R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_036",
+      "statement": "Homem de 36 anos, assintomático, passou em consulta periódica no trabalho. EF: sopro sistólico rude no foco aórtico. Ecocardiograma: estenose aórtica importante. Um fator complicador relacionado a esta valvopatia e que indicaria cirurgia de troca valvar neste caso é",
+      "alternatives": [
+        {"key": "a", "text": "a fração de ejeção do ventrículo esquerdo abaixo de 50% ao ecocardiograma."},
+        {"key": "b", "text": "a cardiomegalia na radiografia de tórax."},
+        {"key": "c", "text": "a sobrecarga ventricular esquerda ao eletrocardiograma."},
+        {"key": "d", "text": "o strain longitudinal global > 20% ao ecocardiograma."}
+      ],
+      "correct_key": "a",
+      "explanation": "Em estenose aórtica importante assintomática, a queda da FEVE abaixo de 50% é indicação Classe I clássica de cirurgia, independente de sintomas.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "UNESP R3CM 2024",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_037",
+      "statement": "A endocardite infecciosa ocorre com maior frequência em portadores de anomalias cardíacas congênitas ou adquiridas e representa importante causa de morbidade e mortalidade na faixa etária pediátrica. Ela é mais comumente causada por",
+      "alternatives": [
+        {"key": "a", "text": "fungos."},
+        {"key": "b", "text": "micobactérias."},
+        {"key": "c", "text": "bactérias."},
+        {"key": "d", "text": "protozoários."},
+        {"key": "e", "text": "vírus."}
+      ],
+      "correct_key": "c",
+      "explanation": "A endocardite infecciosa, em qualquer faixa etária incluindo pediátrica, é causada predominantemente por bactérias (estreptococos, estafilococos).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "facil",
+      "source": "ENARE R1 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_038",
+      "statement": "Um paciente de 45 anos de idade foi encaminhado para avaliação de disfagia há cerca de seis meses, com sensação de \"parada da descida do alimento\" no meio do tórax. O paciente relata histórico de dispneia com piora progressiva e passado de tratamento irregular para febre reumática. Ao exame, observaram-se ritmo cardíaco regular em dois tempos, com sopro diastólico audível em ápice; FC = 86 bpm; FR = 20 ipm; e SatO2 = 95%. O esofagograma atual mostra compressão extrínseca do esôfago. Julgue o item: A evolução da patologia descrita cursa com aumento pressórico do leito vascular pulmonar.",
+      "alternatives": [
+        {"key": "a", "text": "CERTO"},
+        {"key": "b", "text": "ERRADO"}
+      ],
+      "correct_key": "a",
+      "explanation": "Estenose mitral (sopro diastólico apical, dilatação de átrio esquerdo comprimindo o esôfago) evolui classicamente com aumento crônico da pressão no leito vascular pulmonar (hipertensão pulmonar secundária à elevação retrógrada da pressão atrial esquerda).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "SES-DF R1 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_039",
+      "statement": "Na atualização de 2017, seguida da de 2021, das recomendações da American Heart Association para a profilaxia da endocardite infecciosa, discutiu-se a real efetividade da profilaxia para a endocardite para todos os indivíduos, chegando-se ao consenso de que a profilaxia em procedimentos dentários deve ser estudada em quatro grupos de indivíduos considerados como de alto risco: portadores de valva cardíaca protética ou outros dispositivos cardíacos implantáveis; indivíduos com endocardite prévia ou recorrente; doença cardíaca congênita; e receptores de transplante cardíaco. Caso se opte por realizar essa profilaxia, ela deverá ser feita com",
+      "alternatives": [
+        {"key": "a", "text": "amoxicilina 2 g, dose única."},
+        {"key": "b", "text": "ampicilina 2 g, de 12 em 12 horas."},
+        {"key": "c", "text": "cefazolina 500 mg, dose única."},
+        {"key": "d", "text": "azitromicina 500 mg, por cinco dias."},
+        {"key": "e", "text": "clindamicina 600 mg, dose única."}
+      ],
+      "correct_key": "a",
+      "explanation": "Amoxicilina 2g em dose única é o esquema padrão da AHA para profilaxia de endocardite em procedimentos dentários de alto risco.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "facil",
+      "source": "SUS-SP R1 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_040",
+      "statement": "Um paciente de 30 anos, com história pregressa de uso constante de drogas intravenosas, foi à emergência por apresentar febre persistente de 38,5°C sem sinais e sintomas de insuficiência cardíaca, e apresentando 3 hemoculturas distintas, em diferentes horários, com estafilococo aureus. Depois desse resultado, o paciente realizou um ecocardiograma transesofágico que demonstrou regurgitação importante e presença de uma massa de 2,2cm anexada à valva tricúspide. Julgue: Pelo tamanho da vegetação, a cirurgia para troca valvar deve ser priorizada como forma de tratamento.",
+      "alternatives": [
+        {"key": "a", "text": "CERTO"},
+        {"key": "b", "text": "ERRADO"}
+      ],
+      "correct_key": "b",
+      "explanation": "Vegetação grande é apenas um fator de risco RELATIVO para cirurgia (associado a maior risco embólico), não uma indicação isolada e suficiente para cirurgia imediata — especialmente em endocardite tricúspide de usuário de drogas, sem IC ou embolias recorrentes documentadas, onde o tratamento clínico costuma ser priorizado dado o alto risco de reinfecção de prótese com uso continuado de drogas.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "SES-DF R3CM 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_041",
+      "statement": "Mulher, 52 anos de idade, submeteu-se à troca valvar aórtica por prótese biológica número 19 há 3 anos. Relata angina aos moderados esforços, acompanhada de dispneia, há 6 meses. Exame físico: FC 90 bpm; PA 130 x 90 mmHg; BRNF em 2T com sopro holossistólico em foco aórtico, 3+/6+, rude, com irradiação para fúrcula e carótidas; abdômen sem alterações; perfusão periférica adequada; sem edemas de membros inferiores. Ecocardiograma transtorácico: aorta com diâmetro normal, prótese biológica aórtica normofuncionante, área valvar da prótese aórtica 0,8 cm2, gradiente médio VE-Aorta 80 mmHg, função biventricular preservada, hipertrofia moderada VE. Coronariografia sem alterações. Qual é a conduta mais adequada?",
+      "alternatives": [
+        {"key": "a", "text": "Troca de prótese aórtica com ampliação do anel aórtico."},
+        {"key": "b", "text": "Implante de prótese transcateter em posição aórtica."},
+        {"key": "c", "text": "Reconstrução da raiz aórtica com tubo valvado e reimplante coronariano."},
+        {"key": "d", "text": "Troca da prótese biológica por prótese mecânica."}
+      ],
+      "correct_key": "b",
+      "explanation": "Área valvar protética muito pequena (0,8cm²) com gradiente extremamente elevado (80mmHg) em prótese pequena (nº19) sugere disfunção estrutural grave/discrepância paciente-prótese severa, com coronárias normais excluindo causa isquêmica para a angina. O implante de prótese transcateter valve-in-valve é a abordagem preferida atualmente, menos invasiva que a reoperação.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "UNIFESP R3CG 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_042",
+      "statement": "Assinale a alternativa que apresenta as características semiológicas mais clássicas da insuficiência aortica.",
+      "alternatives": [
+        {"key": "a", "text": "PA divergente, pulso em martelo d´água e sopro audível logo após a primeira bulha"},
+        {"key": "b", "text": "PA divergente, pulso parvus et tardus e sopro audível logo após a segunda bulha"},
+        {"key": "c", "text": "PA divergente, pulso em martelo d´água e sopro audível logo após a segunda bulha"},
+        {"key": "d", "text": "PA convergente, pulso em martelo d´água e sopro audível logo após a segunda bulha"},
+        {"key": "e", "text": "PA convergente, pulso parvus et tardus e sopro audível logo após a primeira bulha"}
+      ],
+      "correct_key": "c",
+      "explanation": "IAo clássica: PA divergente (pressão de pulso aumentada), pulso em martelo d'água (Corrigan) e sopro diastólico iniciando logo após B2.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "facil",
+      "source": "SUS-SP R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_043",
+      "statement": "Mulher, 35 anos de idade, com prole constituída, portadora de valva aórtica bicúspide, apresenta dispnéia aos moderados esforços, há 6 meses. Ecocardiograma transtorácico: insuficiência valvar aórtica importante e mitral leve, ausência de ectasia ânulo-aórtica. Angiotomografia: aorta ascendente medindo 40 mm (normal 21-36 mm), raiz aórtica com diâmetro normal. Qual é a conduta mais adequada?",
+      "alternatives": [
+        {"key": "a", "text": "Troca de valva aórtica por prótese mecânica, sem correção do aneurisma da aorta ascendente."},
+        {"key": "b", "text": "Troca de valva aórtica por prótese biológica e correção do aneurisma da aorta ascendente."},
+        {"key": "c", "text": "Troca de valva aórtica por prótese mecânica e correção do aneurisma da aorta ascendente."},
+        {"key": "d", "text": "Troca de valva aórtica por prótese biológica, sem correção do aneurisma da aorta ascendente."}
+      ],
+      "correct_key": "b",
+      "explanation": "IAo importante sintomática exige troca valvar; a aorta ascendente dilatada (40mm, acima do normal) em valva aórtica bicúspide justifica correção concomitante dado o limiar mais baixo de intervenção nessa aortopatia associada à VAB. Com prole já constituída (sem necessidade futura de evitar anticoagulação por gestação) mas sem contraindicação específica a biológica, esta é preferida na ausência de outra indicação clara para mecânica.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "UNIFESP R3CG 2024",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_044",
+      "statement": "Homem de 42 anos de idade procura pronto atendimento com quadro de dor, edema e hiperemia progressivos no tornozelo direito há 14 dias. Há 3 dias com calafrios, tremores e astenia. Foi internado para investigação complementar, colhidas hemoculturas e iniciado vancomicina. Paciente evolui com melhora clínica, afebril e, após 5 dias, temos o seguinte antibiograma. Assinale a alternativa correta:",
+      "alternatives": [
+        {"key": "a", "text": "Manter Vancomicina e solicitar RNM de tornozelo."},
+        {"key": "b", "text": "Manter Vancomicina e solicitar ecotransesofágico."},
+        {"key": "c", "text": "Trocar antibiótico por Oxacilina e solicitar ecocardiograma transtorácico."},
+        {"key": "d", "text": "Trocar antibiótico por Linezolida e solicitar Ultrassonografia de articulação do tornozelo direito."}
+      ],
+      "correct_key": "c",
+      "explanation": "ATENÇÃO: antibiograma citado mas não disponível na extração do PDF. Assumindo Staphylococcus aureus sensível à oxacilina (MSSA, resultado mais provável dado o padrão de evolução favorável e a conduta esperada), a conduta padrão é DE-ESCALONAR de vancomicina para oxacilina (mais eficaz e menos nefrotóxica) e investigar bacteremia por Staph com ecocardiograma (iniciando por transtorácico).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "FAMERP R1 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_045",
+      "statement": "Em relação à estenose aórtica, assinale a alternativa correta.",
+      "alternatives": [
+        {"key": "a", "text": "A área valvar aórtica < 1 cm² marca mau prognóstico."},
+        {"key": "b", "text": "O ecocardiograma sob estresse com dobutamina está indicado em pacientes com área valvar = 1 cm², com fração de ejeção ≤ 50% e gradiente médio VE/Ao ≤ 40 mmHg."},
+        {"key": "c", "text": "O implante de TAVI é realizado em pacientes com expectativa de vida maior que dois anos."},
+        {"key": "d", "text": "A velocidade do jato aórtico = 4 m/s é indicativa de estenose aórtica moderada."},
+        {"key": "e", "text": "O sopro sistólico com pico proto ou mesos sistólicos é um indicativo de gravidade."}
+      ],
+      "correct_key": "a",
+      "explanation": "AVA <1cm² (critério clássico de estenose aórtica grave) marca mau prognóstico. As demais estão incorretas: o eco de estresse com dobutamina é indicado especificamente em baixo fluxo/baixo gradiente COM FE REDUZIDA (não preservada); TAVI não exige especificamente '>2 anos' como corte formal; velocidade ≥4m/s indica estenose GRAVE (não moderada); sopro com pico TARDIO (não proto/mesossistólico) indica maior gravidade.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "IAMSPE R3CM 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_046",
+      "statement": "Uma paciente de 49 anos de idade, com antecedente de endocardite bacteriana, compareceu a um consultório com relato de programação cirúrgica para a retirada de mioma uterino. Na realização do exame físico, constatou-se o seguinte: ictus cordis desviado para a esquerda e para baixo; B1 hipofonética; sopro sistólico regurgitativo ++/6+. A partir desse caso clínico hipotético, assinale a alternativa correta.",
+      "alternatives": [
+        {"key": "a", "text": "Para todos os pacientes, independentemente de condições prévias, a profilaxia deve ser feita por via parenteral com ampicilina associada a gentamicina."},
+        {"key": "b", "text": "O uso de profilaxia antimicrobiana para prevenção de endocardite bacteriana nunca é indicado."},
+        {"key": "c", "text": "Em casos de ausência de alergia a penicilina, a profilaxia é feita por via parenteral com ampicilina associada a gentamicina."},
+        {"key": "d", "text": "O uso de profilaxia antimicrobiana para prevenção de endocardite bacteriana baseia-se em dados de ensaios clínicos, e não em vantagens teóricas."},
+        {"key": "e", "text": "No caso da paciente em questão, a profilaxia deve ser feita por via oral com amoxicilina associada a clindamicina."}
+      ],
+      "correct_key": "d",
+      "explanation": "ATENÇÃO: as diretrizes atuais de profilaxia de endocardite restringem a indicação a procedimentos DENTÁRIOS de alto risco — a retirada de mioma uterino (procedimento ginecológico) não é indicação de profilaxia mesmo em paciente de alto risco. Entre as opções dadas (nenhuma isenta de imprecisão dado o cenário clínico do caso), a alternativa que reflete corretamente um ponto de ensino histórico sobre a evolução das diretrizes é que a política atual de profilaxia se apoia mais em racional teórico/consenso de especialistas do que em evidência robusta de ensaios clínicos randomizados — motivo pelo qual as recomendações foram progressivamente restringidas nas últimas atualizações. Resposta de menor confiança dada a ambiguidade das opções frente ao cenário clínico apresentado.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "SCM-SP R3CM 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_047",
+      "statement": "Mulher de 70 anos apresenta quadro clínico de intolerância aos esforços e síncope com início há 4 meses. Apresenta sopro sistólico em foco aórtico 3+/6+ com irradiação para fúrcula esternal e carótidas e propagação para foco mitral (fenômeno de Gallavardin). Realizou ecocardiograma com análise de fluxo transvalvar e cálculo de área valvar (imagem). Com base no quadro clínico-ecocardiográfico, a melhor conduta e o diagnóstico etiológico são, respectivamente,",
+      "alternatives": [
+        {"key": "a", "text": "encaminhar a paciente para troca valvar aórtica devido a diagnóstico clínico-ecocardiográfico de estenose valvar aórtica."},
+        {"key": "b", "text": "iniciar medicamentos para tratamento de insuficiência cardíaca (beta-bloqueador, IECA e espironolactona) e solicitar novo ecocardiograma em 6 meses."},
+        {"key": "c", "text": "solicitar holter para investigação de síncope e iniciar amiodarona."},
+        {"key": "d", "text": "encaminhar a paciente para troca valvar mitral devido a diagnóstico clínico-ecocardiográfico de insuficiência mitral."},
+        {"key": "e", "text": "encaminhar a paciente para troca valvar aórtica devido a diagnóstico clínico-ecocardiográfico de insuficiência valvar aórtica."}
+      ],
+      "correct_key": "a",
+      "explanation": "ATENÇÃO: imagem do fluxo transvalvar/área valvar citada mas não disponível na extração do PDF. O quadro clínico (sopro sistólico ejetivo em foco aórtico com fenômeno de Gallavardin, síncope) é fortemente sugestivo de estenose aórtica grave, indicando troca valvar.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "UNAERP R3CM 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_048",
+      "statement": "A Febre Reumática é a principal causa da Estenose Mitral (EM). Analise as assertivas: I. A EM é considerada 'grave' quando a abertura da valva mitral se reduz a < 1,5 cm². II. A pressão diastólica no ventrículo esquerdo é aumentada e a fração de ejeção é normal na EM isolada. III. O intervalo entre A2 (fechamento da valva aórtica) e EA (estalido de abertura da valva mitral) aumenta proporcionalmente à gravidade da EM. IV. Nos pacientes com morfologia valvar favorável a comissurotomia mitral percutânea com balão tem resultados semelhantes aos da valvotomia cirúrgica, com menores taxas de morbidade e mortalidade. Escolha as assertivas corretas.",
+      "alternatives": [
+        {"key": "a", "text": "I e II apenas."},
+        {"key": "b", "text": "I e IV apenas."},
+        {"key": "c", "text": "II e III apenas."},
+        {"key": "d", "text": "I, II e III apenas."},
+        {"key": "e", "text": "IV apenas."}
+      ],
+      "correct_key": "b",
+      "explanation": "I e IV corretas. II está errada: na EM isolada, a pressão diastólica do VE é tipicamente NORMAL (o VE é protegido pela obstrução proximal na valva). III está errada: o intervalo A2-EA DIMINUI (não aumenta) proporcionalmente à gravidade da EM, pois maior pressão atrial esquerda causa abertura mais precoce da valva.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "AMP R3CM 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_049",
+      "statement": "Homem, 65 anos, diabético e portador de doença renal crônica em hemodiálise há 3 anos, através de cateter de longa permanência. Tem apresentado febre (até 38,0°C) diariamente há 20 dias, acompanhada de calafrios há 2 dias e tremores hoje, durante a sessão de diálise. Imagem de TC de tórax realizada hoje é mostrada. Qual é o agente etiológico mais provável?",
+      "alternatives": [
+        {"key": "a", "text": "Staphylococcus aureus."},
+        {"key": "b", "text": "Streptococcus pneumoniae."},
+        {"key": "c", "text": "Mycobacterium tuberculosis."},
+        {"key": "d", "text": "Legionella pneumophila."}
+      ],
+      "correct_key": "a",
+      "explanation": "ATENÇÃO: TC de tórax citada mas não disponível na extração do PDF (provavelmente mostrando êmbolos sépticos pulmonares). Paciente em hemodiálise com cateter de longa permanência e febre diária prolongada — Staphylococcus aureus é o agente etiológico mais provável para bacteremia/endocardite relacionada a cateter em pacientes dialíticos.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "USP-RP R3CM 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_050",
+      "statement": "Mulher de 34 anos apresenta dispneia progressiva, atualmente para esforços habituais. Exame físico: FC 92 bpm, PA 120/70 mmHg, bulhas rítmicas, sopro diastólico em foco mitral, hiperfonese de B1 e estalido de abertura, MV presente sem ruídos adventícios. Ecocardiograma: valva mitral com calcificação importante de seus folhetos e aparato subvalvar, estenose importante (gradiente médio = 12 mmHg) e insuficiência moderada ao Doppler, escore ecocardiográfico (Wilkins) de 9, hipertensão pulmonar moderada (60 mmHg). A conduta recomendada é",
+      "alternatives": [
+        {"key": "a", "text": "introduzir betabloqueador e diurético para controle dos sintomas e reavaliar ecocardiograma em 6 meses."},
+        {"key": "b", "text": "realizar valvoplastia por cateter balão."},
+        {"key": "c", "text": "realizar cirurgia de troca valvar."},
+        {"key": "d", "text": "realizar cirurgia de comissurotomia e preservar valva nativa."}
+      ],
+      "correct_key": "c",
+      "explanation": "Calcificação importante do folheto e aparato subvalvar (escore de Wilkins 9, morfologia desfavorável) associada à insuficiência mitral concomitante moderada contraindicam a valvoplastia por balão (que não corrige regurgitação e tem pior resultado em valvas desfavoráveis) — indicando cirurgia de troca valvar.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "UNESP R3CM 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_051",
+      "statement": "Homem, 80 anos, apresenta ao exame físico sopro aórtico mesosistólico rude (4+/6+) e pulso carotídeo de amplitude reduzida. Pode-se afirmar que o sintoma mais associado a um prognóstico ruim é:",
+      "alternatives": [
+        {"key": "a", "text": "dispneia"},
+        {"key": "b", "text": "síncope"},
+        {"key": "c", "text": "angina"},
+        {"key": "d", "text": "palpitação"}
+      ],
+      "correct_key": "a",
+      "explanation": "Na tríade clássica de sintomas da estenose aórtica grave não tratada, a dispneia/insuficiência cardíaca é o sintoma associado ao PIOR prognóstico (sobrevida média ~2 anos), comparado à angina (~5 anos) e síncope (~3 anos).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "UFRJ R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_052",
+      "statement": "As anormalidades no pulso venoso jugular são úteis para a detecção de Insuficiência cardíaca e alterações na pressão arterial pulmonar. Relacione a coluna 1 à coluna 2: Coluna 1: 1 Onda A aumentada. 2 Onda V gigante. 3 Descenso Y proeminente. 4 Descenso Y ausente. Coluna 2: ( ) Tamponamento Cardíaco. ( ) Estenose tricúspide. ( ) Insuficiência tricúspide. ( ) Pericardite constritiva. A ordem correta do preenchimento dos parênteses, de cima para baixo, é:",
+      "alternatives": [
+        {"key": "a", "text": "3-2-1-4."},
+        {"key": "b", "text": "2-4-3-1."},
+        {"key": "c", "text": "4-2-3-1."},
+        {"key": "d", "text": "4-1-2-3."}
+      ],
+      "correct_key": "d",
+      "explanation": "Tamponamento cardíaco: descenso Y AUSENTE (4), pelo comprometimento do enchimento diastólico. Estenose tricúspide: onda A AUMENTADA (1), análogo à EM. Insuficiência tricúspide: onda V GIGANTE (2), pela regurgitação sistólica para o AD. Pericardite constritiva: descenso Y PROEMINENTE (3), enchimento diastólico rápido e abruptamente limitado (sinal de Friedreich).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "AMRIGS R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_053",
+      "statement": "Um paciente de 31 anos de idade compareceu a consulta para investigação de sopro cardíaco. Tem história de pai e irmão com relato de prolapso de valva mitral. Em sua história, relatou várias pneumonias. Ao exame ectoscópico, tem aracnodactilia, palato em ogiva, depressão na parede torácica abaixo da 7ª costela, com sopro em foco aórtico e aórtico acessório. Uma curiosidade desde novo é a hipermobilidade articular. No eletrocardiograma, há sobrecarga atrial e ventricular esquerdas e bloqueio de ramo esquerdo de 1º grau. O ecocardiograma evidencia aumento do átrio e do ventrículo esquerdos, volumoso aneurisma aórtico medindo 6,0 cm de diâmetro e regurgitação aórtica moderada. Assinale a alternativa correta.",
+      "alternatives": [
+        {"key": "a", "text": "O uso de propranolol 1mg/kg e encaminhamento para cirurgia cardíaca são boas condutas nesse caso."},
+        {"key": "b", "text": "Ausência de defeitos na glicoproteína fibrilina causam esse quadro."},
+        {"key": "c", "text": "A doença não apresenta características hereditárias pelo seu envolvimento multissistêmico."},
+        {"key": "d", "text": "A dilatação da aorta não tem impacto na morbidade e mortalidade desse paciente."},
+        {"key": "e", "text": "As alterações cardiovasculares e musculoesqueléticas são de doenças diferentes da desse caso."}
+      ],
+      "correct_key": "a",
+      "explanation": "Fenótipo marfanoide clássico (aracnodactilia, palato em ogiva, pectus, hipermobilidade, história familiar) com aneurisma aórtico de 6,0cm (muito acima do limiar cirúrgico ~5,0-5,5cm em Marfan) exige betabloqueador (redução do estresse de parede aórtica) e encaminhamento cirúrgico urgente.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "HSM-DF R3CM 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_054",
+      "statement": "Insuficiência Mitral Secundária decorre de alterações ventriculares, sendo correto o item:",
+      "alternatives": [
+        {"key": "a", "text": "Disfunção e/ou dilatação, enquanto que os folhetos valvares mitrais e as cordoalhas são normais."},
+        {"key": "b", "text": "Disfunção e não a dilatação, enquanto que os folhetos valvares mitrais e as cordoalhas são normais."},
+        {"key": "c", "text": "Disfunção e/ou dilatação, enquanto que os folhetos valvares mitrais e as cordoalhas são anormais."},
+        {"key": "d", "text": "Disfunção e/ou dilatação, enquanto somente os folhetos valvares mitrais são normais."}
+      ],
+      "correct_key": "a",
+      "explanation": "A característica definidora da IM SECUNDÁRIA (funcional) é justamente que os folhetos e cordoalhas são estruturalmente NORMAIS — a regurgitação decorre de disfunção e/ou dilatação ventricular causando má-coaptação, diferentemente da IM primária (doença estrutural do próprio aparelho valvar).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "HOA R1 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_055",
+      "statement": "A estenose aórtica cursa com a formação de um gradiente de pressão sistólico entre ventrículo esquerdo e aorta. São características do sopro da estenose aórtica, EXCETO:",
+      "alternatives": [
+        {"key": "a", "text": "Mais intenso no início da sístole."},
+        {"key": "b", "text": "Sopro aumentado com esforço físico."},
+        {"key": "c", "text": "Mais intenso em foco aórtico."},
+        {"key": "d", "text": "Irradia para carótidas e fúrcula esternal."}
+      ],
+      "correct_key": "a",
+      "explanation": "É a exceção pedida: o sopro da EAo é em crescendo-decrescendo, tipicamente com pico MESO ou TELESSISTÓLICO (não mais intenso no INÍCIO da sístole) — quanto mais tardio o pico, maior a gravidade.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "UFMA R3CM 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_056",
+      "statement": "Pacientes com Insuficiência Mitral (IM) importante assintomáticos devem ser periodicamente reavaliados, de acordo com o item:",
+      "alternatives": [
+        {"key": "a", "text": "Quanto ao desenvolvimento ou não de alterações anatômicas e não funcionais secundárias à doença valvar."},
+        {"key": "b", "text": "Quanto ao desenvolvimento ou não de alterações anatômicas e/ou funcionais secundárias à doença valvar."},
+        {"key": "c", "text": "Quanto ao desenvolvimento ou não de alterações funcionais apenas secundárias à doença valvar."},
+        {"key": "d", "text": "Quanto ao desenvolvimento ou não de alterações anatômicas apenas secundárias à doença valvar."}
+      ],
+      "correct_key": "b",
+      "explanation": "O seguimento de IM importante assintomática deve avaliar ambos os aspectos — anatômicos (dimensões/dilatação do VE) E funcionais (FEVE) — para detectar o momento ideal de indicação cirúrgica.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "facil",
+      "source": "HOA R1 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_057",
+      "statement": "Sobre as endocardites, assinale a alternativa VERDADEIRA.",
+      "alternatives": [
+        {"key": "a", "text": "Aneurisma micótico é uma complicação devido à endocardite fúngica, com contaminação da parede vascular por estes patógenos."},
+        {"key": "b", "text": "Uma das indicações de tratamento cirúrgico das endocardites é a etiologia fúngica."},
+        {"key": "c", "text": "O grupo HACEK composto por Haemophilus, Acinetobacter, Clostridium, Enterococos e Klebsiela, é responsável por 25% das endocardites com hemoculturas negativas."},
+        {"key": "d", "text": "Nas endocardites por enterococo a medicação de escolha é o metronidazol."},
+        {"key": "e", "text": "Após 3 dias do início do tratamento antibioticoterápico, persistindo a febre, há indicação de troca do esquema terapêutico, pois este sintoma indica falha terapêutica."}
+      ],
+      "correct_key": "b",
+      "explanation": "A etiologia fúngica é uma indicação clássica de cirurgia na endocardite infecciosa, dada a resposta ruim ao tratamento antifúngico isolado. As demais estão incorretas: 'aneurisma micótico' é um termo histórico que não implica etiologia fúngica (geralmente bacteriana); o grupo HACEK é Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (não os organismos listados); enterococo trata-se com ampicilina/vancomicina+aminoglicosídeo (não metronidazol); febre persistente em 3 dias não indica necessariamente falha terapêutica.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "UFPB R3CM 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_058",
+      "statement": "A ausculta cardíaca é importante etapa da semiologia das doenças cardiológicas. Em relação à ausculta dos sopros cardíacos, marque a alternativa CORRETA:",
+      "alternatives": [
+        {"key": "a", "text": "na insuficiência mitral, observamos sopro diastólico de regurgitação, que pode se irradiar para a região axilar;"},
+        {"key": "b", "text": "na estenose mitral, observamos estalido de fechamento da valva logo após a 2ª bulha."},
+        {"key": "c", "text": "na estenose pulmonar, observamos sopro diastólico no 2º espaço intercostal esquerdo, linha hemiclavicular."},
+        {"key": "d", "text": "a estenose aórtica caracteriza-se por sopro diastólico ejetivo, que pode se irradiar para pescoço, sendo mais audível no foco aórtico."},
+        {"key": "e", "text": "na insuficiência aórtica importante, percebemos sopro diastólico que, a depender da gravidade da disfunção valvar, pode ocupar a proto, meso ou toda a diástole."}
+      ],
+      "correct_key": "e",
+      "explanation": "Correto: IAo importante pode ter sopro diastólico ocupando proto, meso ou toda a diástole. IM tem sopro SISTÓLICO; EM tem estalido de ABERTURA; estenose pulmonar tem sopro SISTÓLICO; EAo tem sopro SISTÓLICO.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "UNESC-ES R3CM 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_059",
+      "statement": "A Estenose Aórtica (EAo) ocorre em 25% dos pacientes com doença cardíaca valvar crônica. Analise as assertivas: I. A EAo em adultos é causada por calcificação degenerativa das cúspides aórticas e ocorre, na maioria das vezes, como consequência de doença congênita, deterioração crônica das cúspides ou inflamação reumática prévia. II. A Valva Aórtica Bicúspide (VAB) é a malformação congênita cardíaca mais comum e ocorre em 0,5 a 1,4% da população, com predomínio para o sexo masculino. III. Os pacientes com VAB podem apresentar aortopatia, que se desenvolve independentemente da gravidade hemodinâmica da lesão valvar, e pode incluir a formação de aneurisma ou dissecção da aorta. IV. Nos últimos anos tem sido incrementado o uso da Valvoplastia Aórtica Percutânea por Balão para pacientes idosos graves com EAo degenerativa. Escolha as assertivas corretas.",
+      "alternatives": [
+        {"key": "a", "text": "I e II apenas."},
+        {"key": "b", "text": "I e IV apenas."},
+        {"key": "c", "text": "II e III apenas."},
+        {"key": "d", "text": "I, II e III apenas."},
+        {"key": "e", "text": "IV apenas."}
+      ],
+      "correct_key": "d",
+      "explanation": "I, II e III corretas. IV está errada: a valvoplastia aórtica por balão isolada tem sido cada vez menos usada como tratamento definitivo em idosos graves (alta taxa de reestenose), sendo hoje amplamente SUPERADA pelo TAVI como abordagem preferencial nesse perfil de pacientes, servindo apenas como ponte terapêutica em situações selecionadas.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "AMP R3CM 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_060",
+      "statement": "Mulher, 78 anos, hipertensa, diabética e ex-tabagista, com doença pulmonar obstrutiva crônica, doença renal crônica estágio IIIB e cirurgia de revascularização do miocárdio há 11 anos, apresenta dispneia aos pequenos esforços (classe funcional III pela NYHA) associada a episódios de síncope ao esforço. Exame físico: ritmo cardíaco regular, sopro sistólico em foco aórtico 4+/6+ com irradiação para fúrcula, FC = 84 bpm e PA = 146 x 88 mmHg. Ecocardiograma: fração de ejeção = 45% e válvula aórtica com área valvar de 0,5 cm², gradiente de pico = 88 mmHg, gradiente médio = 56 mmHg e insuficiência discreta a moderada. Cateterismo cardíaco: doença triarterial, com enxertos cirúrgicos pérvios. Qual é o tratamento de escolha?",
+      "alternatives": [
+        {"key": "a", "text": "Implante de válvula aórtica percutânea."},
+        {"key": "b", "text": "Troca valvar aórtica por prótese biológica."},
+        {"key": "c", "text": "Tratamento com betabloqueador e vasodilatadores orais."},
+        {"key": "d", "text": "Valvuloplastia aórtica por balão."}
+      ],
+      "correct_key": "a",
+      "explanation": "Paciente idosa de alto risco cirúrgico (múltiplas comorbidades: DPOC, DRC, cirurgia cardíaca prévia) com estenose aórtica grave e sintomática — TAVI é a abordagem preferida nesse perfil de risco elevado.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "USP-RP R3CM 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_061",
+      "statement": "Mulher, 78 anos de idade, apresenta dispneia progressiva há 6 meses. Exame físico: turgência jugular patológica, murmúrio vesicular presente bilateralmente com estertores crepitantes em ambas as bases, bulhas cardíacas rítmicas com presença de terceira bulha, ictus palpável no sexto espaço intercostal esquerdo na linha axilar anterior, onde se ausculta um sopro sistólico regurgitativo 3+/6+ irradiado para a axila. Qual é a causa mais provável do sopro?",
+      "alternatives": [
+        {"key": "a", "text": "Insuficiência mitral funcional"},
+        {"key": "b", "text": "Insuficiência tricúspide secundária"},
+        {"key": "c", "text": "Prolapso de valva mitral"},
+        {"key": "d", "text": "Abscesso de valva aórtica"}
+      ],
+      "correct_key": "a",
+      "explanation": "Ictus fortemente desviado lateralmente (6º EIC linha axilar anterior) indica VE severamente dilatado, causando dilatação do anel mitral e regurgitação secundária (funcional) — mecanismo mais provável dado o contexto de disfunção ventricular avançada (B3, congestão).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "UNIFESP R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_062",
+      "statement": "Mulher, 28 anos de idade, portadora de dupla lesão mitral reumática, é admitida no hospital com quadro de febre e sintomas de insuficiência cardíaca. Três amostras de hemoculturas apresentam crescimento de Staphylococcus aureus meticilina sensível. Qual é o esquema antimicrobiano mais adequado para o caso?",
+      "alternatives": [
+        {"key": "a", "text": "Daptomicina."},
+        {"key": "b", "text": "Vancomicina e gentamicina."},
+        {"key": "c", "text": "Oxacilina."},
+        {"key": "d", "text": "Ampicilina, oxacilina e gentamicina."}
+      ],
+      "correct_key": "c",
+      "explanation": "Para endocardite por Staphylococcus aureus meticilina-sensível (MSSA) em valva nativa, a oxacilina é o antibiótico de primeira escolha, geralmente em monoterapia.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "SCMBH R3CM 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_063",
+      "statement": "Quanto à cirurgia da valva aórtica, assinale a alternativa correta.",
+      "alternatives": [
+        {"key": "a", "text": "A presença de insuficiência aórtica é, a princípio, de indicação cirúrgica."},
+        {"key": "b", "text": "A estenose aórtica moderada, definida como AVA > 1,5 cm², e o gradiente médio VE/aorta < 25 mmHg têm indicação para cirurgia de troca valvar."},
+        {"key": "c", "text": "A cirurgia de troca da valva aórtica na estenose aórtica pode ser indicada no paciente não reumático, assintomático, com menos de setenta anos de idade, com classe funcional II, com abertura da valva aórtica (AVA) < 0,7 cm²."},
+        {"key": "d", "text": "A valvoplastia aórtica por cateter-balão é contraindicada como paliação nos casos em que há contraindicação para a cirurgia convencional e o implante de bioprótese aórtica transcateter (TAVI)."},
+        {"key": "e", "text": "O implante de TAVI tem sua principal indicação nos pacientes com menos de setenta anos de idade, podendo ser uma ponte terapêutica para a cirurgia definitiva de troca valvar."}
+      ],
+      "correct_key": "c",
+      "explanation": "Estenose aórtica MUITO GRAVE (AVA<0,7cm², velocidade>5m/s, gradiente médio>60mmHg) é critério que suporta cirurgia mesmo em pacientes jovens de baixo risco e minimamente sintomáticos (Classe II), reconhecendo o risco elevado de progressão rápida nesse subgrupo.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "SCM-SP R3CM 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_064",
+      "statement": "Sopro holossistólico, melhor audível com o diafragma em foco mitral. O sopro pode irradiar para a axila e região infraescapular esquerda. Após a realização de esforço isométrico ocorre aumento da intensidade do sopro, é característico em:",
+      "alternatives": [
+        {"key": "a", "text": "Estenose aórtica."},
+        {"key": "b", "text": "Insuficiência mitral."},
+        {"key": "c", "text": "Estenose Mitral."},
+        {"key": "d", "text": "Insuficiência Aórtica."}
+      ],
+      "correct_key": "b",
+      "explanation": "Sopro holossistólico em foco mitral irradiado para axila, aumentado com handgrip (aumento de pós-carga acentua lesões regurgitantes esquerdas) é o quadro clássico de insuficiência mitral.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "facil",
+      "source": "SCMSJC R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_065",
+      "statement": "A Endocardite infecciosa é uma doença grave, com elevada morbimortalidade, na qual o diagnóstico e tratamento precoces são capazes de modificar a história natural da doença. Quanto aos critérios de Duke modificados para o diagnóstico de endocardite infecciosa, é listado como critério maior:",
+      "alternatives": [
+        {"key": "a", "text": "Evidência de abcesso peri-valvar pela Tomografia."},
+        {"key": "b", "text": "Febre = 38ºC."},
+        {"key": "c", "text": "Presença de insuficiência valvar ao ecocardiograma."},
+        {"key": "d", "text": "Nódulos de Osler."},
+        {"key": "e", "text": "Aneurisma micótico"}
+      ],
+      "correct_key": "c",
+      "explanation": "Evidência de acometimento endocárdico (nova insuficiência valvar/regurgitação, vegetação, abscesso) ao ecocardiograma é critério MAIOR de Duke. Febre, Osler e aneurisma micótico são critérios MENORES.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "UNESC-ES R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_066",
+      "statement": "Homem de 72 anos de idade procura atendimento ambulatorial devido a episódios recorrentes de tontura e síncope. Ele relata também dispneia aos esforços, progressiva nos últimos meses. Refere antecedente de hipertensão arterial sistêmica, em uso de losartana há vários anos. Exame clínico: PA de 150x60 mmHg, FC de 105 bpm. Ausculta cardíaca: sopro sistólico ejetivo em foco aórtico, com pico telessistólico e sopro protodiastólico em foco aórtico. Não há evidência de edema periférico. O achado de exame clínico que se correlaciona com maior gravidade da valvopatia neste paciente é a presença de",
+      "alternatives": [
+        {"key": "a", "text": "sopro diastólico"},
+        {"key": "b", "text": "sopro de Austin Flint"},
+        {"key": "c", "text": "pico telessistólico do sopro"},
+        {"key": "d", "text": "pressão arterial divergente"}
+      ],
+      "correct_key": "c",
+      "explanation": "O pico TELESSISTÓLICO (tardio) do sopro sistólico ejetivo é o achado clínico que melhor se correlaciona com a gravidade da estenose aórtica — quanto mais tardio o pico, mais grave a obstrução.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "USP R3CM 2025",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_067",
+      "statement": "Para um paciente alérgico à penicilina, com endocardite cujo agente causal é um MRSA, o antibiótico inicial de escolha será:",
+      "alternatives": [
+        {"key": "a", "text": "clindamicina."},
+        {"key": "b", "text": "meropenem."},
+        {"key": "c", "text": "daptomicina."},
+        {"key": "d", "text": "vancomicina."},
+        {"key": "e", "text": "ciprofloxacino."}
+      ],
+      "correct_key": "d",
+      "explanation": "Vancomicina é o antibiótico de primeira escolha clássico para endocardite por MRSA, independente de alergia à penicilina (não há reatividade cruzada relevante).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "facil",
+      "source": "FGV OUTRAS PROVAS 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_068",
+      "statement": "Homem de 56 anos apresenta há 3 semanas febre baixa diária, palidez e adinamia. AP: leve estenose de valva mitral. Exame físico: febril (38,1°C), petéquias em conjuntiva ocular, 3 nódulos dolorosos, com 1 cm de diâmetro, em palmas das mãos, sopro holossistólico em foco mitral (++/4), fígado a 1 cm do RCD e baço a 3 cm do RCE. Hemograma: 12300 leucócitos, 83% neutrófilos. Hemoculturas: Streptococcus mutans em uma de duas amostras (a segunda resultou negativa). Ecocardiograma: espessamento discreto, inconclusivo, em valva mitral. O diagnóstico da endocardite e os critérios de Duke são, respectivamente:",
+      "alternatives": [
+        {"key": "a", "text": "clinicamente confirmado; dois critérios maiores."},
+        {"key": "b", "text": "possível; um critério maior e três critérios menores."},
+        {"key": "c", "text": "clinicamente confirmado; cinco critérios menores."},
+        {"key": "d", "text": "possível; um critério maior e dois critérios menores."}
+      ],
+      "correct_key": "c",
+      "explanation": "Sem critério maior (hemocultura não atinge o padrão exigido; ecocardiograma inconclusivo), somam-se 5 critérios MENORES: predisposição (EM prévia), febre, fenômeno vascular (petéquias), fenômeno imunológico (nódulos de Osler) e achado microbiológico não enquadrado em maior. Cinco critérios menores isoladamente já classificam o diagnóstico como CLINICAMENTE CONFIRMADO pelos critérios de Duke modificados.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "UNESP R3CM 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_069",
+      "statement": "Um paciente de 30 anos, com história pregressa de uso constante de drogas intravenosas, foi à emergência por apresentar febre persistente de 38,5°C sem sinais e sintomas de insuficiência cardíaca, e apresentando 3 hemoculturas distintas, em diferentes horários, com estafilococo aureus. Depois desse resultado, o paciente realizou um ecocardiograma transesofágico que demonstrou regurgitação importante e presença de uma massa de 2,2cm anexada à valva tricúspide. Julgue: Embora o ecocardiograma transesofágico seja padrão-ouro no diagnóstico da endocardite infecciosa, o ecocardiograma transtorácico proporciona boas imagens nas cavidades direitas do coração.",
+      "alternatives": [
+        {"key": "a", "text": "CERTO"},
+        {"key": "b", "text": "ERRADO"}
+      ],
+      "correct_key": "a",
+      "explanation": "Verdadeiro: apesar de o ecoTEE ser padrão-ouro global, as estruturas do coração direito (tricúspide/pulmonar), por serem mais anteriores/superficiais, são bem visualizadas pelo ecoTT, ao contrário das estruturas esquerdas onde o ecoTEE tem clara superioridade.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "SES-DF R3CM 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_070",
+      "statement": "Um paciente de 45 anos de idade foi encaminhado para avaliação de disfagia há cerca de seis meses, com sensação de \"parada da descida do alimento\" no meio do tórax. O paciente relata histórico de dispneia com piora progressiva e passado de tratamento irregular para febre reumática. Ao exame, observaram-se ritmo cardíaco regular em dois tempos, com sopro diastólico audível em ápice; FC = 86 bpm; FR = 20 ipm; e SatO2 = 95%. O esofagograma atual mostra compressão extrínseca do esôfago. Julgue: O reparo cirúrgico da valva com próteses metálicas é preferível por reduzir o risco de hemólise e a necessidade de anticoagulação.",
+      "alternatives": [
+        {"key": "a", "text": "CERTO"},
+        {"key": "b", "text": "ERRADO"}
+      ],
+      "correct_key": "b",
+      "explanation": "A afirmação é invertida: próteses METÁLICAS (mecânicas) exigem MAIS anticoagulação (não menos), ao contrário das próteses biológicas, que reduzem essa necessidade.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "SES-DF R1 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_071",
+      "statement": "A febre reumática é uma doença inflamatória sistêmica, autoimune, desencadeada por infecção estreptocócica (Streptococcus pyogenes) das vias aéreas superiores. Qual manifestação, entre as citadas, corresponde a um critério maior de Jones para o diagnóstico de febre reumática aguda e ajuda a diferenciar cardite reumática ativa de endocardite infecciosa?",
+      "alternatives": [
+        {"key": "a", "text": "nódulos de Osler."},
+        {"key": "b", "text": "lesões de Janeway."},
+        {"key": "c", "text": "petéquias conjuntivais."},
+        {"key": "d", "text": "artralgia ou artrite de grandes articulações."}
+      ],
+      "correct_key": "d",
+      "explanation": "Poliartrite migratória de grandes articulações é critério MAIOR de Jones para febre reumática. Nódulos de Osler, lesões de Janeway e petéquias são achados clássicos de endocardite infecciosa, não de febre reumática aguda.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "SMS SP R3CM 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_072",
+      "statement": "Mulher, 58 anos, com história de febre reumática na infância, procura atendimento por dispneia progressiva e palpitações. Exame físico: pulso irregular, B1 hiperfonética, sopro diastólico em ruflar no ápice, sem acentuação pré-sistólica. Exames laboratoriais: ASLO normal, VHS normal. Qual é o diagnóstico mais provável?",
+      "alternatives": [
+        {"key": "a", "text": "Cardite reumática ativa"},
+        {"key": "b", "text": "estenose mitral reumática"},
+        {"key": "c", "text": "endocardite infecciosa subaguda"},
+        {"key": "d", "text": "insuficiência aórtica reumática"}
+      ],
+      "correct_key": "b",
+      "explanation": "B1 hiperfonética, sopro diastólico em ruflar apical (típico da EM), com ausência de acentuação pré-sistólica (perdida pela fibrilação atrial/pulso irregular) e ASLO/VHS normais (excluindo atividade reumática aguda) configuram estenose mitral reumática crônica descompensada por FA nova.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "INEP REVALIDA 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_073",
+      "statement": "Em pacientes com estenose mitral sintomática, qual classe de medicamento é utilizada para alívio dos sintomas por meio do controle da frequência cardíaca, prolongando o tempo de enchimento diastólico?",
+      "alternatives": [
+        {"key": "a", "text": "Inibidores da ECA"},
+        {"key": "b", "text": "Diuréticos de alça"},
+        {"key": "c", "text": "Betabloqueadores"},
+        {"key": "d", "text": "Bloqueadores dos canais de cálcio di-hidropiridínicos"}
+      ],
+      "correct_key": "c",
+      "explanation": "Betabloqueadores controlam a frequência cardíaca, prolongando o tempo de enchimento diastólico e aliviando sintomas na estenose mitral.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "facil",
+      "source": "USP-RP R3CM 2025",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_074",
+      "statement": "Em relação aos critérios de Duke modificados para diagnóstico de endocardite infecciosa, qual microrganismo é considerado critério maior mesmo com apenas uma hemocultura ou sorologia positiva isolada, diferentemente da maioria dos outros agentes que exigem duas amostras positivas?",
+      "alternatives": [
+        {"key": "a", "text": "Streptococcus viridans"},
+        {"key": "b", "text": "Staphylococcus epidermidis"},
+        {"key": "c", "text": "Hemocultura positiva para Coxiella burnetii"},
+        {"key": "d", "text": "Enterococcus faecalis"}
+      ],
+      "correct_key": "c",
+      "explanation": "Coxiella burnetii tem exceção específica nos critérios de Duke: uma única hemocultura positiva OU título de anticorpo IgG de fase I >1:800 já conta como critério maior, dada a dificuldade de cultivo convencional deste organismo.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "AMRIGS R3CM 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_075",
+      "statement": "Observe a imagem do dispositivo protético a seguir. Sobre este tipo de prótese valvar, assinale a alternativa correta.",
+      "alternatives": [
+        {"key": "a", "text": "Pode ser implantada apenas por via cirúrgica convencional, exclusivamente em posição aórtica."},
+        {"key": "b", "text": "É constituída unicamente de material mecânico, exigindo anticoagulação plena vitalícia."},
+        {"key": "c", "text": "É indicada exclusivamente para pacientes pediátricos com anel valvar em crescimento."},
+        {"key": "d", "text": "A prótese pode ser implantada por via percutânea ou cirúrgica, em posição mitral ou aórtica."}
+      ],
+      "correct_key": "d",
+      "explanation": "ATENÇÃO: imagem do dispositivo protético citada mas não disponível na extração do PDF — resposta de baixa confiança, baseada na alternativa mais genericamente correta sobre próteses biológicas modernas (transcateter), que podem ser implantadas por via percutânea ou cirúrgica, em posição mitral ou aórtica.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "UNICAMP R3CG 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_076",
+      "statement": "Sobre as manobras de exame físico e sua relação com os sopros cardíacos valvares, assinale a alternativa correta.",
+      "alternatives": [
+        {"key": "a", "text": "O aumento da intensidade do sopro ao Valsalva (fase de esforço) sugere estenose aórtica valvar clássica."},
+        {"key": "b", "text": "O aumento da intensidade do sopro quando o paciente se senta e se inclina para frente, em apneia expiratória, sugere insuficiência aórtica."},
+        {"key": "c", "text": "A manobra de handgrip diminui a intensidade do sopro da insuficiência mitral."},
+        {"key": "d", "text": "A manobra de Valsalva aumenta o retorno venoso e, consequentemente, a maioria dos sopros cardíacos."}
+      ],
+      "correct_key": "b",
+      "explanation": "Correto: o sopro diastólico da IAo é classicamente mais bem auscultado com o paciente sentado, inclinado para frente, em apneia expiratória. As demais opções invertem associações clássicas: Valsalva (fase de esforço) tipicamente DIMINUI a maioria dos sopros (exceto MHO, que aumenta); handgrip AUMENTA (não diminui) o sopro de IM.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "SES-PE R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_077",
+      "statement": "Homem, 68 anos, com insuficiência cardíaca com fração de ejeção reduzida conhecida, em uso regular de medicações otimizadas, é internado por dispneia súbita e palpitações. ECG mostra fibrilação atrial com resposta ventricular rápida. Assinale a alternativa que apresenta o diagnóstico estrutural mais provavelmente associado à descompensação aguda deste quadro.",
+      "alternatives": [
+        {"key": "a", "text": "Estenose pulmonar leve"},
+        {"key": "b", "text": "Insuficiência tricúspide grave"},
+        {"key": "c", "text": "Insuficiência mitral secundária agudizada"},
+        {"key": "d", "text": "Prolapso da valva pulmonar"}
+      ],
+      "correct_key": "c",
+      "explanation": "ATENÇÃO: questão de baixa confiança — o enunciado disponível não fornece dados suficientes para diferenciar claramente entre as opções estruturais apresentadas. Considerando o contexto de FA com resposta ventricular rápida descompensando um paciente com ICFEr prévia, a insuficiência mitral secundária (funcional) agudizada é a associação estrutural mais comum e clinicamente coerente neste cenário, mas a resposta é uma estimativa devido à possível incompletude do enunciado extraído do PDF.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "SUS-BA R3CG 2026",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_078",
+      "statement": "Em relação aos distúrbios de condução atrioventricular, a predominância do tônus parassimpático, como ocorre durante o sono ou em atletas bem condicionados, pode causar",
+      "alternatives": [
+        {"key": "a", "text": "bloqueio atrioventricular de 2º grau Mobitz II, sempre indicando doença estrutural do sistema His-Purkinje."},
+        {"key": "b", "text": "bloqueio atrioventricular total permanente, com necessidade de marca-passo definitivo."},
+        {"key": "c", "text": "apenas taquiarritmias supraventriculares, nunca bradiarritmias."},
+        {"key": "d", "text": "bloqueio atrioventricular de 1º grau ou de 2º grau Mobitz I, sem lesão orgânica do nó atrioventricular."}
+      ],
+      "correct_key": "d",
+      "explanation": "O predomínio do tônus vagal (sono, atletas) pode causar BAV de 1º grau ou Mobitz I (Wenckebach) funcionais, sem lesão orgânica do nó AV — achados benignos e frequentemente fisiológicos nesse contexto.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "ISCMSC R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_079",
+      "statement": "Homem, 32 anos, com história familiar de correção cirúrgica de aneurisma de aorta, é encaminhado para avaliação de sopro cardíaco. Ausculta revela sopro sistólico e diastólico em foco aórtico. A intensidade do sopro diminui com a manobra de Valsalva e aumenta com a elevação passiva das pernas. Qual é a etiologia mais provável?",
+      "alternatives": [
+        {"key": "a", "text": "Miocardiopatia hipertrófica obstrutiva"},
+        {"key": "b", "text": "Prolapso da valva mitral isolado"},
+        {"key": "c", "text": "Valva aórtica bicúspide"},
+        {"key": "d", "text": "Comunicação interventricular"}
+      ],
+      "correct_key": "c",
+      "explanation": "Padrão misto de sopro sistólico e diastólico em foco aórtico (estenose + insuficiência), com resposta às manobras típica de lesão valvar fixa (diminui com Valsalva, aumenta com elevação de pernas — ao contrário do padrão da MHO), associada à história familiar de aneurisma de aorta, sugere valva aórtica bicúspide (frequentemente associada a aortopatia familiar).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "UNIFESP R3CM 2024",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_080",
+      "statement": "Mulher, 29 anos, com história de aborto espontâneo há 2 meses e doença inflamatória pélvica prévia, apresenta episódios recorrentes de \"pneumonias\" nos últimos meses, com febre e dor pleurítica. Investigação cardiológica extensa não evidencia vegetações valvares. Qual é a hipótese diagnóstica que melhor unifica o quadro?",
+      "alternatives": [
+        {"key": "a", "text": "Após aborto, embolia séptica das veias ilíacas disseminando êmbolos pelo pulmão."},
+        {"key": "b", "text": "Endocardite infecciosa de valva tricúspide não diagnosticada."},
+        {"key": "c", "text": "Tuberculose pulmonar disseminada."},
+        {"key": "d", "text": "Pneumonia bacteriana recorrente de etiologia comunitária."}
+      ],
+      "correct_key": "a",
+      "explanation": "Tromboflebite séptica pélvica pós-aborto/DIP causando êmbolos sépticos pulmonares recorrentes (mimetizando 'pneumonias' de repetição) é diagnóstico alternativo relevante quando a investigação cardíaca para endocardite é negativa, sendo o diagnóstico unificador mais coerente com a história ginecológica apresentada.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "HSM-DF R3CM 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_081",
+      "statement": "Homem, 45 anos, previamente hígido, com quadro de febre há 3 semanas, sopro cardíaco novo e embolia periférica. Durante investigação complementar, a equipe médica é orientada a reavaliar cuidadosamente os pulsos periféricos do paciente, comparando os membros superiores e inferiores, bem como direito e esquerdo. Qual achado no exame físico dos pulsos mais reforçaria a suspeita de uma complicação embólica associada a coartação da aorta não diagnosticada previamente?",
+      "alternatives": [
+        {"key": "a", "text": "Pulso paradoxal"},
+        {"key": "b", "text": "Pulso em martelo d'água bilateral simétrico"},
+        {"key": "c", "text": "Diferença entre membros"},
+        {"key": "d", "text": "Pulso filiforme generalizado"}
+      ],
+      "correct_key": "c",
+      "explanation": "A diferença de amplitude/pressão de pulso entre membros superiores e inferiores (ou entre os dois braços) é o achado clássico que sugere coarctação de aorta subjacente, achado relevante na investigação de complicações embólicas.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "USP-RP OUTRAS PROVAS 2026",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_082",
+      "statement": "Observe o eletrocardiograma a seguir. Qual valvopatia mais se correlaciona com este padrão eletrocardiográfico?",
+      "alternatives": [
+        {"key": "a", "text": "Insuficiência aórtica leve"},
+        {"key": "b", "text": "Estenose mitral"},
+        {"key": "c", "text": "Prolapso da valva tricúspide"},
+        {"key": "d", "text": "Insuficiência pulmonar isolada"}
+      ],
+      "correct_key": "b",
+      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF — resposta de baixa confiança, um chute informado. O padrão de P mitrale (onda P alargada/entalhada sugerindo aumento de átrio esquerdo) é o achado eletrocardiográfico classicamente mais associado e mais cobrado em provas relacionado à estenose mitral, mas sem visualização do traçado não é possível confirmar.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "USP R1 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_083",
+      "statement": "Em relação ao estalido de abertura (EA) na estenose mitral e sua relação temporal com o componente aórtico da segunda bulha (A2), é correto afirmar que",
+      "alternatives": [
+        {"key": "a", "text": "a presença de estalido de abertura precoce (intervalo A2-EA curto) é frequente e reflete maior gravidade da estenose."},
+        {"key": "b", "text": "o intervalo A2-EA aumenta progressivamente conforme a estenose mitral se agrava."},
+        {"key": "c", "text": "o estalido de abertura desaparece completamente em todos os casos de estenose mitral grave."},
+        {"key": "d", "text": "o intervalo A2-EA não possui qualquer relação com a gravidade da estenose mitral."}
+      ],
+      "correct_key": "a",
+      "explanation": "Quanto mais grave a EM, maior a pressão atrial esquerda, fazendo com que a valva mitral se abra mais precocemente (menor intervalo A2-EA) — logo, um intervalo A2-EA curto (estalido precoce) reflete maior gravidade.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "ENARE R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_084",
+      "statement": "Paciente com insuficiência aórtica crônica importante, assintomática, é acompanhado ambulatorialmente. Qual achado ecocardiográfico indicaria intervenção cirúrgica mesmo na ausência de sintomas?",
+      "alternatives": [
+        {"key": "a", "text": "Fração de ejeção do ventrículo esquerdo < 50% e/ou dilatação importante do ventrículo esquerdo."},
+        {"key": "b", "text": "Diâmetro do átrio esquerdo normal."},
+        {"key": "c", "text": "Fração de ejeção do ventrículo esquerdo entre 60 e 65%, sem dilatação."},
+        {"key": "d", "text": "Ausência de qualquer alteração ao Doppler."}
+      ],
+      "correct_key": "a",
+      "explanation": "FE do VE <50% e/ou dilatação importante do VE (critérios ecocardiográficos de disfunção/remodelamento) são indicações Classe I de cirurgia em IAo importante assintomática, independente de sintomas.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "UNESC-ES R3CM 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_085",
+      "statement": "Homem, 55 anos, em tratamento para endocardite infecciosa de valva aórtica nativa há 10 dias, com hemoculturas persistentemente positivas apesar de antibioticoterapia adequada, evolui com novo bloqueio atrioventricular ao eletrocardiograma seriado. Qual é a complicação mais provável e a valva mais provavelmente acometida por extensão perivalvar?",
+      "alternatives": [
+        {"key": "a", "text": "Extensão perivalvar; valva provavelmente acometida é a pulmonar."},
+        {"key": "b", "text": "Embolização séptica cerebral; não há relação com a valva acometida."},
+        {"key": "c", "text": "Extensão perivalvar (abscesso); valva acometida provavelmente é a aórtica."},
+        {"key": "d", "text": "Insuficiência cardíaca isolada; sem relação com a valva acometida."}
+      ],
+      "correct_key": "c",
+      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Novo distúrbio de condução (BAV) em vigência de endocardite ativa é achado clássico de extensão perivalvar/abscesso, mais comumente relacionado à valva AÓRTICA, dada sua proximidade anatômica com o sistema de condução (nó AV/feixe de His).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "SCML R3CM 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_086",
+      "statement": "Mulher, 60 anos, com febre há 2 semanas, sopro cardíaco novo à ausculta e infarto esplênico identificado em tomografia de abdome, sugestivo de fenômeno embólico. Ecocardiograma transesofágico evidencia vegetação móvel de 8mm em valva mitral nativa. Ainda não há resultado das hemoculturas coletadas. Qual é a classificação diagnóstica pelos critérios de Duke e a conduta mais adequada?",
+      "alternatives": [
+        {"key": "a", "text": "Endocardite infecciosa provável; iniciar antibioticoterapia empírica após coleta de hemoculturas, sem aguardar resultado."},
+        {"key": "b", "text": "Endocardite infecciosa rejeitada; aguardar resultado de hemoculturas antes de qualquer conduta."},
+        {"key": "c", "text": "Endocardite infecciosa definida; não há necessidade de antibioticoterapia até resultado microbiológico."},
+        {"key": "d", "text": "Diagnóstico não pode ser estabelecido sem biópsia valvar."}
+      ],
+      "correct_key": "a",
+      "explanation": "1 critério maior (vegetação ao ecocardiograma) + 1 critério menor (fenômeno vascular/infarto esplênico embólico) = endocardite infecciosa PROVÁVEL pelos critérios de Duke modificados. A conduta padrão é iniciar antibioticoterapia empírica logo após a coleta das hemoculturas, sem aguardar o resultado, dado o risco de complicações.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "SEMAD R1 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_087",
+      "statement": "Assinale a alternativa que descreve corretamente a ausculta da insuficiência aórtica importante.",
+      "alternatives": [
+        {"key": "a", "text": "Sopro sistólico ejetivo em foco mitral, irradiado para axila."},
+        {"key": "b", "text": "Estalido de abertura seguido de sopro diastólico em ruflar."},
+        {"key": "c", "text": "Sopro diastólico que pode ocupar proto, meso ou toda a diástole, a depender da gravidade."},
+        {"key": "d", "text": "Sopro contínuo em maquinaria, audível em região infraclavicular."}
+      ],
+      "correct_key": "c",
+      "explanation": "A IAo importante caracteriza-se por sopro diastólico que pode ocupar proto, meso ou toda a diástole conforme a gravidade da regurgitação.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "facil",
+      "source": "UNESC-ES R3CM 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_088",
+      "statement": "Mulher, 40 anos, assintomática, com insuficiência mitral importante por prolapso do folheto posterior, função ventricular preservada. Ecocardiograma demonstra anatomia favorável para intervenção cirúrgica. Qual é a conduta cirúrgica preferencial?",
+      "alternatives": [
+        {"key": "a", "text": "Troca valvar por prótese mecânica, sempre preferível ao reparo."},
+        {"key": "b", "text": "Reparo mitral, se tecnicamente factível, é o procedimento de escolha."},
+        {"key": "c", "text": "Troca valvar por prótese biológica, independente da anatomia."},
+        {"key": "d", "text": "Nenhuma intervenção está indicada até o surgimento de sintomas."}
+      ],
+      "correct_key": "b",
+      "explanation": "Prolapso de folheto posterior tem excelente taxa de sucesso de reparo cirúrgico, sendo o procedimento de escolha quando tecnicamente factível — evita anticoagulação e riscos de reoperação associados à troca valvar.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "UNICAMP R3CG 2025",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_089",
+      "statement": "Criança de 4 anos, portadora de cardiopatia congênita cianótica não corrigida, é internada com febre persistente e sopro cardíaco novo. A principal etiologia a ser considerada para endocardite infecciosa nesta faixa etária é",
+      "alternatives": [
+        {"key": "a", "text": "Vírus."},
+        {"key": "b", "text": "Bactéria."},
+        {"key": "c", "text": "Fungo."},
+        {"key": "d", "text": "Protozoário."}
+      ],
+      "correct_key": "b",
+      "explanation": "Assim como em adultos, a etiologia bacteriana é predominante na endocardite infecciosa pediátrica, especialmente em crianças com cardiopatia congênita predisponente.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "facil",
+      "source": "SES-GO R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_090",
+      "statement": "Homem, 62 anos, com angina típica aos esforços há 6 meses. Ausculta cardíaca revela sopro sistólico ejetivo em foco aórtico irradiado para carótidas. Observe o eletrocardiograma a seguir. Qual achado auscultatório adicional seria esperado neste paciente, dado o padrão eletrocardiográfico apresentado?",
+      "alternatives": [
+        {"key": "a", "text": "Desdobramento fixo de B2"},
+        {"key": "b", "text": "Desdobramento paradoxal de B2"},
+        {"key": "c", "text": "Hiperfonese de B2 em foco pulmonar"},
+        {"key": "d", "text": "Clique de ejeção pulmonar isolado"}
+      ],
+      "correct_key": "b",
+      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF — resposta de baixa confiança. Presumindo um padrão de bloqueio de ramo esquerdo no ECG (achado comum em estenose aórtica avançada), o desdobramento PARADOXAL de B2 é a associação clássica esperada nessas condições.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "PSU-MG R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_091",
+      "statement": "Mulher, 26 anos, com estenose mitral reumática moderada, deseja engravidar. Está sendo considerada a substituição valvar por prótese biológica em detrimento da mecânica. Qual é a principal vantagem da prótese biológica neste contexto específico?",
+      "alternatives": [
+        {"key": "a", "text": "Não necessitar de anticoagulação plena durante a gravidez, reduzindo riscos maternos e fetais."}
+      ],
+      "correct_key": "a",
+      "explanation": "ATENÇÃO: apenas uma alternativa foi capturada na extração do PDF (as demais opções não vieram no texto extraído) — dados incompletos, mantidos conforme extração original sem invenção de alternativas adicionais. A vantagem citada (dispensar anticoagulação plena) é de fato a razão clássica para preferir prótese biológica em mulheres em idade fértil.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "UNICAMP R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_092",
+      "statement": "Mulher jovem, assintomática, é encaminhada para avaliação de um \"clique\" mesosistólico ouvido em consulta de rotina, seguido por sopro sistólico tardio de baixa intensidade em foco mitral. Qual é o diagnóstico mais provável?",
+      "alternatives": [
+        {"key": "a", "text": "Estenose aórtica leve"},
+        {"key": "b", "text": "Prolapso de valva mitral"},
+        {"key": "c", "text": "Comunicação interatrial"},
+        {"key": "d", "text": "Estenose pulmonar leve"}
+      ],
+      "correct_key": "b",
+      "explanation": "Clique mesosistólico seguido de sopro sistólico tardio em foco mitral é o achado clássico do prolapso de valva mitral.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "facil",
+      "source": "SCMMR R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_093",
+      "statement": "Na história natural da estenose aórtica não tratada, o sintoma que confere o pior prognóstico, com menor sobrevida média após seu surgimento, é",
+      "alternatives": [
+        {"key": "a", "text": "angina"},
+        {"key": "b", "text": "insuficiência cardíaca"},
+        {"key": "c", "text": "síncope"},
+        {"key": "d", "text": "palpitações"}
+      ],
+      "correct_key": "b",
+      "explanation": "Insuficiência cardíaca é o sintoma associado ao pior prognóstico na estenose aórtica não tratada (sobrevida média ~2 anos), pior que angina (~5 anos) e síncope (~3 anos).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "IAMSPE R3CM 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_094",
+      "statement": "Entre as etiologias de endocardite infecciosa listadas a seguir, assinale aquela que, isoladamente, tipicamente NÃO representa indicação cirúrgica formal por si só, dada sua boa resposta usual ao tratamento antimicrobiano isolado.",
+      "alternatives": [
+        {"key": "a", "text": "Endocardite fúngica"},
+        {"key": "b", "text": "Endocardite por estreptococos"},
+        {"key": "c", "text": "Endocardite com abscesso perivalvar"},
+        {"key": "d", "text": "Endocardite com insuficiência cardíaca refratária"}
+      ],
+      "correct_key": "b",
+      "explanation": "Endocardite por estreptococos (viridans, em geral sensíveis à penicilina) costuma responder bem ao tratamento antibiótico isolado, ao contrário das demais opções listadas, que são indicações clássicas de cirurgia.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "FGV OUTRAS PROVAS 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_095",
+      "statement": "Homem, 50 anos, com insuficiência aórtica crônica grave, apresenta pulso em martelo d'água (Corrigan), sinal de Quincke e sinal de Musset ao exame físico. Observe os diagramas de fonocardiograma a seguir, correspondentes a diferentes valvopatias. Qual diagrama melhor representa o padrão esperado neste paciente?",
+      "alternatives": [
+        {"key": "a", "text": "Diagrama 1"},
+        {"key": "b", "text": "Diagrama 2"},
+        {"key": "c", "text": "Diagrama 3"},
+        {"key": "d", "text": "Diagrama 4"}
+      ],
+      "correct_key": "a",
+      "explanation": "ATENÇÃO: diagramas de fonocardiograma citados mas não disponíveis na extração do PDF — resposta de baixa confiança (chute informado). O quadro clínico é classicamente compatível com insuficiência aórtica grave (pulso em martelo d'água/Corrigan, sinal de Quincke, sinal de Musset), que se manifestaria por sopro diastólico decrescente iniciando logo após B2.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "USP-RP R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_096",
+      "statement": "Quais são as principais causas de insuficiência aórtica AGUDA, em contraste com a forma crônica?",
+      "alternatives": [
+        {"key": "a", "text": "Doença reumática, degeneração mixomatosa e calcificação senil."},
+        {"key": "b", "text": "Hipertensão arterial crônica não controlada isoladamente."},
+        {"key": "c", "text": "Dissecção de aorta, endocardite infecciosa e trauma torácico."},
+        {"key": "d", "text": "Valva aórtica bicúspide isolada, sem outras comorbidades."}
+      ],
+      "correct_key": "c",
+      "explanation": "Dissecção de aorta, endocardite infecciosa (com destruição valvar aguda) e trauma são as três causas clássicas de insuficiência aórtica AGUDA, que cursa com quadro hemodinâmico grave e diferente da forma crônica compensada.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "IAMSPE R3CG 2025",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_097",
+      "statement": "Homem, 58 anos, em hemodiálise por cateter de longa permanência, com bacteremia por Staphylococcus aureus meticilina-sensível confirmada por hemoculturas. Apesar de antibioticoterapia adequada por 5 dias, mantém febre persistente e lombalgia. Qual é a conduta mais adequada?",
+      "alternatives": [
+        {"key": "a", "text": "Manter conduta expectante, aguardando resposta clínica por mais 7 dias sem investigação adicional."},
+        {"key": "b", "text": "Trocar antibiótico empiricamente por vancomicina, sem investigação de foco."},
+        {"key": "c", "text": "Solicitar ecocardiograma transesofágico e retirar o cateter de diálise."},
+        {"key": "d", "text": "Reduzir a duração do tratamento antibiótico dado o organismo ser sensível."}
+      ],
+      "correct_key": "c",
+      "explanation": "Bacteremia por S. aureus com cateter de longa permanência e febre/lombalgia persistentes apesar de tratamento adequado exigem investigação de foco persistente (retirada do cateter, fonte de infecção) e investigação de endocardite/espondilodiscite com ecocardiograma transesofágico (mais sensível que transtorácico).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "SCM-BH R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_098",
+      "statement": "Homem, 70 anos, hipertenso com controle pressórico inadequado, apresenta sopro sistólico em foco aórtico. Ecocardiograma: área valvar aórtica 0,9 cm² (compatível com estenose grave pela área), mas gradiente médio VE-Ao de apenas 35 mmHg (compatível com estenose apenas moderada), com PA vigente de 170x100 mmHg no momento do exame. Qual é a conduta mais adequada frente a essa discordância?",
+      "alternatives": [
+        {"key": "a", "text": "Indicar cirurgia de troca valvar imediatamente, dado que a área valvar já confirma gravidade."},
+        {"key": "b", "text": "Indicar TAVI de urgência, sem otimização adicional."},
+        {"key": "c", "text": "Otimizar o controle pressórico com anti-hipertensivos e reavaliar o gradiente antes de definir conduta cirúrgica."},
+        {"key": "d", "text": "Encaminhar para valvoplastia por balão como tratamento definitivo."}
+      ],
+      "correct_key": "c",
+      "explanation": "Discordância entre área valvar (grave) e gradiente (apenas moderado) pode ser confundida por hipertensão não controlada (aumento de pós-carga reduzindo o gradiente transvalvar aparente). A conduta correta é otimizar a pressão arterial e reavaliar antes de definir a real gravidade da estenose e a necessidade de intervenção.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "SURCE R3CM 2024",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_099",
+      "statement": "Um paciente de 30 anos, com história pregressa de uso constante de drogas intravenosas, foi à emergência por apresentar febre persistente de 38,5°C sem sinais e sintomas de insuficiência cardíaca, e apresentando 3 hemoculturas distintas, em diferentes horários, com estafilococo aureus. Depois desse resultado, o paciente realizou um ecocardiograma transesofágico que demonstrou regurgitação importante e presença de uma massa de 2,2cm anexada à valva tricúspide. Julgue: Embora o ecocardiograma transesofágico seja padrão-ouro no diagnóstico da endocardite infecciosa, o ecocardiograma transtorácico proporciona boas imagens nas cavidades direitas do coração.",
+      "alternatives": [
+        {"key": "a", "text": "CERTO"},
+        {"key": "b", "text": "ERRADO"}
+      ],
+      "correct_key": "a",
+      "explanation": "Verdadeiro: apesar de o ecoTEE ser padrão-ouro global, as câmaras direitas (tricúspide/pulmonar), por serem mais anteriores e superficiais, são bem avaliadas pelo ecoTT.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "SES-DF R3CM 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_100",
+      "statement": "Sobre a insuficiência aórtica (IAo) crônica grave, analise as assertivas: I. A pressão de pulso encontra-se tipicamente aumentada (PA divergente). II. O pulso característico é chamado de \"pulso em martelo d'água\" ou pulso de Corrigan. III. O sinal de Musset consiste no balançar da cabeça em sincronia com os batimentos cardíacos. IV. O pulso clássico da IAo crônica grave é do tipo parvus et tardus. Escolha as assertivas corretas.",
+      "alternatives": [
+        {"key": "a", "text": "I e II apenas."},
+        {"key": "b", "text": "I, II, III e IV."},
+        {"key": "c", "text": "II, III e IV apenas."},
+        {"key": "d", "text": "I, II e III apenas."}
+      ],
+      "correct_key": "d",
+      "explanation": "I, II e III corretas. IV está errada: pulso parvus et tardus é característico da ESTENOSE aórtica, não da insuficiência aórtica — na IAo crônica grave o pulso é amplo e de subida rápida (Corrigan/martelo d'água), justamente o oposto do parvus et tardus.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "AMP R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_101",
+      "statement": "Criança de 5 anos, com cardiopatia congênita cianótica não corrigida, apresenta febre há 10 dias, sopro cardíaco novo e hepatomegalia. Possui cateter venoso central para medicações prévias. Qual exame é fundamental para confirmação diagnóstica de endocardite infecciosa neste caso?",
+      "alternatives": [
+        {"key": "a", "text": "Radiografia de tórax"},
+        {"key": "b", "text": "Hemograma completo isolado"},
+        {"key": "c", "text": "Ecocardiograma"},
+        {"key": "d", "text": "Proteína C reativa isolada"}
+      ],
+      "correct_key": "c",
+      "explanation": "O ecocardiograma (critério maior de Duke por imagem — vegetação, abscesso, nova regurgitação) é o exame fundamental para confirmação diagnóstica de endocardite infecciosa.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "facil",
+      "source": "PSU-GO R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_102",
+      "statement": "Homem, 74 anos, apresenta tríade clássica de angina, pré-síncope/síncope aos esforços e dispneia progressiva. Ausculta: sopro sistólico em crescendo-decrescendo, mais audível em foco aórtico, irradiado para carótidas. Qual é o diagnóstico mais provável?",
+      "alternatives": [
+        {"key": "a", "text": "Insuficiência mitral"},
+        {"key": "b", "text": "Estenose aórtica"},
+        {"key": "c", "text": "Comunicação interventricular"},
+        {"key": "d", "text": "Estenose pulmonar"}
+      ],
+      "correct_key": "b",
+      "explanation": "Tríade clássica (angina, síncope, dispneia) com sopro sistólico em crescendo-decrescendo em foco aórtico irradiado para carótidas é o quadro típico de estenose aórtica.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "facil",
+      "source": "ISCMSC R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_103",
+      "statement": "Segundo as diretrizes atuais da AHA sobre profilaxia antibiótica para endocardite infecciosa em procedimentos dentários, essa profilaxia está indicada",
+      "alternatives": [
+        {"key": "a", "text": "para todos os pacientes com qualquer sopro cardíaco, independente da causa."},
+        {"key": "b", "text": "apenas em grupos de muito alto risco: prótese valvar, endocardite infecciosa prévia, cardiopatia congênita cianótica não corrigida ou recém-corrigida."},
+        {"key": "c", "text": "para todos os pacientes hipertensos em uso de anti-hipertensivos."},
+        {"key": "d", "text": "para todos os pacientes acima de 60 anos, independente de comorbidades cardíacas."}
+      ],
+      "correct_key": "b",
+      "explanation": "As diretrizes atuais restringiram a indicação de profilaxia antibiótica dentária apenas aos grupos de muito alto risco: prótese valvar/material protético, endocardite prévia, cardiopatia congênita cianótica não corrigida ou recém-corrigida, e transplante cardíaco com valvulopatia.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "FAMEMA R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_104",
+      "statement": "Homem, 50 anos, apresenta febre, sopro mitral novo e episódios de déficit neurológico focal transitório e recorrente. Tomografia de crânio evidencia múltiplas lesões hipodensas em diferentes territórios vasculares. Qual é o mecanismo fisiopatológico mais provável para os achados neurológicos?",
+      "alternatives": [
+        {"key": "a", "text": "Vasculite primária do sistema nervoso central."},
+        {"key": "b", "text": "AVE isquêmico por êmbolos sépticos de origem cardíaca."},
+        {"key": "c", "text": "Hemorragia subaracnóidea espontânea."},
+        {"key": "d", "text": "Trombose venosa cerebral isolada."}
+      ],
+      "correct_key": "b",
+      "explanation": "Múltiplas lesões hipodensas em diferentes territórios vasculares, associadas a febre e sopro mitral novo (sugerindo endocardite infecciosa), são altamente sugestivas de AVE isquêmico por embolização séptica cardiogênica múltipla.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "UFSC R3CM 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_105",
+      "statement": "Qual é o esquema recomendado de profilaxia antibiótica para endocardite infecciosa em paciente de alto risco submetido a procedimento odontológico, sem alergia à penicilina?",
+      "alternatives": [
+        {"key": "a", "text": "Amoxicilina oral, 1 hora antes do procedimento."},
+        {"key": "b", "text": "Vancomicina intravenosa, 6 horas antes do procedimento."},
+        {"key": "c", "text": "Azitromicina oral, imediatamente após o procedimento."},
+        {"key": "d", "text": "Ceftriaxona intramuscular, 24 horas antes do procedimento."}
+      ],
+      "correct_key": "a",
+      "explanation": "Amoxicilina oral, administrada 30-60 minutos (aproximadamente 1 hora) antes do procedimento, é o esquema padrão de profilaxia em pacientes sem alergia à penicilina.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "facil",
+      "source": "FAMEMA R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_106",
+      "statement": "Homem, 55 anos, com abscesso hepático diagnosticado, apresenta hemoculturas positivas para Staphylococcus aureus. Diante de bacteremia por este agente, qual exame deve ser solicitado de rotina, independente de sintomas cardíacos, para rastreio de endocardite infecciosa?",
+      "alternatives": [
+        {"key": "a", "text": "Radiografia de tórax isolada."},
+        {"key": "b", "text": "Tomografia de abdome total."},
+        {"key": "c", "text": "Ecocardiograma."},
+        {"key": "d", "text": "Ressonância magnética de crânio isolada."}
+      ],
+      "correct_key": "c",
+      "explanation": "Bacteremia por Staphylococcus aureus, independente da fonte, sempre exige rastreio de endocardite infecciosa com ecocardiograma, dado o alto risco de acometimento valvar por este organismo.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "PSU-AL R3CM 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_107",
+      "statement": "Sobre os monitores de débito cardíaco por análise do contorno de pulso arterial, é correto afirmar que",
+      "alternatives": [
+        {"key": "a", "text": "são precisos e confiáveis em qualquer situação de arritmia grave."},
+        {"key": "b", "text": "não devem ser usados de forma confiável em vigência de arritmias importantes, mudanças agudas na função valvar, ou variações súbitas da resistência vascular sistêmica."},
+        {"key": "c", "text": "substituem completamente o ecocardiograma na avaliação de valvopatias agudas."},
+        {"key": "d", "text": "são isentos de limitações técnicas, independente do cenário clínico."}
+      ],
+      "correct_key": "b",
+      "explanation": "Monitores de débito cardíaco por contorno de pulso têm limitações reconhecidas em cenários de arritmias importantes, mudanças agudas na função valvar e variações súbitas de resistência vascular sistêmica — situações que comprometem a acurácia do método.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "IAMSPE R3CG 2025",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_108",
+      "statement": "Observe a radiografia de tórax a seguir, de um paciente com sopro sistólico em foco mitral e história de miocardiopatia dilatada de longa data. Qual é a explicação mais provável para o sopro auscultado neste contexto?",
+      "alternatives": [
+        {"key": "a", "text": "Endocardite infecciosa aguda de valva mitral."},
+        {"key": "b", "text": "Estenose mitral reumática."},
+        {"key": "c", "text": "Prolapso primário de valva mitral por degeneração mixomatosa."},
+        {"key": "d", "text": "Dilatação do anel mitral secundária à miocardiopatia dilatada."}
+      ],
+      "correct_key": "d",
+      "explanation": "ATENÇÃO: radiografia de tórax citada mas não disponível na extração do PDF. No contexto de miocardiopatia dilatada de longa data, a dilatação do anel mitral secundária à cardiomegalia é a explicação mais clinicamente coerente para o sopro sistólico (insuficiência mitral funcional/secundária).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "UNICAMP R3CG 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_109",
+      "statement": "Gestante, 24 anos, 28 semanas, previamente hígida, é avaliada em pré-natal de rotina. Ausculta: sopro sistólico suave (1+/6+) em foco mitral, sem irradiação, sem outros achados. PA 110x70 mmHg, sem edemas, sem dispneia. Qual é a interpretação mais adequada deste achado auscultatório?",
+      "alternatives": [
+        {"key": "a", "text": "Insuficiência mitral orgânica, indicando ecocardiograma de urgência."},
+        {"key": "b", "text": "Estenose aórtica leve, achado incomum na gestação."},
+        {"key": "c", "text": "Endocardite infecciosa subclínica, requerendo hemoculturas."},
+        {"key": "d", "text": "Sopro fisiológico da gestação, decorrente do estado hiperdinâmico."}
+      ],
+      "correct_key": "d",
+      "explanation": "Sopro sistólico suave, sem irradiação, em gestante assintomática e sem outros achados anormais, é compatível com sopro fisiológico da gestação (fluxo aumentado pelo estado hiperdinâmico), não exigindo investigação adicional.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "facil",
+      "source": "SUS-SP R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_110",
+      "statement": "Em relação à indicação cirúrgica na estenose aórtica muito grave em pacientes jovens, assinale a alternativa correta.",
+      "alternatives": [
+        {"key": "a", "text": "A cirurgia nunca é indicada em pacientes assintomáticos, independente da gravidade."},
+        {"key": "b", "text": "A cirurgia é contraindicada em pacientes com classe funcional II."},
+        {"key": "c", "text": "A cirurgia pode ser indicada em paciente não reumático, assintomático, menor de 70 anos, classe funcional II, com AVA < 0,7 cm², velocidade de jato > 5 m/s e gradiente médio > 60 mmHg."},
+        {"key": "d", "text": "A indicação cirúrgica depende exclusivamente da idade do paciente, sem relação com parâmetros ecocardiográficos."}
+      ],
+      "correct_key": "c",
+      "explanation": "Estenose aórtica muito grave (AVA<0,7cm², velocidade>5m/s, gradiente médio>60mmHg) é indicação de cirurgia mesmo em pacientes jovens, assintomáticos ou minimamente sintomáticos (CF II), dado o risco de progressão rápida.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "SCM-SP R3CG 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_111",
+      "statement": "Homem, 28 anos, sem comorbidades, com indicação de troca valvar aórtica por insuficiência aórtica grave sintomática. Qual característica do paciente mais favorece a escolha de prótese mecânica em detrimento da biológica?",
+      "alternatives": [
+        {"key": "a", "text": "Idade avançada, acima de 70 anos."},
+        {"key": "b", "text": "Desejo de gestação futura."},
+        {"key": "c", "text": "Contraindicação relativa à anticoagulação crônica."},
+        {"key": "d", "text": "Alto risco de sangramento gastrointestinal."},
+        {"key": "e", "text": "Idade até 50 anos, sem comorbidades que contraindiquem anticoagulação."}
+      ],
+      "correct_key": "e",
+      "explanation": "Pacientes jovens (até ~50 anos), sem contraindicação à anticoagulação, se beneficiam da maior durabilidade da prótese mecânica, evitando reoperações futuras por degeneração da bioprótese — desde que consigam manter anticoagulação crônica adequada.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "FGV OUTRAS PROVAS 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_112",
+      "statement": "Em relação ao prognóstico comparativo entre insuficiência mitral primária e secundária de mesmo grau ecocardiográfico de regurgitação, é correto afirmar que",
+      "alternatives": [
+        {"key": "a", "text": "limites menores da área do orifício regurgitante e do volume regurgitante estão associados a pior prognóstico na IM secundária, comparado à IM primária de mesmo grau nominal."},
+        {"key": "b", "text": "a IM secundária tem sempre melhor prognóstico que a IM primária de mesmo grau, dada a ausência de lesão estrutural valvar."},
+        {"key": "c", "text": "não há diferença prognóstica entre IM primária e secundária quando o grau de regurgitação é equivalente."},
+        {"key": "d", "text": "a IM secundária responde igualmente bem ao reparo cirúrgico valvar isolado, comparado à IM primária."}
+      ],
+      "correct_key": "a",
+      "explanation": "Na IM secundária/funcional, um orifício regurgitante menor já é suficiente para causar impacto hemodinâmico e prognóstico significativos (refletindo a gravidade da doença ventricular subjacente), fazendo com que ela carregue PIOR prognóstico que a IM primária de mesmo grau nominal de regurgitação.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "HOA R1 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_113",
+      "statement": "Na estenose mitral isolada (sem outras valvopatias associadas), qual achado semiológico NÃO é esperado, já que o ventrículo esquerdo tende a ser poupado nesta condição?",
+      "alternatives": [
+        {"key": "a", "text": "B1 hiperfonética"},
+        {"key": "b", "text": "Estalido de abertura"},
+        {"key": "c", "text": "Sopro diastólico em ruflar"},
+        {"key": "d", "text": "B3 ou B4 pelo acometimento do ventrículo esquerdo"}
+      ],
+      "correct_key": "d",
+      "explanation": "Na EM isolada, o ventrículo esquerdo é tipicamente poupado/protegido pela obstrução proximal na valva mitral — B3/B4 refletindo disfunção do VE não seriam achados esperados nesse contexto, ao contrário de B1 hiperfonética, estalido de abertura e sopro em ruflar, achados clássicos da própria EM.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "UFMA R3CM 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_114",
+      "statement": "Em relação ao diagnóstico e classificação de gravidade das valvopatias, é correto afirmar que",
+      "alternatives": [
+        {"key": "a", "text": "o ecocardiograma transtorácico é o método de primeira linha tanto para diagnóstico quanto para classificação de gravidade da maioria das valvopatias."},
+        {"key": "b", "text": "a angiotomografia é sempre superior ao ecocardiograma para classificação de gravidade valvar."},
+        {"key": "c", "text": "a ressonância magnética cardíaca é o método de primeira linha obrigatório em todos os casos."},
+        {"key": "d", "text": "o cateterismo cardíaco é o método de escolha inicial para avaliação de gravidade valvar em todos os pacientes."}
+      ],
+      "correct_key": "a",
+      "explanation": "O ecocardiograma transtorácico é o método de primeira linha, não invasivo, para diagnóstico e classificação de gravidade da grande maioria das valvopatias, reservando-se outros métodos para situações específicas ou dúvidas diagnósticas.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "facil",
+      "source": "Hospital São Lucas-RP R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_115",
+      "statement": "Paciente em tratamento de endocardite infecciosa com vancomicina intravenosa. Em relação ao monitoramento terapêutico deste antibiótico, assinale a conduta INADEQUADA.",
+      "alternatives": [
+        {"key": "a", "text": "Realizar a dosagem sérica de vancomicina (nível de vale) diariamente, independente da função renal e estabilidade clínica."},
+        {"key": "b", "text": "Ajustar a dose conforme função renal do paciente."},
+        {"key": "c", "text": "Monitorar função renal periodicamente durante o tratamento prolongado."},
+        {"key": "d", "text": "Individualizar a frequência de monitoramento de níveis séricos conforme estabilidade clínica e função renal."}
+      ],
+      "correct_key": "a",
+      "explanation": "Dosagem diária de nível sérico de vancomicina, independente da estabilidade clínica e função renal, é excessiva e não corresponde à prática padrão recomendada — o monitoramento deve ser individualizado (tipicamente antes da 4ª dose e periodicamente conforme estabilidade).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "PSU-MG R3CM 2024",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_116",
+      "statement": "Um homem de 48 anos, portador de prótese valvar mitral há 6 meses, é internado com febre, calafrios e mal-estar há 5 dias. Hemoculturas positivas para Staphylococcus epidermidis. Considerando o intervalo entre o implante da prótese e o início dos sintomas, qual esquema antimicrobiano empírico é mais apropriado?",
+      "alternatives": [
+        {"key": "a", "text": "ampicilina, gentamicina e oxacilina."},
+        {"key": "b", "text": "meropenem."},
+        {"key": "c", "text": "vancomicina."},
+        {"key": "d", "text": "ampicilina e amicacina."},
+        {"key": "e", "text": "vancomicina, gentamicina e cefepime."}
+      ],
+      "correct_key": "e",
+      "explanation": "Endocardite protética precoce (<1 ano de implante) exige cobertura empírica ampla para organismos nosocomiais, incluindo Staphylococcus coagulase-negativo resistente à meticilina — vancomicina + gentamicina + cefepime é o esquema recomendado.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "HSL-SP R3CM 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_117",
+      "statement": "Na história natural da estenose aórtica grave não tratada, qual sintoma está associado à menor sobrevida média após seu início, entre os três sintomas cardinais?",
+      "alternatives": [
+        {"key": "a", "text": "angina"},
+        {"key": "b", "text": "síncope"},
+        {"key": "c", "text": "palpitações"},
+        {"key": "d", "text": "dispneia"}
+      ],
+      "correct_key": "d",
+      "explanation": "Dispneia/insuficiência cardíaca é o sintoma cardinal associado à menor sobrevida média (~2 anos) na estenose aórtica grave não tratada, comparado a angina (~5 anos) e síncope (~3 anos).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "UFRJ R3CM 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_118",
+      "statement": "Paciente com suspeita clínica de valvopatia mitral moderada, assintomático, é encaminhado para investigação antes de definir necessidade de intervenção. Qual é a sequência diagnóstica mais adequada?",
+      "alternatives": [
+        {"key": "a", "text": "Indicar cirurgia diretamente, sem exames complementares adicionais."},
+        {"key": "b", "text": "Solicitar apenas radiografia de tórax e eletrocardiograma."},
+        {"key": "c", "text": "Solicitar cateterismo cardíaco isolado como primeira linha diagnóstica."},
+        {"key": "d", "text": "Solicitar ecocardiografia transtorácica e BNP; considerar ecocardiograma de estresse com dobutamina conforme resultado."}
+      ],
+      "correct_key": "d",
+      "explanation": "A investigação escalonada de valvopatia com dúvida sobre gravidade/repercussão clínica inclui ecocardiograma transtorácico e BNP como avaliação inicial, reservando o eco de estresse com dobutamina para esclarecer casos discordantes antes da decisão de intervenção.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "EINSTEIN R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_119",
+      "statement": "Homem, 22 anos, atleta, com síncope durante esforço físico intenso. Ausculta: sopro sistólico rude em borda esternal esquerda baixa, que AUMENTA de intensidade com a manobra de Valsalva (fase de esforço) e DIMINUI com a posição de cócoras (agachamento). Qual é o diagnóstico mais provável?",
+      "alternatives": [
+        {"key": "a", "text": "Estenose aórtica valvar"},
+        {"key": "b", "text": "Insuficiência mitral"},
+        {"key": "c", "text": "Miocardiopatia Hipertrófica Obstrutiva (MHO)"},
+        {"key": "d", "text": "Comunicação interatrial"}
+      ],
+      "correct_key": "c",
+      "explanation": "O sopro que AUMENTA com Valsalva (redução de pré-carga acentua o gradiente obstrutivo) e DIMINUI com agachamento (aumento de pré-carga/pós-carga reduz o gradiente) é o padrão clássico e distintivo da miocardiopatia hipertrófica obstrutiva — comportamento oposto ao da maioria dos sopros valvares.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "UEPA R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_120",
+      "statement": "Mulher, 40 anos, com quadro subagudo de febre baixa, fadiga, artralgia, nódulos de Osler, lesões de Janeway, baqueteamento digital e hematúria microscópica. Laboratório: fator reumatoide positivo, complemento sérico reduzido. Ausculta: sopro sistólico novo em foco mitral. Qual é o diagnóstico mais provável e o exame confirmatório de escolha?",
+      "alternatives": [
+        {"key": "a", "text": "Lúpus eritematoso sistêmico / biópsia renal."},
+        {"key": "b", "text": "Glomerulonefrite pós-estreptocócica isolada / urina tipo I seriada."},
+        {"key": "c", "text": "Endocardite infecciosa / ecocardiografia bidimensional."},
+        {"key": "d", "text": "Vasculite ANCA-associada / dosagem de ANCA."}
+      ],
+      "correct_key": "c",
+      "explanation": "Quadro subagudo clássico de endocardite infecciosa (febre, nódulos de Osler, lesões de Janeway, baqueteamento, glomerulonefrite por complexo imune com complemento baixo, fator reumatoide falso-positivo — achado comum na IE) com sopro mitral novo. O ecocardiograma é o exame confirmatório de escolha.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "UE-RJ R3CM 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_121",
+      "statement": "Mulher, 30 anos, com dispneia progressiva, sopro diastólico em ruflar no ápice e estalido de abertura à ausculta. Observe o eletrocardiograma a seguir. Ecocardiograma confirma função ventricular esquerda preservada e átrio esquerdo dilatado. Qual é o diagnóstico e a etiologia mais prováveis?",
+      "alternatives": [
+        {"key": "a", "text": "Insuficiência mitral; degeneração mixomatosa."},
+        {"key": "b", "text": "Estenose aórtica; calcificação senil."},
+        {"key": "c", "text": "Estenose mitral; cardiopatia reumática crônica."},
+        {"key": "d", "text": "Insuficiência tricúspide; endocardite infecciosa."}
+      ],
+      "correct_key": "c",
+      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. O quadro (mulher jovem, sopro diastólico em ruflar apical, estalido de abertura, átrio esquerdo dilatado com função ventricular esquerda preservada — típico de EM isolada, que poupa o VE) é altamente sugestivo de estenose mitral por cardiopatia reumática crônica.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "ABC R3CM 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_122",
+      "statement": "Um paciente de 30 anos, com história pregressa de uso constante de drogas intravenosas, foi à emergência por apresentar febre persistente de 38,5°C sem sinais e sintomas de insuficiência cardíaca, e apresentando 3 hemoculturas distintas, em diferentes horários, com estafilococo aureus. Depois desse resultado, o paciente realizou um ecocardiograma transesofágico que demonstrou regurgitação importante e presença de uma massa de 2,2cm anexada à valva tricúspide. Julgue: O Streptococcus bovis é o segundo agente etiológico mais comum de endocardite infecciosa em usuários de drogas intravenosas, atrás apenas do Staphylococcus aureus.",
+      "alternatives": [
+        {"key": "a", "text": "CERTO"},
+        {"key": "b", "text": "ERRADO"}
+      ],
+      "correct_key": "b",
+      "explanation": "Falso: o Streptococcus bovis (gallolyticus) está classicamente associado a neoplasia/patologia colônica e endocardite em população geral, não sendo o segundo agente mais comum em usuários de drogas intravenosas — nessa população, Staphylococcus aureus predomina isoladamente, com outros organismos (estreptococos, enterococos, gram-negativos, polimicrobiana/fúngica) dividindo o restante, sem essa associação específica com S. bovis.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "SES-DF R3CM 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_123",
+      "statement": "Entre as valvopatias listadas, qual está associada ao MAIOR risco de complicações cardiovasculares graves durante procedimentos cirúrgicos não cardíacos, dado o débito cardíaco fixo característico da lesão?",
+      "alternatives": [
+        {"key": "a", "text": "Insuficiência mitral leve"},
+        {"key": "b", "text": "Estenose aórtica grave"},
+        {"key": "c", "text": "Prolapso de valva mitral assintomático"},
+        {"key": "d", "text": "Insuficiência tricúspide leve"}
+      ],
+      "correct_key": "b",
+      "explanation": "A estenose aórtica grave, por causar débito cardíaco relativamente fixo, tem risco particularmente elevado de descompensação hemodinâmica grave durante anestesia (vasodilatação induzida pela anestesia não pode ser compensada por aumento do débito), sendo a valvopatia de maior risco perioperatório entre as listadas.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "PSU-MG R1 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_124",
+      "statement": "Assinale a alternativa que apresenta uma condição que NÃO é causa de estenose valvar, mas sim de insuficiência/regurgitação valvar.",
+      "alternatives": [
+        {"key": "a", "text": "Febre reumática"},
+        {"key": "b", "text": "Calcificação senil degenerativa"},
+        {"key": "c", "text": "Valva bicúspide congênita"},
+        {"key": "d", "text": "Doença de Barlow (degeneração mixomatosa)"}
+      ],
+      "correct_key": "d",
+      "explanation": "A Doença de Barlow (degeneração mixomatosa) causa classicamente prolapso valvar mitral com REGURGITAÇÃO (insuficiência), não estenose — diferente das demais opções, que são causas reconhecidas de estenose valvar.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "FGV OUTRAS PROVAS 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_125",
+      "statement": "Homem, 68 anos, dislipidêmico, hipertenso, tabagista, com estenose aórtica grave sintomática, indicação de troca valvar aórtica. Antes do procedimento cirúrgico, qual exame adicional deve ser considerado dado o perfil de risco aterosclerótico do paciente?",
+      "alternatives": [
+        {"key": "a", "text": "Cateterismo cardíaco para avaliação de lesão aterosclerótica coronariana, visando eventual revascularização concomitante à troca valvar."},
+        {"key": "b", "text": "Nenhum exame adicional é necessário além do ecocardiograma."},
+        {"key": "c", "text": "Ressonância magnética cardíaca isolada, sem necessidade de avaliação coronariana."},
+        {"key": "d", "text": "Holter de 24 horas isolado."}
+      ],
+      "correct_key": "a",
+      "explanation": "Pacientes com múltiplos fatores de risco aterosclerótico candidatos à cirurgia valvar cardíaca devem realizar avaliação coronariana pré-operatória (cateterismo cardíaco), permitindo revascularização concomitante caso identificada doença coronariana significativa.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "SCMGO R3CM 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_126",
+      "statement": "Homem, 75 anos, com dispneia progressiva, angina aos esforços e sopro sistólico em diamante em foco aórtico, irradiado para carótidas. Eletrocardiograma mostra padrão de sobrecarga ventricular esquerda com strain. Qual é o principal diagnóstico?",
+      "alternatives": [
+        {"key": "a", "text": "Insuficiência mitral moderada"},
+        {"key": "b", "text": "Cardiomiopatia hipertrófica não obstrutiva"},
+        {"key": "c", "text": "Comunicação interventricular residual"},
+        {"key": "d", "text": "Estenose aórtica grave"}
+      ],
+      "correct_key": "d",
+      "explanation": "Sopro sistólico em diamante (crescendo-decrescendo) em foco aórtico irradiado para carótidas, associado a sobrecarga ventricular esquerda com padrão de strain ao ECG (hipertrofia significativa) em paciente idoso sintomático, é o quadro clássico de estenose aórtica grave.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "facil",
+      "source": "SMS SP R3CM 2023",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_127",
+      "statement": "Criança de 6 anos, com cardiopatia congênita cianótica não corrigida, apresenta febre há 2 semanas e sopro cardíaco novo. Qual exame de imagem é fundamental para o diagnóstico definitivo de endocardite infecciosa neste caso?",
+      "alternatives": [
+        {"key": "a", "text": "Tomografia de tórax"},
+        {"key": "b", "text": "Radiografia de tórax isolada"},
+        {"key": "c", "text": "Ultrassonografia abdominal"},
+        {"key": "d", "text": "Ecocardiograma"}
+      ],
+      "correct_key": "d",
+      "explanation": "O ecocardiograma é o exame de imagem fundamental para o diagnóstico definitivo de endocardite infecciosa, sendo critério maior de Duke.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "facil",
+      "source": "SES-GO R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_128",
+      "statement": "Dentre os critérios microbiológicos de Duke modificados para diagnóstico de endocardite infecciosa, é considerado critério MAIOR:",
+      "alternatives": [
+        {"key": "a", "text": "Uma única hemocultura positiva para Staphylococcus epidermidis, sem outros achados."},
+        {"key": "b", "text": "Sorologia isolada positiva para qualquer bactéria, sem hemocultura."},
+        {"key": "c", "text": "Febre associada a leucocitose sem hemocultura positiva."},
+        {"key": "d", "text": "Duas hemoculturas distintas positivas para Streptococcus viridans."}
+      ],
+      "correct_key": "d",
+      "explanation": "Duas hemoculturas distintas positivas para organismo tipicamente causador de endocardite (como Streptococcus viridans) constituem critério microbiológico MAIOR de Duke.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "ENARE R3CM 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_129",
+      "statement": "Homem, 25 anos, previamente hígido, com quadro de dor torácica após infecção viral recente, dispneia progressiva e taquicardia. Ecocardiograma: ventrículo esquerdo não dilatado, disfunção sistólica grave (FE 30%), pequeno derrame pericárdico. Laboratório: troponina, NT-proBNP e PCR elevados. Qual é o exame não invasivo mais indicado para confirmação diagnóstica?",
+      "alternatives": [
+        {"key": "a", "text": "Cintilografia miocárdica com gálio"},
+        {"key": "b", "text": "Ecocardiograma com contraste isolado"},
+        {"key": "c", "text": "Angiotomografia coronariana"},
+        {"key": "d", "text": "Ressonância magnética cardíaca"}
+      ],
+      "correct_key": "d",
+      "explanation": "Quadro compatível com miocardite fulminante aguda (VE não dilatado com disfunção grave, troponina/NT-proBNP/PCR elevados, derrame pericárdico pequeno, contexto pós-viral). A ressonância magnética cardíaca é o melhor exame não invasivo confirmatório, avaliando edema/fibrose miocárdica.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "USP-RP R3CM 2024",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_130",
+      "statement": "Mulher, 22 anos, assintomática, com prolapso de valva mitral isolado ao ecocardiograma, sem regurgitação significativa e sem espessamento valvar. Está agendada para extração dentária eletiva. Assinale a alternativa correta.",
+      "alternatives": [
+        {"key": "a", "text": "Profilaxia antimicrobiana para endocardite infecciosa é obrigatória neste caso, dado o prolapso valvar."},
+        {"key": "b", "text": "Profilaxia antimicrobiana para endocardite infecciosa não é preconizada neste caso, pois prolapso de valva mitral isolado sem regurgitação significativa não está entre os grupos de alto risco."},
+        {"key": "c", "text": "A profilaxia deve ser realizada por via intravenosa nesse caso específico."},
+        {"key": "d", "text": "A profilaxia deve ser realizada mesmo em procedimentos de baixo risco de bacteremia."}
+      ],
+      "correct_key": "b",
+      "explanation": "Prolapso de valva mitral isolado, sem regurgitação significativa, NÃO está entre os grupos de alto risco que justificam profilaxia antibiótica segundo as diretrizes atuais — a afirmativa 'a' descreve a conduta INCORRETA/desatualizada.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "HEVV R3CM 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_131",
+      "statement": "Paciente em tratamento de endocardite infecciosa de valva aórtica, apresenta febre persistente e novo alargamento do intervalo PR ao eletrocardiograma seriado, evoluindo para bloqueio atrioventricular de 1º grau progressivo. Qual é a complicação mais provável?",
+      "alternatives": [
+        {"key": "a", "text": "Miocardite viral concomitante, sem relação com a endocardite."},
+        {"key": "b", "text": "Abscesso perivalvar, com extensão ao sistema de condução."},
+        {"key": "c", "text": "Efeito adverso medicamentoso isolado do antibiótico em uso."},
+        {"key": "d", "text": "Isquemia miocárdica aguda por embolização coronariana."}
+      ],
+      "correct_key": "b",
+      "explanation": "Novo distúrbio de condução (alargamento progressivo de PR) durante endocardite ativa com febre persistente é achado clássico de extensão perivalvar (abscesso) ao sistema de condução, especialmente na endocardite de valva aórtica.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "SES-GO R3CM 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_132",
+      "statement": "Homem, 65 anos, em hemodiálise, com fibrilação atrial crônica sem anticoagulação adequada, apresenta dor abdominal súbita em quadrante superior esquerdo. Observe a tomografia de abdome a seguir. Qual é o diagnóstico e a conduta mais prováveis?",
+      "alternatives": [
+        {"key": "a", "text": "Pancreatite aguda; conduta conservadora."},
+        {"key": "b", "text": "Embolia séptica com infarto esplênico; possível necessidade de esplenectomia conforme evolução."},
+        {"key": "c", "text": "Colecistite aguda; colecistectomia de urgência."},
+        {"key": "d", "text": "Diverticulite esquerda; antibioticoterapia isolada."}
+      ],
+      "correct_key": "b",
+      "explanation": "ATENÇÃO: tomografia de abdome citada mas não disponível na extração do PDF. Fibrilação atrial sem anticoagulação adequada (fonte embólica) associada a hemodiálise (potencial fonte infecciosa relacionada a acesso vascular) e dor abdominal súbita em QSE sugerem fortemente infarto esplênico embólico, com possível necessidade de esplenectomia caso haja complicações (abscesso, ruptura).",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "SANTA CASA-SP R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_133",
+      "statement": "Em relação à coleta de hemoculturas para investigação diagnóstica de endocardite infecciosa, é correto afirmar que",
+      "alternatives": [
+        {"key": "a", "text": "uma única amostra de hemocultura é sempre suficiente para o diagnóstico."},
+        {"key": "b", "text": "se a suspeita for endocardite, três amostras de hemocultura, coletadas de sítios distintos e em momentos diferentes, são usualmente suficientes."},
+        {"key": "c", "text": "as hemoculturas devem ser coletadas exclusivamente durante o pico febril."},
+        {"key": "d", "text": "dez amostras de hemocultura são o mínimo recomendado antes de iniciar antibioticoterapia."}
+      ],
+      "correct_key": "b",
+      "explanation": "A recomendação padrão para investigação de endocardite infecciosa é a coleta de três conjuntos de hemoculturas, de sítios de punção distintos e em momentos diferentes, antes do início da antibioticoterapia.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "facil",
+      "source": "IHOA R1 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_134",
+      "statement": "Homem, 70 anos, com dispneia progressiva, angina e síncope aos esforços. Ausculta: sopro sistólico em crescendo-decrescendo em foco aórtico, irradiado para carótidas, com diminuição da intensidade de B2. Qual é o diagnóstico mais provável?",
+      "alternatives": [
+        {"key": "a", "text": "Insuficiência mitral"},
+        {"key": "b", "text": "Estenose aórtica"},
+        {"key": "c", "text": "Comunicação interatrial"},
+        {"key": "d", "text": "Estenose pulmonar"}
+      ],
+      "correct_key": "b",
+      "explanation": "Tríade clássica (dispneia, angina, síncope) com sopro sistólico em crescendo-decrescendo irradiado para carótidas e diminuição/abolição de B2 (calcificação valvar grave) é quadro típico de estenose aórtica.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "facil",
+      "source": "USP-RP R1 2022",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_135",
+      "statement": "Mulher, 45 anos, proprietária de hotel para gatos, apresenta febre prolongada, perda de peso e sopro cardíaco novo. Hemoculturas seriadas são persistentemente negativas. Ecocardiograma transesofágico evidencia vegetação em valva mitral. Qual exame deve ser solicitado, dada a exposição ocupacional relatada?",
+      "alternatives": [
+        {"key": "a", "text": "Sorologia para HIV"},
+        {"key": "b", "text": "Pesquisa de BAAR no escarro"},
+        {"key": "c", "text": "Hemocultura em meio especial para fungos"},
+        {"key": "d", "text": "Sorologia para Bartonella"}
+      ],
+      "correct_key": "d",
+      "explanation": "Exposição ocupacional a gatos associada a endocardite com hemoculturas negativas (endocardite com cultura negativa) é a associação clássica com Bartonella henselae, exigindo sorologia específica para confirmação.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "FMJ R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_136",
+      "statement": "Mulher, 50 anos, com dispneia progressiva, hemoptise recorrente, ascite e turgência jugular. Ausculta: B1 hiperfonética, sopro diastólico em ruflar no ápice. Qual é o diagnóstico mais provável?",
+      "alternatives": [
+        {"key": "a", "text": "Insuficiência aórtica"},
+        {"key": "b", "text": "Estenose aórtica"},
+        {"key": "c", "text": "Insuficiência mitral aguda"},
+        {"key": "d", "text": "Estenose mitral"}
+      ],
+      "correct_key": "d",
+      "explanation": "B1 hiperfonética e sopro diastólico em ruflar apical (achados clássicos de EM), associados a hemoptise (hipertensão venosa pulmonar) e ascite/turgência jugular (insuficiência cardíaca direita secundária à hipertensão pulmonar crônica), configuram quadro avançado de estenose mitral.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "ENARE R3CM 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_137",
+      "statement": "Homem, 55 anos, com insuficiência aórtica leve isolada, sem prótese valvar, sem endocardite prévia e sem cardiopatia congênita, será submetido a extração dentária eletiva. Qual é a conduta correta em relação à profilaxia antibiótica para endocardite infecciosa?",
+      "alternatives": [
+        {"key": "a", "text": "Amoxicilina 2g, dose única, 1 hora antes do procedimento."},
+        {"key": "b", "text": "Clindamicina 600mg, dose única, 1 hora antes do procedimento."},
+        {"key": "c", "text": "Vancomicina intravenosa, 1 hora antes do procedimento."},
+        {"key": "d", "text": "Liberação para o procedimento sem antibiótico profilático."}
+      ],
+      "correct_key": "d",
+      "explanation": "Insuficiência aórtica isolada, sem prótese valvar, endocardite prévia ou cardiopatia congênita cianótica não corrigida, não está entre os grupos de alto risco que justificam profilaxia antibiótica segundo as diretrizes atuais — o paciente deve ser liberado sem profilaxia.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "UNIFESP R3CM 2024",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_138",
+      "statement": "Um paciente de 45 anos de idade foi encaminhado para avaliação de disfagia há cerca de seis meses, com sensação de \"parada da descida do alimento\" no meio do tórax. O paciente relata histórico de dispneia com piora progressiva e passado de tratamento irregular para febre reumática. Ao exame, observaram-se ritmo cardíaco regular em dois tempos, com sopro diastólico audível em ápice; FC = 86 bpm; FR = 20 ipm; e SatO2 = 95%. O esofagograma atual mostra compressão extrínseca do esôfago. Julgue: Diante da repercussão clínica evidente (disfagia por compressão esofágica e dispneia progressiva), o quadro descrito indica intervenção sobre a valva mitral acometida.",
+      "alternatives": [
+        {"key": "a", "text": "CERTO"},
+        {"key": "b", "text": "ERRADO"}
+      ],
+      "correct_key": "a",
+      "explanation": "Estenose mitral com clara repercussão clínica (disfagia por compressão esofágica pelo átrio esquerdo dilatado, dispneia progressiva, sopro diastólico, história de febre reumática) justifica indicação de intervenção sobre a valva mitral.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "SES-DF R1 2021",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_139",
+      "statement": "Homem, 68 anos, com estenose aórtica ao ecocardiograma: gradiente médio 75 mmHg, área valvar 0,6 cm², síncope recente aos esforços. Teste ergométrico confirma limitação sintomática objetiva. Qual é o diagnóstico de gravidade e a conduta mais adequada?",
+      "alternatives": [
+        {"key": "a", "text": "Estenose aórtica moderada; conduta conservadora com reavaliação anual."},
+        {"key": "b", "text": "Estenose aórtica leve; sem indicação de intervenção."},
+        {"key": "c", "text": "Estenose aórtica grave; conduta é cirurgia convencional com implante de prótese."},
+        {"key": "d", "text": "Estenose aórtica grave; contraindicação absoluta a qualquer intervenção."}
+      ],
+      "correct_key": "c",
+      "explanation": "Gradiente médio de 75mmHg e área valvar 0,6cm² confirmam estenose aórtica GRAVE, com síncope e teste ergométrico confirmando sintomas objetivos — indicação clara de cirurgia de troca valvar.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "medio",
+      "source": "HECI R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "valv_140",
+      "statement": "Homem, 27 anos, usuário de drogas intravenosas, com endocardite infecciosa de valva tricúspide, regurgitação importante e insuficiência cardíaca direita. Considerando o alto risco de reinfecção associado à continuidade do uso de drogas, qual é a abordagem cirúrgica preferencial quando indicada intervenção?",
+      "alternatives": [
+        {"key": "a", "text": "Troca valvar por prótese mecânica, preferida pela maior durabilidade."},
+        {"key": "b", "text": "Troca valvar por prótese biológica, sempre preferida em valva tricúspide."},
+        {"key": "c", "text": "Plastia valvar (reparo), quando tecnicamente factível."},
+        {"key": "d", "text": "Valvectomia sem reposição, como conduta definitiva em todos os casos."}
+      ],
+      "correct_key": "c",
+      "explanation": "Em endocardite tricúspide de usuários de drogas intravenosas, a plastia valvar (reparo) é preferida sobre a troca por prótese quando tecnicamente factível, dado o alto risco de reinfecção protética em pacientes que mantêm uso de drogas — evita os riscos adicionais associados a corpo estranho protético.",
+      "theme": "cardio_valvopatias",
+      "difficulty": "dificil",
+      "source": "UNIFESP R3CG 2024",
+      "reviewed": false,
+      "created_at": "2026-07-26T00:00:00.000Z"
+    }
+  ]
+}
