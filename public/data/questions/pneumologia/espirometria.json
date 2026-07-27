@@ -1,1 +1,56 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "esp_001",
+      "statement": "Mulher, 68a, queixa-se de fraqueza muscular progressiva há dois anos. Atualmente com dispneia ao andar poucos metros. Conta também câimbras recorrentes em membros inferiores. Há dois meses tem apresentado engasgos, principalmente com líquidos. Exame físico: FR=22irpm, FC=82bpm, oximetria de pulso=93%. Exame neurológico: força grau IV em membros inferiores e superiores, fasciculações difusas, inclusive em língua. Hiperreflexia e sinal de Babinski bilateral. Sensibilidade tátil, vibratória e dolorosa normais. Paciente realizou prova de função pulmonar. Considerar os valores de CVF e VEF1 como % do previsto para o peso, idade e altura do paciente. OS VALORES DE CVF, VEF1 E VEF1/CVF QUE SÃO COMPATÍVEIS COM A DOENÇA NEUROLÓGICA DA PACIENTE SÃO:",
+      "alternatives": [
+        {"key": "a", "text": "CVF 74%; VEF1 47%; VEF1/CVF 0,52."},
+        {"key": "b", "text": "CVF 48%; VEF1 52%; VEF1/CVF 0,89."},
+        {"key": "c", "text": "CVF 77%; VEF1 84%; VEF1/CVF 0,89."},
+        {"key": "d", "text": "CVF 47%; VEF1 61%; VEF1/CVF 0,66."}
+      ],
+      "correct_key": "b",
+      "explanation": "O quadro (fasciculações difusas incluindo língua, fraqueza mista de MMSS/MMII, hiperreflexia + Babinski, disfagia, ausência de alterações sensitivas) é compatível com Esclerose Lateral Amiotrófica (doença do neurônio motor), que causa fraqueza da musculatura respiratória e padrão RESTRITIVO por fraqueza neuromuscular: CVF e VEF1 proporcionalmente reduzidos, com relação VEF1/CVF preservada/elevada (>0,85), como na alternativa b (CVF 48%, VEF1 52%, relação 0,89).",
+      "theme": "pneumo_outros",
+      "difficulty": "dificil",
+      "source": "UNICAMP R3CM 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "esp_002",
+      "statement": "Mulher, 77 anos de idade, ex-tabagista de 15 anos-maço; parou de fumar há 10 anos. É admitida com queixa de dispneia progressiva ao longo dos últimos três anos. Tem antecedente de hipotireoidismo controlado e osteoporose com fraturas de compressão em coluna torácica e lombar. Realizou espirometria apresentada na tabela a seguir. A hipótese diagnóstica mais provável é:",
+      "alternatives": [
+        {"key": "a", "text": "Senescência"},
+        {"key": "b", "text": "Cifoescoliose"},
+        {"key": "c", "text": "Bronquiectasia"},
+        {"key": "d", "text": "Doença pulmonar obstrutiva crônica"}
+      ],
+      "correct_key": "b",
+      "explanation": "ATENÇÃO: tabela de espirometria citada mas não disponível na extração do PDF. Múltiplas fraturas de compressão vertebral torácica e lombar por osteoporose causam deformidade progressiva da caixa torácica (cifoescoliose adquirida), levando a padrão restritivo e dispneia progressiva — diagnóstico mais provável frente à baixa carga tabágica (15 anos-maço, cessada há 10 anos, tornando DPOC menos provável como causa principal).",
+      "theme": "pneumo_outros",
+      "difficulty": "medio",
+      "source": "USP R3CM 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "esp_003",
+      "statement": "Correlacionar imagens tomográficas com quadro clínico. A - homem de meia idade, tabagista, dispneia progressiva aos esforços com meses de evolução, espirometria com VEF1/CVF >70, estertores predominando no final da inspiração ao exame físico. B - mulher de 67 anos de idade, tabagista, tosse crônica, dispneia aos esforços, policitemia no hemograma, tempo expiratório prolongado, ausculta pulmonar com murmúrios vesiculares reduzidos globalmente. C - homem de 68 anos de idade, hipertenso mal-controlado, cardiopata, piora de dispneia, edema de membros inferiores, ortopneia, ausculta abolida em bases e estertores em ápice pulmonar. D - jovem de 27 anos de idade, com antecedente de hepatopatia em investigação, com relatos de dispneia durante os esforços físicos, ausculta com murmúrios vesiculares diminuído em bases pulmonares.",
+      "alternatives": [
+        {"key": "a", "text": "A-4, B-3, C-1, D-2"},
+        {"key": "b", "text": "A-3, B-2, C-1, D-4"},
+        {"key": "c", "text": "A-3, B-2, C-4, D-1"},
+        {"key": "d", "text": "A-3,B-1, C-2, D-4"},
+        {"key": "e", "text": "A-4, B-3, C-2, D-1"}
+      ],
+      "correct_key": "b",
+      "explanation": "ATENÇÃO: imagens tomográficas (1 a 4) citadas mas não disponíveis na extração do PDF, essenciais para a correlação correta — resposta de MUITO BAIXA confiança, um chute sem apoio visual algum. Clinicamente: A sugere fibrose pulmonar/doença intersticial (estertores teleinspiratórios, VEF1/CVF preservado = padrão restritivo); B sugere DPOC/enfisema (tempo expiratório prolongado, policitemia por hipoxemia crônica); C sugere insuficiência cardíaca/edema pulmonar (ortopneia, estertores basais... descrição atípica); D sugere síndrome hepatopulmonar (jovem com hepatopatia e dispneia).",
+      "theme": "pneumo_outros",
+      "difficulty": "dificil",
+      "source": "SUS-SP R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    }
+  ]
+}

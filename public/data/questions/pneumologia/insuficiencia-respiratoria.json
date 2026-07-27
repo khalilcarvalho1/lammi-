@@ -1,1 +1,21 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "ir_001",
+      "statement": "Homem de 48 anos apresenta policitemia sem causas hematológicas primárias. EF: PA: 160 x 90 mmHg, FC: 86 bpm, FR: 22 irpm, altura: 1,70m, peso: 114 kg, SatO² (ar ambiente): 88%, ausculta pulmonar com murmúrio vesicular diminuído, sem ruídos adventícios. Exames laboratoriais: Hb: 16 g/dL, Ht: 56%, plaquetas: 336 000/mm³. Gasometria arterial em ar ambiente: pH: 7,38, pCO²: 52 mmHg, pO²: 54,2 mmHg, bicarbonato: 29 mEq/L, SatO²: 87%. Espirometria: sugestiva de distúrbio ventilatório restritivo. Difusão de monóxido de carbono e TC de tórax: normais. Nega tabagismo ou pneumopatias. A hipótese diagnóstica é",
+      "alternatives": [
+        {"key": "a", "text": "doença pulmonar obstrutiva crônica."},
+        {"key": "b", "text": "síndrome da hipoventilação da obesidade."},
+        {"key": "c", "text": "doença pulmonar intersticial."},
+        {"key": "d", "text": "apneia obstrutiva do sono."}
+      ],
+      "correct_key": "b",
+      "explanation": "Obesidade importante (peso 114kg, IMC~39,4), hipercapnia crônica compensada (pCO2 52, HCO3 29 elevado compensatório), hipoxemia, padrão espirométrico RESTRITIVO (não obstrutivo, excluindo DPOC) e TC/DLCO NORMAIS (excluindo doença intersticial), sem tabagismo — configuram síndrome da hipoventilação da obesidade (Pickwickian), frequentemente associada a AOS mas aqui definida principalmente pela hipoventilação alveolar crônica.",
+      "theme": "pneumo_outros",
+      "difficulty": "dificil",
+      "source": "UNESP R3CM 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    }
+  ]
+}

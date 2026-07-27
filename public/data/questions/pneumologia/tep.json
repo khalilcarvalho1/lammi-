@@ -1,1 +1,21 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "tep_001",
+      "statement": "Mulher, 70 anos, dá entrada em pronto socorro com dor torácica e dispneia ao repouso de início há 1 dia. Exame físico: REG, cianótica, FR: 38 ipm; FC: 115 bpm; PA: 110×70 mmHg utilizando musculatura acessória respiratória, com hiperfonese de segunda bulha em foco pulmonar, sem outras alterações. Gasometria em ar ambiente: pH: 7,46; pO²: 45 mmHg; pCO²: 33 mmHg; HCO³: 22 mEq/L e SatO²: 78% e tomografia computadorizada de tórax com contraste. Qual é o principal mecanismo fisiopatológico respiratório para a hipoxemia desta paciente?",
+      "alternatives": [
+        {"key": "a", "text": "Hipoventilação alveolar."},
+        {"key": "b", "text": "Efeito espaço morto."},
+        {"key": "c", "text": "Redução da difusão."},
+        {"key": "d", "text": "Efeito shunt."}
+      ],
+      "correct_key": "b",
+      "explanation": "ATENÇÃO: tomografia de tórax com contraste citada mas não disponível na extração do PDF. Quadro clássico de tromboembolismo pulmonar agudo (dispneia súbita, taquipneia, hiperfonese de B2 por hipertensão pulmonar aguda, hipocapnia/alcalose respiratória por hiperventilação, hipoxemia grave refratária). O mecanismo primário da hipoxemia no TEP é o efeito espaço morto (áreas ventiladas mas não perfundidas pela obstrução vascular), com desvio secundário do fluxo sanguíneo para outras áreas causando alguma alteração V/Q adicional, mas o mecanismo fisiopatológico clássico e mais citado é o aumento do espaço morto fisiológico.",
+      "theme": "tep_dx",
+      "difficulty": "dificil",
+      "source": "USP-RP R3CM 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    }
+  ]
+}

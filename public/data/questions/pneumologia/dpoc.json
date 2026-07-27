@@ -1,1 +1,1392 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "dpoc_001",
+      "statement": "Em relação à prova de função pulmonar completa, assinale a alternativa correta.",
+      "alternatives": [
+        {"key": "a", "text": "A relação VEF1/CVF < 0,70 pós-broncodilatador indica padrão obstrutivo."},
+        {"key": "b", "text": "O diagnóstico de restrição é feito apenas pela redução da relação VEF1/CVF."},
+        {"key": "c", "text": "A prova broncodilatadora é considerada positiva quando há aumento do VEF1 > 5%."},
+        {"key": "d", "text": "A diminuição isolada da DLCO indica padrão obstrutivo."},
+        {"key": "e", "text": "A hiperresponsividade brônquica é confirmada pela ausência de reversibilidade após broncodilatador."}
+      ],
+      "correct_key": "a",
+      "explanation": "A relação VEF1/CVF <0,70 pós-broncodilatador é o critério diagnóstico padrão (GOLD) para padrão obstrutivo persistente. O diagnóstico de restrição depende da CPT reduzida (não apenas da relação VEF1/CVF, que costuma estar normal/aumentada na restrição); a prova broncodilatadora positiva exige aumento ≥12% E ≥200mL no VEF1 (não apenas >5%); DLCO isolada reduzida não define padrão obstrutivo; e hiperresponsividade brônquica é demonstrada por teste de broncoprovocação, não pela ausência de reversibilidade.",
+      "theme": "dpoc_dx",
+      "difficulty": "medio",
+      "source": "BOS R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_002",
+      "statement": "Um paciente de 68 anos de idade, ex-tabagista de 35 maços ao ano, com diagnóstico prévio de DPOC GOLD 2, procurou atendimento na unidade básica de saúde por piora progressiva da dispneia há três dias, aumento de tosse e produção de escarro amarelado. Ao exame físico, apresentou PA = 128 mmHg x 82 mmHg, FC = 104 bpm, FR = 26 irpm, SatO2 = 88% em ar ambiente. Ausculta pulmonar: roncos difusos e sibilos bilaterais. A conduta inicial mais adequada para esse paciente é",
+      "alternatives": [
+        {"key": "a", "text": "antibiótico apenas se houver febre."},
+        {"key": "b", "text": "oxigenoterapia titulada e broncodilatadores de ação curta."},
+        {"key": "c", "text": "corticoide inalatório isolado."},
+        {"key": "d", "text": "intubação imediata."}
+      ],
+      "correct_key": "b",
+      "explanation": "Na exacerbação de DPOC com hipoxemia (SatO2 88%), a conduta inicial padrão é oxigenoterapia titulada (alvo 88-92%) associada a broncodilatadores de ação curta inalatórios, antes de considerar antibioticoterapia sistêmica (indicada pelos critérios de Anthonisen, independente de febre) e medidas mais invasivas.",
+      "theme": "dpoc_exac",
+      "difficulty": "medio",
+      "source": "SES-DF R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_003",
+      "statement": "Homem de 70 anos, ex-tabagista pesado, em acompanhamento ambulatorial, refere tosse produtiva crônica há vários anos e dispneia progressiva, atualmente presente para atividades mínimas, como deslocar-se dentro de casa. Evoluiu nos últimos meses com edema de membros inferiores de instalação gradual. É portador de hipertensão arterial sistêmica. Ao exame físico: encontra-se taquipneico (FR = 26 irpm), com hipoventilação difusa e roncos bilaterais à ausculta pulmonar. Observa-se turgência jugular, fígado palpável a 4 cm do rebordo costal direito e edema maleolar bilateral importante (3+/4+). Gasometria arterial em ar ambiente revela: pH 7,36; PaO2 56 mmHg: PaCO2 49 mmHg; HCO3- 28 mEq/L. Considerando o diagnóstico provável e as opções terapêuticas disponíveis, assinale a alternativa que apresenta maior impacto na redução da mortalidade a longo prazo.",
+      "alternatives": [
+        {"key": "a", "text": "Inibidor da enzima conversora de angiotensina (enalapril)."},
+        {"key": "b", "text": "Oxigenoterapia domiciliar prolongada."},
+        {"key": "c", "text": "Diurético de alça (furosemida)."},
+        {"key": "d", "text": "Antagonista da aldosterona (espironolactona)."},
+        {"key": "e", "text": "Corticoide oral."}
+      ],
+      "correct_key": "b",
+      "explanation": "DPOC com cor pulmonale (turgência jugular, hepatomegalia, edema) e hipoxemia crônica (PaO2 56mmHg, abaixo do limiar de 55-60mmHg). Entre as opções, a oxigenoterapia domiciliar prolongada é a única com impacto comprovado de redução de MORTALIDADE a longo prazo em DPOC com hipoxemia crônica grave (estudos NOTT e MRC); os demais tratam sintomas de congestão mas não alteram a sobrevida na DPOC per se.",
+      "theme": "dpoc_tto",
+      "difficulty": "medio",
+      "source": "HEDA R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_004",
+      "statement": "A base do tratamento medicamentoso da Doença Pulmonar Obstrutiva Crônica são os broncodilatadores por via inalatória, sendo:",
+      "alternatives": [
+        {"key": "a", "text": "De acordo com a gravidade e não o perfil de risco da doença."},
+        {"key": "b", "text": "Desacordo com a gravidade e o perfil de risco da doença."},
+        {"key": "c", "text": "De acordo com a gravidade e o perfil de risco da doença."},
+        {"key": "d", "text": "De acordo com o risco da doença e não sua gravidade."}
+      ],
+      "correct_key": "c",
+      "explanation": "A escolha da terapia broncodilatadora inalatória na DPOC segue tanto a gravidade da limitação ao fluxo aéreo (espirometria) quanto o perfil de risco/sintomas (classificação GOLD ABE, baseada em sintomas e histórico de exacerbações).",
+      "theme": "dpoc_tto",
+      "difficulty": "facil",
+      "source": "ISCMSC R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_005",
+      "statement": "Um paciente de 68 anos de idade, ex-tabagista de 35 maços ao ano, com diagnóstico prévio de DPOC GOLD 2, procurou atendimento na unidade básica de saúde por piora progressiva da dispneia há três dias, aumento de tosse e produção de escarro amarelado. Ao exame físico, apresentou PA = 128 mmHg x 82 mmHg, FC = 104 bpm, FR = 26 irpm, SatO2 = 88% em ar ambiente. Ausculta pulmonar: roncos difusos e sibilos bilaterais. Assinale a alternativa que corresponde ao exame que é fundamental para avaliar a indicação de ventilação não invasiva (VNI) durante a exacerbação de DPOC.",
+      "alternatives": [
+        {"key": "a", "text": "Eletrocardiograma"},
+        {"key": "b", "text": "Radiografia de tórax"},
+        {"key": "c", "text": "Lactato sérico"},
+        {"key": "d", "text": "Gasometria arterial"}
+      ],
+      "correct_key": "d",
+      "explanation": "A gasometria arterial (identificando acidose respiratória, pH<7,35 com PaCO2 elevado) é o exame fundamental para definir a indicação de VNI na exacerbação de DPOC.",
+      "theme": "dpoc_exac",
+      "difficulty": "facil",
+      "source": "SES-DF R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_006",
+      "statement": "Homem, 63 anos de idade, procura atendimento ambulatorial por dispneia. Ele não tem antecedentes relevantes, mas conta que, há 8 meses, começou a apresentar dispneia aos grandes esforços, mas conseguia realizar atividades habituais. Há 2 meses, começou a interromper sua caminhada diária até a padaria por dispneia e tosse. Há 1 mês, teve crise de dispneia e tosse produtiva, quando ficou internado por 4 dias no pronto-socorro. Ele é tabagista com carga de 46 anos-maço. Ao exame clínico, apresentou sinais vitais normais e sibilos expiratórios difusos, sem sinais de desconforto respiratório e sem outras anormalidades. Os dados da prova de função pulmonar estão apresentados a seguir. O hemograma identificou 320 eosinófilos/mm3, IgE 35 UI/mL (valor de referência < 100 UI/mL).",
+      "alternatives": [
+        {"key": "a", "text": "Asma remodelada; formoterol e tiotrópio."},
+        {"key": "b", "text": "Asma alérgica; fluticasona."},
+        {"key": "c", "text": "Asma e DPOC; vilanterol e umeclidínio."},
+        {"key": "d", "text": "DPOC; olodaterol, budesonida e tiotrópio."}
+      ],
+      "correct_key": "d",
+      "explanation": "ATENÇÃO: dados da espirometria citados mas não disponíveis na extração do PDF. Paciente com carga tabágica muito elevada (46 anos-maço), sem história de asma prévia e IgE normal (afastando etiologia alérgica), com hospitalização recente por exacerbação (Grupo E) e eosinofilia discreta (320) — quadro compatível com DPOC grave exacerbadora, com indicação de terapia tripla (LABA+ICS+LAMA: olodaterol, budesonida e tiotrópio).",
+      "theme": "dpoc_tto",
+      "difficulty": "dificil",
+      "source": "USP R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_007",
+      "statement": "Paciente, 56 anos de idade, feminino, aposentada, queixa de dispneia e tosse produtiva há muito tempo. Relata piora da dispneia e sensação de abafamento torácico há 8 dias e da tosse produtiva (escarro mucoide) há 30 dias. Negou queixas de outros sistemas. Negou antecedente de doença pulmonar pessoal ou familiar. A paciente é tabagista 40a/maço e traz espirometria realizada há 6 meses com laudo de distúrbio ventilatório obstrutivo moderado e prova broncodilatadores negativa. Ao exame físico observou-se murmúrio vesicular diminuído e roncos discretos inspiratórios e expiratórios, ausência de outros achados pertinentes. Sinais vitais: frequência respiratória = 22 ipm, FC = 85 bpm, PA = 128/84 mmHg, oximetria de pulso em ar ambiente = 94%. Relata uso tiotrópio e formoterol há 6 meses. Qual é o diagnóstico dessa paciente?",
+      "alternatives": [
+        {"key": "a", "text": "DPOC em tratamento, exacerbação leve"},
+        {"key": "b", "text": "DPOC sem tratamento,estável"},
+        {"key": "c", "text": "DPOC em tratamento, exacerbação moderada"},
+        {"key": "d", "text": "DPOC em tratamento, estável"}
+      ],
+      "correct_key": "a",
+      "explanation": "Piora discreta de sintomas (dispneia/tosse) sem hipoxemia significativa (SatO2 94%), sem taquipneia importante, sinais vitais preservados — configura exacerbação LEVE, em paciente já em tratamento estabelecido (tiotrópio+formoterol).",
+      "theme": "dpoc_exac",
+      "difficulty": "medio",
+      "source": "PSU-GO R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_008",
+      "statement": "Mulher, 62 anos de idade, ex-fumante (tendo parado de fumar há quatro anos), recebeu diagnóstico de DPOC há 6 meses após consulta devido a dispneia progressiva aos esforços nas suas atividades domésticas. Tinha mMRC = 2 e CAT = 18. Nega histórico de exacerbações. Espirometria: VEF1 pós-broncodilatador = 48% do previsto. Foi prescrita medicação inalatória com associação de tiotrópio 2,5 mcg + olodaterol 2,5 mcg duas doses pela manhã. Foi encaminhada para atualização vacinal. Retorna à consulta com discreta melhora da dispneia ao esforço, mas ainda com limitações no trabalho. Recebeu vacinas para influenza, SARSCOV-2 e pneumococo. Hemograma: eosinófilos = 360/mm³. Radiografia de tórax: sinais indiretos de hiperinsuflação, sem outras alterações importantes. Quais medidas deveriam ser orientadas à paciente?",
+      "alternatives": [
+        {"key": "a", "text": "Se estiver usando incorretamente o dispositivo inalatório, orientar a técnica correta e, se compreender e estiver usando corretamente, manter as medicações inalatórias. Orientar vacinação contra vírus sincicial respiratório, pertussis e herpes zoster."},
+        {"key": "b", "text": "Se estiver usando incorretamente o dispositivo inalatório, orientar a técnica correta. Associar corticoide inalatório devido à eosinofilia. Orientar vacinação contra vírus sincicial respiratório, pertussis e herpes zoster."},
+        {"key": "c", "text": "Mesmo que esteja usando corretamente o dispositivo inalatório, trocar tratamento para um outro dispositivo inalatório que contenha associação LAMA/LABA. Orientar vacinação contra pertussis e herpes zoster e prescrever profilaxia com anticorpo monoclonal."},
+        {"key": "d", "text": "Mesmo que esteja usando corretamente o dispositivo inalatório, trocar tratamento para uma associação de LAMA/LABA e corticoide inalatório devido à eosinofilia. Orientar vacinação contra pertussis e herpes zoster e prescrever profilaxia com anticorpo monoclonal."}
+      ],
+      "correct_key": "a",
+      "explanation": "Sem histórico de exacerbações, a adição de corticoide inalatório apenas pela eosinofilia (sem exacerbações) não é indicada pelo GOLD. A conduta correta é checar/corrigir técnica inalatória, manter o esquema LAMA/LABA já em uso e completar a vacinação com as vacinas ainda pendentes (VSR, pertussis, herpes zoster), além das já recebidas.",
+      "theme": "dpoc_tto",
+      "difficulty": "dificil",
+      "source": "UNIFESP R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_009",
+      "statement": "Mulher, 67 anos, tabagista ativa, hipertensa, comparece em consulta ambulatorial com queixa de falta de ar e chiado no peito há um mês. Procurou PS em duas ocasiões, recebendo receita com antibiótico e Salbutamol inalatório, com pouca resposta. Paciente traz exame de Espirometria solicitado por médico amigo da família, que evidencia VEF1/CVF de 0,60 pós-broncodilatador. Qual deve ser o tratamento para a doença diagnosticada?",
+      "alternatives": [
+        {"key": "a", "text": "Manter Salbutamol inalatório durante as crises."},
+        {"key": "b", "text": "Beta-agonista de longa duração + Corticoide inalatório."},
+        {"key": "c", "text": "Azitromicina em uso contínuo."},
+        {"key": "d", "text": "Beta-agonista de longa duração + Antagonista muscarínico de longa duração."}
+      ],
+      "correct_key": "d",
+      "explanation": "VEF1/CVF 0,60 pós-broncodilatador confirma DPOC (obstrução fixa). Para tratamento de manutenção sintomático sem indicação clara de ICS (sem dados de eosinofilia/exacerbações frequentes), a combinação de broncodilatadores de longa duração LABA+LAMA é a terapia inicial recomendada pelo GOLD.",
+      "theme": "dpoc_tto",
+      "difficulty": "medio",
+      "source": "UNITAU R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_010",
+      "statement": "Um paciente de 64 anos de idade, pedreiro, foi encaminhado para acompanhamento na UBS, após internação hospitalar por pneumonia. Ele relatou tosse seca matinal e dispneia progressiva atualmente, para caminhar no plano. Afirmou ser tabagista de 45 maços/ano. No resumo de alta, constava hemograma com eosinofilia de 380 células/mm3. Realizou-se a espirometria solicitada pelo médico do hospital que apresentou o seguinte resultado: capacidade vital forçada (CVF) 82% do previsto; volume expiratório forçado no primeiro segundo (VEF1): 53%; relação VEF1/CVF: 64% do previsto; e resposta positiva ao broncodilatador. Com base nessa situação hipotética, assinale a alternativa que apresenta a classificação do DPOC e a conduta terapêutica adequadas, conforme as recomendações GOLD 2024.",
+      "alternatives": [
+        {"key": "a", "text": "GOLD 2 B E. Uso inalatório contínuo: beta agonistas de longa duração, antimuscarínicos de longa duração e corticoide."},
+        {"key": "b", "text": "GOLD 2 B. Uso inalatório contínuo: beta agonistas de longa duração e antimuscarínicos de longa duração."},
+        {"key": "c", "text": "GOLD 3 B E. Uso inalatório contínuo: beta agonistas de longa duração, antimuscarínicos de longa duração e corticoide."},
+        {"key": "d", "text": "GOLD 3 B E. Uso inalatório contínuo: beta agonistas de longa duração e antimuscarínicos de longa duração."},
+        {"key": "e", "text": "GOLD 2 A. Uso inalatório intermitente de beta agonista de curta duração."}
+      ],
+      "correct_key": "a",
+      "explanation": "VEF1 53% do previsto classifica GOLD grau 2 (moderado, 50-79%). A hospitalização recente (mesmo que por pneumonia, considerada aqui como evento grave) associada à eosinofilia >300/mm³ (380) justifica a indicação de terapia tripla (LABA+LAMA+corticoide inalatório), compatível com classificação de grupo E/eosinofílico.",
+      "theme": "dpoc_tto",
+      "difficulty": "dificil",
+      "source": "FMJ R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_011",
+      "statement": "Homem, 70 anos, relata dispneia aos esforços há 7 anos. Apresenta hipertensão há 15 anos, atualmente em uso de enalapril. É ex-tabagista, com 90 anos maço. Exame fisico: FR: 21 ipm; FC: 70 bpm, murmúrio vesicular globalmente reduzido e bulhas hipofonéticas. Qual é o principal mecanismo fisiopatológico que explica a dispneia ao esforço para e paciente?",
+      "alternatives": [
+        {"key": "a", "text": "Hiperinsuflação dinâmica."},
+        {"key": "b", "text": "Broncoespasmo ao exercício."},
+        {"key": "c", "text": "Redução da elastância dinâmica."},
+        {"key": "d", "text": "Gluconato de cálcio e hemodiálise de urgência."}
+      ],
+      "correct_key": "a",
+      "explanation": "ATENÇÃO: imagem (provavelmente radiografia/espirometria) citada mas não disponível na extração do PDF. Em paciente com carga tabágica muito elevada (90 anos-maço) e sinais de hiperinsuflação (MV globalmente reduzido, bulhas hipofonéticas), o principal mecanismo fisiopatológico da dispneia ao esforço na DPOC é a hiperinsuflação dinâmica, que reduz a capacidade inspiratória durante o exercício.",
+      "theme": "dpoc_dx",
+      "difficulty": "medio",
+      "source": "USP-RP R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_012",
+      "statement": "Quanto a vacinação para pacientes com DPOC, assinale a alternativa INCORRETA:",
+      "alternatives": [
+        {"key": "a", "text": "A vacina para Herpes Zoster está recomendada para pacientes acima dos 50 anos."},
+        {"key": "b", "text": "A vacinação para Influenza e COVID-19 está recomendada para todos os pacientes."},
+        {"key": "c", "text": "A vacina para Vírus Sincicial Respiratório (VSR) está recomendada para pacientes acima de 60 anos de idade."},
+        {"key": "d", "text": "Os pacientes que recebem a vacina conjugada 13 ou 15 Valente não precisam mais receber a vacina polissacarídica Pneumo 23."}
+      ],
+      "correct_key": "d",
+      "explanation": "É a alternativa INCORRETA: pacientes de alto risco (incluindo DPOC) que recebem a vacina pneumocócica conjugada (13 ou 15-valente) ainda devem receber a vacina polissacarídica 23-valente (Pneumo 23) posteriormente, em esquema sequencial, conforme recomendações atuais.",
+      "theme": "dpoc_tto",
+      "difficulty": "medio",
+      "source": "CEREM R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_013",
+      "statement": "Um paciente de 65 anos, tabagista com 40 anos de tabagismo, apresenta dispneia progressiva, tosse crônica produtiva e história de múltiplas exacerbações nos últimos 2 anos. A espirometria revela um VEF1/CVF pós-broncodilatador de 0,65. De acordo com as diretrizes GOLD 2024, dentre as possibilidades abaixo, qual a MELHOR opção terapêutica inicial para este paciente?",
+      "alternatives": [
+        {"key": "a", "text": "Tiotrópio inalatório."},
+        {"key": "b", "text": "Salmeterol inalatório."},
+        {"key": "c", "text": "Combinação de corticoide inalatório e beta2 agonista de longa ação."},
+        {"key": "d", "text": "Oxigenoterapia domiciliar contínua."},
+        {"key": "e", "text": "Antibióticos de amplo espectro."}
+      ],
+      "correct_key": "c",
+      "explanation": "Paciente exacerbador frequente (múltiplas exacerbações nos últimos 2 anos): entre as opções oferecidas (sem combinação LAMA/LABA disponível), a combinação de corticoide inalatório com LABA é a que melhor visa reduzir a frequência de exacerbações nesse perfil de paciente.",
+      "theme": "dpoc_tto",
+      "difficulty": "medio",
+      "source": "HUSE R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_014",
+      "statement": "Homem, 68 anos de idade, ex-tabagista há 01 ano (50 anos-maço), apresentou em exame de espirometria distúrbio ventilatório obstrutivo acentuado, com capacidade vital reduzida, sugerindo aprisionamento aéreo e sem variação significativa da função pulmonar após realizar broncodilatador (BD). No entanto, relatava melhora parcial da dispneia com uso de BD. Foi indicado realização de pletismografia para uma melhor avaliação funcional. Na pletismografia, uma resposta broncodilatadora positiva, que frequentemente se traduz em melhora da sintomatologia respiratória na doença pulmonar obstrutiva crônica (DPOC), é observada por qual parâmetro?",
+      "alternatives": [
+        {"key": "a", "text": "Queda do volume residual"},
+        {"key": "b", "text": "Queda da capacidade inspiratória"},
+        {"key": "c", "text": "Elevação da capacidade residual funcional"},
+        {"key": "d", "text": "Queda do volume de reserva expiratório"}
+      ],
+      "correct_key": "a",
+      "explanation": "Mesmo quando o VEF1 não varia significativamente com o broncodilatador, a redução do volume residual (menos aprisionamento aéreo/hiperinsuflação) na pletismografia é o parâmetro que melhor se correlaciona com a melhora sintomática relatada pelo paciente na DPOC.",
+      "theme": "dpoc_dx",
+      "difficulty": "dificil",
+      "source": "UNIFESP R3CM 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_015",
+      "statement": "Homem, 60 anos de idade, tabagista, com queixa de dispneia que limita atividades de vida diária, faz prova de função pulmonar que mostra FEV1/FVC de 0,60 e pós broncodilatador de 0,65. FEV1 é 70% do predito. A opção terapêutica recomendada, conforme diretrizes GOLD, é",
+      "alternatives": [
+        {"key": "a", "text": "tiotrópio, apenas."},
+        {"key": "b", "text": "umeclidínio, apenas."},
+        {"key": "c", "text": "vilanterol + umeclidínio, apenas."},
+        {"key": "d", "text": "formoterol + budesonida, apenas."},
+        {"key": "e", "text": "formoterol + budesonida e triotrópio, apenas."}
+      ],
+      "correct_key": "c",
+      "explanation": "DPOC GOLD 2 (VEF1 70%) com dispneia significativa limitando atividades diárias (Grupo B), sem histórico de exacerbações mencionado: o tratamento inicial recomendado é a combinação de broncodilatadores de longa duração LABA+LAMA (vilanterol+umeclidínio).",
+      "theme": "dpoc_tto",
+      "difficulty": "medio",
+      "source": "SCMRP R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_016",
+      "statement": "Homem de 78 anos, com doença pulmonar obstrutiva crônica (GOLD grau III; grupo D), é internado com piora da dispneia e aumento do volume e purulência do escarro nos últimos três dias. Ao exame físico, apresenta-se consciente e orientado; temperatura: 37,8 °C; frequência cardíaca: 110 bpm; pressão arterial: 128 x 68 mmHg; frequência respiratória: 28 ipm; há sibilância difusa à ausculta; não há edema. A radiografia de tórax mostra: campos pulmonares hiperinsuflados, sem consolidação; área cardíaca normal. Exames séricos: proteína C reativa: 45 mg/L (normal: < 10); neutrófilos: 12.109/mm³. Gasometria arterial: pH 7,31; PCO2: 76 mmHg; bicarbonato: 31 mEq/L; PO2: 142 mmHg. Nesse momento, além de monitorização vigilante, constitui a melhor conduta inicial na primeira hora",
+      "alternatives": [
+        {"key": "a", "text": "oxigenoterapia com cânula nasal de oxigênio de alto fluxo."},
+        {"key": "b", "text": "tratamento clínico, redução da oferta de oxigênio e monitoramento."},
+        {"key": "c", "text": "ventilação não invasiva com 1 nível (CPAP)."},
+        {"key": "d", "text": "ventilação não invasiva com 2 níveis (BiPAP)."},
+        {"key": "e", "text": "ventilação mecânica invasiva."}
+      ],
+      "correct_key": "d",
+      "explanation": "Acidose respiratória hipercápnica aguda-crônica (pH 7,31, PCO2 76mmHg) na exacerbação de DPOC é a indicação clássica de VNI com 2 níveis de pressão (BiPAP), primeira linha antes de considerar intubação, dado que o paciente está consciente e cooperativo.",
+      "theme": "dpoc_exac",
+      "difficulty": "dificil",
+      "source": "Sírio Libanês - SP R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_017",
+      "statement": "Um homem de 58 anos, pedreiro, com exposição a tabaco por 35 maços-ano e exposição ocupacional a poeiras, relata dispneia progressiva há 2 anos e duas exacerbações nos últimos 12 meses, sendo uma com necessidade de corticoide sistêmico. Ao exame físico, apresenta tórax em barril, murmúrio vesicular globalmente diminuído e expiração prolongada. A espirometria pós-broncodilatador mostrou: VEF1/CVF = 0,62; VEF1 = 48% do previsto; DLCO reduzido. Na avaliação de sintomas e risco, apresenta mMRC = 3 e duas exacerbações no último ano, sendo uma grave. O paciente relata que usa LAMA isolado, mas mantém sintomas importantes. A conduta mais adequada segundo as recomendações GOLD 2024-2025, é:",
+      "alternatives": [
+        {"key": "a", "text": "aumentar a dose do LAMA isolado."},
+        {"key": "b", "text": "manter LAMA e iniciar corticoterapia inalatória isolada."},
+        {"key": "c", "text": "iniciar associação LABA + LAMA."},
+        {"key": "d", "text": "iniciar LABA + LAMA + ICS (\"terapia tripla\")."},
+        {"key": "e", "text": "solicitar TC de alta resolução antes de alterar a terapêutica."}
+      ],
+      "correct_key": "c",
+      "explanation": "Paciente com sintomas persistentes importantes (mMRC 3) em monoterapia com LAMA, com exacerbações (grupo E) mas sem dados de eosinofilia mencionados justificando ICS de imediato — o próximo passo recomendado pelo GOLD é escalonar para associação LABA+LAMA.",
+      "theme": "dpoc_tto",
+      "difficulty": "dificil",
+      "source": "UEPA R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_018",
+      "statement": "Em relação à doença pulmonar obstrutiva crônica, analise as assertivas a seguir: I. O diagnóstico funcional de obstrução ao fluxo aéreo se baseia na relação entre volume expiratório forçado no primeiro segundo e capacidade vital forçada (VEF1 e CVF, respectivamente), considerando-se anormal um valor inferior a 80%. II. A dosagem do nível sérico de alfa-1-antitripsina deve ser considerada para casos de enfisema pulmonar panlobular com predomínio basal de início precoce (antes da 4ª década), especialmente em não fumantes. III. A teofilina é eficaz na redução de dispneia em estudos clínicos randomizados, mas o risco de toxicidade e a necessidade de monitorização do nível sérico limitam sua utilidade clínica. Quais estão corretas?",
+      "alternatives": [
+        {"key": "a", "text": "Apenas I e II"},
+        {"key": "b", "text": "Apenas I e III"},
+        {"key": "c", "text": "Apenas II e III"},
+        {"key": "d", "text": "I, II e III"}
+      ],
+      "correct_key": "c",
+      "explanation": "II e III estão corretas. I está errada: o valor de corte diagnóstico da relação VEF1/CVF é <0,70 (70%), não <80%.",
+      "theme": "dpoc_dx",
+      "difficulty": "dificil",
+      "source": "AMRIGS R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_019",
+      "statement": "A Alfa-1 Antitripsina (AAT) é uma proteína essencial que atua como um inibidor de proteases, protegendo os tecidos do corpo contra a ação destrutiva de enzimas como a elastase. Sobre a AAT, é CORRETO afirmar:",
+      "alternatives": [
+        {"key": "a", "text": "A deficiência de AAT no organismo leva exclusivamente à destruição do parênquima hepático."},
+        {"key": "b", "text": "A deficiência de AAT resulta em enfisema pulmonar devido à falta de inibição da elastase."},
+        {"key": "c", "text": "A AAT é produzida apenas no fígado e não tem função nos pulmões."},
+        {"key": "d", "text": "A AAT é sempre suficiente para proteger os pulmões em pacientes com hepatopatia."}
+      ],
+      "correct_key": "b",
+      "explanation": "A deficiência de AAT permite ação não inibida da elastase neutrofílica sobre o parênquima pulmonar, causando enfisema panlobular precoce, classicamente com predomínio nas bases pulmonares.",
+      "theme": "dpoc_dx",
+      "difficulty": "facil",
+      "source": "HOB-DF R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_020",
+      "statement": "Homem, 70a, procura Pronto Atendimento com história de 10 dias de tosse, inicialmente seca e agora produtiva, associado à falta de ar progressiva em repouso. Antecedentes pessoais: ex-tabagista (60 anos-maço), sem outras comorbidades. Medicamentos em uso: indacaterol e glicopirrônio regulares há dois anos. Exame físico: oximetria de pulso=87% em ar ambiente, FR=24irpm, PA=122/84 mmHg, FC=100bpm, ausculta pulmonar com roncos esparsos, raros sibilos, sem outras alterações; bulhas cardíacas em dois tempos, sem sopros; edema de membros inferiores +/4+. Exames laboratoriais: leucograma sem leucocitose ou desvio à esquerda, hemoglobina=16,0g/dL, hematócrito=50%. PCR=15mg/L. Gasometria arterial: pH=7,33, PaO²=60mmHg, PaCO²=58mmHg, HCO³=32mEq/L, saturação de oxigênio=88%. Radiograma de tórax=hiperinsuflação pulmonar. Considerando as medidas terapêuticas, ASSINALE A ALTERNATIVA CORRETA:",
+      "alternatives": [
+        {"key": "a", "text": "Aminopenicilina com ácido clavulânico ou levofloxacina, broncodilatadores de curta ação por via inalatória, oxigênio via cateter nasal. Reavaliação para possibilidade de alta hospitalar em 4-6 horas."},
+        {"key": "b", "text": "Antibiótico anti-Pseudomonas aeruginosa, broncodilatadores de longa ação, corticoide inalatório em altas doses, oseltamivir 75mg/d, oxigênio nasal e internação em enfermaria."},
+        {"key": "c", "text": "Antibiótico de largo espectro, como piperacilina/tazobactam, broncodilatadores de curta duração, corticoide sistêmico, intubação orotraqueal para ventilação mecânica e internação em terapia intensiva."},
+        {"key": "d", "text": "Aminopenicilina com ácido clavulânico, broncodilatadores de curta ação por via inalatória, corticoide sistêmico, ventilação não invasiva. Considerar internação em terapia intensiva se não houver melhora em 2-3h."}
+      ],
+      "correct_key": "d",
+      "explanation": "Exacerbação de DPOC com acidose respiratória moderada (pH 7,33), hipercapnia e hipoxemia significativa: a conduta apropriada é antibioticoterapia de espectro adequado (aminopenicilina+clavulanato), broncodilatadores de curta ação, corticoide sistêmico e VNI, com reavaliação para UTI se não houver melhora em 2-3h — sem indicação inicial de intubação imediata em paciente ainda cooperativo/sem falência ventilatória franca.",
+      "theme": "dpoc_exac",
+      "difficulty": "dificil",
+      "source": "UNICAMP R3CM 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_021",
+      "statement": "Paciente de 55 anos com doença pulmonar obstrutiva grave é internado por exacerbação da condição. Refere que é seu primeiro episódio de exacerbação. Ele é tratado com broncodilatadores, antibióticos e corticosteroides sistêmicos e, durante sua internação, recebe oxigênio suplementar por meio de uma cânula nasal. A condição melhorou significativamente após 7 dias. À admissão, a gasometria arterial em ar ambiente mostra: pH: 7,40; PCO2: 37 mmHg; PO2: 45 mmHg; bicarbonato: 24 mEq/L. Os valores arteriais à alta são: pH: 7,41; PCO2: 41 mmHg; PO2: 52 mmHg; bicarbonato: 26 mEq/L. O tratamento ambulatorial otimizado padrão é prescrito, sendo indicada como conduta adicional",
+      "alternatives": [
+        {"key": "a", "text": "a oxigenoterapia de longo prazo por tempo indeterminado."},
+        {"key": "b", "text": "o oxigênio suplementar, durante o esforço físico e ao dormir."},
+        {"key": "c", "text": "a oxigenoterapia contínua, por 3 meses, e reavaliação."},
+        {"key": "d", "text": "a oxigenoterapia contínua, por 30 dias, e reavaliação."},
+        {"key": "e", "text": "a ventilação com pressão positiva não invasiva."}
+      ],
+      "correct_key": "c",
+      "explanation": "PaO2 de alta (52mmHg) permanece abaixo do limiar (55mmHg) que indica oxigenoterapia domiciliar; porém, dado o contexto de exacerbação aguda recente (hipoxemia pode melhorar com a resolução completa do quadro inflamatório), a conduta recomendada é iniciar oxigenoterapia contínua com reavaliação em cerca de 3 meses, ao invés de comprometer-se com oxigenoterapia de longo prazo indeterminada imediatamente após a alta.",
+      "theme": "dpoc_tto",
+      "difficulty": "dificil",
+      "source": "Sírio Libanês - SP R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_022",
+      "statement": "Paciente do sexo masculino, de 68 anos, portador de doença pulmonar obstrutiva crônica, atualmente em uso de formoterol-budesonida 12-400 mcg (uma inalação oral duas vezes ao dia) e tiotrópio 2,5 mcg (duas inalações orais uma vez ao dia), passa em consulta ambulatorial de reavaliação terapêutica. Já teve três exacerbações com necessidade de corticoterapia no último ano, sendo que, na última, foi admitido no hospital e permaneceu internado por cinco dias, sem necessidade de ventilação mecânica ou UTI. É ex-tabagista, segue abstêmio, é aderente a medicação, com técnica adequada de uso. Na avaliação clínica, não foram encontradas outras comorbidades a serem otimizadas. As próximas alternativas terapêuticas adequadas a esse paciente, considerando particularidades de apresentação, são as seguintes, exceto:",
+      "alternatives": [
+        {"key": "a", "text": "Dupilumab 300 mg subcutâneo quinzenal, caso tenha eosinofilia superior a 300 células/microL."},
+        {"key": "b", "text": "Azitromicina 500 mg via oral três vezes na semana, particularmente caso tenha infecções bacterianas recorrentes."},
+        {"key": "c", "text": "Mepolizumab 100 mg subcutâneo mensal, caso tenha eosinofilia superior a 300 células/microL."},
+        {"key": "d", "text": "Roflumilast 250 mcg via oral uma vez ao dia com bronquite crônica e obstrução moderada a grave na espirometria."}
+      ],
+      "correct_key": "d",
+      "explanation": "É a EXCEÇÃO/opção incorreta: a dose padrão de manutenção do roflumilast é 500 mcg uma vez ao dia (não 250 mcg, que é usada apenas como dose de titulação inicial em alguns esquemas). As demais opções (dupilumabe, azitromicina profilática, mepolizumabe) estão corretamente indicadas para este perfil de paciente com exacerbações recorrentes em terapia tripla otimizada.",
+      "theme": "dpoc_tto",
+      "difficulty": "dificil",
+      "source": "EINSTEIN R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_023",
+      "statement": "Um paciente de 68 anos de idade, ex-tabagista de 35 maços ao ano, com diagnóstico prévio de DPOC GOLD 2, procurou atendimento na unidade básica de saúde por piora progressiva da dispneia há três dias, aumento de tosse e produção de escarro amarelado. Ao exame físico, apresentou PA = 128 mmHg x 82 mmHg, FC = 104 bpm, FR = 26 irpm, SatO2 = 88% em ar ambiente. Ausculta pulmonar: roncos difusos e sibilos bilaterais. No contexto do caso clínico apresentado, qual é o achado clínico compatível com exacerbação de DPOC?",
+      "alternatives": [
+        {"key": "a", "text": "Sibilância isolada"},
+        {"key": "b", "text": "Tosse seca sem alteração do padrão"},
+        {"key": "c", "text": "Piora da dispneia associada a um aumento de volume e purulência do escarro"},
+        {"key": "d", "text": "Estertores crepitantes em bases"}
+      ],
+      "correct_key": "c",
+      "explanation": "Piora da dispneia associada a aumento de volume e purulência do escarro constitui os critérios clássicos de Anthonisen para exacerbação de DPOC.",
+      "theme": "dpoc_exac",
+      "difficulty": "facil",
+      "source": "SES-DF R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_024",
+      "statement": "Paciente, 56 anos de idade, feminino, aposentada, queixa de dispneia e tosse produtiva há muito tempo. Relata piora da dispneia e sensação de abafamento torácico há 8 dias e da tosse produtiva (escarro mucoide) há 30 dias. Negou queixas de outros sistemas. Negou antecedente de doença pulmonar pessoal ou familiar. A paciente é tabagista 40a/maço e traz espirometria realizada há 6 meses com laudo de distúrbio ventilatório obstrutivo moderado e prova broncodilatadores negativa. Ao exame físico observou-se murmúrio vesicular diminuído e roncos discretos inspiratórios e expiratórios, ausência de outros achados pertinentes. Sinais vitais: frequência respiratória = 22 ipm, FC = 85 bpm, PA = 128/84 mmHg, oximetria de pulso em ar ambiente = 94%. Relata uso tiotrópio e formoterol há 6 meses. Qual conduta médica deve ser orientada para essa paciente?",
+      "alternatives": [
+        {"key": "a", "text": "Suspender a medicação em uso, orientar parar de fumar e iniciar corticoide inalatório por 7 dias"},
+        {"key": "b", "text": "Suspender a medicação em uso, orientar parar de fumar posteriormente, iniciar ß2 agonista de curta ação inalatório por 7 dias"},
+        {"key": "c", "text": "Manter a medicação em uso, orientar parar de fumar, adicionar corticoide inalatório por 7 dias"},
+        {"key": "d", "text": "Manter a medicação em uso, orientar parar de fumar, adicionar ß2 agonista de curta ação inalatório por 7 dias"}
+      ],
+      "correct_key": "d",
+      "explanation": "Exacerbação leve em paciente já em manutenção regular: manter a medicação de base, reforçar cessação do tabagismo imediatamente (não posterior), e adicionar broncodilatador de curta ação (não corticoide inalatório, que não é terapia padrão para exacerbação) por curto período.",
+      "theme": "dpoc_exac",
+      "difficulty": "medio",
+      "source": "PSU-GO R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_025",
+      "statement": "Em relação às recomendações atuais para o tratamento da DPOC, qual das alternativas é a correta?",
+      "alternatives": [
+        {"key": "a", "text": "O uso de corticosteroides inalatórios é indicado como tratamento inicial para todos os pacientes com DPOC, independentemente da frequência de exacerbações ou da gravidade da doença."},
+        {"key": "b", "text": "Pacientes com DPOC e histórico de exacerbações frequentes se beneficiam mais da combinação de broncodilatadores de longa duração (LAMA e LABA) e corticosteroides inalatórios, conforme indicado pelas evidências mais recentes."},
+        {"key": "c", "text": "Antibióticos devem ser utilizados rotineiramente em todos os pacientes com DPOC, mesmo na ausência de infecção pulmonar ou exacerbação."},
+        {"key": "d", "text": "A reabilitação pulmonar é uma intervenção eficaz apenas para pacientes com DPOC grave, não sendo indicada para estágios iniciais da doença."}
+      ],
+      "correct_key": "b",
+      "explanation": "Correto: pacientes exacerbadores frequentes se beneficiam da terapia tripla (LAMA+LABA+ICS), conforme evidências robustas recentes (estudos IMPACT, ETHOS). ICS não é indicado a todos independente do perfil; antibióticos não são usados rotineiramente sem indicação; e reabilitação pulmonar beneficia pacientes em todos os estágios sintomáticos da doença.",
+      "theme": "dpoc_tto",
+      "difficulty": "medio",
+      "source": "UHG R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_026",
+      "statement": "Homem de 80 anos com doença pulmonar obstrutiva crônica (DPOC) moderadamente grave se apresenta ao pronto-socorro pela 2ª vez seguida com dispneia progressivamente pior e tosse cada vez mais produtiva. Ele mora sozinho. Mais recentemente, recebeu alta do hospital há três semanas após tratamento de exacerbações da DPOC com broncodilatadores e antibiótico. Seus sinais vitais iniciais incluem saturação de oxigênio de 87% em ar ambiente, frequência respiratória de 32 incursões respiratórias por minuto, pressão arterial de 138x82mmHg e pulso de 102 batimentos por minuto. Após o tratamento com nebulizador com albuterol e ipratrópio, sua frequência respiratória melhorou, indo para 28 incursões respiratórias por minuto e sua saturação de oxigênio subiu para 89% em ar ambiente. Qual das seguintes afirmativas é VERDADEIRA sobre o manejo adicional da DPOC para este paciente?",
+      "alternatives": [
+        {"key": "a", "text": "Ele deve ser medicado com tiotrópio e receber alta para casa, com acompanhamento com seu médico de atenção primária em dois dias."},
+        {"key": "b", "text": "Ele deve ser medicado com corticosteroides orais e receber alta para casa, com acompanhamento com seu médico de atenção primária em dois dias."},
+        {"key": "c", "text": "Ele deve ser hospitalizado para tratamento adicional da exacerbação da DPOC."},
+        {"key": "d", "text": "Ele deve ser intubado e internado na unidade de terapia intensiva."}
+      ],
+      "correct_key": "c",
+      "explanation": "Múltiplos critérios de internação estão presentes: resposta insuficiente ao tratamento inicial (SatO2 ainda 89%, FR ainda elevada), exacerbação recorrente em curto intervalo (alta há apenas 3 semanas), idade avançada e ausência de suporte domiciliar adequado (mora sozinho) — indicando hospitalização, sem necessidade de UTI/intubação neste momento.",
+      "theme": "dpoc_exac",
+      "difficulty": "medio",
+      "source": "PSU-GO R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_027",
+      "statement": "Homem de 60 anos, tabagista, com tosse crônica e expectoração matinal há mais de 3 meses por dois anos consecutivos. Qual diagnóstico é mais provável e medida terapêutica fundamental?",
+      "alternatives": [
+        {"key": "a", "text": "Asma - prescrever corticoide inalatório isolado."},
+        {"key": "b", "text": "Pneumonia - iniciar antibiótico de amplo espectro."},
+        {"key": "c", "text": "Tuberculose - iniciar esquema padrão com quatro fármacos."},
+        {"key": "d", "text": "Bronquite crônica - cessação do tabagismo e broncodilatador."}
+      ],
+      "correct_key": "d",
+      "explanation": "Tosse produtiva por pelo menos 3 meses ao ano, em 2 anos consecutivos, é a definição clínica clássica de bronquite crônica (fenótipo de DPOC), cujo tratamento fundamental é a cessação do tabagismo associada a broncodilatadores.",
+      "theme": "dpoc_dx",
+      "difficulty": "facil",
+      "source": "ISCMSC R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_028",
+      "statement": "Sobre o uso de corticoides sistêmicos no tratamento da exacerbação da Doença Pulmonar Obstrutiva Crônica (DPOC) em pacientes hospitalizados, assinale a alternativa correta.",
+      "alternatives": [
+        {"key": "a", "text": "A administração intravenosa é superior à via oral, pois garante uma eficácia clínica significativamente maior e uma recuperação mais rápida da função pulmonar."},
+        {"key": "b", "text": "Um curso de tratamento de 14 dias é mais eficaz que um curso de 5 dias na redução do risco de uma nova exacerbação nos 6 meses seguintes ao tratamento."},
+        {"key": "c", "text": "Para cursos de tratamento com duração inferior a 2 semanas, a descontinuação abrupta do corticoide ao final da terapia é uma prática segura, não sendo necessário o desmame para prevenir a supressão adrenal."},
+        {"key": "d", "text": "Em pacientes críticos internados em UTI, doses elevadas de metilprednisolona (>240 mg/dia) estão associadas a uma redução na mortalidade em comparação com doses mais baixas."}
+      ],
+      "correct_key": "c",
+      "explanation": "Correto: cursos curtos de corticoide sistêmico (<2 semanas) podem ser interrompidos abruptamente sem necessidade de desmame, sem risco significativo de supressão adrenal. As demais estão incorretas: via oral é NÃO-inferior à IV (estudo REDUCE); curso de 5 dias é tão eficaz quanto 14 dias (REDUCE trial); e doses elevadas de corticoide em UTI NÃO reduzem mortalidade, podendo aumentar complicações.",
+      "theme": "dpoc_exac",
+      "difficulty": "dificil",
+      "source": "ABC R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_029",
+      "statement": "Homem, 70 anos, comparece ao atendimento de urgência referindo piora da dispneia há três dias, acompanhada de tosse produtiva com escarro amarelado e raias de sangue, nega febre. Ex-fumante com carga tabagística de 40 anos/maço, parou de fumar há 4 anos. Tem diagnóstico de doença pulmonar obstrutiva crônica há quatro anos e está em uso regular de medicações por via inalatória (Tiotrópio - 2,5 mcg associado a Vilanterol - 2,5 mcg) e salbutamol spray eventualmente. Não teve exacerbações nos últimos 12 meses. Apresenta-se consciente, orientado, hidratado, com tiragem intercostal, FR 32 irpm, FC 92 bpm, temperatura de 36ºC, PA 120x80 mmHg, SpO2 86% em ar ambiente, sem sinais de falência de diafragma, sem edema. Ap Respiratório: Murmúrio Vesicular presente e diminuído globalmente com estertores grossos nos terços inferiores dos pulmões. Ap Cardiovascular: Bulhas rítmicas abafadas, sem sopros. Assinale a alternativa correta, considerando o manejo terapêutico inicial deste paciente.",
+      "alternatives": [
+        {"key": "a", "text": "Indicar intubação orotraqueal para ventilação mecânica invasiva, não administrar oxigenioterapia por possibilidade de piora clínica."},
+        {"key": "b", "text": "Coletar gasometria arterial. Iniciar oxigênio por cânula nasal, com objetivo de manter oximetria de pulso entre 88 a 92%. Realizar Beta-2 agonistas inalatórios e corticosteroide sistêmico."},
+        {"key": "c", "text": "Iniciar corticoesteroide sistêmico, terbutalina subcutânea e sulfato de magnésio intra-venoso."},
+        {"key": "d", "text": "Iniciar teofilina e sulfato de magnésio, oxigenioterapia sob cânula nasal com objetivo de manter oximetria de pulso acima de 92%."}
+      ],
+      "correct_key": "b",
+      "explanation": "Exacerbação de DPOC com hipoxemia (SpO2 86%), paciente consciente e hemodinamicamente estável: a conduta inicial é coleta de gasometria arterial, oxigenoterapia titulada (alvo 88-92%, evitando hiperoxia com risco de retenção de CO2), broncodilatadores beta-2 de curta ação inalatórios e corticosteroide sistêmico — sem indicação de intubação imediata nesse momento.",
+      "theme": "dpoc_exac",
+      "difficulty": "medio",
+      "source": "PUC-SP R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_030",
+      "statement": "Mulher de 65 anos, ex-tabagista, com diagnóstico de DPOC moderada, usa broncodilatador de longa duração de forma regular. Apresentou três exacerbações no último ano, duas delas exigindo antibiótico. A contagem de eosinófilos é de 320 células/µL. Qual é a conduta adicional mais adequada neste cenário?",
+      "alternatives": [
+        {"key": "a", "text": "Iniciar corticosteroide sistêmico em dose contínua."},
+        {"key": "b", "text": "Substituir broncodilatador por metilxantina."},
+        {"key": "c", "text": "Introduzir corticosteroide inalado em associação à terapia atual."},
+        {"key": "d", "text": "Suspender broncodilatador e iniciar fisioterapia respiratória exclusiva."},
+        {"key": "e", "text": "Não modificar conduta atual, pois não há critérios de gravidade."}
+      ],
+      "correct_key": "c",
+      "explanation": "Exacerbadora frequente (3 exacerbações/ano, 2 com antibiótico = grupo E) com eosinofilia ≥300 células/µL: indicação clara pelo GOLD para adicionar corticoide inalatório à terapia broncodilatadora de manutenção já em uso.",
+      "theme": "dpoc_tto",
+      "difficulty": "medio",
+      "source": "SES-PE R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_031",
+      "statement": "Um paciente de 72 anos de idade compareceu à UBS apresentando dispneia para tomar banho e fazer a barba, limitação para atividades diárias e agravamento do padrão de tosse produtiva, com mudança da coloração do escarro. Durante a consulta, o médico observou múltiplas contusões em diferentes estágios de cicatrização nos membros superiores e abrasões no dorso. Após estabelecer vínculo de confiança, o idoso revelou que o seu filho, com quem reside, tem consumido álcool excessivamente e se tornado agressivo, especialmente quando o pai tosse durante a noite. O paciente referiu histórico de tabagismo (50 maços/ano), duas internações por exacerbação de DPOC no último ano e que o filho frequentemente se apropriava de sua aposentadoria e não permitia que o pai adquirisse as suas medicações regularmente. Considerando esse caso clínico hipotético, que envolve manejo clínico da DPOC e situação de vulnerabilidade por violência, assinale a opção que apresenta a conduta adequada.",
+      "alternatives": [
+        {"key": "a", "text": "tratar a exacerbação da DPOC com antibioticoterapia oral, utilizar terapia tripla inalatória e reforçar a indicação de cessar o tabagismo. O caso de violência deve ser notificado, acionar a rede de proteção social e articular com CAPS AD para abordagem do familiar dependente de álcool."},
+        {"key": "b", "text": "prescrever corticoide oral e antibiótico para a exacerbação da DPOC, orientar o paciente a procurar ajuda de outros familiares e retornar em 30 dias para reavaliação clínica, evitando interferir na dinâmica familiar para não piorar a situação de violência."},
+        {"key": "c", "text": "encaminhar o paciente ao pneumologista para a avaliação especializada da DPOC, sugerindo que ele considere mudar-se para uma instituição de longa permanência para idosos como solução definitiva para o problema de violência."},
+        {"key": "d", "text": "internar o paciente imediatamente para tratar a exacerbação da DPOC e afastá-lo temporariamente da situação de violência, sem realizar a notificação para que se preserve o vínculo terapêutico com a família."},
+        {"key": "e", "text": "tratar a DPOC com broncodilatadores de curta ação, orientando o idoso sobre a importância da cessação tabágica, e sugerir que tente dialogar com o filho sobre a situação de violência antes de qualquer intervenção externa."}
+      ],
+      "correct_key": "a",
+      "explanation": "Além do manejo clínico apropriado da exacerbação de DPOC (exacerbadora grave, com múltiplas internações, candidata a terapia tripla), casos de suspeita de violência contra idoso exigem NOTIFICAÇÃO COMPULSÓRIA obrigatória, acionamento da rede de proteção social e articulação com serviços especializados (CAPS AD) para o familiar com transtorno por uso de álcool — não sendo aceitável omitir a notificação por qualquer motivo.",
+      "theme": "dpoc_exac",
+      "difficulty": "dificil",
+      "source": "FMJ R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_032",
+      "statement": "Homem, 65 anos de idade, com DPOC diagnosticada há três anos, encontra-se em tratamento regular com uma terapia tripla (LAMA, LABA e corticoide inalatório). O paciente apresentou um episódio de exacerbação moderada de sua DPOC há dois meses, sendo tratado com corticoide oral e levofloxacino. No ano anterior, apresentou quadro semelhante a esse. Na avaliação atual, o paciente relata melhora dos sintomas e retorno ao seu nível basal. Persiste fumando 15 cigarros/dia e não deseja parar de fumar. Queixa-se de tosse crônica e expectoração esbranquiçada diariamente. Nega sintomas de refluxo gastroesofágico. Espirometria pós-broncodilatador: VEF1 = 48% do valor previsto e relação VEF1/CVF = 0,62. Hemograma: eosinófilos = 100 células/mm³. Foi checada adesão ao tratamento, também se confirmando que o paciente está usando corretamente os dispositivos inalatórios. Nega asma na infância. Vacinação em dia. Em relação ao tratamento farmacológico, qual é a conduta mais adequada?",
+      "alternatives": [
+        {"key": "a", "text": "Suspender corticoide inalatório."},
+        {"key": "b", "text": "Adicionar roflumilaste ao tratamento."},
+        {"key": "c", "text": "Adicionar azitromicina de longa duração."},
+        {"key": "d", "text": "Manter a terapia tripla atual."}
+      ],
+      "correct_key": "b",
+      "explanation": "Paciente com fenótipo de bronquite crônica (tosse+expectoração diárias), VEF1<50% e exacerbações recorrentes apesar de terapia tripla otimizada com boa adesão/técnica confirmadas: indicação clássica para adição de roflumilaste. A azitromicina crônica tem eficácia reduzida em fumantes ativos, e os eosinófilos baixos (100) não sustentam a manutenção isolada do ICS sem outras justificativas adicionais.",
+      "theme": "dpoc_tto",
+      "difficulty": "dificil",
+      "source": "UNIFESP R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_033",
+      "statement": "Homem de 65 anos procura o PS com queixa de tosse com expectoração, chiado no peito e piora da falta de ar há 5 dias. Refere dificuldade de caminhar devido à falta de fôlego e tosse há muitos anos. Não necessita de ajuda para as atividades da vida diária. No último ano, recebeu antibiótico duas vezes por dez dias, devido aos mesmos sintomas. Não faz uso de medicação regular. AP: Ex-tabagista de 35 anos-maço, abstinente há 5 anos. EF: acianótico, SatO2: 93% em ar ambiente, dispneico ao andar, FR: 24 irpm, crepitações grossas em bases pulmonares e sibilos. Recebeu diagnóstico e tratamento para nova exacerbação de DPOC. É correto afirmar que",
+      "alternatives": [
+        {"key": "a", "text": "o diagnóstico de base provável é de DPOC II/B, e a avaliação do paciente no PS deveria incluir dosagem de eosinófilos para determinar o tipo de exacerbação (eosinofílica ou neutrofílica)."},
+        {"key": "b", "text": "o paciente deve ser acompanhado na atenção primária com recomendação de realizar espirometria pré e pós-broncodilatador, hemograma, TC de tórax de baixa dose, tomar vacinas de gripe, Covid e pneumococo, além de medicações inalatórias."},
+        {"key": "c", "text": "a dispneia é classificada de acordo com o escore Modified Medical Research Council (MMRC) como grau 4, e o paciente deve receber terapia inalatória com LAMA, LABA e corticosteroide."},
+        {"key": "d", "text": "o paciente deve ser acompanhado na atenção primária com recomendação de realizar espirometria pré e pós-broncodilatador, gasometria, hemograma, Rx de tórax, tomar vacinas de gripe, Covid e pneumococo, além de medicações inalatórias."}
+      ],
+      "correct_key": "d",
+      "explanation": "Após a exacerbação atual, o seguimento ambulatorial completo do DPOC recém-diagnosticado inclui confirmação diagnóstica por espirometria pré/pós-BD, avaliação laboratorial (hemograma), radiografia de tórax, gasometria, atualização vacinal (influenza, Covid, pneumococo) e início/otimização de medicações inalatórias — conduta abrangente padrão na atenção primária.",
+      "theme": "dpoc_dx",
+      "difficulty": "dificil",
+      "source": "UNESP R3CM 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_034",
+      "statement": "No que se refere à doença pulmonar obstrutiva crônica (DPOC) de acordo com o GOLD, analise os itens a seguir e, ao final, assinale a alternativa INCORRETA.",
+      "alternatives": [
+        {"key": "a", "text": "Os broncodilatadores de longa duração, como os agonistas ß2 de longa ação (LABA) e os antagonistas muscarínicos de longa ação (LAMA), são recomendados para o tratamento de manutenção em pacientes com DPOC moderada a grave."},
+        {"key": "b", "text": "Pacientes com DPOC grave que apresentam alta frequência de exarcebações e níveis de eosinófilos abaixo de 50 células/µL ainda se beneficiam de CI na terapia de manutenção."},
+        {"key": "c", "text": "A antibioticoterapia deve ser considerada durante uma exacerbação em pacientes com aumento da produção de escarro purulento e/ou sintomas de infecção respiratória."},
+        {"key": "d", "text": "A vacinação contra influenza e pneumococo é fortemente recomendada para reduziras exarcebações e a mortalidade em pacientes com DPOC."},
+        {"key": "e", "text": "A oxigenoterapia domiciliar é indicada para pacientes com hipoxemia grave persistente (PaO2 =55 mmHg ou saturação de oxigênio <88%) em repouso, pois reduz a mortalidade nesses casos."}
+      ],
+      "correct_key": "b",
+      "explanation": "É a alternativa INCORRETA: pacientes com eosinófilos muito baixos (<100, especialmente <50 células/µL) NÃO se beneficiam do corticoide inalatório e apresentam maior risco de efeitos adversos (pneumonia) sem benefício antiexacerbação — o benefício do ICS é proporcional ao nível de eosinófilos, sendo mínimo/ausente em contagens muito baixas.",
+      "theme": "dpoc_tto",
+      "difficulty": "dificil",
+      "source": "SES-PE R3CM 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_035",
+      "statement": "Paciente, 56 anos de idade, feminino, aposentada, queixa de dispneia e tosse produtiva há muito tempo. Relata piora da dispneia e sensação de abafamento torácico há 8 dias e da tosse produtiva (escarro mucoide) há 30 dias. Negou febre. Negou queixas de outros sistemas. Negou antecedente de doença pulmonar pessoal ou familiar. A paciente é tabagista 40a/maço e traz espirometria realizada há 6 meses com laudo de distúrbio ventilatório obstrutivo moderado e prova broncodilatadora negativa. Ao exame físico observou-se murmúrio vesicular diminuído e roncos discretos inspiratórios e expiratórios, ausência de outros achados pertinentes. Sinais vitais: frequência respiratória 22 ipm, FC = 85 bpm, PA-128/84 mmHg, oximetria de pulso em ar ambiente = 94%. Relata uso de tiotrópio e formoterol há 6 meses. Qual conduta médica deve ser orientada para essa paciente?",
+      "alternatives": [
+        {"key": "a", "text": "Suspender a medicação em uso, orientar parar de fumar e iniciar corticoide inalatório por 7 dias."},
+        {"key": "b", "text": "Suspender a medicação em uso, orientar parar de fumar posteriormente, iniciar b2 agonista de curta ação inalatório por 7 dias."},
+        {"key": "c", "text": "Manter a medicação em uso, orientar parar de fumar, adicionar corticoide inalatório por, 7 dias."},
+        {"key": "d", "text": "Manter a medicação em uso, orientar parar de fumar, adicionar b2 agonista de curta ação inalatório por 7 dias."}
+      ],
+      "correct_key": "d",
+      "explanation": "Exacerbação leve: manter medicação de manutenção, reforçar cessação tabágica imediata, adicionar broncodilatador de curta ação por período curto.",
+      "theme": "dpoc_exac",
+      "difficulty": "medio",
+      "source": "PSU-GO R3CM 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_036",
+      "statement": "Homem de 68 anos, portador de DPOC grave, procura o pronto atendimento por dispneia intensa, tosse produtiva e sibilância. Saturação periférica de oxigênio é 84% em ar ambiente. Está consciente, em uso de musculatura acessória, mas hemodinamicamente estável. Qual é o dispositivo mais adequado para ofertar oxigênio nesse momento?",
+      "alternatives": [
+        {"key": "a", "text": "Cateter nasal convencional de baixo fluxo."},
+        {"key": "b", "text": "Cateter nasal em alto fluxo."},
+        {"key": "c", "text": "Máscara de não reinalação com reservatório."},
+        {"key": "d", "text": "Máscara de Venturi."}
+      ],
+      "correct_key": "d",
+      "explanation": "A máscara de Venturi permite oferta de FiO2 precisa e controlada, sendo o dispositivo preferido em pacientes com DPOC (risco de retenção de CO2 por hiperóxia), possibilitando titulação cuidadosa da oxigenação em direção à meta de 88-92%.",
+      "theme": "dpoc_exac",
+      "difficulty": "medio",
+      "source": "HPP R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_037",
+      "statement": "Homem de 67 anos, com histórico de doença pulmonar obstrutiva crônica há 10 anos e tabagismo há 50 anos, é levado a unidade de pronto atendimento com desconforto respiratório, tosse e confusão mental há 2 horas. Familiar relata que, nos últimos 5 dias, houve piora progressiva da dispneia e aumento do volume de expectoração, além de mudança no aspecto dessa secreção, que passou de amarelo-claro para verde-escuro. Ao exame físico, encontra-se torporoso, com extremidades cianóticas e com sibilos e estertores difusos em todos os campos pulmonares. Considerando a situação apresentada, a condução clínica desse paciente deve incluir, obrigatoriamente corticoterapia",
+      "alternatives": [
+        {"key": "a", "text": "sistémica e acompanhamento ambulatorial."},
+        {"key": "b", "text": "inalatória e acompanhamento ambulatorial."},
+        {"key": "c", "text": "inalatória e internação hospitalar."},
+        {"key": "d", "text": "sistémica e internação hospitalar."}
+      ],
+      "correct_key": "d",
+      "explanation": "Exacerbação grave com confusão mental (encefalopatia hipercápnica), cianose e sinais de infecção respiratória (escarro purulento verde-escuro): exige corticoterapia SISTÊMICA (não inalatória) e internação hospitalar obrigatória, dado o risco iminente de falência ventilatória.",
+      "theme": "dpoc_exac",
+      "difficulty": "medio",
+      "source": "INEP REVALIDA 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_038",
+      "statement": "A Sra J.M.V., 80 anos, tabagista ativa (40 anos-maço), foi à Unidade Básica de Saúde buscando atendimento médico em decorrência de quadro de tosse produtiva com secreção amarelada, dispneia em repouso e chieira torácica iniciada há 4 dias. Apresentou quadro semelhante há cerca de 30 dias e fez uso de antibiótico, mas não se recorda do nome. Refere quadro crônico de tosse seca e dispneia aos esforços, mas com piora significativa desde o início do quadro atual. Ao exame físico encontrava-se consciente e orientada, em bom estado geral, eupneica, acianótica, afebril, corada, hidratada; FR 24 irpm; FC 96 bpm; PA 140x95 mmHg; SatO2 93% em ar ambiente; MV reduzido difusamente, com sibilos bilaterais. Qual o diagnóstico e a conduta mais adequada?",
+      "alternatives": [
+        {"key": "a", "text": "Pneumonia adquirida na comunidade; tratamento ambulatorial com azitromicina 500 mg/dia por 5 dias, prednisona 40 mg/dia por 5 dias e salbutamol inalatório."},
+        {"key": "b", "text": "Doença pulmonar obstrutiva crônica exacerbado; tratamento ambulatorial com levofloxacino 750 mg/dia por 5 dias, prednisona 40 mg/dia por 5 dias e salbutamol inalatório."},
+        {"key": "c", "text": "Doença pulmonar obstrutiva crônica exacerbado; tratamento hospitalar com Cefepime endovenoso 3 g/dia por 5 dias, prednisona via oral 40 mg/dia e salbutamol inalatório."},
+        {"key": "d", "text": "Doença pulmonar obstrutiva crônica exacerbado; tratamento domiciliar com amoxicilina 1,5 g/dia por 7 dias, prednisona 40 mg/dia por 7 dias e salbutamol inalatório."}
+      ],
+      "correct_key": "b",
+      "explanation": "Exacerbação de DPOC com recorrência precoce (episódio há apenas ~30 dias, sugerindo falha/recorrência do esquema anterior), sem sinais de gravidade que exijam internação (SatO2 93%, sem confusão/instabilidade): tratamento ambulatorial com fluoroquinolona respiratória (levofloxacino), preferível à amoxicilina simples dado o padrão recorrente, associado a corticoide oral curto e broncodilatador de resgate.",
+      "theme": "dpoc_exac",
+      "difficulty": "dificil",
+      "source": "UNITAU R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_039",
+      "statement": "Homem de 68 anos apresenta-se para uma consulta de seguimento de rotina na UBS/Estratégia de Saúde da Família. Ele tem Doença Pulmonar Obstrutiva Crônica (DPOC) diagnosticado, há oito anos, e tabagismo de 35 maços-ano, tendo cessado o consumo de tabaco há cinco anos. Atualmente, a terapêutica consiste de tiotrópio e salmeterol (LAMA + LABA), ao qual demonstra boa adesão. Apesar da terapêutica correta, o paciente relata dispneia persistente que impacta significativamente a sua qualidade de vida. A pontuação na escala de dispneia do Modified Medical Research Council (mMRC) é de 3. Essa limitação afeta a sua capacidade de realizar tarefas domésticas e atividades de lazer. No último ano, ele teve uma exacerbação moderada, que foi gerida em ambulatório com um ciclo de corticosteroide e antibioterapia orais. Os resultados laboratoriais recentes são notáveis por contagem sérica de eosinófilos de 96 células/mm3. O paciente reside numa região caracterizada por invernos frios e verões quentes e úmidos, com alertas esporádicos sobre a qualidade do ar devido a incêndios florestais em áreas vizinhas. A partir do quadro clínico apresentado, é correto afirmar que a conduta de escolha é",
+      "alternatives": [
+        {"key": "a", "text": "aconselhá-lo sobre a manutenção de temperaturas interiores acima de 16 °C, durante o inverno, e em espaços de dormir abaixo de 28 °C durante as ondas de calor de verão."},
+        {"key": "b", "text": "agendar um teste de espirometria pré-broncodilatador, na sua próxima visita, para avaliar com maior precisão o seu nível atual de obstrução do fluxo aéreo e, assim, guiar-se pela gravidade da DPOC."},
+        {"key": "c", "text": "administrar a vacina pneumocócica polissacarídica PPSV23 e aconselhá-lo a receber a vacina conjugada PCV13 um ano depois."},
+        {"key": "d", "text": "escalonar o seu tratamento atual para uma terapia tripla em um único inalador (LAMA/LABA + corticoide inalatório) com o objetivo de reduzir o risco de futuras exacerbações."},
+        {"key": "e", "text": "encaminhá-lo para um programa abrangente de reabilitação pulmonar para melhorar a tolerância ao exercício e reduzir os sintomas de dispneia."}
+      ],
+      "correct_key": "e",
+      "explanation": "Dispneia persistente e significativa (mMRC 3) apesar de terapia broncodilatadora dupla otimizada com boa adesão, e eosinófilos baixos (96, não justificando escalonamento para ICS): a conduta recomendada pelo GOLD para dispneia persistente independente do nível de eosinófilos é o encaminhamento para reabilitação pulmonar, com benefício comprovado na tolerância ao exercício e qualidade de vida.",
+      "theme": "dpoc_tto",
+      "difficulty": "dificil",
+      "source": "SUS-SP R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_040",
+      "statement": "Homem, 76 anos, em acompanhamento por DPOC há 8 anos; nega comorbidades. Refere piora progressiva da dispneia (de pequenos esforços para dispneia em repouso) há 2 semanas, sem piora da tosse ou do aspecto da expectoração. Nega dor torácica, hemoptise, piora súbita dos sintomas. Exame físico: BEG, corado, cianótico (++/4+). Murmúrio vesicular fisiológico sem ruídos adventícios. Frequência respiratória: 28 i.pm. Ritmo cardíaco regular, com hiperfonese de B2, sem sopros. FC: 98 bpm. PA: 110 x 80 mmHg. Edema de membros inferiores (3+/4+) bilateral, depressível e simétrico. Presença de estase jugular a 45°. Qual é a medida indicada para o diagnóstico mais provável?",
+      "alternatives": [
+        {"key": "a", "text": "Oxigenioterapia."},
+        {"key": "b", "text": "Vasodilatador pulmonar."},
+        {"key": "c", "text": "Agente inotrópico."},
+        {"key": "d", "text": "Anticoagulação."}
+      ],
+      "correct_key": "a",
+      "explanation": "Sem piora infecciosa (tosse/expectoração inalteradas), com sinais de hipertensão pulmonar/cor pulmonale (hiperfonese de B2, estase jugular, edema, cianose): o tratamento fundamental para reduzir a hipertensão pulmonar secundária à DPOC é a correção da hipoxemia com oxigenoterapia.",
+      "theme": "dpoc_tto",
+      "difficulty": "medio",
+      "source": "USP-RP R3CM 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_041",
+      "statement": "Homem, 68 anos de idade, fumante atual (45 anos-maço), tem diagnóstico de DPOC. Começou a apresentar dispneia progressiva aos esforços, piora da tosse e aumento do volume de escarro. Iniciou uso de formoterol 12 mcg associado a budesonida 400 mcg a cada 12 horas via inalatória, sem melhora do quadro após 3 meses. Exame físico: corado e hidratado, FR = 14 irpm, SpO2 92% em repouso; ausculta pulmonar com sons pulmonares reduzidos e sem ruídos adventícios; sem outras alterações. Solicitada espirometria, cujo resultado está representado na tabela. Qual é a conduta farmacológica mais adequada? (LABA = agonistas beta2-adrenérgicos de longa duração; LAMA = broncodilatadores antagonistas muscarínicos de longa duração)",
+      "alternatives": [
+        {"key": "a", "text": "Trocar os medicamentos inalatórios para uma associação LAMA/LABA e associar salbutamol de alívio."},
+        {"key": "b", "text": "Manter os medicamentos inalatórios com formoterol/budesonida e associar salbutamol de alívio."},
+        {"key": "c", "text": "Trocar os medicamentos para uma associação de terapia tripla inalatória (LAMA/LABA/corticoide) e associar oxigenoterapia domiciliar."},
+        {"key": "d", "text": "Trocar os medicamentos inalatórios para uma associação LAMA/LABA e associar oxigenoterapia domiciliar."}
+      ],
+      "correct_key": "a",
+      "explanation": "ATENÇÃO: tabela de espirometria citada mas não disponível na extração do PDF. Paciente iniciado incorretamente com ICS/LABA (sem indicação clara de ICS de início) sem resposta após 3 meses, e SpO2 92% não atinge critério para oxigenoterapia domiciliar (que exige PaO2≤55mmHg ou SatO2≤88%): a conduta correta é corrigir o esquema para a combinação broncodilatadora padrão LABA/LAMA, mantendo resgate com SABA.",
+      "theme": "dpoc_tto",
+      "difficulty": "dificil",
+      "source": "UNIFESP R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_042",
+      "statement": "Mulher, 68 anos de idade, tabagista 75 anos-maço, apresenta dispneia e tosse há 2 anos. Fez espirometria, que mostrou VEF1 de 60% do predito e relação VEF1/VFC de 0,65. Apresentou um episódio de exacerbação da dispneia, com necessidade de internação hospitalar, uso de broncodilatadores e antibiótico há 4 meses. A terapia ambulatorial ideal é",
+      "alternatives": [
+        {"key": "a", "text": "salmeterol + fluticasona, apenas se crise."},
+        {"key": "b", "text": "salmeterol + fluticasona, diariamente."},
+        {"key": "c", "text": "salmeterol apenas, diariamente."},
+        {"key": "d", "text": "tiotrópio apenas, diariamente."},
+        {"key": "e", "text": "umeclidínio/vilanterol, diariamente."}
+      ],
+      "correct_key": "e",
+      "explanation": "Exacerbadora grave (hospitalização = grupo E), sem dados de eosinofilia elevada mencionados: o tratamento inicial padrão pelo GOLD para grupo E é a associação LABA+LAMA diária (umeclidínio/vilanterol), reservando o ICS para casos com eosinofilia significativa.",
+      "theme": "dpoc_tto",
+      "difficulty": "medio",
+      "source": "SUS-SP R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_043",
+      "statement": "Homem, 69 anos de idade, portador de enfisema pulmonar, queixa-se de dispnéia progressiva. Tomografia de tórax: bolha gigante no lobo superior direito, com compressão de parênquima adjacente. Qual é a conduta mais adequada?",
+      "alternatives": [
+        {"key": "a", "text": "Drenagem da bolha."},
+        {"key": "b", "text": "Lobectomia superior direita."},
+        {"key": "c", "text": "Punção da bolha."},
+        {"key": "d", "text": "Pleurodese."}
+      ],
+      "correct_key": "b",
+      "explanation": "Bolha gigante com compressão significativa do parênquima adjacente, causando dispneia progressiva, tem indicação cirúrgica de ressecção (bulectomia/lobectomia), procedimento que permite reexpansão do parênquima comprimido e melhora funcional.",
+      "theme": "dpoc_tto",
+      "difficulty": "medio",
+      "source": "UNIFESP R3CG 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_044",
+      "statement": "Paciente de 59 anos, sexo masculino, barbeiro. Tabagista há 45 anos, fumando em média 20 cigarros diariamente. Há 2 anos com queixa de dispneia relacionada aos esforços e atualmente MRC (Escala de Dispneia Modificada) 3. Não refere ortopneia e nem dispneia paroxística noturna. Tosse com expectoração clara e chiadeira no peito com piora nos meses de outono/inverno. Antecedentes: nega doenças pulmonares prévias. HAS, em uso de hidroclorotiazida. Nega internações mas procurou unidade de pronto atendimento, por 4 vezes no último ano, devido piora sintomática, fazendo uso de antibióticos e prednisona nestes atendimentos. Ao exame físico: BEG, eupneico, acianótico, sem hipocratismo digital. Tórax com diâmetro ântero-posterior aumentado, bulhas rítmicas e normofoneticas, ausência de sopros cardíacos, sons pulmonares reduzidos bilateralmente e sem ruidos pulmonares adventícios. Abdômen normotenso. Ausência de edemas periféricos. Exames complementares prévios: Radiografia simples de tórax com sinais de hiper aeração pulmonar. Espirometria: presença de distúrbio ventilatório do tipo obstrutivo de grau moderado e sem resposta farmacológica, relação VEF1/CVF = 50% e VEF1 após prova farmacológica de 50% do previsto e hemograma com eosinófilos = 90 células. Com diagnostico de doença pulmonar obstrutiva crônica, sendo LABA: beta 2 agonista inalatório de ação prolongada, LAMA: anti-muscarinico inalatório de ação prolongada, a prescrição de LABA/LAMA estará indicada na seguinte condição abaixo:",
+      "alternatives": [
+        {"key": "a", "text": "DPOC E (exacerbador)"},
+        {"key": "b", "text": "DPOC A (Dispneia MRCm 1, sem exacerbações)"},
+        {"key": "c", "text": "DPOC E (exacerbador) somente com eosinofilia ou imunoglobulina E elevada associados"},
+        {"key": "d", "text": "Somente se associado a asma (A - DPOC)"}
+      ],
+      "correct_key": "a",
+      "explanation": "Paciente com 4 atendimentos de urgência/ano com necessidade de antibiótico e corticoide (múltiplas exacerbações = grupo E), com eosinófilos baixos (90, não justificando ICS): a combinação LABA/LAMA é a indicada para o grupo E sem eosinofilia significativa.",
+      "theme": "dpoc_tto",
+      "difficulty": "dificil",
+      "source": "FAMERP R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_045",
+      "statement": "Leia o caso a seguir. Paciente do sexo masculino, 72 anos, portador de DPOC, recebe alta de internação hospitalar devido à descompensação infecciosa, com dispneia mMRC 4 e hemograma com contagem de eosinófilos de 400/mm3. Qual a classificação (grupo) atual da DPOC do paciente em questão segundo GOLD 2024 e qual o melhor tratamento inalatório de manutenção a ser proposto?",
+      "alternatives": [
+        {"key": "a", "text": "CI (ICS) + SABA."},
+        {"key": "b", "text": "LABA + SABA + azitromicina."},
+        {"key": "c", "text": "Metilxantinas + CI."},
+        {"key": "d", "text": "LABA + LAMA + CI."}
+      ],
+      "correct_key": "d",
+      "explanation": "Hospitalização recente (grupo E) associada a eosinofilia elevada (400 ≥300/mm³): indicação clara de terapia tripla (LABA+LAMA+corticoide inalatório) desde o início.",
+      "theme": "dpoc_tto",
+      "difficulty": "medio",
+      "source": "SES-GO R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_046",
+      "statement": "A resposta ao broncodilatador na espirometria de paciente com DPOC é caracterizada por aumento",
+      "alternatives": [
+        {"key": "a", "text": "de 20% nos valores do VEF1 ou da CVF em relação aos valores previstos."},
+        {"key": "b", "text": "acima de 12% e 200 mL nos valores do VEF1 em relação aos valores pré-broncodilatadores."},
+        {"key": "c", "text": "acima de 12% nos valores do VEF1 ou da CVF em relação aos valores pré-broncodilatadores."},
+        {"key": "d", "text": "de 10% nos valores do VEF1 ou da CVF em relação aos valores previstos."}
+      ],
+      "correct_key": "b",
+      "explanation": "O critério clássico (ATS/ERS) de resposta broncodilatadora positiva é aumento >12% E >200mL no VEF1 (ou CVF) em relação aos valores pré-broncodilatador, e não apenas em relação aos valores previstos.",
+      "theme": "dpoc_dx",
+      "difficulty": "facil",
+      "source": "UNESP R3CM 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_047",
+      "statement": "Qual é a conduta inicial recomendada para pacientes que apresentam exacerbações graves de DPOC com saturação de oxigênio < 90%?",
+      "alternatives": [
+        {"key": "a", "text": "Oxigênio para saturação > 98%"},
+        {"key": "b", "text": "Uso de broncodilatadores de curta duração e oxigenoterapia controlada (88-92%)."},
+        {"key": "c", "text": "Solicitação de tomografia antes do tratamento"},
+        {"key": "d", "text": "Uso exclusivo de antibiótico"}
+      ],
+      "correct_key": "b",
+      "explanation": "A conduta inicial padrão para exacerbação grave de DPOC com hipoxemia é broncodilatadores de curta duração associados a oxigenoterapia CONTROLADA (alvo 88-92%), evitando hiperoxigenação que pode agravar retenção de CO2.",
+      "theme": "dpoc_exac",
+      "difficulty": "facil",
+      "source": "SES-DF R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_048",
+      "statement": "Homem, 72 anos de idade, ex-tabagista, com diagnóstico de Doença Pulmonar Obstrutiva Crônica (DPOC) associada à cardiopatia isquêmica. Faz uso de AAS, metoprolol, rosuvastatina e formoterol. Refere dispneia aos esforços moderados, além de uma exacerbação necessitando administração de antibiótico e corticoide sistêmico no último ano. Espirometria: VEF1/CVF 0,4; VEF1 pré-broncodilatador 0,92 L (32% do previsto); VEF1 pós broncodilatador 0,99 L (37% do previsto); CVF pré e pós broncodilatador 2,49 L (76% do previsto). Eosinófilos 340/mm3 . Além de associar tiotrópio, a conduta mais adequada é:",
+      "alternatives": [
+        {"key": "a", "text": "Introduzir fluticasona"},
+        {"key": "b", "text": "Introduzir fluticasona e suspender metoprolol"},
+        {"key": "c", "text": "Suspender metoprolol"},
+        {"key": "d", "text": "Não realizar mudanças adicionais"}
+      ],
+      "correct_key": "a",
+      "explanation": "Exacerbador (grupo E) com eosinofilia elevada (340≥300): indicação de introduzir corticoide inalatório (fluticasona) além do LAMA. Betabloqueadores cardiosseletivos (metoprolol) NÃO são contraindicados na DPOC, sendo inclusive benéficos na cardiopatia isquêmica associada — não devem ser suspensos.",
+      "theme": "dpoc_tto",
+      "difficulty": "dificil",
+      "source": "USP R3CM 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_049",
+      "statement": "Tabagista de longa data com dispneia progressiva e tosse crônica realiza espirometria para confirmação diagnóstica de limitação persistente do fluxo aéreo. Assinale a alternativa que indica o critério espirométrico compatível com DPOC em adulto:",
+      "alternatives": [
+        {"key": "a", "text": "Aumento do VEF¹ ≥200 mL e ≥12% em relação ao pré-teste."},
+        {"key": "b", "text": "VEF¹ dentro da normalidade com elevação isolada da DLCO."},
+        {"key": "c", "text": "CVF aumentada com relação VEF¹/CVF de 0,85."},
+        {"key": "d", "text": "Relação VEF¹/CVF <75% após broncodilatador."},
+        {"key": "e", "text": "Relação VEF¹/CVF ≥90% em adolescentes."}
+      ],
+      "correct_key": "d",
+      "explanation": "ATENÇÃO: resposta de confiança moderada — o valor de corte diagnóstico clássico e padronizado pelo GOLD é VEF1/CVF <0,70 (70%) pós-broncodilatador, não <75% como consta nesta alternativa; entre as opções oferecidas, porém, esta é a única que descreve corretamente o conceito de relação reduzida pós-broncodilatador definindo obstrução fixa, sendo a resposta mais compatível com o gabarito esperado apesar da imprecisão no valor numérico.",
+      "theme": "dpoc_dx",
+      "difficulty": "dificil",
+      "source": "IAMSPE R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_050",
+      "statement": "Homem, 63 anos de idade, procura atendimento ambulatorial por dispneia. Ele não tem antecedentes relevantes, mas conta que, há 8 meses, começou a apresentar dispneia aos grandes esforços, mas conseguia realizar atividades habituais. Há 2 meses, começou a interromper sua caminhada diária até a padaria por dispneia e tosse. Há 1 mês, teve crise de dispneia e tosse produtiva, quando ficou internado por 4 dias no pronto-socorro. Ele é tabagista com carga de 46 anos-maço. Ao exame clínico, apresentou sinais vitais normais e sibilos expiratórios difusos, sem sinais de desconforto respiratório e sem outras anormalidades. Os dados da prova de função pulmonar estão apresentados a seguir. O paciente não teve acesso aos medicamentos e, no mês seguinte, procurou o pronto-socorro com queixa de tosse produtiva, expectoração amarelada e febre de 37,9 °C. Ao exame clínico, apresentou-se em regular estado geral, corado, hidratado, dispneia com aumento do tempo expiratório. FC de 102 bpm, PA de 134x78 mmHg, FR de 23 ipm, saturação de oxigênio 91%; ausculta torácica com murmúrios vesiculares reduzidos com roncos difusos, sem sinais de esforço respiratório ou fadiga; ausculta cardíaca e abdome sem alterações. Foi coletada uma gasometria arterial com os seguintes resultados: pH:7,26; HCO3-: 27 mEq/L; pCO2: 61 mmHg; PaO2: 59,8 mmHg; Sat. O2: 91%. Optou-se por acoplar o paciente em um dispositivo ventilatório apropriado ao seu manejo clínico neste momento. Assinale a alternativa que contempla os parâmetros que devem ser utilizados para ventilação com este dispositivo.",
+      "alternatives": [
+        {"key": "a", "text": "Ver Imagem"},
+        {"key": "b", "text": "Ver Imagem"},
+        {"key": "c", "text": "Ver Imagem"},
+        {"key": "d", "text": "Ver Imagem"}
+      ],
+      "correct_key": "b",
+      "explanation": "ATENÇÃO: todas as alternativas correspondem a imagens com parâmetros ventilatórios não disponíveis na extração do PDF — resposta de MUITO BAIXA confiança, um chute sem qualquer apoio textual. O quadro clínico (acidose respiratória com pH 7,26, hipercapnia importante) indica claramente VNI em modo BiPAP (pressão suporte + PEEP), mas os parâmetros numéricos específicos corretos não puderam ser determinados sem acesso às imagens.",
+      "theme": "dpoc_exac",
+      "difficulty": "dificil",
+      "source": "USP R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_051",
+      "statement": "Um paciente do sexo masculino, 65 anos, com histórico de tabagismo de 40 maços/ano, apresenta tosse crônica com expectoração, dispneia progressiva e episódios frequentes de infecções respiratórias. Ele também relata cansaço e perda de peso nos últimos meses. Diante do quadro clínico, qual exame é indicado para confirmar o diagnóstico de doença pulmonar obstrutiva crônica?",
+      "alternatives": [
+        {"key": "a", "text": "Espirometria."},
+        {"key": "b", "text": "Radiografia de tórax."},
+        {"key": "c", "text": "Gasometria arterial."},
+        {"key": "d", "text": "Tomografia computadorizada de tórax."},
+        {"key": "e", "text": "Eletrocardiograma."}
+      ],
+      "correct_key": "a",
+      "explanation": "A espirometria é o exame padrão-ouro para confirmação diagnóstica da DPOC, demonstrando obstrução persistente ao fluxo aéreo (VEF1/CVF<0,70 pós-broncodilatador).",
+      "theme": "dpoc_dx",
+      "difficulty": "facil",
+      "source": "SCMRP R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_052",
+      "statement": "Homem, 62 anos de idade, tabagista atual (110 anos-maço), apresenta há 4 anos quadro de dispneia progressiva (atualmente, mMRC: 4), em associação a tosse produtiva com escarro mucoide e sibilância. Relata três internações em enfermaria no último ano por \"pneumonia\". Está em uso de salbutamol spray 100 mcg, 2 jatos, várias vezes ao dia, com alívio mínimo dos sintomas. Exame físico: FR = 24 rpm, SpO2 = 93%, FC = 110 bpm; ausculta cardíaca sem alterações; ausculta pulmonar com sons respiratórios difusamente reduzidos, com roncos e sibilos difusos. Hemograma: eosinofilia (420 células/mm3). Tomografia de tórax de alta resolução: enfisema centrolobular extenso, sobretudo em lobos superiores. Espirometria (realizada em estabilidade clínica): relação VEF1/CVF pós-broncodilatador = 45% e VEF1 pós-broncodilatador = 38% do previsto. Considerando o diagnóstico da doença respiratória do paciente, qual é a abordagem farmacológica inalatória de manutenção mais adequada?",
+      "alternatives": [
+        {"key": "a", "text": "Formoterol 12 mcg + budesonida 400 mcg, uma cápsula três vezes ao dia."},
+        {"key": "b", "text": "Tiotrópio 2,5 mcg, duas doses pela manhã."},
+        {"key": "c", "text": "Salmeterol 50 mcg + fluticasona 250 mcg, uma dose duas vezes ao dia."},
+        {"key": "d", "text": "Brometo de umeclidínio 62,5 mcg + trifenatato de vilanterol 25 mcg, uma dose pela manhã, em associação com budesonida 400 mcg, uma cápsula duas vezes ao dia."}
+      ],
+      "correct_key": "d",
+      "explanation": "DPOC muito grave (VEF1 38%, GOLD4), múltiplas hospitalizações no último ano (exacerbadora grave, grupo E) e eosinofilia significativa (420≥300): indicação de terapia tripla completa (LAMA+LABA+ICS) desde o início.",
+      "theme": "dpoc_tto",
+      "difficulty": "dificil",
+      "source": "UNIFESP R3CM 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_053",
+      "statement": "Paciente, feminino, 68 anos de idade, tabagista ativa (30 anos-maço), apresenta-se com dispneia progressiva há 3 semanas, que piora aos esforços e melhora com o repouso. Ao exame físico, o médico identifica cianose discreta em extremidades e redução da expansibilidade torácica bilateral. Assinale a alternativa que apresenta, corretamente, o achado mais consistente com o diagnóstico de doença pulmonar obstrutiva crônica (DPOC).",
+      "alternatives": [
+        {"key": "a", "text": "Crepitação fina inspiratória difusa com ausência de sibilos."},
+        {"key": "b", "text": "Frêmito tátil aumentado com estertores crepitantes."},
+        {"key": "c", "text": "Macicez à percussão com broncofonia aumentada."},
+        {"key": "d", "text": "Redução do diâmetro anteroposterior do tórax."},
+        {"key": "e", "text": "Sibilos expiratórios e diminuição do murmúrio vesicular."}
+      ],
+      "correct_key": "e",
+      "explanation": "Sibilos expiratórios e diminuição do murmúrio vesicular (por hiperinsuflação/aprisionamento aéreo) são os achados semiológicos mais consistentes e característicos da DPOC, diferentemente dos demais achados listados, mais associados a doenças intersticiais, consolidação ou derrame pleural.",
+      "theme": "dpoc_dx",
+      "difficulty": "medio",
+      "source": "UEL R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_054",
+      "statement": "Mulher com 65 anos de idade em acompanhamento de doença pulmonar foi submetida a provas de função respiratória. Os seguintes parâmetros foram encontrados: volume expiratório forçado no primeiro segundo (VF1) diminuído; capacidade vital forçada (CVF) diminuída e capacidade pulmonar total aumentada. O distúrbio que a paciente apresenta é:",
+      "alternatives": [
+        {"key": "a", "text": "restritivo;"},
+        {"key": "b", "text": "obstrutivo;"},
+        {"key": "c", "text": "parede torácica fraca;"},
+        {"key": "d", "text": "padrão misto;"},
+        {"key": "e", "text": "pouca cooperação / compreensão do exame."}
+      ],
+      "correct_key": "b",
+      "explanation": "A capacidade pulmonar total (CPT) AUMENTADA (hiperinsuflação/aprisionamento aéreo) associada à redução de VEF1 e CVF é o padrão característico do distúrbio OBSTRUTIVO (como a DPOC), diferente do padrão restritivo, onde a CPT está tipicamente reduzida.",
+      "theme": "dpoc_dx",
+      "difficulty": "medio",
+      "source": "ENARE R3CM 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_055",
+      "statement": "A classificação de GOLD para DPOC estabelece que",
+      "alternatives": [
+        {"key": "a", "text": "I (leve) VEF1 maior ou igual 80%."},
+        {"key": "b", "text": "II (moderado) VEF1 maior ou igual a 60% e < 80%."},
+        {"key": "c", "text": "III (grave) VEF1 maior ou igual a 40% e <55%."},
+        {"key": "d", "text": "IV (muito grave) VEF1 < 40%."},
+        {"key": "e", "text": "IV (muito grave) VEF1/CVF < 50%."}
+      ],
+      "correct_key": "a",
+      "explanation": "Correto: GOLD 1 (leve) = VEF1≥80% do previsto. As demais alternativas estão incorretas quanto aos valores exatos: GOLD 2 (moderado) é definido como 50%≤VEF1<80% (não ≥60%); GOLD 3 (grave) é 30%≤VEF1<50% (não ≥40% e <55%); e GOLD 4 (muito grave) é VEF1<30% (não <40%, e não é definido por relação VEF1/CVF).",
+      "theme": "dpoc_dx",
+      "difficulty": "medio",
+      "source": "BOS R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_056",
+      "statement": "Paciente masculino de 52 anos, portador de DPOC em tratamento há 2 anos com vilanterol-umeclidínio, vinha mantendo dispneia habitual mMRC 1. Fez uso de amoxacilina-clavulanato para uma exacerbação da doença há aproximadamente 8 meses, mas sem necessidade de internação hospitalar. Paciente também é hipertenso em uso de losartana, dislipidêmico em uso de rosuvastatina, diabético em uso de empaglifozina + linagliptina. Paciente procura o pronto atendimento por queixa de piora da dispneia há 1 dia, atualmente mMRC 3. Costuma apresentar habitualmente expectoração hialina em pequena quantidade e nega aumento do volume do catarro agora, mas refere que hoje expectorou secreção clara com alguns laivos de sangue. Nega dor torácica. Ao exame físico, paciente encontra-se em regular estado geral, corado, hidratado, anictérico, cianótico, afebril, lúcido e orientado. Sinais vitais: frequência cardíaca de 115 bpm, frequência respiratória de 26 ipm, PA = 110 x 70mmHg, SpO2 = 86% em ar ambiente, glicemia capilar de 102 g/dL. Bulhas rítmicas hipofonéticas em 2 tempos sem sopros, estase jugular 2+/4. Murmúrio vesicular presente, mas reduzido em ápices, discretos estertores crepitantes em bases. Abdome globoso, ruídos hidroaéreos presentes, fígado palpável a 2 cm do rebordo costal direito, espaço de Traube livre. Presença de edema em membros inferiores, pulsos presentes e simétricos. Quanto ao quadro clínico descrito, todas as medidas a seguir devem ser adotadas nesse momento, EXCETO:",
+      "alternatives": [
+        {"key": "a", "text": "solicitar exame de imagem do tórax."},
+        {"key": "b", "text": "solicitar D-dímero."},
+        {"key": "c", "text": "iniciar oxigenoterapia suplementar."},
+        {"key": "d", "text": "iniciar corticoterapia sistêmica."}
+      ],
+      "correct_key": "d",
+      "explanation": "O quadro apresentado (hemoptise sem aumento de volume/purulência do escarro, ausência de dor torácica mas com sinais sugestivos de disfunção cardíaca direita — estase jugular, hepatomegalia, edema, bulhas hipofonéticas) NÃO preenche os critérios clássicos de Anthonisen para exacerbação infecciosa de DPOC, levantando suspeita de diagnóstico alternativo/concomitante (tromboembolismo pulmonar, descompensação cardíaca). Nesse cenário, iniciar corticoterapia sistêmica empírica para \"exacerbação de DPOC\" é prematuro antes de investigação adicional (imagem torácica, D-dímero), enquanto oxigenoterapia é sempre indicada dada a hipoxemia.",
+      "theme": "dpoc_exac",
+      "difficulty": "dificil",
+      "source": "EINSTEIN R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_057",
+      "statement": "Homem, 76 anos, em acompanhamento por DPOC há 8 anos; nega comorbidades. Refere piora progressiva da dispneia (de pequenos esforços para dispneia em repouso) há 2 semanas, sem piora da tosse ou do aspecto da expectoração. Nega dor torácica, hemoptise, piora súbita dos sintomas. Exame físico: BEG, corado, cianótico (++/4+). Murmúrio vesicular fisiológico sem ruídos adventícios. Frequência respiratória: 28 i.pm. Ritmo cardíaco regular, com hiperfonese de B2, sem sopros. FC: 98 bpm. PA: 110 x 80 mmHg. Edema de membros inferiores (3+/4+) bilateral, depressível e simétrico. Presença de estase jugular a 45°. Qual é a medida indicada para o diagnóstico mais provável?",
+      "alternatives": [
+        {"key": "a", "text": "Anticoagulação"},
+        {"key": "b", "text": "Agente inotrópico"},
+        {"key": "c", "text": "Vasodilatador pulmonar"},
+        {"key": "d", "text": "Oxigenioterapia"}
+      ],
+      "correct_key": "d",
+      "explanation": "Sinais de cor pulmonale (hiperfonese de B2, estase jugular, edema) sem piora infecciosa: o tratamento fundamental para reduzir a hipertensão pulmonar secundária à DPOC é a correção da hipoxemia com oxigenoterapia.",
+      "theme": "dpoc_tto",
+      "difficulty": "medio",
+      "source": "USP-RP R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_058",
+      "statement": "No diagnóstico da Doença Pulmonar Obstrutiva Crônica (DPOC), a espirometria é considerada o exame padrão-ouro porque:",
+      "alternatives": [
+        {"key": "a", "text": "Identifica o grau de hiperinsuflação pulmonar pela medida da capacidade residual funcional."},
+        {"key": "b", "text": "Diferencia o padrão obstrutivo do padrão restritivo, com base no comportamento dos volumes."},
+        {"key": "c", "text": "Avalia a capacidade vital forçada (CVF) e o volume expiratório forçado no 1º segundo (VEF1)."},
+        {"key": "d", "text": "Mensura a resistência das vias aéreas e a complacência pulmonar, característicos da DPOC."},
+        {"key": "e", "text": "Quantifica a reversibilidade do distúrbio ventilatório após broncodilatador, confirmando o diagnóstico."}
+      ],
+      "correct_key": "c",
+      "explanation": "A espirometria é padrão-ouro para diagnóstico de DPOC por avaliar diretamente a CVF e o VEF1, permitindo calcular a relação VEF1/CVF, critério diagnóstico central da obstrução ao fluxo aéreo.",
+      "theme": "dpoc_dx",
+      "difficulty": "facil",
+      "source": "IAMSPE R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_059",
+      "statement": "Homem de 62 anos, com DPOC e indicação de oxigenoterapia domiciliar, vinha usando cateter nasal com fluxo de 3L de O2/min e mantendo saturação periférica em torno de 97%. No entanto, optou por parar a suplementação contínua de oxigênio, pois estava ficando muito sonolento. Refere que, em repouso, sem uso do oxigênio, mantém saturação periférica em torno de 87% e não apresenta dispneia. Só coloca o cateter nasal de oxigênio em momentos de maior esforço físico. Levando em conta o papel da oxigenoterapia no tratamento da DPOC, o paciente deve ser orientado a:",
+      "alternatives": [
+        {"key": "a", "text": "reduzir o fluxo de O2 e fazer uso de oxigenoterapia prolongada"},
+        {"key": "b", "text": "reduzir o fluxo de O2 e manter uso de oxigenoterapia por demanda"},
+        {"key": "c", "text": "manter oxigenoterapia prolongada com mesmo fluxo e realizar nova avaliação espirométrica"},
+        {"key": "d", "text": "manter oxigenoterapia prolongada com mesmo fluxo e incluir na rotina atividades mais estimulantes"}
+      ],
+      "correct_key": "a",
+      "explanation": "A sonolência sugere fluxo excessivo de O2 (retenção de CO2 por hiperóxia), devendo ser reduzido; porém, o benefício de mortalidade da oxigenoterapia domiciliar exige uso PROLONGADO/contínuo (≥15h/dia), não apenas sob demanda em esforço — a saturação de repouso de 87% (abaixo do limiar de 88%) confirma que o uso contínuo (com fluxo ajustado) deve ser mantido, apesar da ausência de dispneia subjetiva.",
+      "theme": "dpoc_tto",
+      "difficulty": "dificil",
+      "source": "UERJ R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_060",
+      "statement": "Um homem de 68 anos, com histórico de DPOC classificada como GOLD 3 e carga tabágica de 40 maços-ano, busca atendimento médico devido ao aumento de sua dispneia nos últimos três dias. Ele relata tosse produtiva com expectoração amarelada e febre baixa (37,8graus), além de fadiga. O paciente informa uso regular de broncodilatadores de longa duração, porém os sintomas não melhoraram com a utilização de broncodilatadores de curta duração. Exames complementares: Gases Arteriais: pH 7,35;PaCO2 48 mmHg (normal, referência: 35-45 mmHg); PaO2 58 mmHg (referência: 75-100mmHg). Hemograma: 12.000/mm³ (referência:4.000-10.000/mm³), radiografia de tórax: hiperinsuflação pulmonar, sem consolidações ou sinais de pneumonia. Dado o quadro clínico e os achados laboratoriais, qual é o manejo inicial mais apropriado para esse paciente?",
+      "alternatives": [
+        {"key": "a", "text": "Manter apenas oxigenoterapia e liberar o paciente para o domicilio."},
+        {"key": "b", "text": "Aumentar a dose de broncodilatadores inalatórios de curta duração e observar a evolução."},
+        {"key": "c", "text": "Iniciar antibiótico para tratar possivel infecção e corticosteroides sistêmicos."},
+        {"key": "d", "text": "Iniciar ventilação não invasiva imediatamente."},
+        {"key": "e", "text": "Encaminhar para internação e observar sem intervenção medicamentosa."}
+      ],
+      "correct_key": "c",
+      "explanation": "Exacerbação com critérios de Anthonisen para antibioticoterapia (piora dispneia+escarro purulento amarelado+leucocitose 12.000), sem acidose grave que exija VNI imediata (pH 7,35 ainda compensado): tratamento com antibiótico e corticosteroide sistêmico.",
+      "theme": "dpoc_exac",
+      "difficulty": "medio",
+      "source": "SES-PE R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_061",
+      "statement": "Homem de 62 anos apresenta dispneia progressiva há 2 dias, além de aumento de tosse e expectoração purulenta. AP: DPOC (GOLD III). Exame físico: FR: 32 irpm, uso de musculatura acessória, ausculta com roncos difusos. Exames laboratoriais: pH; 7,28; PaCO2: 64 mmHg; PaO2: 56 mmHg; HCO3: 27 e SaO2 88% em ar ambiente. A conduta é:",
+      "alternatives": [
+        {"key": "a", "text": "intubação orotraqueal imediata."},
+        {"key": "b", "text": "VNI em modo pressão suporte + PEEP"},
+        {"key": "c", "text": "VNI em modo CPAP com FiO2 100%"},
+        {"key": "d", "text": "oxigenoterapia por máscara não reinalante a 5 L/min, salbutamol por nebulização e observação."}
+      ],
+      "correct_key": "b",
+      "explanation": "Acidose respiratória significativa (pH 7,28, PaCO2 64) com uso de musculatura acessória: indicação de VNI em modo BiPAP (pressão suporte + PEEP), primeira linha antes de considerar intubação, dado que não há critérios de falência respiratória iminente que a contraindiquem.",
+      "theme": "dpoc_exac",
+      "difficulty": "medio",
+      "source": "UNESP R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_062",
+      "statement": "Paciente de 58 anos com DPOC apresenta-se em condição estável. Nos últimos doze meses, ele teve duas exacerbações, uma das quais exigiu hospitalização. Ele usa regularmente tiotrópio (2,5 mg/dia) e formoterol (12 µg, duas vezes ao dia) inalatórios; a medicação oral consiste em roflumilaste (500 mg/dia). A hipertensão arterial é bem controlada com metoprolol (50 mg/dia) e ramipril (10 mg/dia). A próxima conduta recomendada é",
+      "alternatives": [
+        {"key": "a", "text": "adicionar budesonida inalatória."},
+        {"key": "b", "text": "adicionar azitromicina oral."},
+        {"key": "c", "text": "aumentar a dose dos broncodilatadores."},
+        {"key": "d", "text": "trocar metoprolol por anlodipino."},
+        {"key": "e", "text": "trocar os broncodilatadores por brometo de umeclidínio + trifenanato de vilanterol."}
+      ],
+      "correct_key": "a",
+      "explanation": "Exacerbador com hospitalização (grupo E) apesar de LABA/LAMA + roflumilaste já otimizados: o próximo passo de escalonamento recomendado pelo GOLD é a adição de corticoide inalatório (budesonida). Betabloqueador cardiosseletivo não precisa ser trocado (seguro na DPOC).",
+      "theme": "dpoc_tto",
+      "difficulty": "dificil",
+      "source": "SUS-SP R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_063",
+      "statement": "Um homem de 56 anos, tossidor crônico, tabagista de 60 maços/ano, procurou atendimento médico porque passou a apresentar desconforto respiratório em repouso. Já faz uso de medicações inalatórias de forma adequada. Provavelmente se beneficiará do uso contínuo de oxigênio domiciliar, cuja indicação ocorre com pressão arterial de O², e saturação de oxigênio, respectivamente de:",
+      "alternatives": [
+        {"key": "a", "text": "menor ou igual a 55mmHg e menor ou igual a 90%"},
+        {"key": "b", "text": "menor ou igual a 60mmHg e < 88%."},
+        {"key": "c", "text": "< 55mmHg e < 88%."},
+        {"key": "d", "text": "menor ou igual a 60mmHg e menor ou igual a 90%."},
+        {"key": "e", "text": "menor ou igual a 59mmHg e menor ou igual a 89%."}
+      ],
+      "correct_key": "c",
+      "explanation": "Os critérios absolutos clássicos para oxigenoterapia domiciliar prolongada na DPOC são PaO2 <55mmHg OU SatO2 <88% em repouso, ar ambiente — correspondendo à alternativa que reúne ambos os valores de corte padrão.",
+      "theme": "dpoc_tto",
+      "difficulty": "medio",
+      "source": "SCM-SP R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_064",
+      "statement": "Homem de 65 anos, portador de DPOC, queixa-se de dispneia aos moderados esforços há 1 ano. Durante avaliação, apresentou VEF 1 de 72%, mMRC de 1 e eosinófilos plasmáticos de 330 células/µL. No último ano, teve dois episódios de exacerbações, sem necessidade de internação hospitalar. O tratamento mais adequado para este paciente deve ser",
+      "alternatives": [
+        {"key": "a", "text": "ß2-agonista inalatório de longa ação, anticolinérgico inalatório de longa ação e corticoide inalatório."},
+        {"key": "b", "text": "ß2-agonista inalatório de longa ação e corticoide inalatório, apenas."},
+        {"key": "c", "text": "anticolinérgico inalatório de longa ação e corticoide inalatório, apenas."},
+        {"key": "d", "text": "ß2-agonista inalatório de longa ação, apenas."},
+        {"key": "e", "text": "corticoide inalatório, apenas."}
+      ],
+      "correct_key": "a",
+      "explanation": "Dois episódios de exacerbação no último ano (grupo E, mesmo sem internação, pela nova classificação GOLD 2023+ que considera qualquer exacerbação moderada/grave recorrente) associados a eosinofilia significativa (330≥300): indicação de terapia tripla (LABA+LAMA+ICS) desde o início.",
+      "theme": "dpoc_tto",
+      "difficulty": "dificil",
+      "source": "Hospital Regional de Presidente Prudente R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_065",
+      "statement": "Homem de 42 anos portador de DPOC GOLD III E, ex-tabagista, em uso regular de LABA/CIn (Formoterol12/Budesonida 200 mcg), duas vezes ao dia, há 1 ano, estável e sem exacerbações no último ano, hemograma recente com 320 eosinófilos/uL, comparece para reavaliação de rotina. Segundo as diretrizes GOLD (2025), deve-se:",
+      "alternatives": [
+        {"key": "a", "text": "manter a terapia com LABA/CIn nas mesmas dosagens."},
+        {"key": "b", "text": "transicionar para terapia com a combinação LAMA/LABA."},
+        {"key": "c", "text": "transicionar para terapia tripla (LAMA/LABA/CIn)."},
+        {"key": "d", "text": "suspender o CIn e manter apenas o LABA."}
+      ],
+      "correct_key": "c",
+      "explanation": "As diretrizes GOLD 2023+ desencorajam esquemas ICS/LABA sem LAMA em pacientes classificados como grupo E, recomendando garantir a presença do LAMA na terapia (transição para terapia tripla completa) para otimizar desfechos a longo prazo neste perfil de paciente.",
+      "theme": "dpoc_tto",
+      "difficulty": "dificil",
+      "source": "UNESP R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_066",
+      "statement": "Leia o caso a seguir. Paciente do sexo masculino, 72 anos, ex-tabagista com carga tabágica de 45 maços-ano, hipertenso em uso de losartana 50 mg/dia, procura atendimento ambulatorial por dispneia e tosse seca progressivas há 2 anos. Ao exame físico, apresenta frequência respiratória de 21 irpm, murmúrio vesicular reduzido nos ápices e estertores crepitantes finos bibasais. Saturação periférica de oxigênio em ar ambiente: 92%. Traz tomografia computadorizada de tórax realizada durante internação devido a piora da tosse há 2 meses, que mostra áreas de enfisema centrolobular nos lobos superiores associadas a reticulações, bronquiectasias e bronquiolectasias de tração nos lobos inferiores, e cistos de faveolamento, sem consolidações ou derrame pleural. Considerando o quadro clínico e o achado tomográfico, o diagnóstico provável e o exame complementar a ser solicitado para confirmar a repercussão funcional da doença são, respectivamente:",
+      "alternatives": [
+        {"key": "a", "text": "DPOC com bronquiectasias císticas e dosagem de alfa-1 antitripsina."},
+        {"key": "b", "text": "enfisema pulmonar associado a bronquite crônica e gasometria arterial em repouso sem uso de oxigênio."},
+        {"key": "c", "text": "superposição DPOC-fibrose pulmonar e prova de função pulmonar completa com teste de difusão de monóxido de carbono."},
+        {"key": "d", "text": "doença intersticial fibrosante - fibrose pulmonar idiopática e teste de caminhada de seis minutos."}
+      ],
+      "correct_key": "c",
+      "explanation": "A combinação característica de enfisema centrolobular em lobos superiores com fibrose/faveolamento em lobos inferiores define a síndrome de superposição DPOC-fibrose pulmonar (CPFE), na qual os volumes espirométricos podem estar relativamente preservados (efeito de cancelamento), mas a DLCO tipicamente está gravemente reduzida — sendo a prova de função pulmonar completa com DLCO o exame indicado para avaliar a real repercussão funcional.",
+      "theme": "dpoc_dx",
+      "difficulty": "dificil",
+      "source": "SES-GO R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_067",
+      "statement": "Um paciente de 58 anos de idade, com histórico de doença pulmonar obstrutiva crônica (DPOC), foi levado ao pronto-socorro com dispneia intensa, tosse produtiva com expectoração purulenta e febre há dois dias. Ao exame físico, apresentou PA = 130 mmHg X 80 mmHg, FC = 112 bpm, FR = 26 irpm e SatO2 = 88% em ar ambiente. A ausculta pulmonar revelou murmúrio vesicular reduzido difusamente e roncos. Nesse caso clínico, após a suplementação de oxigênio, a principal conduta terapêutica consiste em",
+      "alternatives": [
+        {"key": "a", "text": "iniciar antibióticos empíricos e corticosteroides sistêmicos."},
+        {"key": "b", "text": "administrar broncodilatadores de curta duração por via inalatória."},
+        {"key": "c", "text": "instituir ventilação não invasiva (VNI) imediatamente."},
+        {"key": "d", "text": "combinar broncodilatadores, corticosteroides sistêmicos e antibióticos empíricos."}
+      ],
+      "correct_key": "d",
+      "explanation": "Exacerbação com critérios de Anthonisen completos (piora dispneia+escarro purulento+febre): o manejo completo combina broncodilatadores de curta ação, corticosteroide sistêmico e antibioticoterapia empírica, além da oxigenoterapia já iniciada.",
+      "theme": "dpoc_exac",
+      "difficulty": "medio",
+      "source": "SES-DF R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_068",
+      "statement": "Em relação à Doença Pulmonar Obstrutiva Crônica (DPOC), assinale a alternativa correta.",
+      "alternatives": [
+        {"key": "a", "text": "A espirometria não é essencial para confirmar o diagnóstico,"},
+        {"key": "b", "text": "A DPOC é uma doença frequente, prevenível e tratável. É heterogênea em sua apresentação clínica e evolução e caracterizada por obstrução ao fluxo de ar, persistente e geralmente progressiva."},
+        {"key": "c", "text": "O aumento de a-1-antitripsina (AAT) é uma doença hereditária associada a altos níveis da proteína AAT, o que pode levar ao desenvolvimento de enfisema precoce."},
+        {"key": "d", "text": "A DPOC, uma vez diagnosticada, é curável."},
+        {"key": "e", "text": "Parar de fumar aumenta a sobrevida, reduz a mortalidade, mas não retarda a progressão da doença."}
+      ],
+      "correct_key": "b",
+      "explanation": "Alternativa que reproduz corretamente a definição oficial GOLD de DPOC. As demais estão incorretas: a espirometria É essencial ao diagnóstico; a deficiência (não aumento) de AAT causa enfisema; a DPOC não é curável (apenas controlável); e a cessação do tabagismo RETARDA a progressão da doença, além de reduzir mortalidade.",
+      "theme": "dpoc_dx",
+      "difficulty": "facil",
+      "source": "HNMD R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_069",
+      "statement": "Na semiologia da ausculta pulmonar de um paciente com Doença Pulmonar Obstrutiva Crônica (DPOC), qual das seguintes afirmações descreve corretamente os achados clínicos característicos?",
+      "alternatives": [
+        {"key": "a", "text": "Presença de sibilos inspiratórios e estridor, frequentemente ouvidos na traqueia, indicando obstrução das vias aéreas superiores."},
+        {"key": "b", "text": "Estertores crepitantes bilaterais nas bases pulmonares, sugestivos de congestão pulmonar e edema alveolar."},
+        {"key": "c", "text": "Roncos e sibilos expiratórios dispersos bilateralmente, com prolongamento da fase expiratória, indicativos de obstrução das vias aéreas pequenas."},
+        {"key": "d", "text": "Estertores finos e crepitantes na região apical, indicativos de fibrose pulmonar e estase vascular."},
+        {"key": "e", "text": "Diminuição do murmúrio vesicular com presença de atrito pleural, indicando inflamação pleural."}
+      ],
+      "correct_key": "c",
+      "explanation": "Roncos e sibilos expiratórios dispersos bilateralmente com prolongamento da fase expiratória são os achados auscultatórios clássicos da obstrução ao fluxo aéreo nas pequenas vias na DPOC.",
+      "theme": "dpoc_dx",
+      "difficulty": "facil",
+      "source": "IAMSPE R3CM 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_070",
+      "statement": "Homem de 72 anos, tabagista há 45 anos de cerca de 1 maço/dia, interna com relato de escarro esverdeado há cerca de 2 dias, piora de tosse que já apresenta cronicamente e cansaço para ir até a padaria, a duas quadras de distância. À avaliação no pronto socorro, PA 140x80mmHg, FC 94 bpm, FR 22mrpm, T 36,7º, SaO2 87%. MV difusamente diminuído sem ruídos adventícios. Gasometria arterial revela: PH 7,37 HCO3 32mEq/L PCO2 59mmHg PO2 49mmHg. Com relação ao manejo do quadro, assinale a alternativa verdadeira:",
+      "alternatives": [
+        {"key": "a", "text": "Deve ser ofertado O2 suplementar em alta vazão, visando obter uma SaO2 elevada, acima de 95%."},
+        {"key": "b", "text": "Está indicada espirometria nas primeiras 24h de internação, para definição de plano terapêutico."},
+        {"key": "c", "text": "Glicocorticoides sistêmicos devem ter prescrição estendida para 30 dias, para diminuir recorrência."},
+        {"key": "d", "text": "A ausência de febre e ruídos à ausculta dispensa o uso de antimicrobianos no manejo do quadro."},
+        {"key": "e", "text": "A realização de ventilação não invasiva com pressão positiva pode reduzir necessidade de intubação orotraqueal."}
+      ],
+      "correct_key": "e",
+      "explanation": "Correto: a VNI com pressão positiva reduz comprovadamente a necessidade de intubação orotraqueal na exacerbação de DPOC com acidose respiratória. As demais estão incorretas: O2 em alta vazão visando SatO2>95% é PERIGOSO (risco de retenção de CO2); espirometria NÃO é recomendada durante exacerbação aguda; corticoide sistêmico deve ser curto (5 dias, não 30); e a purulência do escarro (esverdeado), não a febre/ausculta, é o critério que indica antibioticoterapia.",
+      "theme": "dpoc_exac",
+      "difficulty": "dificil",
+      "source": "AMP R3CM 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_071",
+      "statement": "Paciente do sexo masculino, 65 anos, farmacêutico aposentado, fumante ativo há 50 anos (um maço fumado diariamente). Queixa de tosse matinal há 2 anos, porem há 18 meses, com dispneia ainda MRC (Escala de Dispneia Modificada) 1. Ao exame físico: BEG, corado, hidratado, eupneico, normolíneo, ausculta cardiopulmonar normais, sem edemas periféricos. RX tórax normal. Com suspeição clínica de DPOC, solicitado prova ventilatória pulmonar (espirometria), com laudo de distúrbio ventilatório do tipo obstrutivo de grau moderado, sem resposta farmacológica, conforme resultado abaixo:",
+      "alternatives": [
+        {"key": "a", "text": "VEF1/CVF = 55%, CVF = 86% do previsto, VEF1 = 56% do previsto. Após prova farmacológica: VEF1/CVF = 56%, CVF = 87% do previsto, VEF1 = 57% do previsto."},
+        {"key": "b", "text": "VEF1/CVF = 74%, CVF = 89% do previsto, VEF1 = 78% do previsto. Após prova farmacológica: VEF1/CVF = 80%, CVF = 90% do previsto, VEF1 = 88% do previsto."},
+        {"key": "c", "text": "VEF1/CVF = 80%, CVF = 88% do previsto, VEF1 = 85% do previsto. Após prova farmacológica: VEF1/CVF = 85%, CVF = 89% do previsto, VEF1 = 86% do previsto."},
+        {"key": "d", "text": "VEF1/CVF = 90%, CVF = 56% do previsto, VEF1 = 55% do previsto. Após prova farmacológica: VEF1/CVF = 89%, CVF = 58% do previsto, VEF1 = 56% do previsto."}
+      ],
+      "correct_key": "a",
+      "explanation": "O laudo descreve distúrbio ventilatório OBSTRUTIVO de grau MODERADO e SEM resposta farmacológica significativa. Apenas a alternativa (a) apresenta relação VEF1/CVF reduzida (obstrutiva, 55%), VEF1 na faixa moderada (56%) e variação mínima pós-broncodilatador (56%→57%, sem resposta significativa) — as demais alternativas mostram padrão não obstrutivo, resposta broncodilatadora significativa, ou padrão restritivo (CVF/VEF1 reduzidos com relação preservada).",
+      "theme": "dpoc_dx",
+      "difficulty": "dificil",
+      "source": "FAMERP R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_072",
+      "statement": "Um paciente de 68 anos de idade, motorista aposentado, relatou que fica acometido por tosse seca matinal e dispneia progressiva atualmente, quando caminha no plano. Era tabagista de 45 maços-ano. O paciente negou internação hospitalar e exacerbação respiratória nos últimos 12 meses. Ele realizou espirometria com o seguinte resultado: capacidade vital forçada (CVF) com 78% do previsto; volume expiratório forçado no primeiro segundo pós-BD (VEF1): 48%; relação VEF1/CVF pós-BD: 64% do previsto; e resposta negativa ao broncodilatador. A partir desse caso clínico hipotético, assinale a opção que apresenta a classificação do DPOC e a conduta terapêutica adequada, conforme as recomendações GOLD 2025.",
+      "alternatives": [
+        {"key": "a", "text": "GOLD 2 E. Uso inalatório contínuo: umeclidínio + vilanterol + fluticasona"},
+        {"key": "b", "text": "GOLD 2 B. Uso inalatório contínuo: umeclidínio + vilanterol"},
+        {"key": "c", "text": "GOLD 2 E. Uso inalatório contínuo: tiotrópio + olodaterol"},
+        {"key": "d", "text": "GOLD 2 B. Uso inalatório contínuo: formoterol + budesonida"},
+        {"key": "e", "text": "GOLD 2 B. Uso inalatório contínuo: glicopirrônio + formoterol + budesonida"}
+      ],
+      "correct_key": "b",
+      "explanation": "Sem exacerbações nos últimos 12 meses (grupo B, não E, apesar de sintomas significativos com dispneia ao caminhar no plano), sem indicação de ICS: o tratamento correto é a combinação broncodilatadora LABA+LAMA (umeclidínio+vilanterol), classificando o paciente como GOLD 2 grupo B.",
+      "theme": "dpoc_tto",
+      "difficulty": "dificil",
+      "source": "FMJ R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_073",
+      "statement": "Homem, 72 anos de idade, com história de doença pulmonar obstrutiva crônica (DPOC), apresenta infarto agudo do miocárdio. Após o evento, o paciente evolui com miocardiopatia isquêmica com fração de ejeção de 35% e sintomas aos esforços. Assinale a alternativa correta sobre o uso de betabloqueador nesse paciente.",
+      "alternatives": [
+        {"key": "a", "text": "Está contraindicado."},
+        {"key": "b", "text": "Deve ser utilizado em doses habituais, independentemente da história de exacerbações e da classificação GOLD."},
+        {"key": "c", "text": "Deve ser utilizado apenas em doses mínimas."},
+        {"key": "d", "text": "Deve ser utilizado apenas se não houver história de exacerbação do DPOC no último ano."},
+        {"key": "e", "text": "Deve ser utilizado apenas em pacientes classificados como GOLD 1."}
+      ],
+      "correct_key": "b",
+      "explanation": "Betabloqueadores cardiosseletivos NÃO são contraindicados na DPOC (segurança bem estabelecida), devendo ser utilizados em doses plenas conforme indicação cardiológica (aqui, ICFEr pós-IAM), independentemente da gravidade GOLD ou histórico de exacerbações.",
+      "theme": "dpoc_tto",
+      "difficulty": "medio",
+      "source": "SCMRP R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_074",
+      "statement": "Paciente masculino, de 82 anos, consultou por apresentar dispneia persistente aos moderados esforços, tosse e expectoração, quadro iniciado há 5 anos. Informou ter cessado o tabagismo há 30 anos após manter uma carga tabágica de 100 maços-ano. Qual das curvas de espirometria abaixo confirma o diagnóstico de doença pulmonar obstrutiva crônica (DPOC)?",
+      "alternatives": [
+        {"key": "a", "text": "Ver imagem"},
+        {"key": "b", "text": "Ver imagem"},
+        {"key": "c", "text": "Ver imagem"},
+        {"key": "d", "text": "Nenhum teste é necessário para confirmar o diagnóstico de DPOC diante do quadro clínico descrito."}
+      ],
+      "correct_key": "a",
+      "explanation": "ATENÇÃO: curvas de espirometria citadas mas não disponíveis na extração do PDF — resposta de baixa confiança, um chute sem apoio textual entre as opções de imagem. O diagnóstico definitivo de DPOC sempre exige confirmação espirométrica (opção 'd' está incorreta por afirmar o contrário).",
+      "theme": "dpoc_dx",
+      "difficulty": "dificil",
+      "source": "HCPA R3CM 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_075",
+      "statement": "A base do tratamento medicamentoso da Doença Pulmonar Obstrutiva Crônica são os broncodilatadores por via inalatória, sendo:",
+      "alternatives": [
+        {"key": "a", "text": "De acordo com a gravidade e não o perfil de risco da doença."},
+        {"key": "b", "text": "Desacordo com a gravidade e o perfil de risco da doença."},
+        {"key": "c", "text": "De acordo com a gravidade e o perfil de risco da doença."},
+        {"key": "d", "text": "De acordo com o risco da doença e não sua gravidade."}
+      ],
+      "correct_key": "c",
+      "explanation": "A escolha da terapia broncodilatadora inalatória na DPOC segue tanto a gravidade da limitação ao fluxo aéreo quanto o perfil de risco/sintomas (classificação GOLD ABE).",
+      "theme": "dpoc_tto",
+      "difficulty": "facil",
+      "source": "Hospital São Lucas - RP R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_076",
+      "statement": "Homem, 75a, comparece em consulta com queixa de tosse crônica há três anos, dispneia aos grandes esforços e episódios de sibilância esporádicos, que melhoram com salbutamol. Nega internações recentes. Antecedentes pessoais: hipertensão arterial, ex-tabagista 35 anos-maço. Exame físico: bom estado geral, eupneico, PA=142/86mmHg. Tórax: murmúrio vesicular reduzido globalmente, com sibilos esparsos. Restante do exame físico é normal. Prova de função pulmonar: VEF1=65%; VEF1/CVF=0,7 pós broncodilatador. O TRATAMENTO INICIAL INDICADO É:",
+      "alternatives": [
+        {"key": "a", "text": "Antagonistas muscarínicos de ação curta + agonistas beta adrenérgicos de ação curta."},
+        {"key": "b", "text": "Antagonistas muscarínicos de longa ação + agonistas beta adrenérgicos de longa ação."},
+        {"key": "c", "text": "Agonistas beta adrenérgicos de longa ação + agonistas beta adrenérgicos de ação curta."},
+        {"key": "d", "text": "Agonistas beta adrenérgicos de longa ação + corticoide inalatório."}
+      ],
+      "correct_key": "c",
+      "explanation": "DPOC GOLD 2, sem exacerbações prévias, sintomas apenas aos grandes esforços com sibilância esporádica (perfil de sintomas relativamente leve, grupo A/B leve): o tratamento inicial mais conservador entre as opções disponíveis é broncodilatador de longa duração associado a resgate com beta-agonista de curta ação, sem necessidade de dupla broncodilatação de longa ação ou ICS neste momento.",
+      "theme": "dpoc_tto",
+      "difficulty": "dificil",
+      "source": "UNICAMP R3CM 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_077",
+      "statement": "Paciente, 56 anos de idade, feminino, aposentada, queixa de dispneia e tosse produtiva há muito tempo. Relata piora da dispneia e sensação de abafamento torácico há 8 dias e da tosse produtiva (escarro mucoide) há 30 dias. Negou febre. Negou queixas de outros sistemas. Negou antecedente de doença pulmonar pessoal ou familiar. A paciente é tabagista 40a/maço e traz espirometria realizada há 6 meses com laudo de distúrbio ventilatório obstrutivo moderado e prova broncodilatadora negativa. Ao exame físico observou-se murmúrio vesicular diminuído e roncos discretos inspiratórios e expiratórios, ausência de outros achados pertinentes. Sinais vitais: frequência respiratória 22 ipm, FC = 85 bpm, PA-128/84 mmHg, oximetria de pulso em ar ambiente = 94%. Relata uso de tiotrópio e formoterol há 6 meses. Qual é o diagnóstico dessa paciente?",
+      "alternatives": [
+        {"key": "a", "text": "DPOC em tratamento, exacerbação leve."},
+        {"key": "b", "text": "DPOC sem tratamento, estável."},
+        {"key": "c", "text": "DPOC em tratamento, exacerbação moderada."},
+        {"key": "d", "text": "DPOC em tratamento, estável."}
+      ],
+      "correct_key": "a",
+      "explanation": "Piora discreta de sintomas sem hipoxemia significativa (SatO2 94%) nem instabilidade hemodinâmica, em paciente já em tratamento de manutenção: configura exacerbação LEVE.",
+      "theme": "dpoc_exac",
+      "difficulty": "medio",
+      "source": "PSU-GO R3CM 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_078",
+      "statement": "Homem de 64 anos, tabagista (45 maços-ano), apresenta dispneia progressiva e exacerbações frequentes. Espirometria: VEF1/CVF = 0,58; VEF1 = 38% do previsto, com reversibilidade < 8%. Gasometria arterial em repouso: pH 7,36; PaO2 54 mmHg; PaCO2 48 mmHg.",
+      "alternatives": [
+        {"key": "a", "text": "Doença obstrutiva reversível, indicar corticoide inalatório isolado."},
+        {"key": "b", "text": "DPOC grave com hipoxemia crônica, indicação de oxigenoterapia domiciliar prolongada."},
+        {"key": "c", "text": "Asma-DPOC overlap, iniciar apenas broncodilatador de curta duração."},
+        {"key": "d", "text": "Insuficiência respiratória aguda, indicar ventilação não invasiva imediata."}
+      ],
+      "correct_key": "b",
+      "explanation": "VEF1 38% (GOLD3-grave), obstrução fixa (reversibilidade<8%) e PaO2 54mmHg (abaixo do limiar de 55mmHg) em condição estável (gasometria em repouso, pH normal, sem sinais de descompensação aguda): configura DPOC grave com hipoxemia crônica, com indicação de oxigenoterapia domiciliar prolongada.",
+      "theme": "dpoc_tto",
+      "difficulty": "medio",
+      "source": "HMA-SP R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_079",
+      "statement": "Em relação ao diagnóstico diferencial e ao tratamento da Doença Pulmonar Obstrutiva Crônica (DPOC), dentre as alternativas abaixo relacionadas, assinale a que descreve a abordagem recomendada para o diagnóstico diferencial da DPOC em relação a outras doenças pulmonares:",
+      "alternatives": [
+        {"key": "a", "text": "Prescrever corticosteroides inalatórios em todos os casos de suspeita de DPOC, pois ajudam tanto no diagnóstico diferencial quanto no tratamento inicial."},
+        {"key": "b", "text": "Avaliar apenas os sintomas clínicos, como tosse crônica e dispneia, para diferenciar a DPOC de outras doenças pulmonares, como a asma e a fibrose pulmonar."},
+        {"key": "c", "text": "Utilizar exclusivamente exames de imagem, como tomografia de alta resolução, para diferenciar a DPOC de outras doenças pulmonares, devido à maior especificidade deste método."},
+        {"key": "d", "text": "Realizar espirometria com pós-broncodilatador para confirmar a obstrução persistente do fluxo de ar e diferenciar a DPOC de outras doenças, considerando ainda critérios clínicos e histórico de exposição a fatores de risco (como tabagismo e poluição)."}
+      ],
+      "correct_key": "d",
+      "explanation": "A abordagem diagnóstica diferencial correta combina espirometria pós-broncodilatador (confirmação objetiva da obstrução persistente) com avaliação clínica e histórico de exposição a fatores de risco — nenhum método isolado (sintomas apenas, imagem apenas, ou ICS empírico) é suficiente ou apropriado.",
+      "theme": "dpoc_dx",
+      "difficulty": "medio",
+      "source": "UHG R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "dpoc_080",
+      "statement": "Homem de 55 anos procura atendimento em unidade básica de saúde (UBS) para renovar prescrição de losartana. Durante a consulta, relata dispneia aos esforços físicos moderados. Além disso, refere tosse pouco produtiva há alguns anos, o que atribui ao uso de 20 cigarros por dia há 20 anos. Radiografia do tórax revela alargamento dos espaços intercostais, sem outras alterações. Espirometria apresenta os seguintes resultados. Diante dos achados, define-se doença pulmonar obstrutiva crônica. Nesse caso, de acordo com os critérios GOLD, a doença do paciente pode ser funcionalmente classificada em",
+      "alternatives": [
+        {"key": "a", "text": "estágio 1."},
+        {"key": "b", "text": "estágio 2."},
+        {"key": "c", "text": "estágio 3."},
+        {"key": "d", "text": "estágio 4."}
+      ],
+      "correct_key": "b",
+      "explanation": "ATENÇÃO: resultado da espirometria citado mas não disponível na extração do PDF, sendo essencial para determinar precisamente o estágio funcional GOLD — resposta de confiança baixa-moderada. Considerando a apresentação clínica relativamente moderada (dispneia apenas aos esforços físicos moderados, sem sinais de doença muito avançada), optou-se pelo estágio 2 (moderado) como hipótese mais provável.",
+      "theme": "dpoc_dx",
+      "difficulty": "dificil",
+      "source": "INEP REVALIDA 2025",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    }
+  ]
+}

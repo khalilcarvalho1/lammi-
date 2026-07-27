@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T15:17:26.663Z",
+  "generatedAt": "2026-07-27T16:11:49.388Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,7 +26,7 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 752,
+  "totalQuestions": 837,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
@@ -48,7 +48,12 @@
     "atls_abdominal": 1,
     "atls_via_aerea": 1,
     "cinetica_trauma": 1,
-    "atls_genitourinario": 1
+    "atls_genitourinario": 1,
+    "dpoc_dx": 21,
+    "dpoc_exac": 23,
+    "dpoc_tto": 36,
+    "pneumo_outros": 4,
+    "tep_dx": 1
   },
   "flashcardThemeCounts": {
     "atls_choque": 3,
@@ -2459,16 +2464,22 @@
     {
       "area": "pneumologia",
       "slug": "dpoc",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "dpoc_dx",
+        "dpoc_exac",
+        "dpoc_tto"
+      ],
+      "questionsCount": 80,
       "flashcardsCount": 0,
       "casosCount": 0
     },
     {
       "area": "pneumologia",
       "slug": "espirometria",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "pneumo_outros"
+      ],
+      "questionsCount": 3,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -2499,8 +2510,10 @@
     {
       "area": "pneumologia",
       "slug": "insuficiencia-respiratoria",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "pneumo_outros"
+      ],
+      "questionsCount": 1,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -2547,8 +2560,10 @@
     {
       "area": "pneumologia",
       "slug": "tep",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "tep_dx"
+      ],
+      "questionsCount": 1,
       "flashcardsCount": 0,
       "casosCount": 0
     },
