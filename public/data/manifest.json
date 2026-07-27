@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T23:02:11.955Z",
+  "generatedAt": "2026-07-27T23:10:13.834Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,12 +26,13 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 1102,
+  "totalQuestions": 1129,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
     "sca_dac": 65,
     "cardio_arritmias": 100,
+    "arr_brady": 27,
     "mio_amiloide": 10,
     "cardio_perimio": 72,
     "cardio_has": 100,
@@ -127,8 +128,10 @@
     {
       "area": "cardiologia",
       "slug": "bradiarritmias",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "arr_brady"
+      ],
+      "questionsCount": 27,
       "flashcardsCount": 0,
       "casosCount": 0
     },
