@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T17:35:05.003Z",
+  "generatedAt": "2026-07-27T22:53:26.693Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,10 +26,11 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 1037,
+  "totalQuestions": 1102,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
+    "sca_dac": 65,
     "cardio_arritmias": 100,
     "mio_amiloide": 10,
     "cardio_perimio": 72,
@@ -98,8 +99,10 @@
     {
       "area": "cardiologia",
       "slug": "angina-estavel",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "sca_dac"
+      ],
+      "questionsCount": 65,
       "flashcardsCount": 0,
       "casosCount": 0
     },
