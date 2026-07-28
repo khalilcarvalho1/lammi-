@@ -4,11 +4,26 @@
       "id": "cmp_001",
       "statement": "Macroglossia, equimoses periorbitárias e distrofia das unhas são sinais clínicos observados em quais das patologias abaixo:",
       "alternatives": [
-        {"key": "a", "text": "Sarcoidose."},
-        {"key": "b", "text": "Amiloidose AL."},
-        {"key": "c", "text": "Doença do enxerto versus hospedeiro."},
-        {"key": "d", "text": "Anemia falciforme."},
-        {"key": "e", "text": "Artrite psoriásica."}
+        {
+          "key": "a",
+          "text": "Sarcoidose."
+        },
+        {
+          "key": "b",
+          "text": "Amiloidose AL."
+        },
+        {
+          "key": "c",
+          "text": "Doença do enxerto versus hospedeiro."
+        },
+        {
+          "key": "d",
+          "text": "Anemia falciforme."
+        },
+        {
+          "key": "e",
+          "text": "Artrite psoriásica."
+        }
       ],
       "correct_key": "b",
       "explanation": "Macroglossia, equimoses periorbitárias (\"olhos de guaxinim\") e distrofia ungueal são sinais clássicos e relativamente específicos da amiloidose AL (de cadeias leves), decorrentes do depósito de amiloide em tecidos moles.",
@@ -22,10 +37,22 @@
       "id": "cmp_002",
       "statement": "Mulher, 25 anos de idade, está em tratamento para tuberculose com uso irregular de rifampicina, isoniazida, pirazinamida e etambutol. Apresenta queixa de astenia, emagrecimento e edema de membros inferiores. Exames: Hb = 10,5 g/dL, leucócitos e plaquetas normais; creatinina = 2,4 mg/dL, albumina sérica = 3,3 g/dL; urina 1 com proteínas 3+, hemácias 12.000/mL, leucócitos = 15.000/mL; proteinúria = 4,0 g/24h. Qual é a alteração histológica mais provável de ser encontrada em uma biópsia renal desta paciente?",
       "alternatives": [
-        {"key": "a", "text": "Fusões podocitárias"},
-        {"key": "b", "text": "Depósito de amiloide AA."},
-        {"key": "c", "text": "Depósito mesangial de IgA."},
-        {"key": "d", "text": "Depósitos subepiteliais."}
+        {
+          "key": "a",
+          "text": "Fusões podocitárias"
+        },
+        {
+          "key": "b",
+          "text": "Depósito de amiloide AA."
+        },
+        {
+          "key": "c",
+          "text": "Depósito mesangial de IgA."
+        },
+        {
+          "key": "d",
+          "text": "Depósitos subepiteliais."
+        }
       ],
       "correct_key": "b",
       "explanation": "Infecção/inflamação crônica (tuberculose com tratamento irregular, mantendo atividade da doença) é causa clássica de amiloidose secundária/reativa (AA), que se manifesta com síndrome nefrótica e depósito renal de amiloide AA.",
@@ -39,11 +66,26 @@
       "id": "cmp_003",
       "statement": "Homem de 65 anos procura o consultório médico referindo progressiva fadiga nos últimos 6 meses. Traz estes exames realizados há 30 dias: hemoglobina: 9 g/dL; creatinina: 2,5 mg/dL; eletroforese de proteínas. Qual o provável diagnóstico?",
       "alternatives": [
-        {"key": "a", "text": "Gamopatia monoclonal de significado incerto (MGUS)."},
-        {"key": "b", "text": "Macroglobulinemia de Waldenstrom."},
-        {"key": "c", "text": "Mieloma múltiplo."},
-        {"key": "d", "text": "Amiloidose."},
-        {"key": "e", "text": "Sepse urinária."}
+        {
+          "key": "a",
+          "text": "Gamopatia monoclonal de significado incerto (MGUS)."
+        },
+        {
+          "key": "b",
+          "text": "Macroglobulinemia de Waldenstrom."
+        },
+        {
+          "key": "c",
+          "text": "Mieloma múltiplo."
+        },
+        {
+          "key": "d",
+          "text": "Amiloidose."
+        },
+        {
+          "key": "e",
+          "text": "Sepse urinária."
+        }
       ],
       "correct_key": "d",
       "explanation": "ATENÇÃO: eletroforese de proteínas citada mas o traçado/padrão não veio na extração do PDF, sendo essencial para diferenciar entre as gamopatias monoclonais listadas — resposta de confiança moderada. Considerando o contexto temático predominante deste lote de questões (amiloidose), e a apresentação com anemia + insuficiência renal progressiva em idoso, optou-se por amiloidose (d) como hipótese mais provável, embora mieloma múltiplo permaneça diagnóstico diferencial relevante sem critérios CRAB explícitos (hipercalcemia, lesões ósseas) mencionados no enunciado.",
@@ -57,10 +99,22 @@
       "id": "cmp_004",
       "statement": "Qual das situações abaixo não é etiologia de miocardiopatia restritiva?",
       "alternatives": [
-        {"key": "a", "text": "Endomiocardiofibrose."},
-        {"key": "b", "text": "Amiloidose."},
-        {"key": "c", "text": "Lúpus."},
-        {"key": "d", "text": "Sarcoidose."}
+        {
+          "key": "a",
+          "text": "Endomiocardiofibrose."
+        },
+        {
+          "key": "b",
+          "text": "Amiloidose."
+        },
+        {
+          "key": "c",
+          "text": "Lúpus."
+        },
+        {
+          "key": "d",
+          "text": "Sarcoidose."
+        }
       ],
       "correct_key": "c",
       "explanation": "Endomiocardiofibrose, amiloidose e sarcoidose são causas clássicas de miocardiopatia restritiva por infiltração/fibrose miocárdica. O lúpus eritematoso sistêmico classicamente acomete o coração predominantemente via pericardite/serosite e miocardite, não sendo uma etiologia clássica de miocardiopatia restritiva.",
@@ -74,10 +128,22 @@
       "id": "cmp_005",
       "statement": "Homem de 68 anos apresenta síndrome nefrótica com proteinúria maciça, além de neuropatia periférica progressiva e cardiomiopatia restritiva. A biópsia renal mostra depósito de material eosinofílico amorfo na microscopia de luz, com birrefringência em verde-maçã após coloração com vermelho Congo. Qual é o diagnóstico provável?",
       "alternatives": [
-        {"key": "a", "text": "Amiloidose."},
-        {"key": "b", "text": "Glomerulonefrite pós-estreptocócica."},
-        {"key": "c", "text": "Síndrome nefrótica por lesão mínima."},
-        {"key": "d", "text": "Doença renal policística."}
+        {
+          "key": "a",
+          "text": "Amiloidose."
+        },
+        {
+          "key": "b",
+          "text": "Glomerulonefrite pós-estreptocócica."
+        },
+        {
+          "key": "c",
+          "text": "Síndrome nefrótica por lesão mínima."
+        },
+        {
+          "key": "d",
+          "text": "Doença renal policística."
+        }
       ],
       "correct_key": "a",
       "explanation": "Birrefringência verde-maçã à coloração com vermelho Congo é o achado histológico patognomônico de amiloidose, associada aqui a acometimento multissistêmico clássico (renal, neurológico periférico, cardíaco restritivo).",
@@ -91,10 +157,22 @@
       "id": "cmp_006",
       "statement": "Paciente masculino, de 67 anos, com histórico de perda de peso, edema de membros inferiores, dispneia progressiva e episódios de diarreia crônica, apresentou macroglossia ao exame físico. Exames laboratoriais mostraram proteinúria nefrótica, e biópsia de gordura abdominal revelou depósitos corados por vermelho Congo. Qual o diagnóstico mais provável?",
       "alternatives": [
-        {"key": "a", "text": "Amiloidose AL (cadeias leves)"},
-        {"key": "b", "text": "Amiloidose AA (secundária)"},
-        {"key": "c", "text": "Amiloidose hereditária por transtirretina"},
-        {"key": "d", "text": "Nefropatia membranosa"}
+        {
+          "key": "a",
+          "text": "Amiloidose AL (cadeias leves)"
+        },
+        {
+          "key": "b",
+          "text": "Amiloidose AA (secundária)"
+        },
+        {
+          "key": "c",
+          "text": "Amiloidose hereditária por transtirretina"
+        },
+        {
+          "key": "d",
+          "text": "Nefropatia membranosa"
+        }
       ],
       "correct_key": "a",
       "explanation": "A presença de macroglossia é um achado particularmente sugestivo de amiloidose AL (associada a discrasia de plasmócitos/cadeias leves), diferentemente da amiloidose AA (secundária a inflamação crônica) e da ATTR (transtirretina), que raramente causam macroglossia.",
@@ -108,11 +186,26 @@
       "id": "cmp_007",
       "statement": "Mulher, de 55 anos, portadora de artrite reumatoide há vinte anos, com tratamento irregular, tem comparecido na unidade de saúde devido a edema persistente de membros inferiores há 6 meses. Os exames realizados têm mostrado uma proteinúria progressiva evidenciando lesão renal. Qual das afirmativas abaixo melhor explica o acometimento renal?",
       "alternatives": [
-        {"key": "a", "text": "Amiloidose secundária"},
-        {"key": "b", "text": "Vasculite necrotizante"},
-        {"key": "c", "text": "Glomeruloesclererose"},
-        {"key": "d", "text": "Nefrite mesangial"},
-        {"key": "e", "text": "Nefroesclerose"}
+        {
+          "key": "a",
+          "text": "Amiloidose secundária"
+        },
+        {
+          "key": "b",
+          "text": "Vasculite necrotizante"
+        },
+        {
+          "key": "c",
+          "text": "Glomeruloesclererose"
+        },
+        {
+          "key": "d",
+          "text": "Nefrite mesangial"
+        },
+        {
+          "key": "e",
+          "text": "Nefroesclerose"
+        }
       ],
       "correct_key": "a",
       "explanation": "Doença inflamatória crônica mal controlada por longo período (artrite reumatoide de 20 anos, tratamento irregular) é causa clássica de amiloidose secundária (AA), que se manifesta com proteinúria progressiva/síndrome nefrótica.",
@@ -126,10 +219,22 @@
       "id": "cmp_008",
       "statement": "Homem, 68 anos, apresenta queixa de edema de membros inferiores (MMII) há 1 ano. Tem história de espondilite anquilosante e uveíte, com mau controle com antiinflamatório não hormonal. Ao exame clínico apresentou PA 140x90 mmHg, redução da mobilidade da coluna torácica e lombar. Edema de MMII ++/4+. Exames laboratoriais: Albumina: 2,7 g/dL Creatinina: 1,9 mg/dL Urina I: proteinúria +++, sem leucócitos ou hemácias Proteína C reativa: 10 mg/dL Proteinúria/Creatininúria: 4.500 mg/g. Assinale a hipótese diagnóstica mais provável.",
       "alternatives": [
-        {"key": "a", "text": "Amiloidose renal."},
-        {"key": "b", "text": "Doença renal intersticial."},
-        {"key": "c", "text": "Glomerulopatia por imunocomplexos"},
-        {"key": "d", "text": "Nefropatia por analgésico."}
+        {
+          "key": "a",
+          "text": "Amiloidose renal."
+        },
+        {
+          "key": "b",
+          "text": "Doença renal intersticial."
+        },
+        {
+          "key": "c",
+          "text": "Glomerulopatia por imunocomplexos"
+        },
+        {
+          "key": "d",
+          "text": "Nefropatia por analgésico."
+        }
       ],
       "correct_key": "a",
       "explanation": "Doença inflamatória crônica mal controlada (espondilite anquilosante ativa, com PCR elevada) associada a síndrome nefrótica de longa evolução é o quadro clássico de amiloidose renal secundária (AA).",
@@ -143,10 +248,22 @@
       "id": "cmp_009",
       "statement": "Mulher, 55 anos, refere dispneia para realizar as atividades rotineiras e ortopneia há 4 meses. Queixa-se também de perda de 5 kg neste período, alguns episódios de diarreia e formigamento nos pés. Antecedentes: síndrome do túnel do carpo bilateral. Exame físico: sem gânglios palpáveis, ritmo cardíaco regular em 2 tempos sem sopros, pulmões limpos, ausência de hepatomegalia e esplenomegalia, edema de membros inferiores 1+/4+. Fotografia da paciente e eletrocardiograma mostrados nas figuras. Ecocardiograma: espessura de septo interventricular de 15 mm, aumento moderado do átrio esquerdo e função ventricular normal. Exames laboratoriais: hemograma normal; creatinina: 1,1 mg/dl; glicemia: 95 mg/dl; hemoglobina glicada: 5,2%; urina rotina: proteinúria 1+. Considerando a principal hipótese diagnóstica, qual o exame prioritário neste momento?",
       "alternatives": [
-        {"key": "a", "text": "Ressonância magnética cardíaca."},
-        {"key": "b", "text": "Cintilografia miocárdica com pirofosfato."},
-        {"key": "c", "text": "Imunofixação sérica e dosagem de kappa e lambda."},
-        {"key": "d", "text": "Cateterismo cardíaco."}
+        {
+          "key": "a",
+          "text": "Ressonância magnética cardíaca."
+        },
+        {
+          "key": "b",
+          "text": "Cintilografia miocárdica com pirofosfato."
+        },
+        {
+          "key": "c",
+          "text": "Imunofixação sérica e dosagem de kappa e lambda."
+        },
+        {
+          "key": "d",
+          "text": "Cateterismo cardíaco."
+        }
       ],
       "correct_key": "c",
       "explanation": "ATENÇÃO: fotografia da paciente e ECG citados mas não disponíveis na extração do PDF. Quadro clássico de amiloidose cardíaca (síndrome do túnel do carpo bilateral, neuropatia periférica/diarreia, espessamento septal com átrios aumentados e função sistólica preservada). Antes de avançar para cintilografia com pirofosfato (para diagnosticar ATTR), é obrigatório excluir amiloidose AL com imunofixação sérica/urinária e dosagem de cadeias leves livres — pois a cintilografia positiva não é confiável na presença de AL não excluída.",
@@ -160,10 +277,22 @@
       "id": "cmp_010",
       "statement": "Dentre as alterações a seguir, assinale as relacionadas à amiloidose do tipo ATTR (transtirretina). I) ECG com sobrecarga biatrial e baixa voltagem difusa II) Ecocardiograma com átrios maiores que ventrículos e hipertrofia de septo interventricular e/ou de parede posterior de ventrículo esquerdo III) Hipertrofia ventricular apical e obstrução da via de saída ventricular. IV) Disfunção renal associada a neuropatia periférica.",
       "alternatives": [
-        {"key": "a", "text": "I, II, III, IV"},
-        {"key": "b", "text": "I, III e IV"},
-        {"key": "c", "text": "I, II, IV"},
-        {"key": "d", "text": "II e III"}
+        {
+          "key": "a",
+          "text": "I, II, III, IV"
+        },
+        {
+          "key": "b",
+          "text": "I, III e IV"
+        },
+        {
+          "key": "c",
+          "text": "I, II, IV"
+        },
+        {
+          "key": "d",
+          "text": "II e III"
+        }
       ],
       "correct_key": "c",
       "explanation": "I, II e IV são achados clássicos de amiloidose ATTR: ECG com sobrecarga biatrial/baixa voltagem difusa (desproporcional à espessura miocárdica), ecocardiograma com espessamento simétrico do septo/parede posterior e átrios proeminentes, e associação com neuropatia periférica (mais marcante na forma hereditária) e algum grau de disfunção renal. III é falsa: hipertrofia apical com obstrução da via de saída é o padrão da miocardiopatia hipertrófica apical (Yamaguchi), não da amiloidose (que causa espessamento concêntrico/simétrico, sem obstrução dinâmica típica).",
@@ -177,11 +306,26 @@
       "id": "cmp_011",
       "statement": "Dentre as condições apresentadas, assinale aquela que não é uma causa de hipertrofia excêntrica com redução da fração de ejeção do ventrículo esquerdo.",
       "alternatives": [
-        {"key": "a", "text": "Doença de Chagas."},
-        {"key": "b", "text": "Tratamento com daunorrubicina."},
-        {"key": "c", "text": "Miocardite viral."},
-        {"key": "d", "text": "Miocardite alcoólica."},
-        {"key": "e", "text": "Beribéri."}
+        {
+          "key": "a",
+          "text": "Doença de Chagas."
+        },
+        {
+          "key": "b",
+          "text": "Tratamento com daunorrubicina."
+        },
+        {
+          "key": "c",
+          "text": "Miocardite viral."
+        },
+        {
+          "key": "d",
+          "text": "Miocardite alcoólica."
+        },
+        {
+          "key": "e",
+          "text": "Beribéri."
+        }
       ],
       "correct_key": "e",
       "explanation": "O beribéri (deficiência de tiamina) classicamente causa insuficiência cardíaca de ALTO DÉBITO, com vasodilatação periférica e aumento compensatório do débito cardíaco, diferente do padrão de hipertrofia excêntrica com REDUÇÃO da fração de ejeção observado nas demais causas listadas (Chagas, antraciclinas como a daunorrubicina, miocardite viral e alcoólica), que são causas clássicas de cardiomiopatia dilatada com disfunção sistólica.",
@@ -194,10 +338,22 @@
       "id": "cmp_012",
       "statement": "Homem, 24 anos, apresenta síncope durante partida de futebol. Em avaliação médica posterior são identificados: ritmo cardíaco regular; presença de quarta bulha; sopro sistólico (SS) no 4º espaço intercostal esquerdo, que aumenta com manobra de Valsalva. Pode-se afirmar em relação à abordagem terapêutica desse paciente, caso haja historia de morte súbita na família, que está:",
       "alternatives": [
-        {"key": "a", "text": "contraindicado o uso de verapamil."},
-        {"key": "b", "text": "contraindicado o uso de bloqueador do receptor beta adrenérgico."},
-        {"key": "c", "text": "indicado o implante de marcapasso definitivo."},
-        {"key": "d", "text": "indicado cardiodesfibrilador implantável."}
+        {
+          "key": "a",
+          "text": "contraindicado o uso de verapamil."
+        },
+        {
+          "key": "b",
+          "text": "contraindicado o uso de bloqueador do receptor beta adrenérgico."
+        },
+        {
+          "key": "c",
+          "text": "indicado o implante de marcapasso definitivo."
+        },
+        {
+          "key": "d",
+          "text": "indicado cardiodesfibrilador implantável."
+        }
       ],
       "correct_key": "d",
       "explanation": "Síncope durante esforço + B4 + sopro sistólico que aumenta com Valsalva (reduz pré-carga, acentuando a obstrução dinâmica) é quadro clássico de cardiomiopatia hipertrófica obstrutiva. Associada a história familiar de morte súbita — fator de alto risco —, está indicado o implante de cardiodesfibrilador implantável (CDI) para prevenção primária de morte súbita.",
@@ -210,8 +366,14 @@
       "id": "cmp_013",
       "statement": "Um paciente de 35 anos de idade, com miocardiopatia isquêmica dilatada com fração de ejeção prévia de 30%, encaminha-se à emergência com dor torácica em aperto há sete horas, dispneia importante e sudorese. Foram solicitados exames laboratoriais que demonstraram hemograma normal, função renal e eletrólitos normais. Seu peptídeo natriurético cerebral (BNP) era de 300 pg/mL (valor de referência até 150 pg/dL). Solicitou-se, então, o eletrocardiograma representado na figura a seguir. Considerando esse caso clínico, a figura apresentada e os conhecimentos médicos correlatos, julgue o item a seguir. Miocardiopatia isquêmica dilatada é a forma mais rara das miocardiopatias dilatadas.",
       "alternatives": [
-        {"key": "a", "text": "Certo."},
-        {"key": "b", "text": "Errado."}
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
       ],
       "correct_key": "b",
       "explanation": "ATENÇÃO: ECG citado (figura) mas não disponível na extração do PDF — não é necessário para julgar esta afirmativa específica. A afirmativa é falsa: a miocardiopatia isquêmica é, na verdade, uma das causas MAIS COMUNS (não a mais rara) de cardiomiopatia dilatada, respondendo por parcela significativa dos casos, sobretudo em populações com alta prevalência de doença arterial coronariana.",
@@ -224,10 +386,22 @@
       "id": "cmp_014",
       "statement": "Gabriel, 28 anos, comparece ao pronto-socorro queixando-se de ter apresentado síncope ao jogar partida de futebol. Ao exame físico, apresentava PA: 130/78, FC: 80 bpm, ausculta pulmonar normal e, à ausculta cardíaca, foi ouvido um sopro sistólico (B1-B2, sopro entre as bulhas, seguido de B1), conforme representação esquemática apresentada na figura do enunciado. Sobre esse caso clínico, é correto afirmar que:",
       "alternatives": [
-        {"key": "a", "text": "Esse sopro deve diminuir com a manobra de handgrip."},
-        {"key": "b", "text": "Com os dados apresentados, podemos afirmar que se trata de um caso de cardiomiopatia hipertrófica."},
-        {"key": "c", "text": "A principal etiologia para o quadro é reumática."},
-        {"key": "d", "text": "A manobra de Valsalva não contribuiria para o diagnóstico diferencial nesse caso."}
+        {
+          "key": "a",
+          "text": "Esse sopro deve diminuir com a manobra de handgrip."
+        },
+        {
+          "key": "b",
+          "text": "Com os dados apresentados, podemos afirmar que se trata de um caso de cardiomiopatia hipertrófica."
+        },
+        {
+          "key": "c",
+          "text": "A principal etiologia para o quadro é reumática."
+        },
+        {
+          "key": "d",
+          "text": "A manobra de Valsalva não contribuiria para o diagnóstico diferencial nesse caso."
+        }
       ],
       "correct_key": "a",
       "explanation": "ATENÇÃO: representação gráfica/fonocardiográfica do sopro citada no enunciado mas não disponível integralmente na extração do PDF. Síncope ao esforço em jovem com sopro sistólico sugere cardiomiopatia hipertrófica obstrutiva; o handgrip (exercício isométrico) aumenta a resistência vascular periférica e a pós-carga, reduzindo o gradiente dinâmico da via de saída do VE e, portanto, diminuindo a intensidade do sopro — comportamento oposto ao da manobra de Valsalva, que o acentua.",
@@ -240,11 +414,26 @@
       "id": "cmp_015",
       "statement": "Homem de 35 anos, com queixa de dor torácica e palpitações aos esforços moderados, sem relato de fadiga ou síncope. À ausculta apresenta sopro sistólico ejetivo melhor ouvido na borda esternal esquerda, 3º espaço intercostal, e intensificado por manobra de Valsalva. História familiar de morte súbita paterna. O exame mais indicado na investigação etiológica é:",
       "alternatives": [
-        {"key": "a", "text": "eletrocardiograma."},
-        {"key": "b", "text": "teste ergométrico."},
-        {"key": "c", "text": "ressonância magnética cardíaca."},
-        {"key": "d", "text": "angiografia coronária."},
-        {"key": "e", "text": "teste genético."}
+        {
+          "key": "a",
+          "text": "eletrocardiograma."
+        },
+        {
+          "key": "b",
+          "text": "teste ergométrico."
+        },
+        {
+          "key": "c",
+          "text": "ressonância magnética cardíaca."
+        },
+        {
+          "key": "d",
+          "text": "angiografia coronária."
+        },
+        {
+          "key": "e",
+          "text": "teste genético."
+        }
       ],
       "correct_key": "c",
       "explanation": "Diante de quadro sugestivo de cardiomiopatia hipertrófica com história familiar de morte súbita, a ressonância magnética cardíaca é o exame mais indicado na investigação etiológica, pois permite caracterizar com precisão o padrão e a extensão da hipertrofia, identificar áreas de fibrose (realce tardio, marcador de risco arrítmico) e auxiliar no diagnóstico diferencial com outras causas de hipertrofia ventricular.",
@@ -257,10 +446,22 @@
       "id": "cmp_016",
       "statement": "Paciente de 18 anos com queixa de dispneia aos esforços habituais há 6 meses e 1 episódio de síncope sem sintomas premonitórios durante esforço físico, na última semana. Ao exame físico, apresenta ritmo cardíaco regular com sopro sistólico na borda esternal esquerda (2+/6+) que aumenta durante a manobra de Valsalva e diminui com a posição de cócoras. A hipótese diagnóstica mais provável é:",
       "alternatives": [
-        {"key": "a", "text": "comunicação interventricular"},
-        {"key": "b", "text": "miocardiopatia hipertrófica"},
-        {"key": "c", "text": "estenose aórtica"},
-        {"key": "d", "text": "estenose pulmonar"}
+        {
+          "key": "a",
+          "text": "comunicação interventricular"
+        },
+        {
+          "key": "b",
+          "text": "miocardiopatia hipertrófica"
+        },
+        {
+          "key": "c",
+          "text": "estenose aórtica"
+        },
+        {
+          "key": "d",
+          "text": "estenose pulmonar"
+        }
       ],
       "correct_key": "b",
       "explanation": "Sopro sistólico que AUMENTA com Valsalva (redução da pré-carga, acentuando a obstrução dinâmica) e DIMINUI com cócoras (aumento da pré/pós-carga, reduzindo a obstrução) é o comportamento fisiológico patognomônico da cardiomiopatia hipertrófica obstrutiva, diferenciando-a da estenose aórtica valvar fixa (cujo sopro se comporta de forma oposta).",
@@ -273,10 +474,22 @@
       "id": "cmp_017",
       "statement": "Um paciente de 35 anos de idade apresenta queixa de tonturas e dor precordial relacionada aos grandes esforços. Não fuma, não tem dislipidemia ou diabetes. Seu primo teve morte súbita durante partida de futebol. Ao exame clínico encontra-se normotenso, com coração rítmico e sopro sistólico ejetivo em bordo esternal esquerdo irradiado para foco aórtico, sem sinais de insuficiência cardíaca. O eletrocardiograma revelou sobrecarga ventricular esquerda. A radiografia de tórax demonstrou área cardíaca nos limites normais. Assinale a alternativa CORRETA:",
       "alternatives": [
-        {"key": "a", "text": "A primeira suspeita é coronariopatia obstrutiva, devendo ser investigada inicialmente com teste ergométrico."},
-        {"key": "b", "text": "Deve ser feito o diagnóstico diferencial entre cardiomiopatia hipertrófica obstrutiva e estenose aórtica por meio de ecocardiograma."},
-        {"key": "c", "text": "O diagnóstico mais provável é miocardiopatia hipertrófica não obstrutiva e o exame inicial deve ser a monitorização do ritmo cardíaco pelo sistema holter."},
-        {"key": "d", "text": "O quadro sugere crises de vasoespasmo coronário com isquemia miocárdica e baixo fluxo cerebral."}
+        {
+          "key": "a",
+          "text": "A primeira suspeita é coronariopatia obstrutiva, devendo ser investigada inicialmente com teste ergométrico."
+        },
+        {
+          "key": "b",
+          "text": "Deve ser feito o diagnóstico diferencial entre cardiomiopatia hipertrófica obstrutiva e estenose aórtica por meio de ecocardiograma."
+        },
+        {
+          "key": "c",
+          "text": "O diagnóstico mais provável é miocardiopatia hipertrófica não obstrutiva e o exame inicial deve ser a monitorização do ritmo cardíaco pelo sistema holter."
+        },
+        {
+          "key": "d",
+          "text": "O quadro sugere crises de vasoespasmo coronário com isquemia miocárdica e baixo fluxo cerebral."
+        }
       ],
       "correct_key": "b",
       "explanation": "Jovem sem fatores de risco cardiovascular clássicos, com sopro sistólico ejetivo, sobrecarga ventricular esquerda ao ECG, área cardíaca normal e história familiar de morte súbita — o principal diagnóstico diferencial nesse contexto é entre cardiomiopatia hipertrófica obstrutiva e estenose aórtica valvar, ambas passíveis de diferenciação segura e não invasiva pelo ecocardiograma.",
@@ -289,10 +502,22 @@
       "id": "cmp_018",
       "statement": "Decorrente do caráter familiar de algumas etiologias de IC (Insuficiência Cardíaca), são necessários, na pesquisa destas, a avaliação e o rastreamento familiar, sendo somente equivocada a seguinte alternativa:",
       "alternatives": [
-        {"key": "a", "text": "Nas cardiomiopatias dilatadas, avaliação de familiares de primeiro grau dos pacientes pode revelar cardiomiopatia dilatada em 20-35% com componente familiar."},
-        {"key": "b", "text": "Causa genética familiar é descrita em 30-35% da cardiomiopatias dilatadas."},
-        {"key": "c", "text": "Testes genéticos podem ser considerados na cardiomiopatia dilatada de caráter familiar, com inclusão de parentes, mas a sensibilidade é bastante alta."},
-        {"key": "d", "text": "História de 3-4 gerações deve ser obtida, parentes de primeiro grau devem ser avaliados na cardiomiopatia dilatada idiopática a cada 3-5 anos, pois a manifestação pode ser idade dependente através de histórico, exame, ECG e ecocardiograma."}
+        {
+          "key": "a",
+          "text": "Nas cardiomiopatias dilatadas, avaliação de familiares de primeiro grau dos pacientes pode revelar cardiomiopatia dilatada em 20-35% com componente familiar."
+        },
+        {
+          "key": "b",
+          "text": "Causa genética familiar é descrita em 30-35% da cardiomiopatias dilatadas."
+        },
+        {
+          "key": "c",
+          "text": "Testes genéticos podem ser considerados na cardiomiopatia dilatada de caráter familiar, com inclusão de parentes, mas a sensibilidade é bastante alta."
+        },
+        {
+          "key": "d",
+          "text": "História de 3-4 gerações deve ser obtida, parentes de primeiro grau devem ser avaliados na cardiomiopatia dilatada idiopática a cada 3-5 anos, pois a manifestação pode ser idade dependente através de histórico, exame, ECG e ecocardiograma."
+        }
       ],
       "correct_key": "c",
       "explanation": "É equivocado afirmar que os testes genéticos têm sensibilidade 'bastante alta' na cardiomiopatia dilatada familiar — na prática, a sensibilidade dos painéis genéticos é limitada (uma parcela relevante dos casos familiares não tem mutação identificável nos genes atualmente conhecidos), o que reforça a importância do rastreamento clínico seriado (história, exame, ECG, ecocardiograma) descrito corretamente na alternativa D.",
@@ -305,10 +530,22 @@
       "id": "cmp_019",
       "statement": "A respeito da Miocardiopatia hipertrófica, somente NÃO podemos concordar com o seguinte item:",
       "alternatives": [
-        {"key": "a", "text": "doença primária do coração, de base genética com herança autossômica recessiva, com 23 mutações genéticas descritas."},
-        {"key": "b", "text": "ocorre hipertrofia ventricular acentuada, segmentar ou difusa."},
-        {"key": "c", "text": "o ECG é alterado em, pelo menos 75% dos pacientes, com boa sensibilidade para a faixa pediátrica."},
-        {"key": "d", "text": "caracteriza-se pelo encontro de ondas Q rápidas e profundas em derivações inferiores e/ou precordiais."}
+        {
+          "key": "a",
+          "text": "doença primária do coração, de base genética com herança autossômica recessiva, com 23 mutações genéticas descritas."
+        },
+        {
+          "key": "b",
+          "text": "ocorre hipertrofia ventricular acentuada, segmentar ou difusa."
+        },
+        {
+          "key": "c",
+          "text": "o ECG é alterado em, pelo menos 75% dos pacientes, com boa sensibilidade para a faixa pediátrica."
+        },
+        {
+          "key": "d",
+          "text": "caracteriza-se pelo encontro de ondas Q rápidas e profundas em derivações inferiores e/ou precordiais."
+        }
       ],
       "correct_key": "a",
       "explanation": "É falso afirmar que a cardiomiopatia hipertrófica tenha herança autossômica RECESSIVA — trata-se de doença geneticamente determinada com padrão de herança autossômica DOMINANTE (mutações em genes de proteínas sarcoméricas, como MYH7 e MYBPC3), sendo esse o erro conceitual da alternativa.",
@@ -321,10 +558,22 @@
       "id": "cmp_020",
       "statement": "Qual a causa mais comum de morte súbita cardíaca nos atletas com menos de 35 anos?",
       "alternatives": [
-        {"key": "a", "text": "síndrome de Brugada"},
-        {"key": "b", "text": "síndrome do QT longo"},
-        {"key": "c", "text": "cardiomiopatia hipertrófica"},
-        {"key": "d", "text": "origem anômala da artéria coronariana esquerda"}
+        {
+          "key": "a",
+          "text": "síndrome de Brugada"
+        },
+        {
+          "key": "b",
+          "text": "síndrome do QT longo"
+        },
+        {
+          "key": "c",
+          "text": "cardiomiopatia hipertrófica"
+        },
+        {
+          "key": "d",
+          "text": "origem anômala da artéria coronariana esquerda"
+        }
       ],
       "correct_key": "c",
       "explanation": "A cardiomiopatia hipertrófica é classicamente descrita como a causa mais comum de morte súbita cardíaca em atletas jovens (< 35 anos), por predispor a arritmias ventriculares malignas durante o esforço físico intenso, à frente de canalopatias (Brugada, QT longo) e anomalias coronarianas congênitas.",
@@ -337,10 +586,22 @@
       "id": "cmp_021",
       "statement": "Mulher, 53a, refere falta de ar aos esforços moderados, fraqueza, indisposição geral e constipação. Refere estar dormindo com mais travesseiros nas últimas semanas. Usa regularmente, há 1 mês, captopril 150 mg/dia, carvedilol 25 mg/dia, furosemida 80 mg/dia e espironolactona 25mg/dia. Exame físico: PA= 116 x 70 mmHg; FC= 58 bpm; FR= 20 irpm; oximetria de pulso (ar ambiente)= 95%. Regular estado geral, descorada +/4+, acianótica. Pulmões: murmúrio vesicular presente e simétrico, estertores crepitantes em base direita; Coração: bulhas rítmicas hipofonéticas sem sopros; Extremidades: edema +/4+, pré-tibial bilateral. Exames laboratoriais: Na= 137 mEq/L; K= 4,3 mEq/L; Ureia= 37 mg/d; creatinina= 1,0 mg/dL; AST= 47 U/dL; ALT= 41 U/dL; Hb= 10,8 mg/dL; Ht= 33%; Plaquetas= 190.000/mm³. Ecocardiograma: aumento global das câmaras, aumento da espessura do septo, disfunções sistólica e diastólica globais e presença de derrame pericárdico moderado. Fração de ejeção de ventrículo esquerdo= 32%. EM RELAÇÃO À FISIOPATOLOGIA DOS ACHADOS ECOCARDIOGRÁFICOS, ASSINALE A CORRETA.",
       "alternatives": [
-        {"key": "a", "text": "Depósito de mucopolissacarídeos no interstício entre as fibras miocárdicas."},
-        {"key": "b", "text": "Isquemia miocárdica com necrose de miócitos e formação de fibrose."},
-        {"key": "c", "text": "Presença de auto anticorpos ligados a moléculas extracelulares dos miócitos."},
-        {"key": "d", "text": "Infiltração de proteínas no interstício entre as fibras cardíacas."}
+        {
+          "key": "a",
+          "text": "Depósito de mucopolissacarídeos no interstício entre as fibras miocárdicas."
+        },
+        {
+          "key": "b",
+          "text": "Isquemia miocárdica com necrose de miócitos e formação de fibrose."
+        },
+        {
+          "key": "c",
+          "text": "Presença de auto anticorpos ligados a moléculas extracelulares dos miócitos."
+        },
+        {
+          "key": "d",
+          "text": "Infiltração de proteínas no interstício entre as fibras cardíacas."
+        }
       ],
       "correct_key": "a",
       "explanation": "Conforme gabarito oficial da banca, a fisiopatologia associada a este quadro de cardiomiopatia infiltrativa/restritiva com aumento da espessura septal, disfunção biventricular e derrame pericárdico foi classificada como depósito de mucopolissacarídeos no interstício miocárdico (doença de depósito de glicosaminoglicanos), diferenciando-se do mecanismo de infiltração proteica amiloide (opção D), do mecanismo isquêmico (B) e do autoimune (C).",
@@ -353,10 +614,22 @@
       "id": "cmp_022",
       "statement": "Homem, 33 anos, assintomático, procura atendimento médico para realização de atividade física em academia. Nega hipertensão, diabetes mellitus, dislipidemia e tabagismo. Pai faleceu aos 39 anos de idade por morte súbita. Exame físico: FC = 72 bpm; PA = 130 x 80 mmHg; ritmo cardíaco regular; bulhas normofonéticas; sopro mesossistólico 3+/6+ em borda esternal esquerda média, cuja intensidade diminui com o agachamento e aumenta com a posição ortostática. Vide eletrocardiograma apresentado na figura. Qual é a hipótese diagnóstica mais provável?",
       "alternatives": [
-        {"key": "a", "text": "Coarctação da aorta."},
-        {"key": "b", "text": "Cardiomiopatia hipertrófica."},
-        {"key": "c", "text": "Displasia arritmogênica do ventrículo direito."},
-        {"key": "d", "text": "Estenose aórtica."}
+        {
+          "key": "a",
+          "text": "Coarctação da aorta."
+        },
+        {
+          "key": "b",
+          "text": "Cardiomiopatia hipertrófica."
+        },
+        {
+          "key": "c",
+          "text": "Displasia arritmogênica do ventrículo direito."
+        },
+        {
+          "key": "d",
+          "text": "Estenose aórtica."
+        }
       ],
       "correct_key": "b",
       "explanation": "ATENÇÃO: eletrocardiograma citado mas não disponível integralmente na extração do PDF. Sopro sistólico que diminui com agachamento (aumento de pré/pós-carga) e aumenta em ortostase (redução do retorno venoso, acentuando obstrução dinâmica), associado a história familiar de morte súbita precoce, é o padrão clássico de cardiomiopatia hipertrófica obstrutiva.",
@@ -369,10 +642,22 @@
       "id": "cmp_023",
       "statement": "Qual cardiomiopatia apresenta aumento da espessura da parede ventricular ao ecocardiograma e baixa voltagem de QRS ao eletrocardiograma?",
       "alternatives": [
-        {"key": "a", "text": "Cardiomiopatia hipertrófica."},
-        {"key": "b", "text": "Amiloidose"},
-        {"key": "c", "text": "Cardiomiopatia Chagásica."},
-        {"key": "d", "text": "Fibroelastose."}
+        {
+          "key": "a",
+          "text": "Cardiomiopatia hipertrófica."
+        },
+        {
+          "key": "b",
+          "text": "Amiloidose"
+        },
+        {
+          "key": "c",
+          "text": "Cardiomiopatia Chagásica."
+        },
+        {
+          "key": "d",
+          "text": "Fibroelastose."
+        }
       ],
       "correct_key": "b",
       "explanation": "A discordância entre espessamento parietal importante ao ecocardiograma e baixa voltagem do QRS ao eletrocardiograma (desproporção eco-eletrocardiográfica) é um achado clássico e altamente sugestivo de amiloidose cardíaca, decorrente da infiltração amiloide que espessa a parede sem gerar a voltagem elétrica esperada de uma hipertrofia miocárdica verdadeira.",
@@ -385,10 +670,22 @@
       "id": "cmp_024",
       "statement": "São características do sopro na ausculta cardíaca na cardiomiopatia hipertrófica:",
       "alternatives": [
-        {"key": "a", "text": "Diastólico, musical, em forma de diamante e que ocorre logo após a primeira bulha"},
-        {"key": "b", "text": "Sistólico, rude, em forma de diamante e que ocorre logo após a primeira bulha"},
-        {"key": "c", "text": "Sistólico, musical, \"em decrescendo\" e que irradia para o pescoço"},
-        {"key": "d", "text": "Diastólico, rude, \"em decrescendo\" e que se irradia para o pescoço"}
+        {
+          "key": "a",
+          "text": "Diastólico, musical, em forma de diamante e que ocorre logo após a primeira bulha"
+        },
+        {
+          "key": "b",
+          "text": "Sistólico, rude, em forma de diamante e que ocorre logo após a primeira bulha"
+        },
+        {
+          "key": "c",
+          "text": "Sistólico, musical, \"em decrescendo\" e que irradia para o pescoço"
+        },
+        {
+          "key": "d",
+          "text": "Diastólico, rude, \"em decrescendo\" e que se irradia para o pescoço"
+        }
       ],
       "correct_key": "b",
       "explanation": "O sopro da cardiomiopatia hipertrófica obstrutiva é sistólico (por obstrução dinâmica da via de saída do VE), de caráter rude/ejetivo, em crescendo-decrescendo (formato 'em diamante'), iniciando-se logo após a primeira bulha (diferente do sopro da estenose aórtica valvar, que tipicamente irradia para o pescoço).",
@@ -401,11 +698,26 @@
       "id": "cmp_025",
       "statement": "Homem, 72 anos, em tratamento de Miocardiopatia dilatada, com fração de ejeção de 45% e classe funcional III (NYHA), hipertensão arterial, diabetes mellitus e dislipidemia, é trazido por familiares ao Serviço de Emergência por quadro súbito de dispneia ao repouso associado a agitação e sudorese. No exame de entrada, apresentava-se com PA 180X130 mmHg, FC 112 bpm com ritmo cardíaco irregular, ausculta pulmonar com estertores difusos até terço médio de ambos hemitórax. Qual tratamento imediato abaixo NÃO estaria indicado neste paciente?",
       "alternatives": [
-        {"key": "a", "text": "Nitroprussiato de sódio."},
-        {"key": "b", "text": "Morfina."},
-        {"key": "c", "text": "Diurético de alça."},
-        {"key": "d", "text": "Ventilação não invasiva."},
-        {"key": "e", "text": "Amiodarona."}
+        {
+          "key": "a",
+          "text": "Nitroprussiato de sódio."
+        },
+        {
+          "key": "b",
+          "text": "Morfina."
+        },
+        {
+          "key": "c",
+          "text": "Diurético de alça."
+        },
+        {
+          "key": "d",
+          "text": "Ventilação não invasiva."
+        },
+        {
+          "key": "e",
+          "text": "Amiodarona."
+        }
       ],
       "correct_key": "e",
       "explanation": "No manejo imediato do edema agudo de pulmão hipertensivo (crise hipertensiva com congestão pulmonar aguda), estão indicados vasodilatadores (nitroprussiato), diuréticos de alça, ventilação não invasiva e, com cautela, morfina. A amiodarona (antiarrítmico) não é terapia de primeira linha para o quadro agudo de congestão descrito, mesmo havendo ritmo irregular (possível FA), não sendo prioridade imediata frente à instabilidade hemodinâmica hipertensiva.",
@@ -418,10 +730,22 @@
       "id": "cmp_026",
       "statement": "Paciente de 17 anos apresenta queixa de dispneia aos esforços habituais, há quatro meses, e um episódio de síncope sem sintomas premonitórios durante esforço físico, na última semana. Ao exame físico, apresenta ritmo cardíaco regular com sopro sistólico em borda esternal esquerda 2+/6+, que aumenta durante a manobra de Valsalva e diminui com a posição de cócoras. A hipótese diagnóstica mais provável é:",
       "alternatives": [
-        {"key": "a", "text": "Comunicação interventricular."},
-        {"key": "b", "text": "Miocardiopatia hipertrófica."},
-        {"key": "c", "text": "Estenose aórtica."},
-        {"key": "d", "text": "Estenose pulmonar."}
+        {
+          "key": "a",
+          "text": "Comunicação interventricular."
+        },
+        {
+          "key": "b",
+          "text": "Miocardiopatia hipertrófica."
+        },
+        {
+          "key": "c",
+          "text": "Estenose aórtica."
+        },
+        {
+          "key": "d",
+          "text": "Estenose pulmonar."
+        }
       ],
       "correct_key": "b",
       "explanation": "Novamente o padrão característico de sopro que aumenta com Valsalva e diminui com cócoras confirma a hipótese de cardiomiopatia hipertrófica obstrutiva, associada a dispneia progressiva e síncope de esforço em adolescente.",
@@ -434,11 +758,26 @@
       "id": "cmp_027",
       "statement": "Paciente de 45 anos, sexo masculino, com diagnóstico de miocardiopatia dilatada idiopática, vai ao consultório médico para consulta de rotina. Qual, dentre as medicações a seguir, é bem indicada para redução da mortalidade do paciente em questão?",
       "alternatives": [
-        {"key": "a", "text": "Hidroclorotiazida."},
-        {"key": "b", "text": "Espironolactona."},
-        {"key": "c", "text": "Furosemida."},
-        {"key": "d", "text": "Digoxina."},
-        {"key": "e", "text": "Clonidina."}
+        {
+          "key": "a",
+          "text": "Hidroclorotiazida."
+        },
+        {
+          "key": "b",
+          "text": "Espironolactona."
+        },
+        {
+          "key": "c",
+          "text": "Furosemida."
+        },
+        {
+          "key": "d",
+          "text": "Digoxina."
+        },
+        {
+          "key": "e",
+          "text": "Clonidina."
+        }
       ],
       "correct_key": "b",
       "explanation": "Entre as opções, a espironolactona (antagonista mineralocorticoide) é a única classe medicamentosa com comprovação de redução de mortalidade na insuficiência cardíaca com fração de ejeção reduzida, fazendo parte do quadrilátero terapêutico da IC. Diuréticos (hidroclorotiazida, furosemida) e digoxina melhoram sintomas mas não reduzem mortalidade; clonidina não é terapia padrão para IC.",
@@ -451,11 +790,26 @@
       "id": "cmp_028",
       "statement": "Homem de 18 anos apresentou dor retroesternal típica após jogar futebol. Hígido até então, nega uso de drogas ou fármacos. Na emergência, foi medicado com 1 comprimido de nitrato SB e 100 mg de aspirina VO; sucedeu-se, então, quadro sincopal de resolução espontânea. História familiar de morte súbita (primo aos 40 anos). Com base nesses dados e no ECG a seguir (VER IMAGEM), qual é o diagnóstico mais provável?",
       "alternatives": [
-        {"key": "a", "text": "Taquicardiomiopatia."},
-        {"key": "b", "text": "Síndrome de Brugada."},
-        {"key": "c", "text": "Síndrome do QT longo."},
-        {"key": "d", "text": "Cardiomiopatia hipertrófica."},
-        {"key": "e", "text": "Síndrome Wolff-Parkinson-White."}
+        {
+          "key": "a",
+          "text": "Taquicardiomiopatia."
+        },
+        {
+          "key": "b",
+          "text": "Síndrome de Brugada."
+        },
+        {
+          "key": "c",
+          "text": "Síndrome do QT longo."
+        },
+        {
+          "key": "d",
+          "text": "Cardiomiopatia hipertrófica."
+        },
+        {
+          "key": "e",
+          "text": "Síndrome Wolff-Parkinson-White."
+        }
       ],
       "correct_key": "d",
       "explanation": "ATENÇÃO: ECG citado (\"VER IMAGEM\") mas não disponível na extração do PDF. Jovem atleta com dor torácica ao esforço, síncope e história familiar de morte súbita é o quadro clássico de suspeita de cardiomiopatia hipertrófica — note-se ainda que o uso de nitrato sublingual, se de fato uma CMH obstrutiva estiver presente, é uma conduta potencialmente perigosa (reduz pré-carga e pode piorar a obstrução dinâmica), reforçando a importância do diagnóstico correto antes de medicações vasodilatadoras em síncope de esforço em jovens.",
@@ -468,11 +822,26 @@
       "id": "cmp_029",
       "statement": "Homem, 34 anos, com diagnóstico recente de cardiomiopatia hipertrófica, relata dificuldade para realizar caminhadas em velocidade normal a distâncias maiores do que 150 metros. No exame físico, apresenta sopro sistólico de 3+/6+ com epicentro paraesternal esquerdo e irradiação para o ápice cardíaco. Qual a fisiopatologia do sopro e o manejo terapêutico dessa síndrome?",
       "alternatives": [
-        {"key": "a", "text": "Regurgitação mitral - uso de diuréticos."},
-        {"key": "b", "text": "Regurgitação tricúspide - uso de diurético."},
-        {"key": "c", "text": "Comunicação interventricular - uso de nitratos."},
-        {"key": "d", "text": "Valva mitral estenótica - tratamento com digital."},
-        {"key": "e", "text": "Obstrução da via de saída do ventrículo esquerdo - uso de betabloqueadores."}
+        {
+          "key": "a",
+          "text": "Regurgitação mitral - uso de diuréticos."
+        },
+        {
+          "key": "b",
+          "text": "Regurgitação tricúspide - uso de diurético."
+        },
+        {
+          "key": "c",
+          "text": "Comunicação interventricular - uso de nitratos."
+        },
+        {
+          "key": "d",
+          "text": "Valva mitral estenótica - tratamento com digital."
+        },
+        {
+          "key": "e",
+          "text": "Obstrução da via de saída do ventrículo esquerdo - uso de betabloqueadores."
+        }
       ],
       "correct_key": "e",
       "explanation": "Na cardiomiopatia hipertrófica obstrutiva, o sopro decorre da obstrução dinâmica da via de saída do ventrículo esquerdo (associada frequentemente a movimento sistólico anterior da valva mitral, gerando também algum grau de regurgitação mitral secundária); o manejo terapêutico de primeira linha é com betabloqueadores, que reduzem a contratilidade e a obstrução dinâmica.",
@@ -485,11 +854,26 @@
       "id": "cmp_030",
       "statement": "Correlacione os quadros clínicos dos pacientes abaixo com as doenças do quadro seguinte, assinalando a resposta certa da correspondência: I. M.S.F., homem, 57 anos, etilista pesado, hipertenso e diabético, com queixa de dispneia aos esforços, dispneia paroxística noturna, ortopneia e edema de membros inferiores. Ao exame encontra-se ictérico (+/4), com ritmo cardíaco regular, em 3T (B3) e fígado palpável há 3 cm do RCD, edema MMI 2+/4, ECG com sobrecarga ventricular esquerda. Radiografia de tórax com cardiomegalia. II. A.M.S., Homem, 71 anos, tabagista pesado, etilista e hipertenso, com queixa de dispneia aos esforços e edema de membros inferiores. Ao exame encontra-se com pletora facial, com ritmo cardíaco regular, em 2T. B2 hiperfonética. MV diminuído difusamente, edema MMII 2+/4, ECG com sobrecarga atrial direita. III. F.C.A., mulher, 54 anos, tabagista, e não etilista, com queixas de dispneia aos esforços, ortopneia e edema de membros inferiores. Ao exame encontra-se ictérica (++/4), com turgência jugular a 45º, com ritmo cardíaco regular em 3T (B3) e fígado palpável há 4 cm do RCD, edema MMII 3+/4, ECG com bloqueio de ramo direito. Radiografia de tórax com cardiomegalia. IV. R.G.L., mulher, 70 anos, diabética, hipertensa, obesa, tabagista e etilista social, com queixas de dispneia aos esforços, ortopneia e edema de membros inferiores. Ao exame encontra-se com ritmo cardíaco regular em 2T, crepitantes em bases pulmonares bilateralmente, edema MMII e ECG com onda Q em parede anterior. Doenças: 1. Miocardiopatia dilatada provavelmente de etiologia chagásica. 2. Miocardiopatia isquêmica. 3. Miocardiopatia dilatada provavelmente de etiologia alcoólica. 4. Cor pulmonale.",
       "alternatives": [
-        {"key": "a", "text": "I-1, II-3, III-2, IV-4."},
-        {"key": "b", "text": "I-3, II-2, III-4, IV-1."},
-        {"key": "c", "text": "I-3, II-2, III-1, IV-4"},
-        {"key": "d", "text": "I-3, II-4, III-1, IV-2."},
-        {"key": "e", "text": "I-1, II-4, III-3, IV-2"}
+        {
+          "key": "a",
+          "text": "I-1, II-3, III-2, IV-4."
+        },
+        {
+          "key": "b",
+          "text": "I-3, II-2, III-4, IV-1."
+        },
+        {
+          "key": "c",
+          "text": "I-3, II-2, III-1, IV-4"
+        },
+        {
+          "key": "d",
+          "text": "I-3, II-4, III-1, IV-2."
+        },
+        {
+          "key": "e",
+          "text": "I-1, II-4, III-3, IV-2"
+        }
       ],
       "correct_key": "d",
       "explanation": "I (etilista pesado, hipertenso, diabético, sobrecarga ventricular esquerda) → 3 (miocardiopatia dilatada alcoólica); II (tabagista pesado com pletora facial, B2 hiperfonética, MV diminuído, sobrecarga atrial direita — perfil de DPOC/hipertensão pulmonar) → 4 (Cor pulmonale); III (turgência jugular, hepatomegalia importante, BRD — achado de condução clássico de Chagas) → 1 (miocardiopatia chagásica); IV (múltiplos fatores de risco cardiovascular, onda Q em parede anterior ao ECG, indicando infarto prévio) → 2 (miocardiopatia isquêmica).",
@@ -502,10 +886,22 @@
       "id": "cmp_031",
       "statement": "Um homem de 38 anos, apresenta sopro sistólico ejetivo em foco aórtico acessório, que se acentua com manobra de Valsalva e pulso carotídeo com 2 picos sistólicos. O eletrocardiograma revela sinais de hipertrofia ventricular esquerda. O quadro é compatível com:",
       "alternatives": [
-        {"key": "a", "text": "Cardiomiopatia hipertrófica."},
-        {"key": "b", "text": "Estenose aórtica valvar grave."},
-        {"key": "c", "text": "Insuficiência aórtica com sopro de hiperfluxo."},
-        {"key": "d", "text": "Dupla lesão aórtica com predomínio de insuficiência."}
+        {
+          "key": "a",
+          "text": "Cardiomiopatia hipertrófica."
+        },
+        {
+          "key": "b",
+          "text": "Estenose aórtica valvar grave."
+        },
+        {
+          "key": "c",
+          "text": "Insuficiência aórtica com sopro de hiperfluxo."
+        },
+        {
+          "key": "d",
+          "text": "Dupla lesão aórtica com predomínio de insuficiência."
+        }
       ],
       "correct_key": "a",
       "explanation": "Sopro que se acentua com Valsalva associado a pulso carotídeo bisferiens (dois picos sistólicos, decorrente da obstrução dinâmica seguida de ejeção rápida residual) e hipertrofia ventricular esquerda ao ECG é o quadro clássico da cardiomiopatia hipertrófica obstrutiva, diferenciando-se da estenose aórtica valvar fixa (cujo sopro tipicamente diminui com Valsalva).",
@@ -518,11 +914,26 @@
       "id": "cmp_032",
       "statement": "As seguintes drogas são úteis no tratamento da miocardiopatia hipertrófica, exceto:",
       "alternatives": [
-        {"key": "a", "text": "Verapamil."},
-        {"key": "b", "text": "Propranolol."},
-        {"key": "c", "text": "Disopiramida."},
-        {"key": "d", "text": "Digoxina."},
-        {"key": "e", "text": "Todas são úteis."}
+        {
+          "key": "a",
+          "text": "Verapamil."
+        },
+        {
+          "key": "b",
+          "text": "Propranolol."
+        },
+        {
+          "key": "c",
+          "text": "Disopiramida."
+        },
+        {
+          "key": "d",
+          "text": "Digoxina."
+        },
+        {
+          "key": "e",
+          "text": "Todas são úteis."
+        }
       ],
       "correct_key": "d",
       "explanation": "A digoxina é contraindicada/deve ser evitada na cardiomiopatia hipertrófica obstrutiva, pois seu efeito inotrópico positivo pode acentuar a obstrução dinâmica da via de saída do VE e piorar os sintomas. Verapamil, betabloqueadores (propranolol) e disopiramida são, ao contrário, opções terapêuticas úteis por reduzirem a contratilidade/obstrução.",
@@ -530,39 +941,6 @@
       "difficulty": "medio",
       "reviewed": false,
       "created_at": "2026-07-27T00:00:00.000Z"
-    },
-    {
-      "id": "cmp_033",
-      "statement": "Homem, 33 anos, assintomático, procura atendimento médico para realização de atividade física em academia. Nega hipertensão, diabetes mellitus, dislipidemia e tabagismo. Pai faleceu aos 39 anos de idade por morte súbita. Exame físico: FC = 72 bpm; PA = 130 x 80 mmHg; ritmo cardíaco regular; bulhas normofonéticas; sopro mesossistólico 3+/6+ em borda esternal esquerda média, cuja intensidade diminui com o agachamento e aumenta com a posição ortostática. O eletrocardiograma mostra critérios de sobrecarga ventricular esquerda com alterações difusas da repolarização. Qual é a hipótese diagnóstica mais provável?",
-      "alternatives": [
-        {"key": "a", "text": "Coarctação da aorta."},
-        {"key": "b", "text": "Cardiomiopatia hipertrófica."},
-        {"key": "c", "text": "Displasia arritmogênica do ventrículo direito."},
-        {"key": "d", "text": "Estenose aórtica."}
-      ],
-      "correct_key": "b",
-      "explanation": "ATENÇÃO: eletrocardiograma referido no enunciado (fotografia) não pôde ser lido com detalhe fino na extração do PDF. Homem jovem assintomático, história familiar de morte súbita precoce, e sopro que se comporta de forma DINÂMICA — diminui com agachamento (aumento de pré-carga/pós-carga reduz a obstrução dinâmica) e aumenta em ortostatismo (reduz pré-carga, piora a obstrução) — é o padrão clássico da cardiomiopatia hipertrófica obstrutiva, diferente do sopro da estenose aórtica (fixo, que sempre aumenta com manobras que aumentam o débito).",
-      "theme": "mio_hipertrof",
-      "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-28T00:00:00.000Z"
-    },
-    {
-      "id": "cmp_034",
-      "statement": "Paciente de 17 anos apresenta queixa de dispneia aos esforços habituais, há quatro meses, e um episódio de síncope sem sintomas premonitórios durante esforço físico, na última semana. Ao exame físico, apresenta ritmo cardíaco regular com sopro sistólico em borda esternal esquerda 2+/6+, que aumenta durante a manobra de Valsalva e diminui com a posição de cócoras. A hipótese diagnóstica mais provável é:",
-      "alternatives": [
-        {"key": "a", "text": "Comunicação interventricular."},
-        {"key": "b", "text": "Miocardiopatia hipertrófica."},
-        {"key": "c", "text": "Estenose aórtica."},
-        {"key": "d", "text": "Estenose pulmonar."}
-      ],
-      "correct_key": "b",
-      "explanation": "Adolescente com síncope de esforço sem pródromos e sopro que AUMENTA com Valsalva (reduz pré-carga, piorando a obstrução dinâmica) e DIMINUI com cócoras (aumenta pré/pós-carga, reduzindo a obstrução) é o comportamento clássico do sopro da cardiomiopatia hipertrófica obstrutiva — padrão inverso ao da estenose aórtica fixa.",
-      "theme": "mio_hipertrof",
-      "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-28T00:00:00.000Z"
     }
-
   ]
 }

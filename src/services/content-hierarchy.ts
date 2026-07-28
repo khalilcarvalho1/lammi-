@@ -125,6 +125,11 @@ export const AREAS: Area[] = [
           { id: 'mio_amiloide', label: 'Amiloidose cardíaca' },
         ]
       },
+      {
+        id: 'cardio_semiologia',
+        label: 'Semiologia Cardíaca',
+        subtemas: []
+      },
     ]
   },
 

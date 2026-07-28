@@ -4,11 +4,26 @@
       "id": "cc_001",
       "statement": "Escolar, sexo masculino, sete anos, é atendido em serviço de emergência com queixa de febre de 38º C há dois dias sem outros sintomas associados. Exame físico: FR:16 irpm, FC: 90 bpm, PA: 97 x 55 mmHg, SatO2: 96%. ACV: precórdio calmo, bulhas normofonéticas com desdobramento fisiológico da 2ª bulha e sopro sistólico ++/VI vibratório em bordo esternal esquerdo médio. O diagnóstico é:",
       "alternatives": [
-        {"key": "a", "text": "Sopro inocente."},
-        {"key": "b", "text": "Insuficiência aórtica."},
-        {"key": "c", "text": "Endocardite infecciosa."},
-        {"key": "d", "text": "Comunicação interatrial."},
-        {"key": "e", "text": "Comunicação interventricular."}
+        {
+          "key": "a",
+          "text": "Sopro inocente."
+        },
+        {
+          "key": "b",
+          "text": "Insuficiência aórtica."
+        },
+        {
+          "key": "c",
+          "text": "Endocardite infecciosa."
+        },
+        {
+          "key": "d",
+          "text": "Comunicação interatrial."
+        },
+        {
+          "key": "e",
+          "text": "Comunicação interventricular."
+        }
       ],
       "correct_key": "a",
       "explanation": "Sopro sistólico vibratório de baixa intensidade, com desdobramento fisiológico (não fixo) da 2ª bulha e precórdio calmo, em criança sem outros achados patológicos, é o quadro clássico de sopro inocente (sopro de Still).",
@@ -22,10 +37,22 @@
       "id": "cc_002",
       "statement": "No lactente com tetralogia de Fallot, as crises hipoxêmicas normalmente decorrem de:",
       "alternatives": [
-        {"key": "a", "text": "Hiperfluxo pulmonar pelo ducto arterioso patente."},
-        {"key": "b", "text": "Hipofluxo pulmonar por estenose infundibular da artéria pulmonar."},
-        {"key": "c", "text": "Shunt E-D pelo defeito de septo interventricular."},
-        {"key": "d", "text": "Redução do débito cardíaco pela baixa muscularização do VD."}
+        {
+          "key": "a",
+          "text": "Hiperfluxo pulmonar pelo ducto arterioso patente."
+        },
+        {
+          "key": "b",
+          "text": "Hipofluxo pulmonar por estenose infundibular da artéria pulmonar."
+        },
+        {
+          "key": "c",
+          "text": "Shunt E-D pelo defeito de septo interventricular."
+        },
+        {
+          "key": "d",
+          "text": "Redução do débito cardíaco pela baixa muscularização do VD."
+        }
       ],
       "correct_key": "b",
       "explanation": "As crises hipoxêmicas (\"tet spells\") na tetralogia de Fallot decorrem de espasmo agudo do infundíbulo pulmonar (estenose infundibular dinâmica), que reduz abruptamente o fluxo pulmonar e aumenta o shunt direito-esquerdo através da CIV.",
@@ -39,11 +66,26 @@
       "id": "cc_003",
       "statement": "São cardiopatias onde a crise hipoxêmica pode estar presente:",
       "alternatives": [
-        {"key": "a", "text": "Persistência de canal arterial, insuficiência mitral e atresia tricúspide."},
-        {"key": "b", "text": "Tetralogia de Fallot, Comunicação Interventricular e Persistência de canal arterial."},
-        {"key": "c", "text": "Anomalia de Ebstein, Defeito do septo atrioventricular e persistência de canal arterial."},
-        {"key": "d", "text": "Tetralogia de Fallot, Atresia Pulmonar e transposição das grandes artérias."},
-        {"key": "e", "text": "Atresia tricúspide, Comunicação Interatrial e Defeito do septo atrioventricular."}
+        {
+          "key": "a",
+          "text": "Persistência de canal arterial, insuficiência mitral e atresia tricúspide."
+        },
+        {
+          "key": "b",
+          "text": "Tetralogia de Fallot, Comunicação Interventricular e Persistência de canal arterial."
+        },
+        {
+          "key": "c",
+          "text": "Anomalia de Ebstein, Defeito do septo atrioventricular e persistência de canal arterial."
+        },
+        {
+          "key": "d",
+          "text": "Tetralogia de Fallot, Atresia Pulmonar e transposição das grandes artérias."
+        },
+        {
+          "key": "e",
+          "text": "Atresia tricúspide, Comunicação Interatrial e Defeito do septo atrioventricular."
+        }
       ],
       "correct_key": "d",
       "explanation": "Tetralogia de Fallot, atresia pulmonar e transposição das grandes artérias são cardiopatias cianóticas clássicas em que crises hipoxêmicas/episódios de dessaturação aguda podem ocorrer, ao contrário das demais combinações que incluem lesões predominantemente acianóticas.",
@@ -57,11 +99,26 @@
       "id": "cc_004",
       "statement": "Um lactente, portador de tetralogia de Fallot, chega com crise de hipóxia, agitação, cianose intensa e redução do sopro à ausculta. O manejo inicial deve ser feito com:",
       "alternatives": [
-        {"key": "a", "text": "Amiodarona IV contínua."},
-        {"key": "b", "text": "Heparina intermitente."},
-        {"key": "c", "text": "Nitroglicerina sublingual."},
-        {"key": "d", "text": "Diurético de alça IV contínuo."},
-        {"key": "e", "text": "Posição genupeitoral, oxigênio, morfina e propranolol."}
+        {
+          "key": "a",
+          "text": "Amiodarona IV contínua."
+        },
+        {
+          "key": "b",
+          "text": "Heparina intermitente."
+        },
+        {
+          "key": "c",
+          "text": "Nitroglicerina sublingual."
+        },
+        {
+          "key": "d",
+          "text": "Diurético de alça IV contínuo."
+        },
+        {
+          "key": "e",
+          "text": "Posição genupeitoral, oxigênio, morfina e propranolol."
+        }
       ],
       "correct_key": "e",
       "explanation": "O manejo inicial da crise hipoxêmica na Tetralogia de Fallot inclui posição genupeitoral (aumenta resistência vascular sistêmica, reduzindo o shunt D-E), oxigênio suplementar, morfina (sedação, reduz drive respiratório/catecolaminas) e betabloqueador (propranolol, relaxa o espasmo infundibular).",
@@ -75,10 +132,22 @@
       "id": "cc_005",
       "statement": "Um neonato de 48 horas de vida, do sexo masculino, nascido com peso de 2.870 g, estatura de 47 cm e Apgar de 7/8, recebendo aleitamento materno exclusivo, encontra-se no alojamento conjunto, onde toda a equipe é capaz de verificar as seguintes alterações: pregas palpebrais oblíquas para cima, epicanto, protusão lingual, palato ogival, retrognatia, pavilhão auricular pequeno de implantação baixa, braquidactila, prega palmar única transversa, discreta hipotonia, frouxidão ligamentar, excesso de tecido adiposo no dorso do pescoço e diástase dos músculos dos retos abdominais. Nesse caso, a conduta médica a ser empregada imediatamente é solicitar",
       "alternatives": [
-        {"key": "a", "text": "seriografia do esófago gastoduodenal para excluir anomalias congênitas do arco duodenal."},
-        {"key": "b", "text": "radiografia de tórax, eletrocardiograma e ecocardiograma, devido ao risco aumentado de cardiopatias congênitas."},
-        {"key": "c", "text": "teste do pezinho para investigação de hipertireoidismo, que é a patologia tireoidiana encontrada com mais frequência."},
-        {"key": "d", "text": "radiografia de coluna cervical nas incidências em perfil, com flexão e extensão, para pesquisa de instabilidade atlantoaxial."}
+        {
+          "key": "a",
+          "text": "seriografia do esófago gastoduodenal para excluir anomalias congênitas do arco duodenal."
+        },
+        {
+          "key": "b",
+          "text": "radiografia de tórax, eletrocardiograma e ecocardiograma, devido ao risco aumentado de cardiopatias congênitas."
+        },
+        {
+          "key": "c",
+          "text": "teste do pezinho para investigação de hipertireoidismo, que é a patologia tireoidiana encontrada com mais frequência."
+        },
+        {
+          "key": "d",
+          "text": "radiografia de coluna cervical nas incidências em perfil, com flexão e extensão, para pesquisa de instabilidade atlantoaxial."
+        }
       ],
       "correct_key": "b",
       "explanation": "Fenótipo clássico de Síndrome de Down. Cerca de 40-50% dos portadores têm cardiopatia congênita associada (mais comumente defeito do septo atrioventricular), sendo obrigatória a investigação cardiológica precoce (radiografia, ECG, ecocardiograma) logo ao diagnóstico.",
@@ -92,10 +161,22 @@
       "id": "cc_006",
       "statement": "Durante consulta médica de rotina, foram identificadas as seguintes alterações ao exame físico de um escolar: pressão arterial elevada, pulsos femorais fracos e ausculta cardíaca com sopro sistólico em borda esternal esquerda. Considerando esse quadro, o diagnóstico mais provável é:",
       "alternatives": [
-        {"key": "a", "text": "comunicação interventricular."},
-        {"key": "b", "text": "comunicação interatrial."},
-        {"key": "c", "text": "coarctação da aorta."},
-        {"key": "d", "text": "nefropatia."}
+        {
+          "key": "a",
+          "text": "comunicação interventricular."
+        },
+        {
+          "key": "b",
+          "text": "comunicação interatrial."
+        },
+        {
+          "key": "c",
+          "text": "coarctação da aorta."
+        },
+        {
+          "key": "d",
+          "text": "nefropatia."
+        }
       ],
       "correct_key": "c",
       "explanation": "Hipertensão arterial associada a pulsos femorais fracos/diminuídos é o achado clássico e altamente sugestivo de coarctação da aorta.",
@@ -109,11 +190,26 @@
       "id": "cc_007",
       "statement": "Criança de 11 meses, portadora de tetralogia de Fallot, é trazida por pais ao PS, com quadro de choro persistente evoluindo com piora da cianose e sonolência. Ao exame, criança sonolenta, e saturação de O2 em 65% em ar ambiente. Qual das condutas abaixo NÃO deve ser realizada?",
       "alternatives": [
-        {"key": "a", "text": "Oxigenioterapia a 100%"},
-        {"key": "b", "text": "Acalmar e sedar criança"},
-        {"key": "c", "text": "Administrar morfina"},
-        {"key": "d", "text": "Administrar digoxina"},
-        {"key": "e", "text": "Administrar propranolol"}
+        {
+          "key": "a",
+          "text": "Oxigenioterapia a 100%"
+        },
+        {
+          "key": "b",
+          "text": "Acalmar e sedar criança"
+        },
+        {
+          "key": "c",
+          "text": "Administrar morfina"
+        },
+        {
+          "key": "d",
+          "text": "Administrar digoxina"
+        },
+        {
+          "key": "e",
+          "text": "Administrar propranolol"
+        }
       ],
       "correct_key": "d",
       "explanation": "A digoxina é CONTRAINDICADA na crise hipoxêmica da Tetralogia de Fallot, pois aumenta a contratilidade/inotropismo do infundíbulo pulmonar, piorando a obstrução dinâmica e o shunt direito-esquerdo.",
@@ -127,10 +223,22 @@
       "id": "cc_008",
       "statement": "Em exame de rotina de escolar, pediatra se depara com sopro sistólico ejetivo em borda esternal esquerda baixa, ++/++++++. A intensidade do sopro diminui, quando a criança fica em ortostatismo. Não há outras alterações ao exame físico. Diante do achado, assinale a conduta MAIS adequada:",
       "alternatives": [
-        {"key": "a", "text": "Deve ser solicitado ecocardiograma, dado o provável diagnóstico de comunicação interventricular."},
-        {"key": "b", "text": "Não deve ser solicitado qualquer exame adicional, uma vez que o diagnóstico mais provável é de prolapso de valva mitral."},
-        {"key": "c", "text": "Deve-se tranquilizar pacientes e familiares ante o achado de sopro inocente, não sendo necessário exame complementar."},
-        {"key": "d", "text": "Devem ser solicitados eletrocardiograma e radiografia torácica, sendo persistência de canal arterial o diagnóstico mais provável."}
+        {
+          "key": "a",
+          "text": "Deve ser solicitado ecocardiograma, dado o provável diagnóstico de comunicação interventricular."
+        },
+        {
+          "key": "b",
+          "text": "Não deve ser solicitado qualquer exame adicional, uma vez que o diagnóstico mais provável é de prolapso de valva mitral."
+        },
+        {
+          "key": "c",
+          "text": "Deve-se tranquilizar pacientes e familiares ante o achado de sopro inocente, não sendo necessário exame complementar."
+        },
+        {
+          "key": "d",
+          "text": "Devem ser solicitados eletrocardiograma e radiografia torácica, sendo persistência de canal arterial o diagnóstico mais provável."
+        }
       ],
       "correct_key": "c",
       "explanation": "Sopro sistólico que diminui em ortostatismo, sem outros achados patológicos ao exame, é característico de sopro inocente (Still), não exigindo exames complementares — apenas tranquilização dos pais.",
@@ -144,11 +252,26 @@
       "id": "cc_009",
       "statement": "As malformações cardíacas são o grupo de doenças congênitas mais frequentes, decorrentes de alterações na embriogênese cardíaca. Após o nascimento, há um período de transição neonatal em que ocorrem mudanças no coração do recém-nascido. Em relação às características do coração fetal e neonatal, assinale a alternativa correta.",
       "alternatives": [
-        {"key": "a", "text": "Após o término da fase de septação atrial no feto, todos os óstios devem estar ocluídos, sem comunicação entre os átrios."},
-        {"key": "b", "text": "Devido ao padrão de hipertensão pulmonar próprio do recém-nascido, os sopros cardíacos provenientes de comunicações interventriculares são mais facilmente auscultados nos primeiros dias de vida do que após o primeiro mês de vida."},
-        {"key": "c", "text": "Os batimentos cardíacos se iniciam logo após a oitava semana de gestação, quando o coração fetal já está totalmente formado."},
-        {"key": "d", "text": "O canal arterial e o forame oval, estruturas essenciais na circulação cardíaca fetal, sofrem oclusão após o nascimento devido ao aumento da oxigenação no sangue e ao aumento da pressão no átrio esquerdo, respectivamente."},
-        {"key": "e", "text": "Pacientes com diagnóstico de sopro inocente devem ser acompanhados por cardiologista pediátrico, porque, embora a maioria tenha evolução benigna, em alguns casos, pode haver necessidade de tratamento medicamentoso e/ou cirúrgico."}
+        {
+          "key": "a",
+          "text": "Após o término da fase de septação atrial no feto, todos os óstios devem estar ocluídos, sem comunicação entre os átrios."
+        },
+        {
+          "key": "b",
+          "text": "Devido ao padrão de hipertensão pulmonar próprio do recém-nascido, os sopros cardíacos provenientes de comunicações interventriculares são mais facilmente auscultados nos primeiros dias de vida do que após o primeiro mês de vida."
+        },
+        {
+          "key": "c",
+          "text": "Os batimentos cardíacos se iniciam logo após a oitava semana de gestação, quando o coração fetal já está totalmente formado."
+        },
+        {
+          "key": "d",
+          "text": "O canal arterial e o forame oval, estruturas essenciais na circulação cardíaca fetal, sofrem oclusão após o nascimento devido ao aumento da oxigenação no sangue e ao aumento da pressão no átrio esquerdo, respectivamente."
+        },
+        {
+          "key": "e",
+          "text": "Pacientes com diagnóstico de sopro inocente devem ser acompanhados por cardiologista pediátrico, porque, embora a maioria tenha evolução benigna, em alguns casos, pode haver necessidade de tratamento medicamentoso e/ou cirúrgico."
+        }
       ],
       "correct_key": "d",
       "explanation": "Correto: após o nascimento, o aumento da oxigenação sanguínea promove a constrição/oclusão funcional do canal arterial, enquanto o aumento da pressão atrial esquerda (pelo maior retorno venoso pulmonar) leva ao fechamento funcional do forame oval. As demais alternativas contêm erros clássicos: o forame oval permanece pérvio (patente) até o nascimento; sopros de CIV tendem a surgir/intensificar-se ao LONGO das primeiras semanas (conforme cai a resistência vascular pulmonar); os batimentos cardíacos iniciam-se por volta da 3ª-4ª semana (não 8ª); e sopro inocente verdadeiro não exige acompanhamento cardiológico especializado contínuo.",
@@ -162,10 +285,22 @@
       "id": "cc_010",
       "statement": "Adolescente com diagnóstico de atresia tricúspide, em pós-operatório de cirurgia de Fontan, vem a consulta no ambulatório de cardiologia pediátrica. Na consulta, refere que há alguns meses tem apresentado edema periorbitário ao acordar e em membros inferiores, que piora ao longo do dia. Refere que joga bola com os amigos rotineiramente, sem se cansar. Tem tido diurese clara e fezes marrons algo amolecidas. Exames bioquímicos mostram: TGO e TGP normais, ALBUMINA: 2,8 g/dL (baixa), PROTEÍNAS TOTAIS: 5,5 g/dL (baixa), bilirrubinas normais, coagulograma normal, função renal normal, hemograma normal. Qual a conduta terapêutica recomendada?",
       "alternatives": [
-        {"key": "a", "text": "Meia elástica + Hidroclorotiazida."},
-        {"key": "b", "text": "Enalapril + Espironolactona."},
-        {"key": "c", "text": "Ursacol + Furosemida."},
-        {"key": "d", "text": "Dieta hipogordurosa + Furosemida."}
+        {
+          "key": "a",
+          "text": "Meia elástica + Hidroclorotiazida."
+        },
+        {
+          "key": "b",
+          "text": "Enalapril + Espironolactona."
+        },
+        {
+          "key": "c",
+          "text": "Ursacol + Furosemida."
+        },
+        {
+          "key": "d",
+          "text": "Dieta hipogordurosa + Furosemida."
+        }
       ],
       "correct_key": "b",
       "explanation": "Hipoalbuminemia e hipoproteinemia com fezes amolecidas em paciente pós-Fontan são o quadro clássico de enteropatia perdedora de proteína (PLE), complicação bem descrita da fisiologia de Fontan (elevação crônica da pressão venosa sistêmica). O tratamento padrão inclui IECA (enalapril) e espironolactona, que reduzem a pressão venosa central e têm demonstrado benefício nessa complicação.",
@@ -179,10 +314,22 @@
       "id": "cc_011",
       "statement": "Pré-escolar, com 5 anos de idade é levada, à consulta de puericultura. A mãe relata que, durante um exame de rotina na escola, foi detectado um sopro cardíaco, o que a deixou muito preocupada. A criança é ativa, sem queixas de dispneia, cianose, dor torácica, palpitações ou fadiga. Seu desenvolvimento neuropsicomotor e ponderoestatural são adequados para a idade. Não há histórico familiar de cardiopatias congênitas ou morte súbita. Ao exame físico, o pediatra ausculta um sopro sistólico ejetivo, de intensidade 2+/6+, melhor audível na borda esternal esquerda alta e na região infraclavicular direita. O sopro é musical, de alta frequência, e sua intensidade varia com a posição (diminui quando sentado e aumenta em decúbito dorsal) e com a fase da respiração (diminui na inspiração profunda). As bulhas cardíacas são normofonéticas, sem desdobramentos fixos ou cliques. Pulsos periféricos são amplos e simétricos. Considerando a semiologia cardíaca pediátrica e os critérios para diferenciação entre sopros inocentes e patológicos, assinale a afirmativa correta.",
       "alternatives": [
-        {"key": "a", "text": "O sopro é altamente sugestivo de uma comunicação interatrial (CIA) pequena, devido à sua localização e variação com a respiração. A conduta é solicitar um ecocardiograma com Doppler colorido para quantificar o shunt e avaliar a necessidade de intervenção."},
-        {"key": "b", "text": "Trata-se de um sopro de Still, caracterizado por ser sistólico, ejetivo, musical e variar com a posição e respiração. A conduta é tranquilizar a família, explicar a natureza benigna do achado e não solicitar exames complementares, mantendo o acompanhamento em puericultura."},
-        {"key": "c", "text": "A variação do sopro com a posição e a respiração, juntamente com a ausência de sintomas, indica um sopro inocente. No entanto, a intensidade 2+/6+ e a ausculta na região infraclavicular direita levantam a suspeita de estenose pulmonar leve, justificando um eletrocardiograma (ECG) e radiografia de tórax para rastreio."},
-        {"key": "d", "text": "A ausculta na borda esternal esquerda alta e região infraclavicular direita, com variação de intensidade, é compatível com sopro de fluxo pulmonar fisiológico. Contudo, a intensidade 2+/6+ exige um ecocardiograma para descartar uma pequena persistência do canal arterial (PCA) ou comunicação interventricular (CIV) que, embora assintomáticas, podem ter implicações futuras."}
+        {
+          "key": "a",
+          "text": "O sopro é altamente sugestivo de uma comunicação interatrial (CIA) pequena, devido à sua localização e variação com a respiração. A conduta é solicitar um ecocardiograma com Doppler colorido para quantificar o shunt e avaliar a necessidade de intervenção."
+        },
+        {
+          "key": "b",
+          "text": "Trata-se de um sopro de Still, caracterizado por ser sistólico, ejetivo, musical e variar com a posição e respiração. A conduta é tranquilizar a família, explicar a natureza benigna do achado e não solicitar exames complementares, mantendo o acompanhamento em puericultura."
+        },
+        {
+          "key": "c",
+          "text": "A variação do sopro com a posição e a respiração, juntamente com a ausência de sintomas, indica um sopro inocente. No entanto, a intensidade 2+/6+ e a ausculta na região infraclavicular direita levantam a suspeita de estenose pulmonar leve, justificando um eletrocardiograma (ECG) e radiografia de tórax para rastreio."
+        },
+        {
+          "key": "d",
+          "text": "A ausculta na borda esternal esquerda alta e região infraclavicular direita, com variação de intensidade, é compatível com sopro de fluxo pulmonar fisiológico. Contudo, a intensidade 2+/6+ exige um ecocardiograma para descartar uma pequena persistência do canal arterial (PCA) ou comunicação interventricular (CIV) que, embora assintomáticas, podem ter implicações futuras."
+        }
       ],
       "correct_key": "b",
       "explanation": "Sopro sistólico ejetivo, musical, de alta frequência, com variação clássica pela posição (diminui sentado, aumenta em decúbito dorsal) e respiração, sem outros achados patológicos, criança assintomática com desenvolvimento normal — é o quadro característico do sopro de Still (inocente), que não exige investigação complementar.",
@@ -196,11 +343,26 @@
       "id": "cc_012",
       "statement": "Lactente de três dias de vida chega ao serviço de emergência com cianose. Foi diagnosticado no período pré-natal com tetralogia de Fallot e nas primeiras 48 horas de vida era corado e permaneceu estável clinicamente. Nas últimas duas horas apresentou-se progressivamente mais arroxeado, dando entrada na emergência com saturação de oxigênio (SatO2) de 67%. Ao exame não se auscultou sopro. Assinale a alternativa que apresenta a melhor providência a ser tomada a seguir.",
       "alternatives": [
-        {"key": "a", "text": "Realizar ecocardiograma para a confirmação do diagnóstico."},
-        {"key": "b", "text": "Estabelecer acesso venoso e iniciar prostaglandina intravenosa."},
-        {"key": "c", "text": "Realizar um teste de hiperoxia para averiguar componente pulmonar na causa da cianose."},
-        {"key": "d", "text": "Ofertar oxigênio a 100% e caso não apresente melhora proceder intubação e uso de drogas vasoativas."},
-        {"key": "e", "text": "Administrar morfina para favorecer o shunt esquerda-direita por meio da comunicação interventricular."}
+        {
+          "key": "a",
+          "text": "Realizar ecocardiograma para a confirmação do diagnóstico."
+        },
+        {
+          "key": "b",
+          "text": "Estabelecer acesso venoso e iniciar prostaglandina intravenosa."
+        },
+        {
+          "key": "c",
+          "text": "Realizar um teste de hiperoxia para averiguar componente pulmonar na causa da cianose."
+        },
+        {
+          "key": "d",
+          "text": "Ofertar oxigênio a 100% e caso não apresente melhora proceder intubação e uso de drogas vasoativas."
+        },
+        {
+          "key": "e",
+          "text": "Administrar morfina para favorecer o shunt esquerda-direita por meio da comunicação interventricular."
+        }
       ],
       "correct_key": "b",
       "explanation": "Piora súbita da cianose em recém-nascido com TOF já diagnosticada, sem sopro audível (sugerindo fechamento do canal arterial que estava suplementando o fluxo pulmonar), exige manutenção urgente da patência ductal com prostaglandina E1 intravenosa, medida prioritária e potencialmente salvadora.",
@@ -214,10 +376,22 @@
       "id": "cc_013",
       "statement": "Em relação à cardiopatia congênita de comunicação interatrial (CIA), assinale a alternativa incorreta.",
       "alternatives": [
-        {"key": "a", "text": "A CIA tipo ostium secundum é a forma anatômica mais comum."},
-        {"key": "b", "text": "Ao exame físico, é possível observar desdobramento paradoxal de segunda bulha (B2), que desaparece com a inspiração."},
-        {"key": "c", "text": "As características radiológicas clássicas são: cardiomegalia (por aumento do átrio e ventrículo direitos) e dilatação das artérias pulmonares centrais."},
-        {"key": "d", "text": "O tratamento percutâneo da CIA depende de suas características anatômicas e da sua localização."}
+        {
+          "key": "a",
+          "text": "A CIA tipo ostium secundum é a forma anatômica mais comum."
+        },
+        {
+          "key": "b",
+          "text": "Ao exame físico, é possível observar desdobramento paradoxal de segunda bulha (B2), que desaparece com a inspiração."
+        },
+        {
+          "key": "c",
+          "text": "As características radiológicas clássicas são: cardiomegalia (por aumento do átrio e ventrículo direitos) e dilatação das artérias pulmonares centrais."
+        },
+        {
+          "key": "d",
+          "text": "O tratamento percutâneo da CIA depende de suas características anatômicas e da sua localização."
+        }
       ],
       "correct_key": "b",
       "explanation": "É a alternativa INCORRETA: o achado clássico da CIA é o desdobramento AMPLO e FIXO da segunda bulha (que NÃO varia com a respiração), e não desdobramento paradoxal que desaparece com a inspiração.",
@@ -231,10 +405,22 @@
       "id": "cc_014",
       "statement": "Na consulta de rotina, o pediatra está em dúvida sobre um sopro cardíaco em uma criança de dois anos que não se apresenta sinais de insuficiência cardíaca. Suspeita-se de Comunicação Interventricular (CIV). Para auscultar o sopro cardíaco nesse caso,",
       "alternatives": [
-        {"key": "a", "text": "o paciente deve estar, preferencialmente, em decúbito dorsal com o tórax elevado."},
-        {"key": "b", "text": "o paciente deve estar em posição supina, com o braço esquerdo apoiado no peito, subclavicular."},
-        {"key": "c", "text": "o paciente deve estar em posição sentada com o tronco inclinado para frente, axilar direito."},
-        {"key": "d", "text": "O melhor local é o quarto espaço intercostal esquerdo."}
+        {
+          "key": "a",
+          "text": "o paciente deve estar, preferencialmente, em decúbito dorsal com o tórax elevado."
+        },
+        {
+          "key": "b",
+          "text": "o paciente deve estar em posição supina, com o braço esquerdo apoiado no peito, subclavicular."
+        },
+        {
+          "key": "c",
+          "text": "o paciente deve estar em posição sentada com o tronco inclinado para frente, axilar direito."
+        },
+        {
+          "key": "d",
+          "text": "O melhor local é o quarto espaço intercostal esquerdo."
+        }
       ],
       "correct_key": "d",
       "explanation": "O sopro holossistólico característico da CIV é mais bem auscultado na borda esternal esquerda baixa, classicamente no quarto espaço intercostal esquerdo.",
@@ -248,11 +434,26 @@
       "id": "cc_015",
       "statement": "A comunicação interatrial (CIA) é a cardiopatia congênita mais comum e geralmente os pacientes são assintomáticos ou oligossintomáticos. Na maioria dos pacientes com CIA o achado característico na ausculta é",
       "alternatives": [
-        {"key": "a", "text": "segunda bulha única e alta."},
-        {"key": "b", "text": "sopro sistólico de regurgitação."},
-        {"key": "c", "text": "desdobramento amplo e fixo da segunda bulha."},
-        {"key": "d", "text": "sopro sistólico de ejeção em borda esternal esquerda."},
-        {"key": "e", "text": "estalido protossistólico com segunda bulha hipofonética."}
+        {
+          "key": "a",
+          "text": "segunda bulha única e alta."
+        },
+        {
+          "key": "b",
+          "text": "sopro sistólico de regurgitação."
+        },
+        {
+          "key": "c",
+          "text": "desdobramento amplo e fixo da segunda bulha."
+        },
+        {
+          "key": "d",
+          "text": "sopro sistólico de ejeção em borda esternal esquerda."
+        },
+        {
+          "key": "e",
+          "text": "estalido protossistólico com segunda bulha hipofonética."
+        }
       ],
       "correct_key": "c",
       "explanation": "O desdobramento amplo e FIXO da segunda bulha (não variando com a respiração) é o achado auscultatório patognomônico e mais característico da CIA.",
@@ -266,11 +467,26 @@
       "id": "cc_016",
       "statement": "A forma mais comum de doença cardíaca adquirida, entre as listadas a seguir, em todas as faixas etárias pediátricas, é:",
       "alternatives": [
-        {"key": "a", "text": "cardiopatia da doença de Kawasaki."},
-        {"key": "b", "text": "miocardiopatia hipertrófica."},
-        {"key": "c", "text": "doença cardíaca reumática."},
-        {"key": "d", "text": "cardiopatia hipertensiva."},
-        {"key": "e", "text": "miocardite viral."}
+        {
+          "key": "a",
+          "text": "cardiopatia da doença de Kawasaki."
+        },
+        {
+          "key": "b",
+          "text": "miocardiopatia hipertrófica."
+        },
+        {
+          "key": "c",
+          "text": "doença cardíaca reumática."
+        },
+        {
+          "key": "d",
+          "text": "cardiopatia hipertensiva."
+        },
+        {
+          "key": "e",
+          "text": "miocardite viral."
+        }
       ],
       "correct_key": "c",
       "explanation": "A doença cardíaca reumática (sequela de febre reumática) é classicamente descrita como a forma mais comum de doença cardíaca ADQUIRIDA na infância, especialmente em países em desenvolvimento.",
@@ -284,11 +500,26 @@
       "id": "cc_017",
       "statement": "A tetralogia de Fallot consiste no conjunto das seguintes alterações cardíacas:",
       "alternatives": [
-        {"key": "a", "text": "Ventrículo único, estenose pulmonar, hipertrofia ventricular direita e drenagem anômala das veias pulmonares"},
-        {"key": "b", "text": "Dupla via de saída do ventrículo direito, atresia tricúspide, hipertrofia ventricular esquerda e dextroposição de aorta"},
-        {"key": "c", "text": "Tronco arterioso, drenagem anômala das veias pulmonares, hemibloqueio anterior esquerdo e persistência do canal arterial"},
-        {"key": "d", "text": "Comunicação interventricular, estenose pulmonar, dextroposição da aorta e hipertrofia ventricular direita"},
-        {"key": "e", "text": "Atresia tricúspide, comunicação interventricular, hipertrofia ventricular direita e hipotrofia ventricular esquerda"}
+        {
+          "key": "a",
+          "text": "Ventrículo único, estenose pulmonar, hipertrofia ventricular direita e drenagem anômala das veias pulmonares"
+        },
+        {
+          "key": "b",
+          "text": "Dupla via de saída do ventrículo direito, atresia tricúspide, hipertrofia ventricular esquerda e dextroposição de aorta"
+        },
+        {
+          "key": "c",
+          "text": "Tronco arterioso, drenagem anômala das veias pulmonares, hemibloqueio anterior esquerdo e persistência do canal arterial"
+        },
+        {
+          "key": "d",
+          "text": "Comunicação interventricular, estenose pulmonar, dextroposição da aorta e hipertrofia ventricular direita"
+        },
+        {
+          "key": "e",
+          "text": "Atresia tricúspide, comunicação interventricular, hipertrofia ventricular direita e hipotrofia ventricular esquerda"
+        }
       ],
       "correct_key": "d",
       "explanation": "Os quatro componentes clássicos da Tetralogia de Fallot são: comunicação interventricular, estenose pulmonar (infundibular), dextroposição/cavalgamento da aorta e hipertrofia ventricular direita.",
@@ -302,11 +533,26 @@
       "id": "cc_018",
       "statement": "Recém-nascido com 18 horas de vida, nascido de parto normal, sem intercorrências, Apgar: 8/10, apresentando cianose central, sem melhora com suplementação de oxigenioterapia. Ao exame físico: Hipoativo, cianótico, taquipneico, hidratado, anictérico; MV+ sem ruídos adventícios; FR: 70 ipm, sem desconforto respiratório SO² 68%; AC: BCNF RCR 2t, sem sopros; FC: 180 bpm; PA: 65x40mmhg; PCP > 4seg; Abd: flácido, fígado 2 cm rcd; SN: hipoativo, fontanela normotensa; sem edemas; sem diferença de amplitude de pulsos em membros superiores e inferiores. Rx tórax: aumento do índice cardiotorácico com aumento da vascularização pulmonar; a silhueta cardíaca apresenta uma forma oval. Diante o exposto, o quadro clínico provável, bem como a medida clínica mais adequada devem ser:",
       "alternatives": [
-        {"key": "a", "text": "coarctação da aorta / cirurgia de urgência"},
-        {"key": "b", "text": "transposição das grandes artérias / Prostaglandina E1"},
-        {"key": "c", "text": "CIA / atrioseptoplastia"},
-        {"key": "d", "text": "sepse precoce / ampicilina + gentamicina"},
-        {"key": "e", "text": "bronquiolite / B2 inalatório"}
+        {
+          "key": "a",
+          "text": "coarctação da aorta / cirurgia de urgência"
+        },
+        {
+          "key": "b",
+          "text": "transposição das grandes artérias / Prostaglandina E1"
+        },
+        {
+          "key": "c",
+          "text": "CIA / atrioseptoplastia"
+        },
+        {
+          "key": "d",
+          "text": "sepse precoce / ampicilina + gentamicina"
+        },
+        {
+          "key": "e",
+          "text": "bronquiolite / B2 inalatório"
+        }
       ],
       "correct_key": "b",
       "explanation": "Cianose central grave sem melhora com O2 (fixed right-to-left shunt), sem sopro, com aumento da vascularização pulmonar e silhueta cardíaca em formato \"ovoide\" (\"egg on a string\"), configura o quadro clássico de transposição das grandes artérias, exigindo manutenção da patência ductal com prostaglandina E1 até a correção cirúrgica.",
@@ -320,11 +566,26 @@
       "id": "cc_019",
       "statement": "Uma criança apresenta sopro mesossistólico em foco pulmonar, desdobramento fixo de segunda bulha e cardiomegalia discreta. O diagnóstico mais provável é:",
       "alternatives": [
-        {"key": "a", "text": "CIA."},
-        {"key": "b", "text": "Estenose aórtica subvalvar."},
-        {"key": "c", "text": "CIV pequena."},
-        {"key": "d", "text": "Drenagem anômala de artérias pulmonares."},
-        {"key": "e", "text": "PCA."}
+        {
+          "key": "a",
+          "text": "CIA."
+        },
+        {
+          "key": "b",
+          "text": "Estenose aórtica subvalvar."
+        },
+        {
+          "key": "c",
+          "text": "CIV pequena."
+        },
+        {
+          "key": "d",
+          "text": "Drenagem anômala de artérias pulmonares."
+        },
+        {
+          "key": "e",
+          "text": "PCA."
+        }
       ],
       "correct_key": "a",
       "explanation": "Sopro mesossistólico em foco pulmonar (fluxo aumentado) com desdobramento FIXO de B2 é o quadro clássico de comunicação interatrial.",
@@ -338,11 +599,26 @@
       "id": "cc_020",
       "statement": "A Tetralogia de Fallot é a forma mais comum de doença cardíaca congênita cianótica após 1 ano de idade, com uma incidência de, aproximadamente, 10% de todas as formas de doença cardíaca congênita. Sobre esta doença, assinale a afirmativa correta.",
       "alternatives": [
-        {"key": "a", "text": "A cirurgia reparadora envolve reparo do septo interatrial."},
-        {"key": "b", "text": "O shunt de Blalock-Taussig tem como objetivo corrigir o hiperfluxo pulmonar."},
-        {"key": "c", "text": "O shunt de Potts é o shunt que liga a aorta descendente ao ramo esquerdo da artéria pulmonar."},
-        {"key": "d", "text": "O alívio da obstrução da via de saída do ventrículo esquerdo é parte importante do reparo cirúrgico."},
-        {"key": "e", "text": "A utilização de enxertos heterólogos na ampliação da bifurcação da artéria pulmonar é uma técnica cirúrgica paliativa."}
+        {
+          "key": "a",
+          "text": "A cirurgia reparadora envolve reparo do septo interatrial."
+        },
+        {
+          "key": "b",
+          "text": "O shunt de Blalock-Taussig tem como objetivo corrigir o hiperfluxo pulmonar."
+        },
+        {
+          "key": "c",
+          "text": "O shunt de Potts é o shunt que liga a aorta descendente ao ramo esquerdo da artéria pulmonar."
+        },
+        {
+          "key": "d",
+          "text": "O alívio da obstrução da via de saída do ventrículo esquerdo é parte importante do reparo cirúrgico."
+        },
+        {
+          "key": "e",
+          "text": "A utilização de enxertos heterólogos na ampliação da bifurcação da artéria pulmonar é uma técnica cirúrgica paliativa."
+        }
       ],
       "correct_key": "c",
       "explanation": "Correto: o shunt de Potts é definido classicamente como a anastomose entre a aorta descendente e o ramo esquerdo da artéria pulmonar. As demais alternativas contêm erros: a cirurgia reparadora da TOF envolve fechamento do septo INTERVENTRICULAR (não interatrial); o shunt de Blalock-Taussig visa AUMENTAR o fluxo pulmonar (tratando hipofluxo, não hiperfluxo); e a obstrução relevante na TOF é da via de saída do ventrículo DIREITO (não esquerdo).",
@@ -356,11 +632,26 @@
       "id": "cc_021",
       "statement": "A malformação cardíaca é a anomalia congênita isolada mais comum. As cardiopatias congênitas podem ser classificadas em acianogênicas e cianogênicas. Nas cardiopatias cianogênicas, o sangue proveniente do retorno venoso sistêmico passa diretamente do coração direito para o esquerdo, sem passar pela circulação pulmonar (shunt direita-esquerda), por meio de uma comunicação entre os átrios, os ventrículos e as grandes artérias, resultando em insaturação do sangue arterial sistêmico e cianose central. Em relação a essas cardiopatias cianogênicas, podemos afirmar que:",
       "alternatives": [
-        {"key": "a", "text": "A tetralogia de Fallot é constituída por quatro achados: estenose pulmonar, CIA grande, cavalgamento da aorta e hipertrofia do ventrículo direito."},
-        {"key": "b", "text": "A fisiopatologia da Tetralogia de Fallot se caracteriza por retorno venoso sistêmico, proveniente das veias cavas, entra no átrio direito e ventrículo direito, e deste para a aorta."},
-        {"key": "c", "text": "Na Transposição de grandes artérias (TGA), com septo interventricular intacto, ocorre cianose nas primeiras horas de vida. Os recém-nascidos que nascem com esta malformação podem chegar ao óbito em poucas horas de vida, caso o tratamento não seja instaurado de imediato."},
-        {"key": "d", "text": "O uso imediato de Ibuprofeno, para manter o canal aberto, é fundamental para salvar a vida desses pacientes."},
-        {"key": "e", "text": "O teste da hiperoxia ou Teste do coraçãozinho costuma ser negativo nesses bebês nas primeiras 48 h de vida."}
+        {
+          "key": "a",
+          "text": "A tetralogia de Fallot é constituída por quatro achados: estenose pulmonar, CIA grande, cavalgamento da aorta e hipertrofia do ventrículo direito."
+        },
+        {
+          "key": "b",
+          "text": "A fisiopatologia da Tetralogia de Fallot se caracteriza por retorno venoso sistêmico, proveniente das veias cavas, entra no átrio direito e ventrículo direito, e deste para a aorta."
+        },
+        {
+          "key": "c",
+          "text": "Na Transposição de grandes artérias (TGA), com septo interventricular intacto, ocorre cianose nas primeiras horas de vida. Os recém-nascidos que nascem com esta malformação podem chegar ao óbito em poucas horas de vida, caso o tratamento não seja instaurado de imediato."
+        },
+        {
+          "key": "d",
+          "text": "O uso imediato de Ibuprofeno, para manter o canal aberto, é fundamental para salvar a vida desses pacientes."
+        },
+        {
+          "key": "e",
+          "text": "O teste da hiperoxia ou Teste do coraçãozinho costuma ser negativo nesses bebês nas primeiras 48 h de vida."
+        }
       ],
       "correct_key": "c",
       "explanation": "Correto: na TGA com septo interventricular intacto, sem mistura adequada entre as circulações paralelas, a cianose é grave desde as primeiras horas de vida, podendo ser fatal rapidamente sem intervenção (manutenção do canal arterial/atrioseptostomia). As demais estão incorretas: a TOF envolve CIV (não CIA); na TOF o fluxo do VD vai preferencialmente para a AORTA cavalgante devido à obstrução pulmonar (não diretamente \"para a aorta\" como via normal fisiológica); o fármaco usado para MANTER o canal aberto é a PROSTAGLANDINA (não ibuprofeno, que na verdade FECHA o canal); e o teste da hiperoxia é tipicamente POSITIVO (resposta inadequada, PaO2 não se eleva) em cardiopatias cianóticas fixas como a TGA.",
@@ -374,10 +665,22 @@
       "id": "cc_022",
       "statement": "As cardiopatias congênitas críticas são as que se manifestam no período neonatal por hipóxia, insuficiência cardíaca ou baixo débito sistêmico e que necessitam intervenção precoce. Dentre elas, temos as cardiopatias também chamadas canal dependente, pois a manutenção do canal aberto é para a sobrevivência das crianças nos primeiros dias de vida. As cardiopatias congênitas canal dependente são as com fluxo sistêmico ou as com fluxo pulmonar dependente do canal e as com circulação paralela. Considerando o dito acima, avalie as asserções a seguir e a relação proposta entre elas. I) A transposição dos grandes vasos é uma cardiopatia crítica que apresenta congestão pulmonar e cianose. Por que: II) As circulações pulmonar e sistêmica funcionam como circulação paralela. Assinale a afirmativa CORRETA:",
       "alternatives": [
-        {"key": "a", "text": "a asserção I é falsa, mas a asserção II é verdadeira"},
-        {"key": "b", "text": "a asserção I é verdadeira, mas a asserção II é falsa"},
-        {"key": "c", "text": "as asserções I e II são verdadeiras e II justifica I"},
-        {"key": "d", "text": "ambas as asserções são falsas"}
+        {
+          "key": "a",
+          "text": "a asserção I é falsa, mas a asserção II é verdadeira"
+        },
+        {
+          "key": "b",
+          "text": "a asserção I é verdadeira, mas a asserção II é falsa"
+        },
+        {
+          "key": "c",
+          "text": "as asserções I e II são verdadeiras e II justifica I"
+        },
+        {
+          "key": "d",
+          "text": "ambas as asserções são falsas"
+        }
       ],
       "correct_key": "a",
       "explanation": "A asserção II é verdadeira (é a definição fisiopatológica correta da TGA — circulações paralelas). A asserção I é falsa porque a TGA (sem lesões associadas relevantes) tem como manifestação predominante a CIANOSE isolada e profunda, não a congestão pulmonar como característica primária — essa surgiria apenas se houvesse defeito associado (grande CIV/PCA).",
@@ -391,10 +694,22 @@
       "id": "cc_023",
       "statement": "O tratamento inicial para uma criança diagnosticada com tetralogia de Fallot é feito com",
       "alternatives": [
-        {"key": "a", "text": "diurético."},
-        {"key": "b", "text": "adrenalina."},
-        {"key": "c", "text": "milrinone."},
-        {"key": "d", "text": "prostaglandina."}
+        {
+          "key": "a",
+          "text": "diurético."
+        },
+        {
+          "key": "b",
+          "text": "adrenalina."
+        },
+        {
+          "key": "c",
+          "text": "milrinone."
+        },
+        {
+          "key": "d",
+          "text": "prostaglandina."
+        }
       ],
       "correct_key": "d",
       "explanation": "Em recém-nascidos com Tetralogia de Fallot dependentes de fluxo pulmonar via canal arterial, o tratamento inicial é a manutenção da patência ductal com prostaglandina E1 até a definição da conduta cirúrgica.",
@@ -408,11 +723,26 @@
       "id": "cc_024",
       "statement": "As cardiopatias congênitas são classificadas de acordo com a presença ou não de cianose, sendo importante aspecto semiológico na avaliação da criança. Selecione a opção correta que constitui um exemplo de cardiopatia congênita acianótica:",
       "alternatives": [
-        {"key": "a", "text": "Tetralogia de Fallot"},
-        {"key": "b", "text": "Persistência do Canal Arterial"},
-        {"key": "c", "text": "Síndrome do coração esquerdo hipoplástico"},
-        {"key": "d", "text": "Atresia Pulmonar"},
-        {"key": "e", "text": "Estenose pulmonar crítica"}
+        {
+          "key": "a",
+          "text": "Tetralogia de Fallot"
+        },
+        {
+          "key": "b",
+          "text": "Persistência do Canal Arterial"
+        },
+        {
+          "key": "c",
+          "text": "Síndrome do coração esquerdo hipoplástico"
+        },
+        {
+          "key": "d",
+          "text": "Atresia Pulmonar"
+        },
+        {
+          "key": "e",
+          "text": "Estenose pulmonar crítica"
+        }
       ],
       "correct_key": "b",
       "explanation": "A persistência do canal arterial (PCA), com shunt esquerda-direita, é uma cardiopatia congênita classicamente ACIANÓTICA, ao contrário das demais opções listadas (todas cianóticas).",
@@ -426,10 +756,22 @@
       "id": "cc_025",
       "statement": "Menino, 2 anos, portador de Tetralogia de Fallot, chega a emergência com relato de cianose generalizada persistente após crise de choro intensa iniciados há 20 minutos. TAX: 36,3°C; FC: 150 bpm, PA: 87x50 mmHg; SatO2 65%; FR 35 irpm. Qual medida farmacológica deve ser adotada na admissão deste paciente?",
       "alternatives": [
-        {"key": "a", "text": "Morfina"},
-        {"key": "b", "text": "Prostaglandina"},
-        {"key": "c", "text": "Dobutamina"},
-        {"key": "d", "text": "Milrinona"}
+        {
+          "key": "a",
+          "text": "Morfina"
+        },
+        {
+          "key": "b",
+          "text": "Prostaglandina"
+        },
+        {
+          "key": "c",
+          "text": "Dobutamina"
+        },
+        {
+          "key": "d",
+          "text": "Milrinona"
+        }
       ],
       "correct_key": "a",
       "explanation": "Na crise hipoxêmica da Tetralogia de Fallot, a morfina é uma medida farmacológica de primeira linha, promovendo sedação e reduzindo o drive respiratório/hiperpneia que perpetua o ciclo de hipóxia.",
@@ -443,10 +785,22 @@
       "id": "cc_026",
       "statement": "Recém-nascido a termo, masculino, pesando 3.700g, nascido de parto vaginal sem complicações. Alimentou-se bem no peito, urinou e eliminou mecônio nas primeiras 12 horas de vida. Com 15 horas de vida, ele passou a recusar a alimentação e parece cianótico. Neste momento, sua frequência respiratória era de 65 irpm, a saturação de oxigênio à oximetria de pulso era de 80% e o tempo de enchimento capilar de 3 segundos. À ausculta cardíaca, não apresentava sopro cardíaco audível, mas notava-se uma segunda bulha, que é a única e hiperfonética. Com relação ao caso clínico, assinale a alternativa INCORRETA.",
       "alternatives": [
-        {"key": "a", "text": "A cardiopatia congênita cianogênica é caracterizada pela diminuição do fluxo sanguíneo pulmonar (shunt direito-esquerdo)."},
-        {"key": "b", "text": "O achado radiológico característico da transposição de grandes artérias é o \"boneco de neve\", uma sombra supracardíaca causada pela circulação pulmonar alterada."},
-        {"key": "c", "text": "A prostaglandina E1 é utilizada nos lactentes portadores de cardiopatias congênitas cianóticas para manter a patência do canal arterial até que a correção cirúrgica (paliativa ou definitiva) possa ser realizada."},
-        {"key": "d", "text": "Os defeitos cardíacos da tetralogia de Fallot são: Comunicação intraventricular (CIV), estenose pulmonar, cavalgamento aórtico e hipertrofia do ventrículo direito."}
+        {
+          "key": "a",
+          "text": "A cardiopatia congênita cianogênica é caracterizada pela diminuição do fluxo sanguíneo pulmonar (shunt direito-esquerdo)."
+        },
+        {
+          "key": "b",
+          "text": "O achado radiológico característico da transposição de grandes artérias é o \"boneco de neve\", uma sombra supracardíaca causada pela circulação pulmonar alterada."
+        },
+        {
+          "key": "c",
+          "text": "A prostaglandina E1 é utilizada nos lactentes portadores de cardiopatias congênitas cianóticas para manter a patência do canal arterial até que a correção cirúrgica (paliativa ou definitiva) possa ser realizada."
+        },
+        {
+          "key": "d",
+          "text": "Os defeitos cardíacos da tetralogia de Fallot são: Comunicação intraventricular (CIV), estenose pulmonar, cavalgamento aórtico e hipertrofia do ventrículo direito."
+        }
       ],
       "correct_key": "b",
       "explanation": "É a alternativa INCORRETA: o achado radiológico \"boneco de neve\" (silhueta cardíaca em ampulheta com sombra supracardíaca) é classicamente associado à DRENAGEM ANÔMALA TOTAL DE VEIAS PULMONARES (não à TGA, que tipicamente apresenta silhueta \"em ovo\"/\"egg on a string\").",
@@ -460,10 +814,22 @@
       "id": "cc_027",
       "statement": "Sinal de Roesler é a corrosão das margens inferiores das costelas, resultado das artérias intercostais dilatadas e hiperpulsáteis. Este sinal é caracteristicamente encontrado desde a 3ª até a 7ª costela, bilateralmente. De qual cardiopatia congênita este sinal é característico?",
       "alternatives": [
-        {"key": "a", "text": "CIA."},
-        {"key": "b", "text": "PCA."},
-        {"key": "c", "text": "Tetralogia de Fallot."},
-        {"key": "d", "text": "Coarctação da aorta."}
+        {
+          "key": "a",
+          "text": "CIA."
+        },
+        {
+          "key": "b",
+          "text": "PCA."
+        },
+        {
+          "key": "c",
+          "text": "Tetralogia de Fallot."
+        },
+        {
+          "key": "d",
+          "text": "Coarctação da aorta."
+        }
       ],
       "correct_key": "d",
       "explanation": "O sinal de Roesler (erosão das margens costais inferiores por artérias intercostais colaterais dilatadas) é um achado radiológico clássico da coarctação da aorta em pacientes mais velhos, refletindo a circulação colateral compensatória.",
@@ -477,11 +843,26 @@
       "id": "cc_028",
       "statement": "A Estenose Aórtica (EAo) ocorre em 25% dos pacientes com doença cardíaca valvar crônica. Sobre as cardiopatias congênitas, analise as assertivas: I. A EAo em adultos é causada por calcificação degenerativa das cúspides aórticas e ocorre, na maioria das vezes, como consequência de doença congênita, deterioração crônica das cúspides ou inflamação reumática prévia. II. A Valva Aórtica Bicúspide (VAB) é a malformação congênita cardíaca mais comum e ocorre em 0,5 a 1,4% da população, com predomínio para o sexo masculino. III. Os pacientes com VAB podem apresentar aortopatia, que se desenvolve independentemente da gravidade hemodinâmica da lesão valvar, e pode incluir a formação de aneurisma ou dissecção da aorta. IV. Nos últimos anos tem sido incrementado o uso da Valvoplastia Aórtica Percutânea por Balão para pacientes idosos graves com EAo degenerativa. Escolha as assertivas corretas.",
       "alternatives": [
-        {"key": "a", "text": "I e II apenas."},
-        {"key": "b", "text": "I e IV apenas."},
-        {"key": "c", "text": "II e III apenas."},
-        {"key": "d", "text": "I, II e III apenas."},
-        {"key": "e", "text": "IV apenas."}
+        {
+          "key": "a",
+          "text": "I e II apenas."
+        },
+        {
+          "key": "b",
+          "text": "I e IV apenas."
+        },
+        {
+          "key": "c",
+          "text": "II e III apenas."
+        },
+        {
+          "key": "d",
+          "text": "I, II e III apenas."
+        },
+        {
+          "key": "e",
+          "text": "IV apenas."
+        }
       ],
       "correct_key": "d",
       "explanation": "I, II e III corretas. IV está errada: a valvoplastia aórtica por balão isolada tem sido cada vez menos usada como tratamento definitivo em idosos graves (alta taxa de reestenose), sendo hoje amplamente superada pelo TAVI como abordagem preferencial nesse perfil de pacientes.",
@@ -495,10 +876,22 @@
       "id": "cc_029",
       "statement": "Lactente, 3 meses, é levado a emergência com história de cianose. Mãe refere que percebe o bebê \"roxo\" desde o nascimento, porém com piora nas últimas semanas, apresentando também cansaço e palidez durante o choro. Ao exame: cianose central, SatO²: 80%, FC: 140bpm, FR: 45irpm. Sopro sistólico discreto. Pulsos palpáveis e simétricos. ECG: sobrecarga ventricular esquerda. Radiografia torácica: hipofluxo pulmonar. Diante do quadro clínico e exames complementares apresentados, qual a cardiopatia congênita mais provável?",
       "alternatives": [
-        {"key": "a", "text": "Tetralogia de Fallot."},
-        {"key": "b", "text": "Hipoplasia do coração esquerdo."},
-        {"key": "c", "text": "Transposição das grandes artérias."},
-        {"key": "d", "text": "Atresia pulmonar com septo interventricular íntegro."}
+        {
+          "key": "a",
+          "text": "Tetralogia de Fallot."
+        },
+        {
+          "key": "b",
+          "text": "Hipoplasia do coração esquerdo."
+        },
+        {
+          "key": "c",
+          "text": "Transposição das grandes artérias."
+        },
+        {
+          "key": "d",
+          "text": "Atresia pulmonar com septo interventricular íntegro."
+        }
       ],
       "correct_key": "d",
       "explanation": "Cianose desde o nascimento com hipofluxo pulmonar e sobrecarga ventricular ESQUERDA (não direita, como seria esperado na TOF) sugere atresia pulmonar com septo interventricular íntegro, onde o VD é hipoplásico/subutilizado e o VE sustenta a circulação sistêmica principal.",
@@ -512,10 +905,22 @@
       "id": "cc_030",
       "statement": "Paciente, 10 anos, durante consulta de rotina observou-se hiperfonese de B1 e desdobramento fixo de B2. Sopro sistólico +/6 em borda esternal esquerda. Pressão arterial e pulsos normais. É uma criança saudável e joga futebol. Diante do relato, qual lesão cardíaca é a mais provável?",
       "alternatives": [
-        {"key": "a", "text": "Comunicação interatrial."},
-        {"key": "b", "text": "Estenose de valva pulmonar."},
-        {"key": "c", "text": "Persistência do canal arterial."},
-        {"key": "d", "text": "Comunicação interventricular."}
+        {
+          "key": "a",
+          "text": "Comunicação interatrial."
+        },
+        {
+          "key": "b",
+          "text": "Estenose de valva pulmonar."
+        },
+        {
+          "key": "c",
+          "text": "Persistência do canal arterial."
+        },
+        {
+          "key": "d",
+          "text": "Comunicação interventricular."
+        }
       ],
       "correct_key": "a",
       "explanation": "Desdobramento FIXO da segunda bulha, associado a sopro sistólico leve por fluxo pulmonar aumentado, é o achado auscultatório patognomônico de comunicação interatrial.",
@@ -529,11 +934,26 @@
       "id": "cc_031",
       "statement": "Recém-nascido a termo, Apgar 9 e 10, está com 28 horas de vida, sugando bem seio materno, estável e com extremidades bem aquecidas. No teste de oximetria é observada uma diferença de mais de 10% na saturação da hemoglobina no membro superior direito em relação ao membro inferior direito. Diante desse achado, é possível concluir que há:",
       "alternatives": [
-        {"key": "a", "text": "Anomalia congênita dos vasos linfáticos."},
-        {"key": "b", "text": "Retorno venoso anômalo das veias pulmonares."},
-        {"key": "c", "text": "Shunt direito esquerdo pelo forame oval."},
-        {"key": "d", "text": "Shunt direito esquerdo pelo canal arterial."},
-        {"key": "e", "text": "Taquipneia transitória do recém-nascido."}
+        {
+          "key": "a",
+          "text": "Anomalia congênita dos vasos linfáticos."
+        },
+        {
+          "key": "b",
+          "text": "Retorno venoso anômalo das veias pulmonares."
+        },
+        {
+          "key": "c",
+          "text": "Shunt direito esquerdo pelo forame oval."
+        },
+        {
+          "key": "d",
+          "text": "Shunt direito esquerdo pelo canal arterial."
+        },
+        {
+          "key": "e",
+          "text": "Taquipneia transitória do recém-nascido."
+        }
       ],
       "correct_key": "d",
       "explanation": "A diferença significativa (>3%, aqui >10%) entre a saturação pré-ductal (membro superior direito) e pós-ductal (membro inferior) no teste do coraçãozinho indica shunt direito-esquerdo através do canal arterial, sugerindo cardiopatia congênita crítica canal-dependente.",
@@ -547,10 +967,22 @@
       "id": "cc_032",
       "statement": "Dentre as cardiopatias abaixo, qual NÃO apresenta hiperfluxo pulmonar?",
       "alternatives": [
-        {"key": "a", "text": "Tetralogia de Fallot."},
-        {"key": "b", "text": "Transposição das grandes artérias"},
-        {"key": "c", "text": "Comunicação interventricular."},
-        {"key": "d", "text": "Persistência do canal arterial."}
+        {
+          "key": "a",
+          "text": "Tetralogia de Fallot."
+        },
+        {
+          "key": "b",
+          "text": "Transposição das grandes artérias"
+        },
+        {
+          "key": "c",
+          "text": "Comunicação interventricular."
+        },
+        {
+          "key": "d",
+          "text": "Persistência do canal arterial."
+        }
       ],
       "correct_key": "a",
       "explanation": "A Tetralogia de Fallot cursa classicamente com HIPOfluxo pulmonar (pela obstrução na via de saída do VD), ao contrário das demais opções, que cursam com hiperfluxo pulmonar (shunt esquerda-direita aumentado).",
@@ -564,10 +996,22 @@
       "id": "cc_033",
       "statement": "Os pacientes com tetralogia de Fallot apresentam anormalidades anatômicas que são características, como, EXCETO:",
       "alternatives": [
-        {"key": "a", "text": "Hipetrofia do átrio e ventrículos esquerdos."},
-        {"key": "b", "text": "Dextroposição da aorta que cavalga o septo em até 50%."},
-        {"key": "c", "text": "Defeito do septo interventricular."},
-        {"key": "d", "text": "Estenose infundibular."}
+        {
+          "key": "a",
+          "text": "Hipetrofia do átrio e ventrículos esquerdos."
+        },
+        {
+          "key": "b",
+          "text": "Dextroposição da aorta que cavalga o septo em até 50%."
+        },
+        {
+          "key": "c",
+          "text": "Defeito do septo interventricular."
+        },
+        {
+          "key": "d",
+          "text": "Estenose infundibular."
+        }
       ],
       "correct_key": "a",
       "explanation": "É a exceção: na Tetralogia de Fallot a hipertrofia acomete o ventrículo DIREITO (não os átrios/ventrículos esquerdos), sendo este um dos quatro componentes clássicos da malformação.",
@@ -581,11 +1025,26 @@
       "id": "cc_034",
       "statement": "Recém-nascido com 18 dias de vida vem em consulta para reavaliação, pois a mãe refere cansaço durante as mamadas, sudorese e dificuldade em ganhar peso. Ao exame físico, constata-se: palidez cutaneomucosa, alerta, irritado, hidratado, dispneia leve. AC: hiperfonese da 2ª bulha nas áreas aórtica e mitral; estalido proto-sistólico aórtico, principalmente na área mitral; sopro na região do dorso esquerdo. Abd: fígado 3-4 cm RCD. Pulsos: amplos em membros superiores e diminuição da amplitude dos pulsos arteriais nos membros inferiores. PA membro superiores: 130x80 mmhg; PA membros inferiores: 73x40 mmhg. Ante o exposto, o diagnóstico mais provável de acordo com a propedêutica encontrada é:",
       "alternatives": [
-        {"key": "a", "text": "Tetralogia de Fallot"},
-        {"key": "b", "text": "Comunicação interatrial"},
-        {"key": "c", "text": "Comunicação interventricular"},
-        {"key": "d", "text": "Coarctação da aorta"},
-        {"key": "e", "text": "Transposição das grandes artérias"}
+        {
+          "key": "a",
+          "text": "Tetralogia de Fallot"
+        },
+        {
+          "key": "b",
+          "text": "Comunicação interatrial"
+        },
+        {
+          "key": "c",
+          "text": "Comunicação interventricular"
+        },
+        {
+          "key": "d",
+          "text": "Coarctação da aorta"
+        },
+        {
+          "key": "e",
+          "text": "Transposição das grandes artérias"
+        }
       ],
       "correct_key": "d",
       "explanation": "Diferença significativa entre pressão arterial de membros superiores (elevada) e inferiores (baixa), com pulsos amplos em MMSS e diminuídos em MMII, é o quadro clássico de coarctação da aorta, evoluindo com insuficiência cardíaca no lactente.",
@@ -599,10 +1058,22 @@
       "id": "cc_035",
       "statement": "Paciente com 38 semanas de gestação, sem acompanhamento pré-natal, foi trazida à Emergência Obstétrica por sinais de trabalho de parto em evolução. A cardiotocografia revelou frequência cardíaca de 60 bpm, sem outras manifestações. A ultrassonografia obstétrica à beira do leito mostrou um bebê bem desenvolvido, sem sinais de alarme. Devido à bradicardia, foi indicada interrupção do parto, sendo o recém-nascido atendido na Sala de Parto. À exceção da frequência cardíaca baixa, o exame clínico foi normal, com escore de Apgar 9/9. O eletrocardiograma demonstrou bloqueio atrioventricular total. Sobre esse bloqueio de apresentação fetal e neonatal, assinale a assertiva correta.",
       "alternatives": [
-        {"key": "a", "text": "Bradicardia fetal persistente não justifica a investigação de bloqueio atrioventricular ao nascimento."},
-        {"key": "b", "text": "É pouco frequente que a primeira manifestação de lúpus, artrite reumatoide, síndrome de Sjögren ou esclerose múltipla na gestação esteja relacionada ao diagnóstico de um bloqueio atrioventricular ainda durante a vida fetal."},
-        {"key": "c", "text": "Hidropsia fetal é incomum nas formas graves, não sendo um marcador de mau prognóstico."},
-        {"key": "d", "text": "Pode ocorrer sem lesões cardíacas estruturais associadas, sendo usualmente secundário à presença de colagenose materna, com ou sem expressão clínica."}
+        {
+          "key": "a",
+          "text": "Bradicardia fetal persistente não justifica a investigação de bloqueio atrioventricular ao nascimento."
+        },
+        {
+          "key": "b",
+          "text": "É pouco frequente que a primeira manifestação de lúpus, artrite reumatoide, síndrome de Sjögren ou esclerose múltipla na gestação esteja relacionada ao diagnóstico de um bloqueio atrioventricular ainda durante a vida fetal."
+        },
+        {
+          "key": "c",
+          "text": "Hidropsia fetal é incomum nas formas graves, não sendo um marcador de mau prognóstico."
+        },
+        {
+          "key": "d",
+          "text": "Pode ocorrer sem lesões cardíacas estruturais associadas, sendo usualmente secundário à presença de colagenose materna, com ou sem expressão clínica."
+        }
       ],
       "correct_key": "d",
       "explanation": "Correto: o bloqueio atrioventricular total congênito isolado (sem cardiopatia estrutural) é classicamente associado à passagem transplacentária de autoanticorpos maternos anti-Ro/SSA e anti-La/SSB (colagenoses como lúpus/Sjögren), podendo a mãe ser assintomática no momento do diagnóstico fetal.",
@@ -616,10 +1087,22 @@
       "id": "cc_036",
       "statement": "Assinale a alternativa que não apresenta fatores desencadeantes de crise hipoxêmica na Tetralogia de Fallot:",
       "alternatives": [
-        {"key": "a", "text": "Choro, alimentação, evacuação."},
-        {"key": "b", "text": "Dor, ansiedade."},
-        {"key": "c", "text": "Hipoxia, hipercapnia."},
-        {"key": "d", "text": "Repouso prolongado, vasoconstricção."}
+        {
+          "key": "a",
+          "text": "Choro, alimentação, evacuação."
+        },
+        {
+          "key": "b",
+          "text": "Dor, ansiedade."
+        },
+        {
+          "key": "c",
+          "text": "Hipoxia, hipercapnia."
+        },
+        {
+          "key": "d",
+          "text": "Repouso prolongado, vasoconstricção."
+        }
       ],
       "correct_key": "d",
       "explanation": "É a exceção: repouso prolongado e vasoconstrição NÃO são fatores desencadeantes clássicos de crise hipoxêmica — pelo contrário, situações que reduzem a resistência vascular sistêmica (vasodilatação) tendem a piorar o shunt D-E, enquanto os verdadeiros gatilhos são choro/agitação, alimentação, evacuação, dor e acidose/hipóxia/hipercapnia.",
@@ -633,11 +1116,26 @@
       "id": "cc_037",
       "statement": "Um recém-nascido com 38 semanas de idade gestacional e peso de nascimento de 3.020 g foi levado ao hospital. Com 28 horas de vida, iniciou quadro de cianose central. Ao exame, apresentou-se ativo e reativo, cianótico e anictérico. A avaliação clínica mostrou murmúrio vesicular presente bilateralmente, frequência respiratória de 58 ipm, sat. de O² aferida em membro superior esquerdo de 50%, bulhas rítmicas normofonéticas em dois tempos, com sopro sistólico em borda esternal esquerda média-alta, e frequência cardíaca de 170 bpm. Foi realizada glicemia capilar de 60 mg/dl. O paciente foi rapidamente levado à UTI neonatal. Foram iniciados monitoramento de oximetria de pulso, monitorização cardíaca e monitoramento com espectroscopia de infravermelho próxima (NIRS). Foi realizado também cateterismo umbilical e intubação orotraqueal, porém sem melhora do quadro clínico. A conduta terapêutica medicamentosa apropriada para o caso relatado no texto é",
       "alternatives": [
-        {"key": "a", "text": "Indometacina."},
-        {"key": "b", "text": "Furosemida."},
-        {"key": "c", "text": "Dobutamina."},
-        {"key": "d", "text": "Óxido nítrico."},
-        {"key": "e", "text": "Prostaglandina E1."}
+        {
+          "key": "a",
+          "text": "Indometacina."
+        },
+        {
+          "key": "b",
+          "text": "Furosemida."
+        },
+        {
+          "key": "c",
+          "text": "Dobutamina."
+        },
+        {
+          "key": "d",
+          "text": "Óxido nítrico."
+        },
+        {
+          "key": "e",
+          "text": "Prostaglandina E1."
+        }
       ],
       "correct_key": "e",
       "explanation": "Cianose central grave (SatO2 50%) refratária ao suporte ventilatório, iniciada nas primeiras horas de vida, é altamente sugestiva de cardiopatia congênita cianótica ductal-dependente (ex.: TGA), exigindo prostaglandina E1 para manter a patência do canal arterial.",
@@ -651,10 +1149,22 @@
       "id": "cc_038",
       "statement": "Logo após o nascimento, recém-nascido a termo apresenta quadro de cianose central mantida, FC = 90bpm e SatO² = 70%. Por isso, foi realizada intubação orotraqueal e ele foi levado à UTI neonatal, sendo acoplado à ventilação mecânica invasiva, mantendo SatO² = 70%, FC = 120bpm e ausculta cardíaca normal. O raio X de tórax evidenciou infiltrado peri-hilar proeminente com sombra supracardíaca aumentada (padrão em boneco de neve). Entre as cardiopatias congênitas, o diagnóstico mais provável para esse caso é:",
       "alternatives": [
-        {"key": "a", "text": "drenagem anômala total de veias pulmonares"},
-        {"key": "b", "text": "persistência do canal arterial"},
-        {"key": "c", "text": "anomalia de Taussig-Bing"},
-        {"key": "d", "text": "anomalia de Ebstein"}
+        {
+          "key": "a",
+          "text": "drenagem anômala total de veias pulmonares"
+        },
+        {
+          "key": "b",
+          "text": "persistência do canal arterial"
+        },
+        {
+          "key": "c",
+          "text": "anomalia de Taussig-Bing"
+        },
+        {
+          "key": "d",
+          "text": "anomalia de Ebstein"
+        }
       ],
       "correct_key": "a",
       "explanation": "O padrão radiológico \"em boneco de neve\" (sombra supracardíaca aumentada por confluência venosa anômala) é achado patognomônico da drenagem anômala total de veias pulmonares.",
@@ -668,10 +1178,22 @@
       "id": "cc_039",
       "statement": "Todos os itens abaixo fazem parte da história natural das CIVs, exceto.",
       "alternatives": [
-        {"key": "a", "text": "Aneurisma de aorta ascendente."},
-        {"key": "b", "text": "Endocardite infecciosa."},
-        {"key": "c", "text": "Regurgitação aórtica."},
-        {"key": "d", "text": "Cianose."}
+        {
+          "key": "a",
+          "text": "Aneurisma de aorta ascendente."
+        },
+        {
+          "key": "b",
+          "text": "Endocardite infecciosa."
+        },
+        {
+          "key": "c",
+          "text": "Regurgitação aórtica."
+        },
+        {
+          "key": "d",
+          "text": "Cianose."
+        }
       ],
       "correct_key": "a",
       "explanation": "Endocardite infecciosa, regurgitação aórtica (por prolapso de cúspide em CIV perimembranosa) e cianose (tardia, por Eisenmenger em grandes CIVs não corrigidas) são complicações clássicas da história natural da CIV. O aneurisma de aorta ascendente não é uma associação clássica desta cardiopatia.",
@@ -685,10 +1207,22 @@
       "id": "cc_040",
       "statement": "Lactente, 2 meses, com baixo ganho ponderal e cansaço às mamadas desde o nascimento. Exame físico: taquipneico, sem cianose, sopro holossistólico, hiperfonese de segunda bulha na área pulmonar. A hipótese diagnostica mais provável é:",
       "alternatives": [
-        {"key": "a", "text": "Transposição de grandes artérias."},
-        {"key": "b", "text": "Estenose aórtica valvar."},
-        {"key": "c", "text": "Coartação da aorta."},
-        {"key": "d", "text": "Comunicação interventricular."}
+        {
+          "key": "a",
+          "text": "Transposição de grandes artérias."
+        },
+        {
+          "key": "b",
+          "text": "Estenose aórtica valvar."
+        },
+        {
+          "key": "c",
+          "text": "Coartação da aorta."
+        },
+        {
+          "key": "d",
+          "text": "Comunicação interventricular."
+        }
       ],
       "correct_key": "d",
       "explanation": "Sopro holossistólico, hiperfonese de P2 (hipertensão pulmonar por hiperfluxo) e sinais de insuficiência cardíaca (baixo ganho ponderal, cansaço às mamadas), sem cianose, é o quadro clássico de comunicação interventricular significativa.",
@@ -702,10 +1236,22 @@
       "id": "cc_041",
       "statement": "Assinale a alternativa que contém apenas cardiopatia congênitas cianogênicas.",
       "alternatives": [
-        {"key": "a", "text": "Tetralogia de Fallot, comunicação interatrial, persistência do canal arterial;"},
-        {"key": "b", "text": "Comunicação interventricular, transposição das grandes artérias, defeito do septo atrioventricular;"},
-        {"key": "c", "text": "Atresia pulmonar, transposição das grandes artérias, tetralogia de Fallot;"},
-        {"key": "d", "text": "Coartação da aorta, comunicação interatrial, persistência do canal arterial."}
+        {
+          "key": "a",
+          "text": "Tetralogia de Fallot, comunicação interatrial, persistência do canal arterial;"
+        },
+        {
+          "key": "b",
+          "text": "Comunicação interventricular, transposição das grandes artérias, defeito do septo atrioventricular;"
+        },
+        {
+          "key": "c",
+          "text": "Atresia pulmonar, transposição das grandes artérias, tetralogia de Fallot;"
+        },
+        {
+          "key": "d",
+          "text": "Coartação da aorta, comunicação interatrial, persistência do canal arterial."
+        }
       ],
       "correct_key": "c",
       "explanation": "Atresia pulmonar, transposição das grandes artérias e Tetralogia de Fallot são todas cardiopatias congênitas CIANOGÊNICAS (com shunt direito-esquerdo), ao contrário das demais alternativas, que misturam lesões acianóticas.",
@@ -719,11 +1265,26 @@
       "id": "cc_042",
       "statement": "Nasce uma criança com cardiopatia congênita cianótica complexa e grave hipofluxo pulmonar e a equipe de cardiologistas indica uma cirurgia paliativa para, depois, estudar uma abordagem mais definitiva para o caso. Essa cirurgia clássica de Blalock-Taussig",
       "alternatives": [
-        {"key": "a", "text": "faz a anastomose da artéria subclávia e artéria pulmonar."},
-        {"key": "b", "text": "amplia o forame oval."},
-        {"key": "c", "text": "corrige o defeito interventricular."},
-        {"key": "d", "text": "faz o shunt do tronco da artéria pulmonar e aorta ascendente."},
-        {"key": "e", "text": "implanta um stent no canal arterial."}
+        {
+          "key": "a",
+          "text": "faz a anastomose da artéria subclávia e artéria pulmonar."
+        },
+        {
+          "key": "b",
+          "text": "amplia o forame oval."
+        },
+        {
+          "key": "c",
+          "text": "corrige o defeito interventricular."
+        },
+        {
+          "key": "d",
+          "text": "faz o shunt do tronco da artéria pulmonar e aorta ascendente."
+        },
+        {
+          "key": "e",
+          "text": "implanta um stent no canal arterial."
+        }
       ],
       "correct_key": "a",
       "explanation": "O shunt clássico de Blalock-Taussig consiste na anastomose entre a artéria subclávia e a artéria pulmonar, aumentando o fluxo pulmonar em cardiopatias cianóticas com hipofluxo grave, como medida paliativa.",
@@ -737,10 +1298,22 @@
       "id": "cc_043",
       "statement": "Quais dos achados semiológicos abaixo podem indicar que o paciente seja portador de Sopro inocente?",
       "alternatives": [
-        {"key": "a", "text": "Desdobramento variável de segunda bulha e sopro sistólico vibratório de Still"},
-        {"key": "b", "text": "Sopro sistólico +/4+ em axilas e estalido proto-sistólico"},
-        {"key": "c", "text": "Desdobramento fixo de segunda bulha e sopro sistólico +/4+ em axilas"},
-        {"key": "d", "text": "Desdobramento de primeira bulha e sopro sistólico vibratório de Still"}
+        {
+          "key": "a",
+          "text": "Desdobramento variável de segunda bulha e sopro sistólico vibratório de Still"
+        },
+        {
+          "key": "b",
+          "text": "Sopro sistólico +/4+ em axilas e estalido proto-sistólico"
+        },
+        {
+          "key": "c",
+          "text": "Desdobramento fixo de segunda bulha e sopro sistólico +/4+ em axilas"
+        },
+        {
+          "key": "d",
+          "text": "Desdobramento de primeira bulha e sopro sistólico vibratório de Still"
+        }
       ],
       "correct_key": "a",
       "explanation": "Desdobramento VARIÁVEL (não fixo) da segunda bulha, associado ao sopro sistólico vibratório de Still, é combinação característica de sopro inocente — ao contrário do desdobramento FIXO (marcador de CIA/patologia estrutural).",
@@ -754,10 +1327,22 @@
       "id": "cc_044",
       "statement": "Recém-nascido pré-termo (RNPT) apresenta sopro cardíaco, pulsos amplos com evolução do quadro para insuficiência cardíaca congestiva (ICC). O RX de tórax demonstra aumento de área cardíaca e edema pulmonar. O quadro cardiovascular descrito relaciona-se a:",
       "alternatives": [
-        {"key": "a", "text": "Persistência do Canal Arterial (PCA)."},
-        {"key": "b", "text": "Persistência do Canal Venoso (PCV)."},
-        {"key": "c", "text": "Forame Oval Patente."},
-        {"key": "d", "text": "Comunicação Inter Atrial (CIA)."}
+        {
+          "key": "a",
+          "text": "Persistência do Canal Arterial (PCA)."
+        },
+        {
+          "key": "b",
+          "text": "Persistência do Canal Venoso (PCV)."
+        },
+        {
+          "key": "c",
+          "text": "Forame Oval Patente."
+        },
+        {
+          "key": "d",
+          "text": "Comunicação Inter Atrial (CIA)."
+        }
       ],
       "correct_key": "a",
       "explanation": "Prematuridade + sopro cardíaco + pulsos amplos/latejantes evoluindo com insuficiência cardíaca congestiva é o quadro clássico de persistência do canal arterial hemodinamicamente significativa.",
@@ -771,11 +1356,26 @@
       "id": "cc_045",
       "statement": "As cardiopatias congênitas são condições presentes ao nascimento, e dividem-se em cardiopatias acianogênicas e cardiopatias cianogênicas. Acerca da comunicação interatrial (CIA), assinale a alternativa INCORRETA:",
       "alternatives": [
-        {"key": "a", "text": "Arritmias atriais são mais frequentes nas crianças com dilatação atrial."},
-        {"key": "b", "text": "O eletrocardiograma mostra retardo da condução ventricular direita (bloqueio incompleto do ramo direito) na maioria dos pacientes com CIA."},
-        {"key": "c", "text": "A CIA do tipo seio venoso quase sempre é acompanhada de drenagem anômala de veias pulmonares."},
-        {"key": "d", "text": "A maioria das crianças e adultos jovens com CIA não corrigida apresentam baixa tolerância ao esforço e cansaço fácil."},
-        {"key": "e", "text": "O paciente com CIA tipo ostium primum pode ter um sopro sistólico de ejeção no foco pulmonar."}
+        {
+          "key": "a",
+          "text": "Arritmias atriais são mais frequentes nas crianças com dilatação atrial."
+        },
+        {
+          "key": "b",
+          "text": "O eletrocardiograma mostra retardo da condução ventricular direita (bloqueio incompleto do ramo direito) na maioria dos pacientes com CIA."
+        },
+        {
+          "key": "c",
+          "text": "A CIA do tipo seio venoso quase sempre é acompanhada de drenagem anômala de veias pulmonares."
+        },
+        {
+          "key": "d",
+          "text": "A maioria das crianças e adultos jovens com CIA não corrigida apresentam baixa tolerância ao esforço e cansaço fácil."
+        },
+        {
+          "key": "e",
+          "text": "O paciente com CIA tipo ostium primum pode ter um sopro sistólico de ejeção no foco pulmonar."
+        }
       ],
       "correct_key": "d",
       "explanation": "É a alternativa INCORRETA: a maioria das crianças e adultos jovens com CIA não corrigida é classicamente ASSINTOMÁTICA por muitos anos (boa tolerância ao esforço), com sintomas surgindo tardiamente (geralmente na 4ª-5ª década), quando ocorre sobrecarga de volume crônica das câmaras direitas.",
@@ -789,10 +1389,22 @@
       "id": "cc_046",
       "statement": "Paciente de 6 meses de idade, sexo masculino, vem à consulta de puericultura sem queixas no momento. Durante o exame físico você percebe sopro cardíaco sistólico de 2+/6 em bordo esternal esquerdo alto, sem irradiações e desdobramento fixo de B2. Ganho de peso limítrofe e restante do exame físico sem alterações. Qual a hipótese diagnóstica mais adequada a este caso?",
       "alternatives": [
-        {"key": "a", "text": "Persistência do canal arterial."},
-        {"key": "b", "text": "Sopro inocente."},
-        {"key": "c", "text": "Comunicação interventricular."},
-        {"key": "d", "text": "Comunicação interatrial."}
+        {
+          "key": "a",
+          "text": "Persistência do canal arterial."
+        },
+        {
+          "key": "b",
+          "text": "Sopro inocente."
+        },
+        {
+          "key": "c",
+          "text": "Comunicação interventricular."
+        },
+        {
+          "key": "d",
+          "text": "Comunicação interatrial."
+        }
       ],
       "correct_key": "d",
       "explanation": "Desdobramento FIXO de B2 com sopro sistólico em borda esternal esquerda alta (foco pulmonar) é o achado auscultatório patognomônico de comunicação interatrial.",
@@ -806,10 +1418,22 @@
       "id": "cc_047",
       "statement": "Homem de 61 anos, diabético, hipertenso e tabagista é avaliado no Centro de Dor Torácica do HB com queixa de dor epigástrica em queimação, há 40 minutos, sem irradiação e associado a pirose retroesternal. Ao exame físico apresenta PA 140 x 90 mmHg e FC: 80 BPM. O eletrocardiograma (ECG) de admissão mostra sinais de sobrecarga ventricular esquerda. Qual das alternativas expressa a melhor conduta de acordo com a Quarta Definição Universal de Infarto.",
       "alternatives": [
-        {"key": "a", "text": "Dosagem única de troponina T ultrassensível na admissão e eletrocardiograma pré e pós-nitrato SL."},
-        {"key": "b", "text": "Dosagem única de troponina T ultrassensível na admissão e eletrocardiograma seriado de 3/3 horas."},
-        {"key": "c", "text": "Dosagem de troponina T ultrassensível na admissão e após três e seis horas, além de eletrocardiograma pré e pós-nitrato SL e seriado de 3/3 horas."},
-        {"key": "d", "text": "Dosagem de troponina ultrassensível na admissão e após uma hora, além de eletrocardiograma seriado de 3/3 horas."}
+        {
+          "key": "a",
+          "text": "Dosagem única de troponina T ultrassensível na admissão e eletrocardiograma pré e pós-nitrato SL."
+        },
+        {
+          "key": "b",
+          "text": "Dosagem única de troponina T ultrassensível na admissão e eletrocardiograma seriado de 3/3 horas."
+        },
+        {
+          "key": "c",
+          "text": "Dosagem de troponina T ultrassensível na admissão e após três e seis horas, além de eletrocardiograma pré e pós-nitrato SL e seriado de 3/3 horas."
+        },
+        {
+          "key": "d",
+          "text": "Dosagem de troponina ultrassensível na admissão e após uma hora, além de eletrocardiograma seriado de 3/3 horas."
+        }
       ],
       "correct_key": "c",
       "explanation": "Pela Quarta Definição Universal de Infarto, na ausência de protocolo validado local de 0h/1h, o protocolo padrão de investigação de dor torácica atípica com ECG inicial não diagnóstico envolve troponina seriada (admissão, 3h e 6h) associada a ECG seriado e teste de resposta ao nitrato sublingual (auxilia no diagnóstico diferencial de dor de origem coronariana vs. não coronariana).",
@@ -823,11 +1447,26 @@
       "id": "cc_048",
       "statement": "Mulher, 45 anos, com antecedente de hipertensão arterial sistêmica e Diabetes Mellitus, procurou o serviço de emergência com história de há uma semana episódios de dor torácica esquerda com piora há uma hora da entrada. O eletrocardiograma inicial é o que se segue. Qual é a melhor conduta neste momento?",
       "alternatives": [
-        {"key": "a", "text": "O paciente deve ser enviado imediatamente para o laboratório de hemodinâmica para angioplastia primária, pois se trata de infarto agudo do miocárdio com supradesnivelamento do segmento ST."},
-        {"key": "b", "text": "O paciente pode receber alta hospitalar para investigação ambulatorial, pois se trata de mulher jovem e a probabilidade de doença coronária é baixa."},
-        {"key": "c", "text": "O paciente deve permanecer em observação no serviço de emergência, pois se trata de uma síndrome coronariana aguda sem supradesnivelamento do segmento ST."},
-        {"key": "d", "text": "Deve ser chamada a equipe de cirurgia cardíaca, pois se trata de paciente multiarterial grave."},
-        {"key": "e", "text": "Deve ser iniciado tratamento com anti-inflamatórios para analgesia."}
+        {
+          "key": "a",
+          "text": "O paciente deve ser enviado imediatamente para o laboratório de hemodinâmica para angioplastia primária, pois se trata de infarto agudo do miocárdio com supradesnivelamento do segmento ST."
+        },
+        {
+          "key": "b",
+          "text": "O paciente pode receber alta hospitalar para investigação ambulatorial, pois se trata de mulher jovem e a probabilidade de doença coronária é baixa."
+        },
+        {
+          "key": "c",
+          "text": "O paciente deve permanecer em observação no serviço de emergência, pois se trata de uma síndrome coronariana aguda sem supradesnivelamento do segmento ST."
+        },
+        {
+          "key": "d",
+          "text": "Deve ser chamada a equipe de cirurgia cardíaca, pois se trata de paciente multiarterial grave."
+        },
+        {
+          "key": "e",
+          "text": "Deve ser iniciado tratamento com anti-inflamatórios para analgesia."
+        }
       ],
       "correct_key": "a",
       "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF — resposta de confiança moderada. Considerando as comorbidades de alto risco cardiovascular (HAS, DM) e a piora aguda da dor torácica, e que o próprio enunciado da opção (a) descreve explicitamente supradesnivelamento do ST no ECG mostrado, a conduta correta é encaminhamento imediato para angioplastia primária.",
@@ -841,11 +1480,26 @@
       "id": "cc_049",
       "statement": "Dentre as cardiopatias listadas abaixo, assinale aquela que não se beneficiará do uso de prostaglandina E1.",
       "alternatives": [
-        {"key": "a", "text": "Hipoplasia coração esquerdo."},
-        {"key": "b", "text": "Estenose aórtica crítica."},
-        {"key": "c", "text": "Transposição das grandes artérias."},
-        {"key": "d", "text": "Comunicação interventricular."},
-        {"key": "e", "text": "Ventrículo único com coarctação ou interrupção do arco aórtico."}
+        {
+          "key": "a",
+          "text": "Hipoplasia coração esquerdo."
+        },
+        {
+          "key": "b",
+          "text": "Estenose aórtica crítica."
+        },
+        {
+          "key": "c",
+          "text": "Transposição das grandes artérias."
+        },
+        {
+          "key": "d",
+          "text": "Comunicação interventricular."
+        },
+        {
+          "key": "e",
+          "text": "Ventrículo único com coarctação ou interrupção do arco aórtico."
+        }
       ],
       "correct_key": "d",
       "explanation": "A comunicação interventricular isolada não é uma lesão ductal-dependente, ao contrário das demais opções listadas (todas dependem da patência do canal arterial para manutenção do fluxo sistêmico ou pulmonar), não se beneficiando, portanto, do uso de prostaglandina E1.",
@@ -859,11 +1513,26 @@
       "id": "cc_050",
       "statement": "Tetralogia de Fallot é uma cardiopatia congênita cianótica mais comum na infância. A forma clássica consiste em defeito do septo",
       "alternatives": [
-        {"key": "a", "text": "ventricular, estenose aórtica, deslocamento da aorta para a direita e hipertrofia de ventrículo esquerdo."},
-        {"key": "b", "text": "ventricular, estenose pulmonar, deslocamento da aorta para a direita e hipertrofia de ventrículo direito."},
-        {"key": "c", "text": "atrioventricular total, estenose pulmonar, deslocamento da aorta para a direita e hipertrofia de ventrículo esquerdo."},
-        {"key": "d", "text": "atrioventricular total, estenose aórtica, deslocamento da aorta para a esquerda e hipertrofia de ventrículo direito."},
-        {"key": "e", "text": "atrial, estenose pulmonar, deslocamento da aorta para a direita e hipertrofia do átrio esquerdo."}
+        {
+          "key": "a",
+          "text": "ventricular, estenose aórtica, deslocamento da aorta para a direita e hipertrofia de ventrículo esquerdo."
+        },
+        {
+          "key": "b",
+          "text": "ventricular, estenose pulmonar, deslocamento da aorta para a direita e hipertrofia de ventrículo direito."
+        },
+        {
+          "key": "c",
+          "text": "atrioventricular total, estenose pulmonar, deslocamento da aorta para a direita e hipertrofia de ventrículo esquerdo."
+        },
+        {
+          "key": "d",
+          "text": "atrioventricular total, estenose aórtica, deslocamento da aorta para a esquerda e hipertrofia de ventrículo direito."
+        },
+        {
+          "key": "e",
+          "text": "atrial, estenose pulmonar, deslocamento da aorta para a direita e hipertrofia do átrio esquerdo."
+        }
       ],
       "correct_key": "b",
       "explanation": "A forma clássica da Tetralogia de Fallot consiste em defeito do septo VENTRICULAR, estenose PULMONAR, deslocamento/cavalgamento da aorta para a direita e hipertrofia do ventrículo DIREITO.",
@@ -877,11 +1546,26 @@
       "id": "cc_051",
       "statement": "Homem de 18 anos é avaliado por sopro cardíaco observado em um exame de saúde para realização de atividades esportivas. Ele se lembra de ter ouvido falar de um sopro no passado, mas não fez nenhum teste ou intervenção. Ele é assintomático, sem problemas médicos conhecidos e não toma medicamentos. Ao exame físico: os sinais vitais são normais; a pressão venosa central estimada é normal; o impulso apical é normal e nota-se um frêmito ao longo da borda esternal esquerda; ausculta: sopro holossistólico grau 4/6 na borda esternal esquerda, obscurecendo B2 (segunda bulha); o restante do exame físico é normal. ECG e radiografia de tórax são normais. Qual é o diagnóstico mais provável?",
       "alternatives": [
-        {"key": "a", "text": "A coarctação da aorta."},
-        {"key": "b", "text": "A comunicação interatrial."},
-        {"key": "c", "text": "A insuficiência tricúspide."},
-        {"key": "d", "text": "A persistência do canal arterial."},
-        {"key": "e", "text": "O defeito do septo ventricular."}
+        {
+          "key": "a",
+          "text": "A coarctação da aorta."
+        },
+        {
+          "key": "b",
+          "text": "A comunicação interatrial."
+        },
+        {
+          "key": "c",
+          "text": "A insuficiência tricúspide."
+        },
+        {
+          "key": "d",
+          "text": "A persistência do canal arterial."
+        },
+        {
+          "key": "e",
+          "text": "O defeito do septo ventricular."
+        }
       ],
       "correct_key": "e",
       "explanation": "Sopro holossistólico intenso (4/6) com frêmito na borda esternal esquerda, obscurecendo B2, em paciente assintomático com ECG/radiografia normais, é o quadro clássico de uma CIV pequena e restritiva (Maladie de Roger).",
@@ -895,10 +1579,22 @@
       "id": "cc_052",
       "statement": "Realizado teste de oximetria em recém-nascido de termo, com 38 horas de vida, obteve-se o seguinte resultado: membro superior direito: 99% e membro inferior: 91%. A conduta que deve ser tomada nessa situação é:",
       "alternatives": [
-        {"key": "a", "text": "Dar alta, pois o teste é normal, e reavaliar o recém-nascido em uma semana."},
-        {"key": "b", "text": "Realizar ecocardiograma o mais rápido possível, para avaliar o início de medicação específica."},
-        {"key": "c", "text": "Repetir o exame em uma hora e se, permanecer alterado, indicar realização de ecocardiograma."},
-        {"key": "d", "text": "Internar em UTI Neonatal e iniciar prostaglandina, para manter o canal arterial pérvio, depois repetir o exame o mais rápido possível."}
+        {
+          "key": "a",
+          "text": "Dar alta, pois o teste é normal, e reavaliar o recém-nascido em uma semana."
+        },
+        {
+          "key": "b",
+          "text": "Realizar ecocardiograma o mais rápido possível, para avaliar o início de medicação específica."
+        },
+        {
+          "key": "c",
+          "text": "Repetir o exame em uma hora e se, permanecer alterado, indicar realização de ecocardiograma."
+        },
+        {
+          "key": "d",
+          "text": "Internar em UTI Neonatal e iniciar prostaglandina, para manter o canal arterial pérvio, depois repetir o exame o mais rápido possível."
+        }
       ],
       "correct_key": "c",
       "explanation": "Diferença de 8% entre a saturação pré-ductal (MSD 99%) e pós-ductal (MI 91%) — acima do limite de corte de 3% — configura teste alterado; a conduta padronizada é repetir o exame em 1 hora e, se persistir alterado, indicar ecocardiograma para investigação de cardiopatia congênita crítica.",
@@ -912,10 +1608,22 @@
       "id": "cc_053",
       "statement": "Um menino de cinco anos é levado pela mãe ao consultório devido ao aparecimento de veias proeminentes na sua coxa direita no último ano. O menino não tem queixas e é muito ativo. Durante a consulta, observa-se um aglomerado de varicosidades de localização atípica próximo do que sua mãe identifica como uma marca de nascença. As pernas são iguais em comprimento e circunferência e não se observam alterações da coloração, calor local, massas ou frêmitos. Nesse caso, qual o primeiro teste diagnóstico deve ser solicitado:",
       "alternatives": [
-        {"key": "a", "text": "flebografia."},
-        {"key": "b", "text": "arteriografia."},
-        {"key": "c", "text": "ecodoppler."},
-        {"key": "d", "text": "angiorressonância."}
+        {
+          "key": "a",
+          "text": "flebografia."
+        },
+        {
+          "key": "b",
+          "text": "arteriografia."
+        },
+        {
+          "key": "c",
+          "text": "ecodoppler."
+        },
+        {
+          "key": "d",
+          "text": "angiorressonância."
+        }
       ],
       "correct_key": "c",
       "explanation": "ATENÇÃO: questão sobre malformação vascular periférica (não estritamente cardíaca), mantida neste lote por composição original do banco de questões. Diante de varicosidades atípicas associadas a marca de nascença (suspeita de malformação vascular congênita, como síndrome de Klippel-Trenaunay), o exame inicial não invasivo de escolha é o ecodoppler.",
@@ -929,11 +1637,26 @@
       "id": "cc_054",
       "statement": "Quanto às repercussões pulmonares e sistêmicas da Persistência do Canal Arterial (PCA) em recém-nascidos, é CORRETO afirmar que:",
       "alternatives": [
-        {"key": "a", "text": "ocorre aumento do fluxo sanguíneo e edema pulmonar relacionados a importante fluxo direito-esquerdo pelo canal arterial."},
-        {"key": "b", "text": "há aumento da pré-carga do ventrículo esquerdo, acarretando aumento da pressão diastólica final nesse ventrículo e da pressão capilar pulmonar."},
-        {"key": "c", "text": "apesar da maior ocorrência em prematuros, a PCA não foi relacionada com um aumento do risco de displasia broncopulmonar."},
-        {"key": "d", "text": "há aumento do fluxo sistêmico, especialmente para rins e circulação mesentérica, o que se associa com maior risco de enterocolite necrosante."},
-        {"key": "e", "text": "a redução do fluxo sistêmico pode funcionar como fator protetor para hemorragia intracraniana do prematuro com PCA."}
+        {
+          "key": "a",
+          "text": "ocorre aumento do fluxo sanguíneo e edema pulmonar relacionados a importante fluxo direito-esquerdo pelo canal arterial."
+        },
+        {
+          "key": "b",
+          "text": "há aumento da pré-carga do ventrículo esquerdo, acarretando aumento da pressão diastólica final nesse ventrículo e da pressão capilar pulmonar."
+        },
+        {
+          "key": "c",
+          "text": "apesar da maior ocorrência em prematuros, a PCA não foi relacionada com um aumento do risco de displasia broncopulmonar."
+        },
+        {
+          "key": "d",
+          "text": "há aumento do fluxo sistêmico, especialmente para rins e circulação mesentérica, o que se associa com maior risco de enterocolite necrosante."
+        },
+        {
+          "key": "e",
+          "text": "a redução do fluxo sistêmico pode funcionar como fator protetor para hemorragia intracraniana do prematuro com PCA."
+        }
       ],
       "correct_key": "b",
       "explanation": "Correto: o shunt esquerda-direita da PCA aumenta o retorno venoso pulmonar para o átrio/ventrículo esquerdos, elevando a pré-carga do VE, sua pressão diastólica final e, consequentemente, a pressão capilar pulmonar (risco de edema pulmonar). As demais alternativas contêm erros: o shunt na PCA é predominantemente ESQUERDA-DIREITA (não direito-esquerdo); a PCA ESTÁ associada a maior risco de displasia broncopulmonar; o fluxo SISTÊMICO é REDUZIDO (não aumentado) pelo roubo diastólico, associando-se a maior (não menor) risco de enterocolite necrosante; e a redução do fluxo sistêmico/cerebral é fator de RISCO (não protetor) para hemorragia intracraniana.",
@@ -947,11 +1670,26 @@
       "id": "cc_055",
       "statement": "Recém-nascido, 24 horas de vida, parto normal a termo, peso de nascimento 3020 g, Apgar 8/10, apresenta cianose ao chorar e às mamadas. A saturação de oxigênio é 93%, FR = 60 mrm, FC = 130 bpm, a ausculta pulmonar não tem alterações. Foi realizado teste de hiperóxia com oferta de oxigênio a 100% e coleta de gasometria em artéria radial direita, com PO² 96 mmHg. A hipótese diagnóstica provável é:",
       "alternatives": [
-        {"key": "a", "text": "hipertensão pulmonar persistente."},
-        {"key": "b", "text": "estenose pulmonar."},
-        {"key": "c", "text": "insuficiência mitral."},
-        {"key": "d", "text": "comunicação interventricular."},
-        {"key": "e", "text": "comunicação interatrial."}
+        {
+          "key": "a",
+          "text": "hipertensão pulmonar persistente."
+        },
+        {
+          "key": "b",
+          "text": "estenose pulmonar."
+        },
+        {
+          "key": "c",
+          "text": "insuficiência mitral."
+        },
+        {
+          "key": "d",
+          "text": "comunicação interventricular."
+        },
+        {
+          "key": "e",
+          "text": "comunicação interatrial."
+        }
       ],
       "correct_key": "a",
       "explanation": "Cianose lábil, agravada pelo choro/mamadas (agitação → aumento da resistência vascular pulmonar → mais shunt D-E via forame oval/canal arterial), com resposta parcial/inadequada ao teste da hiperoxia (PO2 96mmHg, insuficiente), é o quadro clássico de hipertensão pulmonar persistente do recém-nascido.",
@@ -965,10 +1703,22 @@
       "id": "cc_056",
       "statement": "Assinale a opção que indica a associação de síndrome congênita com a sua cardiopatia mais comum:",
       "alternatives": [
-        {"key": "a", "text": "Síndrome de Turner - comunicação inter-atrial."},
-        {"key": "b", "text": "Síndrome de Down - defeito do septo átrio ventricular total."},
-        {"key": "c", "text": "Síndrome de Noonan - estenose aórtica supravalvar."},
-        {"key": "d", "text": "Síndrome de Edwards - bloqueio átrio ventricular."}
+        {
+          "key": "a",
+          "text": "Síndrome de Turner - comunicação inter-atrial."
+        },
+        {
+          "key": "b",
+          "text": "Síndrome de Down - defeito do septo átrio ventricular total."
+        },
+        {
+          "key": "c",
+          "text": "Síndrome de Noonan - estenose aórtica supravalvar."
+        },
+        {
+          "key": "d",
+          "text": "Síndrome de Edwards - bloqueio átrio ventricular."
+        }
       ],
       "correct_key": "b",
       "explanation": "A associação clássica é Síndrome de Down com defeito do septo atrioventricular total (canal atrioventricular completo), a cardiopatia congênita mais comum nessa síndrome.",
@@ -982,10 +1732,22 @@
       "id": "cc_057",
       "statement": "Lactente masculino com 3 meses de idade apresenta cansaço e interrupções às mamadas, cianose perioral quando chora muito e ganho pondero-estatural insuficiente. AP: sopro cardíaco desde o nascimento. Exame físico: REG, FR 71 irpm, FC 159 bpm, mucosas descoradas (2+/4+), acianótico, pulsos com amplitude aumentada, tempo de enchimento capilar de 3 segundos, tiragens intercostal e subdiafragmática, crepitações pulmonares bilaterais, sopro sistólico e diastólico (2+/6+) na borda esternal esquerda superior com irradiação para o dorso, fígado palpável a 4 centímetros do RCD e o baço palpável a 2 centímetros do RCE. Esse lactente encontra-se em insuficiência cardíaca com padrão hemodinâmico:",
       "alternatives": [
-        {"key": "a", "text": "quente (sem sinais de baixo débito) e seco (sem sinais de congestão venosa)."},
-        {"key": "b", "text": "quente (sem sinais de baixo débito) e úmido (com sinais de congestão venosa)."},
-        {"key": "c", "text": "frio (com sinais de baixo débito) e seco (sem sinais de congestão venosa)."},
-        {"key": "d", "text": "frio (com sinais de baixo débito) e úmido (com sinais de congestão venosa)."}
+        {
+          "key": "a",
+          "text": "quente (sem sinais de baixo débito) e seco (sem sinais de congestão venosa)."
+        },
+        {
+          "key": "b",
+          "text": "quente (sem sinais de baixo débito) e úmido (com sinais de congestão venosa)."
+        },
+        {
+          "key": "c",
+          "text": "frio (com sinais de baixo débito) e seco (sem sinais de congestão venosa)."
+        },
+        {
+          "key": "d",
+          "text": "frio (com sinais de baixo débito) e úmido (com sinais de congestão venosa)."
+        }
       ],
       "correct_key": "d",
       "explanation": "Tempo de enchimento capilar prolongado (3s, sinal de baixo débito = \"frio\") associado a crepitações pulmonares e hepatoesplenomegalia (sinais de congestão = \"úmido\") caracteriza o perfil hemodinâmico \"frio e úmido\", o mais grave dos quatro perfis de insuficiência cardíaca.",
@@ -999,11 +1761,26 @@
       "id": "cc_058",
       "statement": "Você atende um lactente de 2 meses, que vem em consulta de puericultura com queixa de cansaço progressivo às mamadas. Mãe nota ainda discreta sudorese durante a amamentação. Nega febre, tosse, coriza ou obstrução nasal. Ganho ponderal = 20g/dia. Saturação de O² 96%. Qual é a hipótese diagnóstica?",
       "alternatives": [
-        {"key": "a", "text": "Tetralogia de Fallot."},
-        {"key": "b", "text": "Transposição dos grandes vasos."},
-        {"key": "c", "text": "Estenose pulmonar."},
-        {"key": "d", "text": "Comunicação interventricular."},
-        {"key": "e", "text": "Síndrome de Wolff-Parkinson-White."}
+        {
+          "key": "a",
+          "text": "Tetralogia de Fallot."
+        },
+        {
+          "key": "b",
+          "text": "Transposição dos grandes vasos."
+        },
+        {
+          "key": "c",
+          "text": "Estenose pulmonar."
+        },
+        {
+          "key": "d",
+          "text": "Comunicação interventricular."
+        },
+        {
+          "key": "e",
+          "text": "Síndrome de Wolff-Parkinson-White."
+        }
       ],
       "correct_key": "d",
       "explanation": "Cansaço e sudorese progressivos às mamadas, com saturação normal (acianótico), são achados clássicos de insuficiência cardíaca por shunt esquerda-direita, sendo a comunicação interventricular a causa mais comum nesse contexto clínico.",
@@ -1017,10 +1794,22 @@
       "id": "cc_059",
       "statement": "As cardiopatias congênitas ocorrem em nove de cada mil nascidos vivos e aproximadamente 25% deles necessitarão de intervenção ainda no primeiro ano de vida. Sobre as cardiopatias congênitas marque abaixo a resposta correta.",
       "alternatives": [
-        {"key": "a", "text": "A transposição das grandes artérias é uma cardiopatia congênita que se manifesta sem cianose."},
-        {"key": "b", "text": "A dextroposição da aorta está presente na Tetralogia de Fallot."},
-        {"key": "c", "text": "O teste do coraçãozinho diagnostica cardiopatias congênitas."},
-        {"key": "d", "text": "A comunicação interatrial (CIA) é a cardiopatia congênita mais frequente entre os recém-nascidos."}
+        {
+          "key": "a",
+          "text": "A transposição das grandes artérias é uma cardiopatia congênita que se manifesta sem cianose."
+        },
+        {
+          "key": "b",
+          "text": "A dextroposição da aorta está presente na Tetralogia de Fallot."
+        },
+        {
+          "key": "c",
+          "text": "O teste do coraçãozinho diagnostica cardiopatias congênitas."
+        },
+        {
+          "key": "d",
+          "text": "A comunicação interatrial (CIA) é a cardiopatia congênita mais frequente entre os recém-nascidos."
+        }
       ],
       "correct_key": "b",
       "explanation": "Correto: a dextroposição (cavalgamento) da aorta é um dos quatro componentes clássicos da Tetralogia de Fallot. As demais estão incorretas: a TGA se manifesta COM cianose grave; o teste do coraçãozinho é um teste de RASTREIO (não diagnóstico definitivo, que requer ecocardiograma); e a CIV (não a CIA) é geralmente citada como a cardiopatia congênita mais frequente ao nascimento.",
@@ -1034,10 +1823,22 @@
       "id": "cc_060",
       "statement": "Dentre as cardiopatias abaixo, qual não cursa com hiperfluxo pulmonar?",
       "alternatives": [
-        {"key": "a", "text": "Comunicação interatrial."},
-        {"key": "b", "text": "Comunicação interventricular."},
-        {"key": "c", "text": "Tetralogia de Fallot."},
-        {"key": "d", "text": "Defeito do septo atrioventicular."}
+        {
+          "key": "a",
+          "text": "Comunicação interatrial."
+        },
+        {
+          "key": "b",
+          "text": "Comunicação interventricular."
+        },
+        {
+          "key": "c",
+          "text": "Tetralogia de Fallot."
+        },
+        {
+          "key": "d",
+          "text": "Defeito do septo atrioventicular."
+        }
       ],
       "correct_key": "c",
       "explanation": "A Tetralogia de Fallot cursa com HIPOfluxo pulmonar, ao contrário das demais lesões listadas, que apresentam shunt esquerda-direita com hiperfluxo pulmonar.",
@@ -1051,11 +1852,26 @@
       "id": "cc_061",
       "statement": "Sobre o forame oval e o ducto arterioso do coração do feto e do recém-nascido, considere as afirmativas a seguir. I. Na vida fetal, o fluxo de sangue pelo forame oval ocorre do átrio direito para o átrio esquerdo. II. Após o nascimento, o aumento da pressão no átrio direito é o responsável pelo fechamento do forame oval. III. O principal mecanismo para o fechamento espontâneo do ducto arterioso após o nascimento é a redução da pressão na aorta. IV. Em casos de cardiopatia congênita, pode ser necessário a manutenção da perviedade do ducto arterioso após o nascimento até o momento da cirurgia. Assinale a alternativa correta.",
       "alternatives": [
-        {"key": "a", "text": "Somente as afirmativas I e II são corretas."},
-        {"key": "b", "text": "Somente as afirmativas I e IV são corretas."},
-        {"key": "c", "text": "Somente as afirmativas III e IV são corretas."},
-        {"key": "d", "text": "Somente as afirmativas I, II e III são corretas."},
-        {"key": "e", "text": "Somente as afirmativas II, III e IV são corretas."}
+        {
+          "key": "a",
+          "text": "Somente as afirmativas I e II são corretas."
+        },
+        {
+          "key": "b",
+          "text": "Somente as afirmativas I e IV são corretas."
+        },
+        {
+          "key": "c",
+          "text": "Somente as afirmativas III e IV são corretas."
+        },
+        {
+          "key": "d",
+          "text": "Somente as afirmativas I, II e III são corretas."
+        },
+        {
+          "key": "e",
+          "text": "Somente as afirmativas II, III e IV são corretas."
+        }
       ],
       "correct_key": "b",
       "explanation": "I e IV são corretas: no feto o shunt fisiológico pelo forame oval é AD→AE, e em cardiopatias ductal-dependentes é necessário manter o canal pérvio (com prostaglandina) até a cirurgia. II é falsa: o fechamento funcional do forame oval decorre do AUMENTO da pressão no átrio ESQUERDO (não direito), pelo maior retorno venoso pulmonar após o nascimento. III é falsa: o principal mecanismo do fechamento do ducto é o AUMENTO da tensão de oxigênio (PaO2), não a redução da pressão aórtica.",
@@ -1069,10 +1885,22 @@
       "id": "cc_062",
       "statement": "Diante de uma criança com sopro, o pediatra deve fazer o diagnóstico diferencial entre sopro inocente e patológico. Considerando as características de um sopro inocente, analise as assertivas a seguir: I. Sopro sistólico e de curta duração. II. Mais intenso com a criança em posição ortostática. III. Redução de intensidade com a mudança da posição supina para sentada. Quais estão corretas?",
       "alternatives": [
-        {"key": "a", "text": "Apenas I e II."},
-        {"key": "b", "text": "Apenas I e III."},
-        {"key": "c", "text": "Apenas II e III."},
-        {"key": "d", "text": "I, II e III."}
+        {
+          "key": "a",
+          "text": "Apenas I e II."
+        },
+        {
+          "key": "b",
+          "text": "Apenas I e III."
+        },
+        {
+          "key": "c",
+          "text": "Apenas II e III."
+        },
+        {
+          "key": "d",
+          "text": "I, II e III."
+        }
       ],
       "correct_key": "b",
       "explanation": "I e III são corretas: o sopro inocente é sistólico, de curta duração, e classicamente REDUZ de intensidade quando a criança muda da posição supina para sentada/ortostática (redução do retorno venoso). II está errada por descrever o oposto (o sopro inocente diminui, não aumenta, em ortostatismo).",
@@ -1086,10 +1914,22 @@
       "id": "cc_063",
       "statement": "Qual é a cardiopatia cirúrgica mais comum na Trissomia do 21?",
       "alternatives": [
-        {"key": "a", "text": "DSAVt."},
-        {"key": "b", "text": "CIA."},
-        {"key": "c", "text": "Tetralogia de Fallot."},
-        {"key": "d", "text": "CIV."}
+        {
+          "key": "a",
+          "text": "DSAVt."
+        },
+        {
+          "key": "b",
+          "text": "CIA."
+        },
+        {
+          "key": "c",
+          "text": "Tetralogia de Fallot."
+        },
+        {
+          "key": "d",
+          "text": "CIV."
+        }
       ],
       "correct_key": "a",
       "explanation": "O defeito do septo atrioventricular total (DSAVt/canal atrioventricular completo) é a cardiopatia congênita mais comum e mais frequentemente cirúrgica na Trissomia do 21 (Síndrome de Down).",
@@ -1103,10 +1943,22 @@
       "id": "cc_064",
       "statement": "Mãe traz à consulta criança com 40 dias de vida, com queixa de cansaço e sudorese profusa às mamadas desde o nascimento, com piora nos últimos dias. Ao exame físico apresenta hipotonia generalizada, frouxidão ligamentar, epicanto palpebral, protrusão lingual e prega palmar única. Murmúrio vesicular presente e simétrico, com roncos difusos; frequência respiratória de 60 ipm, com tiragem subdiafragmática e retração intercostal. Bulhas rítmicas em dois tempos com sopro sistólico em borda esternal esquerda. Trouxe consigo um eletrocardiograma. Baseado nestas informações, qual a cardiopatia mais provável?",
       "alternatives": [
-        {"key": "a", "text": "Comunicação interventricular."},
-        {"key": "b", "text": "Defeito do septo atrioventricular."},
-        {"key": "c", "text": "Estenose pulmonar."},
-        {"key": "d", "text": "Comunicação interatrial."}
+        {
+          "key": "a",
+          "text": "Comunicação interventricular."
+        },
+        {
+          "key": "b",
+          "text": "Defeito do septo atrioventricular."
+        },
+        {
+          "key": "c",
+          "text": "Estenose pulmonar."
+        },
+        {
+          "key": "d",
+          "text": "Comunicação interatrial."
+        }
       ],
       "correct_key": "b",
       "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Fenótipo clássico de Síndrome de Down (hipotonia, frouxidão ligamentar, epicanto, protrusão lingual, prega palmar única) associado a sinais de insuficiência cardíaca precoce (desde o nascimento) sugere a cardiopatia mais comum e grave dessa síndrome: o defeito do septo atrioventricular.",
@@ -1120,11 +1972,26 @@
       "id": "cc_065",
       "statement": "A cardiopatia congênita com apresentação de insuficiência cardíaca mais comum é:",
       "alternatives": [
-        {"key": "a", "text": "Ventrículo único"},
-        {"key": "b", "text": "Tronco arterioso"},
-        {"key": "c", "text": "Comunicação interventricular"},
-        {"key": "d", "text": "Interrupção do arco aórtico"},
-        {"key": "e", "text": "Tetralogia de Fallot"}
+        {
+          "key": "a",
+          "text": "Ventrículo único"
+        },
+        {
+          "key": "b",
+          "text": "Tronco arterioso"
+        },
+        {
+          "key": "c",
+          "text": "Comunicação interventricular"
+        },
+        {
+          "key": "d",
+          "text": "Interrupção do arco aórtico"
+        },
+        {
+          "key": "e",
+          "text": "Tetralogia de Fallot"
+        }
       ],
       "correct_key": "c",
       "explanation": "A comunicação interventricular é a cardiopatia congênita mais comum, e defeitos grandes/moderados são a causa mais frequente de apresentação com insuficiência cardíaca na lactância, pela alta prevalência dessa lesão na população.",
@@ -1138,10 +2005,22 @@
       "id": "cc_066",
       "statement": "Criança de 3 meses de vida, sexo feminino, comparece pela terceira vez a um pronto atendimento, por apresentar cansaço e sudorese após as mamadas. A acompanhante relata que não tem notado ganho de peso satisfatório, apesar de observar que o lactente, que está em aleitamento materno exclusivo, suga bem o seio materno. No exame físico, lactente com regular estado geral, pulsos periféricos debilmente palpáveis, acianótico, hidratado, com esforço respiratório leve, frequência cardíaca de 170 bpm, Pressão arterial 120/80 mmhg em membro superior direito, fígado a 4 cm reborda costal direita, frequência respiratória de 70 irpm, murmúrio vesicular fisiológico. Diante do caso clínico, qual a PRINCIPAL hipótese diagnóstica?",
       "alternatives": [
-        {"key": "a", "text": "Insuficiência cardíaca por provável coarctação da aorta."},
-        {"key": "b", "text": "Insuficiência cardíaca por provável cardiopatia congênita cianogênica."},
-        {"key": "c", "text": "Insuficiência cardíaca por provável quadro de anemia congênita."},
-        {"key": "d", "text": "Insuficiência cardíaca compensada por provável sepse neonatal tardia."}
+        {
+          "key": "a",
+          "text": "Insuficiência cardíaca por provável coarctação da aorta."
+        },
+        {
+          "key": "b",
+          "text": "Insuficiência cardíaca por provável cardiopatia congênita cianogênica."
+        },
+        {
+          "key": "c",
+          "text": "Insuficiência cardíaca por provável quadro de anemia congênita."
+        },
+        {
+          "key": "d",
+          "text": "Insuficiência cardíaca compensada por provável sepse neonatal tardia."
+        }
       ],
       "correct_key": "a",
       "explanation": "Pulsos periféricos fracos, PA elevada aferida em membro superior (120/80 é muito alta para lactente de 3 meses) e sinais de insuficiência cardíaca (taquicardia, hepatomegalia, sudorese às mamadas, esforço respiratório) são compatíveis com coarctação da aorta descompensando com insuficiência cardíaca.",
@@ -1155,11 +2034,26 @@
       "id": "cc_067",
       "statement": "Uma recém-nascida com 2 dias de vida, a termo, com 2.300g, apresenta sopro sistólico e cianose de extremidades ao choro. Qual é a medida propedêutica que afasta a maior parte das doenças cardíacas cianóticas?",
       "alternatives": [
-        {"key": "a", "text": "teste de hiperventilação"},
-        {"key": "b", "text": "teste de hipoventilação"},
-        {"key": "c", "text": "gasometria venosa"},
-        {"key": "d", "text": "oximetria de pulso"},
-        {"key": "e", "text": "teste da hiperoxia"}
+        {
+          "key": "a",
+          "text": "teste de hiperventilação"
+        },
+        {
+          "key": "b",
+          "text": "teste de hipoventilação"
+        },
+        {
+          "key": "c",
+          "text": "gasometria venosa"
+        },
+        {
+          "key": "d",
+          "text": "oximetria de pulso"
+        },
+        {
+          "key": "e",
+          "text": "teste da hiperoxia"
+        }
       ],
       "correct_key": "e",
       "explanation": "O teste da hiperoxia (oferta de O2 a 100% com avaliação da resposta da PaO2) é a medida propedêutica clássica que ajuda a diferenciar cianose de causa cardíaca (resposta inadequada, PaO2 permanece baixa) de causa pulmonar (boa resposta, PaO2 se eleva significativamente).",
@@ -1168,173 +2062,6 @@
       "source": "INEP REVALIDA 2012",
       "reviewed": false,
       "created_at": "2026-07-26T00:00:00.000Z"
-    },
-    {
-      "id": "cc_068",
-      "statement": "Jovem do sexo masculino, 22 anos, é encaminhado ao ambulatório para avaliação de hipertensão arterial sistêmica. Não apresenta antecedentes familiares relevantes e não faz uso de medicamentos ou substâncias ilícitas. O exame físico revela: desdobramento fisiológico de B2 e hiperfonese da segunda bulha em foco aórtico, além de sopro sistólico ejetivo ao longo do bordo esternal esquerdo. O paciente traz uma radiografia de tórax mostrando erosões (\"corrosões\") na borda inferior dos arcos costais posteriores (rib notching). Em face do exposto, é correto afirmar que a causa mais provável da hipertensão arterial é secundária",
-      "alternatives": [
-        {"key": "a", "text": "à coarctação da aorta."},
-        {"key": "b", "text": "à síndrome de Cushing."},
-        {"key": "c", "text": "ao hiperparatireoidismo."},
-        {"key": "d", "text": "à apneia do sono."},
-        {"key": "e", "text": "ao hipotireoidismo."}
-      ],
-      "correct_key": "a",
-      "explanation": "O sinal radiográfico de \"corrosão\" (rib notching) na borda inferior das costelas, causado por circulação colateral intercostal dilatada contornando a obstrução aórtica, associado a hiperfonese de B2 aórtica e sopro sistólico ejetivo em jovem hipertenso, é patognomônico de coarctação da aorta.",
-      "theme": "cardio_perimio",
-      "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-28T00:00:00.000Z"
-    },
-    {
-      "id": "cc_069",
-      "statement": "A respeito da ausculta cardíaca, assinale a alternativa correta.",
-      "alternatives": [
-        {"key": "a", "text": "A ausência de sopro descarta cardiopatia."},
-        {"key": "b", "text": "A presença de sopro diastólico é inocente."},
-        {"key": "c", "text": "O sopro característico da CIV é o sistodiastólico em maquinaria."},
-        {"key": "d", "text": "O sopro inocente apresenta frêmito precordial palpável."},
-        {"key": "e", "text": "A segunda bulha está aumentada nas cardiopatias de hiperfluxo pulmonar."}
-      ],
-      "correct_key": "e",
-      "explanation": "A B2 (particularmente seu componente pulmonar) fica hiperfonética em condições de hiperfluxo pulmonar, como CIA, CIV e PCA. As demais estão incorretas: a ausência de sopro não descarta cardiopatia; sopro diastólico nunca é inocente; o sopro sistodiastólico contínuo em maquinaria é característico da persistência do canal arterial (não da CIV, cujo sopro é sistólico); e o sopro inocente, por definição, não tem frêmito palpável.",
-      "theme": "cardio_perimio",
-      "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-28T00:00:00.000Z"
-    },
-    {
-      "id": "cc_070",
-      "statement": "Recém-nascido, 3 semanas de vida (parto normal), Apgar 9-10, IG: 39,5 semanas e pré-natal sem intercorrências, dá entrada na emergência. A mãe refere que o filho apresenta gemência e dificuldade para mamar. Ao exame, além de não serem observados pulsos em MMII, o paciente está gemente, com: FC – 198 bpm; FR – 45 irpm; Temperatura axilar – 35,3 ºC; PA – 110x90 mmHg; Bulhas rítmicas hipofonéticas; MV simétrico e estertores crepitantes em bases; Abdome globoso e flácido; Fígado a 5 cm do rebordo central direito (RCD); má perfusão periférica; e pele moteada. Quanto à causa etiológica da crise hipertensiva descrita, nesse caso clínico, assinale a alternativa correta.",
-      "alternatives": [
-        {"key": "a", "text": "Tumor de suprarrenal."},
-        {"key": "b", "text": "ICC por doença crônica intrauterina."},
-        {"key": "c", "text": "Coarctação da aorta."},
-        {"key": "d", "text": "Malformação renal."},
-        {"key": "e", "text": "Hiperplasia adrenal congênita"}
-      ],
-      "correct_key": "c",
-      "explanation": "Ausência de pulsos em MMII associada a sinais de insuficiência cardíaca (hepatomegalia, estertores, taquicardia, má perfusão) em neonato, tipicamente por volta do fechamento do canal arterial (2ª-3ª semana de vida), é o quadro clássico de coarctação da aorta descompensada, gerando hipertensão proximal (MMSS) e hipofluxo distal (MMII).",
-      "theme": "cardio_perimio",
-      "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-28T00:00:00.000Z"
-    },
-    {
-      "id": "cc_071",
-      "statement": "A respeito da ausculta cardíaca, assinale a alternativa correta.",
-      "alternatives": [
-        {"key": "a", "text": "A segunda bulha está aumentada nas cardiopatias de hiperfluxo pulmonar."},
-        {"key": "b", "text": "A ausência de sopro descarta a cardiopatia."},
-        {"key": "c", "text": "A presença de sopro diastólico é inocente."},
-        {"key": "d", "text": "O sopro característico da CIV é o sistodiastólico em maquinaria."},
-        {"key": "e", "text": "O sopro inocente apresenta frêmito precordial palpável."}
-      ],
-      "correct_key": "a",
-      "explanation": "A B2 (componente pulmonar) fica hiperfonética em cardiopatias com hiperfluxo pulmonar (CIA, CIV, PCA). As demais alternativas são falsas pelos mesmos motivos: sopro diastólico não é inocente, o sopro contínuo em maquinaria é da PCA (não da CIV) e sopro inocente não tem frêmito palpável.",
-      "theme": "cardio_perimio",
-      "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-28T00:00:00.000Z"
-    },
-    {
-      "id": "cc_072",
-      "statement": "Menina de 6 anos foi trazida à consulta por otalgia. Ao ser realizada a ausculta cardíaca, foi observado um sopro sistólico de alta frequência, vibratório, variável, concluído antes da segunda bulha, não precedido por estalido. Dentre os sopros abaixo, qual o mais provável?",
-      "alternatives": [
-        {"key": "a", "text": "Sopro pulmonar"},
-        {"key": "b", "text": "Sopro pulmonar periférico"},
-        {"key": "c", "text": "Zumbido venoso"},
-        {"key": "d", "text": "Sopro de Still"}
-      ],
-      "correct_key": "d",
-      "explanation": "Sopro sistólico curto, vibratório/musical, de alta frequência, que varia com a posição e termina antes de B2, sem estalido precedente, em criança assintomática (achado incidental), é a descrição clássica do sopro de Still, o sopro inocente mais comum na infância.",
-      "theme": "cardio_perimio",
-      "difficulty": "facil",
-      "reviewed": false,
-      "created_at": "2026-07-28T00:00:00.000Z"
-    },
-    {
-      "id": "cc_073",
-      "statement": "Gestante hipertensa grave necessita de cesárea de urgência. Dá à luz a recém-nascido prematuro extremo de 27 semanas, com peso de nascimento de 850g e Apgar 6/8. Necessitou ser reanimado na sala de parto com intubação orotraqueal por taquidispneia grave. Ao chegar à UTI neonatal, precisou de reposição de surfactante pulmonar por doença de membrana hialina e evoluiu satisfatoriamente, sendo extubado para ventilação não invasiva no 3º dia de vida. Contudo, no 5º dia de vida, apresenta apneias de repetição, retornando para ventilação mecânica com fração de oxigênio alta. Ao exame físico, apresenta precórdio hiperdinâmico e pulsos radiais em martelo d'água. À ausculta, apresenta sopro sistólico 4+/6+ em maquinaria, melhor audível em borda esternal esquerda com irradiação para a clavícula esquerda. O diagnóstico mais provável é:",
-      "alternatives": [
-        {"key": "a", "text": "coarctação da aorta"},
-        {"key": "b", "text": "persistência do canal arterial"},
-        {"key": "c", "text": "hipoplasia de ventrículo direito"},
-        {"key": "d", "text": "hipoplasia de ventrículo esquerdo"}
-      ],
-      "correct_key": "b",
-      "explanation": "Prematuridade extrema, deterioração respiratória com apneias no 5º dia de vida, precórdio hiperdinâmico, pulsos amplos em martelo d'água e sopro contínuo em maquinaria em borda esternal esquerda irradiado para a clavícula são o quadro clássico de persistência do canal arterial (PCA) hemodinamicamente significativa, comum em prematuros extremos.",
-      "theme": "cardio_perimio",
-      "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-28T00:00:00.000Z"
-    },
-    {
-      "id": "cc_074",
-      "statement": "Ao exame físico, a detecção de sopro sistólico suave em foco pulmonar e desdobramento fixo da segunda bulha são achados importantes para o diagnóstico de:",
-      "alternatives": [
-        {"key": "a", "text": "comunicação interatrial."},
-        {"key": "b", "text": "persistência do canal arterial."},
-        {"key": "c", "text": "estenose valvar pulmonar."},
-        {"key": "d", "text": "tetralogia de Fallot."},
-        {"key": "e", "text": "estenose valvar aórtica."}
-      ],
-      "correct_key": "a",
-      "explanation": "O desdobramento FIXO de B2 (não varia com a respiração, pois o hiperfluxo pulmonar pelo shunt é constante em qualquer fase respiratória), associado a sopro sistólico suave por hiperfluxo funcional em foco pulmonar, é o achado semiológico mais característico de comunicação interatrial (CIA).",
-      "theme": "cardio_perimio",
-      "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-28T00:00:00.000Z"
-    },
-    {
-      "id": "cc_075",
-      "statement": "Mulher de 21 anos, assintomática, com sopro mesossistólico audível no 2° espaço intercostal esquerdo, irradiando para a região infraescapular ipsilateral, em crescendo-decrescendo, grau II, além de movimento paraesternal inferior esquerdo de grande amplitude, pulsação no 2° espaço intercostal esquerdo e desdobramento fixo da segunda bulha. Considerando o caso descrito, assinale a alternativa CORRETA.",
-      "alternatives": [
-        {"key": "a", "text": "Esses achados são fisiológicos nessa faixa etária."},
-        {"key": "b", "text": "O sopro auscultado se deve ao hiperfluxo na valva pulmonar."},
-        {"key": "c", "text": "A primeira bulha cardíaca, geralmente, é hipofonética."},
-        {"key": "d", "text": "A estenose pulmonar congênita é a principal hipótese."}
-      ],
-      "correct_key": "b",
-      "explanation": "Movimento paraesternal hiperdinâmico de VD, desdobramento fixo de B2 e sopro sistólico ejetivo no foco pulmonar são o quadro clássico de comunicação interatrial (CIA); o sopro decorre do hiperfluxo funcional através da valva pulmonar (não de estenose pulmonar orgânica, que teria B1 preservada e não é achado fisiológico da idade).",
-      "theme": "cardio_perimio",
-      "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-28T00:00:00.000Z"
-    },
-    {
-      "id": "cc_076",
-      "statement": "Uma mulher de 42 anos, assintomática, tem os seguintes achados de exame físico e exames complementares: aparelho cardiovascular: ventrículo direito palpável, sopro sistólico audível na borda esternal esquerda alta e desdobramento fixo da 2ª bulha; radiografia de tórax: aumento do ventrículo direito e hiperfluxo pulmonar; ECG: padrão de bloqueio do ramo direito. O diagnóstico mais provável é:",
-      "alternatives": [
-        {"key": "a", "text": "persistência de canal arterial"},
-        {"key": "b", "text": "comunicação interventricular"},
-        {"key": "c", "text": "comunicação interatrial"},
-        {"key": "d", "text": "hipertensão arterial pulmonar"},
-        {"key": "e", "text": "nenhuma das anteriores"}
-      ],
-      "correct_key": "c",
-      "explanation": "VD palpável (hiperdinâmico), sopro sistólico em borda esternal esquerda alta (foco pulmonar), desdobramento fixo de B2, hiperfluxo pulmonar ao RX e padrão de bloqueio de ramo direito (sobrecarga de VD) ao ECG compõem o quadro clássico de comunicação interatrial diagnosticada na vida adulta.",
-      "theme": "cardio_perimio",
-      "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-28T00:00:00.000Z"
-    },
-    {
-      "id": "cc_077",
-      "statement": "Ao exame físico, a detecção de sopro sistólico suave em foco pulmonar e desdobramento fixo da segunda bulha são achados importantes para o diagnóstico de:",
-      "alternatives": [
-        {"key": "a", "text": "Comunicação interatrial."},
-        {"key": "b", "text": "Persistência do canal arterial."},
-        {"key": "c", "text": "Estenose valvar pulmonar."},
-        {"key": "d", "text": "Tetralogia de Fallot."}
-      ],
-      "correct_key": "a",
-      "explanation": "O desdobramento fixo de B2, junto ao sopro sistólico suave por hiperfluxo em foco pulmonar, é o achado semiológico clássico e mais específico de comunicação interatrial (CIA).",
-      "theme": "cardio_perimio",
-      "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-28T00:00:00.000Z"
     }
-
   ]
 }

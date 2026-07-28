@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T12:47:22.598Z",
+  "generatedAt": "2026-07-28T12:57:59.734Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -31,13 +31,12 @@
   "totalCasos": 13,
   "questionThemeCounts": {
     "sca_dac": 65,
-    "cardio_arritmias": 103,
-    "arr_brady": 28,
+    "cardio_arritmias": 100,
+    "arr_brady": 27,
     "mio_amiloide": 12,
     "mio_dilat": 6,
-    "mio_hipertrof": 16,
-    "cardio_perimio": 140,
-    "arr_fa": 1,
+    "mio_hipertrof": 14,
+    "cardio_perimio": 129,
     "cardio_has": 100,
     "has_dx": 123,
     "has_tto": 99,
@@ -45,13 +44,9 @@
     "cardio_ic": 140,
     "peri_aguda": 17,
     "cardio_sca": 120,
+    "cardio_semiologia": 70,
     "peri_tampon": 13,
-    "cardio_valvopatias": 157,
-    "valv_ea": 12,
-    "valv_im": 4,
-    "valv_ia": 3,
-    "valv_em": 12,
-    "valv_ei": 1,
+    "cardio_valvopatias": 140,
     "emg_choque": 47,
     "atls_inicial": 1,
     "atls_choque": 2,
@@ -68,12 +63,11 @@
     "dpoc_dx": 21,
     "dpoc_exac": 24,
     "dpoc_tto": 36,
-    "pneumo_tep": 2,
     "pna_pac": 176,
     "pna_asp": 4,
     "pna_imuno": 4,
     "pna_pah": 9,
-    "tep_dx": 3
+    "tep_dx": 2
   },
   "flashcardThemeCounts": {
     "atls_choque": 3,
@@ -126,7 +120,7 @@
       "themes": [
         "cardio_arritmias"
       ],
-      "questionsCount": 103,
+      "questionsCount": 100,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -144,7 +138,7 @@
       "themes": [
         "arr_brady"
       ],
-      "questionsCount": 28,
+      "questionsCount": 27,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -164,7 +158,7 @@
         "mio_dilat",
         "mio_hipertrof"
       ],
-      "questionsCount": 34,
+      "questionsCount": 32,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -174,7 +168,7 @@
       "themes": [
         "cardio_perimio"
       ],
-      "questionsCount": 77,
+      "questionsCount": 67,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -229,10 +223,8 @@
     {
       "area": "cardiologia",
       "slug": "fibrilacao-atrial",
-      "themes": [
-        "arr_fa"
-      ],
-      "questionsCount": 1,
+      "themes": [],
+      "questionsCount": 0,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -313,10 +305,9 @@
       "area": "cardiologia",
       "slug": "pericardites",
       "themes": [
-        "peri_aguda",
-        "cardio_perimio"
+        "peri_aguda"
       ],
-      "questionsCount": 18,
+      "questionsCount": 17,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -341,8 +332,10 @@
     {
       "area": "cardiologia",
       "slug": "semiologia",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "cardio_semiologia"
+      ],
+      "questionsCount": 70,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -384,14 +377,9 @@
       "area": "cardiologia",
       "slug": "valvopatias",
       "themes": [
-        "cardio_valvopatias",
-        "valv_ea",
-        "valv_im",
-        "valv_ia",
-        "valv_em",
-        "valv_ei"
+        "cardio_valvopatias"
       ],
-      "questionsCount": 189,
+      "questionsCount": 140,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -2545,10 +2533,8 @@
     {
       "area": "pneumologia",
       "slug": "hipertensao-pulmonar",
-      "themes": [
-        "pneumo_tep"
-      ],
-      "questionsCount": 2,
+      "themes": [],
+      "questionsCount": 0,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -2615,7 +2601,7 @@
       "themes": [
         "tep_dx"
       ],
-      "questionsCount": 3,
+      "questionsCount": 2,
       "flashcardsCount": 0,
       "casosCount": 0
     },

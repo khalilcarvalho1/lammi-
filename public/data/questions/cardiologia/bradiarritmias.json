@@ -1,30 +1,784 @@
-{"questions":[
-{"id":"brady_001","statement":"Paciente masculino, 60 anos, tem PA = 140x85 mmHg e pesa 98 kg. Relata que não está se sentindo bem, seu ECG não tem onda P, com FC = 44 bpm e os complexos QRS ocorrem regularmente. Qual o diagnóstico para essa condição?","alternatives":[{"key":"a","text":"Bloqueio atrioventricular de segundo grau."},{"key":"b","text":"Bloqueio atrioventricular avançado."},{"key":"c","text":"Bloqueio sinoatrial de segundo grau."},{"key":"d","text":"Bloqueio sinoatrial de terceiro grau."}],"correct_key":"d","explanation":"Ausência completa de onda P com QRS regular (ritmo de escape) sugere falência total da atividade sinusal/saída sinoatrial (bloqueio sinoatrial de 3º grau/parada sinusal com ritmo de escape) — se fosse BAV, ainda haveria ondas P dissociadas visíveis.","theme":"arr_brady","difficulty":"dificil","reviewed":false,"created_at":"2026-07-27T00:00:00.000Z"},
-{"id":"brady_002","statement":"Homem, 50 anos, hipertenso, em uso de propranolol 120 mg/dia, procura a unidade de pronto atendimento por palpitação há uma semana. O exame clínico é normal, com frequência cardíaca de 56 bpm. O ECG realizado na unidade de saúde está mostrado a seguir. Qual o ritmo cardíaco mostrado no eletrocardiograma?","alternatives":[{"key":"a","text":"BAV de segundo grau Mobitz I."},{"key":"b","text":"Bradicardia sinusal."},{"key":"c","text":"BAV de primeiro grau."},{"key":"d","text":"BAV de segundo grau Mobitz II."}],"correct_key":"d","explanation":"ATENÇÃO: traçado de ECG citado mas não capturado na extração do PDF. Resposta segue o gabarito oficial da fonte (BAV 2º grau Mobitz II), achado compatível com uso de betabloqueador em dose alta (propranolol 120mg/dia).","theme":"arr_brady","difficulty":"medio","reviewed":false,"created_at":"2026-07-27T00:00:00.000Z"},
-{"id":"brady_003","statement":"Paciente de 68 anos apresenta quadro progressivo de dispneia. Hoje, apresentou quadro de tontura seguida de síncope. O traçado do ECG está a seguir. Nesse momento, com relação ao diagnóstico e à respectiva conduta, é correto afirmar:","alternatives":[{"key":"a","text":"bradicardia sinusal, dopamina em infusão contínua."},{"key":"b","text":"bloqueio atrioventricular de 1º grau, bolus de atropina."},{"key":"c","text":"bloqueio atrioventricular de 2º grau Mobitz I, bolus de atropina."},{"key":"d","text":"bloqueio atrioventricular de 2º grau Mobitz II, colocação de marca-passo externo."},{"key":"e","text":"bloqueio atrioventricular, colocação de marca-passo externo."}],"correct_key":"d","explanation":"ATENÇÃO: traçado de ECG citado mas não capturado na extração do PDF. Síncope com bradicardia sintomática grave: BAV 2º grau Mobitz II tem alto risco de progressão para BAVT, sendo tratado com marca-passo (transcutâneo/externo), não com atropina, que tem eficácia limitada e pode ser deletéria em bloqueios infra-hissianos.","theme":"arr_brady","difficulty":"medio","reviewed":false,"created_at":"2026-07-27T00:00:00.000Z"},
-{"id":"brady_004","statement":"Paciente em recuperação, na UTI, na 1ª hora após revascularização miocárdica, em ventilação mecânica, com marcapasso temporário. Seu médico cardiologista resolve testar o grau de dependência do marca-passo epimiocárdico, que está em 70 bpm e com captura ventricular adequada. Ao ser desligado o gerador do marca-passo, o médico verifica, no monitor, que o gráfico do pulso venoso jugular passa a demonstrar uma onda a \"em canhão\". Ao olhar para o monitor cardíaco, ele observa que o traçado eletrocardiográfico passou a demonstrar a presença de","alternatives":[{"key":"a","text":"Bradicardia sinusal."},{"key":"b","text":"Flutter atrial."},{"key":"c","text":"Bloqueio atrioventricular total."},{"key":"d","text":"Bloqueio 1 grau."}],"correct_key":"c","explanation":"A onda \"a\" em canhão ocorre quando o átrio se contrai contra a válvula tricúspide fechada, achado clássico de dissociação atrioventricular (AV total/BAVT), confirmando dependência do marca-passo ao ser desligado.","theme":"arr_brady","difficulty":"medio","reviewed":false,"created_at":"2026-07-27T00:00:00.000Z"},
-{"id":"brady_007","statement":"Mulher, 63 anos de idade, admitida na sala de emergência com quadro de confusão mental e letargia há duas horas. Relatou também episódio de tontura ao se levantar da cama. Previamente independente para atividades básicas e instrumentais da vida diária. Com diagnóstico de hipertensão arterial sistêmica há 10 anos, infarto agudo do miocárdio há 3 anos. Faz uso de amlodipina 10mg por dia, AAS 100mg por dia e atorvastatina 40mg por dia. Ao exame clínico: abertura ocular ao chamado, resposta verbal confusa e obediência aos comandos. Frequência cardíaca: 38 batimentos/minuto; pressão arterial: 92 x 66 mmHg; frequência respiratória: 20 incursões/minuto; Saturação de O2: 96% em ar ambiente. Sem outras alterações. Foi obtido um eletrocardiograma de 12 derivações, reproduzido a seguir: Qual é a primeira conduta terapêutica que deve ser adotada neste momento?","alternatives":[{"key":"a","text":"Noradrenalina 0,1 mcg/kg/min por via intravenosa em infusão contínua."},{"key":"b","text":"Dopamina 1 mcg/kg/min por via intravenosa em infusão contínua."},{"key":"c","text":"Adrenalina 1mg administrada por via intravenosa em bolus."},{"key":"d","text":"Atropina 1mg administrada por via intravenosa em bolus."}],"correct_key":"d","explanation":"Bradicardia sintomática (confusão mental, hipotensão, pré-síncope) tem como primeira conduta pelo algoritmo ACLS a atropina 1mg IV em bolus, antes de escalonar para drogas vasoativas em infusão ou marca-passo.","theme":"arr_brady","difficulty":"medio","reviewed":false,"created_at":"2026-07-27T00:00:00.000Z"},
-{"id":"brady_008","statement":"Mulher, 63 anos de idade, admitida na sala de emergência com quadro de confusão mental e letargia há duas horas. Relatou também episódio de tontura ao se levantar da cama. Previamente independente para atividades básicas e instrumentais da vida diária. Com diagnóstico de hipertensão arterial sistêmica há 10 anos, infarto agudo do miocárdio há 3 anos. Faz uso de amlodipina 10mg por dia, AAS 100mg por dia e atorvastatina 40mg por dia. Ao exame clínico: abertura ocular ao chamado, resposta verbal confusa e obediência aos comandos. Frequência cardíaca: 38 batimentos/minuto; pressão arterial: 92 x 66 mmHg; frequência respiratória: 20 incursões/minuto; Saturação de O₂: 96% em ar ambiente. Sem outras alterações. Foi obtido um eletrocardiograma de 12 derivações, reproduzido a seguir: Quais são os diagnósticos eletrocardiográficos?","alternatives":[{"key":"a","text":"Bloqueio atrioventricular de 2° grau Mobitz tipo II, bloqueio de ramo direito e bloqueio da divisão ântero-superior."},{"key":"b","text":"Bloqueio atrioventricular de 2° grau Mobitz tipo I, bloqueio de ramo esquerdo e área elétrica inativa de parede inferior."},{"key":"c","text":"Bloqueio atrioventricular de 2° grau Mobitz tipo I, bloqueio de ramo direito e bloqueio da divisão ântero-superior."},{"key":"d","text":"Bloqueio atrioventricular de 2° grau Mobitz tipo II, bloqueio de ramo esquerdo e área elétrica inativa de parede inferior."}],"correct_key":"a","explanation":"ATENÇÃO: ECG de 12 derivações citado mas não capturado na extração do PDF. Resposta segue o gabarito oficial (BAV 2º grau Mobitz II associado a bloqueio bifascicular — ramo direito + divisão ântero-superior), configurando doença infra-hissiana do sistema de condução, coerente com a gravidade clínica da paciente.","theme":"arr_brady","difficulty":"dificil","reviewed":false,"created_at":"2026-07-27T00:00:00.000Z"},
-{"id":"brady_009","statement":"A indicação de marcapasso definitivo nos bloqueios atrioventriculares são todos abaixo, EXCETO:","alternatives":[{"key":"a","text":"BAV do 2ºgrau do tipo 2 ou mobitz 2"},{"key":"b","text":"BAV do 2º grau do tipo 2:1"},{"key":"c","text":"BAV do 3ºgrau"},{"key":"d","text":"BAV do 2º grau do Tipo 1 ou mobitz 1"}],"correct_key":"d","explanation":"O BAV 2º grau Mobitz I (Wenckebach) geralmente não é indicação absoluta de marca-passo definitivo (salvo se sintomático ou infra-hissiano), diferente de Mobitz II, 2:1 e BAVT, que são indicação independentemente de sintomas.","theme":"arr_brady","difficulty":"medio","reviewed":false,"created_at":"2026-07-27T00:00:00.000Z"},
-{"id":"brady_010","statement":"Assinale a alternativa que não faz parte da doença do nó sinusal:","alternatives":[{"key":"a","text":"Síndrome bradicardia-taquicardia"},{"key":"b","text":"Pausa sinusal"},{"key":"c","text":"Taquicardia por reentrada nodal"},{"key":"d","text":"Bradicardia sinusal"}],"correct_key":"c","explanation":"A taquicardia por reentrada nodal (TRN) é uma arritmia por reentrada no nó AV, sem relação com a disfunção do nó sinusal — as demais são manifestações clássicas da doença do nó sinusal.","theme":"arr_brady","difficulty":"medio","reviewed":false,"created_at":"2026-07-27T00:00:00.000Z"},
-{"id":"brady_012","statement":"Mulher de 58 anos de idade vem à unidade básica de saúde pois apresentou quadro de escurecimento visual durante prática de atividade física. Não houve perda da consciência. Não tem antecedentes mórbidos relevantes. No exame clínico, frequência cardíaca 58 bpm. O restante do exame clínico é normal. Realizou o eletrocardiograma apresentado a seguir. Qual é a conclusão do laudo do eletrocardiograma?","alternatives":[{"key":"a","text":"Eletrocardiograma normal."},{"key":"b","text":"Fibrilação atrial de baixa resposta ventricular."},{"key":"c","text":"Bloqueio atrioventricular de 2º grau, Mobitz I."},{"key":"d","text":"Bradicardia sinusal."}],"correct_key":"c","explanation":"ATENÇÃO: traçado de ECG citado mas não capturado na extração do PDF — resposta segue o gabarito oficial (BAV 2º grau Mobitz I), achado frequentemente incidental/benigno em pacientes hígidos com alto tônus vagal, especialmente durante esforço.","theme":"arr_brady","difficulty":"medio","reviewed":false,"created_at":"2026-07-27T00:00:00.000Z"},
-{"id":"brady_013","statement":"Paciente do sexo masculino, 69 anos, com antecedente de hipertensão arterial, diabetes mellitus tipo 2, doença do refluxo gastroesofágico, depressão e demência procurou o pronto-socorro com quadro de fraqueza e tontura há 1 hora. Estava em uso de enalapril, atenolol, metformina, AAS, pantoprazol e amitriptilina. Na ocasião, seus sinais vitais eram PA: 140x80 mmHg, FC: 42 bpm, FR: 16 ipm, SatO2: 98%, dextro: 150 mg/dL. Realizou o ECG abaixo. Diante do caso clínico e ECG, o diagnóstico e sua causa mais provável:","alternatives":[{"key":"a","text":"Bloqueio atrioventricular do 1o grau − Uso de pantoprazol."},{"key":"b","text":"Bloqueio atrioventricular do 2o grau Mobitiz 1 − Uso de atenolol."},{"key":"c","text":"Bloqueio atrioventricular do 3o grau − Uso de amitriptilina."},{"key":"d","text":"Bloqueio atrioventricular do 2o grau Mobitiz 2 − Uso de metformina."},{"key":"e","text":"Bloqueio atrioventricular do 3o grau − Uso de enalapril."}],"correct_key":"c","explanation":"ATENÇÃO: traçado de ECG citado mas não capturado na extração do PDF. Resposta segue o gabarito oficial: BAVT atribuído ao uso de amitriptilina (antidepressivo tricíclico com efeitos cronotrópicos/dromotrópicos negativos e cardiotoxicidade conhecida), e não ao betabloqueador atenolol, que classicamente causa graus menores de bloqueio.","theme":"arr_brady","difficulty":"dificil","reviewed":false,"created_at":"2026-07-27T00:00:00.000Z"},
-{"id":"brady_014","statement":"O diagnóstico eletrocardiográfico e a melhor conduta a ser tomada seriam:","alternatives":[{"key":"a","text":"Bradicardia sinusal; adrenalina 1mg IV em bolus."},{"key":"b","text":"Bloqueio atrioventricular de segundo grau tipo I; chamar especialista."},{"key":"c","text":"Bloqueio atrioventricular total; marcapasso transcutâneo."},{"key":"d","text":"Bloqueio atrioventricular total; Dobutamina IV."}],"correct_key":"c","explanation":"ATENÇÃO: traçado de ECG citado mas não capturado na extração do PDF. Diante de BAVT, a conduta padrão pelo algoritmo de bradicardia instável é o marca-passo transcutâneo, não drogas inotrópicas isoladas.","theme":"arr_brady","difficulty":"medio","reviewed":false,"created_at":"2026-07-27T00:00:00.000Z"},
-{"id":"brady_015","statement":"Paciente de 73 anos de idade refere quadro de tontura há 3 dias, sobretudo, ao levantar-se. O eletrocardiograma realizado é mostrado a seguir. Com esses dados, é correto afirmar que","alternatives":[{"key":"a","text":"pode ser consequência do uso de medicamentos, por exemplo, betabloqueadores, verapamil ou amiodarona."},{"key":"b","text":"pode ser secundário a distúrbio metabólico, por exemplo, hipercalemia, hipercalcemia ou hipernatremia."},{"key":"c","text":"pode ser uma síncope reflexa (vasovagal), e o exame de escolha é o teste de inclinação ortostática (tilt table test)."},{"key":"d","text":"se recomenda pedir exames laboratoriais, radiografia de tórax, Holter e ecocardiograma, com retorno em 2 semanas."},{"key":"e","text":"sugere o diagnóstico de hipotensão postural, sendo recomendado o aumento da ingestão de sal e líquido."}],"correct_key":"a","explanation":"Bradicardia/bloqueio ao ECG pode ser induzido por drogas cronotrópicas/dromotrópicas negativas (betabloqueador, verapamil, amiodarona), causa reversível e frequente a ser investigada antes de outras hipóteses.","theme":"arr_brady","difficulty":"medio","reviewed":false,"created_at":"2026-07-27T00:00:00.000Z"},
-{"id":"brady_016","statement":"Paciente de 54 anos apresenta quadro de tontura e repetidas síncopes há uma semana, aproximadamente. O traçado do monitor está abaixo. Neste momento, a conduta mais adequada é","alternatives":[{"key":"a","text":"Infusão contínua de epinefrina 10 mcg/minuto"},{"key":"b","text":"Atropina 1mg"},{"key":"c","text":"Colocação de marcapasso externo"},{"key":"d","text":"Infusão contínua de dopamina 10 mcg/kg/minuto"}],"correct_key":"c","explanation":"ATENÇÃO: traçado do monitor citado mas não capturado na extração do PDF. Síncopes recorrentes com bradicardia grave sugerem alto grau de bloqueio (provavelmente BAVT/Mobitz II), justificando marca-passo transcutâneo imediato em vez de apenas drogas.","theme":"arr_brady","difficulty":"medio","reviewed":false,"created_at":"2026-07-27T00:00:00.000Z"},
-{"id":"brady_017","statement":"Paciente feminina, 06 anos, será submetida à cirurgia eletiva e ao ser examinada notou-se ritmo cardíaco irregular, sem outros sinais ou sintomas. Feito ECG que demonstrou: Baseado na história e ECG, o diagnóstico provável é:","alternatives":[{"key":"a","text":"Arritmia sinusal."},{"key":"b","text":"Bloqueio AV de segundo grau."},{"key":"c","text":"Bloqueio AV de primeiro grau."},{"key":"d","text":"Escape juncional por provável distúrbio eletrolítico."}],"correct_key":"b","explanation":"ATENÇÃO: traçado de ECG citado mas não capturado na extração do PDF. Resposta segue o gabarito oficial: BAV 2º grau (provavelmente Mobitz I/Wenckebach), achado incidental benigno comum em crianças/jovens assintomáticos por alto tônus vagal, sem necessidade de intervenção antes da cirurgia eletiva.","theme":"arr_brady","difficulty":"medio","reviewed":false,"created_at":"2026-07-27T00:00:00.000Z"},
-{"id":"brady_018","statement":"Paciente de 84 anos, evoluindo com quadros de síndromes convulsivas tônico-clônicas de repetição, que se iniciam ao repouso, não acompanhadas de liberação esfincteriana. Procurou consultório do cardiologista, onde chegou deambulando normalmente e, no meio da consulta, apresentou uma síncope, seguida de crise convulsiva. Nesse momento, foi realizado eletrocardiograma abaixo, que confirmou o diagnóstico:","alternatives":[{"key":"a","text":"Bloqueio átrio-ventricular avançado alternante."},{"key":"b","text":"Bloqueio átrio-ventricular do segundo grau."},{"key":"c","text":"Bloqueio átrio-ventricular do tipo 2:1."},{"key":"d","text":"Bloqueio átrio-ventricular do primeiro grau."},{"key":"e","text":"Bloqueio átrio-ventricular total."}],"correct_key":"e","explanation":"Síncope seguida de movimentos convulsivos sem liberação esfincteriana, em idoso, é o quadro clássico de síncope convulsiva (crise de Stokes-Adams) por BAVT — a hipoperfusão cerebral transitória mimetiza uma crise epiléptica.","theme":"arr_brady","difficulty":"medio","reviewed":false,"created_at":"2026-07-27T00:00:00.000Z"},
-{"id":"brady_019","statement":"Qual das drogas abaixo não desencadeia bradicardia?","alternatives":[{"key":"a","text":"Atenolol"},{"key":"b","text":"Digoxina"},{"key":"c","text":"Amiodarona"},{"key":"d","text":"Anlodipino"}],"correct_key":"d","explanation":"O anlodipino, bloqueador de canal de cálcio di-hidropiridínico, atua predominantemente na vasculatura periférica sem efeito cronotrópico negativo relevante, ao contrário de betabloqueador, digoxina e amiodarona.","theme":"arr_brady","difficulty":"facil","reviewed":false,"created_at":"2026-07-27T00:00:00.000Z"},
-{"id":"brady_020","statement":"Emília, 48 anos, natural de Santarém/PA, tem queixas de palpitações há tempos, com piora nos últimos dois meses. Apresentou dois episódios de síncope nesse período e deu entrada no serviço de emergência com queixas de astenia, tontura, turvação visual, falta de ar, inchaço nas pernas e desconforto torácico. Observe o ECG abaixo e indique qual a possível causa dos sintomas e a melhor conduta inicial.","alternatives":[{"key":"a","text":"Insuficiência cardíaca congestiva descompensada. Digital, IECA, betabloqueador, espironolactona e furosemida."},{"key":"b","text":"Síndrome coronariana aguda. Internação com dupla antiagregação, anticoagulação, estatina e cateterismo."},{"key":"c","text":"Cardiopatia Chagásica com dissociação atrioventricular. Marcapasso."},{"key":"d","text":"Taquicardia atrial com algumas extrassístoles atriais bloqueadas. Amiodarona."}],"correct_key":"c","explanation":"Procedência de área endêmica para Chagas (Santarém/PA) associada a síncope, sinais de congestão e ECG com dissociação AV é o quadro clássico de cardiopatia chagásica com BAV avançado, tratada com marca-passo.","theme":"arr_brady","difficulty":"medio","reviewed":false,"created_at":"2026-07-27T00:00:00.000Z"},
-{"id":"brady_021","statement":"Paciente de 67 anos refere tontura, mal-estar e dispneia. Também ter tido no passado três IAM. A PA encontra-se em 90x50 mmHg. O traçado do monitor cardíaco está abaixo. O diagnóstico e a conduta a serem tomadas neste momento, são:","alternatives":[{"key":"a","text":"BAV de segundo grau Mobitz 1 e administração de atropina 1 mg."},{"key":"b","text":"BAV de primeiro grau e administração de atropina 1 mg."},{"key":"c","text":"BAV de terceiro e colocação de marca-passo."},{"key":"d","text":"BAV de segundo grau Mobitz 2 e colocação de marca-passo externo."}],"correct_key":"c","explanation":"ATENÇÃO: traçado do monitor citado mas não capturado na extração do PDF. Bradicardia instável (hipotensão, sintomática) em cardiopata isquêmico grave — resposta segue o gabarito oficial (BAVT, marca-passo).","theme":"arr_brady","difficulty":"medio","reviewed":false,"created_at":"2026-07-27T00:00:00.000Z"},
-{"id":"brady_022","statement":"Paciente de 62 anos, com quadro de síncope, confusão mental e dispneia. Ao exame apresenta uma PA de 70x30mmHg e FC de 32 batimentos por minuto. A instabilidade é devida a arritmia. Considerando este cenário, são condutas adequadas a serem tomadas, EXCETO:","alternatives":[{"key":"a","text":"Solicitar Marcapasso Provisório Transcutâneo (MPTC)."},{"key":"b","text":"Iniciar dopamina em bomba de infusão contínua."},{"key":"c","text":"Iniciar adrenalina na dose de 6 microgramas por minuto."},{"key":"d","text":"Iniciar amiodarona na dose de 0,5 miligrama por minuto."}],"correct_key":"d","explanation":"Amiodarona é droga antiarrítmica usada em taquiarritmias, não faz parte do algoritmo de bradicardia instável (que inclui atropina, marca-passo transcutâneo, dopamina e adrenalina em infusão) — é a conduta inadequada/exceção.","theme":"arr_brady","difficulty":"medio","reviewed":false,"created_at":"2026-07-27T00:00:00.000Z"},
-{"id":"brady_023","statement":"Considerando o ritmo eletrocardiográfico apresentado na figura precedente - derivação: D2; velocidade do papel 25 mm/seg; calibração: 1cm = 1 mV -, julgue o seguinte item. A arritmia observada nessa tira de ritmo é a extrassístole supraventricular com pausa compensatória.","alternatives":[{"key":"a","text":"Certo."},{"key":"b","text":"Errado."}],"correct_key":"b","explanation":"ATENÇÃO: tira de ritmo citada mas não capturada na extração do PDF — resposta segue o gabarito oficial (Errado); extrassístoles supraventriculares tipicamente geram pausa não-compensatória (ao contrário das ventriculares, que geram pausa compensatória), tornando a afirmativa incorreta.","theme":"arr_brady","difficulty":"dificil","reviewed":false,"created_at":"2026-07-27T00:00:00.000Z"},
-{"id":"brady_024","statement":"Paciente masculino, de 82 anos, queixa-se de tontura e cansaço há 2 dias. Hoje, apresentou queda da própria altura ao se levantar. Antecedente pessoal: hipertensão arterial, em uso de metoprolol e hidroclorotiazida. Realizou o ECG a seguir. Nesse caso, a conduta CORRETA é:","alternatives":[{"key":"a","text":"Realizar cateterismo cardíaco."},{"key":"b","text":"Suspender hidroclorotiazida e repor potássio."},{"key":"c","text":"Realizar estudo eletrofisiológico."},{"key":"d","text":"Inserir marca-passo temporário."},{"key":"e","text":"Realizar cintilografia eletiva."}],"correct_key":"d","explanation":"ATENÇÃO: traçado de ECG citado mas não capturado na extração do PDF. Quadro de bradicardia sintomática grave (queda por síncope/pré-síncope) em uso de betabloqueador sugere bloqueio avançado, indicando marca-passo temporário como conduta imediata.","theme":"arr_brady","difficulty":"medio","reviewed":false,"created_at":"2026-07-27T00:00:00.000Z"},
-{"id":"brady_025","statement":"Paciente diabética (mas não hipertensa) refere ao geriatra que a acompanha que, há um ano, vem apresentando piora da astenia, desânimo intenso e, por 2 vezes, perdeu a consciência enquanto assistia à televisão. Durante a investigação, evidenciando o ritmo cardíaco da paciente, demonstrado no traçado abaixo. Qual a conduta a ser tomada?","alternatives":[{"key":"a","text":"Realização de cardioversão elétrica."},{"key":"b","text":"Início de medicação antirrítmica."},{"key":"c","text":"Observação clínica com Holter a cada 6 meses."},{"key":"d","text":"Implante de marcapasso definitivo."}],"correct_key":"d","explanation":"ATENÇÃO: traçado de ECG citado mas não capturado na extração do PDF. Síncope recorrente associada a bradiarritmia documentada é indicação clássica de marca-passo definitivo.","theme":"arr_brady","difficulty":"medio","reviewed":false,"created_at":"2026-07-27T00:00:00.000Z"},
-{"id":"brady_026","statement":"Você avalia uma paciente de 42 anos de idade com bradicardia na sala de emergência. Realizado o eletrocardiograma abaixo. Qual o diagnóstico eletrocardiográfico?","alternatives":[{"key":"a","text":"Bloqueio atrioventricular Mobitz I."},{"key":"b","text":"Bloqueio atrioventricular Mobitz II."},{"key":"c","text":"Bradicardia sinusal com escape."},{"key":"d","text":"Bloqueio atrioventricular total."}],"correct_key":"c","explanation":"ATENÇÃO: traçado de ECG citado mas não capturado na extração do PDF — resposta segue o gabarito oficial (bradicardia sinusal com batimento de escape).","theme":"arr_brady","difficulty":"medio","reviewed":false,"created_at":"2026-07-27T00:00:00.000Z"},
-{"id":"brady_027","statement":"Mulher, 89 anos de idade, sofreu uma fratura de quadril e foi submetida à cirurgia para correção. Na recuperação pós-anestésica a paciente desenvolve bradicardia sinusal, com uma frequência cardíaca = 46 batimentos/minuto e temperatura corporal aferida de 35 graus centígrados. Pressão arterial é de 110 x 72 mmHg. Qual é o tratamento apropriado para a bradicardia desta paciente?","alternatives":[{"key":"a","text":"Atropina."},{"key":"b","text":"Inserção de um marca-passo temporário."},{"key":"c","text":"Aquecer a paciente."},{"key":"d","text":"Adrenalina."},{"key":"e","text":"Transfusão de 2 unidades de hemácias."}],"correct_key":"c","explanation":"Hipotermia leve (35°C) é causa reversível de bradicardia sinusal no pós-operatório de idosos — o tratamento é o reaquecimento, não drogas cronotrópicas ou marca-passo, já que a paciente está hemodinamicamente estável.","theme":"arr_brady","difficulty":"medio","reviewed":false,"created_at":"2026-07-27T00:00:00.000Z"},
-{"id":"brady_028","statement":"Paciente masculino de 58 anos é admitido à sala de emergência com IAM de parede inferior associado ao bloqueio atrioventricular do 3° grau, com escape juncional. O intervalo de tempo entre o início da dor e a chegada ao hospital foi de 50 minutos. Assinale o mecanismo mais provável do bloqueio atrioventricular:","alternatives":[{"key":"a","text":"Isquemia da artéria do nódulo atrioventricular."},{"key":"b","text":"Vagal."},{"key":"c","text":"Doença de Lenègre."},{"key":"d","text":"Doença de Lève."},{"key":"e","text":"Hiperaldosteronismo secundário."}],"correct_key":"a","explanation":"No IAM de parede inferior, a artéria do nó AV (ramo da coronária direita na maioria dos pacientes) é frequentemente acometida, causando BAV nodal com escape juncional (QRS estreito), tipicamente transitório.","theme":"arr_brady","difficulty":"dificil","reviewed":false,"created_at":"2026-07-27T00:00:00.000Z"},
-{"id":"brady_029","statement":"Homem, 72 anos, queixa-se de tontura e cansaço há 2 dias. Hoje, apresentou queda da própria altura ao se levantar. Antecedente pessoal: hipertensão arterial em uso de metoprolol e hidroclorotiazida. Realizou ECG. A conduta é:","alternatives":[{"key":"a","text":"Realizar cateterismo cardíaco."},{"key":"b","text":"Suspender hidroclorotiazida e repor potássio."},{"key":"c","text":"Realizar estudo eletrofisiológico."},{"key":"d","text":"Inserir marca-passo temporário."}],"correct_key":"d","explanation":"ATENÇÃO: ECG citado mas não capturado na extração do PDF. Repetição do mesmo caso-conceito de outra questão do lote — bradicardia sintomática grave em uso de betabloqueador, indicando marca-passo temporário.","theme":"arr_brady","difficulty":"medio","reviewed":false,"created_at":"2026-07-27T00:00:00.000Z"},
-{"id":"brady_030","statement":"Assinale a alternativa que caracteriza o bloqueio atrioventricular de 3º grau.","alternatives":[{"key":"a","text":"Aumento fixo do intervalo PR."},{"key":"b","text":"Aumento progressivo do intervalo PR até interrupção do estímulo, com onda P sem preceder o complexo QRS."},{"key":"c","text":"Ocorre interrupção da condução AV sem prévio alongamento do intervalo PR."},{"key":"d","text":"Toda onda P é seguida de complexo QRS."},{"key":"e","text":"Inexistência de relação entre atividade atrial e ventricular."}],"correct_key":"e","explanation":"O BAV de 3º grau (total) é definido pela dissociação completa entre a atividade atrial e ventricular, sem qualquer relação entre ondas P e complexos QRS.","theme":"arr_brady","difficulty":"facil","reviewed":false,"created_at":"2026-07-27T00:00:00.000Z"},
-{"id":"brady_031","statement":"Idosa, 92 anos, é trazida por familiares com descrição de quadro compatível com síncope ao levantar-se da cama. Na sala de emergência, encontra-se assintomática no leito. Ao exame, apresentava-se lúcida, orientada, com PA = 136x82mmHg; FC = 30bpm; FR = 22irpm. O ritmo cardíaco era regular com bulhas normofonéticas, sem sopros. Presença de onda \"a em canhão\" no pulso venoso. O primeiro exame complementar a ser solicitado e a alteração esperada são, respectivamente:","alternatives":[{"key":"a","text":"radiografia do tórax → pneumotórax hipertensivo."},{"key":"b","text":"eletrocardiograma → supradesnivelamento do segmento ST compatível com infarto agudo do miocárdio."},{"key":"c","text":"eletrocardiograma → bloqueio atrioventricular total (terceiro grau)."},{"key":"d","text":"gasometria arterial → alcalose respiratória."},{"key":"e","text":"ecocardiograma → tamponamento cardíaco."}],"correct_key":"c","explanation":"FC extremamente baixa (30 bpm) com ritmo regular e onda \"a em canhão\" no pulso venoso (átrio contraindo contra a tricúspide fechada, por dissociação AV) são o quadro clássico de bloqueio atrioventricular total — o eletrocardiograma é o exame inicial indicado para confirmar o diagnóstico.","theme":"arr_brady","difficulty":"medio","reviewed":false,"created_at":"2026-07-28T00:00:00.000Z"}
-]}
+{
+  "questions": [
+    {
+      "id": "brady_001",
+      "statement": "Paciente masculino, 60 anos, tem PA = 140x85 mmHg e pesa 98 kg. Relata que não está se sentindo bem, seu ECG não tem onda P, com FC = 44 bpm e os complexos QRS ocorrem regularmente. Qual o diagnóstico para essa condição?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Bloqueio atrioventricular de segundo grau."
+        },
+        {
+          "key": "b",
+          "text": "Bloqueio atrioventricular avançado."
+        },
+        {
+          "key": "c",
+          "text": "Bloqueio sinoatrial de segundo grau."
+        },
+        {
+          "key": "d",
+          "text": "Bloqueio sinoatrial de terceiro grau."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Ausência completa de onda P com QRS regular (ritmo de escape) sugere falência total da atividade sinusal/saída sinoatrial (bloqueio sinoatrial de 3º grau/parada sinusal com ritmo de escape) — se fosse BAV, ainda haveria ondas P dissociadas visíveis.",
+      "theme": "arr_brady",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "brady_002",
+      "statement": "Homem, 50 anos, hipertenso, em uso de propranolol 120 mg/dia, procura a unidade de pronto atendimento por palpitação há uma semana. O exame clínico é normal, com frequência cardíaca de 56 bpm. O ECG realizado na unidade de saúde está mostrado a seguir. Qual o ritmo cardíaco mostrado no eletrocardiograma?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "BAV de segundo grau Mobitz I."
+        },
+        {
+          "key": "b",
+          "text": "Bradicardia sinusal."
+        },
+        {
+          "key": "c",
+          "text": "BAV de primeiro grau."
+        },
+        {
+          "key": "d",
+          "text": "BAV de segundo grau Mobitz II."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "ATENÇÃO: traçado de ECG citado mas não capturado na extração do PDF. Resposta segue o gabarito oficial da fonte (BAV 2º grau Mobitz II), achado compatível com uso de betabloqueador em dose alta (propranolol 120mg/dia).",
+      "theme": "arr_brady",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "brady_003",
+      "statement": "Paciente de 68 anos apresenta quadro progressivo de dispneia. Hoje, apresentou quadro de tontura seguida de síncope. O traçado do ECG está a seguir. Nesse momento, com relação ao diagnóstico e à respectiva conduta, é correto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "bradicardia sinusal, dopamina em infusão contínua."
+        },
+        {
+          "key": "b",
+          "text": "bloqueio atrioventricular de 1º grau, bolus de atropina."
+        },
+        {
+          "key": "c",
+          "text": "bloqueio atrioventricular de 2º grau Mobitz I, bolus de atropina."
+        },
+        {
+          "key": "d",
+          "text": "bloqueio atrioventricular de 2º grau Mobitz II, colocação de marca-passo externo."
+        },
+        {
+          "key": "e",
+          "text": "bloqueio atrioventricular, colocação de marca-passo externo."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "ATENÇÃO: traçado de ECG citado mas não capturado na extração do PDF. Síncope com bradicardia sintomática grave: BAV 2º grau Mobitz II tem alto risco de progressão para BAVT, sendo tratado com marca-passo (transcutâneo/externo), não com atropina, que tem eficácia limitada e pode ser deletéria em bloqueios infra-hissianos.",
+      "theme": "arr_brady",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "brady_004",
+      "statement": "Paciente em recuperação, na UTI, na 1ª hora após revascularização miocárdica, em ventilação mecânica, com marcapasso temporário. Seu médico cardiologista resolve testar o grau de dependência do marca-passo epimiocárdico, que está em 70 bpm e com captura ventricular adequada. Ao ser desligado o gerador do marca-passo, o médico verifica, no monitor, que o gráfico do pulso venoso jugular passa a demonstrar uma onda a \"em canhão\". Ao olhar para o monitor cardíaco, ele observa que o traçado eletrocardiográfico passou a demonstrar a presença de",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Bradicardia sinusal."
+        },
+        {
+          "key": "b",
+          "text": "Flutter atrial."
+        },
+        {
+          "key": "c",
+          "text": "Bloqueio atrioventricular total."
+        },
+        {
+          "key": "d",
+          "text": "Bloqueio 1 grau."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A onda \"a\" em canhão ocorre quando o átrio se contrai contra a válvula tricúspide fechada, achado clássico de dissociação atrioventricular (AV total/BAVT), confirmando dependência do marca-passo ao ser desligado.",
+      "theme": "arr_brady",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "brady_007",
+      "statement": "Mulher, 63 anos de idade, admitida na sala de emergência com quadro de confusão mental e letargia há duas horas. Relatou também episódio de tontura ao se levantar da cama. Previamente independente para atividades básicas e instrumentais da vida diária. Com diagnóstico de hipertensão arterial sistêmica há 10 anos, infarto agudo do miocárdio há 3 anos. Faz uso de amlodipina 10mg por dia, AAS 100mg por dia e atorvastatina 40mg por dia. Ao exame clínico: abertura ocular ao chamado, resposta verbal confusa e obediência aos comandos. Frequência cardíaca: 38 batimentos/minuto; pressão arterial: 92 x 66 mmHg; frequência respiratória: 20 incursões/minuto; Saturação de O2: 96% em ar ambiente. Sem outras alterações. Foi obtido um eletrocardiograma de 12 derivações, reproduzido a seguir: Qual é a primeira conduta terapêutica que deve ser adotada neste momento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Noradrenalina 0,1 mcg/kg/min por via intravenosa em infusão contínua."
+        },
+        {
+          "key": "b",
+          "text": "Dopamina 1 mcg/kg/min por via intravenosa em infusão contínua."
+        },
+        {
+          "key": "c",
+          "text": "Adrenalina 1mg administrada por via intravenosa em bolus."
+        },
+        {
+          "key": "d",
+          "text": "Atropina 1mg administrada por via intravenosa em bolus."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Bradicardia sintomática (confusão mental, hipotensão, pré-síncope) tem como primeira conduta pelo algoritmo ACLS a atropina 1mg IV em bolus, antes de escalonar para drogas vasoativas em infusão ou marca-passo.",
+      "theme": "arr_brady",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "brady_008",
+      "statement": "Mulher, 63 anos de idade, admitida na sala de emergência com quadro de confusão mental e letargia há duas horas. Relatou também episódio de tontura ao se levantar da cama. Previamente independente para atividades básicas e instrumentais da vida diária. Com diagnóstico de hipertensão arterial sistêmica há 10 anos, infarto agudo do miocárdio há 3 anos. Faz uso de amlodipina 10mg por dia, AAS 100mg por dia e atorvastatina 40mg por dia. Ao exame clínico: abertura ocular ao chamado, resposta verbal confusa e obediência aos comandos. Frequência cardíaca: 38 batimentos/minuto; pressão arterial: 92 x 66 mmHg; frequência respiratória: 20 incursões/minuto; Saturação de O₂: 96% em ar ambiente. Sem outras alterações. Foi obtido um eletrocardiograma de 12 derivações, reproduzido a seguir: Quais são os diagnósticos eletrocardiográficos?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Bloqueio atrioventricular de 2° grau Mobitz tipo II, bloqueio de ramo direito e bloqueio da divisão ântero-superior."
+        },
+        {
+          "key": "b",
+          "text": "Bloqueio atrioventricular de 2° grau Mobitz tipo I, bloqueio de ramo esquerdo e área elétrica inativa de parede inferior."
+        },
+        {
+          "key": "c",
+          "text": "Bloqueio atrioventricular de 2° grau Mobitz tipo I, bloqueio de ramo direito e bloqueio da divisão ântero-superior."
+        },
+        {
+          "key": "d",
+          "text": "Bloqueio atrioventricular de 2° grau Mobitz tipo II, bloqueio de ramo esquerdo e área elétrica inativa de parede inferior."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "ATENÇÃO: ECG de 12 derivações citado mas não capturado na extração do PDF. Resposta segue o gabarito oficial (BAV 2º grau Mobitz II associado a bloqueio bifascicular — ramo direito + divisão ântero-superior), configurando doença infra-hissiana do sistema de condução, coerente com a gravidade clínica da paciente.",
+      "theme": "arr_brady",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "brady_009",
+      "statement": "A indicação de marcapasso definitivo nos bloqueios atrioventriculares são todos abaixo, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "BAV do 2ºgrau do tipo 2 ou mobitz 2"
+        },
+        {
+          "key": "b",
+          "text": "BAV do 2º grau do tipo 2:1"
+        },
+        {
+          "key": "c",
+          "text": "BAV do 3ºgrau"
+        },
+        {
+          "key": "d",
+          "text": "BAV do 2º grau do Tipo 1 ou mobitz 1"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O BAV 2º grau Mobitz I (Wenckebach) geralmente não é indicação absoluta de marca-passo definitivo (salvo se sintomático ou infra-hissiano), diferente de Mobitz II, 2:1 e BAVT, que são indicação independentemente de sintomas.",
+      "theme": "arr_brady",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "brady_010",
+      "statement": "Assinale a alternativa que não faz parte da doença do nó sinusal:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Síndrome bradicardia-taquicardia"
+        },
+        {
+          "key": "b",
+          "text": "Pausa sinusal"
+        },
+        {
+          "key": "c",
+          "text": "Taquicardia por reentrada nodal"
+        },
+        {
+          "key": "d",
+          "text": "Bradicardia sinusal"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A taquicardia por reentrada nodal (TRN) é uma arritmia por reentrada no nó AV, sem relação com a disfunção do nó sinusal — as demais são manifestações clássicas da doença do nó sinusal.",
+      "theme": "arr_brady",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "brady_012",
+      "statement": "Mulher de 58 anos de idade vem à unidade básica de saúde pois apresentou quadro de escurecimento visual durante prática de atividade física. Não houve perda da consciência. Não tem antecedentes mórbidos relevantes. No exame clínico, frequência cardíaca 58 bpm. O restante do exame clínico é normal. Realizou o eletrocardiograma apresentado a seguir. Qual é a conclusão do laudo do eletrocardiograma?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Eletrocardiograma normal."
+        },
+        {
+          "key": "b",
+          "text": "Fibrilação atrial de baixa resposta ventricular."
+        },
+        {
+          "key": "c",
+          "text": "Bloqueio atrioventricular de 2º grau, Mobitz I."
+        },
+        {
+          "key": "d",
+          "text": "Bradicardia sinusal."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "ATENÇÃO: traçado de ECG citado mas não capturado na extração do PDF — resposta segue o gabarito oficial (BAV 2º grau Mobitz I), achado frequentemente incidental/benigno em pacientes hígidos com alto tônus vagal, especialmente durante esforço.",
+      "theme": "arr_brady",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "brady_013",
+      "statement": "Paciente do sexo masculino, 69 anos, com antecedente de hipertensão arterial, diabetes mellitus tipo 2, doença do refluxo gastroesofágico, depressão e demência procurou o pronto-socorro com quadro de fraqueza e tontura há 1 hora. Estava em uso de enalapril, atenolol, metformina, AAS, pantoprazol e amitriptilina. Na ocasião, seus sinais vitais eram PA: 140x80 mmHg, FC: 42 bpm, FR: 16 ipm, SatO2: 98%, dextro: 150 mg/dL. Realizou o ECG abaixo. Diante do caso clínico e ECG, o diagnóstico e sua causa mais provável:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Bloqueio atrioventricular do 1o grau − Uso de pantoprazol."
+        },
+        {
+          "key": "b",
+          "text": "Bloqueio atrioventricular do 2o grau Mobitiz 1 − Uso de atenolol."
+        },
+        {
+          "key": "c",
+          "text": "Bloqueio atrioventricular do 3o grau − Uso de amitriptilina."
+        },
+        {
+          "key": "d",
+          "text": "Bloqueio atrioventricular do 2o grau Mobitiz 2 − Uso de metformina."
+        },
+        {
+          "key": "e",
+          "text": "Bloqueio atrioventricular do 3o grau − Uso de enalapril."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "ATENÇÃO: traçado de ECG citado mas não capturado na extração do PDF. Resposta segue o gabarito oficial: BAVT atribuído ao uso de amitriptilina (antidepressivo tricíclico com efeitos cronotrópicos/dromotrópicos negativos e cardiotoxicidade conhecida), e não ao betabloqueador atenolol, que classicamente causa graus menores de bloqueio.",
+      "theme": "arr_brady",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "brady_014",
+      "statement": "O diagnóstico eletrocardiográfico e a melhor conduta a ser tomada seriam:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Bradicardia sinusal; adrenalina 1mg IV em bolus."
+        },
+        {
+          "key": "b",
+          "text": "Bloqueio atrioventricular de segundo grau tipo I; chamar especialista."
+        },
+        {
+          "key": "c",
+          "text": "Bloqueio atrioventricular total; marcapasso transcutâneo."
+        },
+        {
+          "key": "d",
+          "text": "Bloqueio atrioventricular total; Dobutamina IV."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "ATENÇÃO: traçado de ECG citado mas não capturado na extração do PDF. Diante de BAVT, a conduta padrão pelo algoritmo de bradicardia instável é o marca-passo transcutâneo, não drogas inotrópicas isoladas.",
+      "theme": "arr_brady",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "brady_015",
+      "statement": "Paciente de 73 anos de idade refere quadro de tontura há 3 dias, sobretudo, ao levantar-se. O eletrocardiograma realizado é mostrado a seguir. Com esses dados, é correto afirmar que",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "pode ser consequência do uso de medicamentos, por exemplo, betabloqueadores, verapamil ou amiodarona."
+        },
+        {
+          "key": "b",
+          "text": "pode ser secundário a distúrbio metabólico, por exemplo, hipercalemia, hipercalcemia ou hipernatremia."
+        },
+        {
+          "key": "c",
+          "text": "pode ser uma síncope reflexa (vasovagal), e o exame de escolha é o teste de inclinação ortostática (tilt table test)."
+        },
+        {
+          "key": "d",
+          "text": "se recomenda pedir exames laboratoriais, radiografia de tórax, Holter e ecocardiograma, com retorno em 2 semanas."
+        },
+        {
+          "key": "e",
+          "text": "sugere o diagnóstico de hipotensão postural, sendo recomendado o aumento da ingestão de sal e líquido."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Bradicardia/bloqueio ao ECG pode ser induzido por drogas cronotrópicas/dromotrópicas negativas (betabloqueador, verapamil, amiodarona), causa reversível e frequente a ser investigada antes de outras hipóteses.",
+      "theme": "arr_brady",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "brady_016",
+      "statement": "Paciente de 54 anos apresenta quadro de tontura e repetidas síncopes há uma semana, aproximadamente. O traçado do monitor está abaixo. Neste momento, a conduta mais adequada é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Infusão contínua de epinefrina 10 mcg/minuto"
+        },
+        {
+          "key": "b",
+          "text": "Atropina 1mg"
+        },
+        {
+          "key": "c",
+          "text": "Colocação de marcapasso externo"
+        },
+        {
+          "key": "d",
+          "text": "Infusão contínua de dopamina 10 mcg/kg/minuto"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "ATENÇÃO: traçado do monitor citado mas não capturado na extração do PDF. Síncopes recorrentes com bradicardia grave sugerem alto grau de bloqueio (provavelmente BAVT/Mobitz II), justificando marca-passo transcutâneo imediato em vez de apenas drogas.",
+      "theme": "arr_brady",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "brady_017",
+      "statement": "Paciente feminina, 06 anos, será submetida à cirurgia eletiva e ao ser examinada notou-se ritmo cardíaco irregular, sem outros sinais ou sintomas. Feito ECG que demonstrou: Baseado na história e ECG, o diagnóstico provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Arritmia sinusal."
+        },
+        {
+          "key": "b",
+          "text": "Bloqueio AV de segundo grau."
+        },
+        {
+          "key": "c",
+          "text": "Bloqueio AV de primeiro grau."
+        },
+        {
+          "key": "d",
+          "text": "Escape juncional por provável distúrbio eletrolítico."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "ATENÇÃO: traçado de ECG citado mas não capturado na extração do PDF. Resposta segue o gabarito oficial: BAV 2º grau (provavelmente Mobitz I/Wenckebach), achado incidental benigno comum em crianças/jovens assintomáticos por alto tônus vagal, sem necessidade de intervenção antes da cirurgia eletiva.",
+      "theme": "arr_brady",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "brady_018",
+      "statement": "Paciente de 84 anos, evoluindo com quadros de síndromes convulsivas tônico-clônicas de repetição, que se iniciam ao repouso, não acompanhadas de liberação esfincteriana. Procurou consultório do cardiologista, onde chegou deambulando normalmente e, no meio da consulta, apresentou uma síncope, seguida de crise convulsiva. Nesse momento, foi realizado eletrocardiograma abaixo, que confirmou o diagnóstico:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Bloqueio átrio-ventricular avançado alternante."
+        },
+        {
+          "key": "b",
+          "text": "Bloqueio átrio-ventricular do segundo grau."
+        },
+        {
+          "key": "c",
+          "text": "Bloqueio átrio-ventricular do tipo 2:1."
+        },
+        {
+          "key": "d",
+          "text": "Bloqueio átrio-ventricular do primeiro grau."
+        },
+        {
+          "key": "e",
+          "text": "Bloqueio átrio-ventricular total."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Síncope seguida de movimentos convulsivos sem liberação esfincteriana, em idoso, é o quadro clássico de síncope convulsiva (crise de Stokes-Adams) por BAVT — a hipoperfusão cerebral transitória mimetiza uma crise epiléptica.",
+      "theme": "arr_brady",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "brady_019",
+      "statement": "Qual das drogas abaixo não desencadeia bradicardia?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Atenolol"
+        },
+        {
+          "key": "b",
+          "text": "Digoxina"
+        },
+        {
+          "key": "c",
+          "text": "Amiodarona"
+        },
+        {
+          "key": "d",
+          "text": "Anlodipino"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O anlodipino, bloqueador de canal de cálcio di-hidropiridínico, atua predominantemente na vasculatura periférica sem efeito cronotrópico negativo relevante, ao contrário de betabloqueador, digoxina e amiodarona.",
+      "theme": "arr_brady",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "brady_020",
+      "statement": "Emília, 48 anos, natural de Santarém/PA, tem queixas de palpitações há tempos, com piora nos últimos dois meses. Apresentou dois episódios de síncope nesse período e deu entrada no serviço de emergência com queixas de astenia, tontura, turvação visual, falta de ar, inchaço nas pernas e desconforto torácico. Observe o ECG abaixo e indique qual a possível causa dos sintomas e a melhor conduta inicial.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Insuficiência cardíaca congestiva descompensada. Digital, IECA, betabloqueador, espironolactona e furosemida."
+        },
+        {
+          "key": "b",
+          "text": "Síndrome coronariana aguda. Internação com dupla antiagregação, anticoagulação, estatina e cateterismo."
+        },
+        {
+          "key": "c",
+          "text": "Cardiopatia Chagásica com dissociação atrioventricular. Marcapasso."
+        },
+        {
+          "key": "d",
+          "text": "Taquicardia atrial com algumas extrassístoles atriais bloqueadas. Amiodarona."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Procedência de área endêmica para Chagas (Santarém/PA) associada a síncope, sinais de congestão e ECG com dissociação AV é o quadro clássico de cardiopatia chagásica com BAV avançado, tratada com marca-passo.",
+      "theme": "arr_brady",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "brady_021",
+      "statement": "Paciente de 67 anos refere tontura, mal-estar e dispneia. Também ter tido no passado três IAM. A PA encontra-se em 90x50 mmHg. O traçado do monitor cardíaco está abaixo. O diagnóstico e a conduta a serem tomadas neste momento, são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "BAV de segundo grau Mobitz 1 e administração de atropina 1 mg."
+        },
+        {
+          "key": "b",
+          "text": "BAV de primeiro grau e administração de atropina 1 mg."
+        },
+        {
+          "key": "c",
+          "text": "BAV de terceiro e colocação de marca-passo."
+        },
+        {
+          "key": "d",
+          "text": "BAV de segundo grau Mobitz 2 e colocação de marca-passo externo."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "ATENÇÃO: traçado do monitor citado mas não capturado na extração do PDF. Bradicardia instável (hipotensão, sintomática) em cardiopata isquêmico grave — resposta segue o gabarito oficial (BAVT, marca-passo).",
+      "theme": "arr_brady",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "brady_022",
+      "statement": "Paciente de 62 anos, com quadro de síncope, confusão mental e dispneia. Ao exame apresenta uma PA de 70x30mmHg e FC de 32 batimentos por minuto. A instabilidade é devida a arritmia. Considerando este cenário, são condutas adequadas a serem tomadas, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar Marcapasso Provisório Transcutâneo (MPTC)."
+        },
+        {
+          "key": "b",
+          "text": "Iniciar dopamina em bomba de infusão contínua."
+        },
+        {
+          "key": "c",
+          "text": "Iniciar adrenalina na dose de 6 microgramas por minuto."
+        },
+        {
+          "key": "d",
+          "text": "Iniciar amiodarona na dose de 0,5 miligrama por minuto."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Amiodarona é droga antiarrítmica usada em taquiarritmias, não faz parte do algoritmo de bradicardia instável (que inclui atropina, marca-passo transcutâneo, dopamina e adrenalina em infusão) — é a conduta inadequada/exceção.",
+      "theme": "arr_brady",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "brady_023",
+      "statement": "Considerando o ritmo eletrocardiográfico apresentado na figura precedente - derivação: D2; velocidade do papel 25 mm/seg; calibração: 1cm = 1 mV -, julgue o seguinte item. A arritmia observada nessa tira de ritmo é a extrassístole supraventricular com pausa compensatória.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "ATENÇÃO: tira de ritmo citada mas não capturada na extração do PDF — resposta segue o gabarito oficial (Errado); extrassístoles supraventriculares tipicamente geram pausa não-compensatória (ao contrário das ventriculares, que geram pausa compensatória), tornando a afirmativa incorreta.",
+      "theme": "arr_brady",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "brady_024",
+      "statement": "Paciente masculino, de 82 anos, queixa-se de tontura e cansaço há 2 dias. Hoje, apresentou queda da própria altura ao se levantar. Antecedente pessoal: hipertensão arterial, em uso de metoprolol e hidroclorotiazida. Realizou o ECG a seguir. Nesse caso, a conduta CORRETA é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Realizar cateterismo cardíaco."
+        },
+        {
+          "key": "b",
+          "text": "Suspender hidroclorotiazida e repor potássio."
+        },
+        {
+          "key": "c",
+          "text": "Realizar estudo eletrofisiológico."
+        },
+        {
+          "key": "d",
+          "text": "Inserir marca-passo temporário."
+        },
+        {
+          "key": "e",
+          "text": "Realizar cintilografia eletiva."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "ATENÇÃO: traçado de ECG citado mas não capturado na extração do PDF. Quadro de bradicardia sintomática grave (queda por síncope/pré-síncope) em uso de betabloqueador sugere bloqueio avançado, indicando marca-passo temporário como conduta imediata.",
+      "theme": "arr_brady",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "brady_025",
+      "statement": "Paciente diabética (mas não hipertensa) refere ao geriatra que a acompanha que, há um ano, vem apresentando piora da astenia, desânimo intenso e, por 2 vezes, perdeu a consciência enquanto assistia à televisão. Durante a investigação, evidenciando o ritmo cardíaco da paciente, demonstrado no traçado abaixo. Qual a conduta a ser tomada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Realização de cardioversão elétrica."
+        },
+        {
+          "key": "b",
+          "text": "Início de medicação antirrítmica."
+        },
+        {
+          "key": "c",
+          "text": "Observação clínica com Holter a cada 6 meses."
+        },
+        {
+          "key": "d",
+          "text": "Implante de marcapasso definitivo."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "ATENÇÃO: traçado de ECG citado mas não capturado na extração do PDF. Síncope recorrente associada a bradiarritmia documentada é indicação clássica de marca-passo definitivo.",
+      "theme": "arr_brady",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "brady_026",
+      "statement": "Você avalia uma paciente de 42 anos de idade com bradicardia na sala de emergência. Realizado o eletrocardiograma abaixo. Qual o diagnóstico eletrocardiográfico?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Bloqueio atrioventricular Mobitz I."
+        },
+        {
+          "key": "b",
+          "text": "Bloqueio atrioventricular Mobitz II."
+        },
+        {
+          "key": "c",
+          "text": "Bradicardia sinusal com escape."
+        },
+        {
+          "key": "d",
+          "text": "Bloqueio atrioventricular total."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "ATENÇÃO: traçado de ECG citado mas não capturado na extração do PDF — resposta segue o gabarito oficial (bradicardia sinusal com batimento de escape).",
+      "theme": "arr_brady",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "brady_027",
+      "statement": "Mulher, 89 anos de idade, sofreu uma fratura de quadril e foi submetida à cirurgia para correção. Na recuperação pós-anestésica a paciente desenvolve bradicardia sinusal, com uma frequência cardíaca = 46 batimentos/minuto e temperatura corporal aferida de 35 graus centígrados. Pressão arterial é de 110 x 72 mmHg. Qual é o tratamento apropriado para a bradicardia desta paciente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Atropina."
+        },
+        {
+          "key": "b",
+          "text": "Inserção de um marca-passo temporário."
+        },
+        {
+          "key": "c",
+          "text": "Aquecer a paciente."
+        },
+        {
+          "key": "d",
+          "text": "Adrenalina."
+        },
+        {
+          "key": "e",
+          "text": "Transfusão de 2 unidades de hemácias."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Hipotermia leve (35°C) é causa reversível de bradicardia sinusal no pós-operatório de idosos — o tratamento é o reaquecimento, não drogas cronotrópicas ou marca-passo, já que a paciente está hemodinamicamente estável.",
+      "theme": "arr_brady",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "brady_028",
+      "statement": "Paciente masculino de 58 anos é admitido à sala de emergência com IAM de parede inferior associado ao bloqueio atrioventricular do 3° grau, com escape juncional. O intervalo de tempo entre o início da dor e a chegada ao hospital foi de 50 minutos. Assinale o mecanismo mais provável do bloqueio atrioventricular:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Isquemia da artéria do nódulo atrioventricular."
+        },
+        {
+          "key": "b",
+          "text": "Vagal."
+        },
+        {
+          "key": "c",
+          "text": "Doença de Lenègre."
+        },
+        {
+          "key": "d",
+          "text": "Doença de Lève."
+        },
+        {
+          "key": "e",
+          "text": "Hiperaldosteronismo secundário."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "No IAM de parede inferior, a artéria do nó AV (ramo da coronária direita na maioria dos pacientes) é frequentemente acometida, causando BAV nodal com escape juncional (QRS estreito), tipicamente transitório.",
+      "theme": "arr_brady",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "brady_029",
+      "statement": "Homem, 72 anos, queixa-se de tontura e cansaço há 2 dias. Hoje, apresentou queda da própria altura ao se levantar. Antecedente pessoal: hipertensão arterial em uso de metoprolol e hidroclorotiazida. Realizou ECG. A conduta é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Realizar cateterismo cardíaco."
+        },
+        {
+          "key": "b",
+          "text": "Suspender hidroclorotiazida e repor potássio."
+        },
+        {
+          "key": "c",
+          "text": "Realizar estudo eletrofisiológico."
+        },
+        {
+          "key": "d",
+          "text": "Inserir marca-passo temporário."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "ATENÇÃO: ECG citado mas não capturado na extração do PDF. Repetição do mesmo caso-conceito de outra questão do lote — bradicardia sintomática grave em uso de betabloqueador, indicando marca-passo temporário.",
+      "theme": "arr_brady",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "brady_030",
+      "statement": "Assinale a alternativa que caracteriza o bloqueio atrioventricular de 3º grau.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aumento fixo do intervalo PR."
+        },
+        {
+          "key": "b",
+          "text": "Aumento progressivo do intervalo PR até interrupção do estímulo, com onda P sem preceder o complexo QRS."
+        },
+        {
+          "key": "c",
+          "text": "Ocorre interrupção da condução AV sem prévio alongamento do intervalo PR."
+        },
+        {
+          "key": "d",
+          "text": "Toda onda P é seguida de complexo QRS."
+        },
+        {
+          "key": "e",
+          "text": "Inexistência de relação entre atividade atrial e ventricular."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "O BAV de 3º grau (total) é definido pela dissociação completa entre a atividade atrial e ventricular, sem qualquer relação entre ondas P e complexos QRS.",
+      "theme": "arr_brady",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    }
+  ]
+}

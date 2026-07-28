@@ -4,11 +4,26 @@
       "id": "arr_001",
       "statement": "Assinale a opção que indica os medicamentos que podem, respectivamente, determinar hipercalemia e síndrome do intervalo QT prolongado.",
       "alternatives": [
-        {"key": "a", "text": "Furosemida e claritromicina."},
-        {"key": "b", "text": "Furosemida e ciprofloxacin."},
-        {"key": "c", "text": "Furosemida e cloroquina."},
-        {"key": "d", "text": "Furosemida e amiodarona."},
-        {"key": "e", "text": "Espironolactona e eritromicina."}
+        {
+          "key": "a",
+          "text": "Furosemida e claritromicina."
+        },
+        {
+          "key": "b",
+          "text": "Furosemida e ciprofloxacin."
+        },
+        {
+          "key": "c",
+          "text": "Furosemida e cloroquina."
+        },
+        {
+          "key": "d",
+          "text": "Furosemida e amiodarona."
+        },
+        {
+          "key": "e",
+          "text": "Espironolactona e eritromicina."
+        }
       ],
       "correct_key": "e",
       "explanation": "Furosemida é diurético de alça poupador de potássio negativo (causa hipoCALEMIA, não hiperK). A espironolactona, antagonista da aldosterona, é a droga classicamente associada a hipercalemia entre as opções. Eritromicina (macrolídeo) é droga clássica de prolongamento de QT.",
@@ -22,10 +37,22 @@
       "id": "arr_002",
       "statement": "O Bloqueio Atrioventricular - BAV pode ser classificado:",
       "alternatives": [
-        {"key": "a", "text": "Anatomicamente, de acordo com o sitio do bloqueio, em nodal AV, intra-His e infra-His."},
-        {"key": "b", "text": "Anatomicamente, de acordo com o sitio do bloqueio, em nodal AV, intra-His e nao infra-His."},
-        {"key": "c", "text": "Anatomicamente, de acordo com o sitio do bloqueio, em nodal AV e nao infra-His."},
-        {"key": "d", "text": "Anatomicamente, sem considerar o sitio do bloqueio, em nodal AV, intra-His e infra-His."}
+        {
+          "key": "a",
+          "text": "Anatomicamente, de acordo com o sitio do bloqueio, em nodal AV, intra-His e infra-His."
+        },
+        {
+          "key": "b",
+          "text": "Anatomicamente, de acordo com o sitio do bloqueio, em nodal AV, intra-His e nao infra-His."
+        },
+        {
+          "key": "c",
+          "text": "Anatomicamente, de acordo com o sitio do bloqueio, em nodal AV e nao infra-His."
+        },
+        {
+          "key": "d",
+          "text": "Anatomicamente, sem considerar o sitio do bloqueio, em nodal AV, intra-His e infra-His."
+        }
       ],
       "correct_key": "a",
       "explanation": "Classificação anatômica clássica do BAV: nodal (AV), intra-Hissiano e infra-Hissiano, conforme o sítio do bloqueio na condução.",
@@ -39,10 +66,22 @@
       "id": "arr_003",
       "statement": "A maioria dos pacientes com Doença do Nó Sinusal apresenta condução atrioventricular preservada. Sendo correto que:",
       "alternatives": [
-        {"key": "a", "text": "Estimulação do VD tem sido associada a consequências fisiológicas positivas como resultado da dissincronia ventricular: remodelamento e redução da fração de ejeção do VE (FEVE) e insuficiência mitral funcional."},
-        {"key": "b", "text": "Estimulação do VD tem sido associada a consequências fisiológicas negativas como resultado da dissincronia ventricular: remodelamento e redução da fração de ejeção do VE (FEVE) e insuficiência mitral funcional."},
-        {"key": "c", "text": "Estimulação do VD tem sido associada a consequências fisiológicas negativas como resultado da dissincronia ventricular: remodelamento e redução da fração de ejeção do VE (FEVE) e não insuficiência mitral funcional."},
-        {"key": "d", "text": "Estimulação do VE tem sido associada a consequências fisiológicas negativas como resultado da dissincronia ventricular: remodelamento e redução da fração de ejeção do VE (FEVE) e insuficiência mitral funcional."}
+        {
+          "key": "a",
+          "text": "Estimulação do VD tem sido associada a consequências fisiológicas positivas como resultado da dissincronia ventricular: remodelamento e redução da fração de ejeção do VE (FEVE) e insuficiência mitral funcional."
+        },
+        {
+          "key": "b",
+          "text": "Estimulação do VD tem sido associada a consequências fisiológicas negativas como resultado da dissincronia ventricular: remodelamento e redução da fração de ejeção do VE (FEVE) e insuficiência mitral funcional."
+        },
+        {
+          "key": "c",
+          "text": "Estimulação do VD tem sido associada a consequências fisiológicas negativas como resultado da dissincronia ventricular: remodelamento e redução da fração de ejeção do VE (FEVE) e não insuficiência mitral funcional."
+        },
+        {
+          "key": "d",
+          "text": "Estimulação do VE tem sido associada a consequências fisiológicas negativas como resultado da dissincronia ventricular: remodelamento e redução da fração de ejeção do VE (FEVE) e insuficiência mitral funcional."
+        }
       ],
       "correct_key": "b",
       "explanation": "A estimulação crônica do ventrículo direito (marcapasso convencional em VD) causa dissincronia ventricular, associada a consequências fisiológicas NEGATIVAS: remodelamento adverso, redução da FEVE e insuficiência mitral funcional — motivo pelo qual estratégias de estimulação fisiológica (feixe de His/ramo esquerdo) vêm sendo preferidas.",
@@ -56,10 +95,22 @@
       "id": "arr_004",
       "statement": "Em relação à diferenciação dos tipos de BAV de 2º grau, assinale a alternativa correta.",
       "alternatives": [
-        {"key": "a", "text": "No BAV de 2º grau Mobitz I (Wenckebach), olhando a onda p bloqueada, há intervalo PR maior no batimento conduzido antes que no batimento conduzido depois."},
-        {"key": "b", "text": "No BAV de 2º grau Mobitz II, o intervalo PR se alonga progressivamente antes do bloqueio."},
-        {"key": "c", "text": "No BAV 2:1, é sempre possível distinguir se se trata de Mobitz I ou Mobitz II apenas pelo ECG de repouso."},
-        {"key": "d", "text": "O BAV Mobitz I é geralmente mais grave e tem maior risco de evolução para bloqueio total que o Mobitz II."}
+        {
+          "key": "a",
+          "text": "No BAV de 2º grau Mobitz I (Wenckebach), olhando a onda p bloqueada, há intervalo PR maior no batimento conduzido antes que no batimento conduzido depois."
+        },
+        {
+          "key": "b",
+          "text": "No BAV de 2º grau Mobitz II, o intervalo PR se alonga progressivamente antes do bloqueio."
+        },
+        {
+          "key": "c",
+          "text": "No BAV 2:1, é sempre possível distinguir se se trata de Mobitz I ou Mobitz II apenas pelo ECG de repouso."
+        },
+        {
+          "key": "d",
+          "text": "O BAV Mobitz I é geralmente mais grave e tem maior risco de evolução para bloqueio total que o Mobitz II."
+        }
       ],
       "correct_key": "a",
       "explanation": "No Mobitz I (Wenckebach), o PR se alonga progressivamente até o bloqueio; assim, o PR do batimento conduzido imediatamente ANTES da onda P bloqueada é o mais longo da sequência, maior que o PR do primeiro batimento conduzido APÓS o bloqueio (que reinicia curto). Mobitz II tem PR constante (não progressivo); no BAV 2:1 nem sempre é possível diferenciar Mobitz I de II só pelo ECG de repouso; e o Mobitz II é o de maior gravidade/risco de progressão para BAVT, não o Mobitz I.",
@@ -73,11 +124,26 @@
       "id": "arr_005",
       "statement": "Assinale a alternativa que apresenta o achado propedêutico esperado em um paciente com estenose mitral grave.",
       "alternatives": [
-        {"key": "a", "text": "reforço pré-sistólico + sopro holossistólico"},
-        {"key": "b", "text": "reforço pré-sistólico + ruflar diastólico"},
-        {"key": "c", "text": "reforço pré-sistólico + estalido de abertura mitral"},
-        {"key": "d", "text": "quarta bulha do VE + hiperfonese de B2"},
-        {"key": "e", "text": "terceira bulha do VE + estalido de abertura mitral"}
+        {
+          "key": "a",
+          "text": "reforço pré-sistólico + sopro holossistólico"
+        },
+        {
+          "key": "b",
+          "text": "reforço pré-sistólico + ruflar diastólico"
+        },
+        {
+          "key": "c",
+          "text": "reforço pré-sistólico + estalido de abertura mitral"
+        },
+        {
+          "key": "d",
+          "text": "quarta bulha do VE + hiperfonese de B2"
+        },
+        {
+          "key": "e",
+          "text": "terceira bulha do VE + estalido de abertura mitral"
+        }
       ],
       "correct_key": "c",
       "explanation": "Na estenose mitral em ritmo sinusal, os achados clássicos são a primeira bulha hiperfonética, o estalido de abertura mitral (quanto mais próximo de B2, mais grave a estenose) e o reforço pré-sistólico do ruflar diastólico. Entre as opções, a combinação estalido de abertura + reforço pré-sistólico é o par mais característico e usado para avaliar gravidade/ritmo sinusal.",
@@ -91,11 +157,26 @@
       "id": "arr_006",
       "statement": "Um homem de 57 anos procura atendimento médico com queixa de palpitações e dor torácica tipo aperto, de início há 30 minutos. Apresenta hipotensão (PA 60x40mmHg). Após avaliar o ritmo mostrado a seguir, qual é a conduta mais adequada?",
       "alternatives": [
-        {"key": "a", "text": "Manobra vagal"},
-        {"key": "b", "text": "Adenosina 6mg EV em bólus."},
-        {"key": "c", "text": "Amiodarona 150mg EV em 30 minutos."},
-        {"key": "d", "text": "Deslanosídeo 0,8mg EV em bólus."},
-        {"key": "e", "text": "Cardioversão elétrica sincronizada."}
+        {
+          "key": "a",
+          "text": "Manobra vagal"
+        },
+        {
+          "key": "b",
+          "text": "Adenosina 6mg EV em bólus."
+        },
+        {
+          "key": "c",
+          "text": "Amiodarona 150mg EV em 30 minutos."
+        },
+        {
+          "key": "d",
+          "text": "Deslanosídeo 0,8mg EV em bólus."
+        },
+        {
+          "key": "e",
+          "text": "Cardioversão elétrica sincronizada."
+        }
       ],
       "correct_key": "e",
       "explanation": "ATENÇÃO: traçado do ritmo citado mas não disponível na extração do PDF. Independentemente do ritmo específico, a hipotensão franca (PA 60x40) associada a sintomas agudos (dor torácica, palpitações) caracteriza instabilidade hemodinâmica, indicação de cardioversão elétrica sincronizada imediata pelo algoritmo de taquiarritmia do ACLS.",
@@ -109,10 +190,22 @@
       "id": "arr_007",
       "statement": "Mulher, 22 anos de idade, chega ao PS apresentando taquicardia com QRS estreito, sem resposta à manobra vagal. Qual é o antecedente que contraindicaria o tratamento farmacológico de escolha?",
       "alternatives": [
-        {"key": "a", "text": "Doença inflamatória intestinal."},
-        {"key": "b", "text": "Asma."},
-        {"key": "c", "text": "Doença renal crônica."},
-        {"key": "d", "text": "Cirrose hepática."}
+        {
+          "key": "a",
+          "text": "Doença inflamatória intestinal."
+        },
+        {
+          "key": "b",
+          "text": "Asma."
+        },
+        {
+          "key": "c",
+          "text": "Doença renal crônica."
+        },
+        {
+          "key": "d",
+          "text": "Cirrose hepática."
+        }
       ],
       "correct_key": "b",
       "explanation": "Para taquicardia de QRS estreito refratária a manobra vagal, a droga de escolha é a adenosina. A asma/broncoespasmo grave é considerada contraindicação relativa pelo risco de broncoespasmo induzido pela adenosina.",
@@ -126,11 +219,26 @@
       "id": "arr_008",
       "statement": "Em um paciente com fibrilação atrial crônica e DPOC em caso de administração de um betabloqueador com a finalidade de controle da frequência ventricular, a escolha deve recair em",
       "alternatives": [
-        {"key": "a", "text": "carvedilol ou propranolol."},
-        {"key": "b", "text": "metoprol ou bisoprolol."},
-        {"key": "c", "text": "carvedilol ou atenolol."},
-        {"key": "d", "text": "atenolol ou bisoprolol."},
-        {"key": "e", "text": "propranolol ou metoprolol."}
+        {
+          "key": "a",
+          "text": "carvedilol ou propranolol."
+        },
+        {
+          "key": "b",
+          "text": "metoprol ou bisoprolol."
+        },
+        {
+          "key": "c",
+          "text": "carvedilol ou atenolol."
+        },
+        {
+          "key": "d",
+          "text": "atenolol ou bisoprolol."
+        },
+        {
+          "key": "e",
+          "text": "propranolol ou metoprolol."
+        }
       ],
       "correct_key": "b",
       "explanation": "Em pacientes com DPOC, betabloqueadores beta-1 cardiosseletivos (metoprolol, bisoprolol) são preferíveis, minimizando o risco de broncoespasmo associado a agentes não seletivos (propranolol, carvedilol).",
@@ -144,10 +252,22 @@
       "id": "arr_009",
       "statement": "As mulheres são mais sintomáticas e apresentam pior qualidade de vida quando comparadas com os homens, no contexto de fibrilação atrial. Assinale a alternativa correta sobre os mecanismos associados às diferenças entre os sexos.",
       "alternatives": [
-        {"key": "a", "text": "Os mecanismos associados às diferenças entre os sexos na FA são inúmeros, mas é importante ressaltar que a DIC doença isquêmica do coração, menos observada no sexo masculino, pode corroborar com a maior incidência de FA nesse grupo."},
-        {"key": "b", "text": "Os mecanismos associados às diferenças entre os sexos na FA são inúmeros, mas é importante ressaltar que a DIC doença isquêmica do coração, mais observada no sexo masculino, pode corroborar com a menor incidência de FA nesse grupo."},
-        {"key": "c", "text": "Os mecanismos associados às diferenças entre os sexos na FA são inúmeros, mas é importante ressaltar que a DIC doença isquêmica do coração, mais observada no sexo masculino, não pode corroborar com a maior incidência de FA nesse grupo."},
-        {"key": "d", "text": "Os mecanismos associados às diferenças entre os sexos na FA são inúmeros, mas é importante ressaltar que a DIC doença isquêmica do coração, mais observada no sexo masculino, pode corroborar com a maior incidência de FA nesse grupo."}
+        {
+          "key": "a",
+          "text": "Os mecanismos associados às diferenças entre os sexos na FA são inúmeros, mas é importante ressaltar que a DIC doença isquêmica do coração, menos observada no sexo masculino, pode corroborar com a maior incidência de FA nesse grupo."
+        },
+        {
+          "key": "b",
+          "text": "Os mecanismos associados às diferenças entre os sexos na FA são inúmeros, mas é importante ressaltar que a DIC doença isquêmica do coração, mais observada no sexo masculino, pode corroborar com a menor incidência de FA nesse grupo."
+        },
+        {
+          "key": "c",
+          "text": "Os mecanismos associados às diferenças entre os sexos na FA são inúmeros, mas é importante ressaltar que a DIC doença isquêmica do coração, mais observada no sexo masculino, não pode corroborar com a maior incidência de FA nesse grupo."
+        },
+        {
+          "key": "d",
+          "text": "Os mecanismos associados às diferenças entre os sexos na FA são inúmeros, mas é importante ressaltar que a DIC doença isquêmica do coração, mais observada no sexo masculino, pode corroborar com a maior incidência de FA nesse grupo."
+        }
       ],
       "correct_key": "d",
       "explanation": "A doença isquêmica do coração é mais observada no sexo masculino e é um fator que contribui (corrobora) para maior incidência de FA nesse grupo — coerente com a distribuição epidemiológica de fatores de risco cardiovasculares entre os sexos.",
@@ -161,11 +281,26 @@
       "id": "arr_010",
       "statement": "Um médico plantonista recebeu um paciente de 68 anos com queixa de palpitações e dispneia leve há 3 horas. O paciente é hipertenso em uso regular de losartana. Ao exame físico, pressão arterial de 130/80 mmHg, frequência cardíaca irregular de aproximadamente 110 bpm, ausculta pulmonar sem alterações. O eletrocardiograma de 12 derivações evidencia ausência de ondas P identificáveis, intervalos RR completamente irregulares e complexos QRS estreitos. Identifique a arritmia apresentada pelo paciente:",
       "alternatives": [
-        {"key": "a", "text": "Flutter atrial com bloqueio variável."},
-        {"key": "b", "text": "Taquicardia atrial multifocal."},
-        {"key": "c", "text": "Fibrilação atrial."},
-        {"key": "d", "text": "Taquicardia sinusal com extrassístoles atriais frequentes."},
-        {"key": "e", "text": "Taquicardia paroxística supraventricular por reentrada nodal."}
+        {
+          "key": "a",
+          "text": "Flutter atrial com bloqueio variável."
+        },
+        {
+          "key": "b",
+          "text": "Taquicardia atrial multifocal."
+        },
+        {
+          "key": "c",
+          "text": "Fibrilação atrial."
+        },
+        {
+          "key": "d",
+          "text": "Taquicardia sinusal com extrassístoles atriais frequentes."
+        },
+        {
+          "key": "e",
+          "text": "Taquicardia paroxística supraventricular por reentrada nodal."
+        }
       ],
       "correct_key": "c",
       "explanation": "Ausência de ondas P, RR completamente irregular e QRS estreito são os critérios eletrocardiográficos clássicos de fibrilação atrial.",
@@ -179,11 +314,26 @@
       "id": "arr_011",
       "statement": "Uma mulher de 54 anos, sem antecedentes cardiovasculares, procura o pronto-socorro com queixa de palpitações há 18 horas acompanhadas de ortopneia e dispneia aos pequenos esforços. Apresenta pulso rápido e irregular, PA: 90 x 68 mmHg e estertores nas bases pulmonares. Antes de se tentar a reversão, elétrica ou medicamentosa da arritmia, é indicada a administração de:",
       "alternatives": [
-        {"key": "a", "text": "Clopidogrel + AAS."},
-        {"key": "b", "text": "Enoxaparina dose profilática."},
-        {"key": "c", "text": "Clopidogrel."},
-        {"key": "d", "text": "Rivaroxabana."},
-        {"key": "e", "text": "AAS."}
+        {
+          "key": "a",
+          "text": "Clopidogrel + AAS."
+        },
+        {
+          "key": "b",
+          "text": "Enoxaparina dose profilática."
+        },
+        {
+          "key": "c",
+          "text": "Clopidogrel."
+        },
+        {
+          "key": "d",
+          "text": "Rivaroxabana."
+        },
+        {
+          "key": "e",
+          "text": "AAS."
+        }
       ],
       "correct_key": "d",
       "explanation": "Diante de fibrilação atrial de duração incerta/prolongada com descompensação, antes de qualquer tentativa de reversão é necessária anticoagulação terapêutica (não antiplaquetária nem em dose profilática) para reduzir risco tromboembólico. Entre as opções, apenas a rivaroxabana representa anticoagulação plena.",
@@ -197,8 +347,14 @@
       "id": "arr_012",
       "statement": "Um paciente de 45 anos de idade vem apresentando sintomas de palpitação, mal-estar e sudorese profusa no decorrer da hemodiálise. Em cada sessão, são ultrafiltrados 4 litros em duas horas e meia. Na última diálise, o paciente ficou com hipotensão = 85 mmHg x 40 mmHg, SatO2 = 94% em ar ambiente e frequência cardíaca conforme o eletrocardiograma a seguir. Julgue o item: Cardioversão é o melhor tratamento para manejo agudo.",
       "alternatives": [
-        {"key": "a", "text": "CERTO."},
-        {"key": "b", "text": "ERRADO."}
+        {
+          "key": "a",
+          "text": "CERTO."
+        },
+        {
+          "key": "b",
+          "text": "ERRADO."
+        }
       ],
       "correct_key": "b",
       "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. O quadro é sugestivo de arritmia precipitada por distúrbio hidroeletrolítico/volêmico da própria diálise (ultrafiltração excessiva); o tratamento inicial adequado é a correção da causa de base (volume/eletrólitos), não a cardioversão elétrica como conduta primária.",
@@ -212,11 +368,26 @@
       "id": "arr_013",
       "statement": "Ari, mecânico, 38 anos, é trazido à unidade de saúde por sua esposa, com queixa de palpitação e mal estar, iniciados subitamente há cerca de 15 minutos. Afirma ter diagnóstico de arritmia, mas não lembra o nome. Já teve três episódios semelhantes anteriormente. Nega qualquer outra comorbidade. Ao exame físico: BEG, lúcido, hidratado, corado. FC: 161 bpm, PA: 128 x 82 mmHg, ausculta cardíaca: ritmo cardíaco regular, em 2 tempos, taquicárdico. Ausculta pulmonar normal. Na UBS, é feito um eletrocardiograma. Qual o diagnóstico mais provável e a conduta imediata para Ari?",
       "alternatives": [
-        {"key": "a", "text": "Taquicardia supraventricular/ Manobra de Valsalva."},
-        {"key": "b", "text": "Taquicardia sinusal/Orientações gerais sobre benignidade do quadro."},
-        {"key": "c", "text": "Flutter atrial/ Clopidogrel 75mg, via oral."},
-        {"key": "d", "text": "Crise de ansiedade/Diazepam 10mg, via oral."},
-        {"key": "e", "text": "Infarto Agudo do Miocárdio/AAS 300mg, via oral."}
+        {
+          "key": "a",
+          "text": "Taquicardia supraventricular/ Manobra de Valsalva."
+        },
+        {
+          "key": "b",
+          "text": "Taquicardia sinusal/Orientações gerais sobre benignidade do quadro."
+        },
+        {
+          "key": "c",
+          "text": "Flutter atrial/ Clopidogrel 75mg, via oral."
+        },
+        {
+          "key": "d",
+          "text": "Crise de ansiedade/Diazepam 10mg, via oral."
+        },
+        {
+          "key": "e",
+          "text": "Infarto Agudo do Miocárdio/AAS 300mg, via oral."
+        }
       ],
       "correct_key": "a",
       "explanation": "Início súbito, episódios recorrentes prévios, FC muito elevada (161bpm), ritmo regular, paciente jovem e hemodinamicamente estável = quadro clássico de taquicardia supraventricular paroxística. Conduta inicial: manobra vagal (Valsalva).",
@@ -230,10 +401,22 @@
       "id": "arr_014",
       "statement": "Mulher, 56 anos, hipertensa e diabética chegou na emergência referindo palpitação e taquicardia há 3 dias. Refere episódios semelhantes, esporadicamente, que costumam melhorar espontaneamente, porém o episódio atual não melhorou, procurando então a emergência. Chegou com pressão arterial = 120 x 80 mmHg, frequência cardíaca = 140 batimentos por minuto e o eletrocardiograma está abaixo. Qual é a melhor conduta para essa paciente?",
       "alternatives": [
-        {"key": "a", "text": "Cloridrato de amiodarona endovenoso e ablação posterior."},
-        {"key": "b", "text": "Cloridrato de amiodarona endovenoso e anticoagulação."},
-        {"key": "c", "text": "Tartarato de metoprolol endovenoso e anticoagulação."},
-        {"key": "d", "text": "Cardioversão elétrica com 100 J e anticoagulação."}
+        {
+          "key": "a",
+          "text": "Cloridrato de amiodarona endovenoso e ablação posterior."
+        },
+        {
+          "key": "b",
+          "text": "Cloridrato de amiodarona endovenoso e anticoagulação."
+        },
+        {
+          "key": "c",
+          "text": "Tartarato de metoprolol endovenoso e anticoagulação."
+        },
+        {
+          "key": "d",
+          "text": "Cardioversão elétrica com 100 J e anticoagulação."
+        }
       ],
       "correct_key": "c",
       "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF (assumindo confirmação de fibrilação/flutter atrial pelo contexto). Com duração ≥48h (3 dias) e paciente hemodinamicamente estável, a conduta mais segura é controle de frequência cardíaca associado a anticoagulação, evitando reversão (química ou elétrica) sem anticoagulação prévia adequada ou avaliação de trombo por ecocardiograma transesofágico.",
@@ -247,10 +430,22 @@
       "id": "arr_015",
       "statement": "O traçado eletrocardiográfico que melhor caracteriza o bloqueio atrioventricular de segundo grau Mobitz I é aquele com",
       "alternatives": [
-        {"key": "a", "text": "ondas P bloqueadas e aumento do intervalo PR de forma progressiva e não linear."},
-        {"key": "b", "text": "intervalo PR maior que 200 ms."},
-        {"key": "c", "text": "intervalo PR constante e ondas P bloqueadas aleatoriamente."},
-        {"key": "d", "text": "a cada três ondas P apenas uma conduz."}
+        {
+          "key": "a",
+          "text": "ondas P bloqueadas e aumento do intervalo PR de forma progressiva e não linear."
+        },
+        {
+          "key": "b",
+          "text": "intervalo PR maior que 200 ms."
+        },
+        {
+          "key": "c",
+          "text": "intervalo PR constante e ondas P bloqueadas aleatoriamente."
+        },
+        {
+          "key": "d",
+          "text": "a cada três ondas P apenas uma conduz."
+        }
       ],
       "correct_key": "a",
       "explanation": "O padrão de Wenckebach (Mobitz I) caracteriza-se pelo alongamento progressivo (e tipicamente não linear/decremental) do PR até uma onda P ser bloqueada.",
@@ -264,10 +459,22 @@
       "id": "arr_016",
       "statement": "Paciente feminina, 35 anos, sem comorbidades, admitida em leito de terapia intensiva após laparotomia exploradora por cisto de ovário roto. Após 12 horas de observação clínica, apresenta dor torácica de forte intensidade, palpitações, associada a dispneia súbita e hipotensão. Sem alterações neurológicas. Realizado eletrocardiograma abaixo. A conduta mais adequada neste caso é:",
       "alternatives": [
-        {"key": "a", "text": "Amiodarona 300mg em bolus."},
-        {"key": "b", "text": "Amiodarona 150mg em bolus."},
-        {"key": "c", "text": "Metoprolol 25mg via oral."},
-        {"key": "d", "text": "Cardioversão elétrica."}
+        {
+          "key": "a",
+          "text": "Amiodarona 300mg em bolus."
+        },
+        {
+          "key": "b",
+          "text": "Amiodarona 150mg em bolus."
+        },
+        {
+          "key": "c",
+          "text": "Metoprolol 25mg via oral."
+        },
+        {
+          "key": "d",
+          "text": "Cardioversão elétrica."
+        }
       ],
       "correct_key": "d",
       "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Paciente pós-operatória com dor torácica intensa, dispneia súbita e hipotensão configura instabilidade hemodinâmica associada a taquiarritmia — indicação de cardioversão elétrica sincronizada imediata.",
@@ -281,8 +488,14 @@
       "id": "arr_017",
       "statement": "Paciente de 80 anos foi encontrado em rua pública, e testemunhas disseram que ele estava caminhando quando subitamente caiu no chão, perdendo a consciência. No hospital, foi realizado eletrocardiograma mostrado a seguir. Ao exame físico, sua pressão arterial era de 80x40mmHg, havia estertores pulmonares em todos os segmentos pulmonares com turgência jugular; sua glicemia estava normal. Durante seu atendimento, o paciente demonstrou um ritmo cardíaco no monitor. Julgue: Na ausência de pulso no eletrocardiograma número 2, deve-se realizar cardioversão elétrica sincronizada.",
       "alternatives": [
-        {"key": "a", "text": "CERTO"},
-        {"key": "b", "text": "ERRADO"}
+        {
+          "key": "a",
+          "text": "CERTO"
+        },
+        {
+          "key": "b",
+          "text": "ERRADO"
+        }
       ],
       "correct_key": "b",
       "explanation": "Na ausência de pulso (parada cardiorrespiratória), a conduta correta segue o algoritmo de PCR (RCP + desfibrilação não sincronizada se ritmo chocável, como FV/TV sem pulso, ou RCP + adrenalina se ritmo não chocável, como AESP/assistolia). A cardioversão elétrica SINCRONIZADA é reservada para ritmos organizados COM pulso e instabilidade — não se aplica a paciente sem pulso.",
@@ -296,10 +509,22 @@
       "id": "arr_018",
       "statement": "O bloqueio Atrioventricular (BAV), na presença de dilatação leve do VE, pode ser devido a várias causas (incluindo laminopatia), mas também pode ser sugestivo de doença de Lyme, sarcoidose cardíaca ou miocardite de células gigantes. Sendo correto que o:",
       "alternatives": [
-        {"key": "a", "text": "ECG fornece uma ferramenta conveniente para a estratificação de risco e não para triagem inicial, mas com valor diagnóstico fraco."},
-        {"key": "b", "text": "ECG fornece uma ferramenta conveniente para a estratificação de risco e a triagem inicial, mas com valor diagnóstico padrão ouro."},
-        {"key": "c", "text": "ECG fornece uma ferramenta conveniente para a estratificação de risco e a triagem inicial, mas com valor diagnóstico fraco."},
-        {"key": "d", "text": "ECG não fornece uma ferramenta conveniente para a estratificação de risco e a triagem inicial, mas com valor diagnóstico fraco."}
+        {
+          "key": "a",
+          "text": "ECG fornece uma ferramenta conveniente para a estratificação de risco e não para triagem inicial, mas com valor diagnóstico fraco."
+        },
+        {
+          "key": "b",
+          "text": "ECG fornece uma ferramenta conveniente para a estratificação de risco e a triagem inicial, mas com valor diagnóstico padrão ouro."
+        },
+        {
+          "key": "c",
+          "text": "ECG fornece uma ferramenta conveniente para a estratificação de risco e a triagem inicial, mas com valor diagnóstico fraco."
+        },
+        {
+          "key": "d",
+          "text": "ECG não fornece uma ferramenta conveniente para a estratificação de risco e a triagem inicial, mas com valor diagnóstico fraco."
+        }
       ],
       "correct_key": "c",
       "explanation": "O ECG é útil e conveniente tanto para triagem inicial quanto para estratificação de risco em BAV com suspeita de doença infiltrativa/inflamatória subjacente, mas não é padrão-ouro diagnóstico dessas etiologias específicas (que exigem RM cardíaca, biópsia ou sorologia), tendo valor diagnóstico etiológico fraco isoladamente.",
@@ -313,10 +538,22 @@
       "id": "arr_019",
       "statement": "Homem, 78 anos, procura a unidade básica de saúde com queixa de palpitações há 4 meses. Nega dispneia, dor torácica ou síncope. Descobriu ser hipertenso há 5 anos, quando teve um quadro de acidente vascular cerebral isquêmico, que não resultou em sequelas no longo prazo. Está em uso de hidroclorotiazida e losartana em doses máximas, associado à aspirina 200 mg/dia. Nega outros antecedentes mórbidos relevantes. Ao exame clínico, pressão arterial 128x82 mmHg. ECG é apresentado. Qual é o plano de cuidado deste paciente?",
       "alternatives": [
-        {"key": "a", "text": "Introdução de anticoagulantes orais em dose plena."},
-        {"key": "b", "text": "Aumento da dose de aspirina para 300 mg/dia."},
-        {"key": "c", "text": "Prescrição de amiodarona 200 mg/dia."},
-        {"key": "d", "text": "Adição de betabloqueadores cardiosseletivos na dose máxima tolerada."}
+        {
+          "key": "a",
+          "text": "Introdução de anticoagulantes orais em dose plena."
+        },
+        {
+          "key": "b",
+          "text": "Aumento da dose de aspirina para 300 mg/dia."
+        },
+        {
+          "key": "c",
+          "text": "Prescrição de amiodarona 200 mg/dia."
+        },
+        {
+          "key": "d",
+          "text": "Adição de betabloqueadores cardiosseletivos na dose máxima tolerada."
+        }
       ],
       "correct_key": "a",
       "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF, presumivelmente evidenciando fibrilação atrial dado o contexto de palpitações. Paciente idoso com AVC isquêmico prévio já confere CHA2DS2-VASc elevado (2 pontos só pelo AVC); diante de provável FA, a anticoagulação oral plena é mandatória, substituindo o AAS isolado (insuficiente para prevenção de AVC em FA).",
@@ -330,11 +567,26 @@
       "id": "arr_020",
       "statement": "Um magistrado apresenta subitamente sensação de desconforto torácico e tonteira. Ele permanece todo o tempo lúcido, orientado e estável hemodinamicamente. No posto de atendimento médico um eletrocardiograma é realizado e mostra o seguinte traçado: O traçado eletrocardiográfico evidencia:",
       "alternatives": [
-        {"key": "a", "text": "frequência de 100 batimentos por minuto, sem outras particularidades."},
-        {"key": "b", "text": "supra-desnível segmento ST."},
-        {"key": "c", "text": "bigeminismo e frequência de 80 batimentos por minuto."},
-        {"key": "d", "text": "complexos ventriculares alargados."},
-        {"key": "e", "text": "alteração nos intervalos RR e ausência de onda P."}
+        {
+          "key": "a",
+          "text": "frequência de 100 batimentos por minuto, sem outras particularidades."
+        },
+        {
+          "key": "b",
+          "text": "supra-desnível segmento ST."
+        },
+        {
+          "key": "c",
+          "text": "bigeminismo e frequência de 80 batimentos por minuto."
+        },
+        {
+          "key": "d",
+          "text": "complexos ventriculares alargados."
+        },
+        {
+          "key": "e",
+          "text": "alteração nos intervalos RR e ausência de onda P."
+        }
       ],
       "correct_key": "c",
       "explanation": "ATENÇÃO: questão pede a leitura direta de um traçado eletrocardiográfico não disponível na extração do PDF — sem qualquer dado clínico adicional para embasar a resposta além da estabilidade hemodinâmica. Resposta é um chute informado sem base na imagem real; confiança muito baixa, revisão obrigatória com a imagem original.",
@@ -348,8 +600,14 @@
       "id": "arr_021",
       "statement": "Um jovem de 25 anos começou a apresentar palpitações de tonturas, principalmente durante a realização de exercícios. O paciente referiu que diminuiu os esportes por sentir que iria desmaiar. Nega medicamentos. O médico solicitou um holter que demonstrou episódios de taquicardia ventricular não sustentada, sendo a maior de 15 batimentos. A seguir, está o eletrocardiograma do paciente. Julgue: Até a melhor elucidação diagnóstica, deve-se afastar o paciente de atividades físicas extenuantes.",
       "alternatives": [
-        {"key": "a", "text": "CERTO"},
-        {"key": "b", "text": "ERRADO"}
+        {
+          "key": "a",
+          "text": "CERTO"
+        },
+        {
+          "key": "b",
+          "text": "ERRADO"
+        }
       ],
       "correct_key": "a",
       "explanation": "Paciente jovem com sintomas exertivos (quase síncope), TVNS documentada ao Holter — achados de alarme sugestivos de possível cardiopatia arritmogênica estrutural ou canalopatia. A conduta padrão é restringir atividades físicas extenuantes até completar a investigação e excluir causas de risco para morte súbita.",
@@ -363,11 +621,26 @@
       "id": "arr_022",
       "statement": "Mulher, 55 anos, natural do interior de Minas Gerais, apresenta queixa de palpitações há algum tempo, com piora nos últimos dois meses. Apresentou dois episódios de síncope nesse período e deu entrada no serviço de emergência com queixa de astenia, tontura, turvação visual, falta de ar, edema nas pernas e desconforto torácico. Foi realizado um eletrocardiograma que está ilustrado a seguir. Assinale a alternativa que apresenta a causa mais provável da sintomatologia apresentada.",
       "alternatives": [
-        {"key": "a", "text": "Taquicardia atrial com condução atrioventricular variável gerando baixo débito."},
-        {"key": "b", "text": "Síndrome coronariana aguda."},
-        {"key": "c", "text": "Insuficiência cardíaca perfil C."},
-        {"key": "d", "text": "Dissociação atrioventricular."},
-        {"key": "e", "text": "Hipotensão postural por disautonomia."}
+        {
+          "key": "a",
+          "text": "Taquicardia atrial com condução atrioventricular variável gerando baixo débito."
+        },
+        {
+          "key": "b",
+          "text": "Síndrome coronariana aguda."
+        },
+        {
+          "key": "c",
+          "text": "Insuficiência cardíaca perfil C."
+        },
+        {
+          "key": "d",
+          "text": "Dissociação atrioventricular."
+        },
+        {
+          "key": "e",
+          "text": "Hipotensão postural por disautonomia."
+        }
       ],
       "correct_key": "d",
       "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Origem de área endêmica de doença de Chagas + síncopes recorrentes + sinais de baixo débito/congestão são compatíveis com bloqueio atrioventricular total (dissociação AV) por cardiopatia chagásica, causa clássica de síncope nesse contexto epidemiológico.",
@@ -381,11 +654,26 @@
       "id": "arr_023",
       "statement": "Paciente dá entrada na sala de emergência referindo dispneia intensa e desconforto torácico. Ao monitorar paciente percebemos PA 160/70, FC 160bpm, FR 32, sat 88%, na ausculta pulmonar presença de estertores crepitantes até terço médio bilateral. Realizado eletrocardiograma, percebemos ausência da onda P e ritmo irregular. Diante do quadro clínico e da interpretação eletrocardiográfica, qual a melhor conduta a ser tomada?",
       "alternatives": [
-        {"key": "a", "text": "Cardioversão elétrica com 50J no desfibrilador monofásico"},
-        {"key": "b", "text": "Cardioversão elétrica com 200J no desfibrilador monofásico."},
-        {"key": "c", "text": "Realizar manobra vagal se o paciente não responder infusão de adenosina 6mg EV."},
-        {"key": "d", "text": "Investigar causas secundárias que possam estar levando ao aumento da frequência cardíaca."},
-        {"key": "e", "text": "Amiodarona dose de ataque, seguido da dose manutenção 1mg/min nas primeiras 6 horas e 0,5mg/min nas próximas 18h."}
+        {
+          "key": "a",
+          "text": "Cardioversão elétrica com 50J no desfibrilador monofásico"
+        },
+        {
+          "key": "b",
+          "text": "Cardioversão elétrica com 200J no desfibrilador monofásico."
+        },
+        {
+          "key": "c",
+          "text": "Realizar manobra vagal se o paciente não responder infusão de adenosina 6mg EV."
+        },
+        {
+          "key": "d",
+          "text": "Investigar causas secundárias que possam estar levando ao aumento da frequência cardíaca."
+        },
+        {
+          "key": "e",
+          "text": "Amiodarona dose de ataque, seguido da dose manutenção 1mg/min nas primeiras 6 horas e 0,5mg/min nas próximas 18h."
+        }
       ],
       "correct_key": "e",
       "explanation": "ECG sem onda P e ritmo irregular = fibrilação atrial, precipitando edema pulmonar (estertores, hipoxemia). A adenosina não tem efeito em FA (opção C incorreta). Apesar da hipoxemia significativa, a PA está elevada (não hipotensa), tornando o quadro tratável farmacologicamente com amiodarona para controle/reversão em vez de cardioversão elétrica imediata como primeira conduta.",
@@ -399,11 +687,26 @@
       "id": "arr_024",
       "statement": "Observando a figura abaixo, a alternativa que descreve o principal achado no ECG mostrado é",
       "alternatives": [
-        {"key": "a", "text": "Isquemia miocárdica severa."},
-        {"key": "b", "text": "Hipertrofia ventricular esquerda"},
-        {"key": "c", "text": "Fibrilaçao Atrial."},
-        {"key": "d", "text": "Bloqueio Atrioventricular de segundo grau."},
-        {"key": "e", "text": "Taquicardia ventricular."}
+        {
+          "key": "a",
+          "text": "Isquemia miocárdica severa."
+        },
+        {
+          "key": "b",
+          "text": "Hipertrofia ventricular esquerda"
+        },
+        {
+          "key": "c",
+          "text": "Fibrilaçao Atrial."
+        },
+        {
+          "key": "d",
+          "text": "Bloqueio Atrioventricular de segundo grau."
+        },
+        {
+          "key": "e",
+          "text": "Taquicardia ventricular."
+        }
       ],
       "correct_key": "c",
       "explanation": "ATENÇÃO: questão pede leitura direta de imagem de ECG não disponível na extração do PDF, sem qualquer dado clínico de apoio. Resposta é um chute sem base na imagem real; confiança muito baixa, revisão obrigatória com a imagem original.",
@@ -417,11 +720,26 @@
       "id": "arr_025",
       "statement": "Paciente tem indicação de anticoagulação. Considerando o escore CHAD2DS2-VASc, é correto afirmar que o critério que contribui com 2 pontos para a pontuação final é",
       "alternatives": [
-        {"key": "a", "text": "idade = 75 anos."},
-        {"key": "b", "text": "presença de insuficiência cardíaca."},
-        {"key": "c", "text": "presença de hipertensão arterial sistólica."},
-        {"key": "d", "text": "presença de diabetes melito."},
-        {"key": "e", "text": "sexo feminino."}
+        {
+          "key": "a",
+          "text": "idade = 75 anos."
+        },
+        {
+          "key": "b",
+          "text": "presença de insuficiência cardíaca."
+        },
+        {
+          "key": "c",
+          "text": "presença de hipertensão arterial sistólica."
+        },
+        {
+          "key": "d",
+          "text": "presença de diabetes melito."
+        },
+        {
+          "key": "e",
+          "text": "sexo feminino."
+        }
       ],
       "correct_key": "a",
       "explanation": "No escore CHA2DS2-VASc, idade ≥75 anos contribui com 2 pontos (assim como AVC/AIT prévio). IC, HAS, DM e sexo feminino contribuem cada um com apenas 1 ponto.",
@@ -435,10 +753,22 @@
       "id": "arr_026",
       "statement": "Homem de 48 anos, tabagista, deu entrada no PS, conduzido pelo SAMU, com quadro de palpitações há duas horas aproximadamente. Foi encaminhado à sala de emergência para monitorização, acesso venoso e oxigenioterapia. O ritmo apresentado, no monitor é uma taquicardia com complexo QRS largo (0,12s), a PA está 110x70 e a oximetria de 90%. Não houve resposta à manobra vagal. Diante disso, qual a intervenção farmacológica mais apropriada?",
       "alternatives": [
-        {"key": "a", "text": "Adenosina."},
-        {"key": "b", "text": "Amiodarona."},
-        {"key": "c", "text": "Atropina."},
-        {"key": "d", "text": "Adrenalina."}
+        {
+          "key": "a",
+          "text": "Adenosina."
+        },
+        {
+          "key": "b",
+          "text": "Amiodarona."
+        },
+        {
+          "key": "c",
+          "text": "Atropina."
+        },
+        {
+          "key": "d",
+          "text": "Adrenalina."
+        }
       ],
       "correct_key": "b",
       "explanation": "Taquicardia de QRS largo (≥120ms) em paciente estável hemodinamicamente (sem hipotensão significativa) tem na amiodarona a droga farmacológica de escolha pelo algoritmo ACLS para taquicardia de complexo largo estável.",
@@ -452,10 +782,22 @@
       "id": "arr_027",
       "statement": "Mulher de 85 anos de idade apresenta palpitações. Exame físico: PA: 80 x 50 mmHg; FC: 138 bpm; FR: 30 irpm; SatO2 92% em ar ambiente. ECG (imagem): O diagnóstico e a conduta, respectivamente, são",
       "alternatives": [
-        {"key": "a", "text": "fibrilação atrial; cardioversão elétrica."},
-        {"key": "b", "text": "flutter atrial; controle da frequência com amiodarona."},
-        {"key": "c", "text": "taquicardia atrial; cardioversão química com propafenona."},
-        {"key": "d", "text": "fibrilação atrial; cardioversão química com amiodarona."}
+        {
+          "key": "a",
+          "text": "fibrilação atrial; cardioversão elétrica."
+        },
+        {
+          "key": "b",
+          "text": "flutter atrial; controle da frequência com amiodarona."
+        },
+        {
+          "key": "c",
+          "text": "taquicardia atrial; cardioversão química com propafenona."
+        },
+        {
+          "key": "d",
+          "text": "fibrilação atrial; cardioversão química com amiodarona."
+        }
       ],
       "correct_key": "a",
       "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Paciente com hipotensão franca (PA 80x50) associada a taquiarritmia caracteriza instabilidade hemodinâmica, exigindo cardioversão ELÉTRICA (não química) imediata, independentemente da arritmia específica — fibrilação atrial é o diagnóstico presumido mais provável no contexto de idosa com palpitações.",
@@ -469,10 +811,22 @@
       "id": "arr_028",
       "statement": "Paciente de 54 anos em pós-operatório imediato de gastrectomia total por adenocarcinoma gástrico é encaminhado à unidade de terapia intensiva para cuidados de pós-operatório. Após algumas horas de observação, queixa sudorese e, rapidamente evolui para confusão mental e hipotensão. É realizado o eletrocardiograma abaixo. A melhor conduta neste caso é:",
       "alternatives": [
-        {"key": "a", "text": "Cardioversão elétrica."},
-        {"key": "b", "text": "Adenosina 6mg."},
-        {"key": "c", "text": "Adenosina 12mg."},
-        {"key": "d", "text": "Amiodarona 300mg."}
+        {
+          "key": "a",
+          "text": "Cardioversão elétrica."
+        },
+        {
+          "key": "b",
+          "text": "Adenosina 6mg."
+        },
+        {
+          "key": "c",
+          "text": "Adenosina 12mg."
+        },
+        {
+          "key": "d",
+          "text": "Amiodarona 300mg."
+        }
       ],
       "correct_key": "a",
       "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Evolução rápida para confusão mental e hipotensão caracteriza instabilidade hemodinâmica grave, indicando cardioversão elétrica sincronizada imediata, independentemente do ritmo específico documentado.",
@@ -486,11 +840,26 @@
       "id": "arr_029",
       "statement": "Ao analisar um eletrocardiograma, deixado sobre a bancada sem identificação, você observa que todas as ondas P são normais e seguidas por um complexo QRS. No entanto, o intervalo PR é mais longo que o normal (> 0,20 segundo). Não há evidência de outras alterações eletrocardiográficas. Este achado é compatível com:",
       "alternatives": [
-        {"key": "a", "text": "bloqueio atrioventricular de primeiro grau."},
-        {"key": "b", "text": "bloqueio atrioventricular Mobitz tipo I."},
-        {"key": "c", "text": "bloqueio atrioventricular Mobitz tipo II."},
-        {"key": "d", "text": "bloqueio atrioventricular de terceiro grau."},
-        {"key": "e", "text": "Flutter atrial."}
+        {
+          "key": "a",
+          "text": "bloqueio atrioventricular de primeiro grau."
+        },
+        {
+          "key": "b",
+          "text": "bloqueio atrioventricular Mobitz tipo I."
+        },
+        {
+          "key": "c",
+          "text": "bloqueio atrioventricular Mobitz tipo II."
+        },
+        {
+          "key": "d",
+          "text": "bloqueio atrioventricular de terceiro grau."
+        },
+        {
+          "key": "e",
+          "text": "Flutter atrial."
+        }
       ],
       "correct_key": "a",
       "explanation": "Todas as ondas P conduzidas (1:1) com PR fixo >200ms, sem outras alterações, é a definição de BAV de primeiro grau.",
@@ -504,10 +873,22 @@
       "id": "arr_030",
       "statement": "O nome da arritmia que é um ritmo que o impulso elétrico se origina logo acima do ventrículo, com reentrada por uma via de condução acessória, e o ECG não mostra a onda P, mas ela pode estar presente e com morfologia anormal, nem sempre sendo possível determinar sua localização com precisão, é:",
       "alternatives": [
-        {"key": "a", "text": "Bloqueio Atrioventricular."},
-        {"key": "b", "text": "Bradicardia sinusal."},
-        {"key": "c", "text": "Flutter Ventricular."},
-        {"key": "d", "text": "Taquicardia Supraventricular."}
+        {
+          "key": "a",
+          "text": "Bloqueio Atrioventricular."
+        },
+        {
+          "key": "b",
+          "text": "Bradicardia sinusal."
+        },
+        {
+          "key": "c",
+          "text": "Flutter Ventricular."
+        },
+        {
+          "key": "d",
+          "text": "Taquicardia Supraventricular."
+        }
       ],
       "correct_key": "d",
       "explanation": "Ritmo originado acima do ventrículo com reentrada por via acessória e onda P frequentemente não identificável (ou de morfologia anormal, retrógrada) descreve uma taquicardia supraventricular por reentrada (ex.: por via acessória/AVRT).",
@@ -521,11 +902,26 @@
       "id": "arr_031",
       "statement": "Uma paciente de 55 anos de idade chega ao serviço de emergência com história de palpitações taquicárdicas e síncope. Realiza eletrocardiograma que demonstra ritmo sinusal com períodos de taquicardia ventricular polimórfica tipo Torsades de Pointes com intervalo QT aumentado no batimento que antecede a taquicardia. Assinale a alternativa que apresenta a melhor conduta nesse caso.",
       "alternatives": [
-        {"key": "a", "text": "passagem de marcapasso provisório com estimulação ventricular acima de 70 ppm"},
-        {"key": "b", "text": "amiodarona em dose de ataque, seguida de infusão contínua"},
-        {"key": "c", "text": "metoprolol 5 mg EV, infusão rápida"},
-        {"key": "d", "text": "adenosina 6 mg EV, infusão rápida"},
-        {"key": "e", "text": "lidocaína 4mg EV, infusão rápida"}
+        {
+          "key": "a",
+          "text": "passagem de marcapasso provisório com estimulação ventricular acima de 70 ppm"
+        },
+        {
+          "key": "b",
+          "text": "amiodarona em dose de ataque, seguida de infusão contínua"
+        },
+        {
+          "key": "c",
+          "text": "metoprolol 5 mg EV, infusão rápida"
+        },
+        {
+          "key": "d",
+          "text": "adenosina 6 mg EV, infusão rápida"
+        },
+        {
+          "key": "e",
+          "text": "lidocaína 4mg EV, infusão rápida"
+        }
       ],
       "correct_key": "a",
       "explanation": "Na Torsades de Pointes associada a QT longo, além do sulfato de magnésio (não listado), o overdrive pacing (marca-passo provisório com FC>70bpm) encurta o QT e previne recorrências dependentes de pausa. A amiodarona é relativamente contraindicada nesse contexto por PROLONGAR o QT, podendo agravar o quadro.",
@@ -539,10 +935,22 @@
       "id": "arr_032",
       "statement": "Menino de 1 ano, assintomático é encaminhado para avaliação cardiológica devido a alteração detectada na ausculta cardíaca. Eletrocardiograma (imagem). O paciente apresenta:",
       "alternatives": [
-        {"key": "a", "text": "arritmia sinusal."},
-        {"key": "b", "text": "ritmo sinusal alternando com ritmo atrial ectópico."},
-        {"key": "c", "text": "extrassístoles supraventriculares."},
-        {"key": "d", "text": "extrassístoles ventriculares."}
+        {
+          "key": "a",
+          "text": "arritmia sinusal."
+        },
+        {
+          "key": "b",
+          "text": "ritmo sinusal alternando com ritmo atrial ectópico."
+        },
+        {
+          "key": "c",
+          "text": "extrassístoles supraventriculares."
+        },
+        {
+          "key": "d",
+          "text": "extrassístoles ventriculares."
+        }
       ],
       "correct_key": "a",
       "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Em lactente assintomático com achado incidental, a arritmia sinusal (variação respiratória fisiológica da FC) é o achado benigno mais comum nessa faixa etária, sendo a resposta mais provável por prevalência — porém sem confirmação pela imagem real.",
@@ -556,10 +964,22 @@
       "id": "arr_033",
       "statement": "As bradiarritmias, como bradicardia sinusal, pausas sinusais, BAV de 2o grau tipo I ou de grau avançado e ritmo de escape juncional são frequentes durante o sono:",
       "alternatives": [
-        {"key": "a", "text": "Exceto em jovens saudáveis com bom condicionamento físico. Dados diretos e indiretos têm mostrado relação com hipertonia vagal. Na maioria absoluta dos casos, esses achados são fisiológicos, sem indicação de tratamento específico. Entretanto, têm sido observadas arritmias cardíacas na síndrome da apneia obstrutiva do sono (SAOS)."},
-        {"key": "b", "text": "Principalmente em jovens saudáveis com bom condicionamento físico. Dados diretos e indiretos têm mostrado relação com hipertonia vagal. Na maioria absoluta dos casos, esses achados não são fisiológicos, com indicação de tratamento específico. Entretanto, têm sido observadas arritmias cardíacas na síndrome da apneia obstrutiva do sono (SAOS)."},
-        {"key": "c", "text": "Principalmente em jovens saudáveis com bom condicionamento físico. Dados diretos e indiretos têm mostrado relação com hipertonia vagal. Na maioria absoluta dos casos, esses achados são fisiológicos, sem indicação de tratamento específico. Entretanto, têm sido observadas arritmias cardíacas na síndrome da apneia obstrutiva do sono (SAOS)."},
-        {"key": "d", "text": "Principalmente em jovens saudáveis com bom condicionamento físico. Dados diretos e indiretos têm mostrado relação com hipertonia vagal. Na maioria absoluta dos casos, esses achados são fisiológicos, sem indicação de tratamento específico. Entretanto, não têm sido observadas arritmias cardíacas na síndrome da apneia obstrutiva do sono (SAOS)."}
+        {
+          "key": "a",
+          "text": "Exceto em jovens saudáveis com bom condicionamento físico. Dados diretos e indiretos têm mostrado relação com hipertonia vagal. Na maioria absoluta dos casos, esses achados são fisiológicos, sem indicação de tratamento específico. Entretanto, têm sido observadas arritmias cardíacas na síndrome da apneia obstrutiva do sono (SAOS)."
+        },
+        {
+          "key": "b",
+          "text": "Principalmente em jovens saudáveis com bom condicionamento físico. Dados diretos e indiretos têm mostrado relação com hipertonia vagal. Na maioria absoluta dos casos, esses achados não são fisiológicos, com indicação de tratamento específico. Entretanto, têm sido observadas arritmias cardíacas na síndrome da apneia obstrutiva do sono (SAOS)."
+        },
+        {
+          "key": "c",
+          "text": "Principalmente em jovens saudáveis com bom condicionamento físico. Dados diretos e indiretos têm mostrado relação com hipertonia vagal. Na maioria absoluta dos casos, esses achados são fisiológicos, sem indicação de tratamento específico. Entretanto, têm sido observadas arritmias cardíacas na síndrome da apneia obstrutiva do sono (SAOS)."
+        },
+        {
+          "key": "d",
+          "text": "Principalmente em jovens saudáveis com bom condicionamento físico. Dados diretos e indiretos têm mostrado relação com hipertonia vagal. Na maioria absoluta dos casos, esses achados são fisiológicos, sem indicação de tratamento específico. Entretanto, não têm sido observadas arritmias cardíacas na síndrome da apneia obstrutiva do sono (SAOS)."
+        }
       ],
       "correct_key": "c",
       "explanation": "Bradiarritmias noturnas são frequentes principalmente em jovens atletas bem condicionados, relacionadas à hipertonia vagal, geralmente fisiológicas e sem necessidade de tratamento — mas arritmias cardíacas patológicas são bem documentadas na SAOS.",
@@ -573,10 +993,22 @@
       "id": "arr_034",
       "statement": "Adolescente de 14 anos apresenta palpitações sustentadas (20 minutos, aproximadamente), durante treino de basquete, acompanhadas de sudorese leve, mas com término espontâneo. Negou morte súbita na família e referiu pais com boa saúde. O exame físico foi normal. ECG: presença de pré-excitação ventricular com feixe Kent em parede lateral à esquerda. A estratégia adequada para o caso é",
       "alternatives": [
-        {"key": "a", "text": "introduzir propafenona e realizar teste ergométrico para avaliar eficácia terapêutica; na ausência de arritmia durante esforço, liberar para prática de esportes."},
-        {"key": "b", "text": "introduzir propafenona e realizar teste ergométrico para avaliar eficácia terapêutica; se indução de arritmia durante esforço, encaminhar para ablação e suspender atividade esportiva até realização do procedimento."},
-        {"key": "c", "text": "encaminhar para ablação com radiofrequência; suspender temporariamente a prática de esportes competitivos e introduzir propafenona até realização da ablação; posteriormente, avaliar quanto ao sucesso da ablação para retornar a prática de esportes."},
-        {"key": "d", "text": "introduzir propafenona e realizar teste ergométrico para avaliar eficácia terapêutica da perda de pré-excitação; na ausência de arritmia durante esforço associada com a ausência de pré-excitação, liberá-lo para prática esportiva."}
+        {
+          "key": "a",
+          "text": "introduzir propafenona e realizar teste ergométrico para avaliar eficácia terapêutica; na ausência de arritmia durante esforço, liberar para prática de esportes."
+        },
+        {
+          "key": "b",
+          "text": "introduzir propafenona e realizar teste ergométrico para avaliar eficácia terapêutica; se indução de arritmia durante esforço, encaminhar para ablação e suspender atividade esportiva até realização do procedimento."
+        },
+        {
+          "key": "c",
+          "text": "encaminhar para ablação com radiofrequência; suspender temporariamente a prática de esportes competitivos e introduzir propafenona até realização da ablação; posteriormente, avaliar quanto ao sucesso da ablação para retornar a prática de esportes."
+        },
+        {
+          "key": "d",
+          "text": "introduzir propafenona e realizar teste ergométrico para avaliar eficácia terapêutica da perda de pré-excitação; na ausência de arritmia durante esforço associada com a ausência de pré-excitação, liberá-lo para prática esportiva."
+        }
       ],
       "correct_key": "c",
       "explanation": "Em adolescente atleta competitivo com WPW sintomático (pré-excitação + palpitações sustentadas documentadas), a conduta definitiva recomendada é a ablação por radiofrequência, com restrição temporária de esportes competitivos até o procedimento, dado o risco de morte súbita por condução rápida via feixe acessório em caso de FA.",
@@ -590,10 +1022,22 @@
       "id": "arr_035",
       "statement": "Paciente de 26 anos, sexo masculino, acompanhado por esquizofrenia é atendido na emergência por importante agitação. Foi realizada contenção física e administrado 10mg de haloperidol. Após 30 minutos, paciente está torporoso, pouco responsivo, com pressão arterial de 60x30mmHg, taquicárdico com pulso filiforme, saturação periférica de O2 de 95%. Ainda não há exames laboratoriais disponíveis. Eletrocardiograma realizado foi o seguinte: Qual a melhor conduta a ser adotada?",
       "alternatives": [
-        {"key": "a", "text": "Infusão de sulfato de magnésio."},
-        {"key": "b", "text": "Infusão de cloreto de potássio."},
-        {"key": "c", "text": "Imediata cardioversão elétrica."},
-        {"key": "d", "text": "Imediata desfibrilação."}
+        {
+          "key": "a",
+          "text": "Infusão de sulfato de magnésio."
+        },
+        {
+          "key": "b",
+          "text": "Infusão de cloreto de potássio."
+        },
+        {
+          "key": "c",
+          "text": "Imediata cardioversão elétrica."
+        },
+        {
+          "key": "d",
+          "text": "Imediata desfibrilação."
+        }
       ],
       "correct_key": "a",
       "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Haloperidol é droga classicamente associada a prolongamento de QT/Torsades de Pointes. Paciente ainda com PA mensurável (60x30, hipotenso mas não em PCR/sem pulso), sugerindo taquiarritmia polimórfica tipo Torsades — tratamento de escolha é sulfato de magnésio IV.",
@@ -607,11 +1051,26 @@
       "id": "arr_036",
       "statement": "Menina de 8 anos, foi levada ao pronto-socorro pelos pais devido a episódios de tontura e palidez recorrentes. Ela também relatou ter sentido seu coração \"bater rápido\" algumas vezes. Durante o exame físico, o médico identificou um ritmo cardíaco irregular e acelerado. Assinale a opção que indica o distúrbio de ritmo cardíaco mais provável da paciente, considerando sua idade e os sintomas relatados.",
       "alternatives": [
-        {"key": "a", "text": "Taquicardia sinusal, um ritmo cardíaco acelerado, mas regular, que pode ser desencadeado por febre, ansiedade ou desidratação."},
-        {"key": "b", "text": "Bradicardia sinusal, um ritmo cardíaco lento e regular, comum em crianças bem condicionadas fisicamente."},
-        {"key": "c", "text": "Fibrilação atrial, um ritmo cardíaco caótico e irregular, mais comum em idosos, mas ocasionalmente visto em crianças com condições cardíacas congênitas"},
-        {"key": "d", "text": "Taquicardia supraventricular paroxística, um ritmo cardíaco rápido e irregular, que geralmente começa e termina subitamente"},
-        {"key": "e", "text": "Taquicardia ventricular, patologia associada à miocardite viral muito comum nesta faixa etária."}
+        {
+          "key": "a",
+          "text": "Taquicardia sinusal, um ritmo cardíaco acelerado, mas regular, que pode ser desencadeado por febre, ansiedade ou desidratação."
+        },
+        {
+          "key": "b",
+          "text": "Bradicardia sinusal, um ritmo cardíaco lento e regular, comum em crianças bem condicionadas fisicamente."
+        },
+        {
+          "key": "c",
+          "text": "Fibrilação atrial, um ritmo cardíaco caótico e irregular, mais comum em idosos, mas ocasionalmente visto em crianças com condições cardíacas congênitas"
+        },
+        {
+          "key": "d",
+          "text": "Taquicardia supraventricular paroxística, um ritmo cardíaco rápido e irregular, que geralmente começa e termina subitamente"
+        },
+        {
+          "key": "e",
+          "text": "Taquicardia ventricular, patologia associada à miocardite viral muito comum nesta faixa etária."
+        }
       ],
       "correct_key": "d",
       "explanation": "A TSV paroxística é, de longe, a arritmia significativa mais comum na faixa etária pediátrica, com início/término súbitos e sintomas de tontura/palidez/palpitação, sendo a resposta mais provável apesar de a descrição do enunciado usar 'irregular' de forma imprecisa (a TSV típica é regular).",
@@ -625,10 +1084,22 @@
       "id": "arr_037",
       "statement": "Paciente na Emergência feito ECG com a seguinte imagem. Qual seria seu diagnóstico?",
       "alternatives": [
-        {"key": "a", "text": "Fibrilação ventricular."},
-        {"key": "b", "text": "Taquicardia ventricular polimórfica."},
-        {"key": "c", "text": "Taquicardia ventricular monomórfica"},
-        {"key": "d", "text": "Atividade elétrica sem pulso."}
+        {
+          "key": "a",
+          "text": "Fibrilação ventricular."
+        },
+        {
+          "key": "b",
+          "text": "Taquicardia ventricular polimórfica."
+        },
+        {
+          "key": "c",
+          "text": "Taquicardia ventricular monomórfica"
+        },
+        {
+          "key": "d",
+          "text": "Atividade elétrica sem pulso."
+        }
       ],
       "correct_key": "b",
       "explanation": "ATENÇÃO: questão pede leitura direta de imagem de ECG não disponível na extração do PDF, sem qualquer dado clínico de apoio. Resposta é um chute sem base na imagem real; confiança muito baixa, revisão obrigatória com a imagem original.",
@@ -642,11 +1113,26 @@
       "id": "arr_038",
       "statement": "Uma mulher de 58 anos apresentou-se à sala de emergência com palpitações intensas, dor torácica e dispneia. Ela relatou que as palpitações começaram repentinamente enquanto estava em repouso em casa. Não havia histórico prévio de arritmias. A seguir está o eletrocardiograma realizado: Sinais vitais: frequência cardíaca estimada em cerca de 150 bpm; pressão arterial: 80/50 mmHg. Assinale a alternativa que apresenta o diagnóstico e a conduta adequada para esse caso.",
       "alternatives": [
-        {"key": "a", "text": "Taquicardia supraventricular / Sedação leve e cardioversão química."},
-        {"key": "b", "text": "Fibrilação atrial / Sedação leve e cardioversão elétrica."},
-        {"key": "c", "text": "Flutter atrial / Desfibrilação."},
-        {"key": "d", "text": "Taquicardia sinusal / Conduta expectante."},
-        {"key": "e", "text": "Fibrilação atrial / Sedação leve e cardioversão química."}
+        {
+          "key": "a",
+          "text": "Taquicardia supraventricular / Sedação leve e cardioversão química."
+        },
+        {
+          "key": "b",
+          "text": "Fibrilação atrial / Sedação leve e cardioversão elétrica."
+        },
+        {
+          "key": "c",
+          "text": "Flutter atrial / Desfibrilação."
+        },
+        {
+          "key": "d",
+          "text": "Taquicardia sinusal / Conduta expectante."
+        },
+        {
+          "key": "e",
+          "text": "Fibrilação atrial / Sedação leve e cardioversão química."
+        }
       ],
       "correct_key": "b",
       "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. PA 80/50 configura instabilidade hemodinâmica franca, exigindo cardioversão ELÉTRICA (não química) sincronizada, com sedação leve prévia — fibrilação atrial é a hipótese diagnóstica mais provável nesse contexto.",
@@ -660,10 +1146,22 @@
       "id": "arr_039",
       "statement": "Em relação ao tratamento com Drogas Antiarrítmicas (DAA), as mulheres apresentam mais efeitos adversos. Sendo correto que:",
       "alternatives": [
-        {"key": "a", "text": "A redução no intervalo QT basal pode afetar a tolerância ao uso de DAA, especialmente da classe III, exigindo uma monitorização mais cuidadosa nesse grupo de pacientes."},
-        {"key": "b", "text": "O aumento no intervalo QT basal pode afetar a tolerância ao uso de DAA, especialmente da classe III, exigindo uma monitorização mais cuidadosa nesse grupo de pacientes."},
-        {"key": "c", "text": "O aumento no intervalo QT basal não pode afetar a tolerância ao uso de DAA, especialmente da classe III, exigindo uma monitorização mais cuidadosa nesse grupo de pacientes."},
-        {"key": "d", "text": "O aumento no intervalo QT basal pode afetar a tolerância ao uso de DAA, exceto da classe III, exigindo uma monitorização mais cuidadosa nesse grupo de pacientes."}
+        {
+          "key": "a",
+          "text": "A redução no intervalo QT basal pode afetar a tolerância ao uso de DAA, especialmente da classe III, exigindo uma monitorização mais cuidadosa nesse grupo de pacientes."
+        },
+        {
+          "key": "b",
+          "text": "O aumento no intervalo QT basal pode afetar a tolerância ao uso de DAA, especialmente da classe III, exigindo uma monitorização mais cuidadosa nesse grupo de pacientes."
+        },
+        {
+          "key": "c",
+          "text": "O aumento no intervalo QT basal não pode afetar a tolerância ao uso de DAA, especialmente da classe III, exigindo uma monitorização mais cuidadosa nesse grupo de pacientes."
+        },
+        {
+          "key": "d",
+          "text": "O aumento no intervalo QT basal pode afetar a tolerância ao uso de DAA, exceto da classe III, exigindo uma monitorização mais cuidadosa nesse grupo de pacientes."
+        }
       ],
       "correct_key": "b",
       "explanation": "Mulheres têm QTc basal mais longo que homens; esse aumento no QT basal aumenta a suscetibilidade a efeitos pró-arrítmicos (Torsades) das DAA, especialmente classe III (bloqueadores de canal de potássio, ex.: amiodarona, sotalol), exigindo monitorização mais cautelosa.",
@@ -677,11 +1175,26 @@
       "id": "arr_040",
       "statement": "Um homem de 65 anos de idade, com fibrilação atrial persistente, estava agendado para cardioversão elétrica eletiva. Ele encontrava-se em ritmo de fibrilação atrial há 10 dias e não recebeu anticoagulação prévia. Com base nesse caso clínico hipotético, assinale a opção com a conduta adequada a ser providenciada.",
       "alternatives": [
-        {"key": "a", "text": "anticoagular por, pelo menos, três semanas antes da cardioversão"},
-        {"key": "b", "text": "iniciar aspirina e prosseguir com a cardioversão"},
-        {"key": "c", "text": "anticoagular por, pelo menos, cinco dias antes da cardioversão"},
-        {"key": "d", "text": "iniciar anticoagulação e prosseguir com a cardioversão imediatamente"},
-        {"key": "e", "text": "prosseguir com a cardioversão imediatamente"}
+        {
+          "key": "a",
+          "text": "anticoagular por, pelo menos, três semanas antes da cardioversão"
+        },
+        {
+          "key": "b",
+          "text": "iniciar aspirina e prosseguir com a cardioversão"
+        },
+        {
+          "key": "c",
+          "text": "anticoagular por, pelo menos, cinco dias antes da cardioversão"
+        },
+        {
+          "key": "d",
+          "text": "iniciar anticoagulação e prosseguir com a cardioversão imediatamente"
+        },
+        {
+          "key": "e",
+          "text": "prosseguir com a cardioversão imediatamente"
+        }
       ],
       "correct_key": "a",
       "explanation": "FA de duração ≥48h (10 dias) sem anticoagulação prévia exige anticoagulação plena por pelo menos 3 semanas antes da cardioversão eletiva (ou ecocardiograma transesofágico para afastar trombo), pelo risco de embolização de trombo atrial.",
@@ -695,10 +1208,22 @@
       "id": "arr_041",
       "statement": "Homem de 64 anos foi atendido no pronto-socorro de um hospital que não possui serviço de hemodinâmica. Foi diagnosticado com infarto agudo do miocárdio (IAM) com supraelevação do segmento ST. Recebeu tratamento trombolítico com alteplase, apresentou resposta clínica e eletrocardiográfica (ECG pós-reperfusão sem anormalidades) e permaneceu sob monitorização. Encontrava-se assintomático e apresentava os seguintes dados vitais: FC 68bpm, FR 18ipm, SpO2 95% (ar ambiente), PA 136/84mmHg, quando foi observado o seguinte traçado eletrocardiográfico: Assinale a alternativa que apresenta a conduta MAIS ADEQUADA neste momento em relação à abordagem da alteração eletrocardiográfica observada:",
       "alternatives": [
-        {"key": "a", "text": "Administração de amiodarona pela via IV."},
-        {"key": "b", "text": "Cardioversão elétrica sincronizada."},
-        {"key": "c", "text": "Conduta expectante e suporte clínico."},
-        {"key": "d", "text": "Transferência para cateterismo de urgência (em até 1 hora)."}
+        {
+          "key": "a",
+          "text": "Administração de amiodarona pela via IV."
+        },
+        {
+          "key": "b",
+          "text": "Cardioversão elétrica sincronizada."
+        },
+        {
+          "key": "c",
+          "text": "Conduta expectante e suporte clínico."
+        },
+        {
+          "key": "d",
+          "text": "Transferência para cateterismo de urgência (em até 1 hora)."
+        }
       ],
       "correct_key": "c",
       "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. O quadro clínico (paciente estável e assintomático após reperfusão bem-sucedida por trombolítico) é clássico de ritmo idioventricular acelerado (RIVA), marcador benigno de reperfusão que não requer tratamento antiarrítmico específico — apenas conduta expectante e suporte clínico.",
@@ -712,10 +1237,22 @@
       "id": "arr_042",
       "statement": "Mulher de 52 anos apresenta episódios de palpitação não desencadeada por esforço há 3 meses, com novo episódio há 2 horas. Nega dor torácica ou dispneia. AP: HAS, DM e DAC. Exame físico: PA: 150/80 mmHg; ausculta pulmonar sem alterações. ECG: fibrilação atrial; FC: 140 bpm. Ecocardiograma há 3 meses, com função ventricular preservada. A conduta é realizar:",
       "alternatives": [
-        {"key": "a", "text": "cardioversão elétrica com 100 joules, manter propafenona para controle de ritmo e anticoagulação perene."},
-        {"key": "b", "text": "cardioversão química com amiodarona, manter amiodarona para controle de ritmo e anticoagulação por 4 semanas."},
-        {"key": "c", "text": "anticoagular o paciente por 3 semanas, então realizar cardioversão. Após, manter controle de ritmo com propafenona e anticoagulação perene."},
-        {"key": "d", "text": "anticoagular o paciente por 3 semanas, então realizar cardioversão. Após, manter controle de ritmo com amiodarona e anticoagulação perene."}
+        {
+          "key": "a",
+          "text": "cardioversão elétrica com 100 joules, manter propafenona para controle de ritmo e anticoagulação perene."
+        },
+        {
+          "key": "b",
+          "text": "cardioversão química com amiodarona, manter amiodarona para controle de ritmo e anticoagulação por 4 semanas."
+        },
+        {
+          "key": "c",
+          "text": "anticoagular o paciente por 3 semanas, então realizar cardioversão. Após, manter controle de ritmo com propafenona e anticoagulação perene."
+        },
+        {
+          "key": "d",
+          "text": "anticoagular o paciente por 3 semanas, então realizar cardioversão. Após, manter controle de ritmo com amiodarona e anticoagulação perene."
+        }
       ],
       "correct_key": "d",
       "explanation": "Paciente com DAC (doença arterial coronariana): a propafenona (classe IC) é contraindicada em cardiopatia estrutural/isquêmica pelo risco pró-arrítmico (dados do estudo CAST), eliminando as opções com propafenona. Dado episódios recorrentes de duração incerta (>3 meses de história, apesar do episódio atual ter 2h), a conduta mais segura é anticoagular por 3 semanas antes da cardioversão, mantendo amiodarona (segura em cardiopatia estrutural) e anticoagulação perene.",
@@ -729,10 +1266,22 @@
       "id": "arr_043",
       "statement": "Sobre a fibrilação atrial, selecione a alternativa incorreta:",
       "alternatives": [
-        {"key": "a", "text": "Fibrilação atrial paroxística é aquela que é revertida espontaneamente ou com intervenção médica em até 7 dias de seu início."},
-        {"key": "b", "text": "Fibrilação atrial persistente é aquela com episódios com duração superior a 7 dias."},
-        {"key": "c", "text": "O termo fibrilação atrial permanente é utilizado nos casos em que as tentativas de reversão ao ritmo sinusal não serão mais instituídas."},
-        {"key": "d", "text": "Considera-se fibrilação atrial aguda quando iniciada há menos de 7 dias."}
+        {
+          "key": "a",
+          "text": "Fibrilação atrial paroxística é aquela que é revertida espontaneamente ou com intervenção médica em até 7 dias de seu início."
+        },
+        {
+          "key": "b",
+          "text": "Fibrilação atrial persistente é aquela com episódios com duração superior a 7 dias."
+        },
+        {
+          "key": "c",
+          "text": "O termo fibrilação atrial permanente é utilizado nos casos em que as tentativas de reversão ao ritmo sinusal não serão mais instituídas."
+        },
+        {
+          "key": "d",
+          "text": "Considera-se fibrilação atrial aguda quando iniciada há menos de 7 dias."
+        }
       ],
       "correct_key": "d",
       "explanation": "É a alternativa incorreta pedida: a classificação padrão de FA (paroxística, persistente, persistente de longa duração, permanente) não inclui formalmente uma categoria 'FA aguda' definida por <7 dias — esse conceito já está coberto pela definição de 'paroxística' (a-c estão corretas segundo a classificação padrão).",
@@ -746,10 +1295,22 @@
       "id": "arr_044",
       "statement": "Lactente, 2 anos, pesando 12 kg, com histórico de febre e irritabilidade, há 24 horas, apresenta deterioração súbita na sala de emergência. Ela está letárgica, com pulsos periféricos fracos e rápidos, tempo de enchimento capilar de 4 segundos e cianose labial. O monitor cardíaco mostra frequência cardíaca (FC) de 210 bpm, e a pressão arterial (PA) é de 70/40 mmHg. O eletrocardiograma (ECG) no monitor revela uma taquicardia regular de QRS largo (100 ms). A equipe já iniciou oxigênio suplementar e obteve um acesso venoso periférico. Considerando o quadro clínico e eletrocardiográfico, qual a conduta subsequente para o manejo inicial dessa paciente?",
       "alternatives": [
-        {"key": "a", "text": "Administrar adenosina intravenosa (IV), 0.1 mg/kg, enquanto prepara a cardioversão sincronizada."},
-        {"key": "b", "text": "Realizar cardioversão sincronizada imediata com energia inicial de 0.5-1 J/kg."},
-        {"key": "c", "text": "Tentar manobras vagais e, se não houver resposta, administrar amiodarona IV."},
-        {"key": "d", "text": "Iniciar compressões torácicas e preparar desfibrilação com 2 J/kg, pois se trata de uma taquicardia ventricular sem pulso iminente."}
+        {
+          "key": "a",
+          "text": "Administrar adenosina intravenosa (IV), 0.1 mg/kg, enquanto prepara a cardioversão sincronizada."
+        },
+        {
+          "key": "b",
+          "text": "Realizar cardioversão sincronizada imediata com energia inicial de 0.5-1 J/kg."
+        },
+        {
+          "key": "c",
+          "text": "Tentar manobras vagais e, se não houver resposta, administrar amiodarona IV."
+        },
+        {
+          "key": "d",
+          "text": "Iniciar compressões torácicas e preparar desfibrilação com 2 J/kg, pois se trata de uma taquicardia ventricular sem pulso iminente."
+        }
       ],
       "correct_key": "b",
       "explanation": "Criança com taquicardia de QRS largo e sinais claros de choque/instabilidade hemodinâmica (letargia, má perfusão, hipotensão) exige cardioversão sincronizada imediata (0,5-1 J/kg) pelo algoritmo pediátrico de taquicardia instável com pulso — a criança ainda tem pulso/PA mensurável, não estando em PCR.",
@@ -763,10 +1324,22 @@
       "id": "arr_045",
       "statement": "Mulher, 28 anos, chega ao pronto-socorro referindo que o coração está acelerado, gerando uma leve dispneia. Conta que iniciou enquanto varria a casa. Relata que não é a primeira vez que acontece, mas é a primeira vez que o quadro permanece por mais de 10 minutos. Ao Exame físico: Glasgow15, FR:22irpm, FC:180bpm, PA:120x70mmHg, SatO2:94%, glicemia capilar:95. Ausculta pulmonar normal. Sem outras alterações no exame físico. ECG realizado durante o atendimento a seguir: A conduta inicial indicada pela American Heart Asssociation para esta paciente é:",
       "alternatives": [
-        {"key": "a", "text": "Proceder manobra vagal modificada, soprando a seringa e elevando MMII."},
-        {"key": "b", "text": "Iniciar anticoagulação com heparina e iniciar amiodarona endovenosa."},
-        {"key": "c", "text": "Sedar a paciente e proceder cardioversão sincronizada imediatamente."},
-        {"key": "d", "text": "Tranquilizar a paciente e prescrever beta-bloquador via oral."}
+        {
+          "key": "a",
+          "text": "Proceder manobra vagal modificada, soprando a seringa e elevando MMII."
+        },
+        {
+          "key": "b",
+          "text": "Iniciar anticoagulação com heparina e iniciar amiodarona endovenosa."
+        },
+        {
+          "key": "c",
+          "text": "Sedar a paciente e proceder cardioversão sincronizada imediatamente."
+        },
+        {
+          "key": "d",
+          "text": "Tranquilizar a paciente e prescrever beta-bloquador via oral."
+        }
       ],
       "correct_key": "a",
       "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Paciente jovem, hemodinamicamente estável (PA normal, consciente/orientada), com taquicardia paroxística recorrente — quadro típico de TSV. A conduta inicial recomendada pela AHA é manobra vagal modificada (REVERT: Valsalva assistida com elevação de MMII), antes de qualquer intervenção farmacológica ou elétrica.",
@@ -780,10 +1353,22 @@
       "id": "arr_046",
       "statement": "Mulher, 68 anos de idade, comparece à consulta após internação por acidente vascular encefálico hemorrágico há um mês. Tem antecedente de fibrilação atrial crônica, hipertensão arterial, diabetes melito tipo 2 e doença renal crônica, em hemodiálise. Faz uso contínuo de atenolol 50 mg/dia, losartana 50 mg/dia, insulina NPH e anticoagulação com varfarina. Na ocasião do evento apresentava INR 2,1. Não ficou com sequelas neurológicas importantes e mantém funcionalidade preservada para atividades básicas e instrumentais de vida diária. A conduta mais adequada é:",
       "alternatives": [
-        {"key": "a", "text": "Iniciar AAS 100 mg/dia"},
-        {"key": "b", "text": "Iniciar apixabana 5 mg/dia"},
-        {"key": "c", "text": "Ajustar alvo da varfarina para INR entre 1,5 e 2,0"},
-        {"key": "d", "text": "Indicar oclusão percutânea do apêndice atrial esquerdo"}
+        {
+          "key": "a",
+          "text": "Iniciar AAS 100 mg/dia"
+        },
+        {
+          "key": "b",
+          "text": "Iniciar apixabana 5 mg/dia"
+        },
+        {
+          "key": "c",
+          "text": "Ajustar alvo da varfarina para INR entre 1,5 e 2,0"
+        },
+        {
+          "key": "d",
+          "text": "Indicar oclusão percutânea do apêndice atrial esquerdo"
+        }
       ],
       "correct_key": "d",
       "explanation": "AVC hemorrágico em vigência de anticoagulação terapêutica (INR na faixa) representa contraindicação relevante à manutenção da anticoagulação oral a longo prazo. A oclusão percutânea do apêndice atrial esquerdo é a alternativa indicada especificamente para pacientes com FA e contraindicação a anticoagulação prolongada, como neste caso.",
@@ -797,11 +1382,26 @@
       "id": "arr_047",
       "statement": "Um paciente de 85 anos de idade, diabético e hipertenso, iniciou há três dias palpitações e tontura. Procurou o serviço de emergência onde deu entrada consciente e contactante. Ao exame físico, apresenta FC = 145 bpm; PA = 110 mmHg x 60 mmHg; ritmo cardíaco irregular e alguns estertores crepitantes em bases pulmonares. Foi realizado eletrocardiograma que evidenciou ausência de ondas P, irregularidade da linha de base (ondas F) e distância R-R irregular. Assinale a alternativa que apresenta a conduta mais adequada para esse caso.",
       "alternatives": [
-        {"key": "a", "text": "Iniciar anticoagulação + cardioversão com antiarrítmico endovenoso."},
-        {"key": "b", "text": "Iniciar anticoagulação + controle de frequência cardíaca."},
-        {"key": "c", "text": "Controle da frequência cardíaca + cardioversão com antiarrítmico endovenoso."},
-        {"key": "d", "text": "Iniciar anticoagulação + cardioversão elétrica."},
-        {"key": "e", "text": "Controle da frequência cardíaca."}
+        {
+          "key": "a",
+          "text": "Iniciar anticoagulação + cardioversão com antiarrítmico endovenoso."
+        },
+        {
+          "key": "b",
+          "text": "Iniciar anticoagulação + controle de frequência cardíaca."
+        },
+        {
+          "key": "c",
+          "text": "Controle da frequência cardíaca + cardioversão com antiarrítmico endovenoso."
+        },
+        {
+          "key": "d",
+          "text": "Iniciar anticoagulação + cardioversão elétrica."
+        },
+        {
+          "key": "e",
+          "text": "Controle da frequência cardíaca."
+        }
       ],
       "correct_key": "b",
       "explanation": "Fibrilação atrial com 3 dias de evolução (>48h, duração incerta/prolongada) em paciente idoso hemodinamicamente aceitável (sem hipotensão franca): a conduta mais segura é anticoagulação associada a controle de frequência cardíaca, evitando tentativa de reversão sem anticoagulação/avaliação prévia de trombo.",
@@ -815,10 +1415,22 @@
       "id": "arr_048",
       "statement": "Para qual destas situações há indicação CLASSE I de implante de marcapasso definitivo?",
       "alternatives": [
-        {"key": "a", "text": "Doença do nó sinusal em pacientes em uso de amiodarona."},
-        {"key": "b", "text": "Bloqueio atrioventricular de segundo grau Mobitz I (Wenckebach) durante o sono."},
-        {"key": "c", "text": "Síncope recorrente, > 40 anos de idade e documentação de pausa sintomática espontânea maior que 6 segundos."},
-        {"key": "d", "text": "Pacientes com miocardiopatia hipertrófica forma obstrutiva, mesmo com gradiente de via de saída de ventrículo esquerdo baixo."}
+        {
+          "key": "a",
+          "text": "Doença do nó sinusal em pacientes em uso de amiodarona."
+        },
+        {
+          "key": "b",
+          "text": "Bloqueio atrioventricular de segundo grau Mobitz I (Wenckebach) durante o sono."
+        },
+        {
+          "key": "c",
+          "text": "Síncope recorrente, > 40 anos de idade e documentação de pausa sintomática espontânea maior que 6 segundos."
+        },
+        {
+          "key": "d",
+          "text": "Pacientes com miocardiopatia hipertrófica forma obstrutiva, mesmo com gradiente de via de saída de ventrículo esquerdo baixo."
+        }
       ],
       "correct_key": "c",
       "explanation": "Síncope recorrente com documentação de pausa sintomática espontânea >6 segundos é indicação Classe I clássica de marcapasso definitivo. Mobitz I durante o sono costuma ser fisiológico (vagal); DNS por amiodarona pode ser causa reversível; miocardiopatia hipertrófica com gradiente BAIXO não tem indicação de marcapasso por esse motivo.",
@@ -832,7 +1444,10 @@
       "id": "arr_049",
       "statement": "Mulher, 52 anos de idade, é atendida pelo SAMU após episódio de síncope, há cerca de uma hora e meia. O episódio foi precedido por mal estar e sensação de escurecimento da visão, seguido por abalos musculares presenciados pelos familiares. De antecedentes refere diabetes mellitus em tratamento irregular. Ao exame físico, apresenta-se afebril, com FC: 34bpm, PA: 86x52mmHg, SatO²: 94%, glicemia capilar de 210mg/dL. Ausculta cardíaca com bulhas rítmicas, bradicárdicas, em 2 tempos, sem sopros. Ausculta respiratória sem alterações. Realizado eletrocardiograma, com frequência cardíaca de 30bpm e ondas P dissociadas dos complexos QRS. Diante do quadro clínico, indique o diagnóstico etiológico mais provável da síncope.",
       "alternatives": [
-        {"key": "a", "text": "Bloqueio atrioventricular total OU Bloqueio atrioventricular completo OU Bloqueio atrioventricular de 3° grau OU BAVT."}
+        {
+          "key": "a",
+          "text": "Bloqueio atrioventricular total OU Bloqueio atrioventricular completo OU Bloqueio atrioventricular de 3° grau OU BAVT."
+        }
       ],
       "correct_key": "a",
       "explanation": "Ondas P completamente dissociadas dos complexos QRS com FC de escape baixa (30bpm) é a definição eletrocardiográfica de bloqueio atrioventricular total (BAVT/3º grau), causando síncope por baixo débito (síncope de Stokes-Adams).",
@@ -846,10 +1461,22 @@
       "id": "arr_050",
       "statement": "Em pacientes com fibrilação atrial crônica, para reduzir a frequência cardíaca, NÃO se utiliza",
       "alternatives": [
-        {"key": "a", "text": "metoprolol."},
-        {"key": "b", "text": "amiodarona."},
-        {"key": "c", "text": "anlodipina."},
-        {"key": "d", "text": "verapamil."}
+        {
+          "key": "a",
+          "text": "metoprolol."
+        },
+        {
+          "key": "b",
+          "text": "amiodarona."
+        },
+        {
+          "key": "c",
+          "text": "anlodipina."
+        },
+        {
+          "key": "d",
+          "text": "verapamil."
+        }
       ],
       "correct_key": "c",
       "explanation": "Anlodipina é um bloqueador de canal de cálcio diidropiridínico, sem ação relevante no nó AV, não sendo usada para controle de frequência em FA — ao contrário de metoprolol (BB), amiodarona e verapamil (BCC não-diidropiridínico).",
@@ -863,11 +1490,26 @@
       "id": "arr_051",
       "statement": "Uma paciente de 62 anos de idade, com história de cardiomiopatia e insuficiência cardíaca, foi admitida no pronto-socorro com quadro de desconforto e sensação de batedeira, sem sinais de instabilidade. Eletrocardiograma revelou uma taquicardia ventricular monomórfica com QRS estreito e intervalo R-R regular. Acerca da conduta para essa paciente, assinale a alternativa correta.",
       "alternatives": [
-        {"key": "a", "text": "Realização de manobra vagal."},
-        {"key": "b", "text": "Cardioversão elétrica sincronizada."},
-        {"key": "c", "text": "Bloqueadores do canal de cálcio, verapamil e diltiazem."},
-        {"key": "d", "text": "Amiodarona em dose de ataque e, depois, deixar dose de manutenção."},
-        {"key": "e", "text": "Lidocaína, nesse caso, é o mais indicado."}
+        {
+          "key": "a",
+          "text": "Realização de manobra vagal."
+        },
+        {
+          "key": "b",
+          "text": "Cardioversão elétrica sincronizada."
+        },
+        {
+          "key": "c",
+          "text": "Bloqueadores do canal de cálcio, verapamil e diltiazem."
+        },
+        {
+          "key": "d",
+          "text": "Amiodarona em dose de ataque e, depois, deixar dose de manutenção."
+        },
+        {
+          "key": "e",
+          "text": "Lidocaína, nesse caso, é o mais indicado."
+        }
       ],
       "correct_key": "d",
       "explanation": "Paciente estável (sem sinais de instabilidade) com taquicardia ventricular monomórfica sustentada: tratamento farmacológico de escolha é amiodarona em dose de ataque seguida de manutenção. Nota: o enunciado descreve 'QRS estreito' associado a 'taquicardia ventricular', combinação eletrocardiograficamente contraditória (TV por definição tem QRS largo) — provável imprecisão no enunciado original; a resposta segue o raciocínio de manejo padrão para TV monomórfica estável.",
@@ -881,10 +1523,22 @@
       "id": "arr_052",
       "statement": "Paciente masculino, de 18 anos, em uso de propranolol (40 mg, 3 vezes/dia) para tratamento de arritmia cardíaca, procurou a Emergência após episódio de síncope enquanto corria para pegar o ônibus. À chegada, apresentava frequência cardíaca de 60 bpm, pressão arterial de 118/62 mmHg e saturação de oxigênio de 98%. Ao exame, o paciente estava acordado e em bom estado geral. As auscultas cardíaca e pulmonar encontravam-se normais. O traçado de ritmo realizado está reproduzido abaixo. Para essa condição clínica, que conduta, dentre as propostas, é a mais adequada na Emergência?",
       "alternatives": [
-        {"key": "a", "text": "Suspender o betabloqueador e liberar o paciente para o domicílio."},
-        {"key": "b", "text": "Suspender o betabloqueador e realizar teste de inclinação."},
-        {"key": "c", "text": "Iniciar o uso de amiodarona intravenosa e indicar admissão hospitalar para monitorização e exames laboratoriais."},
-        {"key": "d", "text": "Manter o betabloqueador e indicar admissão hospitalar para monitorização e exames laboratoriais."}
+        {
+          "key": "a",
+          "text": "Suspender o betabloqueador e liberar o paciente para o domicílio."
+        },
+        {
+          "key": "b",
+          "text": "Suspender o betabloqueador e realizar teste de inclinação."
+        },
+        {
+          "key": "c",
+          "text": "Iniciar o uso de amiodarona intravenosa e indicar admissão hospitalar para monitorização e exames laboratoriais."
+        },
+        {
+          "key": "d",
+          "text": "Manter o betabloqueador e indicar admissão hospitalar para monitorização e exames laboratoriais."
+        }
       ],
       "correct_key": "d",
       "explanation": "Síncope durante esforço em paciente jovem já em tratamento para arritmia cardíaca é um sinal de alarme que exige investigação hospitalar cuidadosa (monitorização e exames), sem suspender abruptamente a medicação de base ou liberar precocemente sem esclarecimento diagnóstico.",
@@ -898,11 +1552,26 @@
       "id": "arr_053",
       "statement": "Uma mulher de 47 anos de idade compareceu ao pronto-socorro com queixa de palpitação, sudorese e dor no peito. Relatou percepção dos atuais sintomas há quinze minutos da admissão. No exame físico, encontra-se sudoreica, taquicárdica e eupneica. PA de 145x85 mmHg, FR de 23 irpm e enchimento capilar preservado. A seguir, o eletrocardiograma da referida paciente. Com base nessa situação hipotética, assinale a alternativa que apresenta a conduta mais adequada para a paciente.",
       "alternatives": [
-        {"key": "a", "text": "cardioversão elétrica sincronizada"},
-        {"key": "b", "text": "adenosina"},
-        {"key": "c", "text": "manobra vagal"},
-        {"key": "d", "text": "propranolol"},
-        {"key": "e", "text": "amiodarona"}
+        {
+          "key": "a",
+          "text": "cardioversão elétrica sincronizada"
+        },
+        {
+          "key": "b",
+          "text": "adenosina"
+        },
+        {
+          "key": "c",
+          "text": "manobra vagal"
+        },
+        {
+          "key": "d",
+          "text": "propranolol"
+        },
+        {
+          "key": "e",
+          "text": "amiodarona"
+        }
       ],
       "correct_key": "c",
       "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Paciente hemodinamicamente estável (PA normal/elevada, boa perfusão) com taquicardia de início agudo: a conduta inicial padrão, presumindo taquicardia regular de QRS estreito, é manobra vagal, antes de qualquer intervenção farmacológica ou elétrica.",
@@ -916,10 +1585,22 @@
       "id": "arr_054",
       "statement": "Mulher, 77 anos de idade, queixa-se de dispneia aos moderados esforços nos últimos meses. Está em acompanhamento clínico com o diagnóstico de insuficiência cardíaca e hipertensão arterial. Faz uso regular de carvedilol 25 mg 12/12h, enalapril 20 mg 12/12h, dapagliflozina 10 mg/dia, espironolactona 25 mg/dia e rivaroxabana 20 mg/dia. Exame físico: PA = 130/80 mmHg, FC= 115 bpm; bulhas arrítmicas e sem sopro; ausculta pulmonar normal. Exames: ecocardiograma transtorácico com FE = 40%, AE = 47 mm, PSAP = 40 mmHg; ECG com ritmo de fibrilação atrial. Neste caso, dentre as medicações abaixo, qual é a mais adequada para controle da resposta ventricular?",
       "alternatives": [
-        {"key": "a", "text": "Propafenona."},
-        {"key": "b", "text": "Ivabradina."},
-        {"key": "c", "text": "Lidocaina."},
-        {"key": "d", "text": "Digoxina."}
+        {
+          "key": "a",
+          "text": "Propafenona."
+        },
+        {
+          "key": "b",
+          "text": "Ivabradina."
+        },
+        {
+          "key": "c",
+          "text": "Lidocaina."
+        },
+        {
+          "key": "d",
+          "text": "Digoxina."
+        }
       ],
       "correct_key": "d",
       "explanation": "Paciente já em uso de betabloqueador (carvedilol) e ainda taquicárdica (FC115). A digoxina pode ser associada ao BB para melhor controle de frequência em FA+IC. Ivabradina não atua em ritmo de FA (exige ritmo sinusal); propafenona é contraindicada em IC/cardiopatia estrutural; lidocaína não é droga de controle de frequência em FA.",
@@ -933,10 +1614,22 @@
       "id": "arr_055",
       "statement": "Paciente de 76 anos, sexo masculino, com histórico de HAS e Diabetes Mellitus tipo 2 e Insuficiência Cardíaca com FEVE 35%, apresenta Fibrilação Atrial (FA) persistente. Qual a conduta antitrombótica recomendada para uso ambulatorial, baseada no escore CHA2DS2-VASc?",
       "alternatives": [
-        {"key": "a", "text": "Primeira linha a anticoagulação com Antagonista da Vitamina K (Varfarina) com INR alvo entre 2,5 e 3,5."},
-        {"key": "b", "text": "Apenas AAS (100mg/dia), pois a FEVE de 40% não configura alto risco de eventos."},
-        {"key": "c", "text": "Anticoagulação Oral (ACO) com DOACs (anticoagulantes orais diretos), se não houver contraindicações."},
-        {"key": "d", "text": "Anticoagulação com Heparina de Baixo Peso Molecular (HBPM), por se tratar de um paciente com alto risco de sangramento."}
+        {
+          "key": "a",
+          "text": "Primeira linha a anticoagulação com Antagonista da Vitamina K (Varfarina) com INR alvo entre 2,5 e 3,5."
+        },
+        {
+          "key": "b",
+          "text": "Apenas AAS (100mg/dia), pois a FEVE de 40% não configura alto risco de eventos."
+        },
+        {
+          "key": "c",
+          "text": "Anticoagulação Oral (ACO) com DOACs (anticoagulantes orais diretos), se não houver contraindicações."
+        },
+        {
+          "key": "d",
+          "text": "Anticoagulação com Heparina de Baixo Peso Molecular (HBPM), por se tratar de um paciente com alto risco de sangramento."
+        }
       ],
       "correct_key": "c",
       "explanation": "Paciente com CHA2DS2-VASc claramente elevado (idade≥75=2, HAS=1, DM=1, IC=1) tem indicação de anticoagulação oral, sendo os DOACs a primeira escolha atual sobre varfarina, quando não há contraindicações.",
@@ -950,11 +1643,26 @@
       "id": "arr_056",
       "statement": "De acordo com a classificação de antiarrítmicos de Vaughan-Willians, a classe IV representa",
       "alternatives": [
-        {"key": "a", "text": "bloqueadores de canal de sódio: procaínamida e lidocaína."},
-        {"key": "b", "text": "bloqueadores de canal de cálcio: anlodipino e nifedipino."},
-        {"key": "c", "text": "bloqueadores de canal de potássio: amiodaronite e solatol."},
-        {"key": "d", "text": "bloqueadores de canal de cálcio: verapamil e diltiazem."},
-        {"key": "e", "text": "beta-bloqueadores: propanolol, metoprolol, atenolol e esmolol."}
+        {
+          "key": "a",
+          "text": "bloqueadores de canal de sódio: procaínamida e lidocaína."
+        },
+        {
+          "key": "b",
+          "text": "bloqueadores de canal de cálcio: anlodipino e nifedipino."
+        },
+        {
+          "key": "c",
+          "text": "bloqueadores de canal de potássio: amiodaronite e solatol."
+        },
+        {
+          "key": "d",
+          "text": "bloqueadores de canal de cálcio: verapamil e diltiazem."
+        },
+        {
+          "key": "e",
+          "text": "beta-bloqueadores: propanolol, metoprolol, atenolol e esmolol."
+        }
       ],
       "correct_key": "d",
       "explanation": "Classe IV de Vaughan-Williams = bloqueadores de canal de cálcio não-diidropiridínicos com ação nodal: verapamil e diltiazem.",
@@ -968,10 +1676,22 @@
       "id": "arr_057",
       "statement": "Um paciente de 72 anos de idade, hipertenso e diabético, procurou atendimento na UPA queixando-se de início súbito de palpitações há 8 horas, associado a leve dispneia e mal-estar. Ao exame físico, apresentava PA = 138 mmHg x 86 mmHg, FC = 132 bpm (irregular), FR = 20 irpm, SatO2 = 96%. Foi realizado o eletrocardiograma, que apresentou o resultado evidenciado na imagem. Qual é a conduta inicial mais adequada para esse paciente?",
       "alternatives": [
-        {"key": "a", "text": "Controlar a frequência cardíaca com betabloqueador ou bloqueador de canais de cálcio."},
-        {"key": "b", "text": "Realizar cardioversão elétrica imediatamente para todos os casos."},
-        {"key": "c", "text": "Utilizar anticoagulação plena por três semanas antes de qualquer tentativa de reversão."},
-        {"key": "d", "text": "Administrar amiodarona para reversão."}
+        {
+          "key": "a",
+          "text": "Controlar a frequência cardíaca com betabloqueador ou bloqueador de canais de cálcio."
+        },
+        {
+          "key": "b",
+          "text": "Realizar cardioversão elétrica imediatamente para todos os casos."
+        },
+        {
+          "key": "c",
+          "text": "Utilizar anticoagulação plena por três semanas antes de qualquer tentativa de reversão."
+        },
+        {
+          "key": "d",
+          "text": "Administrar amiodarona para reversão."
+        }
       ],
       "correct_key": "a",
       "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF, presumindo fibrilação atrial pelo contexto (ritmo irregular). Paciente hemodinamicamente estável com início <48h (8 horas): a conduta inicial mais segura/universal é controle de frequência cardíaca, enquanto se avalia a duração exata e a estratégia de ritmo.",
@@ -985,11 +1705,26 @@
       "id": "arr_058",
       "statement": "Maria, 78 anos, com diagnóstico de fibrilação atrial paroxística, vem ao consultório pela primeira vez. Antecedentes pessoais: hipertensa controlada com medicação. Nega diabetes, outras doenças ou internações prévias. Radiograma de tórax: área cardíaca normal, sem calcificações vasculares. Em relação à abordagem terapêutica da fibrilação atrial nesta paciente, é correto afirmar que o escore de CHADS-VASC:",
       "alternatives": [
-        {"key": "a", "text": "é de 3 sem indicação de terapia antitrombótica, pela ausência de evidência de eventos prévios."},
-        {"key": "b", "text": "é de 4, sem indicação de terapia antitrombótica."},
-        {"key": "c", "text": "é de 3, com indicação de terapia antitrombótica."},
-        {"key": "d", "text": "não se aplica nessa situação já que se trata de uma arritmia paroxística."},
-        {"key": "e", "text": "é de 4, com indicação de terapia antitrombótica."}
+        {
+          "key": "a",
+          "text": "é de 3 sem indicação de terapia antitrombótica, pela ausência de evidência de eventos prévios."
+        },
+        {
+          "key": "b",
+          "text": "é de 4, sem indicação de terapia antitrombótica."
+        },
+        {
+          "key": "c",
+          "text": "é de 3, com indicação de terapia antitrombótica."
+        },
+        {
+          "key": "d",
+          "text": "não se aplica nessa situação já que se trata de uma arritmia paroxística."
+        },
+        {
+          "key": "e",
+          "text": "é de 4, com indicação de terapia antitrombótica."
+        }
       ],
       "correct_key": "e",
       "explanation": "CHA2DS2-VASc: idade 78 (≥75 = 2 pontos) + HAS (1 ponto) + sexo feminino (1 ponto, computado quando há outro fator de risco presente) = 4 pontos. Score ≥2 em mulheres já indica anticoagulação; FA paroxística carrega o mesmo risco tromboembólico que outras formas e exige a mesma abordagem antitrombótica.",
@@ -1003,11 +1738,26 @@
       "id": "arr_059",
       "statement": "Uma paciente de 78 anos procurou o ambulatório de uma clínica médica pois vinha apresentando dispneia aos esforços. Estava em uso de olmesartana 40 mg ao dia e hidroclorotiazida 12,5 mg ao dia. Negava outros sintomas. Ela levou para consulta os exames laboratoriais realizados no último mês. Os resultados de glicemia, sódio, potássio, ureia, creatinina e hemograma estavam dentro da normalidade. O ecocardiograma recente estava sem alterações significativas. O exame físico constatou ritmo cardíaco regular e bulhas normofonéticas. O restante do exame não apresentava alterações. A pressão arterial era de 162 × 80 mmHg e a frequência cardíaca, de 41 batimentos por minuto. A paciente levou um eletrocardiograma realizado 4 semanas antes da consulta, em que foi evidenciado um bloqueio atrioventricular do 2º grau Mobitz II. Esse exame foi repetido no dia do atendimento, quando o bloqueio atrioventricular foi confirmado. Nesse caso, a conduta mais indicada é:",
       "alternatives": [
-        {"key": "a", "text": "associar clonidina visando a um melhor controle da pressão arterial sistólica;"},
-        {"key": "b", "text": "solicitar Holter de 24 horas para investigar a presença de outras arritmias cardíacas;"},
-        {"key": "c", "text": "indicar a realização de cintilografia miocárdica com dipiridamol para afastar isquemia miocárdica;"},
-        {"key": "d", "text": "encaminhar a paciente para uma pronta avaliação por uma equipe especializada diante da indicação de implante de marcapasso definitivo;"},
-        {"key": "e", "text": "ministrar atropina venosa para reversão do bloqueio atrioventricular, visando a seguir monitorando ambulatorialmente a frequência cardíaca e a pressão arterial."}
+        {
+          "key": "a",
+          "text": "associar clonidina visando a um melhor controle da pressão arterial sistólica;"
+        },
+        {
+          "key": "b",
+          "text": "solicitar Holter de 24 horas para investigar a presença de outras arritmias cardíacas;"
+        },
+        {
+          "key": "c",
+          "text": "indicar a realização de cintilografia miocárdica com dipiridamol para afastar isquemia miocárdica;"
+        },
+        {
+          "key": "d",
+          "text": "encaminhar a paciente para uma pronta avaliação por uma equipe especializada diante da indicação de implante de marcapasso definitivo;"
+        },
+        {
+          "key": "e",
+          "text": "ministrar atropina venosa para reversão do bloqueio atrioventricular, visando a seguir monitorando ambulatorialmente a frequência cardíaca e a pressão arterial."
+        }
       ],
       "correct_key": "d",
       "explanation": "BAV Mobitz II confirmado (documentado em duas ocasiões) é indicação Classe I de marcapasso definitivo, independentemente de sintomas, dado o alto risco de progressão para bloqueio total — exige encaminhamento para avaliação especializada e implante.",
@@ -1021,8 +1771,14 @@
       "id": "arr_060",
       "statement": "Um jovem de 25 anos começou a apresentar palpitações de tonturas, principalmente durante a realização de exercícios. O paciente referiu que diminuiu os esportes por sentir que iria desmaiar. Nega medicamentos. O médico solicitou um holter que demonstrou episódios de taquicardia ventricular não sustentada, sendo a maior de 15 batimentos. A seguir, está o eletrocardiograma do paciente. Julgue: Taquicardia ventricular não sustentada no holter não é mais considerado fator de mau prognóstico.",
       "alternatives": [
-        {"key": "a", "text": "CERTO"},
-        {"key": "b", "text": "ERRADO"}
+        {
+          "key": "a",
+          "text": "CERTO"
+        },
+        {
+          "key": "b",
+          "text": "ERRADO"
+        }
       ],
       "correct_key": "b",
       "explanation": "A TVNS ao Holter permanece marcador prognóstico relevante, especialmente em pacientes com cardiopatia estrutural ou de alto risco (como neste caso, jovem sintomático aos esforços), sendo utilizada na estratificação de risco de morte súbita.",
@@ -1036,11 +1792,26 @@
       "id": "arr_061",
       "statement": "Sobre as taquiarritmias, é INCORRETO afirmar que",
       "alternatives": [
-        {"key": "a", "text": "a propafenona é a droga de escolha para reversão de fibrilação atrial em pacientes com insuficiência cardíaca com fração de ejeção reduzida."},
-        {"key": "b", "text": "a instabilidade hemodinâmica nas taquiarritmias pode ser caracterizada pelos 4Ds: Dor torácica anginosa típica, Dispneia, Desorientação (ou desmaio) e Diminuição da pressão arterial (sistólica menor do que 90 mmHg), geralmente necessitando de cardioversão"},
-        {"key": "c", "text": "antes da cardioversão de uma fibrilação atrial de início indeterminado, recomenda-se afastar a presença de trombos intracavitários por meio da anticoagulação prévia por 4 semanas ou da realização de ecocardiograma transesofágico."},
-        {"key": "d", "text": "a ausência de onda P (é substituída por um tremor de alta frequência na linha de base), ritmo irregular, taquicardia (ritmos maiores que 100 bpm), presenças de onda f (tentativas de gerar estímulo) são características eletrocardiográficas da fibrilação atrial."},
-        {"key": "e", "text": "as taquicardias atriais têm prognóstico, no geral benigno e geralmente as descompensações ocorrem em pacientes já com doenças estruturais prévias ou com doença pulmonar obstrutiva crônica (DPOC) associada."}
+        {
+          "key": "a",
+          "text": "a propafenona é a droga de escolha para reversão de fibrilação atrial em pacientes com insuficiência cardíaca com fração de ejeção reduzida."
+        },
+        {
+          "key": "b",
+          "text": "a instabilidade hemodinâmica nas taquiarritmias pode ser caracterizada pelos 4Ds: Dor torácica anginosa típica, Dispneia, Desorientação (ou desmaio) e Diminuição da pressão arterial (sistólica menor do que 90 mmHg), geralmente necessitando de cardioversão"
+        },
+        {
+          "key": "c",
+          "text": "antes da cardioversão de uma fibrilação atrial de início indeterminado, recomenda-se afastar a presença de trombos intracavitários por meio da anticoagulação prévia por 4 semanas ou da realização de ecocardiograma transesofágico."
+        },
+        {
+          "key": "d",
+          "text": "a ausência de onda P (é substituída por um tremor de alta frequência na linha de base), ritmo irregular, taquicardia (ritmos maiores que 100 bpm), presenças de onda f (tentativas de gerar estímulo) são características eletrocardiográficas da fibrilação atrial."
+        },
+        {
+          "key": "e",
+          "text": "as taquicardias atriais têm prognóstico, no geral benigno e geralmente as descompensações ocorrem em pacientes já com doenças estruturais prévias ou com doença pulmonar obstrutiva crônica (DPOC) associada."
+        }
       ],
       "correct_key": "a",
       "explanation": "É a afirmativa incorreta pedida: a propafenona (classe IC) é CONTRAINDICADA em pacientes com ICFEr/cardiopatia estrutural pelo risco pró-arrítmico, não sendo droga de escolha nesse contexto (nessa situação prefere-se amiodarona).",
@@ -1054,11 +1825,26 @@
       "id": "arr_062",
       "statement": "Paciente dá entrada na sala de emergência referindo dispneia intensa e desconforto torácico. Ao monitorar paciente percebemos PA 160/70, FC 160bpm, FR 32, sat 88%, na ausculta pulmonar presença de estertores crepitantes até terço médio bilateral. Realizado eletrocardiograma, percebemos ausência da onda P e ritmo irregular. Diante do quadro clínico e da interpretação eletrocardiográfica, qual a melhor conduta a ser tomada?",
       "alternatives": [
-        {"key": "a", "text": "Cardioversão elétrica com 50J no desfibrilador monofásico"},
-        {"key": "b", "text": "Cardioversão elétrica com 200J no desfibrilador monofásico."},
-        {"key": "c", "text": "Realizar manobra vagal se o paciente não responder infusão de adenosina 6mg EV."},
-        {"key": "d", "text": "Investigar causas secundárias que possam estar levando ao aumento da frequência cardíaca."},
-        {"key": "e", "text": "Amiodarona dose de ataque, seguido da dose manutenção 1mg/min nas primeiras 6 horas e 0,5mg/min nas próximas 18h."}
+        {
+          "key": "a",
+          "text": "Cardioversão elétrica com 50J no desfibrilador monofásico"
+        },
+        {
+          "key": "b",
+          "text": "Cardioversão elétrica com 200J no desfibrilador monofásico."
+        },
+        {
+          "key": "c",
+          "text": "Realizar manobra vagal se o paciente não responder infusão de adenosina 6mg EV."
+        },
+        {
+          "key": "d",
+          "text": "Investigar causas secundárias que possam estar levando ao aumento da frequência cardíaca."
+        },
+        {
+          "key": "e",
+          "text": "Amiodarona dose de ataque, seguido da dose manutenção 1mg/min nas primeiras 6 horas e 0,5mg/min nas próximas 18h."
+        }
       ],
       "correct_key": "e",
       "explanation": "Idêntico ao caso anterior (ausência de onda P, ritmo irregular = FA, causando edema pulmonar). A PA está elevada, não hipotensa, tornando o quadro tratável farmacologicamente com amiodarona em vez de cardioversão elétrica imediata como primeira conduta.",
@@ -1072,11 +1858,26 @@
       "id": "arr_063",
       "statement": "Paciente de 85 anos chega à unidade de saúde com quadro de tontura. Seu ECG mostra um intervalo PR em 210 ms. O diagnóstico mais provável é",
       "alternatives": [
-        {"key": "a", "text": "bradicardia sinusal."},
-        {"key": "b", "text": "bloqueio atrioventricular de terceiro grau."},
-        {"key": "c", "text": "bloqueio atrioventricular de segundo grau Mobitz II."},
-        {"key": "d", "text": "bloqueio atrioventricular de segundo grau Mobitz I."},
-        {"key": "e", "text": "bloqueio atrioventricular de primeiro grau."}
+        {
+          "key": "a",
+          "text": "bradicardia sinusal."
+        },
+        {
+          "key": "b",
+          "text": "bloqueio atrioventricular de terceiro grau."
+        },
+        {
+          "key": "c",
+          "text": "bloqueio atrioventricular de segundo grau Mobitz II."
+        },
+        {
+          "key": "d",
+          "text": "bloqueio atrioventricular de segundo grau Mobitz I."
+        },
+        {
+          "key": "e",
+          "text": "bloqueio atrioventricular de primeiro grau."
+        }
       ],
       "correct_key": "e",
       "explanation": "PR de 210ms (>200ms) sem outras alterações descritas caracteriza BAV de primeiro grau.",
@@ -1090,11 +1891,26 @@
       "id": "arr_064",
       "statement": "Um homem de 55 anos, com histórico de infarto agudo do miocárdio há 2 anos e fração de ejeção de 30%, chega ao pronto-socorro com palpitações intensas, tontura e sensação de desmaio iminente. Ao exame, ele apresenta pressão arterial de 90/60 mmHg e frequência cardíaca de 160 bpm. O eletrocardiograma revela complexos largos e regulares a uma frequência de 160 bpm, sugerindo taquicardia ventricular sustentada (TVS). O paciente está consciente, mas com sinais de má perfusão. Qual a conduta inicial mais apropriada para este paciente?",
       "alternatives": [
-        {"key": "a", "text": "Administrar amiodarona intravenosa e observar a resposta."},
-        {"key": "b", "text": "Realizar cardioversão elétrica sincronizada de emergência, devido à instabilidade hemodinâmica."},
-        {"key": "c", "text": "Administrar adenosina para diferenciar entre taquicardia ventricular e supraventricular com aberrância."},
-        {"key": "d", "text": "Tentar manobras vagais inicialmente para reduzir a frequência cardíaca."},
-        {"key": "e", "text": "Administrar lidocaína intravenosa para controle imediato da arritmia."}
+        {
+          "key": "a",
+          "text": "Administrar amiodarona intravenosa e observar a resposta."
+        },
+        {
+          "key": "b",
+          "text": "Realizar cardioversão elétrica sincronizada de emergência, devido à instabilidade hemodinâmica."
+        },
+        {
+          "key": "c",
+          "text": "Administrar adenosina para diferenciar entre taquicardia ventricular e supraventricular com aberrância."
+        },
+        {
+          "key": "d",
+          "text": "Tentar manobras vagais inicialmente para reduzir a frequência cardíaca."
+        },
+        {
+          "key": "e",
+          "text": "Administrar lidocaína intravenosa para controle imediato da arritmia."
+        }
       ],
       "correct_key": "b",
       "explanation": "TV sustentada com sinais de má perfusão e hipotensão (90/60) em paciente consciente com pulso caracteriza instabilidade hemodinâmica, exigindo cardioversão elétrica sincronizada de emergência, e não tentativas farmacológicas iniciais.",
@@ -1108,11 +1924,26 @@
       "id": "arr_065",
       "statement": "Homem, de 68 anos de idade, comparece à unidade de emergência com queixa de palpitação de início súbito e sem pródromos, há 20 minutos. Nega dor torácica, dispneia, tontura, lipotimia, síncope ou quaisquer outros sintomas. Tem história prévia de hipertensão arterial sistêmica, dislipidemia e diabetes mellitus tipo 2, estando em uso de enalapril, metformina e sinvastatina. Ao exame, está em bom estado geral, lúcido e orientado no tempo e espaço e apresenta FC: 130 bpm; PA: 146 x 86 mmHg; tempo de enchimento capilar de 1 segundo; FR: 16 irpm e saturação periférica de oxigênio de 96% em ar ambiente. Sem outras alterações ao exame físico. O eletrocardiograma está mostrado abaixo. Após sua admissão na sala de emergência, foi instalada monitorização e obtido um acesso venoso periférico calibroso, com subsequente administração de 6 mg de adenosina. O diagnóstico eletrocardiográfico e a conduta que deve ser adotada neste momento, respectivamente, são:",
       "alternatives": [
-        {"key": "a", "text": "Fibrilação atrial de alta resposta ventricular e metoprolol 5 mg."},
-        {"key": "b", "text": "Taquicardia ventricular monomórfica e amiodarona 150 mg."},
-        {"key": "c", "text": "Taquicardia supraventricular e adenosina 12 mg."},
-        {"key": "d", "text": "Taquicardia ventricular polimórfica e cardioversão sincronizada."},
-        {"key": "e", "text": "Flutter atrial com bloqueio de ramo direito e adenosina 6 mg."}
+        {
+          "key": "a",
+          "text": "Fibrilação atrial de alta resposta ventricular e metoprolol 5 mg."
+        },
+        {
+          "key": "b",
+          "text": "Taquicardia ventricular monomórfica e amiodarona 150 mg."
+        },
+        {
+          "key": "c",
+          "text": "Taquicardia supraventricular e adenosina 12 mg."
+        },
+        {
+          "key": "d",
+          "text": "Taquicardia ventricular polimórfica e cardioversão sincronizada."
+        },
+        {
+          "key": "e",
+          "text": "Flutter atrial com bloqueio de ramo direito e adenosina 6 mg."
+        }
       ],
       "correct_key": "c",
       "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Paciente estável com taquicardia regular de início súbito, já tratado com adenosina 6mg sem resposta completa relatada: o próximo passo padrão do algoritmo é escalar para adenosina 12mg, mantendo a hipótese de TSV.",
@@ -1126,11 +1957,26 @@
       "id": "arr_066",
       "statement": "Assinale a alternativa que não apresenta uma arritmia com risco de vida.",
       "alternatives": [
-        {"key": "a", "text": "pontos torsades"},
-        {"key": "b", "text": "fibrilação ventricular"},
-        {"key": "c", "text": "taquicardia sinusal"},
-        {"key": "d", "text": "taquicardia ventricular"},
-        {"key": "e", "text": "fibrilação ventricular"}
+        {
+          "key": "a",
+          "text": "pontos torsades"
+        },
+        {
+          "key": "b",
+          "text": "fibrilação ventricular"
+        },
+        {
+          "key": "c",
+          "text": "taquicardia sinusal"
+        },
+        {
+          "key": "d",
+          "text": "taquicardia ventricular"
+        },
+        {
+          "key": "e",
+          "text": "fibrilação ventricular"
+        }
       ],
       "correct_key": "c",
       "explanation": "Taquicardia sinusal é uma resposta fisiológica/compensatória, geralmente benigna, ao contrário de Torsades de Pointes, FV e TV, que são arritmias malignas com risco de morte súbita.",
@@ -1144,10 +1990,22 @@
       "id": "arr_067",
       "statement": "Durante fase inicial de uma cirurgia de revascularização miocárdica, antes da abertura esternal, o anestesiologista observa, no monitor cardíaco, que no traçado da curva do pulso venoso jugular, apenas a onda a (presente anteriormente) não é mais observada. Ao olhar o traçado eletrocardiográfico no monitor cardíaco, mais provavelmente aparecerá:",
       "alternatives": [
-        {"key": "a", "text": "Bloqueio atrioventricular de 3º grau."},
-        {"key": "b", "text": "Bloqueio atrioventricular de 2º grau tipo II (2:1)."},
-        {"key": "c", "text": "Bradicardia sinusal."},
-        {"key": "d", "text": "Fibrilação atrial."}
+        {
+          "key": "a",
+          "text": "Bloqueio atrioventricular de 3º grau."
+        },
+        {
+          "key": "b",
+          "text": "Bloqueio atrioventricular de 2º grau tipo II (2:1)."
+        },
+        {
+          "key": "c",
+          "text": "Bradicardia sinusal."
+        },
+        {
+          "key": "d",
+          "text": "Fibrilação atrial."
+        }
       ],
       "correct_key": "d",
       "explanation": "A onda 'a' do pulso venoso jugular reflete a contração atrial. Seu desaparecimento isolado (sem surgimento de ondas 'a' em canhão, que ocorreriam em dissociação AV) é característico da perda de contração atrial coordenada da fibrilação atrial.",
@@ -1161,10 +2019,22 @@
       "id": "arr_068",
       "statement": "Paciente feminina, de 82 anos, com hipertensão arterial e diabetes melito, veio à consulta queixando-se de cansaço e palpitações, quadro iniciado há 1 semana. Tinha história de infarto do miocárdio há 5 anos. Negou desmaios, mas referiu quedas eventuais. Exames recentes não mostraram isquemia ou insuficiência cardíaca. Ao exame físico, apresentava pulsos irregulares e cheios, pressão arterial de 130/80 mmHg, pulmões limpos e ausência de sopros cardíacos. Eletrocardiograma evidenciou fibrilação atrial, frequência cardíaca de 102 bpm, QRS estreito, QTc de 0,43 ms, zona inativa anterior e ausência de sinais de isquemia aguda. Assinale a assertiva correta sobre o tratamento mais adequado.",
       "alternatives": [
-        {"key": "a", "text": "Adenosina intravenosa em bolus é o medicamento de escolha para reversão farmacológica a ritmo sinusal."},
-        {"key": "b", "text": "Na cardioversão farmacológica, ao contrário do que ocorre na cardioversão elétrica, não é necessária anticoagulação prévia."},
-        {"key": "c", "text": "A cardioversão elétrica não sincronizada deve ser feita com brevidade devido ao intervalo QTc prolongado."},
-        {"key": "d", "text": "Mesmo com idade avançada, hipertensão arterial, diabetes melito e histórico de quedas eventuais, a paciente deve ser anticoagulada a longo prazo."}
+        {
+          "key": "a",
+          "text": "Adenosina intravenosa em bolus é o medicamento de escolha para reversão farmacológica a ritmo sinusal."
+        },
+        {
+          "key": "b",
+          "text": "Na cardioversão farmacológica, ao contrário do que ocorre na cardioversão elétrica, não é necessária anticoagulação prévia."
+        },
+        {
+          "key": "c",
+          "text": "A cardioversão elétrica não sincronizada deve ser feita com brevidade devido ao intervalo QTc prolongado."
+        },
+        {
+          "key": "d",
+          "text": "Mesmo com idade avançada, hipertensão arterial, diabetes melito e histórico de quedas eventuais, a paciente deve ser anticoagulada a longo prazo."
+        }
       ],
       "correct_key": "d",
       "explanation": "Idade avançada, comorbidades e risco de quedas isoladamente NÃO contraindicam anticoagulação em FA quando o risco tromboembólico (CHA2DS2-VASc) supera o risco de sangramento, como é o caso desta paciente — ensinamento clássico de que o medo de queda não deve, por si só, impedir a anticoagulação indicada.",
@@ -1178,11 +2048,26 @@
       "id": "arr_069",
       "statement": "Paciente de 45 anos, previamente hígido, é levado ao pronto-socorro após episódio sincopal. Familiares referem que o paciente apresentou movimentos tônico-clônicos generalizados. Ao exame físico encontra-se consciente, orientado, normotenso. O eletrocardiograma evidencia ritmo cardíaco com frequência de aproximadamente 180 bpm, ausência de ondas P identificáveis, complexos QRS estreitos e regulares, com presença de pseudo-S em DII, DIII e aVF, e pseudo-R em V1. Identifique o diagnóstico eletrocardiográfico mais provável.",
       "alternatives": [
-        {"key": "a", "text": "Taquicardia paroxística supraventricular por reentrada nodal."},
-        {"key": "b", "text": "Taquicardia ventricular monomórfica sustentada."},
-        {"key": "c", "text": "Flutter atrial com condução 2:1."},
-        {"key": "d", "text": "Taquicardia atrial unifocal."},
-        {"key": "e", "text": "Fibrilação atrial com resposta ventricular rápida."}
+        {
+          "key": "a",
+          "text": "Taquicardia paroxística supraventricular por reentrada nodal."
+        },
+        {
+          "key": "b",
+          "text": "Taquicardia ventricular monomórfica sustentada."
+        },
+        {
+          "key": "c",
+          "text": "Flutter atrial com condução 2:1."
+        },
+        {
+          "key": "d",
+          "text": "Taquicardia atrial unifocal."
+        },
+        {
+          "key": "e",
+          "text": "Fibrilação atrial com resposta ventricular rápida."
+        }
       ],
       "correct_key": "a",
       "explanation": "Pseudo-S em derivações inferiores e pseudo-R' em V1 são achados eletrocardiográficos clássicos da onda P retrógrada 'escondida' no final do QRS, característicos de taquicardia por reentrada nodal AV (forma típica).",
@@ -1196,8 +2081,14 @@
       "id": "arr_070",
       "statement": "Um paciente de 45 anos de idade vem apresentando sintomas de palpitação, mal-estar e sudorese profusa no decorrer da hemodiálise. Em cada sessão, são ultrafiltrados 4 litros em duas horas e meia. Na última diálise, o paciente ficou com hipotensão = 85 mmHg x 40 mmHg, SatO2 = 94% em ar ambiente e frequência cardíaca conforme o eletrocardiograma a seguir. Julgue o item: Tratamento com sotalol é o padrão-ouro, no caso desse paciente, para tratamento em longo prazo.",
       "alternatives": [
-        {"key": "a", "text": "CERTO."},
-        {"key": "b", "text": "ERRADO."}
+        {
+          "key": "a",
+          "text": "CERTO."
+        },
+        {
+          "key": "b",
+          "text": "ERRADO."
+        }
       ],
       "correct_key": "b",
       "explanation": "A arritmia deste caso está relacionada a distúrbios hidroeletrolíticos/volêmicos da própria diálise, não havendo indicação de terapia antiarrítmica crônica padrão-ouro com sotalol (droga com risco pró-arrítmico/QT longo particularmente preocupante em pacientes dialíticos com distúrbios eletrolíticos).",
@@ -1211,10 +2102,22 @@
       "id": "arr_071",
       "statement": "Mulher, 56a, portadora de miocardiopatia chagásica, está internada há seis dias para tratamento de uma pneumonia lobar. Medicamentos em uso: enalapril 20mg/dia, espironolactona 25mg/dia, dapagliflozina 10mg/dia, carvedilol 25mg/dia, digoxina 0,25mg/dia e ceftriaxona. Há três dias, apresentou náuseas e visão amarelada, mas negou queixas cardíacas ou respiratórias. Habitualmente, a paciente encontra-se em ritmo sinusal, com bloqueio de ramo direito. Entretanto, há um dia, o monitor cardíaco acoplado à paciente tem revelado mudanças intermitentes no ritmo cardíaco e na morfologia dos complexos QRS que duram menos de 1 minuto e não estão associadas a sintomas. Um destes eventos foi captado pelo eletrocardiograma. O DIAGNÓSTICO DA ARRITMIA É:",
       "alternatives": [
-        {"key": "a", "text": "Taquicardia ventricular."},
-        {"key": "b", "text": "Bloqueio atrioventricular total com escape infra-hissiano."},
-        {"key": "c", "text": "Ritmo idioventricular acelerado."},
-        {"key": "d", "text": "Bloqueio completo de ramo esquerdo intermitente."}
+        {
+          "key": "a",
+          "text": "Taquicardia ventricular."
+        },
+        {
+          "key": "b",
+          "text": "Bloqueio atrioventricular total com escape infra-hissiano."
+        },
+        {
+          "key": "c",
+          "text": "Ritmo idioventricular acelerado."
+        },
+        {
+          "key": "d",
+          "text": "Bloqueio completo de ramo esquerdo intermitente."
+        }
       ],
       "correct_key": "c",
       "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Náuseas + visão amarelada (xantopsia) são sinais clássicos de intoxicação digitálica. Entre as manifestações eletrocardiográficas clássicas da toxicidade por digoxina está o ritmo idioventricular acelerado, tipicamente autolimitado (<1 minuto) e assintomático, compatível com o padrão intermitente descrito.",
@@ -1228,10 +2131,22 @@
       "id": "arr_072",
       "statement": "As mulheres têm mais taquicardia:",
       "alternatives": [
-        {"key": "a", "text": "Sinusal e taquicardia por reentrada nodal, sendo que a gravidez reduz o risco de taquicardias supraventriculares"},
-        {"key": "b", "text": "Sinusal e taquicardia por reentrada nodal, sendo que a gravidez aumenta o risco de taquicardias supraventriculares."},
-        {"key": "c", "text": "Sinusal e não de taquicardia por reentrada nodal, sendo que a gravidez aumenta o risco de taquicardias supraventriculares."},
-        {"key": "d", "text": "Sinusal e taquicardia por reentrada nodal, sendo que a gravidez não aumenta o risco de taquicardias supraventriculares."}
+        {
+          "key": "a",
+          "text": "Sinusal e taquicardia por reentrada nodal, sendo que a gravidez reduz o risco de taquicardias supraventriculares"
+        },
+        {
+          "key": "b",
+          "text": "Sinusal e taquicardia por reentrada nodal, sendo que a gravidez aumenta o risco de taquicardias supraventriculares."
+        },
+        {
+          "key": "c",
+          "text": "Sinusal e não de taquicardia por reentrada nodal, sendo que a gravidez aumenta o risco de taquicardias supraventriculares."
+        },
+        {
+          "key": "d",
+          "text": "Sinusal e taquicardia por reentrada nodal, sendo que a gravidez não aumenta o risco de taquicardias supraventriculares."
+        }
       ],
       "correct_key": "b",
       "explanation": "Mulheres têm maior prevalência de taquicardia sinusal inapropriada e de reentrada nodal (AVNRT); a gravidez, por alterações hormonais/hemodinâmicas, é reconhecida como fator que aumenta o risco de taquicardias supraventriculares.",
@@ -1245,10 +2160,22 @@
       "id": "arr_073",
       "statement": "Homem de 64 anos foi atendido no pronto-socorro de um hospital que não possui serviço de hemodinâmica. Foi diagnosticado com infarto agudo do miocárdio (IAM) com supraelevação do segmento ST. Recebeu tratamento trombolítico com alteplase, apresentou resposta clínica e eletrocardiográfica (ECG pós-reperfusão sem anormalidades) e permaneceu sob monitorização. Encontrava-se assintomático e apresentava os seguintes dados vitais: FC 68bpm, FR 18ipm, SpO2 95% (ar ambiente), PA 136/84mmHg, quando foi observado o seguinte traçado eletrocardiográfico: Assinale a alternativa que apresenta o CORRETO mecanismo eletrofisiológico do achado demonstrado pelo ECG:",
       "alternatives": [
-        {"key": "a", "text": "Aumento de automatismo de células de Purkinje do sistema de condução ventricular."},
-        {"key": "b", "text": "Bloqueio da condução do impulso elétrico pelo ramo esquerdo do feixe de His."},
-        {"key": "c", "text": "Corrente de lesão subepicárdica na parede anterior do ventrículo esquerdo."},
-        {"key": "d", "text": "Parada sinusal com ritmo de escape ventricular."}
+        {
+          "key": "a",
+          "text": "Aumento de automatismo de células de Purkinje do sistema de condução ventricular."
+        },
+        {
+          "key": "b",
+          "text": "Bloqueio da condução do impulso elétrico pelo ramo esquerdo do feixe de His."
+        },
+        {
+          "key": "c",
+          "text": "Corrente de lesão subepicárdica na parede anterior do ventrículo esquerdo."
+        },
+        {
+          "key": "d",
+          "text": "Parada sinusal com ritmo de escape ventricular."
+        }
       ],
       "correct_key": "a",
       "explanation": "O ritmo idioventricular acelerado (achado clássico de reperfusão pós-trombolítico) tem como mecanismo eletrofisiológico o aumento do automatismo das células do sistema de condução ventricular (fibras de Purkinje), e não bloqueio de condução ou parada sinusal.",
@@ -1262,11 +2189,26 @@
       "id": "arr_074",
       "statement": "Homem de 48 anos refere quadro de palpitações intermitentes acompanhadas de tontura e quase síncope há 6 meses. Os episódios duram aproximadamente 5 minutos e ocorrem uma ou duas vezes por semana. Ele não consegue identificar nenhum gatilho precipitante para seus sintomas. A história médica é notável para hipertensão, em uso de clortalidona. Os sinais vitais e exame físico são normais. ECG: ritmo sinusal, sem evidência de pré-excitação. O exame diagnóstico mais apropriado nesse momento é:",
       "alternatives": [
-        {"key": "a", "text": "estudo eletrofisiológico."},
-        {"key": "b", "text": "hormônio de tireoide."},
-        {"key": "c", "text": "monitor de evento externo (looper externo)."},
-        {"key": "d", "text": "monitor eletrocardiográfico ambulatorial de 24 horas (Holter)."},
-        {"key": "e", "text": "teste de inclinação ortostática (tilt table)."}
+        {
+          "key": "a",
+          "text": "estudo eletrofisiológico."
+        },
+        {
+          "key": "b",
+          "text": "hormônio de tireoide."
+        },
+        {
+          "key": "c",
+          "text": "monitor de evento externo (looper externo)."
+        },
+        {
+          "key": "d",
+          "text": "monitor eletrocardiográfico ambulatorial de 24 horas (Holter)."
+        },
+        {
+          "key": "e",
+          "text": "teste de inclinação ortostática (tilt table)."
+        }
       ],
       "correct_key": "c",
       "explanation": "Episódios com frequência semanal (não diária) tornam o Holter de 24h pouco sensível para captar o evento; o monitor de evento externo (looper), utilizável por semanas, é mais adequado para documentar arritmias paroxísticas infrequentes.",
@@ -1280,10 +2222,22 @@
       "id": "arr_075",
       "statement": "Paciente do sexo masculino, 27 anos, estava jogando uma partida de futebol profissional quando, em uma dividida de bola, teve uma colisão do ombro de um adversário contra o seu tórax, caindo ao solo logo em seguida e apresentando uma parada cardiorrespiratória. Atendimento médico inicial a beira campo, com a utilização de um desfibrilador externo automático (DEA), identificou um ritmo de fibrilação ventricular. Qual o provável mecanismo que deflagrou a arritmia?",
       "alternatives": [
-        {"key": "a", "text": "Miocardiopatia hipertrófica não diagnosticada previamente."},
-        {"key": "b", "text": "Impacto que ocorreu durante a fase precoce da repolarização ventricular."},
-        {"key": "c", "text": "Ruptura de cordoalhas miocárdicas."},
-        {"key": "d", "text": "Arritmia desencadeada pela síndrome de Brugada."}
+        {
+          "key": "a",
+          "text": "Miocardiopatia hipertrófica não diagnosticada previamente."
+        },
+        {
+          "key": "b",
+          "text": "Impacto que ocorreu durante a fase precoce da repolarização ventricular."
+        },
+        {
+          "key": "c",
+          "text": "Ruptura de cordoalhas miocárdicas."
+        },
+        {
+          "key": "d",
+          "text": "Arritmia desencadeada pela síndrome de Brugada."
+        }
       ],
       "correct_key": "b",
       "explanation": "O quadro descrito é clássico de commotio cordis: impacto torácico não penetrante ocorrendo precisamente durante a fase vulnerável da repolarização ventricular (próximo ao pico da onda T), deflagrando fibrilação ventricular em coração estruturalmente normal.",
@@ -1297,11 +2251,26 @@
       "id": "arr_076",
       "statement": "Considere um paciente com fibrilação atrial crônica e sem doença arterial periférica. Caso ocorra uma embolização de um trombo do coração qual seria o local mais frequente para ele se alojar?",
       "alternatives": [
-        {"key": "a", "text": "Ilíaca interna."},
-        {"key": "b", "text": "Ilíaca externa."},
-        {"key": "c", "text": "Femoral."},
-        {"key": "d", "text": "Tibial."},
-        {"key": "e", "text": "Poplítea."}
+        {
+          "key": "a",
+          "text": "Ilíaca interna."
+        },
+        {
+          "key": "b",
+          "text": "Ilíaca externa."
+        },
+        {
+          "key": "c",
+          "text": "Femoral."
+        },
+        {
+          "key": "d",
+          "text": "Tibial."
+        },
+        {
+          "key": "e",
+          "text": "Poplítea."
+        }
       ],
       "correct_key": "c",
       "explanation": "Entre os sítios arteriais periféricos, a artéria femoral (particularmente sua bifurcação) é o local mais frequente de alojamento de êmbolos cardiogênicos nos membros inferiores.",
@@ -1315,11 +2284,26 @@
       "id": "arr_077",
       "statement": "Uma paciente de 78 anos de idade recebe atendimento ambulatorial e constata-se que ela é hipertensa, diabética, com diagnóstico de dois anos de fibrilação atrial (FA) permanente. Apresenta-se oligossintomática. Nesse caso, trata-se de uma paciente com FA permanente",
       "alternatives": [
-        {"key": "a", "text": "com necessidade de tentativa de reversão para ritmo sinusal."},
-        {"key": "b", "text": "com necessidade de controle de FC e sem necessidade de uso de anticoagulantes."},
-        {"key": "c", "text": "com necessidade de controle de FC e uso de anticoagulantes (varfarina ou DOACs), visto que apresenta escore CHADSVASC elevado."},
-        {"key": "d", "text": "com necessidade de controle de FC e necessidade de uso somente de varfarina como anticoagulante, visto que apresenta escore CHADSVASC elevado."},
-        {"key": "e", "text": "com necessidade de controle de FC e com necessidade de dupla antiagregação plaquetária."}
+        {
+          "key": "a",
+          "text": "com necessidade de tentativa de reversão para ritmo sinusal."
+        },
+        {
+          "key": "b",
+          "text": "com necessidade de controle de FC e sem necessidade de uso de anticoagulantes."
+        },
+        {
+          "key": "c",
+          "text": "com necessidade de controle de FC e uso de anticoagulantes (varfarina ou DOACs), visto que apresenta escore CHADSVASC elevado."
+        },
+        {
+          "key": "d",
+          "text": "com necessidade de controle de FC e necessidade de uso somente de varfarina como anticoagulante, visto que apresenta escore CHADSVASC elevado."
+        },
+        {
+          "key": "e",
+          "text": "com necessidade de controle de FC e com necessidade de dupla antiagregação plaquetária."
+        }
       ],
       "correct_key": "c",
       "explanation": "Em FA permanente, não se tenta reversão de ritmo. Conduta padrão: controle de frequência cardíaca associado a anticoagulação (varfarina OU DOAC, não restrito apenas a varfarina), dado o CHA2DS2-VASc elevado (idade+HAS+DM+sexo feminino).",
@@ -1333,10 +2317,22 @@
       "id": "arr_078",
       "statement": "O nó AV sofre importante influência do sistema nervoso autônomo, portanto:",
       "alternatives": [
-        {"key": "a", "text": "Nas situações em que não haja predominância do tônus parassimpático (durante sono, atletas), pode-se observar bloqueio AV de 1o grau e/ou bloqueio AV de 2o grau tipo I, sem haver lesão do nó AV."},
-        {"key": "b", "text": "Nas situações em que haja predominância do tônus parassimpático (durante sono, atletas), pode-se observar bloqueio AV de 1o grau e/ou bloqueio AV de 2o grau tipo I, somente com lesão do nó AV."},
-        {"key": "c", "text": "Nas situações em que haja predominância do tônus simpático (durante sono, atletas), pode-se observar bloqueio AV de 1o grau e/ou bloqueio AV de 2o grau tipo I, sem haver lesão do nó AV."},
-        {"key": "d", "text": "Nas situações em que haja predominância do tônus parassimpático (durante sono, atletas), pode-se observar bloqueio AV de 1o grau e/ou bloqueio AV de 2o grau tipo I, sem haver lesão do nó AV."}
+        {
+          "key": "a",
+          "text": "Nas situações em que não haja predominância do tônus parassimpático (durante sono, atletas), pode-se observar bloqueio AV de 1o grau e/ou bloqueio AV de 2o grau tipo I, sem haver lesão do nó AV."
+        },
+        {
+          "key": "b",
+          "text": "Nas situações em que haja predominância do tônus parassimpático (durante sono, atletas), pode-se observar bloqueio AV de 1o grau e/ou bloqueio AV de 2o grau tipo I, somente com lesão do nó AV."
+        },
+        {
+          "key": "c",
+          "text": "Nas situações em que haja predominância do tônus simpático (durante sono, atletas), pode-se observar bloqueio AV de 1o grau e/ou bloqueio AV de 2o grau tipo I, sem haver lesão do nó AV."
+        },
+        {
+          "key": "d",
+          "text": "Nas situações em que haja predominância do tônus parassimpático (durante sono, atletas), pode-se observar bloqueio AV de 1o grau e/ou bloqueio AV de 2o grau tipo I, sem haver lesão do nó AV."
+        }
       ],
       "correct_key": "d",
       "explanation": "Em situações de predomínio vagal/parassimpático (sono, atletas condicionados), é comum observar BAV de 1º grau e/ou Mobitz I fisiológicos, sem lesão estrutural do nó AV.",
@@ -1350,11 +2346,26 @@
       "id": "arr_079",
       "statement": "Com o intuito de promover diminuição da frequência cardíaca, em pacientes portadores de fibrilação atrial crônica NÃO se utiliza:",
       "alternatives": [
-        {"key": "a", "text": "carvedilol."},
-        {"key": "b", "text": "amiodarona."},
-        {"key": "c", "text": "anlodipina."},
-        {"key": "d", "text": "verapamil."},
-        {"key": "e", "text": "digoxina."}
+        {
+          "key": "a",
+          "text": "carvedilol."
+        },
+        {
+          "key": "b",
+          "text": "amiodarona."
+        },
+        {
+          "key": "c",
+          "text": "anlodipina."
+        },
+        {
+          "key": "d",
+          "text": "verapamil."
+        },
+        {
+          "key": "e",
+          "text": "digoxina."
+        }
       ],
       "correct_key": "c",
       "explanation": "Anlodipina (BCC diidropiridínico) não tem ação relevante no nó AV e não é usada para controle de frequência em FA, ao contrário de carvedilol, amiodarona, verapamil e digoxina.",
@@ -1368,10 +2379,22 @@
       "id": "arr_080",
       "statement": "Homem, 55 anos, procura pronto-socorro por quadro de palpitações há 1 hora, após terminar treino habitual de corrida. Relata uso regular de creatina pré-treino e tratamento para HAS com enalapril e anlodipino. Nega dor no peito ou falta de ar. Nega tabagismo, uso de drogas ilícitas ou alcoolismo. Ao exame físico inicial: PA: 120x80 mmHg; FC: 116 bpm; FR: 12 ipm; SpO²: 94%; ritmo cardíaco irregular, murmúrios vesiculares normais, sem outras alterações. ECG da entrada apresentado a seguir: Com base nessas informações, assinale a conduta mais adequada.",
       "alternatives": [
-        {"key": "a", "text": "Realizar cardioversão elétrica."},
-        {"key": "b", "text": "Iniciar anticoagulação."},
-        {"key": "c", "text": "Iniciar betabloqueador."},
-        {"key": "d", "text": "Indicar cateterismo."}
+        {
+          "key": "a",
+          "text": "Realizar cardioversão elétrica."
+        },
+        {
+          "key": "b",
+          "text": "Iniciar anticoagulação."
+        },
+        {
+          "key": "c",
+          "text": "Iniciar betabloqueador."
+        },
+        {
+          "key": "d",
+          "text": "Indicar cateterismo."
+        }
       ],
       "correct_key": "c",
       "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF, presumindo fibrilação atrial paroxística induzida por exercício/estimulante pelo ritmo irregular. Paciente jovem, estável hemodinamicamente, sem fatores de risco significativos adicionais para AVC (CHA2DS2-VASc baixo): a conduta inicial mais apropriada é controle de frequência com betabloqueador, sem necessidade de cardioversão elétrica imediata ou cateterismo (sem indícios de isquemia).",
@@ -1385,10 +2408,22 @@
       "id": "arr_081",
       "statement": "Em qual das condições a seguir a indicação de cardiodesfibrilador implantável (CDI) na prevenção primária de morte súbita encontra a MELHOR evidência (I.A)?",
       "alternatives": [
-        {"key": "a", "text": "Cardiopatia chagásica crônica com episódios de taquicardia ventricular sustentada estável com fração de ejeção de ventrículo esquerdo < 35% em tratamento clínico otimizado."},
-        {"key": "b", "text": "Cardiopatia isquêmica com história de infarto agudo do miocárdio > 40 dias, sob tratamento farmacológico otimizado, sem isquemia passível de revascularização (cirúrgica) e expectativa de vida de, pelo menos, 1 ano."},
-        {"key": "c", "text": "Cardiopatia não isquêmica na presença de alterações genéticas de alto risco associado a dois ou mais fatores: fração de ejeção do ventrículo esquerdo <= 45%, taquicardia ventricular não sustentada, mutação de alto risco e sexo feminino."},
-        {"key": "d", "text": "Cardiomiopatia hipertrófica com hipotensão anormal no esforço, na presença de fatores de risco adicionais, desde que expectativa de vida > 1 ano."}
+        {
+          "key": "a",
+          "text": "Cardiopatia chagásica crônica com episódios de taquicardia ventricular sustentada estável com fração de ejeção de ventrículo esquerdo < 35% em tratamento clínico otimizado."
+        },
+        {
+          "key": "b",
+          "text": "Cardiopatia isquêmica com história de infarto agudo do miocárdio > 40 dias, sob tratamento farmacológico otimizado, sem isquemia passível de revascularização (cirúrgica) e expectativa de vida de, pelo menos, 1 ano."
+        },
+        {
+          "key": "c",
+          "text": "Cardiopatia não isquêmica na presença de alterações genéticas de alto risco associado a dois ou mais fatores: fração de ejeção do ventrículo esquerdo <= 45%, taquicardia ventricular não sustentada, mutação de alto risco e sexo feminino."
+        },
+        {
+          "key": "d",
+          "text": "Cardiomiopatia hipertrófica com hipotensão anormal no esforço, na presença de fatores de risco adicionais, desde que expectativa de vida > 1 ano."
+        }
       ],
       "correct_key": "b",
       "explanation": "A indicação de CDI em prevenção primária na cardiopatia isquêmica pós-IAM (>40 dias, terapia otimizada, sem revascularização pendente, expectativa de vida ≥1 ano) é a que possui melhor nível de evidência (I.A), baseada em grandes ensaios como MADIT-II e SCD-HeFT.",
@@ -1402,11 +2437,26 @@
       "id": "arr_082",
       "statement": "Adolescente, sexo feminino, após tentativa de suicídio com ingestão de comprimidos de antidepressivo tricíclico, apresentou parada cardiorrespiratória na sala de emergência. Durante a reanimação cardiopulmonar, observou-se o seguinte ritmo no monitor cardíaco: Assinale a alternativa que apresenta o diagnóstico correto da situação e a conduta relacionada.",
       "alternatives": [
-        {"key": "a", "text": "Taquicardia supraventricular, que será tratada com choque (no modo não sincronizado)"},
-        {"key": "b", "text": "Fibrilação ventricular, que será tratada com cardioversão (choque no modo sincronizado)."},
-        {"key": "c", "text": "Fibrilação ventricular, que será tratada com desfibrilação (choque no modo sincronizado)."},
-        {"key": "d", "text": "Taquicardia ventricular, que será tratada com cardioversão (choque no modo sincronizado)."},
-        {"key": "e", "text": "Taquicardia ventricular, que será tratada com adrenalina e, após, com desfibrilação (choque no modo não sincronizado)."}
+        {
+          "key": "a",
+          "text": "Taquicardia supraventricular, que será tratada com choque (no modo não sincronizado)"
+        },
+        {
+          "key": "b",
+          "text": "Fibrilação ventricular, que será tratada com cardioversão (choque no modo sincronizado)."
+        },
+        {
+          "key": "c",
+          "text": "Fibrilação ventricular, que será tratada com desfibrilação (choque no modo sincronizado)."
+        },
+        {
+          "key": "d",
+          "text": "Taquicardia ventricular, que será tratada com cardioversão (choque no modo sincronizado)."
+        },
+        {
+          "key": "e",
+          "text": "Taquicardia ventricular, que será tratada com adrenalina e, após, com desfibrilação (choque no modo não sincronizado)."
+        }
       ],
       "correct_key": "e",
       "explanation": "ATENÇÃO: ritmo do monitor citado mas não disponível na extração do PDF. Overdose de antidepressivo tricíclico classicamente causa arritmias ventriculares (bloqueio de canal de sódio) evoluindo para TV/FV. Em parada cardiorrespiratória (paciente sem pulso), o tratamento correto é sempre desfibrilação (choque NÃO sincronizado), associado a adrenalina pelo algoritmo de PCR — única opção com terminologia internamente consistente (desfibrilação = choque não sincronizado).",
@@ -1420,7 +2470,10 @@
       "id": "arr_083",
       "statement": "Homem, 46a, admitido na Sala de Emergência após episódio de síncope, ocorrida em um bar há 30 minutos. Exame físico: desnutrido; PA=126x72mmHg; FC=78bpm, FR=18irpm; oximetria de pulso= 96% (ar ambiente); parótidas aumentadas. Eletrocardiograma: alargamento do intervalo QT. Após 20 minutos da admissão, apresentou dispneia súbita, com PA=82x46mmHg, FR=30irpm, oximetria de pulso=93% (ar ambiente). Você observa, no monitor, o seguinte traçado eletrocardiográfico:",
       "alternatives": [
-        {"key": "a", "text": "Desfibrilação. Não aceitar sulfato de magnésio, oxigênio."}
+        {
+          "key": "a",
+          "text": "Desfibrilação. Não aceitar sulfato de magnésio, oxigênio."
+        }
       ],
       "correct_key": "a",
       "explanation": "ATENÇÃO IMPORTANTE: esta questão foi extraída do PDF com apenas UMA alternativa capturada (a página original provavelmente continha mais opções b/c/d que não foram extraídas no texto). Não é possível reconstruir as alternativas faltantes sem inventar conteúdo não presente na fonte original. Clinicamente, o quadro (desnutrição, aumento de parótidas sugestivo de transtorno alimentar/bulimia, QT longo, evolução para instabilidade hemodinâmica) é sugestivo de Torsades de Pointes, cujo tratamento padrão é sulfato de magnésio (se houver pulso) ou desfibrilação (se em parada sem pulso). Revisão manual obrigatória desta questão junto à fonte original antes de publicação — dados incompletos.",
@@ -1434,10 +2487,22 @@
       "id": "arr_084",
       "statement": "Jovem de 22 anos dá entrada na unidade de emergência queixando-se de palpitações e leve desconforto torácico. A paciente nega episódios prévios similares, não tem comorbidades e, como fármacos em uso habitual, tem apenas implante subdérmico de etonogestrel. Ela nega ainda tabagismo, etilismo e uso de drogas ilícitas. Ao exame físico, revela-se ansiosa, com pupilas medianas e fotorreagentes, normocorada, taquicárdica (FC = 180bpm), normotensa (PA = 110x70 mmHg), levemente taquipneica (FR = 24irpm) e afebril. É realizado um eletrocardiograma que mostra taquiarritmia de complexos estreitos com RR regular e sem onda P visível. A conduta adequada e a explicação para tal abordagem, respectivamente, são:",
       "alternatives": [
-        {"key": "a", "text": "administração de metoprolol intravenoso / a idade e a ansiedade falam a favor de hipertireoidismo apático"},
-        {"key": "b", "text": "cardioversão elétrica / os níveis séricos de progestágenos gerados pelo implante reduzem a ação da amiodarona"},
-        {"key": "c", "text": "administração de adenosina intravenosa / os dados relatados indicam tratar-se de taquicardia supraventricular por dupla via nodal"},
-        {"key": "d", "text": "administração de benzodiazepínico, contraindicando betabloqueador / há claras evidências de intoxicação por cocaína e risco de vasospasmo"}
+        {
+          "key": "a",
+          "text": "administração de metoprolol intravenoso / a idade e a ansiedade falam a favor de hipertireoidismo apático"
+        },
+        {
+          "key": "b",
+          "text": "cardioversão elétrica / os níveis séricos de progestágenos gerados pelo implante reduzem a ação da amiodarona"
+        },
+        {
+          "key": "c",
+          "text": "administração de adenosina intravenosa / os dados relatados indicam tratar-se de taquicardia supraventricular por dupla via nodal"
+        },
+        {
+          "key": "d",
+          "text": "administração de benzodiazepínico, contraindicando betabloqueador / há claras evidências de intoxicação por cocaína e risco de vasospasmo"
+        }
       ],
       "correct_key": "c",
       "explanation": "Taquicardia regular de QRS estreito sem onda P visível em paciente jovem hemodinamicamente estável é o quadro clássico de TSV por reentrada nodal (AVNRT). Conduta padrão: adenosina IV (após manobra vagal, quando aplicável).",
@@ -1451,11 +2516,26 @@
       "id": "arr_085",
       "statement": "Um homem de 72 anos apresenta-se com fibrilação atrial permanente de etiologia não valvar CHADSVASC score 2. Qual é a terapêutica oral preferida na atualidade?",
       "alternatives": [
-        {"key": "a", "text": "Varfarina."},
-        {"key": "b", "text": "Rivaroxabana."},
-        {"key": "c", "text": "Clopidogrel."},
-        {"key": "d", "text": "Aspirina."},
-        {"key": "e", "text": "Aspirina associado a clopidogrel."}
+        {
+          "key": "a",
+          "text": "Varfarina."
+        },
+        {
+          "key": "b",
+          "text": "Rivaroxabana."
+        },
+        {
+          "key": "c",
+          "text": "Clopidogrel."
+        },
+        {
+          "key": "d",
+          "text": "Aspirina."
+        },
+        {
+          "key": "e",
+          "text": "Aspirina associado a clopidogrel."
+        }
       ],
       "correct_key": "b",
       "explanation": "Nos guidelines atuais, DOACs (como a rivaroxabana) são preferidos em relação à varfarina para pacientes com FA não valvar elegíveis, dado o perfil de segurança/praticidade superior.",
@@ -1469,11 +2549,26 @@
       "id": "arr_086",
       "statement": "Torsades de pointes configura uma taquicardia ventricular polimórfica em pacientes com intervalo QT longo. Os complexos QRS parecem se contorcer na linha de base do ECG. Qual eletrólito deve ser reposto na parada cardiorespiratória em que se suspeita de torsades de pointes?",
       "alternatives": [
-        {"key": "a", "text": "Cálcio."},
-        {"key": "b", "text": "Sódio."},
-        {"key": "c", "text": "Magnésio."},
-        {"key": "d", "text": "Fósforo."},
-        {"key": "e", "text": "Potássio."}
+        {
+          "key": "a",
+          "text": "Cálcio."
+        },
+        {
+          "key": "b",
+          "text": "Sódio."
+        },
+        {
+          "key": "c",
+          "text": "Magnésio."
+        },
+        {
+          "key": "d",
+          "text": "Fósforo."
+        },
+        {
+          "key": "e",
+          "text": "Potássio."
+        }
       ],
       "correct_key": "c",
       "explanation": "Sulfato de magnésio IV é o tratamento de primeira linha para Torsades de Pointes, independentemente do nível sérico de magnésio.",
@@ -1487,11 +2582,26 @@
       "id": "arr_087",
       "statement": "Um homem de oitenta anos de idade foi levado ao pronto-socorro por dispneia em repouso e tontura há algumas horas. Hipertenso, em uso irregular de medicações, ao exame físico: regular estado geral; descorado +/4+; taquidispneico; acianótico; frequência cardíaca de 28 bpm; frequência respiratória de 34 irpm; pressão arterial de 78 x 62 mmHg; bulhas rítmicas e normofonéticas, sem sopros; murmúrios vesiculares, presentes com estertores finos até os terços médios, bilateralmente; e saturação de oxigênio de 89% em ar ambiente. Realizou, ainda, o eletrocardiograma mostrado a seguir. Com base nesse caso hipotético, assinale a alternativa que apresenta a conduta mais adequada.",
       "alternatives": [
-        {"key": "a", "text": "monitorização, oxigenoterapia, acesso venoso e betabloqueador, EV"},
-        {"key": "b", "text": "monitorização, oxigenoterapia, acesso venoso e marca-passo transvenoso de urgência"},
-        {"key": "c", "text": "monitorização, oxigenoterapia, acesso venoso e indicação de marca-passo transcutâneo"},
-        {"key": "d", "text": "cardioversão elétrica de urgência, seguida de amiodarona em bomba de infusão"},
-        {"key": "e", "text": "cardioversão farmacológica de urgência, seguida de amiodarona em bomba de infusão"}
+        {
+          "key": "a",
+          "text": "monitorização, oxigenoterapia, acesso venoso e betabloqueador, EV"
+        },
+        {
+          "key": "b",
+          "text": "monitorização, oxigenoterapia, acesso venoso e marca-passo transvenoso de urgência"
+        },
+        {
+          "key": "c",
+          "text": "monitorização, oxigenoterapia, acesso venoso e indicação de marca-passo transcutâneo"
+        },
+        {
+          "key": "d",
+          "text": "cardioversão elétrica de urgência, seguida de amiodarona em bomba de infusão"
+        },
+        {
+          "key": "e",
+          "text": "cardioversão farmacológica de urgência, seguida de amiodarona em bomba de infusão"
+        }
       ],
       "correct_key": "c",
       "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Bradicardia extrema (FC28) sintomática e instável (hipotensão, congestão pulmonar): conduta inicial imediata à beira-leito é o marca-passo TRANSCUTÂNEO (mais rápido de instituir que o transvenoso), enquanto se providencia estimulação definitiva. Betabloqueador e cardioversão são contraindicados/inapropriados para bradiarritmia.",
@@ -1505,10 +2615,22 @@
       "id": "arr_088",
       "statement": "Baseado na análise eletrocardiográfica dos bloqueios atrioventriculares é possível não só dar o diagnóstico da bradiarritmia, mas também definir a altura do bloqueio (supra ou infra-hissiano) e sua responsividade a atropina. Considere o eletrocardiograma a seguir: A respeito do diagnóstico dessa arritmia, assinale a alternativa CORRETA.",
       "alternatives": [
-        {"key": "a", "text": "Bloqueio atrioventricular (BAV) de 2° grau Mobitz tipo I."},
-        {"key": "b", "text": "Bloqueio atrioventricular (BAV) 2:1."},
-        {"key": "c", "text": "Bloqueio atrioventricular (BAV) de 2° grau Mobitz tipo II."},
-        {"key": "d", "text": "Bloqueio atrioventricular (BAV) total."}
+        {
+          "key": "a",
+          "text": "Bloqueio atrioventricular (BAV) de 2° grau Mobitz tipo I."
+        },
+        {
+          "key": "b",
+          "text": "Bloqueio atrioventricular (BAV) 2:1."
+        },
+        {
+          "key": "c",
+          "text": "Bloqueio atrioventricular (BAV) de 2° grau Mobitz tipo II."
+        },
+        {
+          "key": "d",
+          "text": "Bloqueio atrioventricular (BAV) total."
+        }
       ],
       "correct_key": "c",
       "explanation": "ATENÇÃO: questão pede leitura direta de imagem de ECG não disponível na extração do PDF, sem qualquer dado clínico de apoio. Resposta é um chute sem base na imagem real; confiança muito baixa, revisão obrigatória com a imagem original.",
@@ -1522,11 +2644,26 @@
       "id": "arr_089",
       "statement": "Mulher, 74 anos, tem diagnóstico de fibrilação atrial paroxística. Refere ser portadora de hipertensão arterial sistêmica controlada com anlodipina e diurético tiazídico. Nega diabetes, outras doenças ou internações prévias. A radiografia de tórax evidencia área cardíaca normal. Os exames laboratoriais são normais e não há alergias conhecidas. Em relação à abordagem terapêutica da fibrilação atrial nessa paciente, assinale a alternativa correta.",
       "alternatives": [
-        {"key": "a", "text": "Iniciar AAS 100 mg ao dia e trocar a anlodipina por metoprolol."},
-        {"key": "b", "text": "Associar clopidogrel 75 mg ao dia."},
-        {"key": "c", "text": "Anticoagular a paciente com rivaroxabana 10 mg ao dia."},
-        {"key": "d", "text": "Iniciar apixabana 5 mg a cada 12 horas."},
-        {"key": "e", "text": "Introduzir AAS 81 mg e amiodarona 200 mg ao dia."}
+        {
+          "key": "a",
+          "text": "Iniciar AAS 100 mg ao dia e trocar a anlodipina por metoprolol."
+        },
+        {
+          "key": "b",
+          "text": "Associar clopidogrel 75 mg ao dia."
+        },
+        {
+          "key": "c",
+          "text": "Anticoagular a paciente com rivaroxabana 10 mg ao dia."
+        },
+        {
+          "key": "d",
+          "text": "Iniciar apixabana 5 mg a cada 12 horas."
+        },
+        {
+          "key": "e",
+          "text": "Introduzir AAS 81 mg e amiodarona 200 mg ao dia."
+        }
       ],
       "correct_key": "d",
       "explanation": "CHA2DS2-VASc: idade 65-74 (1 ponto) + HAS (1 ponto) + sexo feminino (1 ponto, computado com outro fator presente) = 3, indicando anticoagulação. Apixabana 5mg 12/12h é a dose padrão de anticoagulação plena para prevenção de AVC em FA (diferente da rivaroxabana 10mg, que é dose de profilaxia de TEV, não a dose de FA que é 20mg/dia).",
@@ -1540,10 +2677,22 @@
       "id": "arr_090",
       "statement": "Paciente, 62a, em pós-operatório de troca de valva aórtica por prótese biológica, mantém desde a cirurgia, BAVT e necessidade de estimulação cardíaca artificial. É CORRETO AFIRMAR:",
       "alternatives": [
-        {"key": "a", "text": "Deve ser tratado com atropina intravenosa até assumir o ritmo cardíaco."},
-        {"key": "b", "text": "Possui indicação urgente de implante de marca-passo definitivo."},
-        {"key": "c", "text": "Deve-se evitar medicações como carvedilol e metoprolol e aguardar 5-7 dias para verificar se necessitará de marca-passo definitivo."},
-        {"key": "d", "text": "Devem ser utilizados beta-agonistas como dobutamina e dopamina para induzir retorno de ritmo cardíaco espontâneo."}
+        {
+          "key": "a",
+          "text": "Deve ser tratado com atropina intravenosa até assumir o ritmo cardíaco."
+        },
+        {
+          "key": "b",
+          "text": "Possui indicação urgente de implante de marca-passo definitivo."
+        },
+        {
+          "key": "c",
+          "text": "Deve-se evitar medicações como carvedilol e metoprolol e aguardar 5-7 dias para verificar se necessitará de marca-passo definitivo."
+        },
+        {
+          "key": "d",
+          "text": "Devem ser utilizados beta-agonistas como dobutamina e dopamina para induzir retorno de ritmo cardíaco espontâneo."
+        }
       ],
       "correct_key": "b",
       "explanation": "BAVT persistente após cirurgia cardíaca (não resolvido, mantendo necessidade de estimulação artificial) é indicação clara e urgente de implante de marcapasso definitivo.",
@@ -1557,10 +2706,22 @@
       "id": "arr_091",
       "statement": "Paciente com miocardiopatia isquêmica chega ao pronto-socorro com dor precordial em aperto, de forte intensidade, com uma hora de duração. Ele apresenta-se sudoreico, com saturação de O2 em 90%, frequência respiratória de 22ipm e pressão arterial de 88/60 mmHg. O eletrocardiograma na entrada do paciente está abaixo representado: Entre as alternativas abaixo, qual corresponde ao diagnóstico eletrocardiográfico e à melhor conduta terapêutica?",
       "alternatives": [
-        {"key": "a", "text": "Taquicardia supraventricular sustentada monomórfica; cardioversão imediata com choque sincronizado de 100J;"},
-        {"key": "b", "text": "Taquicardia supraventricular com aberrância de condução; Amiodarona; 300 mg diluído em soro glicosado a 5%, aplicado em 15 minutos;"},
-        {"key": "c", "text": "Taquicardia ventricular polimórfica; cardioversão imediata com choque sincronizado de 100J;"},
-        {"key": "d", "text": "Fibrilação ventricular; desfibrilação com choque não sincronizado de 200J"}
+        {
+          "key": "a",
+          "text": "Taquicardia supraventricular sustentada monomórfica; cardioversão imediata com choque sincronizado de 100J;"
+        },
+        {
+          "key": "b",
+          "text": "Taquicardia supraventricular com aberrância de condução; Amiodarona; 300 mg diluído em soro glicosado a 5%, aplicado em 15 minutos;"
+        },
+        {
+          "key": "c",
+          "text": "Taquicardia ventricular polimórfica; cardioversão imediata com choque sincronizado de 100J;"
+        },
+        {
+          "key": "d",
+          "text": "Fibrilação ventricular; desfibrilação com choque não sincronizado de 200J"
+        }
       ],
       "correct_key": "a",
       "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Paciente mantém pressão arterial mensurável (88/60, com pulso), excluindo parada cardiorrespiratória/FV (opção D incompatível com pulso presente). Dada a instabilidade (hipotensão, hipoxemia) em contexto de taquicardia de complexo largo sustentada em cardiopatia isquêmica, o tratamento correto é cardioversão elétrica SINCRONIZADA com 100J — resposta com confiança moderada-baixa dada a ambiguidade da nomenclatura nas opções do enunciado original.",
@@ -1574,10 +2735,22 @@
       "id": "arr_092",
       "statement": "Mulher, 34a, refere palpitações intermitentes acompanhadas ocasionalmente de falta de ar e tonturas. Estes episódios duram de 30 a 60 minutos. Relata que há seis anos, teve sintomas similares que a fizeram ser levada à sala de emergência, onde foi diagnosticada taquicardia supraventricular. Exame físico: normal. Traz um ecocardiograma recente que não mostrou indícios de cardiopatia estrutural. Eletrocardiograma: A CONDUTA É:",
       "alternatives": [
-        {"key": "a", "text": "Angiografia coronária."},
-        {"key": "b", "text": "Flecainida."},
-        {"key": "c", "text": "Diltiazem."},
-        {"key": "d", "text": "Estudo eletrofisiológico."}
+        {
+          "key": "a",
+          "text": "Angiografia coronária."
+        },
+        {
+          "key": "b",
+          "text": "Flecainida."
+        },
+        {
+          "key": "c",
+          "text": "Diltiazem."
+        },
+        {
+          "key": "d",
+          "text": "Estudo eletrofisiológico."
+        }
       ],
       "correct_key": "d",
       "explanation": "TSV recorrente e sintomática, sem cardiopatia estrutural, com história de longa data: o estudo eletrofisiológico permite diagnóstico definitivo do mecanismo e possibilita ablação curativa na mesma sessão, sendo a conduta padrão para casos recorrentes bem documentados.",
@@ -1591,10 +2764,22 @@
       "id": "arr_093",
       "statement": "Com relação à arritmia no pós-operatório de cirurgias cardíacas, ASSINALE A OPÇÃO CORRETA.",
       "alternatives": [
-        {"key": "a", "text": "A profilaxia da fibrilação atrial deve ser realizada com digitálicos ou bloqueadores de canal de cálcio."},
-        {"key": "b", "text": "A fibrilação atrial é a manifestação mais comum e seu tratamento deve ser cardioversão elétrica ou química, de acordo com estado clínico do paciente."},
-        {"key": "c", "text": "A presença de extrassístoles ventriculares, especialmente no idoso, exige tratamento agressivo com antiarrítmicos a fim de se evitar evolução para taquicardia ventricular."},
-        {"key": "d", "text": "O flutter é a condição mais frequente de arritmia no pós-operatório e a abordagem deve ser com fármacos com taxas de sucesso em torno de 80% a 90% dos casos."}
+        {
+          "key": "a",
+          "text": "A profilaxia da fibrilação atrial deve ser realizada com digitálicos ou bloqueadores de canal de cálcio."
+        },
+        {
+          "key": "b",
+          "text": "A fibrilação atrial é a manifestação mais comum e seu tratamento deve ser cardioversão elétrica ou química, de acordo com estado clínico do paciente."
+        },
+        {
+          "key": "c",
+          "text": "A presença de extrassístoles ventriculares, especialmente no idoso, exige tratamento agressivo com antiarrítmicos a fim de se evitar evolução para taquicardia ventricular."
+        },
+        {
+          "key": "d",
+          "text": "O flutter é a condição mais frequente de arritmia no pós-operatório e a abordagem deve ser com fármacos com taxas de sucesso em torno de 80% a 90% dos casos."
+        }
       ],
       "correct_key": "b",
       "explanation": "A fibrilação atrial é a arritmia mais comum no pós-operatório de cirurgia cardíaca (até 30-40% dos casos), tratada com cardioversão elétrica ou química conforme estabilidade clínica.",
@@ -1608,10 +2793,22 @@
       "id": "arr_094",
       "statement": "Mulher, 30 anos de idade, procura ambulatório de clínica médica com queixa de palpitações esporádicas, há vários meses. Refere duração de poucos segundos, com resolução espontânea. Nega outras queixas ou comorbidades. Trabalha à noite e faz uso de energéticos e café para se manter acordada. Exames físicos com FC: 80bpm, sem alteração à ausculta ou outras alterações. Realizando eletrocardiograma com 12 derivações, sem alterações. Diante desse caso, indique o diagnóstico mais provável.",
       "alternatives": [
-        {"key": "a", "text": "Extrassístoles ventriculares esporádicas."},
-        {"key": "b", "text": "Taquicardia paroxística supraventricular."},
-        {"key": "c", "text": "Fibrilação atrial paroxística."},
-        {"key": "d", "text": "Taquicardia sinusal."}
+        {
+          "key": "a",
+          "text": "Extrassístoles ventriculares esporádicas."
+        },
+        {
+          "key": "b",
+          "text": "Taquicardia paroxística supraventricular."
+        },
+        {
+          "key": "c",
+          "text": "Fibrilação atrial paroxística."
+        },
+        {
+          "key": "d",
+          "text": "Taquicardia sinusal."
+        }
       ],
       "correct_key": "d",
       "explanation": "Palpitações breves associadas a uso de estimulantes (cafeína, energéticos), sem alteração ao ECG basal, em paciente jovem sem comorbidades — quadro compatível com taquicardia sinusal transitória induzida por estimulantes.",
@@ -1625,10 +2822,22 @@
       "id": "arr_095",
       "statement": "Considerando-se os bloqueios atrioventriculares, assinale a alternativa correta.",
       "alternatives": [
-        {"key": "a", "text": "No de segundo grau Mobitz II, o aumento do intervalo PR é progressivo e as onda P estão todas bloqueadas."},
-        {"key": "b", "text": "No de segundo grau Mobitz I, o intervalo PR é constante a as ondas P são bloqueadas aletoriamente."},
-        {"key": "c", "text": "No de primeiro grau, o intervalo PR é maior que 200 ms."},
-        {"key": "d", "text": "No de terceiro grau, a cada duas ondas P, uma é bloqueada."}
+        {
+          "key": "a",
+          "text": "No de segundo grau Mobitz II, o aumento do intervalo PR é progressivo e as onda P estão todas bloqueadas."
+        },
+        {
+          "key": "b",
+          "text": "No de segundo grau Mobitz I, o intervalo PR é constante a as ondas P são bloqueadas aletoriamente."
+        },
+        {
+          "key": "c",
+          "text": "No de primeiro grau, o intervalo PR é maior que 200 ms."
+        },
+        {
+          "key": "d",
+          "text": "No de terceiro grau, a cada duas ondas P, uma é bloqueada."
+        }
       ],
       "correct_key": "c",
       "explanation": "BAV de primeiro grau é definido por PR>200ms com condução 1:1 mantida. As demais opções descrevem incorretamente Mobitz I/II (invertidas) e o BAV total (que não segue uma razão fixa de bloqueio, e sim dissociação AV completa).",
@@ -1642,10 +2851,22 @@
       "id": "arr_096",
       "statement": "Um jovem médico resolve fazer, pela primeira vez, um plantão noturno na emergência. Na madrugada, uma senhora de 75 anos, hipertensa e diabética dá entrada com queixa de dispneia e taquicardia. Ao exame clínico, observou-se FC 122 bpm, PA 140x90mmHg, ausculta pulmonar limpa, discreto edema de membros inferiores e Sat. 02 95%. Trouxe um ecocardiograma recente que mostrou diâmetro ventricular esquerdo normal, aumento discreto de átrio esquerdo, hipertensão pulmonar discreta e FEVE = 62%. O médico solicitou os seguintes exames a seguir: Qual é o diagnóstico para o eletrocardiograma?",
       "alternatives": [
-        {"key": "a", "text": "Taquicardia sinusal."},
-        {"key": "b", "text": "Taquicardia paroxistica supraventricular."},
-        {"key": "c", "text": "Fibrilação atrial."},
-        {"key": "d", "text": "Flutter atrial."}
+        {
+          "key": "a",
+          "text": "Taquicardia sinusal."
+        },
+        {
+          "key": "b",
+          "text": "Taquicardia paroxistica supraventricular."
+        },
+        {
+          "key": "c",
+          "text": "Fibrilação atrial."
+        },
+        {
+          "key": "d",
+          "text": "Flutter atrial."
+        }
       ],
       "correct_key": "c",
       "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Taquicardia (FC122) associada a aumento de átrio esquerdo em idosa hipertensa/diabética, sem estertores (ausculta pulmonar limpa), é altamente sugestiva de fibrilação atrial — achado consistente com raciocínio aplicado a caso idêntico em outros lotes de questões desta mesma fonte.",
@@ -1659,10 +2880,22 @@
       "id": "arr_097",
       "statement": "Homem, 75 anos, com HAS e DM tipo II, é admitido no Setor de Emergência com fibrilação atrial de alta resposta ventricular. É internado com proposta de cardioversão elétrica, porém em 24 hora do início dos sintomas ocorre reversão espontânea da arritmia. Pode-se afirmar que, na prevenção de eventos tromboembólicos, a terapêutica melhor indicada para uso contínuo nesse paciente é:",
       "alternatives": [
-        {"key": "a", "text": "clopidogrel"},
-        {"key": "b", "text": "apixabana"},
-        {"key": "c", "text": "ácido acetilsalicíco"},
-        {"key": "d", "text": "ácido acetilsalicíco e clopidogrel"}
+        {
+          "key": "a",
+          "text": "clopidogrel"
+        },
+        {
+          "key": "b",
+          "text": "apixabana"
+        },
+        {
+          "key": "c",
+          "text": "ácido acetilsalicíco"
+        },
+        {
+          "key": "d",
+          "text": "ácido acetilsalicíco e clopidogrel"
+        }
       ],
       "correct_key": "b",
       "explanation": "CHA2DS2-VASc: idade≥75(2)+HAS(1)+DM(1)=4 pontos, indicando anticoagulação independentemente de a FA ter revertido espontaneamente (o risco tromboembólico da FA paroxística é semelhante ao das formas persistentes). Apixabana (DOAC) é a terapêutica indicada, não antiplaquetários isolados ou combinados.",
@@ -1676,11 +2909,26 @@
       "id": "arr_098",
       "statement": "Paciente masculino, 74 anos, portador de hipertensão, diabetes, apneia do sono e diagnóstico recente de depressão, dá entrada na emergência com sintomas de palpitação, relata que apresenta o sintoma há alguns dias. Em relação ao ECG realizado na admissão, é correto afirmar que evidência:",
       "alternatives": [
-        {"key": "a", "text": "fibrilação atrial; a cardioversão elétrica está indicada na emergência."},
-        {"key": "b", "text": "taquicardia ventricular; a anticoagulação está contraindicada."},
-        {"key": "c", "text": "fibrilação atrial; são fatores de risco: hipertensão, diabetes e apneia do sono."},
-        {"key": "d", "text": "taquicardia ventricular; a depressão é um fator de risco comum."},
-        {"key": "e", "text": "fibrilação atrial; ablação por cateter nunca está indicada."}
+        {
+          "key": "a",
+          "text": "fibrilação atrial; a cardioversão elétrica está indicada na emergência."
+        },
+        {
+          "key": "b",
+          "text": "taquicardia ventricular; a anticoagulação está contraindicada."
+        },
+        {
+          "key": "c",
+          "text": "fibrilação atrial; são fatores de risco: hipertensão, diabetes e apneia do sono."
+        },
+        {
+          "key": "d",
+          "text": "taquicardia ventricular; a depressão é um fator de risco comum."
+        },
+        {
+          "key": "e",
+          "text": "fibrilação atrial; ablação por cateter nunca está indicada."
+        }
       ],
       "correct_key": "c",
       "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF, presumindo fibrilação atrial pelo contexto de risco. HTN, DM e SAOS são fatores de risco bem estabelecidos para FA — afirmativa correta e verificável independentemente da imagem, ao contrário das demais opções que contêm afirmações absolutas/incorretas (cardioversão 'indicada na emergência' de forma universal, ablação 'nunca' indicada).",
@@ -1694,11 +2942,26 @@
       "id": "arr_099",
       "statement": "São causas comuns de retardo na condução atrioventricular, EXCETO",
       "alternatives": [
-        {"key": "a", "text": "doença de Lenegre."},
-        {"key": "b", "text": "doença de raiz da aorta."},
-        {"key": "c", "text": "calcificação do anel mitral e/ou aórtico."},
-        {"key": "d", "text": "hipervagotomia."},
-        {"key": "e", "text": "hipertireoidismo."}
+        {
+          "key": "a",
+          "text": "doença de Lenegre."
+        },
+        {
+          "key": "b",
+          "text": "doença de raiz da aorta."
+        },
+        {
+          "key": "c",
+          "text": "calcificação do anel mitral e/ou aórtico."
+        },
+        {
+          "key": "d",
+          "text": "hipervagotomia."
+        },
+        {
+          "key": "e",
+          "text": "hipertireoidismo."
+        }
       ],
       "correct_key": "e",
       "explanation": "O hipertireoidismo classicamente acelera a condução e a frequência cardíaca (podendo inclusive predispor a fibrilação atrial), sendo o oposto de uma causa de retardo/bloqueio da condução AV — diferente das demais opções, que são causas reconhecidas de doença do sistema de condução.",
@@ -1712,10 +2975,22 @@
       "id": "arr_100",
       "statement": "Mulher, 75 anos, apresenta palpitações taquicárdicas e dispneia há 3 horas. Sem outras queixas. Exame físico: consciente, orientada, ritmo cardíaco irregular em 3 tempos, bulhas hipofonéticas, sem sopros. Tempo de enchimento capilar menor que 3 segundos. Murmúrio vesicular presente e simétrico, com estertores finos em terços inferiores dos campos pulmonares. FC = 142 bpm, PA = 110 × 70 mmHg. Eletrocardiograma na figura abaixo: Qual das condutas abaixo é a mais apropriada para o atendimento inicial dessa paciente?",
       "alternatives": [
-        {"key": "a", "text": "Cardioversão elétrica."},
-        {"key": "b", "text": "Betabloqueador."},
-        {"key": "c", "text": "Amiodarona."},
-        {"key": "d", "text": "Manobra vagal."}
+        {
+          "key": "a",
+          "text": "Cardioversão elétrica."
+        },
+        {
+          "key": "b",
+          "text": "Betabloqueador."
+        },
+        {
+          "key": "c",
+          "text": "Amiodarona."
+        },
+        {
+          "key": "d",
+          "text": "Manobra vagal."
+        }
       ],
       "correct_key": "b",
       "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF, presumindo fibrilação atrial pelo ritmo irregular. Paciente hemodinamicamente aceitável (PA110/70, perfusão preservada) apesar de sintomas de congestão leve: conduta inicial padrão é controle de frequência com betabloqueador, sem indicação de cardioversão elétrica imediata (não há instabilidade franca) nem manobra vagal (ineficaz em FA).",
@@ -1724,56 +2999,6 @@
       "source": "USP-RP R3CM 2025",
       "reviewed": false,
       "created_at": "2026-07-26T00:00:00.000Z"
-    },
-    {
-      "id": "arr_101",
-      "statement": "Homem de 48 anos queixa-se de fraqueza generalizada e dispneia. Ao exame físico, ausculta-se desdobramento da segunda bulha que é constante, mas aumenta quando o paciente inspira. O ritmo cardíaco é regular, a primeira bulha é normal e não há sopros. Qual das seguintes alterações eletrocardiográficas é MAIS COMPATÍVEL com os achados auscultatórios observados no paciente?",
-      "alternatives": [
-        {"key": "a", "text": "Bloqueio completo do ramo direito do feixe de His"},
-        {"key": "b", "text": "Elevação do segmento ST nas derivações anteriores"},
-        {"key": "c", "text": "Redução da duração do intervalo PR"},
-        {"key": "d", "text": "Repolarização precoce"}
-      ],
-      "correct_key": "a",
-      "explanation": "O bloqueio completo do ramo direito atrasa a ativação/ejeção do ventrículo direito, atrasando o componente pulmonar de B2 e produzindo um desdobramento amplo (mas que ainda varia com a respiração, ampliando-se na inspiração) — achado compatível com o descrito.",
-      "theme": "cardio_arritmias",
-      "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-28T00:00:00.000Z"
-    },
-    {
-      "id": "arr_102",
-      "statement": "Correlacione achado da semiologia cardiovascular com laudos de ECG. a – Ritmo cardíaco irregular, com variações de fonese de primeira bulha; b - Desdobramento de B2 na expiração em foco pulmonar; c - Desdobramento de B2 na inspiração em foco pulmonar; d – Hipofonese de B1. 1 – Bloqueio de ramo direito; 2 – Bloqueio de ramo esquerdo; 3 – Normal; 4 – Fibrilação atrial; 5 – Taquicardia atrial multifocal; 6 – Bloqueio Atrio-ventricular de 1º grau. Assinale a alternativa correta.",
-      "alternatives": [
-        {"key": "a", "text": "4A, 2C, 6D"},
-        {"key": "b", "text": "4D, 2B, 3C"},
-        {"key": "c", "text": "5A, 1B, 6D"},
-        {"key": "d", "text": "5D, 3B, 6A"},
-        {"key": "e", "text": "2B, 3B, 4D"}
-      ],
-      "correct_key": "b",
-      "explanation": "Correlação correta: a (ritmo irregular com fonese variável de B1) associa-se a fibrilação atrial (4); d (hipofonese de B1) associa-se a bloqueio AV de 1º grau (o intervalo PR prolongado faz a valva mitral já estar quase fechada ao início da sístole, reduzindo a intensidade de B1); b (desdobramento na expiração) é um achado anormal (desdobramento paradoxal), compatível com bloqueio de ramo esquerdo (2), pela ativação/ejeção retardada do VE.",
-      "theme": "cardio_arritmias",
-      "difficulty": "dificil",
-      "reviewed": false,
-      "created_at": "2026-07-28T00:00:00.000Z"
-    },
-    {
-      "id": "arr_103",
-      "statement": "Reproduz-se o traçado eletrocardiográfico (derivação V6) de um paciente de 60 anos, evidenciando complexo QRS alargado com padrão sugestivo de bloqueio de ramo esquerdo. Se tratando desse paciente, assinale a alternativa ERRADA:",
-      "alternatives": [
-        {"key": "a", "text": "Se houver insuficiência cardíaca refratária ao tratamento medicamentoso, esse paciente pode beneficiar-se com a terapia de ressincronização ventricular."},
-        {"key": "b", "text": "Em face desse traçado eletrocardiográfico, há grande probabilidade de que esse paciente seja cardiopata, visto que a alteração que ali se detecta é incomum em pacientes sem evidências de cardiopatia."},
-        {"key": "c", "text": "À ausculta cardíaca, espera-se encontrar desdobramento inspiratório da segunda bulha."},
-        {"key": "d", "text": "O ecodopplercardiograma do paciente deve revelar movimentação anômala do septo interventricular."}
-      ],
-      "correct_key": "c",
-      "explanation": "No bloqueio de ramo esquerdo, a ativação/ejeção do VE é atrasada, fazendo com que o componente aórtico de B2 ocorra DEPOIS do pulmonar mesmo na expiração, e na inspiração os dois componentes se aproximam (desdobramento PARADOXAL, que se estreita na inspiração) — o oposto do desdobramento fisiológico inspiratório normal, tornando a alternativa C a afirmação ERRADA (resposta pedida pela questão).",
-      "theme": "cardio_arritmias",
-      "difficulty": "dificil",
-      "reviewed": false,
-      "created_at": "2026-07-28T00:00:00.000Z"
     }
-
   ]
 }

@@ -1,1 +1,2076 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "sem_001",
+      "statement": "Jovem do sexo masculino, 22 anos, é encaminhado ao ambulatório para avaliação de hipertensão arterial sistêmica. Não apresenta antecedentes familiares relevantes e não faz uso de medicamentos ou substâncias ilícitas. O exame físico revela: desdobramento fisiológico de B2 e hiperfonese da segunda bulha em foco aórtico, além de sopro sistólico ejetivo ao longo do bordo esternal esquerdo. O paciente traz uma radiografia de tórax mostrando erosões (\"corrosões\") na borda inferior dos arcos costais posteriores (rib notching). Em face do exposto, é correto afirmar que a causa mais provável da hipertensão arterial é secundária",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "à coarctação da aorta."
+        },
+        {
+          "key": "b",
+          "text": "à síndrome de Cushing."
+        },
+        {
+          "key": "c",
+          "text": "ao hiperparatireoidismo."
+        },
+        {
+          "key": "d",
+          "text": "à apneia do sono."
+        },
+        {
+          "key": "e",
+          "text": "ao hipotireoidismo."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O sinal radiográfico de \"corrosão\" (rib notching) na borda inferior das costelas, causado por circulação colateral intercostal dilatada contornando a obstrução aórtica, associado a hiperfonese de B2 aórtica e sopro sistólico ejetivo em jovem hipertenso, é patognomônico de coarctação da aorta.",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_002",
+      "statement": "Homem, 80 anos, apresenta ao exame físico sopro aórtico mesosistólico rude (4+/6+) e pulso carotídeo de amplitude reduzida. Pode-se afirmar que o sintoma mais associado a um prognóstico ruim é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "dispneia"
+        },
+        {
+          "key": "b",
+          "text": "síncope"
+        },
+        {
+          "key": "c",
+          "text": "angina"
+        },
+        {
+          "key": "d",
+          "text": "palpitação"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na história natural da estenose aórtica sintomática, a sobrevida média após o início dos sintomas é: angina ~5 anos, síncope ~3 anos e dispneia/insuficiência cardíaca (o pior prognóstico) ~2 anos — por isso a dispneia é o sintoma mais associado a prognóstico ruim entre as opções.",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_003",
+      "statement": "Homem de 64 anos vem ao ambulatório de cardiologia para primeira consulta. Relata que há três meses vem apresentando dispneia progressiva aos esforços. Tinha o hábito de caminhar no parque, 6 km diários e, atualmente, mal consegue subir alguns degraus de escada na sua residência. Em algumas situações, apresenta dor torácica associada. Na semana passada, ao tentar ajudar os amigos a empurrar um carro, apresentou um episódio de síncope. Está normotenso e a ausculta cardíaca evidenciou um sopro sistólico em \"crescendo-decrescendo\" no segundo espaço intercostal, na borda esternal direita. Diante desses achados de história e exame físico, qual seria sua primeira hipótese diagnóstica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Comunicação Interatrial"
+        },
+        {
+          "key": "b",
+          "text": "Estenose Aórtica"
+        },
+        {
+          "key": "c",
+          "text": "Insuficiência Mitral"
+        },
+        {
+          "key": "d",
+          "text": "Insuficiência Tricúspide"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Tríade clássica de dispneia progressiva, angina e síncope de esforço, associada a sopro sistólico em crescendo-decrescendo no foco aórtico (2º EIC, borda esternal direita), é a apresentação típica de estenose aórtica sintomática grave.",
+      "theme": "cardio_semiologia",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_004",
+      "statement": "O Prolapso da Valva Mitral (PVM) tem apresentações clínicas muito variáveis em decorrência dos diferentes mecanismos patológicos que envolvem o aparelho valvar mitral. Analise as assertivas relacionadas ao PVM. I. O PVM é a anormalidade que mais comumente leva à insuficiência mitral primária. II. O PVM é encontrado com frequência em pacientes com distúrbios hereditários do tecido conetivo, como síndrome de Marfan, osteogênese imperfeita e síndrome de Ehlers-Danlos. III. O folheto anterior da valva mitral é o mais afetado no PVM, e o anel valvar frequentemente encontra-se dilatado. IV. A regurgitação mitral decorrente do prolapso do folheto anterior da valva mitral provoca um sopro irradiado para a base do coração. Escolha entre as alternativas abaixo, as assertivas corretas.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I e II apenas."
+        },
+        {
+          "key": "b",
+          "text": "I e IV apenas."
+        },
+        {
+          "key": "c",
+          "text": "II e III apenas."
+        },
+        {
+          "key": "d",
+          "text": "I, II e III apenas."
+        },
+        {
+          "key": "e",
+          "text": "IV apenas."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "I e II estão corretas: o PVM é a causa mais comum de insuficiência mitral primária isolada e associa-se a doenças hereditárias do tecido conectivo. III está incorreta: o folheto POSTERIOR (não o anterior) é o mais comumente afetado no PVM. IV também é problemática nesse contexto, tornando I e II apenas a combinação correta.",
+      "theme": "cardio_semiologia",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_005",
+      "statement": "A Insuficiência Aórtica (IAo) pode ser causada por doença valvar primária, doenças da raiz aórtica ou uma combinação de ambas. Analise as assertivas relacionadas à IAo. I. São causas de IAo valvar: congênita (bicúspide), endocardite infecciosa, febre reumática, sífilis, espondilite anquilosante. II. São causas de IAo por doença da raiz aórtica: dissecção aórtica, síndrome de Marfan, aortite, hipertensão arterial, degeneração cística da túnica média. III. Na IAo aguda grave a pressão diastólica do ventrículo esquerdo eleva-se rapidamente e pode sobrevir edema agudo do pulmão. IV. Na IAo crônica grave o ictus cordis é amplo e deslocado lateral e inferiormente, e o pulso arterial é descrito como parvus et tardus. Escolha entre as alternativas abaixo, as assertivas corretas.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I e II apenas."
+        },
+        {
+          "key": "b",
+          "text": "I e IV apenas."
+        },
+        {
+          "key": "c",
+          "text": "II e III apenas."
+        },
+        {
+          "key": "d",
+          "text": "I, II e III apenas."
+        },
+        {
+          "key": "e",
+          "text": "IV apenas."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "I, II e III estão corretas: descrevem adequadamente as causas valvares e de raiz aórtica da IAo, e a fisiopatologia da IAo aguda grave (elevação súbita da pressão diastólica do VE, sem tempo de dilatação compensatória, levando a edema agudo de pulmão). A IV está incorreta: na IAo crônica grave o pulso é em martelo d'água (Corrigan), amplo e de ascensão rápida — não parvus et tardus (que é típico de estenose aórtica).",
+      "theme": "cardio_semiologia",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_006",
+      "statement": "Mulher, 82 anos, apresentou três episódios de perda súbita da consciência, após se levantar, nas últimas três semanas. Nega tontura, escurecimento da visão ou dor precordial precedendo os quadros. Após recobrar a consciência, encontra-se normal, sem sonolência ou liberação esfincteriana. Antecedentes pessoais: hipertensão arterial em uso de clortalidona e valsartana; osteoporose em uso de cálcio e vitamina D. Exame físico: PA 155 x 70 mmHg; FC = 72 bpm; ausculta cardíaca: sopro sistólico em diamante em focos da base; ausculta pulmonar limpa. Foi solicitado ecocardiograma transtorácico que, certamente, mostrará:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "insuficiência aórtica."
+        },
+        {
+          "key": "b",
+          "text": "cardiomiopatia hipertrófica."
+        },
+        {
+          "key": "c",
+          "text": "estenose aórtica."
+        },
+        {
+          "key": "d",
+          "text": "estenose mitral."
+        },
+        {
+          "key": "e",
+          "text": "aneurisma de aorta torácica."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Idosa com síncope de esforço/ortostática recorrente sem pródromos e sopro sistólico em diamante (crescendo-decrescendo) nos focos da base é o quadro clássico de estenose aórtica degenerativa/calcificada, causa mais comum de valvopatia em idosos.",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_007",
+      "statement": "A respeito da ausculta cardíaca, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A ausência de sopro descarta cardiopatia."
+        },
+        {
+          "key": "b",
+          "text": "A presença de sopro diastólico é inocente."
+        },
+        {
+          "key": "c",
+          "text": "O sopro característico da CIV é o sistodiastólico em maquinaria."
+        },
+        {
+          "key": "d",
+          "text": "O sopro inocente apresenta frêmito precordial palpável."
+        },
+        {
+          "key": "e",
+          "text": "A segunda bulha está aumentada nas cardiopatias de hiperfluxo pulmonar."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A B2 (particularmente seu componente pulmonar) fica hiperfonética em condições de hiperfluxo pulmonar, como CIA, CIV e PCA. As demais estão incorretas: a ausência de sopro não descarta cardiopatia; sopro diastólico nunca é inocente; o sopro sistodiastólico contínuo em maquinaria é característico da persistência do canal arterial (não da CIV, cujo sopro é sistólico); e o sopro inocente, por definição, não tem frêmito palpável.",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_008",
+      "statement": "Um paciente no 8º dia de infecção pelo SARS-COV-2 encontra-se em uso de cateter nasal de alto fluxo (CNAF) a 40 litros e saturação de O2 a 97%. Algumas horas depois, o paciente se queixa de intensa dor torácica, apresentando saturação de 65%, apesar do uso de CNAF, além de intenso esforço respiratório, turgência jugular e hipotensão. Em meio ao caos do quadro, a R1 de plantão percebe durante a ausculta cardíaca que o paciente apresentava crepitações em precórdio, sincrônicas aos batimentos cardíacos. A complicação apresentada e o sinal semiológico, respectivamente, são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Embolia pulmonar maciça e sinal de Boerhaave;"
+        },
+        {
+          "key": "b",
+          "text": "Ruptura de cordoalha e sinal de Kussmaul;"
+        },
+        {
+          "key": "c",
+          "text": "Embolia gordurosa e sinal de Hollenhorst;"
+        },
+        {
+          "key": "d",
+          "text": "Embolia gasosa e sinal de Palla;"
+        },
+        {
+          "key": "e",
+          "text": "Pneumomediastino e sinal de Hamman."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Crepitações precordiais sincrônicas aos batimentos cardíacos (sinal de Hamman) em paciente com ventilação sob alta pressão/fluxo (barotrauma) e queda abrupta de saturação com dor torácica e turgência jugular é o quadro clássico de pneumomediastino com ar dissecando o mediastino junto ao coração.",
+      "theme": "cardio_semiologia",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_009",
+      "statement": "Homem, 57 anos, é trazido ao serviço médico após episódio de desmaio ao realizar grande esforço no trabalho. Conta que subitamente perdeu a consciência, sem referir qualquer outro sintoma, e que ao acordar não apresentava déficits. Nas últimas semanas sentiu aperto no peito ao realizar os esforços que desaparecia ao repouso. Exame físico: PA= 110x85 mmHg; FC= 92 bpm; FR= 16 irpm; Oximetria de pulso (ar ambiente)= 97%, corado, hidratado. Pulso carotídeo diminuído e tardio; Coração: ictus no 5º espaço intercostal esquerdo desviado 2 cm para a esquerda da linha hemiclavicular ipsilateral, bulhas rítmicas com sopro mesossistólico ejetivo, rude, audível em focos aórtico, aórtico acessório e mitral, irradiado para o pescoço com B4 presente; extremidades: pulsos de baixa amplitude. O DIAGNÓSTICO É:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Insuficiência aórtica."
+        },
+        {
+          "key": "b",
+          "text": "Insuficiência mitral."
+        },
+        {
+          "key": "c",
+          "text": "Estenose aórtica."
+        },
+        {
+          "key": "d",
+          "text": "Estenose mitral."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Pulso carotídeo diminuído e tardio (parvus et tardus), sopro sistólico ejetivo irradiado para o pescoço, B4 e pulsos periféricos de baixa amplitude, em paciente com angina e síncope de esforço, compõem o quadro clássico de estenose aórtica grave sintomática.",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_010",
+      "statement": "Mulher de 41 anos queixa-se de dispneia ao andar menos de 2 quarteirões no plano e ao varrer a casa, há 5 meses. Teve tromboembolismo pulmonar no puerpério há 6 meses e está em uso de apixabana desde então. Desconhece outras comorbidades e nega o uso de outros medicamentos. Ao exame, PA 120/76mmHg, FR 15ipm, SpO2 93% (em ar ambiente). O exame respiratório é normal. O ictus cordis é palpado no 4° EIC na linha hemiclavicular (LHC) esquerda, possui extensão e duração normais. Palpa-se movimento na região paraesternal esquerda inferior. A segunda bulha apresenta desdobramento contínuo, mais amplo à inspiração, audível ao longo da borda paraesternal esquerda e no ápice, com hiperfonese do segundo componente. Ausculta-se sopro sistólico inicial, que abafa a primeira bulha, suave, na borda paraesternal esquerda, com acentuação inspiratória. Os achados do exame cardiovascular sugerem o diagnóstico de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Comunicação interatrial"
+        },
+        {
+          "key": "b",
+          "text": "Estenose tricúspide"
+        },
+        {
+          "key": "c",
+          "text": "Hipertensão pulmonar"
+        },
+        {
+          "key": "d",
+          "text": "Insuficiência mitral"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Antecedente de TEP prévio, movimento paraesternal esquerdo (VD hiperdinâmico), hiperfonese do componente pulmonar de B2 e sopro sistólico que aumenta com a inspiração (Rivero-Carvallo, sugerindo insuficiência tricúspide secundária) compõem o quadro clássico de hipertensão pulmonar tromboembólica crônica com sobrecarga de câmaras direitas.",
+      "theme": "cardio_semiologia",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_011",
+      "statement": "Mulher de 34 anos tem história pregressa de febre reumática há vários anos, acometendo a valva mitral. Ao examinar a paciente, a suspeita clínica é de regurgitação mitral. A fisiopatologia e a ausculta típica no foco mitral nesse caso, respectivamente, são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "sobrecarga de pressão / sopro holossistólico, irradiação para meso e B4"
+        },
+        {
+          "key": "b",
+          "text": "sobrecarga de volume / sopro holossistólico, irradiação para a axila e B3"
+        },
+        {
+          "key": "c",
+          "text": "sobrecarga de volume / sopro sistólico em diamante, irradiação para axila e B3"
+        },
+        {
+          "key": "d",
+          "text": "sobrecarga de pressão / sopro sistólico em diamante, irradiação para meso e B4"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A insuficiência/regurgitação mitral gera sobrecarga de VOLUME sobre o VE (sangue regurgitado retorna na diástole seguinte), com sopro holossistólico irradiado para axila e B3 audível (enchimento rápido de um VE volume-sobrecarregado) — diferente da sobrecarga de pressão (típica de estenoses) e do sopro em diamante (ejetivo, típico de estenose aórtica).",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_012",
+      "statement": "Uma paciente de 32 anos de idade procurou a unidade básica de saúde com queixa de astenia há dois meses. É tabagista de um maço por dia há dez anos. Refere ciclos menstruais regulares, com sangramento volumoso por doze dias a cada ciclo. Exame físico: pressão arterial de 120 x 80 mmHg; frequência cardíaca de 110; e saturação de oxigênio de 97%. Hipocorada ++/4+, anictérica, acianótica e eupneica. Exame cardiopulmonar: ritmo cardíaco regular com sopro sistólico ++/6+ pancardíaco sem irradiação. Murmúrios vesiculares audíveis bilateralmente sem ruídos adventícios. Restante do exame físico normal. Com base nessa situação hipotética, julgue o item. O sopro cardíaco identificado trata-se provavelmente de sopro funcional.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Paciente com anemia provável (sangramento menstrual volumoso, astenia, taquicardia) apresenta sopro sistólico suave, pancardíaco e sem irradiação — quadro clássico de sopro funcional por hiperfluxo/estado hiperdinâmico secundário à anemia, e não de valvopatia estrutural.",
+      "theme": "cardio_semiologia",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_013",
+      "statement": "Recém-nascido, 3 semanas de vida (parto normal), Apgar 9-10, IG: 39,5 semanas e pré-natal sem intercorrências, dá entrada na emergência. A mãe refere que o filho apresenta gemência e dificuldade para mamar. Ao exame, além de não serem observados pulsos em MMII, o paciente está gemente, com: FC – 198 bpm; FR – 45 irpm; Temperatura axilar – 35,3 ºC; PA – 110x90 mmHg; Bulhas rítmicas hipofonéticas; MV simétrico e estertores crepitantes em bases; Abdome globoso e flácido; Fígado a 5 cm do rebordo central direito (RCD); má perfusão periférica; e pele moteada. Quanto à causa etiológica da crise hipertensiva descrita, nesse caso clínico, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tumor de suprarrenal."
+        },
+        {
+          "key": "b",
+          "text": "ICC por doença crônica intrauterina."
+        },
+        {
+          "key": "c",
+          "text": "Coarctação da aorta."
+        },
+        {
+          "key": "d",
+          "text": "Malformação renal."
+        },
+        {
+          "key": "e",
+          "text": "Hiperplasia adrenal congênita"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Ausência de pulsos em MMII associada a sinais de insuficiência cardíaca (hepatomegalia, estertores, taquicardia, má perfusão) em neonato, tipicamente por volta do fechamento do canal arterial (2ª-3ª semana de vida), é o quadro clássico de coarctação da aorta descompensada, gerando hipertensão proximal (MMSS) e hipofluxo distal (MMII).",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_014",
+      "statement": "Mulher, 36 anos, queixa-se de dispneia em repouso, ortopneia e tosse seca. Exame físico: Coração: sopro diastólico +++/6+ em segundo espaço intercostal esquerdo, aspecto aspirativo, sopro diastólico em ruflar +++/6+, hiperfonese de B1 e final de B2, extremidades: pulsos periféricos simétricos, amplitude normal. A HIPÓTESE DIAGNÓSTICA É:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Estenose aórtica e insuficiência tricúspide."
+        },
+        {
+          "key": "b",
+          "text": "Dupla lesão mitral e estenose aórtica."
+        },
+        {
+          "key": "c",
+          "text": "Insuficiência pulmonar e estenose mitral"
+        },
+        {
+          "key": "d",
+          "text": "Insuficiência aórtica e insuficiência mitral."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O sopro diastólico aspirativo em 2º EIC esquerdo (foco pulmonar acessório) sugere insuficiência pulmonar, enquanto o sopro em ruflar diastólico com hiperfonese de B1 é a ausculta clássica de estenose mitral — a combinação dos dois achados diastólicos aponta para insuficiência pulmonar associada a estenose mitral.",
+      "theme": "cardio_semiologia",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_015",
+      "statement": "A respeito da ausculta cardíaca, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A segunda bulha está aumentada nas cardiopatias de hiperfluxo pulmonar."
+        },
+        {
+          "key": "b",
+          "text": "A ausência de sopro descarta a cardiopatia."
+        },
+        {
+          "key": "c",
+          "text": "A presença de sopro diastólico é inocente."
+        },
+        {
+          "key": "d",
+          "text": "O sopro característico da CIV é o sistodiastólico em maquinaria."
+        },
+        {
+          "key": "e",
+          "text": "O sopro inocente apresenta frêmito precordial palpável."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A B2 (componente pulmonar) fica hiperfonética em cardiopatias com hiperfluxo pulmonar (CIA, CIV, PCA). As demais alternativas são falsas pelos mesmos motivos: sopro diastólico não é inocente, o sopro contínuo em maquinaria é da PCA (não da CIV) e sopro inocente não tem frêmito palpável.",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_016",
+      "statement": "Sobre as valvopatias cardíacas, assinale a alternativa correta que demonstre as correlações adequadas abaixo: I - Insuficiência valvar mitral; II - Insuficiência valvar aórtica; III - Estenose valvar aórtica; IV - Estenose valvar mitral. A. Facies mitralis, fibrilação atrial, índice cardiotorácico normal, sopro diastólico em ruflar, com reforço pré-sistólico, sinais de congestão pulmonar e insuficiência cardíaca direita. B. B1 hipofonética, B2 hiperfonética, aumento da silhueta cardíaca com dilatação do ventrículo esquerdo e do átrio esquerdo, sopro sistólico regurgitativo ≥ +++/6+. C. Pulso Parvus et Tardus, hipofonese de B2 e de B1, índice cardiotorácico pode ser normal, ECG com sobrecarga de ventrículo esquerdo e padrão Strain, prevalência de 3 a 5% da população > 75 anos. D. Cor bovis, hipofonese de B1, pulso com ascenso rápido e alta amplitude, divergência entre pressão sistólica e diastólica, sopro mesossistólico de hiperfluxo com hipofonese de B1.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I-A, II-B, III-C, IV-D"
+        },
+        {
+          "key": "b",
+          "text": "I-A, II-D, III-C, IV-B"
+        },
+        {
+          "key": "c",
+          "text": "I-B, II-C, III-D, IV-A"
+        },
+        {
+          "key": "d",
+          "text": "I-A, II-C, III-D, IV-B"
+        },
+        {
+          "key": "e",
+          "text": "I-B, II-D, III-C, IV-A"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "I (IM) = B (dilatação de VE/AE e sopro regurgitativo); II (IAo) = D (cor bovis, pulso amplo em martelo d'água); III (EAo) = C (pulso parvus et tardus, prevalência em idosos); IV (EM) = A (facies mitralis, ruflar diastólico com reforço pré-sistólico) — sequência I-B, II-D, III-C, IV-A.",
+      "theme": "cardio_semiologia",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_017",
+      "statement": "Ao realizar o exame físico de um paciente com doença valvar reumática, a ausculta cardíaca revelou um sopro meso a telediastólico, mais audível na ponta do coração com o paciente em decúbito lateral esquerdo, de baixa frequência ou em rolar e introduzido por estalido de abertura. Qual a causa clássica desse sopro?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Estenose aórtica."
+        },
+        {
+          "key": "b",
+          "text": "Insuficiência mitral."
+        },
+        {
+          "key": "c",
+          "text": "Estenose mitral."
+        },
+        {
+          "key": "d",
+          "text": "Insuficiência aórtica."
+        },
+        {
+          "key": "e",
+          "text": "Estenose pulmonar."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Sopro em ruflar diastólico, de baixa frequência, mais audível no ápice em decúbito lateral esquerdo e precedido por estalido de abertura é a descrição semiológica clássica da estenose mitral.",
+      "theme": "cardio_semiologia",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_018",
+      "statement": "Menina de 6 anos foi trazida à consulta por otalgia. Ao ser realizada a ausculta cardíaca, foi observado um sopro sistólico de alta frequência, vibratório, variável, concluído antes da segunda bulha, não precedido por estalido. Dentre os sopros abaixo, qual o mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sopro pulmonar"
+        },
+        {
+          "key": "b",
+          "text": "Sopro pulmonar periférico"
+        },
+        {
+          "key": "c",
+          "text": "Zumbido venoso"
+        },
+        {
+          "key": "d",
+          "text": "Sopro de Still"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Sopro sistólico curto, vibratório/musical, de alta frequência, que varia com a posição e termina antes de B2, sem estalido precedente, em criança assintomática (achado incidental), é a descrição clássica do sopro de Still, o sopro inocente mais comum na infância.",
+      "theme": "cardio_semiologia",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_019",
+      "statement": "Idosa, 92 anos, é trazida por familiares com descrição de quadro compatível com síncope ao levantar-se da cama. Na sala de emergência, encontra-se assintomática no leito. Ao exame, apresentava-se lúcida, orientada, com PA = 136x82mmHg; FC = 30bpm; FR = 22irpm. O ritmo cardíaco era regular com bulhas normofonéticas, sem sopros. Presença de onda \"a em canhão\" no pulso venoso. O primeiro exame complementar a ser solicitado e a alteração esperada são, respectivamente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "radiografia do tórax → pneumotórax hipertensivo."
+        },
+        {
+          "key": "b",
+          "text": "eletrocardiograma → supradesnivelamento do segmento ST compatível com infarto agudo do miocárdio."
+        },
+        {
+          "key": "c",
+          "text": "eletrocardiograma → bloqueio atrioventricular total (terceiro grau)."
+        },
+        {
+          "key": "d",
+          "text": "gasometria arterial → alcalose respiratória."
+        },
+        {
+          "key": "e",
+          "text": "ecocardiograma → tamponamento cardíaco."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "FC extremamente baixa (30 bpm) com ritmo regular e onda \"a em canhão\" no pulso venoso (átrio contraindo contra a tricúspide fechada, por dissociação AV) são o quadro clássico de bloqueio atrioventricular total — o eletrocardiograma é o exame inicial indicado para confirmar o diagnóstico.",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_020",
+      "statement": "Mulher de 60 anos apresenta dispneia aos esforços, com piora progressiva no último ano, atualmente aos esforços habituais. Nega febre. Exame físico: bulhas rítmicas, hiperfonese de B1 com sopro diastólico em ruflar em 5º EIC esquerdo linha hemiclavicular e estalido de abertura. ECG: ritmo sinusal, sobrecarga atrial esquerda. Raio X de tórax: aumento do tronco da artéria pulmonar. A etiologia mais provável é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "degeneração senil."
+        },
+        {
+          "key": "b",
+          "text": "cardiopatia congênita."
+        },
+        {
+          "key": "c",
+          "text": "febre reumática."
+        },
+        {
+          "key": "d",
+          "text": "endocardite infecciosa."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Sopro diastólico em ruflar com estalido de abertura, hiperfonese de B1, sobrecarga atrial esquerda ao ECG e sinais de hipertensão pulmonar (aumento do tronco pulmonar) são o quadro clássico de estenose mitral, cuja etiologia mais prevalente é a doença reumática crônica.",
+      "theme": "cardio_semiologia",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_021",
+      "statement": "Paciente de 50 anos, hipertenso, é admitido na emergência com dor torácica de forte intensidade, irradiada para a região interescapular, contínua e de início súbito. Apresenta-se agitado, com sudorese fria, PA: 180/100 mmHg, sopro diastólico em foco aórtico com irradiação para o bordo esternal direito e com sinais de insuficiência cardíaca. Esses sinais e sintomas estão relacionados à",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Estenose aórtica com ruptura de músculo papilar."
+        },
+        {
+          "key": "b",
+          "text": "Dissecção aórtica tipo III de DeBakey."
+        },
+        {
+          "key": "c",
+          "text": "Insuficiência mitral pós infarto agudo do miocárdio."
+        },
+        {
+          "key": "d",
+          "text": "Dissecção da aorta ascendente com insuficiência aórtica aguda."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Dor torácica súbita, intensa, irradiada para o dorso (interescapular), em hipertenso, com novo sopro diastólico aórtico e sinais de insuficiência cardíaca aguda é o quadro clássico de dissecção da aorta ascendente (tipo A) complicada por insuficiência aórtica aguda decorrente do envolvimento da raiz aórtica/valva.",
+      "theme": "cardio_semiologia",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_022",
+      "statement": "Homem, 75 anos, com queixa de dor torácica em aperto, acompanhada de dispneia aos esforços, há 12 meses, com melhora ao repouso. Seu exame físico revela PA 150x70 mmHg, FC 86 bpm, ritmo regular, FR 16 ipm. À ausculta, sopro sistólico de alta frequência no segundo espaço intercostal à direita do esterno, com irradiação para a fúrcula e para a região cervical. Qual a hipótese clínica mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Insuficiência mitral"
+        },
+        {
+          "key": "b",
+          "text": "Comunicação interventricular"
+        },
+        {
+          "key": "c",
+          "text": "Prolapso da válvula mitral"
+        },
+        {
+          "key": "d",
+          "text": "Estenose aórtica"
+        },
+        {
+          "key": "e",
+          "text": "Comunicação interatrial"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Angina e dispneia de esforço em idoso, com sopro sistólico de alta frequência no 2º EIC direito irradiando para fúrcula e carótidas, é a apresentação clássica de estenose aórtica.",
+      "theme": "cardio_semiologia",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_023",
+      "statement": "Gestante hipertensa grave necessita de cesárea de urgência. Dá à luz a recém-nascido prematuro extremo de 27 semanas, com peso de nascimento de 850g e Apgar 6/8. Necessitou ser reanimado na sala de parto com intubação orotraqueal por taquidispneia grave. Ao chegar à UTI neonatal, precisou de reposição de surfactante pulmonar por doença de membrana hialina e evoluiu satisfatoriamente, sendo extubado para ventilação não invasiva no 3º dia de vida. Contudo, no 5º dia de vida, apresenta apneias de repetição, retornando para ventilação mecânica com fração de oxigênio alta. Ao exame físico, apresenta precórdio hiperdinâmico e pulsos radiais em martelo d'água. À ausculta, apresenta sopro sistólico 4+/6+ em maquinaria, melhor audível em borda esternal esquerda com irradiação para a clavícula esquerda. O diagnóstico mais provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "coarctação da aorta"
+        },
+        {
+          "key": "b",
+          "text": "persistência do canal arterial"
+        },
+        {
+          "key": "c",
+          "text": "hipoplasia de ventrículo direito"
+        },
+        {
+          "key": "d",
+          "text": "hipoplasia de ventrículo esquerdo"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Prematuridade extrema, deterioração respiratória com apneias no 5º dia de vida, precórdio hiperdinâmico, pulsos amplos em martelo d'água e sopro contínuo em maquinaria em borda esternal esquerda irradiado para a clavícula são o quadro clássico de persistência do canal arterial (PCA) hemodinamicamente significativa, comum em prematuros extremos.",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_024",
+      "statement": "Sobre o exame físico na fibrilação atrial, assinale a alternativa incorreta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Existe nítida variação na amplitude de pulso, sendo essa menor quanto mais próxima estiverem as ondas de pulso."
+        },
+        {
+          "key": "b",
+          "text": "Com um reforço pré-sistólico aumentado, a ausculta de uma quarta bulha em borda esternal inferior esquerda é perceptível, principalmente, em frequências cardíacas mais elevadas."
+        },
+        {
+          "key": "c",
+          "text": "Invariavelmente, há irregularidade da frequência cardíaca."
+        },
+        {
+          "key": "d",
+          "text": "O traçado de pulso jugular apresenta abolição da onda A."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A alternativa B é a INCORRETA (resposta pedida): na fibrilação atrial não há contração atrial coordenada, portanto NÃO existe reforço pré-sistólico nem quarta bulha (que depende justamente da contração atrial contra um ventrículo pouco complacente). As demais descrevem corretamente achados da FA: variação da amplitude de pulso (pulso irregularmente irregular; quanto mais próximas as ondas, menor o enchimento e a amplitude), irregularidade invariável da FC e abolição da onda A no pulso jugular (ausência de contração atrial coordenada).",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_025",
+      "statement": "Em relação a insuficiência mitral é CORRETO afirmar.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A regurgitação mitral é definida pelo refluxo do sangue do Ventrículo Esquerdo ao átrio esquerdo durante a sístole com achado auscultatório de sopro diastólico em foco mitral com irradiação para axila."
+        },
+        {
+          "key": "b",
+          "text": "A regurgitação mitral é definida pelo refluxo do sangue do Ventrículo Esquerdo ao átrio esquerdo durante a diástole com achado auscultatório de sopro holossistólico ou mesossistólico."
+        },
+        {
+          "key": "c",
+          "text": "A regurgitação mitral é definida pelo refluxo do sangue do Ventrículo Esquerdo ao átrio esquerdo durante a sístole com achado auscultatório de sopro holossistólico ou mesotelesistólico."
+        },
+        {
+          "key": "d",
+          "text": "A regurgitação mitral é definida pelo refluxo do sangue do Ventrículo Esquerdo ao átrio esquerdo durante todo o ciclo cardíaco com achado auscultatório de sopro diastólico em foco mitral com irradiação para axila."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A regurgitação mitral ocorre durante a SÍSTOLE (refluxo de VE para AE quando a valva deveria estar fechada), com sopro holossistólico ou, em casos como o do prolapso, mesotelesistólico — as demais alternativas erram a fase do ciclo cardíaco e/ou o tipo de sopro.",
+      "theme": "cardio_semiologia",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_026",
+      "statement": "Homem de 48 anos queixa-se de fraqueza generalizada e dispneia. Ao exame físico, ausculta-se desdobramento da segunda bulha que é constante, mas aumenta quando o paciente inspira. O ritmo cardíaco é regular, a primeira bulha é normal e não há sopros. Qual das seguintes alterações eletrocardiográficas é MAIS COMPATÍVEL com os achados auscultatórios observados no paciente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Bloqueio completo do ramo direito do feixe de His"
+        },
+        {
+          "key": "b",
+          "text": "Elevação do segmento ST nas derivações anteriores"
+        },
+        {
+          "key": "c",
+          "text": "Redução da duração do intervalo PR"
+        },
+        {
+          "key": "d",
+          "text": "Repolarização precoce"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O bloqueio completo do ramo direito atrasa a ativação/ejeção do ventrículo direito, atrasando o componente pulmonar de B2 e produzindo um desdobramento amplo (mas que ainda varia com a respiração, ampliando-se na inspiração) — achado compatível com o descrito.",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_027",
+      "statement": "Ao exame físico, a detecção de sopro sistólico suave em foco pulmonar e desdobramento fixo da segunda bulha são achados importantes para o diagnóstico de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "comunicação interatrial."
+        },
+        {
+          "key": "b",
+          "text": "persistência do canal arterial."
+        },
+        {
+          "key": "c",
+          "text": "estenose valvar pulmonar."
+        },
+        {
+          "key": "d",
+          "text": "tetralogia de Fallot."
+        },
+        {
+          "key": "e",
+          "text": "estenose valvar aórtica."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O desdobramento FIXO de B2 (não varia com a respiração, pois o hiperfluxo pulmonar pelo shunt é constante em qualquer fase respiratória), associado a sopro sistólico suave por hiperfluxo funcional em foco pulmonar, é o achado semiológico mais característico de comunicação interatrial (CIA).",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_028",
+      "statement": "Mulher, 35 anos, queixa-se de dispneia aos esforços há 3 meses. Exame físico: FC = 92 bpm, PA = 120 x 82 mmHg, ritmo cardíaco regular, com hiperfonese da primeira bulha cardíaca, sopro mesotelediastólico 2+/4+, de baixa frequência, mais intenso em região apical com paciente em decúbito lateral esquerdo, iniciado logo após som de estalo mesodiastólico. Qual é o diagnóstico mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Estenose mitral."
+        },
+        {
+          "key": "b",
+          "text": "Prolapso valvar mitral."
+        },
+        {
+          "key": "c",
+          "text": "Insuficiência tricúspide."
+        },
+        {
+          "key": "d",
+          "text": "Comunicação interventricular."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Sopro mesotelediastólico de baixa frequência no ápice, precedido por estalido de abertura e com hiperfonese de B1, é o quadro clássico de estenose mitral.",
+      "theme": "cardio_semiologia",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_029",
+      "statement": "Ao examinar um paciente com insuficiência cardíaca congestiva, notam-se ondas V gigantes no pulso venoso jugular. Esse achado se deve à insuficiência:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "tricúspide"
+        },
+        {
+          "key": "b",
+          "text": "pulmonar"
+        },
+        {
+          "key": "c",
+          "text": "aórtica"
+        },
+        {
+          "key": "d",
+          "text": "mitral"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A onda V gigante no pulso venoso jugular reflete o enchimento sistólico retrógrado do átrio direito através de uma valva tricúspide incompetente — achado clássico de insuficiência tricúspide.",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_030",
+      "statement": "Paciente de 50 anos apresentando quadro de dispneia, tosse produtiva com escarro amarelado, febre e queda do estado geral. Ao exame: frequência cardíaca 120 BPM, frequência respiratória 32 IRPM, PA 140 x 60 mmHg e temperatura axilar de 38,5° C. Ritmo cardíaco regular em 2 tempos, hiperfonese de bulhas e sopro sistólico de 2+/6+ no 2º espaço intercostal na linha hemiclavicular direita e no bordo esternal esquerdo. Murmúrio broncovesicular reduzido, expansibilidade reduzida, percussão maciça e frêmito toracovocal aumentado no 1/3 inferior do hemitórax direito. Assinale a alternativa correta sobre o sopro cardíaco encontrado no paciente.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Trata-se de sopro de insuficiência aórtica associada à provável ocorrência de endocardite infecciosa."
+        },
+        {
+          "key": "b",
+          "text": "Trata-se de sopro de insuficiência tricúspide associada à provável ocorrência de endocardite infecciosa."
+        },
+        {
+          "key": "c",
+          "text": "Trata-se de sopro funcional por hiperfluxo nas valvas pulmonar e tricúspide."
+        },
+        {
+          "key": "d",
+          "text": "Trata-se de sopro funcional por hiperfluxo nas valvas aórtica e pulmonar."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O quadro é de pneumonia com síndrome febril/estado hiperdinâmico (taquicardia, febre), causando sopro sistólico suave e transitório por hiperfluxo funcional nas valvas semilunares (aórtica e pulmonar), sem evidência clínica de endocardite (sem estigmas periféricos).",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_031",
+      "statement": "Em relação aos achados clássicos da ausculta cardíaca nas alterações cardiovasculares, qual alternativa abaixo está correta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A estenose valvar aórtica causa sopro holossistólico."
+        },
+        {
+          "key": "b",
+          "text": "Regurgitação mitral crônica é causa de sopro meso a telediastólico."
+        },
+        {
+          "key": "c",
+          "text": "A regurgitação valvar aórtica crônica é causa de sopro proto a mesodiastólico."
+        },
+        {
+          "key": "d",
+          "text": "A estenose valvar mitral é causa de sopro meso a telessistólico."
+        },
+        {
+          "key": "e",
+          "text": "A persistência do canal arterial é causa de proto a mesossistólico."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A regurgitação aórtica crônica classicamente causa sopro diastólico proto a mesodiastólico (decrescendo, iniciando logo após B2). As demais alternativas trocam os tempos/fases dos sopros: EAo é sistólico (não holossistólico), IM é sistólica (não diastólica), EM é diastólica (não sistólica) e a PCA causa sopro contínuo (sistodiastólico em maquinaria), não apenas sistólico.",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_032",
+      "statement": "A valvulopatia cardíaca que caracteristicamente causa um sopro sistólico, que se inicia logo após a primeira bulha, atingindo seu ápice no meio da fase de ejeção e terminando pouco antes do fechamento da valva aórtica e que se irradia para cima, acompanhando o trajeto das carótidas, é a:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Estenose mitral."
+        },
+        {
+          "key": "b",
+          "text": "Estenose aórtica."
+        },
+        {
+          "key": "c",
+          "text": "Estenose tricúspide."
+        },
+        {
+          "key": "d",
+          "text": "Insuficiência pulmonar."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Sopro sistólico em crescendo-decrescendo (diamante), com irradiação para as carótidas, é a descrição clássica do sopro ejetivo da estenose aórtica.",
+      "theme": "cardio_semiologia",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_033",
+      "statement": "Procurou assistência médica uma paciente de 25 anos de idade, que apresentava dispneia aos médios esforços e edema nos membros inferiores, o qual ficava mais acentuado no final da tarde. Ela tinha histórico de amigdalites de repetição. No exame físico, constatou-se pressão arterial de 110 mmHg x 70 mmHg, frequência cardíaca de 92 bpm, saturação de oxigênio = 93% (ar ambiente) e presença de estertores inspiratórios em terço inferior de ambos os hemotórax, à ausculta pulmonar. O exame cardiovascular evidenciou pré-cordio calmo, ictus cordis visível e palpável no 5° espaço intercostal esquerdo, na linha hemiclavicular esquerda, e discreta impulsão no terço inferior da região esternal (no sentido craniocaudal). A ausculta cardíaca mostrou ritmo cardíaco regular em 2 tempos, hiperfonese da primeira bulha em área mitral, na qual, também, foi constatada a presença de sopro diastólico (tipo ruflar) - grau 3 de Levine - seguido de esforço pré-sistólico e de ruído de abertura da mitral, e discreta hiperfonese da segunda bulha em área pulmonar. O abdome apresentava-se livre e sem visceromegalias. O edema era mole, frio, indolor, com sinal de Godet presente, e observado nos dois terços inferiores de ambas as pernas. Foi realizado eletrocardiograma (ECG) de 12 derivações. Considerando esse caso clínico, julgue o item subsecutivo. O principal diagnóstico dessa paciente é estenose mitral pura.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Hiperfonese de B1, sopro em ruflar diastólico com reforço pré-sistólico e estalido de abertura, sem descrição de sopro sistólico regurgitativo associado, junto ao antecedente de amigdalites de repetição (febre reumática) e sinais de hipertensão pulmonar/congestão direita (impulsão paraesternal, edema, hiperfonese de P2), confirmam o diagnóstico de estenose mitral pura (sem lesão associada significativa).",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_034",
+      "statement": "Um homem de 75 anos se queixa de dispneia e dor torácica retroesternal ao caminhar uma quadra no plano. Nega ortopneia, dispneia paroxística noturna ou tosse. É hipertenso e faz uso de enalapril. Ao exame físico, a ausculta respiratória e o exame do abdômen resultaram normais. O exame cardiovascular revelou ritmo regular, hipofonese da segunda bulha, desdobramento paradoxal da segunda bulha, quarta bulha, sopro mesossistólico, áspero, grau III, mais intenso no segundo espaço intercostal direito paraesternal, irradiando para o pescoço e para a ponta do coração. O pulso carotídeo é de pequena amplitude e de pico tardio em relação ao ictus cordis. Considerando o caso descrito, quanto ao diagnóstico MAIS provável, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O risco de morte súbita é elevado e reduz após o tratamento cirúrgico."
+        },
+        {
+          "key": "b",
+          "text": "A palpação do ictus cordis provavelmente revelaria aumento da área e desvio para a esquerda."
+        },
+        {
+          "key": "c",
+          "text": "O diagnóstico pode ser estabelecido pelo eletrocardiograma."
+        },
+        {
+          "key": "d",
+          "text": "A insuficiência cardíaca congestiva com fração de ejeção reduzida é manifestação precoce."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "No quadro de estenose aórtica grave sintomática (hipofonese/desdobramento paradoxal de B2, B4, sopro ejetivo, pulso parvus et tardus), o risco de morte súbita é elevado e se reduz significativamente após a troca valvar — a troca cirúrgica é indicação Classe I nesses casos.",
+      "theme": "cardio_semiologia",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_035",
+      "statement": "Mulher, 46 anos, é atendida em Unidade Básica de Saúde com história de dispneia progressiva há 8 meses, no momento aos médios esforços. Antecedente pessoal: febre reumática. Exame físico: FC = 88 bpm, PA = 116 X 68 mmHg. Pulmões: murmúrio vesicular presente e simétrico, estertores crepitantes nas bases. Coração: ritmo cardíaco regular e sopro, representado graficamente ocupando a diástole (entre a 2ª e a 1ª bulha seguinte), em formato de rolar. O achado ecocardiográfico esperado é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hipertrofia excêntrica do ventrículo esquerdo."
+        },
+        {
+          "key": "b",
+          "text": "Hipertrofia concêntrica do ventrículo esquerdo."
+        },
+        {
+          "key": "c",
+          "text": "Dilatação atrial esquerda."
+        },
+        {
+          "key": "d",
+          "text": "Dilatação atrial direita."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O sopro representado graficamente ocupa o intervalo diastólico (entre B2 e a B1 seguinte), compatível com o ruflar diastólico da estenose mitral em paciente com antecedente de febre reumática — a sobrecarga de pressão crônica sobre o átrio esquerdo a montante da valva estenótica leva à sua dilatação.",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_036",
+      "statement": "Mulher, 62 anos, queixa-se de fadiga aos esforços há 3 meses. Sem outras queixas. Exame físico: FC = 89 bpm, PA = 100 x 64 mmHg, ritmo cardíaco regular, desdobramento de B2 com hiperfonese do componente pulmonar, sopro holossistólico 3+/6+ mais intenso no 4º espaço intercostal junto à borda esternal esquerda e com aumento da intensidade durante a inspiração (sinal de Rivero-Carvallo). Qual dos traçados de pulso venoso jugular é o mais representativo nesse paciente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Traçado a — pulso venoso jugular normal, com ondas a, c e v de amplitude habitual."
+        },
+        {
+          "key": "b",
+          "text": "Traçado b — onda \"cv\" (sistólica) proeminente, com descenso y rápido e profundo."
+        },
+        {
+          "key": "c",
+          "text": "Traçado c — onda v discretamente aumentada, sem alteração relevante do descenso x."
+        },
+        {
+          "key": "d",
+          "text": "Traçado d — descensos x e y profundos, em padrão \"M\" ou \"W\", sem onda sistólica proeminente."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Sopro holossistólico que aumenta com a inspiração (Rivero-Carvallo) localiza a lesão no foco tricúspide — insuficiência tricúspide. Fisiopatologicamente, o refluxo sistólico de sangue para o átrio direito através da valva incompetente gera uma onda sistólica \"cv\" gigante no pulso venoso jugular, seguida de descenso y rápido e profundo (traçado b), substituindo o padrão normal de a-x-v-y.",
+      "theme": "cardio_semiologia",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_037",
+      "statement": "Um médico, em seu primeiro estágio na enfermaria de cardiologia, é questionado por alunos de semiologia sobre um paciente internado com sopro sistólico \"panfocal\", que gera dificuldade em determinar o foco e a valvopatia de origem. Considerando o quadro clínico desse paciente, a orientação que poderá ajudar os alunos a estabelecer o diagnóstico do tipo de valvopatia é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "as manobras que aumentam a resistência vascular periférica, como a preensão isométrica ou \"Handgrip\", intensificam o sopro da insuficiência mitral e diminuem o da estenose aórtica."
+        },
+        {
+          "key": "b",
+          "text": "a manobra de Valsalva aumenta o sopro da estenose aórtica e diminui o da insuficiência mitral."
+        },
+        {
+          "key": "c",
+          "text": "a manobra da inspiração profunda ou de Rivero-Carvallo ajuda a diferenciar o sopro da insuficiência mitral da insuficiência tricúspide, diminuindo a intensidade do sopro na tricúspide."
+        },
+        {
+          "key": "d",
+          "text": "a intensidade do sopro e da segunda bulha tem boa correlação com a gravidade da estenose aórtica, de modo que quanto maior o sopro e mais hiperfonético é o componente aórtico da B2, maior é a gravidade da estenose."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O handgrip/preensão isométrica aumenta a resistência vascular periférica (pós-carga), o que INTENSIFICA sopros regurgitativos como o da insuficiência mitral (maior gradiente VE-AE) e DIMINUI o sopro ejetivo da estenose aórtica (menor gradiente relativo de ejeção) — manobra útil para diferenciar as duas etiologias em um sopro panfocal.",
+      "theme": "cardio_semiologia",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_038",
+      "statement": "Qual das doenças abaixo cursa mais habitualmente com pulso paradoxal?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Estenose aórtica."
+        },
+        {
+          "key": "b",
+          "text": "Pericardite constritiva."
+        },
+        {
+          "key": "c",
+          "text": "Insuficiência aórtica."
+        },
+        {
+          "key": "d",
+          "text": "Estenose mitral."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O pulso paradoxal (queda inspiratória exagerada > 10 mmHg na pressão sistólica) é classicamente associado ao tamponamento cardíaco, mas também ocorre com frequência na pericardite constritiva, por interdependência ventricular exacerbada dentro do pericárdio rígido — entre as opções, é a doença que mais habitualmente cursa com esse achado.",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_039",
+      "statement": "Um homem de 75 anos, com queixa de dor torácica ao esforço, é examinado. Durante a ausculta cardíaca, um residente ficou em dúvida se o sopro que estava sendo auscultado era realmente compatível com estenose aórtica. Decidiu então pedir que o paciente realizasse uma determinada manobra, que fez com que a intensidade do sopro aumentasse, afirmando, assim, tratar-se de um quadro de estenose aórtica. Qual foi a manobra solicitada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pediu que o paciente agachasse (posição de cócoras)."
+        },
+        {
+          "key": "b",
+          "text": "Manobra de Valsalva."
+        },
+        {
+          "key": "c",
+          "text": "Realização de handgrip (força isométrica, comprimindo algo com as mãos)."
+        },
+        {
+          "key": "d",
+          "text": "Pediu que o paciente ficasse em pé (posição ortostática)."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O agachamento (posição de cócoras) aumenta subitamente o retorno venoso e a pós-carga, aumentando o volume ejetado e, consequentemente, intensificando o sopro ejetivo da estenose aórtica — ao contrário do que ocorre na cardiomiopatia hipertrófica obstrutiva, cujo sopro diminui nessa manobra.",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_040",
+      "statement": "Reforço pré-sistólico na ausculta cardíaca é característico de qual patologia:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Insuficiência aórtica"
+        },
+        {
+          "key": "b",
+          "text": "Insuficiência mitral"
+        },
+        {
+          "key": "c",
+          "text": "Estenose mitral"
+        },
+        {
+          "key": "d",
+          "text": "Insuficiência tricúspide"
+        },
+        {
+          "key": "e",
+          "text": "Estenose aórtica"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O reforço pré-sistólico do sopro em ruflar diastólico decorre da contração atrial impulsionando sangue através da valva mitral estenosada em ritmo sinusal — achado clássico da estenose mitral (desaparece quando há fibrilação atrial).",
+      "theme": "cardio_semiologia",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_041",
+      "statement": "Mediante a análise do traçado eletrocardiográfico de um paciente de 45 anos, do sexo masculino, evidenciando sobrecarga de câmaras direitas, seria lícito esperar qual das seguintes alterações à manometria (pressões aferidas durante cateterismo cardíaco) e à ausculta cardíaca:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pressão sistólica = 190 mmHg no ventrículo esquerdo (VE) e na aorta (AO); hiperfonese do componente aórtico da segunda bulha (B2)."
+        },
+        {
+          "key": "b",
+          "text": "Pressão sistólica = 220 mmHg no ventrículo esquerdo (VE) e na aorta (AO); hipofonese do componente aórtico da segunda bulha (B2)."
+        },
+        {
+          "key": "c",
+          "text": "Pressão sistólica = 26 mmHg no ventrículo direito (VD) e na artéria pulmonar (AP); hipofonese do componente pulmonar da segunda bulha (B2)."
+        },
+        {
+          "key": "d",
+          "text": "Pressão sistólica = 90 mmHg no ventrículo direito (VD) e na artéria pulmonar (AP); hiperfonese do componente pulmonar da segunda bulha (B2)."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "ATENÇÃO: traçado eletrocardiográfico citado no enunciado (fotografia de ECG) não pôde ser lido com segurança na extração do PDF — resposta segue o gabarito oficial da fonte. Sobrecarga de câmaras direitas ao ECG em paciente com hipertensão pulmonar é compatível com elevação da pressão sistólica de VD/AP muito acima do valor normal (~25 mmHg), aqui 90 mmHg, e hiperfonese do componente pulmonar de B2 (fechamento mais vigoroso de uma valva pulmonar sob pressão elevada).",
+      "theme": "cardio_semiologia",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_042",
+      "statement": "Ao realizar a ausculta cardíaca de um paciente, você ausculta o componente pulmonar da segunda bulha (P2) mais intenso que o componente aórtico (A2). Assinale em qual patologia abaixo é esperado esse achado semiótico.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Estenose aórtica"
+        },
+        {
+          "key": "b",
+          "text": "Hipertensão maligna"
+        },
+        {
+          "key": "c",
+          "text": "Tromboembolismo pulmonar"
+        },
+        {
+          "key": "d",
+          "text": "Miocardite aguda"
+        },
+        {
+          "key": "e",
+          "text": "Hipotireoidismo"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A hiperfonese do componente pulmonar de B2 (P2 > A2) reflete hipertensão pulmonar aguda ou crônica; o tromboembolismo pulmonar é causa clássica de elevação súbita da pressão na artéria pulmonar, tornando o fechamento da valva pulmonar mais vigoroso e audível.",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_043",
+      "statement": "O exame físico é uma arte frequentemente negligenciada na cardiologia. Dos diagnósticos que podem ser determinados no exame físico.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a queda superior a 10 mmHg na pressão sistólica com a inspiração (pulso paradoxal) é indicativa de obstrução arterial grave."
+        },
+        {
+          "key": "b",
+          "text": "a ascensão abrupta do pulso carotídeo com queda rápida (pulso martelo d'água) é uma característica de estenose aórtica."
+        },
+        {
+          "key": "c",
+          "text": "a presença de lesões de Janeway (hemorragias indolores nas palmas e solas) e nódulos de Osler (nódulos dolorosos nos dedos dos pés e das mãos) pode ocorrer na endocardite infecciosa."
+        },
+        {
+          "key": "d",
+          "text": "o aumento da intensidade do sopro sistólico audível na borda esternal esquerda, durante a inspiração profunda (manobra de Rivero Carvallo), é uma característica de insuficiência mitral."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Lesões de Janeway (máculas indolores em palmas/solas, de origem embólica) e nódulos de Osler (nódulos dolorosos em polpas digitais, de origem imunológica) são estigmas clássicos de endocardite infecciosa. As demais alternativas estão incorretas: pulso paradoxal indica tamponamento/pericardite constritiva (não obstrução arterial); pulso em martelo d'água é da insuficiência (não estenose) aórtica; e o sinal de Rivero-Carvallo é característico de insuficiência tricúspide (não mitral).",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_044",
+      "statement": "A presença de \"sopro em maquinaria\" à ausculta de trajeto vascular é característica de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Estenose de artéria carotídea."
+        },
+        {
+          "key": "b",
+          "text": "Aneurisma dissecante de aorta torácica."
+        },
+        {
+          "key": "c",
+          "text": "Pseudoaneurisma."
+        },
+        {
+          "key": "d",
+          "text": "Fístula arteriovenosa."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O sopro contínuo em maquinaria, audível tanto na sístole quanto na diástole sobre um trajeto vascular periférico (fora do precórdio), é característico de fístula arteriovenosa, pela comunicação direta e contínua entre um sistema de alta e baixa pressão.",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_045",
+      "statement": "O sopro de Carey Coombs está presente em qual patologia?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Insuficiência pulmonar."
+        },
+        {
+          "key": "b",
+          "text": "Doença reumática em atividade."
+        },
+        {
+          "key": "c",
+          "text": "Endocardite infecciosa."
+        },
+        {
+          "key": "d",
+          "text": "Insuficiência aórtica."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O sopro de Carey Coombs é um sopro mesodiastólico curto, suave, audível no foco mitral durante a valvulite ativa da febre reumática (carditia reumática em atividade), decorrente do espessamento inflamatório dos folhetos mitrais, e não de estenose mitral estrutural estabelecida.",
+      "theme": "cardio_semiologia",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_046",
+      "statement": "Uma mulher de 20 anos de idade é avaliada antes de uma viagem de aventura. A paciente é assintomática. O exame físico é normal, com exceção de um sopro sistólico apical, que aumenta de duração em ortostatismo e com manobra de Valsalva. O eletrocardiograma é normal. Qual é o diagnóstico mais provável para o achado clínico?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Defeito de septo atrial."
+        },
+        {
+          "key": "b",
+          "text": "Prolapso valvar mitral."
+        },
+        {
+          "key": "c",
+          "text": "Estenose pulmonar."
+        },
+        {
+          "key": "d",
+          "text": "Defeito de septo ventricular."
+        },
+        {
+          "key": "e",
+          "text": "Persistência do duto arterioso."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O sopro sistólico apical (associado a clique meso/telessistólico, embora não mencionado explicitamente) que aumenta em duração/intensidade com manobras que reduzem o volume ventricular (ortostatismo, Valsalva) — pois antecipam o prolapso — é característico do prolapso da valva mitral.",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_047",
+      "statement": "Homem, 33 anos, assintomático, procura atendimento médico para realização de atividade física em academia. Nega hipertensão, diabetes mellitus, dislipidemia e tabagismo. Pai faleceu aos 39 anos de idade por morte súbita. Exame físico: FC = 72 bpm; PA = 130 x 80 mmHg; ritmo cardíaco regular; bulhas normofonéticas; sopro mesossistólico 3+/6+ em borda esternal esquerda média, cuja intensidade diminui com o agachamento e aumenta com a posição ortostática. O eletrocardiograma mostra critérios de sobrecarga ventricular esquerda com alterações difusas da repolarização. Qual é a hipótese diagnóstica mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Coarctação da aorta."
+        },
+        {
+          "key": "b",
+          "text": "Cardiomiopatia hipertrófica."
+        },
+        {
+          "key": "c",
+          "text": "Displasia arritmogênica do ventrículo direito."
+        },
+        {
+          "key": "d",
+          "text": "Estenose aórtica."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "ATENÇÃO: eletrocardiograma referido no enunciado (fotografia) não pôde ser lido com detalhe fino na extração do PDF. Homem jovem assintomático, história familiar de morte súbita precoce, e sopro que se comporta de forma DINÂMICA — diminui com agachamento (aumento de pré-carga/pós-carga reduz a obstrução dinâmica) e aumenta em ortostatismo (reduz pré-carga, piora a obstrução) — é o padrão clássico da cardiomiopatia hipertrófica obstrutiva, diferente do sopro da estenose aórtica (fixo, que sempre aumenta com manobras que aumentam o débito).",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_048",
+      "statement": "Durante a ausculta cardíaca de um paciente, um residente ficou em dúvida se o sopro que estava sendo auscultado era realmente compatível com estenose aórtica. Decidiu então pedir que o paciente realizasse uma determinada manobra, que fez com que a intensidade do sopro aumentasse, afirmando, assim, tratar-se de um quadro de estenose aórtica. Qual foi a manobra solicitada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pediu que o paciente agachasse (posição de cócoras)."
+        },
+        {
+          "key": "b",
+          "text": "Manobra de Valsalva."
+        },
+        {
+          "key": "c",
+          "text": "Realização de handgrip (força isométrica, comprimindo algo com as mãos)."
+        },
+        {
+          "key": "d",
+          "text": "Pediu que o paciente ficasse em pé (posição ortostática)."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O agachamento (cócoras) aumenta o retorno venoso e a pós-carga, aumentando o volume ejetado pelo VE e intensificando o sopro ejetivo da estenose aórtica.",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_049",
+      "statement": "A alternativa em que se registra achado semiótico frequentemente encontrado no infarto agudo do miocárdio é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "B4."
+        },
+        {
+          "key": "b",
+          "text": "Desdobramento paradoxal de B2."
+        },
+        {
+          "key": "c",
+          "text": "Ruflar diastólico mitral."
+        },
+        {
+          "key": "d",
+          "text": "Click aórtico."
+        },
+        {
+          "key": "e",
+          "text": "Onda \"v\" aumentada no pulso venoso jugular."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A quarta bulha (B4), gerada pela contração atrial impulsionando sangue contra um ventrículo esquerdo com complacência reduzida (rígido/isquêmico), é um achado semiológico frequente e precoce no infarto agudo do miocárdio.",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_050",
+      "statement": "JSP de 68 anos apresenta-se no ambulatório com queixa de piora de dispneia aos esforços há várias semanas. Antes, ele era capaz de trabalhar no seu jardim e aparar a grama, mas agora sente fadiga depois de andar 30 m. Nega dor torácica ao deambular, embora no passado refira ter sofrido episódios de desmaiar, quando subia um lance de escada, mas a sensação passou ao repousar. Ultimamente, tem apresentado desconforto ao dormir, necessitando se apoiar em três travesseiros. Às vezes, acorda à noite com dispneia, com melhora ao sentar-se com as pernas fora da cama. Também notou edema em seus pés ao final do dia. Ele nega outros antecedentes. Refere tabagismo por 2 anos, iniciado aos 18 com o consumo de 8 cigarros ao dia, em média. Refere etilismo social. No momento do exame físico, está afebril, com frequência cardíaca de 96 bpm, pressão arterial de 145/92 mmHg e frequência respiratória de 15 IRPM. O exame da cabeça e do pescoço: mucosas normocoradas, sem palidez, glândula tireoide inalterada e jugulares distendidas. Ausculta regular, com B1 normal, desdobramento de B2 durante a expiração, B4 no foco mitral, íctus sem deslocamento e sopro telessistólico na borda superior direita do esterno que se irradia para as carótidas. O pulso carotídeo tem amplitude diminuída. A respeito do caso, o diagnóstico mais provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Insuficiência cardíaca congestiva com componente isquêmico prévio."
+        },
+        {
+          "key": "b",
+          "text": "Insuficiência cardíaca congestiva desencadeada por endocardite."
+        },
+        {
+          "key": "c",
+          "text": "Cor Pulmonale."
+        },
+        {
+          "key": "d",
+          "text": "Insuficiência cardíaca congestiva possivelmente resultante de estenose aórtica."
+        },
+        {
+          "key": "e",
+          "text": "Infarto agudo do Miocárdico em parede anterior."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Dispneia progressiva, ortopneia, dispneia paroxística noturna, síncope de esforço prévia, sopro sistólico irradiado para carótidas e pulso carotídeo de amplitude diminuída (parvus) compõem o quadro de insuficiência cardíaca congestiva secundária a estenose aórtica grave não tratada.",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_051",
+      "statement": "Estabeleça a correlação entre as duas colunas abaixo quanto aos achados no exame cardiovascular e suas possíveis causas e assinale a alternativa CORRETA: COLUNA 1: I - Pulso Parvus et tardus; II - Pulso Bisferiens; III - Desdobramento de B1; IV - Desdobramento amplo de B2; V - Sopro Telessistólico; VI - Ruflar Diastólico; VII - Atrito pericárdico. COLUNA 2: ( ) Estenose mitral ou tricúspide; ( ) Bloqueio de ramo direito; ( ) Prolapso de valva mitral; ( ) Pericardite ou infarto agudo do miocárdio; ( ) Insuficiência aórtica grave, miocardiopatia hipertrófica; ( ) Estenose pulmonar, bloqueio de ramo direito, insuficiência mitral; ( ) Insuficiência cardíaca, hipovolemia, estenose aórtica.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "V-II-IV-III-I-VI-VII."
+        },
+        {
+          "key": "b",
+          "text": "VI-II-V-VII-III-I-IV."
+        },
+        {
+          "key": "c",
+          "text": "VI-III-VII-V-II-IV-I."
+        },
+        {
+          "key": "d",
+          "text": "VI-III-V-II-VII-I-IV."
+        },
+        {
+          "key": "e",
+          "text": "VI-III-V-VII-II-IV-I."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Sequência correta: VI (ruflar diastólico) - estenose mitral/tricúspide; III (desdobramento de B1) - bloqueio de ramo direito; V (sopro telessistólico) - prolapso de valva mitral; VII (atrito pericárdico) - pericardite/IAM; II (pulso bisferiens) - insuficiência aórtica grave/CMH; IV (desdobramento amplo de B2) - estenose pulmonar/BRD/IM; I (pulso parvus et tardus) - ICC, hipovolemia, estenose aórtica.",
+      "theme": "cardio_semiologia",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_052",
+      "statement": "Correlacione achado da semiologia cardiovascular com laudos de ECG. a – Ritmo cardíaco irregular, com variações de fonese de primeira bulha; b - Desdobramento de B2 na expiração em foco pulmonar; c - Desdobramento de B2 na inspiração em foco pulmonar; d – Hipofonese de B1. 1 – Bloqueio de ramo direito; 2 – Bloqueio de ramo esquerdo; 3 – Normal; 4 – Fibrilação atrial; 5 – Taquicardia atrial multifocal; 6 – Bloqueio Atrio-ventricular de 1º grau. Assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "4A, 2C, 6D"
+        },
+        {
+          "key": "b",
+          "text": "4D, 2B, 3C"
+        },
+        {
+          "key": "c",
+          "text": "5A, 1B, 6D"
+        },
+        {
+          "key": "d",
+          "text": "5D, 3B, 6A"
+        },
+        {
+          "key": "e",
+          "text": "2B, 3B, 4D"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Correlação correta: a (ritmo irregular com fonese variável de B1) associa-se a fibrilação atrial (4); d (hipofonese de B1) associa-se a bloqueio AV de 1º grau (o intervalo PR prolongado faz a valva mitral já estar quase fechada ao início da sístole, reduzindo a intensidade de B1); b (desdobramento na expiração) é um achado anormal (desdobramento paradoxal), compatível com bloqueio de ramo esquerdo (2), pela ativação/ejeção retardada do VE.",
+      "theme": "cardio_semiologia",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_053",
+      "statement": "Mulher de 21 anos, assintomática, com sopro mesossistólico audível no 2° espaço intercostal esquerdo, irradiando para a região infraescapular ipsilateral, em crescendo-decrescendo, grau II, além de movimento paraesternal inferior esquerdo de grande amplitude, pulsação no 2° espaço intercostal esquerdo e desdobramento fixo da segunda bulha. Considerando o caso descrito, assinale a alternativa CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Esses achados são fisiológicos nessa faixa etária."
+        },
+        {
+          "key": "b",
+          "text": "O sopro auscultado se deve ao hiperfluxo na valva pulmonar."
+        },
+        {
+          "key": "c",
+          "text": "A primeira bulha cardíaca, geralmente, é hipofonética."
+        },
+        {
+          "key": "d",
+          "text": "A estenose pulmonar congênita é a principal hipótese."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Movimento paraesternal hiperdinâmico de VD, desdobramento fixo de B2 e sopro sistólico ejetivo no foco pulmonar são o quadro clássico de comunicação interatrial (CIA); o sopro decorre do hiperfluxo funcional através da valva pulmonar (não de estenose pulmonar orgânica, que teria B1 preservada e não é achado fisiológico da idade).",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_054",
+      "statement": "Reproduz-se o traçado eletrocardiográfico (derivação V6) de um paciente de 60 anos, evidenciando complexo QRS alargado com padrão sugestivo de bloqueio de ramo esquerdo. Se tratando desse paciente, assinale a alternativa ERRADA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Se houver insuficiência cardíaca refratária ao tratamento medicamentoso, esse paciente pode beneficiar-se com a terapia de ressincronização ventricular."
+        },
+        {
+          "key": "b",
+          "text": "Em face desse traçado eletrocardiográfico, há grande probabilidade de que esse paciente seja cardiopata, visto que a alteração que ali se detecta é incomum em pacientes sem evidências de cardiopatia."
+        },
+        {
+          "key": "c",
+          "text": "À ausculta cardíaca, espera-se encontrar desdobramento inspiratório da segunda bulha."
+        },
+        {
+          "key": "d",
+          "text": "O ecodopplercardiograma do paciente deve revelar movimentação anômala do septo interventricular."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "No bloqueio de ramo esquerdo, a ativação/ejeção do VE é atrasada, fazendo com que o componente aórtico de B2 ocorra DEPOIS do pulmonar mesmo na expiração, e na inspiração os dois componentes se aproximam (desdobramento PARADOXAL, que se estreita na inspiração) — o oposto do desdobramento fisiológico inspiratório normal, tornando a alternativa C a afirmação ERRADA (resposta pedida pela questão).",
+      "theme": "cardio_semiologia",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_055",
+      "statement": "L. A. P., 42 anos de idade, bancário, comparece ao ambulatório de clínica médica para avaliação. Ele relata ao médico residente que passa por quadro de dispneia, ortopneia, dispneia paroxística noturna e rouquidão há três anos, com piora recente, inclusive com um episódio hemoptoico. Aponta ainda que apresentou dois episódios de síncope no trabalho, após intensa angústia, sudorese fria e tremores em extremidades superiores. Clinicamente, apresenta discreto edema em membros inferiores. O exame do aparelho respiratório encontra-se dentro dos parâmetros de normalidade. O aparelho cardiovascular apresenta ritmo irregular, percebendo-se ruflar diastólico após estalido de abertura e B1 e P1 hiperfonéticas. Com base nesse caso e nos exames complementares, assinale a alternativa que indica o quadro do paciente.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Estenose aórtica; eletrocardiograma esboça aumento atrial esquerdo e hipertrofia ventricular esquerda; ecocardiograma com hipertrofia ventricular esquerda concêntrica, separação reduzida das cúspides da valva aórtica e Doppler mostrando gradiente acentuado nos casos graves"
+        },
+        {
+          "key": "b",
+          "text": "Insuficiência mitral; eletrocardiograma esboça aumento atrial esquerdo e hipertrofia ventricular esquerda; ecocardiograma com aumento de ventrículo esquerdo, hipertrofia ventricular esquerda e Doppler com grande jato regurgitante"
+        },
+        {
+          "key": "c",
+          "text": "Estenose mitral; eletrocardiograma esboça aumento atrial esquerdo e hipertrofia ventricular direita; ecocardiograma com movimento restrito dos folhetos de valva mitral e Doppler tricúspide pode revelar hipertensão pulmonar"
+        },
+        {
+          "key": "d",
+          "text": "Insuficiência aórtica; eletrocardiograma esboça aumento atrial esquerdo e hipertrofia ventricular esquerda; ecocardiograma mostra, para os casos crônicos, grande aumento de ventrículo esquerdo e, para os agudos, ventrículo esquerdo pequeno e pré-fechamento de válvula mitral"
+        },
+        {
+          "key": "e",
+          "text": "Insuficiência pulmonar; eletrocardiograma esboça aumento atrial direito e hipertrofia ventricular direita; ecocardiograma mostra, para os casos crônicos, grande aumento de ventrículo direito e, para os agudos, ventrículo direito pequeno e pré-fechamento de válvula tricúspide"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Ruflar diastólico após estalido de abertura, com hiperfonese de B1 e P1 (esta última por hipertensão pulmonar secundária), ritmo irregular (fibrilação atrial), rouquidão (síndrome de Ortner por compressão do nervo laríngeo recorrente pelo átrio esquerdo dilatado) e hemoptise, compõem o quadro clássico de estenose mitral com hipertensão pulmonar e sobrecarga de VD.",
+      "theme": "cardio_semiologia",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_056",
+      "statement": "Uma mulher de 42 anos, assintomática, tem os seguintes achados de exame físico e exames complementares: aparelho cardiovascular: ventrículo direito palpável, sopro sistólico audível na borda esternal esquerda alta e desdobramento fixo da 2ª bulha; radiografia de tórax: aumento do ventrículo direito e hiperfluxo pulmonar; ECG: padrão de bloqueio do ramo direito. O diagnóstico mais provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "persistência de canal arterial"
+        },
+        {
+          "key": "b",
+          "text": "comunicação interventricular"
+        },
+        {
+          "key": "c",
+          "text": "comunicação interatrial"
+        },
+        {
+          "key": "d",
+          "text": "hipertensão arterial pulmonar"
+        },
+        {
+          "key": "e",
+          "text": "nenhuma das anteriores"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "VD palpável (hiperdinâmico), sopro sistólico em borda esternal esquerda alta (foco pulmonar), desdobramento fixo de B2, hiperfluxo pulmonar ao RX e padrão de bloqueio de ramo direito (sobrecarga de VD) ao ECG compõem o quadro clássico de comunicação interatrial diagnosticada na vida adulta.",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_057",
+      "statement": "Paciente feminina de 32 anos é atendida no ambulatório, queixando-se de dispneia aos médios esforços. Ao exame, constatou-se os seguintes achados: B1 palpável e frêmito diastólico no ictus cordis; ruflar diastólico, com reforço pré-sistólico no foco mitral. Assinale a melhor opção diagnóstica:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Estenose mitral/febre reumática aguda."
+        },
+        {
+          "key": "b",
+          "text": "Estenose mitral/valvopatia reumática crônica."
+        },
+        {
+          "key": "c",
+          "text": "Estenose mitral/congênita."
+        },
+        {
+          "key": "d",
+          "text": "Estenose mitral/valvulite lúpica."
+        },
+        {
+          "key": "e",
+          "text": "Insuficiência mitral/prolapso de valva mitral."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "B1 palpável (hiperfonética) com frêmito diastólico e ruflar diastólico com reforço pré-sistólico no foco mitral são achados clássicos de estenose mitral; a etiologia mais prevalente para esse quadro crônico é a valvopatia reumática crônica.",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_058",
+      "statement": "Um paciente com estenose da válvula mitral costuma apresentar ao exame do precórdio:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Clique de ejeção."
+        },
+        {
+          "key": "b",
+          "text": "Hiperfonese da primeira bulha."
+        },
+        {
+          "key": "c",
+          "text": "Desvio do ictus para a esquerda."
+        },
+        {
+          "key": "d",
+          "text": "Desdobramento paradoxal da segunda bulha."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Na estenose mitral, a B1 é tipicamente hiperfonética, pois a valva mitral permanece amplamente aberta ao final da diástole (pelo gradiente pressórico persistente) e se fecha abruptamente com grande excursão no início da sístole.",
+      "theme": "cardio_semiologia",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_059",
+      "statement": "Assimetria de pulsações arteriais em extremidades superiores são comumente encontradas em cada um dos seguintes distúrbios, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dissecção aórtica."
+        },
+        {
+          "key": "b",
+          "text": "Doença de Takayasu."
+        },
+        {
+          "key": "c",
+          "text": "Estenose aórtica supravalvar."
+        },
+        {
+          "key": "d",
+          "text": "Aterosclerose de artéria subclávia."
+        },
+        {
+          "key": "e",
+          "text": "Estenose aórtica subvalvar."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A estenose aórtica SUBvalvar (obstrução abaixo da valva, geralmente por membrana ou rodete fibromuscular) não costuma causar assimetria de pulsos entre os membros, pois a obstrução é proximal e simétrica em relação a todos os grandes vasos; já a estenose SUPRAvalvar (associada à síndrome de Williams) pode acometer seletivamente ramos arteriais, assim como dissecção, Takayasu e aterosclerose subclávia.",
+      "theme": "cardio_semiologia",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_060",
+      "statement": "Paciente de 17 anos apresenta queixa de dispneia aos esforços habituais, há quatro meses, e um episódio de síncope sem sintomas premonitórios durante esforço físico, na última semana. Ao exame físico, apresenta ritmo cardíaco regular com sopro sistólico em borda esternal esquerda 2+/6+, que aumenta durante a manobra de Valsalva e diminui com a posição de cócoras. A hipótese diagnóstica mais provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Comunicação interventricular."
+        },
+        {
+          "key": "b",
+          "text": "Miocardiopatia hipertrófica."
+        },
+        {
+          "key": "c",
+          "text": "Estenose aórtica."
+        },
+        {
+          "key": "d",
+          "text": "Estenose pulmonar."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Adolescente com síncope de esforço sem pródromos e sopro que AUMENTA com Valsalva (reduz pré-carga, piorando a obstrução dinâmica) e DIMINUI com cócoras (aumenta pré/pós-carga, reduzindo a obstrução) é o comportamento clássico do sopro da cardiomiopatia hipertrófica obstrutiva — padrão inverso ao da estenose aórtica fixa.",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_061",
+      "statement": "Em relação aos sopros cardíacos assinale a alternativa INCORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Os sopros causados por fluxo de sangue através de valvas normais ou obstruídas ficam mais baixos com o exercício isotônico e isométrico"
+        },
+        {
+          "key": "b",
+          "text": "A maioria dos sopros diminui em intensidade e duração com a manobra de Valsalva, sendo uma das exceções o sopro do prolapso da valva mitral."
+        },
+        {
+          "key": "c",
+          "text": "Os sopros do lado direito geralmente aumentam com a inspiração e os sopros do lado esquerdo geralmente aumentam durante a expiração."
+        },
+        {
+          "key": "d",
+          "text": "Sopros originados em valvas normais ou semilunares estenóticas aumentam de intensidade durante o ciclo cardíaco após um batimento ventricular prematuro ou em um batimento após um longo ciclo na fibrilação atrial."
+        },
+        {
+          "key": "e",
+          "text": "A maioria dos sopros diminui na posição ortostática, sendo uma das exceções o sopro do prolapso da valva mitral."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A alternativa A está INCORRETA: sopros de fluxo através de valvas normais ou estenóticas geralmente AUMENTAM (não diminuem) com o exercício isotônico e isométrico, pois há aumento do débito cardíaco e do fluxo transvalvar. As demais alternativas (Valsalva, respiração, potencialização pós-extrassístole, ortostatismo) descrevem corretamente a fisiologia clássica dos sopros.",
+      "theme": "cardio_semiologia",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_062",
+      "statement": "Paciente do sexo masculino, 40 anos, está internado com quadro de dispneia progressiva, com piora nos últimos trinta dias, o que obrigou o paciente a parar as suas atividades habituais. Ao exame: taquipneico, corado, afebril. Dados vitais: pressão arterial de 120 x 80 mmHg, frequência cardíaca de 110 bpm, frequência respiratória de 26 irpm e saturação com oxigênio 2 L/min de 94%. Nota-se evidente ingurgitamento de jugulares (bilateral), com o paciente sentado. Estertores finos em bases pulmonares. O ictus cordis encontra-se no quinto espaço intercostal e na linha hemiclavicular esquerda. Nota-se ritmo de fibrilação atrial, com hiperfonese da segunda bulha. Nota-se também, no foco mitral, sopro diastólico, em ruflar, sem irradiação. No foco tricúspide, sopro sistólico, ++/VI, que aumenta durante a inspiração. Sobre o exame físico desse paciente, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Na avaliação do pulso venoso jugular notam-se ondas \"a\" amplas."
+        },
+        {
+          "key": "b",
+          "text": "Na avaliação do pulso venoso jugular notam-se ondas \"v\" pequenas."
+        },
+        {
+          "key": "c",
+          "text": "A presença de sopro sistólico representa dupla lesão mitral."
+        },
+        {
+          "key": "d",
+          "text": "Não ocorre reforço pré-sistólico no sopro diastólico desse paciente."
+        },
+        {
+          "key": "e",
+          "text": "Espera-se encontrar dilatação ventricular esquerda."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O paciente apresenta estenose mitral (ruflar diastólico) associada a insuficiência tricúspide secundária (sopro sistólico que aumenta com Rivero-Carvallo) e fibrilação atrial. Como o ritmo é de FA (sem contração atrial coordenada), não há reforço pré-sistólico no sopro diastólico da estenose mitral — esse achado só ocorre em ritmo sinusal. A onda \"a\" também está ausente em FA (não amplificada), e o sopro sistólico é de foco TRICÚSPIDE, não mitral (não configura dupla lesão mitral).",
+      "theme": "cardio_semiologia",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_063",
+      "statement": "Conforme figuras com as áreas tradicionais de ausculta cardíaca (Figura 1 — foco mitral/ápice; Figura 2 — foco aórtico, 2º EIC direito; Figura 3 — foco tricúspide, borda esternal esquerda inferior; Figura 4 — foco pulmonar/aórtico acessório, borda esternal esquerda superior), relacione as descrições das opções e escolha a alternativa com a sequência CORRETA: [ ] Área melhor para ouvir os sopros de estenose ou regurgitação tricúspide, regurgitação pulmonar e comunicação interventricular; [ ] Área na qual é mais audível o sopro da insuficiência tricúspide; [ ] Área melhor para ausculta dos sopros de estenose e insuficiência aórtica e daqueles do aumento do fluxo aórtico, da dilatação da aorta ascendente e das alterações das artérias carótidas ou subclávias; [ ] Área na qual o sopro característico da regurgitação mitral é melhor auscultado.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "II, III, I e IV."
+        },
+        {
+          "key": "b",
+          "text": "III, II, I e IV."
+        },
+        {
+          "key": "c",
+          "text": "I, III, IV e II."
+        },
+        {
+          "key": "d",
+          "text": "IV, I, II e III."
+        },
+        {
+          "key": "e",
+          "text": "As alternativas acima estão incorretas."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Sequência: III (foco tricúspide) para sopros de estenose/regurgitação tricúspide, regurgitação pulmonar e CIV; II (foco aórtico) para a insuficiência tricúspide (na verdade classicamente mais audível na borda esternal esquerda baixa, próxima ao foco tricúspide/aórtico acessório conforme o gabarito oficial); I (Figura 1, foco mitral) para os sopros de estenose/insuficiência aórtica conforme correlação oficial da banca; IV (foco pulmonar) para a regurgitação mitral — sequência III, II, I, IV corresponde ao gabarito oficial da questão.",
+      "theme": "cardio_semiologia",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_064",
+      "statement": "Associe as colunas e escolha a alternativa com a sequência CORRETA sobre origem das bulhas cardíacas: [ I ] Primeira bulha; [ II ] Segunda bulha; [ III ] Terceira bulha; [ IV ] Quarta bulha; ( ) Resultado do enchimento rápido do ventrículo esquerdo, seguindo a abertura da valva mitral; ( ) Resultado do sangue sendo impulsionado para um ventrículo esquerdo enrijecido e não complacente pela contração atrial; ( ) Resultado do fechamento da valva mitral seguido de perto pelo fechamento da valva tricúspide; ( ) Resultado do fechamento da valva aórtica seguido de perto pelo fechamento da valva pulmonar.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "II, III, I e IV."
+        },
+        {
+          "key": "b",
+          "text": "III, IV, I e II."
+        },
+        {
+          "key": "c",
+          "text": "I, III, IV e II."
+        },
+        {
+          "key": "d",
+          "text": "IV, I, II e III."
+        },
+        {
+          "key": "e",
+          "text": "As alternativas acima estão incorretas."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Sequência correta: III (B3) = enchimento rápido do VE após abertura mitral; IV (B4) = contração atrial contra VE pouco complacente; I (B1) = fechamento mitral seguido do tricúspide; II (B2) = fechamento aórtico seguido do pulmonar — ordem III, IV, I, II.",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_065",
+      "statement": "À ausculta cardíaca, a primeira bulha, em relação ao ciclo cardíaco:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "É um ruído anormal que corresponde ao início da sístole."
+        },
+        {
+          "key": "b",
+          "text": "É um ruído anormal que corresponde ao início da diástole."
+        },
+        {
+          "key": "c",
+          "text": "É um ruído anormal, independente da fase do ciclo cardíaco em que ocorre."
+        },
+        {
+          "key": "d",
+          "text": "Corresponde ao fechamento das valvas aórtica e pulmonar."
+        },
+        {
+          "key": "e",
+          "text": "Corresponde ao fechamento das valvas mitral e tricúspide."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A primeira bulha (B1) é um ruído FISIOLÓGICO (não anormal) que marca o início da sístole ventricular, correspondendo ao fechamento das valvas atrioventriculares — mitral e tricúspide.",
+      "theme": "cardio_semiologia",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_066",
+      "statement": "Ao exame físico, a detecção de sopro sistólico suave em foco pulmonar e desdobramento fixo da segunda bulha são achados importantes para o diagnóstico de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Comunicação interatrial."
+        },
+        {
+          "key": "b",
+          "text": "Persistência do canal arterial."
+        },
+        {
+          "key": "c",
+          "text": "Estenose valvar pulmonar."
+        },
+        {
+          "key": "d",
+          "text": "Tetralogia de Fallot."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O desdobramento fixo de B2, junto ao sopro sistólico suave por hiperfluxo em foco pulmonar, é o achado semiológico clássico e mais específico de comunicação interatrial (CIA).",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_067",
+      "statement": "Gestante no curso da 22ª semana, em acompanhamento pré-natal na Unidade Básica de Saúde da Família. Queixa-se de cansaço. O médico, ao realizar ausculta cardíaca, detecta sopro sistólico (meso) em foco mitral, grau 2/6, com intensificação durante a inspiração, sem frêmito. Ante o enunciado, qual o diagnóstico mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Estenose mitral."
+        },
+        {
+          "key": "b",
+          "text": "Dupla lesão mitral."
+        },
+        {
+          "key": "c",
+          "text": "Insuficiência mitral."
+        },
+        {
+          "key": "d",
+          "text": "Achado fisiológico na gravidez."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Sopro sistólico suave (grau 2/6), sem frêmito, mesossistólico, em gestante, é achado comum e fisiológico decorrente do estado hiperdinâmico e do aumento do volume plasmático da gravidez, não indicando valvopatia estrutural.",
+      "theme": "cardio_semiologia",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_068",
+      "statement": "Mulher de 74 anos foi trazida à emergência após queda, com perda transitória de consciência de curta duração, mas sem convulsões ou relaxamento esfincteriano. Familiares relataram que a paciente vinha, há 1 mês, se queixando de desconforto no tórax anterior ao caminhar e subir escadas e de cansaço aos esforços nas últimas semanas. Ao exame físico, mostrava-se lúcida, em bom estado geral, corada, sem déficits motores, com pressão arterial de 148/76 mmHg, frequência cardíaca de 88 bpm e ritmo sinusal ao monitor. A ausculta cardíaca revelou B1 normal, B2 diminuída, com sopro sistólico grau 3 ejetivo irradiado para a fúrcula e carótidas, com lentificação em sua fase ascendente. Os pulmões estavam limpos. Qual o diagnóstico mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Estenose mitral."
+        },
+        {
+          "key": "b",
+          "text": "Estenose aórtica."
+        },
+        {
+          "key": "c",
+          "text": "Estenose de carótidas."
+        },
+        {
+          "key": "d",
+          "text": "Insuficiência tricúspide."
+        },
+        {
+          "key": "e",
+          "text": "Insuficiência aórtica."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Síncope de esforço, angina e sopro sistólico ejetivo irradiado para carótidas com hipofonese de B2 e lentificação do pulso (parvus et tardus) em idosa é o quadro clássico de estenose aórtica.",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_069",
+      "statement": "Mulher, 36 anos, relata ter problema cardíaco desde a adolescência e edema há seis meses. Nega dispneia. Exame físico: edema de membros inferiores, 3+/4+, frio, mole, indolor, simétrico. Exame pulmonar sem alterações. Fígado pulsátil a 4 cm do rebordo costal direito, bordas finas, superfície lisa, discretamente doloroso. A lesão valvar da paciente apresentaria possivelmente qual sopro?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sopro sistólico em foco pulmonar."
+        },
+        {
+          "key": "b",
+          "text": "Sopro sistólico em foco tricúspide."
+        },
+        {
+          "key": "c",
+          "text": "Sopro diastólico em foco pulmonar."
+        },
+        {
+          "key": "d",
+          "text": "Sopro diastólico em foco tricúspide."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Fígado pulsátil (transmissão da onda sistólica regurgitante através das veias hepáticas), edema de membros inferiores e ausência de congestão pulmonar (falência isolada de câmaras direitas) compõem o quadro de insuficiência tricúspide, cujo sopro é sistólico, audível no foco tricúspide.",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "sem_070",
+      "statement": "Quanto à análise clínica de um sopro cardíaco em paciente assintomático de 45 anos, a solicitação imediata de ecocardiograma indica:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sopro pancardíaco."
+        },
+        {
+          "key": "b",
+          "text": "Sopro diastólico."
+        },
+        {
+          "key": "c",
+          "text": "Sopro mesossistólico grau I."
+        },
+        {
+          "key": "d",
+          "text": "Sopro holossistólico II."
+        },
+        {
+          "key": "e",
+          "text": "Sopro telessistólico grau II."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Qualquer sopro DIASTÓLICO é considerado patológico até prova em contrário (nunca é inocente/funcional), sendo indicação de ecocardiograma imediato — diferente de sopros sistólicos suaves e de baixo grau, frequentemente benignos/funcionais.",
+      "theme": "cardio_semiologia",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    }
+  ]
+}
