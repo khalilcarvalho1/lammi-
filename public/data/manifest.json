@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T23:10:13.834Z",
+  "generatedAt": "2026-07-28T00:45:17.618Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,18 +26,20 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 1129,
+  "totalQuestions": 1209,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
     "sca_dac": 65,
     "cardio_arritmias": 100,
     "arr_brady": 27,
-    "mio_amiloide": 10,
-    "cardio_perimio": 72,
+    "mio_amiloide": 12,
+    "mio_dilat": 6,
+    "mio_hipertrof": 14,
+    "cardio_perimio": 129,
     "cardio_has": 100,
     "cardio_ic": 140,
-    "peri_aguda": 16,
+    "peri_aguda": 17,
     "cardio_sca": 120,
     "peri_tampon": 13,
     "cardio_valvopatias": 140,
@@ -147,9 +149,11 @@
       "area": "cardiologia",
       "slug": "cardiomiopatias",
       "themes": [
-        "mio_amiloide"
+        "mio_amiloide",
+        "mio_dilat",
+        "mio_hipertrof"
       ],
-      "questionsCount": 10,
+      "questionsCount": 32,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -277,7 +281,7 @@
       "themes": [
         "cardio_perimio"
       ],
-      "questionsCount": 5,
+      "questionsCount": 62,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -295,7 +299,7 @@
       "themes": [
         "peri_aguda"
       ],
-      "questionsCount": 16,
+      "questionsCount": 17,
       "flashcardsCount": 0,
       "casosCount": 0
     },

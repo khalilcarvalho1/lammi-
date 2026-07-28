@@ -86,6 +86,933 @@
       "source": "EINSTEIN R1 2024",
       "reviewed": false,
       "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_006",
+      "statement": "O coronavírus tem provocado graves complicações ao aparelho respiratório e, em muitos casos, acomete o corpo de maneira sistêmica, levando à falência de outros órgãos, a exemplo do coração. Considerando a arritmia cardíaca e a miocardite no contexto da Covid-19, analise as proposições abaixo e, em seguida, assinale a alternativa CORRETA: I. Apesar do modo de ação dos mecanismos ultraestruturais de ação do vírus ainda não serem concretos, é provável que ele se ligue a um receptor viral nas células do tecido muscular cardíaco, os miócitos, de modo a desencadear a sua internalização e, consequentemente, a replicação das proteínas do capsídeo e do genoma viral no interior destas, o que leva a uma resposta inflamatória exagerada. II. A miocardite tem sido evidenciada a partir de achados patológicos obtidos por meio de autópsias, as quais indicam a presença de células do miocárdio com infiltrados inflamatórios mononucleares intersticiais. Junto a isso, há também casos relatados de miocardite grave com redução da função sistólica em pacientes com Covid-19. III. Entre os pacientes hospitalizados pela Covid-19, estudos evidenciaram alta prevalência de biomarcadores cardíacos, os quais são demasiadamente sugestivos de lesão cardíaca. Porém, os indícios são de que a lesão do miocárdio não esteja relacionada a essa inflamação ou às condições isquêmicas causadas pela infecção.",
+      "alternatives": [
+        {"key": "a", "text": "I, II e III estão corretas."},
+        {"key": "b", "text": "Somente II e III estão corretas."},
+        {"key": "c", "text": "Somente I e III estão corretas."},
+        {"key": "d", "text": "Somente I e II estão corretas."}
+      ],
+      "correct_key": "d",
+      "explanation": "I e II são verdadeiras: o vírus provavelmente invade os miócitos via receptor específico desencadeando resposta inflamatória, e autópsias confirmam infiltrado inflamatório mononuclear intersticial com casos de miocardite grave e disfunção sistólica. III é falsa: as evidências sugerem que a lesão miocárdica em pacientes hospitalizados por COVID-19 está sim relacionada a mecanismos inflamatórios e/ou isquêmicos (desequilíbrio de oferta-demanda, microtrombose, tempestade de citocinas), e não é dissociada desses processos.",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_007",
+      "statement": "Um menino de sete anos de idade foi levado ao pronto-socorro com história de febre baixa e coriza há uma semana. Há dois dias, apresenta cansaço aos pequenos esforços, dor abdominal e palpitações. Ao exame físico, está taquidispneico, gemente, com frequência cardíaca de 154 bpm, pressão arterial normal para a idade, pulsos finos e hepatomegalia. A radiografia torácica mostra cardiomegalia e o eletrocardiograma, inversão da onda T nas derivações precordiais. O ecocardiograma revela aumento de câmaras esquerdas, com disfunção sistólica de ventrículo esquerdo, sem alterações estruturais. Com base nesse caso hipotético, assinale a alternativa correta.",
+      "alternatives": [
+        {"key": "a", "text": "A biópsia endomiocárdica é obrigatória para definir o diagnóstico de miocardite."},
+        {"key": "b", "text": "A troponina I é um marcador diagnóstico sensível e específico."},
+        {"key": "c", "text": "A ressonância magnética cardíaca é o padrão-ouro para avaliar volumes ventriculares, além de demonstrar inflamação e necrose."},
+        {"key": "d", "text": "A epinefrina seria mais segura que o milrinone, por ser menos arritmogênica."},
+        {"key": "e", "text": "Corticosteroides estão contraindicados, pela probabilidade de etiologia infecciosa."}
+      ],
+      "correct_key": "c",
+      "explanation": "A ressonância magnética cardíaca (critérios de Lake Louise) é considerada o padrão-ouro não invasivo na miocardite, permitindo avaliar volumes/função ventricular e caracterizar tecidualmente edema, hiperemia e necrose/fibrose miocárdica. A biópsia não é obrigatória na maioria dos casos; a troponina é sensível mas pouco específica; e o milrinone (inodilatador) é geralmente preferido à epinefrina em choque cardiogênico por miocardite, por ser menos arritmogênico.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_008",
+      "statement": "A Cardiotoxicidade CT tipo I mais comumente se apresenta no primeiro ano do término da quimioterapia, ou ainda até duas a três décadas após completar o tratamento, como disfunção sistólica progressiva. Sendo adequado que:",
+      "alternatives": [
+        {"key": "a", "text": "Raramente pode se apresentar como uma disfunção sistólica aguda, imediatamente antes administração da dose."},
+        {"key": "b", "text": "Não pode se apresentar como uma disfunção sistólica aguda, imediatamente após administração da dose."},
+        {"key": "c", "text": "Raramente pode se apresentar como uma disfunção diastólica aguda, imediatamente após administração da dose."},
+        {"key": "d", "text": "Raramente pode se apresentar como uma disfunção sistólica aguda, imediatamente após administração da dose."}
+      ],
+      "correct_key": "d",
+      "explanation": "A cardiotoxicidade tipo I (clássica das antraciclinas), embora tipicamente se manifeste de forma tardia e progressiva (dose-dependente, cumulativa, com dano estrutural irreversível), pode raramente se apresentar também de forma aguda, com disfunção sistólica logo após a administração da dose.",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_009",
+      "statement": "Jovem, do sexo masculino, dezesseis anos de idade, foi levado ao pronto socorro com quadro de há uma semana estar apresentando febre e dor em joelho direito, no tornozelo direito e no punho esquerdo de caráter migratório. Nos últimos dois dias, começou a ter dispneia ao executar atividades físicas menos intensas que as habituais e ortopneia, e relata sentir há dois dias dor precordial leve e contínua. Exame físico: palidez cutânea, temperatura axilar de 38,2ºC, pressão arterial de 120mmHg x 72 mmHg, frequência cardíaca de 110 bpm, ritmo cardíaco regular e tríplice (por terceira bulha), bulhas hipofonéticas e taquicárdicas, presença de sopro holossistólico, mais bem audível no foco mitral, irradiado para região axilar. Na borda esternal esquerda baixa, foi auscultado atrito pericárdico. Havia estertores pulmonares em terços inferiores de ambos os hemitórax. Abdome livre e sem visceromegalias. O eletrocardiograma (ECG) mostrou taquicardia sinusal, frequência ventricular média de 120 spm, sobrecarga de câmaras esquerdas, extrassístoles ventriculares isoladas e alterações difusas e secundárias da repolarização ventricular. O resultado das hemoculturas colhidas foi negativo. O hemograma evidenciou discreta leucocitose, sem anemia. Observaram-se aceleração da velocidade de hemossedimentação (VHS), elevação dos níveis séricos de antiestreptolisina O e de proteína C reativa. A principal hipótese diagnóstica para esse paciente é:",
+      "alternatives": [
+        {"key": "a", "text": "Miocardite viral."},
+        {"key": "b", "text": "Artrite reumatoide."},
+        {"key": "c", "text": "Endocardite infecciosa."},
+        {"key": "d", "text": "Cardite reumática aguda."},
+        {"key": "e", "text": "Miopericardite bacteriana."}
+      ],
+      "correct_key": "d",
+      "explanation": "Adolescente com poliartrite migratória (joelho, tornozelo, punho) + pancardite (sopro holossistólico de regurgitação mitral, atrito pericárdico, taquicardia desproporcional à febre, sinais de IC) + provas inflamatórias elevadas (VHS, PCR) + ASLO elevada é o quadro clássico de cardite reumática aguda (febre reumática), preenchendo critérios de Jones maiores (poliartrite + cardite).",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_010",
+      "statement": "A doença de Chagas é uma doença infecciosa, cujo agente etiológico é o Trypanosoma cruzi, com fenótipos heterogêneos na apresentação clínica com diversos aspectos, demonstre o item incorreto:",
+      "alternatives": [
+        {"key": "a", "text": "A apresentação clínica variando desde formas subclínicas e/ou sintomas inespecíficos, até a forma fulminante de IC, com grave comprometimento hemodinâmico."},
+        {"key": "b", "text": "O diagnóstico de miocardite ainda constitui desafio na atualidade, entre outras razões, pela homegeinidade da apresentação clínica."},
+        {"key": "c", "text": "No contexto da doença de Chagas, o diagnóstico de miocardite torna-se ainda mais difícil e complexo."},
+        {"key": "d", "text": "A apresentação clínica polimórfica da fase aguda, crônica e nas reativações."}
+      ],
+      "correct_key": "b",
+      "explanation": "É falso afirmar que o diagnóstico de miocardite seja desafiador por 'homogeneidade' da apresentação clínica — pelo contrário, o desafio diagnóstico decorre justamente da grande HETEROGENEIDADE/polimorfismo da apresentação clínica da doença de Chagas (subclínica a fulminante, fase aguda/crônica/reativação), tornando o reconhecimento difícil.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_011",
+      "statement": "A reativação da infecção por T. cruzi clínica tem manifestações cardíacas e extra-cardíacas, incluindo miocardite, disfunção ventricular, arritmias, bloqueios atrioventriculares/intraventriculares novos no ECG, lesões cutâneas (nódulos subcutâneos, paniculite etc.), febre, acometimento de medula óssea ou manifestações neurológicas. Podemos apenas concordar com o item:",
+      "alternatives": [
+        {"key": "a", "text": "A miocardite da reativação pode ser equivocadamente diagnosticada como rejeição do enxerto e tratada com intensificação do tratamento imunossupressor, o que melhora a reativação."},
+        {"key": "b", "text": "A miocardite da reativação não pode ser equivocadamente diagnosticada como rejeição do enxerto e tratada com intensificação do tratamento imunossupressor."},
+        {"key": "c", "text": "A miocardite da reativação pode ser equivocadamente diagnosticada como rejeição do enxerto e tratada com retirada do tratamento imunossupressor, o que agrava a reativação."},
+        {"key": "d", "text": "A miocardite da reativação pode ser equivocadamente diagnosticada como rejeição do enxerto e tratada com intensificação do tratamento imunossupressor, o que agrava a reativação."}
+      ],
+      "correct_key": "d",
+      "explanation": "Em pacientes transplantados chagásicos, a miocardite por reativação pode mimetizar histologicamente rejeição de enxerto. O erro diagnóstico leva à intensificação equivocada da imunossupressão, o que AGRAVA a reativação parasitária (já que a imunossupressão favorece a replicação do T. cruzi), ao invés de melhorá-la.",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_012",
+      "statement": "Miocardite é um processo inflamatório envolvendo o miocárdio e que pode ser causada por infecções ou toxinas. O agente etiológico mais comumente associado é:",
+      "alternatives": [
+        {"key": "a", "text": "Taenia solium"},
+        {"key": "b", "text": "Coxiella burnetii"},
+        {"key": "c", "text": "Trypanosoma cruzi"},
+        {"key": "d", "text": "Haemophilus influenzae"}
+      ],
+      "correct_key": "c",
+      "explanation": "Considerando a epidemiologia mundial (grande carga de doença na América Latina), o Trypanosoma cruzi é apontado como o agente etiológico infeccioso mais comumente associado à miocardite, à frente dos vírus cardiotrópicos citados isoladamente nesta questão.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_013",
+      "statement": "Mulher de 27 anos é admitida na emergência com quadro de edema agudo de pulmão de difícil controle. Há histórico de palpitações intermitentes, com ocorrência variável conforme a postura assumida, além de febre recorrente, emagrecimento e anemia. No exame clínico feito há duas semanas, observaram-se diversas efélides e um ruflar diastólico à ausculta, não precedido de estalido de abertura, em foco mitral. Auscultou-se ainda outro ruído protomesodiastólico, ambos os ruídos observados eram intermitentes sendo mais audíveis em ortostase. O ecocardiograma revela, no átrio esquerdo, uma massa de 4cm de diâmetro, de brilho central heterogêneo, móvel, pedunculada, aderida ao septo interatrial. O diagnóstico mais provável, nesse caso, é:",
+      "alternatives": [
+        {"key": "a", "text": "endocardite de Libman-Sacks"},
+        {"key": "b", "text": "endocardite infecciosa"},
+        {"key": "c", "text": "trombo intracardíaco"},
+        {"key": "d", "text": "mixoma cardíaco"}
+      ],
+      "correct_key": "d",
+      "explanation": "Massa pedunculada móvel aderida ao septo interatrial no átrio esquerdo, com sintomas posicionais (piora em ortostase, variação com a postura), 'tumor plop' (ruído protomesodiastólico) e manifestações constitucionais (febre, emagrecimento, anemia) é o quadro clássico de mixoma cardíaco, o tumor cardíaco primário mais comum em adultos.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_014",
+      "statement": "Mulher, branca, de 64 anos é atendida na UPA, queixando-se de dor torácica com irradiação para o dorso, logo após uma discussão com o esposo. Ao exame físico, estava lúcida, anictérica, acianótica, pálida +/4+ levemente taquipneica. PA: 130x70 mmHg FC 86 bpm e ausculta cardiovascular com ritmo cardíaco regular 3 tempos com bulhas normofonéticas sem sopros. O plantonista desconfia de cardiomiopatia de Takotsubo, pois no ecodoplercardiograma foi observado:",
+      "alternatives": [
+        {"key": "a", "text": "Acinesia do ápice do ventrículo esquerdo."},
+        {"key": "b", "text": "Hipocinesia difusa do ventrículo esquerdo."},
+        {"key": "c", "text": "Hipertrofia concêntrica intensa."},
+        {"key": "d", "text": "Hipertrofia septal assimétrica."}
+      ],
+      "correct_key": "a",
+      "explanation": "Dor torácica precipitada por estresse emocional agudo em mulher idosa, com o achado ecocardiográfico característico de acinesia/discinesia apical do ventrículo esquerdo (padrão de 'balonamento apical'), poupando a base — achado central para o diagnóstico de cardiomiopatia de Takotsubo.",
+      "theme": "cardio_perimio",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_015",
+      "statement": "A miocardite pode resultar de múltiplas causas, mas é mais atribuída a agentes infecciosos capazes de produzir lesão no miocárdio por meio de invasão direta, produção de substâncias cardiotóxicas ou inflamação crônica com ou sem infecção persistente. Sobre a etiologia da miocardite, considere as seguintes afirmativas. 1. Após a entrada do vírus pelas vias respiratórias ou pelo trato gastrointestinal, é possível haver infecção de órgãos que possuam receptores específicos. 2. A maior parte das infecções bacterianas pode envolver o coração, por invasão direta e formação de abscesso. 3. A infecção fúngica ocorre em razão de disseminação hematogênica, entretanto o envolvimento cardíaco raramente domina o quadro clínico destas infecções. 4. A miocardite por doença de Lyme, na maioria dos casos apresenta-se com artrite e doença do sistema de condução. Assinale a resposta correta.",
+      "alternatives": [
+        {"key": "a", "text": "Somente a afirmativa 3 é verdadeira;"},
+        {"key": "b", "text": "Apenas as afirmativas 1 e 2 são verdadeiras;"},
+        {"key": "c", "text": "Apenas as afirmativas 3 e 4 são verdadeiras;"},
+        {"key": "d", "text": "Apenas as afirmativas 1, 2 e 4 são verdadeiras;"},
+        {"key": "e", "text": "As afirmativas 1, 2, 3 e 4 são verdadeiras."}
+      ],
+      "correct_key": "e",
+      "explanation": "Todas as afirmativas são verdadeiras: vírus infectam órgãos com receptores específicos após entrada respiratória/GI (1); infecções bacterianas podem envolver o coração por invasão direta com abscesso, embora seja incomum na maioria dos casos leves (2, considerado correto no contexto amplo de 'pode envolver'); fungos disseminam hematogenicamente com raro predomínio cardíaco do quadro (3); e a doença de Lyme cardíaca classicamente cursa com artrite e distúrbios do sistema de condução, notadamente bloqueio atrioventricular (4).",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_016",
+      "statement": "Qual das seguintes medicações está associada a maior recorrência de miocardite viral?",
+      "alternatives": [
+        {"key": "a", "text": "Corticosteroides."},
+        {"key": "b", "text": "Aspirina."},
+        {"key": "c", "text": "Colchicina."},
+        {"key": "d", "text": "Ibuprofeno."}
+      ],
+      "correct_key": "a",
+      "explanation": "O uso de corticosteroides na fase viral ativa da miocardite pode suprimir a resposta imune antiviral, favorecendo maior replicação viral e associando-se a maior taxa de recorrência/persistência da miocardite, motivo pelo qual seu uso rotineiro não é recomendado nessa fase.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_017",
+      "statement": "Paciente de 40 anos cursou com tosse com expectoração clara, febre de 38° C e mialgia há 3 dias, sendo avaliado em Unidade de Saúde de Família (USF) e tratado com sintomáticos, paracetamol e loratadina. Após 1 semana houve piora do quadro, com dispneia, ortopneia, inapetência, edema de membros inferiores 2+/4, sendo internado para investigação. Hemograma com leucocitose (70% linfócitos e 2% eosinófilos), creatinina 1,2 mg/dl, Na 138 mEq/l, K 3,5 mEq/l, albumina 3.0 g/dl, Urina I com proteínas + / 4+, microalbuminúria 300 mg/24h, anti-DNA negativo. RX de tórax com aumento das câmaras cardíacas e ecocardiograma com hipocinesia difusa, fração de ejeção 25%. Recebeu tratamento clínico com melhora após 2 semanas. Considerando o quadro exposto, qual hipótese mais provável?",
+      "alternatives": [
+        {"key": "a", "text": "Síndrome nefrítica."},
+        {"key": "b", "text": "Síndrome nefrótica."},
+        {"key": "c", "text": "Atividade lúpica."},
+        {"key": "d", "text": "Miocardite viral."},
+        {"key": "e", "text": "Síndrome de Churg-Strauss."}
+      ],
+      "correct_key": "d",
+      "explanation": "Pródromo respiratório viral (tosse, febre, mialgia) evoluindo em uma semana com sinais de insuficiência cardíaca descompensada (dispneia, ortopneia, edema, cardiomegalia radiológica, hipocinesia difusa com FE muito reduzida) e boa resposta ao tratamento clínico de suporte é o quadro clássico de miocardite viral aguda; o anti-DNA negativo afasta lúpus em atividade.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_018",
+      "statement": "Paciente com história de taquicardia ventricular realizou ecocardiograma que evidenciou aumento do ventrículo direito, com anormalidade da parede e formação de aneurisma apical deste ventrículo. Diante da possibilidade de displasia arritmogênica do ventrículo direito, espera-se encontrar as seguintes alterações eletrocardiográficas:",
+      "alternatives": [
+        {"key": "a", "text": "Elevação do segmento ST e onda T apiculada em D1 e aVL."},
+        {"key": "b", "text": "Intervalo PR curto e onda delta no complexo QRS de várias derivações."},
+        {"key": "c", "text": "Aumento do intervalo QT e presença de onda U em algumas derivações."},
+        {"key": "d", "text": "Entalhe terminal do complexo QRS e inversão da onda T em V1, V2 e V3."}
+      ],
+      "correct_key": "d",
+      "explanation": "O achado eletrocardiográfico clássico da displasia arritmogênica do VD é a onda épsilon (entalhe/potencial de baixa amplitude no final do QRS) associada à inversão da onda T nas derivações precordiais direitas (V1-V3), refletindo o atraso de condução e a fibrose fibrogordurosa do VD.",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_019",
+      "statement": "Paciente de 63 anos, sem fatores de risco maiores, internada em unidade de cuidados intensivos especializada com diagnóstico de Síndrome do Coração Partido. O cateterismo cardíaco não demonstrou lesões obstrutivas e os marcadores de necrose foram positivos, com isquemia subepicárdica em parede anterior extensa como achado eletrocardiográfico. Qual das terapias abaixo seria incabível no primeiro atendimento dessa paciente?",
+      "alternatives": [
+        {"key": "a", "text": "Trombólise com tenecteplase."},
+        {"key": "b", "text": "Ácido acetilsalicílico."},
+        {"key": "c", "text": "Ticagrelor."},
+        {"key": "d", "text": "Prasugrel."},
+        {"key": "e", "text": "Enoxaparina."}
+      ],
+      "correct_key": "a",
+      "explanation": "Na cardiomiopatia de Takotsubo ('Síndrome do Coração Partido'), o cateterismo já confirmou ausência de lesões coronarianas obstrutivas — não há, portanto, trombo oclusivo a ser lisado, tornando a trombólise com tenecteplase incabível e potencialmente perigosa (risco hemorrágico sem benefício).",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_020",
+      "statement": "Qual é a localização mais frequente (80-90%) dos mixomas cardíacos (tumor intracardíaco):",
+      "alternatives": [
+        {"key": "a", "text": "Átrio direito."},
+        {"key": "b", "text": "Átrio esquerdo."},
+        {"key": "c", "text": "Ventrículo direito."},
+        {"key": "d", "text": "Ventrículo esquerdo."}
+      ],
+      "correct_key": "b",
+      "explanation": "A grande maioria dos mixomas cardíacos (80-90%) origina-se no átrio esquerdo, tipicamente aderidos à fossa oval do septo interatrial, podendo prolapsar pela valva mitral e causar sintomas obstrutivos posicionais.",
+      "theme": "cardio_perimio",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_021",
+      "statement": "Mulher de 39 anos foi internada em CTI devido a quadro de hemorragia subaracnoide com necessidade de intervenção hemodinâmica e suporte ventilatório invasivo; apresenta episódios intermitentes de taquicardia sinusal e hipertensão arterial, interpretados pelos neurologistas assistentes como disautonomia associada ao quadro neurológico. A tentativa de desmame de prótese ventilatória é fracassada por surgimento de congestão pulmonar. O eletrocardiograma mostra supradesnível do ST em parede anterior e o ecocardiograma revela disfunção sistólica de ventrículo esquerdo, com boa contração basal e aspecto de baloneamento do ápice. Esse quadro clínico é compatível com o diagnóstico de:",
+      "alternatives": [
+        {"key": "a", "text": "miocardite de células gigantes"},
+        {"key": "b", "text": "cardiomiopatia de Takotsubo"},
+        {"key": "c", "text": "infarto agudo do miocárdio"},
+        {"key": "d", "text": "cardiomiopatia de sepse"}
+      ],
+      "correct_key": "b",
+      "explanation": "Hemorragia subaracnoide (gatilho neurogênico clássico, mediado por descarga catecolaminérgica maciça) seguida de disfunção sistólica com padrão de baloneamento apical e boa contração basal é o quadro característico da cardiomiopatia de Takotsubo de etiologia neurogênica.",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_022",
+      "statement": "Várias doenças têm predileção pelo sistema cardíaco de condução. Assinale a EXCEÇÃO:",
+      "alternatives": [
+        {"key": "a", "text": "Doença de Chagas."},
+        {"key": "b", "text": "Sífilis."},
+        {"key": "c", "text": "Amiloidose primária e secundária."},
+        {"key": "d", "text": "Aids."},
+        {"key": "e", "text": "Lúpus eritematoso sistêmico."}
+      ],
+      "correct_key": "a",
+      "explanation": "Sífilis, amiloidose, AIDS e LES são classicamente descritas com acometimento relativamente seletivo/predileção pelo sistema de condução cardíaco. A doença de Chagas, embora cause bloqueios de condução com frequência, acomete o miocárdio de forma mais difusa (miocardite/fibrose ventricular ampla e não seletiva para o tecido de condução), sendo a exceção nesse contexto.",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_023",
+      "statement": "Com respeito a miocardiopatia de Takotsubo ou síndrome do balonamento apical, assinale a alternativa INCORRETA:",
+      "alternatives": [
+        {"key": "a", "text": "Pode simular Infarto do miocárdio."},
+        {"key": "b", "text": "Está relacionada a estresse físico ou emocional súbito e intenso."},
+        {"key": "c", "text": "A disfunção ventricular costuma resolver-se em dias a semanas, sendo como regra doença de bom prognóstico."},
+        {"key": "d", "text": "O ventrículo esquerdo tem dilatação global com contração basal, dando ao ventrículo o formato de pote de pescoço estreito."},
+        {"key": "e", "text": "É uma doença caracteristicamente da população oriental, em especial japonesa, devendo-se pensar em outra etiologia quando o paciente tem outra origem étnica."}
+      ],
+      "correct_key": "e",
+      "explanation": "Embora descrita inicialmente e mais prevalente na população japonesa, a cardiomiopatia de Takotsubo ocorre em todas as etnias e não deve ter seu diagnóstico afastado apenas por origem étnica não oriental, tornando essa afirmativa incorreta.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_024",
+      "statement": "Com respeito a miocardiopatia por doença de Chagas, identifique a alternativa INCORRETA:",
+      "alternatives": [
+        {"key": "a", "text": "A fase aguda da doença é geral incaracterística e passa despercebida."},
+        {"key": "b", "text": "A transmissão do protozoário pode ser na forma oral ou transfusão de sangue."},
+        {"key": "c", "text": "A doença caracteristicamente leva à disfunção sistólica de ventrículo esquerdo, poupando o sistema de condução intraventricular."},
+        {"key": "d", "text": "O tratamento com agentes antiparasitários na fase crônica pode ser considerado, mesmo na ausência de sinais de infecção ativa."},
+        {"key": "e", "text": "Na doença crônica, com aneurismas ventriculares trombogênicos, a anticoagulação pode ser necessária por tempo indeterminado."}
+      ],
+      "correct_key": "c",
+      "explanation": "É falso afirmar que a cardiomiopatia chagásica poupa o sistema de condução intraventricular — pelo contrário, o acometimento do sistema de condução (especialmente bloqueio de ramo direito e bloqueio divisional anterossuperior esquerdo) é um achado característico e frequente da doença.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_025",
+      "statement": "Considerando a morbidade e a mortalidade potencial, o diagnóstico e o manejo apropriado da reativação da doença de Chagas no contexto de transplante de órgãos é extremamente importante. Está CORRETO que:",
+      "alternatives": [
+        {"key": "a", "text": "A doença de Chagas constitui a primeira causa de indicação de transplante cardíaco no Brasil, correspondendo a 35% dos pacientes submetidos ao procedimento."},
+        {"key": "b", "text": "A doença de Chagas constitui a terceira causa de indicação de transplante cardíaco no Brasil, correspondendo a 35% dos pacientes submetidos ao procedimento."},
+        {"key": "c", "text": "A doença de Chagas constitui a terceira causa de indicação de transplante cardíaco no Brasil, correspondendo a 95% dos pacientes submetidos ao procedimento."},
+        {"key": "d", "text": "A doença de Chagas constitui raramente causa de indicação de transplante cardíaco no Brasil, correspondendo a 35% dos pacientes submetidos ao procedimento."}
+      ],
+      "correct_key": "b",
+      "explanation": "No Brasil, a cardiomiopatia chagásica é classicamente descrita como a terceira causa de indicação de transplante cardíaco, respondendo por cerca de 35% dos pacientes transplantados por cardiomiopatia dilatada/insuficiência cardíaca refratária.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_026",
+      "statement": "Paciente que desenvolve Insuficiência Cardíaca - IC devido à Fibrilação atrial - FA, com resposta ventricular rápida (usualmente > 150 bpm), está ADEQUADO apenas que:",
+      "alternatives": [
+        {"key": "a", "text": "Entidade denominada \"taquicardiomiopatia\", de prognóstico mais favorável com a correção da FA."},
+        {"key": "b", "text": "Entidade denominada \"taquicardiomiopatia\", de prognóstico menos favorável com a correção da FA."},
+        {"key": "c", "text": "Entidade não denominada \"taquicardiomiopatia\", de prognóstico mais favorável com a correção da FA."},
+        {"key": "d", "text": "Entidade denominada \"cardiomiopatia\", de prognóstico mais favorável com a correção da FA."}
+      ],
+      "correct_key": "a",
+      "explanation": "A disfunção ventricular secundária à frequência cardíaca cronicamente elevada (como na FA com resposta ventricular rápida sustentada) é denominada taquicardiomiopatia, sendo caracteristicamente REVERSÍVEL — apresentando prognóstico favorável e recuperação da função ventricular após controle adequado da frequência/ritmo.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_027",
+      "statement": "Tratamento farmacológico da insuficiência cardíaca com fração de ejeção reduzida. Uma paciente de 32 anos de idade, G3P2A0, gestação gemelar, idade gestacional (IG) de 32 semanas, procura atendimento em emergência obstétrica por fadiga, dor torácica e palpitações. Refere histórico de pré-eclâmpsia na última gestação. Relata hipertensão arterial sistêmica na gestação atual e nega outras comorbidades. Ao exame físico, encontram-se cardiomegalia, terceira bulha, ritmo irregular e murmúrio de regurgitação mitral. Solicita-se ecocardiografia com Doppler, que documenta aumento das quatro câmaras cardíacas, com redução marcada da função sistólica esquerda. Acerca desse caso clínico, julgue o item a seguir. Vasodilatadores devem ser considerados, sendo a hidralazina um deles.",
+      "alternatives": [
+        {"key": "a", "text": "Certo."},
+        {"key": "b", "text": "Errado."}
+      ],
+      "correct_key": "a",
+      "explanation": "Correto: em gestantes/puérperas com cardiomiopatia periparto e disfunção sistólica, IECA/BRA são contraindicados durante a gestação, sendo a hidralazina (associada a nitrato, se necessário) uma opção segura de vasodilatador para redução de pós-carga nesse contexto.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_028",
+      "statement": "Uma paciente de 32 anos de idade, G3P2A0, gestação gemelar, idade gestacional (IG) de 32 semanas, procura atendimento em emergência obstétrica por fadiga, dor torácica e palpitações. Refere histórico de pré-eclâmpsia na última gestação. Relata hipertensão arterial sistêmica na gestação atual e nega outras comorbidades. Ao exame físico, encontram-se cardiomegalia, terceira bulha, ritmo irregular e murmúrio de regurgitação mitral. Solicita-se ecocardiografia com Doppler, que documenta aumento das quatro câmaras cardíacas, com redução marcada da função sistólica esquerda. Acerca desse caso clínico, julgue o item a seguir. Uso de terapia anticoagulante deve ser considerado, em razão do aumento da incidência de eventos tromboembólicos.",
+      "alternatives": [
+        {"key": "a", "text": "Certo."},
+        {"key": "b", "text": "Errado."}
+      ],
+      "correct_key": "a",
+      "explanation": "Correto: a cardiomiopatia periparto associa-se a estado de hipercoagulabilidade (próprio da gestação/puerpério) somado à disfunção ventricular grave com FE muito reduzida, elevando o risco de eventos tromboembólicos e justificando a consideração de anticoagulação nesses casos.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_029",
+      "statement": "Uma paciente de 32 anos de idade, G3P2A0, gestação gemelar, idade gestacional (IG) de 32 semanas, procura atendimento em emergência obstétrica por fadiga, dor torácica e palpitações. Refere histórico de pré-eclâmpsia na última gestação. Relata hipertensão arterial sistêmica na gestação atual e nega outras comorbidades. Ao exame físico, encontram-se cardiomegalia, terceira bulha, ritmo irregular e murmúrio de regurgitação mitral. Solicita-se ecocardiografia com Doppler, que documenta aumento das quatro câmaras cardíacas, com redução marcada da função sistólica esquerda. Acerca desse caso clínico, julgue o item a seguir. O principal diagnóstico é miocardiopatia periparto.",
+      "alternatives": [
+        {"key": "a", "text": "Certo."},
+        {"key": "b", "text": "Errado."}
+      ],
+      "correct_key": "a",
+      "explanation": "Correto: dispneia, dor torácica, palpitações e disfunção sistólica biventricular de início próximo ao final da gestação (32 semanas), sem outra causa evidente, associada a fatores de risco (pré-eclâmpsia, gestação múltipla, hipertensão gestacional) é o quadro clássico de cardiomiopatia periparto.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_030",
+      "statement": "Mulher, 52 anos, após intensa discussão familiar (com agressão verbal e física), apresentou dor no peito intensa e falta de ar ao repouso. No serviço de emergência, o ECG revelou elevação do segmento ST e inversão profunda da onda T em parede anterior; a radiografia do tórax foi normal; o ecocardiograma apontou discinesia apical do ventrículo esquerdo; a primeira bateria de troponina estava discretamente elevada, mas as demais estavam normal. Foi, então, submetida ao cateterismo cardíaco que revelou abaulamento apical ao ventrículo esquerdo e coronárias absolutamente normais. A melhor hipótese diagnóstica é:",
+      "alternatives": [
+        {"key": "a", "text": "miocardiopatia hipertrófica."},
+        {"key": "b", "text": "infarto agudo do miocárdio."},
+        {"key": "c", "text": "síndrome de Tietze."},
+        {"key": "d", "text": "miocardiopatia de Tako-Tsubo."},
+        {"key": "e", "text": "distúrbio neurovegetativo."}
+      ],
+      "correct_key": "d",
+      "explanation": "Estresse emocional agudo intenso, supra de ST com inversão profunda de T em parede anterior, discinesia/abaulamento apical do VE e coronárias absolutamente normais no cateterismo é o quadro diagnóstico definidor de cardiomiopatia de Takotsubo.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_031",
+      "statement": "Emília, 48 anos, natural de Santarém/PA, tem queixas de palpitações há tempos, com piora nos últimos dois meses. Apresentou dois episódios de síncope nesse período e deu entrada no serviço de emergência com queixas de astenia, tontura, turvação visual, falta de ar, inchaço nas pernas e desconforto torácico. Observe o ECG abaixo e indique qual a possível causa dos sintomas e a melhor conduta inicial.",
+      "alternatives": [
+        {"key": "a", "text": "Insuficiência cardíaca congestiva descompensada. Digital, IECA, betabloqueador, espironolactona e furosemida."},
+        {"key": "b", "text": "Síndrome coronariana aguda. Internação com dupla antiagregação, anticoagulação, estatina e cateterismo."},
+        {"key": "c", "text": "Cardiopatia Chagásica com dissociação atrioventricular. Marcapasso."},
+        {"key": "d", "text": "Taquicardia atrial com algumas extrassístoles atriais bloqueadas. Amiodarona."}
+      ],
+      "correct_key": "c",
+      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Paciente natural de área endêmica para Chagas (Santarém/PA), com síncopes de repetição e sinais de baixo débito/congestão, sugere cardiopatia chagásica com dissociação atrioventricular (BAVT), cujo tratamento definitivo é o implante de marcapasso.",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_032",
+      "statement": "Mulher, 56 anos, queixa-se de fadiga aos esforços há 3 meses, associada a dor precordial em pontada, não relacionada aos esforços, e palpitações. Exame físico: FC = 66 bpm, PA = 112 x 78 mmHg, ritmo cardíaco regular em 2 tempos, bulhas normofonéticas, sem sopros, murmúrio vesicular simétrico, sem ruídos adventícios, presença de turgência jugular, tempo de reenchimento capilar normal. Ecocardiograma: dilatação leve das câmaras cardíacas, fração de ejeção do ventrículo esquerdo = 45%, hipocinesia da região inferolateral e do ventrículo direito. Ressonância magnética cardíaca: presença de realce tardio pelo gadolíneo compatível com fibrose mesomiocárdica em regiões inferolateral e apical (ECG abaixo). Qual é o diagnóstico mais provável?",
+      "alternatives": [
+        {"key": "a", "text": "Displasia arritmogênica do ventrículo direito"},
+        {"key": "b", "text": "Cardiomiopatia chagásica"},
+        {"key": "c", "text": "Endomiocardiofibrose"},
+        {"key": "d", "text": "Amiloidose cardíaca"}
+      ],
+      "correct_key": "b",
+      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. O padrão de realce tardio mesomiocárdico em regiões inferolateral e apical, associado a hipocinesia inferolateral e de VD e disfunção leve a moderada, é o padrão de fibrose por realce tardio classicamente descrito na cardiomiopatia chagásica à ressonância magnética cardíaca.",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_033",
+      "statement": "Dentre as correlações epidemiológicas de achados de Eletrocardiograma e Doença Chagásica, apenas podemos considerar como completamente correto o seguinte item:",
+      "alternatives": [
+        {"key": "a", "text": "Foi demonstrado que escore eletrocardiográfico não tem correlação positiva com fibrose miocárdica em pacientes com cardiomiopatia chagásica."},
+        {"key": "b", "text": "Foi demonstrado que escore eletrocardiográfico tem correlação positiva com fibrose miocárdica em pacientes com cardiomiopatia chagásica."},
+        {"key": "c", "text": "O escore eletrocardiográfico não tem correlação alguma, sendo independente com a fração de ejeção de ventrículo esquerdo (FEVE) em pacientes com cardiomiopatia chagásica."},
+        {"key": "d", "text": "A variabilidade de amplitude da onda T em pacientes chagásicos não foi relacionada à pior prognóstico."}
+      ],
+      "correct_key": "b",
+      "explanation": "Estudos demonstram correlação positiva entre escores eletrocardiográficos (que quantificam alterações de condução, repolarização, etc.) e o grau de fibrose miocárdica documentada por ressonância magnética em pacientes com cardiomiopatia chagásica, sendo o ECG uma ferramenta útil de estratificação de gravidade.",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_034",
+      "statement": "A Cardiomiopatia Arritmogênica do ventrículo direito ou Displasia Arritmogênica de ventrículo direito, pode ser considerada como uma doença genética que leva ao acometimento primário do VD, com substituição dos miócitos por tecido fibrogorduroso, associada a arritmias, insuficiência cardíaca e morte súbita. Associação com extra-sístoles de origem no VD (que se apresentam com morfologia de BRE), podendo ter orientação superior ou inferior. Sobre isso, não é característico o seguinte achado:",
+      "alternatives": [
+        {"key": "a", "text": "ECG com QRS alta voltagem."},
+        {"key": "b", "text": "Ao ECG, caracteriza-se pela presença de atraso final da condução do QRS (duração > 110 ms)."},
+        {"key": "c", "text": "ECG com QRS de maior duração."},
+        {"key": "d", "text": "ECG com onda epsílon, presente em 30% dos casos."}
+      ],
+      "correct_key": "a",
+      "explanation": "Na displasia arritmogênica do VD, a substituição fibrogordurosa do miocárdio tipicamente reduz a voltagem do QRS (e não aumenta), além de causar atraso de condução terminal, alargamento do QRS e onda épsilon — tornando 'QRS de alta voltagem' o achado NÃO característico da doença.",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_035",
+      "statement": "O bloqueio beta-adrenérgico na miocardite baseia-se na necessidade de reduzir a atividade simpática e os níveis de noradrenalina, sendo INCORRETO considerar que:",
+      "alternatives": [
+        {"key": "a", "text": "A redução da atividade simpática e os níveis de noradrenalina, e assim não levando a progressão da disfunção miocárdica."},
+        {"key": "b", "text": "Os betabloqueadores (BB) são utilizados em todos os casos de pacientes com insuficiência cardíaca manifesta."},
+        {"key": "c", "text": "Os betabloqueadores (BB) são utilizados em todos os casos de pacientes com disfunção ventricular."},
+        {"key": "d", "text": "Os betabloqueadores (BB) são utilizados em todos os casos salvo contraindicações, com doses progressivas até as máximas preconizadas."}
+      ],
+      "correct_key": "a",
+      "explanation": "É incorreto/impreciso afirmar de forma absoluta que a redução da atividade simpática 'não leva' à progressão da disfunção miocárdica — na miocardite aguda com instabilidade hemodinâmica (choque cardiogênico), a redução abrupta do suporte adrenérgico compensatório pode, na verdade, agravar a descompensação, sendo necessária cautela na introdução dos betabloqueadores (conforme reforçado pela ressalva de contraindicações e titulação progressiva das demais alternativas, corretas).",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_036",
+      "statement": "Mulher, 60 anos, apresenta dor precordial de forte intensidade sem irradiação. ECG mostra supra de ST em parede inferior. A primeira dosagem de enzimas cardíacas é normal. Exame físico: PA = 85 x 50 mmHg; Frequência Respiratória (FR) = 18 irpm; FC = 112 bpm e afebril. Ritmo Cardíaco Regular (RCR) = três tempos com presença de B4, sem sopros e Murmúrio Vesicular (MV) universalmente audível sem ruídos adventícios. Cineangiocoronariografia: artérias coronárias normais e ventriculografia com dilatação difusa e contração basal. A hipótese diagnóstica mais provável é:",
+      "alternatives": [
+        {"key": "a", "text": "Vasculite coronariana."},
+        {"key": "b", "text": "Cardiopatia de takotsubo."},
+        {"key": "c", "text": "Cardiopatia de Yamaguchi."},
+        {"key": "d", "text": "Doença de Keshan."}
+      ],
+      "correct_key": "b",
+      "explanation": "Dor precordial com supra de ST, coronárias angiograficamente normais e ventriculografia mostrando dilatação difusa/apical com contração basal preservada é o padrão clássico da cardiomiopatia de Takotsubo.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_037",
+      "statement": "Assinale a afirmativa INCORRETA em relação à cardiopatia chagásica crônica:",
+      "alternatives": [
+        {"key": "a", "text": "O aneurisma do ápice do ventrículo e complicação frequente."},
+        {"key": "b", "text": "São alterações eletrocardiográficas típicas: BRD, HBAE, extra-sístoles polimórficas, alterações da onda T e bradicardia arritmias"},
+        {"key": "c", "text": "O desdobramento amplo de B2 no foco pulmonar é um achado auscultatório comum."},
+        {"key": "d", "text": "Pacientes do sexo feminino tem manifestações mais graves e mais precoces que os do sexo masculino."}
+      ],
+      "correct_key": "d",
+      "explanation": "É incorreto afirmar que mulheres têm manifestações mais graves e precoces na cardiopatia chagásica crônica — classicamente, o sexo masculino apresenta manifestações mais graves e maior mortalidade cardiovascular relacionada à doença de Chagas.",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_038",
+      "statement": "Em relação às miocardiopatias primárias, pode-se afirmar:",
+      "alternatives": [
+        {"key": "a", "text": "A presença de um defeito congênito confirma o diagnóstico."},
+        {"key": "b", "text": "As arritmias ventriculares podem ser a forma inicial de apresentação."},
+        {"key": "c", "text": "Podemos encontrar dilatação ventricular e função sistólica normal."},
+        {"key": "d", "text": "A bradicardia ventricular pode precipitar a dilatação do coração."},
+        {"key": "e", "text": "A não compactação ventricular está presente somente no ventrículo esquerdo."}
+      ],
+      "correct_key": "b",
+      "explanation": "Nas miocardiopatias primárias (incluindo formas arritmogênicas, como a displasia do VD e algumas canalopatias/cardiomiopatias geneticamente determinadas), arritmias ventriculares — inclusive morte súbita — podem ser a primeira e única manifestação clínica, antes mesmo de sintomas de insuficiência cardíaca estrutural evidente.",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_039",
+      "statement": "A Biópsia Endomiocárdica (BEM) é o método para o diagnóstico da miocardite, sendo na cardiomiopatia dilatada crônica de provável etiologia viral sintomática. Sobre isso, assinale a alternativa INCORRETA:",
+      "alternatives": [
+        {"key": "a", "text": "A terapia antiviral ou imunomoduladora ocasiona melhora da fração de ejeção em pacientes com IC sintomática após seis meses de terapia otimizada."},
+        {"key": "b", "text": "A miocardite também pode ser causada por certas terapias farmacológicas."},
+        {"key": "c", "text": "A BEM tem papel essencial naqueles casos de dúvida diagnóstica e rápida progressão da doença, com suspeita de reação alérgica e eosinofílica."},
+        {"key": "d", "text": "A BEM não tem papel essencial na busca do diagnóstico diferencial com outras condições"}
+      ],
+      "correct_key": "d",
+      "explanation": "É incorreto afirmar que a biópsia endomiocárdica não tem papel essencial no diagnóstico diferencial — pelo contrário, ela é fundamental para diferenciar a miocardite viral de outras causas de disfunção ventricular aguda/rapidamente progressiva (como miocardite de células gigantes, eosinofílica, sarcoidose), com implicações terapêuticas distintas.",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_040",
+      "statement": "São manifestações cardiovasculares que podem ser observadas na miocardite, com EXCEÇÃO de:",
+      "alternatives": [
+        {"key": "a", "text": "Taquicardia inapropriada ao estado febril."},
+        {"key": "b", "text": "Palpitações."},
+        {"key": "c", "text": "Dispneia em repouso."},
+        {"key": "d", "text": "Coréia."}
+      ],
+      "correct_key": "d",
+      "explanation": "A coreia (movimentos involuntários coreiformes, como a coreia de Sydenham na febre reumática) é uma manifestação NEUROLÓGICA, não cardiovascular, sendo a exceção entre as opções listadas, todas as demais (taquicardia desproporcional, palpitações, dispneia) sendo manifestações cardiovasculares clássicas de miocardite.",
+      "theme": "cardio_perimio",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_041",
+      "statement": "A fase subaguda inicia-se a partir do 4º dia da inoculação e estende-se até o 14º dia. Nessa fase, ocorre maior dano celular miocárdico. Acerca desse assunto, indique a alternativa INCORRETA.",
+      "alternatives": [
+        {"key": "a", "text": "O infiltrado de linfócitos T segue na invasão do miocárdio, atingindo o seu pico em 7 a 14 dias após a inoculação viral."},
+        {"key": "b", "text": "A resposta imune humoral tem pequeno papel na lesão e disfunção miocárdica. A lesão direta ou indireta dos miócitos libera a miosina na circulação, e a presença dessa proteína promove a liberação de anticorpos contra a cadeia pesada da miosina e estimula os linfócitos CD4, os quais podem perpetuar e amplificar a lesão das células cardíacas. Essa amplificação estimulada pelos linfócitos T CD4 se dá por estímulo aos linfócitos B na produção de anticorpo antimiosina e por estimular a presença citotóxica de linfócitos TCD8."},
+        {"key": "c", "text": "A reação cruzada de anticorpos entre antígenos virais e células miocárdicas também proporciona a lesão dos miócitos."},
+        {"key": "d", "text": "O soro de pacientes com miocardite apresenta padrões imunohistoquímicos, que podem reagir com diferentes proteínas da membrana ou do citoplasma do miócito cardíaco."}
+      ],
+      "correct_key": "b",
+      "explanation": "É incorreto afirmar que a resposta imune humoral tem 'pequeno papel' na lesão miocárdica — pelo contrário, a própria alternativa descreve, em detalhe, um mecanismo humoral robusto e central (anticorpos antimiosina, ativação de linfócitos B e T CD4/CD8), demonstrando que a resposta humoral tem papel IMPORTANTE (não pequeno) na amplificação do dano miocárdico na fase subaguda.",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_042",
+      "statement": "A miocardite viral aguda apresenta diversas interações imunes durante a sua evolução inicial. Quanto à sua evolução, aponte a alternativa INCORRETA.",
+      "alternatives": [
+        {"key": "a", "text": "A produção de citocinas (interleucina 1 e 2, interferon y e fator de necrose tumoral) faz parte dessa resposta inflamatória."},
+        {"key": "b", "text": "É um mecanismo de defesa que pode danificar os miócitos na dependência do tempo e dos níveis de exposição dessas células."},
+        {"key": "c", "text": "Anticorpos neutralizantes são observados até o 4º dia, quando os títulos virais são muito elevados."},
+        {"key": "d", "text": "Esses anticorpos são responsáveis pela tentativa de clearance viral, sendo seu pico alcançado no 14º dia, e estão relacionados à eliminação do vírus no coração (10º dia)."}
+      ],
+      "correct_key": "c",
+      "explanation": "É incorreto afirmar que anticorpos neutralizantes já estejam presentes até o 4º dia coincidindo com títulos virais muito elevados — a resposta de anticorpos neutralizantes se desenvolve mais tardiamente na evolução (conforme descrito na própria alternativa D, com pico próximo ao 14º dia), e não simultaneamente ao pico precoce de viremia.",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_043",
+      "statement": "A miocardite viral pode ser dividida em fase aguda, subaguda e crônica. O conhecimento dessa evolução temporal e fisiopatológica se faz importante na definição diagnóstica e nas possibilidades terapêuticas. A respeito da fase aguda, indique a alternativa INADEQUADA.",
+      "alternatives": [
+        {"key": "a", "text": "A fase aguda caracteriza-se pela presença de viremia."},
+        {"key": "b", "text": "Ocorre perda de miócitos por necrose graças à ação indireta do vírus, efeitos citotóxicos de mediadores inflamatórios e produtos do estresse oxidativo associado à disfunção endotelial e isquemia."},
+        {"key": "c", "text": "A ação direta ocorre pela entrada do vírus na célula, por meio de receptores de membrana."},
+        {"key": "d", "text": "Segue a agressão viral, um complexo mecanismo de ativação do sistema imune com importante infiltrado inflamatório com células natural killer e macrófagos."}
+      ],
+      "correct_key": "b",
+      "explanation": "A alternativa descreve incorretamente como 'ação indireta' os mecanismos de necrose por citotoxicidade viral direta somados a mediadores inflamatórios/estresse oxidativo — a agressão direta do vírus aos miócitos (via receptores, como descrito na própria alternativa C) constitui a AÇÃO DIRETA da fase aguda, tornando essa descrição inadequada/invertida.",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_044",
+      "statement": "Mulher, 69 anos, após observar grave acidente automobilístico da janela de sua casa, iniciou quadro de dor torácica e dispneia. Foi levada para um pronto-socorro e, após realização de eletrocardiograma, foi submetida à cineangiocoronariografia. Não foram observadas placas coronarianas obstrutivas. Diante da hipótese diagnóstica de cardiomiopatia de Takotsubo, NÃO é esperado(a), neste caso,",
+      "alternatives": [
+        {"key": "a", "text": "Dilatação dos segmentos médios e apicais do ventrículo esquerdo, com contratilidade preservada dos segmentos basais."},
+        {"key": "b", "text": "Elevação de troponina sérica."},
+        {"key": "c", "text": "Prognóstico ruim a longo prazo, com evolução para cardiomiopatia dilatada."},
+        {"key": "d", "text": "Eletrocardiograma com supradesnivelamento do segmento ST em, pelo menos, 2 (duas) derivações contíguas."},
+        {"key": "e", "text": "Disfunção sistólica do ventrículo esquerdo na cineangiocoronariografia."}
+      ],
+      "correct_key": "c",
+      "explanation": "Não é esperado prognóstico ruim a longo prazo com evolução para cardiomiopatia dilatada — a cardiomiopatia de Takotsubo tem, como regra, curso autolimitado e bom prognóstico, com recuperação completa da função ventricular em dias a semanas, sem evolução para disfunção crônica na maioria dos casos.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_045",
+      "statement": "Paciente é internado com suspeita de lesão cardíaca metastática. Em relação aos tumores metastáticos que acometem o coração é CORRETO afirmar que",
+      "alternatives": [
+        {"key": "a", "text": "O local mais frequentemente envolvido são as valvas cardíacas."},
+        {"key": "b", "text": "A quimioterapia e a intervenção cirúrgica cardíaca permitem a cura na maioria dos casos."},
+        {"key": "c", "text": "Geralmente, ocorrem no contexto de uma doença tumoral maligna disseminada."},
+        {"key": "d", "text": "Eletrocardiograma com flutter atrial sugere acometimento pericárdico mais extenso."},
+        {"key": "e", "text": "Massa tumoral volumosa no interior do ventrículo direito sugere o diagnóstico rabdomioma."}
+      ],
+      "correct_key": "c",
+      "explanation": "Os tumores cardíacos metastáticos (muito mais comuns que os primários) geralmente representam disseminação de uma doença neoplásica maligna já avançada/disseminada (pulmão, mama, melanoma, linfoma), refletindo estágio sistêmico avançado, e não um achado isolado curável.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_046",
+      "statement": "Paciente do sexo feminino, 56 anos, apresentou quadro de dor torácica sugestiva de isquemia miocárdica após estresse emocional, com padrão eletrocardiográfico de IAM anterior e discreta elevação de marcadores de necrose miocárdica. Exames realizados: coronariografia, que não evidenciou lesões obstrutivas, ventriculografia, apontando disfunção apical de VE e ecocardiograma, que revelou FEVE de 36%. O tratamento foi feito com betabloqueador, IECA e diurético. Após 1 mês, o ecocardiograma mostrou função de VE normal. Qual o diagnóstico?",
+      "alternatives": [
+        {"key": "a", "text": "Miocardite."},
+        {"key": "b", "text": "Takotsubo."},
+        {"key": "c", "text": "Cardiomiopatia restritiva."},
+        {"key": "d", "text": "Cardiomiopatia hipertrófica."}
+      ],
+      "correct_key": "b",
+      "explanation": "Estresse emocional, padrão eletrocardiográfico simulando IAM anterior, discreta elevação de marcadores, coronárias sem lesões obstrutivas, disfunção apical com recuperação completa da função ventricular em 1 mês é o quadro definidor de cardiomiopatia de Takotsubo.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_047",
+      "statement": "Paciente do sexo feminino, 57 anos, após grande estresse emocional apresenta quadro de dor torácica retrosternal intensa. ECG com supradesnivelamento segmento ST V1-V4. Exames posteriores mostram: discreta elevação de enzimas miocárdicas; coronariografia sem lesões obstrutivas mas com discinesia apical; ecocardiograma na sala emergência com FE 38%. Foi submetida a tratamento farmacológico com beta bloqueador e enalapril, com novo ecocardiograma após 1 mês normal. O diagnóstico mais provável é?",
+      "alternatives": [
+        {"key": "a", "text": "Pericardite"},
+        {"key": "b", "text": "Miocardiopatia restritiva"},
+        {"key": "c", "text": "Tako-tsubo"},
+        {"key": "d", "text": "Miocardite viral aguda"},
+        {"key": "e", "text": "IAM sem supra de ST"}
+      ],
+      "correct_key": "c",
+      "explanation": "Estresse emocional agudo, supra de ST anterior, discinesia apical, coronárias normais e recuperação completa da FE em 1 mês é novamente o quadro clássico de cardiomiopatia de Takotsubo.",
+      "theme": "cardio_perimio",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_048",
+      "statement": "Homem, 16 anos, relata início de leve dor torácica contínua, com momentos de piora e duração maior que 24 horas, iniciada há 15 dias, após quadro de resfriado comum. Refere, ainda, presença de dispneia progressiva aos grandes esforços, evoluindo aos esforços moderados, acompanhada de palpitações arrítmicas. Qual exame NÃO deve ser indicado, nesse caso?",
+      "alternatives": [
+        {"key": "a", "text": "Cintilografia miocárdica com Tálio."},
+        {"key": "b", "text": "Eletrocardiograma."},
+        {"key": "c", "text": "Ecocardiograma."},
+        {"key": "d", "text": "Ressonância magnética cardíaca."},
+        {"key": "e", "text": "Biomarcadores de necrose e inflamação miocárdica."}
+      ],
+      "correct_key": "a",
+      "explanation": "A cintilografia miocárdica com Tálio (avaliação de perfusão/isquemia, tipicamente usada na investigação de doença coronariana obstrutiva) não tem papel na investigação diagnóstica de miopericardite pós-viral em jovem sem fatores de risco cardiovascular, sendo o exame NÃO indicado entre as opções, ao contrário de ECG, ecocardiograma, RM cardíaca e biomarcadores, todos úteis nesse contexto.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_049",
+      "statement": "Quando se inicia a pesquisa do fator causal para a miocardite através de exames complementares, deve-se ter em conta a suspeita diagnóstica. É CORRETO afirmar:",
+      "alternatives": [
+        {"key": "a", "text": "Todos os pacientes devem ser investigados para doenças sistêmicas inflamatórias autoimunes, como lúpus, artrite reumatoide, sarcoidose."},
+        {"key": "b", "text": "Todos os pacientes devem realizar testes das sorologias virais devido à alta sensibilidade e especificidade deste método."},
+        {"key": "c", "text": "Confirmar a possibilidade da etiologia ser a Síndrome de Churg-Strauss através da dosagem e curva da troponina."},
+        {"key": "d", "text": "A sorologia para Doença de Chagas pode ser postergada, pois atualmente, a prevalência e incidência desta doença é pequena."}
+      ],
+      "correct_key": "a",
+      "explanation": "É recomendado que todo paciente com suspeita de miocardite seja investigado quanto a doenças sistêmicas inflamatórias/autoimunes subjacentes (LES, artrite reumatoide, sarcoidose), que podem ser etiologia ou fator agravante, orientando o tratamento específico. As sorologias virais têm sensibilidade/especificidade limitadas para definir etiologia ativa; a troponina não confirma etiologia específica (Churg-Strauss); e a doença de Chagas permanece prevalente e não deve ser postergada na investigação em áreas endêmicas.",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_050",
+      "statement": "Assinale a afirmativa INCORRETA em relação à cardiopatia chagásica crônica.",
+      "alternatives": [
+        {"key": "a", "text": "O aneurisma do ápice do ventrículo é complicação frequente."},
+        {"key": "b", "text": "Nos pacientes com insuficiência cardíaca pode ocorrer embolismo, a partir de trombos, que tem como localização preferencial o átrio direito e o ventrículo esquerdo."},
+        {"key": "c", "text": "São alterações eletrocardiográficas típicas: BRD, HBAE, extra-sístoles polimórficas, alterações da onda T e bradicardiarritmias."},
+        {"key": "d", "text": "O desdobramento amplo de B2 no foco pulmonar é um achado auscultatório comum."},
+        {"key": "e", "text": "Pacientes do sexo feminino tem manifestações mais graves e mais precoces que os do sexo masculino."}
+      ],
+      "correct_key": "e",
+      "explanation": "Repetindo o padrão já visto: é incorreto afirmar que mulheres apresentam manifestações mais graves e precoces na cardiopatia chagásica crônica — o sexo masculino é classicamente associado a maior gravidade e mortalidade cardiovascular na doença de Chagas.",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_051",
+      "statement": "Jovem de 16 anos, masculino, procedente de João Pessoa, refere dor torácica esquerda há 12 horas, associado a sudorese e náuseas. Nega uso de drogas e álcool. Fez uso há 2 semanas de Azitromicina para quadro de infecção de vias aéreas superiores. Dá entrada na UPA dispneico, sudorese profusa, extremidades frias, mucosas normocoradas. Apresenta-se taquicárdico (135 bpm) e com PA 98/65 mmHg. Ausculta cardíaca com ritmo de galope (B3) e crepitantes finos em bases pulmonares. Jugulares engurgitadas. ECG sinusal com supradesnível de ST, com troponina normal e CKMB elevada. Ecocardiograma com déficit sistólico importante (FEVE 30% Teicholz), dilatação de ventrículo e discreto derrame pericárdico. Qual a melhor combinação diagnóstica e terapêutica?",
+      "alternatives": [
+        {"key": "a", "text": "Miocardiopatia dilatada- cintilografia miocardica com dipiridamol-betabloqueador."},
+        {"key": "b", "text": "IAM- cineangiocoronariografia- aas e betabloqueador."},
+        {"key": "c", "text": "Pericardite aguda- ressonancia magnética- anti-inflamatório não hormonal."},
+        {"key": "d", "text": "Miopericardite- cintilografia com gálio- IECA, betabloqueador, diureticos e aminas vasoativas."},
+        {"key": "e", "text": "Doença de chagas agudo- biopsia miocardica- nifurtimox."}
+      ],
+      "correct_key": "d",
+      "explanation": "Adolescente com pródromo infeccioso recente, dor torácica com supra de ST, sinais de choque cardiogênico (extremidades frias, hipotensão relativa, galope B3, congestão) e disfunção sistólica grave com derrame pericárdico associado é compatível com miopericardite grave/fulminante, exigindo suporte hemodinâmico agressivo (IECA, betabloqueador, diuréticos e, se necessário, aminas vasoativas) além de investigação etiológica (cintilografia com gálio para inflamação miocárdica).",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_052",
+      "statement": "A doença de Chagas representa a terceira maior doença parasitária no mundo, após a malária e a esquistossomose. A cardiomiopatia chagásica crônica é forma comum da cardiomiopatia dilatada e causa importante de morbimortalidade na América Latina. O acometimento cardíaco na forma crônica — cardiomiopatia chagásica crônica — tipicamente produz arritmias ventriculares, bloqueios intracardíacos, anormalidades contráteis regionais e IC, fenômenos tromboembólicos pulmonares e/ou sistêmicos, e morte súbita. Quais os bloqueios intracardíacos mais frequentemente encontrados ao ECG nos pacientes com cardiomiopatia chagásica?",
+      "alternatives": [
+        {"key": "a", "text": "Bloqueio de Ramo Esquerdo (BRE) e Bloqueio Atrioventricular (BAV) de 1º grau."},
+        {"key": "b", "text": "Bloqueio de Ramo Esquerdo (BRE) e Bloqueio Atrioventricular (BAV) de 2º grau."},
+        {"key": "c", "text": "Bloqueio de Ramo Direito (BRD) e Bloqueio de Ramo Esquerdo (BRE)."},
+        {"key": "d", "text": "Bloqueio de Ramo Direito (BRD) e Bloqueio Divisional de Anterossuperior Esquerdo (BDASE)."}
+      ],
+      "correct_key": "d",
+      "explanation": "A associação clássica e mais frequentemente encontrada na cardiomiopatia chagásica crônica é o bloqueio de ramo direito (BRD) combinado ao bloqueio divisional anterossuperior esquerdo (BDASE/HBAE), sendo considerada praticamente uma marca registrada eletrocardiográfica da doença.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_053",
+      "statement": "Paciente do sexo masculino, 65 anos, com antecedente de doença de Chagas, sem uso de medicação, apresenta três episódios de síncope na última semana. Ao exame físico, a frequência cardíaca é de 35 b.p.m., a pressão arterial é de 100 x 60 mmHg e nota-se estase jugular bilateral pulsátil. Ao eletrocardiograma, visualiza-se a onda P, com frequência de 76 b.p.m., e dissociação atrioventricular. Assinale a conduta MAIS apropriada para o caso citado.",
+      "alternatives": [
+        {"key": "a", "text": "Dobutamina."},
+        {"key": "b", "text": "Efedrina."},
+        {"key": "c", "text": "Marcapasso."},
+        {"key": "d", "text": "Adrenalina."}
+      ],
+      "correct_key": "c",
+      "explanation": "Síncopes de repetição, bradicardia importante (FC 35 bpm) com dissociação atrioventricular completa (onda P em frequência independente do QRS) em paciente chagásico é o quadro de bloqueio atrioventricular total (BAVT), cujo tratamento definitivo é o implante de marcapasso, não havendo indicação de suporte farmacológico cronotrópico isolado nesse contexto.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_054",
+      "statement": "Assinale a alternativa que apresenta a afirmação INCORRETA sobre a doença de Chagas:",
+      "alternatives": [
+        {"key": "a", "text": "Carlos Chagas, em seu relato original em 1909, já tinha mencionado a prevalência elevada de morte súbita na fase crônica da doença."},
+        {"key": "b", "text": "A presença de bloqueio do ramo esquerdo é a alteração mais comum nas fases iniciais."},
+        {"key": "c", "text": "A progressiva evolução da miocardite chagásica promove uma lenta substituição de fibras miocárdicas por fibrose."},
+        {"key": "d", "text": "Arritmia ventricular é um acometimento típico."},
+        {"key": "e", "text": "Síncope, disfunção sistólica do ventrículo esquerdo e disfunção do nódulo sinusal podem predizer morte súbita."}
+      ],
+      "correct_key": "b",
+      "explanation": "É incorreto afirmar que o bloqueio de RAMO ESQUERDO seja a alteração mais comum nas fases iniciais da doença de Chagas — classicamente, é o bloqueio de RAMO DIREITO (frequentemente associado ao BDASE) a alteração eletrocardiográfica mais precoce e frequente da cardiopatia chagásica.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_055",
+      "statement": "Em relação às miocardites, assinale a alternativa INCORRETA.",
+      "alternatives": [
+        {"key": "a", "text": "Caracterizam-se por inflamação do miocárdio e são causas de Insuficiência Cardíaca(IC) aguda e crônica."},
+        {"key": "b", "text": "Os agentes etiológicos mais frequentes são: Tripanosoma cruzi, os enterovírus, os adenovírus e os parvovírus humanos."},
+        {"key": "c", "text": "Além da agressão miocárdica direta pelas citotoxinas virais ocorre progressão da miocardite secundária à resposta autoimune do paciente."},
+        {"key": "d", "text": "Estudos recentes mostraram que o tratamento com imunossupressores apresentou melhora da sobrevida em pacientes na fase crônica da doença."}
+      ],
+      "correct_key": "d",
+      "explanation": "É incorreto afirmar que estudos comprovaram melhora de sobrevida com imunossupressores na fase crônica da miocardite — as evidências disponíveis sobre imunossupressão são conflitantes/limitadas e não demonstram de forma consistente benefício de sobrevida, sendo seu uso reservado a subgrupos específicos (ex.: miocardite de células gigantes, sarcoidose).",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_056",
+      "statement": "Mulher, 39 anos, negra, G5P5A0, chega ao Pronto Atendimento no quinto dia após parto normal. Refere que, desde o parto, apresenta falta de ar progressiva, cansaço, dor no peito e aumento do inchaço nas pernas. Nega antecedentes mórbidos. Exame físico: descorada +/4+; T = 36,5 °C; FC= 110 bpm; FR = 26 irpm; PA = 140 x 80 mmHg. Hemograma: Hb= 10.8 g/dl; Htc = 37%; Leucócitos = 6.890/mm3; Plaquetas = 220.000/mm3. Radiograma de tórax mostrado a seguir. O DIAGNÓSTICO É:",
+      "alternatives": [
+        {"key": "a", "text": "Tromboembolismo pulmonar."},
+        {"key": "b", "text": "Cardiomiopatia periparto."},
+        {"key": "c", "text": "Infarto agudo do miocárdio."},
+        {"key": "d", "text": "Edema pulmonar secundário à pré-eclâmpsia atípica."}
+      ],
+      "correct_key": "b",
+      "explanation": "ATENÇÃO: radiograma de tórax citado mas não disponível integralmente na extração do PDF (mostra padrão de congestão pulmonar). Dispneia progressiva, dor torácica e edema de membros inferiores surgindo nos primeiros dias pós-parto, em multípara (G5P5), sem outros antecedentes, é o quadro clássico de cardiomiopatia periparto.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_057",
+      "statement": "Paciente de 24 anos de idade, puérpera de 2 semanas, relata uma semana de evolução de dispneia progressiva, com ortopneia e dispneia paroxística noturna. Nega dor torácica, febre ou tosse. Ao exame com FR 28 mrm, PA 100/72 mmHg, jugulares ingurgitadas, edema de membros inferiores ++/4 com cacifo, ausculta cardíaca com presença de ritmo de galope e pulmonar com estertores bolhosos até terço médio bilateralmente. Considerando a hipótese diagnóstica mais provável é correto afirmar que:",
+      "alternatives": [
+        {"key": "a", "text": "A recuperação é total após 8 semanas de doença."},
+        {"key": "b", "text": "O tratamento inclui diuréticos e bloqueadores do canal de cálcio."},
+        {"key": "c", "text": "O uso de anti-inflamatórios não esteroidais reduz o tempo de doença."},
+        {"key": "d", "text": "É ocorrência frequente em primíparas e pode recidivar em gestações subsequentes."},
+        {"key": "e", "text": "A gestação deve ser evitada em pacientes que não apresentam recuperação de função, pelo risco de recorrência."}
+      ],
+      "correct_key": "e",
+      "explanation": "Na cardiomiopatia periparto, gestações subsequentes representam risco significativo de recorrência e piora clínica, especialmente se a função ventricular não se recuperou completamente do episódio índice — recomendando-se evitar nova gestação nesses casos. A recuperação NÃO é total em todos os casos, os bloqueadores de canal de cálcio não fazem parte do tratamento padrão, AINEs não são indicados, e a condição não é exclusiva de primíparas.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_058",
+      "statement": "Quanto às possíveis causas de miocardite aguda, pode-se afirmar que:",
+      "alternatives": [
+        {"key": "a", "text": "Cardite de Lyme apresenta-se classicamente por anormalidades do sistema de condução resultante da infecção por Micobactérias."},
+        {"key": "b", "text": "A infecção por vírus da imunodeficiência humana (HIV) está associada com miocardite de células gigantes e é um preditor de mau prognóstico."},
+        {"key": "c", "text": "A miocardite infecciosa mais comum é a doença de Chagas, causada pelo Trypanosoma cruzi, protozoário endêmico em áreas rurais da América do Sul e Central."},
+        {"key": "d", "text": "Metais pesados como ferro podem causar miopericardite inflamatória de origem autoimune."}
+      ],
+      "correct_key": "c",
+      "explanation": "A doença de Chagas, causada pelo protozoário Trypanosoma cruzi e endêmica em áreas rurais da América Latina, é a causa infecciosa mais comum de miocardite quando considerada a carga global de doença. A doença de Lyme é causada por espiroqueta (Borrelia), não micobactérias; e o excesso de ferro (hemocromatose) causa dano tóxico direto por depósito, não mecanismo autoimune.",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_059",
+      "statement": "Na abordagem do paciente com cardiopatia chagásica, é correto afirmar que:",
+      "alternatives": [
+        {"key": "a", "text": "o diagnóstico sorológico é confirmado (ou excluído) pelo emprego de pelo menos três testes sorológicos de princípios diferentes."},
+        {"key": "b", "text": "o comprometimento cardíaco está presente em 90,0% dos casos em fase aguda, usualmente benigno na grande maioria dos casos."},
+        {"key": "c", "text": "o prognóstico é diretamente proporcional à idade do paciente e mais grave em crianças com miocardite ou encefalite."},
+        {"key": "d", "text": "o uso de carvedilol, bisoprolol ou succinato de metoprolol é indicado para tratar pacientes com sinais/sintomas de IC, pregressos ou atuais e FEVE \"menor ou igual a\" 35,0%."}
+      ],
+      "correct_key": "b",
+      "explanation": "Na fase aguda da doença de Chagas, o comprometimento cardíaco (miocardite aguda) está presente em cerca de 90% dos casos, sendo, na grande maioria das vezes, subclínico/benigno e autolimitado. O diagnóstico sorológico confirmatório requer dois (não três) testes de princípios distintos; o prognóstico é INVERSAMENTE (não diretamente) proporcional à idade em crianças graves; e a indicação de betabloqueadores específicos para IC com FEVE reduzida, embora verdadeira em geral, não é a alternativa selecionada como a mais completa/correta pelo gabarito oficial.",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_060",
+      "statement": "Homem, 76 anos, apresenta, após exames conclusivos, disfunção do nó sinusal com manifestação eletrocardiográfica de uma bradicardia sinusal inapropriada e persistente. Episódios de bloqueio sinoatrial, parada sinusal, fibrilação atrial de frequência baixa. Entre as patologias abaixo, assinale a alternativa que apresenta a que mais condiz com o caso descrito.",
+      "alternatives": [
+        {"key": "a", "text": "Doença de Chagas."},
+        {"key": "b", "text": "Cardiomiopatia difusa."},
+        {"key": "c", "text": "Cardiomiopatia hipotrófica."},
+        {"key": "d", "text": "Angina pectoris."},
+        {"key": "e", "text": "Angina instável."}
+      ],
+      "correct_key": "a",
+      "explanation": "A disfunção do nó sinusal (bradicardia sinusal inapropriada, bloqueio sinoatrial, parada sinusal e fibrilação atrial de resposta baixa) é uma manifestação clássica do acometimento do sistema de condução na cardiopatia chagásica, decorrente da destruição neuronal autonômica e fibrose miocárdica associadas à doença.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_061",
+      "statement": "Paciente de 45 anos, com dispneia progressiva, apresentou, ao ecocardiograma, fração de ejeção de 35% e acinesia inferior. O eletrocardiograma encontra-se reproduzido a seguir. A ressonância magnética realizada confirmou fibrose inferior e o achado prévio, já descrito ao ecocardiograma (seta vermelha). Qual o diagnóstico mais provável?",
+      "alternatives": [
+        {"key": "a", "text": "Sequela de infarto inferior."},
+        {"key": "b", "text": "Doença de Chagas."},
+        {"key": "c", "text": "Miocardite de apresentação tardia."},
+        {"key": "d", "text": "Cardiopatia hipertensiva em fase dilatada."},
+        {"key": "e", "text": "Agenesia do pericárdio."}
+      ],
+      "correct_key": "b",
+      "explanation": "ATENÇÃO: eletrocardiograma e imagem de ecocardiograma citados (com seta vermelha) mas não disponíveis integralmente na extração do PDF. Acinesia inferior com fibrose confirmada por RM, no contexto epidemiológico e sem menção a evento coronariano agudo prévio, é compatível com o padrão de acometimento segmentar típico da cardiomiopatia chagásica (frequentemente afeta a parede inferolateral/apical, mimetizando sequela isquêmica).",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "mio_062",
+      "statement": "Em relação às doenças do miocárdio e endocárdio, correlacione as tabelas corretamente. ( ) Miocardite ( ) Fração de ejeção > 60% ( ) Doença infiltrativas ( ) Síncope ( ) Esclerodermia. A – Hipertrófica; B – Dilatada; C – Restritiva.",
+      "alternatives": [
+        {"key": "a", "text": "A, B, C, A, B."},
+        {"key": "b", "text": "B, A, C, A, C."},
+        {"key": "c", "text": "C, B, A, B, A."},
+        {"key": "d", "text": "B, C, B, C, A."},
+        {"key": "e", "text": "A, A, C, B, C."}
+      ],
+      "correct_key": "b",
+      "explanation": "A associação correta é: Miocardite → Dilatada (B, causa clássica de cardiomiopatia dilatada); Fração de ejeção > 60% → Hipertrófica (A, tipicamente hipercontrátil/FE preservada ou aumentada); Doença infiltrativa → Restritiva (C, ex.: amiloidose); Síncope → Hipertrófica (A, por obstrução dinâmica da via de saída/arritmias); Esclerodermia → Restritiva (C, doença do tecido conjuntivo associada a fibrose miocárdica restritiva).",
+      "theme": "cardio_perimio",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-27T00:00:00.000Z"
     }
   ]
 }
