@@ -948,6 +948,11 @@ export const AREAS: Area[] = [
           { id: 'ort_lux', label: 'Luxações agudas' },
         ]
       },
+      {
+        id: 'orto_trauma_basico',
+        label: 'Conceitos Básicos do Trauma Ortopédico',
+        subtemas: []
+      },
     ]
   },
 

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T12:57:59.734Z",
+  "generatedAt": "2026-07-28T16:33:04.584Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,7 +26,7 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 1603,
+  "totalQuestions": 1635,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
@@ -58,6 +58,7 @@
     "atls_via_aerea": 1,
     "cinetica_trauma": 1,
     "atls_genitourinario": 1,
+    "orto_trauma_basico": 32,
     "ped_bronco": 2,
     "pneumo_outros": 6,
     "dpoc_dx": 21,
@@ -2235,8 +2236,10 @@
     {
       "area": "ortopedia",
       "slug": "trauma-ortopedico",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "orto_trauma_basico"
+      ],
+      "questionsCount": 32,
       "flashcardsCount": 0,
       "casosCount": 0
     },
