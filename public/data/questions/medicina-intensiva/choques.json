@@ -757,6 +757,23 @@
       "difficulty": "dificil",
       "reviewed": false,
       "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "choq_047",
+      "statement": "Homem de 65 anos é admitido na emergência com alteração aguda do estado mental, taquicardia, taquipneia e Pressão Arterial Média (PAM) de 55 mmhg. Com relação ao quadro desse paciente, assinale a opção INCORRETA:",
+      "alternatives": [
+        {"key": "a", "text": "Considerar administração de inotrópicos e redução da pós-carga se apresentar pressão venosa jugular aumentada e estertores."},
+        {"key": "b", "text": "Pensar em choque séptico se a pele e as extremidades estiverem quentes."},
+        {"key": "c", "text": "Avaliar insuficiência hepática se a pele e as extremidades estiverem quentes."},
+        {"key": "d", "text": "Afastar choque cardiogênico se a pele e as extremidades estiverem frias e pegajosas."},
+        {"key": "e", "text": "Pensar em choque hipovolêmico se a pele e as extremidades estiverem frias e pegajosas."}
+      ],
+      "correct_key": "d",
+      "explanation": "É a afirmativa incorreta: extremidades frias e pegajosas ('choque frio') NÃO afastam choque cardiogênico — pelo contrário, são justamente a apresentação clássica do choque cardiogênico (vasoconstrição periférica compensatória à baixa perfusão), assim como do choque hipovolêmico. Extremidades quentes ('choque quente') sugerem choque distributivo (séptico) ou causas com vasodilatação (incluindo insuficiência hepática avançada, que cursa com vasoplegia sistêmica similar à sepse). Pressão venosa jugular aumentada com estertores sugere componente cardiogênico/congestivo, justificando considerar inotrópicos e redução de pós-carga.",
+      "theme": "emg_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
     }
   ]
 }

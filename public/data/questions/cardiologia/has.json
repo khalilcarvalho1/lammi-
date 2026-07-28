@@ -5839,6 +5839,1615 @@
       "difficulty": "dificil",
       "reviewed": false,
       "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "has_280",
+      "statement": "Mulher, 40 anos de idade, tem diagnóstico de hipertensão arterial há 5 anos e faz uso de losartana 100 mg/dia, hidroclorotiazida 25 mg/dia e amlodipina 5 mg/dia. Traz MRPA com médias de PA de 152/96 mmHg. Exame físico: PA 150/90 mmHg, FC 70 bpm; IMC 23 kg/m²; sem outras alterações. Exames laboratoriais: creatinina = 0,7 mg/dL (VR 0,6-1,2), potássio = 3,0 mEq/L (VR 3,5-5,5), sódio = 138 mEq/L (VR 135-145). Qual é a investigação inicial mais adequada para estabelecer a etiologia da hipertensão arterial?",
+      "alternatives": [
+        {"key": "a", "text": "Dosagem de aldosterona plasmática e atividade da renina plasmática."},
+        {"key": "b", "text": "Dosagem de cortisol sérico após 1 mg de dexametasona."},
+        {"key": "c", "text": "Dosagem de cortisol em urina de 24 horas em 3 amostras."},
+        {"key": "d", "text": "Tomografia computadorizada de abdome com protocolo para feocromocitoma."}
+      ],
+      "correct_key": "a",
+      "explanation": "Hipertensão resistente (3 classes em dose adequada, incluindo diurético) associada a hipocalemia espontânea (potássio 3,0, sem uso de diurético poupador) é o quadro clássico sugestivo de hiperaldosteronismo primário. A investigação inicial mais adequada é a dosagem de aldosterona plasmática e atividade de renina plasmática (relação aldosterona/renina), exame de triagem de primeira linha.",
+      "theme": "has_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_281",
+      "statement": "Paciente de 37 anos apresentou quadro de hipertensão arterial diastólica (125/100 mmHg) em revisão anual com ginecologista. Eco-Doppler de artérias renais mostrou estenose > 60% na artéria renal direita. Qual a etiologia mais provável e qual o tratamento adequado?",
+      "alternatives": [
+        {"key": "a", "text": "Displasia fibromuscular – tratamento clínico com anti-hipertensivos"},
+        {"key": "b", "text": "Displasia fibromuscular – angioplastia de artéria renal"},
+        {"key": "c", "text": "Aterosclerose – angioplastia com implante de stent"},
+        {"key": "d", "text": "Aterosclerose – tratamento clínico com anti-hipertensivos"}
+      ],
+      "correct_key": "b",
+      "explanation": "Mulher jovem (37 anos) com hipertensão renovascular é o perfil epidemiológico clássico de displasia fibromuscular (diferente da aterosclerose, mais associada a homens idosos com fatores de risco cardiovascular). O tratamento de escolha para displasia fibromuscular sintomática é a angioplastia de artéria renal (sem necessidade de stent, ao contrário da forma aterosclerótica, que frequentemente requer stent).",
+      "theme": "has_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_282",
+      "statement": "Homem de 44 anos chega para consulta acompanhado da esposa, a qual reclama que ele ronca muito à noite. Ao final da avaliação, o médico explica que o diagnóstico provável é de apneia obstrutiva do sono. A orientação do profissional deve ser de que tal condição é fator de risco para",
+      "alternatives": [
+        {"key": "a", "text": "sinusopatia."},
+        {"key": "b", "text": "hipertensão arterial sistêmica."},
+        {"key": "c", "text": "pneumonia."},
+        {"key": "d", "text": "asma brônquica."},
+        {"key": "e", "text": "doença pulmonar obstrutiva crônica."}
+      ],
+      "correct_key": "b",
+      "explanation": "A síndrome da apneia obstrutiva do sono (SAOS) é reconhecidamente uma causa importante de hipertensão arterial secundária (e fator agravante de HAS resistente), pela ativação simpática intermitente associada aos episódios de hipóxia/despertar durante o sono.",
+      "theme": "has_dx",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_283",
+      "statement": "A Hipertensão Arterial (HA) é uma das principais causas de doença no mundo, afetando mais de 1 bilhão de indivíduos e causando cerca de 9,4 milhões de mortes a cada ano. Avalie as afirmativas seguintes sobre a HA e assinale como verdadeira (V) ou falsa (F). I. Os acidentes vasculares cerebrais (AVC) são frequentes nos hipertensos, e cerca de 85% deles são hemorrágicos. II. Pacientes com HA que apresentam hipertrofia ventricular esquerda (HVE) têm maior risco de cardiopatia isquêmica, AVC, insuficiência cardíaca e morte súbita. O controle terapêutico agressivo da hipertensão pode regredir ou reverter a HVE e reduzir o risco de cardiopatia. III. O rim é tanto um alvo como uma causa de hipertensão. A macroalbuminúria (razão aleatória albumina/creatinina urinária > 10 mg/g) é um marcador precoce de lesão renal. IV. Nos pacientes com hipertensão maligna, a encefalopatia hipertensiva está relacionada com falha da autorregulação do fluxo sanguíneo cerebral, resultando em vasodilatação e hiperperfusão. V. O sistema renina-angiotensina-aldosterona contribui para a regulação da pressão arterial primariamente por meio das propriedades vasodilatadoras da angiotensina II e de excreção de sódio da aldosterona. A sequência correta é",
+      "alternatives": [
+        {"key": "a", "text": "F, V, F, V, F"},
+        {"key": "b", "text": "V, V, F, F, V"},
+        {"key": "c", "text": "F, V, F, F, V"},
+        {"key": "d", "text": "F, F, V, V, F"},
+        {"key": "e", "text": "V, F, F, V, V"}
+      ],
+      "correct_key": "a",
+      "explanation": "II é verdadeira: HVE aumenta risco cardiovascular e pode regredir com controle pressórico agressivo. IV é verdadeira: a encefalopatia hipertensiva decorre de falha da autorregulação cerebral com vasodilatação/hiperperfusão. I é falsa: a maioria dos AVCs em hipertensos é ISQUÊMICA (não 85% hemorrágicos). III é falsa: o marcador precoce correto é a MICROalbuminúria (não macroalbuminúria >10mg/g — o limiar de microalbuminúria é diferente). V é falsa: a angiotensina II tem propriedades VASOCONSTRITORAS (não vasodilatadoras), e a aldosterona promove RETENÇÃO (não excreção) de sódio.",
+      "theme": "has_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_284",
+      "statement": "Um homem com 64 anos de idade chega ao serviço de emergência, conduzido pelos familiares, por confusão mental e sonolência. O paciente tem história de hipertensão arterial sistêmica com difícil controle. Ao exame, apresenta edema de papila ao fundo de olho, pressão arterial (PA) de 220 x 130 mmHg, presença de 4ª bulha na ausculta cardíaca. O restante do exame físico não apresenta alterações. A tomografia de crânio sem contraste não evidenciou sinais de isquemia cerebral. O tratamento de primeira escolha a ser proposto para esse paciente é iniciar",
+      "alternatives": [
+        {"key": "a", "text": "clonidina, via oral, com o objetivo de reduzir a PA em até 50% em 24 horas ou para uma PA na faixa de 140x90-85 mmHg."},
+        {"key": "b", "text": "nitroprussiato endovenoso com o objetivo de reduzir a PA em até 25% em 2 horas ou para uma PA na faixa de 160 x 100-110 mmHg."},
+        {"key": "c", "text": "nitroglicerina endovenosa com o objetivo de reduzir a PA em até 25% em 2 horas ou para uma PA na faixa de 160 x 100-110 mmHg."},
+        {"key": "d", "text": "captopril, via sublingual, com o objetivo de reduzir a PA em 50% em 8 horas ou para uma PA na faixa de 140x90-85 mmHg."}
+      ],
+      "correct_key": "b",
+      "explanation": "Quadro de encefalopatia hipertensiva (confusão mental, sonolência, edema de papila, PA muito elevada, sem evidência de AVC na TC) é emergência hipertensiva, tratada com anti-hipertensivo parenteral. O nitroprussiato de sódio endovenoso é a droga de primeira escolha, com meta de redução de até 25% da PA nas primeiras 2 horas (ou para faixa de 160x100-110mmHg), evitando quedas mais bruscas que possam comprometer a perfusão cerebral.",
+      "theme": "has_emerg",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_285",
+      "statement": "Homem, 50a, procura atendimento em Unidade de Emergência por dor torácica associada a palpitações, tremores e sudorese. Refere episódios prévios semelhantes. Exame físico: PA= 222x124 mmHg; FC= 122 bpm; sudoreico; tremor de extremidades. Fundo de olho: cruzamentos patológicos e papila nítida. ECG: sobrecarga de ventrículo esquerdo. Troponina: normal. A HIPÓTESE DIAGNÓSTICA É:",
+      "alternatives": [
+        {"key": "a", "text": "Dissecção aguda de aorta."},
+        {"key": "b", "text": "Doença de Addison."},
+        {"key": "c", "text": "Hipertensão maligna."},
+        {"key": "d", "text": "Feocromocitoma."}
+      ],
+      "correct_key": "d",
+      "explanation": "Episódios paroxísticos recorrentes de PA muito elevada com a tríade clássica (palpitações, sudorese, tremores/cefaleia), sem edema de papila (papila nítida, afastando hipertensão maligna) e troponina normal (afastando SCA), é o quadro clássico de feocromocitoma.",
+      "theme": "has_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_286",
+      "statement": "A hipertensão arterial sistêmica é uma doença prevalente nas sociedades, e aproximadamente 5% dos casos são relacionados a causas identificáveis. Para pesquisa de hiperaldosteronismo primário, os seguintes exames são úteis, exceto:",
+      "alternatives": [
+        {"key": "a", "text": "Aldosterona plasmática."},
+        {"key": "b", "text": "Catecolaminas urinárias."},
+        {"key": "c", "text": "Atividade de renina plasmática."},
+        {"key": "d", "text": "Potássio sérico."}
+      ],
+      "correct_key": "b",
+      "explanation": "As catecolaminas urinárias são exame de triagem para FEOCROMOCITOMA, não para hiperaldosteronismo primário, cujos exames de triagem são aldosterona plasmática, atividade de renina plasmática (relação aldosterona/renina) e potássio sérico (frequentemente baixo).",
+      "theme": "has_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_287",
+      "statement": "Mulher de 75 anos dá entrada no pronto-socorro referindo intensa cefaleia associada a confusão mental, vômitos e sudorese. Ao exame, apresentava ritmo cardíaco regular, FC = 80 BPM e PA = 240x140 mmHg, em ambos os membros superiores. Nesse caso, qual é o diagnóstico mais provável?",
+      "alternatives": [
+        {"key": "a", "text": "Enxaqueca."},
+        {"key": "b", "text": "Acidente vascular cerebral."},
+        {"key": "c", "text": "Infarto agudo do miocárdio."},
+        {"key": "d", "text": "Emergência hipertensiva."}
+      ],
+      "correct_key": "d",
+      "explanation": "PA extremamente elevada (240x140) com sinais de lesão aguda de órgão-alvo (cefaleia intensa, confusão mental, vômitos, sudorese, compatível com encefalopatia hipertensiva) caracteriza emergência hipertensiva.",
+      "theme": "has_emerg",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_288",
+      "statement": "Mulher, 25 anos de idade, é atendida no PS com PA = 180/100 mmHg após ter utilizado cocaína. Nega comorbidades e não apresenta disfunções orgânicas. Qual é a droga de escolha para tratar essa urgência hipertensiva?",
+      "alternatives": [
+        {"key": "a", "text": "Captopril."},
+        {"key": "b", "text": "Nitroprussiato de sódio."},
+        {"key": "c", "text": "Propranolol."},
+        {"key": "d", "text": "Diazepam."}
+      ],
+      "correct_key": "d",
+      "explanation": "Na hipertensão induzida por cocaína, o tratamento de escolha é o diazepam (benzodiazepínico), que atua reduzindo a hiperativação simpática central característica da intoxicação. Betabloqueadores (propranolol) são CONTRAINDICADOS nesse contexto, pelo risco de vasoconstrição coronariana sem oposição (bloqueio beta com atividade alfa preservada, 'efeito alfa sem oposição').",
+      "theme": "has_emerg",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_289",
+      "statement": "Mulher de 25 anos, sem comorbidades, compareceu à Unidade Básica de Saúde (UBS) para atendimento de rotina. Durante a consulta, o médico detectou níveis pressóricos de 160 x 110mmHg em membro superior direito e 150 x 100mmHg em membro superior esquerdo. Iniciou tratamento anti-hipertensivo com enalapril e solicitou alguns exames. Duas semanas depois, a paciente retornou com os seguintes resultados: hemoglobina = 12,8mg/dL, hematócrito = 38%, leucócitos = 4.600/mm³, plaquetas = 180.000/mm³, creatinina = 2,8mg/dL, ureia = 78mg/dL, sódio = 134meq/L, potássio = 5,8meq/L e fósforo = 2,2meq/L. Ultrassonografia de rins e vias urinárias: rins tópicos, com dissociação corticomedular preservada, sem cálculos ou dilatação pielocalicial, com medidas no maior eixo de 10cm (rim direito) e 9cm (rim esquerdo). A etiologia mais provável da hipertensão arterial é o(a):",
+      "alternatives": [
+        {"key": "a", "text": "hiperaldosteronismo primário"},
+        {"key": "b", "text": "estenose de artéria renal"},
+        {"key": "c", "text": "hipertensão essencial"},
+        {"key": "d", "text": "doença renal crônica"}
+      ],
+      "correct_key": "b",
+      "explanation": "Mulher jovem com HAS de início recente, assimetria pressórica entre os membros (achado que reflete assimetria de fluxo, sugestivo de acometimento vascular), piora aguda da função renal após introdução de IECA (creatinina subindo para 2,8, hipercalemia) e rins de tamanho normal/preservados (afastando doença renal crônica avançada) é o quadro clássico de estenose de artéria renal (provavelmente displasia fibromuscular nessa faixa etária).",
+      "theme": "has_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_290",
+      "statement": "Homem de 70 anos, hipertenso de longa data, é admitido na emergência com dispneia aguda. Ao exame físico, apresenta pressão arterial de 220x120mmHg e crepitações pulmonares bilaterais em dois terços inferiores. Considerando o diagnóstico mais provável, quais medicamentos dentre os listados abaixo, devem ser prescritos, prioritariamente.",
+      "alternatives": [
+        {"key": "a", "text": "Morfina e Dobutamina."},
+        {"key": "b", "text": "Morfina e Nitroglicerina."},
+        {"key": "c", "text": "Furosemida e Dobutamina."},
+        {"key": "d", "text": "Furosemida e Nitroglicerina."}
+      ],
+      "correct_key": "d",
+      "explanation": "Edema agudo de pulmão hipertensivo (PA muito elevada com crepitações bilaterais): o tratamento prioritário é a redução da pré-carga e pós-carga com nitroglicerina (vasodilatador) associada a furosemida (diurético de alça), sem necessidade de inotrópico (dobutamina), já que o quadro decorre primariamente de crise hipertensiva, não de disfunção sistólica primária com baixo débito.",
+      "theme": "has_emerg",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_291",
+      "statement": "Uma mulher de 48 anos de idade é trazida por familiares à unidade de emergência com quadro de confusão mental, cefaleia e amaurose bilateral. É portadora de HAS resistente há 2 anos, e nas últimas 2 semanas não vem tomando os anti-hipertensivos. Cefaleia holocraniana pouco responsiva a fármacos e turvação visual na véspera; hoje, confusão e amaurose. PA = 240 x 160 mmHg, FC = 96 bpm. Sopro auscultado no flanco direito do abdome. TC de crânio: áreas hipodensas em regiões occipitais. RM de encéfalo (T2): hiperintensidade de sinal nos lobos occipitais, sem limites bem definidos. Instituído o tratamento indicado, a paciente evolui com regressão completa dos déficits neurológicos. Acerca do tratamento da paciente em questão, pode-se afirmar que",
+      "alternatives": [
+        {"key": "a", "text": "o alvo terapêutico no caso seria a normalização da pressão arterial em, no máximo, 2 horas."},
+        {"key": "b", "text": "após compensação clínica, seria fundamental ressecar o tumor adrenal secretor presente à direita."},
+        {"key": "c", "text": "nicardipina e labetalol por via intravenosa seriam excelentes escolhas farmacológicas para a redução da PA da paciente."},
+        {"key": "d", "text": "em razão da presença de trombose da artéria basilar, deveria ser adicionada anticoagulação plena com heparina de baixo peso molecular."}
+      ],
+      "correct_key": "c",
+      "explanation": "O quadro (hiperintensidade occipital em T2 sem limites bem definidos, reversível após tratamento) é característico de PRES (síndrome de encefalopatia posterior reversível), associado a emergência hipertensiva. Nicardipina e labetalol IV são excelentes escolhas farmacológicas para essa situação. Não se deve buscar normalização completa da PA (apenas redução gradual e parcial); o sopro abdominal sugere estenose de artéria renal (não tumor adrenal a ser ressecado); e não há evidência de trombose de artéria basilar nem indicação de anticoagulação plena nesse quadro de PRES.",
+      "theme": "has_emerg",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_292",
+      "statement": "A Encefalopatia Hipertensiva pode se apresentar com o quadro clínico descrito, corretamente, no item:",
+      "alternatives": [
+        {"key": "a", "text": "Nunca com início insidioso, evoluindo com cefaleia holocraniana, náuseas ou vômitos."},
+        {"key": "b", "text": "Com início insidioso, jamais evoluindo com cefaleia holocraniana, náuseas ou vômitos."},
+        {"key": "c", "text": "Com início insidioso, evoluindo com cefaleia holocraniana, náuseas ou vômitos."},
+        {"key": "d", "text": "Com início insidioso, evoluindo com cefaleia holocraniana e náuseas, porém nunca com vômitos."}
+      ],
+      "correct_key": "c",
+      "explanation": "A encefalopatia hipertensiva classicamente apresenta início insidioso, evoluindo com cefaleia holocraniana, náuseas e/ou vômitos, podendo progredir para alterações do nível de consciência e déficits neurológicos se não tratada.",
+      "theme": "has_emerg",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_293",
+      "statement": "Paciente masculino deu entrada no serviço de emergência com queixa de cefaleia frontal, referida como enxaqueca. Ao exame físico apresentava-se com FC = 100 bpm, PA = 180x130 mmHg, exame neurológico normal, fundo de olho evidenciando papilas normais. Submetido a eletrocardiograma que evidenciou sobrecarga de câmaras esquerda. Assinale o diagnóstico e a conduta correta:",
+      "alternatives": [
+        {"key": "a", "text": "O paciente apresenta-se em urgência hipertensiva, devendo receber medicação via oral (captopril) e com reavaliação ambulatorial precoce (em até 7 dias)."},
+        {"key": "b", "text": "O paciente apresenta-se em uma emergência hipertensiva, porque há lesão em órgão alvo, devendo receber medicação parenteral (nitroprussiato de sódio) e internação em enfermaria após estabilização."},
+        {"key": "c", "text": "O paciente apresenta-se em uma emergência hipertensiva, porque há hemorragia em retina, devendo receber medicação parenteral (nitroprussiato de sódio) e internação em UTI."},
+        {"key": "d", "text": "O paciente apresenta hipertensão arterial crônica e não se caracteriza urgência ou emergência hipertensiva, devendo ser liberado após medicação via oral (furosemida)."}
+      ],
+      "correct_key": "a",
+      "explanation": "Sem sinais agudos de lesão de órgão-alvo (exame neurológico normal, fundo de olho normal; a sobrecarga de câmaras esquerda ao ECG reflete hipertrofia CRÔNICA, não lesão aguda), o quadro caracteriza urgência hipertensiva, tratada com medicação via oral (captopril) e reavaliação ambulatorial precoce, sem necessidade de internação ou medicação parenteral.",
+      "theme": "has_emerg",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_294",
+      "statement": "Paciente de 70 anos é atendido no ambulatório de Clínica Médica com queixa de cansaço aos grandes esforços há 2 meses. Hipertenso e diabético há 18 anos, em uso de captopril 150mg/dia, furosemida 25mg/dia, atenolol 50mg/dia, insulina NPH 30:20:10 UI, Metformina 1700mg/dia. Exames de 15 dias: Hemoglobina = 9,6 g/dl (VCM=87, HCM=30); Urina EAS com densidade 1014, pH 6, leucócitos 10000, eritrócitos 12000, proteína 4+/4+, hemoglobina ausente; Creatinina = 3,6 mg/dl; Potássio = 5,4 mEq/L; Albumina sérica 3,8 mg/dl. PA = 160x90 mmHg; FC = 78 bpm; FR = 20 ipm; Peso 80kg. Edema de MMII 2+/4+. Assinale a alternativa correta em relação ao paciente.",
+      "alternatives": [
+        {"key": "a", "text": "O paciente é um renal crônico com nefropatia diabética e a realização do fundo de olho é importante para o diagnóstico."},
+        {"key": "b", "text": "O paciente é um cardiopata com síndrome cardio-renal tipo 1 e a realização de cintilografia miocárdica é importante para o diagnóstico."},
+        {"key": "c", "text": "O paciente é um renal crônico com doença renovascular e o ultrassom renal com doppler é importante para o diagnóstico."},
+        {"key": "d", "text": "O paciente é um cardiopata com síndrome cardio-renal tipo 2 e a realização de ecocardiograma é importante para o diagnóstico."}
+      ],
+      "correct_key": "a",
+      "explanation": "Paciente diabético e hipertenso de longa data (18 anos), com anemia normocítica normocrômica (típica de DRC), proteinúria maciça e creatinina elevada (3,6) é o quadro clássico de doença renal crônica por nefropatia diabética. A fundoscopia é importante nesse contexto pois a retinopatia diabética frequentemente acompanha a nefropatia diabética (correlação microvascular), reforçando o diagnóstico quando presente.",
+      "theme": "has_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_295",
+      "statement": "Paciente masculino, 70 anos, hipertenso, diabético e obeso, dá entrada no pronto atendimento com quadro de dor torácica de início súbito há cerca de 2 horas, de forte intensidade, com irradiação para região dorsal. Na admissão, está com PA:200/110, FC:95bpm, FR:16ipm, SO2:95%, com ausculta cardíaca mostrando sopro aórtico sistólico +++/IV, pulsos periféricos assimétricos, finos e palidez cutânea com pele fria. Foi realizada tomografia da aorta com contraste com diagnóstico de dissecção aguda de aorta. Sobre esse quadro, assinale a alternativa correta.",
+      "alternatives": [
+        {"key": "a", "text": "O controle da dor do paciente deve ser feito com anti-inflamatório não esteroidal, como dipirona."},
+        {"key": "b", "text": "O uso de nitroprussiato de sódio deve ser iniciado imediatamente para controle pressórico em monoterapia."},
+        {"key": "c", "text": "Deve-se iniciar anticoagulação do paciente."},
+        {"key": "d", "text": "Deve-se ter como alvo o betabloqueio efetivo do paciente, com a FC oscilando entre 60 e 75."},
+        {"key": "e", "text": "O tratamento inicial deve ser com administração de betabloqueadores por via endovenosa, visando diminuir a frequência cardíaca e a pressão arterial."}
+      ],
+      "correct_key": "e",
+      "explanation": "No tratamento da dissecção aguda de aorta, a conduta inicial é a administração de betabloqueadores IV, visando reduzir tanto a frequência cardíaca quanto a força de ejeção (dP/dt) e a pressão arterial, diminuindo o estresse de cisalhamento na parede aórtica — sempre ANTES de associar vasodilatadores como nitroprussiato (que, isolado, causaria taquicardia reflexa e piora do estresse de parede). Não se usa AINE para dor (prefere-se opioide) nem anticoagulação (contraindicada, risco de sangramento na dissecção).",
+      "theme": "has_emerg",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_296",
+      "statement": "Paciente, 65 anos, masculino, previamente hipertenso, em uso regular da medicação, é admitido no setor de urgência com quadro de aumento pressórico de forma rápida, associado à cefaleia holocraniana, vômitos e confusão mental. Nega demais sintomas associados, como febre. Na admissão, está com PA: 210/130mmHg, FC:60bpm, FR:14ipm, SO2:96% em ar ambiente. A respeito desse o quadro, é correto afirmar que",
+      "alternatives": [
+        {"key": "a", "text": "deve-se considerar o diagnóstico de crise hipertensiva, com encefalopatia hipertensiva, e a meta é redução da PA média em 10 a 15% na primeira hora e até 25% no primeiro dia de tratamento."},
+        {"key": "b", "text": "o diagnóstico é crise de migrânea, sendo o tratamento a analgesia forte e hidratação."},
+        {"key": "c", "text": "o diagnóstico é hipertensão intracraniana e deve ser feita imediata punção de líquido cefalorraquidiano."},
+        {"key": "d", "text": "devem ser feitos controle com medicação anti-hipertensiva via oral e solicitação de exames para análise de possível lesão de órgão-alvo."},
+        {"key": "e", "text": "um dos diagnósticos diferenciais do quadro neurológico é hipertensão maligna e, nesse caso, deve ser feita ressonância para diferenciar etiologias."}
+      ],
+      "correct_key": "a",
+      "explanation": "Cefaleia holocraniana, vômitos e confusão mental com PA muito elevada é compatível com encefalopatia hipertensiva (emergência hipertensiva). A meta terapêutica é redução gradual e controlada: 10-15% da PA média na primeira hora, com meta de até 25% de redução total no primeiro dia, evitando quedas abruptas que comprometam a perfusão cerebral.",
+      "theme": "has_emerg",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_297",
+      "statement": "Homem de 64 anos de idade apresenta exacerbação de gota envolvendo o pé direito. Dor 9/10, apesar de ter tomado naproxeno. Nega dor torácica, dispneia, cefaleia, alteração visual ou sintomas urinários. Exame físico: alerta, orientado, afebril, eupneico; pressão arterial: 200 x 105 mmHg, pulso: 82 bpm, FR: 16 ipm; cardiopulmonar normal; pulsos palpáveis e simétricos. Em relação ao caso clínico descrito, constitui uma afirmação correta acerca do manuseio inicial:",
+      "alternatives": [
+        {"key": "a", "text": "iniciar anti-hipertensivo parenteral e solicitar internação na unidade de terapia intensiva."},
+        {"key": "b", "text": "prescrever 100 mg de cetoprofeno parenteral e 0,6 mg de clonidina oral."},
+        {"key": "c", "text": "prescrever colchicina, prednisona e captopril sublingual."},
+        {"key": "d", "text": "prescrever 100 mg de tramadol intravenoso e 50 mg de captopril oral."},
+        {"key": "e", "text": "não há indicação de medicação anti-hipertensiva nesse momento."}
+      ],
+      "correct_key": "e",
+      "explanation": "PA elevada (200x105) reativa à dor intensa de crise de gota, sem sintomas ou sinais de lesão aguda de órgão-alvo, não caracteriza emergência nem verdadeira urgência hipertensiva — trata-se de uma elevação pressórica secundária à dor/estresse agudo. A conduta correta é tratar a causa (a crise de gota) e reavaliar a PA após controle álgico, sem necessidade de medicação anti-hipertensiva imediata.",
+      "theme": "has_emerg",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_298",
+      "statement": "Atualmente, várias opções terapêuticas medicamentosas estão disponíveis para o tratamento das Emergências Hipertensivas (EH). O fármaco anti-hipertensivo ideal para uso parenteral deve apresentar as seguintes características listadas abaixo, indique a errada.",
+      "alternatives": [
+        {"key": "a", "text": "capacidade de reverter alterações fisiopatológicas envolvidas."},
+        {"key": "b", "text": "rápido início de ação."},
+        {"key": "c", "text": "curva dose-resposta imprevisível."},
+        {"key": "d", "text": "mínimo ajuste de dosagem"}
+      ],
+      "correct_key": "c",
+      "explanation": "O fármaco ideal para emergências hipertensivas deve ter curva dose-resposta PREVISÍVEL (não imprevisível), permitindo titulação segura e controlada — essa é a característica errada listada, ao contrário de rápido início de ação, capacidade de reverter a fisiopatologia envolvida e mínimo ajuste posológico, que são desejáveis.",
+      "theme": "has_emerg",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_299",
+      "statement": "Durante a abordagem da Emergências Hipertensivas (EH), o profissional deverá realizar a diferenciação entre emergência e urgência, fazendo o diagnóstico correto das diversas situações de EH, a fim de selecionar a terapia mais adequada para cada Lesão de Órgão Alvo (LOA).",
+      "alternatives": [
+        {"key": "a", "text": "Isso é muito importante, pois o diagnóstico e o tratamento corretos podem evitar agravamento do quadro clínico decorrente da situação crítica."},
+        {"key": "b", "text": "Isso é muito importante, pois o diagnóstico e o tratamento corretos não evitam agravamento do quadro clínico decorrente da situação crítica."},
+        {"key": "c", "text": "Isso não é importante, pois o diagnóstico e o tratamento incorretos podem evitar agravamento do quadro clínico decorrente da situação crítica."},
+        {"key": "d", "text": "Isso é muito importante, pois o diagnóstico e o tratamento incorretos podem evitar agravamento do quadro clínico decorrente da situação crítica."}
+      ],
+      "correct_key": "a",
+      "explanation": "A diferenciação correta entre emergência e urgência hipertensiva é fundamental, pois o diagnóstico e tratamento adequados (não incorretos) evitam o agravamento do quadro clínico decorrente da situação crítica.",
+      "theme": "has_emerg",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_300",
+      "statement": "Mulher, 74 anos de idade, com antecedente de acidente vascular isquêmico há 8 anos, sem sequelas, com bom controle da pressão arterial, em uso de anlodipino 10 mg/dia. Em sua última consulta, apresentou diário de controle pressórico repleto de valores fora da meta (PAS sempre em torno de 190 mmHg). Negava mudança de dieta ou má aderência. Optou-se pela introdução de enalapril e hidroclorotiazida. Na consulta de retorno, após o uso das medicações, a paciente traz exames com creatinina = 2,8 mg/dL (valor prévio = 1,3 mg/dL); ureia = 196 mg/dL; K = 5,1 mEq/L. As condutas medicamentosa e diagnóstica para esta paciente devem ser, respectivamente:",
+      "alternatives": [
+        {"key": "a", "text": "Início de alisquireno; ultrassonografia de abdome total."},
+        {"key": "b", "text": "Suspensão do enalapril; ultrassonografia com doppler de artérias renais."},
+        {"key": "c", "text": "Suspensão de hidroclorotiazida; ultrassonografia com doppler de artérias renais."},
+        {"key": "d", "text": "Suspensão do enalapril; dosagem de renina e aldosterona plasmática."}
+      ],
+      "correct_key": "b",
+      "explanation": "Piora aguda e importante da função renal (creatinina de 1,3 para 2,8) e hipercalemia após introdução de IECA em paciente idosa com aterosclerose sistêmica conhecida (AVC isquêmico prévio) é o quadro clássico de estenose bilateral de artéria renal desmascarada pelo IECA. A conduta é suspender o enalapril imediatamente e investigar com ultrassonografia com doppler de artérias renais.",
+      "theme": "has_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_301",
+      "statement": "Você atende um paciente caucasiano de 35 anos, previamente hígido, com episódios semanais de cefaleia occipital associados a níveis pressóricos elevados (PAS entre 160 e 180 mmHg, PAD entre 100 e 120 mmHg) nos últimos 3 meses. Em uso de losartana 50 mg 1x/dia regularmente há 1 mês, com discreta redução dos níveis pressóricos. Exame físico: IMC 25, FC 72bpm, PA 182 x 122 mmHg, sem outras alterações. Exames laboratoriais colhidos na mesma semana: creatinina 0,95 mg/dL (VR 0,7-1,3); sódio 145 mEq/L (VR 135-145); potássio 3,4 mEq/L (VR 3,5-5,0); glicemia jejum 95; colesterol total 220; HDL 35; triglicérides 145; urina rotina pH 6,0, proteína negativa. Assinale entre as alternativas abaixo aquela que indica a melhor conduta para esse paciente.",
+      "alternatives": [
+        {"key": "a", "text": "Troca da losartana por amlodipina 10 mg/dia e solicitação de ultrassom doppler de artérias renais."},
+        {"key": "b", "text": "Aumento da losartana para 100 mg/dia, associação de hidroclortiazida 25 mg/dia e solicitação de curva pressórica."},
+        {"key": "c", "text": "Aumento da losartana para 100 mg/dia, solicitação de eletrocardiograma e ecocardiograma."},
+        {"key": "d", "text": "Troca da losartana por amlodipina 10 mg/dia, solicitação de aldosterona e atividade de renina plasmáticas."}
+      ],
+      "correct_key": "d",
+      "explanation": "Hipertensão de difícil controle em paciente jovem, com potássio no limite inferior (3,4, discretamente baixo) mesmo em uso de BRA (que tenderia a elevar o potássio), sódio no limite superior e sem outras causas aparentes, sugere hiperaldosteronismo primário. Como o uso de BRA (losartana) pode interferir na relação aldosterona/renina, a conduta correta é trocar por uma classe que não interfira no eixo SRAA (amlodipina) antes de solicitar aldosterona e atividade de renina plasmáticas.",
+      "theme": "has_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_302",
+      "statement": "Homem, 45 anos, portador de hipertensão arterial há 5 anos em tratamento com hidroclorotiazida, enalapril e anlodipino em doses máximas retorna para seguimento com monitorização ambulatorial da pressão arterial (MAPA). Queixa-se de episódios de elevação de pressão arterial em domicílio, apesar da aderência ao tratamento farmacológico e não farmacológico, e nega uso de outras medicações. Exame físico sem alterações, PA: 143 x 91 mmHg, FC 73 bpm, peso de 80 kg, altura 1,6 m (IMC ~31,3 kg/m²). MAPA (figura, com registro de medidas individuais oscilantes ao longo das 24h) com média das pressões em 24 horas de 135 x 86 mmHg. Qual a condição clínica mais provável neste caso?",
+      "alternatives": [
+        {"key": "a", "text": "Síndrome da apneia obstrutiva do sono."},
+        {"key": "b", "text": "Feocromocitoma."},
+        {"key": "c", "text": "Estenose de artéria renal."},
+        {"key": "d", "text": "Hipertireoidismo."}
+      ],
+      "correct_key": "a",
+      "explanation": "ATENÇÃO: gráfico da MAPA citado mas não capturado integralmente na extração do PDF (apenas a média de 24h foi preservada em texto). Paciente obeso (IMC ~31), com HAS resistente (3 classes em dose máxima) e queixa de elevações pressóricas domiciliares apesar de boa aderência é o perfil clássico de SAHOS como causa secundária/agravante de HAS resistente — a causa secundária mais prevalente nesse contexto.",
+      "theme": "has_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_303",
+      "statement": "Em relação às emergências hipertensivas e condutas a serem adotadas é CORRETO afirmar:",
+      "alternatives": [
+        {"key": "a", "text": "Emergências hipertensivas ou urgências hipertensivas têm-se lesões agudizadas de órgãos alvos e devem ser usadas preferencialmente medicações sublinguais."},
+        {"key": "b", "text": "Emergências hipertensivas não têm lesão de órgão alvo, e na urgência hipertensiva tem-se lesões de órgãos alvos, mas em ambas situações devem ser usadas medicações parenterais."},
+        {"key": "c", "text": "Emergências hipertensivas têm lesão de órgão alvo apenas em pacientes que já tem lesões crônicas em decorrências de uma hipertensão arterial de longa data e devem ser usadas medicações sublinguais."},
+        {"key": "d", "text": "Na urgência hipertensiva têm-se lesões agudas de órgãos alvos e devem ser usadas medicações sublinguais ou parenterais."},
+        {"key": "e", "text": "Emergência hipertensiva é quando há lesão aguda de órgão alvo e deve se usar preferencialmente medicações parenterais."}
+      ],
+      "correct_key": "e",
+      "explanation": "A emergência hipertensiva é definida pela presença de lesão AGUDA de órgão-alvo, exigindo redução pressórica rápida com medicação parenteral. A urgência hipertensiva, por definição, NÃO tem lesão aguda de órgão-alvo, sendo tratada com medicação oral, com redução mais gradual (24-48h).",
+      "theme": "has_emerg",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_304",
+      "statement": "Em relação à conduta médica nos casos de Crise Hipertensiva, assinale a opção INCORRETA:",
+      "alternatives": [
+        {"key": "a", "text": "Emergência Hipertensiva: redução dos níveis tensionais de 20 a 25% e/ou da pressão arterial diastólica para 100 a 110 mmHg nas primeiras 2 h, sendo recomendado iniciar com medicamento parenteral em unidade de terapia intensiva."},
+        {"key": "b", "text": "Urgência Hipertensiva: paciente pode ser tratado com medicamento VO isoladamente ou em associação, com o objetivo de reduzir a PA gradativamente, entre 24 e 48 h."},
+        {"key": "c", "text": "Encefalopatia Hipertensiva: betabloqueadores e inibidores da enzima de conversão da angiotensina (captopril) VO."},
+        {"key": "d", "text": "Isquemia Miocárdica: Betabloqueadores para diminuir a frequência cardíaca e a contratilidade ventricular, reduzindo o consumo miocárdico de oxigênio. Bloqueadores dos canais de cálcio de longa duração e os inibidores da enzima de conversão da angiotensina podem ser usados."},
+        {"key": "e", "text": "Doença Hipertensiva Específica da Gravidez: Inibidores da enzima conversora da angiotensina (IECA) e bloqueadores dos receptores de angiotensina II (BRA II) estão formalmente indicados nessas pacientes."}
+      ],
+      "correct_key": "e",
+      "explanation": "É a alternativa incorreta: IECA e BRA II são FORMALMENTE CONTRAINDICADOS na gestação (teratogênicos), e não indicados, na doença hipertensiva específica da gravidez. A encefalopatia hipertensiva, sendo uma emergência, exige tratamento PARENTERAL (não via oral com betabloqueador/captopril, como sugerido na alternativa C — que também está tecnicamente incorreta, mas a questão pede apenas UMA incorreta, sendo E a mais clara e categórica).",
+      "theme": "has_emerg",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_305",
+      "statement": "Mulher, 59 anos, com encefalopatia hipertensiva é admitida com pressão arterial (PA) = 190 x 130mmHg. Iniciou-se nitroprussiato de sódio endovenoso e 30 minutos depois, PA = 160 x 110mmHg. A conduta mais adequada, neste momento, para esta paciente é:",
+      "alternatives": [
+        {"key": "a", "text": "suspender o nitroprussiato de sódio."},
+        {"key": "b", "text": "aumentar a dose de nitroprussiato de sódio."},
+        {"key": "c", "text": "diminuir a dose de nitroprussiato de sódio."},
+        {"key": "d", "text": "manter a dose de nitroprussiato de sódio"}
+      ],
+      "correct_key": "d",
+      "explanation": "A redução de PA de 190x130 para 160x110 em 30 minutos representa uma queda de aproximadamente 16% da PA média, dentro da meta segura (redução de até 25% nas primeiras 2 horas). A conduta é manter a dose atual do nitroprussiato, permitindo que a redução gradual continue de forma controlada, sem necessidade de ajuste neste momento.",
+      "theme": "has_emerg",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_306",
+      "statement": "Mulher 60a, é atendida no domicílio pelo SAMU apresentando intensa falta de ar e tosse com expectoração clara há 20 minutos. Antecedentes pessoais: hipertensão arterial sistêmica e cardiopata em uso losartana, furosemida e AAS. Exame físico: PA= 240x130mmHg; FC= 115bpm; FR= 30irpm; pulmões: estertores crepitantes nas bases e campo médio. Realizada avaliação primária, suporte ventilatório, posicionamento adequado do paciente e acesso venoso. A CONDUTA MEDICAMENTOSA A SEGUIR É:",
+      "alternatives": [
+        {"key": "a", "text": "Nitroprussiato de sódio, clonidina e furosemida."},
+        {"key": "b", "text": "Dinitrato de isossorbida, sulfato de morfina e furosemida."},
+        {"key": "c", "text": "Nitroprussiato de sódio, sulfato de morfina e cedilanide."},
+        {"key": "d", "text": "Dinitrato de isossorbida, nitroglicerina e digoxina."}
+      ],
+      "correct_key": "b",
+      "explanation": "No edema agudo de pulmão hipertensivo, o tratamento padrão inclui vasodilatador (dinitrato de isossorbida/nitrato), morfina (reduz pré-carga e ansiedade) e furosemida (diurético de alça), sem necessidade rotineira de nitroprussiato, digitálicos (cedilanide/digoxina) ou combinações redundantes de nitratos.",
+      "theme": "has_emerg",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_307",
+      "statement": "Considere os conjuntos de fatores abaixo. I - Doença do parênquima renal, doença aterosclerótica e displasia fibromuscular de artéria renal; II - Hipotireoidismo, hipoaldosteronismo e doença de Cushing; III - Uso de anti-inflamatórios não esteroidais, descongestionantes nasais com vasoconstritores e antidepressivos tricíclicos; Quais deles são causa de hipertensão arterial sistêmica secundária?",
+      "alternatives": [
+        {"key": "a", "text": "Apenas I"},
+        {"key": "b", "text": "Apenas II"},
+        {"key": "c", "text": "Apenas III"},
+        {"key": "d", "text": "Apenas I e III"},
+        {"key": "e", "text": "I, II e III"}
+      ],
+      "correct_key": "d",
+      "explanation": "I é causa de HAS secundária (doença renal parenquimatosa e renovascular). III também é causa (AINEs, descongestionantes vasoconstritores e antidepressivos tricíclicos são fármacos/substâncias classicamente associados à elevação da PA). II é falsa em parte: hipotireoidismo (não hipertireoidismo) e HIPOaldosteronismo (não hiperaldosteronismo) não são causas clássicas de hipertensão — pelo contrário, tendem a associar-se a menor tônus pressórico, tornando o conjunto II incorreto como listado (embora a doença de Cushing seja causa reconhecida).",
+      "theme": "has_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_308",
+      "statement": "Um paciente de 75 anos apresenta-se na emergência, trazido pelos filhos, duas horas após notarem que o mesmo acordou pela manhã apresentando quadro de dificuldade na fala, discreta sonolência, e aparente redução da força muscular no hemicorpo esquerdo, tendo sido visto sem essas alterações na noite anterior. Hipertenso e diabético, em uso de losartana, hidroclorotiazida e insulina NPH. Ao exame neurológico: redução de força no dimídio esquerdo, desvio de rima labial e fala desconexa. PA: 190 x 110mmHg, HGT: 287mg/dl e SO₂: 93% em ar ambiente. TC de crânio sem evidências de lesões hemorrágicas. Sobre esse caso clínico, assinale a alternativa CORRETA.",
+      "alternatives": [
+        {"key": "a", "text": "A principal hipótese diagnóstica é Acidente Vascular Encefálico (AVE) isquêmico, e a conduta inicial deve ser uso de trombolítico endovenoso, após correção da hiperglicemia com insulina e redução dos níveis pressóricos para abaixo de 185 x 110mmHg."},
+        {"key": "b", "text": "Caso exista contraindicação ao tratamento trombolítico, deve-se reduzir os níveis pressóricos arteriais para 185 x 110mmHg e manter os níveis glicêmicos entre 200 e 250mg/dL."},
+        {"key": "c", "text": "A principal hipótese diagnóstica é encefalopatia hipertensiva, e a conduta inicial deve ser nitroglicerina endovenosa, a fim de reduzir os níveis pressóricos em 25% do valor inicial."},
+        {"key": "d", "text": "A principal hipótese diagnóstica é Acidente Vascular Encefálico (AVE) isquêmico, e a conduta inicial deve incluir a realização de exames laboratoriais, controle glicêmico, uso de O2 para manter níveis de SO2 ≥ 95% e uso de heparina não fracionada."}
+      ],
+      "correct_key": "a",
+      "explanation": "Déficit neurológico focal de início agudo (<24h, janela ainda potencialmente elegível), sem evidência hemorrágica na TC, é AVE isquêmico. A conduta inicial correta inclui correção da hiperglicemia (que piora o prognóstico neurológico) e redução da PA para <185x110 mmHg (limiar de segurança para trombólise), antes da administração do trombolítico endovenoso. Não se deve manter glicemia elevada (200-250) nem usar heparina não fracionada rotineiramente na fase aguda do AVE isquêmico (risco de transformação hemorrágica sem benefício comprovado).",
+      "theme": "has_emerg",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_309",
+      "statement": "Adolescente de 18 anos procura serviço médico por quadro de cansaço aos esforços, sem outras queixas. Nega emagrecimento, febre, tosse ou edema. Ao exame físico, observado sopro contínuo suave em região infra-clavicular esquerda, irradiando para região infra-escapular do mesmo lado. Ictus discretamente desviado para esquerda, ausência de turgência jugular. Pressão arterial no braço esquerdo de 144/88 mmHg e no braço direito de 142/86 mmHg. Pulsos radiais amplos e simétricos. Pulsos femorais presentes, embora com amplitude diminuída. Qual o principal diagnóstico diferencial para o caso?",
+      "alternatives": [
+        {"key": "a", "text": "Estenose mitral."},
+        {"key": "b", "text": "Transposição de grandes artérias."},
+        {"key": "c", "text": "Coarctação de aorta pós-ductal."},
+        {"key": "d", "text": "Membrana sub-aórtica."},
+        {"key": "e", "text": "Comunicação inter-atrial."}
+      ],
+      "correct_key": "c",
+      "explanation": "PA elevada em membros superiores com pulsos femorais de amplitude diminuída (diferença de amplitude entre pulsos de MMSS e MMII) e sopro contínuo por circulação colateral (irradiando para região infraescapular, típico de artérias colaterais intercostais) é o quadro clássico de coarctação de aorta pós-ductal, tipicamente diagnosticada mais tardiamente (adolescência/idade adulta) que a forma pré-ductal.",
+      "theme": "has_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_310",
+      "statement": "Paciente masculino, de 32 anos de idade, negro, com diagnóstico de hipertensão aos 22 anos de idade. Em uso de enalapril 20 mg duas vezes por dia, hidroclorotiazida 25 mg uma vez por dia e anlodipina 10 mg uma vez por dia. Retorna para consulta ambulatorial com exames complementares. Creatinina: 1,0 mg/dL; ureia: 38 mg/dL; sódio: 138 mEq/L; potássio: 3,2 mEq/L; bicarbonato: 32 mEq/L. Ultrassonografia de vias urinárias normal. O diagnóstico mais provável é",
+      "alternatives": [
+        {"key": "a", "text": "feocromocitoma."},
+        {"key": "b", "text": "coarctação da aorta."},
+        {"key": "c", "text": "estenose de artéria renal bilateral."},
+        {"key": "d", "text": "hiperaldosteronismo primário."},
+        {"key": "e", "text": "hipertensão arterial primária."}
+      ],
+      "correct_key": "d",
+      "explanation": "HAS de início precoce (22 anos) associada a hipocalemia (K 3,2) e alcalose metabólica (bicarbonato elevado, 32) mesmo em uso de IECA (que tende a poupar potássio), sem alteração de função renal ou achados na USG, é o quadro clássico de hiperaldosteronismo primário.",
+      "theme": "has_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_311",
+      "statement": "Homem, 60 anos de idade, hipertenso em tratamento irregular, procurou o pronto socorro devido a cefaleia intensa e escotomas. Exame clínico: bom estado geral, hidratado, corado, eupneico e orientado. PA = 210/128 mmHg, FC = 90 bpm. Fundo de olho mostrando cruzamentos arteriovenosos patológicos, artérias em fio de cobre e papila bem delimitada. Bulhas cardíacas rítmicas sem sopros ou B3. Pulmões sem ruídos adventícios. Eletrocardiograma: ritmo sinusal com sobrecarga ventricular esquerda. Assinale a alternativa correta.",
+      "alternatives": [
+        {"key": "a", "text": "O paciente apresenta urgência hipertensiva, devendo a pressão arterial ser reduzida com medicamentos via oral em 24 horas."},
+        {"key": "b", "text": "O paciente apresenta urgência hipertensiva, sendo o tratamento ideal na chegada ao pronto socorro a administração de nifedipina sublingual."},
+        {"key": "c", "text": "O paciente apresenta emergência hipertensiva (encefalopatia hipertensiva), devendo a pressão arterial ser reduzida em 25% na primeira hora com administração de nitroprussiato de sódio via endovenosa."},
+        {"key": "d", "text": "Após a análise das enzimas cardíacas, os medicamentos indicados são furosemida e benzodiazepínicos via endovenosa."},
+        {"key": "e", "text": "É fundamental realizar tomografia computadorizada de crânio para afastar doença neurológica."}
+      ],
+      "correct_key": "a",
+      "explanation": "Sem edema de papila (papila bem delimitada, apenas alterações crônicas — cruzamentos patológicos e fio de cobre — sem sinais agudos), sem B3, sem lesão aguda evidente, apesar da cefaleia e escotomas: caracteriza-se urgência hipertensiva, tratada com medicação via oral e redução gradual da PA em 24 horas, sem necessidade de nitroprussiato IV nem nifedipina sublingual (contraindicada pelo risco de queda abrupta e imprevisível da PA).",
+      "theme": "has_emerg",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_312",
+      "statement": "Idoso, 81 anos, admitido no Serviço de Emergência, com quadro de dispneia em repouso intensa, há 30 minutos, acompanhada de sudorese fria. Portador de HAS em uso irregular de Enalapril 40mg/dia, e DM2 sem uso de medicação. Internado há 6 meses com quadro semelhante, 2 dias em UTI. Nega tosse, dor precordial, síncope. Exame físico: taquidispneico, uso de musculatura acessória, descorado +/4, sudoreico. FC: 117 bpm; PA 224x137 mmHg; FR: 40 ipm; SatO2: 87% AR; crepitantes bilaterais até ápices. ACV: bulhas rítmicas e hipofonéticas, sem sopros. Extremidades frias, sem edemas. Diante do caso clínico, qual o diagnóstico e qual fármaco NÃO é considerado um tratamento redutor da pré-carga?",
+      "alternatives": [
+        {"key": "a", "text": "Embolia Pulmonar. Furosemida."},
+        {"key": "b", "text": "Edema Agudo de Pulmão. Digoxina."},
+        {"key": "c", "text": "Pneumotórax hipertensivo. Nitrato."},
+        {"key": "d", "text": "Tamponamento cardíaco. Morfina."},
+        {"key": "e", "text": "Edema agudo de pulmão. Nitrato."}
+      ],
+      "correct_key": "b",
+      "explanation": "Dispneia súbita intensa com crepitantes bilaterais difusos, PA muito elevada e antecedente de episódio semelhante é edema agudo de pulmão hipertensivo. Entre os fármacos usados no EAP (furosemida, nitrato, morfina — todos redutores de pré-carga por venodilatação/diurese), a digoxina NÃO é redutora de pré-carga (é inotrópico positivo, atuando por outro mecanismo), sendo a resposta correta.",
+      "theme": "has_emerg",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_313",
+      "statement": "Exame considerado como padrão-ouro no diagnóstico da hipertensão renovascular:",
+      "alternatives": [
+        {"key": "a", "text": "Ressonância nuclear magnética."},
+        {"key": "b", "text": "Atividade de renina nas veias renais."},
+        {"key": "c", "text": "Arteriografia."},
+        {"key": "d", "text": "Cintilografia renal com captopril."},
+        {"key": "e", "text": "Duplex-scan."}
+      ],
+      "correct_key": "c",
+      "explanation": "A arteriografia renal (angiografia com cateter) é considerada o exame padrão-ouro para diagnóstico da hipertensão renovascular, visualizando diretamente a anatomia arterial e o grau de estenose, além de permitir intervenção terapêutica (angioplastia) no mesmo procedimento.",
+      "theme": "has_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_314",
+      "statement": "Faz parte do tratamento do edema agudo de pulmão hipertensivo, exceto:",
+      "alternatives": [
+        {"key": "a", "text": "Morfina intravenosa."},
+        {"key": "b", "text": "Beta-bloqueador."},
+        {"key": "c", "text": "Oxigenioterapia."},
+        {"key": "d", "text": "Diurético de alça."},
+        {"key": "e", "text": "Inibidor de enzima cardioversora de angiotensina."}
+      ],
+      "correct_key": "b",
+      "explanation": "O betabloqueador NÃO faz parte do tratamento agudo do edema agudo de pulmão hipertensivo — pelo contrário, seu efeito inotrópico e cronotrópico negativo pode piorar o quadro de congestão aguda. Morfina, oxigenioterapia, diurético de alça e IECA (para redução de pós-carga) fazem parte do arsenal terapêutico padrão.",
+      "theme": "has_emerg",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_315",
+      "statement": "Mulher de 28 anos procura clínico devido à hipertensão arterial sistêmica que foi detectada pela ginecologista em exame anual de rotina. Não usa qualquer medicamento. Em consultas anteriores, sua pressão arterial sempre foi normal. Na consulta atual, verificou-se PA = 160 x 100 mmHg, FC = 98 bpm e restante do exame físico normal, assim como o hemograma, creatinina, sódio, potássio, cloro e cálcio. Quanto à investigação de causa secundária, é correto afirmar que o(a):",
+      "alternatives": [
+        {"key": "a", "text": "achado de potássio normal fala fortemente contra hiperaldosteronismo primário"},
+        {"key": "b", "text": "hipótese de síndrome de Cushing seria corroborada pelo achado de hipercalemia"},
+        {"key": "c", "text": "achado de um tumor no córtex da adrenal corrobora a hipótese de feocromocitoma"},
+        {"key": "d", "text": "aumento da creatinina após início de captopril corrobora a hipótese de hipertensão renovascular"}
+      ],
+      "correct_key": "d",
+      "explanation": "O aumento significativo da creatinina após início de IECA (captopril) é um achado clássico que corrobora fortemente a hipótese de hipertensão renovascular (estenose bilateral ou em rim único funcionante), pela dependência da filtração glomerular do tônus da arteríola eferente mediado pela angiotensina II. Potássio normal NÃO afasta hiperaldosteronismo primário (até 50% dos casos têm potássio normal); Cushing associa-se a HIPOcalemia (não hipercalemia); e feocromocitoma origina-se na MEDULAR (não no córtex) adrenal.",
+      "theme": "has_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_316",
+      "statement": "Paciente sexo masculino, 54 anos, em pós-operatório de tromboplastia em sua perna direita. Dados vitais: FC:100bpm, PA 230/135mmHg, Sat O₂ 96% aa. Nas 4 horas seguintes, o paciente desenvolveu dor retroesternal irradiada para mandíbula. ECGs seriados evidenciaram alterações dinâmicas em onda T na parede lateral. Pressão arterial com nível mantido. Qual a conduta mais apropriada para tratamento da pressão arterial?",
+      "alternatives": [
+        {"key": "a", "text": "Não tratar a pressão arterial até resolução da dor"},
+        {"key": "b", "text": "Uso de spray sublingual intermitente"},
+        {"key": "c", "text": "Reduzir pressão arterial urgentemente com medicação EV"},
+        {"key": "d", "text": "Uso de comprimido sublingual"}
+      ],
+      "correct_key": "c",
+      "explanation": "Dor torácica com alterações eletrocardiográficas dinâmicas sugestivas de isquemia miocárdica (síndrome coronariana aguda), associada a PA muito elevada mantida (230/135), configura emergência hipertensiva com lesão aguda de órgão-alvo (miocárdio), exigindo redução pressórica urgente com medicação endovenosa (não sublingual/oral), reduzindo o consumo miocárdico de oxigênio.",
+      "theme": "has_emerg",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_317",
+      "statement": "São causas de hipertensão arterial secundária, exceto:",
+      "alternatives": [
+        {"key": "a", "text": "apneia obstrutiva do sono."},
+        {"key": "b", "text": "insuficiência cardíaca."},
+        {"key": "c", "text": "hipotireoidismo."},
+        {"key": "d", "text": "feocromocitoma"}
+      ],
+      "correct_key": "b",
+      "explanation": "A insuficiência cardíaca NÃO é causa de hipertensão arterial secundária — pelo contrário, é frequentemente uma CONSEQUÊNCIA/complicação da HAS de longa data não controlada. SAHOS, hipotireoidismo e feocromocitoma são, todos, causas reconhecidas de hipertensão secundária.",
+      "theme": "has_dx",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_318",
+      "statement": "A Hipertensão renovascular tem como etiologia predominante a",
+      "alternatives": [
+        {"key": "a", "text": "Doença fibromuscular."},
+        {"key": "b", "text": "Embolia de artéria renal."},
+        {"key": "c", "text": "Arterite de Takayasu."},
+        {"key": "d", "text": "Dissecção de aorta afetando artérias renais."},
+        {"key": "e", "text": "Arterosclerose."}
+      ],
+      "correct_key": "e",
+      "explanation": "Considerando a população geral (predominantemente idosa, com múltiplos fatores de risco cardiovascular), a aterosclerose é a etiologia predominante da hipertensão renovascular, respondendo pela maioria dos casos — diferente da displasia fibromuscular, mais associada a mulheres jovens, porém menos prevalente no total de casos.",
+      "theme": "has_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_319",
+      "statement": "Homem de 49 anos procura atendimento de emergência por cefaleia. Refere história de revascularização miocárdica há 1 ano e nega dor precordial. Ao exame físico apresenta PA = 200x125mmHg sem 3ª ou 4ª bulha. O exame neurológico é normal. Qual é o diagnóstico mais provável e qual é a melhor conduta terapêutica para o caso?",
+      "alternatives": [
+        {"key": "a", "text": "emergência hipertensiva; nitroglicerina intravenosa"},
+        {"key": "b", "text": "urgência hipertensiva; hidralazina intravenosa"},
+        {"key": "c", "text": "urgência hipertensiva; nitroprussiato de sódio intravenoso e administração de analgésico"},
+        {"key": "d", "text": "urgência hipertensiva; captopril oral e administração de analgésico"}
+      ],
+      "correct_key": "d",
+      "explanation": "Sem sinais de lesão aguda de órgão-alvo (sem dor precordial, sem B3/B4, exame neurológico normal), apenas cefaleia associada à PA elevada, caracteriza urgência hipertensiva — tratada com medicação via oral (captopril) e analgesia, sem necessidade de medicação parenteral.",
+      "theme": "has_emerg",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_320",
+      "statement": "Mulher de 44 anos se queixa de dispneia aos esforços (andar 4 quarteirões no plano) iniciada há 1 ano, com progressão lenta. Relata baixa energia e sonolência diurna excessiva. Nega ortopneia, dispneia paroxística noturna, tosse. Exame físico: PA = 146 x 94 mmHg, FC = 84 bpm, FR = 16 irpm, SpO₂ = 93%, peso = 109 kg, altura = 1,65 m. Exame cardiovascular: hiperfonese de P2 e desdobramento contínuo e variável da segunda bulha. Ecocardiograma: câmaras normais, sem disfunção sistólica/diastólica, FEVE 68%, pressão sistólica na artéria pulmonar de 58 mmHg. Assinale a alternativa que apresenta uma propedêutica CORRETAMENTE indicada para a elucidação etiológica.",
+      "alternatives": [
+        {"key": "a", "text": "Polissonografia – cintilografia de ventilação e perfusão pulmonar – anti-HIV."},
+        {"key": "b", "text": "Tomografia computadorizada do tórax – alfa-1-antitripsina sérica – Fator Anti-Nuclear (FAN)."},
+        {"key": "c", "text": "Angiotomografia do tórax – provas de função pulmonar – TSH."},
+        {"key": "d", "text": "Ressonância magnética do coração – eletroforese de proteínas séricas – mielograma."}
+      ],
+      "correct_key": "c",
+      "explanation": "Paciente obesa com sonolência diurna excessiva, hipertensão pulmonar (P2 hiperfonética, PSAP 58mmHg) e hipoxemia leve, sem doença cardíaca estrutural — o quadro sugere hipertensão pulmonar secundária, cuja investigação etiológica ampla inclui angiotomografia de tórax (afastar TEP crônico), provas de função pulmonar (afastar doença pulmonar associada) e TSH (disfunção tireoidiana como causa/agravante), formando o conjunto propedêutico correto.",
+      "theme": "has_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_321",
+      "statement": "Mulher 42 anos, assintomática, procura a UBS sendo diagnosticada com hipertensão arterial. Exames complementares: glicemia de jejum, eletrólitos e função renal normais; ausência de microalbuminúria ou proteinúria; ECG sem sobrecarga ventricular. O Ecodoppler de artéria renal evidenciou estenose renal bilateral. No caso dessa paciente, a classe de drogas anti-hipertensiva que, quando administrada pode desencadear insuficiência renal é:",
+      "alternatives": [
+        {"key": "a", "text": "Diuréticos Tiazídicos"},
+        {"key": "b", "text": "Bloqueadores de canais de cálcio"},
+        {"key": "c", "text": "Inibidores da enzima conversora de angiotensina"},
+        {"key": "d", "text": "Betabloqueadores"}
+      ],
+      "correct_key": "c",
+      "explanation": "Em pacientes com estenose bilateral de artéria renal, os IECA (e BRA) podem desencadear insuficiência renal aguda, pois bloqueiam o mecanismo compensatório de vasoconstrição da arteríola eferente mediado pela angiotensina II, que mantém a filtração glomerular nessa condição — sendo, portanto, contraindicados nesse cenário.",
+      "theme": "has_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_322",
+      "statement": "Homem, 60 anos de idade, hipertenso, com interrupção do uso de quatro medicamentos para controle pressórico há uma semana, procurou o pronto-socorro com cefaleia intensa. Exame clínico: PA = 206 x 122 mmHg; ausculta cardíaca: bulhas rítmicas, normofonéticas, com sopro sistólico em área mitral ++/4; ausculta pulmonar: murmúrio vesicular normal, sem ruídos adventícios; pulsos todos presentes e normais. Fundo de olho: aumento do reflexo dorsal das arteríolas e papila bem delimitada, sem edema. Assinale a alternativa correta.",
+      "alternatives": [
+        {"key": "a", "text": "É uma urgência hipertensiva, e deve ser tratada com medicamentos orais em 24 horas."},
+        {"key": "b", "text": "É uma encefalopatia hipertensiva, e a pressão deve ser mantida abaixo de 130 x 80 mmHg."},
+        {"key": "c", "text": "É uma encefalopatia hipertensiva, e a pressão deve ser mantida abaixo de 160 x 100 mmHg."},
+        {"key": "d", "text": "É uma emergência hipertensiva, e deve ser tratada com nifedipina sublingual."},
+        {"key": "e", "text": "É uma emergência hipertensiva, deve ser tratada com nitroprussiato de sódio e a pressão mantida abaixo de 160 x 100 mmHg."}
+      ],
+      "correct_key": "a",
+      "explanation": "Cefaleia por rebote de suspensão medicamentosa, sem edema de papila (achado crônico apenas — aumento do reflexo dorsal das arteríolas, sem sinais agudos), sem outros sinais de lesão aguda de órgão-alvo, caracteriza urgência hipertensiva: tratamento com medicamentos orais, reintroduzindo o esquema habitual, com redução gradual em 24 horas.",
+      "theme": "has_emerg",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_323",
+      "statement": "Paciente 62 anos, hipertensa há 40 anos, deu entrada na emergência taquidispneica. PA 220x130 mmHg, FC 88 bpm, SpO2 88%. Ausculta pulmonar com estertorações crepitantes, predominantes à direita. Após estabilização, descobriu-se que já tivera 3 episódios semelhantes. Em uso regular de Anlodipina 10mg/dia, Hidroclorotiazida 25mg, Hidralazina 25mg 8/8h e Clonidina 0,1mg. Na alta, foi adicionado Captopril 25mg 8/8h. Após 8 dias, retornou com singultos, bradpsiquismo, astenia importante. Sopro abdominal com irradiação para flanco direito. Laboratório: elevação importante de escórias nitrogenadas (Cr 3,8 mg/dl e ureia 196). Função renal na alta era normal. Diante disso, a principal hipótese para patologia de base nesse caso, assim como o exame útil para seu diagnóstico é:",
+      "alternatives": [
+        {"key": "a", "text": "Feocromocitoma - Dosagem de metanefrinas urinárias."},
+        {"key": "b", "text": "Estenose da artéria renal - Ecodoppler de artéria renal."},
+        {"key": "c", "text": "Hiperaldosteronismo primário - Ultrasom abdominal."},
+        {"key": "d", "text": "Hiperaldosteronismo primário - Ressonância Magnética crânio."},
+        {"key": "e", "text": "Estenose da artéria renal - Dosagem da atividade de renina urinária."}
+      ],
+      "correct_key": "b",
+      "explanation": "HAS de longa data refratária a múltiplas classes, com episódios recorrentes de edema agudo de pulmão hipertensivo ('flash pulmonary edema', clássico da estenose bilateral de artéria renal), sopro abdominal e piora abrupta da função renal após introdução de IECA (captopril) é o quadro definidor de estenose de artéria renal. O exame diagnóstico não invasivo de escolha é o ecodoppler de artérias renais.",
+      "theme": "has_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_324",
+      "statement": "Associe as doenças relativas à hipertensão arterial relacionadas a seus respectivos sinais abaixo: 1- Coarctação de aorta; 2- Tireotoxicose; 3- Hipertensão renal renovascular; 4- Hipertensão arterial maligna; 5- Poliarterite nodosa. ( ) sopro abdominal; ( ) Edema de papila; ( ) hipertensão arterial sistólica; ( ) diferença de amplitude de pulsos em membros superiores e inferiores; ( ) positividade para HbsAg. A sequência correta é:",
+      "alternatives": [
+        {"key": "a", "text": "5,1,2,3,4"},
+        {"key": "b", "text": "4,3,1,2,5"},
+        {"key": "c", "text": "3,4,2,1,5"},
+        {"key": "d", "text": "3,2,4,5,1"},
+        {"key": "e", "text": "2,5,3,4,1"}
+      ],
+      "correct_key": "c",
+      "explanation": "Sopro abdominal → hipertensão renovascular (3); Edema de papila → hipertensão arterial maligna (4); Hipertensão arterial sistólica isolada → tireotoxicose (2, por aumento do débito cardíaco); Diferença de amplitude de pulsos MMSS/MMII → coarctação de aorta (1); Positividade para HbsAg → poliarterite nodosa (5, associação clássica com hepatite B). Sequência: 3,4,2,1,5.",
+      "theme": "has_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_325",
+      "statement": "Hipertensão arterial severa, resistente a tratamento, com fraqueza muscular, poliúria e polidipsia em paciente com hipocalemia sem uso de diuréticos ocorre em:",
+      "alternatives": [
+        {"key": "a", "text": "Feocromocitoma."},
+        {"key": "b", "text": "Síndrome de Cushing."},
+        {"key": "c", "text": "Hipoaldosteronismo hiporreninêmico."},
+        {"key": "d", "text": "Hiperaldosteronismo primário."},
+        {"key": "e", "text": "Hipergonadismo hipergonádico."}
+      ],
+      "correct_key": "d",
+      "explanation": "HAS resistente com hipocalemia espontânea (sem uso de diuréticos) causando fraqueza muscular, poliúria e polidipsia (efeitos da hipocalemia sobre músculo e rim) é o quadro clássico de hiperaldosteronismo primário.",
+      "theme": "has_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_326",
+      "statement": "Sobre o tratamento das emergências hipertensivas estão corretas as afirmativas: I – Os medicamentos parenterais são ideais para se estabelecer o tratamento das emergências hipertensivas, pois sendo facilmente tituláveis, facilita um melhor controle pressórico. II. – As duas drogas de uso parenteral mais utilizadas no tratamento das emergências hipertensivas são o nitroprussiato de sódio e a nitroglicerina. III. – O nitroprussiato de sódio tem como possíveis efeitos adversos o aumento da pressão intracraniana e a redução de perfusão cerebral.",
+      "alternatives": [
+        {"key": "a", "text": "I e II;"},
+        {"key": "b", "text": "II e III;"},
+        {"key": "c", "text": "I e III;"},
+        {"key": "d", "text": "I, II e III."}
+      ],
+      "correct_key": "d",
+      "explanation": "As três afirmativas são corretas: medicamentos parenterais são facilmente tituláveis, facilitando controle preciso; nitroprussiato e nitroglicerina são as drogas parenterais mais utilizadas; e o nitroprussiato, por sua vasodilatação cerebral não seletiva, pode aumentar a pressão intracraniana e paradoxalmente reduzir a perfusão cerebral efetiva (efeito de 'roubo' de fluxo), sendo usado com cautela em pacientes com lesão neurológica.",
+      "theme": "has_emerg",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_327",
+      "statement": "São causas endócrinas de Crise Hipertensiva em Pediatria, EXCETO:",
+      "alternatives": [
+        {"key": "a", "text": "Feocromocitoma"},
+        {"key": "b", "text": "Tumor de Wilms"},
+        {"key": "c", "text": "Hipertireoidismo"},
+        {"key": "d", "text": "Hiperplasia Adrenal Congênita"}
+      ],
+      "correct_key": "b",
+      "explanation": "O tumor de Wilms é uma neoplasia renal (causa de hipertensão por mecanismo RENAL/compressivo/ativação do SRAA local, não endócrino primário), diferente de feocromocitoma, hipertireoidismo e hiperplasia adrenal congênita, que são genuinamente causas ENDÓCRINAS de crise hipertensiva em pediatria.",
+      "theme": "has_emerg",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_328",
+      "statement": "Paciente de 68 anos, com diagnóstico de hipertensão arterial sistêmica há 20 anos sem outras comorbidades, referindo estar ansioso pois a medicação que faz uso acabou há 3 dias. Preferiu aguardar a consulta antes de comprar novamente seus remédios. Sem alterações ao exame neurológico ou fundoscopia. PA de 210 x 120 mmHg, FC: 96 bpm. Ausculta pulmonar normal e cardíaca com ritmo em dois tempos e desdobramento fisiológico de B2. Qual o diagnóstico mais provável e a conduta mais indicada?",
+      "alternatives": [
+        {"key": "a", "text": "Emergência hipertensiva. Administrar captopril 25mg por via sublingual e reavaliar o paciente em 30 minutos."},
+        {"key": "b", "text": "Urgência hipertensiva. Reforçar o uso adequado do esquema anti-hipertensivo, reintroduzindo as medicações de uso habitual, com posterior liberação do paciente para reavaliação em até 48 horas."},
+        {"key": "c", "text": "Emergência hipertensiva. Encaminhar à emergência do hospital de referência para redução da pressão em 10-20% na 1ª hora e até 25% ao final do dia."},
+        {"key": "d", "text": "Urgência hipertensiva. Administrar captopril 25mg por via sublingual e reavaliar o paciente em 30 minutos."}
+      ],
+      "correct_key": "b",
+      "explanation": "PA elevada por interrupção medicamentosa (efeito rebote), sem sinais de lesão aguda de órgão-alvo (exames neurológico e fundoscópico normais), é urgência hipertensiva. A conduta correta é reforçar/reintroduzir o esquema anti-hipertensivo habitual (não administrar dose extra de captopril sublingual, prática já não mais recomendada pelo risco de queda imprevisível), com reavaliação em até 48 horas.",
+      "theme": "has_emerg",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_329",
+      "statement": "Paciente 70 anos, hipertenso e tabagista, foi levado ao pronto-atendimento por familiares com história de ter iniciado, há pouco mais de 24h, quadro agudo de alteração na fala e fraqueza no lado direito do corpo. O quadro foi precedido por cefaleia com náusea e vômito. Ao exame físico: PA 210x120mmHg, paciente vigil, consciente, disártrico (disartria leve), hemiparético à direita (hemiparesia grau 4). Baseado no caso clínico relatado, assinale a opção que traz a principal hipótese diagnóstica.",
+      "alternatives": [
+        {"key": "a", "text": "Encefalopatia hipertensiva."},
+        {"key": "b", "text": "Ataque Isquêmico Transitório (AIT)."},
+        {"key": "c", "text": "Acidente Vascular Cerebral (AVC)."},
+        {"key": "d", "text": "Hemorragia subaracnoide."},
+        {"key": "e", "text": "Migrânea com aura."}
+      ],
+      "correct_key": "c",
+      "explanation": "Déficit neurológico FOCAL (disartria, hemiparesia lateralizada) persistente por mais de 24 horas, precedido de cefaleia com náusea/vômito, é o quadro típico de AVC (mais provável hemorrágico dado o início com cefaleia intensa/vômito, mas o diagnóstico sindrômico correto entre as opções é AVC). A encefalopatia hipertensiva tipicamente causa alterações DIFUSAS (não déficit focal lateralizado), e o AIT por definição resolve em menos de 24 horas (aqui o déficit persiste).",
+      "theme": "has_emerg",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_330",
+      "statement": "Paciente do sexo masculino, 40 anos, apresentando níveis tensionais persistentemente elevados. PAD seriada revelando-se >130mmHg. Queixando-se de cefaleia, náuseas e tonteiras. Evoluindo no período com oligúria, função renal limítrofe e fundoscopia evidenciando edema de papila e exsudatos retinianos. O diagnóstico mais provável é:",
+      "alternatives": [
+        {"key": "a", "text": "Vasculite cerebral"},
+        {"key": "b", "text": "Hipertensão maligna"},
+        {"key": "c", "text": "Hipertensão renovascular"},
+        {"key": "d", "text": "Dissecção aórtica"}
+      ],
+      "correct_key": "b",
+      "explanation": "PAD persistentemente muito elevada (>130mmHg) com lesão aguda de múltiplos órgãos-alvo (renal — oligúria/função renal limítrofe; retiniano — edema de papila e exsudatos, retinopatia grau III/IV) caracteriza hipertensão maligna/acelerada.",
+      "theme": "has_emerg",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_331",
+      "statement": "Homem, pardo, 29 anos comparece ao atendimento de rotina na unidade básica de saúde. Está assintomático. No exame físico apresenta PA 182 x 93mmHg. Nega qualquer histórico de hipertensão previamente. A conduta mais apropriada é:",
+      "alternatives": [
+        {"key": "a", "text": "Iniciar IECA ou BRA. Controle em 30 dias."},
+        {"key": "b", "text": "Iniciar diurético tiazídico. Controle em 30 dias."},
+        {"key": "c", "text": "Nifedipino imediatamente. Observação de 12 horas."},
+        {"key": "d", "text": "Internação hospitalar."},
+        {"key": "e", "text": "Investigar ambulatorialmente causas secundárias de hipertensão."}
+      ],
+      "correct_key": "e",
+      "explanation": "HAS de início súbito e níveis já elevados (estágio 3) em paciente jovem (29 anos), assintomático, sem antecedente prévio de HAS, é um perfil que levanta suspeita de causa secundária, justificando investigação ambulatorial direcionada antes de simplesmente iniciar tratamento empírico de HAS primária.",
+      "theme": "has_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_332",
+      "statement": "Dentre os seguintes achados clínico-laboratoriais, aquele que sugere o diagnóstico de hipertensão secundária é:",
+      "alternatives": [
+        {"key": "a", "text": "O sopro abdominal."},
+        {"key": "b", "text": "O bócio tireoideano."},
+        {"key": "c", "text": "A hipercolesterolemia."},
+        {"key": "d", "text": "O potássio sérico superior a 3,5mEq/L."},
+        {"key": "e", "text": "Hipertrigliceridemia."}
+      ],
+      "correct_key": "a",
+      "explanation": "O sopro abdominal (audível em flancos/região periumbilical) é achado clássico sugestivo de estenose de artéria renal, apontando para hipertensão secundária de causa renovascular — diferente dos demais achados (hipercolesterolemia, hipertrigliceridemia, potássio dentro da normalidade), que não são específicos de HAS secundária.",
+      "theme": "has_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_333",
+      "statement": "Paciente do sexo feminino procura a UPA com quadro de cefaleia severa e diminuição de força muscular no dimídio esquerdo. Ao exame, o plantonista constata PA = 220 x 140 mmHg e fundo de olho grau IV. Diante dessa situação, assinale a assertiva que melhor define o diagnóstico e o tratamento mais adequado:",
+      "alternatives": [
+        {"key": "a", "text": "Emergência hipertensiva - administrar nitroprussiato de sódio IV, visando baixar 20 a 25% da pressão arterial."},
+        {"key": "b", "text": "Urgência hipertensiva - iniciar nitroprussiato de sódio IV, visando baixar 30 a 40% da pressão arterial."},
+        {"key": "c", "text": "Emergência hipertensiva - iniciar hidralazina IV, visando baixar 25 a 35% da pressão arterial."},
+        {"key": "d", "text": "Urgência hipertensiva - iniciar hidralazina IV, visando baixar 20 a 30% da pressão arterial."},
+        {"key": "e", "text": "Emergência hipertensiva - iniciar nitroprussiato de sódio IV, visando baixar 35 a 40% da pressão arterial."}
+      ],
+      "correct_key": "a",
+      "explanation": "PA extremamente elevada com déficit neurológico focal e retinopatia grau IV (papiledema, lesão aguda de órgão-alvo) caracteriza emergência hipertensiva, tratada com nitroprussiato de sódio IV, com meta de redução de 20-25% da PA (não mais que isso, para evitar hipoperfusão em território já comprometido pelo déficit neurológico).",
+      "theme": "has_emerg",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_334",
+      "statement": "Um paciente de 50 anos procura a Emergência por cefaleia. Refere história de revascularização miocárdica há 1 ano e nega dor precordial. Ao exame físico, é detectada PA = 200x120mmHg sem 3ª ou 4ª bulha. O exame neurológico é normal. Qual é o diagnóstico mais provável e qual é a melhor conduta terapêutica para o caso?",
+      "alternatives": [
+        {"key": "a", "text": "emergência hipertensiva; nitroglicerina intravenosa."},
+        {"key": "b", "text": "urgência hipertensiva; captopril oral e administração de analgésico."},
+        {"key": "c", "text": "urgência hipertensiva; nitroprussiato de sódio intravenoso e administração de analgésico."},
+        {"key": "d", "text": "emergência hipertensiva; metoprolol intravenoso."}
+      ],
+      "correct_key": "b",
+      "explanation": "Repetindo o padrão de casos semelhantes deste lote: sem sinais de lesão aguda de órgão-alvo, apenas cefaleia associada a PA elevada, caracteriza urgência hipertensiva, tratada com medicação via oral (captopril) e analgesia.",
+      "theme": "has_emerg",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_335",
+      "statement": "Durante a avaliação laboratorial de um paciente masculino, 45 anos, cor preta, portador de hipertensão arterial, foram encontrados níveis aumentados de creatinina sérica, proteinúria acentuada e hematúria. Esses resultados fazem deduzir que existe como complicação:",
+      "alternatives": [
+        {"key": "a", "text": "Diabetes mellitus tipo II."},
+        {"key": "b", "text": "Doença pulmonar obstrutiva."},
+        {"key": "c", "text": "Doença renal parenquimatosa."},
+        {"key": "d", "text": "Hiperaldosteronismo primário."}
+      ],
+      "correct_key": "c",
+      "explanation": "Creatinina elevada, proteinúria acentuada e hematúria em hipertenso é o quadro compatível com doença renal parenquimatosa (nefroesclerose hipertensiva ou glomerulopatia associada), representando tanto causa quanto consequência/complicação renal da hipertensão de longa data.",
+      "theme": "has_dx",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_336",
+      "statement": "A principal causa da hipertensão renovascular é:",
+      "alternatives": [
+        {"key": "a", "text": "Aterosclerose de artéria renal."},
+        {"key": "b", "text": "Displasia fibromuscular."},
+        {"key": "c", "text": "Arterite de Takayasu."},
+        {"key": "d", "text": "Dissecção da aorta."}
+      ],
+      "correct_key": "a",
+      "explanation": "Considerando a população geral, a aterosclerose de artéria renal é a principal causa de hipertensão renovascular (predominante em idosos com fatores de risco cardiovascular), respondendo pela maioria dos casos globalmente.",
+      "theme": "has_dx",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_337",
+      "statement": "A Hipertensão Arterial Resistente (HAR) é definida como a pressão arterial (PA) de consultório não controlada apesar do uso de três ou mais anti-hipertensivos em doses adequadas, incluindo se preferencialmente um diurético, ou em uso de quatro ou mais medicamentos com controle pressórico. As causas secundárias são comuns na HAR. A causa secundária mais prevalente é:",
+      "alternatives": [
+        {"key": "a", "text": "hiperaldosteronismo primário."},
+        {"key": "b", "text": "estenose da artéria renal."},
+        {"key": "c", "text": "Síndrome da Apneia e Hipopneia Obstrutiva do Sono (SAHOS)."},
+        {"key": "d", "text": "doença renal crônica."},
+        {"key": "e", "text": "hipotireoidismo."}
+      ],
+      "correct_key": "c",
+      "explanation": "A SAHOS é a causa secundária mais prevalente entre pacientes com hipertensão arterial resistente, sendo a triagem para apneia do sono uma etapa importante na investigação desses pacientes.",
+      "theme": "has_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_338",
+      "statement": "Homem de 69 anos de idade, hipertenso e ex-tabagista de 40 maços/ano (cessou há 5 anos), em uso atual de enalapril, clortalidona e atenolol (doses máximas). Referia PA de aproximadamente 130x80 mmHg nas medidas habituais nos últimos anos. Há quatro meses, apresenta medidas elevadas no controle residencial (190x80 mmHg). Exame clínico: PA 194x98 mmHg (MSD) e 194x94 mmHg (MSE); FC (pulso) = 64 bpm. Ictus discretamente desviado para esquerda. Exames de 6 meses: Na+ 135; K+ 4,9; Cr 1,0; U 40; ECG com sobrecarga de câmaras esquerdas. Exames de 1 semana: Na+ 140; K+ 4,7; Cr 1,4; U 62. ECG mantém padrão anterior. Descartada falta de aderência. O exame complementar indicado para confirmação da principal hipótese diagnóstica é:",
+      "alternatives": [
+        {"key": "a", "text": "Doppler colorido de artérias renais."},
+        {"key": "b", "text": "Dosagem de metanefrinas urinárias."},
+        {"key": "c", "text": "Ultrassom de abdome total."},
+        {"key": "d", "text": "Cintilografia miocárdica do estresse."}
+      ],
+      "correct_key": "a",
+      "explanation": "Idoso ex-tabagista pesado (aterosclerose sistêmica provável) com HAS previamente bem controlada evoluindo com perda de controle pressórico abrupta e piora discreta da função renal, apesar de boa aderência, sugere fortemente estenose de artéria renal aterosclerótica de instalação recente — o exame indicado é o Doppler colorido de artérias renais.",
+      "theme": "has_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_339",
+      "statement": "Uma mulher de 32 anos, negra, filha de pais hipertensos e previamente hígida, procurou algumas vezes uma UBS de uma pequena comunidade rural por apresentar, nos últimos 7 meses, fraqueza muscular e dispneia aos esforços. O único dado relevante do exame físico foi a PA variando de 160x100 mmHg a 170x110 mmHg. Exames: hemoglobina 13; glicemia 85; creatinina 0,9; sódio 137; potássio 2,3; colesterol 190; triglicérides 200; sedimento urinário normal. A repetição da dosagem dos eletrólitos confirmou os resultados. A conduta mais adequada neste momento é:",
+      "alternatives": [
+        {"key": "a", "text": "Encaminhar a paciente para um centro mais aparelhado para realizar arteriografia renal;"},
+        {"key": "b", "text": "Encaminhar uma amostra de sangue da paciente para um laboratório mais aparelhado, para dosagem de renina e aldosterona;"},
+        {"key": "c", "text": "Considerar hipertensão essencial como mais provável e iniciar tratamento com hidroclorotiazida;"},
+        {"key": "d", "text": "Encaminhar uma amostra de urina da paciente para um laboratório mais aparelhado, para dosagem de ácido vanilmandélico e catecolaminas;"},
+        {"key": "e", "text": "NDA."}
+      ],
+      "correct_key": "b",
+      "explanation": "Hipocalemia importante e confirmada (K 2,3), sem uso de diuréticos, com fraqueza muscular e HAS, é o quadro clássico de hiperaldosteronismo primário — a conduta é investigar com dosagem de renina e aldosterona plasmáticas (relação aldosterona/renina), não iniciar tiazídico (que agravaria a hipocalemia) nem investigar diretamente feocromocitoma (catecolaminas/AVM), cujo quadro clínico não é compatível aqui.",
+      "theme": "has_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_340",
+      "statement": "Em relação à hipertensão arterial sistêmica, assinale a alternativa INCORRETA.",
+      "alternatives": [
+        {"key": "a", "text": "A incidência de infarto do miocárdio, AVE, insuficiência cardíaca e insuficiência renal aumenta progressivamente com aumento dos níveis pressóricos."},
+        {"key": "b", "text": "Hipertensão secundária deve ser considerada em pacientes hipertensos jovens, de difícil controle, e acompanhados de hipocalemia ou alcalose metabólica não explicada pelo uso de diuréticos."},
+        {"key": "c", "text": "Todos os pacientes com pré-hipertensão devem receber tratamento farmacológico, pois já há aumento do risco de eventos adversos."},
+        {"key": "d", "text": "Drogas anti-hipertensivas de 1ª linha incluem tiazídicos, inibidores do sistema renina-angiotensina-aldosterona e antagonistas dos canais de cálcio."},
+        {"key": "e", "text": "A presença de fatores de risco cardiovascular e de lesões de órgãos-alvo exige tratamento mais intensivo."}
+      ],
+      "correct_key": "c",
+      "explanation": "É incorreto afirmar que todo pré-hipertenso deva receber tratamento farmacológico — a abordagem inicial da pré-hipertensão é primariamente não farmacológica. A hipocalemia/alcalose metabólica inexplicada em hipertenso jovem de difícil controle é sinal de alerta clássico para HAS secundária (hiperaldosteronismo).",
+      "theme": "has_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_341",
+      "statement": "Hipertensão Secundária é devida a causas muito bem estabelecidas, que precisam ser devidamente diagnosticadas, uma vez que, com a remoção do agente etiológico, é possível controlar ou curar a hipertensão arterial. Entre as alternativas abaixo, qual NÃO se caracteriza como uma causa de hipertensão secundária?",
+      "alternatives": [
+        {"key": "a", "text": "Síndrome de Cushing."},
+        {"key": "b", "text": "Apneia do sono."},
+        {"key": "c", "text": "Estresse agudo, como, por exemplo, queimadura."},
+        {"key": "d", "text": "Hipertensão essencial."}
+      ],
+      "correct_key": "d",
+      "explanation": "A hipertensão ESSENCIAL (primária), por definição, não tem causa identificável/removível, sendo o oposto conceitual de hipertensão secundária. Síndrome de Cushing, apneia do sono e estresse agudo (como grandes queimados) são, todas, causas reconhecidas de HAS secundária.",
+      "theme": "has_dx",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_342",
+      "statement": "Homem de 74 anos, com IMC de 27,8 kg/m2, é acompanhado na Unidade da Saúde para tratamento de hipertensão arterial com enalapril, 10 mg por dia. Estava bem controlado há anos, mas passou a apresentar PA = 160 x 90 mmHg repetidas vezes. O médico solicitou acompanhamento com nutricionista e atenção do agente de saúde. No período de 60 dias, perdeu 2 quilos e houve necessidade de aumento progressivo da medicação. Está tomando enalapril 20 mg, hidroclorotiazida 25 mg e atenolol 50 mg, com pulso de 54 bpm e PA = 170 x 90 mmHg. A avaliação laboratorial de rotina é normal. Nesse caso, o médico deve:",
+      "alternatives": [
+        {"key": "a", "text": "dosar catecolaminas e metanefrinas urinárias."},
+        {"key": "b", "text": "dosar atividade de renina plasmática."},
+        {"key": "c", "text": "manter a mesma orientação, a menos que a pressão sistólica atinja 180 mmHg ou a diastólica 100 mmHg."},
+        {"key": "d", "text": "solicitar Doppler de artérias renais."},
+        {"key": "e", "text": "aumentar a dose de atenolol."}
+      ],
+      "correct_key": "d",
+      "explanation": "Idoso previamente bem controlado, evoluindo com perda progressiva do controle pressórico apesar de otimização de medidas não farmacológicas e escalonamento medicamentoso (já em 3 classes), é o perfil clássico para suspeita de estenose de artéria renal aterosclerótica de instalação recente — indicando investigação com Doppler de artérias renais.",
+      "theme": "has_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_343",
+      "statement": "Mulher, 32 anos de idade, previamente hígida, dá entrada na emergência com queixa de cefaleia intensa de início súbito. Ao exame, estava lúcida, orientada e contactuante, pupilas isocóricas, ausência de rigidez de nuca e de déficits neurológicos focais. A pressão arterial é de 180/110 mmHg em ambos os MMSS; ausculta cardíaca e pulmonar normais; exame de fundo de olho sem alterações. Assinale a alternativa que apresenta a conduta emergencial mais adequada ao caso.",
+      "alternatives": [
+        {"key": "a", "text": "Iniciar nitroprussiato de sódio endovenoso objetivando redução da pressão arterial em 25% em duas a três horas."},
+        {"key": "b", "text": "Administrar captopril via oral e encaminhar a paciente ao ambulatório para investigação de hipertensão arterial secundária."},
+        {"key": "c", "text": "Reavaliar a pressão arterial após analgesia adequada e melhora do quadro álgico."},
+        {"key": "d", "text": "Administrar captopril via oral e solicitar TC de crânio de urgência."},
+        {"key": "e", "text": "Iniciar nitroprussiato de sódio endovenoso objetivando normalização da pressão arterial em duas a três horas."}
+      ],
+      "correct_key": "c",
+      "explanation": "Cefaleia intensa de início súbito em jovem previamente hígida, sem déficits focais, sem rigidez de nuca, sem sinais de lesão aguda de órgão-alvo, sugere que a elevação pressórica (180/110) é reativa à dor intensa — a conduta correta é tratar a dor (analgesia) e reavaliar a PA após melhora do quadro álgico, antes de rotular como crise hipertensiva verdadeira e iniciar medicação anti-hipertensiva.",
+      "theme": "has_emerg",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_344",
+      "statement": "NÃO se encontra hipertensão secundária em:",
+      "alternatives": [
+        {"key": "a", "text": "Hipertensão renovascular."},
+        {"key": "b", "text": "Doença renal parenquimatosa."},
+        {"key": "c", "text": "Coartação da aorta."},
+        {"key": "d", "text": "Feocromocitoma."},
+        {"key": "e", "text": "Diabetes."}
+      ],
+      "correct_key": "e",
+      "explanation": "O diabetes mellitus NÃO é, por si, causa de hipertensão secundária (embora seja comorbidade frequentemente associada e fator de risco cardiovascular relevante) — diferente de hipertensão renovascular, doença renal parenquimatosa, coarctação da aorta e feocromocitoma, que são causas reconhecidas e identificáveis de HAS secundária.",
+      "theme": "has_dx",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_345",
+      "statement": "A compreensão do quadro clínico chamado de crise hipertensiva necessita da análise de diversos fatores relacionados, NÃO podendo ser associado a eles:",
+      "alternatives": [
+        {"key": "a", "text": "O tempo para medicação e controle."},
+        {"key": "b", "text": "O risco de lesão em órgão-alvo."},
+        {"key": "c", "text": "A lesão em órgão-alvo."},
+        {"key": "d", "text": "A presença de cefaleia."}
+      ],
+      "correct_key": "d",
+      "explanation": "A presença isolada de cefaleia NÃO é, por si só, determinante para caracterizar/classificar a crise hipertensiva — o que define a gravidade e conduta é a presença (ou risco) de lesão AGUDA de órgão-alvo e o tempo necessário para controle pressórico seguro, não sintomas inespecíficos como a cefaleia isoladamente.",
+      "theme": "has_emerg",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_346",
+      "statement": "Paciente masculino de 46 anos de idade apresentou quadro de mal-estar geral e desorientação com agitação associada. Foi realizada tomografia de crânio que demonstrou edema cerebral difuso, e sua pressão foi aferida inicialmente com valor de 230 x 130 mmHg. Assim, foi inicialmente firmado diagnóstico de encefalopatia hipertensiva. Acerca desse quadro clínico, indique a opção CORRETA:",
+      "alternatives": [
+        {"key": "a", "text": "Assim que se obter controle da emergência hipertensiva com medicação via venosa, devemos iniciar medicação menos tóxica por via oral."},
+        {"key": "b", "text": "Disfunções orgânicas não interagem nessa situação clínica."},
+        {"key": "c", "text": "Fica contraindicado o uso de medicações tóxicas nessa situação clínica."},
+        {"key": "d", "text": "Reduzir a pressão pode deteriorar função neurológica, sendo, portanto, contraindicado redução da pressão."}
+      ],
+      "correct_key": "a",
+      "explanation": "Após a fase aguda de controle da emergência hipertensiva com medicação venosa (ex.: nitroprussiato), a transição para medicação oral de manutenção, menos tóxica para uso prolongado, é a conduta padrão. A redução controlada e gradual da PA é, sim, indicada (não contraindicada) mesmo na encefalopatia hipertensiva, desde que respeitando as metas de redução gradual estabelecidas.",
+      "theme": "has_emerg",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_347",
+      "statement": "Na coarctação da aorta, temos hipertensão arterial:",
+      "alternatives": [
+        {"key": "a", "text": "Apenas nos membros inferiores."},
+        {"key": "b", "text": "Com cianose de membros superiores."},
+        {"key": "c", "text": "Com cianose de membros inferiores."},
+        {"key": "d", "text": "Apenas nos membros superiores."}
+      ],
+      "correct_key": "d",
+      "explanation": "Na coarctação de aorta (forma clássica, pós-ductal/justaductal), a hipertensão arterial ocorre apenas nos membros superiores (território pré-obstrução), enquanto os membros inferiores apresentam PA reduzida e pulsos diminuídos (território pós-obstrução), sem cianose associada nessa apresentação clássica isolada.",
+      "theme": "has_dx",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_348",
+      "statement": "Homem de 55 anos com antecedente de hipertensão arterial há 10 anos, fazendo uso irregular de metildopa e hidroclorotiazida. Refere dispneia progressiva a esforços há três dias, e hoje, apresentou rápida piora do desconforto respiratório. Ao exame físico: consciente e orientado, taquidispneico, sudoreico e afebril. PA = 230 x 120 mmHg, ritmo cardíaco regular, FC = 120 bpm, FR = 30 mrpm, crepitações inspiratórias difusas em bases pulmonares, saturação em ar ambiente = 89%. A terapia inicial apropriada inclui, além de oxigenioterapia:",
+      "alternatives": [
+        {"key": "a", "text": "Morfina e furosemida."},
+        {"key": "b", "text": "Nitroglicerina parenteral."},
+        {"key": "c", "text": "Morfina, furosemida e nitroprussiato de sódio parenteral."},
+        {"key": "d", "text": "Morfina, esmolol e furosemida."},
+        {"key": "e", "text": "Intubação orotraqueal e ventilação mecânica."}
+      ],
+      "correct_key": "c",
+      "explanation": "Edema agudo de pulmão hipertensivo com PA muito elevada (230x120): tratamento com morfina (venodilatação, redução de pré-carga), furosemida (diurético) e nitroprussiato de sódio parenteral (vasodilatador potente para controle rápido da PA muito elevada, reduzindo pós-carga), sem indicação inicial de IOT (paciente ainda consciente/orientado e sem sinais de falência respiratória iminente descritos) nem betabloqueador (esmolol, que reduziria contratilidade em um quadro que se beneficia mais de vasodilatação).",
+      "theme": "has_emerg",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_349",
+      "statement": "Mulher de 75 anos dá entrada no pronto-socorro referindo intensa cefaleia associada a confusão mental, vômitos e sudorese. Ao exame, apresentava desvio da rima labial para a esquerda e PA = 240x140 mmHg em ambos os membros superiores. Qual é o diagnóstico mais provável?",
+      "alternatives": [
+        {"key": "a", "text": "Emergência hipertensiva."},
+        {"key": "b", "text": "Edema agudo de pulmão."},
+        {"key": "c", "text": "Urgência hipertensiva"},
+        {"key": "d", "text": "Dissecção de aorta."}
+      ],
+      "correct_key": "a",
+      "explanation": "PA extremamente elevada com sinais de lesão neurológica aguda (confusão mental, desvio de rima labial — déficit focal) caracteriza emergência hipertensiva com comprometimento neurológico agudo.",
+      "theme": "has_emerg",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_350",
+      "statement": "O Nitroprussiato de sódio é uma medicação de uso bastante comum em situações de lesão de órgão-alvo, durante as crises hipertensivas. Em qual das situações a seguir seu potencial tóxico se encontra exacerbado?",
+      "alternatives": [
+        {"key": "a", "text": "Insuficiência Cardíaca."},
+        {"key": "b", "text": "Edema Agudo de Pulmão."},
+        {"key": "c", "text": "Insuficiência Hepática."},
+        {"key": "d", "text": "AVC hemorrágico."}
+      ],
+      "correct_key": "c",
+      "explanation": "O nitroprussiato de sódio é metabolizado no fígado (com formação de cianeto, posteriormente convertido a tiocianato e eliminado por via renal). A insuficiência hepática compromete essa via de destoxificação inicial, exacerbando o risco de intoxicação por cianeto.",
+      "theme": "has_emerg",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_351",
+      "statement": "Paciente de 56 anos, hipertenso, faz uso irregular de diurético de alça e inibidor da enzima de conversão da angiotensina, chega ao pronto-socorro confuso, agitado, referindo cefaleia intensa e períodos de amaurose. A pressão arterial encontra-se em 220 x 160 mmHg. Neste momento, objetiva-se introduzir:",
+      "alternatives": [
+        {"key": "a", "text": "Nitroglicerina, normalizando a PA em 12 horas."},
+        {"key": "b", "text": "Nitroglicerina, normalizando apenas a PAD em 24 horas."},
+        {"key": "c", "text": "Nitroprussiato de sódio, normalizando a PAS em 6 horas."},
+        {"key": "d", "text": "Nitroprussiato de sódio, reduzindo a PAM nas duas primeiras horas em 100 mmHg."},
+        {"key": "e", "text": "Nitroprussiato de sódio, reduzindo a PAM na primeira hora em até 40 mmHg."}
+      ],
+      "correct_key": "e",
+      "explanation": "Emergência hipertensiva com encefalopatia (confusão, agitação, cefaleia, amaurose): trata-se com nitroprussiato de sódio, reduzindo a PAM de forma controlada e limitada (não mais que 25% do valor inicial ou até cerca de 40mmHg na primeira hora), evitando a normalização completa/rápida da PA, que poderia comprometer a perfusão de órgãos já adaptados a níveis pressóricos cronicamente elevados.",
+      "theme": "has_emerg",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_352",
+      "statement": "Na terapêutica das emergências hipertensivas, pode se afirmar que:",
+      "alternatives": [
+        {"key": "a", "text": "O captopril sublingual é a opção terapêutica para o tratamento ambulatorial."},
+        {"key": "b", "text": "O nitroprussiato de sódio deve ser utilizado em pacientes com suspeita de isquemia miocárdica para a rápida redução do consumo de oxigênio."},
+        {"key": "c", "text": "A furosemida está indicada no tratamento da eclâmpsia para controle de volemia."},
+        {"key": "d", "text": "O betabloqueador venoso está indicado na suspeita de dissecção aórtica em conjunto com o nitroprussiato de sódio."}
+      ],
+      "correct_key": "d",
+      "explanation": "Na suspeita de dissecção aórtica, o betabloqueador IV é indicado (idealmente antes do vasodilatador) para reduzir a força de ejeção ventricular (dP/dt) e a FC, podendo ser associado ao nitroprussiato de sódio para controle pressórico adicional, evitando o uso isolado do vasodilatador (que causaria taquicardia reflexa e piora do estresse de parede aórtica). O captopril sublingual não é mais recomendado para tratamento ambulatorial de urgência; o nitroprussiato não é a droga de escolha na isquemia miocárdica (prefere-se nitroglicerina); e a furosemida não é indicada rotineiramente na eclâmpsia (que cursa com contração de volume intravascular).",
+      "theme": "has_emerg",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_353",
+      "statement": "Sobre as urgências hipertensivas e complicações na hipertensão arterial, pode-se afirmar que: I - A causa da morte mais frequente em hipertensos não tratados é o infarto agudo do miocárdio. II - O metoprolol é o agente anti-hipertensivo parenteral mais indicado na maioria das emergências hipertensivas. III - No evento isquêmico agudo cerebral, não se deve administrar anti-hipertensivos, a não ser em condições específicas ou níveis de pressão extremamente elevados (PAS > 220mmHg ou PAD > 120 mmHg).",
+      "alternatives": [
+        {"key": "a", "text": "Apenas a I está correta."},
+        {"key": "b", "text": "Apenas a II está correta."},
+        {"key": "c", "text": "Apenas a III está correta."},
+        {"key": "d", "text": "I e III estão corretas."}
+      ],
+      "correct_key": "c",
+      "explanation": "III é correta: no AVC isquêmico agudo, a redução pressórica é evitada rotineiramente (permitindo hipertensão permissiva para manter perfusão da penumbra isquêmica), reservando o tratamento a níveis extremamente elevados ou situações específicas (candidato à trombólise). I é falsa: a causa de morte mais frequente em hipertensos não tratados é o AVC (não IAM, embora ambos sejam relevantes). II é falsa: o metoprolol NÃO é o agente parenteral mais indicado na maioria das emergências hipertensivas (nitroprussiato/nicardipina/labetalol são mais utilizados, reservando-se BB a situações específicas como dissecção aórtica).",
+      "theme": "has_emerg",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_354",
+      "statement": "Mulher de 56 anos apresenta hipertensão arterial detectada em exame médico de rotina aos 38 anos. Inicialmente, obteve bom controle pressórico, entretanto, há 5 anos, passou a ter a pressão arterial sempre acima de 140 x 90 mmHg, em controles feitos com aparelho doméstico automático, bem calibrado. Está em uso de hidroclorotiazida 25 mg/dia; enalapril 20 mg a cada 12 horas; anlodipino 10 mg/dia e atenolol 100 mg/dia. A partir desse relato, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {"key": "a", "text": "Deve-se aumentar as doses das medicações."},
+        {"key": "b", "text": "Há necessidade absoluta de investigação de hipertensão secundária."},
+        {"key": "c", "text": "Deve-se solicitar MAPA pressórico."},
+        {"key": "d", "text": "A causa mais provável de elevação da pressão arterial dessa paciente é o efeito do avental branco."}
+      ],
+      "correct_key": "b",
+      "explanation": "Paciente já em 4 classes de anti-hipertensivos em dose plena, com medidas residenciais (não sujeitas a efeito avental branco) confirmando descontrole persistente, caracteriza HAS resistente verdadeira — havendo necessidade de investigação de causas secundárias, dado o perfil de refratariedade ao tratamento otimizado.",
+      "theme": "has_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_355",
+      "statement": "Analise as afirmativas abaixo em relação à hipertensão arterial sistêmica: I - Os pacientes com diagnósticos de hipertensão arterial sistêmica geralmente apresentam cefaleia como sintoma principal; II - A doença renal primária é a etiologia mais comum de hipertensão secundária; III - A hipertensão arterial sistêmica constitui um fator de risco independente para insuficiência cardíaca. Assinale a alternativa correta:",
+      "alternatives": [
+        {"key": "a", "text": "Somente a afirmativa I está correta."},
+        {"key": "b", "text": "Somente a afirmativa II está correta."},
+        {"key": "c", "text": "Somente as afirmativas I e III estão corretas."},
+        {"key": "d", "text": "Somente as afirmativas II e III estão corretas."},
+        {"key": "e", "text": "Todas as afirmativas estão corretas."}
+      ],
+      "correct_key": "d",
+      "explanation": "II é correta: a doença renal parenquimatosa (primária) é, de fato, a etiologia mais comum de hipertensão secundária. III é correta: a HAS é fator de risco independente bem estabelecido para insuficiência cardíaca. I é falsa: a HAS é classicamente ASSINTOMÁTICA na maioria dos pacientes ('assassina silenciosa'), não cursando tipicamente com cefaleia como sintoma principal.",
+      "theme": "has_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_356",
+      "statement": "Mulher de 31 anos, 30 semanas de gestação, apresenta dispneia rapidamente progressiva aos esforços, e é admitida em ortopneia, sudoreica, discretamente cianótica, pulso irregular de 120 bpm, PA: 130/85 mmHg, temperatura axilar: 36,4ºC, ausculta cardíaca prejudicada e pulmonar com estertores crepitante e subcreptantes até metade inferior de cada hemitórax, útero gravídico, e edema (++) de membros inferiores. ECG mostra ritmo de fibrilação atrial com eixo elétrico do QRS de 120 graus. Com base nestes dados, qual o diagnóstico clínico inicial?",
+      "alternatives": [
+        {"key": "a", "text": "Edema agudo de pulmão."},
+        {"key": "b", "text": "Síndrome de angústia respiratória do adulto."},
+        {"key": "c", "text": "Tromboembolismo pulmonar."},
+        {"key": "d", "text": "Broncopneumonia."}
+      ],
+      "correct_key": "a",
+      "explanation": "Dispneia progressiva com ortopneia, estertores crepitantes bilaterais, ritmo irregular (FA) e edema periférico em gestante é o quadro clínico de edema agudo de pulmão, provavelmente secundário a valvopatia mitral descompensada pela sobrecarga hemodinâmica da gestação (contexto obstétrico clássico de estenose mitral com FA de início na gravidez).",
+      "theme": "has_emerg",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_357",
+      "statement": "Das alternativas a seguir, indique aquela que não corresponde à gênese de uma crise hipertensiva caracterizada como emergência:",
+      "alternatives": [
+        {"key": "a", "text": "Trombogênese microvascular."},
+        {"key": "b", "text": "Risco de lesão de órgão-alvo."},
+        {"key": "c", "text": "Vasodilatação por pressão."},
+        {"key": "d", "text": "Edema."}
+      ],
+      "correct_key": "b",
+      "explanation": "O 'risco' de lesão de órgão-alvo (sem lesão efetiva presente) caracteriza a URGÊNCIA hipertensiva, não a emergência — na emergência, a lesão de órgão-alvo já está ESTABELECIDA (aguda), e a gênese fisiopatológica envolve mecanismos como trombogênese microvascular, vasodilatação por pressão (falha autorregulatória) e edema tecidual, não apenas o 'risco' teórico.",
+      "theme": "has_emerg",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_358",
+      "statement": "Uma jovem de 25 anos está em investigação de hipertensão arterial recém-diagnosticada (PA = 180 x 100 mmHg). Ultrassonografia de rins e vias urinárias com Doppler e, posteriormente, estudo angiográfico revelaram estenose da artéria renal. Qual é a melhor terapia inicial, dentre as alternativas abaixo, para a estenose de artéria renal?",
+      "alternatives": [
+        {"key": "a", "text": "Angioplastia da artéria renal e implantação de stent."},
+        {"key": "b", "text": "Furosemida."},
+        {"key": "c", "text": "Reserpina."},
+        {"key": "d", "text": "Clonidina."},
+        {"key": "e", "text": "Minoxidil."}
+      ],
+      "correct_key": "a",
+      "explanation": "Em paciente jovem com estenose de artéria renal confirmada (provável displasia fibromuscular, dado o perfil epidemiológico), a angioplastia da artéria renal (com ou sem stent, mas listada como opção completa aqui) é o tratamento de escolha, com potencial de cura ou melhora significativa do controle pressórico, superior ao tratamento clínico isolado com as demais drogas listadas.",
+      "theme": "has_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_359",
+      "statement": "Homem, 59 anos, obeso, com HAS de longa data, em tratamento irregular, chega à emergência com dor torácica intensa, com irradiação para o dorso. PA = 230 x 140 mmHg; FC = 112 bpm; hiperfonese de B2 em área aórtica. ECG em repouso demonstra hipertrofia de VE. Troponina I: 0,1 ng/dl. A hipótese diagnóstica mais provável é a de _______________________ e a conduta medicamentosa IV de imediato é usar ________________.",
+      "alternatives": [
+        {"key": "a", "text": "Hipertensão acelerada – nitroglicerina."},
+        {"key": "b", "text": "Síndrome coronariana aguda – nitroglicerina."},
+        {"key": "c", "text": "Aneurisma dissecante de aorta – metoprolol."},
+        {"key": "d", "text": "Infarto agudo do miocárdio – metoprolol."},
+        {"key": "e", "text": "Pericardite – cetoprofeno."}
+      ],
+      "correct_key": "c",
+      "explanation": "Dor torácica intensa com irradiação para o dorso, PA muito elevada, hiperfonese de B2 aórtica (sugestiva de insuficiência aórtica aguda associada) e troponina apenas discretamente alterada (não compatível com IAM extenso) é o quadro clássico de dissecção aguda de aorta (aneurisma dissecante). A conduta medicamentosa imediata IV é o betabloqueador (metoprolol), reduzindo FC e dP/dt antes de associar vasodilatador.",
+      "theme": "has_emerg",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_360",
+      "statement": "Paciente de 39 anos, afrodescendente, sexo masculino, com diagnóstico de hipertensão arterial de difícil controle há 4 anos, tratamento irregular. Há um dia apresenta cefaleia holocraniana intensa, associada a escotomas e embaçamento visual bilateral; urina espumosa; astenia. Encontra-se hipocorado (+/++++), com dispneia (FR 30 ipm), pulmões limpos, PA de 250 x 140 mmHg, FC de 100 bpm, abdome doloroso à palpação em epigástrio, sem visceromegalias, pulsos simétricos, sem edemas. Fundo de olho: hemorragias recentes, exsudatos algodonosos e edema papilar. Exames: creatinina 3,5 mg/dL; ureia 105 mg/dL; hemoglobina 9,8 mg/dL; sódio 141; potássio 4,1; proteinúria ++/+4. Diante desse quadro, o diagnóstico correto e as condutas imediata e tardia adequadas são, respectivamente:",
+      "alternatives": [
+        {"key": "a", "text": "Feocromocitoma; internação, administração de beta-bloqueadores, cirurgia; após alta, acompanhamento ambulatorial e integração em grupos de hipertensos."},
+        {"key": "b", "text": "Crise hipertensiva renovascular; administração de inibidores da ECA sublingual e observação/monitorização; acompanhamento ambulatorial e em grupos de apoio."},
+        {"key": "c", "text": "Hiperaldosteronismo primário; internação, administração de hidroclorotiazida, cirurgia; após alta, acompanhamento ambulatorial e integração no Programa Saúde da Família."},
+        {"key": "d", "text": "Glomerulonefrite membranoproliferativa; internação, realização de biópsia renal e corticoterapia; após alta, acompanhamento ambulatorial e integração no Programa Saúde da Família."},
+        {"key": "e", "text": "Hipertensão arterial maligna; internação, e administração de nitroprussiato de sódio endovenoso; após alta, acompanhamento ambulatorial e integração no Programa Saúde da Família."}
+      ],
+      "correct_key": "e",
+      "explanation": "PA extremamente elevada (250x140) com lesão aguda de múltiplos órgãos-alvo (retinopatia grau III/IV com hemorragias/exsudatos/papiledema, lesão renal aguda com proteinúria, anemia por provável microangiopatia) em contexto de HAS crônica mal controlada caracteriza hipertensão arterial maligna — emergência hipertensiva grave, tratada com internação e nitroprussiato de sódio endovenoso, com seguimento ambulatorial posterior integrado à rede de atenção básica.",
+      "theme": "has_emerg",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_361",
+      "statement": "Um homem de 74 anos, com IMC de 27,8 kg/m2, é acompanhado na USF para tratamento de hipertensão arterial com enalapril, 10 mg por dia. Estava bem controlado há anos, mas passou a apresentar PA = 160 x 90 mmHg repetidas vezes. Solicitado acompanhamento com nutricionista e agente de saúde, visando diminuição do peso e de sal na dieta. No período de 60 dias, perdeu 2 quilos e houve necessidade de aumento progressivo de medicação. Está tomando enalapril 20 mg, hidroclorotiazida 25 mg e atenolol 50 mg, com pulso de 54 bpm e PA = 168 x 94 mmHg. A avaliação laboratorial de rotina é normal. O médico deve:",
+      "alternatives": [
+        {"key": "a", "text": "dosar catecolaminas e metanefrinas urinárias"},
+        {"key": "b", "text": "dosar renina plasmática"},
+        {"key": "c", "text": "manter a mesma orientação, a menos que a pressão sistólica atinja 180 mmHg ou a diastólica 100 mmHg"},
+        {"key": "d", "text": "solicitar Doppler de artérias renais"},
+        {"key": "e", "text": "aumentar a dose de atenolol"}
+      ],
+      "correct_key": "d",
+      "explanation": "Repetindo o padrão do caso anterior (mesmo perfil de paciente): idoso previamente bem controlado, com perda progressiva do controle pressórico apesar de MEV e escalonamento de 3 classes, sugerindo estenose de artéria renal aterosclerótica — indicando Doppler de artérias renais.",
+      "theme": "has_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_362",
+      "statement": "Qual é a apresentação mais comum de um paciente com emergência hipertensiva no PS?",
+      "alternatives": [
+        {"key": "a", "text": "Encefalopatia hipertensiva."},
+        {"key": "b", "text": "AVC isquêmico."},
+        {"key": "c", "text": "Edema agudo de pulmão."},
+        {"key": "d", "text": "Síndrome coronariana aguda."}
+      ],
+      "correct_key": "c",
+      "explanation": "O edema agudo de pulmão hipertensivo é apontado como a apresentação mais comum de emergência hipertensiva nos serviços de emergência, à frente da encefalopatia hipertensiva, do AVC e da SCA.",
+      "theme": "has_emerg",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_363",
+      "statement": "Paciente de 50 a, negro, portador de hipertensão arterial, foi admitido no pronto-socorro apresentando cefaleia intensa e turvação da visão no olho direito. Estava lúcido e orientado no tempo e no espaço. Sua PA era 230 x 140 mmHg, havia edema perimaleolar bilateral. Radiografia do tórax estava normal, a creatinina sérica era 2,0 mg/dl e o fundo de olho revelava borramento da papila. Qual a melhor hipótese diagnóstica?",
+      "alternatives": [
+        {"key": "a", "text": "Encefalopatia hipertensiva."},
+        {"key": "b", "text": "Ataque isquêmico transitório."},
+        {"key": "c", "text": "Acidente vascular encefálico isquêmico."},
+        {"key": "d", "text": "Hipertensão maligna."},
+        {"key": "e", "text": "Síndrome hemolítica-urêmica."}
+      ],
+      "correct_key": "d",
+      "explanation": "PA muito elevada com lesão de múltiplos órgãos-alvo (retiniana — borramento de papila; renal — creatinina elevada) e edema periférico, em paciente lúcido e orientado (sem confusão mental típica de encefalopatia), configura hipertensão arterial maligna.",
+      "theme": "has_emerg",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_364",
+      "statement": "Maura, 64 anos, é examinada no hospital, apresentando enfraquecimento do braço direito e queda facial do lado esquerdo. Sua pressão arterial está em 180 x 105 mmHg. Qual a conduta para hipertensão? Assinale a alternativa CORRETA:",
+      "alternatives": [
+        {"key": "a", "text": "Reduzir a pressão arterial para menos de 160 x 80 mmHg por meio da administração de labetalol."},
+        {"key": "b", "text": "Reduzir a pressão arterial para menos de 130 x 80 mmHg."},
+        {"key": "c", "text": "Reduzir a pressão arterial para menos de 160 x 80 mmHg, caso seja elegível para receber rtPA."},
+        {"key": "d", "text": "Reduzir a pressão arterial para menos de 160 x 80 mmHg por meio da administração de nitroprussiato de sódio."},
+        {"key": "e", "text": "Não intervir na pressão arterial da paciente, mas continuar a monitorá-la."}
+      ],
+      "correct_key": "e",
+      "explanation": "Quadro sugestivo de AVC agudo (déficits focais assimétricos: braço direito e face esquerda — nota-se inconsistência lateral no enunciado, mas o diagnóstico sindrômico é AVC) com PA 180x105, ainda ABAIXO do limiar de 185/110 mmHg que contraindicaria trombólise: a conduta correta na fase aguda do AVC isquêmico é permitir hipertensão permissiva (não intervir na PA), apenas monitorando, já que a PA atual não impede elegibilidade para rtPA e reduções desnecessárias podem comprometer a perfusão da penumbra isquêmica.",
+      "theme": "has_emerg",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_365",
+      "statement": "Dá entrada em uma unidade de emergência um paciente de 52 anos, com histórico de hipertensão arterial sistêmica (HAS), que apresenta dor torácica lancinante. Após monitorização o paciente encontra-se com PA: 260/180 mmHg, FC: 98 bpm, com SAT O2 93%, com crepitações bibasais e assimetria de pulsos. Sobre o quadro clínico acima:",
+      "alternatives": [
+        {"key": "a", "text": "O tratamento da fase aguda dessa emergência hipertensiva deve ser feito com anti-hipertensivos endovenosos. O diagnóstico de dissecção aguda de aorta deve ser investigado com exames complementares para avaliação de tratamento cirúrgico."},
+        {"key": "b", "text": "Nesse caso a investigação complementar deve ser postergada, um eletrocardiograma após o controle da pressão arterial deve ser suficiente para comprovação diagnóstica."},
+        {"key": "c", "text": "Na fase aguda o tratamento imediato deve ser feito com antihipertensivos via oral, com preferência para vasodilatadores como a hidralazina."},
+        {"key": "d", "text": "Para afastar outras lesões em órgão alvo um exame físico direcionado deve ser realizado. Porém exames complementares como eletrocardiograma, função renal e marcadores de necrose miocárdica serão desnecessários."},
+        {"key": "e", "text": "O episódio agudo tratado de complicação hipertensiva não determina risco cardiovascular elevado a longo prazo."}
+      ],
+      "correct_key": "a",
+      "explanation": "Dor torácica lancinante com PA extremamente elevada e assimetria de pulsos (achado clássico de dissecção aórtica) exige tratamento imediato com anti-hipertensivos endovenosos e investigação complementar direcionada (angiotomografia de aorta) para confirmar dissecção e definir necessidade de tratamento cirúrgico — não se deve postergar a investigação, tratar apenas via oral, ou omitir exames complementares relevantes (ECG, função renal, marcadores de necrose).",
+      "theme": "has_emerg",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_366",
+      "statement": "Mulher jovem de 19 anos, sem outras patologias, refere há 3 meses episódios de taquicardia e sudorese que a levam a procurar auxílio médico. Nas avaliações de urgência no pronto-socorro, encontra-se sempre hipertensa com PA de 168 x 108 mmHg e taquicárdica (138 bpm). Qual sua suspeita clínica?",
+      "alternatives": [
+        {"key": "a", "text": "trata-se de jovem com hipertireoidismo por tireoidite de Hashimoto"},
+        {"key": "b", "text": "é um quadro típico de estenose da artéria renal unilateral"},
+        {"key": "c", "text": "a paciente apresenta hiperaldosteronismo primário"},
+        {"key": "d", "text": "trata-se de jovem com quadro de ansiedade"},
+        {"key": "e", "text": "a elevação pressórica é decorrente de um tumor cerebral"}
+      ],
+      "correct_key": "d",
+      "explanation": "Episódios recorrentes de taquicardia, sudorese e elevação pressórica em jovem, sem outras patologias, é um quadro que, entre as opções apresentadas, melhor se encaixa como manifestação de ansiedade/pânico (diagnóstico de exclusão frequente nesse contexto, embora feocromocitoma seja diagnóstico diferencial importante a ser sempre considerado e investigado quando os episódios persistem).",
+      "theme": "has_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_367",
+      "statement": "Paciente hipertenso, rebelde ao tratamento e etilista, sai de domicílio no final de semana e somente é encontrado por familiares dois dias após, com dificuldade respiratória e grande edema nos membros inferiores. Sua PA se encontra bastante elevada com 210 x 130 mmHg, e sua ausculta pulmonar demonstra roncos e estertores. Sua radiografia torácica demonstra padrão bastante congestivo. Abordagem inicial de edema agudo de pulmão hipertensivo, iniciado furosemida 80 mg e nitroprussiato de sódio, mas com necessidade de altas doses do último com 10 mcg/kg/min. Quanto à sua toxicidade, podemos afirmar que",
+      "alternatives": [
+        {"key": "a", "text": "Não ocorre risco de toxicidade nesta dose."},
+        {"key": "b", "text": "É facilitada pelo histórico de potencial hepatopata."},
+        {"key": "c", "text": "Somente ocorre depois de 48h."},
+        {"key": "d", "text": "É potencializada pela furosemida."}
+      ],
+      "correct_key": "b",
+      "explanation": "O paciente etilista tem risco aumentado de hepatopatia associada, e como o nitroprussiato depende do metabolismo hepático inicial (conversão a cianeto, depois tiocianato), a disfunção hepática facilita a intoxicação, especialmente em doses altas (10 mcg/kg/min já é dose elevada, próxima ao limite de segurança).",
+      "theme": "has_emerg",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_368",
+      "statement": "Paciente feminina de 63 anos de idade, obesa mórbida e hipertensa estágio 3 de longa data, que se recusa a realizar tratamento ambulatorial, somente procurando serviço de emergência quando apresenta algum \"mal-estar\". Avaliação inicial demonstra quadro de insuficiência respiratória e agitação; aparelho respiratório com estertores e roncos difusos, edema generalizado ++/4, PA 190x120 mmHg, SPO2 88%. Decidido por abordagem do quadro de Edema Agudo de Pulmão hipertensivo. Das opções abaixo, indique a CORRETA quanto ao mecanismo de ação e potencial efeito colateral das respectivas medicações.",
+      "alternatives": [
+        {"key": "a", "text": "Morfina: diminuição de pré-carga de ventrículo esquerdo por venodilatação, podendo complicar com depressão respiratória."},
+        {"key": "b", "text": "Dobutamina: diminuição da pós-carga de VE, podendo causar bradicardia vagal."},
+        {"key": "c", "text": "Furosemida: diurese a nível de cápsula de Bowman, podendo causar hipernatremia."},
+        {"key": "d", "text": "Digitálicos: aumento da contração por aumentar consumo de ATP e, assim também, levando a taquicardia compensatória."}
+      ],
+      "correct_key": "a",
+      "explanation": "A morfina reduz a pré-carga do VE por venodilatação, com risco de depressão respiratória como efeito adverso relevante (especialmente em paciente já com insuficiência respiratória). A dobutamina é inotrópico positivo (não reduz pós-carga como mecanismo principal), podendo causar TAQUICARDIA (não bradicardia); a furosemida atua na ALÇA DE HENLE (não na cápsula de Bowman) e causa mais tipicamente HIPOnatremia (não hipernatremia); e os digitálicos aumentam a contratilidade por inibição da bomba Na/K-ATPase, não por 'aumentar consumo de ATP' como descrito.",
+      "theme": "has_emerg",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_369",
+      "statement": "Dentro das ditas emergências hipertensivas, qual dos quadros clínicos abaixo NÃO são considerados lesão em órgão alvo da hipertensão arterial sistêmica?",
+      "alternatives": [
+        {"key": "a", "text": "Edema de papila de nervo óptico."},
+        {"key": "b", "text": "Hipertensão intraocular por glaucoma de ângulo fechado."},
+        {"key": "c", "text": "Edema cerebral por vasodilatação por pressão."},
+        {"key": "d", "text": "Anemia Microangiopatia."}
+      ],
+      "correct_key": "b",
+      "explanation": "O glaucoma de ângulo fechado é uma condição oftalmológica independente, NÃO relacionada à lesão hipertensiva de órgão-alvo — diferente do edema de papila (retinopatia hipertensiva), edema cerebral (encefalopatia hipertensiva) e anemia microangiopática (hemólise mecânica por lesão endotelial na hipertensão maligna), que são, todos, manifestações reconhecidas de lesão de órgão-alvo na crise hipertensiva.",
+      "theme": "has_emerg",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_370",
+      "statement": "São considerados órgãos-alvo de emergência hipertensiva todos os elencados abaixo, com a EXCEÇÃO de",
+      "alternatives": [
+        {"key": "a", "text": "Coração."},
+        {"key": "b", "text": "Placenta."},
+        {"key": "c", "text": "Aorta."},
+        {"key": "d", "text": "Córnea."}
+      ],
+      "correct_key": "d",
+      "explanation": "A córnea NÃO é classicamente considerada órgão-alvo da hipertensão arterial — diferente do coração (IC/isquemia), placenta (pré-eclâmpsia/eclâmpsia) e aorta (dissecção), que são órgãos-alvo reconhecidos de emergência hipertensiva. A retina (não a córnea) é a estrutura ocular classicamente afetada.",
+      "theme": "has_emerg",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_371",
+      "statement": "O quadro clínico de emergência hipertensiva relacionada à encefalopatia hipertensiva ocorre",
+      "alternatives": [
+        {"key": "a", "text": "Sangramento cerebral pela hipertensão."},
+        {"key": "b", "text": "Cefaleia devido à hipertensão."},
+        {"key": "c", "text": "Edema cerebral por toxicidade."},
+        {"key": "d", "text": "Edema cerebral por vasodilatação."}
+      ],
+      "correct_key": "d",
+      "explanation": "A encefalopatia hipertensiva decorre de falha da autorregulação do fluxo sanguíneo cerebral diante de PA extremamente elevada, resultando em vasodilatação cerebral excessiva, hiperperfusão e consequente edema cerebral — mecanismo distinto de sangramento (hemorragia) ou toxicidade direta.",
+      "theme": "has_emerg",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_372",
+      "statement": "Quando lidamos com quadros de emergência hipertensiva, frequentemente devemos utilizar o Nitroprussiato de Sódio. Por se tratar de medicação potente, sua farmacologia deve ser bem entendida, sendo que",
+      "alternatives": [
+        {"key": "a", "text": "Atua somente em artérias."},
+        {"key": "b", "text": "Pode ser usado em todos os pacientes."},
+        {"key": "c", "text": "Seu metabólico tóxico prejudica a respiração."},
+        {"key": "d", "text": "Somente funciona em altas doses."}
+      ],
+      "correct_key": "c",
+      "explanation": "O metabólito tóxico do nitroprussiato (cianeto, e seu subproduto tiocianato) pode causar toxicidade celular, incluindo comprometimento da respiração celular (inibição da citocromo oxidase mitocondrial), justificando a alternativa correta. O nitroprussiato atua de forma MISTA (arterial e venosa, não apenas arterial); NÃO pode ser usado em todos os pacientes (contraindicações relativas em hepatopatas/nefropatas graves); e funciona já em doses baixas, não apenas altas.",
+      "theme": "has_emerg",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_373",
+      "statement": "Paciente hipertenso mal controlado e cardiopata, com insuficiência cardíaca congestiva. Constantemente falta às consultas de ambulatório de cardiologia, procurando, a seguir, o Pronto-socorro para receber medicação \"debaixo da língua\". Deu entrada agora na emergência com PA 230x120mmHg, dispneico e com intensa estertoração pulmonar. A hipótese inicial é a de edema agudo hipertensivo, qual das opções abaixo apresenta efeito importante, tanto na pré-carga, quanto na pós-carga de Ventrículo Esquerdo na emergência?",
+      "alternatives": [
+        {"key": "a", "text": "Digitálico."},
+        {"key": "b", "text": "Nitroglicerina."},
+        {"key": "c", "text": "Nitroprussiato de sódio."},
+        {"key": "d", "text": "Furosemida."}
+      ],
+      "correct_key": "c",
+      "explanation": "O nitroprussiato de sódio tem ação vasodilatadora MISTA (arterial e venosa), reduzindo simultaneamente e de forma importante tanto a pré-carga (venodilatação) quanto a pós-carga (vasodilatação arterial) do ventrículo esquerdo — diferente da nitroglicerina (predomínio venoso/pré-carga), furosemida (ação diurética, não vasodilatadora direta) e digitálicos (inotrópico, sem efeito vasodilatador direto).",
+      "theme": "has_emerg",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_374",
+      "statement": "O nitroprussiato de sódio, potente anti-hipertensivo, é frequentemente usado no dia a dia do tratamento de emergências cardiovasculares, NÃO sendo verdadeiro que:",
+      "alternatives": [
+        {"key": "a", "text": "Após metabolizado pelo fígado, perde a toxicidade."},
+        {"key": "b", "text": "A insuficiência renal facilita a intoxicação."},
+        {"key": "c", "text": "Atua de forma mista, em sistema arterial e venoso."},
+        {"key": "d", "text": "Com o uso, frequentemente a dose deve ser aumentada."}
+      ],
+      "correct_key": "a",
+      "explanation": "É falso afirmar que o nitroprussiato 'perde a toxicidade' após metabolizado pelo fígado — pelo contrário, sua metabolização hepática gera CIANETO (tóxico), que posteriormente é convertido a tiocianato (menos tóxico, mas ainda relevante, especialmente em insuficiência renal, já que sua eliminação é renal) — o processo não elimina o risco de toxicidade, apenas o transforma/reduz parcialmente.",
+      "theme": "has_emerg",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_375",
+      "statement": "São condições que indicam a necessidade de investigação de causas secundárias de hipertensão arterial, EXCETO:",
+      "alternatives": [
+        {"key": "a", "text": "Hipocalemia"},
+        {"key": "b", "text": "Episódios hipertensivos associados à sudorese e palpitação."},
+        {"key": "c", "text": "Idade maior que 60 anos."},
+        {"key": "d", "text": "Presença de sopro abdominal."}
+      ],
+      "correct_key": "c",
+      "explanation": "A idade maior que 60 anos, isoladamente, NÃO é um sinal de alerta clássico para investigação de HAS secundária (a maioria dos hipertensos idosos tem HAS primária/essencial relacionada ao envelhecimento vascular). Hipocalemia, episódios com sudorese/palpitação (sugestivo de feocromocitoma) e sopro abdominal (sugestivo de estenose renal) são, todos, sinais de alerta reconhecidos para investigação secundária.",
+      "theme": "has_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_376",
+      "statement": "Homem de 54 anos, tabagista, apresentou aumento abrupto da pressão arterial (180 x 120 mmHg) 6 meses atrás. Na época, foi medicado com captopril 25 mg SL, o que resultou em importante perda de função renal. Não respondeu a vários esquemas com três drogas anti-hipertensivas, incluindo diuréticos. Qual é a causa mais provável da hipertensão no paciente?",
+      "alternatives": [
+        {"key": "a", "text": "Renovascular."},
+        {"key": "b", "text": "Hipertireoidismo."},
+        {"key": "c", "text": "Feocromocitoma."},
+        {"key": "d", "text": "Hiperaldosteronismo."},
+        {"key": "e", "text": "Coarctação da aorta."}
+      ],
+      "correct_key": "a",
+      "explanation": "HAS de início abrupto em tabagista, com piora aguda da função renal após IECA (captopril) e refratariedade a múltiplas classes de anti-hipertensivos, é o quadro clássico de hipertensão renovascular por estenose de artéria renal.",
+      "theme": "has_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "has_377",
+      "statement": "Homem, 78 anos, refere que não está conseguindo controlar a pressão arterial há 3 meses. Antecedentes: tabagista, hipertenso há 20 anos, em uso de hidroclorotiazida. Exame físico: corado; hidratado; FC = 72 bpm; PA = 168 x 112 mmHg. Pescoço: sopro audível na topografia de carótida direita. Coração: ausculta cardíaca sem alterações. Extremidades: pulso pedioso e radial esquerdos diminuídos. A PROPEDÊUTICA DIAGNÓSTICA A SER REALIZADA É:",
+      "alternatives": [
+        {"key": "a", "text": "Ecocardiograma."},
+        {"key": "b", "text": "Ultrassonografia com Doppler de membro inferior esquerdo."},
+        {"key": "c", "text": "Angiotomografia de aorta."},
+        {"key": "d", "text": "Monitorização Ambulatorial da Pressão Arterial (MAPA)."}
+      ],
+      "correct_key": "c",
+      "explanation": "Idoso tabagista com sopro carotídeo e assimetria de pulsos em múltiplos territórios (pedioso e radial esquerdos diminuídos), sugerindo doença aterosclerótica sistêmica extensa (possível acometimento de múltiplos grandes vasos, incluindo aorta), justifica investigação ampla com angiotomografia de aorta para avaliar a extensão do acometimento vascular, mais abrangente que uma avaliação isolada de um único território.",
+      "theme": "has_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
     }
   ]
 }

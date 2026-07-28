@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T12:07:03.669Z",
+  "generatedAt": "2026-07-28T12:23:30.811Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,7 +26,7 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 1434,
+  "totalQuestions": 1533,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
@@ -38,14 +38,15 @@
     "mio_hipertrof": 14,
     "cardio_perimio": 129,
     "cardio_has": 100,
-    "has_dx": 80,
+    "has_dx": 123,
     "has_tto": 99,
+    "has_emerg": 55,
     "cardio_ic": 140,
     "peri_aguda": 17,
     "cardio_sca": 120,
     "peri_tampon": 13,
     "cardio_valvopatias": 140,
-    "emg_choque": 46,
+    "emg_choque": 47,
     "atls_inicial": 1,
     "atls_choque": 2,
     "atls_toracico": 31,
@@ -240,9 +241,10 @@
       "themes": [
         "cardio_has",
         "has_dx",
-        "has_tto"
+        "has_tto",
+        "has_emerg"
       ],
-      "questionsCount": 279,
+      "questionsCount": 377,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -1488,7 +1490,7 @@
       "themes": [
         "emg_choque"
       ],
-      "questionsCount": 46,
+      "questionsCount": 47,
       "flashcardsCount": 0,
       "casosCount": 0
     },
