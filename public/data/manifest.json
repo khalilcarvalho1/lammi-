@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T00:45:17.618Z",
+  "generatedAt": "2026-07-28T01:29:06.380Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,7 +26,7 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 1209,
+  "totalQuestions": 1289,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
@@ -38,6 +38,7 @@
     "mio_hipertrof": 14,
     "cardio_perimio": 129,
     "cardio_has": 100,
+    "has_dx": 80,
     "cardio_ic": 140,
     "peri_aguda": 17,
     "cardio_sca": 120,
@@ -235,9 +236,10 @@
       "area": "cardiologia",
       "slug": "has",
       "themes": [
-        "cardio_has"
+        "cardio_has",
+        "has_dx"
       ],
-      "questionsCount": 100,
+      "questionsCount": 180,
       "flashcardsCount": 0,
       "casosCount": 0
     },
