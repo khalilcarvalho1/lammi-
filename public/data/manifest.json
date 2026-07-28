@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T17:23:44.686Z",
+  "generatedAt": "2026-07-28T19:15:32.833Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,7 +26,7 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 1831,
+  "totalQuestions": 2024,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
@@ -47,6 +47,11 @@
     "cardio_semiologia": 70,
     "peri_tampon": 13,
     "cardio_valvopatias": 140,
+    "dm_cad": 57,
+    "dm_compl": 10,
+    "hip_di": 1,
+    "dm_dx": 35,
+    "dm_tto": 90,
     "emg_choque": 47,
     "atls_inicial": 1,
     "atls_choque": 2,
@@ -629,8 +634,20 @@
     {
       "area": "endocrinologia",
       "slug": "cetoacidose",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "dm_cad"
+      ],
+      "questionsCount": 57,
+      "flashcardsCount": 0,
+      "casosCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "complicacoes-cronicas",
+      "themes": [
+        "dm_compl"
+      ],
+      "questionsCount": 10,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -645,8 +662,20 @@
     {
       "area": "endocrinologia",
       "slug": "diabetes-insipidus",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "hip_di"
+      ],
+      "questionsCount": 1,
+      "flashcardsCount": 0,
+      "casosCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "diagnostico-classificacao",
+      "themes": [
+        "dm_dx"
+      ],
+      "questionsCount": 35,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -725,8 +754,10 @@
     {
       "area": "endocrinologia",
       "slug": "hipoglicemia",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "dm_tto"
+      ],
+      "questionsCount": 8,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -807,6 +838,16 @@
       "slug": "tireoidites",
       "themes": [],
       "questionsCount": 0,
+      "flashcardsCount": 0,
+      "casosCount": 0
+    },
+    {
+      "area": "endocrinologia",
+      "slug": "tratamento",
+      "themes": [
+        "dm_tto"
+      ],
+      "questionsCount": 82,
       "flashcardsCount": 0,
       "casosCount": 0
     },
