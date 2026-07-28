@@ -1168,6 +1168,173 @@
       "source": "INEP REVALIDA 2012",
       "reviewed": false,
       "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "cc_068",
+      "statement": "Jovem do sexo masculino, 22 anos, é encaminhado ao ambulatório para avaliação de hipertensão arterial sistêmica. Não apresenta antecedentes familiares relevantes e não faz uso de medicamentos ou substâncias ilícitas. O exame físico revela: desdobramento fisiológico de B2 e hiperfonese da segunda bulha em foco aórtico, além de sopro sistólico ejetivo ao longo do bordo esternal esquerdo. O paciente traz uma radiografia de tórax mostrando erosões (\"corrosões\") na borda inferior dos arcos costais posteriores (rib notching). Em face do exposto, é correto afirmar que a causa mais provável da hipertensão arterial é secundária",
+      "alternatives": [
+        {"key": "a", "text": "à coarctação da aorta."},
+        {"key": "b", "text": "à síndrome de Cushing."},
+        {"key": "c", "text": "ao hiperparatireoidismo."},
+        {"key": "d", "text": "à apneia do sono."},
+        {"key": "e", "text": "ao hipotireoidismo."}
+      ],
+      "correct_key": "a",
+      "explanation": "O sinal radiográfico de \"corrosão\" (rib notching) na borda inferior das costelas, causado por circulação colateral intercostal dilatada contornando a obstrução aórtica, associado a hiperfonese de B2 aórtica e sopro sistólico ejetivo em jovem hipertenso, é patognomônico de coarctação da aorta.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "cc_069",
+      "statement": "A respeito da ausculta cardíaca, assinale a alternativa correta.",
+      "alternatives": [
+        {"key": "a", "text": "A ausência de sopro descarta cardiopatia."},
+        {"key": "b", "text": "A presença de sopro diastólico é inocente."},
+        {"key": "c", "text": "O sopro característico da CIV é o sistodiastólico em maquinaria."},
+        {"key": "d", "text": "O sopro inocente apresenta frêmito precordial palpável."},
+        {"key": "e", "text": "A segunda bulha está aumentada nas cardiopatias de hiperfluxo pulmonar."}
+      ],
+      "correct_key": "e",
+      "explanation": "A B2 (particularmente seu componente pulmonar) fica hiperfonética em condições de hiperfluxo pulmonar, como CIA, CIV e PCA. As demais estão incorretas: a ausência de sopro não descarta cardiopatia; sopro diastólico nunca é inocente; o sopro sistodiastólico contínuo em maquinaria é característico da persistência do canal arterial (não da CIV, cujo sopro é sistólico); e o sopro inocente, por definição, não tem frêmito palpável.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "cc_070",
+      "statement": "Recém-nascido, 3 semanas de vida (parto normal), Apgar 9-10, IG: 39,5 semanas e pré-natal sem intercorrências, dá entrada na emergência. A mãe refere que o filho apresenta gemência e dificuldade para mamar. Ao exame, além de não serem observados pulsos em MMII, o paciente está gemente, com: FC – 198 bpm; FR – 45 irpm; Temperatura axilar – 35,3 ºC; PA – 110x90 mmHg; Bulhas rítmicas hipofonéticas; MV simétrico e estertores crepitantes em bases; Abdome globoso e flácido; Fígado a 5 cm do rebordo central direito (RCD); má perfusão periférica; e pele moteada. Quanto à causa etiológica da crise hipertensiva descrita, nesse caso clínico, assinale a alternativa correta.",
+      "alternatives": [
+        {"key": "a", "text": "Tumor de suprarrenal."},
+        {"key": "b", "text": "ICC por doença crônica intrauterina."},
+        {"key": "c", "text": "Coarctação da aorta."},
+        {"key": "d", "text": "Malformação renal."},
+        {"key": "e", "text": "Hiperplasia adrenal congênita"}
+      ],
+      "correct_key": "c",
+      "explanation": "Ausência de pulsos em MMII associada a sinais de insuficiência cardíaca (hepatomegalia, estertores, taquicardia, má perfusão) em neonato, tipicamente por volta do fechamento do canal arterial (2ª-3ª semana de vida), é o quadro clássico de coarctação da aorta descompensada, gerando hipertensão proximal (MMSS) e hipofluxo distal (MMII).",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "cc_071",
+      "statement": "A respeito da ausculta cardíaca, assinale a alternativa correta.",
+      "alternatives": [
+        {"key": "a", "text": "A segunda bulha está aumentada nas cardiopatias de hiperfluxo pulmonar."},
+        {"key": "b", "text": "A ausência de sopro descarta a cardiopatia."},
+        {"key": "c", "text": "A presença de sopro diastólico é inocente."},
+        {"key": "d", "text": "O sopro característico da CIV é o sistodiastólico em maquinaria."},
+        {"key": "e", "text": "O sopro inocente apresenta frêmito precordial palpável."}
+      ],
+      "correct_key": "a",
+      "explanation": "A B2 (componente pulmonar) fica hiperfonética em cardiopatias com hiperfluxo pulmonar (CIA, CIV, PCA). As demais alternativas são falsas pelos mesmos motivos: sopro diastólico não é inocente, o sopro contínuo em maquinaria é da PCA (não da CIV) e sopro inocente não tem frêmito palpável.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "cc_072",
+      "statement": "Menina de 6 anos foi trazida à consulta por otalgia. Ao ser realizada a ausculta cardíaca, foi observado um sopro sistólico de alta frequência, vibratório, variável, concluído antes da segunda bulha, não precedido por estalido. Dentre os sopros abaixo, qual o mais provável?",
+      "alternatives": [
+        {"key": "a", "text": "Sopro pulmonar"},
+        {"key": "b", "text": "Sopro pulmonar periférico"},
+        {"key": "c", "text": "Zumbido venoso"},
+        {"key": "d", "text": "Sopro de Still"}
+      ],
+      "correct_key": "d",
+      "explanation": "Sopro sistólico curto, vibratório/musical, de alta frequência, que varia com a posição e termina antes de B2, sem estalido precedente, em criança assintomática (achado incidental), é a descrição clássica do sopro de Still, o sopro inocente mais comum na infância.",
+      "theme": "cardio_perimio",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "cc_073",
+      "statement": "Gestante hipertensa grave necessita de cesárea de urgência. Dá à luz a recém-nascido prematuro extremo de 27 semanas, com peso de nascimento de 850g e Apgar 6/8. Necessitou ser reanimado na sala de parto com intubação orotraqueal por taquidispneia grave. Ao chegar à UTI neonatal, precisou de reposição de surfactante pulmonar por doença de membrana hialina e evoluiu satisfatoriamente, sendo extubado para ventilação não invasiva no 3º dia de vida. Contudo, no 5º dia de vida, apresenta apneias de repetição, retornando para ventilação mecânica com fração de oxigênio alta. Ao exame físico, apresenta precórdio hiperdinâmico e pulsos radiais em martelo d'água. À ausculta, apresenta sopro sistólico 4+/6+ em maquinaria, melhor audível em borda esternal esquerda com irradiação para a clavícula esquerda. O diagnóstico mais provável é:",
+      "alternatives": [
+        {"key": "a", "text": "coarctação da aorta"},
+        {"key": "b", "text": "persistência do canal arterial"},
+        {"key": "c", "text": "hipoplasia de ventrículo direito"},
+        {"key": "d", "text": "hipoplasia de ventrículo esquerdo"}
+      ],
+      "correct_key": "b",
+      "explanation": "Prematuridade extrema, deterioração respiratória com apneias no 5º dia de vida, precórdio hiperdinâmico, pulsos amplos em martelo d'água e sopro contínuo em maquinaria em borda esternal esquerda irradiado para a clavícula são o quadro clássico de persistência do canal arterial (PCA) hemodinamicamente significativa, comum em prematuros extremos.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "cc_074",
+      "statement": "Ao exame físico, a detecção de sopro sistólico suave em foco pulmonar e desdobramento fixo da segunda bulha são achados importantes para o diagnóstico de:",
+      "alternatives": [
+        {"key": "a", "text": "comunicação interatrial."},
+        {"key": "b", "text": "persistência do canal arterial."},
+        {"key": "c", "text": "estenose valvar pulmonar."},
+        {"key": "d", "text": "tetralogia de Fallot."},
+        {"key": "e", "text": "estenose valvar aórtica."}
+      ],
+      "correct_key": "a",
+      "explanation": "O desdobramento FIXO de B2 (não varia com a respiração, pois o hiperfluxo pulmonar pelo shunt é constante em qualquer fase respiratória), associado a sopro sistólico suave por hiperfluxo funcional em foco pulmonar, é o achado semiológico mais característico de comunicação interatrial (CIA).",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "cc_075",
+      "statement": "Mulher de 21 anos, assintomática, com sopro mesossistólico audível no 2° espaço intercostal esquerdo, irradiando para a região infraescapular ipsilateral, em crescendo-decrescendo, grau II, além de movimento paraesternal inferior esquerdo de grande amplitude, pulsação no 2° espaço intercostal esquerdo e desdobramento fixo da segunda bulha. Considerando o caso descrito, assinale a alternativa CORRETA.",
+      "alternatives": [
+        {"key": "a", "text": "Esses achados são fisiológicos nessa faixa etária."},
+        {"key": "b", "text": "O sopro auscultado se deve ao hiperfluxo na valva pulmonar."},
+        {"key": "c", "text": "A primeira bulha cardíaca, geralmente, é hipofonética."},
+        {"key": "d", "text": "A estenose pulmonar congênita é a principal hipótese."}
+      ],
+      "correct_key": "b",
+      "explanation": "Movimento paraesternal hiperdinâmico de VD, desdobramento fixo de B2 e sopro sistólico ejetivo no foco pulmonar são o quadro clássico de comunicação interatrial (CIA); o sopro decorre do hiperfluxo funcional através da valva pulmonar (não de estenose pulmonar orgânica, que teria B1 preservada e não é achado fisiológico da idade).",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "cc_076",
+      "statement": "Uma mulher de 42 anos, assintomática, tem os seguintes achados de exame físico e exames complementares: aparelho cardiovascular: ventrículo direito palpável, sopro sistólico audível na borda esternal esquerda alta e desdobramento fixo da 2ª bulha; radiografia de tórax: aumento do ventrículo direito e hiperfluxo pulmonar; ECG: padrão de bloqueio do ramo direito. O diagnóstico mais provável é:",
+      "alternatives": [
+        {"key": "a", "text": "persistência de canal arterial"},
+        {"key": "b", "text": "comunicação interventricular"},
+        {"key": "c", "text": "comunicação interatrial"},
+        {"key": "d", "text": "hipertensão arterial pulmonar"},
+        {"key": "e", "text": "nenhuma das anteriores"}
+      ],
+      "correct_key": "c",
+      "explanation": "VD palpável (hiperdinâmico), sopro sistólico em borda esternal esquerda alta (foco pulmonar), desdobramento fixo de B2, hiperfluxo pulmonar ao RX e padrão de bloqueio de ramo direito (sobrecarga de VD) ao ECG compõem o quadro clássico de comunicação interatrial diagnosticada na vida adulta.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "cc_077",
+      "statement": "Ao exame físico, a detecção de sopro sistólico suave em foco pulmonar e desdobramento fixo da segunda bulha são achados importantes para o diagnóstico de:",
+      "alternatives": [
+        {"key": "a", "text": "Comunicação interatrial."},
+        {"key": "b", "text": "Persistência do canal arterial."},
+        {"key": "c", "text": "Estenose valvar pulmonar."},
+        {"key": "d", "text": "Tetralogia de Fallot."}
+      ],
+      "correct_key": "a",
+      "explanation": "O desdobramento fixo de B2, junto ao sopro sistólico suave por hiperfluxo em foco pulmonar, é o achado semiológico clássico e mais específico de comunicação interatrial (CIA).",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
     }
+
   ]
 }

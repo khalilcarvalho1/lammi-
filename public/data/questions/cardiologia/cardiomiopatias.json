@@ -530,6 +530,39 @@
       "difficulty": "medio",
       "reviewed": false,
       "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "cmp_033",
+      "statement": "Homem, 33 anos, assintomático, procura atendimento médico para realização de atividade física em academia. Nega hipertensão, diabetes mellitus, dislipidemia e tabagismo. Pai faleceu aos 39 anos de idade por morte súbita. Exame físico: FC = 72 bpm; PA = 130 x 80 mmHg; ritmo cardíaco regular; bulhas normofonéticas; sopro mesossistólico 3+/6+ em borda esternal esquerda média, cuja intensidade diminui com o agachamento e aumenta com a posição ortostática. O eletrocardiograma mostra critérios de sobrecarga ventricular esquerda com alterações difusas da repolarização. Qual é a hipótese diagnóstica mais provável?",
+      "alternatives": [
+        {"key": "a", "text": "Coarctação da aorta."},
+        {"key": "b", "text": "Cardiomiopatia hipertrófica."},
+        {"key": "c", "text": "Displasia arritmogênica do ventrículo direito."},
+        {"key": "d", "text": "Estenose aórtica."}
+      ],
+      "correct_key": "b",
+      "explanation": "ATENÇÃO: eletrocardiograma referido no enunciado (fotografia) não pôde ser lido com detalhe fino na extração do PDF. Homem jovem assintomático, história familiar de morte súbita precoce, e sopro que se comporta de forma DINÂMICA — diminui com agachamento (aumento de pré-carga/pós-carga reduz a obstrução dinâmica) e aumenta em ortostatismo (reduz pré-carga, piora a obstrução) — é o padrão clássico da cardiomiopatia hipertrófica obstrutiva, diferente do sopro da estenose aórtica (fixo, que sempre aumenta com manobras que aumentam o débito).",
+      "theme": "mio_hipertrof",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "cmp_034",
+      "statement": "Paciente de 17 anos apresenta queixa de dispneia aos esforços habituais, há quatro meses, e um episódio de síncope sem sintomas premonitórios durante esforço físico, na última semana. Ao exame físico, apresenta ritmo cardíaco regular com sopro sistólico em borda esternal esquerda 2+/6+, que aumenta durante a manobra de Valsalva e diminui com a posição de cócoras. A hipótese diagnóstica mais provável é:",
+      "alternatives": [
+        {"key": "a", "text": "Comunicação interventricular."},
+        {"key": "b", "text": "Miocardiopatia hipertrófica."},
+        {"key": "c", "text": "Estenose aórtica."},
+        {"key": "d", "text": "Estenose pulmonar."}
+      ],
+      "correct_key": "b",
+      "explanation": "Adolescente com síncope de esforço sem pródromos e sopro que AUMENTA com Valsalva (reduz pré-carga, piorando a obstrução dinâmica) e DIMINUI com cócoras (aumenta pré/pós-carga, reduzindo a obstrução) é o comportamento clássico do sopro da cardiomiopatia hipertrófica obstrutiva — padrão inverso ao da estenose aórtica fixa.",
+      "theme": "mio_hipertrof",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
     }
+
   ]
 }

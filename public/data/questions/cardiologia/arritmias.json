@@ -1724,6 +1724,56 @@
       "source": "USP-RP R3CM 2025",
       "reviewed": false,
       "created_at": "2026-07-26T00:00:00.000Z"
+    },
+    {
+      "id": "arr_101",
+      "statement": "Homem de 48 anos queixa-se de fraqueza generalizada e dispneia. Ao exame físico, ausculta-se desdobramento da segunda bulha que é constante, mas aumenta quando o paciente inspira. O ritmo cardíaco é regular, a primeira bulha é normal e não há sopros. Qual das seguintes alterações eletrocardiográficas é MAIS COMPATÍVEL com os achados auscultatórios observados no paciente?",
+      "alternatives": [
+        {"key": "a", "text": "Bloqueio completo do ramo direito do feixe de His"},
+        {"key": "b", "text": "Elevação do segmento ST nas derivações anteriores"},
+        {"key": "c", "text": "Redução da duração do intervalo PR"},
+        {"key": "d", "text": "Repolarização precoce"}
+      ],
+      "correct_key": "a",
+      "explanation": "O bloqueio completo do ramo direito atrasa a ativação/ejeção do ventrículo direito, atrasando o componente pulmonar de B2 e produzindo um desdobramento amplo (mas que ainda varia com a respiração, ampliando-se na inspiração) — achado compatível com o descrito.",
+      "theme": "cardio_arritmias",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "arr_102",
+      "statement": "Correlacione achado da semiologia cardiovascular com laudos de ECG. a – Ritmo cardíaco irregular, com variações de fonese de primeira bulha; b - Desdobramento de B2 na expiração em foco pulmonar; c - Desdobramento de B2 na inspiração em foco pulmonar; d – Hipofonese de B1. 1 – Bloqueio de ramo direito; 2 – Bloqueio de ramo esquerdo; 3 – Normal; 4 – Fibrilação atrial; 5 – Taquicardia atrial multifocal; 6 – Bloqueio Atrio-ventricular de 1º grau. Assinale a alternativa correta.",
+      "alternatives": [
+        {"key": "a", "text": "4A, 2C, 6D"},
+        {"key": "b", "text": "4D, 2B, 3C"},
+        {"key": "c", "text": "5A, 1B, 6D"},
+        {"key": "d", "text": "5D, 3B, 6A"},
+        {"key": "e", "text": "2B, 3B, 4D"}
+      ],
+      "correct_key": "b",
+      "explanation": "Correlação correta: a (ritmo irregular com fonese variável de B1) associa-se a fibrilação atrial (4); d (hipofonese de B1) associa-se a bloqueio AV de 1º grau (o intervalo PR prolongado faz a valva mitral já estar quase fechada ao início da sístole, reduzindo a intensidade de B1); b (desdobramento na expiração) é um achado anormal (desdobramento paradoxal), compatível com bloqueio de ramo esquerdo (2), pela ativação/ejeção retardada do VE.",
+      "theme": "cardio_arritmias",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "id": "arr_103",
+      "statement": "Reproduz-se o traçado eletrocardiográfico (derivação V6) de um paciente de 60 anos, evidenciando complexo QRS alargado com padrão sugestivo de bloqueio de ramo esquerdo. Se tratando desse paciente, assinale a alternativa ERRADA:",
+      "alternatives": [
+        {"key": "a", "text": "Se houver insuficiência cardíaca refratária ao tratamento medicamentoso, esse paciente pode beneficiar-se com a terapia de ressincronização ventricular."},
+        {"key": "b", "text": "Em face desse traçado eletrocardiográfico, há grande probabilidade de que esse paciente seja cardiopata, visto que a alteração que ali se detecta é incomum em pacientes sem evidências de cardiopatia."},
+        {"key": "c", "text": "À ausculta cardíaca, espera-se encontrar desdobramento inspiratório da segunda bulha."},
+        {"key": "d", "text": "O ecodopplercardiograma do paciente deve revelar movimentação anômala do septo interventricular."}
+      ],
+      "correct_key": "c",
+      "explanation": "No bloqueio de ramo esquerdo, a ativação/ejeção do VE é atrasada, fazendo com que o componente aórtico de B2 ocorra DEPOIS do pulmonar mesmo na expiração, e na inspiração os dois componentes se aproximam (desdobramento PARADOXAL, que se estreita na inspiração) — o oposto do desdobramento fisiológico inspiratório normal, tornando a alternativa C a afirmação ERRADA (resposta pedida pela questão).",
+      "theme": "cardio_arritmias",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
     }
+
   ]
 }

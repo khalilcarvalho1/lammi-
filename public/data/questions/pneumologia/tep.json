@@ -33,6 +33,23 @@
       "source": "USP R3CM 2023",
       "reviewed": false,
       "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "tep_003",
+      "statement": "Ao realizar a ausculta cardíaca de um paciente, você ausculta o componente pulmonar da segunda bulha (P2) mais intenso que o componente aórtico (A2). Assinale em qual patologia abaixo é esperado esse achado semiótico.",
+      "alternatives": [
+        {"key": "a", "text": "Estenose aórtica"},
+        {"key": "b", "text": "Hipertensão maligna"},
+        {"key": "c", "text": "Tromboembolismo pulmonar"},
+        {"key": "d", "text": "Miocardite aguda"},
+        {"key": "e", "text": "Hipotireoidismo"}
+      ],
+      "correct_key": "c",
+      "explanation": "A hiperfonese do componente pulmonar de B2 (P2 > A2) reflete hipertensão pulmonar aguda ou crônica; o tromboembolismo pulmonar é causa clássica de elevação súbita da pressão na artéria pulmonar, tornando o fechamento da valva pulmonar mais vigoroso e audível.",
+      "theme": "tep_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
     }
   ]
 }

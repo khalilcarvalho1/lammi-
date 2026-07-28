@@ -290,6 +290,22 @@
       "difficulty": "dificil",
       "reviewed": false,
       "created_at": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "id": "peri_018",
+      "statement": "Qual das doenças abaixo cursa mais habitualmente com pulso paradoxal?",
+      "alternatives": [
+        {"key": "a", "text": "Estenose aórtica."},
+        {"key": "b", "text": "Pericardite constritiva."},
+        {"key": "c", "text": "Insuficiência aórtica."},
+        {"key": "d", "text": "Estenose mitral."}
+      ],
+      "correct_key": "b",
+      "explanation": "O pulso paradoxal (queda inspiratória exagerada > 10 mmHg na pressão sistólica) é classicamente associado ao tamponamento cardíaco, mas também ocorre com frequência na pericardite constritiva, por interdependência ventricular exacerbada dentro do pericárdio rígido — entre as opções, é a doença que mais habitualmente cursa com esse achado.",
+      "theme": "cardio_perimio",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z"
     }
   ]
 }
