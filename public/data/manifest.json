@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T16:33:04.584Z",
+  "generatedAt": "2026-07-28T16:53:04.476Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,7 +26,7 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 1635,
+  "totalQuestions": 1732,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
@@ -60,6 +60,7 @@
     "atls_genitourinario": 1,
     "orto_trauma_basico": 32,
     "ped_bronco": 2,
+    "ped_exant": 97,
     "pneumo_outros": 6,
     "dpoc_dx": 21,
     "dpoc_exac": 24,
@@ -2370,6 +2371,16 @@
       "slug": "desidratacao",
       "themes": [],
       "questionsCount": 0,
+      "flashcardsCount": 0,
+      "casosCount": 0
+    },
+    {
+      "area": "pediatria",
+      "slug": "doencas-exantematicas",
+      "themes": [
+        "ped_exant"
+      ],
+      "questionsCount": 97,
       "flashcardsCount": 0,
       "casosCount": 0
     },
