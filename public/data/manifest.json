@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T00:57:28.638Z",
+  "generatedAt": "2026-07-29T01:19:26.610Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,7 +26,7 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 1996,
+  "totalQuestions": 2196,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
@@ -67,6 +67,7 @@
     "ped_aleitamento": 99,
     "ped_bronco": 2,
     "ped_exant": 97,
+    "ped_congenitas": 200,
     "pneumo_outros": 6,
     "dpoc_dx": 21,
     "dpoc_exac": 24,
@@ -2441,6 +2442,16 @@
       "slug": "ictericia-neonatal",
       "themes": [],
       "questionsCount": 0,
+      "flashcardsCount": 0,
+      "casosCount": 0
+    },
+    {
+      "area": "pediatria",
+      "slug": "infeccoes-congenitas",
+      "themes": [
+        "ped_congenitas"
+      ],
+      "questionsCount": 200,
       "flashcardsCount": 0,
       "casosCount": 0
     },

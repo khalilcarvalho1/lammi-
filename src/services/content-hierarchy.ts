@@ -762,6 +762,11 @@ export const AREAS: Area[] = [
         label: 'Aleitamento Materno',
         subtemas: []
       },
+      {
+        id: 'ped_congenitas',
+        label: 'Infecções Congênitas',
+        subtemas: []
+      },
     ]
   },
 
