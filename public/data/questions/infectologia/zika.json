@@ -1423,6 +1423,326 @@
       "difficulty": "dificil",
       "reviewed": false,
       "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb2_005",
+      "statement": "Um pesquisador realizou um inquérito sorológico para arboviroses em duas cidades do interior, evidenciando presença de anticorpos contra o vírus Oropouche (OROV) em animais domésticos como cães e aves. Não houve isolamento do vírus no sangue desses animais. Igualmente, fez um inquérito entre pacientes adultos que apresentaram síndrome febril aguda no mesmo período, isolando o vírus da dengue em um percentual de pacientes, mas sem encontrar o OROV. Esses resultados foram compartilhados com as autoridades de saúde locais. DIAS, H. G. Investigação dos vírus mayaro e oropouche na interface humano-animal em regiões metropolitanas do Centro-Oeste do Brasil, 2016-2018. 2023. Tese (Doutorado em Medicina Tropical) - Fundação Oswaldo Cruz, Rio de Janeiro, 2023. Indique a principal complicação clínica do OROV:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Meningoencefalite OU Meningite viral OU Encefalite viral OU Meningite OU Infecção do Sistema Nervoso Central OU Encefalite."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A meningoencefalite (incluindo meningite e encefalite viral) é reconhecida como a principal complicação clínica da infecção pelo vírus Oropouche.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "SUS-BA R1 2025"
+    },
+    {
+      "id": "arb2_006",
+      "statement": "Menino, 10 anos de idade, residente em uma zona rural da região Norte do Brasil, é levado ao posto de saúde por sua mãe devido à febre alta continua, iniciada há cinco dias, contínua. A mãe relata dor de cabeça intensa, mialgia e artralgia, náuseas ocasionais, muito cansaço e fotofobia. No exame físico, encontra-se febril (39,2°C), com hiperemia conjuntival discreta e leve prostração. Não há sinais de sangramento, icterícia ou exantema. Não há hepatomegalia nem esplenomegalia. A mãe informa, também, que outros membros da comunidade apresentaram sintomas semelhantes recentemente. Na fase aguda da doença, indique o exame laboratorial com maior especificidade para confirmação etiológica:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hemocultura."
+        },
+        {
+          "key": "b",
+          "text": "Pesquisa de Plasmódios em exame de Gota Espessa."
+        },
+        {
+          "key": "c",
+          "text": "Hemograma com contagem de plaquetas."
+        },
+        {
+          "key": "d",
+          "text": "Reação em Cadeia da Polimerase (RT-PCR) específica."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A RT-PCR específica é o exame com maior especificidade para confirmação etiológica de arboviroses na fase aguda febril, permitindo identificação direta do agente viral circulante — especialmente relevante em quadros atípicos/indiferenciados como o descrito (ausência de sangramento, exantema ou hepatoesplenomegalia, contexto de surto comunitário).",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "PSU-AL R1 2026"
+    },
+    {
+      "id": "arb2_009",
+      "statement": "Em relação à febre Oropouche, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A transmissão ocorre, principalmente, por mosquitos do gênero Aedes, semelhante aos vetores da dengue."
+        },
+        {
+          "key": "b",
+          "text": "Até 2025, não existem relatos publicados de transmissão vertical do vírus Oropouche em humanos, sendo essa hipótese sustentada apenas por estudos experimentais em animais."
+        },
+        {
+          "key": "c",
+          "text": "Até o momento, não há registros de circulação do vírus Oropouche fora da região amazônica, sendo a doença restrita ao norte do Brasil."
+        },
+        {
+          "key": "d",
+          "text": "O quadro clínico é semelhante ao de outras arboviroses, com febre, cefaleia, mialgia e exantema; geralmente é autolimitado, mas pode evoluir com complicações neurológicas."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O quadro clínico da febre de Oropouche assemelha-se ao de outras arboviroses (febre, cefaleia, mialgia, exantema), sendo geralmente autolimitado, mas podendo evoluir com complicações neurológicas (meningoencefalite) em uma minoria dos casos.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "PSU-MG R1 2026"
+    },
+    {
+      "id": "arb2_025",
+      "statement": "Um pesquisador realizou um inquérito sorológico para arboviroses em duas cidades do interior, evidenciando presença de anticorpos contra o vírus Oropouche (OROV) em animais domésticos como cães e aves. Não houve isolamento do vírus no sangue desses animais. Igualmente, fez um inquérito entre pacientes adultos que apresentaram síndrome febril aguda no mesmo período, isolando o vírus da dengue em um percentual de pacientes, mas sem encontrar o OROV. Esses resultados foram compartilhados com as autoridades de saúde locais. DIAS, H. G. Investigação dos vírus mayaro e oropouche na interface humano-animal em regiões metropolitanas do Centro-Oeste do Brasil, 2016-2018. 2023. Tese (Doutorado em Medicina Tropical) - Fundação Oswaldo Cruz, Rio de Janeiro, 2023. Indique a principal característica de um arbovírus:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transmissão através do artrópode OU Transmissão através de picada de mosquito OU Transmissão através de insetos OU Ter mosquitos como vetor."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A principal característica definidora de um arbovírus é a transmissão através de artrópodes (picada de mosquitos ou outros vetores), sendo parte do ciclo replicativo do vírus realizado no próprio inseto vetor.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "SUS-BA R1 2025"
+    },
+    {
+      "id": "arb2_033",
+      "statement": "Menino, 10 anos de idade, residente em uma zona rural da região Norte do Brasil, é levado ao posto de saúde por sua mãe devido à febre alta continua, iniciada há cinco dias, contínua. A mãe relata dor de cabeça intensa, mialgia e artralgia, náuseas ocasionais, muito cansaço e fotofobia. No exame físico, encontra-se febril (39,2°C), com hiperemia conjuntival discreta e leve prostração. Não há sinais de sangramento, icterícia ou exantema. Não há hepatomegalia nem esplenomegalia. A mãe informa, também, que outros membros da comunidade apresentaram sintomas semelhantes recentemente. Diante do contexto epidemiológico descrito, incluindo os dados epidemiológicos da região do país, a ocorrência de casos semelhantes na comunidade e o conjunto de manifestações clínicas apresentadas, identifique a hipótese diagnóstica mais provável para esse paciente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Malária."
+        },
+        {
+          "key": "b",
+          "text": "Febre Oropouche."
+        },
+        {
+          "key": "c",
+          "text": "Leptospirose."
+        },
+        {
+          "key": "d",
+          "text": "Meningite viral."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Febre prolongada, cefaleia intensa, mialgia/artralgia, fotofobia e hiperemia conjuntival, na ausência de exantema, sangramento ou hepatoesplenomegalia, em contexto de surto comunitário na região Norte, são compatíveis com febre de Oropouche — arbovirose com incidência crescente nessa região do país.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "PSU-AL R1 2026"
+    },
+    {
+      "id": "arb2_074",
+      "statement": "Um paciente do sexo masculino, 30 anos, previamente saudável, procura o pronto atendimento com queixa de febre baixa, dor de cabeça, mialgia leve e exantema maculopapular pruriginoso que começou há 2 dias. Ele também relata dor nas articulações das mãos e pés, sem inchaço, além de hiperemia conjuntival, sem secreção. O paciente nega sangramentos ou manifestações gastrointestinais. Com base no quadro clínico, qual é o diagnóstico mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dengue."
+        },
+        {
+          "key": "b",
+          "text": "Febre Chikungunya."
+        },
+        {
+          "key": "c",
+          "text": "Vírus Zika."
+        },
+        {
+          "key": "d",
+          "text": "Leptospirose."
+        },
+        {
+          "key": "e",
+          "text": "Febre Amarela."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Febre baixa, cefaleia, mialgia leve, exantema pruriginoso, dor articular leve sem edema e hiperemia conjuntival sem secreção, sem sangramento ou sintomas gastrointestinais, formam o quadro clínico clássico e mais brando da infecção pelo vírus Zika.",
+      "theme": "arb_zika",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "SCMRP R1 2025"
+    },
+    {
+      "id": "arb2_077",
+      "statement": "Menino, 10 anos de idade, residente em uma zona rural da região Norte do Brasil, é levado ao posto de saúde por sua mãe devido à febre alta continua, iniciada há cinco dias, contínua. A mãe relata dor de cabeça intensa, mialgia e artralgia, náuseas ocasionais, muito cansaço e fotofobia. No exame físico, encontra-se febril (39,2°C), com hiperemia conjuntival discreta e leve prostração. Não há sinais de sangramento, icterícia ou exantema. Não há hepatomegalia nem esplenomegalia. A mãe informa, também, que outros membros da comunidade apresentaram sintomas semelhantes recentemente. Com base no ciclo de transmissão da doença em áreas endêmicas da Região Norte do Brasil, identifique o vetor mais diretamente associado à disseminação do agravo:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aedes aegypti."
+        },
+        {
+          "key": "b",
+          "text": "Anopheles darlingi."
+        },
+        {
+          "key": "c",
+          "text": "Culicoides paraensis (maruim)."
+        },
+        {
+          "key": "d",
+          "text": "Lutzomyia longipalpis."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O Culicoides paraensis (maruim), pequeno mosquito hematófago, é o principal vetor associado à transmissão do vírus Oropouche em áreas endêmicas da região Norte do Brasil.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "PSU-AL R1 2026"
+    },
+    {
+      "id": "arb2_079",
+      "statement": "Com relação ao manejo da dor na Chikungunya, assinale a alternativa ERRADA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A instituição precoce de medicamentos antirreumáticos modificadores do curso da doença - MMCD (hidroxicloroquina e metotrexato) na fase crônica da Chikungunya pode prevenir a ocorrência de danos estruturais e melhorar a capacidade funcional."
+        },
+        {
+          "key": "b",
+          "text": "Em pacientes com sintomas articulares persistentes na fase pós-aguda (entre 14 dias e até o final do terceiro mês após o início da infecção), ainda não é seguro testar a resposta terapêutica à introdução de agentes anti-inflamatórios."
+        },
+        {
+          "key": "c",
+          "text": "Indivíduos com dores moderadas a intensas (escala visual da dor - EVA = 4) podem ter componente neuropático associado e, se confirmado, é indicada introdução de gabapentina ou de amitriptilina em conjunto com os demais analgésicos."
+        },
+        {
+          "key": "d",
+          "text": "Os corticosteroides (prednisona 0,5 mg/Kg/dia) são preferíveis para dor moderada a intensa (EVA = 4) e na presença de quadros muito inflamatórios na fase pós aguda"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A afirmativa ERRADA (resposta pedida) é a (b): em pacientes com sintomas articulares persistentes na fase pós-aguda da chikungunya, JÁ é considerado seguro e apropriado testar a resposta terapêutica a agentes anti-inflamatórios, contrariamente ao afirmado.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "PSU-MG R1 2024"
+    },
+    {
+      "id": "arb2_082",
+      "statement": "Uma primigesta de 23 anos, com 18 semanas e 4 dias de idade gestacional, procura a unidade básica de saúde apresentando queixa de febre de 38 °C há 1 dia. A febre está associada a exantema maculopapular, prurido, artralgia leve e cefaleia. No município onde a paciente reside, há casos confirmados de dengue, chikungunya e Zika. Acerca desse caso, assinale a alternativa que apresenta a melhor conduta. a",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar sorologias lgM para Zika e para dengue, que, se positivas, confirmam caso de infecção recente por Zika, frente aos sintomas apresentados pela paciente; registrar no cartão da gestante a ocorrência do exantema."
+        },
+        {
+          "key": "b",
+          "text": "Solicitar RT -PCR para Zika, pois a paciente pertence agrupo prioritário para confirmação laboratorial específica e, se positiva, confirma o caso de infecção por Zika; registrar no cartão da gestante a ocorrência do exantema."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar RT-PCRs para dengue e chikungunya, que, se negativas, indicam a so licitação de sorologia lgM para dengue; nesse caso, é inadequado realizar o registro do exantema no cartão da gestante, pois o diagnóstico de Zika terá sido descartado."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar sorologias lgM p ra Zika e dengue, que, se positivas, confirmam caso de infecção recente por dengue pela possibilidade de reação cruzada; nesse caso, é inadequado realizar o registro do exantema no cartão da gestante, pois o diagnóstico de Zika terá sido descartado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Gestante em área de circulação de múltiplas arboviroses pertence a grupo prioritário para confirmação laboratorial específica de Zika — a RT-PCR é o exame indicado, devendo o achado do exantema ser registrado no cartão da gestante independentemente do resultado.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "INEP REVALIDA 2024"
+    },
+    {
+      "id": "arb2_084",
+      "statement": "Um pesquisador realizou um inquérito sorológico para arboviroses em duas cidades do interior, evidenciando presença de anticorpos contra o vírus Oropouche (OROV) em animais domésticos como cães e aves. Não houve isolamento do vírus no sangue desses animais. Igualmente, fez um inquérito entre pacientes adultos que apresentaram síndrome febril aguda no mesmo período, isolando o vírus da dengue em um percentual de pacientes, mas sem encontrar o OROV. Esses resultados foram compartilhados com as autoridades de saúde locais. DIAS, H. G. Investigação dos vírus mayaro e oropouche na interface humano-animal em regiões metropolitanas do Centro-Oeste do Brasil, 2016-2018. 2023. Tese (Doutorado em Medicina Tropical) - Fundação Oswaldo Cruz, Rio de Janeiro, 2023. Considerando que a despeito de sorologias positivas, não foram detectados vírus nos animais domésticos, indique como se classifica o papel epidemiológico desses animais domésticos, no ciclo do OROV estudado no trabalho:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "São hospedeiros incidentais OU Indicadores de exposição ambiental OU Marcadores da circulação do vírus OU Hospedeiros transitórios OU Hospedeiros não amplificadores OU Marcadores para Vigilância Epidemiológica."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Animais domésticos com sorologia positiva mas sem isolamento viral são classificados epidemiologicamente como hospedeiros incidentais (ou indicadores/marcadores de exposição ambiental), e não como hospedeiros amplificadores do ciclo de transmissão do OROV.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "SUS-BA R1 2025"
+    },
+    {
+      "id": "arb2_097",
+      "statement": "Em 2014, foi identificada a primeira epidemia de Chikungunya no Brasil e, desde então, outros episódios vêm alarmando a saúde pública e a sociedade médica brasileira. De caráter sazonal e acometendo diferentes regiões, de janeiro de 2016 a outubro de 2018 totalizam-se, aproximadamente, 545 mil casos confirmados em território nacional. Em relação a esse assunto, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O CHIK-V foi reconhecido e isolado pela primeira vez por volta de 1990 na China durante um surto epidêmico, e, desde então, casos foram identificados em todo o mundo. Em 2010, pela primeira vez, alguns casos foram notificados no Brasil."
+        },
+        {
+          "key": "b",
+          "text": "Chikungunya é uma palavra proveniente de uma língua falada por um grupo que vive no sudoeste da Tanzânia e norte de Moçambique, e significa \"aquele que se curva\", referindo-se à atípica postura adotada pelos indivíduos com sintomas álgicos."
+        },
+        {
+          "key": "c",
+          "text": "Até o momento, há estudos que confirmam dois diferentes tipos de sorotipo do vírus."
+        },
+        {
+          "key": "d",
+          "text": "A arbovirose possui período de incubação que varia de dois a três dias e um período de viremia, com uma duração que pode variar até, no máximo, cinco dias após o surgimento dos primeiros sintomas."
+        },
+        {
+          "key": "e",
+          "text": "São frequentes as alterações neurológicas, sendo a neuropatia periférica motora a mais encontrada. Um exemplo clássico é o caso da paciente não conseguir pentear seus cabelos por causa dessa alteração típica da Chikungunya."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O nome \"chikungunya\" origina-se de uma língua falada por grupos do sudoeste da Tanzânia e norte de Moçambique (região Makonde), significando \"aquele que se curva\", em referência à postura característica adotada pelos pacientes com dor articular intensa.",
+      "theme": "arb_zika",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "SMS SP R3CM 2024"
+    },
+    {
+      "id": "arb2_099",
+      "statement": "Adolescente de 17 anos apresenta febre, rash maculopapular, conjuntivite não purulenta e artralgia após viagem a área endêmica. Sorologia IgM positiva para chikungunya. Qual complicação deve ser considerada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Anemia falciforme aguda."
+        },
+        {
+          "key": "b",
+          "text": "Artrite crônica pós-viral."
+        },
+        {
+          "key": "c",
+          "text": "Miocardite autoimune."
+        },
+        {
+          "key": "d",
+          "text": "Doença de Kawasaki."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A artrite crônica pós-viral é a complicação mais classicamente associada à infecção por chikungunya, podendo persistir por meses a anos após a fase aguda.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "ISCMSC R1 2026"
     }
   ]
 }

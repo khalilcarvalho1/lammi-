@@ -2115,6 +2115,2564 @@
       "difficulty": "dificil",
       "reviewed": false,
       "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb2_001",
+      "statement": "São sinais de alarme relacionados aos pacientes com dengue grupo C, EXCETO.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Derrame pericárdico, ascite e derrame pleural."
+        },
+        {
+          "key": "b",
+          "text": "Hepatomegalia e lipotimia."
+        },
+        {
+          "key": "c",
+          "text": "Queda do hematócrito e dor abdominal em cólica."
+        },
+        {
+          "key": "d",
+          "text": "Sangramento de mucosa e irritabilidade."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A queda do hematócrito NÃO é sinal de alarme na dengue — o sinal correto é o AUMENTO progressivo do hematócrito, refletindo hemoconcentração por extravasamento plasmático. As demais opções (derrames cavitários, hepatomegalia, lipotimia, sangramento de mucosa, irritabilidade) são sinais de alarme reconhecidos.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "AMRIGS R1 2024"
+    },
+    {
+      "id": "arb2_002",
+      "statement": "Paciente, 26 anos de idade, sexo masculino, previamente hígido, 3º dia de febre alta, mialgia intensa, cefaleia e dor retro-orbitária, exantema maculopapular discreto. Refere dois episódios de vômitos no dia, sem sangue. Sinais vitais: PA 110/70 mmHg, FC 96 bpm, SatO2 98% em ar ambiente. Exame físico: sem sangramentos, sem dor abdominal à palpação, sem hepatomegalia. Exames: plaquetas 140.000/mm3, hematócrito 44% (sem valor basal conhecido), NS1 reagente, IgM não reagente. Sobre esse caso, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Exantema maculopapular no início da febre é patognomônico de dengue, dispensando confirmação laboratorial."
+        },
+        {
+          "key": "b",
+          "text": "No 3º dia, a fase crítica já está sempre instalada, pois a permeabilidade capilar aumenta no pico febril, com maior risco de choque antes da defervescência."
+        },
+        {
+          "key": "c",
+          "text": "O achado de NS1 reagente com IgM não reagente no 3º dia é compatível com fase inicial da doença, sendo um padrão esperado."
+        },
+        {
+          "key": "d",
+          "text": "O NS1 costuma ser detectável desde o 1º dia de sintomas e mantém boa sensibilidade até o 5º dia; a IgM tende a negativar nesse período, sendo útil apenas após o 10º dia."
+        },
+        {
+          "key": "e",
+          "text": "Trata-se de dengue com sinais de alarme, pois a presença de dois episódios de vômitos no mesmo dia caracteriza \"vômitos persistentes\"."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O antígeno NS1 é detectável desde o 1º dia de sintomas, mantendo boa sensibilidade até o 5º dia da doença; a IgM, por sua vez, ainda não costuma estar reagente nesse período inicial, tornando-se mais útil a partir do 6º-10º dia — padrão exatamente compatível com o caso descrito (NS1+/IgM- no 3º dia).",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "UEL R1 2026"
+    },
+    {
+      "id": "arb2_003",
+      "statement": "Homem, 28 anos, procedente de São Paulo, dá entrada no pronto-socorro com quadro de febre há quatro dias, cefaleia, prostração e artralgia. Ao exame físico nota-se sonolência e hepatomegalia dolorosa. Com base nos dados apresentados foi feita a hipótese diagnóstica de dengue. Qual a melhor conduta a ser tomada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "hidratação VO e observação até resultado do exame"
+        },
+        {
+          "key": "b",
+          "text": "hidratação VO e acompanhamento ambulatorial"
+        },
+        {
+          "key": "c",
+          "text": "hidratação EV e internação por um período mínimo de 48 horas"
+        },
+        {
+          "key": "d",
+          "text": "hidratação EV e internação imediata em UTI"
+        },
+        {
+          "key": "e",
+          "text": "hidratação VO, antibioticoterapia e acompanhamento ambulatorial"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A presença de sonolência (alteração do nível de consciência) e hepatomegalia dolorosa caracteriza dengue com sinais de alarme, exigindo hidratação endovenosa e internação por, no mínimo, 48 horas para monitorização.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "IOG R1 2025"
+    },
+    {
+      "id": "arb2_004",
+      "statement": "Um homem de 60 anos procura o pronto atendimento com queixas de dor no corpo, fraqueza e febre mensurada em 38,2°C com início há 3 dias. Em seguida passou a apresentar cefaleia intensa holocraniana, dor retro-orbitária, fotossensibilidade, náuseas e diarreia. Ele é diabético do tipo 2 e vem em uso regular de linagliptina 5 mg 1x ao dia e dapaglifozina 10 mg 1x ao dia. Ao exame físico: lúcido e orientado, eupneico, desidratado (2+/4+). acianótico e anictérico. FC = 98 bpm; FR = 20 irpm; PA = 100x60 mmHg. Realizados exames de triagem com hemograma completo normal e antigeno NS1 positivo. Glicemia capilar da consulta 140 mg/dL. Assinale a alternativa que contém o diagnóstico CORRETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dengue do grupo A."
+        },
+        {
+          "key": "b",
+          "text": "Dengue do Grupo B."
+        },
+        {
+          "key": "c",
+          "text": "Dengue do Grupo C."
+        },
+        {
+          "key": "d",
+          "text": "Chikungunya."
+        },
+        {
+          "key": "e",
+          "text": "Zika."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Apesar da ausência de sinais de alarme, o paciente é diabético (comorbidade), critério que classifica o caso como Dengue Grupo B, não Grupo A — comorbidades como diabetes exigem avaliação laboratorial e observação mais cuidadosa mesmo sem sinais de alarme.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "HSJA R1 2026"
+    },
+    {
+      "id": "arb2_007",
+      "statement": "É considerado critério de indicação de internação hospitalar em caso de quadro de dengue a presença de",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "PA < 100/50 mmHg."
+        },
+        {
+          "key": "b",
+          "text": "plaquetas < 80000 células/mm³."
+        },
+        {
+          "key": "c",
+          "text": "hematócrito > 50%."
+        },
+        {
+          "key": "d",
+          "text": "idade menor do que 25 anos."
+        },
+        {
+          "key": "e",
+          "text": "obesidade."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O hematócrito elevado (>50%) é um dos critérios laboratoriais que indicam maior gravidade e necessidade de internação hospitalar na dengue, refletindo hemoconcentração por extravasamento plasmático.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "BOS R1 2025"
+    },
+    {
+      "id": "arb2_008",
+      "statement": "Um paciente de 5 anos, dá entrada no Hospital com história de febre alta de até 39 graus nos últimos 3 dias, associado a mialgia, dor retro orbitária e cefaleia. Evolui nas últimas 24 horas com exantema difuso e dor abdominal continua desde ontem e vômitos cerca de 6 episódios, sem conseguir ingerir líquidos. Ao exame físico: REG, corada, desidratada 2+/4+, acianótica e afebril. Ausculta cardíaca: Bulhas rítmicas, normofonéticas sem sopros FC: 95 bpm PA: 100 × 60 mmHG. Ausculta pulmonar: murmúrio vesicular presente bilateralmente sem sinais de desconforto respiratório, FR: 22 ipm Sat O²: 96% em ar ambiente. Abdome: dor a palpação difusa, sem sinais de irritação peritoneal. Extremidades: boa perfusão periférica, pulsos amplos. Qual a melhor hipótese diagnóstica e conduta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Caso suspeito de dengue, classificação de gravidade: grupo A: Sem indicação de internação, manter hidratação via oral em domicílio"
+        },
+        {
+          "key": "b",
+          "text": "Caso suspeito de dengue, classificação de gravidade: grupo D; Indicada hidratação endovenosa com coloide (albumina). Coleta de hemograma, exames de disfunção orgânica e exames confirmatórios do dengue"
+        },
+        {
+          "key": "c",
+          "text": "Caso suspeito de dengue, classificação de gravidade: grupo B; Hidratação via oral supervisionada em unidade de pronto - atendimento (50-100ml/kg em 4-6 horas). Coleta de hemograma para controle hematócrito, Coleta de exames confirmatórios do dengue"
+        },
+        {
+          "key": "d",
+          "text": "Caso suspeito de dengue, classificação de gravidade: grupo C. Indicada hidratação endovenosa em ambiente hospitalar, fase de expansão (alíquotas 20ml/kg em 2 horas), controle hematimétrico e hidratação venosa de manutenção após estabilidade clínica. Coletar exames gerais e confirmatórios do dengue"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Dor abdominal contínua e vômitos persistentes (6 episódios sem tolerância a líquidos) são sinais de alarme que classificam o caso como Dengue Grupo C, exigindo hidratação endovenosa em ambiente hospitalar com expansão volêmica inicial (20ml/kg em 2 horas) e reavaliação hematimétrica.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "FAMERP R1 2025"
+    },
+    {
+      "id": "arb2_010",
+      "statement": "Você é um médico de família e comunidade em uma UBS (Unidade Básica de Saúde) e o seu município enfrenta uma das piores epidemias de dengue dos últimos 20 anos. A unidade está com fluxo intenso de atendimentos. Considerando as fases clínicas da doença e a classificaç. dos grupos de risco, assinale a alternativa que elucida estratégia de acordo com o protocolo do Ministério da Saúde e que otimize recursos físicos e humanos diante de tal contexto epidemiológico. Leve em consideração apenas o manejo dos grupos A e B uma vez que grupos C e D serão referenciados para setor hospitalar.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Coleta de hemograma e reavaliação diária para grupo B até 48h após remissão da febre; coleta de hemograma e reavaliação após 48h da remissão da febre para grupo A; reidratação oral"
+        },
+        {
+          "key": "b",
+          "text": "Coleta de hemograma e reavaliação diária para grupos A e B; hidratação endovenosa para os grupos A e B até 48h da admissão"
+        },
+        {
+          "key": "c",
+          "text": "Coleta de hemograma e reavaliação diária para grupos B até 48h após remissão da febre; hidratação endovenosa para os grupos A e B"
+        },
+        {
+          "key": "d",
+          "text": "Coleta de hemograma e reavaliação diária para grupos A e B até 48h após remissão da febre; reidratação oral disponível em sala de espera da UBS; hidratação endovenosa"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Durante surtos epidêmicos, o protocolo do Ministério da Saúde recomenda otimizar recursos com coleta de hemograma e reavaliação diária para os Grupos A e B até 48h após a remissão da febre, disponibilizando reidratação oral em sala de espera e reservando hidratação endovenosa apenas quando clinicamente indicada.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "FAMERP R1 2026"
+    },
+    {
+      "id": "arb2_011",
+      "statement": "Apresenta-se ao Pronto Socorro, um paciente de 55 anos do sexo masculino, residente no sul do Estado da Bahia, com uma doença aguda de três dias de evolução e que tem os seguintes sintomas: febre, cefaleia, dor retroorbitária e artralgia. Em relação ao caso clínico suspeito e seus diagnósticos diferenciais. Marque a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Exantema na dengue, quando presente, é maculopapular, aparece precocemente, é fugaz (1-5 dias), iniciando-se no tronco, espalhando-se para a face e, sobretudo, membros e por esses motivos não se confunde com o exantema da Febre Maculosa pois nesta doença o exantema é purpúrico, ascendente, iniciando-se nos membros inferiores que se encontram edemaciados, não respeitando palmas de mãos ou planta de pés"
+        },
+        {
+          "key": "b",
+          "text": "Há critério para caso suspeito de chicungunya que é causada por um arbovírus. Arbovírus são vírus transmitidos por artrópodes (Arthropod-borne vírus) e são assim designados não somente pela sua veiculação através de artrópodes, mas, principalmente, pelo fato de parte de seu ciclo replicativo ocorrer nos animais. O Vírus da Chicungunya é um arbovírus que se adaptou aos seres humanos, a tal ponto que o ciclo da floresta não é mais necessário para a sua manutenção."
+        },
+        {
+          "key": "c",
+          "text": "O achado de linfócitos no hemograma de pacientes com suspeita de dengue é uma informação que não auxilia o diagnóstico clínico, uma vez que os sintomas e achados laboratoriais da doença são patognomônicos e a comprovação sorológica geralmente é rápida. Quando se compara o dengue com outras patologias infecciosas virais, de quadro clínico semelhante, constata-se que a presença de no minimo 10% de linfócitos atipicos no sangue periférico é bom indicador para diagnóstico de dengue."
+        },
+        {
+          "key": "d",
+          "text": "Pacientes dos grupos A e B (da classificação leve da Dengue pelo Ministério da saúde) podem apresentar edema subcutâneo generalizado e derrames cavitários, pela perda capilar, que significa, a principio, hiper-hidratação, e que pode aumentar após hidratação satisfatória; o acompanhamento da reposição volêmica é feito pelo hematócrito, diurese e sinais vitais"
+        },
+        {
+          "key": "e",
+          "text": "Em relação a evolução clínica e laboratorial da dengue é descrito que a situação de maior gravidade acontece mais frequentemente quando há aumento do hematócrito, desfervecência da febre e aumento da Viremia."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O exantema da dengue, quando presente, é maculopapular, precoce e fugaz (1-5 dias), iniciando no tronco e espalhando-se para face e membros — padrão distinto do exantema purpúrico e ascendente da Febre Maculosa, que tipicamente compromete membros inferiores edemaciados sem poupar palmas e plantas.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "IAMSPE R3CM 2024"
+    },
+    {
+      "id": "arb2_012",
+      "statement": "Menino, 6 anos, vem à consulta de emergência com história de febre alta por 5 dias, dor retro ocular intensa, dores musculares e leve sangramento na gengiva ao redor de um dente em tratamento. Nas últimas 24 horas, a febre baixou, mas surgiram dores abdominais intensas, vômitos e sonolência. A partir da principal hipótese diagnóstica para esse caso, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O manejo inicial inclui reposição volumétrica com soro fisiológico, solicitação de hemograma, albumina, transaminases e observação com reavaliação dos sinais vitais e hematócrito."
+        },
+        {
+          "key": "b",
+          "text": "Está indicado um teste rápido para detecção de anticorpos (IgM e IgG) contra o agente causador da doença, mesmo não sendo crucial identificá-lo para iniciar tratamento adequado."
+        },
+        {
+          "key": "c",
+          "text": "A queda da temperatura corporal é um sinal de que a fase crítica da doença já passou."
+        },
+        {
+          "key": "d",
+          "text": "A primo-infecção pelo agente patogênico do caso previne novas infecções."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de quadro sugestivo de dengue com sinais de alarme (dor abdominal intensa, vômitos, sonolência após defervescência), o manejo inicial inclui reposição volumétrica com soro fisiológico, solicitação de hemograma, albumina e transaminases, com observação e reavaliação seriada de sinais vitais e hematócrito.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "PUC-RS R1 2024"
+    },
+    {
+      "id": "arb2_013",
+      "statement": "Homem, 38a, admitido em Unidade de Emergência sonolento, com extremidades frias, com teste rápido positivo para dengue. Os sintomas de febre e mialgia se iniciaram há cinco dias, com piora progressiva. PA=94/76mmHg, FC=112bpm, FR=25irpm, oximetria de pulso=95% (ar ambiente) e T=38,2°C, enchimento capilar=4 segundos. Pulsos fracos e filiformes. Iniciada infusão de solução salina, 20mL/Kg em 20 minutos. Exames laboratoriais: hemoglobina=16,4g/dL, hematócrito=51%, leucócitos=3.400/mm³ (45% segmentados, 40% linfócitos, 10% linfócitos atípicos); plaquetas=76.000/mm³. Após expansões rápidas e repetidas com solução salina, os sinais vitais se mantiveram inalterados e foram coletados novos exames após 2 horas: hematócrito=54% e coagulograma normal. DE ACORDO COM O MANUAL DENGUE - DIAGNÓSTICO E MANEJO CLÍNICO ADULTO E CRIANÇA, DO MINISTÉRIO DA SAÚDE, 2023, O PRÓXIMO PASSO PARA O CONTROLE VOLÊMICO NESTE CASO É:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "expansor plasmático OU albumina OU coloide sintético. A dose, correta ou não, não será considerada na correção da questão"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de expansões volêmicas repetidas com cristaloide sem melhora clínica e hemoconcentração progressiva (hematócrito subindo de 51% para 54%), o próximo passo recomendado pelo manual do Ministério da Saúde é o uso de expansor plasmático (albumina ou coloide sintético).",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "UNICAMP R1 2025"
+    },
+    {
+      "id": "arb2_014",
+      "statement": "Um paciente de 5 anos é levado ao pronto-socorro pediátrico com queixa de febre alta há 3 dias, cefaleia e dor retro orbitária, evoluindo com vômitos persistentes e dor abdominal. Ao exame físico, a criança encontrava-se consciente, taquipneica, com perfusão periférica de 4 segundos e turgor diminuído. Hápresença de petéquias no antebraço. A pressão arterial está normal e não há sangramentos ativos. A diurese está reduzida. Nesse contexto, assinale a alternativa correta em relação ao quadro.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Deve-se iniciar expansão com 20 a 30 ml/kg de cloreto de sódio a 0,9% ou ringer lactato até 60 ml/kg no total."
+        },
+        {
+          "key": "b",
+          "text": "Deve-se iniciar imediatamente a terapia de reidratação oral na taxa de 100 ml para cada episódio de vômito."
+        },
+        {
+          "key": "c",
+          "text": "Deve-se iniciar terapia hídrica de manutenção com 120% do estipulado pela regra de Holliday-Segar."
+        },
+        {
+          "key": "d",
+          "text": "Deve-se iniciar drogas vasoativas e regular a paciente para uma unidade de terapia intensiva."
+        },
+        {
+          "key": "e",
+          "text": "Deve-se aguardar os exames laboratoriais para definir a melhor conduta."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de sinais de alarme (vômitos persistentes, dor abdominal, perfusão periférica prolongada, turgor diminuído, petéquias, diurese reduzida) sem hipotensão franca, o protocolo do Ministério da Saúde indica expansão volêmica com 20 a 30 ml/kg de cristaloide, podendo totalizar até 60 ml/kg conforme resposta clínica.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "IAMSPE R1 2024"
+    },
+    {
+      "id": "arb2_015",
+      "statement": "Homem, 34 anos, previamente higido, residente em Salvador (BA), ha 5 dias com febre alta continua, cefaleia intensa, mialgia e artralgias. Hoje iniciou dispneia leve. Exame: PA 100 x 62 mmHg, FC 96 bpm, FR 28 irpm, SpO2 93% em ar ambiente, 38,7 graus C. Hemograma: Hb = 15,1 g/dL, Ht = 46%, leucocitos = 3.900/mm3, plaquetas = 72.000/mm3. Ultrassom pulmonar: linhas B difusas bilaterais sem consolidacao. A conduta mais adequada e:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Alta com orientacoes de hidratacao e hemograma diario."
+        },
+        {
+          "key": "b",
+          "text": "Alta com hemograma diario e prescricao de doxiciclina."
+        },
+        {
+          "key": "c",
+          "text": "Internacao para monitoramento da contagem de plaquetas e observacao clinica."
+        },
+        {
+          "key": "d",
+          "text": "Internacao para tratamento com doxiciclina e observacao clinica."
+        },
+        {
+          "key": "e",
+          "text": "Alta com prescricao de acido acetilsalicilico para controle da dor, por provavel dengue, e retorno ambulatorial."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O quadro (dengue com sinais de alarme — hemoconcentração, leucopenia, plaquetopenia — associado a dispneia e linhas B difusas ao ultrassom pulmonar, sugestivas de extravasamento pleural) exige internação para monitorização rigorosa da contagem de plaquetas e observação clínica, não sendo caso de alta ou de tratamento antibiótico (que não tem papel na dengue).",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "INTO R1 2025"
+    },
+    {
+      "id": "arb2_016",
+      "statement": "Uma mulher de 30 anos apresenta febre alta há três dias, acompanhada de cefaleia intensa, dores retro-orbitárias, mialgia, artralgia e exantema. Ela também relata náuseas, vômitos e fadiga. Ao exame físico, apresenta sinais de desidratação leve, febre de 38,5°C, e presença de petéquias nos braços. Não há sinais de sangramento ativo, mas o teste do laço foi positivo. Hemograma inicial revela leucopenia e plaquetopenia. A principal suspeita diagnóstica é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Zika."
+        },
+        {
+          "key": "b",
+          "text": "Dengue."
+        },
+        {
+          "key": "c",
+          "text": "Chikungunya."
+        },
+        {
+          "key": "d",
+          "text": "Febre Amarela."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Febre, cefaleia, dor retro-orbitária, mialgia, artralgia, exantema, petéquias, prova do laço positiva, leucopenia e plaquetopenia formam o quadro clínico-laboratorial clássico da dengue.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "UERN R1 2025"
+    },
+    {
+      "id": "arb2_017",
+      "statement": "Criança de 7 anos, residente em zona urbana de Ribeirão Preto, vem ao atendimento de urgência com história de 6 dias de febre (38,5° a 39°C), cefaleia e prostração. Há 1 dia evoluiu com dor abdominal, náuseas e vômitos. Ao exame: regular estado geral, corado, desidratado leve, anictérico, acianótico, eupneico; Sinais vitais normais. Pele: exantema micro macular em tronco e membros. Ausculta cardíaca e pulmonar sem alterações. Abdome difusamente doloroso à palpação, sem dor à descompressão, fígado palpável a 3 em do rebordo costal direito, baço não palpável. Foram realizados os seguintes exames: Hemograma: Hemoglobina: 14g/dL, hematócrito: 46%, glóbulos brancos: 3200/mm3 (25% neutrófilos segmentados e 70% linfócitos), plaquetas: 89.000/mm3. Albumina: 3,2 g/dL (VR:3,5-5); TGO: 110 U/L (VR <45). Coagulograma: INR 0,99 (VR< 1,3); TTPA 33 segundos, ratio 1,0 (VR< 1,26). Qual é o diagnóstico mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Riquetsiose."
+        },
+        {
+          "key": "b",
+          "text": "Dengue grupo C."
+        },
+        {
+          "key": "c",
+          "text": "Doença de Kawasaki."
+        },
+        {
+          "key": "d",
+          "text": "Mononucleose infecciosa."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Febre prolongada, dor abdominal, hepatomegalia dolorosa (sinal de alarme), plaquetopenia, hipoalbuminemia e elevação de transaminases caracterizam dengue com sinais de alarme (Grupo C).",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "USP-RP R1 2024"
+    },
+    {
+      "id": "arb2_018",
+      "statement": "Um homem de 25 anos de idade buscou atendimento na unidade básica de saúde com sintomas febre ocorrentes já há três dias, cefaleia retrorbitária e exantema maculopapular difuso, acompanhado de vômitos persistentes, dor abdominal intensa e epistaxe. No exame físico, encontrava-se consciente, hidratado, com pressão arterial de 90 x 60 mmHg, frequência cardíaca de 98 bpm, frequência respiratória de 18 irpm, saturação de oxigênio de 98% e glicemia capilar de 107 mg/dl. Não foi detectado edema em membros inferiores. Considerando esse caso clínico hipotético e os critérios do Ministério da Saúde para a classificação da dengue, assinale a opção que apresenta a classificação e a conduta inicial adequada para esse paciente.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "dengue C com sinais de alarme - hidratação oral e acompanhamento ambulatorial"
+        },
+        {
+          "key": "b",
+          "text": "dengue C com sinais de alarme - hidratação venosa e observação em unidade hospitalar"
+        },
+        {
+          "key": "c",
+          "text": "dengue C na fase de recuperação - alta e seguimento ambulatorial"
+        },
+        {
+          "key": "d",
+          "text": "dengue D hemorrágica - transfusão de plaquetas imediata"
+        },
+        {
+          "key": "e",
+          "text": "dengue D grave - internação em unidade de terapia intensiva (UTI)"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Vômitos persistentes, dor abdominal intensa e epistaxe (sangramento) caracterizam dengue com sinais de alarme, exigindo hidratação venosa e observação em unidade hospitalar (Grupo C), mesmo sem hipotensão franca estabelecida.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "FMJ R1 2026"
+    },
+    {
+      "id": "arb2_019",
+      "statement": "A dengue é hoje a arbovirose mais importante do mundo. Com relação à dengue, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Diante de sintomas como febre, cefaleia e dor no corpo há 2 dias, com base em dados epidemiológicos, clínicos e laboratoriais, pensa-se na possibilidade de dengue. É correto afirmar que a cultura viral é capaz de realizar, de forma rápida, a confirmação laboratorial de dengue nesse caso."
+        },
+        {
+          "key": "b",
+          "text": "O isolamento viral por cultura é o método padrão-ouro para diagnóstico de dengue."
+        },
+        {
+          "key": "c",
+          "text": "Na dengue grave, a dosagem de Ht (hematócrito) deve ser avaliada apenas no atendimento inicial, já que tende a permanecer com os mesmos valores após o início do manejo da dengue."
+        },
+        {
+          "key": "d",
+          "text": "Na dengue, o acometimento neurológico é mais frequente do que na Zika."
+        },
+        {
+          "key": "e",
+          "text": "O controle vetorial vem se mostrando suficiente, considerando os avanços recentes de novas técnicas como o uso de mosquitos geneticamente modificados ou infectados com a bactéria Wolbachia, com perspectivas de médio e longo prazos."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O isolamento viral por cultura é considerado o método de referência (padrão-ouro) para confirmação laboratorial da dengue na virologia clássica, apesar de não ser um método rápido nem de uso rotineiro na prática clínica assistencial.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "SMS SP R3CM 2024"
+    },
+    {
+      "id": "arb2_020",
+      "statement": "Mulher de 66 anos de idade, residente em municipio onde está ocorrendo epidemia de dengue é atendida em uma Unidade Básica de Saúde com quadro de febre, mal estar e cefaleia de inicio há três dias. Em uso de rivaroxabana há dois meses, devido a trombose venosa profunda em membro inferior. Ao exame fisico, apresentava-se desidratada, com PA 120x80mmHg, FC 100bpm. Sem alterações à ausculta cardiaca e pulmonar. No hemograma foi observado hematocrito = 54.3% (Valor de Referência (VR) para mulheres = 35% a 45%) e plaquetas = 43.000células/mm3 (VR 150.000 a 400.000células/mm3). Sobre o atendimento desta paciente dentro da Rede de Atenção à Saúde, é CORRETO afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Deverá ser solicitada internação hospitalar em leito de enfermaria"
+        },
+        {
+          "key": "b",
+          "text": "Deverá ser solicitada internação hospitalar em leito de Unidade de Terapia Intensiva"
+        },
+        {
+          "key": "c",
+          "text": "Ela deverá ser acompanhada na UBS com agendamento de retorno diário, até 24 horas após o desaparecimento da febre, para avaliação clinica, realização de hemograma e dosagem de RNI para acompanhamento do estado da coagulação"
+        },
+        {
+          "key": "d",
+          "text": "Ela deverá ser acompanhada na UBS com agendamento de retorno para reavaliação clinica no dia de melhora da febre, e caso não haja defervescência, retornar no quinto dia da doença"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Paciente idosa em uso de anticoagulante (rivaroxabana — fator de risco importante para sangramento), com hematócrito elevado (54,3%) e plaquetopenia significativa (43.000/mm³), preenche critérios para internação hospitalar em leito de enfermaria para monitorização e hidratação adequadas.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "PSU-MG R1 2025"
+    },
+    {
+      "id": "arb2_021",
+      "statement": "Homem de 65 anos, diabético, com insuficiência renal grau 3, após três dias de evolução de um quadro clínico clássico de dengue, comparece à UBS com menos febre, manchas roxas no corpo, dor abdominal, vômitos intensos, em torpor, estando desidratado e referindo fezes vermelhas. Ao exame físico, verificam-se PA = 90x64mmHg e taquicardia.Diante do caso, a conduta correta compreende:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "iniciar oseltamivir (tamiflu), restringir contato e prescrever antitérmico, analgésico e hidratação oral para casa"
+        },
+        {
+          "key": "b",
+          "text": "solicitar ambulância para remoção para serviço de emergência e, enquanto aguarda, acessar veia e iniciar hidratação"
+        },
+        {
+          "key": "c",
+          "text": "iniciar antibiótico de amplo espectro, solicitar urinocultura e radiografia de tórax eletivas e prescrever hidratação oral para casa"
+        },
+        {
+          "key": "d",
+          "text": "iniciar antibiótico de amplo espectro e oseltamivir (tamiflu), prescrever hidratação oral, antitérmico e analgésico e marcar retorno para 24 horas"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de sinais de dengue grave (torpor, hipotensão, taquicardia, sangramento digestivo/fezes vermelhas, dor abdominal, vômitos intensos) em paciente de alto risco (diabético, DRC), a conduta imediata é acionar remoção para serviço de emergência, iniciando acesso venoso e hidratação enquanto se aguarda o transporte — não há papel para antivirais (oseltamivir) ou antibióticos empíricos nesse quadro.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "UERJ R1 2026"
+    },
+    {
+      "id": "arb2_022",
+      "statement": "Gestante de 24 anos, com 8 semanas de gravidez, vem à consulta para saber como se prevenir contra a dengue. Considerando o questionamento da gestante, assinale a alternativa correta de acordo com o Manual de Prevenção da Dengue na Gestação (Ministério da Saúde, 2024).",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O uso de repelentes à base de Icaridina pode ser feito durante toda a gestação."
+        },
+        {
+          "key": "b",
+          "text": "Os repelentes à base de DEET (N,N-dietil-meta-toluamida) não devem ser utilizados na gestação, pelo risco teratogênico."
+        },
+        {
+          "key": "c",
+          "text": "A vacina da dengue tem uso amplo durante a gravidez, sendo a medida de escolha para a prevenção."
+        },
+        {
+          "key": "d",
+          "text": "A medida que mais impacta positivamente a redução de casos de dengue na gestação é o uso de telas no domicílio, visto que o Aedes aegypti tem hábitos preferencialmente noturnos."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Repelentes à base de icaridina são considerados seguros para uso durante toda a gestação, sendo recomendados pelo Manual de Prevenção da Dengue na Gestação do Ministério da Saúde (2024) — diferente da vacina (não indicada na gravidez) e da premissa equivocada de que o Aedes aegypti teria hábitos noturnos (na verdade, é predominantemente diurno).",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "UFSC R1 2024"
+    },
+    {
+      "id": "arb2_023",
+      "statement": "Primigesta de 24 anos chega à maternidade com queixa de cefaleia, febre e dores articulares leves há 5 dias. Relata que ontem houve piora da febre e surgimento de manchas pelo corpo, o que a fez procurar a emergência. O obstetra verifica o cartão do pré-natal e constata que ela está com 22 semanas de gestação e já realizou 3 consultas na unidade básica de saúde (UBS), sempre com sinais vitais normais e exames laboratoriais sem alterações. Ao exame físico, a paciente apresenta-se em bom estado geral, lúcida e orientada. Durante a análise clínica, foram obtidos os seguintes resultados: (IMAGEM) Após ouvir a história da paciente e examiná-la, o médico solicita um hemograma, cujo resultado é (IMAGEM) Nesse caso, qual a principal hipótese diagnóstica e a conduta a ser adotada pelo obstetra? Clique na imagem para expandir",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dengue; internar imediatamente a paciente, iniciar hidratação venosa, dipirona endovenosa e realizar controle diário de plaquetas."
+        },
+        {
+          "key": "b",
+          "text": "Chikungunya; colocar a paciente em leito de observação clínica, iniciar hidratação venosa, dipirona e, após terminar, liberar retorno ao pré-natal."
+        },
+        {
+          "key": "c",
+          "text": "Zika; colocar a paciente em leito de observação clínica, iniciar hidratação venosa, dipirona endovenosa e realizar controle diário de plaquetas."
+        },
+        {
+          "key": "d",
+          "text": "Febre de Oropouche; internar imediatamente a paciente, iniciar transfusão de plaquetas, paracetamol por via oral e, após a transfusão, liberar retorno ao pré-natal."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "ATENÇÃO: a questão faz referência a imagens (resultados laboratoriais) não disponíveis na extração do PDF, o que limita a certeza da resposta. Diante de gestante com febre e exantema em área de circulação de múltiplas arboviroses, a hipótese mais comumente testada nesse formato de caso é dengue, com conduta de internação, hidratação venosa, dipirona e controle diário de plaquetas — reconferir contra a imagem original quando disponível.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "INEP REVALIDA 2025"
+    },
+    {
+      "id": "arb2_024",
+      "statement": "Durante consulta de rotina, mãe de 32 anos (que está amamentando a filha de 15 meses) perguntou se a vacinação contra dengue estava indicada para toda a família, incluindo o filho de 12 anos e o marido de 40 anos, que apresentara dengue na forma clínica há 3 meses. Ela informou que, em sua cidade, a Prefeitura havia liberado a vacina até os 59 anos. Seguindo regulamentação do Ministério da Saúde e da ANVISA, qual a orientação correta para a família em relação à vacina contra dengue?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Indicar a vacina apenas para o filho de 12 anos."
+        },
+        {
+          "key": "b",
+          "text": "Indicar a vacina para o filho de 12 anos e para o pai de 40 anos."
+        },
+        {
+          "key": "c",
+          "text": "Indicar a vacina para o filho de 12 anos e para a mãe de 32 anos."
+        },
+        {
+          "key": "d",
+          "text": "Indicar a vacina para toda a família."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A recomendação nacional (PNI/Ministério da Saúde) para vacinação contra dengue tem como público-alvo prioritário crianças e adolescentes de 10 a 14 anos — mesmo havendo expansão municipal da faixa etária, a mãe (lactante) deve evitar a vacina de vírus vivo atenuado durante a amamentação, e o pai, fora da faixa etária de recomendação nacional, não deve ser vacinado rotineiramente apesar de já ter tido dengue.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "HCPA R1 2025"
+    },
+    {
+      "id": "arb2_026",
+      "statement": "Chuvas mais fortes e calor intenso são previstos em decorrência de mudanças climáticas. Assinale a alternativa que apresenta corretamente casos de arboviroses relacionados ao fenômeno das mudanças climáticas.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Oropouche, tuberculose e leptospirose."
+        },
+        {
+          "key": "b",
+          "text": "Dengue, Zika e febre amarela."
+        },
+        {
+          "key": "c",
+          "text": "Febre tifoide, febre amarela e malária."
+        },
+        {
+          "key": "d",
+          "text": "Raiva, Zika e oropouche."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Dengue, Zika e febre amarela são arboviroses cuja disseminação é diretamente favorecida pelo aumento de chuvas e temperatura (mudanças climáticas), que ampliam os criadouros e aceleram o ciclo de vida do vetor Aedes.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "FAMEMA R1 2025"
+    },
+    {
+      "id": "arb2_027",
+      "statement": "Samara, 34 anos, previamente hígida, chega para atendimento por estar há 2 dias com febre, cefaleia, dor retro-orbitária, mal-estar, náuseas e sangramento gengival após escovação dos dentes pela manhã. Ao exame físico, encontra-se em: regular estado geral, hidratada, eupneica, T: 38 ºC e PA: 110 x 80 mmHg. Trata-se de um caso suspeito de dengue do",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "grupo B. Deve-se solicitar hemograma, hidratação oral e acompanhamento em leito de observação até o resultado doexame. Caso hematócrito normal e paciente estável, o manejo deve ser realizado em ambiente ambulatorial, com hidratação oral, repouso, prescrição de analgésicos, retomo para reavaliação clínica e laboratorial diária até 48 horas após a queda da febre ou imediata se presença de sinais de alarme."
+        },
+        {
+          "key": "b",
+          "text": "grupo C. Deve-se solicitar hemograma, hidratação oral e acompanhamento em leito de observação até o resultado do exame. Caso hematócrito aumentado, após a reposição volêmica inicial, deve-se proceder à reavaliação clínica e laboratorial, mantendo hidratação na segunda hora até a reavaliação do hematócrito."
+        },
+        {
+          "key": "c",
+          "text": "grupo B. Deve-se solicitar hemograma, hidratação oral e acompanhamento em leito de observação até o resultado do exame. Caso hematócrito aumentado, realizar reposição volêmica imediata, com reavaliação após 1 hora, e se paciente sentir-se bem e com sinais estáveis, orientar repouso, prescrição de analgésicos, retomo para reavaliação clínica e laboratorial diária até 48 horas após a queda da febre ou imediata se presença de sinais de alarme."
+        },
+        {
+          "key": "d",
+          "text": "grupo C. Deve-se solicitar hemograma, hidratação oral e acompanhamento em leito de observação até o resultado do exame. Caso hematócrito estiver normal e paciente estável, o manejo deve ser realizado em ambiente ambulatorial, com hidratação oral, repouso, prescrição de analgésicos, retomo para reavaliação clínica e laboratorial diária até 48 horas após a queda da febre ou imediata se presença de sinais de alarme."
+        },
+        {
+          "key": "e",
+          "text": "grupo A. O manejo deve ser realizado em ambiente ambulatorial, com hidratação oral, repouso, prescrição de analgésicos, agendamento de retomo para o dia da melhora da febre. Caso apresente sinais de alarme procurar atendimento imediato, preenchimento do cartão de acompanhamento e liberação para o domicílio."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Febre há 2 dias com sangramento gengival espontâneo (manifestação hemorrágica), sem sinais de alarme, caracteriza dengue Grupo B — conduta inclui hemograma, hidratação oral e observação até resultado, com manejo ambulatorial se hematócrito normal e paciente estável.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "SCM-SP R1 2025"
+    },
+    {
+      "id": "arb2_028",
+      "statement": "Paciente de 25 anos apresenta febre alta, mialgia intensa, cefaleia retro-orbital e exantema. Plaquetas em 120 mil/mm³ e hematócrito aumentado. Qual é o diagnóstico mais provável e conduta inicial?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Leptospirose - iniciar penicilina."
+        },
+        {
+          "key": "b",
+          "text": "Dengue - hidratação oral e vigilância de sinais de alarme."
+        },
+        {
+          "key": "c",
+          "text": "Febre tifoide - iniciar ciprofloxacino."
+        },
+        {
+          "key": "d",
+          "text": "Zika - prescrever sintomáticos e liberação imediata."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Febre, mialgia intensa, cefaleia retro-orbital, exantema, plaquetopenia leve e hematócrito aumentado formam quadro clássico de dengue — conduta inicial de hidratação oral com vigilância ativa de sinais de alarme.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "ISCMSC R1 2026"
+    },
+    {
+      "id": "arb2_029",
+      "statement": "Gestante de 28 anos, G1P0, com 32 semanas de gestação, apresentou febre (38 ºC), calafrios, mialgia, astenia e dor retro-orbitária, quadro iniciado há 3 dias. No quarto dia, foram registradas hipotensão (pressão arterial de 80/50 mmHg), dor abdominal intensa, letargia e ascite. O hemograma indicou hemoglobina de 14,5 g/dl, hematócrito de 50%, leucócitos de 2.300/mm³, plaquetas de 70.000/mm³, AST de 35 U/l e creatinina de 0,9 mg/dl. Os batimentos cardiofetais estavam presentes (148 bpm). Qual a conduta inicial mais adequada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar ressonância magnética abdominal e painel viral."
+        },
+        {
+          "key": "b",
+          "text": "Realizar hidratação intravenosa imediatamente com soro fisiológico a 0,9%."
+        },
+        {
+          "key": "c",
+          "text": "Usar rapidamente expansores plasmáticos (albumina) intravenosos."
+        },
+        {
+          "key": "d",
+          "text": "Interromper a gestação."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Gestante com dengue evoluindo para hipotensão, dor abdominal intensa, letargia e ascite (sinais de choque/extravasamento grave) exige hidratação intravenosa imediata com soro fisiológico 0,9% como conduta inicial prioritária, antes de considerar interrupção da gestação ou outras investigações.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "HCPA R1 2025"
+    },
+    {
+      "id": "arb2_030",
+      "statement": "Paciente, sexo masculino, de 16 anos de idade, há 6 dias com febre, com melhora há 24 h, associada a cefaleia, sonolência, sangramento gengival, mialgia, vômitos, dor abdominal intermitente e tontura ao levantar, chega à UPA. Ao exame físico: PA: 100 × 66 mmHg; FC: 112 bpm; abdome com hepatomegalia 2 cm; dor à palpação em FID, sem sinais de irritação peritoneal. Petéquias discretas, prova do laço positiva. Exames complementares iniciais: Ht: 44% (prévio 38% há 48 h); Hb: 13,8 g/dL; plaquetas: 58.000/mm3; leucócitos: 3.100/mm3; Na+: 132 mEq/L; K+: 3,6; Cr: 0,8; TGO/TGP: 68/74 U/L. Albumina: 3,1 g/dL. Ultrassom: discreto derrame pleural direito e traço de líquido livre em fossa ilíaca direita. Qual é a hipótese diagnóstica associada ao caso clínico?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Febre tifoide com plaquetopenia."
+        },
+        {
+          "key": "b",
+          "text": "Dengue sem sinais de alarme."
+        },
+        {
+          "key": "c",
+          "text": "Dengue com sinais de alarme."
+        },
+        {
+          "key": "d",
+          "text": "Dengue grave."
+        },
+        {
+          "key": "e",
+          "text": "Leptospirose anictérica."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Febre em declínio associada a sonolência, sangramento gengival, dor abdominal intermitente, hepatomegalia, hemoconcentração progressiva (Ht 38%→44%), plaquetopenia e derrame pleural ao ultrassom caracterizam dengue com sinais de alarme.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "SUS-SP OUTRAS PROVAS 2026"
+    },
+    {
+      "id": "arb2_031",
+      "statement": "Gestante de 24 anos, com 8 semanas de gravidez, vem à consulta para saber como se prevenir contra a dengue. Considerando o questionamento da gestante, assinale a alternativa correta de acordo com o Manual de Prevenção da Dengue na Gestação (Ministério da Saúde, 2024).",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O uso de repelentes à base de Icaridina pode ser feito durante toda a gestação"
+        },
+        {
+          "key": "b",
+          "text": "Os repelentes à base de DEET (N,N-dietil-meta-toluamida) não devem ser utilizados na gestação, pelo risco teratogênico"
+        },
+        {
+          "key": "c",
+          "text": "A vacina da dengue tem uso amplo durante a gravidez, sendo a medida de escolha para a prevenção"
+        },
+        {
+          "key": "d",
+          "text": "À medida que mais impacta positivamente a redução de casos de dengue na gestação é o uso de telas no domicílio, visto que o Aedes aegypti tem hábitos preferencialmente noturnos"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Repelentes à base de icaridina podem ser utilizados com segurança durante toda a gestação, conforme o Manual de Prevenção da Dengue na Gestação do Ministério da Saúde (2024).",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "AMRIGS R1 2025"
+    },
+    {
+      "id": "arb2_032",
+      "statement": "A fisiopatogenia da dengue grave está relacionada com:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "hemorragia"
+        },
+        {
+          "key": "b",
+          "text": "aumento da permeabilidade capilar"
+        },
+        {
+          "key": "c",
+          "text": "pancitopenia autoimune"
+        },
+        {
+          "key": "d",
+          "text": "insuficiência hepática"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O aumento da permeabilidade capilar, levando ao extravasamento plasmático, é o principal mecanismo fisiopatológico responsável pela evolução para as formas graves da dengue.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "UFRJ R1 2025"
+    },
+    {
+      "id": "arb2_034",
+      "statement": "O paciente persiste com baixo débito urinário, perfusão periférica diminuída e hipoperfusão. Qual é a estratégia imediata de fluidoterapia?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Soro fisiológico 0,9% 20 mL/kg em 15 - 30 min e reavaliar Ht e perfusão."
+        },
+        {
+          "key": "b",
+          "text": "Ringer Lactato 10 mL/kg em 1 h e reavaliar; repetir se necessário."
+        },
+        {
+          "key": "c",
+          "text": "Albumina 20% 1 g/kg de ataque."
+        },
+        {
+          "key": "d",
+          "text": "Restrição hídrica por risco de extravasamento capilar."
+        },
+        {
+          "key": "e",
+          "text": "Transfusão de plaquetas imediata."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de baixo débito urinário persistente e hipoperfusão (sinais de choque estabelecido), a estratégia imediata é a expansão volêmica rápida com soro fisiológico 0,9% 20 mL/kg em 15-30 minutos, com reavaliação de hematócrito e perfusão — protocolo padrão para dengue grave/choque (Grupo D).",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "SUS-SP OUTRAS PROVAS 2026"
+    },
+    {
+      "id": "arb2_035",
+      "statement": "Um jovem de 25 anos procura a unidade básica de saúde com febre alta há 4 dias, acompanhada de dores musculares intensas, cefaleia, dor retro-orbital e náuseas. Ele relata que, nos últimos dois dias, notou algumas manchas avermelhadas na pele, principalmente nos braços e nas pernas, além de ter sentido tontura ao levantar-se pela manhã. Ao exame físico, o paciente apresenta febre de 38,7 ºC, erupções cutâneas, pressão arterial de 100/70 mmHg e pulso de 98 bpm. O hemograma revela uma queda no número de plaquetas (80000/mm3) e um hematócrito aumentado (45%).Assinale a alternativa que indica a correta classificação desse caso e a conduta a ser adotada.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dengue grupo A. Hidratação oral vigorosa e orientar procurar o pronto atendimento em caso de sinais de alarme."
+        },
+        {
+          "key": "b",
+          "text": "Dengue grupo B. Observação no domicílio com hidratação oral vigorosa e solicitar coleta de IgG no 6o dia."
+        },
+        {
+          "key": "c",
+          "text": "Dengue grupo D. Iniciar reposição volêmica intravenosa imediata e transferir para pronto-socorro para acompanhamento em UTI."
+        },
+        {
+          "key": "d",
+          "text": "Dengue grupo C. Iniciar reposição volêmica intravenosa imediata na UBS e transferir para unidade de referência para reavaliação do hematócrito."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Tontura postural (lipotimia — sinal de alarme), plaquetopenia (80.000/mm³) e hematócrito elevado (45%) caracterizam dengue com sinais de alarme (Grupo C), exigindo reposição volêmica intravenosa imediata na unidade de origem, com transferência para unidade de referência para reavaliação do hematócrito.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "EINSTEIN R1 2025"
+    },
+    {
+      "id": "arb2_036",
+      "statement": "Um homem de 23 anos, residente em zona urbana de capital de estado da região Sudeste, procura atendimento em unidade básica de saúde. Relata ter apresentado quadro de febre alta (39ºC) de início abrupto, com duração de 3 dias, acompanhada por dor de cabeça, mialgia e poliartralgia leve sem rigidez articular, astenia, dor atrás dos olhos sem conjuntivite, associada a manchas eritematosas na pele. Afirma que a febre cessou há 4 dias. Nega ter feito viagens nos últimos meses. A partir dos dados desse paciente, é correto afirmar que a principal hipótese epidemiológica é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Zika."
+        },
+        {
+          "key": "b",
+          "text": "Dengue."
+        },
+        {
+          "key": "c",
+          "text": "Chikungunya."
+        },
+        {
+          "key": "d",
+          "text": "Febre amarela."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Febre alta de início abrupto com defervescência em poucos dias, cefaleia, mialgia, poliartralgia leve sem rigidez, dor retro-orbital sem conjuntivite e exantema são achados mais compatíveis com dengue, distinguindo-se de chikungunya (artralgia tipicamente mais intensa e incapacitante) e Zika (conjuntivite mais proeminente).",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "INEP REVALIDA 2024"
+    },
+    {
+      "id": "arb2_037",
+      "statement": "Homem, 60 anos, hipertenso e diabético, queixa-se de que há 6 dias passou a apresentar febre que perdurou por 4 dias consecutivos (até 39,0 graus), associada a cefaléia intensa e artralgia. Relata que no quinto dia de evolução do quadro apareceram lesões de pele, pruriginosas, sem melhora com uso de loratadina. Faz uso de varfarina há 2 anos, 5 mg ao dia, devido a fibrilação atrial crônica. Exame físico: exantema morbiliforme, difuso, com áreas de pele sã. Ausência de petéquias ou sinais de sangramento. Tempo de protrombina: 2,2 (VN: até 1,3); GB: 3000 cel/mm³; Ht: 44% e Plaquetas: 60.000 células/mm³. Pesquisa de NS1: negativa. Teste rápido sorológico para dengue: IgM positivo e IgG negativo. Qual é a conduta imediata mais adequada com relação à varfarina?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Substituição por enoxaparina"
+        },
+        {
+          "key": "b",
+          "text": "Suspensão"
+        },
+        {
+          "key": "c",
+          "text": "Manutenção da dose"
+        },
+        {
+          "key": "d",
+          "text": "Substituição por rivaroxabana"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de dengue confirmada (IgM+) com plaquetopenia significativa (60.000/mm³) e tempo de protrombina muito alargado (RNI-equivalente 2,2, bem acima do normal) em paciente anticoagulado com varfarina, a conduta imediata mais segura é a suspensão do anticoagulante, dado o elevado risco hemorrágico combinado.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "USP-RP R3CM 2024"
+    },
+    {
+      "id": "arb2_038",
+      "statement": "Leia o caso clínico a seguir. Paciente, sexo feminino, 38 anos, portadora de diabetes, procurou a urgência do Hospital X, relatando que há 2 dias iniciou com quadro de febre alta, dor no corpo, prostração, artralgia, mialgia, fezes amolecidas e cefaleia holocraniana. Além da hidratação, a melhor conduta nesse caso é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "pedir hemograma e avaliar no dia seguinte."
+        },
+        {
+          "key": "b",
+          "text": "solicitar hemograma para avaliação no mesmo dia."
+        },
+        {
+          "key": "c",
+          "text": "pedir sorologias para Chickungunya, Zika e Dengue."
+        },
+        {
+          "key": "d",
+          "text": "requisitar exames parasitológicos de fezes."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de paciente diabética (comorbidade) com quadro febril sugestivo de arbovirose, além da hidratação, deve-se solicitar hemograma para avaliação no mesmo dia, dado o maior risco de complicações em pacientes com comorbidades.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "SES-GO R1 2024"
+    },
+    {
+      "id": "arb2_039",
+      "statement": "Homem, 27 anos, 2º dia de febre alta, mialgia intensa e náuseas. PA 110×70 mmHg, FC 96 bpm, sem sangramento. Hemograma: Ht 41% (prévio 40%), plaquetas 80.000/mm³, leucocitos 4.200/mm³. NS1 positivo sem outros achados. Vive em área com surtos de dengue. Qual a conduta inicial mais apropriada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Confirmar dengue provável; orientar hidratação oral, analgésico seguro, antiemético e retorno diário com sinais de alarme claros."
+        },
+        {
+          "key": "b",
+          "text": "Internar diretamente em unidade intensiva, apesar da estabilidade clínica e ausência dechoque ou sangramento significativo ativo."
+        },
+        {
+          "key": "c",
+          "text": "Indicar ácido acetilsalicílico para analgesia e anticoagulação, mesmo no contexto típico de dengue aguda sem contraindicações aparentes."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar apenas sorologia IgM/IgG e aguardar resultado, aguardando para o manejo clínico e orientação imediata ao paciente quando diagnóstico confirmado"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Paciente estável, sem sangramento, com plaquetopenia leve (80.000/mm³) e NS1 positivo, em área de surto de dengue, corresponde a dengue provável sem sinais de alarme — orientação de hidratação oral, analgésico seguro (paracetamol, não AAS/AINEs), antiemético e retorno diário com sinais de alarme claros.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "FAMERP R3CM 2026"
+    },
+    {
+      "id": "arb2_040",
+      "statement": "Analise o gráfico a seguir, que mostra os casos de dengue, por semana epidemiológica, no Brasil em 2022 e início de 2023. Com base nesse gráfico, pode-se concluir que: Clique na imagem para expandir",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Há surtos acontecendo em diversas regiões, sendo possível caracterizar a epidemia de dengue no Brasil."
+        },
+        {
+          "key": "b",
+          "text": "Verifica-se a existência de períodos endêmicos (com número basal de casos) e momentos epidêmicos (com variação da quantidade de casos)."
+        },
+        {
+          "key": "c",
+          "text": "Representa a definição epidemiológica de um surto, pelo registro do aumento repentino do número de casos (variação irregular) em uma região específica."
+        },
+        {
+          "key": "d",
+          "text": "Acontece com larga distribuição espacial, atingindo várias nações, sendo classificada como pandêmica."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "ATENÇÃO: a questão faz referência a um gráfico epidemiológico não disponível na extração do PDF. A distribuição temporal de casos de dengue no Brasil caracteristicamente alterna entre períodos endêmicos (número basal de casos) e períodos epidêmicos (picos sazonais de incidência).",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "UNIRG R1 2024"
+    },
+    {
+      "id": "arb2_041",
+      "statement": "Criança de 2 anos, 12 kg, há 4 dias com picos febris associados à mialgia intensa e cefaleia retro- orbital, vem à consulta de urgência, pois iniciou com manchas de pele, descritas ao exame físico como púrpuras petequiais em tronco e membros, associadas à epistaxe. Não tem sinais de hipoperfusão, está sonolenta e com recusa alimentar. Considerando o caso apresentado, analise as assertivas a seguir: I. Os sinais e sintomas são sugestivos de arbovirose tipo dengue já na fase crítica, por existir sangramento. II. O exame laboratorial de eleição nesse momento para confirmar sua hipótese diagnóstica é a verificação sérica do antígeno-NS1. III. O aporte hídrico intravenoso de manutenção deve ter a vazão de 35 mL/h. Quais estão corretas?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas I e II."
+        },
+        {
+          "key": "b",
+          "text": "Apenas I e III."
+        },
+        {
+          "key": "c",
+          "text": "Apenas II e III."
+        },
+        {
+          "key": "d",
+          "text": "I, II e III."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A presença de sangramento (epistaxe, púrpura) associada a sonolência (alteração do sensório, sinal de alarme) já caracteriza a fase crítica da dengue (afirmativa I correta); o antígeno NS1 permanece exame de eleição nesse momento, dentro da janela de boa sensibilidade (afirmativa II correta); porém, o cálculo do aporte hídrico de manutenção pela regra de Holliday-Segar para uma criança de 12kg resulta em aproximadamente 44-46 mL/h, não 35 mL/h (afirmativa III incorreta).",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "UFSC R1 2024"
+    },
+    {
+      "id": "arb2_042",
+      "statement": "Em relação à dengue, analise as seguintes assertivas: I. Na febre hemorrágica da dengue, a trombocitopenia com plaquetas abaixo de 100.000 células/ml e alargamento do tempo de protrombina são característicos. II. A leucopenia desenvolve-se no segundo dia de febre, caindo para 1.000 a 2.000 células/ml no quinto ou sexto dia. III. O anticorpo IgM surge de 3 a 5 dias após a infecção, e o IgG, de 9 a 10 dias após. Quais estão corretas?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas I e II."
+        },
+        {
+          "key": "b",
+          "text": "Apenas I e III."
+        },
+        {
+          "key": "c",
+          "text": "Apenas II e III."
+        },
+        {
+          "key": "d",
+          "text": "I, II e III."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O critério laboratorial clássico da febre hemorrágica da dengue combina plaquetopenia (<100.000/mm³) com HEMOCONCENTRAÇÃO (não alargamento do tempo de protrombina, tornando a afirmativa I incorreta); a cinética de anticorpos (IgM em 3-5 dias, IgG em 9-10 dias na infecção primária) e o padrão de leucopenia progressiva estão corretos.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "AMRIGS R1 2026"
+    },
+    {
+      "id": "arb2_043",
+      "statement": "Escolar, 9 anos, é levado ao pronto atendimento com queixa de febre há 4 dias ,cefaleia e dor na região retro-orbital. Tendo em vista que a dengue é a virose urbana mais difundida no mundo, quais sinais e sintomas são considerados sinais de alerta para a evolução para formas graves?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tosse, dor articular e vômitos."
+        },
+        {
+          "key": "b",
+          "text": "Hepatomegalia dolorosa, hipotensão postural e melena."
+        },
+        {
+          "key": "c",
+          "text": "Dor articular, dor abdominal e vômitos."
+        },
+        {
+          "key": "d",
+          "text": "Queda abrupta de plaquetas, febre persistente e tosse."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Hepatomegalia dolorosa, hipotensão postural (lipotimia) e melena são sinais de alarme oficialmente reconhecidos pelo Ministério da Saúde para evolução da dengue para formas graves.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "ABC R1 2025"
+    },
+    {
+      "id": "arb2_044",
+      "statement": "Uma criança de 6 anos é atendida em pronto-atendimento com febre contínua em torno de 40 °C. O sintoma iniciou há aproximadamente 4 dias, a criança faz uso de paracetamol, sem melhora. Apresentou, a partir do 3° dia de doença, fezes amolecidas, com aspecto de \"borra de café\" e odor fétido, 3 a 4 episódios/dia. No 4° dia de evolução, surgiram artralgia em joelhos, rash cutâneo avermelhado de aspecto morbiliforme e sangramento nasal importante. Não há descrição de sintomas semelhantes na vida pregressa da criança. Diante da suspeita de dengue, o médico decide realizar a prova do laço. Para isso ele deverá aferir a pressão arterial e",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "calcular o valor médio; insuflar o manguito até esse valor por 3 minutos; contar o número de petéquias que surgem na área delimitada no antebraço do paciente. Se contar mais de 10 petéquias, o teste é considerado positivo."
+        },
+        {
+          "key": "b",
+          "text": "obter a pressão sistólica; insuflar o manguito até esse valor por 3 minutos; contar o número de petéquias que surgem na área delimitada no antebraço do paciente. Se contar mais de 20 Petéquias, o teste é considerado positivo."
+        },
+        {
+          "key": "c",
+          "text": "calcular o valor máximo; insuflar o manguito até esse valor por 10 minutos; contar o número de petéquias que surgem na área delimitada no antebraço do paciente. Se contar mais de 10 petéquias, o teste é considerado positivo."
+        },
+        {
+          "key": "d",
+          "text": "obter a pressão a diastólica; insuflar o manguito até esse valor por 10 minutos; contar o número de petéquias que surgem na área delimitada no antebraço do paciente. Se contar mais de 20 petéquias, o teste é considerado positivo."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A prova do laço é realizada calculando-se a pressão arterial média, insuflando o manguito até esse valor por 3 minutos em crianças (5 minutos em adultos), sendo positiva com 10 ou mais petéquias na área delimitada em crianças (20 ou mais em adultos).",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "INEP REVALIDA 2024"
+    },
+    {
+      "id": "arb2_045",
+      "statement": "Criança de 2 anos, 12 kg, há 4 dias com picos febris associados à mialgia intensa e cefaleia retro- orbital, vem à consulta de urgência, pois iniciou com manchas de pele, descritas ao exame físico como púrpuras petequiais em tronco e membros, associadas à epistaxe. Não tem sinais de hipoperfusão, está sonolenta e com recusa alimentar. Considerando o caso apresentado, analise as assertivas a seguir: I. Os sinais e sintomas são sugestivos de arbovirose tipo dengue já na fase crítica, por existir sangramento. II. O exame laboratorial de eleição nesse momento para confirmar sua hipótese diagnóstica é a verificação sérica do antígeno-NS1. III. O aporte hídrico intravenoso de manutenção deve ter a vazão de 35 mL/h. Quais estão corretas?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas I e II"
+        },
+        {
+          "key": "b",
+          "text": "Apenas I e III"
+        },
+        {
+          "key": "c",
+          "text": "Apenas II e III"
+        },
+        {
+          "key": "d",
+          "text": "I, II e III"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Mesmo raciocínio da questão anterior: sangramento associado a sonolência já caracteriza fase crítica (I correta); NS1 é o exame de eleição nesse momento (II correta); mas o cálculo correto do aporte hídrico de manutenção pela regra de Holliday-Segar para 12kg resulta em aproximadamente 44-46 mL/h, não 35 mL/h (III incorreta).",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "AMRIGS R1 2025"
+    },
+    {
+      "id": "arb2_046",
+      "statement": "Criança de 11 anos é levada ao pronto atendimento com história de febre há 4 dias, com 3 picos ao dia. No terceiro dia chegou a passar 18 horas afebril e com melhora do estado geral, mas a febre retornou, ela reclamou de muita dor em membros inferiores e passou a ficar muito sonolenta em casa, além de se queixar de tontura e dor abdominal. Na avaliação física, ela se encontra prostrada (Glasgow 15), com perfusão, PA e pulsos adequados e você identifica um discreto rash morbiliforme, com algumas petéquias nos membros inferiores; não há outros achados anormais. Considerando a principal hipótese diagnóstica, além da coleta de exames gerais iniciais, qual a conduta imediata?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Prescrever Cefepime e expansão volêmica com 20 ml/kg."
+        },
+        {
+          "key": "b",
+          "text": "Prescrever Ceftriaxona e solicitar a coleta de líquor."
+        },
+        {
+          "key": "c",
+          "text": "Hidratação com SF0,9% 20 ml/kg em 2 horas e reavaliar em 1 hora."
+        },
+        {
+          "key": "d",
+          "text": "Acionar o hematologista e solicitar a coleta de mielograma."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Padrão de febre bifásica (\"sela\"), dor em membros inferiores, sonolência, tontura e dor abdominal (sinais de alarme) com estabilidade hemodinâmica caracterizam dengue com sinais de alarme (Grupo C) — conduta de hidratação com SF 0,9% 20 mL/kg em 2 horas, com reavaliação em 1 hora.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "USP-RP OUTRAS PROVAS 2026"
+    },
+    {
+      "id": "arb2_047",
+      "statement": "Em função do importante número de hospitalizações, a faixa etária de 10 a 14 anos, foi selecionada como a ideal para iniciar a vacinação contra a dengue no Brasil. Quanto ao esquema vacinal e intervalo recomendados, assinale a opção correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "administração de duas doses, com intervalo de três meses."
+        },
+        {
+          "key": "b",
+          "text": "administração de três doses, com intervalo de três meses."
+        },
+        {
+          "key": "c",
+          "text": "administração de duas doses, com intervalo de seis meses."
+        },
+        {
+          "key": "d",
+          "text": "administração de três doses, com intervalo de um mês."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O esquema vacinal da vacina tetravalente contra dengue (Qdenga) recomendado para a faixa etária de 10 a 14 anos consiste em duas doses, com intervalo de três meses entre elas.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "FGV OUTRAS PROVAS 2024"
+    },
+    {
+      "id": "arb2_048",
+      "statement": "Menino, 11m, previamente hígido, é levado ao Pronto Atendimento com história de febre, inapetência e vômitos há quatro dias. Nega outros sintomas. Nega doenças ou uso de medicamentos. Exame físico: FC=120bpm; FR=27irpm; PA=82/53mmHg; enchimento capilar=2segundos; pulsos cheios. Abdome: flácido, fígado palpável a 3cm do rebordo costal direito. Exame neurológico normal. Pesquisa do antígeno NS1 positiva. QUAL É A CLASSIFICAÇÃO DE GRAVIDADE DA DOENÇA DE ACORDO COM O MINISTÉRIO DA SAÚDE (DIAGNÓSTICO E MANEJO CLÍNICO, 2024)?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dengue com sinais de alarme ou Dengue grupo C ou Dengue com sinais de alarme e sem sinais de gravidade. Só Dengue não pontua."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A presença de hepatomegalia (fígado palpável a 3cm do rebordo costal direito) já caracteriza sinal de alarme, classificando o caso como Dengue com sinais de alarme (Grupo C), mesmo com sinais vitais e perfusão periférica preservados.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "UNICAMP R1 2026"
+    },
+    {
+      "id": "arb2_049",
+      "statement": "Escolar, sexo feminino, 8 anos de idade, deu entra da no pronto atendimento com queixa de febre de até 39 ºC há 3 dias. Há 2 dias com cefaleia frontal, prostração, dor em joelhos e cotovelos, e desde hoje com exantema pruriginoso em tronco, vômitos e dor abdominal difusa. Nega diarreia. Sem sintomas respiratórios. Neste período, usou apenas dipirona para controle da dor e da febre. Ao exame clínico, paciente em regular esta do geral, descorado 1+/4+, hidratado, ativo, sem sinais meníngeos. Sinais vitais com FC 90 bpm, FR 18 irpm,PA 90 x 60 mmHg, pulsos cheios, tempo de enchimento capilar de 2 segundos. Abdome plano, doloroso a palpação difusamente, sem dor a descompressão brusca. Presença de exantema difuso, mais intenso em tronco. Sem outras alterações significativas. Optado pela coleta de exames, com Hb 11,2, Ht 48,3%, leucócitos:5200 (60% neutrófilos, 2% basófilos, 24% linfóticos,14% monócitos), plaquetas: 130 000, proteína C reativa77 mg/dL, TGO: 92 U/L, TGP: 103 U/L, albumina:2,2 mg/dL, sódio: 140 mEq/L, potássio: 4,1 mEq/L. Ultras sonografia de abdome com discreta quantidade de líqui do livre em cavidade, sem outros achados significativos. Radiografia de tórax sem alterações. Trata-se de criança sem comorbidades prévias conhecidas e com vacinação completa pelo Calendário Nacional de Imunizações. Tendo em vista o diagnóstico mais provável, a conduta indicada é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "internação, notificação compulsória, coleta de sorologia e prescrição de vitamina A oral."
+        },
+        {
+          "key": "b",
+          "text": "epinefrina intramuscular, anti-histamínico e corticoide endovenosos, observação em pronto socorro por 4 a 6 horas."
+        },
+        {
+          "key": "c",
+          "text": "internação, realização de ecocardiograma, prescrição de gamaglobulina endovenosa e ácido acetilsalicílico oral."
+        },
+        {
+          "key": "d",
+          "text": "aplicação de penicilina benzatina intramuscular, alta hospitalar para encaminhamento para seguimento ambulatorial."
+        },
+        {
+          "key": "e",
+          "text": "internação, notificação compulsória, dosagem de antígeno NS1 e prescrição de hidratação endovenosa."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Febre, artralgia, exantema pruriginoso, dor abdominal, vômitos, hipoalbuminemia, elevação discreta de transaminases e líquido livre em cavidade ao ultrassom (evidência de extravasamento) caracterizam dengue com sinais de alarme — conduta de internação, notificação compulsória, dosagem de antígeno NS1 e hidratação endovenosa.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "ABC R1 2024"
+    },
+    {
+      "id": "arb2_050",
+      "statement": "Mulher, 34 anos, 5º dia de dengue: febre cedeu há um dia; agora com dor abdominal contínua, vômitos e tontura. PA 98x62mmHg, FC 108bpm, extremidades frias, pulsos finos. Ht 46% (antes 39%), plaquetas 58.000/mm³, creatinina normal. Qual a conduta imediata mais apropriada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dar alta com hidratação oral, analgesia simples e reavaliação no dia seguinte, afinal paciente com mais de 50.000/mm³ plaquetas e sem sinais de baixa perfusão."
+        },
+        {
+          "key": "b",
+          "text": "Transfundir concentrado de plaquetas profilaticamente, pela contagem baixa, mesmo sem sangramento significativo ou instabilidade hemodinâmica documentada atual."
+        },
+        {
+          "key": "c",
+          "text": "Administrar corticoide intravenoso para reduzir extravasamento, apesar da ausência de benefício estabelecido em dengue, não recomendado rotineiramente."
+        },
+        {
+          "key": "d",
+          "text": "Internar, classificar como sinais de alarme, iniciar cristalóide isotônico guiado por perfusão, diurese e hematócrito seriados frequentes."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Defervescência com dor abdominal contínua, vômitos, tontura, taquicardia, extremidades frias, pulsos finos, hemoconcentração progressiva (Ht 39%→46%) e plaquetopenia caracterizam dengue com sinais de alarme, exigindo internação e reposição de cristaloide isotônico guiada por perfusão, diurese e hematócrito seriados.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "FAMERP R3CM 2026"
+    },
+    {
+      "id": "arb2_051",
+      "statement": "Menina de 1 ano e 3 meses e irmão de 4 anos estão com febre baixa (37,8 ºC a 38,0 ºC), que cede com dipirona, e sem apetite há dois dias. AP: crianças hígidas, sem internação prévia. AF: pai teve dengue há 15 dias. Teste rápido para dengue para ambas as crianças: positivo. Exame físico: prova do laço negativo em ambas, hidratadas, eupneicas, PA normal. A classificação e o tratamento da dengue, além do uso de dipirona ou paracetamol se houver febre e a não utilização de anti-inflamatórios, são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "menina e irmão: grupo A; TRO em casa, orientar sinais de alerta para retorno em serviço de saúde se necessário, coletar hemograma e sorologia no sexto dia de doença, com reavaliação a seguir."
+        },
+        {
+          "key": "b",
+          "text": "menina: grupo B, irmão: grupo A; menina: coletar e verificar hematócrito, iniciar TRO supervisionada; se não estiver hemoconcentrado, orientar TRO; reavaliação em 24 h; irmão: realizar TRO em casa e orientar sinais de alerta para retorno, coletar hemograma e sorologia no sexto dia de doença; reavaliação em 72 h."
+        },
+        {
+          "key": "c",
+          "text": "menina: grupo B, irmão: grupo A; para ambos: coletar e verificar hematócrito; se estiver alterado, iniciar TRO no serviço com orientação para uso em casa se houver boa aceitação; retorno no sexto dia para coleta de sorologia."
+        },
+        {
+          "key": "d",
+          "text": "menina e irmão: grupo B; para ambos: coletar hemograma e orientar TRO em casa; reavaliação em 24/48h para verificação do exame; se hematócrito estiver alterado, realizar hidratação IV com soro fisiológico 0,9% e coletar novo hemograma; retorno no sexto dia da doença com coleta de sorologia e verificação do hematócrito."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Ambas as crianças, sem sinais de alarme, sem sangramento (prova do laço negativa em ambas) e hemodinamicamente estáveis, são classificadas como Dengue Grupo A — manejo com hidratação oral domiciliar, orientação sobre sinais de alerta e coleta de hemograma/sorologia no sexto dia de doença.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "UNESP R1 2025"
+    },
+    {
+      "id": "arb2_052",
+      "statement": "Menina de 10 anos de idade apresenta febre há 3 dias de 38,5 ºC a 39 ºC, dor no corpo e cefaleia. Há 2 dias com dor abdominal leve e fezes pastosas amolecidas. Apresentou 1 episódio de vômito no início do quadro. Hoje iniciou exantema maculopapular em face e tronco. Ao exame físico, apresenta-se no momento afebril, com boca seca, mucosas coradas, ausculta cardiopulmonar normal, abdome flácido e indolor à palpação com fígado a 1 cm do RCD, perfusão periférica normal. PA: 96 x 60 mmHg, FC: 100 bpm, FR: 20 ipm. Prova do laço: incontáveis petéquias em todo antebraço. Realizada detecção de proteína NS1 reagente. Segundo as orientações atualizadas do Ministério da Saúde, qual é a conduta inicial adequada nesse caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hidratação oral em casa com acompanhamento ambulatorial."
+        },
+        {
+          "key": "b",
+          "text": "Realização de hemograma e hidratação oral hospitalar."
+        },
+        {
+          "key": "c",
+          "text": "Realização de hemograma e hidratação venosa com soro fisiológico 10 mL/kg em 1 hora."
+        },
+        {
+          "key": "d",
+          "text": "Realização de hemograma, dosagem de albumina, transaminases hepáticas e hidratação venosa com soro fisiológico 10 mL/kg em 1 hora."
+        },
+        {
+          "key": "e",
+          "text": "Realização de hemograma, dosagem de albumina, transaminases hepáticas e hidratação venosa com soro fisiológico 20 mL/kg em 20 minutos."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Prova do laço fortemente positiva (incontáveis petéquias) caracteriza sangramento espontâneo (Grupo B) — conforme as diretrizes atualizadas, a conduta inclui hemograma, dosagem de albumina, transaminases hepáticas e hidratação venosa com soro fisiológico 10 mL/kg em 1 hora.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "Hospital Regional de Presidente Prudente R1 2025"
+    },
+    {
+      "id": "arb2_053",
+      "statement": "Paciente de 35 anos apresenta quadro de febre de início súbito, mialgia, astenia e dor retro- ocular há 7 dias. Tem uma prova do laço positiva, FC: 80 bpm, FR: 18 ipm, PA: 130 x 80 mmHg, T: 39 ºC. O restante do exame físico está normal. Ele é diabético há 20 anos e faz uso de insulina. Com relação à classificação da dengue, é correto afirmar que o paciente é do grupo",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A e deve ser internado para observação e hidratação."
+        },
+        {
+          "key": "b",
+          "text": "B e deve receber hidratação oral em leito de observação até resultados de exames complementares serem liberados."
+        },
+        {
+          "key": "c",
+          "text": "C e deve ser internado pelo período mínimo de 48 horas e passar por reavaliação a cada 2 horas."
+        },
+        {
+          "key": "d",
+          "text": "D e deve ser acompanhado ambulatorialmente pelo período mínimo de 48 horas."
+        },
+        {
+          "key": "e",
+          "text": "diagnosticado como dengue hemorrágica e deve ser internado pelo período mínimo de 48 horas em unidade intensiva de cuidados."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Prova do laço positiva (sangramento espontâneo) em paciente diabético (comorbidade), sem sinais de alarme, caracteriza Dengue Grupo B — hidratação oral em leito de observação até resultado dos exames complementares.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "FAMECA R1 2025"
+    },
+    {
+      "id": "arb2_054",
+      "statement": "J.D.S., cacique, homem de 55 anos de idade, residente em aldeia indígena, procura atendimento com quadro de febre alta há 3 dias, cefaleia intensa, dor retrorbitária, mialgia difusa e exantema discreto. Relata que outros membros da comunidade apresentam sintomas semelhantes. Ao exame, encontra-se em bom estado geral, hidratado, sem sinais de sangramento. O médico de família e comunidade considera o diagnóstico de arbovirose. Sobre a atenção em saúde, neste contexto,",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "o tratamento deve ser centrado no manejo clínico da arbovirose, e a escuta atenta sobre concepções culturais da doença e o diálogo com lideranças comunitárias devem ter equivalência às orientações médicas para aumento de adesão."
+        },
+        {
+          "key": "b",
+          "text": "a base da organização da saúde indígena são os Distritos Sanitários Especiais Indígenas (DSEI), devendo garantir ações integrais por meio da articulação entre práticas tradicionais e saberes biomédicos, e sua atuação não substitui a responsabilidade municipal pela atenção primária."
+        },
+        {
+          "key": "c",
+          "text": "a sorologia IgM apresenta maior razão de verossimilhança positiva para dengue nos primeiros dias da doença; sinais como o exantema e a dor retrorbitária possuem maior especificidade, enquanto a prova do laço positiva apresenta baixa sensibilidade."
+        },
+        {
+          "key": "d",
+          "text": "a hidratação deve ser iniciada, caso se apresente lipotimia, por via venosa com solução cristalóide, em regime inicial de 20 ml/kg em até 2 horas, seguida de reavaliação clínica e laboratorial para ajuste do ritmo de infusão conforme resposta."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Os Distritos Sanitários Especiais Indígenas (DSEI) constituem a base da organização da saúde indígena no Brasil, devendo articular práticas tradicionais e saberes biomédicos sem substituir a responsabilidade municipal pela atenção primária à saúde.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "PSU-GO R1 2026"
+    },
+    {
+      "id": "arb2_055",
+      "statement": "Jaime, 57 anos, morador de cidade com epidemia de dengue, procura a UBS com quadro de febre de até 39 °C há 3 dias associado à dor retro orbital de forte intensidade e mialgia. Sem quaisquer outras queixas. Apresenta diabetes mellitus em uso de metformina 850mg/dia - última hemoglobina glicada: 7,2%. Nega outras doenças. No exame físico, bom estado geral, hidratado, corado, eupneico. Temperatura axilar: 38,2 °C, frequência cardíaca: 104 bpm, pressão arterial: 128/80 mmHg, frequência respiratória: 18 mrpm. Ausculta cardíaca e pulmonar normais. Abdômen com dor discreta à palpação difusamente, sem dor à descompressão súbita. Ausência de visceromegalias. Conjuntiva normal. Ausência de lesões de pele. Prova do laço negativa. Depois da avaliação, Jaime é notificado como caso suspeito de dengue. Seguindo o fluxograma mais recente de classificação de risco para dengue do Ministério da Saúde, a conduta mais adequada é iniciar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hidratação oral, prescrever paracetamol, conforme sintomas, e liberar paciente para ser reavaliado quando cessar a febre (período em que costumam ocorrer as complicações) ou antes se sinais de alerta"
+        },
+        {
+          "key": "b",
+          "text": "Hidratação oral, solicitar hemograma com plaquetas (conforme fluxo local) e prescrever paracetamol, conforme sintomas. Liberar o paciente para ser reavaliado o mais breve possível, assim que o exame esteja pronto ou antes se sinais de alerta"
+        },
+        {
+          "key": "c",
+          "text": "Hidratação venosa, imediatamente, e sintomáticos conforme necessidade. Encaminhar para o hospital para realização de exames laboratoriais. Orientar que, caso seja liberado depois da avaliação inicial no hospital, deve retornar em 48 horas ou antes se sinais de alerta"
+        },
+        {
+          "key": "d",
+          "text": "Hidratação oral e prescrever paracetamol, conforme sintomas. Se disponível no local, solicitar hemograma com plaquetas e liberar paciente apenas se exame normal e depois de reavaliação clínica, com orientação de retorno em 48 horas ou antes se sinais de alerta"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Paciente com comorbidade (diabetes) e sem sinais de alarme corresponde a Dengue Grupo B — conduta de hidratação oral, hemograma com plaquetas e paracetamol, com reavaliação assim que o exame estiver pronto ou antes se sinais de alerta.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "CERMAM R1 2024"
+    },
+    {
+      "id": "arb2_056",
+      "statement": "Criança de 5 anos, residente em área com alta prevalência de dengue, consulta por febre, náuseas, vômitos, dor abdominal, cefaleia e mialgias. Apresenta prova do laço positivo e o exame físico revela abdome doloroso à palpação e fígado palpável 4 cm abaixo do rebordo costal direito, sendo feita hipótese diagnóstica de dengue. Considerando a hipótese diagnóstica e as informações apresentadas, a conduta recomendada é o acompanhamento:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ambulatorial."
+        },
+        {
+          "key": "b",
+          "text": "Em leito de observação."
+        },
+        {
+          "key": "c",
+          "text": "Em leito de internação."
+        },
+        {
+          "key": "d",
+          "text": "Em leito de emergência."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Hepatomegalia significativa (fígado palpável a 4cm do RCD) associada a dor abdominal caracteriza sinal de alarme, classificando o caso como Dengue Grupo C, com necessidade de acompanhamento em leito de internação.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "AMRIGS R1 2024"
+    },
+    {
+      "id": "arb2_057",
+      "statement": "Homem de 45 anos iniciou quadro de febre alta, cefaleia, dor retrorbitária, prostração e mialgia difusa, há 4 dias. Até 18 horas atrás, parecia estar começando a melhorar, entretanto, nas últimas 6 horas voltou a ter febre associada a petéquias difusas pelo corpo e epistaxe leve. Sinais vitais encontram-se normais. Neste contexto, qual a conduta mais adequada para o paciente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Prescrever soro de reidratação oral."
+        },
+        {
+          "key": "b",
+          "text": "Realizar expansão volêmica com cristaloide."
+        },
+        {
+          "key": "c",
+          "text": "Orientar conduta expectante e voltar à emergência se sinais de alarme."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar exames laboratoriais, internar o paciente e iniciar hidratação venosa."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Recorrência de febre associada a petéquias difusas e epistaxe, após período de aparente melhora, sugere evolução para sinais de alarme — a conduta apropriada é solicitar exames laboratoriais, internar o paciente e iniciar hidratação venosa.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "SURCE R1 2024"
+    },
+    {
+      "id": "arb2_058",
+      "statement": "Mulher de 21 anos de idade apresenta febre há três dias, mialgia intensa, vômitos persistentes, tontura ao se levantar e dor abdominal difusa. Está em uso de dipirona e ibuprofeno desde o primeiro dia de sintomas. Exame físico: PA: 100 x 60 mmHg; FC: 110 bpm; extremidades frias, tempo de enchimento capilar de 4 segundos, sem sangramentos. Exames laboratoriais: plaquetas: 142.000/mm³, hematócrito normal, função renal preservada. O médico prescreve sintomáticos, reforça a hidratação oral e libera a paciente com orientação para retorno se houver piora. No dia seguinte, ela retorna em estado de choque, sendo internada em UTI com diagnóstico de dengue grave. Pode-se afirmar que",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "o quadro clínico já preenchia critérios para dengue com sinais de alarme, apesar da ausência de plaquetopenia, e a conduta adequada seria hidratação venosa e observação hospitalar."
+        },
+        {
+          "key": "b",
+          "text": "a utilização de anti-inflamatórios pode ter contribuído para o desfecho, mas a ausência de sinais hemorrágicos ou elevação do hematócrito afastava a necessidade de internação."
+        },
+        {
+          "key": "c",
+          "text": "a conduta de hidratação oral e orientação para retorno foi apropriada, considerando que a paciente ainda se encontrava na fase febril da doença."
+        },
+        {
+          "key": "d",
+          "text": "o quadro inicial era compatível com infecção viral autolimitada, como chikungunya ou zika, sendo a evolução desfavorável pouco relacionada à conduta adotada."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Retrospectivamente, o quadro inicial (vômitos persistentes, tontura postural/lipotimia e dor abdominal difusa) já preenchia critérios de dengue com sinais de alarme, mesmo com plaquetas ainda normais — a conduta adequada teria sido hidratação venosa e observação hospitalar, não liberação com hidratação oral.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "UNESP R1 2026"
+    },
+    {
+      "id": "arb2_059",
+      "statement": "Homem de 45 anos iniciou quadro de febre alta, cefaleia, dor retro-orbital, prostração e mialgia difusa, há quatro dias. Até 20 horas atrás, parecia estar começando a melhorar, entretanto, nas últimas 8 horas voltou a ter febre associada a petéquias difusas pelo corpo e epistaxe. Sinais vitais encontram-se normais. Neste contexto, qual a conduta mais adequada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Prescrever soro de reidratação oral."
+        },
+        {
+          "key": "b",
+          "text": "Realizar expansão volêmica com cristaloide."
+        },
+        {
+          "key": "c",
+          "text": "Orientar conduta expectante e voltar à emergência se sinais de alarme."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar exames laboratoriais, internar o paciente e iniciar hidratação venosa."
+        },
+        {
+          "key": "e",
+          "text": "Realizar exames e hidratação oral até o respectivo resultado."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Mesmo raciocínio da questão anterior: recorrência de febre com sangramento (petéquias, epistaxe) exige investigação laboratorial completa, internação e hidratação venosa.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "INTO R1 2024"
+    },
+    {
+      "id": "arb2_060",
+      "statement": "Um menino de 5 anos de idade, previamente hígido, foi levado pelos pais ao pronto atendimento com suspeita de dengue. A criança apresentou quadro de febre, que teve início há 3 dias, associado à cefaleia e mialgia com exantema maculopapular difuso e pruriginoso há 24 horas. Foram negados sintomas gastrointestinais. O exame físico apresentou os seguintes dados: peso 17 kg; bom estado geral; anictérico; normocárdico; normotenso; sem sinais meníngeos; abdome indolor à palpação e sem visceromegalias; e pele e mucosa sem alterações. Com base nessa situação hipotética, a conduta a ser realizada é orientar",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "repouso; prescrever hidratação oral com 130 ml/kg/dia de líquidos ingeridos, sendo 1/3 do volume com sais de reidratação oral; e ibuprofeno, se for necessário"
+        },
+        {
+          "key": "b",
+          "text": "repouso; prescrever hidratação oral com 130 ml/kg/dia de líquidos ingeridos, sendo 2/3 do volume com sais de reidratação oral; e paracetamol, se for necessário"
+        },
+        {
+          "key": "c",
+          "text": "repouso; prescrever hidratação oral com 100 ml/kg/dia de líquidos ingeridos, sendo 1/3 do volume com sais de reidratação oral; e paracetamol, se for necessário"
+        },
+        {
+          "key": "d",
+          "text": "repouso; prescrever hidratação oral com 100 ml/kg/dia de líquidos ingeridos, sendo 2/3 do volume com sais de reidratação oral; e paracetamol, se for necessário"
+        },
+        {
+          "key": "e",
+          "text": "repouso; prescrever hidratação oral com 80 ml/kg/dia de líquidos ingeridos, sendo 1/3 do volume com sais de reidratação oral; e ibuprofeno, se for necessário"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Criança sem sinais de alarme, sem sangramento e hemodinamicamente estável corresponde a Dengue Grupo A — hidratação oral de 100 mL/kg/dia (1/3 com sais de reidratação oral, 2/3 com líquidos caseiros) e paracetamol (evitando AINEs como o ibuprofeno, pelo risco de sangramento).",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "SUS-SP R1 2025"
+    },
+    {
+      "id": "arb2_061",
+      "statement": "Equipe de vigilância em saúde de município com mais de 1.000.000 de habitantes é notificada de caso de óbito de paciente do sexo masculino, de 39 anos de idade, jardineiro em condomínio de luxo localizado próximo à mata, na extremidade leste do município. O paciente procurara a Unidade Básica de Saúde com febre, cefaleia, mialgia e náuseas. Foi atendido e orientado a usar dipirona, ingerir grande quantidade de líquidos e retornar em dois dias para reavaliação. No retorno, encontrava-se prostrado, ictérico e relatou epistaxe. Na mata próxima ao local de trabalho, foram encontrados macacos mortos. A DOENÇA DE NOTIFICAÇÃO COMPULSÓRIA MAIS PROVÁVEL COMO CAUSA DO ÓBITO É:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "febre amarela."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Febre, cefaleia, mialgia evoluindo com icterícia e epistaxe em trabalhador exposto a mata com primatas mortos nas proximidades é quadro epidemiologicamente clássico de febre amarela silvestre — doença de notificação compulsória imediata.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "UNICAMP R1 2026"
+    },
+    {
+      "id": "arb2_062",
+      "statement": "Um homem de 50 anos, com histórico de diabetes e hipertensão, residente em Recife, é admitido no hospital com febre alta há cinco dias, dor abdominal intensa e hipotensão postural (pressão arterial de 90/69 mmHg). Ao exame, apresenta extremidades frias e pegajosas, com enchimento capilar >3 segundos. Exmes laboratoriais mostram hematócrito de 49%, plaquetas de 60.000/mm³ e creatinina de 1,5mg/dL. Diagnóstico de dengue confirmado. Qual nível de gravidade e a conduta mais adequada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Nível B: Hidratação venosa com 10-20 mL/kg de soro fisiológico em 2 horas."
+        },
+        {
+          "key": "b",
+          "text": "Nível C: Reposição volêmica com 20 mL/kg de soro fisiológico em 15 minutos."
+        },
+        {
+          "key": "c",
+          "text": "Nível A: Hidratação oral com 30 mL/kg/dia de líquidos claros."
+        },
+        {
+          "key": "d",
+          "text": "Nível D: Internação em UTI com administração de 40 mL/kg de soro fisiológico."
+        },
+        {
+          "key": "e",
+          "text": "Nível C: Reposição volêmica com 20ml/kg de soro fisiológico em 4 horas."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Dor abdominal intensa, hipotensão postural, extremidades frias e pegajosas, enchimento capilar prolongado (>3s), hemoconcentração (Ht 49%), plaquetopenia acentuada e elevação da creatinina (disfunção renal) caracterizam choque estabelecido por dengue grave (Grupo D), exigindo internação em UTI com reposição volêmica agressiva.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "SES-PE R3CM 2025"
+    },
+    {
+      "id": "arb2_063",
+      "statement": "Uma paciente de 57 anos de idade, com miocardiopatia chagásica, insuficiência cardíaca de fração de ejeção reduzida em seguimento com cardiologia, procurou o pronto-socorro queixando-se de febre, mialgia e dor retro-orbitária há três dias. Foi realizada sorologia para dengue com NSI positivo. Ao exame físico, mostrou-se sem alterações de sinais vitais, com prova do laço negativa. Com base nesse caso clínico, é correto afirmar que se trata de um caso de dengue do grupo",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A."
+        },
+        {
+          "key": "b",
+          "text": "B."
+        },
+        {
+          "key": "c",
+          "text": "C."
+        },
+        {
+          "key": "d",
+          "text": "D."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Paciente com comorbidade cardíaca significativa (miocardiopatia chagásica com FE reduzida — grupo de risco para complicações relacionadas à sobrecarga volêmica), mesmo sem sinais de alarme, é classificada como Dengue Grupo B.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "SES-DF R1 2024"
+    },
+    {
+      "id": "arb2_064",
+      "statement": "Em relação à dengue, analise as seguintes assertivas: I. Na febre hemorrágica da dengue, a trombocitopenia com plaquetas abaixo de 100.000 células/ml e alargamento do tempo de protrombina são característicos. II. A leucopenia desenvolve-se no segundo dia de febre, caindo para 1.000 a 2.000 células/ml no quinto ou sexto dia. III. O anticorpo IgM surge de 3 a 5 dias após a infecção, e o IgG, de 9 a 10 dias após. Quais estão corretas?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas I e II."
+        },
+        {
+          "key": "b",
+          "text": "Apenas I e III."
+        },
+        {
+          "key": "c",
+          "text": "Apenas II e III."
+        },
+        {
+          "key": "d",
+          "text": "I, II e III."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O critério laboratorial clássico da febre hemorrágica da dengue combina plaquetopenia com hemoconcentração (não alargamento do tempo de protrombina); a cinética de anticorpos (IgM 3-5 dias, IgG 9-10 dias) e o padrão de leucopenia progressiva estão corretos.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "UFSC R1 2025"
+    },
+    {
+      "id": "arb2_065",
+      "statement": "Adolescente, 16 anos, sexo masculino, procura unidade de pronto atendimento (UPA) apresentando quadro de febre alta há 3 dias, associado a náuseas, cefaleia, mialgia, artralgia e leve dor em quadrantes superiores do abdome. Ao exame físico, o paciente encontra-se alerta, consciente e orientado, com pressão arterial de 110 x 70 mmHg, frequência cardíaca de 110 bpm e frequência respiratória de 18 irpm. Os pulsos estão cheios e extremidades quentes. O fígado é palpável a 2 centímetros do rebordo costal direito, levemente doloroso à palpação. Os exames laboratoriais iniciais do paciente revelam 3.800 leucócitos/mm3, hematócrito de 46% e plaquetas de 140.000/mm3. O teste rápido de antígeno NS1 é positivo. Qual a conduta inicial mais adequada para esse caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Alta para acompanhamento ambulatorial diário, hidratação oral e analgesia, com retorno apenas se apresentar sinais de complicação."
+        },
+        {
+          "key": "b",
+          "text": "Hidratação oral abundante e sintomáticos, alta do pronto atendimento e orientação de retorno no primeiro dia após a cessação da febre."
+        },
+        {
+          "key": "c",
+          "text": "Internação hospitalar com hidratação oral abundante, para repetição do hemograma em 12 horas."
+        },
+        {
+          "key": "d",
+          "text": "Hidratação intravenosa e internação hospitalar em enfermaria para monitorização clínica e laboratorial."
+        },
+        {
+          "key": "e",
+          "text": "Internação em unidade de terapia intensiva (UTI) imediatamente, para hidratação vigorosa e monitoramento contínuo."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Hepatomegalia (fígado palpável a 2cm do RCD, dolorosa), mesmo discreta, já configura sinal de alarme, classificando o caso como dengue com sinais de alarme (Grupo C) — indicada hidratação intravenosa e internação hospitalar em enfermaria para monitorização clínica e laboratorial.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "Hospital Regional de Presidente Prudente OUTRAS PROVAS 2026"
+    },
+    {
+      "id": "arb2_066",
+      "statement": "A dengue é uma doença febril aguda cujo curso clínico pode ser dividido em três fases: febril, crítica e de recuperação. A transição para a fase crítica é um momento de alerta máximo, pois é quando podem ocorrer o extravasamento plasmático e as complicações graves da doença. De acordo com a fisiopatologia descrita, o evento clínico que marca o início da fase crítica da dengue é a:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Plaquetopenia."
+        },
+        {
+          "key": "b",
+          "text": "Leucopenia."
+        },
+        {
+          "key": "c",
+          "text": "Defervescência."
+        },
+        {
+          "key": "d",
+          "text": "Exantema."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A defervescência (queda da febre) marca classicamente o início da fase crítica da dengue, período de maior risco de extravasamento plasmático e evolução para formas graves.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "HOB-DF R1 2026"
+    },
+    {
+      "id": "arb2_067",
+      "statement": "Homem de 33 anos refere febre alta, cefaleia, mialgia, artralgia há 4 dias. Há um dia, houve aparecimento de manchas vermelhas pelo corpo, muito pruriginosas e epistaxe em mínima quantidade, com resolução espontânea. AP: DM1 controlado. Exame físico: BEG, PA: 130 x 80 mmHg (aferida em duas posições), FC: 89 bpm, TEC < 3 segundos, sem sinais de hipoperfusão, prova do laço negativa. HGT 149 mg/dL. Com suspeita de dengue, a classificação clínica e a conduta são, correta e respectivamente,",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "grupo B; é necessário iniciar hidratação e avaliar o hemograma em até 4 horas. Caso não apresente hemoconcentração e/ou plaquetopenia grave, o manejo pode ser ambulatorial, com reavaliações clínicas diárias e hemogramas seriados, até resolução completa do quadro."
+        },
+        {
+          "key": "b",
+          "text": "grupo C; é necessário iniciar hidratação e avaliar o hemograma em até 2 horas. A depender do hemograma, o paciente deverá ficar internado ou ser manejado ambulatorialmente, com reavaliações clínicas diárias e hemogramas seriados, até resolução completa do quadro."
+        },
+        {
+          "key": "c",
+          "text": "grupo A; não é necessário avaliar o hemograma, e o manejo pode ser ambulatorial, com reavaliação clínica no dia da cessação da febre ou no sétimo dia de sintoma, caso a febre persista."
+        },
+        {
+          "key": "d",
+          "text": "grupo D; é necessário iniciar hidratação endovenosa e avaliar o hemograma em até 2 horas. O paciente deverá ficar internado por, pelo menos, 48 horas em unidade de terapia intensiva."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Manifestação hemorrágica leve (epistaxe autolimitada) associada a comorbidade (DM1) caracteriza Dengue Grupo B — hidratação e avaliação do hemograma em até 4 horas, com manejo ambulatorial se ausente hemoconcentração/plaquetopenia grave.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "UNESP R1 2025"
+    },
+    {
+      "id": "arb2_068",
+      "statement": "Com relação à classificação dos quadros de dengue adotada pelo Ministério da Saúde em nosso país e ao manejo do paciente pediátrico com suspeita dessa arbovirose, de acordo com as atuais recomendações, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A presença de 5 petéquias em uma área de 2,5 cm x 2,5 cm após insuflação por 5 minutos na média da pressão arterial em uma criança de 5 anos caracteriza uma prova do laço positiva e classifica a criança como grupo C, havendo necessidade de hidratação parenteral enquanto aguarda exames laboratoriais."
+        },
+        {
+          "key": "b",
+          "text": "Crianças com sangramentos espontâneos em pele, mesmo sem sinais de alarme, devem ser classificadas como grupo B, sendo a coleta do hemograma obrigatória para avaliar hemoconcentração."
+        },
+        {
+          "key": "c",
+          "text": "Crianças com dor abdominal intensa e vômitos, independentemente de apresentarem sangramentos, são consideradas no grupo C e necessitam de hidratação oral imediata, em um volume inicial de 130 mL/kg, e que somente se encerrará após constatação de que não está ocorrendo hemoconcentração no hemograma."
+        },
+        {
+          "key": "d",
+          "text": "A hidratação parenteral com solução isotônica, no volume de 10 mL/kg na primeira hora é a conduta nos quadros suspeitos de dengue com sinais de alarme e deve ser iniciada somente após os resultados do hematócrito e ultrassonografia abdominal, para não aumentar o risco ou a piora de derrames cavitários."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Crianças com sangramentos espontâneos em pele, mesmo sem sinais de alarme, são classificadas como Dengue Grupo B, sendo obrigatória a coleta de hemograma para avaliar hemoconcentração.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "FAMEMA R1 2025"
+    },
+    {
+      "id": "arb2_069",
+      "statement": "Sobre a dengue, analise as assertivas a seguir: I. Existem técnicas laboratoriais para identificação do vírus (até o 5º dia de início da doença) e pesquisa de anticorpos (a partir do 6º dia de início da doença). II. O tratamento inclui medidas de suporte, hidratação, repouso e antibioticoterapia. III. O controle do vetor Aedes aegypti é o principal método para a prevenção. Quais estão corretas?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas I e II"
+        },
+        {
+          "key": "b",
+          "text": "Apenas I e III"
+        },
+        {
+          "key": "c",
+          "text": "Apenas II e III"
+        },
+        {
+          "key": "d",
+          "text": "I, II e III"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A identificação viral (NS1/isolamento/PCR) é útil até o 5º dia de doença, enquanto a pesquisa de anticorpos ganha relevância a partir do 6º dia (afirmativa I correta); o controle do vetor Aedes aegypti é o principal método de prevenção da dengue (afirmativa III correta); não há papel para antibioticoterapia no tratamento da dengue, doença viral (afirmativa II incorreta).",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "AMRIGS R1 2025"
+    },
+    {
+      "id": "arb2_070",
+      "statement": "A dengue é a arbovirose urbana mais prevalente nas Américas, principalmente no Brasil. Assinale a alternativa que contém condições que favorecem o aumento de casos da doença",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tempo seco e calor."
+        },
+        {
+          "key": "b",
+          "text": "Chuva e calor."
+        },
+        {
+          "key": "c",
+          "text": "Ratos e chuva."
+        },
+        {
+          "key": "d",
+          "text": "Frio e proximidade física entre pessoas."
+        },
+        {
+          "key": "e",
+          "text": "Aglomerações humanas e ratos."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Chuva (formação de criadouros com água parada) e calor (aceleração do ciclo de vida do mosquito e da replicação viral) são as condições climáticas clássicas que favorecem o aumento de casos de dengue.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "Hospital Regional de Presidente Prudente R1 2024"
+    },
+    {
+      "id": "arb2_071",
+      "statement": "Homem de 25 anos vai à unidade de pronto atendimento (UPA) apresentando quadro de febre alta há 3 dias, associado a náuseas, mialgia, artralgia e leve dor em quadrantes superiores do abdome. Ao exame físico, o paciente encontra-se alerta, consciente e orientado; pressão arterial de 100 x 70 mmHg: frequência cardíaca de 110 bpm; e frequência respiratória de 18 irpm; pulsos cheios e extremidades quentes; fígado palpável a 3 centímetros do rebordo costal direito, levemente doloroso à palpação. Os exames laboratoriais iniciais do paciente revelam os seguintes resultados: (IMAGEM) Nesse caso, a conduta inicial mais adequada envolve Clique na imagem para expandir",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "alta para acompanhamento ambulatorial diário e hidratação oral abundante e analgesia."
+        },
+        {
+          "key": "b",
+          "text": "hidratação oral abundante e sintomáticos, alta e orientação de retorno no primeiro dia após a cessação da febre."
+        },
+        {
+          "key": "c",
+          "text": "hidratação venosa e internação hospitalar em enfermaria para monitorização clínica e laboratorial."
+        },
+        {
+          "key": "d",
+          "text": "internação em unidade de terapia intensiva (UTI) imediatamente para hidratação vigorosa e monitoramento continuo."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "ATENÇÃO: a questão faz referência a resultados laboratoriais em imagem não disponível na extração do PDF. Hepatomegalia leve (3cm do RCD, dolorosa) já configura sinal de alarme, sendo compatível com a conduta de hidratação venosa e internação hospitalar em enfermaria para monitorização clínica e laboratorial.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "INEP REVALIDA 2025"
+    },
+    {
+      "id": "arb2_072",
+      "statement": "Paciente do sexo masculino, 12 anos de idade, previamente hígido, é atendido no pronto- socorro devido a quadro de febre há 4 dias, associada a dor retro-orbitária, mialgia e dor abdominal intermitente. Ao exame físico, médico notou criança em regular estado geral, corado, hidratado no limiar, anictérico, afebril, sem edemas e sem sinais meníngeos. Apresentava ainda prova do laço positiva. Restante do exame físico dentro da normalidade. Solicitado hemograma e encaminhado à sala de espera para hidratação oral até resultado, liberado após 1 hora de espera, com os seguintes resultados: Hemograma: Hm: 4 milhões; Hb: 12,5g%; HT: 50%; VCMfl: 90; HCMpg: 80; CHCM: 35%; GL: 2500/mm3 (30%neu/ 50%linf/ 3%eos/ 7%bas/ 10%mon); plaq: 90.000 mm3.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Diante da plaquetopenia apresentada é necessário a internação do paciente com prescrição de transfusão de plaquetas pelo risco elevado de sangramento."
+        },
+        {
+          "key": "b",
+          "text": "Diante da suspeição clínica e da elevação do hematócrito é necessário tratar o paciente com hidratação endovenosa conforme protocolo do grupo C de dengue."
+        },
+        {
+          "key": "c",
+          "text": "O paciente tem diagnóstico clínico e laboratorial sugestivo de dengue, sem sinais de alarme e com hemograma tranquilizador, sendo possível a alta com hidratação oral."
+        },
+        {
+          "key": "d",
+          "text": "Diante da plaquetopenia e da leucopenia em paciente febril com quadro de mialgia é necessária a internação do paciente para investigação de doença hematológica."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Hematócrito elevado (50%) associado a plaquetopenia (90.000/mm³) e quadro clínico sugestivo, mesmo com prova do laço apenas positiva e sem outros sinais de alarme evidentes, indica tratamento conforme protocolo do Grupo C de dengue (hemoconcentração relativa já demonstrada).",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "FELUMA R1 2025"
+    },
+    {
+      "id": "arb2_073",
+      "statement": "Homem de 34 anos se dirige à Unidade Básica de Saúde (UBS) com febre (38,5 °C), dores de moderada intensidade e manchas no corpo há 3 dias. No dia da consulta, iniciou com dores abdominais e vômitos incontroláveis. Exame físico: prostrado, mucosas coradas, extremidades bem perfundidas. Pressão arterial de 120 × 80 mmHg; frequência respiratória de 16 irpm; frequência cardíaca de 80 bpm. Leve dor à palpação abdominal, sem outras alterações. Qual a hipótese diagnóstica e o manejo, respectivamente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dengue grupo B. Prescrever hidratação oral, analgésico e antiemético; solicitar hemograma, plaquetas e antígeno NS1; realizar acompanhamento domiciliar após exames."
+        },
+        {
+          "key": "b",
+          "text": "Dengue grupo C. Prescrever hidratação oral, analgésico e antiemético; solicitar hemograma, plaquetas e anticorpo IgM; realizar acompanhamento ambulatorial após exames."
+        },
+        {
+          "key": "c",
+          "text": "Dengue grupo C. Prescrever hidratação parenteral, analgésico e antiemético; solicitar hemograma, plaquetas e antígeno NS1; manter em leito de observação até estabilização."
+        },
+        {
+          "key": "d",
+          "text": "Dengue grupo B. Prescrever hidratação parenteral, analgésico e antiemético; solicitar hemograma, plaquetas, antígeno NS1 e anticorpo IgM; manter em leito de observação até estabilização."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Dor abdominal e vômitos incontroláveis (persistentes) caracterizam sinais de alarme, classificando o caso como Dengue Grupo C — conduta de hidratação parenteral, analgésico, antiemético, solicitação de hemograma/plaquetas/NS1, e manutenção em leito de observação até estabilização.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "INEP REVALIDA REVALIDA 2025"
+    },
+    {
+      "id": "arb2_075",
+      "statement": "Diante do aumento significativo de casos de dengue em uma determinada comunidade, uma equipe de saúde da família foiacionada para implementar medidas de controle. Considerando as medidas de prevenção e controle da doença, assinale a alternativa que representa a melhor estratégia a ser adotada.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Realizar ações educativas sobre os cuidados com a água parada, priorizando as áreas que já apresentaram casos confirmados."
+        },
+        {
+          "key": "b",
+          "text": "Concentrar a aplicação de inseticida nas áreas de maior incidência de casos como forma de controlar o vetor rapidamente."
+        },
+        {
+          "key": "c",
+          "text": "Reforçar as visitas domiciliares e a busca ativa de casos em toda a área de cobertura, monitorando a situação e orientando as famílias sobre a eliminação de criadouros."
+        },
+        {
+          "key": "d",
+          "text": "Promover campanhas de conscientização sobre a dengue, voltadas para escolas e locais de trabalho da comunidade."
+        },
+        {
+          "key": "e",
+          "text": "Aguardar as recomendações oficiais de entidades superiores de saúde antes de iniciar qualquer intervenção de controle."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A estratégia mais completa e eficaz de controle epidemiológico da dengue combina reforço das visitas domiciliares e busca ativa de casos em toda a área de cobertura (não apenas nas áreas já afetadas), com monitoramento contínuo e orientação sobre eliminação de criadouros.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "FAMECA R1 2025"
+    },
+    {
+      "id": "arb2_076",
+      "statement": "Homem de 34 anos se dirige à Unidade Básica de Saúde (UBS) com febre (38,5 ºC), dores de moderada intensidade e manchas no corpo há 3 dias. No dia da consulta, iniciou com dores abdominais e vômitos incontroláveis. Exame físico: prostrado, mucosas coradas, extremidades bem perfundidas. Pressão arterial de 120 x 80 mmHg; frequência respiratória de 16 irpm; frequência cardíaca de 80 bpm. Leve dor à palpação abdominal, sem outras alterações. Qual a hipótese diagnóstica e o manejo, respectivamente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dengue grupo B. Prescrever hidratação oral, analgésico e antiemético; solicitar hemograma, plaquetas e antígeno NS1; realizar acompanhamento domiciliar após exames."
+        },
+        {
+          "key": "b",
+          "text": "Dengue grupo C. Prescrever hidratação oral, analgésico e antiemético; solicitar hemograma, plaquetas e anticorpo IgM; realizar acompanhamento ambulatorial após exames."
+        },
+        {
+          "key": "c",
+          "text": "Dengue grupo C. Prescrever hidratação parenteral, analgésico e antiemético; solicitar hemograma, plaquetas e antígeno NS1; manter em leito de observação até estabilização."
+        },
+        {
+          "key": "d",
+          "text": "Dengue grupo B. Prescrever hidratação parenteral, analgésico e antiemético; solicitar hemograma, plaquetas, antígeno NS1 e anticorpo IgM; manter em leito de observação até estabilização."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Dor abdominal e vômitos incontroláveis caracterizam sinais de alarme (Dengue Grupo C) — conduta de hidratação parenteral, analgésico, antiemético, solicitação de hemograma/plaquetas/NS1, e observação até estabilização.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "ENAMED R1 2026"
+    },
+    {
+      "id": "arb2_078",
+      "statement": "Sobre a dengue, analise as assertivas a seguir: I. Existem técnicas laboratoriais para identificação do vírus (até o 5º dia de início da doença) e pesquisa de anticorpos (a partir do 6º dia de início da doença). II. O tratamento inclui medidas de suporte, hidratação, repouso e antibioticoterapia. III. O controle do vetor Aedes aegypti é o principal método para a prevenção. Quais estão corretas?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas I e II."
+        },
+        {
+          "key": "b",
+          "text": "Apenas I e III."
+        },
+        {
+          "key": "c",
+          "text": "Apenas II e III."
+        },
+        {
+          "key": "d",
+          "text": "I, II e III."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A identificação viral é útil até o 5º dia de doença e a pesquisa de anticorpos a partir do 6º dia (I correta); o controle do vetor Aedes aegypti é o principal método de prevenção (III correta); não há indicação de antibioticoterapia no tratamento da dengue (II incorreta).",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "UFSC R1 2024"
+    },
+    {
+      "id": "arb2_080",
+      "statement": "Em 2024, o estado de São Paulo viveu uma epidemia de casos de dengue. Assinale a alternativa que apresenta a correlação correta entre classificação de grupo e sintomas.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "1 e choque franco com pronunciada hipotensão arterial."
+        },
+        {
+          "key": "b",
+          "text": "2 e sangramentos espontâneos, mas sem comprometimento hemodinâmico."
+        },
+        {
+          "key": "c",
+          "text": "3 e febre com sintomas inespecíficos e prova do laço positiva."
+        },
+        {
+          "key": "d",
+          "text": "4 e taquicardia, mas sem comprometimento hemo- dinâmico."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A correlação correta entre grupo de classificação e sintomas é: Grupo 2 (B) — sangramentos espontâneos, sem comprometimento hemodinâmico. As demais associações contêm erros (choque franco é do Grupo D, não A; prova do laço isolada positiva sem outros achados é compatível com Grupo A/B, não C; Grupo D envolve, por definição, comprometimento hemodinâmico).",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "FAMEMA R1 2025"
+    },
+    {
+      "id": "arb2_081",
+      "statement": "Uma criança com 6 anos é levada à unidade básica de saúde por sua mãe, apresentando quadro de febre, mal-estar, hiporexia, dores no corpo, otalgia, cefaleia, exantema e desidratação há 5 dias. A paciente é procedente de área com casos de dengue. Para tratar sua filha, a mãe administrou, por indicação de uma vizinha, antibiótico via otológica, por 3 dias, sem melhora. Ao exame físico, a paciente encontra-se febril (38,6 °C), hipocorada (+/4) e levemente desidratada, sem outras alterações. Nesse caso, além de prescrever antitérmico, qual é a conduta médica adequada para realizar a investigação diagnóstica e o tratamento apropriado para a criança?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Realizar prova do laço; e prescrever amoxicilina ou clavulanato de potássio à paciente, orientando o retorno após 3 dias."
+        },
+        {
+          "key": "b",
+          "text": "Realizar otoscopia; solicitar hemograma; e prescrever amoxicilina ou clavulanato de potássio à paciente, orientando o retorno após 3 dias."
+        },
+        {
+          "key": "c",
+          "text": "Realizar prova do laço e otoscopia; e prescrever hidratação oral à paciente, orientando o retorno no dia de melhora da febre ou no 5. dia após a consulta, se não melhorar."
+        },
+        {
+          "key": "d",
+          "text": "Realizar prova do laço; solicitar hemograma; e prescrever hidratação parenteral com mantendo-a em observação por, pelo menos, 24 horas."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de quadro febril em área endêmica de dengue com queixa otológica sobreposta, a conduta correta inclui realizar prova do laço e otoscopia (investigando ambas as hipóteses), prescrevendo hidratação oral e orientando retorno no dia de melhora da febre ou no 5º dia se não houver melhora — evitando antibioticoterapia desnecessária.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "INEP REVALIDA 2024"
+    },
+    {
+      "id": "arb2_083",
+      "statement": "A vacina da dengue tetravalente (Qdenga), com vírus vivo atenuado, está recomendada pela Sociedade Brasileira de Pediatria para o público-alvo:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Crianças a partir de quatro anos de idade;"
+        },
+        {
+          "key": "b",
+          "text": "Crianças a partir dos nove anos de idade;"
+        },
+        {
+          "key": "c",
+          "text": "Adolescentes de 11 a 14 anos;"
+        },
+        {
+          "key": "d",
+          "text": "Crianças de 10 a 12 anos."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A Sociedade Brasileira de Pediatria recomenda a vacina tetravalente contra dengue (Qdenga) para o público a partir dos quatro anos de idade, acompanhando a faixa etária aprovada pela ANVISA.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "PUC-SP R1 2025"
+    },
+    {
+      "id": "arb2_086",
+      "statement": "Ainda em relação ao caso da questão anterior. Assinale a alternativa que contém a conduta mais recomendada em relação às drogas antidiabéticas usadas pelo paciente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Suspender linagliptina e dapaglifozina."
+        },
+        {
+          "key": "b",
+          "text": "Suspender lingliptina e manter dapaglifozina."
+        },
+        {
+          "key": "c",
+          "text": "Suspender dapaglifozina e manter linagliptina."
+        },
+        {
+          "key": "d",
+          "text": "Manter linagliptina e dapaglifozina."
+        },
+        {
+          "key": "e",
+          "text": "Suspender linagliptina e dapaglifozina e iniciar insulina NPH."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de quadro infeccioso agudo com risco de desidratação (dengue), a dapagliflozina (inibidor de SGLT2) deve ser suspensa pelo risco de cetoacidose euglicêmica e agravamento da desidratação, enquanto a linagliptina (inibidor de DPP-4) pode ser mantida com segurança, por não apresentar esses riscos.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "HSJA R1 2026"
+    },
+    {
+      "id": "arb2_087",
+      "statement": "Criança de sete anos é atendida no pronto socorro com relato de febre há três dias, mialgia e artralgia em mãos e pés. Ao exame físico observa-se fígado a 3cm do rebordo costal direito, doloroso à palpação e sangramento gengival. Diante da suspeita de arbovirose, assinale a alternativa que descreve o tratamento MAIS ADEQUADO para esse paciente, neste momento:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hidratação oral e transfusão de plaquetas"
+        },
+        {
+          "key": "b",
+          "text": "Hidratação venosa e dipirona"
+        },
+        {
+          "key": "c",
+          "text": "Ibuprofeno e ácido acetilsalicílico"
+        },
+        {
+          "key": "d",
+          "text": "Prednisona e paracetamol"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Hepatomegalia dolorosa e sangramento gengival (sinais de alarme/manifestação hemorrágica) exigem hidratação venosa e uso de dipirona como antitérmico/analgésico seguro — evitando AINEs (ibuprofeno, AAS) e corticoides, sem indicação nesse contexto.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "PSU-MG R1 2026"
+    },
+    {
+      "id": "arb2_088",
+      "statement": "Victor, nove anos, apresenta febre alta há cinco dias cefaléia, dor retro orbitária e letargia. Hoje apresentou sangramento em mucosas, com surgimento de dor abdominal intensa e contínua. A conduta para esse paciente é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hidratação oral, dipirona e alta."
+        },
+        {
+          "key": "b",
+          "text": "Hidratação venosa, dipirona e internação hospitalar."
+        },
+        {
+          "key": "c",
+          "text": "Hidratação oral, paracetamol e observação por 6 horas."
+        },
+        {
+          "key": "d",
+          "text": "Hidratação venosa, ibuprofeno e observação por 12 horas."
+        },
+        {
+          "key": "e",
+          "text": "Hidratação oral e solicitação de concentrado de hemácias pelo sangramento."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Letargia, sangramento em mucosas e dor abdominal intensa e contínua são sinais de alarme que exigem hidratação venosa, uso de dipirona (evitando AINEs) e internação hospitalar imediata.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "HEDA R1 2025"
+    },
+    {
+      "id": "arb2_089",
+      "statement": "Homem de 65 anos, diabético, com insuficiência renal grau 3, após três dias de evolução de um quadro clínico clássico de dengue, comparece à UBS com menos febre, manchas roxas no corpo, dor abdominal, vômitos intensos, em torpor, estando desidratado e referindo fezes vermelhas. Ao exame físico, verificam-se PA = 90x64mmHg e taquicardia.Nesse caso, para realizar a prova do laço a fim de observar fragilidade capilar, deve-se:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "medir a pressão sistólica e diastólica, inflar o manguito na média da pressão, que seria 80mmHg, e esperar cinco minutos"
+        },
+        {
+          "key": "b",
+          "text": "medir a pressão sistólica, inflar o manguito no valor da pressão sistólica, que seria 96mmHg, e esperar por três minutos"
+        },
+        {
+          "key": "c",
+          "text": "colocar um torniquete bem apertado no antebraço e observar por cinco minutos"
+        },
+        {
+          "key": "d",
+          "text": "colocar um torniquete bem apertado no antebraço e observar por três minutos"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A prova do laço padronizada requer o cálculo da pressão arterial média (não sistólica isolada), insuflando o manguito até esse valor e mantendo por 5 minutos em pacientes adultos.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "UERJ R1 2026"
+    },
+    {
+      "id": "arb2_090",
+      "statement": "Um menino de 10 anos apresenta-se com febre alta, dor abdominal intensa, e vômitos persistentes. Tem teste rápido positivo para dengue, hematócrito em ascensão e plaquetopenia. A melhor conduta inicial é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transfusão de plaquetas."
+        },
+        {
+          "key": "b",
+          "text": "Prednisona 1 mg/kg/dia."
+        },
+        {
+          "key": "c",
+          "text": "Hidratação venosa com cristaloide e monitorização rigorosa."
+        },
+        {
+          "key": "d",
+          "text": "Restrição hídrica e observação."
+        },
+        {
+          "key": "e",
+          "text": "Dipirona e anti-inflamatório não-esteroide."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Dor abdominal intensa, vômitos persistentes, hematócrito em ascensão e plaquetopenia caracterizam dengue com sinais de alarme — a conduta inicial é hidratação venosa com cristaloide e monitorização rigorosa, sem indicação de transfusão profilática de plaquetas ou corticoide.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "SANTA CASA-SP OUTRAS PROVAS 2026"
+    },
+    {
+      "id": "arb2_091",
+      "statement": "Mulher, 25 anos de idade, sem doenças prévias, está no Brasil há três semanas fazendo turismo em Brotas, interior de São Paulo. Há dois dias, iniciou com dor abdominal, náuseas, febre não aferida, mialgia e prostração. Não recebeu nenhuma vacina desde a adolescência. Ao exame clínico, apresentou regular estado geral, PA de 120x70 mmHg, FC de 90 bpm, corada, ictérica +/4+, fígado a 2 cm do rebordo costal direito, doloroso à palpação, sem outras alterações. Exames laboratoriais: Hb: 14 g/dL Leucócitos: 3.200/mm3 Plaquetas: 87.000/mm3 TGO/AST: 1.200 U/L TGP/ALT: 1452 U/L Cr: 0,8 mg/dL Tempo de protrombina e de tromboplastina parcial ativada normais. O diagnóstico mais provável e a conduta mais adequada são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Febre amarela e teste molecular"
+        },
+        {
+          "key": "b",
+          "text": "Leptospirose e antibioticoterapia"
+        },
+        {
+          "key": "c",
+          "text": "Hepatite A e listar para transplante"
+        },
+        {
+          "key": "d",
+          "text": "Dengue e pesquisa de antígeno NS-1"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Turista não vacinada em área de risco para febre amarela silvestre (interior de São Paulo), com icterícia, hepatomegalia dolorosa e transaminases massivamente elevadas (padrão de hepatite fulminante), é quadro epidemiologicamente clássico de febre amarela — indicado teste molecular para confirmação diagnóstica.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "USP R3CM 2025"
+    },
+    {
+      "id": "arb2_092",
+      "statement": "Paciente masculino, 45 anos, agricultor, morador de uma área rural no interior do Rio Grande do Sul. História Clínica: O paciente foi atendido em um hospital de campanha três semanas após uma enchente que devastou sua comunidade. Ele relata múltiplos problemas de saúde desde que foi deslocado para um abrigo temporário superlotado. Nos últimos sete dias, desenvolveu diarreia aquosa, associada a dores abdominais e vômitos. Além disso, descreve episódios de febre intermitente, cefaleia e dor retro-orbitária. O paciente também apresenta uma lesão puntiforme no pé direito, resultado de uma ferida causada por um pedaço de metal enferrujado durante a enchente. Relata, ainda, dores musculares e cãibras nos últimos dias. Sua esposa, que está no mesmo abrigo, desenvolveu sintomas respiratórios agudos. Ele expressa preocupação com a segurança das filhas adolescentes, temendo violência sexual no abrigo. Exames Físicos: - PA: 90/60 mmHg -FC:105 bpm -Temperatura:38,4°C Ao exame físico revela desidratação moderada, abdome doloroso à palpação difusa, lesão puntiforme com eritema e edema no pé direito, além de icterícia leve. História de Saúde: Paciente hipertenso, em uso irregular de medicamentos. Tem histórico de episódios anteriores de dengue, mas nunca apresentou hepatite ou outra doença infecciosa crônica. Com base na febre intermitente, cefaleia e dor retro- orbitária, qual é a doença infecciosa mais provável que o paciente esteja apresentando, além da diarreia?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dengue."
+        },
+        {
+          "key": "b",
+          "text": "Malária."
+        },
+        {
+          "key": "c",
+          "text": "Febre tifoide."
+        },
+        {
+          "key": "d",
+          "text": "Hepatite A."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A tríade de febre intermitente, cefaleia e dor retro-orbitária é classicamente associada à dengue, distinguindo-se do quadro leptospirótico mais amplo sugerido pelo contexto de enchente, ferimento contaminado e icterícia leve descritos no restante do caso.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "UNITAU R1 2025"
+    },
+    {
+      "id": "arb2_093",
+      "statement": "Homem de 33 anos refere febre alta, cefaleia, mialgia e artralgia, há 4 dias. Há um dia, houve aparecimento de manchas vermelhas pelo corpo, muito pruriginosas e epistaxe em mínima quantidade, com resolução espontânea. AP: DM1 controlado. EF: BEG, PA 130 x 80 mmHg (aferida em duas posições), FC: 89 bpm, TEC < 3 segundos, sem sinais de hipoperfusão, prova do laço negativa. HGT: 149 mg/dL. Com suspeita de dengue, a classificação clínica e a conduta são, respectivamente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "grupo C; é necessário iniciar hidratação e avaliar o hemograma em até 2 horas. A depender do hemograma, o paciente deverá ficar internado ou ser manejado ambulatorialmente, com reavaliações clínicas diárias e hemogramas seriados, até resolução completa do"
+        },
+        {
+          "key": "b",
+          "text": "grupo B; é necessário iniciar hidratação e avaliar o hemograma em até 4 horas. Caso não apresente hemoconcentração e/ou plaquetopenia grave, o manejo pode ser ambulatorial, com reavaliações clínicas diárias e hemogramas seriados, até resolução completa do"
+        },
+        {
+          "key": "c",
+          "text": "grupo A; não é necessário avaliar o hemograma, e o manejo pode ser ambulatorial,com reavaliação clínica no dia da cessação da febre ou no sétimo dia de sintoma, caso a febre persista."
+        },
+        {
+          "key": "d",
+          "text": "grupo D; é necessário iniciar hidratação endovenosa e avaliar o hemograma em até 2 horas. O paciente deverá ficar internado por pelo menos 48 horas em unidade de terapia intensiva."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Manifestação hemorrágica leve (epistaxe autolimitada) associada a comorbidade (DM1) caracteriza Dengue Grupo B — hidratação e avaliação do hemograma em até 4 horas, com manejo ambulatorial se ausente hemoconcentração/plaquetopenia grave.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "UNESP R3CM 2025"
+    },
+    {
+      "id": "arb2_094",
+      "statement": "Com relação ao choque na dengue, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "É de instalação lenta e tem duração longa, não sendo, em si, uma emergência."
+        },
+        {
+          "key": "b",
+          "text": "Um paciente com dengue que esteja em choque pode ir a óbito entre duas a quatro horas ou se recuperar rapidamente após esse período."
+        },
+        {
+          "key": "c",
+          "text": "O período de extravasamento plasmático e choque leva de 24 a 48 horas, devendo a equipe assistencial estar alerta para as alterações hemodinâmicas nesse período."
+        },
+        {
+          "key": "d",
+          "text": "Pacientes em choque têm frequência cardíaca normal, com pulso fraco e enchimento capilar normal."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O choque na dengue é uma emergência de curta duração — o paciente pode evoluir a óbito em 2 a 4 horas se não tratado adequadamente, ou recuperar-se rapidamente com manejo apropriado nesse período crítico.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "HEVV R1 2025"
+    },
+    {
+      "id": "arb2_095",
+      "statement": "Homem de 65 anos, diabético, com insuficiência renal grau 3, após três dias de evolução de um quadro clínico clássico de dengue, comparece à UBS com menos febre, manchas roxas no corpo, dor abdominal, vômitos intensos, em torpor, estando desidratado e referindo fezes vermelhas. Ao exame físico, verificam-se PA = 90x64mmHg e taquicardia.A prova do laço desse paciente apresentará resultado positivo caso em seu antebraço apareça um número de petéquias correspondente a:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "menos que 5"
+        },
+        {
+          "key": "b",
+          "text": "5 a 10"
+        },
+        {
+          "key": "c",
+          "text": "11 a 19"
+        },
+        {
+          "key": "d",
+          "text": "20 ou mais"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Em pacientes adultos, a prova do laço é considerada positiva quando há 20 ou mais petéquias na área delimitada do antebraço.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "UERJ R1 2026"
+    },
+    {
+      "id": "arb2_096",
+      "statement": "Durante o mês de março, a equipe da Unidade de Saúde da Família do Jardim Flores recebeu boletins da vigilância epidemiológica municipal informando aumento de casos confirmados de dengue no território. Em uma manhã de atendimentos, o médico de família e comunidade avalia Pedro, 32 anos de idade, que refere febre alta há 2 dias, mialgia, cefaleia e dor retro-orbitária. O paciente está hemodinamicamente estável, hidratado e sem sinais de alarme. Com base nos princípios da vigilância epidemiológica e no Protocolo de Manejo Clínico da Dengue (MS, 2024), assinale a alternativa que apresenta, corretamente, a conduta mais adequada.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Classificar o paciente como Grupo B, devido à presença de febre e mialgia, e encaminhá-lo ao serviço de referência para hidratação venosa e coleta laboratorial imediata."
+        },
+        {
+          "key": "b",
+          "text": "Classificar o paciente como Grupo C, orientando encaminhamento imediato ao serviço de referência para hidratação venosa e observação clínica, conforme preconizado para casos com sinais de alarme."
+        },
+        {
+          "key": "c",
+          "text": "Reconhecer o caso como suspeito de dengue, orientar hidratação oral, buscar sinais de alarme, agendar reavaliação e notificar imediatamente a vigilância municipal, visto que há transmissão ativa no território."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar exames laboratoriais (hemograma e sorologia) antes de instituir medidas de manejo, pois a confirmação laboratorial é necessária para a notificação e definição do diagnóstico."
+        },
+        {
+          "key": "e",
+          "text": "Prescrever sintomáticos para controle da dor e da febre e agendar retorno em uma semana por não haver sinais de gravidade, desde que o paciente seja orientado quanto aos sinais de alarme."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Paciente sem sinais de alarme em contexto de transmissão ativa de dengue no território deve ser reconhecido como caso suspeito, com orientação de hidratação oral, busca ativa de sinais de alarme, agendamento de reavaliação e notificação imediata à vigilância epidemiológica municipal.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "UEL R1 2026"
+    },
+    {
+      "id": "arb2_098",
+      "statement": "Em relação à dengue, analise as seguintes assertivas: I. Na febre hemorrágica da dengue, a trombocitopenia com plaquetas abaixo de 100.000 células/ml e alargamento do tempo de protrombina são característicos. II. A leucopenia desenvolve-se no segundo dia de febre, caindo para 1.000 a 2.000 células/ml no quinto ou sexto dia. III. O anticorpo IgM surge de 3 a 5 dias após a infecção, e o IgG, de 9 a 10 dias após. Quais estão corretas?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas I e II."
+        },
+        {
+          "key": "b",
+          "text": "Apenas I e III."
+        },
+        {
+          "key": "c",
+          "text": "Apenas II e III."
+        },
+        {
+          "key": "d",
+          "text": "I, II e III."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O critério laboratorial clássico da febre hemorrágica da dengue combina plaquetopenia com hemoconcentração (não alargamento do tempo de protrombina); a cinética de anticorpos e o padrão de leucopenia progressiva estão corretos.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "source": "UFSC R1 2026"
     }
   ]
 }
