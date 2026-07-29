@@ -1,10 +1,244 @@
-{"questions":[
-{"id":"hipo_001","statement":"Uma paciente de 67 anos de idade, diabética há 10 anos, compareceu à consulta de rotina. Ela usa metformina 850 mg duas vezes ao dia e relatou episódios ocasionais de hipoglicemia leve no final da tarde. Os exames mostraram HbA1c = 6,3%, creatinina normal e IMC = 26 kg/m². Referiu que mora sozinha e tem dificuldade em manter alimentação regular. Qual deve ser prioridade do médico de família nessa consulta?","alternatives":[{"key":"a","text":"Reduzir a meta de HbA1c para < 6%, dada a idade e o tempo de doença."},{"key":"b","text":"Avaliar o risco de hipoglicemia, ajustar metas individuais e trabalhar planejamento alimentar."},{"key":"c","text":"Suspender imediatamente a metformina por risco de hipoglicemia."},{"key":"d","text":"Iniciar insulina basal para melhor controle glicêmico."}],"correct_key":"b","explanation":"A metformina isoladamente não costuma causar hipoglicemia; os episódios relatados, associados a alimentação irregular (paciente mora sozinha, dificuldade alimentar) e HbA1c já baixa (6,3%), sugerem excesso de controle relativo ao contexto social — a prioridade é avaliar o risco de hipoglicemia, individualizar a meta (provavelmente mais liberal) e trabalhar o planejamento alimentar, não intensificar nem suspender medicações abruptamente.","theme":"dm_tto","difficulty":"medio","reviewed":false,"created_at":"2026-07-28T00:00:00.000Z"},
-{"id":"hipo_002","statement":"Leia o caso clínico: Uma jovem com diabetes mellitus não controlado é encontrada, caída, na porta de um restaurante. Ao ser socorrida, recobrou a consciência e afirmou ter sentido tonturas e rubor facial ao ingerir uma refeição. Curiosos negam movimentos involuntários. A jovem refere já ter experimentado eventos semelhantes. Sua glicemia capilar é de 77 mg/dL, a pressão arterial de 85/46mmHg e cetonas negativas na urina. O quadro apresentado por essa jovem foi de:","alternatives":[{"key":"a","text":"síndrome hiperosmolar hiperglicêmica não cetótica."},{"key":"b","text":"cetoacidose diabética."},{"key":"c","text":"hipoglicemia e hipotensão pós-prandial."},{"key":"d","text":"hipoglicemia convulsogênica."}],"correct_key":"c","explanation":"O quadro de tontura e rubor facial após alimentação, associado a hipotensão relativa (85/46mmHg) e glicemia limítrofe-baixa (77mg/dL), com ausência de movimentos convulsivos e cetonas negativas, é compatível com hipotensão pós-prandial associada a sintomas hipoglicêmicos leves — não caracteriza cetoacidose (cetonas negativas), síndrome hiperosmolar (glicemia baixa, não alta) nem crise convulsiva.","theme":"dm_tto","difficulty":"medio","reviewed":false,"created_at":"2026-07-28T00:00:00.000Z"},
-{"id":"hipo_003","statement":"Mulher de 84 anos, em acompanhamento por DM2, em uso de metformina 850mg no café e almoço e insulina NPH 12U ao deitar. Há três meses, após a morte do marido, tem se alimentado menos e perdeu 9kg (de 87 para 78kg). Tem apresentado dificuldade para iniciar o sono e pesadelos frequentes, com agitação e sudorese. Exame clínico sem alterações. Nas últimas semanas os controles de glicemia capilar em jejum aumentaram de 110 para 160 mg/dL. Assinale a conduta mais adequada para o controle da glicemia.","alternatives":[{"key":"a","text":"Associar insulina rápida pré-café da manhã."},{"key":"b","text":"Iniciar metformina também no jantar."},{"key":"c","text":"Introduzir mirtazapina."},{"key":"d","text":"Diminuir a dose da insulina NPH."}],"correct_key":"d","explanation":"A sudorese e agitação noturnas (pesadelos), associadas a redução importante da ingesta alimentar e ganho paradoxal da glicemia de jejum (efeito Somogyi — hiperglicemia de rebote após hipoglicemia noturna não percebida, causada pelo pico de ação da NPH bedtime combinado à menor ingesta), indicam hipoglicemia noturna não reconhecida. A conduta correta é REDUZIR a dose de NPH, não aumentar a terapia, o que agravaria o quadro.","theme":"dm_tto","difficulty":"dificil","reviewed":false,"created_at":"2026-07-28T00:00:00.000Z"},
-{"id":"hipo_004","statement":"Um paciente de 38 anos de idade, com diabetes tipo 1 há 12 anos, relatou dificuldades financeiras, dispondo apenas de insulina NPH e insulina regular humana. Tinha histórico de hipoglicemias noturnas, especialmente entre 2h e 4h da manhã, com glicemias de jejum frequentemente <70 mg/dl. Realizava três refeições diárias em horários regulares, mas tinha dificuldade para contagem de carboidratos. Utilizava esquema de três aplicações diárias: NPH e regular pela manhã; regular antes do jantar; e NPH ao se deitar. Monitorizava glicemia capilar antes das refeições e ao acordar. Qual a conduta mais adequada para minimizar hipoglicemias noturnas?","alternatives":[{"key":"a","text":"Manter o esquema atual, sem ajustes, pois a regular cobre adequadamente todas as refeições."},{"key":"b","text":"Trocar a insulina regular por lispro ou aspart, aplicando imediatamente antes das refeições."},{"key":"c","text":"Aumentar a dose de insulina regular antes do jantar para compensar hipoglicemias noturnas."},{"key":"d","text":"Suspender a NPH ao deitar e utilizar apenas insulina regular antes das refeições."},{"key":"e","text":"Reduzir a dose de NPH ao deitar e redistribuir parte da dose para o período da manhã, mantendo monitorização, e considerar simplificação do esquema para duas aplicações diárias caso persista dificuldade de autogerenciamento."}],"correct_key":"e","explanation":"O pico de ação da NPH aplicada ao deitar coincide classicamente com o período de 2h-4h da manhã, explicando as hipoglicemias noturnas relatadas — a redução dessa dose, redistribuindo parte para a manhã, é a estratégia mais direta e viável (sem exigir análogos de insulina, mais caros e indisponíveis nesse contexto financeiro).","theme":"dm_tto","difficulty":"dificil","reviewed":false,"created_at":"2026-07-28T00:00:00.000Z"},
-{"id":"hipo_005","statement":"Mulher de 78 anos em tratamento de DM2 com metformina 1g de 12/12h, dapagliflozina 10mg 1x ao dia e glibenclamida 10mg 1x ao dia é levada à emergência desacordada após ser encontrada inconsciente no chão. Glicemia capilar 40mg/dL. Função renal preservada. Avalie: I. Hipoglicemia é efeito colateral comum da metformina. II. Hipoglicemia é comum com o uso de sulfonilureias e pode ser prolongada. III. Hipoglicemia não é um efeito esperado dos inibidores de SGLT2.","alternatives":[{"key":"a","text":"apenas II e III são corretas."},{"key":"b","text":"apenas I e III são corretas."},{"key":"c","text":"todas são corretas."},{"key":"d","text":"todas são erradas."},{"key":"e","text":"apenas I e II são corretas."}],"correct_key":"a","explanation":"A hipoglicemia grave e prolongada é classicamente associada às sulfonilureias, especialmente a glibenclamida (meia-vida longa, metabólitos ativos), justificando o item II. Os inibidores de SGLT2 não causam hipoglicemia por mecanismo direto (item III correto). A metformina, ao contrário do item I, NÃO causa hipoglicemia como monoterapia — sendo o item I falso, tornando a alternativa a) (apenas II e III) a correta.","theme":"dm_tto","difficulty":"medio","reviewed":false,"created_at":"2026-07-28T00:00:00.000Z"},
-{"id":"hipo_006","statement":"Mulher, 56 anos, diabética há 8 anos e em tratamento com insulina, está internada para realização de colecistectomia. Você é chamado para avaliar a paciente por ela apresentar sudorese e tremores em mãos e estar agitada. Exame físico: bom estado geral, consciente, orientada, com palidez cutâneo mucosa. FC 112bpm. PA 140x80mmHg. Glicosimetria capilar: 46 mg/dL. Qual é a conduta preconizada?","alternatives":[{"key":"a","text":"Oferecer sanduíche."},{"key":"b","text":"Glicose 5% endovenosa."},{"key":"c","text":"Glicose 50% endovenosa."},{"key":"d","text":"300 mL de suco de laranja."}],"correct_key":"d","explanation":"Como a paciente está consciente e orientada, capaz de deglutir com segurança, o tratamento de escolha para hipoglicemia leve-moderada é a via ORAL, com carboidrato de absorção rápida (ex.: suco de laranja, regra dos 15g) — reservando a via endovenosa (glicose hipertônica 50%) para pacientes com rebaixamento do nível de consciência que impossibilite a via oral segura.","theme":"dm_tto","difficulty":"facil","reviewed":false,"created_at":"2026-07-28T00:00:00.000Z"},
-{"id":"hipo_007","statement":"Homem, 77 anos de idade, portador de HAS, DM2, ansiedade e depressão, em tratamento farmacológico com múltiplas medicações, incluindo anti-hipertensivos (losartana e amlodipina), diurético (furosemida), hipoglicemiantes orais (glibenclamida, metformina, dapagliflozina), ansiolítico (alprazolam) e antidepressivo (venlafaxina). Mantém boa funcionalidade e cognição, mas relata fadiga constante, fraqueza muscular, câimbras, dificuldade de deambular, perda de concentração e episódios ocasionais de tontura. Entre as medicações comumente prescritas para DM2, indique a que aumenta o risco de hipoglicemia em idosos como esse, especialmente quando usada em conjunto com outros hipoglicemiantes:","alternatives":[{"key":"a","text":"Metformina."},{"key":"b","text":"Pioglitazona."},{"key":"c","text":"Dapagliflozina."},{"key":"d","text":"Glibenclamida."}],"correct_key":"d","explanation":"A glibenclamida, sulfonilureia de longa duração e metabólitos ativos, apresenta alto risco de hipoglicemia em idosos, especialmente em polifarmácia — os sintomas relatados (fadiga, fraqueza, câimbras, dificuldade de deambular, perda de concentração, tontura) são compatíveis com episódios hipoglicêmicos recorrentes, sendo essa a medicação de maior risco entre as listadas para DM2.","theme":"dm_tto","difficulty":"medio","reviewed":false,"created_at":"2026-07-28T00:00:00.000Z"},
-{"id":"hipo_008","statement":"Durante o ajuste das doses de insulina pode ser comum a ocorrência do efeito Somogyi. Nesse contexto, a medida clínica mais recomendada para DIMINUIR a sua ocorrência será:","alternatives":[{"key":"a","text":"A dose de NPH deve ser diminuída pela manhã."},{"key":"b","text":"A dose de NPH deve ser aumentada pela manhã."},{"key":"c","text":"A dose de NPH deve ser diminuída à noite."},{"key":"d","text":"A dose de NPH deve ser aumentada à noite."}],"correct_key":"c","explanation":"O efeito Somogyi decorre de hipoglicemia noturna (frequentemente causada pelo pico de ação da NPH aplicada à noite) seguida de hiperglicemia de rebote pela ação de hormônios contrarreguladores — a medida correta para reduzir sua ocorrência é DIMINUIR a dose de NPH noturna, não aumentá-la (o que pioraria a hipoglicemia causadora do fenômeno).","theme":"dm_tto","difficulty":"medio","reviewed":false,"created_at":"2026-07-28T00:00:00.000Z"}
-]}
+{
+  "questions": [
+    {
+      "id": "hipo_001",
+      "statement": "Uma paciente de 67 anos de idade, diabética há 10 anos, compareceu à consulta de rotina. Ela usa metformina 850 mg duas vezes ao dia e relatou episódios ocasionais de hipoglicemia leve no final da tarde. Os exames mostraram HbA1c = 6,3%, creatinina normal e IMC = 26 kg/m². Referiu que mora sozinha e tem dificuldade em manter alimentação regular. Qual deve ser prioridade do médico de família nessa consulta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Reduzir a meta de HbA1c para < 6%, dada a idade e o tempo de doença."
+        },
+        {
+          "key": "b",
+          "text": "Avaliar o risco de hipoglicemia, ajustar metas individuais e trabalhar planejamento alimentar."
+        },
+        {
+          "key": "c",
+          "text": "Suspender imediatamente a metformina por risco de hipoglicemia."
+        },
+        {
+          "key": "d",
+          "text": "Iniciar insulina basal para melhor controle glicêmico."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A metformina isoladamente não costuma causar hipoglicemia; os episódios relatados, associados a alimentação irregular (paciente mora sozinha, dificuldade alimentar) e HbA1c já baixa (6,3%), sugerem excesso de controle relativo ao contexto social — a prioridade é avaliar o risco de hipoglicemia, individualizar a meta (provavelmente mais liberal) e trabalhar o planejamento alimentar, não intensificar nem suspender medicações abruptamente.",
+      "theme": "dm_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z",
+      "source": "SES-DF R1 2026"
+    },
+    {
+      "id": "hipo_002",
+      "statement": "Leia o caso clínico: Uma jovem com diabetes mellitus não controlado é encontrada, caída, na porta de um restaurante. Ao ser socorrida, recobrou a consciência e afirmou ter sentido tonturas e rubor facial ao ingerir uma refeição. Curiosos negam movimentos involuntários. A jovem refere já ter experimentado eventos semelhantes. Sua glicemia capilar é de 77 mg/dL, a pressão arterial de 85/46mmHg e cetonas negativas na urina. O quadro apresentado por essa jovem foi de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "síndrome hiperosmolar hiperglicêmica não cetótica."
+        },
+        {
+          "key": "b",
+          "text": "cetoacidose diabética."
+        },
+        {
+          "key": "c",
+          "text": "hipoglicemia e hipotensão pós-prandial."
+        },
+        {
+          "key": "d",
+          "text": "hipoglicemia convulsogênica."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O quadro de tontura e rubor facial após alimentação, associado a hipotensão relativa (85/46mmHg) e glicemia limítrofe-baixa (77mg/dL), com ausência de movimentos convulsivos e cetonas negativas, é compatível com hipotensão pós-prandial associada a sintomas hipoglicêmicos leves — não caracteriza cetoacidose (cetonas negativas), síndrome hiperosmolar (glicemia baixa, não alta) nem crise convulsiva.",
+      "theme": "dm_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z",
+      "source": "SES-GO R3CM 2023"
+    },
+    {
+      "id": "hipo_003",
+      "statement": "Mulher de 84 anos, em acompanhamento por DM2, em uso de metformina 850mg no café e almoço e insulina NPH 12U ao deitar. Há três meses, após a morte do marido, tem se alimentado menos e perdeu 9kg (de 87 para 78kg). Tem apresentado dificuldade para iniciar o sono e pesadelos frequentes, com agitação e sudorese. Exame clínico sem alterações. Nas últimas semanas os controles de glicemia capilar em jejum aumentaram de 110 para 160 mg/dL. Assinale a conduta mais adequada para o controle da glicemia.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Associar insulina rápida pré-café da manhã."
+        },
+        {
+          "key": "b",
+          "text": "Iniciar metformina também no jantar."
+        },
+        {
+          "key": "c",
+          "text": "Introduzir mirtazapina."
+        },
+        {
+          "key": "d",
+          "text": "Diminuir a dose da insulina NPH."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A sudorese e agitação noturnas (pesadelos), associadas a redução importante da ingesta alimentar e ganho paradoxal da glicemia de jejum (efeito Somogyi — hiperglicemia de rebote após hipoglicemia noturna não percebida, causada pelo pico de ação da NPH bedtime combinado à menor ingesta), indicam hipoglicemia noturna não reconhecida. A conduta correta é REDUZIR a dose de NPH, não aumentar a terapia, o que agravaria o quadro.",
+      "theme": "dm_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z",
+      "source": "USP R3CM 2024"
+    },
+    {
+      "id": "hipo_004",
+      "statement": "Um paciente de 38 anos de idade, com diabetes tipo 1 há 12 anos, relatou dificuldades financeiras, dispondo apenas de insulina NPH e insulina regular humana. Tinha histórico de hipoglicemias noturnas, especialmente entre 2h e 4h da manhã, com glicemias de jejum frequentemente <70 mg/dl. Realizava três refeições diárias em horários regulares, mas tinha dificuldade para contagem de carboidratos. Utilizava esquema de três aplicações diárias: NPH e regular pela manhã; regular antes do jantar; e NPH ao se deitar. Monitorizava glicemia capilar antes das refeições e ao acordar. Qual a conduta mais adequada para minimizar hipoglicemias noturnas?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Manter o esquema atual, sem ajustes, pois a regular cobre adequadamente todas as refeições."
+        },
+        {
+          "key": "b",
+          "text": "Trocar a insulina regular por lispro ou aspart, aplicando imediatamente antes das refeições."
+        },
+        {
+          "key": "c",
+          "text": "Aumentar a dose de insulina regular antes do jantar para compensar hipoglicemias noturnas."
+        },
+        {
+          "key": "d",
+          "text": "Suspender a NPH ao deitar e utilizar apenas insulina regular antes das refeições."
+        },
+        {
+          "key": "e",
+          "text": "Reduzir a dose de NPH ao deitar e redistribuir parte da dose para o período da manhã, mantendo monitorização, e considerar simplificação do esquema para duas aplicações diárias caso persista dificuldade de autogerenciamento."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "O pico de ação da NPH aplicada ao deitar coincide classicamente com o período de 2h-4h da manhã, explicando as hipoglicemias noturnas relatadas — a redução dessa dose, redistribuindo parte para a manhã, é a estratégia mais direta e viável (sem exigir análogos de insulina, mais caros e indisponíveis nesse contexto financeiro).",
+      "theme": "dm_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z",
+      "source": "FMJ R1 2026"
+    },
+    {
+      "id": "hipo_005",
+      "statement": "Mulher de 78 anos em tratamento de DM2 com metformina 1g de 12/12h, dapagliflozina 10mg 1x ao dia e glibenclamida 10mg 1x ao dia é levada à emergência desacordada após ser encontrada inconsciente no chão. Glicemia capilar 40mg/dL. Função renal preservada. Avalie: I. Hipoglicemia é efeito colateral comum da metformina. II. Hipoglicemia é comum com o uso de sulfonilureias e pode ser prolongada. III. Hipoglicemia não é um efeito esperado dos inibidores de SGLT2.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "apenas II e III são corretas."
+        },
+        {
+          "key": "b",
+          "text": "apenas I e III são corretas."
+        },
+        {
+          "key": "c",
+          "text": "todas são corretas."
+        },
+        {
+          "key": "d",
+          "text": "todas são erradas."
+        },
+        {
+          "key": "e",
+          "text": "apenas I e II são corretas."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A hipoglicemia grave e prolongada é classicamente associada às sulfonilureias, especialmente a glibenclamida (meia-vida longa, metabólitos ativos), justificando o item II. Os inibidores de SGLT2 não causam hipoglicemia por mecanismo direto (item III correto). A metformina, ao contrário do item I, NÃO causa hipoglicemia como monoterapia — sendo o item I falso, tornando a alternativa a) (apenas II e III) a correta.",
+      "theme": "dm_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z",
+      "source": "UNAERP R1 2023"
+    },
+    {
+      "id": "hipo_006",
+      "statement": "Mulher, 56 anos, diabética há 8 anos e em tratamento com insulina, está internada para realização de colecistectomia. Você é chamado para avaliar a paciente por ela apresentar sudorese e tremores em mãos e estar agitada. Exame físico: bom estado geral, consciente, orientada, com palidez cutâneo mucosa. FC 112bpm. PA 140x80mmHg. Glicosimetria capilar: 46 mg/dL. Qual é a conduta preconizada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Oferecer sanduíche."
+        },
+        {
+          "key": "b",
+          "text": "Glicose 5% endovenosa."
+        },
+        {
+          "key": "c",
+          "text": "Glicose 50% endovenosa."
+        },
+        {
+          "key": "d",
+          "text": "300 mL de suco de laranja."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Como a paciente está consciente e orientada, capaz de deglutir com segurança, o tratamento de escolha para hipoglicemia leve-moderada é a via ORAL, com carboidrato de absorção rápida (ex.: suco de laranja, regra dos 15g) — reservando a via endovenosa (glicose hipertônica 50%) para pacientes com rebaixamento do nível de consciência que impossibilite a via oral segura.",
+      "theme": "dm_tto",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z",
+      "source": "USP-RP R1 2023"
+    },
+    {
+      "id": "hipo_007",
+      "statement": "Homem, 77 anos de idade, portador de HAS, DM2, ansiedade e depressão, em tratamento farmacológico com múltiplas medicações, incluindo anti-hipertensivos (losartana e amlodipina), diurético (furosemida), hipoglicemiantes orais (glibenclamida, metformina, dapagliflozina), ansiolítico (alprazolam) e antidepressivo (venlafaxina). Mantém boa funcionalidade e cognição, mas relata fadiga constante, fraqueza muscular, câimbras, dificuldade de deambular, perda de concentração e episódios ocasionais de tontura. Entre as medicações comumente prescritas para DM2, indique a que aumenta o risco de hipoglicemia em idosos como esse, especialmente quando usada em conjunto com outros hipoglicemiantes:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Metformina."
+        },
+        {
+          "key": "b",
+          "text": "Pioglitazona."
+        },
+        {
+          "key": "c",
+          "text": "Dapagliflozina."
+        },
+        {
+          "key": "d",
+          "text": "Glibenclamida."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A glibenclamida, sulfonilureia de longa duração e metabólitos ativos, apresenta alto risco de hipoglicemia em idosos, especialmente em polifarmácia — os sintomas relatados (fadiga, fraqueza, câimbras, dificuldade de deambular, perda de concentração, tontura) são compatíveis com episódios hipoglicêmicos recorrentes, sendo essa a medicação de maior risco entre as listadas para DM2.",
+      "theme": "dm_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z",
+      "source": "PSU-AL R1 2024"
+    },
+    {
+      "id": "hipo_008",
+      "statement": "Durante o ajuste das doses de insulina pode ser comum a ocorrência do efeito Somogyi. Nesse contexto, a medida clínica mais recomendada para DIMINUIR a sua ocorrência será:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A dose de NPH deve ser diminuída pela manhã."
+        },
+        {
+          "key": "b",
+          "text": "A dose de NPH deve ser aumentada pela manhã."
+        },
+        {
+          "key": "c",
+          "text": "A dose de NPH deve ser diminuída à noite."
+        },
+        {
+          "key": "d",
+          "text": "A dose de NPH deve ser aumentada à noite."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O efeito Somogyi decorre de hipoglicemia noturna (frequentemente causada pelo pico de ação da NPH aplicada à noite) seguida de hiperglicemia de rebote pela ação de hormônios contrarreguladores — a medida correta para reduzir sua ocorrência é DIMINUIR a dose de NPH noturna, não aumentá-la (o que pioraria a hipoglicemia causadora do fenômeno).",
+      "theme": "dm_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z",
+      "source": "HSRC R1 2023"
+    }
+  ]
+}

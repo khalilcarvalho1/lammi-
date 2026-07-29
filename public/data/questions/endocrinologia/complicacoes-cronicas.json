@@ -1,12 +1,215 @@
-{"questions":[
-{"id":"compl_001","statement":"Um homem de 25 anos, com diabetes mellitus tipo 1, possui diarreia crônica. A HbA1C é de 6%, e a fundoscopia é normal. O diagnóstico atribuído foi de diarreia pelo diabetes. Pode-se afirmar que é importante, no diagnóstico diferencial da diarreia, neste paciente, solicitar:","alternatives":[{"key":"a","text":"T3L, T4L e TSH."},{"key":"b","text":"Dosagem de B12."},{"key":"c","text":"Fator antinuclear."},{"key":"d","text":"Anticorpos para pesquisa de doença celíaca."}],"correct_key":"d","explanation":"Com HbA1c bem controlada (6%) e ausência de retinopatia (fundoscopia normal), o diagnóstico de \"diarreia pelo diabetes\" (neuropatia autonômica) é pouco provável, pois essa complicação costuma se associar a longa duração de mau controle glicêmico. A doença celíaca compartilha predisposição autoimune com o DM1 e é uma causa frequente e importante de diarreia crônica nesse contexto, devendo ser ativamente investigada.","theme":"dm_compl","difficulty":"dificil","reviewed":false,"created_at":"2026-07-28T00:00:00.000Z"},
-{"id":"compl_002","statement":"Homem de 63 anos retorna para acompanhamento médico. Não fuma, faz uso de 1-2 taças de vinho tinto por semana. Dieta vegana e exercícios 4 dias por semana. Sem comorbidades conhecidas. Exame físico: PA 120x68mmHg; IMC 28kg/m2. HbA1c recente 6,3%. Com base nas informações apresentadas, esse paciente apresenta o maior risco de desenvolver qual das seguintes condições?","alternatives":[{"key":"a","text":"Doença cardiovascular e doença renal crônica dialítica."},{"key":"b","text":"Doença cardiovascular e neuropatia periférica."},{"key":"c","text":"Doença renal crônica e comprometimento cognitivo."},{"key":"d","text":"Retinopatia diabética e comprometimento cognitivo."},{"key":"e","text":"Retinopatia diabética e neuropatia periférica."}],"correct_key":"b","explanation":"Mesmo na faixa de pré-diabetes (HbA1c 6,3%), o risco cardiovascular e de neuropatia periférica já começa a se elevar precocemente, sendo as complicações mais associadas a estágios iniciais de disglicemia — complicações microvasculares mais graves como doença renal dialítica e retinopatia costumam exigir maior tempo de exposição a hiperglicemia mais intensa para se instalar.","theme":"dm_compl","difficulty":"medio","reviewed":false,"created_at":"2026-07-28T00:00:00.000Z"},
-{"id":"compl_003","statement":"Kátia, 60 anos, trabalha em quiosque de doces. Refere uso de metformina 850mg 3x/dia e gliclazida 60mg 2x/dia. Exames: Glicemia jejum 130mg/dL, HbA1c 9,3%, Creatinina sérica 1,1 (CKD-EPI 58mL/min/1.73m²), Colesterol Total 210mg/dL, TG 150mg/dL, HDL 35mg/dL, LDL 145mg/dL, RAC urinária 60mg/g. Exames prévios (6 meses) similares. Segundo a SBD para manejo no SUS, conclui-se que Kátia tem DM2 fora de alvo terapêutico, com proteinúria e dislipidemia associada, sendo indicada:","alternatives":[{"key":"a","text":"associação de enalapril/losartana em dose máxima tolerada, dapagliflozina, linagliptina e escalonar estatinas até meta de LDL, reavaliação em 3 meses."},{"key":"b","text":"associação de enalapril/losartana em dose máxima tolerada, dapagliflozina, escalonar estatinas até meta de LDL e insulinoterapia com NPH à noite."},{"key":"c","text":"associação terapêutica de dapagliflozina apenas, com novos exames em 3 meses."},{"key":"d","text":"associação de enalapril/losartana em dose máxima tolerada e dapagliflozina, sem abordar a dislipidemia, novos exames em 3 meses."},{"key":"e","text":"associação de enalapril/losartana em dose máxima tolerada, dapagliflozina e escalonar estatinas até meta de LDL, com reavaliação de exames em 3 meses."}],"correct_key":"e","explanation":"A RAC 60mg/g (albuminúria moderadamente elevada, indicando lesão renal precoce/proteinúria) associada a dislipidemia clara (LDL 145, HDL baixo) exige uma abordagem completa: bloqueador do sistema renina-angiotensina em dose máxima tolerada (proteção renal), dapagliflozina (benefício renal e glicêmico adicional) e escalonamento de estatina até meta de LDL — sem necessidade de insulinização imediata ou de um terceiro agente antidiabético desnecessário.","theme":"dm_compl","difficulty":"dificil","reviewed":false,"created_at":"2026-07-28T00:00:00.000Z"},
-{"id":"compl_004","statement":"O Diabetes Mellitus (DM) apresenta risco:","alternatives":[{"key":"a","text":"Reduzido para insuficiência cardíaca (IC), juntamente com a hipertensão arterial, a doença arterial coronariana e a doença renal crônica (DRC)."},{"key":"b","text":"Aumentado para IC, juntamente com a hipertensão arterial e a doença arterial coronariana, mas não para a DRC."},{"key":"c","text":"Aumentado para IC, juntamente com a hipertensão arterial, mas não para a doença arterial coronariana e a DRC."},{"key":"d","text":"Aumentado para IC, juntamente com a hipertensão arterial, a doença arterial coronariana e a doença renal crônica (DRC)."}],"correct_key":"d","explanation":"O diabetes mellitus é reconhecidamente fator de risco independente para insuficiência cardíaca, hipertensão arterial, doença arterial coronariana e doença renal crônica — todas essas comorbidades cardiorrenais têm risco AUMENTADO (não reduzido) em pacientes diabéticos.","theme":"dm_compl","difficulty":"facil","reviewed":false,"created_at":"2026-07-28T00:00:00.000Z"},
-{"id":"compl_005","statement":"Homem, 55 anos, refere furunculose de repetição em região abdominal e infra-axilar há seis meses, sem melhora com antimicrobianos. Cultura: Staphylococcus aureus resistente a cefoxitina/oxacilina. DM2 em uso de metformina. Glicemia de jejum 253mg/dL; HbA1c 8,9%. Assinale a melhor opção para controle da infecção de pele e partes moles, considerando o papel da hiperglicemia crônica como fator predisponente.","alternatives":[{"key":"a","text":"Iniciar sinvastatina, já que a hipercolesterolemia dificulta o tratamento da infecção."},{"key":"b","text":"Iniciar sulfametoxazol-trimetoprim por 8 semanas, já que é necessário erradicar o patógeno isolado, independente do controle glicêmico."},{"key":"c","text":"Iniciar insulinoterapia isolada, suspendendo os antidiabéticos orais."},{"key":"d","text":"Otimizar a dose da metformina e associar gliclazida, já que é necessário atingir metas terapêuticas para o DM."}],"correct_key":"d","explanation":"A hiperglicemia mal controlada é fator predisponente reconhecido para infecções cutâneas recorrentes (por comprometimento da função de neutrófilos e da resposta imune local) — a otimização do controle glicêmico (intensificando a terapia antidiabética oral, ainda em dose subterapêutica) é fundamental para reduzir recorrências, mais racional do que apenas prolongar antibioticoterapia indefinidamente.","theme":"dm_compl","difficulty":"medio","reviewed":false,"created_at":"2026-07-28T00:00:00.000Z"},
-{"id":"compl_006","statement":"Mulher, 58 anos de idade, tem diabetes mellitus e hipertensão há mais de 20 anos, em tratamento conservador de doença renal crônica há 8 anos. Em uso de losartana, hidroclorotiazida, metformina e insulina NPH. Exames: creatinina 1,7mg/dl (CKD-Epi 33ml/min/1,73m2), potássio 4,8mEq/L, glicemia de jejum 122mg/dl, HbA1C 7,5%, RAC 940mg/g. Qual é a alternativa mais adequada para a otimização do tratamento conservador neste caso?","alternatives":[{"key":"a","text":"Trocar hidroclorotiazida por furosemida."},{"key":"b","text":"Aumentar metformina."},{"key":"c","text":"Iniciar dapagliflozina."},{"key":"d","text":"Associar enalapril."}],"correct_key":"c","explanation":"Diante de albuminúria muito elevada (RAC 940mg/g, macroalbuminúria) mesmo já em uso de bloqueador do SRAA (losartana), a adição de dapagliflozina traz benefício renal comprovado mesmo nessa faixa de função renal (TFGe 33). Aumentar metformina seria inapropriado próximo ao limiar de descontinuação por segurança renal, e associar enalapril à losartana (dupla combinação ACEi+ARB) é CONTRAINDICADA por risco de hipercalemia/lesão renal aguda.","theme":"dm_compl","difficulty":"dificil","reviewed":false,"created_at":"2026-07-28T00:00:00.000Z"},
-{"id":"compl_007","statement":"Paciente 78 anos, gênero masculino, é trazido à unidade de emergência por dores abdominais difusas associadas a vômitos há 10 horas — contexto de complicação renal crônica associada a fármaco antidiabético. Considerando o risco cumulativo de complicações crônicas em diabéticos de longa data, entre os fatores que mais contribuem para a progressão da nefropatia diabética, destaca-se:","alternatives":[{"key":"a","text":"O controle glicêmico e pressórico inadequados ao longo do tempo, associados à presença de albuminúria persistente."},{"key":"b","text":"Exclusivamente a idade avançada, independente do controle metabólico."},{"key":"c","text":"O uso isolado de estatinas, sem relação com controle glicêmico."},{"key":"d","text":"A ausência de qualquer relação entre pressão arterial e progressão renal no diabético."}],"correct_key":"a","explanation":"O controle glicêmico e pressórico inadequados ao longo do tempo, associados à presença e progressão da albuminúria, são os principais determinantes modificáveis da progressão da nefropatia diabética — a idade isoladamente não é o fator determinante, e o controle da pressão arterial tem relação direta e bem estabelecida com a progressão renal no diabético.","theme":"dm_compl","difficulty":"medio","reviewed":false,"created_at":"2026-07-28T00:00:00.000Z"},
-{"id":"compl_008","statement":"Paciente de 62 anos, do sexo masculino, procura o ambulatório médico queixando-se de formigamento nos pés, cansaço e astenia progressivos há quatro meses. Conta que está comendo mais que o habitual, mas está emagrecendo; aumentou o número de vezes que urina, inclusive à noite, bebendo quase o dobro de água que ingeria antes. No exame físico, levemente desidratado e emagrecido, com hálito cetônico. Hipotonia muscular difusa leve, com reflexos tendinosos aquileus abolidos. Sensibilidades tátil e dolorosa reduzidas nos pés, até a altura dos tornozelos, simetricamente. Os exames fundamentais para o diagnóstico desse paciente são:","alternatives":[{"key":"a","text":"hemograma, creatinofosfoquinase e tomografia computadorizada de crânio."},{"key":"b","text":"urina tipo 1 (EAS), urocultura e ressonância magnética cerebral."},{"key":"c","text":"ureia, creatinina e ressonância magnética de coluna lombossacra."},{"key":"d","text":"glicemia de jejum, hemoglobina glicada e eletroneuromiografia dos 4 membros."}],"correct_key":"d","explanation":"O quadro combina sintomas clássicos de hiperglicemia não diagnosticada (polifagia, poliúria, polidipsia, emagrecimento, hálito cetônico) com sinais objetivos de polineuropatia periférica simétrica (reflexos aquileus abolidos, hipoestesia em bota) — os exames fundamentais são a confirmação diagnóstica de diabetes (glicemia de jejum, HbA1c) associada à avaliação objetiva da neuropatia periférica (eletroneuromiografia).","theme":"dm_compl","difficulty":"medio","reviewed":false,"created_at":"2026-07-28T00:00:00.000Z"},
-{"id":"compl_009","statement":"Mulher de 67 anos queixa-se de sensação de peso e edema nas pernas há quatro meses. Possui HAS, DM2 e obesidade. Faz uso regular de hidroclorotiazida, anlodipino, pioglitazona e metformina. Nega episódios de hipoglicemia. Ao exame físico, PA 124/80mmHg. Apresenta edema depressível, simétrico e acentuado nas pernas. EXAMES: creatinina 1,01mg/dL; sódio 139mEq/L; potássio 5,3mEq/L; HgA1c 7,4%; albumina 3,6g/dL. Assinale a alternativa que apresenta a conduta MAIS ADEQUADA:","alternatives":[{"key":"a","text":"Prescrever venotônicos (diosmina-hesperidina)"},{"key":"b","text":"Substituir anlodipino por enalapril"},{"key":"c","text":"Substituir hidroclorotiazida por furosemida"},{"key":"d","text":"Substituir pioglitazona por gliclazida"}],"correct_key":"d","explanation":"O edema simétrico e acentuado é um efeito colateral classicamente associado à pioglitazona (tiazolidinediona), por retenção hídrica mediada por ativação do PPAR-gama nos túbulos renais — a conduta correta é substituí-la por outro agente antidiabético sem esse efeito, como a gliclazida, resolvendo a causa direta do edema.","theme":"dm_compl","difficulty":"medio","reviewed":false,"created_at":"2026-07-28T00:00:00.000Z"},
-{"id":"compl_010","statement":"Homem, 67 anos, com histórico de DM2 há 25 anos, obesidade, doença arterial coronariana (pós-revascularização há 4 meses), DPOC com O2 domiciliar, HAS, dislipidemia, neuropatia e retinopatia diabética leve. Considerando o conjunto de complicações crônicas apresentadas por esse paciente, é correto afirmar que:","alternatives":[{"key":"a","text":"A presença de múltiplas complicações microvasculares e macrovasculares reflete a longa duração da doença e reforça a necessidade de abordagem multiprofissional e individualizada de metas terapêuticas."},{"key":"b","text":"A presença de retinopatia exclui a possibilidade de neuropatia concomitante, já que são complicações mutuamente excludentes."},{"key":"c","text":"Complicações microvasculares (retinopatia, neuropatia) não têm relação com o tempo de doença."},{"key":"d","text":"A presença de doença coronariana exclui a necessidade de rastreamento de outras complicações microvasculares."}],"correct_key":"a","explanation":"A coexistência de múltiplas complicações micro (neuropatia, retinopatia) e macrovasculares (coronariopatia) em um paciente com DM2 de longa duração é esperada e reflete a exposição cumulativa à hiperglicemia — essas complicações não são mutuamente excludentes, e sua presença reforça a necessidade de abordagem multiprofissional com metas terapêuticas individualizadas (equilibrando benefício e segurança, especialmente em pacientes complexos e idosos).","theme":"dm_compl","difficulty":"medio","reviewed":false,"created_at":"2026-07-28T00:00:00.000Z"}
-]}
+{
+  "questions": [
+    {
+      "id": "compl_001",
+      "statement": "Um homem de 25 anos, com diabetes mellitus tipo 1, possui diarreia crônica. A HbA1C é de 6%, e a fundoscopia é normal. O diagnóstico atribuído foi de diarreia pelo diabetes. Pode-se afirmar que é importante, no diagnóstico diferencial da diarreia, neste paciente, solicitar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "T3L, T4L e TSH."
+        },
+        {
+          "key": "b",
+          "text": "Dosagem de B12."
+        },
+        {
+          "key": "c",
+          "text": "Fator antinuclear."
+        },
+        {
+          "key": "d",
+          "text": "Anticorpos para pesquisa de doença celíaca."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Com HbA1c bem controlada (6%) e ausência de retinopatia (fundoscopia normal), o diagnóstico de \"diarreia pelo diabetes\" (neuropatia autonômica) é pouco provável, pois essa complicação costuma se associar a longa duração de mau controle glicêmico. A doença celíaca compartilha predisposição autoimune com o DM1 e é uma causa frequente e importante de diarreia crônica nesse contexto, devendo ser ativamente investigada.",
+      "theme": "dm_compl",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z",
+      "source": "CSPSL R1 2023"
+    },
+    {
+      "id": "compl_002",
+      "statement": "Homem de 63 anos retorna para acompanhamento médico. Não fuma, faz uso de 1-2 taças de vinho tinto por semana. Dieta vegana e exercícios 4 dias por semana. Sem comorbidades conhecidas. Exame físico: PA 120x68mmHg; IMC 28kg/m2. HbA1c recente 6,3%. Com base nas informações apresentadas, esse paciente apresenta o maior risco de desenvolver qual das seguintes condições?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doença cardiovascular e doença renal crônica dialítica."
+        },
+        {
+          "key": "b",
+          "text": "Doença cardiovascular e neuropatia periférica."
+        },
+        {
+          "key": "c",
+          "text": "Doença renal crônica e comprometimento cognitivo."
+        },
+        {
+          "key": "d",
+          "text": "Retinopatia diabética e comprometimento cognitivo."
+        },
+        {
+          "key": "e",
+          "text": "Retinopatia diabética e neuropatia periférica."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Mesmo na faixa de pré-diabetes (HbA1c 6,3%), o risco cardiovascular e de neuropatia periférica já começa a se elevar precocemente, sendo as complicações mais associadas a estágios iniciais de disglicemia — complicações microvasculares mais graves como doença renal dialítica e retinopatia costumam exigir maior tempo de exposição a hiperglicemia mais intensa para se instalar.",
+      "theme": "dm_compl",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z",
+      "source": "SUS-SP R1 2026"
+    },
+    {
+      "id": "compl_003",
+      "statement": "Kátia, 60 anos, trabalha em quiosque de doces. Refere uso de metformina 850mg 3x/dia e gliclazida 60mg 2x/dia. Exames: Glicemia jejum 130mg/dL, HbA1c 9,3%, Creatinina sérica 1,1 (CKD-EPI 58mL/min/1.73m²), Colesterol Total 210mg/dL, TG 150mg/dL, HDL 35mg/dL, LDL 145mg/dL, RAC urinária 60mg/g. Exames prévios (6 meses) similares. Segundo a SBD para manejo no SUS, conclui-se que Kátia tem DM2 fora de alvo terapêutico, com proteinúria e dislipidemia associada, sendo indicada:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "associação de enalapril/losartana em dose máxima tolerada, dapagliflozina, linagliptina e escalonar estatinas até meta de LDL, reavaliação em 3 meses."
+        },
+        {
+          "key": "b",
+          "text": "associação de enalapril/losartana em dose máxima tolerada, dapagliflozina, escalonar estatinas até meta de LDL e insulinoterapia com NPH à noite."
+        },
+        {
+          "key": "c",
+          "text": "associação terapêutica de dapagliflozina apenas, com novos exames em 3 meses."
+        },
+        {
+          "key": "d",
+          "text": "associação de enalapril/losartana em dose máxima tolerada e dapagliflozina, sem abordar a dislipidemia, novos exames em 3 meses."
+        },
+        {
+          "key": "e",
+          "text": "associação de enalapril/losartana em dose máxima tolerada, dapagliflozina e escalonar estatinas até meta de LDL, com reavaliação de exames em 3 meses."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A RAC 60mg/g (albuminúria moderadamente elevada, indicando lesão renal precoce/proteinúria) associada a dislipidemia clara (LDL 145, HDL baixo) exige uma abordagem completa: bloqueador do sistema renina-angiotensina em dose máxima tolerada (proteção renal), dapagliflozina (benefício renal e glicêmico adicional) e escalonamento de estatina até meta de LDL — sem necessidade de insulinização imediata ou de um terceiro agente antidiabético desnecessário.",
+      "theme": "dm_compl",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z",
+      "source": "SCM-SP R1 2025"
+    },
+    {
+      "id": "compl_004",
+      "statement": "O Diabetes Mellitus (DM) apresenta risco:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Reduzido para insuficiência cardíaca (IC), juntamente com a hipertensão arterial, a doença arterial coronariana e a doença renal crônica (DRC)."
+        },
+        {
+          "key": "b",
+          "text": "Aumentado para IC, juntamente com a hipertensão arterial e a doença arterial coronariana, mas não para a DRC."
+        },
+        {
+          "key": "c",
+          "text": "Aumentado para IC, juntamente com a hipertensão arterial, mas não para a doença arterial coronariana e a DRC."
+        },
+        {
+          "key": "d",
+          "text": "Aumentado para IC, juntamente com a hipertensão arterial, a doença arterial coronariana e a doença renal crônica (DRC)."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O diabetes mellitus é reconhecidamente fator de risco independente para insuficiência cardíaca, hipertensão arterial, doença arterial coronariana e doença renal crônica — todas essas comorbidades cardiorrenais têm risco AUMENTADO (não reduzido) em pacientes diabéticos.",
+      "theme": "dm_compl",
+      "difficulty": "facil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z",
+      "source": "SCMMA R1 2023"
+    },
+    {
+      "id": "compl_006",
+      "statement": "Mulher, 58 anos de idade, tem diabetes mellitus e hipertensão há mais de 20 anos, em tratamento conservador de doença renal crônica há 8 anos. Em uso de losartana, hidroclorotiazida, metformina e insulina NPH. Exames: creatinina 1,7mg/dl (CKD-Epi 33ml/min/1,73m2), potássio 4,8mEq/L, glicemia de jejum 122mg/dl, HbA1C 7,5%, RAC 940mg/g. Qual é a alternativa mais adequada para a otimização do tratamento conservador neste caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Trocar hidroclorotiazida por furosemida."
+        },
+        {
+          "key": "b",
+          "text": "Aumentar metformina."
+        },
+        {
+          "key": "c",
+          "text": "Iniciar dapagliflozina."
+        },
+        {
+          "key": "d",
+          "text": "Associar enalapril."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de albuminúria muito elevada (RAC 940mg/g, macroalbuminúria) mesmo já em uso de bloqueador do SRAA (losartana), a adição de dapagliflozina traz benefício renal comprovado mesmo nessa faixa de função renal (TFGe 33). Aumentar metformina seria inapropriado próximo ao limiar de descontinuação por segurança renal, e associar enalapril à losartana (dupla combinação ACEi+ARB) é CONTRAINDICADA por risco de hipercalemia/lesão renal aguda.",
+      "theme": "dm_compl",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z",
+      "source": "UNIFESP R3CM 2023"
+    },
+    {
+      "id": "compl_008",
+      "statement": "Paciente de 62 anos, do sexo masculino, procura o ambulatório médico queixando-se de formigamento nos pés, cansaço e astenia progressivos há quatro meses. Conta que está comendo mais que o habitual, mas está emagrecendo; aumentou o número de vezes que urina, inclusive à noite, bebendo quase o dobro de água que ingeria antes. No exame físico, levemente desidratado e emagrecido, com hálito cetônico. Hipotonia muscular difusa leve, com reflexos tendinosos aquileus abolidos. Sensibilidades tátil e dolorosa reduzidas nos pés, até a altura dos tornozelos, simetricamente. Os exames fundamentais para o diagnóstico desse paciente são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "hemograma, creatinofosfoquinase e tomografia computadorizada de crânio."
+        },
+        {
+          "key": "b",
+          "text": "urina tipo 1 (EAS), urocultura e ressonância magnética cerebral."
+        },
+        {
+          "key": "c",
+          "text": "ureia, creatinina e ressonância magnética de coluna lombossacra."
+        },
+        {
+          "key": "d",
+          "text": "glicemia de jejum, hemoglobina glicada e eletroneuromiografia dos 4 membros."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O quadro combina sintomas clássicos de hiperglicemia não diagnosticada (polifagia, poliúria, polidipsia, emagrecimento, hálito cetônico) com sinais objetivos de polineuropatia periférica simétrica (reflexos aquileus abolidos, hipoestesia em bota) — os exames fundamentais são a confirmação diagnóstica de diabetes (glicemia de jejum, HbA1c) associada à avaliação objetiva da neuropatia periférica (eletroneuromiografia).",
+      "theme": "dm_compl",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z",
+      "source": "SES-GO R1 2024"
+    },
+    {
+      "id": "compl_009",
+      "statement": "Mulher de 67 anos queixa-se de sensação de peso e edema nas pernas há quatro meses. Possui HAS, DM2 e obesidade. Faz uso regular de hidroclorotiazida, anlodipino, pioglitazona e metformina. Nega episódios de hipoglicemia. Ao exame físico, PA 124/80mmHg. Apresenta edema depressível, simétrico e acentuado nas pernas. EXAMES: creatinina 1,01mg/dL; sódio 139mEq/L; potássio 5,3mEq/L; HgA1c 7,4%; albumina 3,6g/dL. Assinale a alternativa que apresenta a conduta MAIS ADEQUADA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Prescrever venotônicos (diosmina-hesperidina)"
+        },
+        {
+          "key": "b",
+          "text": "Substituir anlodipino por enalapril"
+        },
+        {
+          "key": "c",
+          "text": "Substituir hidroclorotiazida por furosemida"
+        },
+        {
+          "key": "d",
+          "text": "Substituir pioglitazona por gliclazida"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O edema simétrico e acentuado é um efeito colateral classicamente associado à pioglitazona (tiazolidinediona), por retenção hídrica mediada por ativação do PPAR-gama nos túbulos renais — a conduta correta é substituí-la por outro agente antidiabético sem esse efeito, como a gliclazida, resolvendo a causa direta do edema.",
+      "theme": "dm_compl",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z",
+      "source": "PSU-MG R3CM 2023"
+    }
+  ]
+}

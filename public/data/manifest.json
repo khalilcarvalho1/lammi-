@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T19:15:32.833Z",
+  "generatedAt": "2026-07-29T00:57:28.638Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,7 +26,7 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 2024,
+  "totalQuestions": 1996,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
@@ -47,11 +47,11 @@
     "cardio_semiologia": 70,
     "peri_tampon": 13,
     "cardio_valvopatias": 140,
-    "dm_cad": 57,
-    "dm_compl": 10,
+    "dm_cad": 43,
+    "dm_compl": 7,
     "hip_di": 1,
-    "dm_dx": 35,
-    "dm_tto": 90,
+    "dm_dx": 34,
+    "dm_tto": 80,
     "emg_choque": 47,
     "atls_inicial": 1,
     "atls_choque": 2,
@@ -637,7 +637,7 @@
       "themes": [
         "dm_cad"
       ],
-      "questionsCount": 57,
+      "questionsCount": 43,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -647,7 +647,7 @@
       "themes": [
         "dm_compl"
       ],
-      "questionsCount": 10,
+      "questionsCount": 7,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -675,7 +675,7 @@
       "themes": [
         "dm_dx"
       ],
-      "questionsCount": 35,
+      "questionsCount": 34,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -847,7 +847,7 @@
       "themes": [
         "dm_tto"
       ],
-      "questionsCount": 82,
+      "questionsCount": 72,
       "flashcardsCount": 0,
       "casosCount": 0
     },

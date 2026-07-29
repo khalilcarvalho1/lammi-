@@ -1,3 +1,33 @@
-{"questions":[
-{"id":"di_001","statement":"Paciente de 4 anos de idade vem apresentando aumento do volume urinário há algumas semanas. Em avaliação inicial, observou-se poliúria, sódio e osmolaridade dentro do esperado para a idade. Foi submetido a teste de restrição hídrica, que resultou em osmolaridade urinária (Uosm) 50% superior ao platô após administração de DDAVP. Sobre o exame e a conduta nesse momento, assinale a alternativa correta.","alternatives":[{"key":"a","text":"Solicitar tomografia computadorizada de sela túrcica com contraste para avaliação de neoplasia e malformações de SNC, dado o diagnóstico de diabetes insípido central."},{"key":"b","text":"Solicitar ressonância magnética de sela túrcica para avaliação de neoplasia e malformações de SNC, em razão do diagnóstico de diabetes insípido central."},{"key":"c","text":"Solicitar teste molecular para o gene receptor V2R, em razão de possível diabetes insípido nefrogênico."},{"key":"d","text":"Encaminhar para avaliação de psiquiatra e equipe multidisciplinar por possível polidipsia primária."}],"correct_key":"b","explanation":"O aumento significativo da osmolaridade urinária (≥50%) após a administração de DDAVP durante o teste de restrição hídrica confirma resposta ao hormônio antidiurético exógeno, caracterizando diabetes insípido CENTRAL (deficiência de produção hipofisária de ADH, e não resistência renal ao hormônio, que definiria a forma nefrogênica). Diante desse diagnóstico, o exame de escolha para investigar a causa central é a ressonância magnética de sela túrcica (não a tomografia, que tem menor resolução para avaliar hipotálamo/hipófise e estruturas de partes moles).","theme":"hip_di","difficulty":"dificil","reviewed":false,"created_at":"2026-07-28T00:00:00.000Z"}
-]}
+{
+  "questions": [
+    {
+      "id": "di_001",
+      "statement": "Paciente de 4 anos de idade vem apresentando aumento do volume urinário há algumas semanas. Em avaliação inicial, observou-se poliúria, sódio e osmolaridade dentro do esperado para a idade. Foi submetido a teste de restrição hídrica, que resultou em osmolaridade urinária (Uosm) 50% superior ao platô após administração de DDAVP. Sobre o exame e a conduta nesse momento, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar tomografia computadorizada de sela túrcica com contraste para avaliação de neoplasia e malformações de SNC, dado o diagnóstico de diabetes insípido central."
+        },
+        {
+          "key": "b",
+          "text": "Solicitar ressonância magnética de sela túrcica para avaliação de neoplasia e malformações de SNC, em razão do diagnóstico de diabetes insípido central."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar teste molecular para o gene receptor V2R, em razão de possível diabetes insípido nefrogênico."
+        },
+        {
+          "key": "d",
+          "text": "Encaminhar para avaliação de psiquiatra e equipe multidisciplinar por possível polidipsia primária."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O aumento significativo da osmolaridade urinária (≥50%) após a administração de DDAVP durante o teste de restrição hídrica confirma resposta ao hormônio antidiurético exógeno, caracterizando diabetes insípido CENTRAL (deficiência de produção hipofisária de ADH, e não resistência renal ao hormônio, que definiria a forma nefrogênica). Diante desse diagnóstico, o exame de escolha para investigar a causa central é a ressonância magnética de sela túrcica (não a tomografia, que tem menor resolução para avaliar hipotálamo/hipófise e estruturas de partes moles).",
+      "theme": "hip_di",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-28T00:00:00.000Z",
+      "source": "HNJ R1 2023"
+    }
+  ]
+}
