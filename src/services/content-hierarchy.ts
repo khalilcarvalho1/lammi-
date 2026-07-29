@@ -562,6 +562,11 @@ export const AREAS: Area[] = [
           { id: 'arb_zika',   label: 'Zika e chikungunya' },
         ]
       },
+      {
+        id: 'inf_antibioticos',
+        label: 'Antibióticos',
+        subtemas: []
+      },
     ]
   },
 

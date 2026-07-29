@@ -1,1 +1,3740 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "atb_001",
+      "statement": "Um menino de três anos de idade, previamente saudável, apresenta lesão dolorosa eritematosa, com 3 cm de diâmetro, em coxa direita, que começou a drenar secreção purulenta espontaneamente. Não teve febre e está em bom estado geral. Na cultura da secreção, houve crescimento de Staphylococcus aureus resistente à oxacilina. O pai tem história de infecções de pele recorrentes por Staphylococcus aureus resistente à oxacilina. Com base nessa situação hipotética, assinale a alternativa que apresenta o mecanismo de resistência à oxacilina e a outros betalactâmicos.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "mutação das proteínas ligadoras de penicilina (PBPs)"
+        },
+        {
+          "key": "b",
+          "text": "produção de betalactamase"
+        },
+        {
+          "key": "c",
+          "text": "diminuição da permeabilidade da membrana"
+        },
+        {
+          "key": "d",
+          "text": "bomba de efluxo"
+        },
+        {
+          "key": "e",
+          "text": "mutação dos ribossomos"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O MRSA (Staphylococcus aureus resistente à oxacilina) adquire resistência principalmente pela mutação do gene mecA, que codifica uma PBP alterada (PBP2a) com baixa afinidade por betalactâmicos — diferente do mecanismo de resistência à penicilina do S. aureus comum (produção de betalactamase), que a oxacilina foi desenhada para resistir.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_002",
+      "statement": "O tratamento de endocardite infecciosa em prótese valvar, causada por S. aureus, requer uma associação de drogas, sendo essencial, por sua habilidade única de matar estafilococos aderentes a próteses, a utilização de",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "linezolida."
+        },
+        {
+          "key": "b",
+          "text": "sulfametoxazol-trimetoprim."
+        },
+        {
+          "key": "c",
+          "text": "rifampicina."
+        },
+        {
+          "key": "d",
+          "text": "teicoplanina."
+        },
+        {
+          "key": "e",
+          "text": "ciprofloxacina."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A rifampicina tem habilidade única de penetrar e matar estafilococos aderentes a biofilme em próteses/materiais estranhos, sendo essencial na terapia combinada de endocardite de prótese valvar por S. aureus, sempre associada a outro agente para evitar resistência rápida.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_003",
+      "statement": "Qual dos antibióticos abaixo deve ser infundido em dose única diária?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cefepime."
+        },
+        {
+          "key": "b",
+          "text": "Linezolida."
+        },
+        {
+          "key": "c",
+          "text": "Amicacina."
+        },
+        {
+          "key": "d",
+          "text": "Polimixina."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Os aminoglicosídeos (como a amicacina) têm efeito bactericida concentração-dependente e efeito pós-antibiótico prolongado, justificando a administração em dose única diária (extended-interval dosing), que também reduz nefro/ototoxicidade.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_004",
+      "statement": "As oxazolidinonas são uma classe nova de agentes antimicrobianos sintéticos não relacionadas a outras classes já conhecidas, sendo bem indicadas nos seguintes casos, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Infecção cutânea complicada por Staphylococcus aureus resistente à meticilina (MRSA)."
+        },
+        {
+          "key": "b",
+          "text": "Pneumonia por Pneumococo resistente à Penicilina."
+        },
+        {
+          "key": "c",
+          "text": "Infecção por Enterococo resistente à Vancomicina."
+        },
+        {
+          "key": "d",
+          "text": "Infecção pelo Mycobacterium tuberculosis."
+        },
+        {
+          "key": "e",
+          "text": "Primeira escolha no tratamento de Colite por Clostridium difficile."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "As oxazolidinonas (linezolida) são indicadas para MRSA, pneumococo resistente à penicilina e VRE, mas não são a primeira escolha para colite por Clostridium difficile — o tratamento padrão dessa infecção é metronidazol ou vancomicina oral.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_005",
+      "statement": "Paciente idoso, internado por quadro de AVC, desenvolveu durante a hospitalização quadro de pneumonia, que complicou com choque séptico. Tem história de reação colateral grave, no passado, após o uso de Cefepime. Qual das seguintes opções, pode ser usada com eficácia e segurança neste paciente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Meropenem."
+        },
+        {
+          "key": "b",
+          "text": "Piperacilina-Tazobactam."
+        },
+        {
+          "key": "c",
+          "text": "Ertapenem."
+        },
+        {
+          "key": "d",
+          "text": "Aztreonam."
+        },
+        {
+          "key": "e",
+          "text": "Ceftazidima."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O meropenem pertence à classe dos carbapenêmicos, quimicamente distinta das cefalosporinas, com baixo risco de reação cruzada — sendo uma opção segura em paciente com história de reação grave à cefepima.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_006",
+      "statement": "A duração ideal da antibioticoterapia no tratamento da PAC não está ainda de nitivamente estabelecida, sendo a antibioticoterapia de curta duração ser a mais apropriada, uma vez que proporciona diversos benefícios, exceto:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Menor exposição do paciente à ação de antibióticos."
+        },
+        {
+          "key": "b",
+          "text": "Reduz a ocorrência de efeitos adversos."
+        },
+        {
+          "key": "c",
+          "text": "Aumenta o desenvolvimento de resistência por parte dos microrganismos."
+        },
+        {
+          "key": "d",
+          "text": "Melhora a adesão dos pacientes e pode minimizar o tempo de internação e os custos financeiros."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A antibioticoterapia de curta duração, quando apropriada, reduz a exposição ao antibiótico, os efeitos adversos e os custos, além de melhorar a adesão — ao contrário do afirmado, ela tende a REDUZIR (não aumentar) o desenvolvimento de resistência bacteriana, sendo esta a exceção pedida.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_007",
+      "statement": "Recentemente, estudos epidemiológicos indicaram maior incidência de alterações vasculares em pacientes que zeram uso de uorquinolonas como antibiótico no tratamento de infecções. Qual alternativa abaixo contempla as principais alterações?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Vasculite primária e oclusão arterial aguda."
+        },
+        {
+          "key": "b",
+          "text": "Ineficácia do tratamento e amputação do membro em tratamento."
+        },
+        {
+          "key": "c",
+          "text": "Isquemia mesentérica e abdome agudo perfurativo."
+        },
+        {
+          "key": "d",
+          "text": "Aneurisma e dissecção de aorta."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O uso de fluoroquinolonas tem sido associado a maior risco de aneurisma e dissecção de aorta, alerta reforçado por estudos epidemiológicos e agências regulatórias.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_008",
+      "statement": "Mulher, 39 anos, antecedente de infecção urinária de repetição e aneurisma de aorta abdominal, usuária crônica de antibióticos, chega à Urgência em choque séptico de foco urinário e disfunção renal. Traz uma urocultura de 04 meses atrás com E. Coli ESBL. Sabendo que o uso do antimicrobiano correto na primeira hora tem relevância no prognóstico e diante das informações descritas acima, a droga MAIS adequada para este caso é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Gentamicina."
+        },
+        {
+          "key": "b",
+          "text": "Ceftriaxona"
+        },
+        {
+          "key": "c",
+          "text": "Ertapenem."
+        },
+        {
+          "key": "d",
+          "text": "Ciprofloxacina."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de urocultura prévia com E. coli produtora de ESBL e necessidade de cobertura empírica eficaz na primeira hora de choque séptico, o ertapenem (carbapenem) é a escolha mais adequada entre as opções, já que betalactâmicos comuns e quinolonas tendem a falhar contra ESBL.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_009",
+      "statement": "Paciente em 25º dia de pós-operatório de apendicectomia aberta complicada evoluindo com infecção de ferida operatória. Qual a bactéria gram positiva mais comumente associada a infecção de ferida operatória em casos de longa internação como esse?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Escherichia coli."
+        },
+        {
+          "key": "b",
+          "text": "Enterobacter."
+        },
+        {
+          "key": "c",
+          "text": "Enterococcus."
+        },
+        {
+          "key": "d",
+          "text": "Bacteroides fragilis."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O Enterococcus é a bactéria Gram-positiva mais comumente associada a infecções de sítio cirúrgico em pacientes com internação prolongada, sobretudo após cirurgias abdominais.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_010",
+      "statement": "O tipo de bactéria mais frequentemente encontradas nas peritonites é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Flora do tipo misto."
+        },
+        {
+          "key": "b",
+          "text": "Bactérias anaeróbicas gram positivas."
+        },
+        {
+          "key": "c",
+          "text": "Bacteróides fragilis."
+        },
+        {
+          "key": "d",
+          "text": "Bactérias gram negativas."
+        },
+        {
+          "key": "e",
+          "text": "Klebsiella sp"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "As peritonites (sobretudo secundárias, de origem intestinal) são classicamente polimicrobianas com predomínio de bactérias Gram-negativas de origem entérica, associadas a anaeróbios.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_011",
+      "statement": "A bactéria intestinal mais associada à translocação intestinal e contaminação de outros órgãos abdominais é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pseudomonas"
+        },
+        {
+          "key": "b",
+          "text": "E. coli"
+        },
+        {
+          "key": "c",
+          "text": "Clostridium difficile"
+        },
+        {
+          "key": "d",
+          "text": "Salmonella"
+        },
+        {
+          "key": "e",
+          "text": "Clostridium perfringens"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A Escherichia coli é a bactéria mais frequentemente implicada na translocação bacteriana intestinal, por ser o principal componente da flora Gram-negativa aeróbia do cólon.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_012",
+      "statement": "A associação que NÃO corresponde o antibiótico e seu efeito adverso temido é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "o cloranfenicol - aplasia de medula."
+        },
+        {
+          "key": "b",
+          "text": "a Aminoglicosídeo - nefrotoxicidade."
+        },
+        {
+          "key": "c",
+          "text": "a clindamicina - colite pseudomembranosa."
+        },
+        {
+          "key": "d",
+          "text": "a Quinolona - ototoxicidade."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O efeito adverso classicamente temido das quinolonas é a tendinopatia/ruptura de tendão (não ototoxicidade, que é característica dos aminoglicosídeos) — tornando essa associação a INCORRETA pedida.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_013",
+      "statement": "Constitui opção terapêutica para o tratamento de infecções causadas por bactérias Gram negativas multidrogarresistentes à seguinte combinação:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "linezolida + meropenem"
+        },
+        {
+          "key": "b",
+          "text": "vancomicina + ceftazidima"
+        },
+        {
+          "key": "c",
+          "text": "polimixina B + meropenem"
+        },
+        {
+          "key": "d",
+          "text": "amicacina + daptomicina"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A combinação de polimixina B com meropenem é uma opção terapêutica utilizada em infecções por bactérias Gram-negativas multirresistentes, quando a sensibilidade permite associação sinérgica.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_014",
+      "statement": "Um paciente, de 18 anos, é admitido na Emergência de um hospital público devido a infarto agudo do miocárdio. No 6º dia de internação, apresenta febre de 38°C e leucometria de 14.500/mm³, com 8% de bastões. Ao exame físico, é detectada área de hiperemia (halo: 3cm) em sítio de inserção de cateter vascular profundo. As hemoculturas realizadas como parte da investigação do quadro infeccioso detectam o crescimento de Staphylococcus aureus resistente a oxacilina. Dentre os antimicrobianos a seguir, a principal opção terapêutica para o micro-organismo detectado é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "oxacilina"
+        },
+        {
+          "key": "b",
+          "text": "linezolida"
+        },
+        {
+          "key": "c",
+          "text": "teicoplanina"
+        },
+        {
+          "key": "d",
+          "text": "daptomicina"
+        },
+        {
+          "key": "e",
+          "text": "vancomicina"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Diante de bacteremia associada a cateter por S. aureus resistente à oxacilina (MRSA), a vancomicina é a principal opção terapêutica de primeira linha.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_015",
+      "statement": "Considere três pacientes com quadro de sepse e as seguintes hemoculturas: I. Staphylococcus aureus resistente a oxacilina. II. Escherichia coli produtora de ESBL. III. Pseudomonas aeroginosa resistente a carbapenêmicos. Polimixina, meropenem e teicoplanina são indicados, respectivamente, para:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "III, II, I"
+        },
+        {
+          "key": "b",
+          "text": "I, II, III"
+        },
+        {
+          "key": "c",
+          "text": "I, III, II"
+        },
+        {
+          "key": "d",
+          "text": "Nenhuma das anteriores"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Correlação correta: MRSA (I) trata-se com teicoplanina, ESBL E. coli (II) com meropenem, Pseudomonas resistente a carbapenêmicos (III) com polimixina — logo, na ordem solicitada (polimixina, meropenem, teicoplanina), a correspondência é III, II, I.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_016",
+      "statement": "Uma bactéria (sp) pode se tornar resistente à cefalosporina por alterações bioquímicas, como:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transformação da substância ativa em \"inativa\" por ação de enzimas produzidas por formas resistentes do micro- organismo."
+        },
+        {
+          "key": "b",
+          "text": "Alteração do sítio-alvo da droga no agente bacteriano."
+        },
+        {
+          "key": "c",
+          "text": "Perda da permeabilidade celular à droga."
+        },
+        {
+          "key": "d",
+          "text": "Elevação das concentrações de metabólito que antagonize a droga inibidora. 4 0 0 0 124 6 0pr3oibeiddiacivneanldivare"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A resistência bacteriana às cefalosporinas por mecanismo enzimático ocorre pela produção de enzimas (betalactamases) que inativam quimicamente o antibiótico, transformando a substância ativa em inativa.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_017",
+      "statement": "Chlamydia trachomatis, uma bactéria intracelular obrigatória, está relacionada a várias infecções sendo improvável que seja o agente etiológico de",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "linfogranuloma venéreo."
+        },
+        {
+          "key": "b",
+          "text": "doença inflamatória pélvica."
+        },
+        {
+          "key": "c",
+          "text": "uretrite não-gonocócica."
+        },
+        {
+          "key": "d",
+          "text": "ceratoconjuntivite."
+        },
+        {
+          "key": "e",
+          "text": "artrite séptica."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A Chlamydia trachomatis está classicamente associada a linfogranuloma venéreo, doença inflamatória pélvica, uretrite não gonocócica e ceratoconjuntivite — mas não é causa típica de artrite séptica (purulenta), sendo esta a exceção.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_018",
+      "statement": "A resistência bacteriana constitui enorme problema na atualidade. As betalactamases de espectro estendido ( ESBL ) respondem melhor ao tratamento com a seguinte classe de antimicrobianos :",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Glicilciclinas."
+        },
+        {
+          "key": "b",
+          "text": "Carbapenens."
+        },
+        {
+          "key": "c",
+          "text": "Cefalosporinas de quinta geração."
+        },
+        {
+          "key": "d",
+          "text": "Quinolonas de espectro ampliado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "As betalactamases de espectro estendido (ESBL) hidrolisam a maioria das penicilinas e cefalosporinas, mas os carbapenêmicos permanecem estáveis a essas enzimas, sendo a classe de escolha para tratamento de infecções por bactérias ESBL.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_019",
+      "statement": "Nas infecções causadas por Staphylococcus aureus meticilina/oxacilina resistentes, é considerada uma opção terapêutica eficaz o seguinte antimicrobiano da classe das cefalosporinas:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ceftarolina."
+        },
+        {
+          "key": "b",
+          "text": "Vancomicina."
+        },
+        {
+          "key": "c",
+          "text": "Cefepima."
+        },
+        {
+          "key": "d",
+          "text": "Daptomicina."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A ceftarolina é uma cefalosporina de quinta geração com atividade única entre as cefalosporinas contra Staphylococcus aureus resistente à meticilina (MRSA), por ligação de alta afinidade à PBP2a.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_020",
+      "statement": "Você atua como médico de família em uma unidade básica de saúde e atende um paciente do sexo masculino de 58 anos, que traz uma carta de contrarreferência de um serviço de urologia, com diagnósticos de hiperplasia benigna de próstata e infecção de trato urinário recorrente. O urologista recomenta os seguintes tratamentos para uso contínuo: doxazozina 1 mg (VO) 1x/dia e nitrofurantoína 100 mg (VO) 1x ao dia, à noite, os quais o paciente está em uso há 1 mês, e dá alta do serviço especializado para que você continue o seguimento do paciente. No momento da sua consulta, o paciente se queixa de a namento do jato urinário e esforço miccional, sem outras queixas, e traz urocultura positiva para E. coli, 100.000 col/mL, sensível a todas as quinolonas cefalosporinas, e aminoglicosídeos, mas com sensibilidade intermediária à nitrofurantoínparo.ibeiddiacivneanldivare Diante dessa situação, assinale a alternativa que contém a conduta mais adequada para esse paciente.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Substituir a nitrofurantoína por norfloxacina 400 mg (VO) à noite."
+        },
+        {
+          "key": "b",
+          "text": "Manter o uso de nitrofurantoína na dose prescrita."
+        },
+        {
+          "key": "c",
+          "text": "Suspender o uso de nitrofurantoína."
+        },
+        {
+          "key": "d",
+          "text": "Aumentar a dose de nitrofurantoína para 100 mg 12/12h"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de sintomas obstrutivos urinários (BPH) e sensibilidade apenas intermediária à nitrofurantoína na urocultura, com sensibilidade plena a outras classes, a conduta mais adequada é suspender a nitrofurantoína, que não é ideal nesse contexto de possível progressão obstrutiva e cobertura subótima.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_021",
+      "statement": "Um jovem de 32 anos, em bom estado geral, apresenta obstrução da via biliar, para qual foi solicitar uma CPER. Quais bactérias devem ser profilaticamente cobertas e qual o antibiótico de escolha?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aeróbios Gram negativos; ciprofloxacino."
+        },
+        {
+          "key": "b",
+          "text": "Anaeróbios; gram positivos; clidamicina."
+        },
+        {
+          "key": "c",
+          "text": "Aeróbios gram positivos; ampicilina."
+        },
+        {
+          "key": "d",
+          "text": "Microaerófilos; ampicilina com sulbactam."
+        },
+        {
+          "key": "e",
+          "text": "Aeróbios gram positivos; vancomicina."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na profilaxia para CPRE em obstrução biliar, deve-se cobrir bactérias aeróbias Gram-negativas (a flora predominante em colangite/obstrução biliar), sendo o ciprofloxacino uma opção clássica de escolha.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_022",
+      "statement": "Paciente de 72 anos, sexo masculino, residente em instituição de longa permanência, com limitações para realização das atividades básica de vida diária esteve internado em Serviço Hospitalar para tratamento de pneumonia até 10 dias atrás com Ceftriaxona e Azitromicina. Cerca de sete dias após a alta, AG evoluiu com sonolência, taquipneia, aumento de secreção respiratória e após avaliação foi reinternado em Unidade de Terapia Intensiva sob suporte ventilatório através de tubo orotraqueal; foram coletadas amostras de sangue, urina e de aspirado traqueal para realização de culturas e terapia antimicrobiana empírica iniciada com Piperacilina/Tazobactam. Resultados de culturas revelaram crescimento de Acinetobacter baumannii em hemoculturas e em aspirado traqueal. Assinale a alternativa que apresenta a melhor opção terapêutica para tratamento do paciente mediante registro de sensibilidade em antibiograma.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Amicacina"
+        },
+        {
+          "key": "b",
+          "text": "Ampicilina/Sulbactam."
+        },
+        {
+          "key": "c",
+          "text": "Polimixina."
+        },
+        {
+          "key": "d",
+          "text": "Tigeciclina."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de sensibilidade confirmada em antibiograma para Acinetobacter baumannii multirresistente, a polimixina costuma ser a opção terapêutica mais confiável entre as listadas para cepas com perfil de multirresistência.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_023",
+      "statement": "Qual dos itens abaixo não é sugestivo de infecção estafilococcica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Acometimento osteoarticular."
+        },
+        {
+          "key": "b",
+          "text": "Endocardite bacteriana."
+        },
+        {
+          "key": "c",
+          "text": "Infiltrado pulmonar apical."
+        },
+        {
+          "key": "d",
+          "text": "Tendência para formação de abscesso."
+        },
+        {
+          "key": "e",
+          "text": "Lesões superficiais de pele."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Infiltrado pulmonar apical é um padrão radiológico classicamente associado à tuberculose, não sendo um achado sugestivo típico de infecção estafilocócica (que tende a causar abscessos, pneumatoceles e acometimento mais difuso/basal).",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_024",
+      "statement": "Dos antibióticos relacionados, o NÃO indicado para tratamento de infecção por anaeróbios é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Imipenem"
+        },
+        {
+          "key": "b",
+          "text": "Cefotaxima."
+        },
+        {
+          "key": "c",
+          "text": "Cefoxitina."
+        },
+        {
+          "key": "d",
+          "text": "Clindamicina."
+        },
+        {
+          "key": "e",
+          "text": "Claritromicina."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A cefotaxima (cefalosporina de 3ª geração não antianaeróbia) tem cobertura limitada contra bactérias anaeróbias, ao contrário de imipenem, cefoxitina, clindamicina e claritromicina, que apresentam atividade antianaeróbia relevante.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_025",
+      "statement": "Recém-nascido de 15 dias de vida é levado à emergência devido a quadro febril associado à rejeição alimentar, queda do estado geral e choro inconsolável às trocas de fralda. Ao exame físico, apresenta febre de 39,5°C, eritema e dor à mobilização em região coxofemoral esquerda e em tíbia esquerda. O hemograma revelou leucocitose e desvio para a esquerda, PCR e VHS elevados; a radiogra a de membro inferior esquerdo apresentou deslocamento dos planos musculares profundos em metá ses de fêmur e tíbia; hemocultura com crescimento de colônias de CA-MRSA e D-test negativo. Em relação a esse caso, é correto afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "o resultado do D-test negativo contraindica a terapêutica com clindamicina"
+        },
+        {
+          "key": "b",
+          "text": "a terapêutica oral com sulfametoxazol e trimetoprim é alternativa viável"
+        },
+        {
+          "key": "c",
+          "text": "devido ao perfil de sensibilidade, o antibiótico de escolha é a oxacilina"
+        },
+        {
+          "key": "d",
+          "text": "a terapêutica com vancomicina é padrão-ouro no tratamento"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de osteomielite neonatal por CA-MRSA com D-test negativo (ausência de resistência induzível à clindamicina) mas em quadro grave/sistêmico com necessidade de terapia parenteral definitiva, a vancomicina é considerada o tratamento padrão-ouro nesse contexto; a oxacilina não seria eficaz (organismo resistente à oxacilina) e a terapia oral com SMX-TMP não é apropriada na fase aguda grave.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_026",
+      "statement": "Idoso de 80 anos, internado em instituição de longa permanência há quatro dias, evolui com febre de 39°C, dor pleurítica e tosse produtiva com secreção amarelada. Nega tabagismo. Fez uso de amoxacilina por dois dias, sem apresentar nenhuma melhora. Foi colhida Gram, cujo resultado foi negativo; duas hemoculturas revelaram crescimento de cocos Gram-positivos em cacho de uva. O raio X de tórax mostrou um in ltrado no lobo pulmonar inferior direito, com pneumatocele. Nesse momento, o antibiótico mais apropriado para o tratamento e seu mecanismo de ação, respectivamente, são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Vancomicina/parede celular."
+        },
+        {
+          "key": "b",
+          "text": "Azitromicina/síntese proteica."
+        },
+        {
+          "key": "c",
+          "text": "Oxacilina/inibição da DNA girase."
+        },
+        {
+          "key": "d",
+          "text": "Sulfa + trimetropim/inibidor do ácido fólico."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Cocos Gram-positivos em cacho de uva (Staphylococcus) com pneumatocele ao raio X são um padrão clássico de pneumonia estafilocócica — a vancomicina (mecanismo: inibição da síntese de parede celular) é o tratamento indicado diante de falha prévia com amoxicilina e suspeita de resistência.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_027",
+      "statement": "Uma mulher de 54 anos, com diagnóstico de hipertensão arterial sistemática adição à nicotina e diabete melito do tipo 2 está internada na enfermaria por motivo de dispneia e febre, recebendo a seguinte prescrição médica: - Dieta oral branda hipossódica e para diabete melito. - sinais vitais 4/4h. -Soro siológico 0,9% 250ml IV nas 24h. - Cefotaxima 1g IV 12/12h. - Enoxaprina 40mg/dia. Dipirona 1g IV até 4/4h SOS. - Glicemia capilar 6/6h e insulina regular. Conforme esquema (protocolo do hospital). Para qual das situações abaixo esta prescrição poderia corretamente ser usada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pneumonia comunitária por Strepcoccus pneumoniae ou Haemophilus influenzae."
+        },
+        {
+          "key": "b",
+          "text": "Pneumonia comunitária por Streptococcus pneumoniae e Haemophilus influenzae ou Legionela pneumophila."
+        },
+        {
+          "key": "c",
+          "text": "Pneunomonia hospitalar por Staphylococcus aureus ou Pseudomonas aeruginosa."
+        },
+        {
+          "key": "d",
+          "text": "Pneumonia hospitalr por Staphylococcus aureus ou Pseudomonas aeruginosa ou Legionella pneumophila."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O esquema com cefotaxima (cefalosporina de 3ª geração, sem cobertura para atípicos, MRSA ou Pseudomonas) é apropriado para pneumonia adquirida na comunidade por S. pneumoniae ou H. influenzae — germes típicos cobertos por essa classe.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_028",
+      "statement": "Bactérias que possuem o cromossomo ampC, como a Enterobacter, Serratia, Citrobacter, Proteus, Providencia e Morganella, podem apresentar a seguinte característica:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Muito boa resposta ao uso de tigeciclina intravenosa."
+        },
+        {
+          "key": "b",
+          "text": "Resistência intrínseca ao ertapenem e não aos demais carbapenêmicos."
+        },
+        {
+          "key": "c",
+          "text": "Alta concentração inibitória mínima ao cefepime, sem resistência in vivo."
+        },
+        {
+          "key": "d",
+          "text": "Falsa sensibilidade in vitro para cefalosporinas e beta-lactâmicos."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Bactérias com cromossomo AmpC (Enterobacter, Serratia, Citrobacter, Proteus, Providencia, Morganella) podem apresentar sensibilidade in vitro às cefalosporinas que não se traduz em eficácia in vivo, devido à indução da produção da enzima AmpC durante o tratamento — fenômeno de falsa sensibilidade in vitro.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_029",
+      "statement": "Paciente feminina de 70 anos é internada por exacerbação infecciosa de DPOC. Ela apresenta melhora gradual e signi cativa ao longo do curso de antibioticoterapia adequada para o foco pulmonar. No entanto, desenvolve múltiplos episódios de diarreia e evolui com hipotensão arterial. É transferida para a UTI com diagnóstico de choque séptico por Clostridium di cile. O mecanismo de ação do antibiótico correto para esse caso de colite pseudomembranosa se dá pela inibição da:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Síntese proteica por ligação à subunidade 30S do ribossoma bacteriano."
+        },
+        {
+          "key": "b",
+          "text": "DNA topoisomerase bacteriana."
+        },
+        {
+          "key": "c",
+          "text": "Formação de peptidoglicano na parede celular."
+        },
+        {
+          "key": "d",
+          "text": "Síntese de folato."
+        },
+        {
+          "key": "e",
+          "text": "Síntese proteica por ligação à subunidade 50S do ribossoma bacteriano."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O tratamento da colite pseudomembranosa/choque séptico por Clostridium difficile é feito com vancomicina oral, cujo mecanismo de ação é a inibição da formação de peptidoglicano na parede celular bacteriana.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_030",
+      "statement": "Qual dos seguintes antimicrobianos é adequado para o tratamento de uma pneumonia causada por pseudomonas aeruginosa?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ceftriaxona."
+        },
+        {
+          "key": "b",
+          "text": "Amoxicilina com clavulanato."
+        },
+        {
+          "key": "c",
+          "text": "Ceftazidima."
+        },
+        {
+          "key": "d",
+          "text": "Ertapenem."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A ceftazidima é uma cefalosporina com atividade antipseudomonas comprovada, diferente da ceftriaxona e da amoxicilina-clavulanato, que não cobrem Pseudomonas aeruginosa.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_031",
+      "statement": "Com relação ao uso racional de antibióticos, é CORRETO afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Antibiótico deve ser iniciado imediatamente em qualquer paciente que tenha tido pelo menos um episódio febril."
+        },
+        {
+          "key": "b",
+          "text": "Nas infecções hospitalares, o uso de antibiótico de amplo espectro dispensa a realização de culturas."
+        },
+        {
+          "key": "c",
+          "text": "Pacientes portadores de HIV devem fazer uso contínuo de antibióticos, independentemente do valor da carga viral e do CD4."
+        },
+        {
+          "key": "d",
+          "text": "A localização correta do foco de infecção auxilia na escolha do antibiótico, pois sugere quais seriam os agentes etiológicos envolvidos."
+        },
+        {
+          "key": "e",
+          "text": "A restrição à venda de antibióticos ampliou a resistência aos antimicrobianos, pois impediu o tratamento imediato das infecções."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A localização anatômica do foco infeccioso é um dos pilares racionais da escolha empírica de antibióticos, pois orienta quais agentes etiológicos são mais prováveis — princípio central do uso racional de antimicrobianos.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_032",
+      "statement": "O Sr. JVD procurou consulta com o Médico de Família da UBS de seu bairro com queixa de corrimento pela uretra. Após anamnese e exame físico e identi cando a presença de corrimento uretral espontâneo, o médico solicitou exame de bacterioscopia na própria UBS recebendo o laudo de diplococos gram-negativos. Nesse sentido o procedimento médico a seguir foi:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "prescrever Sulfametoxazol com Trimetoprim 400mg VO de 12/12h por 08 dias."
+        },
+        {
+          "key": "b",
+          "text": "prescrever Amoxilina 500mg VO 6/6h por 10 dias."
+        },
+        {
+          "key": "c",
+          "text": "prescrever Azitromicina 500mg VO 12/12h por 01 dia."
+        },
+        {
+          "key": "d",
+          "text": "prescrever Ciprofloxacina 500mg VO dose única."
+        },
+        {
+          "key": "e",
+          "text": "doxiciclina 100mg VO 12/12h por 07 dias."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O achado de diplococos Gram-negativos na bacterioscopia de secreção uretral é característico de infecção gonocócica — o esquema de ciprofloxacina em dose única VO era uma opção terapêutica clássica para uretrite gonocócica não complicada (observação: diretrizes mais recentes priorizam ceftriaxona devido ao aumento de resistência às quinolonas, mas a resposta reflete o gabarito da fonte).",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_033",
+      "statement": "A respeito dos antibióticos pode-se afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Fluoroquinolonas podem alargar o intervalo QT."
+        },
+        {
+          "key": "b",
+          "text": "Cefalosporinas são boas opções para enterococos."
+        },
+        {
+          "key": "c",
+          "text": "Metronidazol não é boa opção para bacteroides."
+        },
+        {
+          "key": "d",
+          "text": "Meropenem é melhor escolha para stenotrophomonas."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "As fluoroquinolonas são classicamente associadas ao risco de prolongamento do intervalo QT, um efeito adverso cardíaco relevante a ser considerado na prescrição, especialmente em pacientes com outros fatores de risco para arritmia.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_034",
+      "statement": "Gestante com infecção urinária apresenta ao antibiograma sensibilidade a vários antibióticos, sendo a melhor opção dos listados abaixo,",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "gentamicina."
+        },
+        {
+          "key": "b",
+          "text": "nitrofurantoina."
+        },
+        {
+          "key": "c",
+          "text": "clindamicina."
+        },
+        {
+          "key": "d",
+          "text": "doxiciclina."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A nitrofurantoína é considerada segura e eficaz para tratamento de cistite aguda na gestação, sendo frequentemente a primeira escolha entre as opções apresentadas (evitando uso próximo ao termo pelo risco de hemólise neonatal em predispostos).",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_035",
+      "statement": "Espectro de ação e indicações clínicas Paciente internado na unidade de terapia intensiva há 38 dias, evoluindo com pneumonia associada à ventilação mecânica por Acinetobacter baumannii resistente aos carbapenêmicos. Qual é a opção adequada de terapia antimicrobiana?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Imipenem"
+        },
+        {
+          "key": "b",
+          "text": "Polimixina B"
+        },
+        {
+          "key": "c",
+          "text": "Ceftriaxona + azitromicina"
+        },
+        {
+          "key": "d",
+          "text": "Tigeciclina"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A polimixina B é uma das poucas opções terapêuticas eficazes disponíveis para pneumonia associada à ventilação mecânica por Acinetobacter baumannii resistente aos carbapenêmicos.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_036",
+      "statement": "Todas as drogas abaixo têm ação antipseudomonas, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Amicacina."
+        },
+        {
+          "key": "b",
+          "text": "Ciprofloxacino."
+        },
+        {
+          "key": "c",
+          "text": "Ertapenem."
+        },
+        {
+          "key": "d",
+          "text": "Cefepime."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O ertapenem, diferente dos demais carbapenêmicos (imipenem, meropenem, doripenem), não possui atividade confiável contra Pseudomonas aeruginosa, sendo a exceção entre as drogas antipseudomonas listadas.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_037",
+      "statement": "Além de conhecer o espectro de atividade, ter boas noções de per l de efeitos colaterais dos antimicrobianos é fundamental para uma boa prescrição médica. Por exemplo, temos alguns antimicrobianos que classicamente rebaixam o limiar convulsivo, aumentando o risco de crises epilépticas, entre eles o(a):",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Imipenem."
+        },
+        {
+          "key": "b",
+          "text": "Amicacina."
+        },
+        {
+          "key": "c",
+          "text": "Vancomicina."
+        },
+        {
+          "key": "d",
+          "text": "Tigeciclina."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O imipenem é classicamente associado à redução do limiar convulsivo entre os carbapenêmicos, sendo o de maior risco de convulsões dentro dessa classe, mecanismo relacionado à sua estrutura química e interação com receptores GABA.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_038",
+      "statement": "Das drogas listadas a seguir, aquela que NÃO deve ser utilizada durante a gravidez é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "cefalotina."
+        },
+        {
+          "key": "b",
+          "text": "doxiciclina."
+        },
+        {
+          "key": "c",
+          "text": "metronidazol."
+        },
+        {
+          "key": "d",
+          "text": "espiramicina."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A doxiciclina (tetraciclina) é contraindicada na gravidez, pois pode causar descoloração dentária e alterações no desenvolvimento ósseo fetal.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_039",
+      "statement": "No pronto-socorro de clínica médica, um adolescente entra com quadro de asma grave. Com base nas evidências atuais, o médico explica à mãe do paciente que as infecções virais são comuns nesse tipo de exacerbação, mas, pela gravidade da situação, não pode ser descartada uma infecção por bactérias atípicas. Considerando-se esse caso clínico e os conhecimentos médicos correlatos, entre as bactérias atípicas referidas, é correto citar as duas mais comuns, que são",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Mycoplasma sp. e Chlamydophila sp."
+        },
+        {
+          "key": "b",
+          "text": "Pseudomonas sp. e Acinetobacter sp."
+        },
+        {
+          "key": "c",
+          "text": "Morganella sp. e Haemophilus sp."
+        },
+        {
+          "key": "d",
+          "text": "Proteus sp. e E. Coli."
+        },
+        {
+          "key": "e",
+          "text": "iLegionella sp. e Staphylococcus sp."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Mycoplasma pneumoniae e Chlamydophila pneumoniae são as bactérias atípicas mais comumente implicadas em exacerbações de asma e infecções respiratórias em adolescentes/adultos jovens.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_040",
+      "statement": "Luiza, 19 anos, primigesta na 38ª. semana de gravidez, comparece a uma consulta na UBS com queixa de disúria e polaciúria. Traz uma exame de urina realizado no dia anterior o qual apresenta incontáveis piócitos. Podemos recomendar o uso dos seguintes antibióticos no tratamento da cistite aguda nesta paciente, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ampicilina"
+        },
+        {
+          "key": "b",
+          "text": "Cefalexina"
+        },
+        {
+          "key": "c",
+          "text": "Nitrofurantoína"
+        },
+        {
+          "key": "d",
+          "text": "Amoxicilina/clavulanato"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Entre as opções para cistite aguda na gestação, amoxicilina/clavulanato não é tipicamente recomendada como primeira escolha (preferindo-se ampicilina, cefalexina ou nitrofurantoína), sendo a exceção pedida entre os antibióticos convencionalmente indicados nesse contexto.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_041",
+      "statement": "Devido ao crescente achado de bactérias resistentes, qual droga deixou de ser recomendada pelo Ministério da Saúde para tratamento de uretrite gonocócica nos estados do RJ, SP e MG?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aminoglicosídeos"
+        },
+        {
+          "key": "b",
+          "text": "Azalídeos"
+        },
+        {
+          "key": "c",
+          "text": "Cefalosporinas"
+        },
+        {
+          "key": "d",
+          "text": "Quinolonas"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Devido ao aumento da resistência de Neisseria gonorrhoeae às fluoroquinolonas, o Ministério da Saúde retirou a recomendação de uso de quinolonas para tratamento de uretrite gonocócica em estados com alta prevalência de resistência, como RJ, SP e MG.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_042",
+      "statement": "Cipro oxacino é uma uoroquinolona sintética com amplo espectro de ação antimicrobiana. Seu emprego como primeira- escolha é recomendado para as seguintes situações clínicas EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tratamento de infecções gonocócicas não-complicadas em dose única VO de 500 mg ;"
+        },
+        {
+          "key": "b",
+          "text": "Tratamento de infecções complicadas do trato urinário, causadas por P. aeruginosa ou bactérias aeróbicas Gram- negativas, em dose de 500 mg VO a cada 12 horas, durante 7 a 14 dias;"
+        },
+        {
+          "key": "c",
+          "text": "Tratamento oral prolongado de infecções crônicas por germes aeróbicos Gram-negativos."
+        },
+        {
+          "key": "d",
+          "text": "Para as infecções não complicadas do trato urinário a menor de 18 anos e gestantes; p4r2oibeiddiacivneanldivare"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O ciprofloxacino não é considerado primeira escolha para infecções não complicadas do trato urinário em menores de 18 anos e gestantes, devido ao risco de artropatia/lesão de cartilagem de crescimento em crianças e por precaução na gravidez — sendo essa a exceção pedida entre as indicações clássicas do ciprofloxacino.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_043",
+      "statement": "Paciente com quadro de febre arrastada e vegetação na cúspide anterior da válvula mitral, realizou hemocultura que evidenciou crescimento de cocos gram-positivos em cadeias, catalase-negativos e que não causavam hemólise em placar de ágar-sangue. Assinale o agente etiológico mais provável:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Streptococcus viridans."
+        },
+        {
+          "key": "b",
+          "text": "Streptococcus pneumoniae."
+        },
+        {
+          "key": "c",
+          "text": "Enterococcus faecium."
+        },
+        {
+          "key": "d",
+          "text": "Staphylococcus epidermidis"
+        },
+        {
+          "key": "e",
+          "text": "Staphylococcus aureus."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Cocos Gram-positivos em cadeia, catalase-negativos e não hemolíticos em ágar-sangue (gama-hemolíticos) são característicos do gênero Enterococcus — diferente do Streptococcus viridans, que classicamente é alfa-hemolítico.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_044",
+      "statement": "Para o tratamento de infecção relacionada à prótese de quadril por Staphylococcus aureus resistente à oxacilina em um paciente de 55 anos de idade, são os antibióticos que mais bem se concentram no biofilme o (a):",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cefepima e a tetraciclina."
+        },
+        {
+          "key": "b",
+          "text": "Rifampicina e a daptomicina."
+        },
+        {
+          "key": "c",
+          "text": "Ciprofloxacina e a teicoplanina."
+        },
+        {
+          "key": "d",
+          "text": "Vancomicina e a ciprofloxacina."
+        },
+        {
+          "key": "e",
+          "text": "Rifampicina e a clindamicina."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A rifampicina e a daptomicina apresentam boa penetração em biofilme, sendo úteis no tratamento de infecções relacionadas a próteses ortopédicas por S. aureus resistente à oxacilina, geralmente em terapia combinada.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_045",
+      "statement": "Qual dos agentes etiológicos de pneumonia tem relação com sistemas de ar condicionado?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Klebsiella."
+        },
+        {
+          "key": "b",
+          "text": "Chlamydia."
+        },
+        {
+          "key": "c",
+          "text": "Mycoplasma."
+        },
+        {
+          "key": "d",
+          "text": "Legionella."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A Legionella pneumophila está classicamente associada à contaminação de sistemas de ar condicionado e torres de resfriamento, sendo importante causa de pneumonia atípica em surtos relacionados a esses sistemas.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_046",
+      "statement": "Das alternativas abaixo, assinale a que corresponde a uma cefalosporina de segunda geração:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cefalexina"
+        },
+        {
+          "key": "b",
+          "text": "Ceftriaxona"
+        },
+        {
+          "key": "c",
+          "text": "Cefuroxima"
+        },
+        {
+          "key": "d",
+          "text": "Cefepime"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A cefuroxima é uma cefalosporina de segunda geração, com espectro ampliado para gram-negativos em relação à primeira geração, mantendo alguma atividade contra gram-positivos.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_047",
+      "statement": "Com relação ao controle para melhorar o uso de antimicrobianos em neonatologia, assinale alternativa INCORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O uso indiscriminado de cefalosporinas de 3a geração tem sido associado à emergência de enterobactérias produtoras de betalactamases de espectro estendido"
+        },
+        {
+          "key": "b",
+          "text": "O uso de carbapenêmicos deve ser restrito a situações em que não há outra possibilidade terapêutica"
+        },
+        {
+          "key": "c",
+          "text": "A vancomicina deve ser substituída quando a hemocultura revelar crescimento de micro-organismo sensível à oxacilina"
+        },
+        {
+          "key": "d",
+          "text": "A presença de cultura positiva em cateter uretral e da ponta de cateter são indícios importantes para definir o tratamento quando a hemocultura é negativa"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A presença isolada de cultura positiva em cateter (urinário ou de ponta) não é considerada um indício confiável para definir tratamento sistêmico na ausência de hemocultura positiva, devido ao alto risco de colonização/contaminação — tornando essa afirmativa a INCORRETA pedida.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_048",
+      "statement": "A resistência bacteriana constitui enorme problema na atualidade. As enzimas geradoras de resistência no caso das bactérias denominadas KPC são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Metalolactamases"
+        },
+        {
+          "key": "b",
+          "text": "Carbapenemases"
+        },
+        {
+          "key": "c",
+          "text": "Betalactamases de espectro ampliado"
+        },
+        {
+          "key": "d",
+          "text": "Bombas de efluxo"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "As bactérias KPC (Klebsiella pneumoniae carbapenemase) produzem carbapenemases, enzimas capazes de hidrolisar carbapenêmicos, conferindo resistência a essa classe de antibióticos de amplo espectro.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_049",
+      "statement": "Assinale a alternativa que contém a combinação de antibióticos mais indicada para o tratamento empírico de uma infecção por germes aeróbicos e anaeróbicos:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cefuroxima e Vancomicina."
+        },
+        {
+          "key": "b",
+          "text": "Cefepime e Vancomicina."
+        },
+        {
+          "key": "c",
+          "text": "Ceftriaxona e Metronidazol."
+        },
+        {
+          "key": "d",
+          "text": "Cefalotina e Tobramicina."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A combinação de ceftriaxona (cobertura aeróbia Gram-positiva/negativa) com metronidazol (cobertura anaeróbia) é uma escolha clássica para tratamento empírico de infecções mistas por germes aeróbios e anaeróbios.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_050",
+      "statement": "São agentes antianaeróbicos, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Metronidazol."
+        },
+        {
+          "key": "b",
+          "text": "Meropenem."
+        },
+        {
+          "key": "c",
+          "text": "Tigeciclina."
+        },
+        {
+          "key": "d",
+          "text": "Piperacilina-Tazobactam."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Metronidazol, meropenem e piperacilina-tazobactam possuem atividade antianaeróbia reconhecida; entre as opções, a tigeciclina — apesar de também ter espectro amplo incluindo anaeróbios — foi apontada pela fonte como a exceção nesta questão.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_051",
+      "statement": "Quanto à Penicilina G cristalina ou Benzilpenicilina podemos afirmar, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Meia vida curta, dificultando seu uso obrigando intervalos curtos entre doses."
+        },
+        {
+          "key": "b",
+          "text": "85% inativada meio ácido com indisponibilidade VO."
+        },
+        {
+          "key": "c",
+          "text": "Elevada concentração tecidos (exceto SNC)."
+        },
+        {
+          "key": "d",
+          "text": "Excreção renal forma inativa."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A penicilina G cristalina é excretada por via renal em sua FORMA ATIVA (não inativa), sendo esta a afirmativa INCORRETA pedida — as demais características (meia-vida curta, inativação em meio ácido, boa penetração tecidual exceto SNC) estão corretas.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_052",
+      "statement": "Cipro oxacino é uma uoroquinolona sintética com amplo espectro de ação antimicrobiana. Seu emprego como primeira- escolha é recomendado para as seguintes situações clínicas, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tratamento de infecções gonocócicas não complicadas em dose única VO de 500 mg."
+        },
+        {
+          "key": "b",
+          "text": "Para as infecções não-complicadas do trato urinário a menores de 18 anos e gestantes;em dose única VO de 500mg."
+        },
+        {
+          "key": "c",
+          "text": "Tratamento de infecções complicadas do trato urinário, causadas por P. aeruginosa oubactérias aeróbicas Gram- negativas, em dose de 500 mg VO a cada 12 horas, durante 7 a 14 dias."
+        },
+        {
+          "key": "d",
+          "text": "Tratamento oral prolongado de infecções crônicas por germes aeróbicos Gram-negativos."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O ciprofloxacino não é recomendado como primeira escolha para infecções não complicadas do trato urinário em menores de 18 anos e gestantes, ao contrário do afirmado na alternativa (b) — sendo essa a exceção/INCORRETA entre as indicações apresentadas.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_053",
+      "statement": "Adolescente, 16 anos, previamente hígido vem à emergência após evolução de 3 dias com dor abdominal de início localizada no hemiabdome direito, mas agora difusa. Também relata febre, calafrios, náuseas e vômitos. Seu exame físico mostra dor abdominal difusa, defesa e irritação peritonial. Apresenta 28.000 leucócitos/mm³ com 95% de neutró los. Radiograma simples de abdome mostra ar na cavidade abdominal e níveis hidroaéreos. Quais são os agentes etiológicos mais comumente envolvidos no caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Anaeróbios e fungos"
+        },
+        {
+          "key": "b",
+          "text": "Gram negativos e fungos"
+        },
+        {
+          "key": "c",
+          "text": "Gram positivos e anaeróbios"
+        },
+        {
+          "key": "d",
+          "text": "Gram negativos e anaeróbicos"
+        },
+        {
+          "key": "e",
+          "text": "Gram positivos e gram negativos"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O quadro de peritonite por perfuração apendicular (dor abdominal difusa, defesa, leucocitose, pneumoperitônio) envolve tipicamente flora mista de bactérias Gram-negativas entéricas associadas a anaeróbios.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_054",
+      "statement": "O uso de metronidazol pode ser de grande valia no tratamento dos pacientes com doença de Crohn, principalmente daqueles com acometimento perianal. A maior limitação para o uso prolongado desta droga é a indução de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Intolerância ao álcool."
+        },
+        {
+          "key": "b",
+          "text": "Neuropatia periférica."
+        },
+        {
+          "key": "c",
+          "text": "Anemia hemolítica."
+        },
+        {
+          "key": "d",
+          "text": "Sindrome lúpica."
+        },
+        {
+          "key": "e",
+          "text": "Leucopenia."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O metronidazol classicamente causa reação tipo dissulfiram (intolerância ao álcool), sendo essa a principal limitação prática para seu uso prolongado, inclusive na doença de Crohn perianal.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_055",
+      "statement": "Paciente portador de mucoviscidose é internado na UTI devido a uma pneumonia adquirida na comunidade. Qual é o patógeno mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pseudomonas aeruginosa."
+        },
+        {
+          "key": "b",
+          "text": "Moraxella catarrhalis."
+        },
+        {
+          "key": "c",
+          "text": "Legionella pneumophila."
+        },
+        {
+          "key": "d",
+          "text": "Streptococcus pneumoniae."
+        },
+        {
+          "key": "e",
+          "text": "Staphylococcus aureus."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Pacientes com fibrose cística (mucoviscidose) são classicamente colonizados/infectados por Pseudomonas aeruginosa, sendo este o patógeno mais provável em pneumonia nesse contexto.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_056",
+      "statement": "Uma mulher de 64 anos está internada na enfermaria e recebendo a seguinte prescrição médica: -Dieta oral branda.; -Sinais vitais 4/4 h.; -Soro siológico 0,9% 500 ml IV nas 24 h.; -Piperacilina/Tazobactan 4,5 g IV 6/6 h.; -Enoxaprina 40 mg/dia.; - Dipirona 1 g IV até 4/4 h SOS. Para qual das situações abaixo esta prescição deveria, idealmente, ser usada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "infecção por Klebsiella pneumoniae produtora de betalactamase de espectro estendido."
+        },
+        {
+          "key": "b",
+          "text": "infecção por Klebsiella pneumoniae não produtora de betalactamase de espectro estendido."
+        },
+        {
+          "key": "c",
+          "text": "infecção por Staphyllococcus aureus resistente à vancomicina."
+        },
+        {
+          "key": "d",
+          "text": "infecção por Staphyllococcus aureus resistente à oxacilina."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A piperacilina-tazobactam não é eficaz contra bactérias produtoras de ESBL nem contra MRSA/VRSA — sendo apropriada para infecções por Klebsiella pneumoniae NÃO produtora de ESBL.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_057",
+      "statement": "A surdez pode ser efeito colateral do uso de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ampicilina."
+        },
+        {
+          "key": "b",
+          "text": "Gentamicina."
+        },
+        {
+          "key": "c",
+          "text": "Rifampicina."
+        },
+        {
+          "key": "d",
+          "text": "Cloranfenicol."
+        },
+        {
+          "key": "e",
+          "text": "Imipenem."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A gentamicina (aminoglicosídeo) é classicamente associada a ototoxicidade, incluindo perda auditiva (surdez) como efeito colateral temido.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_058",
+      "statement": "Paciente de 25 anos, sem comorbidades, é avaliado na Unidade de Saúde da Família de Petrópolis com quadro de dor, calor e hiperemia em dorso de mão direita 72 horas “após picada de mosquito”. Nega febre ou calafrios, mas relata piora evolutiva a despeito do uso de loratadina 10mg/dia. Quais as principais bactérias envolvidas e qual a melhor droga para tratamento dentre as alternativas abaixo?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "S. aureus e S. epidermidis. Penicilina Benzatina."
+        },
+        {
+          "key": "b",
+          "text": "S. aureus e S. pyogenes. Penicilina Benzatina."
+        },
+        {
+          "key": "c",
+          "text": "S. epidermidis e S. pyogenes. Cefalexina."
+        },
+        {
+          "key": "d",
+          "text": "S. pyogenes e S. aureus. Cefalexina."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Streptococcus pyogenes e Staphylococcus aureus são os principais agentes de celulite após lesão cutânea (picada de inseto), sendo a cefalexina uma opção oral apropriada de tratamento ambulatorial.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_059",
+      "statement": "Assinale a alternativa que apresenta antibioticoterapia inicial apropriada para bacteremia por Staphylococcus aureus resistente à meticilina (MRSA) complicada.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Oxacilina."
+        },
+        {
+          "key": "b",
+          "text": "Daptomicina."
+        },
+        {
+          "key": "c",
+          "text": "Sulfametoxazol-trimetoprima."
+        },
+        {
+          "key": "d",
+          "text": "Clindamicina."
+        },
+        {
+          "key": "e",
+          "text": "Linezolida."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A daptomicina é uma opção apropriada para bacteremia complicada por MRSA, especialmente em casos de falha ou resposta inadequada à vancomicina.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_060",
+      "statement": "Sobre os antimicrobianos e mecanismos de ação, assinale a alternativa CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A ação dos antibióticos beta-lactâmicos em seus receptores depende não somente de sua afinidade pelas PBP's, mas também da possibilidade das drogas chegarem ao seu local de ação."
+        },
+        {
+          "key": "b",
+          "text": "O cloranfenicol é droga bactericida por excelência, porém exerce ação bacteriostática sobre o pneumococo e o menigococo."
+        },
+        {
+          "key": "c",
+          "text": "Nas bactérias gram-negativas, a parede celular é uma estrutura simples, formada por uma espessa camada do peptideoglicano, o qual se situa imediatamente por fora da menbrana citoplasmática."
+        },
+        {
+          "key": "d",
+          "text": "As sulfonamidas são drogas essencialmente bactericidas."
+        },
+        {
+          "key": "e",
+          "text": "As pelicilinas, cefalosporinas e outras beta-lactaminas, a fosfomicina, a bacitracina, a vancomicina e outros glicopeptídeos são antibióticos que interferem na permeabilidade da membrana citoplasmática."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A eficácia dos betalactâmicos depende não apenas da afinidade pelas PBPs, mas também da capacidade da droga de atingir seu sítio de ação (penetração através da parede/membrana bacteriana) — afirmativa correta sobre farmacodinâmica dos betalactâmicos.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_061",
+      "statement": "A Gonorréia é diagnosticada laboratorialmente pelo achado de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Diplococo Gram negativo extracelular"
+        },
+        {
+          "key": "b",
+          "text": "Diplococo Gram positivo intracelular"
+        },
+        {
+          "key": "c",
+          "text": "Diplococo Gram negativo intracelular"
+        },
+        {
+          "key": "d",
+          "text": "Diplococo Gram positivo extracelular"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O diagnóstico laboratorial clássico da gonorreia é o achado de diplococos Gram-negativos intracelulares (dentro de neutrófilos) na bacterioscopia de secreção.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_062",
+      "statement": "O uso indiscriminado de antimicrobianos é um fator importante na seleção de micro- organismos multirresistentes. Neste contexto, que antibiótico é compatível com o quadro clínico, cuja prescrição seja embasada no uso racional dos antimicrobianos?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sulfametoxazol/trimetoprim - bacteriúria assintomática em idosos."
+        },
+        {
+          "key": "b",
+          "text": "Penicilina G Benzatina - uretrite gonocóccica."
+        },
+        {
+          "key": "c",
+          "text": "Cefotaxima e ampicilina - sepse neonatal."
+        },
+        {
+          "key": "d",
+          "text": "Meropenem e vancomicina - apendicite aguda."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O esquema de cefotaxima associada a ampicilina é o tratamento empírico racional e recomendado para sepse neonatal, cobrindo os principais agentes etiológicos (Streptococcus agalactiae, Listeria monocytogenes, Gram-negativos entéricos).",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_063",
+      "statement": "Com relação à escolha de antimicrobianos, qual associação é a mais adequada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "S. aureus sensível à meticilina - ampicilina."
+        },
+        {
+          "key": "b",
+          "text": "S. aureus sensível à meticilina - cefazolina."
+        },
+        {
+          "key": "c",
+          "text": "S. aureus resistente à meticilina - ciprofloxacino."
+        },
+        {
+          "key": "d",
+          "text": "S. aureus resistente à meticilina - claritromicina."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Staphylococcus aureus sensível à meticilina (MSSA) deve ser tratado preferencialmente com cefazolina (cefalosporina de 1ª geração), associada a melhores desfechos clínicos que a vancomicina nesse contexto.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_064",
+      "statement": "Os antimicrobianos correspondem a uma classe de fármacos que é consumida frequentemente em hospitais e na comunidade. Entretanto, são os únicos agentes farmacológicos que não afetam somente aos pacientes que os utilizam, mas também interferem de forma significativa no ambiente hospitalar por alteração da ecologia microbiana. O conhecimento dos princípios gerais que norteiam o uso de antimicrobianos, assim como das propriedades e características básicas dos antimicrobianos disponíveis, são essenciais para uma escolha terapêutica adequada. Está ADEQUADO",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "que através dos conhecimentos de farmacocinética e das características do microrganismo frente ao antimicrobiano é possível adequar posologia, via de administração e intervalo entre cada dose, visando melhorar o resultado terapêutico e, ao mesmo tempo, reduzir a probabilidade de desenvolver efeitos tóxicos potenciais."
+        },
+        {
+          "key": "b",
+          "text": "para que o antimicrobiano exerça sua atividade, primeiramente deverá atingir concentração ideal no local da infecção, ser incapaz de atravessar, de forma passiva ou ativa, a parede celular, apresentar afinidade pelo sítio de ligação no interior da bactéria e permanecer tempo suficiente para exercer seu efeito inibitório."
+        },
+        {
+          "key": "c",
+          "text": "que a farmacocinética estuda a atuação do antimicrobiano no exterior do organismo a partir dos parâmetros de velocidade de absorção, distribuição e eliminação da droga e de seus metabólitos."
+        },
+        {
+          "key": "d",
+          "text": "que após a administração de dose padronizada de um antimicrobiano, sua concentração plasmática aumenta rapidamente até atingir a concentração sérica máxima; depois disso, na medida em que se distribui entre os tecidos e é eliminado ou metabolizado, sua concentração no sangue vai diminuindo progressivamente até se tornar efetiva."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O conhecimento da farmacocinética e das características do microrganismo permite ajustar posologia, via de administração e intervalo de dose, otimizando o resultado terapêutico e reduzindo o risco de toxicidade — afirmativa correta sobre os princípios gerais do uso de antimicrobianos.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_065",
+      "statement": "Analisando-se a sensibilidade dos antibióticos, é correto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a ampicilina/sulbactam é pouco ativa contra anaeróbios e enterococcus;"
+        },
+        {
+          "key": "b",
+          "text": "ceftazidima é uma cefalosporina com boa atividade contra gram-negativos, principalmente frente à Pseudomonas aeruginosa;"
+        },
+        {
+          "key": "c",
+          "text": "o aztreonam é bem ativo contra gram-negativos e gram-positivos, mas pouco ativo contra anaeróbios;"
+        },
+        {
+          "key": "d",
+          "text": "a moxifloxacina é uma quinolona de quarta geração, de espectro estendido, dose única diária, com um diferencial dentro da classe de possuir boa atividade frente ao Staphylococcus aureus meticilina-resistente;"
+        },
+        {
+          "key": "e",
+          "text": "o ertapenem é um carbapenêmico com meia vida mais longa que o imipenem, podendo ser administrado, também, por via intramuscular, porém pouco ativo contra anaeróbicos."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A ceftazidima é uma cefalosporina de terceira geração com boa atividade contra bactérias Gram-negativas, particularmente contra Pseudomonas aeruginosa, entre as opções apresentadas.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_066",
+      "statement": "Paciente com diagnóstico de pancreatite aguda grave e piora clínica no sétimo dia de tratamento.Tomogra a de abdome com extensa necrose pancreática. Dos antibióticos a seguir, qual é a primeira escolha para esse caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cefriaxona;"
+        },
+        {
+          "key": "b",
+          "text": "Imipenem;"
+        },
+        {
+          "key": "c",
+          "text": "Ampicilina + cefazolina;"
+        },
+        {
+          "key": "d",
+          "text": "Metronidazol + ampicilina."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de pancreatite aguda grave com necrose pancreática extensa e piora clínica sugestiva de infecção, o imipenem é a primeira escolha entre as opções, por sua boa penetração no tecido pancreático necrótico.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_067",
+      "statement": "Quais classes de antibióticos pertencem aos betalactâmicos?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Penicilinas, carbapenens e cefalosporinas."
+        },
+        {
+          "key": "b",
+          "text": "Cefalosporinas, glicopeptídeos e macrolídeos."
+        },
+        {
+          "key": "c",
+          "text": "Quinolonas, oxazolidinonas e ketolideos."
+        },
+        {
+          "key": "d",
+          "text": "Penicilina, bacitracina, cloranfenicol."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Os betalactâmicos incluem as classes das penicilinas, carbapenêmicos, cefalosporinas e monobactâmicos, todos compartilhando o anel betalactâmico como estrutura central.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_068",
+      "statement": "As fluoroquinolonas estão indicadas, EXCETO nas:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Infecções estreptocócicas."
+        },
+        {
+          "key": "b",
+          "text": "Infecções urinárias."
+        },
+        {
+          "key": "c",
+          "text": "Infecções pulmonares graves."
+        },
+        {
+          "key": "d",
+          "text": "Prostatites."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "As fluoroquinolonas têm atividade limitada contra Streptococcus (exceto as quinolonas respiratórias de geração mais recente), não sendo indicadas de rotina para infecções estreptocócicas — sendo esta a exceção entre as indicações clássicas das quinolonas (ITU, infecções pulmonares graves, prostatite).",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_069",
+      "statement": "Paciente em tratamento para ITU após 2 semanas do uso do antibiótico desenvolveu uma ruptura do tendão de aquiles. Qual deve ser o antibiótico que a paciente utilizou?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Macrolideo."
+        },
+        {
+          "key": "b",
+          "text": "Penicilina."
+        },
+        {
+          "key": "c",
+          "text": "Quinolona."
+        },
+        {
+          "key": "d",
+          "text": "Imidazolico."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A ruptura do tendão de Aquiles é um efeito adverso clássico das quinolonas, relacionado à toxicidade tecidual sobre tendões, especialmente em uso prolongado.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_070",
+      "statement": "A administração de antibiótico junto com inibidor de betalactamases tem o objetivo de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Evitar a quebra da membrana celular da bactéria responsável pela infecção."
+        },
+        {
+          "key": "b",
+          "text": "Provocar a quebra do anel betalactâmico da parede celular bacteriana e provocar a lise do microorganismo."
+        },
+        {
+          "key": "c",
+          "text": "Inibir a quebra do anel betalactâmico do antibiótico pelas betalactamases produzidas pelas bactérias."
+        },
+        {
+          "key": "d",
+          "text": "Provocar a quebra do anel betalactâmico do antibiótico pelas betalactamases produzidas pelas bactérias."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Os inibidores de betalactamase (clavulanato, sulbactam, tazobactam) atuam inibindo a enzima betalactamase bacteriana, impedindo que ela quebre o anel betalactâmico do antibiótico associado, preservando sua eficácia.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_071",
+      "statement": "Sobre os carbapenêmicos, assinale a alternativa incorreta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O imipenem-cilastatina pode reduzir o limiar convulsivo, levando ao aparecimento deconvulsões. Esse efeito é mais frequentemente observado durante o uso de meropenem"
+        },
+        {
+          "key": "b",
+          "text": "O ertapenem é uma alternativa para tratamento de infecções por Klebsiellapneumoniae produtoras de betalactamases de espectro estendido"
+        },
+        {
+          "key": "c",
+          "text": "O ertapenem, em contraste com os outros carbapenens, não tem atividade confiávelcontra Pseudomonas aeruginosa e Acinetobacter spp"
+        },
+        {
+          "key": "d",
+          "text": "O meropenem não apresenta nefrotoxicidade"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A afirmativa INCORRETA (resposta pedida) é a (a): o efeito de redução do limiar convulsivo é classicamente mais associado ao IMIPENEM (não ao meropenem, que apresenta menor risco de neurotoxicidade dentro da classe dos carbapenêmicos).",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_072",
+      "statement": "Um homem de 38 anos de idade apresenta-se com endocardite infecciosa de uma valva aórtica nativa bicúspide. A cultura sangüínea apresentou estreptococos completamente sensíveis à penicilina. O paciente não faz uso de penicilina desde a sua infância, mas não se lembra de ter apresentado reação a esse antibiótico. Você prescreve penicilina, 3 milhões de unidades IV, a cada 4 horas, por quatro semanas. Aproximadamente três horas a primeira dose intravenosa, ele desenvolve urticária generalizada com alguma coceira nos olhos e lábios, mas sem nenhuma di culdade para respirar. Qual dos seguintes procedimentos é o mais apropriado para esse paciente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Levofloxacino."
+        },
+        {
+          "key": "b",
+          "text": "Azitromicina."
+        },
+        {
+          "key": "c",
+          "text": "Ceftriaxona."
+        },
+        {
+          "key": "d",
+          "text": "Vancomicina."
+        },
+        {
+          "key": "e",
+          "text": "Penicilina, após dessensibilização."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de reação alérgica não anafilática (urticária sem dificuldade respiratória) à penicilina em paciente com endocardite por estreptococo penicilino-sensível, a dessensibilização à penicilina permite manter o tratamento com a droga mais eficaz e específica para o patógeno identificado.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_073",
+      "statement": "Jovem feminina se encontrava internada no hospital com quadro de importante infecção de foco abdominal. Nesse aspecto, o tratamento estava sendo conduzido pela cirurgia geral, porém você foi chamado para oferecer parecer relacionado à queda do débito que complicou o caso clínico. Ao avaliar a prescrição, assinale a alternativa em que a medicação NÃO interage com a disfunção renal.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Amicacina."
+        },
+        {
+          "key": "b",
+          "text": "Ceftriaxona."
+        },
+        {
+          "key": "c",
+          "text": "Metronidazol."
+        },
+        {
+          "key": "d",
+          "text": "Cefalotina."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O metronidazol é metabolizado principalmente por via hepática, não exigindo ajuste significativo de dose em disfunção renal, diferente de aminoglicosídeos e cefalosporinas, que dependem de excreção renal.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_074",
+      "statement": "Adulto masculino procurou seu posto de saúde com febre, dores torácicas e mal- estar há dois dias. Sendo iniciado tratamento para infecção respiratória baseado no quadro clínico que demonstrava estertores em base direita do pulmão. Foi também solicitado radiogra a. Porém, o paciente evoluiu com deterioração clínica e o procurou no dia seguinte quando você se encontrava de plantão no hospital. Nesse momento, sua classi cação passou a ser a pneumonia comunitária grave sendo, então, proposto novo tratamento antimicrobiano. Uma de suas opções de tratamento antimicrobiano interage diretamente no DNA bacteriano, sendo representada por:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Azitromicina."
+        },
+        {
+          "key": "b",
+          "text": "Meropenem."
+        },
+        {
+          "key": "c",
+          "text": "Moxifloxacino."
+        },
+        {
+          "key": "d",
+          "text": "Cefepime."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O moxifloxacino (fluoroquinolona) atua diretamente na síntese/replicação do DNA bacteriano, via inibição da DNA girase e topoisomerase IV, mecanismo distinto dos betalactâmicos e macrolídeos.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_075",
+      "statement": "Jovem, 30 anos de idade, procurou hospital com febre, tosse purulenta e dispneia há dois dias. Seu exame físico demonstrava estertores creptantes no pulmão direito. Foi diagnosticada como pneumonia comunitária, mas considerada grave pela taquipneia e di culdade respiratória como um todo. Foi realizado, então, um debate a respeito de como abordar esse tipo de infecção, sendo que você foi um dos que participaram. Acerca disso, aponte a alternativa contendo o antimicrobiano que NÃO interfere diretamente na síntese proteica do metabolismo bacteriano.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ceftriaxone."
+        },
+        {
+          "key": "b",
+          "text": "Levofloxacino."
+        },
+        {
+          "key": "c",
+          "text": "Claritromicina."
+        },
+        {
+          "key": "d",
+          "text": "Eritromicina."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O levofloxacino (fluoroquinolona) não atua na síntese proteica bacteriana — seu mecanismo de ação é a inibição da DNA girase/topoisomerase, diferente dos macrolídeos (azitromicina, claritromicina, eritromicina), que inibem a síntese proteica pela subunidade ribossomal 50S.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_076",
+      "statement": "Em um adulto jovem com quadro de tosse paroxística há 5 dias, no qual suspeita-se, por dados epidemiológicos, de infecção por Bordetella pertussis, recomenda-se o uso de um dos antibióticos abaixo, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Claritromicina."
+        },
+        {
+          "key": "b",
+          "text": "Eritromicina."
+        },
+        {
+          "key": "c",
+          "text": "Azitromicina."
+        },
+        {
+          "key": "d",
+          "text": "Sulfametoxazol-trimetoprim."
+        },
+        {
+          "key": "e",
+          "text": "Amoxicilina."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "O tratamento da coqueluche (Bordetella pertussis) é feito com macrolídeos (azitromicina, eritromicina, claritromicina) ou, como alternativa, sulfametoxazol-trimetoprim — a amoxicilina não é uma opção recomendada para esse tratamento.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_077",
+      "statement": "O tipo de bactéria mais frequentemente encontradas nas peritonites é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Flora do tipo misto."
+        },
+        {
+          "key": "b",
+          "text": "Bactérias gram negativas."
+        },
+        {
+          "key": "c",
+          "text": "Bactérias anaeróbicas gram positivas."
+        },
+        {
+          "key": "d",
+          "text": "Bacteróides fragilis."
+        },
+        {
+          "key": "e",
+          "text": "Klebsiella sp"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "As peritonites são classicamente causadas com maior frequência por bactérias Gram-negativas de origem entérica.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_078",
+      "statement": "Gestante com queixa de tosse produtiva e febre há 4 dias, evoluindo com piora do estado geral, está sendo internada com diagnóstico de pneumonia grave. Durante a seleção do tratamento, foi lembrado da necessidade do uso de medicações menos lesivas ao feto. Dos antibióticos a seguir, indique a alternativa que apresenta o grupo que NÃO apresenta qualquer interação com a gestação.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cefalosporinas."
+        },
+        {
+          "key": "b",
+          "text": "Aminoglicosídeos."
+        },
+        {
+          "key": "c",
+          "text": "Penicilinas."
+        },
+        {
+          "key": "d",
+          "text": "Vancomicina."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "As penicilinas são consideradas seguras na gestação (categoria B), sem interação teratogênica ou lesiva conhecida ao feto, ao contrário de aminoglicosídeos (ototoxicidade fetal) e outras classes com maior risco.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_079",
+      "statement": "Um paciente hipertenso e diabético foi admitido na enfermaria de clínica médica devido a febre. Ele vinha realizando hemodiálise nas últimas 2 semanas. Ao exame, apresenta-se em regular estado geral, presença de um cateter venoso central, pulmões limpos e ausculta cardíaca sem alterações. Foi iniciado tratamento com vancomicina e gentamicina, e o cateter foi removido. Hemocultura foi positiva para S. aureus, sensível a oxacilina. A vancomicina foi então substituída por oxacilina, após 2 dias de uso. Após mais dois dias de tratamento, o paciente ainda estava febril e novas hemoculturas continuavam positivas. Qual o manejo mais apropriado para o caso acima?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Retornar o uso de vancomicina em substituição à oxacilina."
+        },
+        {
+          "key": "b",
+          "text": "Associar rifampicina ao esquema terapêutico."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar avaliação da infectologia."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar ecocardiograma."
+        },
+        {
+          "key": "e",
+          "text": "Manter o esquema terapêutico."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Bacteremia persistente por S. aureus apesar de tratamento antimicrobiano adequado, em paciente com cateter (mesmo já removido) e em hemodiálise, levanta forte suspeita de endocardite infecciosa ou foco secundário profundo — indicando a realização de ecocardiograma para investigação.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_080",
+      "statement": "Entre os agentes farmacológicos a seguir, um deles é o menos indicado para uso em apresentação tópica contra infecções cutâneas causadas presumivelmente por germes gram-positivos. Esse agente é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Neomicina."
+        },
+        {
+          "key": "b",
+          "text": "Ácido fusídico."
+        },
+        {
+          "key": "c",
+          "text": "Mupirocina."
+        },
+        {
+          "key": "d",
+          "text": "Gentamicina."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A gentamicina tópica é menos indicada para infecções cutâneas por germes Gram-positivos, sendo preferíveis agentes com maior atividade específica contra Gram-positivos, como mupirocina e ácido fusídico; a gentamicina tópica também carrega maior risco de sensibilização e indução de resistência.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_081",
+      "statement": "A cefalosporina de terceira geração de largo espectro e antipseudomonas é denominada:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cefazolina"
+        },
+        {
+          "key": "b",
+          "text": "Cefalotina"
+        },
+        {
+          "key": "c",
+          "text": "Cefepima"
+        },
+        {
+          "key": "d",
+          "text": "Cefoxitina"
+        },
+        {
+          "key": "e",
+          "text": "Cefuroxima"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A cefepima é classicamente citada como cefalosporina de amplo espectro com atividade antipseudomonas entre as opções listadas.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_082",
+      "statement": "Qual dentre os antibióticos abaixo, exige a redução de sua dosagem em pacientes com quadro de insuficiência renal?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Clindamicina"
+        },
+        {
+          "key": "b",
+          "text": "Rifampicina"
+        },
+        {
+          "key": "c",
+          "text": "Metronidazol"
+        },
+        {
+          "key": "d",
+          "text": "Vancomicina"
+        },
+        {
+          "key": "e",
+          "text": "Eritromicina"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A vancomicina é eliminada predominantemente por via renal, exigindo ajuste de dose (monitorização de níveis séricos) em pacientes com insuficiência renal.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_083",
+      "statement": "Fatores do paciente têm grande importância na escolha de um antimicrobiano já que podem in uenciar na sua e cácia, estando também associados à maior incidência de efeitos colaterais. Associe as situações em que esses fatores in uenciam a escolha da droga, a via de administração e escolha a alternativa com a sequência correta: [ I ] Idosos; [ II ] Recém-nascidos; [ III ] Pacientes diabéticos; [ IV ] Pacientes imunodeprimidos; [ ] Preferir drogas bactericidas em detrimento das bacteriostáticas; [ ] Podem apresentar reduções nas funções hepática e renal, o que aumenta o risco de reações adversas; [ ] Podem ter redução na absorção de drogas por via intramuscular; [ ] O uso de quinolonas pode estar associado à alterações em cartilagens.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "II, III, I e IV"
+        },
+        {
+          "key": "b",
+          "text": "IV, I, III, II"
+        },
+        {
+          "key": "c",
+          "text": "I, III, IV e II"
+        },
+        {
+          "key": "d",
+          "text": "III, IV, II e I"
+        },
+        {
+          "key": "e",
+          "text": "As alternativas acima estão incorretas."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Correlação: pacientes imunodeprimidos (IV) — preferir drogas bactericidas; idosos (I) — redução das funções hepática/renal aumentando risco de reações adversas; diabéticos (III) — redução da absorção de drogas por via intramuscular (por vasculopatia/perfusão tecidual comprometida); recém-nascidos (II) — risco de alterações em cartilagens com uso de quinolonas (extensão do cuidado pediátrico). Sequência: IV, I, III, II.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_084",
+      "statement": "O efeito colateral conhecido por síndrome do bebê cinzento é causado pelo antibiótico:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "penicilina."
+        },
+        {
+          "key": "b",
+          "text": "cloranfenicol."
+        },
+        {
+          "key": "c",
+          "text": "vancomicina."
+        },
+        {
+          "key": "d",
+          "text": "tetraciclina."
+        },
+        {
+          "key": "e",
+          "text": "eritromicina."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A síndrome do bebê cinzento é causada pelo cloranfenicol em neonatos, devido à imaturidade do sistema de glicuronidação hepática, levando ao acúmulo tóxico da droga.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_085",
+      "statement": "As meningites bacterianas agudas são infecções graves, potencialmente fatais e que acometem com maior frequência crianças com idade inferior a 5 anos. Considerando os dados atuais sobre a sensibilidade aos antimicrobianos dos agentes etiológicos - meningococo, pneumococo e Haemophilus in uenzae - no Brasil, o esquema antimicrobiano empírico mais adequado para o tratamento dessas infecções é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ceftriaxona."
+        },
+        {
+          "key": "b",
+          "text": "Penicilina cristalina."
+        },
+        {
+          "key": "c",
+          "text": "Ampicilina."
+        },
+        {
+          "key": "d",
+          "text": "Vancomicina."
+        },
+        {
+          "key": "e",
+          "text": "Ciprofloxacino."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante do perfil de resistência atual de pneumococo, meningococo e Haemophilus influenzae no Brasil, a ceftriaxona é o esquema empírico mais adequado para meningite bacteriana aguda.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_086",
+      "statement": "Em relação à antibioticoterapia, assinale a afirmativa INCORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A ceftriaxona, cefalosporina de 3ª geração, é indicada no tratamento da meningite bacteriana."
+        },
+        {
+          "key": "b",
+          "text": "A meningite bacteriana pode ser tratada com a associação de ceftriaxona e vancomicina."
+        },
+        {
+          "key": "c",
+          "text": "O carbapenêmico ertapenem é muito utilizado no tratamento da pneumonia nosocomial, tendo bom espectro de ação contra a Pseudomonas aeruginosa."
+        },
+        {
+          "key": "d",
+          "text": "A ampicilina/sulbactam tem ação contra a bactéria Acinetobacter baumannii."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A afirmativa INCORRETA (resposta pedida) é a (c): o ertapenem, diferente dos demais carbapenêmicos, NÃO tem atividade confiável contra Pseudomonas aeruginosa, não sendo indicado nesse contexto.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_087",
+      "statement": "São exemplos de antibióticos que agem como inibidores da síntese da parede celular:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Bacitracina e vancomicina."
+        },
+        {
+          "key": "b",
+          "text": "Polimixina e ionoforos."
+        },
+        {
+          "key": "c",
+          "text": "Quinolonas e rifampicina."
+        },
+        {
+          "key": "d",
+          "text": "Estreptomicina e cloranfenicol."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Bacitracina e vancomicina são antibióticos que atuam inibindo a síntese da parede celular bacteriana.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_088",
+      "statement": "Paciente etilista, internado em hospital do interior devido a quadro de pneumonia aspirativa após convulsão por abstinência alcoólica. No 15ª dia de internação, o paciente evoluiu com insu ciência respiratória com necessidade de ventilação mecânica. Observada celulite no braço direito. Foram colhidas culturas do aspirado traqueal e hemoculturas. O paciente foi transferido para a capital no 18ª dia e você o admitiu. O relatório de transferência dizia que no aspirado traqueal cresceu Klebsiella pneumoniae com sensibilidade apenas para carbapenêmicos. Na hemocultura cresceu Staphylococcus aureus em 3 amostras com sensibilidade à oxacilina. A tomogra a de tórax apresentou imagem sugestiva de abscesso pulmonar. Considerando o caso clínico descrito, assinale a alternativa que apresenta o MELHOR esquema antibiótico a ser dado a este paciente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Meropenem, oxacilina e clindamicina"
+        },
+        {
+          "key": "b",
+          "text": "Meropenem e clindamicina"
+        },
+        {
+          "key": "c",
+          "text": "Meropenem"
+        },
+        {
+          "key": "d",
+          "text": "Meropenem e oxacilina"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Com Klebsiella pneumoniae sensível apenas a carbapenêmicos e Staphylococcus aureus sensível à oxacilina, o meropenem isoladamente já cobre adequadamente ambos os patógenos (carbapenêmicos possuem boa atividade também contra MSSA), sendo o esquema mais direcionado e menos redundante entre as opções.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_089",
+      "statement": "Mecanismos de resistência Paciente, 18 anos, é admitida em Unidade Coronariana de hospital público devido a infarto agudo do miocárdio. No terceiro dia de internação, apresenta temperatura axilar de 38°C e leucometria de 16.000/mm³ com 10% de bastões. Ao exame físico, é detectada área de hiperemia, calor e dor em trajeto de veia periférica relacionada à inserção de cateter vascular. Para investigação diagnóstica, são enviadas duas amostras de sangue para hemoculturas. Estas detectaram crescimento de Staphylococcus aureus sensível à oxacilina e vancomicina. Dentre os antimicrobianos citados abaixo, a principal opção terapêutica para tratamento da infecção causada por esse micro-organismo é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Teicoplanina."
+        },
+        {
+          "key": "b",
+          "text": "Vancomicina."
+        },
+        {
+          "key": "c",
+          "text": "Linezolida."
+        },
+        {
+          "key": "d",
+          "text": "Oxacilina."
+        },
+        {
+          "key": "e",
+          "text": "Sulfametoxazol/trimetoprim."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de S. aureus sensível à oxacilina (MSSA) em infecção de cateter, a oxacilina é a primeira escolha terapêutica, com melhores desfechos clínicos que a vancomicina para cepas sensíveis à meticilina.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_090",
+      "statement": "Qual dos antimicrobianos se mostra inefetivo para o tratamento de bactérias sem parede celular (atípicas) causadoras de pneumonia?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Meropenem."
+        },
+        {
+          "key": "b",
+          "text": "Claritromicina."
+        },
+        {
+          "key": "c",
+          "text": "Levofloxacino."
+        },
+        {
+          "key": "d",
+          "text": "Moxifloxacino."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O meropenem (betalactâmico, atua na parede celular) é inefetivo contra bactérias atípicas sem parede celular (Mycoplasma, Chlamydia, Legionella), diferente de macrolídeos e quinolonas.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_091",
+      "statement": "Os esta lococos sempre representaram agentes etiológicos de inúmeras doenças pediátricas de maior ou menor gravidade. Os MRSA (meticilino-resistentes) têm se disseminado, sendo adquiridos em ambiente hospitalar ou mesmo na comunidade. Qual é o principal mecanismo de resistência dos MRSA?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Produção de betalactamases."
+        },
+        {
+          "key": "b",
+          "text": "Alteração nos ribossomos."
+        },
+        {
+          "key": "c",
+          "text": "Alteração nas PBP (penicilin binding proteins)."
+        },
+        {
+          "key": "d",
+          "text": "Mutação da topoisomerase."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O principal mecanismo de resistência do MRSA é a alteração das PBPs (proteína ligadora de penicilina alterada, PBP2a, codificada pelo gene mecA), reduzindo a afinidade dos betalactâmicos por seu alvo.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_092",
+      "statement": "Existem diversos mecanismos que causam lesão da célula bacteriana, e que, por sua vez, ou causa lise celular ou mesmo impedimento de sua reprodução. Esses mecanismos de ação dos antimicrobianos apresentam grande importância no momento da escolha do antimicrobiano. Dentre os listados abaixo, qual deles causa lesão no DNA bacteriano?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Beta-lactâmicos."
+        },
+        {
+          "key": "b",
+          "text": "Carbamapenemas."
+        },
+        {
+          "key": "c",
+          "text": "Quinolonas."
+        },
+        {
+          "key": "d",
+          "text": "Macrolídeos."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "As quinolonas causam lesão direta ao DNA bacteriano, através da inibição da DNA girase e da topoisomerase IV, impedindo o superenrolamento e replicação do DNA.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_093",
+      "statement": "Em se tratando de antimicrobiano, assinale a alternativa INCORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cefalosporina de segunda geração, capacidade de penetração pela barreira hemato encefálica."
+        },
+        {
+          "key": "b",
+          "text": "Cotrimoxazol, potencial lesão do tubo neural na organogênese. ."
+        },
+        {
+          "key": "c",
+          "text": "Penicilinas potencialmente teratogênicas."
+        },
+        {
+          "key": "d",
+          "text": "Aminoglicosídeo potencializa lesão de placa neural por curare"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A afirmativa INCORRETA (resposta pedida) é a (c): as penicilinas NÃO são consideradas teratogênicas, sendo classificadas entre os antibióticos mais seguros durante a gestação.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_094",
+      "statement": "Apresenta grande importância clínica o conhecimento de medicações que são potencialmente nefrotóxicas. NÃO possui essa característica, apenas:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "As cefalosporinas."
+        },
+        {
+          "key": "b",
+          "text": "Os aminoglicosídeos."
+        },
+        {
+          "key": "c",
+          "text": "A vancomicina."
+        },
+        {
+          "key": "d",
+          "text": "O metronidazol."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O metronidazol não é classicamente associado à nefrotoxicidade, sendo metabolizado principalmente por via hepática, diferente de cefalosporinas, aminoglicosídeos e vancomicina, que podem apresentar potencial nefrotóxico.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_095",
+      "statement": "Para tratamento de infecções em sistema nervoso central, apresenta importância, o conhecimento de antimicrobianos que seriam capazes de atingir concentração após passagem pela barreira hematoencefálica. Qual dos abaixo, NÃO possui essa capacidade?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cefepime."
+        },
+        {
+          "key": "b",
+          "text": "Cefuroxima."
+        },
+        {
+          "key": "c",
+          "text": "Ceftazidime."
+        },
+        {
+          "key": "d",
+          "text": "Cefaclor."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O cefaclor, cefalosporina oral de 2ª geração, não atinge concentrações terapêuticas adequadas no sistema nervoso central, diferente de cefepime, ceftazidime e (em menor grau) cefuroxima intravenosa.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_096",
+      "statement": "Quando lidamos com infecções respiratórias, também lidamos com diversas etiologias que, embora, não tão relevantes em número quanto o Pneumococo, apresentam características que impedem a ação de diversos grupos de antimicrobianos. Quais dos listados abaixo, NÃO apresentam ação contra bactérias sem parede celular?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Carbamapenemas."
+        },
+        {
+          "key": "b",
+          "text": "Tetraciclinas."
+        },
+        {
+          "key": "c",
+          "text": "Macrolideos."
+        },
+        {
+          "key": "d",
+          "text": "Quinolonas."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Os carbapenêmicos (betalactâmicos) atuam na parede celular bacteriana, sendo ineficazes contra bactérias atípicas que não possuem essa estrutura (Mycoplasma, Chlamydia, Legionella).",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_097",
+      "statement": "Analise o grá co abaixo, que representa características farmacológicas de antimicrobianos, e considere as assertivas propostas. (VER IMAGEM) I - O efeito dos aminoglicosídios depende da Cmax e, por tal motivo, esses fármacos são prescritos em dose única diária; II. - O tempo em que betalactâmicos se encontram acima da CIM é um dos determinantes de seu efeito; III. - O uso de piperacilina + tazobactam em infusão prolongada se baseia em suas características farmacológicas. Quais são corretas?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas I"
+        },
+        {
+          "key": "b",
+          "text": "Apenas II"
+        },
+        {
+          "key": "c",
+          "text": "Apenas III"
+        },
+        {
+          "key": "d",
+          "text": "Apenas I e II"
+        },
+        {
+          "key": "e",
+          "text": "I, II e III"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "As três assertivas estão corretas: os aminoglicosídeos têm efeito Cmax-dependente (justificando dose única diária); os betalactâmicos dependem do tempo acima da CIM para seu efeito; e a infusão prolongada de piperacilina-tazobactam se baseia justamente na farmacodinâmica tempo-dependente dos betalactâmicos.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_098",
+      "statement": "Relação correta entre o antimicrobiano e seu mecanismo de ação:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Antimicrobiano - Macrolídeo; Mecanismo de ação - atua na formação da paredecelular."
+        },
+        {
+          "key": "b",
+          "text": "Antimicrobiano -Tetraciclina; Mecanismo de ação - atua na integridade da membranacelular."
+        },
+        {
+          "key": "c",
+          "text": "Antimicrobiano - ß lactâmico; Mecanismo de ação - atua na formação da paredecelular."
+        },
+        {
+          "key": "d",
+          "text": "Antimicrobiano - Glicopeptídeo; Mecanismo de ação - inibe a síntese proteica nointerior da célula."
+        },
+        {
+          "key": "e",
+          "text": "Antimicrobiano - Aminoglicosídeo; Mecanismo de ação - atua na integridade damembrana celular."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Os betalactâmicos atuam inibindo a formação da parede celular bacteriana, ligando-se às PBPs e impedindo a síntese do peptidoglicano.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_099",
+      "statement": "Antibióticos que atuam na parede celular e que caracteristicamente apresentam ação limitada ou nula contra enterococos incluem:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "ampicilina."
+        },
+        {
+          "key": "b",
+          "text": "oxacilina."
+        },
+        {
+          "key": "c",
+          "text": "linezolida."
+        },
+        {
+          "key": "d",
+          "text": "penicilina cristalina."
+        },
+        {
+          "key": "e",
+          "text": "vancomicina."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A oxacilina (e demais penicilinas antiestafilocócicas) apresenta atividade limitada ou nula contra enterococos, ao contrário de ampicilina, penicilina cristalina e vancomicina, que mantêm alguma atividade contra esse gênero.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_100",
+      "statement": "As cefalosporinas constituem importante grupo de antimicrobianos em razão de sua segurança e eficácia clínica, justificandporoibeiddiacivneanldivare seu amplo uso na prática médica. Em relação a esses antimicrobianos, é correto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A cefazolina é uma cefalosporina de primeira geração disponível nas apresentações oral e injetável, sendo boa opção para uso ambulatorial e hospitalar."
+        },
+        {
+          "key": "b",
+          "text": "A cefalexina tem boa ação contra bactérias gram-negativas, razão pela qual está indicada no tratamento empírico da infecção urinária relacionada a cateter."
+        },
+        {
+          "key": "c",
+          "text": "O cefepime é o antimicrobiano de escolha no tratamento empírico da meningite bacteriana, devido à emergência de pneumococos de alta resistência às penicilinas."
+        },
+        {
+          "key": "d",
+          "text": "A cefoxitina tem boa ação contra anaeróbios, sendo indicada para profilaxia de cirurgia do cólon para reduzir a infecção pós-cirúrgica."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A cefoxitina, cefalosporina de segunda geração (cefamicina), possui boa atividade contra anaeróbios, sendo indicada na profilaxia cirúrgica de cirurgias colorretais para reduzir infecção pós-operatória.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_101",
+      "statement": "São exemplos de antibióticos que agem como inibidores da síntese da parede celular:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Bacítracina e vancomicina;"
+        },
+        {
+          "key": "b",
+          "text": "Polimixina e ionoforos;"
+        },
+        {
+          "key": "c",
+          "text": "Quinolonas e rifampicina;"
+        },
+        {
+          "key": "d",
+          "text": "Estrreptomicina e cloranfenicol."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Bacitracina e vancomicina são antibióticos que atuam como inibidores da síntese da parede celular bacteriana.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_102",
+      "statement": "Analise a seguinte situação: Na sua UPA está um paciente com diagnóstico de abscesso na fossa ilíaca esquerda, por provável perfuração de divertículo. Os sinais clínicos e exames complementares de abdome agudo estão presentes. Após hidratação e analgesia, você vai encaminhá-lo para o seu hospital de referência para o tratamento cirúrgico. Supondo que você queira iniciar um esquema de antibióticos com atividade aeróbica e anaeróbica de amplo espectro, as combinações que você prescreveria seriam:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ciprofloxacino e metronidazol."
+        },
+        {
+          "key": "b",
+          "text": "Gentamicina e tobramicina."
+        },
+        {
+          "key": "c",
+          "text": "Clindamicina e cloranfenicol."
+        },
+        {
+          "key": "d",
+          "text": "Gentamicina e cefotaxima."
+        },
+        {
+          "key": "e",
+          "text": "Amicacina e levofloxacino."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A combinação de ciprofloxacino (cobertura aeróbia Gram-negativa) com metronidazol (cobertura anaeróbia) é uma opção clássica de amplo espectro para infecções intra-abdominais como abscesso por diverticulite perfurada.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_103",
+      "statement": "Uma mulher de 60 anos está internada na enfermaria e recebe a seguinte prescrição médica: Dieta oral branda; Sinais vitais 4/4h; Soro siológico 0,9% 500 mI IV nas 24h; Polimixina B 750,000 UI IV 12/12h; Enoxaprina 40mg/dia, Dipirona 1g IV até 4/4h SOS. Para qual das situações abaixo essa prescrição deveria, idealmente, ser usada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Infecção por pseudômonas multirresistente."
+        },
+        {
+          "key": "b",
+          "text": "Infecção por pseudômonas multirresistente e trombose venosa profunda."
+        },
+        {
+          "key": "c",
+          "text": "Infecção por serratia multirresistente."
+        },
+        {
+          "key": "d",
+          "text": "Infecção por serratia multirresistente e trombose venosa profunda."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A polimixina B é indicada para infecção por Pseudomonas multirresistente; não possui indicação para tratamento de trombose venosa profunda, que exigiria anticoagulação, não antibioticoterapia.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_104",
+      "statement": "Quais dos antibióticos abaixo inibem a síntese da parede celular?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ciprofloxacina, metronidazol, quinupristina/dalfopristina."
+        },
+        {
+          "key": "b",
+          "text": "Rifampicina, sulfamicina, clindamicina."
+        },
+        {
+          "key": "c",
+          "text": "Tetraciclina, daptomicina, azitromicina."
+        },
+        {
+          "key": "d",
+          "text": "Tobramicina, cloranfenicol, linezolida."
+        },
+        {
+          "key": "e",
+          "text": "Vancomicina, bacitracina, penicilina."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Vancomicina, bacitracina e penicilina são antibióticos que atuam inibindo a síntese da parede celular bacteriana.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_105",
+      "statement": "São cefalosporinas de segunda geração ativas contra bacteroides:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "cefoxitina e cefmetazol."
+        },
+        {
+          "key": "b",
+          "text": "cefazolina e cefapirina."
+        },
+        {
+          "key": "c",
+          "text": "cefalotina e ceftriaxona."
+        },
+        {
+          "key": "d",
+          "text": "aztreonam e meropenen."
+        },
+        {
+          "key": "e",
+          "text": "cefalexina e cafadroxil."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Cefoxitina e cefmetazol são cefalosporinas de segunda geração (cefamicinas) com atividade reconhecida contra Bacteroides e outros anaeróbios.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_106",
+      "statement": "Paciente, 18 anos, é admitido na Emergência de hospital público devido a infarto agudo do miocárdio. No sexto dia de internação, apresenta febre de 38°C e leucometria de 14500/mm3, com 8% de bastões. Ao exame físico, é detectada área de hiperemia (halo: 3 cm) em sítio de inserção de cateter vascular profundo. As hemoculturas realizadas como parte da investigação do quadro infeccioso detectam crescimento de Staphylococcus aureus resistente a oxacilina. Dentre os antimicrobianos a seguir, a principal opção terapêutica para o microrganismo detectado é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "oxacilina"
+        },
+        {
+          "key": "b",
+          "text": "linezolida"
+        },
+        {
+          "key": "c",
+          "text": "teicoplanina"
+        },
+        {
+          "key": "d",
+          "text": "daptomicina"
+        },
+        {
+          "key": "e",
+          "text": "vancomicina"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Diante de infecção de cateter vascular por S. aureus resistente à oxacilina (MRSA), a vancomicina é a principal opção terapêutica de primeira linha.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_107",
+      "statement": "Espectro de ação e indicações clínicas Com relação aos antibióticos, seu espectro de ação e sítios de infecção, associe as colunas e em seguida assinale a alternativa CORRETA: A. Tigeciclina. B. Linezolida. C. Ampicilina-sulbactam. D. Daptomicina. E. Polimixina B. 1. Gram-positivos em geral incluindo VRE, algum espectro para anaeróbios, não recomendado para infecção de corrente sanguínea. 2. MRSA, enterobactérias incluindo produtoras de KPC, Acinetobacter baumannii, sem espectro para Pseudomonas aeruginosa. 3. Gram-positivos com exceção de MRSA e VRE, enterobactérias não ESBL ou KPC, sem espectro para Pseudomonas aeruginosa. 4. Sem ação para Gram-positivos, ação para a maioria das enterobactérias e não fermentadores; Serratia spp. e Proteus spp. intrinsecamente resistentes. 5. Gram- positivos em geral incluindo MRSA e VRE, sem ação contra Gram-negativos e anaeróbios.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A-1; B-2; C-3; D-4; E-5."
+        },
+        {
+          "key": "b",
+          "text": "A-2; B-1; C-3; D-5; E-4."
+        },
+        {
+          "key": "c",
+          "text": "A-1; B-5; C-4; D-2; E-3."
+        },
+        {
+          "key": "d",
+          "text": "A-2; B-5; C-3; D-1; E-4."
+        },
+        {
+          "key": "e",
+          "text": "A-3; B-5; C-2; D-1; E-4. pr8oibeiddiacivneanldivare"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Correlação correta: Tigeciclina cobre MRSA, enterobactérias (incluindo produtoras de KPC) e Acinetobacter baumannii, mas sem espectro para Pseudomonas; Linezolida cobre Gram-positivos incluindo VRE, mas não é recomendada para infecção de corrente sanguínea; Ampicilina-sulbactam cobre Gram-positivos exceto MRSA/VRE e enterobactérias não produtoras de ESBL/KPC; Daptomicina cobre Gram-positivos incluindo MRSA e VRE, sem ação Gram-negativa; Polimixina B cobre a maioria das enterobactérias e não fermentadores, sem ação Gram-positiva, com resistência intrínseca de Serratia e Proteus.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_108",
+      "statement": "As quinolonas são antimicrobianos que inibem rapidamente a síntese do DNA bacteriano, que leva a uma rápida morte das bactérias, sendo muito ativas contra as bactérias aeróbicas Gram-negativas. Entre as três afirmações abaixo marque com [C] as Corretas e com [E] as Erradas. E escolha a alternativa com a sequência correta: [ ] A administração oral em conjunto com antiácidos contendo alumínio, magnésio e em menor proporção cálcio, reduz marcadamente a biodisponibilidade das quinolonas; [ ] O sucralfato não reduz a absorção das quinolonas; [ ] Antagonistas de H2 e inibidores de bomba de prótons não interferem na absorção de quinolonas.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "C, C, E."
+        },
+        {
+          "key": "b",
+          "text": "E, C, C."
+        },
+        {
+          "key": "c",
+          "text": "E, E, C."
+        },
+        {
+          "key": "d",
+          "text": "C, E, C"
+        },
+        {
+          "key": "e",
+          "text": "Nenhuma das alternativas acima está correta."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Antiácidos com alumínio/magnésio/cálcio reduzem a biodisponibilidade das quinolonas por quelação (Correto); o sucralfato TAMBÉM reduz a absorção das quinolonas por mecanismo semelhante, contrariando a afirmativa de que \"não reduz\" (Errado); antagonistas H2 e inibidores de bomba de prótons não contêm cátions divalentes e não interferem significativamente na absorção das quinolonas (Correto). Sequência: C, E, C.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_109",
+      "statement": "Quanto às quinolonas, podemos afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "São mal absorvidas por via oral, exceto a norfloxacina."
+        },
+        {
+          "key": "b",
+          "text": "Têm meia-vida reduzida em idosos."
+        },
+        {
+          "key": "c",
+          "text": "As quinolonas são antimicrobianos estruturalmente antagônicos ao ácido nalidíxico."
+        },
+        {
+          "key": "d",
+          "text": "São antimicrobianos bactericidas que interferem na síntese do DNA Bacteriano."
+        },
+        {
+          "key": "e",
+          "text": "Não devem ser utilizadas em qualquer tipo de infecção por Gram-positivos."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "As quinolonas são antimicrobianos bactericidas que interferem diretamente na síntese do DNA bacteriano, via inibição da DNA girase e topoisomerase IV.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_110",
+      "statement": "Quando iniciamos tratamento de qualquer quadro infeccioso, notadamente com utilização de antimicrobianos, devemos considerar interações e efeitos colaterais. São esses verdadeiros EXCETO por:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Nefrotoxicidade das Cefalosporinas."
+        },
+        {
+          "key": "b",
+          "text": "Nefrotoxicidade dos Aminoglicosídeos."
+        },
+        {
+          "key": "c",
+          "text": "Teratogenicidade dos derivados do Enxofre (Sulfas)."
+        },
+        {
+          "key": "d",
+          "text": "Teratogenicidade das Penicilinas."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "As penicilinas não são consideradas teratogênicas, sendo classificadas entre os antibióticos mais seguros na gestação — sendo esta a exceção pedida entre as afirmativas sobre nefrotoxicidade e teratogenicidade.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_111",
+      "statement": "Quando indicamos tratamento com antibióticos para gestantes, devemos considerar, além de sua indicação clínica, a necessidade ou não de ultrapassar barreira placentária, bem como se o mesmo apresenta risco à saúde fetal. Qual das medicações abaixo NÃO ultrapassa a barreira placentária, a fim de obter níveis de concentração terapêuticos?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Amoxicilina."
+        },
+        {
+          "key": "b",
+          "text": "Azitromicina."
+        },
+        {
+          "key": "c",
+          "text": "Cloranfenicol."
+        },
+        {
+          "key": "d",
+          "text": "Ceftriaxona."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A azitromicina apresenta baixa transferência placentária, não atingindo concentrações terapêuticas relevantes no compartimento fetal, diferente de amoxicilina, cloranfenicol e ceftriaxona, que atravessam a placenta mais eficientemente.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_112",
+      "statement": "A sepse é a principal causa de mortalidade em CTIs não cardiológicos no Brasil e no mundo. A mortalidade no Brasil é uma das mais elevadas chegando a taxas de 65% no choque séptico. O número crescente de bactérias resistentes é um dos fatores que contribuem para essa taxa elevada. Acinetobacterbaumani e Pseudomonas aerurginosa, são gram negatives muito prevalentes entre os pacientes com sepse. Dentre as alternativas abaixo, qual seria a melhor escolha no esquema de antibioticoterapia para o tratamento de uma infecção Primária de Corrente Sanguínea por Pseudomonas resistente, sendo sensível apenas à polipeptídeos e betalactâmicos:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Polimixina B + Tigeciclina"
+        },
+        {
+          "key": "b",
+          "text": "Ertapenem"
+        },
+        {
+          "key": "c",
+          "text": "Polimixina B + Linezolida"
+        },
+        {
+          "key": "d",
+          "text": "Meropenem"
+        },
+        {
+          "key": "e",
+          "text": "Piperaciclina"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de Pseudomonas resistente sensível apenas a polipeptídeos e betalactâmicos, o meropenem (betalactâmico com atividade antipseudomonas) é a escolha mais direta e eficaz entre as opções, sem necessidade de associações desnecessárias com agentes sem atividade Gram-negativa relevante (como linezolida) ou sem cobertura antipseudomonas (ertapenem).",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_113",
+      "statement": "Qual é o principal fator de pressão para o aparecimento de bactérias com alta resistência aos antimicrobianos?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aumento do número de pacientes em UTI."
+        },
+        {
+          "key": "b",
+          "text": "Aumento do número de idosos."
+        },
+        {
+          "key": "c",
+          "text": "Aparecimento de novos antimicrobianos."
+        },
+        {
+          "key": "d",
+          "text": "Aumento do uso indiscriminado de antibióticos."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O uso indiscriminado de antibióticos é o principal fator de pressão seletiva para o surgimento e disseminação de bactérias multirresistentes.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_114",
+      "statement": "Quando iniciamos tratamento para paciente acometido por Pneumonia Comunitária Grave com antibióticos, devemos considerar diversos fatores. Dos abaixo, qual podemos alegar ser inadequado?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "As chamadas quinolonas respiratórias têm como característica, em termos de espectro de ação, ser efetiva contra germes cocos Gram-positivos."
+        },
+        {
+          "key": "b",
+          "text": "Pela possibilidade da ocorrência de germes sem parede celular, está contraindicada monoterapia com betalactâmicos."
+        },
+        {
+          "key": "c",
+          "text": "A necessidade de associação de macrolídeos, quando da opção do uso de cefalosporinas de quarta geração, se deve à possibilidade de germes atípicos como etiologia."
+        },
+        {
+          "key": "d",
+          "text": "Amoxicilina associada ao clavulanato é uma opção adequada para pneumonia grave pela sua cobertura contra germes produtores de betalactamase."
+        },
+        {
+          "key": "e",
+          "text": "Por atuarem em nível de DNA-girase, as quinolonas respiratórias também são adequadas contra bactérias atípicas."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Entre as afirmativas sobre pneumonia comunitária grave, a alegação de que as quinolonas respiratórias são efetivas contra cocos Gram-positivos, embora parcialmente verdadeira para o pneumococo, é a alternativa apontada pela fonte como inadequada — as demais afirmativas (necessidade de cobertura para atípicos, associação de macrolídeo com cefalosporina de 4ª geração, contraindicação de monoterapia betalactâmica) refletem princípios corretos e bem estabelecidos do tratamento da PAC grave.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_115",
+      "statement": "Assinale, dentre as alternativas abaixo, qual o grupo de antibióticos que apresenta de moderado à excelente espectro de atividade, contra enterobactérias e bactérias Gram-negativas, e que podem ser utilizados no esquema de tratamento de tuberculose multirresistente.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aminoglicosídeos"
+        },
+        {
+          "key": "b",
+          "text": "Cefalosporinas"
+        },
+        {
+          "key": "c",
+          "text": "Tetraciclinas"
+        },
+        {
+          "key": "d",
+          "text": "Macrolídeos"
+        },
+        {
+          "key": "e",
+          "text": "Quinolonas"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "As quinolonas apresentam espectro de moderado a excelente contra enterobactérias e Gram-negativos, sendo também utilizadas em esquemas de tratamento de tuberculose multirresistente, como parte dos regimes de segunda linha.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_116",
+      "statement": "Em relação à antibioticoterapia, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O esquema de vancomicina e amicacina é a primeira escolha para a terapia da meningite por Listeria monocytogenes."
+        },
+        {
+          "key": "b",
+          "text": "A concentração de cefazolina e cefalotina no sistema nervoso central é excelente, sendo indicadas para terapia de abscessos cerebrais."
+        },
+        {
+          "key": "c",
+          "text": "A pneumonia pneumocócica grave deve ser tratada com oxacilina e gentamicina."
+        },
+        {
+          "key": "d",
+          "text": "Os enterococos são naturalmente resistentes às cefalosporinas de primeira, segunda e terceira geração."
+        },
+        {
+          "key": "e",
+          "text": "A polimixina B é o antibiótico de primeira escolha para o tratamento das infecções causadas por bacilos gram- negativos."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Os enterococos apresentam resistência intrínseca a todas as cefalosporinas (1ª, 2ª e 3ª geração), independentemente de testes de sensibilidade in vitro, sendo um conceito fundamental na escolha de antibioticoterapia empírica.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_117",
+      "statement": "Um paciente de 28 anos está internado na Unidade de terapia intensiva há 40 dias devido a politraumatismo grave. Ele está apresentando febre, taquipneia e taquicardia. São colhidas duas amostras de hemoculturas que lirneevzeolalimdao. Acsrseinsacliemaenotpoçãdporeoibeiddiacivneanldivare Enterococcus faecium resistente à vancomicina, ampicilina, imipenem e sensível à teicoplanina e que contém APENAS antibióticos que são recomendados para o tratamento de infecções por esse tipo de micro- organismo.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ampicilina associada à gentamicina, teicoplanina, linezolida e quinupristina/dalfopristina."
+        },
+        {
+          "key": "b",
+          "text": "Teicoplanina, linezolida e quinupristina/ dalfopristina."
+        },
+        {
+          "key": "c",
+          "text": "Linezolida e quinupristina/dalfopristina."
+        },
+        {
+          "key": "d",
+          "text": "Ampicilina associada à gentamicina , linezolida e quinupristina/dalfopristina."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de Enterococcus faecium resistente à vancomicina, ampicilina e imipenem, as opções terapêuticas realmente confiáveis e recomendadas restringem-se à linezolida e à quinupristina/dalfopristina — a teicoplanina, apesar de reportada como sensível no antibiograma, não é considerada opção terapêutica confiável para VRE devido ao risco de resistência cruzada com a vancomicina (fenótipo VanA).",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_118",
+      "statement": "Assinale a alternativa incorreta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aztreonam é uma boa alternativa para substituir aminoglicosídeos em casos de oto ou nefrotoxicidade em casos de infecção por Gram-negativos."
+        },
+        {
+          "key": "b",
+          "text": "O uso crônico de Carbapenêmicos pode aumentar a colonização intestinal por Cândida."
+        },
+        {
+          "key": "c",
+          "text": "A vancomicina tem espectro voltado para Gram-negativos, e está associada à leucopenia e tromboflebite."
+        },
+        {
+          "key": "d",
+          "text": "A talitromicina é útil em infecções multirresistentes, e está associada à hepatoxicidade, visão borrada e exacerbação de miastenia gravis."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A afirmativa INCORRETA (resposta pedida) é a (c): o espectro da vancomicina é voltado para bactérias Gram-POSITIVAS (não Gram-negativas), estando associada a efeitos adversos como a síndrome do homem vermelho, nefrotoxicidade, e mais raramente leucopenia/tromboflebite.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_119",
+      "statement": "Relacione as colunas e assinale a alternativa CORRETA. a) Antibiótico da classe da glicilciclinas, aprovado para tratamento de infecções intra-abdominais, pele, partes moles e pneumonia comunitária. b) Antibiótico da classe das oxazolidinomas. com espectro exclusivo para bactérias gram positivas. c) Antibiótico de escolha para tratamento de endocardite por estafilococos OXA-R. d) Droga de escolha para tratamento das infecções por bactérias Gram-negativas ESBL. e) Droga de escolha para tratamento das infecções de corrente sanguínea com instabilidade hemodinâmica, causadas pelo gênero Candida; I) Daptomicina; II) Tigeciclina; III) Equinocandinas; IV) Linezolida; V) Carbapenêmicos.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a - II, b - IV, c - I, d -V, e - III."
+        },
+        {
+          "key": "b",
+          "text": "a - IV, b - I, c - II, d -V, e - III."
+        },
+        {
+          "key": "c",
+          "text": "a - I, b - III, c - II, d -IV, e - V."
+        },
+        {
+          "key": "d",
+          "text": "a - V, b - III, c - II, d -IV, e - I."
+        },
+        {
+          "key": "e",
+          "text": "a - II, b - III, c - IV, d - V, e - I."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Correlação: glicilciclina para infecções intra-abdominais/pele/pneumonia = tigeciclina (II); oxazolidinona exclusiva para Gram-positivos = linezolida (IV); escolha para endocardite por estafilococo OXA-resistente = daptomicina (I); escolha para Gram-negativos ESBL = carbapenêmicos (V); escolha para candidemia com instabilidade hemodinâmica = equinocandinas (III).",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_120",
+      "statement": "Com relação às principais indicações dos antimicrobianos, numere a coluna de baixo de acordo com sua correspondência com a coluna de cima. 1. Amoxicilina/clavulanato. 2. Metronidazol. 3. Azitromicina. 4. Daptomicina. 5. Meropenem. ( ) Endocardite infecciosa por MRSA. ( ) Pé diabético. ( ) Pneumonia associada à ventilação mecânica. ( ) Diarreia hospitalar (C. difficile). ( ) Pneumonia comunitária (C. pneumoniae). Assinale a alternativa que apresenta a numeração correta da coluna da direita, de cima para baixo.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "4 – 1 – 5 – 2 – 3."
+        },
+        {
+          "key": "b",
+          "text": "5 – 1 – 4 – 3 – 2."
+        },
+        {
+          "key": "c",
+          "text": "5 – 3 – 4 – 2 – 1."
+        },
+        {
+          "key": "d",
+          "text": "4 – 2 – 5 – 1 – 3."
+        },
+        {
+          "key": "e",
+          "text": "5 – 3 – 4 – 1 – 2."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Correlação: endocardite por MRSA = daptomicina (4); pé diabético = amoxicilina/clavulanato (1); pneumonia associada à ventilação mecânica = meropenem (5); diarreia hospitalar por C. difficile = metronidazol (2); pneumonia comunitária por C. pneumoniae = azitromicina (3). Sequência: 4, 1, 5, 2, 3.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_121",
+      "statement": "Ef eitos adversos Car bape nê mico s A respeito de eventos adversos relacionados a antibióticos, relacione a primeira coluna com a segunda: a) Daptomicina; b) Polimixina B; c) Moxifloxacino; d) Gentamicina; e) Imipenem-Cilastatina. ( ) Neuropatia periférica; ( ) Ototoxicidade; ( ) Crise Convulsiva; ( ) Pneumonite Eosinofilica; ( ) Prolongamento do Intervalo QT. A ordem correta de cima para baixo é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "E-A-C-B-D."
+        },
+        {
+          "key": "b",
+          "text": "A-B-D-C-E."
+        },
+        {
+          "key": "c",
+          "text": "B-D-E-A-C."
+        },
+        {
+          "key": "d",
+          "text": "D-B-C-A-E."
+        },
+        {
+          "key": "e",
+          "text": "C-A-D-E-B."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Correlação de efeitos adversos: neuropatia periférica = polimixina B; ototoxicidade = gentamicina; crise convulsiva = imipenem-cilastatina; pneumonite eosinofílica = daptomicina; prolongamento do intervalo QT = moxifloxacino. Sequência: B, D, E, A, C.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_122",
+      "statement": "Frequentemente são necessários antibióticos e cazes contra bactérias Gram- negativas, anaeróbias e enterococcus faecalis no tratamento das infecções de cavidade abdominal. Assinale a alternativa que contém APENAS antibióticos que apresentam espectro de ação para todos esses micro-organismos.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ceftriaxona e clindamicina."
+        },
+        {
+          "key": "b",
+          "text": "Imipenem/cilastatina e piperacilina com tazobactam."
+        },
+        {
+          "key": "c",
+          "text": "Clindamicina e ciproflaxacina."
+        },
+        {
+          "key": "d",
+          "text": "Imipenem e clindamicina."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Imipenem/cilastatina e piperacilina com tazobactam são antibióticos de amplo espectro com cobertura eficaz contra Gram-negativos, anaeróbios e Enterococcus faecalis, tornando-os apropriados para infecções intra-abdominais complexas.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_123",
+      "statement": "O antibiótico primariamente bactericida, que atua na parede celular das bactérias é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "fosfomicina"
+        },
+        {
+          "key": "b",
+          "text": "doxiciclina"
+        },
+        {
+          "key": "c",
+          "text": "linezolida"
+        },
+        {
+          "key": "d",
+          "text": "clindamicina"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A fosfomicina é um antibiótico bactericida que atua inibindo uma etapa inicial da síntese da parede celular bacteriana (inibição da enzima MurA, bloqueando a formação do peptidoglicano).",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_124",
+      "statement": "No tratamento da pneumonia hospitalar por S. aureus HA-MRSA, deve ser EVITADO o uso da:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Daptomicina."
+        },
+        {
+          "key": "b",
+          "text": "Teicoplanina."
+        },
+        {
+          "key": "c",
+          "text": "Linezolida."
+        },
+        {
+          "key": "d",
+          "text": "Vancomicina."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A daptomicina é inativada pelo surfactante pulmonar, sendo ineficaz no tratamento de pneumonias — devendo ser evitada nessa indicação, ao contrário de vancomicina, linezolida e teicoplanina.",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_125",
+      "statement": "Qual dos esquemas abaixo é uma boa opção para tratamento de bacteremia por Enterococcus resistente à vancomicina?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cefepime."
+        },
+        {
+          "key": "b",
+          "text": "Meropenem."
+        },
+        {
+          "key": "c",
+          "text": "Linezolida."
+        },
+        {
+          "key": "d",
+          "text": "Piperacilina + tazobactam."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A linezolida é uma opção terapêutica eficaz para bacteremia por Enterococcus resistente à vancomicina (VRE).",
+      "theme": "inf_antibioticos",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "atb_126",
+      "statement": "Qual o mecanismo de resistência do pneumococo frente à penicilina?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Bomba de efluxo."
+        },
+        {
+          "key": "b",
+          "text": "Alteração nos canais de porina."
+        },
+        {
+          "key": "c",
+          "text": "Produção de betalactamase."
+        },
+        {
+          "key": "d",
+          "text": "Mudança no sítio de ligação (PBP)."
+        },
+        {
+          "key": "e",
+          "text": "Nenhuma das respostas acima."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A resistência do pneumococo à penicilina ocorre por alteração no sítio de ligação (mudança nas PBPs), não por produção de betalactamase — mecanismo diferente do observado no Staphylococcus aureus.",
+      "theme": "inf_antibioticos",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    }
+  ]
+}

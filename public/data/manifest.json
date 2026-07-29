@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T01:19:26.610Z",
+  "generatedAt": "2026-07-29T17:28:09.873Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,7 +26,7 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 2196,
+  "totalQuestions": 2322,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
@@ -52,6 +52,7 @@
     "hip_di": 1,
     "dm_dx": 34,
     "dm_tto": 80,
+    "inf_antibioticos": 126,
     "emg_choque": 47,
     "atls_inicial": 1,
     "atls_choque": 2,
@@ -1295,8 +1296,10 @@
     {
       "area": "infectologia",
       "slug": "antibioticoterapia",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "inf_antibioticos"
+      ],
+      "questionsCount": 126,
       "flashcardsCount": 0,
       "casosCount": 0
     },
