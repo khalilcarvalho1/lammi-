@@ -1,1 +1,1428 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "arb_003",
+      "statement": "Chikungunya é uma arbovirose causada pelo vírus CHIKV pertencente ao gênero Alphavirus, família Togaviridae, transmitido por mosquitos do gênero Aedes: I - A doença é caracterizada por fortes dores articulares e febre, podendo tornar-se crônica, com persistência dos sintomas por anos. II - Entre 2014 e 2019 a maior concentração de casos e óbitos ocorreu na região Nordeste. III - Em 2018 e 2019, os casos estão concentrados no estado do Rio de Janeiro, que é o primeiro local com transmissão importante fora da região Nordeste. Está(ão) correta(s) a(s) afirmação(ões)?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Todas estão corretas."
+        },
+        {
+          "key": "b",
+          "text": "Apenas a I e II estão corretas."
+        },
+        {
+          "key": "c",
+          "text": "Apenas a I está correta."
+        },
+        {
+          "key": "d",
+          "text": "Apenas a II e III estão corretas."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Todas as afirmativas sobre chikungunya estão corretas: a artralgia pode cronificar por anos; a maior concentração de casos entre 2014-2019 ocorreu no Nordeste; e a partir de 2018-2019 o Rio de Janeiro se tornou o primeiro local relevante de transmissão fora dessa região.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_012",
+      "statement": "Adolescente, 12 anos, é levado à emergência por apresentar febre, exantema generalizado e dores no corpo. Mãe relata que o quadro teve início há dois dias, mas, desde a véspera, apresentava fortes dores nas mãos e pés, inclusive em repouso. Exame físico: facies de dor, febril (38,0ºC), PA= 90 x 60 mmHg, eupneico, exantema discreto com edema dos dedos das mãos e pés, deambula com o auxílio da mãe, queixa-se de artralgia. Exames laboratoriais: SaO₂ = 98%, hemograma normal. A hipótese diagnóstica mais provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "chikungunya"
+        },
+        {
+          "key": "b",
+          "text": "febre amarela"
+        },
+        {
+          "key": "c",
+          "text": "leptospirose"
+        },
+        {
+          "key": "d",
+          "text": "dengue hemorrágico"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Fortes dores articulares em mãos e pés (mesmo em repouso), com edema digital e exame laboratorial pouco alterado, é o padrão clássico de chikungunya, distinguindo-se da dengue pela intensidade da artralgia.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_017",
+      "statement": "A respeito da febre Chikungunya podemos afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A Febre Chikungunya é uma doença transmitida pelos mosquitos Aedes aegypti e Aedes albopictus. No Brasil, a circulação do vírus foi identificada pela primeira vez em 2014. Chikungunya significa \"\"aqueles que se dobram\"\" em swahili, um dos idiomas da Tanzânia. Refere-se à aparência curvada dos pacientes que foram atendidos na primeira epidemia documentada, na Tanzânia, localizada no leste da África, entre 1952 e 1953."
+        },
+        {
+          "key": "b",
+          "text": "É possível ter chikungunya mais de uma vez. Depois de infectada, a pessoa fica imune apenas por um período da vida. Os sintomas iniciam entre dois e doze dias após a picada do mosquito. O mosquito adquire o vírus CHIKV ao picar uma pessoa infectada, durante o período em que o vírus está presente no organismo infectado. Cerca de 30% dos casos não apresentam sintomas."
+        },
+        {
+          "key": "c",
+          "text": "Os sintomas são tratados com medicação para a febre (preferencialmente AAS e as dores articulares (corticoides."
+        },
+        {
+          "key": "d",
+          "text": "Quando há notificação de caso suspeito, as Secretarias Municipais de Saúde devem adotar ações de relocação da população pois a eliminação de focos do mosquito nas áreas próximas à residência não é suficiente."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A febre chikungunya foi identificada pela primeira vez no Brasil em 2014; o nome \"chikungunya\" significa \"aqueles que se dobram\", referindo-se à postura curvada dos pacientes descrita na epidemia original na Tanzânia (1952-1953).",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_020",
+      "statement": "Mulher, 17 anos de idade, apresenta febre alta, cefaleia, dores articulares e prostração há dois dias. Mora na cidade de São Paulo e nega viagens recentes. Refere vacinação em dia. Seu pai, de 48 anos, apresentou quadro semelhante há uma semana. Exame físico: T= 38,5 ° C, FC = 108 bpm, exantema maculopapular difuso, enchimento capilar lento, dor intensapràoibeiddiacivneanldivare palpação do abdome, sem visceromegalias. Indique o diagnóstico mais provável e a conduta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sarampo; hidratação oral e analgésicos"
+        },
+        {
+          "key": "b",
+          "text": "Sarampo; internar para observação"
+        },
+        {
+          "key": "c",
+          "text": "Dengue; hidratação oral e observação"
+        },
+        {
+          "key": "d",
+          "text": "Dengue com sinais de alerta; internar para hidratação endovenosa"
+        },
+        {
+          "key": "e",
+          "text": "Chikungunya; internar para diagnóstico e observação"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Dor abdominal intensa à palpação e enchimento capilar lento são sinais de alarme que caracterizam dengue com sinais de alerta, exigindo internação para hidratação endovenosa.",
+      "theme": "arb_zika",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_023",
+      "statement": "Qual das artrites virais agudas pode mais comumente cronificar em mulheres com mais de 45 anos de idade?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Zica vírus"
+        },
+        {
+          "key": "b",
+          "text": "Hepatite B"
+        },
+        {
+          "key": "c",
+          "text": "Febre chikungunya"
+        },
+        {
+          "key": "d",
+          "text": "Hepatite C"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A febre chikungunya é a arbovirose mais associada à cronificação da artrite viral aguda, especialmente em mulheres com mais de 45 anos de idade.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_029",
+      "statement": "Mulher, 23a, G1P0C0A0, 16ª semana de gestação, procura a Unidade Básica de Saúde referindo quadro de vermelhidão e coceira na pele há 2 dias, acompanhado de um episódio de febre de 38°C, além de dor articular. Exame físico: T = 37,8°C; FR = 18 irpm; FC = 80 bpm; olhos: hiperemia conjuntival; pele: exantema difuso discreto; prova do laço: negativa. A CONDUTA É:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar hemograma, AST/ALT, ureia e creatinina, com monitoramento domiciliar da temperatura e retorno diário à Unidade."
+        },
+        {
+          "key": "b",
+          "text": "Solicitar reação em cadeia da polimerase para Zika vírus e dengue; retorno diário para hemograma e hidratação domiciliar."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar sorologia para Zika e para dengue; retorno diário para hemograma e hidratação domiciliar."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar sorologia para febre amarela e Chikungunya, prescrever sintomáticos e hidratação domiciliar."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Em gestante com quadro sugestivo de arbovirose (exantema, febre, artralgia, hiperemia conjuntival), a investigação recomendada é a sorologia para Zika e dengue, com retorno diário para hemograma e hidratação domiciliar, dado o impacto potencial na gestação.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_031",
+      "statement": "Paciente de 12 anos de idade, previamente hígido, após excursão em área de mata para acampamento de escoteirismo, apresenta febre intensa, três dias de evolução, prurido cutâneo leve, poliartrite, com edema de mãos e pés, mialgia e exantema inespecífico. Com base nos dados citados, o diagnóstico mais provável e a evolução possível são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Zika e evolução para cronicidade."
+        },
+        {
+          "key": "b",
+          "text": "Dengue com evolução para dengue hemorrágica."
+        },
+        {
+          "key": "c",
+          "text": "Chikungunya e evolução para cronicidade."
+        },
+        {
+          "key": "d",
+          "text": "Zika sem risco de evolução para cronicidade."
+        },
+        {
+          "key": "e",
+          "text": "Chikungunya com risco de hemoconcentração."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Exposição em área de mata, febre intensa, poliartrite com edema de mãos e pés e mialgia são compatíveis com chikungunya, doença com risco reconhecido de evolução para artrite crônica.",
+      "theme": "arb_zika",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_033",
+      "statement": "Considerando um paciente com três dias de febre alta, artralgias simétricas intensas e com edema, e que apresentou exantema no 2°/3° dia de doença, é possível afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Os diagnósticos mais prováveis são febre Chikungunya e infecção pelo vírus Zika, pela presença de febre alta e artralgias, devendo as sorologias serem solicitadas."
+        },
+        {
+          "key": "b",
+          "text": "O diagnóstico poderia incluir febre Chikungunya e dengue, sendo útil o exame NS-1 neste momento da investigação."
+        },
+        {
+          "key": "c",
+          "text": "O diagnóstico poderia incluir infecção pelo zika e febre Chikungunya, considerando o exantema precoce, devendo o exame NS-1 ser pedido."
+        },
+        {
+          "key": "d",
+          "text": "O diagnóstico inicialmente poderia incluir qualquer arbovirose, mas a ausência da hiperemia conjuntival e do prurido afasta a possibilidade de Chikungunya."
+        },
+        {
+          "key": "e",
+          "text": "O diagnóstico inicialmente poderia incluir qualquer arbovirose, mas a ausência de manifestações hemorrágicas afastaria a dengue."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Febre alta com artralgias simétricas intensas e edema, associada a exantema precoce (2º-3º dia), sugere diagnóstico diferencial entre chikungunya e dengue — sendo útil, nesse momento, a pesquisa do antígeno NS1 para dengue.",
+      "theme": "arb_zika",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_034",
+      "statement": "Tendo em vista as arboviroses febris agudas, dentre as afirmativas a seguir, marque a afirmativa verdadeira.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A forma grave (hemorrágica) do dengue é caracterizada por Coagulação Intravascular Disseminada (CIVD)."
+        },
+        {
+          "key": "b",
+          "text": "Na Chikungunya, a forma articular crônica é caracterizada por acometimento reumatoidelike, inclusive com fator reumatoide falso-positivo."
+        },
+        {
+          "key": "c",
+          "text": "Dor abdominal, vômitos em jato e diarreia são sinais de alarme para as formas graves do dengue."
+        },
+        {
+          "key": "d",
+          "text": "A infecção aguda por Zika na gestante é um motivo legal para a mulher decidir abortar."
+        },
+        {
+          "key": "e",
+          "text": "O Zika se caracteriza por febre baixa ou ausente, rash cutâneo (exantema) e hiperemia da mucosa conjuntival."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "O vírus Zika caracteristicamente cursa com febre baixa ou ausente, exantema cutâneo e hiperemia da mucosa conjuntival, distinguindo-se das demais arboviroses febris agudas por esse padrão mais brando.",
+      "theme": "arb_zika",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_035",
+      "statement": "Assinale a alternativa que tem características do Zika Vírus.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Conjuntivite em 50-90% dos casos; Rash cutâneo no 1° ou 2° dia; Edema de articulações frequente e de leve intensidade."
+        },
+        {
+          "key": "b",
+          "text": "Conjuntivite em 50-90% dos casos; Discrasia hemorrágica; Edema de articulações frequente e de leve intensidade."
+        },
+        {
+          "key": "c",
+          "text": "Conjuntivite rara; Trombocitopenia; Rash cutâneo no 1° ou 2° dia."
+        },
+        {
+          "key": "d",
+          "text": "Conjuntivite rara; Febre alta; Discrasia hemorrágica."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O Zika vírus caracteriza-se por conjuntivite em 50-90% dos casos, rash cutâneo já no 1º ou 2º dia de doença, e edema articular frequente, porém de intensidade leve.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_036",
+      "statement": "Arbovírus são vírus transmitidos por artrópodes (Arthropod-borne virus) e são assim designados não somente pela sua veiculação através de artrópodes, mas, principalmente, pelo fato de parte de seu ciclo replicativo ocorrer nos insetos. As arboviroses têm se tornado importantes e constantes ameaças em regiões tropicais, devido às rápidas mudanças climáticas, desmatamentos, migração populacional, ocupação desordenada de áreas urbanas e precariedade das condições sanitárias, que favorecem a amplificação e transmissão viral. A respeito do assunto, considere as seguintes afirmativas: 1. No continente africano, o ciclo da chikungunya (CHIKV) ocorre, essencialmente, em áreas orestadas, envolvendo mosquitos vetores silvestres do gênero Aedes e primatas não humanos. Já no continente asiático, o ciclo de transmissão de CHIKV esteve geralmente associado ao mosquito urbano Aedes aegypti e ao homem. 2. A maioria dos pacientes infectados com febre do oeste do Nilo é assintomática, mas os sintomas, quando presentes, incluem febre, dor de cabeça, enjoo e vômito. 3. Em 2015, o Brasil registrou os primeiros casos humanos autóctones de zika, con rmando a recente entrada desse arbovírus no país. Os primeiros estados brasileiros a registrar casos de infecção por ZIKV foram Paraná e Rio Grande do Sul. 4. A principal forma de infecção pelo ZIKV é pela picada de fêmeas infectadas do gênero Aedes, sendo A. albopictus o principal vetor no Brasil. Assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Somente as afirmativas 1 e 2 são verdadeiras."
+        },
+        {
+          "key": "b",
+          "text": "Somente as afirmativas 1 e 4 são verdadeiras."
+        },
+        {
+          "key": "c",
+          "text": "Somente as afirmativas 2 e 3 são verdadeiras."
+        },
+        {
+          "key": "d",
+          "text": "Somente as afirmativas 3 e 4 são verdadeiras."
+        },
+        {
+          "key": "e",
+          "text": "As afirmativas 1, 2, 3 e 4 são verdadeiras."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "As afirmativas 1 (ciclo silvestre africano vs. urbano asiático do CHIKV) e 2 (maioria assintomática na febre do Nilo ocidental) estão corretas. As afirmativas 3 e 4 contêm erros: os primeiros casos autóctones de zika no Brasil (2015) foram registrados na região Nordeste (não Paraná/RS), e o principal vetor do ZIKV no Brasil é o Aedes aegypti (não o A. albopictus).",
+      "theme": "arb_zika",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_042",
+      "statement": "A prevalência da fase crônica em pacientes com chikungunya é bastante variável, segundo os estudos, podendo atingir mais da metade dos pacientes. Os principais fatores de risco para a cronificação são listados abaixo, indique a INADEQUADA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Idade acima de 65 anos."
+        },
+        {
+          "key": "b",
+          "text": "Sexo feminino."
+        },
+        {
+          "key": "c",
+          "text": "Desordem articular preexistente."
+        },
+        {
+          "key": "d",
+          "text": "Maior intensidade das lesões articulares na fase aguda."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Idade acima de 65 anos não é classicamente citada entre os principais fatores de risco para cronificação da chikungunya — os fatores mais reconhecidos são sexo feminino, desordem articular preexistente e maior intensidade das lesões articulares na fase aguda.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_043",
+      "statement": "Em pacientes com chikungunya o sintoma mais comum na fase crônica é o acometimento articular persistente ou recidivante, podemos, apenas, CONCORDAR que",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "não nas mesmas articulações atingidas durante a fase aguda, caracterizado por dor com ou sem edema, limitação de movimento, deformidade e ausência de eritema."
+        },
+        {
+          "key": "b",
+          "text": "nas mesmas articulações atingidas durante a fase aguda, caracterizado por dor com ou sem edema, sem limitação de movimento, deformidade e ausência de eritema."
+        },
+        {
+          "key": "c",
+          "text": "nas mesmas articulações atingidas durante a fase aguda, caracterizado por dor com ou sem edema, limitação de movimento, deformidade e ausência de eritema."
+        },
+        {
+          "key": "d",
+          "text": "nas mesmas articulações atingidas durante a fase aguda, caracterizado por dor com ou sem edema, limitação de movimento, deformidade e presença de eritema."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Na fase crônica da chikungunya, o acometimento articular persistente ocorre tipicamente nas MESMAS articulações atingidas na fase aguda, com dor, podendo haver edema, limitação de movimento e deformidade, mas SEM eritema (distinguindo de artrite inflamatória ativa).",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_047",
+      "statement": "Mulher de 37 anos de idade apresenta febre de 39ºC de início abrupto há quatro dias, acompanhada de mialgia leve, poliartralgia intensa, exantema macular disseminado, desde o segundo dia do início dos sintomas. Ao meãxoasm, ejoeflíhsiocpsoro,ibeiddiacivneanldivare apresenta-se hidratada, normotensa, com prova do laço negativa, dor e edema em articulações dos punhos, tornozelos e pés. Exames laboratoriais: hemoglobina = 13,2 g/dL, hematócrito = 45%, leucócitos = 3100/mm³, neutró los = 74%, linfócitos = 13%, plaquetas = 123000/mm³, AST = 39 U/L (valor de referência até 37 U/L), ALT = 48 U/L (valor de referência até 41 U/L), creatinina = 0,82 mg/dL. Assinale a alternativa que representa o diagnóstico mais provável para o quadro clínico acima.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Artrite séptica."
+        },
+        {
+          "key": "b",
+          "text": "Chikungunya."
+        },
+        {
+          "key": "c",
+          "text": "Dengue."
+        },
+        {
+          "key": "d",
+          "text": "Zica."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Febre alta de início abrupto, mialgia leve, poliartralgia INTENSA com edema de punhos/tornozelos/pés, leucopenia com neutrofilia relativa e plaquetopenia discreta compõem o quadro clássico de chikungunya.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_049",
+      "statement": "Em áreas endêmicas, casais que desejam a concepção devem ser orientados quanto aos riscos da infecção pelo vírus Zika e a possibilidade de malformações fetais. Sendo INCORRETO que",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a transmissão sexual do vírus Zika foi comprovada por inúmeros relatos de casos, sendo a Zika considerada uma IST, cuja transmissão sexual pode ser evitada por meio do uso de preservativo."
+        },
+        {
+          "key": "b",
+          "text": "para casais que desejam a concepção, recomenda-se aguardar até 2 meses após sinais/sintomas relacionados à infecção pelo vírus Zika quando o homem foi infectado."
+        },
+        {
+          "key": "c",
+          "text": "deve ser reforçada a importância do uso do preservativo, especialmente após viagens a áreas endêmicas ou suspeita e/ou confirmação do diagnóstico da infecção pela parceria sexual."
+        },
+        {
+          "key": "d",
+          "text": "isso porque a persistência das partículas virais foi observada em fluidos corporais, como sêmen."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A recomendação de tempo de espera para concepção após infecção por Zika no homem é geralmente citada em torno de 3 meses (não 2 meses), dado o tempo de persistência do vírus no sêmen — tornando essa afirmativa a INCORRETA.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_050",
+      "statement": "A poliartralgia tem sido descrita em mais de 90% dos pacientes com chikungunya na fase aguda. Outras manifestações cutâneas também têm sido relatadas nessa fase, indique o item com conceito ERRADO.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dermatite esfoliativa, lesões vesico-bolhosas, hiperpigmentação, fotossensibilidade, lesões simulando eritema nodoso e úlceras orais."
+        },
+        {
+          "key": "b",
+          "text": "Outros sinais e sintomas descritos na fase aguda de chikungunya são dor retro-ocular, sem calafrios, conjuntivite com secreção, faringite, náusea, vômitos, diarreia, dor abdominal e neurite."
+        },
+        {
+          "key": "c",
+          "text": "As manifestações do trato gastrointestinal são mais presentes nas crianças."
+        },
+        {
+          "key": "d",
+          "text": "Pode haver linfoadenomegalias cervical, retroauricular ou inguinal associadas."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Na fase aguda da chikungunya, calafrios SÃO um sintoma comumente descrito (junto a dor retro-ocular, conjuntivite com secreção, faringite, náuseas, vômitos, diarreia, dor abdominal e neurite) — a negação de calafrios na alternativa é o conceito ERRADO.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_051",
+      "statement": "Doença pelo vírus chikungunya (CHIKV), que cursa com enfermidade febril aguda, subaguda ou crônica, normalmente, o exantema é macular ou maculopapular, sendo INCORRETO que",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "acomete cerca de metade dos doentes e, em geral."
+        },
+        {
+          "key": "b",
+          "text": "afeta, principalmente, o tronco e as extremidades (incluindo palmas das mãos e plantas dos pés), podendo atingir a face."
+        },
+        {
+          "key": "c",
+          "text": "surge do 2° ao 5° dia após o final da febre."
+        },
+        {
+          "key": "d",
+          "text": "o prurido está presente em 25% dos pacientes e pode ser generalizado, ou apenas localizado na região palmo- plantar."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O exantema da chikungunya surge classicamente entre o 2º e o 5º dia APÓS O INÍCIO da febre (não após seu término), sendo essa a afirmativa INCORRETA entre as descritas sobre suas características.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_052",
+      "statement": "A poliartralgia tem sido descrita em mais de 90% dos pacientes com chikungunya na fase aguda. A mialgia, quando se apresenta, geralmente é de intensidade leve a moderada. Podemos, apenas, considerar ERRADO que",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "normalmente, essa dor é monoarticular e simétrica, embora possa haver assimetria."
+        },
+        {
+          "key": "b",
+          "text": "ela acomete grandes e pequenas articulações e abrange, com maior frequência, as regiões mais distais."
+        },
+        {
+          "key": "c",
+          "text": "pode haver edema e este, quando presente, normalmente está associado à tenossinovite."
+        },
+        {
+          "key": "d",
+          "text": "na fase aguda da poliartralgia, também tem sido observado dor ligamentar."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A poliartralgia da chikungunya é tipicamente POLIARTICULAR e simétrica (não monoarticular), acometendo predominantemente articulações distais — tornando essa a afirmativa ERRADA pedida.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_053",
+      "statement": "Até o momento, não há tratamento antiviral especí co para a febre de chikungunya (CHIKV). A terapia utilizada é analgesia e de suporte às de compensações clínicas causadas pela doença. É necessário estimular a hidratação oral dos pacientes. NÃO podemos, apenas, concordar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Os anti-inflamatórios não esteroides (ibuprofeno, naproxeno, ácido acetilsalicílico) devem ser utilizados na fase aguda da doença, devido à possibilidade do diagnóstico ser na realidade dengue, bem como à possibilidade da coexistência das duas doenças."
+        },
+        {
+          "key": "b",
+          "text": "Os esteroides, igualmente, estão contraindicados na fase aguda, pelo risco do efeito rebote."
+        },
+        {
+          "key": "c",
+          "text": "A escolha das drogas deve ser feita após avaliação do paciente com aplicação de escalas de dor apropriadas para cada faixa etária e fase da doença."
+        },
+        {
+          "key": "d",
+          "text": "O ácido acetilsalicílico também é contraindicado na fase aguda, pelo risco de síndrome de Reye e de sangramento."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Anti-inflamatórios não esteroides, incluindo o ácido acetilsalicílico, devem ser EVITADOS na fase aguda da chikungunya (não utilizados), pelo risco de sangramento e pela possibilidade de coexistência com dengue — tornando essa a afirmativa com a qual NÃO se pode concordar.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_056",
+      "statement": "Qual é o tempo de incubação pelo vírus da zica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "7 dias"
+        },
+        {
+          "key": "b",
+          "text": "14 dias"
+        },
+        {
+          "key": "c",
+          "text": "21 dias"
+        },
+        {
+          "key": "d",
+          "text": "28 dias"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O período de incubação do vírus Zika é geralmente citado em torno de 3 a 7 dias, sendo 7 dias a opção mais próxima do padrão descrito na literatura entre as alternativas apresentadas.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_058",
+      "statement": "Qual dos achados laboratoriais é o mais comum na febre por Chikungunya?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Leucocitose"
+        },
+        {
+          "key": "b",
+          "text": "Eosinofilia"
+        },
+        {
+          "key": "c",
+          "text": "Neutrofilia na fase de artrite"
+        },
+        {
+          "key": "d",
+          "text": "Linfopenia"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A linfopenia é o achado laboratorial mais comumente descrito na febre chikungunya.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_059",
+      "statement": "Neuza é gestante de 12 semanas, mora em Sorocaba/SP e é casada com Lúcio, motorista de caminhão. Retornando de viagem ao Estado de Pernambuco, Lúcio apresentou quadro de exantema maculopapular, febre baixa, artralgia, mialgia, dor de cabeça e hiperemia conjuntival não purulenta e sem prurido, edema nas pernas, dor de garganta, tosse e vômitos. Procurou o serviço de saúde que suspeitou de zika. Assinale a alternativa CORRETA entre as abaixo relacionadas:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A paciente não precisa ficar preocupada, pois já passou o primeiro trimestre da gestação"
+        },
+        {
+          "key": "b",
+          "text": "Deve-se recomendar que o contato sexual somente seja permitido com o uso do preservativo masculino"
+        },
+        {
+          "key": "c",
+          "text": "A paciente não pode receber repelentes a base de n-Dietil-metatoluamida (DEET), por seu potencial teratogênico"
+        },
+        {
+          "key": "d",
+          "text": "Há indicação de soroterapia hiperimune para possíveis contactantes de indivíduo com zika, como é o caso da gestante Neuza"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de parceiro com quadro sugestivo de Zika, recomenda-se o uso de preservativo nas relações sexuais durante a gestação, dado o risco de transmissão sexual do vírus e de complicações fetais.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_060",
+      "statement": "O vírus Zika é um Flavivírus capaz de causar infecção em humanos. O primeiro caso diagnosticado no Brasil ocorreu no ano de 2015, na Região Nordeste. Sendo INCORRETO que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a maioria das pessoas infectadas apresentará a forma assintomática. Em pessoas sintomáticas, os principais sinais e sintomas são rash cutâneo, febre, conjuntivite, cefaleia, dores articulares e mialgia."
+        },
+        {
+          "key": "b",
+          "text": "as anomalias congênitas associadas à infecção pelo vírus Zika foram observadas logo após a entrada do vírus no território nacional."
+        },
+        {
+          "key": "c",
+          "text": "a microcefalia foi o acometimento mais frequente do SNC e desencadeou situação de alerta no Brasil naquele momento, por ter sido considerado uma Situação de Emergência em Saúde Pública de Importância Nacional (Brasil, 2016)."
+        },
+        {
+          "key": "d",
+          "text": "o vírus pode ser transmitido por meio da picada do vetor Aedes aegypti (o mesmo que transmite dengue, Chikungunya e febre amarela), assim como por transmissão vertical, mas não sexual."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A infecção pelo Zika PODE, sim, ser transmitida por via sexual — contrariando a afirmação de que não haveria essa via de transmissão, tornando essa a alternativa INCORRETA (as demais informações sobre a maioria assintomática, a microcefalia como alerta nacional e a transmissão vetorial estão corretas).",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_061",
+      "statement": "Qual dos achados do Zika vírus é o mais frequente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Artrite."
+        },
+        {
+          "key": "b",
+          "text": "Mialgia."
+        },
+        {
+          "key": "c",
+          "text": "Cefaleia."
+        },
+        {
+          "key": "d",
+          "text": "Rash."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O rash cutâneo é o achado clínico mais frequente na infecção pelo vírus Zika.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_062",
+      "statement": "Gestante, 20 semanas de gestação, oriunda de área infestada pelo mosquito Aedes aegypti, com febre alta há 48 horas e manchas vermelhas na pele há 12 horas, além de dores intensas nas articulações, prurido pelo corpo e vermelhidão nos olhos. A hipótese diagnóstica mais provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Chikungunya."
+        },
+        {
+          "key": "b",
+          "text": "Zika."
+        },
+        {
+          "key": "c",
+          "text": "Dengue."
+        },
+        {
+          "key": "d",
+          "text": "Febre amarela."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Febre alta, exantema pruriginoso, dores articulares INTENSAS e hiperemia ocular em gestante de área endêmica sugerem chikungunya, cuja intensidade da artralgia é o principal diferencial em relação à dengue e à Zika.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_063",
+      "statement": "Conforme nota informativa do Ministério da Saúde, a arbovirose que pode ser transmitida por via sexual é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Rocio"
+        },
+        {
+          "key": "b",
+          "text": "Dengue"
+        },
+        {
+          "key": "c",
+          "text": "Oropouche"
+        },
+        {
+          "key": "d",
+          "text": "Zika"
+        },
+        {
+          "key": "e",
+          "text": "Mayaro"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O Zika é a arbovirose com transmissão sexual documentada e reconhecida em nota informativa do Ministério da Saúde, ao contrário das demais listadas.",
+      "theme": "arb_zika",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_067",
+      "statement": "Sobre a febre chikungunya, marque a alternativa INCORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "As dores nas articulações são geralmente simétricas e ocorrem mais comumente em punhos, cotovelos, dedos, joelhos e tornozelos, mas também podem afetar as articulações mais proximais."
+        },
+        {
+          "key": "b",
+          "text": "A viremia persiste entre até dois e cinco dias após o surgimento das manifestações clínicas."
+        },
+        {
+          "key": "c",
+          "text": "O edema de intensidade variável, localizado nas mãos e nos pés, é também um achado freqüente nos lactentes no primeiro ano de vida."
+        },
+        {
+          "key": "d",
+          "text": "O prurido está presente em 25% dos pacientes e pode ser generalizado ou apenas localizado na região palmoplantar."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A afirmativa INCORRETA (resposta pedida) é a (b): a viremia na chikungunya ocorre predominantemente nos primeiros dias após o início dos sintomas (coincidindo com a fase aguda febril), não persistindo tipicamente da forma descrita na alternativa.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_070",
+      "statement": "Febre baixa (menor de 38,5°C) com duração de um a dois dias; exantema de início precoce, com progressão craniocaudal, disseminado e acompanhado de prurido; dor muscular leve; dor articular de leve a moderada, com edema nas pequenas articulações de mãos e pés; hiperemia conjuntival. Este quadro clínico é indicativo de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Chikungunya."
+        },
+        {
+          "key": "b",
+          "text": "Dengue."
+        },
+        {
+          "key": "c",
+          "text": "Febre amarela."
+        },
+        {
+          "key": "d",
+          "text": "Zika vírus."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Febre baixa, exantema de início precoce com progressão craniocaudal e prurido, dor muscular leve, dor articular leve a moderada com edema de pequenas articulações e hiperemia conjuntival compõem o quadro clássico da infecção pelo vírus Zika.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_077",
+      "statement": "Não é transmissão do Zika vírus:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "beijo."
+        },
+        {
+          "key": "b",
+          "text": "sexual."
+        },
+        {
+          "key": "c",
+          "text": "transfusão sanguínea."
+        },
+        {
+          "key": "d",
+          "text": "transplante de órgão."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O beijo não é uma via de transmissão reconhecida do vírus Zika, diferente da transmissão sexual, por transfusão sanguínea e por transplante de órgãos, todas já documentadas.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_081",
+      "statement": "Considere as assertivas abaixo sobre a infecção pelo vírus Zika. I – Aedes aegypti é o único vetor conhecido; II – A vacina inativada previne 60% das infecções; III – Está associada à síndrome de Guillain-Barré. Quais são CORRETAS?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas I."
+        },
+        {
+          "key": "b",
+          "text": "Apenas II."
+        },
+        {
+          "key": "c",
+          "text": "Apenas III."
+        },
+        {
+          "key": "d",
+          "text": "Apenas I e III."
+        },
+        {
+          "key": "e",
+          "text": "I, II e III."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Apenas a afirmativa III está correta: a infecção pelo vírus Zika está associada à síndrome de Guillain-Barré. As afirmativas I (Aedes aegypti como único vetor) e II (vacina inativada com 60% de eficácia) contêm erros, pois há outros vetores implicados e não existe vacina amplamente estabelecida contra o Zika.",
+      "theme": "arb_zika",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_082",
+      "statement": "Em relação à infecção causada pelo vírus Zika, é CORRETO afirmar que",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Em comparação com a Dengue, na febre pelo vírus Zika, o exantema surge mais tardiamente no período febril e é menos frequente"
+        },
+        {
+          "key": "b",
+          "text": "A conjuntivite é mais frequente na Dengue e na febre de chikungunya do que na febre pelo vírus Zika."
+        },
+        {
+          "key": "c",
+          "text": "Após a infecção pelo vírus Zika, a maioria dos indivíduos apresenta doença sintomática."
+        },
+        {
+          "key": "d",
+          "text": "A infecção materna pelo vírus Zika não contraindica o aleitamento materno."
+        },
+        {
+          "key": "e",
+          "text": "Em recém-nascido com mais de 37 semanas de idade gestacional, microcefalia é definida como perímetro cefálico menor ou igual à 32 cm."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A infecção materna pelo vírus Zika não contraindica o aleitamento materno, sendo essa a afirmativa correta entre as opções apresentadas sobre a infecção por Zika.",
+      "theme": "arb_zika",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_083",
+      "statement": "Em relação à febre Chikungunya, é CORRETO afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A maioria dos casos de transmissão vertical da doença resulta da infecção materna nas primeiras 20 semanas de gestação."
+        },
+        {
+          "key": "b",
+          "text": "A maioria dos indivíduos infectados pelo vírus Chikungunya tem infecção assintomática."
+        },
+        {
+          "key": "c",
+          "text": "Recém-nascidos que adquirem a doença por transmissão vertical tem, geralmente, uma forma pouco sintomática e benigna da doença."
+        },
+        {
+          "key": "d",
+          "text": "Na fase subaguda, observa-se persistência da dor articular e, habitualmente, desaparecimento da febre."
+        },
+        {
+          "key": "e",
+          "text": "Leucopenia e trombocitopenia inferior a 100.000 céls/mm³ são achados laboratoriais frequentes."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Na fase subaguda da chikungunya, observa-se persistência da dor articular associada, habitualmente, ao desaparecimento da febre — distinguindo essa fase da fase aguda inicial.",
+      "theme": "arb_zika",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_084",
+      "statement": "A febre Chikungunya caracteriza-se por quadro febril de início súbito, artralgia intensa, edema de extremidades, exantema maculopapular, hiperemia conjuntival e apresenta-se de forma epidêmica em vários estados do Brasil. Com relação a essa doença, é CORRETO afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tem caráter exclusivamente agudo, não havendo relato de evolução para cronicidade em nenhuma faixa etária."
+        },
+        {
+          "key": "b",
+          "text": "As crianças, principalmente lactentes e recém-nascidos, podem apresentar formas atípicas e mais graves como encefalite, miocardite e erupções vesicobolhosas."
+        },
+        {
+          "key": "c",
+          "text": "É assintomática ou oligossintomática, na maioria dos casos, e apresenta pouca morbidade."
+        },
+        {
+          "key": "d",
+          "text": "A febre Chikungunya não apresenta formas atípicas ou graves."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Lactentes e recém-nascidos com chikungunya (especialmente por transmissão vertical) podem apresentar formas atípicas e mais graves, incluindo encefalite, miocardite e erupções vesicobolhosas.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_087",
+      "statement": "Patrícia, 22 anos, gestante, moradora de região endêmica de arbovirose, procurou o pronto atendimento apresentando mal estar geral de início há 24 horas. Após avaliação e com base no quadro clínico, o médico plantonista suspeitou fortemente de infecção por Zika vírus (ZIKV). Analise as alternativas a seguir e assinale a que levou o médico a suspeitar de infecção por ZIKV.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Febre baixa de 37,5°C, exantema cutâneo pruriginoso, conjuntivite purulenta e intensa dor muscular."
+        },
+        {
+          "key": "b",
+          "text": "Febre baixa de 37,5°C, exantema cutâneo pruriginoso, conjuntivite não purulenta e leve dor muscular."
+        },
+        {
+          "key": "c",
+          "text": "Febre alta de 38,8°C, exantema cutâneo pruriginoso, conjuntivite não purulenta e intensa dor muscular."
+        },
+        {
+          "key": "d",
+          "text": "Febre alta de 38,8°C, exantema cutâneo pruriginoso, ausência de conjuntivite e leve dor muscular."
+        },
+        {
+          "key": "e",
+          "text": "Febre baixa de 37,5°C, exantema cutâneo pruriginoso, ausência de conjuntivite e intensa dor muscular."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Febre baixa, exantema pruriginoso, conjuntivite NÃO purulenta e dor muscular LEVE são os achados que classicamente levam à suspeita de infecção pelo vírus Zika, distinguindo-a de outras arboviroses com quadros mais intensos.",
+      "theme": "arb_zika",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_088",
+      "statement": "Paciente apresenta quadro de exantema maculopapular pruriginoso acompanhado de febre, hiperemia conjuntival, poliatralgia e, em algumas articulações, edema perarticular. Considerando-se a possibilidade de ser zika, neste momento, deve-se:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas observar."
+        },
+        {
+          "key": "b",
+          "text": "Manter o paciente em isolamento de contato."
+        },
+        {
+          "key": "c",
+          "text": "Preencher a notificação de doenças compulsórias."
+        },
+        {
+          "key": "d",
+          "text": "Colher líquido sinovial para realizar sorologia."
+        },
+        {
+          "key": "e",
+          "text": "Prescrever levofloxacino para encurtar o tempo do exantema."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A suspeita de infecção pelo vírus Zika é doença de notificação compulsória, devendo a notificação ser preenchida diante do quadro clínico sugestivo descrito.",
+      "theme": "arb_zika",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_089",
+      "statement": "Paciente em Dourados, MS, com quadro de febre há 2 dias (temperatura máxima de 39 graus) associada à intensa mialgiapreoibeiddiacivneanldivare artralgia. Associado refere cefaleia e surgimento de exantema macular não pruriginoso. A paciente está na 10ª semana gestacional e questiona sobre a possibilidade de microcefalia no feto. Qual a conduta diagnóstica correta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicita sorologias Febre do Chikungunya, Zika vírus e Dengue IGm e IGg."
+        },
+        {
+          "key": "b",
+          "text": "Solicita antígeno NS1 para dengue, hemograma, transaminases e albumina sérica."
+        },
+        {
+          "key": "c",
+          "text": "Interna a paciente e realiza amniocentese para pesquisa de Zika vírus."
+        },
+        {
+          "key": "d",
+          "text": "Solicita US morfológico urgente."
+        },
+        {
+          "key": "e",
+          "text": "Solicita VDRL, HIV e hepatites."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de quadro sugestivo de arbovirose em gestante com preocupação sobre microcefalia fetal, a conduta diagnóstica inicial inclui a pesquisa do antígeno NS1 para dengue associada a exames laboratoriais gerais (hemograma, transaminases, albumina sérica), antes de investigações mais específicas.",
+      "theme": "arb_zika",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_090",
+      "statement": "Raimundo, 29 anos, morador da periferia de uma grande cidade do Nordeste, tendo retornado de uma viagem breve ao interior do Pará há oito dias, aparece em consulta queixando-se de que há um dia iniciou com quadro de exantema com prurido e dor muscular leve. Evoluiu com dores articulares moderadas e conjutivite no dia de hoje. Ao exame físico apresenta temperatura axilar de 37,5°C, edema articular leve, linfonodos palpáveis e dolorosos na região cervical. Analisando o caso apresentado, a hipótese diagnóstica mais provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dengue."
+        },
+        {
+          "key": "b",
+          "text": "Febre amarela."
+        },
+        {
+          "key": "c",
+          "text": "Zika."
+        },
+        {
+          "key": "d",
+          "text": "Chikungunya."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Exantema pruriginoso, dor muscular leve, dores articulares moderadas, conjuntivite, febre baixa e linfonodomegalia cervical compõem quadro compatível com infecção pelo vírus Zika.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_092",
+      "statement": "A Respeito do Zika marque a opção correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cerca de 80% das pessoas infectadas pelo vírus Zika desenvolvem manifestações clínicas como cefaleia, febre alta, dores intensas em articulações, manchas vermelhas no corpo, prurido, tosse e vômitos;"
+        },
+        {
+          "key": "b",
+          "text": "Os sintomas são tratados com medicação para a febre (preferencialmente AAS) e para as dores articulares (corticoides);"
+        },
+        {
+          "key": "c",
+          "text": "A Síndrome de Guillain-Barré, pode aparecer em decorrência do Zika vírus, e tem como sintomas a fraqueza muscular e a paralisia dos músculos. Os sintomas começam pelas pernas, podendo, em seguida, irradiar para o tronco, braços e face;"
+        },
+        {
+          "key": "d",
+          "text": "O Zika não é um vírus transmitido pelo Aedes aegypti, tendo sido identificado pela primeira vez no Brasil em abril ainda no século 19."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A síndrome de Guillain-Barré é uma complicação neurológica reconhecida associada à infecção pelo vírus Zika, caracterizada por fraqueza muscular ascendente e paralisia, iniciando nas pernas e podendo progredir para tronco, braços e face.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_093",
+      "statement": "No ano de 2016, houve muitos casos de Zika Vírus no nordeste do Brasil. Sobre essa doença marque a alternativa correta: I - Fazem parte do quadro clínico: exantema, artralgia, linfoaenopatia, cefaleia.; II - De nição de casos suspeitos quando apresenta exantema maculopapular pruriginoso acompanhado de 2 ou mais sinais e sintomas: febre ou hiperemia conjutival sem secreção e prurido, poliartralgia ou edema periarticular.; III - Quadros de manifestações neurológicas iniciados até 60 dias após a infecção viral: encefalite, mielite, meningoencefalite, síndrome de guillain barré, paralisias flácidas agudas.; IV – São complicações associadas ao zika vírus: artrogripose, microcefalia, lesões oculares em fundo de olho, convulsões.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Se as afirmativas I , II, III, IV estão corretas."
+        },
+        {
+          "key": "b",
+          "text": "Se somente as afirmativas I, II estão corretas."
+        },
+        {
+          "key": "c",
+          "text": "Se somente as afirmativas I, II, IV estão corretas."
+        },
+        {
+          "key": "d",
+          "text": "Se somente as afirmativas I, III, IV estão corretas."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Todas as quatro afirmativas sobre a infecção pelo vírus Zika (quadro clínico, definição de caso suspeito, manifestações neurológicas até 60 dias após a infecção, e complicações associadas como artrogripose e microcefalia) estão corretas.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_095",
+      "statement": "Desde 2015, casos de infecção pelo vírus da zika têm sido noti cados no Brasil. Essa questão tem preocupado pro ssionais e órgãos de saúde no país. Sobre esta infecção, sabe-se que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A doença é autolimitada, dura de quatro a sete dias, se inicia com rash cutâneo ascendente, febre alta, artralgia e conjuntivite purulenta, e apresenta 50% dos casos assintomáticos."
+        },
+        {
+          "key": "b",
+          "text": "O diagnóstico é confirmado por RT-PCR em sangue, urina ou saliva, entretanto é limitado por reações cruzadas com outros retrovírus."
+        },
+        {
+          "key": "c",
+          "text": "O diagnóstico diferencial entre a infecção pelo vírus da zika, dengue e chikungunya é essencialmente clínico, sendo os sintomas geralmente mais intensos na infecção pelo vírus da zika."
+        },
+        {
+          "key": "d",
+          "text": "O paciente com diagnóstico de infecção pelo vírus da zika, que for sexualmente ativo, deve ser informado sobre o risco de transmissão sexual e orientado a utilizar preservativo."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Pacientes com diagnóstico de Zika sexualmente ativos devem ser orientados sobre o risco de transmissão sexual do vírus e a necessidade de uso de preservativo.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_096",
+      "statement": "Em relação à doença causada pelo vírus da zika, no Brasil,",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "É considerado caso suspeito aquele que apresenta febre acompanhada de dois ou mais dos seguintes sinais e sintomas: exantema máculo-papular, ou náuseas/vômitos, ou milagia/artralgia."
+        },
+        {
+          "key": "b",
+          "text": "É considerada doença de notificação não compulsória."
+        },
+        {
+          "key": "c",
+          "text": "Há confirmação de transmissão autóctone."
+        },
+        {
+          "key": "d",
+          "text": "Deve-se comunicar sua suspeita às secretarias municipais e estaduais em até 15 dias para investigação."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Há confirmação de transmissão autóctone do vírus Zika no Brasil, fato estabelecido desde 2015.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_100",
+      "statement": "O vírus Zika foi isolado pela primeira vez em primatas não humanos em Uganda. No Brasil, a transmissão autóctone deste vírus começou a ocorrer em abril de 2015. Em relação a este agravo, podemos afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O diagnóstico laboratorial é feito pela detecção do RNA viral até 10 dias após o início dos sintomas."
+        },
+        {
+          "key": "b",
+          "text": "Se caracteriza como doença viral subaguda com tendência a cronificação, sendo transmitida por mosquitos como Aedes aegyptis."
+        },
+        {
+          "key": "c",
+          "text": "Clinicamente, apresenta exantema maculo-papular pruriginoso, hiperemia conjuntival, febre intermitente, artralgia, mialgia."
+        },
+        {
+          "key": "d",
+          "text": "Clinicamente, apresenta exantema maculo-papular pruriginoso, hiperemia conjuntival purulenta pruriginosa, febre artralgia intensa, hemorragias."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Clinicamente, a infecção por Zika apresenta exantema maculopapular pruriginoso, hiperemia conjuntival, febre intermitente (geralmente baixa), artralgia e mialgia.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_101",
+      "statement": "Zika vírus é uma doença infecto-contagiosa principalmente transmitida às pessoas através da picada do mosquito Aedes infectado (Ae.aegypt e Ae albopictus). Analise as afirmativas: I. A infecção durante a gestação pode causar microcefalia e outras alterações cerebrais severas no feto; II. O vírus também é transmitido pela via sexual, e pode permanecer até 6 meses no sêmen do homem; III. Não há evidências de associação observada entre a infecção pelo vírus e a Síndrome de Guillain Barré; Estão corretas as afirmativas:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas a I."
+        },
+        {
+          "key": "b",
+          "text": "I, II e III."
+        },
+        {
+          "key": "c",
+          "text": "I e III."
+        },
+        {
+          "key": "d",
+          "text": "I e II."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "As afirmativas I (risco de microcefalia fetal) e II (transmissão sexual, com persistência viral no sêmen por até 6 meses) estão corretas. A afirmativa III está incorreta, pois HÁ evidências consistentes associando a infecção por Zika à síndrome de Guillain-Barré.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_107",
+      "statement": "Sobre o Zika vírus, é INCORRETO afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O vírus Zika é transmitido por meio da picada do mosquito Aedes aegypti."
+        },
+        {
+          "key": "b",
+          "text": "A principal ação de combate ao mosquito é evitar sua reprodução."
+        },
+        {
+          "key": "c",
+          "text": "Os principais sintomas são febre, coceira, dor de cabeça, dor no corpo e nas juntas e manchas vermelhas pelo corpo."
+        },
+        {
+          "key": "d",
+          "text": "A infecção pelo vírus Zika na gestação está associada à hidrocefalia fetal."
+        },
+        {
+          "key": "e",
+          "text": "A infecção pelo vírus Zika não tem vacina identificada até o momento."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A infecção pelo vírus Zika na gestação está classicamente associada à MICROCEFALIA fetal (não à hidrocefalia), sendo essa a afirmativa INCORRETA entre as apresentadas.",
+      "theme": "arb_zika",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_110",
+      "statement": "São características da fase crônica da febre de chikungunya (CHIKV):",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Placas eritematosas, eritemato-hipocrômicas, até 5 lesões de pele bem delimitadas, hipo ou anestésicas, podendo ocorrer comprometimento de nervo."
+        },
+        {
+          "key": "b",
+          "text": "Hipoestesia em bota e luva, deficit de sensibilidade profunda, parestesias, podendo em alguns casos manter o quadro de cefaleia, mialgia e edema."
+        },
+        {
+          "key": "c",
+          "text": "Acometimento articular persistente nas mesmas articulações atingidas durante a fase aguda e subaguda, caracterizado por dor com ou sem edema."
+        },
+        {
+          "key": "d",
+          "text": "Aparecimento abrupto de febre alta ( > 38,5°C), dor articular (artralgia) intensa, exantema maculopapular de característica morbiliforme."
+        },
+        {
+          "key": "e",
+          "text": "Cefaleia, lombalgia, mialgia, náusea, vômitos, poliartrite e conjuntivite são manifestações frequentes que surgem em diferentes momentos da doença."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A fase crônica da chikungunya caracteriza-se por acometimento articular persistente nas mesmas articulações atingidas durante as fases aguda e subaguda, com dor, podendo ou não haver edema associado.",
+      "theme": "arb_zika",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_111",
+      "statement": "Com relação às síndromes infecciosas febris, julgue o item seguinte. Caso as sorologias para Chikungunya sejam negativas na fase que dura até o quinto dia do aparecimento dos sintomas, pode-se descartar com segurança o diagnóstico dessa doença.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "ERRADO: sorologias negativas para chikungunya antes do 5º dia de sintomas não descartam com segurança o diagnóstico, pois a resposta de anticorpos IgM pode ainda não estar plenamente detectável nesse período precoce.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_113",
+      "statement": "Doença infecciosa febril, causada por vírus, que tem dor articular como um dos sintomas importantes, que pode ser transmitida pelos mosquitos Aedes aegypti e Aedes albopictus. Estamos nos referindo a:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Zica."
+        },
+        {
+          "key": "b",
+          "text": "Chikungunya (CHIK V)."
+        },
+        {
+          "key": "c",
+          "text": "Febre amarela."
+        },
+        {
+          "key": "d",
+          "text": "Dengue. 4 0 0 0 0 0 3 4p2ro1ibeiddiacivneanldivare"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Doença febril viral com dor articular como sintoma proeminente, transmitida por Aedes aegypti e Aedes albopictus, corresponde à chikungunya (CHIKV).",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_115",
+      "statement": "Recentemente foram con rmados alguns casos da febre Chikungunya no estado do Rio de Janeiro. Essa virose apresenta muitas semelhanças com a dengue. Assinale a opção ERRADA em relação à febre Chikungunya.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pode ser transmitida pelos mesmos vetores da dengue (mosquitos dos gêneros Aedes)."
+        },
+        {
+          "key": "b",
+          "text": "Não existe vacina para sua prevenção."
+        },
+        {
+          "key": "c",
+          "text": "Suas principais manifestações são semelhantes à da dengue, incluindo febre, artralgias, conjuntivite, cefaleia, porém com manifestações hemorrágicas graves mais frequentes."
+        },
+        {
+          "key": "d",
+          "text": "Pode causar artrite com duração longa."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A alternativa ERRADA (resposta pedida) é a (c): a chikungunya, ao contrário do afirmado, apresenta manifestações hemorrágicas graves MENOS frequentes que a dengue, não mais frequentes — sendo essa uma das principais diferenças entre as duas doenças.",
+      "theme": "arb_zika",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_116",
+      "statement": "Em relação à febre Chikungunya, é INCORRETO afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Os sintomas da doença são clinicamente semelhantes aos da dengue."
+        },
+        {
+          "key": "b",
+          "text": "As drogas de escolha para o tratamento da febre Chikungunya são ácido acetilsalicílico e anti-inflamatórios."
+        },
+        {
+          "key": "c",
+          "text": "A principal manifestação clínica que a difere da dengue são as fortes dores articulares."
+        },
+        {
+          "key": "d",
+          "text": "A febre pode ser contínua ou intermitente e geralmente é alta (acima de 39 graus)."
+        },
+        {
+          "key": "e",
+          "text": "Os principais fatores de risco para cronificação são idade acima de 45 anos e desordem articular preexistente."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A alternativa INCORRETA (resposta pedida) é a (b): o ácido acetilsalicílico e outros anti-inflamatórios NÃO são as drogas de escolha para chikungunya — devem ser evitados na fase aguda pelo risco de sangramento e pela possibilidade de coexistência com dengue, sendo preferível o uso de analgésicos como paracetamol.",
+      "theme": "arb_zika",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    }
+  ]
+}

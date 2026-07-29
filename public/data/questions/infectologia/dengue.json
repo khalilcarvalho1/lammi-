@@ -1,1 +1,2120 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "arb_001",
+      "statement": "Um paciente de 25 anos de idade foi ao pronto-socorro com queixa de febre há três dias, mialgia, cefaleia retro-orbital e petéquias. Ao concluir o exame físico, o médico detectou dois sinais de alarme presentes no paciente. Com base nessa situação hipotética, assinale a alternativa que apresenta, correta e respectivamente, a doença a ser o diagnóstico principal e os dois exemplos de sinais de alarme para a doença.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "dengue e vômitos persistentes e redução do hematócrito"
+        },
+        {
+          "key": "b",
+          "text": "malária e ascite e letargia"
+        },
+        {
+          "key": "c",
+          "text": "dengue e sangramento de mucosa e aumento progressivo do hematócrito"
+        },
+        {
+          "key": "d",
+          "text": "leptospirose e dor abdominal e derrame pericárdico"
+        },
+        {
+          "key": "e",
+          "text": "sarampo e hipotensão e má perfusão periférica"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O quadro (febre, mialgia, cefaleia retro-orbital, petéquias) é sugestivo de dengue. Entre os sinais de alarme oficiais estão o sangramento de mucosas e o aumento progressivo do hematócrito (indicando extravasamento plasmático) — vômitos persistentes é sinal de alarme real, mas \"redução\" do hematócrito não é (o sinal correto é aumento).",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_002",
+      "statement": "A dengue é uma doença que afeta todos os níveis sociais e contribui com signi cativa carga de doença, com importante impacto econômico e social nas populações das áreas endêmicas. I - Quando se analisa a distribuição geográ ca da incidência dos casos prováveis de dengue entre 2003 e 2019 os casos de dengue estão distribuídos em todo o território nacional, com menor incidência nos municípios da região Sul. II - Entre 2003 e 2019 os municípios das regiões Centro-Oeste e Sudeste concentram o maior número de casos. III - Também no período de 2003 e 2019, os estados de Goiás, Mato Grosso, Ceará, Mato Grosso do Sul e Espírito Santo, tem médias do coeficiente de mortalidade até três vezes menor que o nacional. Está(ão) correta(s) a(s) afirmação(ões)? Está(ão) correta(s) a(s) afirmação(ões)?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas a I está correta."
+        },
+        {
+          "key": "b",
+          "text": "Todas estão corretas."
+        },
+        {
+          "key": "c",
+          "text": "Apenas a I e II estão corretas."
+        },
+        {
+          "key": "d",
+          "text": "Apenas a II e III estão corretas."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Segundo a distribuição epidemiológica de casos de dengue no Brasil entre 2003-2019, os casos estão presentes em todo o território nacional com menor incidência na região Sul (I), e as regiões Centro-Oeste e Sudeste concentram o maior número de casos (II) — ambas afirmações corretas conforme dados do Ministério da Saúde.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_004",
+      "statement": "Em relação à Dengue assinale a alternativa correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A orientação para os pacientes com febre hemorrágica da dengue é aumento da hidratação venosa e repouso em casa."
+        },
+        {
+          "key": "b",
+          "text": "Somente devem ser notificados os casos confirmados de Dengue."
+        },
+        {
+          "key": "c",
+          "text": "Em crianças menores de 1 ano pode ocorrer a forma hemorrágica se a criança tiver anticorpos anti-dengue adquiridos da mãe durante a gestação."
+        },
+        {
+          "key": "d",
+          "text": "O mosquito Aedes aegypti é o principal hospedeiro do vírus da dengue e seus ovos sobrevivem até mesmo por 1 ano num local seco."
+        },
+        {
+          "key": "e",
+          "text": "A febre é o correspondente clínico mais importante da doença, cuja viremia dura em torno de dez a quatorze dias."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Recém-nascidos podem apresentar dengue hemorrágica mesmo na primoinfecção, devido à presença de anticorpos anti-dengue adquiridos passivamente da mãe (mecanismo semelhante ao de intensificação dependente de anticorpos observado na infecção sequencial).",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_005",
+      "statement": "Adolescente de 13 anos, sexo masculino, portador de anemia falciforme, há 4 dias apresenta febre, mialgia, cefaléia, hiporexia, náuseas e vômitos persistentes. Ao exame: hipocorado (+/4+), eupneico, acianótico, desidratado. Ausculta cardíaca e pulmonar fisiológicas, abdome doloroso à palpação em epigastro, presença de petéquias em antebraço. Pa: 110 x 80mmhg, fc=96bpm, prova do laço positiva. Diante desse quadro, considera-se sinal de alarme",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "algum grau de desidratação."
+        },
+        {
+          "key": "b",
+          "text": "presença de petéquias."
+        },
+        {
+          "key": "c",
+          "text": "vômitos persistentes."
+        },
+        {
+          "key": "d",
+          "text": "prova do laço positiva."
+        },
+        {
+          "key": "e",
+          "text": "ser portador de anemia falciforme."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Vômitos persistentes constam na lista oficial de sinais de alarme da dengue do Ministério da Saúde — diferente de petéquias, prova do laço positiva ou desidratação isolada, que são achados clínicos da doença, mas não classificados formalmente como sinais de alarme.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_006",
+      "statement": "Qual é o achado do teste do laço positivo num paciente com dengue?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": ">= 10 petéquias num quadrado de 2,5 cm de lado"
+        },
+        {
+          "key": "b",
+          "text": ">= 20 petéquias num quadrado de 2,5 cm de lado"
+        },
+        {
+          "key": "c",
+          "text": ">= 40 petéquias num quadrado de 4,0 cm de lado"
+        },
+        {
+          "key": "d",
+          "text": ">= 50 petéquias num quadrado de 4,0 cm de lado"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A prova do laço é considerada positiva quando há 20 ou mais petéquias em um quadrado de 2,5 cm de lado (padrão para adultos), conforme critério oficial do Ministério da Saúde.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_007",
+      "statement": "Sobre o manejo da Dengue, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O exantema clássico na Dengue, presente em 50% dos casos, atinge face, tronco e membros de forma aditiva, podendo apresentar-se com ou sem prurido, frequentemente no início da febre."
+        },
+        {
+          "key": "b",
+          "text": "A prova do laço deve ser realizada em todas as pessoas com suspeita de Dengue. A prova será positiva se houver mais de 20 petéquias em adultos e mais de 10 petéquias em crianças."
+        },
+        {
+          "key": "c",
+          "text": "A impossibilidade de seguimento ou retorno à unidade de saúde não é critério de internação hospitalar no caso de pessoas classificadas como Grupo A no fluxograma do manejo da dengue. O acompanhamento é ambulatorial."
+        },
+        {
+          "key": "d",
+          "text": "Em caso de o protocolo local recomendar solicitação de exames de sorologia IgG e IgM no manejo da dengue, estes devem ser solicitados no aparecimento da febre e suspeita da doença, para sua confirmação."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A prova do laço deve ser realizada em todo paciente com suspeita de dengue, sendo positiva com 20 ou mais petéquias em adultos e 10 ou mais em crianças, dentro de um quadrado de 2,5 cm de lado no antebraço.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_008",
+      "statement": "O tratamento para dengue recomendado pelo Ministério da Saúde baseia-se na hidratação adequada, levando em consideração o estadiamento da doença em 4 grupos: A, B, C e D. Considerando essa informação, assinale a alternativa que apresenta uma característica do grupo B:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Presença de petéquias."
+        },
+        {
+          "key": "b",
+          "text": "Prova do laço negativa."
+        },
+        {
+          "key": "c",
+          "text": "Oligúria."
+        },
+        {
+          "key": "d",
+          "text": "Choque cardiocirculatório."
+        },
+        {
+          "key": "e",
+          "text": "Insuficiência respiratória."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O Grupo B da classificação de risco da dengue (Ministério da Saúde) inclui pacientes com manifestações hemorrágicas espontâneas (como petéquias) ou prova do laço positiva, sem sinais de alarme — diferente do Grupo C/D, que envolve choque, oligúria e insuficiência respiratória.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_009",
+      "statement": "Mulher, 36 anos, hígida apresenta febre há 48 horas, de início súbito, associada a artralgia e dor retro-orbitária. No exame da triagem, a paciente apresentava os seguintes sinais vitais: temperatura=38ºC; Pulso=98bpm; PA=108x76 mmHg; FR=22irpm; SaO2=98%, enchimento capilar de 2s. Negava durante a sua consulta dor abdominal, náuseas, vômitos, sangramentos ou outras queixas. Ao exame físico, ausência de hipotensão postural, prova do laço negativa. Você fez a hipótese de Dengue para a situação clínica acima descrita. Em relação à classi cação de dengue e a conduta quanto à solicitação de exames para esta paciente no pronto socorro, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Paciente com dengue tipo A, sem necessidade de coleta de exames neste momento. Orientar hidratação oral no domicílio e retorno no primeiro dia sem febre ou mais precocemente se sinais de alarme."
+        },
+        {
+          "key": "b",
+          "text": "Paciente com dengue tipo A, sem necessidade de coleta de exames neste momento. Realizar hidratação oral assistida no hospital 80ml/kg/dia (1/3 com solução salina oral e 2/3 com ingestão de líquidos caseiros e orientar hidratação no domicílio, com retorno se sinais de alarme."
+        },
+        {
+          "key": "c",
+          "text": "Paciente com dengue tipo B, estando indicada a coleta de exames (hemograma. Realizar hidratação venosa no hospital 20 ml/kg/hora até o resultado do hemograma."
+        },
+        {
+          "key": "d",
+          "text": "Paciente com dengue tipo B, com necessidade de coleta de exames neste momento. Realizar hidratação oral assistida no hospital 80ml/kg/dia (1/3 com solução salina oral e 2/3 com ingestão de líquidos caseiros até o resultado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Paciente sem sinais de alarme (sem dor abdominal, vômitos, sangramentos), prova do laço negativa e hemodinamicamente estável corresponde ao Grupo A da dengue — sem necessidade de exames imediatos, apenas hidratação oral domiciliar e orientação de retorno se sinais de alarme.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_010",
+      "statement": "Uma paciente feminina, 30 anos, natural e procedente de Florianópolis, é atendida na emergência com febre, dor abdominal intensa e vários episódios de vômitos. Refere que há 5 dias apresenta febre, cefaleia frontal de forte intensidade e mialgias difusas. Lembra- se de ter sofrido picadas por mosquitos há cerca de uma semana. Ao exame a paciente está desidratada ++/4, temperatura axilar de 37,4°C, pressão arterial de 110/70 mmHg, frequência cardíaca de 96 bpm, dor à palpação de quadrante superior direito do abdome, com hepatimetria de 14 cm. Exames complementares: Hemoglobina 14,8 mg/dL. Hematócrito de 50%, leucograma com 3900/mm³, contagem de plaquetas 71.000/mm³ e prova do laço positiva. Diante disso é levantada a suspeita de dengue. Assinale a alternativa correta em relação ao caso descrito, considerando a hipótese diagnóstica apresentada.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Conforme a classificação da OMS, o quadro é de dengue com sinais de alerta."
+        },
+        {
+          "key": "b",
+          "text": "A paciente pode ser liberada para tratamento domiciliar com hidratação via oral."
+        },
+        {
+          "key": "c",
+          "text": "Os sinais de alerta no caso descrito são: cefaleia de forte intensidade, taquicardia e mialgias."
+        },
+        {
+          "key": "d",
+          "text": "Está indicada a transfusão de plaquetas para prevenir sangramentos."
+        },
+        {
+          "key": "e",
+          "text": "Não é necessário nenhum outro exame de confirmação diagnóstica uma vez que a prova do laço foi positiva."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O quadro (dor abdominal intensa, vômitos, hepatomegalia, plaquetopenia com hemoconcentração relativa) caracteriza dengue com sinais de alarme, conforme a classificação da OMS/Ministério da Saúde.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_011",
+      "statement": "O extravasamento plasmático é um dos principais eventos siopatológicos na dengue e está relacionado à maior gravidade da doença. Clinicamente, a presença de vômitos persistentes, dor abdominal, hipotensão postural, entre outros sinais clínicos, são considerados sinais de alarme que traduzem o referido evento. São exames que confirmam o extravasamento plasmático na dengue",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "hematócrito, albumina e ultrassonografia."
+        },
+        {
+          "key": "b",
+          "text": "leucograma, PCR e radiografia do tórax."
+        },
+        {
+          "key": "c",
+          "text": "dosagem de plaquetas, TGP e sorologia."
+        },
+        {
+          "key": "d",
+          "text": "hemograma, VSH e tomografia. pr6oibeiddiacivneanldivare"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O extravasamento plasmático na dengue é confirmado por evidências indiretas como hemoconcentração (hematócrito elevado), hipoalbuminemia e achados de efusão (derrame pleural/ascite) à ultrassonografia.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_013",
+      "statement": "Sobre a forma grave da dengue, aponte a afirmativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Manifesta-se entre o sétimo e o décimo dia da doença."
+        },
+        {
+          "key": "b",
+          "text": "Em crianças, geralmente surge após o quinto dia da doença, acompanhada ou não de defervescência."
+        },
+        {
+          "key": "c",
+          "text": "Durante o quadro, é possível encontrar o paciente com choque por conta de extravasamento de líquidos para o terceiro espaço, com diminuição de perfusão de órgãos alvo e rebaixamento do nível de consciência."
+        },
+        {
+          "key": "d",
+          "text": "Ocorrem hemorragias graves, por fragilidade capilar, associadas à plaquetopenia e disfunção orgânica."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A forma grave da dengue pode cursar com choque por extravasamento de líquidos para o terceiro espaço, levando a hipoperfusão de órgãos-alvo e rebaixamento do nível de consciência.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_014",
+      "statement": "Assinale a alternativa correta quanto às características observadas na fase crítica da dengue clássica.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Náusea, vômito e dor abdominal, linfadenopatias e exantema macular."
+        },
+        {
+          "key": "b",
+          "text": "Surgimento de prurido palmoplantar antes da remissão do exantema."
+        },
+        {
+          "key": "c",
+          "text": "Início súbito de febre, geralmente alta, acompanhada de cefaleia e dor retro-orbitária."
+        },
+        {
+          "key": "d",
+          "text": "Defervescência, entre 03 a 07 dias após o início dos sintomas."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A fase crítica da dengue clássica corresponde à defervescência, ocorrendo geralmente entre o 3º e o 7º dia após o início dos sintomas — momento de maior risco de extravasamento plasmático e evolução para formas graves.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_015",
+      "statement": "Relacione as principais síndromes clínicas no diagnóstico diferencial da dengue com as suas possíveis causas: COLUNA I - Síndromes Clínicas 1. Síndrome exantemática febril; 2. Síndrome do choque; 3. Síndrome hemorrágica febril; 4. Síndrome dolorosa abdominal COLUNA II - Diagnóstico ( ) Doença de Henoch-Schonlein; ( ) Hantavirose; ( ) Febre purpúrica brasileira; ( ) Pneumonia; Assinale a alternativa que apresenta a sequência CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "2 1 4 3."
+        },
+        {
+          "key": "b",
+          "text": "1 3 2 4."
+        },
+        {
+          "key": "c",
+          "text": "1 2 3 4."
+        },
+        {
+          "key": "d",
+          "text": "2 1 4 3."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Correlação correta entre síndromes clínicas e diagnósticos diferenciais da dengue: síndrome exantemática febril = doença de Henoch-Schönlein; síndrome hemorrágica febril = hantavirose; síndrome do choque = febre purpúrica brasileira (caracterizada por choque fulminante); síndrome dolorosa abdominal = pneumonia (dor abdominal referida, comum em crianças).",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_016",
+      "statement": "Sobre a dengue, assinale a alternativa INCORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O choque ocorre quando um volume crítico de plasma e perdido através do extravasamento, o que geralmente ocorre entre os dias quatro ou cinco de doença."
+        },
+        {
+          "key": "b",
+          "text": "Na criança o início da doença é mais arrastado e o agravamento é mais demorado do que no adulto, por apresentar uma reação imunológica mais frustra."
+        },
+        {
+          "key": "c",
+          "text": "São considerados sinais de alarme na dengue a dor abdominal intensa e contínua, vômitos persistentes, letargia dentre outros."
+        },
+        {
+          "key": "d",
+          "text": "O espectro clínico consiste de três fases, a febril, a crítica e a de recuperação."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A afirmativa INCORRETA (resposta pedida) é a (b): em crianças, o início da doença tende a ser mais súbito e o agravamento MAIS RÁPIDO que no adulto (não mais arrastado), o que dificulta a detecção precoce dos sinais de alarme nessa faixa etária.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_018",
+      "statement": "Uma mulher procedente da Serra/ES, 42 anos, diabética está em atendimento no PS devido relato de febre, artralgia e mialgia generalizadas associadas a cefaleia há 4 dias. Informa que hoje iniciou dor abdominal difusa e forte. Normotensa e confortável em ar ambiente durante exame. Qual a conduta inicial recomendada:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sintomáticos, hidratação oral e retorno se piora"
+        },
+        {
+          "key": "b",
+          "text": "Notificação de dengue com solicitação de sorologia, hemograma, hidratação oral e reavaliação após hemograma"
+        },
+        {
+          "key": "c",
+          "text": "Notificação de dengue com solicitação de sorologia, Internação por no mínimo 48h, hidratação endovenosa, hemograma, proteína, albumina, tipagem sanguínea, gasometria, transaminases e RX de tórax"
+        },
+        {
+          "key": "d",
+          "text": "Sintomáticos, hidratação endovenosa, sintomáticos e antibióticos empíricos"
+        },
+        {
+          "key": "e",
+          "text": "Notificação de dengue com solicitação de sorologia, Internação em UTI, hidratação endovenosa, hemograma, proteína, albumina, tipagem sanguínea, gasometria, transaminases e RX de tórax"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de dor abdominal intensa (sinal de alarme) em contexto de suspeita de dengue, a conduta é notificação, solicitação de sorologia e internação por no mínimo 48h com hidratação venosa e monitorização laboratorial completa (hemograma, proteínas, albumina, tipagem, gasometria, transaminases, RX de tórax) — correspondendo ao manejo do Grupo C.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_019",
+      "statement": "A respeito de doenças infecciosas durante a gravidez, julgue o item que se segue. A dengue durante a gravidez pode cursar com complicações clínicas maternas, porém não aumenta a taxa de complicações obstétricas.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "ERRADO: a dengue na gestação PODE, sim, aumentar o risco de complicações obstétricas (como parto prematuro e baixo peso ao nascer), além das complicações clínicas maternas.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_021",
+      "statement": "Com relação às características clínicas das arboviroses, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A febre aparece em cerca de 90% dos casos na infecção pelo Zika Vírus."
+        },
+        {
+          "key": "b",
+          "text": "A mialgia é mais frequente no Zika Vírus do que na dengue."
+        },
+        {
+          "key": "c",
+          "text": "O exantema é um sinal clínico de alta prevalência entre as arboviroses."
+        },
+        {
+          "key": "d",
+          "text": "A cefaleia é mais frequente na doença de chikungunya."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O exantema é um achado clínico de alta prevalência compartilhado entre as diferentes arboviroses (dengue, zika, chikungunya), sendo um sinal pouco específico para diferenciação isolada entre elas.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_022",
+      "statement": "Escolar, 7 anos, peso de 22 Kg, sexo feminino, inciou quadro de febre há 4 dias. Mãe refere que criança apresenta também mialgia, cefaleia, dor retro-orbitária e diminuição do apetite. Há 1 dia apareceram manchas pruriginosas por todo corpo. Hoje está muito sonolenta. Ao exame BEG-REG, prostrada, corada, eupneica, acianótica, sonolenta. Presença de exantema maculo-papular difuso (inclusive mãos e pés) e prova do laço positiva. Restante do exame físico sem alterações. Qual é a conduta a ser tomada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Prescrever hidratação domiciliar com volume de 80/ml/Kg/dia, sendo 1/3 de soro de reidratação oral e 2/3 de líquidos caseiros, e retorno no dia da melhora da febre."
+        },
+        {
+          "key": "b",
+          "text": "Solicitar hemograma, manter o paciente em observação até o resultado e prescrever hidratação oral com 80 ml/kg/dia, sendo 1/3 de soro de reidratação oral e 2/3 de líquidos caseiros."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar exames laboratoriais, de imagem, prescrever reposição volêmica com 10 ml/kg de soro fisiológico 0,9% na 1ª hora e solicitar regulação do paciente."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar exames laboratoriais, de imagem e prescrever reposição volêmica com 30 ml/kg em até 20 minutos. Repetir até 3 vezes se necessário e solicitar regulação do paciente."
+        },
+        {
+          "key": "e",
+          "text": "Solicitar hemograma, prescrever hidratação domiciliar com volume de 80 ml/kg/dia, sendo 1/3 de soro de reidratação oral e 2/3 de líquidos caseiros, e retorno no dia da melhora da febre."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A presença de sonolência (sinal de alarme) associada a prova do laço positiva caracteriza dengue com sinais de alarme (Grupo C), exigindo exames laboratoriais e de imagem, além de reposição volêmica imediata com 10 ml/kg de soro fisiológico na primeira hora e regulação do paciente.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_024",
+      "statement": "Habitualmente, que momento da doença ocorre o choque da dengue?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Nas primeiras 24 horas."
+        },
+        {
+          "key": "b",
+          "text": "Após a primeira semana."
+        },
+        {
+          "key": "c",
+          "text": "Sempre nas primeiras 48 horas da doença."
+        },
+        {
+          "key": "d",
+          "text": "Em torno do quarto dia quando a febre desaparece."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O choque por dengue ocorre tipicamente em torno do quarto dia de doença, coincidindo com o desaparecimento da febre (defervescência) — momento de maior risco de extravasamento plasmático.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_025",
+      "statement": "Paciente de 48 anos com quadro de mialgia, artralgia, febre, cefaleia retro-ocular e petéquias difusas há 2 dias, dá entrada no pronto atendimento de sua cidade, onde está tendo epidemia de dengue. O médico plantonista, suspeitando de tal patologia, imediatamente inicia a hidratação, antitérmico e lhe solicita sorologia de dengue. No entanto, os exames vem com o seguinte resultado: IgM dengue negativo e IgG dengue negativo. Qual a explicação que melhor define o ocorrido?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Os testes realizados foram de má qualidade e deverão ser repetidos ou realizados em outro laboratório."
+        },
+        {
+          "key": "b",
+          "text": "O paciente definitivamente não tem dengue e então deverá ser pesquisada outra patologia."
+        },
+        {
+          "key": "c",
+          "text": "Ainda é muito precoce a detecção dos anticorpos de dengue no sangue e então solicitar NS1."
+        },
+        {
+          "key": "d",
+          "text": "Certamente houve mutação viral que impediu a detecção da patologia."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Nos primeiros dias de doença, a sorologia (IgM/IgG) para dengue pode ainda ser negativa por ser precoce para a resposta imune detectável — nesse período, a pesquisa do antígeno NS1 é o exame mais indicado.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_026",
+      "statement": "Segundo o Ministério da Saúde, deve ser considerado caso suspeito de dengue toda criança:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Com dor abdominal contínua e vômitos persistentes."
+        },
+        {
+          "key": "b",
+          "text": "Residente em área com transmissão de dengue, com quadro febril agudo e sem foco de infecção aparente."
+        },
+        {
+          "key": "c",
+          "text": "Residente ou proveniente de área com transmissão de dengue, com quadro febril agudo, entre dois e cinco dias e sem foco de infecção aparente."
+        },
+        {
+          "key": "d",
+          "text": "Com surgimento de exantema tardio em relação ao início da febre."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O caso suspeito de dengue em criança, segundo o Ministério da Saúde, é definido por residência ou procedência de área com transmissão, quadro febril agudo com duração entre dois e cinco dias, sem foco infeccioso aparente.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_027",
+      "statement": "Sobre Dengue identifique a alternativa correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Em relação aos exames para o diagnóstico da Dengue, o hemograma e a sorologia devem ser realizados a partir do sexto dia de doença."
+        },
+        {
+          "key": "b",
+          "text": "O desaparecimento da febre antes de três dias é sinal de mal prognóstico, devendo este paciente ser avaliado com maior atenção."
+        },
+        {
+          "key": "c",
+          "text": "O exantema da Dengue, exceto o petequial, não tem relação com a evolução da doença ou a gravidade."
+        },
+        {
+          "key": "d",
+          "text": "A administração de volume adequado de fluidos (oral e/ou parenteral) tem importância secundária, sendo mais indicada na apresentação com choque/hipotensão da Dengue."
+        },
+        {
+          "key": "e",
+          "text": "O paciente com Dengue deve ser reavaliado com frequência, quando internado, e a contagem de plaquetas e o leucograma são os principais parâmetros laboratoriais para acompanhamento."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O exantema da dengue, exceto o de padrão petequial, não guarda relação direta com a gravidade ou evolução da doença.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_028",
+      "statement": "Paciente de 48 anos com quadro de mialgia, artralgia, febre, cefaléia retro-ocular e petéquias difusas há 2 dias, dá entrada no pronto atendimento de sua cidade, onde está tendo epidemia de dengue. O médico plantonista, suspeitando de tal patologia, imediatamente inicia hidratação, antitérmico e lhe solicita sorologia de dengue. No entanto, os exames vem com o seguinte resultado: IgM dengue negativo e IgG dengue negativo. Qual a explicação que melhor define o ocorrido?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Os testes realizados foram de má qualidade e deverão ser repetidos ou realizados em outro laboratório."
+        },
+        {
+          "key": "b",
+          "text": "O paciente definitivamente não tem dengue e então deverá ser pesquisada outra patologia."
+        },
+        {
+          "key": "c",
+          "text": "Ainda é muito precoce a detecção dos anticorpos de dengue no sangue e então solicitar NS1."
+        },
+        {
+          "key": "d",
+          "text": "Certamente houve mutação viral que impediu a detecção da patologia."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Assim como no caso anterior, a sorologia precoce (2 dias de doença) pode ser falsamente negativa por ainda não haver resposta imune detectável — deve-se solicitar o antígeno NS1 nesse momento.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_030",
+      "statement": "Baseado na orientação do Ministério da Saúde, há evidências clínicas e laboratoriais que ajudam no diagnóstico diferencial entre as arboviroses. É correto afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "artralgia é mais frequente na dengue"
+        },
+        {
+          "key": "b",
+          "text": "plaquetopenia é mais frequente na dengue"
+        },
+        {
+          "key": "c",
+          "text": "dor retrorbitária e neutropenia são mais frequentes na chikungunya"
+        },
+        {
+          "key": "d",
+          "text": "o exantema da chikungunya surge normalmente do 6° ao 8° dia após o início da febre"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A plaquetopenia é mais frequente e mais acentuada na dengue do que na chikungunya, sendo um dos parâmetros laboratoriais úteis no diagnóstico diferencial entre essas arboviroses.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_032",
+      "statement": "Assinale a assertiva correta em relação as arboviroses.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O diagnóstico diferencial entre o dengue, a zika e o chikungunya se faz pela presença ou não de dor articular."
+        },
+        {
+          "key": "b",
+          "text": "O acometimento neurológico ocorre exclusivamente na síndrome da zika congênita."
+        },
+        {
+          "key": "c",
+          "text": "As crianças menores de 1 ano têm maior risco de complicações clínicas quando acometidas pelo vírus zika."
+        },
+        {
+          "key": "d",
+          "text": "A conjuntivite é uma manifestação rara na infecção pelo chikungunya."
+        },
+        {
+          "key": "e",
+          "text": "A febre no dengue geralmente é mais elevada do que na zika, enquanto o rash é mais tardio."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A febre na dengue tende a ser mais elevada do que na infecção por Zika, enquanto o exantema na Zika costuma surgir mais precocemente do que na dengue — diferença clássica utilizada no diagnóstico diferencial entre as arboviroses.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_037",
+      "statement": "Adolescente de 13 anos apresentou, há um mês, quadro clínico de febre elevada, cefaléia retro-orbitária, dor nas costas, mialgia intensa, náuseas e vômitos. Nas primeiras 48 horas de doença, houve discreto exantema macular que empalidecia à pressão. Este quadro durou cerca de uma semana. Dois dias após a febre ter cessado, surgiu novo exantema generalizado, maculopapular, poupando as mãos e pés e que durou quatro dias. A recuperação do paciente foi completa e a primeira hipótese diagnóstica é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "parvovirose"
+        },
+        {
+          "key": "b",
+          "text": "dengue"
+        },
+        {
+          "key": "c",
+          "text": "exantema súbito"
+        },
+        {
+          "key": "d",
+          "text": "mononucleose infecciosa"
+        },
+        {
+          "key": "e",
+          "text": "Febre amarela"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O padrão bifásico descrito (febre inicial com exantema macular que empalidece à pressão, seguido, após período afebril, de novo exantema maculopapular generalizado poupando mãos e pés) é um quadro clássico associado à dengue.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_038",
+      "statement": "Paciente adulto sem comorbidade e sem situação social de risco e com suspeita de Dengue tem indicação para internação hospitalar e hidratação endovenosa se apresentar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Derrame pleural."
+        },
+        {
+          "key": "b",
+          "text": "Petéquias em pele."
+        },
+        {
+          "key": "c",
+          "text": "Antecedente de Dengue."
+        },
+        {
+          "key": "d",
+          "text": "Prova do laço positiva."
+        },
+        {
+          "key": "e",
+          "text": "NS 1 positivo."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A presença de derrame pleural (evidência de extravasamento plasmático/efusão cavitária) é indicação de internação hospitalar com hidratação endovenosa em paciente adulto com suspeita de dengue, mesmo sem comorbidades.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_039",
+      "statement": "A infecção pelo vírus dengue é a arbovirose mais incidente no Brasil e a que apresenta maior letalidade. O reconhecimento precoce dos quadros graves é fundamental para evitar desfechos desfavoráveis. Assinale a alternativa CORRETA sobre essa doença.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A prova do laço deve ser realizada obrigatoriamente em todo paciente suspeito e que não apresente sangramento espontâneo. Na criança, o manguito deve permanecer insuflado durante três minutos, e a prova será considerada positiva, se houver 20 ou mais petéquias em um quadrado com 2,5 cm de lado no antebraço."
+        },
+        {
+          "key": "b",
+          "text": "Nas crianças, particularmente nos menores de dois anos, o quadro grave pode ser identificado como a primeira manifestação clínica, pois o início da doença pode passar despercebido."
+        },
+        {
+          "key": "c",
+          "text": "O diagnóstico diferencial deve ser estabelecido com outras arboviroses, como chikungunya e zika, sendo útil para diferenciá-las a presença de plaquetopenia que é exclusiva da dengue."
+        },
+        {
+          "key": "d",
+          "text": "A presença de algum sinal de alarme caracteriza o grupo C e indica a reposição volêmica imediata com 20 ml/kg de soro fisiológico em até 20 minutos."
+        },
+        {
+          "key": "e",
+          "text": "Se o acesso vascular não for rapidamente conseguido, a via intraóssea em crianças deve ser reservada para medicamentos durante a reanimação cardiopulmonar, devendo ser evitada a administração de líquidos."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Em crianças, especialmente menores de dois anos, o quadro grave de dengue pode ser a primeira manifestação clínica identificável, já que o início da doença frequentemente passa despercebido nessa faixa etária.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_040",
+      "statement": "Um pré-escolar com 6 anos de idade foi levado para a Unidade de Pronto atendimento com história de febre, cefaleia, mialgia há 6 dias. Nega vômitos e hoje surgiram manchas vermelhas e roxas na pele. Ao exame físico, estado geral comprometido, presença de petéquias e equimoses em membros, tronco e abdome. Pressão arterial e frequência cardíaca normais. Prova do laço com 31 plaquetas na área estabelecida. O hemograma do dia apresenta hematócrito = 46%, Leucócitos totais: 1.800 /mm³, plaquetas 21.000/mm³. No segundo dia de febre, a mãe havia levado seu lho e foi feito o hemograma com hematócrito de 38% e plaquetas 131.000/mm³ e o teste rápido para dengue, que foi negativo. Considerando a situação clínica apresentada, a conduta adequada é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tratamento ambulatorial com hidratação oral vigorosa: 50ml/Kg em 4 a 6 horas de soro oral, sob supervisão da equipe de saúde, seguida de reavaliação clínica."
+        },
+        {
+          "key": "b",
+          "text": "Tratamento em leito de observação com hidratação oral supervisionada: 50ml/Kg em 4 a 6 horas de soro oral, sob supervisão da equipe de saúde, seguida de reavaliação clínica."
+        },
+        {
+          "key": "c",
+          "text": "Tratamento em leito de observação ou hospitalar com hidratação IV imediata: 10 mL/Kg de soro fisiológico na primeira hora e reavaliação clínica e hematócrito após 4 horas e de plaquetas após 12 horas."
+        },
+        {
+          "key": "d",
+          "text": "Tratamento em leito de UTI com hidratação IV imediata: 20mL/Kg de soro fisiológico em 20 minutos e monitoramento com hematócrito após 1 hora e de plaquetas após 12 horas."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Queda expressiva de plaquetas (131.000→21.000), leucopenia, petéquias e equimoses, com comprometimento do estado geral, caracterizam dengue com sinais de alarme — a conduta é internação em leito de observação/hospitalar com hidratação IV imediata (10 mL/kg na primeira hora) e reavaliação de hematócrito em 4h e plaquetas em 12h.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_041",
+      "statement": "Paciente do sexo masculino, 34 anos, com quadro de febre alta termometrada (38,9°C) iniciada há 6 dias e associada a dor retro-ocular, mialgia, dor abdominal difusa de leve intensidade e exantema em tronco e MMSS há 4 dias. Procura atendimento médico no sexto dia dos sintomas, relatando que está afebril há 48 horas, mas ainda apresenta mialgia e exantema em melhora. Ao exame, apresenta BEG, hidratado no limiar, acianótico, anictérico e afebril. Prova do laço positiva, PA: 120 x 70mmHg; FC: 98bpm, FR: 18irpm, satO₂: 98% em ar ambiente. Aparelhos respiratório e cardiovascular normais. Abdome: RHA+, plano, ácido com dor leve à palpação de hipocôndrio direito, sem sinais de irritação peritoneal; Murphy negativo. Considerando a hipótese diagnóstica MAIS provável para o caso descrito, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A pesquisa de antígeno viral NS-1 deve ser solicitada para se confirmar o diagnóstico do paciente."
+        },
+        {
+          "key": "b",
+          "text": "A dor abdominal intensa e contínua, os vômitos persistentes, os derrames cavitários e a redução da diurese são sinais de alarme dessa doença."
+        },
+        {
+          "key": "c",
+          "text": "O tratamento do paciente deve ser realizado em nível ambulatorial, independentemente do resultado dos exames que serão solicitados."
+        },
+        {
+          "key": "d",
+          "text": "A hidratação venosa e o controle da mialgia devem ser iniciados preferencialmente com anti-inflamatórios não esteroidais."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Dor abdominal intensa e contínua, vômitos persistentes, derrames cavitários e redução da diurese são os sinais de alarme oficiais da dengue, a serem monitorados mesmo em paciente já em fase de melhora clínica.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_044",
+      "statement": "A mais importante medida da controle epidemiológico da dengue é o(a):",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "isolamento dos doentes."
+        },
+        {
+          "key": "b",
+          "text": "vacinação dos não imunes"
+        },
+        {
+          "key": "c",
+          "text": "tratamento dos casos graves."
+        },
+        {
+          "key": "d",
+          "text": "diminuição da densidade de vetores."
+        },
+        {
+          "key": "e",
+          "text": "controle dos viajantes de áreas endêmicas."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A medida mais importante de controle epidemiológico da dengue continua sendo a redução da densidade populacional do mosquito vetor (Aedes aegypti), dada a ausência de tratamento específico e cobertura vacinal limitada.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_045",
+      "statement": "A suspeita de dengue recai em pessoas com quadro febril agudo, as quais, na maioria das vezes, não manifestam sinais de gravidade. Há, porém indivíduos que evoluem para formas que exigem maior cuidado e monitoração mais rigorosa, portanto identi car tais sinais de alarme é fundamental para o manejo adequado do paciente. Dentre esses SINAIS DE ALARME pode-se citar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hepatomegalia ≥ 2cm abaixo do RCD;"
+        },
+        {
+          "key": "b",
+          "text": "Leucopenia < 1.000 leucócitos/mm³;"
+        },
+        {
+          "key": "c",
+          "text": "Plaquetopenia < 100.000 plaquetas/mm³;"
+        },
+        {
+          "key": "d",
+          "text": "Redução progressiva do hematócrito;"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A hepatomegalia (≥2cm abaixo do rebordo costal direito) consta na lista oficial de sinais de alarme da dengue do Ministério da Saúde, diferente das demais opções que apresentam limiares incorretos ou não constituem sinais de alarme formalmente reconhecidos.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_046",
+      "statement": "Paciente residente nos Estados Unidos, viajando a passeio no Espírito Santo, conheceu a região montanhosa de Pedra Azul, e posteriormente dirigiu-se para Conceição da Barra. Cerca de 5 dias após o retorno para casa, evoluiu com febre, mialgia, cefaleia holocraniana, que foram seguidas de rash cutâneo. Realizadas algumas sorologias, mas o diagnóstico assim mesmo cou confuso. O laboratório consegue a rmar que trata-se de infecção por Flavivírus. Com base nesta informação, quais os possíveis diagnósticos etiológicos?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dengue, Zika, Chikungunya."
+        },
+        {
+          "key": "b",
+          "text": "Dengue, Chikungunya, febre amarela."
+        },
+        {
+          "key": "c",
+          "text": "Zika, febre amarela, febre do Oropouche."
+        },
+        {
+          "key": "d",
+          "text": "Dengue, Zika, febre amarela."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de infecção confirmada por Flavivírus com esse quadro clínico, os diagnósticos etiológicos possíveis são dengue, Zika e febre amarela — a chikungunya pertence ao gênero Alphavirus (família Togaviridae), não sendo um Flavivírus, o que a exclui das hipóteses.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_048",
+      "statement": "Menina de 6 anos recebeu diagnóstico de dengue há 3 dias e retorna para reavaliação. Iniciou quadro de febre há 5 dias, dores de cabeça, articulares e musculares, tendo recebido orientação de repouso, boa hidratação e analgésico. Os pais referem que, embora a febre tenha diminuído, a lha está mais sonolenta e prostrada, com dor abdominal contínua, intensa e vômitos. Em que grupo do fluxograma do Ministério da Saúde se encaixa esse caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Grupo A – dengue sem sinais de alarme, sem condição especial, sem risco social e sem comorbidades. Acompanhamento ambulatorial."
+        },
+        {
+          "key": "b",
+          "text": "Grupo B – dengue sem sinais de alarme, com condição especial ou com risco social e com comorbidades. Acompanhamento em leito de observação até resultado de exames e reavaliação clínica."
+        },
+        {
+          "key": "c",
+          "text": "Grupo C – sinais de alarme presentes e sinais de gravidade ausentes. Acompanhamento em leito de internação até estabilização."
+        },
+        {
+          "key": "d",
+          "text": "Grupo D – dengue grave. Acompanhamento em leito de emergência."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Sonolência, prostração, dor abdominal contínua e vômitos após defervescência caracterizam sinais de alarme presentes sem sinais de gravidade — correspondendo ao Grupo C do fluxograma do Ministério da Saúde, com internação até estabilização.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_054",
+      "statement": "Paciente de 8 anos iniciou há 9 dias quadro de febre moderada, contínua, acompanhada de cefaleia, mialgia muito importante e prostração. Atendido na Unidade Básica de Saúde, realizou a prova do laço, que foi positiva, e recebeu diagnóstico de dengue. Foram prescritos analgésicos, hidratação abundante e repouso. Hoje retorna à unidade de saúde e sua mãe relata que a febre desapareceu há 4 dias, mas continua muito prostrado, desde ontem começou a vomitar, sente dores constantes no abdome e tonturas quando se levanta. Ao exame clínico, estava sonolento, normotenso, com boa perfusão periférica, fígado doloroso à palpação e murmúrio vesicular diminuído em ambas as bases pulmonares. Resultados dos exames laboratoriais solicitados: hemoglobina = 12,5 g/dl; hematócrito = 46%; leucócitos = 5.350/mm³; neutró los = 52%; linfócitos = 36%; eosinófilos = 3%; plaquetas = 68.000/mm³; albumina = 2,9 g/dl. Em relação ao caso acima, marque V para as afirmativas Verdadeiras e F para as Falsas. ( ) Já no primeiro atendimento, a criança apresentava sinais de sangramento oculto, como evidenciado pela prova do laço positiva. ( ) A queda das plaquetas sugere a intensidade da perda de volume para o terceiro espaço e é um preditor da gravidade. ( ) Essa criança apresenta sinais de alerta de gravidade e achados clínicos que a classificam como categoria C. ( ) Deve-se iniciar imediatamente hidratação venosa vigorosa na Unidade Básica de Saúde e encaminhá-lo a uma unidade de maior complexidade para seguimento. ( ) Como a criança está na segunda semana da doença, já não é mais possível solicitar sorologia diagnóstica IgM e IgG, que só seriam positivas até o quinto dia. ( ) Como o paciente já está na fase de convalescência da dengue, é provável que o quadro atual seja de complicação bacteriana, comum nos casos de dengue grave. Assinale a sequência CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "V - V - F - F - V - F."
+        },
+        {
+          "key": "b",
+          "text": "V - F - V - V - F - F."
+        },
+        {
+          "key": "c",
+          "text": "F - V - F - F - V - V."
+        },
+        {
+          "key": "d",
+          "text": "F - F - V - V - F - V."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "No caso descrito: a prova do laço positiva no primeiro atendimento é sinal de sangramento oculto (V); a queda de plaquetas por si só não é o principal preditor de perda volêmica para terceiro espaço, sendo a hemoconcentração o marcador mais direto (F); a criança apresenta sinais de alarme compatíveis com categoria C (V); deve-se iniciar hidratação venosa vigorosa e referenciar para unidade de maior complexidade (V); a sorologia IgM/IgG permanece detectável além do 5º dia, não sendo essa uma limitação real (F); o quadro apresentado é típico de dengue grave por extravasamento plasmático, não de complicação bacteriana (F).",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_055",
+      "statement": "Considere as assertivas abaixo sobre dengue. I - É um vírus RNA com 4 sorotipos conhecidos: DENV 1, DENV 2, DENV 3 e DENV 4; II. - A infecção pode ser assintomática; III. - Infecção prévia por um sorotipo diferente é fator de risco para dengue grave. Quais são CORRETAS?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas I."
+        },
+        {
+          "key": "b",
+          "text": "Apenas II."
+        },
+        {
+          "key": "c",
+          "text": "Apenas III."
+        },
+        {
+          "key": "d",
+          "text": "Apenas I e II."
+        },
+        {
+          "key": "e",
+          "text": "I, II e III."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "As três afirmativas sobre dengue estão corretas: é um vírus RNA com 4 sorotipos (DENV-1 a DENV-4); a infecção pode ser assintomática; e a infecção prévia por sorotipo diferente é fator de risco reconhecido para dengue grave (fenômeno de intensificação dependente de anticorpos).",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_057",
+      "statement": "Uma criança de 5 anos é levada ao pronto-socorro com quadro de febre há 5 dias, associada a vômitos, dor abdominal, dor orbitária e prostração. Refere que, nas últimas, 24 horas houve surgimento de erupção máculo-papular em tronco e membros, e artralgia em joelhos. Diante deste quadro e considerando a hipótese diagnóstica mais provável, a melhor conduta é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "colher sorologias e iniciar oseltamivir."
+        },
+        {
+          "key": "b",
+          "text": "colher culturas, iniciar ceftriaxona e hidratação paretenteral."
+        },
+        {
+          "key": "c",
+          "text": "realizar prova do laço, colher sorologias e hidratação parenteral."
+        },
+        {
+          "key": "d",
+          "text": "realizar prova do laço, colher culturas, iniciar penicilina cristalina e hidratação parenteral."
+        },
+        {
+          "key": "e",
+          "text": "colher sorologias e culturas e iniciar oseltamivir e ceftriaxona."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Febre, vômitos, dor abdominal, dor orbitária, prostração, exantema e artralgia sugerem dengue — a conduta apropriada é realizar prova do laço, colher sorologias e iniciar hidratação parenteral, dado o quadro sugestivo de sinais de alarme.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_064",
+      "statement": "Na dengue hemorrágica, o quadro clínico se agrava rapidamente apresentando sinais de insu ciência circulatória e choque, podendo levar a pessoa à morte em até 24 horas. Deve-se suspeitar de dengue após o paciente ter se exposto:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "14 a 18 dias."
+        },
+        {
+          "key": "b",
+          "text": "20 a 25 dias."
+        },
+        {
+          "key": "c",
+          "text": "28 a 30 dias."
+        },
+        {
+          "key": "d",
+          "text": "1 a 3 semanas."
+        },
+        {
+          "key": "e",
+          "text": "7 a 10 dias. 4 0 0 0 0 78 16pr4oibeiddiacivneanldivare"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A suspeita de dengue hemorrágica deve surgir após um período de exposição de aproximadamente 7 a 10 dias, compatível com o período de incubação e evolução clínica da doença.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_065",
+      "statement": "A dengue é uma doença dinâmica e sistêmica, podendo evoluir parar remissão dos sintomas ou agravamento do quadro, exigindo constante reavaliação e observação, para que as intervenções sejam oportunas e os óbitos sejam evitados. Em relação à dengue na criança, assinale a alternativa correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Em menores de 5 anos de idade e os sintomas da dengue podem manifestar-se somente por choro persistente, adinamia e irratabilidade, podendo ser confundidos com outros quadros infecciosos febris, próprios da faixa etária."
+        },
+        {
+          "key": "b",
+          "text": "O início da doença pode passar despercebido e o quadro grave ser identificado como a primeira manifestação clínica. O agravamento, em geral, é mais súbito do que ocorre no adulto, em que os sinais de alarme são mais facilmente detectados."
+        },
+        {
+          "key": "c",
+          "text": "A fase de expansão rápida em crianças com sinais de choque é realizada com 10ml/kg de solução glicosada a 5% em 30 minutos enquanto que a do adulto é realizada com 20ml/kg de solução salina isotônica em 20 minutos."
+        },
+        {
+          "key": "d",
+          "text": "O Ministério da Saúde recomenda o uso de homeopatia como forma de prevenção da dengue em crianças e adolescentes."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Em crianças, o início da doença pode passar despercebido e o quadro grave pode ser identificado como primeira manifestação, com agravamento em geral mais súbito do que no adulto, dificultando a detecção precoce dos sinais de alarme.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_066",
+      "statement": "Em relação às viroses transmitidas pelo Aedes aegypti assinale a alternativa correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A Zika se distingue da dengue e da chikungunya pela duração mais prolongada do período febril."
+        },
+        {
+          "key": "b",
+          "text": "Mialgia é mais frequente na dengue, enquanto que artralgia é mais prevalente na chikungunya."
+        },
+        {
+          "key": "c",
+          "text": "As complicações hemorrágicas constituem causa principal de óbito pela Zika."
+        },
+        {
+          "key": "d",
+          "text": "A chikungunya apresenta rash cutâneo em cerca de 25% dos casos, que é intensamente pruginoso."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A mialgia é mais frequente na dengue, enquanto a artralgia é mais prevalente e intensa na chikungunya — diferença clássica utilizada no diagnóstico diferencial entre essas arboviroses.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_068",
+      "statement": "Transmitida pelo mosquito Aedes aegypti, a dengue é uma doença viral que se espalha rapidamente no mundo. Nos últimos 50 anos, a incidência aumentou 30 vezes, com ampliação da expansão geográ ca para novos países e, na presente década, para pequenas cidades e áreas rurais. É estimado que 50 milhões de infecções por dengue ocorram anualmente e que aproximadamente 2,5 bilhões de pessoas morem em países onde a dengue é endêmica. Sobre a dengue, é CORRETpOroibeiddiacivneanldivare afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Febre de Lassa e febre amarela podem ter o mesmo vetor da dengue"
+        },
+        {
+          "key": "b",
+          "text": "Os pacientes são infectantes para o mosquito até o 30º dia de doença."
+        },
+        {
+          "key": "c",
+          "text": "A ocorrência de formas graves não está relacionada à presença de outros sorotipos na mesma área."
+        },
+        {
+          "key": "d",
+          "text": "A principal medida de prevenção atual é o combate ao vetor."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A principal medida de prevenção atual da dengue continua sendo o combate ao vetor (controle do Aedes aegypti), dada a ausência de tratamento antiviral específico e cobertura vacinal ainda limitada.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_069",
+      "statement": "No paciente com suspeita ou diagnóstico de dengue, a dor abdominal constitui um dos sinais de alarme que serve para orientar a classi cação de risco e o manejo do paciente. Inicialmente, essa dor pode ser caracterizada por desconforto intenso e persistente, podendo estar localizada no (a):",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Região umbilical."
+        },
+        {
+          "key": "b",
+          "text": "Região hipogástrica."
+        },
+        {
+          "key": "c",
+          "text": "Hipocôndrio direito."
+        },
+        {
+          "key": "d",
+          "text": "Hipocôndrio esquerdo."
+        },
+        {
+          "key": "e",
+          "text": "Flanco direito."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A dor abdominal (sinal de alarme) na dengue classicamente se localiza no hipocôndrio direito, relacionada ao acometimento hepático (hepatomegalia dolorosa).",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_071",
+      "statement": "Nos exames laboratoriais inespecíficos da febre hemorrágica da dengue, observa-se",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "aumento importante dos testes de função hepática."
+        },
+        {
+          "key": "b",
+          "text": "linfopenia com atipia linfocitária como um achado comum."
+        },
+        {
+          "key": "c",
+          "text": "anemia devido ao choque."
+        },
+        {
+          "key": "d",
+          "text": "aumento da albumina no sangue."
+        },
+        {
+          "key": "e",
+          "text": "hemoconcentração devido a aumento do hematócrito."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A hemoconcentração, refletida pelo aumento do hematócrito, é o achado laboratorial inespecífico clássico da febre hemorrágica da dengue, relacionado ao extravasamento plasmático.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_072",
+      "statement": "A identi cação precoce dos casos de dengue é de vital importância para a tomada de decisões e implementação de medidas de maneira oportuna. A prova do laço será positiva em adultos se houver:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "10 ou mais petéquias"
+        },
+        {
+          "key": "b",
+          "text": "20 ou mais petéquias"
+        },
+        {
+          "key": "c",
+          "text": "30 ou mais petéquias"
+        },
+        {
+          "key": "d",
+          "text": "40 ou mais petéquias"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A prova do laço é considerada positiva em adultos quando há 20 ou mais petéquias no quadrado de 2,5 cm de lado.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_073",
+      "statement": "Escolar de 8 anos de idade apresentava quadro de febre alta (39°C), cefaleia e mialgia há 7 dias. Exame físico inicial: temperatura: 38,9°C; FR: 48 irpm; FC: 110 bpm; PA: 110 x 75 mmHg. Laboratorial: Hb: 12,5g/dl; Ht: 34%; leucócitos: 7.700/m³; linfócitos: 35% e plaquetas 190.000/mm³. Liberado com prescrição de hidratação oral e antitérmicos. Após 3 dias, retornou afebril, prostrado, vômitos persistentes e dor abdominal. Exame físico: temperatura: 36,6°C; FR: 52 irpm; FC: 120 bpm; PA: 85 x 55 mmHg. Laboratorial: Hb: 12g/dl; Ht: 36%; leucócitos: 4.200/mm³; linfócitos: 30% e plaquetas: 110.000/mm. Considerando o diagnóstico a ser pensado, o principal dado entre os descritos, que indicaria internação imediata desse paciente seria:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Temperatura axilar."
+        },
+        {
+          "key": "b",
+          "text": "Leucopenia."
+        },
+        {
+          "key": "c",
+          "text": "Dor abdominal."
+        },
+        {
+          "key": "d",
+          "text": "Plaquetopenia."
+        },
+        {
+          "key": "e",
+          "text": "Valores de hematócrito."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O aparecimento de dor abdominal (sinal de alarme oficial), associado a hemoconcentração relativa e queda plaquetária em relação ao exame inicial, é o principal indicativo de necessidade de internação imediata nesse paciente com suspeita de dengue.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_074",
+      "statement": "Paciente, masculino, 3 anos de idade, procurou o PS com história de febre elevada há 4 dias, irritação, cinco episódios de vômitos desde o início do quadro febril. Hoje apresentou discreto exantema con uente em tronco, motivo de procura ao PS. Paciente frequenta creche em período integral. Ao exame físico de entrada apresentava-se em REG, abatido, taquipneico leve, acianótico, desidratado moderado, anictérico, descorado +1/+4. Temperatura axilar de 37,6 °C. Aparelho Respiratório: MV + bilateralmente sem RA, FR = 42 ipm. Aparelho cardiovascular: BRNF em 2 tempos sem msoapsrsoapssro.,ibeiddiacivneanldivare taquicárdicas. FC = 118. Abdome: indolor, RHA +, fígado palpável a 2 cm do RCD, baço não palpável e sem Ausência de sinais meníngeos. Pele: exantema maculo-papular con uente em abdome e tronco. Demais sistemas sem alterações. A conduta imediata mais adequada é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Realização da prova do laço no consultório e hidratação endovenosa."
+        },
+        {
+          "key": "b",
+          "text": "Solicitação de hemograma e hidratação endovenosa."
+        },
+        {
+          "key": "c",
+          "text": "Exames sorológicos e hidratação oral."
+        },
+        {
+          "key": "d",
+          "text": "Prescrição de anti-histamínico, hidratação endovenosa."
+        },
+        {
+          "key": "e",
+          "text": "Rx de tórax, hidratação endovenosa e oral."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de quadro febril com vômitos e exantema em criança, a conduta inicial inclui a realização da prova do laço no próprio atendimento e hidratação endovenosa, dado o grau de desidratação e taquicardia already presentes ao exame.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_075",
+      "statement": "A confirmação diagnóstica laboratorial da dengue é feita por vários exames, dentre eles:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hemograma e TGO."
+        },
+        {
+          "key": "b",
+          "text": "PCR e TGO."
+        },
+        {
+          "key": "c",
+          "text": "ELISA e hemograma."
+        },
+        {
+          "key": "d",
+          "text": "ELISA e pesquisa de antígeno NS1."
+        },
+        {
+          "key": "e",
+          "text": "VHS e PCR."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A confirmação laboratorial da dengue é feita, entre outros métodos, pela detecção de anticorpos por ELISA e pela pesquisa do antígeno viral NS1.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_076",
+      "statement": "Uma criança de 5 anos é levada ao pronto-socorro com quadro de febre há 5 dias, associada a vômitos, dor abdominal, dor orbitária e prostração. Refere que, nas últimas, 24 horas houve surgimento de erupção máculo-papular em tronco e membros, e artralgia em joelhos. Diante deste quadro e considerando a hipótese diagnóstica mais provável, a melhor conduta é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "colher sorologias e iniciar oseltamivir."
+        },
+        {
+          "key": "b",
+          "text": "colher culturas, iniciar ceftriaxona e hidratação parenteral."
+        },
+        {
+          "key": "c",
+          "text": "realizar prova do laço, colher sorologias e hidratação parenteral."
+        },
+        {
+          "key": "d",
+          "text": "realizar prova do laço, colher culturas, iniciar penicilina cristalina e hidratação parenteral."
+        },
+        {
+          "key": "e",
+          "text": "colher sorologias e culturas e iniciar oseltamivir e ceftriaxona."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Mesmo raciocínio da Q57: febre, vômitos, dor abdominal, dor orbitária, prostração, exantema e artralgia sugerem dengue, com conduta de prova do laço, sorologias e hidratação parenteral.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_078",
+      "statement": "Em relação à transmissão da dengue, podemos afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A transmissão da doença ocorre através da picada da fêmea do mosquito aedes, o mosquito tem hábitos noturnos e urbanos."
+        },
+        {
+          "key": "b",
+          "text": "O homem é o único reservatório a participar do ciclo da doença."
+        },
+        {
+          "key": "c",
+          "text": "O mosquito se torna infectante em aproximadamente 5-8 dias após picar um paciente com viremia. Já foi descrita transmissão de pessoa para pessoa."
+        },
+        {
+          "key": "d",
+          "text": "A dengue é a doença mais comum transmitida por mosquito no Brasil com ocorrência de 5 milhões em todo o mundo."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O ser humano é o único reservatório participante do ciclo urbano de transmissão da dengue (diferente de arboviroses com ciclo silvestre envolvendo outros hospedeiros).",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_079",
+      "statement": "Em relação ao quadro clínico da dengue podemos afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A doença é também conhecida como febre quebra osso."
+        },
+        {
+          "key": "b",
+          "text": "A grande maioria dos pacientes com dengue apresenta-se pouco sintomático ouassintomático."
+        },
+        {
+          "key": "c",
+          "text": "A dengue clássica se caracteriza pelo início súbito de febre alta, mialgia, dor retro-ocular, astenia, náuseas e vômitos que surgem após um período de incubação de 7–14 dias."
+        },
+        {
+          "key": "d",
+          "text": "A diarreia ocorre em 30% dos casos e vômitos em 50%, a linfonodomegalia é muitoincomum e não ocorre hepatomegalia."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A dengue é popularmente conhecida como \"febre quebra-ossos\", denominação clássica relacionada à intensidade da mialgia e artralgia características da doença.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_080",
+      "statement": "A Prova do laço deve ser realizada na triagem, obrigatoriamente, em todo paciente com suspeita de dengue e que não apresente sangramento espontâneo. Sobre a realização prova do laço, marque a alternativa que está errada:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A prova do laço deverá ser repetida no acompanhamento clínico do paciente apenas se previamente negativa."
+        },
+        {
+          "key": "b",
+          "text": "A pressão arterial média deve ser calculada para avaliar a prova do laço."
+        },
+        {
+          "key": "c",
+          "text": "O manguito deve ser insuflado até o valor da pressão arterial sistólica e mantido durante cinco minutos nos adultos e três minutos em crianças."
+        },
+        {
+          "key": "d",
+          "text": "O número de petéquias formadas deve ser analisado dentro de um quadrado com 2,5 cm de lado no antebraço."
+        },
+        {
+          "key": "e",
+          "text": "Se a prova do laço apresentar-se antes do tempo preconizado para adultos e crianças, a mesma pode ser interrompida."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A alternativa ERRADA (resposta pedida) é a (c): o manguito deve ser insuflado até o valor da PRESSÃO ARTERIAL MÉDIA (não da sistólica) para a realização correta da prova do laço, mantendo-se por 5 minutos em adultos e 3 minutos em crianças.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_085",
+      "statement": "Assinale a alternativa que apresenta uma caracterização correta de um caso suspeito de dengue clássico.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doença febril aguda com duração máxima de 7 dias, acompanhada de, pelo menos, dois dos seguintes sintomas: cefaleia, dor retro-orbital, mialgia, artralgia, prostração e exantema, além de confirmação laboratorial através de hematócrito e plaquetas baixos."
+        },
+        {
+          "key": "b",
+          "text": "Doença febril aguda com duração máxima de 5 dias, acompanhada de, pelo menos, três dos seguintes sintomas: dor abdominal intensa, vômitos persistentes, hepatomegalia dolorosa, mialgia, artralgia e exantema."
+        },
+        {
+          "key": "c",
+          "text": "Doença febril aguda com duração máxima de 7 dias, acompanhada de, pelo menos, dois dos seguintes sintomas: cefaleia, dor retro-orbital, mialgia, artralgia, prostração e exantema."
+        },
+        {
+          "key": "d",
+          "text": "Cefaleia, dor retro-orbital, mialgia, artralgia, exantema e tosse, independentemente da doença febril."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A caracterização correta de caso suspeito de dengue clássica é: doença febril aguda com duração máxima de 7 dias, acompanhada de pelo menos dois dos seguintes sintomas: cefaleia, dor retro-orbital, mialgia, artralgia, prostração e exantema — definição clínica, sem exigência de confirmação laboratorial para a suspeita inicial.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_086",
+      "statement": "Infecções pelo vírus da dengue acometem o mundo todo. Atualmente endêmica em 112 países, a dengue é considerada um problema de saúde pública no Brasil. Assinale a alternativa CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A identificação precoce, a monitoração da evolução e o tratamento imediato dos pacientes com sinais de alerta não interferem na mortalidade da doença, que varia de 1 a 26% em todas as suas formas, mas pode chegar a 47% nas suas formas graves."
+        },
+        {
+          "key": "b",
+          "text": "A dengue apresenta um grande espectro de manifestações clínicas, com evolução e desfecho imprevisíveis. A característica fisiopatológica que diferencia as formas benignas das formas graves da dengue é a presença de aumento da permeabilidade capilar."
+        },
+        {
+          "key": "c",
+          "text": "O termo Febre Hemorrágica da Dengue (DHF), dá ênfase à hemorragia, sempre presente nas formas graves."
+        },
+        {
+          "key": "d",
+          "text": "O que leva as crianças com dengue ao óbito é a hemorragia."
+        },
+        {
+          "key": "e",
+          "text": "O achado laboratorial mais precoce, que pode ajudar no diagnóstico da dengue, é a plaquetopenia progressiva."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A característica fisiopatológica central que diferencia as formas benignas das formas graves da dengue é o aumento da permeabilidade capilar (extravasamento plasmático), sendo a evolução e o desfecho clínico frequentemente imprevisíveis.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_091",
+      "statement": "A situação epidemiológica da dengue no país permanece caracterizada pelo número crescente de casos graves e óbitos nos últimos dez anos, além dos novos desa os impostos pela circulação dos vírus da febre de chikungunya e zika, cujos sintomas são parecidos com os da dengue, e fazem com que o tema se torne ainda mais importante. Segundo a 5ª edição do \"Dengue: diagnóstico e manejo clínico - adulto e criança\" do Ministério da Saúde, de 2016, pode-se afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A prova do laço deve ser realizada na triagem, obrigatoriamente, em todo paciente com suspeita de dengue e que não apresente sangramento espontâneo. A prova deverá ser repetida no acompanhamento clínico do paciente apenas se previamente negativa."
+        },
+        {
+          "key": "b",
+          "text": "A dipirona e os anti-inflamatórios não hormonais (cetoprofeno, ibuprofeno, diclofenaco, nimesulida) podem ser utilizados no tratamento da fase febril da dengue."
+        },
+        {
+          "key": "c",
+          "text": "Para a confirmação laboratorial, o método Enzyme-Linked Immunosorbent Assay (ELISA) deve ser solicitado a partir do início dos sintomas."
+        },
+        {
+          "key": "d",
+          "text": "A detecção de antígenos virais: NS1, isolamento viral, RT-PCR e imunohistoquímica devem ser solicitados após o quinto dia do início dos sintomas. Se forem positivos confirmam o caso."
+        },
+        {
+          "key": "e",
+          "text": "A impossibilidade de seguimento ou retorno à unidade de saúde não é indicado para internação hospitalar. 4 0 0 0 0 3 14p2r4oibeiddiacivneanldivare"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Segundo o manual do Ministério da Saúde, a prova do laço deve ser realizada obrigatoriamente na triagem de todo paciente com suspeita de dengue sem sangramento espontâneo, sendo repetida no acompanhamento apenas se previamente negativa.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_094",
+      "statement": "A plaquetopenia na dengue, principalmente quando associada a uma elevação do hematócrito, indica maior risco de evolução para formas graves da doença. Em um paciente com suspeita clínica de dengue, que se apresente febril, estável hemodinamicamente, com petéquias em membros inferiores, hematócrito normal e contagem de plaquetas de 15.000 células por mm3, assinale a alternativa que apresenta CORRETAMENTE a conduta preconizada pelo Ministério da Saúde em relação à necessidade de transfusão de plaquetas nesta situação:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Deve ser indicada imediatamente, pois a contagem de plaquetas está abaixo de 50.000/mm3."
+        },
+        {
+          "key": "b",
+          "text": "Deve ser indicada imediatamente, pois apesar da contagem de plaquetas estar acima de 10.000/mm3 o paciente apresenta petéquias e encontra-se febril."
+        },
+        {
+          "key": "c",
+          "text": "Deve ser indicada apenas se houver elevação concomitamte do hematócrito acima de 20% do valor basal."
+        },
+        {
+          "key": "d",
+          "text": "Deve ser indicada apenas se o paciente apresentar sangramentos importantes."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A transfusão de plaquetas na dengue é indicada apenas diante de sangramentos importantes, e não com base isolada na contagem de plaquetas, já que os anticorpos antiplaquetários circulantes destroem rapidamente as plaquetas transfundidas, tornando a transfusão profilática ineficaz.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_097",
+      "statement": "Uma menina de dez anos de idade, moradora da periferia de uma grande cidade, foi atendida na emergência, apresentando, de acordo com relato da mãe, febre alta há seis dias. A mãe informou ainda que, após 48h do início da febre, esta havia sido seguida por cefaleia, vômitos, diarreia e urina escura. No exame físico, o médico observou escleróticas ictéricas, dor abdominal e discreta hepatomegalia. A mãe da menina relatou que havia um surto de dengue na região onde moravam. Exames laboratoriais realizados no terceiro dia de evolução do quadro clínico apresentaram os seguintes resultados: TGO = 90 UI; TGP = 280 UI; anti-HVA IgM e IgG não reagentes; anti-HBsAg reagente; HBsAg, HBeAg, anti-HBeAg, anti-HBc IgM e IgG não reagentes; o exame de detecção para antígeno de dengue NS1 foi negativo. Com referência ao caso clínico apresentado, julgue o item que se segue. O diagnóstico de dengue está descartado, pois o exame de detecção para o antígeno viral NS1 foi negativo.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "ERRADO: um resultado negativo do antígeno NS1 não descarta o diagnóstico de dengue, dada a possibilidade de resultado falso-negativo, especialmente dependendo do momento da coleta em relação ao curso da doença.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_098",
+      "statement": "A dengue, isoladamente, é uma doença que preocupa os órgãos de saúde do Brasil, pois está presente em praticamente 100% do território nacional. Observe as a rmativas a seguir e responda se é Verdadeiro (V) ou Falso (F): 1. Na dengue, o exame mais utilizado para o diagnóstico é o ELISA, que detecta anticorpos IgM especí cos contra dengue e tem a vantagem de poder ser realizado com 24h do início da doença; 2. A dengue conta hoje com cinco sorotipos virais já identi cados DEN-1, DEN-2, DEN-3, DEN-4 e DEN-5; 3. Na dengue, após uma infecção por determinado sorotipo de vírus, a imunidade é vitalícia contra esse sorotipo, oferecendo uma proteção parcial e transitória contra a infecção subsequente pelos outros sorotipos; 4. Na dengue, o exantema está presente em todos os casos e é predominantemente do tipo maculopapular, atingindo face, tronco e membros de forma aditiva, não poupando plantas de pés e palmas de mãos.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "F – V – F – V."
+        },
+        {
+          "key": "b",
+          "text": "V – V – F – V."
+        },
+        {
+          "key": "c",
+          "text": "F – V – V – F."
+        },
+        {
+          "key": "d",
+          "text": "F – F – V – V."
+        },
+        {
+          "key": "e",
+          "text": "V – V – V – F."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A afirmativa 1 está incorreta (o ELISA IgM geralmente só se torna detectável a partir do 4º-6º dia de doença, não em 24h); a afirmativa 2 é considerada correta conforme literatura mais recente que descreve um possível 5º sorotipo (DENV-5); a afirmativa 3 está correta (imunidade vitalícia contra o mesmo sorotipo, com proteção cruzada parcial e transitória contra os demais); a afirmativa 4 está incorreta (o exantema não está presente em todos os casos e classicamente tende a poupar palmas e plantas).",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_099",
+      "statement": "Criança de 6 anos comparece à unidade básica de saúde por apresentar febre baixa seguida de exantema pruriginoso e dores articulares leves. À inspeção, apresenta os olhos vermelhos e irritados. Sua mãe acha que se trata de dengue, porque várias pessoas do bairro \"já pegaram\". Quais os sinais ou sintomas que facilitam o diagnóstico diferencial entre as arboviroses que ajudam nesse caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dengue: febre, em geral baixa e prolongada, ausência de dores nas articulações e dores retro-orbitárias e musculares. Chikungunya: febre, em geral baixa e de início imediato, dores leves nas articulações e pode estar presente intensa cefaleia. Zika: febre alta com calafrios, dores intensas nas articulações, vermelhidão nos olhos e ausência de exantema."
+        },
+        {
+          "key": "b",
+          "text": "Dengue: febre, em geral alta e de início imediato, dores moderadas nas articulações e dores retro-orbitárias. Chikungunya: febre, em geral alta e de início imediato, dores intensas nas articulações e pode estar presente exantema pruriginoso. Zika: febre baixa ou ausente, dores leves nas articulações, vermelhidão nos olhos e exantema pruriginoso."
+        },
+        {
+          "key": "c",
+          "text": "Dengue: febre, em geral alta e de início tardio, ausência de dores nas articulações e dores retro-orbitárias. Chikungunya: febre, em geral alta e de início imediato, dores leves nas articulações e não apresenta exantema pruriginoso. Zika: febre baixa ou ausente, dores leves nas articulações, vermelhidão nos olhos e exantema pruriginoso."
+        },
+        {
+          "key": "d",
+          "text": "Dengue: febre, em geral alta e fugaz, dores nas articulações, dores musculares e conjuntivite. Chikungunya: febre, em geral baixa e prolongada, dores intensas nas articulações e pode estar presente exantema pruriginoso. Zika: febre baixa ou ausente, dores leves nas articulações, vermelhidão nos olhos e exantema sem prurido. p1r9oibeiddiacivneanldivare"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diferencial clássico entre arboviroses: Dengue — febre geralmente alta e de início imediato, dores articulares moderadas e dor retro-orbitária; Chikungunya — febre alta de início imediato, dores articulares intensas, podendo haver exantema pruriginoso; Zika — febre baixa ou ausente, dores articulares leves, hiperemia ocular e exantema pruriginoso.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_102",
+      "statement": "Em relação à dengue, considere como verdadeira (V) ou falsa (F) cada afirmativa abaixo. ( ) Os sintomas respiratórios são frequentes em crianças maiores e adultos com dengue; ( ) Em períodos epidêmicos, deve-se solicitar anticorpos da classe IgM, em todo paciente com a doença ou com dúvida no diagnóstico, preferencialmente a partir do 6º dia do início do quadro clínico; ( ) De acordo com o uxograma para classi cação de risco da dengue, enquadram-se no grupo C os pacientes com sinais de alarme, por exemplo: vômito persistente, sangramento de mucosa, derrame pleural, os quais devem ser internados em hospital que disponham de leito de UTI; ( ) Os sangramentos são responsáveis pela maioria dos óbitos associados às formas graves; ( ) Dentre os 6 (seis) critérios de alta, incluem-se os casos de derrames cavitários, quando presentes, em regressão e sem repercussão clínica. A sequência correta é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "V-F-F-F-V."
+        },
+        {
+          "key": "b",
+          "text": "F-F-F-F-V."
+        },
+        {
+          "key": "c",
+          "text": "F-V-F-F-V."
+        },
+        {
+          "key": "d",
+          "text": "F-F-V-F-V."
+        },
+        {
+          "key": "e",
+          "text": "V-F-V-F-V."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Sintomas respiratórios não são característicos/frequentes na dengue (F); a recomendação de sorologia IgM não corresponde exatamente ao descrito (F); o Grupo C inclui pacientes com sinais de alarme (vômito persistente, sangramento de mucosa, derrame pleural) necessitando internação com disponibilidade de UTI (V); os óbitos por dengue grave são majoritariamente relacionados ao choque por extravasamento plasmático, não hemorragias (F); a regressão de derrames cavitários sem repercussão clínica é, de fato, um dos critérios de alta (V).",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_103",
+      "statement": "Você deve ter conhecimento dos problemas atuais relacionados ao mosquito Aedes Aegypti. Poderia con rmar suas características?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Vôo noturno"
+        },
+        {
+          "key": "b",
+          "text": "Vive em climas temperados"
+        },
+        {
+          "key": "c",
+          "text": "Pica frequentemente o dorso"
+        },
+        {
+          "key": "d",
+          "text": "Ataca nas horas de menor temperatura do dia"
+        },
+        {
+          "key": "e",
+          "text": "Tem antenas com cor esverdeada"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O Aedes aegypti tem hábito de picar preferencialmente durante os horários de menor temperatura do dia (início da manhã e final da tarde), evitando o calor mais intenso, embora seja de hábito predominantemente diurno.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_104",
+      "statement": "Assinale a assertiva CORRETA em relação a dengue segundo o Ministério da Saúde:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Somente são considerados graves os casos onde há sinais de sangramento."
+        },
+        {
+          "key": "b",
+          "text": "A fase crítica ocorre enquanto há febre, já que nesta ocorre o maior risco de sangramento."
+        },
+        {
+          "key": "c",
+          "text": "Em lactentes, devido a dificuldade do exame clínico, os sinais de alarme não são pesquisados rotineiramente."
+        },
+        {
+          "key": "d",
+          "text": "A dengue na criança apresenta-se como uma síndrome febril clássica viral, com sintomas e sinais inespecíficos."
+        },
+        {
+          "key": "e",
+          "text": "O antitérmico de escolha é o paracetamol e a dipirona está contraindicada."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Em crianças, a dengue frequentemente se manifesta como uma síndrome febril inespecífica, semelhante a diversas outras viroses comuns na infância, dificultando o diagnóstico clínico precoce.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_105",
+      "statement": "A respeito de doenças infectocontagiosas, julgue o item a seguir. Testes sorológicos para detecção de anticorpos das classes IgM e IgG devem ser solicitados para indivíduos que apresentem, há pelo menos três dias, sintomas clássicos de dengue, como dor abdominal intensa, vômitos persistentepsro,ibeiddiacivneanldivare derrame cavitário, hepatomegalia e alteração do nível de consciência.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "ERRADO: diante de sinais de alarme já estabelecidos (dor abdominal intensa, vômitos persistentes, derrame cavitário, hepatomegalia, alteração do nível de consciência), a prioridade é o manejo clínico/hospitalar imediato, não aguardar confirmação sorológica para iniciar a conduta.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_106",
+      "statement": "Arbovírus (Arthropod-borne virus) são assim designados pelo fato de parte de seu ciclo de replicação ocorrer nos insetos, podendo ser transmitidos aos seres humanos e outros animais pela picada de artrópodes hematófagos. Dos mais de 545 espécies de arbovírus conhecidos, cerca de 150 causam doenças em humanos. As arboviroses têm representado um grande desa o à saúde pública, como doenças reemergentes. Assim, analise as assertivas e assinale (V) VERDADEIRO ou (F) FALSO. A - As rápidas mudanças climáticas, os desmatamentos, a migração populacional, a ocupação desordenada de áreas urbanas, a precariedade das condições sanitárias que favorecem a ampli cação e transmissão viral têm favorecido a disseminação das arboviroses, dentre elas a DENGUE. B - As manifestações clínicas das arboviroses em seres humanos podem variar desde doença febril (DF) indiferenciada, moderada ou grave, erupções cutâneas e artralgia (AR), a síndrome neurológica (SN) e síndrome hemorrágica (SH). C - O vírus Dengue (DENV) é representado por quatro sorotipos, a saber, DENV-1 a DENV-4 e sua transmissão é feita pelo mosquito Aedes aegypti. D - A patogenia dos casos mais graves de dengue (dengue hemorrágica e síndrome do choque da dengue) ainda não é bem conhecida. Existem algumas hipóteses, tais como: reinfecção por um sorotipo diferente.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "V – V – V – V."
+        },
+        {
+          "key": "b",
+          "text": "V – V – V – F."
+        },
+        {
+          "key": "c",
+          "text": "V– F – V – V."
+        },
+        {
+          "key": "d",
+          "text": "V – F – V – F."
+        },
+        {
+          "key": "e",
+          "text": "F – F – V – F."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "As afirmativas A, B e C sobre fatores de disseminação das arboviroses, espectro de manifestações clínicas e características do vírus dengue (4 sorotipos, transmissão pelo Aedes aegypti) estão corretas. A afirmativa D é considerada incorreta, já que a patogenia dos casos graves de dengue, embora complexa, já conta com hipóteses bem estabelecidas na literatura (como a reinfecção heteróloga/intensificação dependente de anticorpos).",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_108",
+      "statement": "As manifestações clínicas observadas durante a infecção pelo vírus da dengue ocorrem após um período de incubação. Considerando-se o dia 0 (zero) como sendo o primeiro dia de sintoma febril desta doença, assinale a alternativa que contém as linhas no grá co a seguir que correspondem, respectivamente, à viremia e ao anticorpo IgG em um paciente com infecção por dengue pela segunda vez na vida: (VER IMAGEM)",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Linhas A e E."
+        },
+        {
+          "key": "b",
+          "text": "Linhas B e E."
+        },
+        {
+          "key": "c",
+          "text": "Linhas D e C."
+        },
+        {
+          "key": "d",
+          "text": "Linhas E e C."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "ATENÇÃO: a questão faz referência a um gráfico não disponível na extração do PDF, com curvas de viremia e resposta de IgG ao longo do tempo. Em infecção secundária por dengue, a resposta de IgG tende a ser mais precoce e de maior magnitude, refletindo a memória imunológica prévia — a resposta correta corresponde às linhas indicadas pelo gabarito oficial.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_109",
+      "statement": "Quais exames específicos para dengue são realizados para a comprovação laboratorial das infecções pelo vírus (DENV)?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Captura de IgM por ELISA (MAC ELISA), hemograma, plaqueta, dosagem de albumina sérica, coagulograma, e transaminases."
+        },
+        {
+          "key": "b",
+          "text": "Sorológico por imunofluorescência (RIFI), ensaio imunoenzimático, testes rápidos imunocromatográficos, e isolamento viral."
+        },
+        {
+          "key": "c",
+          "text": "Cultura com prova de toxigenicidade, inibição da hemoaglutinação, ensaio enzimático, hemograma, plaqueta e coagulograma."
+        },
+        {
+          "key": "d",
+          "text": "Isolamento viral, detecção do genoma viral pelo método da transcrição reversa, e detecção da proteína NS1 do vírus (antígeno)."
+        },
+        {
+          "key": "e",
+          "text": "Pesquisa de anticorpos – sorologia, hemograma, plaqueta, coagulograma, reação em cadeia da polimerase (RT- PCR)."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Os exames específicos para comprovação laboratorial direta da infecção por dengue incluem isolamento viral, detecção do genoma viral por RT-PCR e detecção do antígeno NS1 — métodos diretos, diferentes dos exames inespecíficos de suporte (hemograma, plaquetas, transaminases).",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_112",
+      "statement": "O Aedes aegypti é o mosquito responsável pela transmissão de várias doenças, dentre elas:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Malária, Dengue, Leishmaniose visceral e Zika."
+        },
+        {
+          "key": "b",
+          "text": "Dengue, Chikungunya, Febre Amarela Urbana e Leishmaniose Cutânea Mucosa."
+        },
+        {
+          "key": "c",
+          "text": "Zika, Dengue, Febre Amarela Urbana e Chikungunya."
+        },
+        {
+          "key": "d",
+          "text": "Dengue, Leishmaniose visceral, Zika e Chikungunya."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O Aedes aegypti é o vetor responsável pela transmissão de Zika, Dengue, Febre Amarela Urbana e Chikungunya — as demais opções incluem doenças transmitidas por outros vetores (malária por Anopheles, leishmaniose por flebotomíneos).",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_114",
+      "statement": "Assinale a alternativa correta em relação à dengue:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A primoinfecção pelo vírus da dengue é associada a maior risco de formas graves."
+        },
+        {
+          "key": "b",
+          "text": "A imunidade de longo prazo conferida pela infecção é sorotipo específica, com imunidade cruzada de curta duração (geralmente meses)."
+        },
+        {
+          "key": "c",
+          "text": "O intervalo de tempo decorrido entre as infecções parece desempenhar um papel nagravidade dos casos, tendo sido observado maior gravidade em infecções com intervalos mais curtos quando comparadas às com intervalos mais longos."
+        },
+        {
+          "key": "d",
+          "text": "A sorologia de dengue deve ser idealmente solicitada a partir do 3º. Dia de sintomasda doença."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A imunidade de longo prazo conferida pela infecção por dengue é específica para o sorotipo infectante, com proteção cruzada contra os demais sorotipos apenas de curta duração (geralmente meses).",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_117",
+      "statement": "Em relação à síndrome do choque da dengue, assinale a alternativa INCORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O choque é de início súbito, geralmente nas primeiras 48 horas após início do quadro febril."
+        },
+        {
+          "key": "b",
+          "text": "O choque é de curta duração, geralmente não excedendo 24 a 48 horas."
+        },
+        {
+          "key": "c",
+          "text": "As manifestações hemorrágicas, quando presentes, geralmente se intensificam na fase do choque."
+        },
+        {
+          "key": "d",
+          "text": "A disfunção miocárdica geralmente é transitória e limitada à fase de choque."
+        },
+        {
+          "key": "e",
+          "text": "A fase de reabsorção ocorre em cerca de 48 horas após o término do mesmo, com risco aumentado para hipervolemia, insuficiência cardíaca e congestão pulmonar."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A alternativa INCORRETA (resposta pedida) é a (a): o choque por dengue tipicamente ocorre em torno do 4º ao 5º dia de doença (na defervescência), não nas primeiras 48 horas do quadro febril.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_118",
+      "statement": "No que diz respeito ao estadiamento e ao tratamento dos casos suspeitos de dengue, julgue o item subsequente. Paciente com prova do laço negativa e ausência de manifestações hemorrágicas e de sinais de alarme deve ser tratado com hidratação oral, analgésicos e antitérmicos, devendo-se evitar a prescrição de AAS.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "CERTO: paciente sem sinais de alarme, sem manifestações hemorrágicas e com prova do laço negativa corresponde ao Grupo A, sendo tratado com hidratação oral, analgésicos e antitérmicos, evitando-se o uso de ácido acetilsalicílico (AAS) pelo risco de sangramento.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_119",
+      "statement": "A.M.T., adolescente, viajou para Careiro, após 1 semana apresentou cefaleia intensa, febre, mialgia, artralgia (febre quebra- ossos) e após alguns dias começou exantema. O diagnóstico provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sarampo."
+        },
+        {
+          "key": "b",
+          "text": "Sepse."
+        },
+        {
+          "key": "c",
+          "text": "Dengue."
+        },
+        {
+          "key": "d",
+          "text": "Varicela."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Cefaleia intensa, febre, mialgia, artralgia (\"febre quebra-ossos\") seguidas de exantema, após viagem a área endêmica, são compatíveis com o diagnóstico de dengue.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_120",
+      "statement": "A dengue é um dos principais problemas de saúde pública no Estado e sua associação com a gestação piora o prognóstico, elevando a morbidade e a mortalidade materna e perinatal. Com relação à dengue na gravidez, pode-se afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "na gestante, os sinais de perda volêmica podem ser mascarados até que esta atinja níveis críticos"
+        },
+        {
+          "key": "b",
+          "text": "no caso de gestantes com quadro de choque, o tratamento deve obrigatoriamente incluir o parto"
+        },
+        {
+          "key": "c",
+          "text": "a dengue no 1º trimestre da gestação está associada com maior risco de malformações congênitas"
+        },
+        {
+          "key": "d",
+          "text": "a realização de exames complementares deve ser individualizada estando contraindicada as radiografias"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na gestante, os sinais clínicos de perda volêmica (hipotensão, taquicardia) podem estar mascarados pelas alterações hemodinâmicas fisiológicas da gravidez, sendo detectados apenas quando já em níveis críticos — ponto de atenção importante no manejo da dengue na gestação.",
+      "theme": "arb_dengue",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    },
+    {
+      "id": "arb_121",
+      "statement": "A dengue constitui um desafio para a saúde pública mundial. O Brasil vem apresentando, nos últimos anos, número crescente de casos graves em adultos e, especialmente em menores de 15 anos. Acerca deste grave problema de saúde pública assinale a alternativa INCORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Os quatro sorotipos do vírus dengue (DENV-1, DENV-2, DENV-3, DENV-4) pertencem à família flaviviridae e ao gênero Flavivirus, que reúne 53 espécies de vírus"
+        },
+        {
+          "key": "b",
+          "text": "Se o choque por dengue for tratado precoce e adequadamente, com soluções cristaloides em volume de 60 ml a 80 ml/kg/dia estaremos evitando a evolução desfavorável"
+        },
+        {
+          "key": "c",
+          "text": "É sabido que, na dengue, são produzidos anticorpos antiplaquetários, de modo que as plaquetas transfundidas serão destruídas. Entretanto, quando há menos de 50.000 plaquetas/mm³ de sangue e a presença de sangramento, a transfusão de plaquetas é indicada"
+        },
+        {
+          "key": "d",
+          "text": "A primoinfecção por dengue será sempre benigna e em virtude da chamada \"infecção sequencial\", qualquer infecção secundária evoluirá com gravidade"
+        },
+        {
+          "key": "e",
+          "text": "A elevação das transaminases tem sido observada em até 90% dos casos de dengue, sendo os níveis de aspartato aminotransferase (AST/TGO) geralmente mais altos do que os de alanina aminotransferase (ALT/TGP)."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A afirmativa INCORRETA (resposta pedida) é a (d): a primoinfecção por dengue NÃO é sempre benigna, e a infecção secundária (\"infecção sequencial\") não evolui obrigatoriamente com gravidade em todos os casos — a fisiopatologia da dengue grave envolve múltiplos fatores de risco, não uma regra absoluta e determinística.",
+      "theme": "arb_dengue",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-29T00:00:00.000Z"
+    }
+  ]
+}

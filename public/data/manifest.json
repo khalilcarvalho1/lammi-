@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T17:28:09.873Z",
+  "generatedAt": "2026-07-29T17:45:41.090Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,7 +26,7 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 2322,
+  "totalQuestions": 2443,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
@@ -53,6 +53,8 @@
     "dm_dx": 34,
     "dm_tto": 80,
     "inf_antibioticos": 126,
+    "arb_dengue": 72,
+    "arb_zika": 49,
     "emg_choque": 47,
     "atls_inicial": 1,
     "atls_choque": 2,
@@ -1330,8 +1332,10 @@
     {
       "area": "infectologia",
       "slug": "dengue",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "arb_dengue"
+      ],
+      "questionsCount": 72,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -1466,8 +1470,10 @@
     {
       "area": "infectologia",
       "slug": "zika",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "arb_zika"
+      ],
+      "questionsCount": 49,
       "flashcardsCount": 0,
       "casosCount": 0
     },
