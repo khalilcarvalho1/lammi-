@@ -1,1 +1,2960 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "tb2_001",
+      "statement": "Homem de 37 anos, com diagnóstico recente de tuberculose (TB) pulmonar em tratamento. A equipe de saúde identifica que sua esposa de 35 anos e seu filho de 15 anos têm diagnóstico de TB ativa. Segundo o Ministério da Saúde, o tratamento encurtado com 2 meses de rifampicina + isoniazida + pirazinamida + etambutol, seguido por 2 meses de rifampicina + isoniazida,",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "é recomendado para o filho, caso o raio-X de tórax seja compatível com TB pulmonar confinada em um lobo, sem cavidades e sem padrão miliar; tenha teste rápido molecular para TB não detectado e apresente sintomas leves que não precisem de internação."
+        },
+        {
+          "key": "b",
+          "text": "é recomendado para a esposa, caso o raio-X de tórax seja compatível com TB pulmonar confinada em um lobo, sem cavidades e sem padrão miliar; tenha teste rápido molecular para TB não detectado e apresente sintomas leves que não precisem de internação."
+        },
+        {
+          "key": "c",
+          "text": "é recomendado para o filho, caso o raio-X de tórax mostre derrame pleural não complicado; tenha baciloscopia de escarro positiva para BAAR ou teste rápido molecular para TB positivo e esteja com estado nutricional semelhante ao que tinha antes de desenvolver TB, após 4 meses de tratamento."
+        },
+        {
+          "key": "d",
+          "text": "não foi incorporado no Brasil, apesar das recomendações da Organização Mundial de Saúde, baseadas nos resultados consistentes do estudo SHINE, no qual foi demonstrada a não inferioridade do esquema terapêutico de 4 meses em comparação ao de 6 meses."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O esquema encurtado de 4 meses (2 meses RIPE + 2 meses RI) é recomendado para crianças com TB pulmonar não grave: radiografia compatível com TB confinada em um lobo, sem cavidades ou padrão miliar, TRM-TB não detectado e sintomas leves sem necessidade de internação — critérios que se aplicam ao filho, não à esposa (adulta), conforme incorporação do esquema pelo Brasil baseada no estudo SHINE.",
+      "theme": "tb_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "UNESP R1 2025"
+    },
+    {
+      "id": "tb2_002",
+      "statement": "Paciente, 60 anos de idade, sexo masculino, relata tosse produtiva iniciada 2 anos antes da pandemia, ora com secreção amarelo/esverdeada ora com secreção mucoide. Relata ter períodos de muita quantidade de secreção e outros com pouca quantidade de secreção. Nega dispneia. Nega febre, mas relata emagrecimento de 2 quilos nos últimos 6 meses. Refere que fez tratamento de tuberculose por 6 meses há 4 anos, mas acha que não se curou. Traz consigo resultado de TRM-TB negativo no escarro. Ao exame físico apenas a ausculta respiratória estava alterada. O murmúrio vesicular era fisiológico com roncos e estertores grossos audíveis na metade superior do hemitórax direito. De acordo com o caso, qual é o provável diagnóstico nosológico?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tuberculose em atividade."
+        },
+        {
+          "key": "b",
+          "text": "Bronquiectasias."
+        },
+        {
+          "key": "c",
+          "text": "Exacerbação de DPOC."
+        },
+        {
+          "key": "d",
+          "text": "Empiema."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Tosse produtiva crônica de longa duração com períodos de grande e pequena quantidade de secreção, sequela de TB tratada há anos e TRM-TB atual negativo sugerem bronquiectasias (sequela pós-tuberculose), não TB em atividade.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "PSU-GO R3CM 2024"
+    },
+    {
+      "id": "tb2_003",
+      "statement": "A tuberculose é uma doença infecciosa e transmissível, causada pela bactériaMycobacterium tuberculosis, também conhecida como bacilo de Koch. A doença afetaprioritariamente os pulmões (forma pulmonar), embora possa acometer outros órgãose/ou sistemas. Sobre esta patologia é correto afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A busca ativa de sintomático respiratório (2 semanas ou mais de tosse produtiva) éuma importante estratégia para o controle da TB, uma vez que permite a detecçãoprecoce das formas pulmonares."
+        },
+        {
+          "key": "b",
+          "text": "O exame físico geralmente mostra fácies de doença crônica e emagrecimento, emboraindivíduos com bom estado geral e sem perda do apetite também possam ter TBpulmonar."
+        },
+        {
+          "key": "c",
+          "text": "A baciloscopia de escarro deve ser realizada em duas amostras: uma no dia seguintedo contato com a pessoa que tosse e outra, independentemente do resultado daprimeira, no dia subsequente, com a coleta do material sendo feita preferencialmente aodespertar."
+        },
+        {
+          "key": "d",
+          "text": "A sensibilidade do TRM-TB (Teste Rápido Molecular para tuberculose) em amostras deescarro de adultos é de cerca de 80% sendo inferior à da baciloscopia."
+        },
+        {
+          "key": "e",
+          "text": "No Brasil, o esquema básico para tratamento da TB em adultos e adolescentes écomposto por três fármacos na fase intensiva e dois na fase de manutenção, comduração de 6 meses no total."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A busca ativa de sintomático respiratório (tosse produtiva por 2 semanas ou mais) é uma estratégia fundamental de controle da TB, permitindo detecção precoce das formas pulmonares e interrompendo a cadeia de transmissão.",
+      "theme": "tb_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "SMS-JP R1 2023"
+    },
+    {
+      "id": "tb2_004",
+      "statement": "Paciente masculino, 36 anos, com antecedente de privação de liberdade por cinco anos. Há nove meses, sem sintomas respiratórios ou constitucionais, teve indicação de uso de medicamento imunobiológico para tratamento de artrite psoriática, onde foi submetido a investigação de tuberculose latente, que resultou em teste tuberculinico com medida de 12 mm. O exame de imagem do tórax detectou lesão consolidativa apical à esquerda e o exame de secreção respiratória, obtida por indução de escarro com teste rápido molecular para Mycobacterium tuberculosis, resultou detectável, inclusive para gene que confere resistência à Rifampicina. Assinale a alternativa que descreve conduta correta para tuberculose nesse paciente.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Prescrever Isoniazida isoladamente, por nove meses, pois não existia evidência de doençaem atividade."
+        },
+        {
+          "key": "b",
+          "text": "Prescrever tratamento com Levofloxacina, Isoniazida, Etambutol e Pirazinamida por dois meses e programar reavaliar teste de sensibilidade para definir os medicamentos a serem usados na fase de manutenção."
+        },
+        {
+          "key": "c",
+          "text": "Prescrever tratamento com Rifampicina, Isoniazida, Pirazinamida e Etambutol até liberaçãode teste de sensibilidade para adequação dos medicamentos."
+        },
+        {
+          "key": "d",
+          "text": "Prescrever tratamento com Bedaquilina, Linezolida e Pretonamida com monitoramento decultura de secreção respiratória para avaliação de indicação de prolongamento do tratamento além de seis meses."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de TB confirmada por TRM-TB com detecção de resistência à rifampicina (TB RR), a conduta é iniciar esquema com fluoroquinolona (levofloxacino) associada a isoniazida, etambutol e pirazinamida por 2 meses, aguardando o teste de sensibilidade completo para definir os fármacos da fase de manutenção.",
+      "theme": "tb_mdr",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "FAMERP R3CM 2026"
+    },
+    {
+      "id": "tb2_005",
+      "statement": "Homem, 45 anos, inicia tratamento para tuberculose pulmonar. Um mês depois, procura o Setor de Emergência por apresentar icterícia. Exames laboratoriais: hepatograma com transaminases normais e bilirrubina aumentada com predomínio da bilirrubina direta. Pode-se afirmar que é mais provável que o fármaco responsável pelo quadro clínico seja:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "pirazinamida"
+        },
+        {
+          "key": "b",
+          "text": "isoniazida"
+        },
+        {
+          "key": "c",
+          "text": "rifampicina"
+        },
+        {
+          "key": "d",
+          "text": "etambutol"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Icterícia com transaminases normais e predomínio de bilirrubina direta (padrão colestático isolado, sem lesão hepatocelular) é classicamente causada pela rifampicina, que compete pela captação/excreção hepática de bilirrubina sem causar hepatotoxicidade verdadeira.",
+      "theme": "tb_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "UFRJ R3CM 2023"
+    },
+    {
+      "id": "tb2_006",
+      "statement": "Um homem de 24 anos, com diagnóstico de HIV, em uso irregular de tenofovir, lamivudina e efavirenz e com CD4 = 60 células/mm3, comparece ao ambulatório de clínica médica queixando- se de tosse seca e perda de peso há dois meses. Foram solicitados radiografia de tórax, que não revelou alterações, e BAAR do escarro induzido, que foi negativo. O PPD teve resultado de 8mm, e a pesquisa de antígeno urinário para tuberculose foi positiva. A conduta mais apropriada no momento é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "prescrever isoniazida por seis meses"
+        },
+        {
+          "key": "b",
+          "text": "prescrever isoniazida e repetir o PPD em seis meses"
+        },
+        {
+          "key": "c",
+          "text": "prescrever rifampicina, isoniazida, pirazinamida e etambutol por seis meses"
+        },
+        {
+          "key": "d",
+          "text": "prescrever rifapentina, dolutegrafir, levofloxacino e isoniazida por três meses"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Em paciente com HIV avançado (CD4=60), radiografia normal, BAAR negativo, mas antígeno urinário de TB (TB-LAM) positivo, configura-se diagnóstico presuntivo de TB ativa — indicado tratamento com esquema básico completo (RIPE), não isoniazida isolada (reservada para TB latente).",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "UERJ R1 2026"
+    },
+    {
+      "id": "tb2_007",
+      "statement": "Em relação à sensibilidade do método diagnóstico de baciloscopia do escarro na tuberculose:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Uma redução de 10-20% na sensibilidade da baciloscopia pode ser obtido após centrifugação e/ou sedimentação do escarro."
+        },
+        {
+          "key": "b",
+          "text": "Um aumento de 10-20% na sensibilidade da baciloscopia também pode ser obtido após centrifugação e não com a sedimentação do escarro."
+        },
+        {
+          "key": "c",
+          "text": "Um aumento de 10-20% na sensibilidade da baciloscopia também pode ser obtido após centrifugação e/ou sedimentação do escarro."
+        },
+        {
+          "key": "d",
+          "text": "Um aumento de 90 % na sensibilidade da baciloscopia também pode ser obtido após centrifugação e/ou sedimentação do escarro."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A centrifugação e/ou sedimentação do escarro são técnicas de concentração que podem aumentar a sensibilidade da baciloscopia em cerca de 10-20%, por concentrar os bacilos na amostra processada.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "HEJSN R1 2023"
+    },
+    {
+      "id": "tb2_008",
+      "statement": "Homem de 59 anos, trabalhador da construção civil, tabagista, apresenta tosse crônica há 6 meses. Não realizou exames prévios. Ao exame: estertores difusos. Qual é a principal conduta diagnóstica inicial preconizada na atenção básica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Iniciar antibiótico empírico para pneumonia."
+        },
+        {
+          "key": "b",
+          "text": "Solicitar baciloscopia de escarro seriada para investigação de tuberculose."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar tomografia computadorizada de tórax."
+        },
+        {
+          "key": "d",
+          "text": "Encaminhar diretamente para pneumologista."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de tosse crônica (6 meses) em paciente com fatores de risco (tabagismo, exposição ocupacional), a conduta inicial preconizada na atenção básica é solicitar baciloscopia de escarro seriada para investigação de tuberculose.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "SCML R1 2026"
+    },
+    {
+      "id": "tb2_009",
+      "statement": "Paciente com diagnóstico de HIV e tuberculose em janeiro de 2020, com abandono de ambos os tratamentos em decorrência da pandemia de Covid-19. Relata ainda como fator contribuinte para a interrupção do tratamento o fato de ter apresentado reações aos medicamentos, com \"problema nos nervos\" e urina avermelhada. Assinale a alternativa que apresenta os medicamentos provavelmente relacionados às queixas de neuropatia periférica e urina avermelhada, respectivamente.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Isoniazida; Rifampicina."
+        },
+        {
+          "key": "b",
+          "text": "Isoniazida; Pirazinamida."
+        },
+        {
+          "key": "c",
+          "text": "Rifampicina; Pirazinamida."
+        },
+        {
+          "key": "d",
+          "text": "Pirazinamida; Rifampicina."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A neuropatia periférica (\"problema nos nervos\") é efeito adverso clássico da isoniazida (por depleção de piridoxina/B6), enquanto a urina avermelhada é efeito benigno característico da rifampicina.",
+      "theme": "tb_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "SCMA-SP R1 2023"
+    },
+    {
+      "id": "tb2_010",
+      "statement": "Paciente, sexo masculino, 35 anos de idade, trabalhador da construção civil, tabagista e, emagrecido, está em tratamento de tuberculose pulmonar há 2 meses. No entanto, não compareceu a consulta agendada no mês anterior e a equipe multidisciplinar informou que ele não retirou a medicação na farmácia. Paciente relata tosse seca ocasional, nega outros sintomas e confirmou que não usa o tratamento da tuberculose há 1 mês. Diante dessa situação clínica, qual é a conduta a ser adotada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar TRM-TB e prescrever o esquema RH."
+        },
+        {
+          "key": "b",
+          "text": "Solicitar pesquisa de fungo, cultura de escarro para Mycobacterium tuberculosis com teste de sensibilidade e prescrever o esquema RH."
+        },
+        {
+          "key": "c",
+          "text": "Solicita de BAAR no escarro e prescrever esquema RIPE."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar pesquisa de BAAR no escarro, TRM-TB, cultura de escarro para Mycobacterium tuberculosis com teste de sensibilidade e prescrever o esquema RIPE."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de abandono de tratamento (interrupção por 1 mês), a conduta é reinvestigação completa — pesquisa de BAAR, TRM-TB e cultura com teste de sensibilidade — antes de reiniciar o esquema RIPE completo, dado o risco de resistência adquirida por tratamento irregular.",
+      "theme": "tb_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "PSU-GO R1 2026"
+    },
+    {
+      "id": "tb2_011",
+      "statement": "São exames que podem ser utilizados para confirmar tuberculose pulmonar ativa em pessoas com quadro clínico sugestivo da doença: I. Teste rápido molecular para tuberculose (TRM-TB). II. Cultura de Micobacterium tuberculosis. III. Teste de Mantoux. Quais estão corretos?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas I e II."
+        },
+        {
+          "key": "b",
+          "text": "Apenas I e III."
+        },
+        {
+          "key": "c",
+          "text": "Apenas II e III."
+        },
+        {
+          "key": "d",
+          "text": "I, II e III."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "TRM-TB e cultura são exames que confirmam TB pulmonar ativa; já o teste de Mantoux (PPD) avalia apenas infecção (latente ou pregressa), não distinguindo doença ativa, não sendo um exame confirmatório de TB em atividade.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "AMRIGS R1 2023"
+    },
+    {
+      "id": "tb2_012",
+      "statement": "Paciente com síndrome de imunodeficiência do adulto (SIDA) e sem histórico de tratamento inicia, concomitantemente ao diagnóstico da doença retroviral, quadro de febre, cefaleia e diplopia. No exame físico, apresenta rigidez de nuca e alteração do III e VI pares cranianos. O líquor apresenta pleocitose mononuclear, proteína aumentada, glicose baixa e GeneXpert positivo. Segundo o Ministério da Saúde (2019), nesse caso, a conduta mais adequada é iniciar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "RIPE e esquema antirretroviral concomitante"
+        },
+        {
+          "key": "b",
+          "text": "RIPE e adicionar esquema antirretroviral, após sessenta dias"
+        },
+        {
+          "key": "c",
+          "text": "RIPE e adicionar esquema antirretroviral, após duas semanas"
+        },
+        {
+          "key": "d",
+          "text": "esquema antirretroviral e adicionar RIPE, após duas semanas"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Em caso de meningite tuberculosa associada a HIV recém-diagnosticado, o Ministério da Saúde (2019) recomenda iniciar o esquema RIPE e postergar o início da terapia antirretroviral por 60 dias, dado o risco elevado de síndrome inflamatória de reconstituição imune (IRIS) no sistema nervoso central.",
+      "theme": "tb_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "UERJ R1 2024"
+    },
+    {
+      "id": "tb2_013",
+      "statement": "Homem, 54 anos de idade, apresenta perda ponderal de 15% do peso habitual em 60 dias, associada a febre vespertina, adinamia intensa, tosse crônica, expectoração purulenta, às vezes com raias de sangue. Nega sudorese noturna. Tem histórico de abuso de bebidas alcoólicas há 6 anos e tabagismo de 40 maços-ano. Teve tuberculose aos 22 anos, com sequelas pulmonares. Tomografia computadorizada de tórax: bronquiectasias, traves fibróticas bilateralmente e cavitação em ápice direito, com paredes espessadas. Bacterioscopia do escarro: BAAR ++ e teste rápido molecular para M. tuberculosis negativo. Qual é a alternativa mais adequada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A sensibilidade da bacterioscopia é maior que do teste rápido molecular para tuberculose no escarro."
+        },
+        {
+          "key": "b",
+          "text": "Este paciente deve ser tratado com o esquema rifampicina, isoniazida, pirazinamida e etambutol."
+        },
+        {
+          "key": "c",
+          "text": "Trata-se de uma tuberculose, com bacilo mutante e teste rápido molecular falso negativo."
+        },
+        {
+          "key": "d",
+          "text": "Considerando a possibilidade de nocardiose ou de micobactéria não tuberculosa, deve-se solicitar a cultura do escarro."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A discordância entre bacterioscopia fortemente positiva (BAAR++) e TRM-TB negativo, em paciente com sequela pulmonar de TB prévia, levanta a possibilidade de micobactéria não tuberculosa ou nocardiose (ambas álcool-ácido resistentes), sendo indicada a cultura de escarro para elucidação diagnóstica.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "UNIFESP R3CM 2023"
+    },
+    {
+      "id": "tb2_014",
+      "statement": "Paciente de 79 anos, tabagista de 80 maços-ano, com tosse produtiva há três meses, sudorese à noite, sibilos e emagrecimento, refere cansaço e falta e ar. Nega episódios anteriores dos sintomas nos últimos três anos. Diante desse quadro, o diagnóstico mais provável é de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "pneumonia bacteriana"
+        },
+        {
+          "key": "b",
+          "text": "tuberculose pulmonar"
+        },
+        {
+          "key": "c",
+          "text": "bronquite crônica"
+        },
+        {
+          "key": "d",
+          "text": "asma cardíaca"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Tosse produtiva crônica associada a sudorese noturna e emagrecimento em paciente idoso tabagista, sem episódios prévios recorrentes, é quadro clássico sugestivo de tuberculose pulmonar (sintomas constitucionais como diferencial de bronquite/asma).",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "UERJ R1 2024"
+    },
+    {
+      "id": "tb2_015",
+      "statement": "Para a coleta da baciloscopia do escarro para diagnóstico de Tuberculose:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Duas a três amostras de escarro devem ser enviadas para baciloscopia, com pelo menos uma coleta no início da manhã para a otimização dos resultados da baciloscopia. O volume de escarro deve ser maior que 3 mL, sendo o volume ideal de 5-10 mL."
+        },
+        {
+          "key": "b",
+          "text": "Duas a três amostras de escarro devem ser enviadas para baciloscopia, com pelo menos uma coleta no início da noite para a otimização dos resultados da baciloscopia. O volume de escarro deve ser maior que 3 mL, sendo o volume ideal de 5-10 mL."
+        },
+        {
+          "key": "c",
+          "text": "Duas a três amostras de escarro devem ser enviadas para baciloscopia, com pelo menos uma coleta no início da manhã para a otimização dos resultados da baciloscopia. O volume de escarro deve ser menor que 3 mL."
+        },
+        {
+          "key": "d",
+          "text": "Dez amostras de escarro devem ser enviadas para baciloscopia, com pelo menos uma coleta no início da manhã para a otimização dos resultados da baciloscopia. O volume de escarro deve ser maior que 3 mL, sendo o volume ideal de 5-10 mL."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Para a baciloscopia de escarro, recomenda-se coletar de 2 a 3 amostras, com pelo menos uma coleta ao despertar pela manhã (maior carga bacilar), com volume ideal de 5-10 mL (mínimo de 3 mL).",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "OASE R1 2023"
+    },
+    {
+      "id": "tb2_016",
+      "statement": "Tomografia torácica deve ser realizada em pacientes sintomáticos respiratórios com exame de escarro negativo, em indivíduos com suspeita de tuberculose nos quais a radiografia do tórax não tenha sido esclarecedora. Assinale a alternativa correta quanto a sua indicação:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Nos casos em que é desnecessária uma avaliação mais detalhada do mediastino, nos casos com doença difusa, nos pacientes que apresentam alterações endobrônquicas e naqueles sintomáticos respiratórios com extensas sequelas que podem necessitar de intervenções cirúrgicas."
+        },
+        {
+          "key": "b",
+          "text": "Nos casos em que é necessária uma avaliação mais detalhada do mediastino, nos casos com doença difusa, nos pacientes que apresentam alterações endobrônquicas e naqueles assintomáticos respiratórios com pequenas sequelas que podem necessitar de intervenções cirúrgicas."
+        },
+        {
+          "key": "c",
+          "text": "Nos casos em que é necessária uma avaliação mais detalhada do mediastino, nos casos com doença difusa, nos pacientes que apresentam alterações endobrônquicas e naqueles sintomáticos respiratórios com extensas sequelas que podem necessitar de intervenções cirúrgicas."
+        },
+        {
+          "key": "d",
+          "text": "Nos casos em que é necessária uma avaliação não detalhada do mediastino, nos casos com doença difusa, nos pacientes que apresentam alterações endobrônquicas e naqueles sintomáticos respiratórios com extensas sequelas que podem necessitar de intervenções cirúrgicas."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A tomografia de tórax está indicada quando é necessária avaliação mais detalhada do mediastino, em casos de doença difusa, alterações endobrônquicas, e em pacientes sintomáticos respiratórios com sequelas extensas que possam necessitar de intervenção cirúrgica.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "HSJC R1 2023"
+    },
+    {
+      "id": "tb2_017",
+      "statement": "Em termos de saúde pública, qual é o exame mais importante para confirmar o diagnóstico de tuberculose pulmonar?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pesquisa de BAAR."
+        },
+        {
+          "key": "b",
+          "text": "Cultura de micobactéria."
+        },
+        {
+          "key": "c",
+          "text": "PPD."
+        },
+        {
+          "key": "d",
+          "text": "PCR."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Em termos de saúde pública, a baciloscopia (pesquisa de BAAR) é o exame mais importante para confirmação diagnóstica da TB pulmonar, por ser rápido, de baixo custo e amplamente disponível para rastreio em massa.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "IOVALE R1 2023"
+    },
+    {
+      "id": "tb2_018",
+      "statement": "Homem, 48 anos, refere febre e tosse há 3 semanas. Tem cirrose hepática de etiologia alcoólica, sem tratamento regular. Exame físico: consciente e orientado, ictérico (++/4+); FC: 76 bpm; PA: 100 x 60 mmHg. Ap. respiratório: MV presente bilateralmente, roncos no terço superior do hemitórax esquerdo, FR: 28 ipm, SatO²: 93% em ar ambiente. Abdome: ascite de moderado volume, fígado palpável com borda romba a 4 cm abaixo do rebordo costal direito. Baço palpável: a 4 cm do rebordo costal esquerdo. Exames laboratoriais: AST: 325 U/L (VR<38); ALT: 123 U/L (VR<31); GGT: 275 U/L (VR<50); Bilirrubina total: 5,8 mg/dL (VR: 0,2 - 1,2); Albumina: 2,8 G/dL (VR: 3,5 - 4,8); TP/INR: 1,6 (VR<1,3); creatinina: 2,8 mg/dL (VR<1,5). Radiografia de tórax: consolidação no lobo superior direito associada a lesão cavitária. Teste rápido molecular para tuberculose no escarro: positivo, com sensibilidade à rifampicina. Qual é a proposta de tratamento mais adequada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Levofloxaxina + Etambutol + Rifampicina por 12 meses."
+        },
+        {
+          "key": "b",
+          "text": "Rifampicina + Isoniazida + Pirazinamida + Etambutol por 6 meses."
+        },
+        {
+          "key": "c",
+          "text": "Rifampicina + Isoniazida + Etambutol por 9 meses."
+        },
+        {
+          "key": "d",
+          "text": "Levofloxaxina + Amicacina + Etambutol por 6 meses."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de cirrose hepática avançada/descompensada (ascite, hipoalbuminemia, coagulopatia, hiperbilirrubinemia), o esquema básico (RIPE) — que inclui múltiplos fármacos hepatotóxicos — é contraindicado, sendo preferível regime alternativo evitando isoniazida, rifampicina e pirazinamida (ex.: levofloxacino + amicacina + etambutol).",
+      "theme": "tb_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "USP-RP R3CM 2023"
+    },
+    {
+      "id": "tb2_019",
+      "statement": "Paciente do sexo feminino, 42 anos, iniciou tratamento de tuberculose pulmonar com esquema RHZE; está no segundo mês do tratamento. Na consulta se queixa de dor articular após iniciar o tratamento. Assinale a opção que apresenta um fármaco que pode causar esse sintoma e a conduta adequada para manejo dessa situação.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Rifampicina /orientar uso de corticoide."
+        },
+        {
+          "key": "b",
+          "text": "Pirazinamida / orientar uso de corticoide."
+        },
+        {
+          "key": "c",
+          "text": "Isoniazida / orientar uso de analgésicos ou AINE."
+        },
+        {
+          "key": "d",
+          "text": "Rifampicina /orientar repouso."
+        },
+        {
+          "key": "e",
+          "text": "Etambutol /orientar repouso."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A pirazinamida é classicamente associada à artralgia induzida por hiperuricemia durante o tratamento da tuberculose, sendo indicado manejo sintomático da dor.",
+      "theme": "tb_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "FGV OUTRAS PROVAS 2023"
+    },
+    {
+      "id": "tb2_020",
+      "statement": "Quando avaliadas técnicas para a baciloscopia do escarro na tuberculose, pode-se afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A microscopia de fluorescência pode reduzir a capacidade de detecção do bacilo em 10%, quando comparada à microscopia com luz convencional."
+        },
+        {
+          "key": "b",
+          "text": "A microscopia de fluorescência pode incrementar a capacidade de detecção do bacilo em 90%, quando comparada à microscopia com luz convencional."
+        },
+        {
+          "key": "c",
+          "text": "A microscopia de fluorescência pode incrementar a capacidade de detecção do bacilo em 10%, quando comparada à microscopia com luz convencional."
+        },
+        {
+          "key": "d",
+          "text": "A microscopia de fluorescência não pode incrementar a capacidade de detecção do bacilo, quando comparada à microscopia com luz convencional."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A microscopia de fluorescência pode incrementar a capacidade de detecção do bacilo em cerca de 10%, quando comparada à microscopia com luz convencional, sendo uma técnica complementar útil.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "OASE R1 2023"
+    },
+    {
+      "id": "tb2_021",
+      "statement": "Paciente sintomático respiratório, 50 anos, etilista, procurou a Unidade Básica de Saúde do seu bairro, com queixa de tosse com expectoração há cerca de 3 meses. Atendido pelo Médico da Equipe de Saúde da Família, qual deveria ser o primeiro exame solicitado na investigação diagnóstica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cultura de escarro"
+        },
+        {
+          "key": "b",
+          "text": "Radiografia torácica"
+        },
+        {
+          "key": "c",
+          "text": "Tomografia do tórax"
+        },
+        {
+          "key": "d",
+          "text": "Baciloscopia direta de escarro"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Para paciente sintomático respiratório atendido na atenção básica, o primeiro exame a ser solicitado na investigação diagnóstica é a baciloscopia direta de escarro, conforme algoritmo padrão do Ministério da Saúde.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "FAMERP R1 2025"
+    },
+    {
+      "id": "tb2_022",
+      "statement": "Tomografia Torácica (TC) sempre acrescenta informações. Sendo correto que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Há um padrão tomográfico incompatível com tuberculose ativa, caracterizado por consolidação (com ou sem broncograma aéreo), nódulos, cavidades, nódulos de espaço aéreo (árvore em brotamento) e alterações brônquicas, como espessamento das paredes e dilatação."
+        },
+        {
+          "key": "b",
+          "text": "Há um padrão tomográfico compatível com tuberculose ativa, caracterizado por consolidação (com ou sem broncograma aéreo), nódulos, cavidades, nódulos de espaço aéreo (árvore em brotamento) e alterações brônquicas, como espessamento das paredes e dilatação."
+        },
+        {
+          "key": "c",
+          "text": "Há um padrão tomográfico compatível com tuberculose ativa, caracterizado por consolidação (com ou sem broncograma aéreo), nódulos, cavidades, nódulos de espaço aéreo (árvore em brotamento) e nunca por alterações brônquicas, como espessamento das paredes e dilatação."
+        },
+        {
+          "key": "d",
+          "text": "Há um padrão tomográfico compatível com tuberculose ativa, caracterizado por consolidação (com ou sem broncograma aéreo), nódulos, cavidades, nódulos de espaço aéreo (árvore em brotamento) e alterações brônquicas, como afinamento das paredes e dilatação."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O padrão tomográfico compatível com tuberculose ativa inclui consolidação (com ou sem broncograma aéreo), nódulos, cavidades, nódulos de espaço aéreo em árvore em brotamento, e alterações brônquicas como espessamento de paredes e dilatação.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "HSJC R1 2023"
+    },
+    {
+      "id": "tb2_023",
+      "statement": "Homem, 37a, foi trazido ao Pronto Atendimento com insuficiência respiratória e evoluiu para óbito. Achados da necropsia: ápice do lobo superior pulmonar esquerdo apresentando cavidades, contendo material necrótico nas paredes e múltiplos pequenos nódulos no parênquima subjacente, denotando destruição pulmonar progressiva no sentido do ápice para base (Figura Q3, anexo). A HIPÓTESE DIAGNÓSTICA É: Clique na imagem para expandir",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tuberculose, tuberculose pulmonar, tuberculose secundária."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "ATENÇÃO: a questão faz referência a uma imagem de necropsia não disponível na extração do PDF. O achado descrito no texto (cavidade apical com material necrótico e destruição pulmonar progressiva do ápice para a base) é o padrão clássico de tuberculose pulmonar secundária (de reativação).",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "UNICAMP R1 2023"
+    },
+    {
+      "id": "tb2_024",
+      "statement": "Paciente de 28 anos de idade, com diagnóstico de tuberculose pulmonar em tratamento com esquema RIPE (2 meses de rifampicina, isoniazida, pirazinamida e etambutol e está no final do 4º mês de rifampicina, isoniazida). O teste rápido molecular para tuberculose, ao diagnóstico, mostrou a presença de DNA de Mycobacterium tuberculosis e a ausência de gene de resistência à rifampicina. A pesquisa de BAAR no escarro do 6º mês de tratamento está negativa. Ao exame físico MV rude no terço súpero-posterior do hemitórax direito. Ausência de outros achados pertinentes ao exame físico. As imagens da radiografia de tórax do 6º mês de tratamento são apresentadas a seguir: Diante do quadro clínico e da imagem, qual é, no momento, a conduta médica? Clique na imagem para expandir",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dar alta do tratamento por cura, referenciar para pneumologia para avaliar a possibilidade de sequela da tuberculose."
+        },
+        {
+          "key": "b",
+          "text": "Manter o tratamento da tuberculose, solicitar cultura de escarro para micobactéria, referenciar para pneumologia para avaliar resistência."
+        },
+        {
+          "key": "c",
+          "text": "Manter o tratamento da tuberculose, solicitar nova pesquisa de BAAR no escarro ao final do 6º mês de rifampicina e isoniazida."
+        },
+        {
+          "key": "d",
+          "text": "Dar alta do tratamento por cura, referenciar para cirurgia torácica para drenagem pleural."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Paciente sem resistência à rifampicina, com baciloscopia negativa no 6º mês (final do tratamento) e apenas achados residuais ao exame físico, corresponde a critério de cura — devendo receber alta por cura, com referenciamento à pneumologia para avaliação de possível sequela.",
+      "theme": "tb_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "PSU-GO R3CM 2025"
+    },
+    {
+      "id": "tb2_025",
+      "statement": "Agente comunitária solicita, em reunião de equipe, uma consulta para o paciente Mauro, que é irmão da dona Maria, paciente restrita. A agente conta que Mauro, 55 anos, está sentindo dor no corpo, cansaço, perda de apetite e que tem emagrecido bastante. Nega sintomas respiratórios. Trabalha na construção civil há mais de 30 anos, tendo ficado um pouco mais de 2 anos afastado das obras, pois ficou preso por agressão à ex-mulher. Voltou a trabalhar há quase 2 meses, mas não tem conseguido trabalhar o dia todo. Os exames iniciais a serem solicitados pelo médico que atender Mauro, devem ser hemograma, glicemia, colesterol e frações e",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "testes rápidos para ISTs, coleta de escarro, Rx de tórax e PPD."
+        },
+        {
+          "key": "b",
+          "text": "PPD, apenas, por não haver sintomas respiratórios."
+        },
+        {
+          "key": "c",
+          "text": "testes rápidos para ISTs, apenas."
+        },
+        {
+          "key": "d",
+          "text": "testes rápidos para ISTs, realização de espirometria e ecocárdio para diagnóstico diferencial do cansaço."
+        },
+        {
+          "key": "e",
+          "text": "pela ausência de tosse e febre, não existe a indicação de realização de exames para diagnóstico diferencial de tuberculose."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de contato próximo com pessoa com TB ativa (irmã) e sintomas constitucionais (mesmo sem sintomas respiratórios), associados a fatores de risco (privação de liberdade prévia), a investigação apropriada inclui testes rápidos para IST, coleta de escarro, radiografia de tórax e PPD, dada a alta probabilidade pré-teste pelo contato.",
+      "theme": "tb_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "SCM-SP R1 2025"
+    },
+    {
+      "id": "tb2_026",
+      "statement": "Paciente de 57 anos de idade, na terceira semana de tratamento de tuberculose pulmonar em uso do esquema preferencial conforme Manual e Recomendações para Controle da Tuberculose no Brasil (Ministério da Saúde), passou a apresentar náuseas, vômitos e dor em hipocôndrio direito. Procurou Unidade Básica de Saúde, onde não foram constatados sinais de gravidade clínica, porém exames laboratoriais demonstraram TGO 460 U/L e TGP 530 U/L. Paciente sem história de hepatopatias prévias. Nesse caso, a conduta a ser adotada é a suspensão",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "da rifampicina pelas características da hepatotoxicidade, mantendo as demais medicações do esquema até o final do tratamento."
+        },
+        {
+          "key": "b",
+          "text": "do esquema completo, com reintrodução programada das medicações, iniciando-se com rifampicina e etambutol após a redução das transaminases."
+        },
+        {
+          "key": "c",
+          "text": "da pirazinamida pelo maior potencial de hepatotóxico desta, mantendo as demais medicações do esquema até o final do tratamento."
+        },
+        {
+          "key": "d",
+          "text": "do esquema completo e início de esquema alternativo com levofloxacino, linezolida e amicacina."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Elevação expressiva e sintomática das transaminases (TGO 460/TGP 530, mais de 10x o limite superior) durante o tratamento da TB indica hepatotoxicidade significativa — a conduta é suspender o esquema completo, com reintrodução programada e gradual das medicações após redução das transaminases.",
+      "theme": "tb_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "PSU-GO R3CM 2023"
+    },
+    {
+      "id": "tb2_027",
+      "statement": "Paciente do sexo feminino, de 39 anos de idade, natural e procedente de São Paulo - SP, sem comorbidades, procura atendimento no Centro de Saúde Escola por quadro de perda ponderal de 8 kg em 4 meses, tosse produtiva, febre baixa no início da noite, fadiga e nodulações cervicais. Ao exame, revela-se emagrecida, descorada 2+/4+, afebril, com nodulações endurecidas em cadeias cervicais anterior e posterior, com ausculta cardíaca sem alterações e estertores crepitantes em ápice direito. Realizou a radiografia de tórax apresentada a seguir. Considere que, após confirmação do diagnóstico do quadro pulmonar, a paciente receba o resultado de dois testes rápidos positivos para HIV e, posteriormente, seja realizada carga viral de 10.000 cópias/mL e contagem de linfócitos T CD4+ = 150 células/mL. Nesse caso, em relação ao tratamento do HIV e da patologia pulmonar, deve-se iniciar, Clique na imagem para expandir",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "concomitantemente, quimioterapia e terapia antirretroviral."
+        },
+        {
+          "key": "b",
+          "text": "Imediatamente, esquema RIPE associado a terapia antirretroviral."
+        },
+        {
+          "key": "c",
+          "text": "Imediatamente, ceftriaxona endovenosa por 7 dias, associada a terapia antirretroviral."
+        },
+        {
+          "key": "d",
+          "text": "Imediatamente, quimioterapia e, após 12 semanas, associar terapia antirretroviral."
+        },
+        {
+          "key": "e",
+          "text": "Imediatamente, esquema RIPE e, após 8 semanas de tratamento, associar terapia antirretroviral."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Em coinfecção HIV-TB com CD4 ≥50 células/mm³ (aqui 150), o Ministério da Saúde recomenda iniciar imediatamente o esquema RIPE e associar a terapia antirretroviral após 8 semanas, reduzindo o risco de síndrome de reconstituição imune (IRIS).",
+      "theme": "tb_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "SUS-SP R1 2023"
+    },
+    {
+      "id": "tb2_028",
+      "statement": "A cultura para micobactérias de material respiratório apresenta sensibilidade emtorno de 80% e especificidade de 98%. Sendo correto que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Os métodos para cultura que utilizam a semeadura em meios líquidos, como oLöwenstein-Jensen e não o Ogawa-Kudoh, são os mais comumente utilizados porapresentarem a vantagem de ter menor custo e um baixo índice de contaminação."
+        },
+        {
+          "key": "b",
+          "text": "Os métodos para cultura que utilizam a semeadura em meios sólidos, como oLöwenstein-Jensen e o Ogawa-Kudoh, são os mais comumente utilizados porapresentarem a vantagem de ter maior custo e um elevado índice de contaminação."
+        },
+        {
+          "key": "c",
+          "text": "Os métodos para cultura que utilizam a semeadura em meios sólidos, como oLöwenstein-Jensen e o Ogawa-Kudoh, são os mais comumente utilizados porapresentarem a vantagem de ter menor custo e um baixo índice de contaminação."
+        },
+        {
+          "key": "d",
+          "text": "Os métodos para cultura que não utilizam a semeadura em meios sólidos, como oLöwenstein-Jensen e o Ogawa-Kudoh, são os mais comumente utilizados porapresentarem a vantagem de ter menor custo e um baixo índice de contaminação."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Os métodos de cultura em meios sólidos (Löwenstein-Jensen, Ogawa-Kudoh) são os mais comumente utilizados por apresentarem menor custo e baixo índice de contaminação, em comparação aos meios líquidos (mais caros e com maior risco de contaminação, embora mais rápidos).",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "SCMM R1 2023"
+    },
+    {
+      "id": "tb2_029",
+      "statement": "Assinale a alternativa correta referente à vigilância sobre a tuberculose.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A alta incidência de tuberculose nas populações privadas de liberdade se deve principalmente à proximidade física, e poucas medidas são consideradas efetivas para o controle da doença."
+        },
+        {
+          "key": "b",
+          "text": "Nas populações indígenas, a presença de tosse merece observação, mas, a partir de 4 semanas, enseja a realização de baciloscopia ou teste rápido molecular para tuberculose (TRM-TB) e radiografia de tórax."
+        },
+        {
+          "key": "c",
+          "text": "Uma das populações merecedoras de atenção especial na vigilância sobre a tuberculose é a de pessoas vivendo com HIV, as quais devem ser sempre questionadas sobre existência de tosse, independentemente da duração, e/ou febre e/ou perda de peso e/ou sudores"
+        },
+        {
+          "key": "d",
+          "text": "Embora estejam em vulnerabilidade social, populações em situação de rua não são prioritárias na vigilância sobre a tuberculose, pois vivem a céu aberto, tendo poucas possibilidades de se infectar."
+        },
+        {
+          "key": "e",
+          "text": "A vacina BCG previne as formas graves da doença, como miliar e meníngea na criança, além de proteger indivíduos já infectados pelo M. tuberculosis e de evitar o adoecimento por reativação endógena ou reinfecção exógena."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Pessoas vivendo com HIV constituem população prioritária na vigilância da TB, devendo ser sistematicamente questionadas sobre tosse (independentemente da duração), febre, perda de peso e sudorese, dado o maior risco e apresentação atípica da doença nesse grupo.",
+      "theme": "tb_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "Hospital Regional de Presidente Prudente R1 2026"
+    },
+    {
+      "id": "tb2_030",
+      "statement": "RADB, masculino, 35 anos, usuário de drogas ilicitas por via inalatória e vivendo em situação de rua há quatro anos, foi atendido em Unidade de Pronto Atendimento por apresentação de quadro de febre, tosse com expectoração de aspecto purulento em grande quantidade em evolução há duas semanas e consumpção acentuada. O paciente referiu diagnóstico de infecção pelo HIV há cinco anos com realizações do tratamento de forma irregular até dois anos antes em Minas Gerais. Após avaliação clínica e radiológica, a possibilidade de tuberculose pulmonar foi levantada e a equipe assistente iniciou a condução do caso. Assinale a alternativa que descreve conduta CORRETA para o caso.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O diagnóstico de tuberculose foi confirmado com a obtenção de baciloscopia positiva (+++) e do teste rápido molecular para Mycobacterium tuberculosis (TRM-TB) com detecção de resistência à Rifampicina; o paciente foi encaminhado a Unidade Hospitalar para internação, confirmação dos achado e início do tratamento especifico após resultados de novos exames e estadiamento da doença pelo HIV."
+        },
+        {
+          "key": "b",
+          "text": "O diagnóstico de tuberculose foi descartado após obtenção de teste rápido molecular para Mycobacterium tuberculosis (TRM-TB) com resultado \"detectado\", assim como gene de resistência à Rifampicina; o paciente foi encaminhado para serviço ambulatorial especializados para pacientes com HIV-AIDS e Tuberculose, onde teve nova amostra de escarro coletada para realização de cultura para micobactérias e teste de sensibilidade e o tratamento iniciado com esquema básico (Rifampicina / Isoniazida / Pirazinamida / Etambutol)."
+        },
+        {
+          "key": "c",
+          "text": "O diagnóstico de tuberculose foi confirmado pela obtenção de baciloscopia positiva (+) em amostra de escarro coletada; o tratamento com esquema básico (Rifampicina / Isoniazida / Pirazinamida / Etambutol) foi iniciado e o paciente foi encaminhado para serviço ambulatorial especializados para pacientes com HIV-AIDS para seguimento das duas doenças."
+        },
+        {
+          "key": "d",
+          "text": "A pesquisa direta do Mycobacterium tuberculosis resultou negativa em amostra de escarro coletada no momento da consulta, bem como o teste rápido molecular específico (TRM-TB); a possibilidade de tuberculose foi, então, considerada menos provável e decidiu-se pela realização de tratamento de Pneumonia Adquirida na Comunidade com Amoxicilina/Clavulanato e encaminhamento para serviço ambulatorial especializados para pacientes com HIV-AIDS."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de baciloscopia fortemente positiva (+++) e TRM-TB com detecção de resistência à rifampicina (TB RR), em paciente vulnerável (situação de rua, HIV com tratamento irregular), a conduta é encaminhamento hospitalar para internação, confirmação diagnóstica e estadiamento antes do início específico do tratamento.",
+      "theme": "tb_mdr",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "FAMERP R1 2024"
+    },
+    {
+      "id": "tb2_031",
+      "statement": "Um paciente sem doença hepática prévia, e em tratamento para tuberculose pulmonar com rifampicina, isoniazida, pirazinamida e etambutol, inicia quadro de sintomas dispépticos e elevação de transaminases (TGO e TGP). A conduta acertada em relação a esse caso clínico é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "suspender imediatamente todas as medicações e reintroduzi-las quando as transaminases estiverem normalizadas;"
+        },
+        {
+          "key": "b",
+          "text": "manter as medicações para tuberculose tolerando até 5 vezes o limite superior da normalidade;"
+        },
+        {
+          "key": "c",
+          "text": "trocar imediatamente para capreomicina, etambutol e levofloxacina (esquema para hepatotoxicidade) e prolongar a terapia por 12 meses;"
+        },
+        {
+          "key": "d",
+          "text": "suspender imediatamente todas as medicações quando as transaminases ultrapassarem 3 vezes o limite superior da normalidade e monitorar a função hepática a cada 3 a 7 dias até a normalização;"
+        },
+        {
+          "key": "e",
+          "text": "suspender apenas a isoniazida e a pirazinamida, pois deve-se iniciar a recontagem a partir da rifampicina e etambutol, e monitorar a função hepática a cada 3 a 7 dias para reintrodução ordenada dos outros dois medicamentos."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de sintomas dispépticos e elevação de transaminases durante tratamento de TB, a conduta é suspender todas as medicações quando as transaminases ultrapassarem 3 vezes o limite superior da normalidade (com sintomas), monitorando a função hepática a cada 3-7 dias até normalização, antes de reintroduzir os fármacos.",
+      "theme": "tb_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "ENARE R3CM 2025"
+    },
+    {
+      "id": "tb2_032",
+      "statement": "No acompanhamento de uma criança de 8 anos de idade em tratamento para tuberculose pulmonar, além de realizar a notificação do caso, é importante garantir as seguintes condutas:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "realizar baciloscopia de controle ao final do tratamento, radiografias de tórax mensais e avaliação semanal da adesão ao tratamento no primeiro mês."
+        },
+        {
+          "key": "b",
+          "text": "realizar baciloscopia de controle e avaliação clínica a cada 15 dias nos primeiros dois meses de tratamento e, depois, a cada 2 meses, se evolução clínica favorável."
+        },
+        {
+          "key": "c",
+          "text": "ofertar teste diagnóstico de infecção pelo HIV e realizar avaliação mensal da adesão ao tratamento."
+        },
+        {
+          "key": "d",
+          "text": "investigar infecção pelo HIV, neoplasia e erros inatos da imunidade, avaliar a adesão ao tratamento a cada 2 meses e repetir prova tuberculínica ao final do tratamento."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "No acompanhamento de criança em tratamento de TB, além da notificação, deve-se sempre oferecer teste diagnóstico para HIV (coinfecção deve ser sistematicamente rastreada) e realizar avaliação mensal da adesão ao tratamento.",
+      "theme": "tb_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "UNIFESP OUTRAS PROVAS 2026"
+    },
+    {
+      "id": "tb2_033",
+      "statement": "Gestante com 35 semanas de idade gestacional apresenta tosse persistente há 5 semanas, emagrecimento de 1 kg no último mês e febrícula diária. Exame físico do aparelho respiratório com diminuição do murmúrio vesicular no terço superior do hemitórax direito. A radiografia de tórax com proteção abdominal demonstra infiltrado no lobo superior direito sugestivo de tuberculose pulmonar. O exame de escarro confirma baciloscopia positiva para Mycobacterium tuberculosis. Considerando as diretrizes brasileiras, assinale a conduta mais apropriada para o manejo dessa paciente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Iniciar imediatamente o esquema básico de tratamento da tuberculose ativa (rifampicina + isoniazida + etambutol + pirazinamida) e associar piridoxina 50 mg/dia."
+        },
+        {
+          "key": "b",
+          "text": "Adiar o tratamento da tuberculose até o parto, já que os medicamentos antituberculose podem ter risco para o feto, e realizar somente vigilância até a terminação da gestação."
+        },
+        {
+          "key": "c",
+          "text": "Realizar apenas tratamento com isoniazida e piridoxina 50 mg/dia durante a gestação e aguardar o parto para adicionar rifampicina e etambutol, visto que estes podem atravessar a placenta."
+        },
+        {
+          "key": "d",
+          "text": "Iniciar apenas etambutol e piridoxina 50 mg/dia durante a gestação - adicionar rifampicina, isoniazida e pirazinamida somente no puerpério para evitar riscos teratogênicos."
+        },
+        {
+          "key": "e",
+          "text": "Tratar apenas com monoterapia de rifampicina e piridoxina 50 mg/dia, pois o esquema múltiplo antituberculose é contraindicado na gestação."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A gestação não contraindica o esquema básico de tratamento da TB ativa (rifampicina, isoniazida, pirazinamida e etambutol), que deve ser iniciado imediatamente, associado à suplementação de piridoxina (50mg/dia) para reduzir o risco de neuropatia induzida pela isoniazida, mais relevante na gestação.",
+      "theme": "tb_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "HSJA R1 2026"
+    },
+    {
+      "id": "tb2_034",
+      "statement": "Paciente masculino, 68 anos de idade, com queixa de disúria e polaciúria há 10 meses, hemograma com linfocitose, culturas urinárias negativas e sem resolução dos sintomas a despeito do uso de múltiplos antibióticos. Tomografia de abdome e pelve com moderada dilatação pielocalicinal e discreta dilatação ureteral à esquerda, sem identificação de fator obstrutivo associadas a espessamento urotelial difuso desse lado. Qual exame de urina deve ser solicitado para esclarecer o diagnóstico deste paciente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Bacilo Álcool, Ácido Resistente (BAAR)."
+        },
+        {
+          "key": "b",
+          "text": "Citologia oncoparasitária."
+        },
+        {
+          "key": "c",
+          "text": "Pesquisa de fungos."
+        },
+        {
+          "key": "d",
+          "text": "Eosinofilúria."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Sintomas urinários crônicos refratários a antibióticos, com culturas convencionais negativas (piúria estéril) e espessamento urotelial com dilatação pielocalicinal/ureteral, sugerem tuberculose geniturinária — a pesquisa de BAAR na urina é o exame indicado para elucidação diagnóstica.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "PSU-GO R3CM 2026"
+    },
+    {
+      "id": "tb2_035",
+      "statement": "Diego Alves, um jovem de 20 anos, compareceu na unidade básica de saúde com relato de tosse há dois meses. Sua médica solicitou teste rápido molecular para tuberculose, radiografia de tórax e exames de sangue. Seu TRM veio positivo para Mycobacterium tuberculosis e com resistência à rifampicina. O teste de sensibilidade apontou monorresistência. Assinale a alternativa que apresenta o tratamento para casos como o de Diego.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Estreptomicina + Levofloxacino + Isoniazida + Etambutol + Pirazinamida."
+        },
+        {
+          "key": "b",
+          "text": "Terizidona+ Levofloxacino + Isoniazida + Etambutol + Pirazinamida."
+        },
+        {
+          "key": "c",
+          "text": "Gentamicina + Estreptomicina + Isoniazida + Etambutol + Pirazinamida."
+        },
+        {
+          "key": "d",
+          "text": "Gentamicina + Levofloxacino + Isoniazida + Etambutol + Pirazinamida."
+        },
+        {
+          "key": "e",
+          "text": "Capreomicina + Levofloxacino + Isoniazida + Etambutol + Pirazinamida."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na monorresistência confirmada à rifampicina (TRM-TB+ com resistência, teste de sensibilidade confirmando monorresistência), o tratamento recomendado substitui a rifampicina por levofloxacino, mantendo isoniazida, etambutol e pirazinamida, associado a um injetável de primeira linha (estreptomicina) na fase inicial.",
+      "theme": "tb_mdr",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "ENARE R3CM 2023"
+    },
+    {
+      "id": "tb2_036",
+      "statement": "Ricardo, 28 anos, em situação de rua, queixa-se de tosse há duas semanas, febre vespertina, emagrecimento e escarro com sangue.. A Agente Comunitária de Saúde leva Ricardo até a Unidade Básica de Saúde (UBS) para atendimento. Sobre o caso de Ricardo, assinale a alternativa CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Como Ricardo está em situação de rua, o tratamento deve ser feito em regime de internação obrigatória até a negativação da baciloscopia caso essa seja positiva"
+        },
+        {
+          "key": "b",
+          "text": "Durante o acolhimento na UBS, a enfermeira deve usar máscara N95/PFF2 (máscara respiratória) e Ricardo deve utilizar máscara cirúrgica"
+        },
+        {
+          "key": "c",
+          "text": "Não deve ser considerado caso suspeito de tuberculose devido ao período de duração da tosse que deveria ser, no mínimo, três semanas"
+        },
+        {
+          "key": "d",
+          "text": "O tratamento deve ser iniciado apenas após resultado de cultura positiva e realização de teste de sensibilidade, devido ao alto risco de resistência bacteriana"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "No acolhimento de paciente com suspeita de TB pulmonar (tosse, febre, hemoptise), a equipe de saúde deve utilizar máscara respiratória N95/PFF2, enquanto o paciente deve utilizar máscara cirúrgica, como medida padrão de controle de infecção por transmissão aérea.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "PSU-MG R1 2026"
+    },
+    {
+      "id": "tb2_037",
+      "statement": "Paciente vivendo com HIV apresentou contagem de linfócitos T CD4+ de 50 células/mm3 e infiltrado pulmonar de padrão miliar à radiografia de tórax. Em relação aos métodos diagnósticos para tuberculose nesse contexto, assinale a assertiva correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "IGRA ou PPD, se negativos, afastam o diagnóstico de tuberculose ativa."
+        },
+        {
+          "key": "b",
+          "text": "O teste urinário TB-LAM, apesar da sensibilidade limitada, apresenta melhor desempenho em pacientes com imunossupressão avançada, como no caso."
+        },
+        {
+          "key": "c",
+          "text": "A baciloscopia de escarro apresenta elevada sensibilidade na forma miliar da tuberculose devido à alta carga bacilar pulmonar."
+        },
+        {
+          "key": "d",
+          "text": "A cultura para micobactérias em meio sólido deve ser priorizada, por oferecer menor taxa de contaminação e maior rapidez diagnóstica em comparação com o meio líquido."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Em pacientes com imunossupressão avançada (CD4<100), o teste urinário TB-LAM, apesar de sensibilidade limitada em geral, apresenta melhor desempenho relativo nesse grupo específico, sendo uma ferramenta diagnóstica complementar importante quando a baciloscopia é frequentemente negativa (forma paucibacilar/miliar).",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "HCPA R3CM 2026"
+    },
+    {
+      "id": "tb2_038",
+      "statement": "Tendo como base o Manual de Recomendações para o Controle da Tuberculose no Brasil, publicado em 2019, pelo Ministério da Saúde do Brasil, sintomático respiratório é o indivíduo que, durante a estratégia programática de busca ativa, apresenta tosse",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "com ou sem febre, por 3 semanas ou mais, e radiografia de tórax compatível com tuberculose."
+        },
+        {
+          "key": "b",
+          "text": "por 3 semanas ou mais."
+        },
+        {
+          "key": "c",
+          "text": "por 2 semanas ou mais."
+        },
+        {
+          "key": "d",
+          "text": "por 4 semanas ou mais."
+        },
+        {
+          "key": "e",
+          "text": "com ou sem febre por 4 semanas ou mais e radiografia de tórax compatível comtuberculose."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Segundo o Manual de Recomendações para o Controle da Tuberculose no Brasil (2019), sintomático respiratório é definido como o indivíduo com tosse por 3 semanas ou mais, identificado na estratégia programática de busca ativa.",
+      "theme": "tb_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "HEDA R1 2023"
+    },
+    {
+      "id": "tb2_039",
+      "statement": "Uma mulher de 52 anos, procura atendimento ambulatorial com quadro de dor e lesões eritematosas na região tibial anterior bilateral, iniciadas há 7 dias. Ela apresenta história de Artrite Reumatóide há 8 anos, em uso atual de Metotrexate 25mg 1x/semana, Adalimumabe 40mg subcutâneo 2/2 semanas, Ácido fólico 1mg via oral 1x/dia. Ao exame físico, as lesões são de cerca de 5 cm, hiperemiadas, endurecidas, com calor local e dolorosas ao toque. A radiografia de tórax foi normal. Realizado teste do PPD que foi forte reator. Assinale a alternativa que contém, respectivamente, o diagnóstico CORRETO e o(s) medicamento(s) causador(es) do quadro cutâneo da paciente.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Eritema nodoso e metotrexate."
+        },
+        {
+          "key": "b",
+          "text": "Eritema nodoso e adalimumabe."
+        },
+        {
+          "key": "c",
+          "text": "Eritema nodoso, adalimumabe e metotrexate."
+        },
+        {
+          "key": "d",
+          "text": "Tuberculose pulmonar e adalimumambe."
+        },
+        {
+          "key": "e",
+          "text": "Tuberculose pulmonar e metotrexate."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Lesões eritematosas, endurecidas e dolorosas em região tibial anterior, em paciente em uso de anti-TNF (adalimumabe), correspondem a eritema nodoso — reação cutânea reconhecidamente associada ao uso de agentes anti-TNF; o PPD fortemente reator sinaliza infecção latente por TB a ser investigada/tratada antes de reiniciar o biológico, mas não define o diagnóstico do quadro cutâneo atual.",
+      "theme": "tb_lat",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "IFF R1 2023"
+    },
+    {
+      "id": "tb2_040",
+      "statement": "O Tratamento Direto Observado (TDO) consiste na tomada diária (de segunda a sexta-feira) de medicamentos sob supervisão do profissional de saúde (médico, enfermeiro, técnico e auxiliar de enfermagem e agente comunitário de saúde). O TDO é uma estratégia de saúde pública, utilizada na Atenção Primária, em pessoas portadoras de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Zica."
+        },
+        {
+          "key": "b",
+          "text": "Dengue."
+        },
+        {
+          "key": "c",
+          "text": "Covid-19."
+        },
+        {
+          "key": "d",
+          "text": "Tuberculose."
+        },
+        {
+          "key": "e",
+          "text": "Síndrome da imunodeficiência adquirida (SIDA)."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O Tratamento Diretamente Observado (TDO) é a estratégia padrão de saúde pública para garantir adesão ao tratamento da tuberculose, com tomada supervisionada da medicação por profissional de saúde.",
+      "theme": "tb_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "SPMIP R1 2023"
+    },
+    {
+      "id": "tb2_041",
+      "statement": "A Tomografia Torácica (TC), ao contrário da radiografia:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pode demonstrar alterações sugestivas de atividade que ocorrem no nível do lóbulo secundário, como pequenos nódulos de espaço aéreo com padrão de árvore em brotamento, nunca dispostos em trevo (\"sinal do trevo\")."
+        },
+        {
+          "key": "b",
+          "text": "Não conseguem demonstrar alterações sugestivas de atividade que ocorrem no nível do lóbulo secundário, como pequenos nódulos de espaço aéreo com padrão de árvore em brotamento ou caprichosamente dispostos em trevo (\"sinal do trevo\")."
+        },
+        {
+          "key": "c",
+          "text": "Pode demonstrar alterações sugestivas de inatividade que ocorrem no nível do lóbulo secundário, como pequenos nódulos de espaço aéreo com padrão de árvore em brotamento ou caprichosamente dispostos em trevo (\"sinal do trevo\")."
+        },
+        {
+          "key": "d",
+          "text": "Pode demonstrar alterações sugestivas de atividade que ocorrem no nível do lóbulo secundário, como pequenos nódulos de espaço aéreo com padrão de árvore em brotamento ou caprichosamente dispostos em trevo (\"sinal do trevo\")."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A tomografia computadorizada, diferente da radiografia, pode demonstrar alterações sugestivas de atividade em nível de lóbulo secundário — pequenos nódulos em árvore em brotamento, podendo se dispor de forma caprichosa em \"trevo\" (sinal do trevo).",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "HSJC R1 2023"
+    },
+    {
+      "id": "tb2_042",
+      "statement": "Homem, 31a, procura Pronto-Socorro com quadro de tosse produtiva há dez dias e episódios de febre não aferida com queda do estado geral. Refere inapetência e emagrecimento na última semana. Antecedentes pessoais: etilista há 10 anos. Exame físico: mau estado geral; sonolento; desidratado;descorado +/4; PA=95/63mmHg; FC=113bpm; FR=22irpm; T=36,1oC; oximetria de pulso=94% em ar ambiente. Coração: bulhas rítmicas taquicárdicas e hiperfonéticas, sem sopros. Pulmões: murmúriovesicular diminuído em base direita. Abdome: plano, tenso à palpação, fígado palpável a cerca de 2cm dorebordo costal direito; baço não palpável. Membros: sem edemas. Radiograma de tórax (imagem Q65). Líquido pleural: eritrocrômico; hemácias=27.000/mm3; leucócitos=1.445/mm3 (96% linfomononucleares, 4% polimorfonucleares); raras células mesoteliais; proteínas totais=3,6g/dL; glicose=125mg/dL; desidrogenaseláctica=388UI/L; adenosina deaminase=51UI/L. O PROVÁVEL AGENTE ETIOLÓGICO É: Clique na imagem para expandir",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Mycobacterium tuberculosis. Não será aceito tuberculose"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "ATENÇÃO: a questão faz referência a uma radiografia de tórax não disponível na extração do PDF. A análise do líquido pleural (exsudato linfomononuclear predominante, ADA elevada em 51 UI/L) é altamente sugestiva de pleurite tuberculosa, sendo o Mycobacterium tuberculosis o agente etiológico mais provável.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "UNICAMP R1 2024"
+    },
+    {
+      "id": "tb2_043",
+      "statement": "Com relação ao tratamento cirúrgico da tuberculose, assinale a afirmativa incorreta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Está indicado nos pacientes multidrogas resistentes, que receberam tratamento medicamentoso adequado e persistem sem melhora das sequelas radiológicas."
+        },
+        {
+          "key": "b",
+          "text": "A cirurgia em pacientes com sequela cavitaria e aspergiloma, só tem indicação na presença de complicações como hemoptise grave."
+        },
+        {
+          "key": "c",
+          "text": "As ressecções anatômicas, como lobectomia e pneumonectomia, diminuem os riscos de disseminação local."
+        },
+        {
+          "key": "d",
+          "text": "A cavernostomia pode ser uma opção de tratamento em pacientes com sequelas cavitarias complicadas, com alto risco para ressecções convencionais."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A afirmativa INCORRETA (resposta pedida) é a (a): a indicação cirúrgica em pacientes multidrogarresistentes relaciona-se mais precisamente à persistência de positividade bacteriológica (falência de conversão) apesar de tratamento adequado, e não apenas à ausência de melhora radiológica das sequelas (que podem persistir mesmo após cura bacteriológica).",
+      "theme": "tb_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "FGV OUTRAS PROVAS 2024"
+    },
+    {
+      "id": "tb2_044",
+      "statement": "Homem de 21 anos é internado em um centro de desintoxicação devido ao uso de drogas injetáveis com heroína. Ele relata mal-estar, mas não apresenta febre ou tosse. Ao exame físico: temperatura: 37,1 ºC; pressão arterial: 162 x 82 mmHg; frequência cardíaca: 100 bpm; pele: cicatrizes eritematosas nas mãos e nos braços. Um teste tuberculínico (TT) é administrado e lido em 48 horas. A área endurecida tem 8 mm de diâmetro, e o eritema tem 15 mm de diâmetro. As sorologias virais são negativas. A conduta recomendada é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "pedir uma radiografia de tórax."
+        },
+        {
+          "key": "b",
+          "text": "pedir um teste de liberação de interferon sérico (IGRA)."
+        },
+        {
+          "key": "c",
+          "text": "prescrever isoniazida."
+        },
+        {
+          "key": "d",
+          "text": "repetir o teste tuberculínico em quatro semanas."
+        },
+        {
+          "key": "e",
+          "text": "seguir clinicamente sem intervenção."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "O teste tuberculínico mede apenas a induração (não o eritema) — com induração de 8mm, abaixo do limiar de 10mm considerado positivo para grupos de risco como usuários de drogas injetáveis, o resultado é considerado negativo. Diante de paciente assintomático (sem febre ou tosse) e teste abaixo do limiar, a conduta apropriada é seguir clinicamente sem intervenção adicional.",
+      "theme": "tb_lat",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "SUS-SP R3CM 2026"
+    },
+    {
+      "id": "tb2_045",
+      "statement": "Mulher, 56a, comparece ao oftalmologista pelo quadro de dor e vermelhidão ocular há uma semana. Antecedentes pessoais: artrite reumatoide. Medicamentos: metotrexate e anti-fator de necrose tumoral (anti-TNF) há oito meses. Exame oftalmológico: presença de reação de câmara anterior e precipitados ceráticos, compatível com uveíte granulomatosa. A CONDUTA É:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Suspender o anti-TNF; prescrever rifampicina + isoniazida + pirazinamida + etambutol."
+        },
+        {
+          "key": "b",
+          "text": "Suspender o anti-TNF; prescrever aciclovir endovenoso."
+        },
+        {
+          "key": "c",
+          "text": "Trocar o anti-TNF por droga biológica depletora de linfócitos B; prescrever itraconazol."
+        },
+        {
+          "key": "d",
+          "text": "Suspender o anti-TNF; prescrever pulsoterapia com metilprednisolona."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Uveíte granulomatosa em paciente em uso prolongado de anti-TNF é uma apresentação reconhecida de reativação de tuberculose latente na forma extrapulmonar — a conduta é suspender o anti-TNF e iniciar o esquema básico (RIPE).",
+      "theme": "tb_lat",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "UNICAMP R3CM 2023"
+    },
+    {
+      "id": "tb2_046",
+      "statement": "Homem, 32 anos, residente em uma grande cidade brasileira e procedente de outro país latino- americano, procura a UBS com queixa de tosse produtiva há dois meses. Nas últimas semanas, os episódios de tosse se intensificaram e, em um deles, foram vistos \"raios de sangue\" no catarro. Foi solicitada a baciloscopia do escarro, o TRM-TB, a sorologia para HIV e iniciado o tratamento de tuberculose. Em seu retorno, duas semanas depois, refere discreta melhora da tosse, mas \"continua tossindo muito\". O resultado da baciloscopia foi negativo para BAAR, enquanto resultado do TRM-TB apresentou MTB detectado e resistência à rifampicina. Assinale qual deve ser a conduta adotada para o caso.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar novo TRM-TB, cultura e TS, e mantê-lo em seguimento na UBS até o resultado dos exames."
+        },
+        {
+          "key": "b",
+          "text": "Solicitar novo TRM-TB, cultura e TS, e encaminhá-lo ao hospital especializado para isolamento."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar cultura e TS e iniciar esquema terapêutico para TB resistente, na própria UBS."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar novo TRM-TB, cultura e TS, e encaminhá-lo à referência terciária mantendo o acompanhamento na UBS."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de TRM-TB com detecção de resistência à rifampicina (TB RR) confirmada, mesmo com baciloscopia negativa, a conduta é solicitar novo TRM-TB, cultura e teste de sensibilidade, encaminhando o paciente à referência terciária especializada em TB resistente, mantendo acompanhamento compartilhado na UBS.",
+      "theme": "tb_mdr",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "USP R1 2024"
+    },
+    {
+      "id": "tb2_047",
+      "statement": "A cultura para micobactérias de material respiratório apresenta sensibilidade em torno de 80% e especificidade de 98%. Sendo correto que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Os métodos para cultura que utilizam a semeadura em meios líquidos, como o Löwenstein-Jensen e não o Ogawa-Kudoh, são os mais comumente utilizados por apresentarem a vantagem de ter menor custo e um baixo índice de contaminação."
+        },
+        {
+          "key": "b",
+          "text": "Os métodos para cultura que utilizam a semeadura em meios sólidos, como o Löwenstein-Jensen e o Ogawa-Kudoh, são os mais comumente utilizados por apresentarem a vantagem de ter maior custo e um elevado índice de contaminação."
+        },
+        {
+          "key": "c",
+          "text": "Os métodos para cultura que utilizam a semeadura em meios sólidos, como o Löwenstein-Jensen e o Ogawa-Kudoh, são os mais comumente utilizados por apresentarem a vantagem de ter menor custo e um baixo índice de contaminação."
+        },
+        {
+          "key": "d",
+          "text": "Os métodos para cultura que não utilizam a semeadura em meios sólidos, como o Löwenstein- Jensen e o Ogawa-Kudoh, são os mais comumente utilizados por apresentarem a vantagem de ter menor custo e um baixo índice de contaminação."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Os métodos de cultura em meios sólidos (Löwenstein-Jensen, Ogawa-Kudoh) são os mais comumente utilizados por apresentarem menor custo e baixo índice de contaminação, em comparação aos meios líquidos.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "IBR R1 2023"
+    },
+    {
+      "id": "tb2_048",
+      "statement": "José, 38 anos, trabalhador rural, foi diagnosticado com tuberculose, mas mora longe do posto de saúde e tem dificuldades para seguir o tratamento corretamente. O que pode ser feito para garantir a adesão?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Explicar que, sem tratamento contínuo, o paciente pode transmitir a doença e orientar busca ativa."
+        },
+        {
+          "key": "b",
+          "text": "Deixar que o paciente decida quando vir à UBS para retirar os medicamentos."
+        },
+        {
+          "key": "c",
+          "text": "Encaminhar o paciente para internação até completar o tratamento."
+        },
+        {
+          "key": "d",
+          "text": "Prescrever o esquema inicial e recomendar que volte em um mês para reavaliação."
+        },
+        {
+          "key": "e",
+          "text": "Focar na orientação sobre higiene pessoal e nos cuidados ambientais."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Para garantir adesão ao tratamento em paciente com dificuldade de acesso ao serviço de saúde, a conduta apropriada é explicar o risco de transmissão sem tratamento contínuo e orientar estratégias de busca ativa/suporte, adaptando a supervisão à realidade do paciente, sem recorrer a medidas coercitivas como internação compulsória.",
+      "theme": "tb_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "UEPA R1 2025"
+    },
+    {
+      "id": "tb2_049",
+      "statement": "Na atenção primária em saúde, o método diagnóstico de escolha para confirmar tuberculose pulmonar em pacientes com suspeita clínica é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Baciloscopia do escarro, evidenciando a presença de bacilos ácido-alcoólico resistentes (BAAR)."
+        },
+        {
+          "key": "b",
+          "text": "Radiografia de tórax, mostrando alterações cavitárias típicas em lobos superiores."
+        },
+        {
+          "key": "c",
+          "text": "Teste tuberculínico (PPD), indicando infecção latente ou ativa pelo Mycobacterium tuberculosis."
+        },
+        {
+          "key": "d",
+          "text": "Tomografia computadorizada de tórax, identificando lesões pulmonares de alta resolução."
+        },
+        {
+          "key": "e",
+          "text": "Cultura do escarro para Mycobacterium tuberculosis, com crescimento em meio específico."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na atenção primária, o método diagnóstico de escolha para confirmação inicial de TB pulmonar em paciente sintomático é a baciloscopia do escarro, evidenciando bacilos álcool-ácido resistentes (BAAR).",
+      "theme": "tb_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "IAMSPE R1 2025"
+    },
+    {
+      "id": "tb2_050",
+      "statement": "Escolar, sexo feminino, com 6 anos e meio, comparece à Unidade Básica de Saúde porque seu pai foi recentemente diagnosticado com tuberculose. A criança está assintomática. Sobre a possibilidade da realização do IGRA (Interferon Gamma Release Assay), é correto afirmar que",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "está indicado para crianças após os seis meses de idade."
+        },
+        {
+          "key": "b",
+          "text": "não há interferência da vacinação prévia por tuberculose."
+        },
+        {
+          "key": "c",
+          "text": "o exame consegue distinguir facilmente a infecção da doença."
+        },
+        {
+          "key": "d",
+          "text": "o exame pode detectar micobactérias resistentes."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Uma das principais vantagens do IGRA (Interferon Gamma Release Assay) sobre o teste tuberculínico (PPD) é a ausência de interferência pela vacinação prévia com BCG, tornando-o mais específico em populações vacinadas.",
+      "theme": "tb_lat",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "FAMEMA OUTRAS PROVAS 2026"
+    },
+    {
+      "id": "tb2_051",
+      "statement": "Paciente, sexo masculino, 35 anos de idade, trabalhador da construção civil, tabagista e, emagrecido, está em tratamento de tuberculose pulmonar há 3 meses. No entanto, não compareceu a consulta agendada no mês anterior e a equipe multidisciplinar informou que ele não retirou a medicação na farmácia. Paciente relata tosse com pouca secreção, nega outros sintomas e confirmou que nao usa o tratamento da tuberculose há mais de 1 mês. Diante dessa situação clínica, além de solicitar pesquisa de BAAR no escarro, qual é a conduta indicada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Prescrever o esquema RH."
+        },
+        {
+          "key": "b",
+          "text": "Solicitar cultura de escarro para Mycobacterium tuberculosis com teste de sensibilidade e prescrever o esquema RH."
+        },
+        {
+          "key": "c",
+          "text": "Prescrever esquema RIPE."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar TRM-TB, cultura de escarro para Mycobacterium tuberculosis."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de abandono de tratamento (interrupção por mais de 1 mês), além da pesquisa de BAAR, deve-se solicitar TRM-TB e cultura de escarro com teste de sensibilidade, dado o risco de resistência adquirida por tratamento irregular.",
+      "theme": "tb_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "PSU-GO R3CM 2026"
+    },
+    {
+      "id": "tb2_052",
+      "statement": "O tratamento da tuberculose exige uma combinação de medicamentos que inclui o etambutol. Em relação ao uso desse medicamento na população pediátrica, a prescrição é indicada a partir de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "6 anos, desde que haja controle mensal das enzimas hepáticas"
+        },
+        {
+          "key": "b",
+          "text": "10 anos, devido ao risco de desenvolvimento de neurite ótica"
+        },
+        {
+          "key": "c",
+          "text": "4 anos, devido ao risco de desenvolvimento de hepatite"
+        },
+        {
+          "key": "d",
+          "text": "12 anos, desde que haja controle mensal de creatinina"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O uso de etambutol em crianças é indicado a partir dos 10 anos de idade, devido ao risco de neurite óptica — efeito adverso de monitorização difícil em crianças menores, que não conseguem relatar de forma confiável alterações visuais precoces.",
+      "theme": "tb_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "UERJ R1 2026"
+    },
+    {
+      "id": "tb2_053",
+      "statement": "Considerando a Tuberculose pulmonar (TP) ou extrapulmonar e seu diagnóstico laboratorial bem como tratamento, assinale a alternativa correta",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Alterações sugestivas de atividade de meningite na radiografia de tórax são: cavidades, nódulos, consolidações, massas, processo intersticial (miliar), derrame pleural e alargamento de mediastino."
+        },
+        {
+          "key": "b",
+          "text": "A TB pode ser causada por qualquer uma das sete espécies que integram o complexo Mycobacterium tuberculosis: M. tuberculosis, M. bovis, M. africanum, M. canetti, M. microti, M. pinnipedi e M. caprae. Em saúde pública, a espécie mais importante é a M. tuberculosis. É um bacilo álcool-ácido resistente (BAAR), aeróbio, com parede celular rica em lipídios (ácidos micólicos e arabinogalactano), o que lhe confere baixa permeabilidade, reduz a efetividade da maioria dos antibióticos e facilita sua sobrevida nos macrófagos."
+        },
+        {
+          "key": "c",
+          "text": "O termo \"\"bacilífero\"\" refere-se a pessoas com TB pulmonar ou laríngea que tem baciloscopia negativa no escarro. Pessoas com outros exames bacteriológicos como cultura e/ou Teste Rápido Molecular da Tuberculose (TRM-TB) negativos não podem transmitir. A TB acomete, prioritariamente, o pulmão que também é a porta de entrada da maioria dos casos."
+        },
+        {
+          "key": "d",
+          "text": "A sensibilidade do Teste rápido molecular para tuberculose (TRM-TB) em amostras de escarro de adultos é de cerca de 20%, sendo superior à da baciloscopia. Porém, o teste não detecta a resistência à rifampicina em uma sensibilidade de 95%."
+        },
+        {
+          "key": "e",
+          "text": "Como também pode detectar bacilos mortos ou inviáveis, o TRM-TB deve ser utilizado para diagnóstico nos casos de tratamento (ingresso após abandono e recidivas). Nesses casos, o diagnóstico da TB não deve ser feito com baciloscopia de escarro e cultura pa"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O complexo Mycobacterium tuberculosis inclui sete espécies (M. tuberculosis, M. bovis, M. africanum, M. canetti, M. microti, M. pinnipedii, M. caprae), sendo M. tuberculosis a mais relevante em saúde pública — bacilo álcool-ácido resistente, aeróbio, com parede celular rica em ácidos micólicos e arabinogalactano, conferindo baixa permeabilidade e sobrevida intramacrofágica.",
+      "theme": "tb_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "IAMSPE R3CM 2024"
+    },
+    {
+      "id": "tb2_054",
+      "statement": "Homem de 48 anos busca atendimento na Unidade Básica de Saúde (UBS) para reiniciar tratamento para tuberculose. Paciente refere que iniciou o tratamento poliquimioterápico há 6 meses, quando foi diagnosticado com tuberculose; porém, há 2 meses interrompeu o acompanhamento na sua unidade de origem devido ao uso de substâncias psicoativas. Ele se mudou para o território da unidade há 15 dias e foi visitado pelo agente comunitário, que o orientou a procurar atendimento médico para avaliação e retomada do tratamento. Foram solicitados, inicialmente, o teste rápido molecular para tuberculose (TRM-TB), baciloscopia de escarro e radiografia de tórax. Qual alternativa apresenta a conduta adequada para esse caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Se o TRM-TB for positivo, sem resistência à rifampicina, e a baciloscopia for negativa, reiniciar o esquema básico"
+        },
+        {
+          "key": "b",
+          "text": "Se o TRM-TB for negativo e a baciloscopia for positiva, reiniciar o esquema básico, desde que a resistência à rifampicina seja positiva"
+        },
+        {
+          "key": "c",
+          "text": "Se o TRM-TB for negativo e a baciloscopia for positiva, solicitar cultura de escarro com teste de sensibilidade e reiniciar o esquema básico enquanto se aguarda a cultura"
+        },
+        {
+          "key": "d",
+          "text": "Se o TRM-TB for positivo, com resistência à rifampicina, e a baciloscopia for positiva, solicitar cultura de escarro com teste de sensibilidade e reiniciar o esquema básico enquanto se aguarda a cultura"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de discordância entre TRM-TB negativo e baciloscopia positiva, a conduta apropriada é solicitar cultura de escarro com teste de sensibilidade para elucidação, reiniciando o esquema básico empiricamente enquanto se aguarda o resultado da cultura.",
+      "theme": "tb_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "INEP REVALIDA REVALIDA 2025"
+    },
+    {
+      "id": "tb2_055",
+      "statement": "Leia o relato do caso clínico a seguir. menino de 4 anos de idade vem para a consulta com história de tosse seca há 2 meses. Neste período fez uso de várias medicações (expectorantes, descongestionantes, mucolíticos e antibiótico), sem qualquer sinal de melhora. Trata-se de uma criança previamente hígida, porém apresenta perda ponderal há 2 meses. Ao exame físico, encontra se em bom estado geral peso entre o escore z -2 e -3, estatura no escore z 0. Sem sinais de desconforto respiratório e sem outras alterações ao exame físico. De acordo com o relato, os exames a serem solicitados para o esclarecimento do diagnóstico são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "radiografia de tórax, teste tuberculínico, pesquisa e cultura para bacilo de Koch no lavado brônquico."
+        },
+        {
+          "key": "b",
+          "text": "tomografia de tórax, teste tuberculínico, pesquisa e cultura para bacilo de Koch no lavado brônquico."
+        },
+        {
+          "key": "c",
+          "text": "radiografia de tórax, teste tuberculínico, pesquisa e cultura para bacilo de Koch no lavado gástrico."
+        },
+        {
+          "key": "d",
+          "text": "tomografia de tórax, teste tuberculínico, pesquisa e cultura para bacilo de Koch no lavado gástrico."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Em criança com tosse crônica refratária e perda ponderal, a investigação de TB pulmonar pediátrica inclui radiografia de tórax, teste tuberculínico e pesquisa/cultura para bacilo de Koch em LAVADO GÁSTRICO (não brônquico), método padrão para obtenção de secreção respiratória deglutida em crianças incapazes de expectorar.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "PSU-GO R1 2024"
+    },
+    {
+      "id": "tb2_056",
+      "statement": "Homem, 35 anos de idade, trabalhador da construção civil, procura a UBS com queixa de tosse produtiva há quatro semanas, associada à febre vespertina (não aferida), sudorese noturna e perda de 5 kg no período. Nega comorbidades, tabagismo ou uso de drogas ilícitas. Relata que um colega de trabalho foi recentemente diagnosticado e tratado para tuberculose. Ao exame físico, encontra-se emagrecido, hipocorado (+/4+), com murmúrio vesicular diminuído e estertores crepitantes em ápice pulmonar direito. A radiografia de tórax, solicitada na Unidade, mostra um infiltrado com cavitação em lobo superior direito. O paciente reside com sua esposa e dois filhos, um de 4 anos e outro de 8 anos. Indique a conduta prioritária para a confirmação diagnóstica do paciente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar teste tuberculínico (PPD) e aguardar o resultado em 72 horas para definir a conduta."
+        },
+        {
+          "key": "b",
+          "text": "Coletar duas amostras de escarro para baciloscopia e teste rápido molecular (TRM-TB)."
+        },
+        {
+          "key": "c",
+          "text": "Realizar broncoscopia com lavado broncoalveolar e cultura em meio de Lowenstein-Jensen."
+        },
+        {
+          "key": "d",
+          "text": "Iniciar imediatamente o esquema terapêutico padrão e observar a resposta clínica do paciente."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de quadro clínico-radiológico clássico de TB pulmonar (tosse produtiva, febre vespertina, sudorese noturna, perda de peso, cavitação em lobo superior, contato conhecido), a conduta prioritária para confirmação diagnóstica é a coleta de duas amostras de escarro para baciloscopia e TRM-TB.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "SUS-BA R1 2026"
+    },
+    {
+      "id": "tb2_057",
+      "statement": "Embora a radiografia do tórax seja o mais importante método de imagem no diagnóstico e acompanhamento de pacientes com tuberculose, a TC é uma realidade cada vez mais presente. Está correto que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A TC é menos sensível e específica do que a radiografia do tórax, podendo demonstrar alterações iniciais ainda imperceptíveis pelo método radiográfico, e deve ser realizada em pacientes sintomáticos respiratórios com alterações mal definidas ou duvidosas nos quais o contexto clínico-epidemiológico aponta para a possibilidade de tuberculose."
+        },
+        {
+          "key": "b",
+          "text": "A TC é mais sensível e específica do que a radiografia do tórax, podendo demonstrar alterações iniciais ainda imperceptíveis pelo método radiográfico, e nunca deve ser realizada em pacientes sintomáticos respiratórios com alterações mal definidas ou duvidosas nos quais o contexto clínico- epidemiológico aponta para a possibilidade de tuberculose."
+        },
+        {
+          "key": "c",
+          "text": "A TC é mais sensível e menos específica do que a radiografia do tórax, podendo demonstrar alterações iniciais ainda imperceptíveis pelo método radiográfico, e deve ser realizada em pacientes sintomáticos respiratórios com alterações mal definidas ou duvidosas nos quais o contexto clínico- epidemiológico aponta para a possibilidade de tuberculose."
+        },
+        {
+          "key": "d",
+          "text": "A TC é mais sensível e específica do que a radiografia do tórax, podendo demonstrar alterações iniciais ainda imperceptíveis pelo método radiográfico, e deve ser realizada em pacientes sintomáticos respiratórios com alterações mal definidas ou duvidosas nos quais o contexto clínico-epidemiológico aponta para a possibilidade de tuberculose."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A tomografia computadorizada é mais sensível e específica que a radiografia de tórax, podendo demonstrar alterações iniciais ainda imperceptíveis radiograficamente, sendo indicada em pacientes sintomáticos respiratórios com achados radiográficos mal definidos quando o contexto clínico-epidemiológico sugere tuberculose.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "HEJSN R1 2023"
+    },
+    {
+      "id": "tb2_058",
+      "statement": "Um homem de 64 anos de idade, etilista, em tratamento para tuberculose iniciado há 15 dias com o esquema básico, em tratamento diretamente observado (TDO) que vinha sendo realizado pelo agente comunitário de saúde, cinco vezes na semana, compareceu à unidade de saúde da família, fora da marcação programada, queixando-se de que sua urina estava sempre avermelhada e que tinha sentido coceiras pelo corpo, além de náuseas e vômitos. O médico avaliou-o e, ao exame físico, verificou-se que estava lúcido e orientado, anictérico e com presença de exantema localizado em membros inferiores e superiores. Não possuía sinais de desidratação e relatava ganho ponderal de 1,5 kg em duas semanas. Com base nessa situação hipotética, assinale a alternativa que apresenta a conduta adequada.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "suspender a medicação por se tratar de reações adversas maiores e encaminhar para atenção secundária."
+        },
+        {
+          "key": "b",
+          "text": "suspender a medicação por se tratar de reações adversas maiores, realizar exames complementares de função hepática e considerar prescrição de medicação sintomática."
+        },
+        {
+          "key": "c",
+          "text": "manter a medicação conforme está sendo administrada e orientar sobre os efeitos adversos serem esperados."
+        },
+        {
+          "key": "d",
+          "text": "manter a medicação, realizar exames complementares de função hepática, considerar a prescrição de medicação sintomática e reformular a tomada da medicação para duas horas após o café da manhã."
+        },
+        {
+          "key": "e",
+          "text": "suspender a medicação, realizar exames complementares de função hepática, considerar prescrição de medicação sintomática e reformular a tomada da medicação para duas horas após o café da manhã."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Urina avermelhada (rifampicina) e prurido/exantema leve (reação de hipersensibilidade menor), sem sinais de gravidade e com ganho ponderal, são efeitos adversos MENORES — a conduta é manter a medicação, avaliar função hepática, considerar medicação sintomática e reformular a tomada para 2 horas após o café da manhã, visando reduzir sintomas gastrointestinais.",
+      "theme": "tb_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "FMJ R1 2025"
+    },
+    {
+      "id": "tb2_059",
+      "statement": "Homem de 43 anos com diagnóstico de sequela de tuberculose pulmonar em lobo superior direito comparece à consulta com queixas de escarros hemoptoicos, dispneia e dor torácica. A tomografia de tórax confirma a presença de cavitação e bronquiectasias em lobo superior direito. Os critérios de indicação de tratamento cirúrgico neste caso são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dispneia e doença difusa."
+        },
+        {
+          "key": "b",
+          "text": "Dor torácica e doença difusa."
+        },
+        {
+          "key": "c",
+          "text": "Dispneia e doença localizada."
+        },
+        {
+          "key": "d",
+          "text": "Escarros hemoptoicos e doença localizada."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Em sequela de TB com cavitação/bronquiectasia LOCALIZADA (não difusa), os critérios de indicação cirúrgica incluem escarros hemoptoicos significativos e doença anatomicamente localizada, que viabiliza ressecção.",
+      "theme": "tb_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "USP R3CG 2024"
+    },
+    {
+      "id": "tb2_060",
+      "statement": "Paciente do sexo masculino de 64 anos procura seu consultório com queixa de tosse produtiva há 4 semanas. Foi feita investigação diagnóstica com realização de uma radiografia de tórax e 2 baciloscopias, confirmando o diagnóstico de tuberculose pulmonar e iniciado o tratamento com rifampicina, isoniazida, pirazinamida e etambutol: 4 comprimidos em dose única, uma hora após o café da manhã, sob supervisão de uma enfermeira. Retorna após 10 dias, queixando-se de náuseas e vômitos nos últimos 3 dias. Além de sintomáticos, a conduta MAIS adequada para o caso seria orientar o paciente a",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "suspender o tratamento até melhora dos sintomas."
+        },
+        {
+          "key": "b",
+          "text": "reduzir a dose para 2 comprimidos ao dia até melhora dos sintomas."
+        },
+        {
+          "key": "c",
+          "text": "tomar as medicações junto com uma das refeições."
+        },
+        {
+          "key": "d",
+          "text": "ingerir as medicações em jejum pela manhã."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de náuseas e vômitos leves nos primeiros dias de tratamento da TB, a conduta inicial é orientar a tomada das medicações junto com uma das refeições, reduzindo a irritação gástrica, sem necessidade de suspender ou reduzir a dose.",
+      "theme": "tb_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "SCM-BH R1 2024"
+    },
+    {
+      "id": "tb2_061",
+      "statement": "Homem, 45 anos, com diagnóstico laboratorial confirmado de tuberculose (TB) pulmonar inicia tratamento com o esquema básico (EB) para TB preconizado pelo Ministério da Saúde. Os exames laboratoriais no início do tratamento mostraram testes rápidos para HIV, hepatite B, hepatite C e sífilis não reagentes, função renal normal e transaminases normais. Um mês após o início do tratamento retorna ao atendimento médico devido mal-estar abdominal, está ictérico ao exame físico. As transaminases estão aproximadamente dez vezes acima do limite superior de normalidade. Nesta situação, a conduta correta seria:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Substituir o esquema básico pelo esquema específico para hepatopatas."
+        },
+        {
+          "key": "b",
+          "text": "Suspender o EB até melhora das transaminases e depois reintroduzir as mesmas drogas de forma gradual."
+        },
+        {
+          "key": "c",
+          "text": "Manter o esquema básico e associar um medicamento hepatoprotetor."
+        },
+        {
+          "key": "d",
+          "text": "Suspender o EB até melhora das transaminases e depois introduzir um esquema alternativo para hepatopatas."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Icterícia com transaminases cerca de 10 vezes acima do limite superior da normalidade, um mês após início do esquema básico, caracteriza hepatotoxicidade significativa — a conduta é suspender o esquema até melhora das transaminases, reintroduzindo as mesmas drogas de forma gradual e sequencial.",
+      "theme": "tb_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "HEA R1 2023"
+    },
+    {
+      "id": "tb2_062",
+      "statement": "Considere uma mulher, 40 anos de idade, com tosse produtiva por mais de 3 semanas, febre vespertina e emagrecimento. A radiografia de torax revela cavitacao no lobo superior direito. Nesse caso, o diagnostico MAIS provavel e:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pneumonia bacteriana."
+        },
+        {
+          "key": "b",
+          "text": "Cancer de pulmao."
+        },
+        {
+          "key": "c",
+          "text": "Tuberculose pulmonar."
+        },
+        {
+          "key": "d",
+          "text": "Abscesso pulmonar."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Tosse produtiva >3 semanas, febre vespertina, emagrecimento e cavitação em lobo superior direito formam o quadro clínico-radiológico clássico de tuberculose pulmonar.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "HECI R1 2025"
+    },
+    {
+      "id": "tb2_063",
+      "statement": "A tuberculose multirresistente representa um grande desafio para o manejo clínico, exigindo estratégias que envolvem o uso de medicamentos de segunda linha e ajustes no tratamento. Em relação ao tratamento da tuberculose resistente, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A monorresistência à rifampicina não altera o tratamento padrão, que permanece sendo o uso de isoniazida, rifampicina, pirazinamida e etambutol por, pelo menos, cinco meses."
+        },
+        {
+          "key": "b",
+          "text": "Na tuberculose monorresistente à pirazinamida, é recomendado um esquema de rifampicina, etambutol e fluoroquinolona por um período mínimo de três meses."
+        },
+        {
+          "key": "c",
+          "text": "A tuberculose polirresistente é caracterizada pela resistência do Mycobacterium tuberculosis a três fármacos de primeira linha."
+        },
+        {
+          "key": "d",
+          "text": "Pacientes com resistência isolada à isoniazida podem ser tratados com um esquema de rifampicina, etambutol, pirazinamida e uma fluoroquinolona, com duração de seis meses, podendo ser estendido em pacientes coinfectados pelo HIV."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Na resistência isolada à isoniazida, o tratamento recomendado é rifampicina, etambutol, pirazinamida e uma fluoroquinolona por 6 meses, podendo ser estendido em pacientes coinfectados pelo HIV.",
+      "theme": "tb_mdr",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "ABC R3CM 2025"
+    },
+    {
+      "id": "tb2_064",
+      "statement": "Paciente do sexo masculino, com 23 anos de idade, natural da Bolívia, procurou o pronto- socorro com relato de três semanas com perda ponderal, febre, dispneia e tosse não produtiva. O paciente negava antecedentes pessoais. Na avaliação diagnóstica inicial, foi realizada radiografia de tórax, que evidenciou derrame pleural de moderado volume, e o paciente foi submetido a toracocentese. A análise do líquido pleural demonstrou 4.000 células nucleadas, predomínio linfocitário (80%), caráter bioquímico de exsudato e uma dosagem de adenosina deaminase de 60 U/L. Considerando esse caso clínico hipotético, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Caso a finalidade da toracocentese seja alívio, a punção deve ser realizada no segundo espaço intercostal, em linha hemiclavicular."
+        },
+        {
+          "key": "b",
+          "text": "Para caracterizar o líquido como exsudato, é obrigatório que se cumpram todos os três itens dos critérios de Light."
+        },
+        {
+          "key": "c",
+          "text": "Há maior risco de edema pulmonar de reexpansão com retirada de 500 mL ou mais de líquido pleural, sendo essa complicação tratável com a reposição de 1,5 g/L de albumina."
+        },
+        {
+          "key": "d",
+          "text": "O líquido pleural tem baixo rendimento para a baciloscopia, e a cultura frequentemente é negativa."
+        },
+        {
+          "key": "e",
+          "text": "Baixa concentração de glicose no líquido pleural facilita o diagnóstico, por ser altamente patognomônica de tuberculose pleural."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Na pleurite tuberculosa, o líquido pleural apresenta tipicamente baixo rendimento para baciloscopia e a cultura frequentemente é negativa (doença paucibacilar), sendo a dosagem de ADA e, quando necessário, a biópsia pleural, ferramentas diagnósticas mais úteis.",
+      "theme": "tb_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "SCM-SP R3CM 2023"
+    },
+    {
+      "id": "tb2_065",
+      "statement": "Leia o relato do caso clínico a seguir. Menino de 4 anos de idade vem para consulta com história de tosse seca há 2 meses. Nesse período fez uso de várias medicações (expectorantes, descongestionantes, mucolíticos e antibiótico), sem qualquer sinal de melhora. Trata-se de uma criança previamente hígida, porém apresenta perda ponderal há 2 meses. O exame físico, encontra-se em bom estado geral, peso entre o escore z -2 e -3, estatura no escore z 0. Sem sinais de desconforto respiratório e sem outras alterações ao exame físico. De acordo com o relato, os exames a serem solicitados para o esclarecimento do diagnóstico são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Radiografia de tórax, teste tuberculínico, pesquisa e cultura para bacilo de Koch no lavado brônquico."
+        },
+        {
+          "key": "b",
+          "text": "Tomografia de tórax, teste tuberculínico, pesquisa e cultura para bacilo de Koch no lavado brônquico."
+        },
+        {
+          "key": "c",
+          "text": "Radiografia de tórax, teste tuberculínico, pesquisa e cultura para bacilo de Koch no lavado gástrico."
+        },
+        {
+          "key": "d",
+          "text": "Tomografia de tórax, teste tuberculínico, pesquisa e cultura para bacilo de Koch no lavado gástrico."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Mesmo raciocínio da questão anterior: investigação de TB pulmonar pediátrica com tosse crônica refratária inclui radiografia de tórax, teste tuberculínico e pesquisa/cultura para bacilo de Koch em lavado GÁSTRICO.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "PSU-GO OUTRAS PROVAS 2024"
+    },
+    {
+      "id": "tb2_066",
+      "statement": "Em PVHIV, o acometimento ganglionar da Tuberculose tende a ser bilateral, associado com maior comprometimento do estado geral.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ao exame físico, os gânglios podem apresentar-se endurecidos e nunca amolecidos, aderentes entre si e aos planos profundos, podendo evoluir para flutuação e/ou fistulização espontânea, com a inflamação da pele adjacente."
+        },
+        {
+          "key": "b",
+          "text": "Ao exame físico, os gânglios podem apresentar-se endurecidos ou amolecidos, não aderentes entre si e aos planos profundos, podendo evoluir para flutuação e/ou fistulização espontânea, com a inflamação da pele adjacente."
+        },
+        {
+          "key": "c",
+          "text": "Ao exame físico, os gânglios podem apresentar-se endurecidos ou amolecidos, aderentes entre si e aos planos profundos, podendo evoluir para flutuação e/ou fistulização espontânea, com a inflamação da pele adjacente."
+        },
+        {
+          "key": "d",
+          "text": "Ao exame físico, os gânglios podem apresentar-se endurecidos ou amolecidos, aderentes entre si e aos planos profundos, podendo evoluir para flutuação, mas não para fistulização espontânea, com a inflamação da pele adjacente."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Em PVHIV, os gânglios acometidos por TB podem apresentar-se endurecidos ou amolecidos, aderentes entre si e aos planos profundos, podendo evoluir para flutuação e/ou fistulização espontânea com inflamação da pele adjacente (escrofulose).",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "IBR R1 2023"
+    },
+    {
+      "id": "tb2_067",
+      "statement": "No Brasil, o esquema mais utilizado para todos os casos novos de qualquer forma detuberculose. Exceto para meningite concomitante.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Rifampicina Isoniazida Pirazidamina e etambutol por um mês e Rifampicina eIsoniazida por 3 meses."
+        },
+        {
+          "key": "b",
+          "text": "Rifampicina, Isoniazida, Pirazinamida e Etambutol por dois meses e de rifampicina eisoniazida por quatro meses."
+        },
+        {
+          "key": "c",
+          "text": "Apenas Isoniazida por 6 meses."
+        },
+        {
+          "key": "d",
+          "text": "Rifampicina, Isoniazida, Pirazinamida e Etambutol por três meses e de rifampicina eisoniazida por três meses."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O esquema básico padrão brasileiro para todos os casos novos de TB (exceto meningite concomitante) consiste em 2 meses de rifampicina, isoniazida, pirazinamida e etambutol (fase intensiva), seguidos de 4 meses de rifampicina e isoniazida (fase de manutenção).",
+      "theme": "tb_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "SCMSJC R1 2023"
+    },
+    {
+      "id": "tb2_068",
+      "statement": "A Tuberculose secundária ou de reinfecção:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "É a forma mais comum de adoecimento entre adolescentes e não entre adultos e, nesses, o comprometimento dos pulmões ocorre em 85-90% dos casos."
+        },
+        {
+          "key": "b",
+          "text": "É a forma mais comum de adoecimento entre adolescentes e adultos e, nesses, o comprometimento dos pulmões ocorre em 85- 90% dos casos."
+        },
+        {
+          "key": "c",
+          "text": "É a forma mais comum de adoecimento entre adolescentes e adultos e, nesses, o comprometimento dos pulmões ocorre em 5- 9% dos casos."
+        },
+        {
+          "key": "d",
+          "text": "É a forma mais rara de adoecimento entre adolescentes e adultos e, nesses, o comprometimento dos pulmões ocorre em 85-90% dos casos."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A tuberculose secundária (de reinfecção/reativação) é a forma mais comum de adoecimento tanto em adolescentes quanto em adultos, com comprometimento pulmonar predominante em 85-90% dos casos.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "HEJSN R1 2023"
+    },
+    {
+      "id": "tb2_069",
+      "statement": "Homem, 50a, procura o serviço de atenção primária por tosse há seis semanas. Antecedentes pessoais: artrite reumatoide há um ano em remissão. Medicamentos em uso: metotrexate e adalimumabe. Realizado radiograma de tórax (IMAGEM Q19). A CONDUTA É: Clique na imagem para expandir",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Suspender adalimumabe e iniciar RIPE."
+        },
+        {
+          "key": "b",
+          "text": "Trocar adalimumabe por rituximabe."
+        },
+        {
+          "key": "c",
+          "text": "Prescrever pulsoterapia com metilprednisolona."
+        },
+        {
+          "key": "d",
+          "text": "Prescrever ceftriaxona e azitromicina."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "ATENÇÃO: a questão faz referência a uma radiografia de tórax não disponível na extração do PDF. Diante de tosse prolongada em paciente em uso de anti-TNF (adalimumabe, fator de risco reconhecido para reativação de TB latente), a conduta é suspender o anti-TNF e iniciar o esquema RIPE.",
+      "theme": "tb_lat",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "UNICAMP R3CM 2025"
+    },
+    {
+      "id": "tb2_070",
+      "statement": "A rotina radiográfica básica em pacientes com suspeita de tuberculose inclui o usodas incidências posteroanteriores e perfil esquerdo.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A radiografia apicolordótica (incidência de Fleischner) poderá complementar a rotinanos casos em que há dúvidas na interpretação dos ápices pulmonares."
+        },
+        {
+          "key": "b",
+          "text": "A radiografia apicolordótica (incidência de Fleischner) nunca poderá complementar arotina nos casos em que há dúvidas na interpretação dos ápices pulmonares."
+        },
+        {
+          "key": "c",
+          "text": "A radiografia apicolordótica (incidência de Fleischner) poderá complementar a rotina,mas não nos casos em que há dúvidas na interpretação dos ápices pulmonares."
+        },
+        {
+          "key": "d",
+          "text": "A radiografia apicolordótica (incidência de Fleischner) poderá complementar a rotinanos casos em que há dúvidas na interpretação das bases pulmonares."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A incidência apicolordótica (Fleischner) pode complementar a rotina radiográfica padrão (PA + perfil) nos casos em que há dúvida na interpretação dos ápices pulmonares, região de maior relevância na tuberculose pulmonar.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "SCMM R1 2023"
+    },
+    {
+      "id": "tb2_071",
+      "statement": "Uma boa amostra de escarro:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "É a que provém da árvore brônquica, obtida sem o esforço de tosse, e não a que seobtém da faringe ou por aspiração de secreções nasais, tampouco a que contémsomente saliva."
+        },
+        {
+          "key": "b",
+          "text": "É a que provém da árvore brônquica, obtida após esforço de tosse, e não a que seobtém da faringe, mas nunca por aspiração de secreções nasais, tampouco a que contémsomente saliva."
+        },
+        {
+          "key": "c",
+          "text": "É a que provém da árvore brônquica, obtida após esforço de tosse, e não a que seobtém da faringe ou por aspiração de secreções nasais, melhor a que contém somentesaliva."
+        },
+        {
+          "key": "d",
+          "text": "É a que provém da árvore brônquica, obtida após esforço de tosse, e não a que seobtém da faringe ou por aspiração de secreções nasais, tampouco a que contémsomente saliva."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Uma boa amostra de escarro é aquela proveniente da árvore brônquica, obtida após esforço de tosse — distinta de secreção de orofaringe ou aspirado nasal, e nunca constituída apenas de saliva.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "SCMM R1 2023"
+    },
+    {
+      "id": "tb2_072",
+      "statement": "No tratamento inicial da tuberculose pulmonar sensível, a terapia padrão recomendada consiste no uso de quatro fármacos durante a fase intensiva. O esquema medicamentoso preconizado nessa fase é composto por:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Rifampicina, Isoniazida, Pirazinamida e Estreptomicina."
+        },
+        {
+          "key": "b",
+          "text": "Rifampicina, Isoniazida e Etambutol."
+        },
+        {
+          "key": "c",
+          "text": "Isoniazida, Pirazinamida, Etambutol e Ciprofloxacino."
+        },
+        {
+          "key": "d",
+          "text": "Rifampicina, Isoniazida, Dapsona e Pirazinamida."
+        },
+        {
+          "key": "e",
+          "text": "Rifampicina, Isoniazida, Pirazinamida e Etambutol."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A fase intensiva do tratamento da TB pulmonar sensível é composta por quatro fármacos: rifampicina, isoniazida, pirazinamida e etambutol (esquema RIPE).",
+      "theme": "tb_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "IAMSPE R3CM 2025"
+    },
+    {
+      "id": "tb2_073",
+      "statement": "Um homem de 39 anos, morador de rua, procura espontaneamente a unidade básica de saúde para atendimento. Ele relata sentir dores de cabeça há 3 dias. Afirma que é etilista, tabagista e nega uso de drogas ilícitas. Seus exames físico, neurológico e psíquico apresentam-se sem alterações e sem critérios para enxaqueca. O paciente está com tosse pouco produtiva há 8 dias, não sabe relatar perda de peso e apresenta pápulas com escoriações em membros superiores e abdome. Nesse caso, qual exame deverá ser solicitado com prioridade para investigação diagnóstica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tomografia computadorizada de tórax."
+        },
+        {
+          "key": "b",
+          "text": "Dosagem de Tiamina sérica."
+        },
+        {
+          "key": "c",
+          "text": "Teste do escarro (BAAR)."
+        },
+        {
+          "key": "d",
+          "text": "Teste rápido de sífilis."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Em população vulnerável (situação de rua) com tosse (mesmo pouco produtiva e de curta duração), a investigação prioritária de TB é justificada — o teste do escarro (BAAR) é o exame prioritário nesse contexto de alto risco.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "INEP REVALIDA 2024"
+    },
+    {
+      "id": "tb2_074",
+      "statement": "Um paciente de 55 anos, portador de doença de Crohn há mais de 10 anos em remissão com adalimumabe (anti-TNFalfa), foi internado na enfermaria de clínica médica para investigar síndrome consumptiva. O grupo de residentes notou linfadenomegalias cervicais sem sinais inflamatórios, presença de hepatoesplenomegalia e estertores crepitantes em ambos os hemitórax. Foi feito diagnóstico de tuberculose a partir de teste rápido molecular do lavado broncoalveolar, cujo material foi positivo para micobactéria tuberculosa (sensível à rifampicina). Mesmo durante o tratamento padrão com rifampicina, isoniazida, pirazinamida e etambutol, o paciente apresentava febre vespertina frequente de aproximadamente 38 graus. Logo no diagnóstico, fora suspenso o adalimumabe. A despeito de a investigação para outros agentes infecciosos ter sido negativa e de não haver resistência da micobactéria, a febre ficou mais frequente e houve piora clínica com derrame pleural e hipoxemia, além de piora laboratorial com aumento de aminotransferases (em torno de 3 vezes o limite superior da normalidade) após 1 mês do início do tratamento contra micobactéria. O manuseio adequado do quadro é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "manter o esquema para tuberculose e iniciar corticoide"
+        },
+        {
+          "key": "b",
+          "text": "suspender o esquema da tuberculose e realizar biópsia de linfonodo"
+        },
+        {
+          "key": "c",
+          "text": "iniciar tratamento para linfoma, pois se trata de uma complicação do adalimumabe"
+        },
+        {
+          "key": "d",
+          "text": "trocar esquema contra tuberculose para amicacina, ofloxacina e etambutol"
+        },
+        {
+          "key": "e",
+          "text": "suspender a terapia para tuberculose e reintroduzi-la gradualmente após 2 semanas de normalização das amitransferases, iniciando com a rifampicina e etambutol"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O quadro de piora clínica (febre persistente, derrame pleural, hipoxemia) e discreta elevação de transaminases (~3x LSN) após suspensão do anti-TNF e início de tratamento eficaz para TB (sem resistência, sem outra infecção identificada) é compatível com síndrome inflamatória de reconstituição imune (IRIS) — a conduta é manter o esquema antituberculose e associar corticoide para controlar a resposta inflamatória exacerbada.",
+      "theme": "tb_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "ENARE R3CM 2025"
+    },
+    {
+      "id": "tb2_075",
+      "statement": "Um homem com 36 anos, em situação de rua, procura a unidade básica de saúde com queixas de tosse persistente, perda de peso, sudorese noturna e febre intermitente há cerca de 2 semanas. Diante desse caso, qual deve ser a conduta médica adotada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar exame bacteriológico de escarro, juntamente com cultura e com teste de sensibilidade antimicrobiana, testagem para HIV, para hepatites virais e para sífilis."
+        },
+        {
+          "key": "b",
+          "text": "Solicitar radiografia de tórax e, em caso de alteração, prescrever medicamento (rifampicina isoniazida / pirazinamida / etambutol) via tratamento diretamente observado."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar exame bacteriológico de escarro e, em caso positivo, encaminhar o paciente para serviço de referência pneumologia para tratamento de tuberculose multirresistente."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar exame bacteriológico de escarro, testagem para HIV, para hepatites virais e para sífilis e, caso seja tuberculose, instituir confirmada a presença de tratamento diretamente observado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Em população em situação de rua com sintomas sugestivos de TB, a conduta abrangente inclui exame bacteriológico de escarro com cultura e teste de sensibilidade, além de testagem para HIV, hepatites virais e sífilis, rastreio combinado padrão para populações vulneráveis.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "INEP REVALIDA 2024"
+    },
+    {
+      "id": "tb2_076",
+      "statement": "A Tuberculose (TB) é uma doença que pode ser prevenida e curada, mas ainda prevalece nas condições de pobreza e contribui para a perpetuação da desigualdade social. Sobre o tratamento da tuberculose, assinale a alternativa INCORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Em geral, após duas a três semanas de tratamento com esquema anti TB que contenham fármacos com atividade bactericida precoce, ocorre significativa diminuição da capacidade de transmissão de bacilos pelos indivíduos doentes."
+        },
+        {
+          "key": "b",
+          "text": "Para a prevenção da seleção de bacilos resistentes e a efetiva cura da doença, é necessária a utilização de esquemas terapêuticos com associação de diferentes medicamentos que agirão sobre os bacilos sensíveis e nos naturalmente resistentes."
+        },
+        {
+          "key": "c",
+          "text": "O tratamento de formas extrapulmonares tem a duração de seis meses, mas no caso do tratamento de TB em pacientes com HIV, a duração se prolonga para oito meses."
+        },
+        {
+          "key": "d",
+          "text": "O esquema de tratamento da tuberculose é padronizado, deve ser realizado de acordo com as recomendações do Ministério da Saúde e compreende duas fases: a intensiva (ou de ataque), e a de manutenção."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A afirmativa INCORRETA (resposta pedida) é a (c): o tratamento das formas extrapulmonares de TB tem duração padrão de 6 meses (exceto formas específicas como meníngea/osteoarticular, que se estendem a 12 meses) — a coinfecção por HIV, isoladamente, não prolonga a duração do tratamento para 8 meses.",
+      "theme": "tb_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "HSRC R1 2023"
+    },
+    {
+      "id": "tb2_077",
+      "statement": "Um paciente de 42 anos, em situação de rua há 2 anos, é atendido por um médico da equipe do Consultório na Rua. Ao ser questionado sobre sintomas respiratórios, refere tosse pouco produtiva há 2 semanas. Ele nega febre, queda do estado geral e dispneia, porém vem emagrecendo há 4 meses, o que atribui à dificuldade de conseguir dinheiro para se alimentar. Teste rápido para sífilis e para HIV no último mês negativos. Faz uso regular de enalapril de 20 mg de 12 em 12 horas para tratamento de hipertensão arterial e consome 2 doses de destilados por dia, quando tem dinheiro. Ele também nega tabagismo e uso de substâncias psicoativas. Ao exame físico, apresenta murmúrio vesicular presente bilateralmente, diminuído em terço superior de hemitórax esquerdo e restante do exame físico inalterado. Diante das informações obtidas, o médico do Consultório na Rua deve considerar o diagnóstico e tratamento de tuberculose,",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "com resistência à rifampicina e iniciar esquema básico, dispensando o Tratamento Diretamente Observado (TDO), considerando a dificuldade de acesso do paciente aos serviços de saúde."
+        },
+        {
+          "key": "b",
+          "text": "com resistência à rifampicina e aguardar o resultado da cultura de escarro e encaminhar para a referência terciáia, que deverá se responsabilizar pelo Tratamento Diretamente Observado (TDO)."
+        },
+        {
+          "key": "c",
+          "text": "sem resistência à rifampicina e iniciar esquema básico, que poderá ser diretamente observado por pessoas que possuem vínculo com o paciente e com os serviços de saúde, desde que supervisionadas semanalmente pelo profissional de saúde responsável."
+        },
+        {
+          "key": "d",
+          "text": "sem resistência à rifampicina e aguardar o resultado da cultura de escarro e encaminhar o paciente para referência terciária para tratamento com esquema básico, devido à impossibilidade de realizar tratamento diretamente observado para a pessoa em situação de rua."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Sem confirmação de resistência à rifampicina, a conduta é iniciar o esquema básico, podendo o Tratamento Diretamente Observado ser realizado por pessoas com vínculo com o paciente e com os serviços de saúde, desde que supervisionadas semanalmente pelo profissional responsável — estratégia adaptada para populações em situação de rua.",
+      "theme": "tb_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "INEP REVALIDA 2023"
+    },
+    {
+      "id": "tb2_078",
+      "statement": "Adolescente de 14 anos evoluiu com hepatotoxicidade, no 10º dia de tratamento para tuberculose com esquema RIPE, o que levou à suspensão de seu tratamento por 20 dias. Na condução clínica, após melhora das transaminases, a melhor conduta é a seguinte:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Refazer teste tuberculínico, Rx de tórax e cultura de escarro."
+        },
+        {
+          "key": "b",
+          "text": "O tratamento deve ser reiniciado com as drogas previamente usadas."
+        },
+        {
+          "key": "c",
+          "text": "O tratamento deve ser substituído por outros fármacos tuberculostáticos."
+        },
+        {
+          "key": "d",
+          "text": "O esquema deve ser reintroduzido após avaliação de exame de sensibilidade."
+        },
+        {
+          "key": "e",
+          "text": "O tratamento deve ser reintroduzido na sequência R/E/I/P e acrescentado 20 dias do esquema suspenso."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Após hepatotoxicidade com melhora das transaminases, a conduta é reintroduzir o esquema sequencialmente (ordem R/E/I/P) e prolongar o tratamento total pelo tempo correspondente aos dias de suspensão, compensando a interrupção.",
+      "theme": "tb_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "SES-PE R1 2026"
+    },
+    {
+      "id": "tb2_079",
+      "statement": "Paciente de 27 anos, em regime fechado em penitenciária, queixa-se de tosse há 2 semanas. Considerando a situação na qual se encontra esse paciente, o médico de família e comunidade deve",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "encaminhar para internação clínica, objetivando rapidez no diagnóstico e garantia da segurança."
+        },
+        {
+          "key": "b",
+          "text": "solicitar radiografia de tórax, pesquisa laboratorial de Mycobacterium tuberculosis e garantir o tratamento em caso de positividade."
+        },
+        {
+          "key": "c",
+          "text": "solicitar internação social, a fim de garantir tratamento supervisionado, observado diretamente por 6 meses, caso seja confirmada a tuberculose"
+        },
+        {
+          "key": "d",
+          "text": "aguardar evolução, com uso de sintomáticos no momento; caso a tosse persista por mais de 3 semanas, proceder à investigação diagnóstica de tuberculose."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Em população carcerária (alto risco de transmissão), diante de tosse por 2 semanas, a conduta é solicitar radiografia de tórax e pesquisa laboratorial de Mycobacterium tuberculosis, garantindo tratamento imediato em caso de positividade — o limiar de investigação é mais baixo nessa população de risco.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "INEP REVALIDA REVALIDA 2025"
+    },
+    {
+      "id": "tb2_080",
+      "statement": "Paciente, sexo masculino, 35 anos de idade, trabalhador da construção civil, tabagista e, emagrecido, está em tratamento de tuberculose pulmonar há 2 meses. No entanto, não compareceu a consulta agendada no mês anterior e a equipe multidisciplinar informou que ele não retirou a medicação na farmácia. Paciente relata tosse seca ocasional, nega outros sintomas e confirmou que não usa o tratamento da tuberculose há 1 mês. Diante dessa situação clínica, qual é a conduta a ser adotada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar TRM-TB e prescrever o esquema RMX."
+        },
+        {
+          "key": "b",
+          "text": "Solicitar pesquisa de fungo, cultura de escarro para Mycobacterium tuberculosis com teste de sensibilidade e prescrever o esquema."
+        },
+        {
+          "key": "c",
+          "text": "Solicita de BAAR no escarro e prescrever esquema RIPE."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar pesquisade BAAR no escarro, TRM-TB, cultura de escarropara Mycobacterium tuberculosis com teste de sensibilidade e prescrever o esquema RIPE."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de abandono de tratamento (interrupção por 1 mês), a conduta é reinvestigação completa (BAAR, TRM-TB, cultura com teste de sensibilidade) antes de reiniciar o esquema RIPE completo.",
+      "theme": "tb_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "PSU-GO R3CM 2026"
+    },
+    {
+      "id": "tb2_081",
+      "statement": "Tales, de 17 anos, procura atendimento médico referindo tosse diária há quatro meses, evoluindo há 1 semana com expectoração esbranquiçada e com episódios de expectoração com raias de sangue. Relata que o quadro iniciou enquanto cumpria pena de privação provisória de liberdade em instituição socioeducativa. Refere perda ponderal não-intencional nos últimos dois meses, com \"febre interna\" diária. Refere uso diário de cigarro por tabaco e por cannabis. Considerando o conceito de Sintomático Respiratório (SR), assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tales não pode ser considerado SR ainda, pois seus sintomas podem ser de natureza associada ao fumo. É preciso reavaliar o quadro clínico após a cessação do fumo. Caso permaneça com sintomas respiratórios, afastadas as causas externas, ele deve ser consid"
+        },
+        {
+          "key": "b",
+          "text": "Tales não pode ser considerado SR ainda, pois seu quadro de tosse produtiva só tem duração de uma semana."
+        },
+        {
+          "key": "c",
+          "text": "Tales passou a ser considerado SR a partir do momento em que permaneceu sintomático por pelo menos três semanas."
+        },
+        {
+          "key": "d",
+          "text": "Tales poderia ser considerado SR a qualquer momento de duração enquanto estava em privação provisória de liberdade (PPL)."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Em pessoas privadas de liberdade (população de altíssimo risco de transmissão), qualquer duração de sintomas respiratórios já justifica a caracterização como sintomático respiratório e investigação de TB, dispensando o critério padrão de 3 semanas usado na população geral.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "SURCE R1 2024"
+    },
+    {
+      "id": "tb2_082",
+      "statement": "Luís, 32 anos, está em tratamento há 45 dias para tuberculose. Veio até a unidade de saúde para sua consulta de 1º mês de acompanhamento. Durante a consulta, você percebe que as escleras de Luis têm a coloração levemente amarelada. Luís diz se sentir bem e nega quaisquer sintomas. Você solicita exames e recebe comunicado do laboratório sobre os resultados: Bilirribuinas totais 4,8 - TGO 453 - TGP 524. Diante desse cenário, dentre as seguintes, assinale qual é a conduta correta no que tange ao tratamento desse paciente.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Trata-se provavelmente de hepatite infecciosa pela tuberculose. Deve-se ajustar as doses do RHZE, aumentando a dose da rifampicina e reduzindo as demais à metade."
+        },
+        {
+          "key": "b",
+          "text": "Trata-se de hepatite de etiologia a definir, uma vez que as drogas para tuberculose não costumam causar efeitos colaterais."
+        },
+        {
+          "key": "c",
+          "text": "Trata-se de hepatite medicamentosa pelo esquema RHZE. Diante desse cenário, deve-se observar o paciente por 72h. Caso não haja sinais de intoxicação hepática, o tratamento deve ser mantido."
+        },
+        {
+          "key": "d",
+          "text": "Trata-se de hepatite medicamentosa pelo esquema RHZE. Diante desse cenário, a conduta correta é suspender a rifampicina, mantendo as demais drogas."
+        },
+        {
+          "key": "e",
+          "text": "Trata-se de hepatite medicamentosa pelo esquema RHZE. Diante desse cenário, a conduta correta é suspender todas as medicações até que a bilirrubina se reduza a um valor menor que2 e que as enzimas hepáticas fiquem menores que 2x o limite superior."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Icterícia leve associada a bilirrubina elevada e transaminases muito acima do limite superior (TGO 453/TGP 524) durante tratamento de TB caracteriza hepatite medicamentosa significativa — a conduta é suspender todas as medicações até que a bilirrubina seja menor que 2 e as enzimas hepáticas fiquem abaixo de 2 vezes o limite superior da normalidade.",
+      "theme": "tb_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "ENARE R3CM 2023"
+    },
+    {
+      "id": "tb2_083",
+      "statement": "Em relação ao tratamento da tuberculose pulmonar sensível, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O esquema básico é rifampicina, isoniazida e etambutol por 6 meses."
+        },
+        {
+          "key": "b",
+          "text": "A pirazinamida é utilizada apenas na fase de manutenção."
+        },
+        {
+          "key": "c",
+          "text": "O tratamento padrão inclui 2 meses de rifampicina,isoniazida, pirazinamida e etambutol e 4 meses de rifampicina e isoniazida."
+        },
+        {
+          "key": "d",
+          "text": "O esquema de retratamento primário inclui estreptomicina obrigatoriamente."
+        },
+        {
+          "key": "e",
+          "text": "Corticoide sistêmico é indicado em todos os casos de tuberculose pulmonar."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O tratamento padrão da TB pulmonar sensível inclui 2 meses de rifampicina, isoniazida, pirazinamida e etambutol (fase intensiva), seguidos de 4 meses de rifampicina e isoniazida (fase de manutenção).",
+      "theme": "tb_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "BOS R1 2026"
+    },
+    {
+      "id": "tb2_084",
+      "statement": "Paciente com 27 anos acabou de receber o diagnostico de tuberculose pulmonar. Marque alternativa correta em relacao ao inicio do tratamento (primeira fase):",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Rinfampizina + Isoniazida + Pirazinamida + Etambutol por 6 meses."
+        },
+        {
+          "key": "b",
+          "text": "Rinfampizina + Isoniazida + Pirazinamida + Etambutol + Prednisona."
+        },
+        {
+          "key": "c",
+          "text": "Rinfampizina + Isoniazida + Pirazinamida + Etambutol por 2 meses."
+        },
+        {
+          "key": "d",
+          "text": "Rinfampizina + Isoniazida por 4 meses."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A primeira fase (intensiva) do tratamento da TB pulmonar é composta por rifampicina, isoniazida, pirazinamida e etambutol, administrados por 2 meses.",
+      "theme": "tb_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "SCMSJC R1 2024"
+    },
+    {
+      "id": "tb2_085",
+      "statement": "Paciente de 39 anos, apresenta tosse há cerca de 3 meses, perda de peso de 3Kg em 1 mês, febre baixa e sudorese noturna. Assinale a alternativa correta a respeito da tuberculose pulmonar.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O exame baciloscópico é o método prioritário do diagnóstico e controle, detectando mais de 95% dos casos."
+        },
+        {
+          "key": "b",
+          "text": "O diagnóstico precoce e início do tratamento adequado não são suficientes para reduzir a disseminação da doença."
+        },
+        {
+          "key": "c",
+          "text": "Opacidades, infiltrados, nódulos, cavidades, fibroses e retrações são possíveis alterações encontradas na radiografia torácica dessa doença."
+        },
+        {
+          "key": "d",
+          "text": "A tuberculose pulmonar se dissemina essencialmente por dois meios: pelo ar e mãos contaminadas."
+        },
+        {
+          "key": "e",
+          "text": "Nos pacientes infectados pelo HIV, com nível sérico de CD4 maior do que 200/mm3, a tuberculose é infrequente."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Opacidades, infiltrados, nódulos, cavidades, fibroses e retrações são achados radiográficos possíveis na tuberculose pulmonar, refletindo o amplo espectro de apresentações radiológicas da doença.",
+      "theme": "tb_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "UNAERP R1 2025"
+    },
+    {
+      "id": "tb2_086",
+      "statement": "Sobre o diagnóstico das formas de tuberculose (TB) no adulto, assinale a afirmativa INCORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Na investigação de um derrame pleural, a adenosina desaminasse (ADA) elevada no líquido pleural é compatível com tuberculose pleural, porém outras causas incluem linfoma e artrite reumatoide."
+        },
+        {
+          "key": "b",
+          "text": "O teste rápido molecular para TB (TRM-TB, GeneXpert®) tem sensibilidade superior à baciloscopia de escarro."
+        },
+        {
+          "key": "c",
+          "text": "Os sintomas dos pacientes com tuberculose incluem tosse produtiva, febre e perda de peso, similares a outras populações com tuberculose pulmonar e, mesmo nos pacientes com CD4 <100, a doença extrapulmonar é rara."
+        },
+        {
+          "key": "d",
+          "text": "A baciloscopia do escarro é importante para o diagnóstico de tuberculose, porque detecta os pacientes bacilíferos, que alimentam a cadeia de transmissão da doença."
+        },
+        {
+          "key": "e",
+          "text": "A TB miliar refere-se a um aspecto radiológico pulmonar específico, que pode ocorrer tanto na forma primária quanto na forma secundária da TB. É uma forma grave da doença, que é mais comum em pacientes imunocomprometidos."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A afirmativa INCORRETA (resposta pedida) é a (c): em pacientes com CD4<100, a forma extrapulmonar/disseminada de tuberculose é, ao contrário do afirmado, MAIS FREQUENTE (não rara), refletindo a apresentação atípica da doença na imunossupressão avançada.",
+      "theme": "tb_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "SES-PE R3CM 2024"
+    },
+    {
+      "id": "tb2_087",
+      "statement": "Mulher de 38 anos apresenta tosse persistente há 2 meses. Raio X de tórax: sugestivo de processo infeccioso. AP: infecção pelo HIV há 3 anos. Biópsia da lesão pulmonar: processo inflamatório granulomatoso; método de Ziehl Neelsen: bacilos álcool-ácido resistentes. Os diagnósticos mais prováveis são",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "sarcoidose e tuberculose."
+        },
+        {
+          "key": "b",
+          "text": "micobacteriose atípica e sarcoidose."
+        },
+        {
+          "key": "c",
+          "text": "tuberculose e micobacteriose atípica."
+        },
+        {
+          "key": "d",
+          "text": "aspergilose e tuberculose."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Bacilos álcool-ácido resistentes em biópsia com processo inflamatório granulomatoso, em paciente HIV positivo, podem corresponder tanto à tuberculose quanto à micobacteriose atípica (não tuberculosa), já que a coloração de Ziehl-Neelsen não diferencia entre as espécies de micobactérias.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "UNESP R1 2024"
+    },
+    {
+      "id": "tb2_088",
+      "statement": "Um paciente de 45 anos chega com tosse crônica, febre vespertina e perda de peso em comunidade rural do Nordeste, com histórico de acesso limitado à saúde. O enfermeiro da APS identifica vários contatos de risco. Qual é a conduta mais apropriada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Iniciar tratamento supervisionado, rastrear contatos e promover melhorias ambientais."
+        },
+        {
+          "key": "b",
+          "text": "Apenas prescrever antibióticos para sintomas."
+        },
+        {
+          "key": "c",
+          "text": "Não intervir por falta de recursos."
+        },
+        {
+          "key": "d",
+          "text": "Encaminhar apenas para hospital de referência."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de suspeita de TB em comunidade rural com acesso limitado à saúde e contatos identificados, a conduta apropriada combina tratamento supervisionado (TDO), rastreamento de contatos e melhorias ambientais, abordagem integrada de saúde pública.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "UNITAU R1 2026"
+    },
+    {
+      "id": "tb2_089",
+      "statement": "O diagnóstico precoce da Tuberculose é um dos pilares mais importantes para o controle da doença. Assinale a alternativa correta sobre a investigação diagnóstica da Tuberculose:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A baciloscopia do escarro apresenta menor sensibilidade em pacientes com coinfecção pelo HIV."
+        },
+        {
+          "key": "b",
+          "text": "A indução do escarro é uma técnica útil nos pacientes que apresentam baciloscopia negativa no escarro e tem um rendimento maior que o lavado broncoalveolar realizado pela broncoscopia."
+        },
+        {
+          "key": "c",
+          "text": "Em casos de tuberculose extrapulmonar, a baciloscopia do escarro não é necessária."
+        },
+        {
+          "key": "d",
+          "text": "O teste rápido molecular ou X-pert permite um diagnóstico rápido da tuberculose, no entanto, não está indicado para os pacientes com suspeita de tuberculose resistente à rifampicina."
+        },
+        {
+          "key": "e",
+          "text": "No exame histopatológico, a presença de granulomas caseosos sem a cultura positiva não confirma tuberculose."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A baciloscopia de escarro apresenta menor sensibilidade em pacientes coinfectados por HIV, dada a maior frequência de formas paucibacilares nesse grupo, o que reforça a importância de métodos diagnósticos complementares (TRM-TB, cultura, TB-LAM).",
+      "theme": "tb_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "SEMAD R1 2025"
+    },
+    {
+      "id": "tb2_090",
+      "statement": "Homem de 48 anos busca atendimento na Unidade Básica de Saúde (UBS) para reiniciar tratamento para tuberculose. Paciente refere que iniciou o tratamento poliquimioterápico há 6 meses, quando foi diagnosticado com tuberculose; porém, há 2 meses, interrompeu o acompanhamento na sua unidade de origem devido ao uso de substâncias psicoativas. Ele se mudou para o território da unidade há 15 dias e foi visitado pelo agente comunitário, que o orientou a procurar atendimento médico para avaliação e retomada do tratamento. Foram solicitados, inicialmente, o teste rápido molecular para tuberculose (TRM-TB), baciloscopia de escarro e radiografia de tórax. Qual a conduta adequada para esse caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Se o TRM-TB for positivo, sem resistência à rifampicina, e a baciloscopia for negativa, reiniciar o esquema básico"
+        },
+        {
+          "key": "b",
+          "text": "Se o TRM-TB for negativo e a baciloscopia for positiva, reiniciar o esquema básico, desde que a resistência à rifampicina seja positiva."
+        },
+        {
+          "key": "c",
+          "text": "Se o TRM-TB for negativo e a baciloscopia for positiva, solicitar cultura de escarro com teste de sensibilidade e reiniciar o esquema básico enquanto se aguarda a cultura"
+        },
+        {
+          "key": "d",
+          "text": "Se o TRM-TB for positivo, com resistência à rifampicina, e a baciloscopia for positiva, solicitar cultura de escarro com teste de sensibilidade e reiniciar o esquema básico enquanto se aguarda a cultura"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de discordância entre TRM-TB negativo e baciloscopia positiva, a conduta apropriada é solicitar cultura de escarro com teste de sensibilidade para elucidação, reiniciando o esquema básico empiricamente enquanto se aguarda o resultado.",
+      "theme": "tb_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "ENAMED R1 2026"
+    },
+    {
+      "id": "tb2_091",
+      "statement": "João tem 56 anos, procurou o serviço de saúde com queixa de fraqueza, durante a história clínica disse que tem apresentado mal estar, principalmente no fim da tarde, um \"suadouro\" no meio da noite, e uma tosse que não larga ele, com pouco catarro, mas que o perturba há mais de meses. Sabe-se tabagista desde os 16 anos, cerca de 20 cigarros por dia, nega etilismo, trabalha na olaria da cidade. Ao exame físico, ausculta pulmonar com roncos esparsos, eupneico, sem outras observações. A principal hipótese diagnóstica é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Bronquite."
+        },
+        {
+          "key": "b",
+          "text": "Tuberculose."
+        },
+        {
+          "key": "c",
+          "text": "Asma brônquica."
+        },
+        {
+          "key": "d",
+          "text": "Neoplasia pulmonar."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Fraqueza, mal-estar vespertino, sudorese noturna e tosse crônica pouco produtiva, em trabalhador com exposição ocupacional a sílica (olaria, fator de risco para TB), formam quadro clássico sugestivo de tuberculose pulmonar.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "UERN R1 2024"
+    },
+    {
+      "id": "tb2_092",
+      "statement": "A radiografia do tórax pode ainda ser utilizada como método de triagem nodiagnóstico da tuberculose:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Notadamente em populações confinadas, cuja incidência da doença é extremamentebaixa."
+        },
+        {
+          "key": "b",
+          "text": "Exceto em populações confinadas, cuja incidência da doença é extremamente elevada."
+        },
+        {
+          "key": "c",
+          "text": "Notadamente em populações confinadas, cuja incidência da doença não é elevada."
+        },
+        {
+          "key": "d",
+          "text": "Notadamente em populações confinadas, cuja incidência da doença é extremamenteelevada."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A radiografia de tórax pode ser utilizada como método de triagem em populações confinadas (prisões, instituições), notadamente naquelas com incidência extremamente elevada da doença, dado o alto valor preditivo nesse contexto de alta prevalência.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "SCMM R1 2023"
+    },
+    {
+      "id": "tb2_093",
+      "statement": "Em um atendimento, um médico se depara com um paciente de 28 anos com sintomas de dor abdominal intermitente em cólica, diarreia e fístulas perianais. O paciente realizou alguns exames e foi diagnosticado com doença de Crohn. Tendo em vista esse caso clínico e os conhecimentos médicos correlatos, julgue o item a seguir. Alguns agentes têm sido propostos como tendo relação à doença de Crohn, sendo o Mycobacterium tuberculosis um dos mais envolvidos e estudados nessa associação.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "CERTO"
+        },
+        {
+          "key": "b",
+          "text": "ERRADO"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O Mycobacterium avium subespécie paratuberculosis (relacionado ao complexo M. tuberculosis) é um dos agentes mais estudados e propostos como possível fator relacionado à etiopatogenia da doença de Crohn, embora a associação causal definitiva permaneça controversa.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "SES-DF R3CG 2023"
+    },
+    {
+      "id": "tb2_094",
+      "statement": "Mulher, 20 anos, em tratamento de tuberculose pulmonar com rifampicina+isoniazida+etambutol+pirazinamida, há 1 semana. Sorologia para HIV negativa. Há 2 dias apresenta insônia, agitação psicomotora e ideias persecutórias (acredita que alguém está espionando suas mensagens no celular). Nega histórico de doenças psiquiátricas e uso de substâncias ilícitas. Nega uso de outras medicações. Qual é a droga provavelmente associada à alteração de comportamento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pirazinamida"
+        },
+        {
+          "key": "b",
+          "text": "Etambutol"
+        },
+        {
+          "key": "c",
+          "text": "Rifampicina"
+        },
+        {
+          "key": "d",
+          "text": "Isoniazida"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Sintomas neuropsiquiátricos de início recente (insônia, agitação, ideação persecutória) durante tratamento de TB, sem histórico psiquiátrico prévio, são classicamente associados à isoniazida, por seu efeito no metabolismo de neurotransmissores relacionado à depleção de piridoxina.",
+      "theme": "tb_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "USP-RP R3CM 2024"
+    },
+    {
+      "id": "tb2_095",
+      "statement": "Paciente com 4 anos de vida, peso 11 kg, com história iniciada há 3 semanas com queda do estado geral, e há 12 dias com hiporexia e hipoatividade, passou em avaliação na UPA sendo diagnosticado faringite e iniciado antibiótico, porém sem melhora. Paciente com regressão do desenvolvimento neurológico, com dificuldade de deambular, constipação e diurese em fraldas sendo que paciente já tinha controles, recusa de alimentação e ingestão de liquido e sólidos com piora clinica importante com rebaixamento do nivel de consciência, sonolência, crise convulsiva evoluindo para estado de mal epiléptico sendo encaminhado para o hospital. Admitida na UTI pediátrica, sendo realizado tomografia de crânio e coleta de liquor com leucocitos 100, linfocitos 80%, proteína 189 e glicose de 28% bacterioscopia negativa. Iniciado ceftriaxona e vancomicina e associado aciclovir. Na coleta da história epidemiológica, houve uma história de contato com amiga de mãe com tuberculose e mãe tem sintomas de tosse há mais de 3 semanas. Com relação ao tratamento da paciente mediante suspeita clínica de neurotuberculose, qual a conduta a ser realizada para o tratamento da paciente.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Iniciar esquema com formação dose fixa combinada com rifampicina, isoniazida, pirazinamida 2 comprimidos por 2 meses e uso de 2 cp de rifampicina e isoniazida por mais 8 meses, além de uso de dexametasona 0,4 mg/kg/ dia de 4 a 8 semanas."
+        },
+        {
+          "key": "b",
+          "text": "Iniciar esquema rifampicina, isoniazida, pirazinamida 3 comprimidos por 2 meses e mais 10 meses de uso de 3 cp de rifampicina e isoniazida por mais 10 meses, além de uso de dexametasona 0,4 mg/kg/ dia EV de 4 a 8 semanas."
+        },
+        {
+          "key": "c",
+          "text": "Iniciar esquema com formação dose fixa combinada com rifampicina, isoniazida, pirazinamida, etambutol 2 comprimidos por 2 meses e mais 8 meses de uso de 3 cp de rifampicina e isoniazida por mais 10 meses, além de uso de dexametasona 0,4 mg/kg/ dia EV de 4 a 8 semanas."
+        },
+        {
+          "key": "d",
+          "text": "Iniciar esquema com formação dose fixa combinada com rifampicina, isoniazida, pirazinamida 2 comprimidos por 2 meses e mais 10 meses de uso de 2 cp de rifampicina e isoniazida por mais 10 meses, além de uso de dexametasona 0,4 mg/kg/ dia de 4 a 8 semanas."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O tratamento da tuberculose meníngea em crianças inclui esquema RIPE (com etambutol) na fase intensiva de 2 meses, seguido de fase de manutenção estendida (rifampicina + isoniazida por mais 8-10 meses, totalizando cerca de 10-12 meses), associado a corticosteroide (dexametasona 0,4mg/kg/dia EV) por 4 a 8 semanas para reduzir complicações inflamatórias do sistema nervoso central.",
+      "theme": "tb_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "FAMERP R1 2024"
+    },
+    {
+      "id": "tb2_096",
+      "statement": "A indução de escarro com solução salina hipertônica:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Não é uma técnica útil em indivíduos que apresentam baciloscopia de escarro negativa ou são incapazes de produzir escarro, porque aumenta o rendimento da baciloscopia e da cultura."
+        },
+        {
+          "key": "b",
+          "text": "É uma técnica útil em indivíduos que apresentam baciloscopia de escarro negativa ou são incapazes de produzir escarro, porque aumenta o rendimento da baciloscopia e da cultura."
+        },
+        {
+          "key": "c",
+          "text": "É uma técnica útil em indivíduos que apresentam baciloscopia de escarro negativa ou são incapazes de produzir escarro, porque reduz o rendimento da baciloscopia e da cultura."
+        },
+        {
+          "key": "d",
+          "text": "É uma técnica útil em indivíduos que apresentam baciloscopia de escarro negativa ou são incapazes de produzir escarro, porque aumenta o rendimento da baciloscopia e nunca da cultura."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A indução de escarro com solução salina hipertônica é técnica útil em pacientes com baciloscopia negativa ou incapazes de produzir escarro espontaneamente, pois aumenta o rendimento tanto da baciloscopia quanto da cultura.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "HSJC R1 2023"
+    },
+    {
+      "id": "tb2_097",
+      "statement": "Maurício tem 37 anos, é um paciente com transtorno de adição por substâncias ilícitas, consome cocaína e inala crack. Adoeceu por tuberculose pulmonar confirmada por exame de escarro e imagem 2 anos atrás, entretanto abandonou o tratamento ainda no quarto mês. A equipe de saúde não conseguiu contato na busca ativa na época do abandono e agora retorna com queixa de tosse produtiva, perda ponderal, febre vespertina e astenia. Qual das alternativas a seguir discrimina a conduta mais apropriada para Maurício nesse momento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicito TRM-TB pois já avalia se há resistência a rifampicina e radiografia de tórax em PA e perfil."
+        },
+        {
+          "key": "b",
+          "text": "Reinício tratamento, prescrevendo RH por mais 3 meses para completar os 2 meses de tratamento faltantes, com dose ajustada de acordo com o peso atual."
+        },
+        {
+          "key": "c",
+          "text": "Por tratar-se de abandono, encaminho o paciente para internação em uma unidade terciária com isolamento respiratório. Pela alta probabilidade de tratar- se de tuberculose multirresistente."
+        },
+        {
+          "key": "d",
+          "text": "Solicito radiografia de tórax em PA e perfil, baciloscopia do escarro e cultura paramicobactérias no escarro com tipificação e teste de sensibilidade, pois o abandono pode ter gerado alguma resistência. Se a baciloscopia vier positiva inicio tratamento co"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de retorno após abandono de tratamento prévio (risco de resistência adquirida) com sintomas ativos, a conduta mais cautelosa é a reinvestigação completa — radiografia, baciloscopia e cultura com tipificação e teste de sensibilidade — antes de definir o esquema terapêutico definitivo.",
+      "theme": "tb_mdr",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "CERMAM R1 2023"
+    },
+    {
+      "id": "tb2_098",
+      "statement": "Após décadas, surgiram novidades no controle da tuberculose nos campos diagnósticos e terapêuticos: testes rápidos moleculares, novos fármacos desenvolvidos especificamente para o tratamento da tuberculose, inúmeras vacinas preventivas e terapêuticas em fase de desenvolvimento, novos regimes encurtados sendo testados em ensaios clínicos multicêntricos. Neste contexto, o Teste Rápido Molecular para Tuberculose (TRM-TB) encontra-se disponível na rede pública de saúde em alguns municípios brasileiros. O Manual de Recomendações para o Controle da Tuberculose no Brasil indica o teste mencionado para as seguintes situações:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Crianças com tuberculose pulmonar, pois em geral, têm baciloscopia negativa."
+        },
+        {
+          "key": "b",
+          "text": "Para os pacientes com exame bacteriológico de escarro positivo já na primeira amostra."
+        },
+        {
+          "key": "c",
+          "text": "Reservado aos grupos de maior vulnerabilidade, de qualquer faixa etária, devido ao seu custo."
+        },
+        {
+          "key": "d",
+          "text": "Diagnóstico de casos novos de tuberculose pulmonar e laríngea (principalmente em adultos e adolescentes.)"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O TRM-TB é indicado prioritariamente para diagnóstico de casos novos de tuberculose pulmonar e laríngea, principalmente em adultos e adolescentes, conforme o Manual de Recomendações para o Controle da Tuberculose no Brasil.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "UNIRG R1 2024"
+    },
+    {
+      "id": "tb2_099",
+      "statement": "Homem de 50 anos, hipertenso, foi encontrado em óbito em sua residência. Na autópsia foram identificadas lesões brancacentas no parênquima pulmonar (imagem) e em linfonodo hilar. O processo patológico que é classicamente descrito na doença causadora das lesões pulmonares é a necrose Clique na imagem para expandir",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "coagulativa."
+        },
+        {
+          "key": "b",
+          "text": "liquefativa."
+        },
+        {
+          "key": "c",
+          "text": "caseosa."
+        },
+        {
+          "key": "d",
+          "text": "gangrenosa."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "ATENÇÃO: a questão faz referência a uma imagem de necropsia não disponível na extração do PDF. A necrose caseosa é o processo patológico classicamente descrito nas lesões granulomatosas da tuberculose, tanto pulmonares quanto em linfonodos hilares.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "UNESP R1 2023"
+    },
+    {
+      "id": "tb2_100",
+      "statement": "Homem, 70a, há 45 dias foi atendido no Pronto Atendimento com quadro de tosse, expectoração amarelada e dispneia há 10 dias, além de febre não mensurada. Solicitados exames e prescrito levofloxacino750 mg/dia por 10 dias para uso domiciliar. Antecedente pessoal: pedreiro por 40 anos, aposentado há seismeses; tabagismo ativo (90 anos-maço), tosse matutina há dois meses. Hoje, o paciente foi convocado para consulta na Unidade Básica de Saúde devido ao resultado do escarro. Refere melhora da expectoração, mas mantém dispneia. Resultado de exames: tomografia computadorizada de tórax de alta resolução: presença de enfisema centro lobular e para-septal predominando em lobos superiores; lesões em \"árvoreem brotamento\" no segmento lateral do lobo médio. Escarro: baciloscopia=negativa; teste rápido molecularpara Mycobacterium tuberculosis=negativo; cultura para Mycobacterium: positivo para Mycobacterium avium. O EXAME NECESSÁRIO PARA CONFIRMAR A HIPÓTESE DIAGNÓSTICA É:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Nova amostra de escarro para cultura de micobactéria."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de cultura positiva para Mycobacterium avium (micobactéria não tuberculosa) com baciloscopia e TRM-TB para M. tuberculosis negativos, é necessária uma nova amostra de escarro para cultura de micobactéria, já que o diagnóstico de doença por micobactéria não tuberculosa exige, pelos critérios da ATS/IDSA, pelo menos duas culturas positivas (ou critérios clínico-radiológicos associados) para confirmação, não bastando um único resultado isolado.",
+      "theme": "tb_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "source": "UNICAMP R1 2024"
+    }
+  ]
+}

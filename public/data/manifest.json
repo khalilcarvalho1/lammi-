@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T18:39:19.861Z",
+  "generatedAt": "2026-07-30T13:23:31.985Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,7 +26,7 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 2541,
+  "totalQuestions": 2641,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
@@ -79,7 +79,11 @@
     "pna_asp": 4,
     "pna_imuno": 4,
     "pna_pah": 9,
-    "tep_dx": 2
+    "tep_dx": 2,
+    "tb_tto": 35,
+    "tb_dx": 54,
+    "tb_mdr": 6,
+    "tb_lat": 5
   },
   "flashcardThemeCounts": {
     "atls_choque": 3,
@@ -2686,8 +2690,13 @@
     {
       "area": "pneumologia",
       "slug": "tuberculose",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "tb_tto",
+        "tb_dx",
+        "tb_mdr",
+        "tb_lat"
+      ],
+      "questionsCount": 100,
       "flashcardsCount": 0,
       "casosCount": 0
     },
