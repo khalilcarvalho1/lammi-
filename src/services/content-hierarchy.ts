@@ -886,6 +886,35 @@ export const AREAS: Area[] = [
         label: 'Aloimunização e Doença Hemolítica Perinatal',
         subtemas: []
       },
+      {
+        id: 'obs_sifilis',
+        label: 'Sífilis na Gestação e Sífilis Congênita',
+        subtemas: [
+          { id: 'sif_gestante',  label: 'Diagnóstico e tratamento na gestante' },
+          { id: 'sif_congenita', label: 'Sífilis congênita' },
+        ]
+      },
+      {
+        id: 'obs_rcf',
+        label: 'Restrição de Crescimento Fetal e Óbito Fetal',
+        subtemas: [
+          { id: 'rcf_dx',   label: 'Diagnóstico e vigilância' },
+          { id: 'rcf_obito', label: 'Óbito fetal' },
+        ]
+      },
+      {
+        id: 'obs_infcong',
+        label: 'Infecções Congênitas',
+        subtemas: [
+          { id: 'inf_toxo', label: 'Toxoplasmose' },
+          { id: 'inf_outras', label: 'CMV, rubéola, zika e outras' },
+        ]
+      },
+      {
+        id: 'obs_rpm',
+        label: 'Rotura Prematura de Membranas',
+        subtemas: []
+      },
     ]
   },
 

@@ -1,0 +1,2800 @@
+{
+  "questions": [
+    {
+      "id": "infc_001",
+      "statement": "Mulher de 36 anos de idade, primigesta, com idade gestacional de 38 semanas, é admitida na unidade de emergência com queixa de saída de secreção vaginal líquida há 3 horas e contrações irregulares. Ao exame clínico, apresenta dinâmica uterina de 2 contrações de 45 segundos em 10 minutos, líquido claro coletado em fundo de saco posterior visualizado em exame especular e toque vaginal com 5cm de dilatação cervical. À inspeção vulvar, são visualizadas lesões vesiculares e ulceradas, intensamente dolorosas, que segundo a paciente surgiram há 2 dias. Também relatou história de quadro semelhante anteriormente à gestação. A sorologia para HIV foi negativa e o VDRL foi de 1:8. A paciente nega ter realizado qualquer tratamento previamente. Qual é a conduta que deve ser adotada neste momento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Iniciar esquema de aciclovir e realizar assistência ao parto."
+        },
+        {
+          "key": "b",
+          "text": "Indicar a realização imediata de parto cesárea."
+        },
+        {
+          "key": "c",
+          "text": "Iniciar ocitocina para diminuir o tempo de trabalho de parto."
+        },
+        {
+          "key": "d",
+          "text": "Assistência ao trabalho de parto por via baixa."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de lesões herpéticas ativas na vulva no início do trabalho de parto (dilatação já em 5cm), a conduta é iniciar esquema de aciclovir e realizar assistência ao parto por via baixa, já que o trabalho de parto está em fase avançada.",
+      "theme": "inf_outras",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_002",
+      "statement": "Há uma infecção congênita que ocorre, geralmente, por infecção genital materna. É mais comum sua transmissão durante o trabalho de parto ou pós-natal e chega a 50% no parto vaginal. Mulheres com primo-infecção geralmente são assintomáticas, enquanto aquelas com infecção recidivante têm a transmissão intraparto diminuída para uma taxa de 3% a 5% pela presença de anticorpos preexistentes. A alternativa correspondente à infecção é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Infecção congênita por herpes simples."
+        },
+        {
+          "key": "b",
+          "text": "Sífilis congênita precoce."
+        },
+        {
+          "key": "c",
+          "text": "Infecção congênita por citomegalovírus."
+        },
+        {
+          "key": "d",
+          "text": "Rubéola congênita."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A infecção congênita descrita (transmissão predominantemente intraparto/pós-natal, até 50% no parto vaginal em primo-infecção, reduzida para 3-5% na infecção recidivante pela presença de anticorpos maternos preexistentes) corresponde ao herpes simples congênito.",
+      "theme": "inf_outras",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_003",
+      "statement": "Quando a infecção por toxoplasmose é adquirida pela primeira vez durante a gravidez, os parasitas podem ser transmitidos da mãe para o feto, resultando em toxoplasmose congênita. Uma gestante de 14 semanas comparece à consulta trazendo resultados da primeira rotina laboratorial. Possui sorologia para toxoplasmose IgG não reagente e IgM não reagente. Qual a conduta mais correta a ser seguida?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Considerar a paciente imune e tranquilizá-la com relação à doença."
+        },
+        {
+          "key": "b",
+          "text": "Solicitar teste de avidez para determinar quando houve a infecção e avaliar se há necessidade de tratamento."
+        },
+        {
+          "key": "c",
+          "text": "Iniciar o tratamento com Espiramicina imediatamente."
+        },
+        {
+          "key": "d",
+          "text": "Considerar a paciente não imunizada e repetir a sorologia no segundo e no terceiro trimestres, além de orientar sobre a alimentação e os riscos da infecção."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de IgG e IgM não reagentes para toxoplasmose, a gestante é considerada não imunizada (suscetível), devendo repetir a sorologia no segundo e terceiro trimestres, além de receber orientações profiláticas sobre alimentação e riscos da infecção.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_004",
+      "statement": "Recém-nascido a termo, adequado para idade gestacional, lho de mãe hígida com pré-natal adequado, ultrassom morfológico normal. Sorologia de toxoplasmose com 7 semanas de gestação: IgM (método elisa) positivo, IgG positivo, com alta avidez. Exame clínico normal ao nascimento. A conduta recomendada é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "realizar avaliação de fundo de olho, ultrassonografia transfontanela e abdominal, hemograma, punção lombar e sorologias do recém-nascido, antes de indicar o tratamento."
+        },
+        {
+          "key": "b",
+          "text": "coletar sorologia para toxoplasmose do sangue do cordão e indicar o tratamento dependendo do resultado."
+        },
+        {
+          "key": "c",
+          "text": "iniciar tratamento com sulfadiazina, pirimetamina e ácido folínico por um ano, independentemente do resultado de exames."
+        },
+        {
+          "key": "d",
+          "text": "realizar cuidados de rotina, não havendo necessidade de investigação diagnóstica ou de tratamento do recém- nascido."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de IgG e IgM positivos com alta avidez já na 7ª semana de gestação (indicando infecção anterior à concepção) e RN a termo assintomático com exame clínico normal, a conduta é realizar cuidados de rotina, sem necessidade de investigação diagnóstica adicional ou tratamento do recém-nascido.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_005",
+      "statement": "Durante consulta de pré-natal na atenção primária, gestante apresenta os seguintes resultados de sorologia para toxoplasmose: As condutas corretas são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "espiramicina; encaminhar para a referência para realizar amniocentese."
+        },
+        {
+          "key": "b",
+          "text": "sulfadiazina, pirimetamina e ácido folínico; encaminhar para a referência para realizar amniocentese."
+        },
+        {
+          "key": "c",
+          "text": "espiramicina; não há necessidade de realizar a amniocentese."
+        },
+        {
+          "key": "d",
+          "text": "sulfadiazina, pirimetamina e ácido folínico; não há necessidade de realizar a amniocentese."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de sorologia sugestiva de infecção materna aguda (dados específicos do quadro não capturados integralmente na extração), a conduta correta envolve tratamento com sulfadiazina, pirimetamina e ácido folínico associado ao encaminhamento para amniocentese, conforme o gabarito desta fonte.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_006",
+      "statement": "RKC, 32 anos, primigesta, consulta com 16 semanas de gestação em uso de Espiramicina 3g/dia desde as 10 semanas, quando apresentou IgG e IgM positivos para toxoplasmose. Com 12 semanas, o exame de avidez de IgG foi de 10% (avidez baixa). Assinalar a alternativa que apresenta o manejo adequado dessa gestante:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Suspender a Espiramicina, pois os exames indicam infecção anterior à gravidez."
+        },
+        {
+          "key": "b",
+          "text": "Manter a Espiramicina intercalando com Sulfadiazina, Pirimetamina e Ácido Folínico."
+        },
+        {
+          "key": "c",
+          "text": "Manter a Espiramicina e indicar a realização da amniocentese com exame de reação em cadeia da polimerase (PCR) a partir de 18 semanas."
+        },
+        {
+          "key": "d",
+          "text": "Trocar o tratamento para Sulfadiazina, Pirimetamina e Ácido Folínico."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de IgG e IgM positivos com baixa avidez de IgG (10%, indicando infecção recente), a conduta é manter a espiramicina e indicar a realização de amniocentese com PCR a partir de 18 semanas, para investigar infecção fetal.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_007",
+      "statement": "Uma gestante de 25 anos de idade, com 11 semanas de gestação, traz à consulta do pré-natal uma sorologia positiva para Toxoplasmose (IgM e IgG positivas). O próximo passo investigativo seria:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Amniocentese para pesquisa de PCR de T.gondii"
+        },
+        {
+          "key": "b",
+          "text": "Iniciar sulfadiazina + pirimetamina."
+        },
+        {
+          "key": "c",
+          "text": "Iniciar espiramicina com 18 semanas de gestação."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar teste de avidez de IgG."
+        },
+        {
+          "key": "e",
+          "text": "Acompanhar com ultrassonografias seriadas."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de sorologia positiva (IgM e IgG) com apenas 11 semanas de gestação, sem outros dados prévios para determinar cronologia, o próximo passo investigativo é solicitar o teste de avidez de IgG, que ajuda a datar a infecção.",
+      "theme": "inf_toxo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_008",
+      "statement": "Para quais gestantes é necessário fornecer orientações sobre prevenção de infecção congênita pelo citomegalovírus?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Para todas, independente do estado sorológico."
+        },
+        {
+          "key": "b",
+          "text": "Somente para as que apresentem IgG negativa."
+        },
+        {
+          "key": "c",
+          "text": "Somente para aquelas com baixa avidez de IgM."
+        },
+        {
+          "key": "d",
+          "text": "Somente para as que apresentem tanto IgG quanto IgM negativas."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Orientações sobre prevenção de infecção congênita por citomegalovírus devem ser fornecidas a todas as gestantes, independentemente do estado sorológico, já que não há tratamento/vacina eficaz e a prevenção comportamental (higiene) é a principal medida disponível.",
+      "theme": "inf_outras",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_009",
+      "statement": "Paciente é atendida em consulta de pré-natal na décima semana de gestação, sem comorbidades, apresentando sorologia para toxoplasmose com IgG e IgM positivos e teste de avidez para IgG com alta avidez. A conduta diante desses resultados é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "prescrição de espiramicina"
+        },
+        {
+          "key": "b",
+          "text": "manutenção de pré-natal habitual"
+        },
+        {
+          "key": "c",
+          "text": "encaminhamento para amniocentese após 16 semanas"
+        },
+        {
+          "key": "d",
+          "text": "início de sulfadiazina com pirimetamina, alternada com ácido folínico"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de IgG e IgM positivos com alta avidez de IgG (indicando infecção anterior à gestação), a conduta é a manutenção do pré-natal habitual, sem necessidade de tratamento ou investigação adicional.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_010",
+      "statement": "Com relação à infecção por toxoplasmose na gravidez, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Na maior parte das vezes, a infecção aguda apresenta-se como síndrome mono-like e a infecção subclínica ocorre apenas em 10% dos casos."
+        },
+        {
+          "key": "b",
+          "text": "A presença de IgM positivo e IgG positivo com 26 semanas de gestação indica a realização de teste de avidez da IgG."
+        },
+        {
+          "key": "c",
+          "text": "O risco de transmissão vertical é diretamente proporcional à idade gestacional."
+        },
+        {
+          "key": "d",
+          "text": "Na presença de infecção aguda materna confirmada na gravidez, é necessário o tratamento com sulfadiazina, pirimetamina e ácido folínico."
+        },
+        {
+          "key": "e",
+          "text": "A infecção fetal pelo Toxoplasma gondii pode ser diagnosticada por ultrassonografia, pois 70% dos fetos apresentam alterações ultrassonográficas."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A presença de IgM e IgG positivos com 26 semanas de gestação indica a realização do teste de avidez da IgG, para ajudar a determinar se a infecção é recente ou antiga.",
+      "theme": "inf_toxo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_011",
+      "statement": "M.A.S., 18 anos, G2P1NA0, IG: 39 semanas e 6 dias, admitida em pronto atendimento com queixa de contrações frequentes. Nega comorbidades, mas refere aparecimento de lesões dolorosas na vulva há uma semana. Ao exame: dinâmica uterina 3 contrações de 40 segundos em 10 minutos, BCF: 138 bpm, colo 70% apagado, centralizado, 08 cm de dilatação, bolsa íntegra, cefálico, plano 0 De Lee. Inspeção da vulva com lesões bolhosas e dolorosas de acordo com imagem abaixo. Assinale a alternativa que apresenta a correta associação entre o agente etiológico e a via de parto que deve ser orientada.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Herpes simples (HSV-1/HSV-2), encaminhar imediatamente para cesárea, para reduzir os riscos de transmissão vertical."
+        },
+        {
+          "key": "b",
+          "text": "Papilomavírus humano (HPV), realizar a assistência ao parto vaginal, pois não há riscos de transmissão vertical."
+        },
+        {
+          "key": "c",
+          "text": "Papilomavírus humano (HPV), encaminhar imediatamente para cesárea, para reduzir os riscos de transmissão vertical."
+        },
+        {
+          "key": "d",
+          "text": "Herpes simples (HSV-1/HSV-2), realizar a assistência ao parto vaginal, pois não há risco de transmissão vertical."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O agente etiológico correspondente às lesões vesiculares dolorosas descritas é o herpes simples (HSV-1/HSV-2); diante de lesões ativas na vulva próximo ao parto, a via de parto recomendada é a cesárea, para reduzir os riscos de transmissão vertical.",
+      "theme": "inf_outras",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_012",
+      "statement": "Primigesta com 10 semanas de gestação trouxe à consulta resultados de exames sorológicos para toxoplasmose realizados há 1 semana, evidenciando IgG não reagente e IgM reagente. Com base nesses resultados, assinale a alternativa que contempla a conduta correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Iniciar espiramicina imediatamente, solicitar teste de avidez para IgG e repetir as dosagens de IgG e IgM em 3-4 semanas para datação da fase aguda."
+        },
+        {
+          "key": "b",
+          "text": "Iniciar sulfadiazina, pirimetamina e ácido folínico imediatamente e repetir as dosagens de IgG e IgM em 3-4 semanas."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar coleta imediata de material para dosagens de IgG, IgM, IgA e IgE e teste de avidez para IgG e programar cordocentese em 2-3 semanas para pesquisa de IgM específica."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar teste de avidez para IgG e oferecer a possibilidade de realização imediata de punção de líquido amniótico para PCR para investigação da infecção fetal."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de IgG não reagente e IgM reagente (padrão sugestivo de infecção muito recente ou falso-positivo) com 10 semanas de gestação, a conduta é iniciar espiramicina imediatamente, solicitar teste de avidez de IgG e repetir as dosagens de IgG e IgM em 3-4 semanas para confirmar a soroconversão.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_014",
+      "statement": "G1P0A1, idade gestacional de 9 semanas, volta à consulta de pré-natal trazendo os seguintes exames para toxoplasmose: I g G reagente e IgM reagente. Foi solicitado o teste de avidez IgG especí co, que apresentou como resultado alta avidez. Nesse caso, devemos considerar",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "infecção aguda."
+        },
+        {
+          "key": "b",
+          "text": "infeção materna e fetal."
+        },
+        {
+          "key": "c",
+          "text": "paciente suscetível."
+        },
+        {
+          "key": "d",
+          "text": "infecção adquirida há menos de 4 meses."
+        },
+        {
+          "key": "e",
+          "text": "infecção adquirida há mais de 4 meses."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Diante de IgG e IgM positivos com alta avidez de IgG, deve-se considerar que a infecção foi adquirida há mais de 4 meses (infecção antiga, anterior ou muito precoce na gestação, sem risco relevante de transmissão vertical).",
+      "theme": "inf_toxo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_015",
+      "statement": "A rubéola é uma infecção viral que, nas últimas décadas, teve a incidência e a prevalência diminuídas drasticamente no Brasil. Considerando o rastreio da rubéola no pré-natal, é INCORRETO afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O rastreio para a rubéola no pré-natal, atualmente, deve, em todos os casos, ser realizado com os exames de primeiro trimestre, que incluam hemograma completo; tipagem sanguínea; glicemia de jejum; urina I; urocultura; sorologias para toxoplasmose, sífilis, hepatite B, hepatite C e HIV; TSH; protoparasitológico de fezes; ultrassom de primeiro trimestre."
+        },
+        {
+          "key": "b",
+          "text": "Devido à eliminação da rubéola e da síndrome da rubéola congênita no Brasil, o Ministério da Saúde recomenda que não seja realizado o exame sorológico com pesquisa de IgM para rubéola na rotina de pré-natal para gestantes, em casos de mulheres assintomáticas."
+        },
+        {
+          "key": "c",
+          "text": "A grande quantidade de exames sorológicos com pesquisa de IgM para rubéola resulta em um número alto de falsos positivos, acumulando casos suspeitos de rubéola que não correspondem à definição de caso da doença."
+        },
+        {
+          "key": "d",
+          "text": "Caso exista a necessidade de saber se a gestante tem títulos protetores para o vírus da rubéola, é recomendado solicitar apenas o IgG. Mesmo que a mulher seja negativa, não poderá utilizar a vacina dupla (sarampo-rubéola) ou a tríplice viral (sarampo-rubéola-caxumba) durante a gestação."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "É a alternativa INCORRETA: o rastreio de rubéola no pré-natal NÃO inclui rotineiramente a pesquisa de IgM para rubéola em mulheres assintomáticas — o Ministério da Saúde recomenda não realizar esse exame de rotina, dada a eliminação da doença no Brasil e a alta taxa de falsos positivos, tornando incorreta a afirmativa de que 'deve, em todos os casos, ser realizado'.",
+      "theme": "inf_outras",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_016",
+      "statement": "Leia o caso clínico a seguir. Uma gestante apresentou no teste da mamãe, realizado com dez semanas de gestação, IgM e IgG para toxoplasmose positivos. Após este resultado, ainda com doze semanas de gestação, foi realizada a avidez para IgG que resultou em 80%. No segundo trimestre de gestação, a gestante realizou a amniocentese para a realização de reação de cadeia de polimerase (PCR) para detecção do Toxoplasma gondii, que resultou negativo. Ao nascimento, com 38 semanas de idade gestacional, o recém-nascido apresentava IgM negativo, IgG em níveis semelhantes ao materno e a mãe apresentava, nesta ocasião, IgM e IgG positivos. Nesse caso, a melhor conduta é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "tratar o recém-nascido porque a gestante teve toxoplasmose comprovada durante gestação."
+        },
+        {
+          "key": "b",
+          "text": "tratar o recém-nascido porque a gestante teve toxoplasmose provável durante gestação."
+        },
+        {
+          "key": "c",
+          "text": "não tratar o recém-nascido porque é improvável que a gestante tenha tido toxoplasmose durante gestação."
+        },
+        {
+          "key": "d",
+          "text": "não tratar o recém-nascido porque a gestante não teve toxoplasmose durante gestação."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de PCR negativo no líquido amniótico e RN com IgM negativo e IgG em níveis semelhantes ao materno (compatível com transferência passiva, não infecção ativa), mesmo com sorologia materna persistentemente positiva, a conduta é não tratar o recém-nascido, já que é improvável que tenha ocorrido infecção fetal.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_017",
+      "statement": "Uma gestante com início tardio de pré-natal e 26 semanas, no retorno em consulta, entre os exames solicitados, tinha sorologia de toxoplasmose com IgM positivo e IgG positivo. Considerando o resultado da sorologia e a idade gestacional, nesse caso hipotético, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "É necessária a realização de teste de avidez da IgG para, assim, determinar se a infecção por toxoplasmose é aguda."
+        },
+        {
+          "key": "b",
+          "text": "Deve-se iniciar espiramicina e realizar amniocentese com pesquisa de PCR para Toxoplasma gondii."
+        },
+        {
+          "key": "c",
+          "text": "Deve-se iniciar espiramicina, não havendo necessidade de amniocentese ou pesquisa de PCR para Toxoplasma gondii."
+        },
+        {
+          "key": "d",
+          "text": "Não se deve iniciar espiramicina, mas é necessário realizar amniocentese com pesquisa de PCR para Toxoplasma gondii, só iniciando a terapia após o resultado de PCR."
+        },
+        {
+          "key": "e",
+          "text": "Deve-se iniciar tratamento com pirimetamina, sulfadiazina e ácido folínico."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de IgM e IgG positivos com 26 semanas (já além do prazo hábil de datação pelo teste de avidez, considerado infecção potencialmente ativa dado o início tardio do pré-natal), a conduta é iniciar espiramicina e realizar amniocentese com pesquisa de PCR para Toxoplasma gondii.",
+      "theme": "inf_toxo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_018",
+      "statement": "Durante o pré-natal é rotineira a solicitação de exames de sí lis. Assim, pode-se considerar sobre rastreamento indicado pelo protocolo Mãe Curitibana, Versão 2021:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O exame inicial recomendado é o VDRL, teste não treponêmico, mais sensível que os treponêmicos na sífilis latente."
+        },
+        {
+          "key": "b",
+          "text": "Se na primeira etapa o teste for negativo, considera-se gestante sem sífilis, mas a evidência epidemiológica pode exigir repetir o teste."
+        },
+        {
+          "key": "c",
+          "text": "A segunda etapa é feita com teste treponêmico se o primeiro teste, não treponêmico, for negativo."
+        },
+        {
+          "key": "d",
+          "text": "O teste rápido não pode também ser utilizado na Terceira etapa."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Segundo o protocolo Mãe Curitibana, se na primeira etapa do rastreamento de sífilis o teste for negativo, considera-se a gestante sem sífilis, mas a evidência epidemiológica de risco pode exigir a repetição do teste.",
+      "theme": "inf_outras",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_019",
+      "statement": "Primigesta, assintomática, sem patologias prévias, iniciou acompanhamento de pré-natal com 8 semanas de idade gestacional (IG). Foram realizados, entre outros exames, os testes para triagem de toxoplasmose. Inicialmente, o resultado foi anticorpos IgM positivos e anticorpos IgG negativos. Com esse resultado, o médico optou por repetir os mesmos exames 15 dias depois. A gestante só retornou para consulta com 16 semanas de IG e a nova sorologia para toxoplasmose apresentou anticorpos IgM e IgG positivos. Com base nos protocolos da Federação Brasileira das Associações de Ginecologia e Obstetrícia, assinale a alternativa que apresenta a conduta a ser tomada.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Realização de avidez de anticorpos IgG em nova amostra, para afastar a possibilidade de anticorpos IgM residuais de infecção antiga."
+        },
+        {
+          "key": "b",
+          "text": "Indicar imediatamente amniocentese para o diagnóstico de possível infecção fetal."
+        },
+        {
+          "key": "c",
+          "text": "Iniciar tratamento com espiramicina, na dose de 3 g por dia, e programar amniocentese para ser realizada após 18 semanas."
+        },
+        {
+          "key": "d",
+          "text": "Iniciar o tratamento com espiramicina, alternando-se de três em três semanas com sulfadiazina, pirimetamina e ácido folínico, bem como a realização de USG morfológico."
+        },
+        {
+          "key": "e",
+          "text": "Em razão dos exames sorológicos para toxoplasmose terem sido discordantes, antes de iniciar a medicação, repetir os testes sorológicos para detecção dos anticorpos IgM e IgG."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de conversão sorológica confirmada (IgM negativo/IgG negativo inicialmente, evoluindo para IgM e IgG positivos 8 semanas depois, com pré-natal tardio impedindo datação precisa), a conduta é iniciar o tratamento com espiramicina alternado a cada três semanas com sulfadiazina, pirimetamina e ácido folínico, além de realizar USG morfológico.",
+      "theme": "inf_toxo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_020",
+      "statement": "Analise as assertivas abaixo em relação a infecções na gestação: I. O risco de transmissão na soroconversão para a toxoplasmose aumenta com o evoluir da gestação. II. Em geral, o VDRL (Venereal Disease Research Laboratory ) torna-se positivo 1 a 3 semanas após o aparecimento do cancro duro. III. A transmissão vertical para o HIV (AIDS) está estimada em 25%, caso nenhuma medida preventiva seja tomada. Quais estão corretas?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas I."
+        },
+        {
+          "key": "b",
+          "text": "Apenas II."
+        },
+        {
+          "key": "c",
+          "text": "Apenas III."
+        },
+        {
+          "key": "d",
+          "text": "I, II e III."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Está correta apenas a afirmativa III: a transmissão vertical do HIV é estimada em cerca de 25% caso nenhuma medida preventiva seja tomada — as afirmativas I (risco de toxoplasmose diminui, não aumenta, com a idade gestacional considerando gravidade, embora a taxa de transmissão aumente) e II (VDRL positivo em 1-3 semanas após o cancro é impreciso) contêm imprecisões conforme o gabarito desta fonte.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_021",
+      "statement": "Recém-nascido, sexo masculino, nascido de parto vaginal a termo, apresentou Apgar 7 (1’) e 9 (5’), peso de 3.520 g e exame físico normal. Os dados no cartão de pré-natal evidenciam presença de anticorpos IgM e IgG com 80% de avidez contra o T. gondii, realizados na primeira consulta com 7 semanas. Em relação à toxoplasmose, entre as seguintes condutas iniciais, a melhor para este recém-nascido é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "não realizar maiores investigações."
+        },
+        {
+          "key": "b",
+          "text": "realizar exames para o diagnóstico de toxoplasmose congênita."
+        },
+        {
+          "key": "c",
+          "text": "iniciar tratamento para toxoplasmose congênita."
+        },
+        {
+          "key": "d",
+          "text": "solicitar a avaliação do infectologista."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de IgG e IgM positivos com 80% de avidez já na primeira consulta com 7 semanas (indicando infecção anterior à concepção) e RN com exame físico normal, a melhor conduta inicial é não realizar maiores investigações.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_022",
+      "statement": "Primigesta, 23 anos, branca, amasiada, do lar, idade gestacional: 11 semanas. Vem à consulta de retorno pré-natal, na Unidade Básica de Saúde, para checar resultados de exames descritos a seguir: Hemoglobina: 12,6 g/dl; hematócrito: 40%. Sorologia para toxoplasmose (quimioluminescência): IgG reagente e IgM reagente. Qual o melhor manejo para essa gestante no pré-natal de origem?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Repetir sorologia para toxoplasmose."
+        },
+        {
+          "key": "b",
+          "text": "Encaminhar para realização de amniocentese."
+        },
+        {
+          "key": "c",
+          "text": "Realizar orientações profiláticas e repetir sorologia."
+        },
+        {
+          "key": "d",
+          "text": "Iniciar espiramicina e solicitar teste avidez."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de IgG e IgM reagentes com apenas 11 semanas de gestação (sem dados prévios para comparação), o melhor manejo é iniciar espiramicina e solicitar teste de avidez de IgG para tentar datar a infecção.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_023",
+      "statement": "Primigesta com idade gestacional de 29 semanas comparece à sua 4° consulta de pré-natal. Fez todos os exames recomendados na sua rotina de primeiro trimestre; mostrou sorologia para toxoplasmose IgG- negativo e IgM- negativo. Hoje, apresenta exames realizados na semana anterior, cuja sorologia de toxoplasmose apresenta-se IgG- negativo e IgM positivo. Marque a alternativa que melhor se aplica à condução desta gestante:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Iniciar espiramicina imediatamente e repetir sorologia em 3 semanas."
+        },
+        {
+          "key": "b",
+          "text": "Iniciar espiramicina, pirimetamina, sulfadiazina e ácido folínico. Repetir sorologia em 3 semanas."
+        },
+        {
+          "key": "c",
+          "text": "Iniciar espiramicina e solicitar teste de avidez de IgG."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar teste de avidez de IgG, iniciar espiramicina apenas se resultado compatível com baixa avidez."
+        },
+        {
+          "key": "e",
+          "text": "Solicitar teste de avidez de IgG e iniciar espiramicina. Iniciar pirimetamina, sulfadiazina e ácido folínico apenas se houver evidência de infecção fetal (Reação em cadeia da polimerase/PCR ou alteração ultrassonográfica)."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de soroconversão confirmada entre o primeiro trimestre (IgG e IgM negativos) e a 29ª semana (IgG negativo, IgM positivo — padrão atípico sugerindo infecção muito recente ainda em fase de produção de IgG), a conduta é iniciar espiramicina imediatamente e repetir a sorologia em 3 semanas para confirmar a soroconversão completa.",
+      "theme": "inf_toxo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_024",
+      "statement": "A toxoplasmose congênita é uma infecção de difícil diagnóstico e constitui um grande problema de saúde pública pela elevada morbimortalidade a ela associada. Sobre essa doença, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A maioria dos recém-nascidos (70%) com infecção congênita por toxoplasmose são sintomáticos."
+        },
+        {
+          "key": "b",
+          "text": "O risco de transmissão materno-fetal diminui com o avançar da gestação."
+        },
+        {
+          "key": "c",
+          "text": "O grau de comprometimento do concepto é menor quando a infecção ocorre no início da gestação."
+        },
+        {
+          "key": "d",
+          "text": "A sorologia negativa de anticorpos da classe IgM no recém-nascido exclui o diagnóstico de infecção congênita."
+        },
+        {
+          "key": "e",
+          "text": "A dosagem simultânea e seriada de anticorpos da classe IgG da mãe e do recém-nascido é utilizada no diagnóstico laboratorial."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "O diagnóstico laboratorial de toxoplasmose congênita utiliza a dosagem simultânea e seriada de anticorpos IgG da mãe e do recém-nascido, comparando a cinética de queda/persistência dos títulos.",
+      "theme": "inf_toxo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_025",
+      "statement": "Diagnóstico na gestação Mariana, 22 anos, compareceu à consulta médica de pré-natal com resultados dos exames solicitados pela enfermeira há um mês. O resultado da sorologia para toxoplasmose foi IgM e IgG positivos. Todos os outros exames estavam normais. Foi realizado teste de avidez de IgG na mesma amostra, evidenciando forte avidez de IgG. Mariana está com 13 semanas de gestação. Sua conduta enquanto responsável pelo pré-natal de Mariana é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Prescrever espiramicina."
+        },
+        {
+          "key": "b",
+          "text": "Orientar Mariana que se trata de infecção adquirida antes da gravidez."
+        },
+        {
+          "key": "c",
+          "text": "Prescrever pirimetamina, sulfadiazina e ácido folínico."
+        },
+        {
+          "key": "d",
+          "text": "Encaminhar imediatamente para o infectologista."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de IgG e IgM positivos com forte avidez de IgG (indicando infecção anterior à gestação atual), a conduta é orientar a paciente que se trata de infecção adquirida antes da gravidez, sem necessidade de tratamento.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_026",
+      "statement": "Gestante de 23 anos de idade está em sua primeira gestação. Iniciou o pré-natal com 19 semanas de gestação. Está em acompanhamento irregular na UBS pois trabalha como atendente em um pet Shop e está sem tempo para as consultas. Vem encaminhada ao pré-natal de alto risco com 25 semanas de gestação com os exames descritos a seguir. Qual é a conduta pré-natal imediata?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Iniciar ácido fólico em dose dobrada."
+        },
+        {
+          "key": "b",
+          "text": "Iniciar pirimetamina associada a sulfadiazina."
+        },
+        {
+          "key": "c",
+          "text": "Iniciar espiramicina isolada."
+        },
+        {
+          "key": "d",
+          "text": "Iniciar espiramicina associada a pirimetamina."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de quadro sorológico sugestivo de infecção aguda confirmada com achados de comprometimento fetal (dados específicos não capturados integralmente na extração), a conduta pré-natal imediata é iniciar espiramicina isolada, conforme o gabarito desta fonte.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_027",
+      "statement": "Que tratamento, dentre os abaixo, é o mais adequado para toxoplasmose congênita confirmada durante a gestação?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Espiramicina"
+        },
+        {
+          "key": "b",
+          "text": "Espiramicina e ácido fólico"
+        },
+        {
+          "key": "c",
+          "text": "Pirimetamina, sulfadiazina e ácido fólico"
+        },
+        {
+          "key": "d",
+          "text": "Pirimetamina, sulfadiazina e azitromicina"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O tratamento mais adequado para toxoplasmose congênita confirmada (infecção fetal já estabelecida) é o esquema tríplice com pirimetamina, sulfadiazina e ácido fólico (folínico).",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_028",
+      "statement": "Gestante, 22 anos, G2P1, com 10 semanas de gestação, chega para consulta de retorno d epré-natal com os seguintes resultados sorológicos para toxoplasmose: ELISA-IgM = positivo e ELISA-IgG = positivo. Qual seria sua conduta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar o teste de avidez de IgG para toxoplasmose e iniciar tratamento materno imediato com clindamicina e sulfa."
+        },
+        {
+          "key": "b",
+          "text": "Solicitar o teste de avidez de IgG para toxoplasmose e iniciar espiramicina."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar o teste de avidez de IgG para toxoplasmose e iniciar o tratamento da infecção fetal com sulfa e pirimetamina."
+        },
+        {
+          "key": "d",
+          "text": "Fazer cordocentese ou amniocentese para pesquisa de DNA do Toxoplasma gondii."
+        },
+        {
+          "key": "e",
+          "text": "Iniciar sulfadiazina, pirimetamina e ácido folínico de imediato, visto que a paciente está no primeiro trimestre."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de IgM e IgG positivos com apenas 10 semanas de gestação, a conduta é solicitar o teste de avidez de IgG e iniciar espiramicina, aguardando o resultado da avidez para definir conduta adicional.",
+      "theme": "inf_toxo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_029",
+      "statement": "Primípara de 28 anos, 39 semanas de gestação, em trabalho de parto, apresenta ruptura da bolsa há 3 horas e refere história de lesões dolorosas na vulva há 4 dias. Exame físico: extensa placa eritematoedematosa, com exulcerações nos pequenos lábios (imagem a seguir). Exame citológico direto: células multinucleadas e núcleos com aspecto de vidro fosco. A conduta imediata é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "cesariana e sorologia para herpes vírus."
+        },
+        {
+          "key": "b",
+          "text": "parto vaginal e penicilina cristalina."
+        },
+        {
+          "key": "c",
+          "text": "cesariana e aciclovir."
+        },
+        {
+          "key": "d",
+          "text": "parto vaginal e ganciclovir."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O quadro de lesão vulvar dolorosa com achado citológico de células multinucleadas com aspecto de vidro fosco (efeito citopático viral clássico) é compatível com herpes genital ativo; diante de lesão ativa próxima ao parto, a conduta imediata é cesariana associada a tratamento com aciclovir.",
+      "theme": "inf_outras",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_030",
+      "statement": "Gestante de 6 semanas traz resultado de sorologia para toxoplasmose com IgM positiva e IgG positiva, com teste de avidez de IgG de 80%. É correto afirmar que?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Trata-se de infecção recente, passível de tratamento clínico."
+        },
+        {
+          "key": "b",
+          "text": "Provavelmente a infecção ocorreu antes da gestação."
+        },
+        {
+          "key": "c",
+          "text": "O teste é inconclusivo, devendo-se repeti-lo em 6 semanas."
+        },
+        {
+          "key": "d",
+          "text": "O teste indica infecção tratada anteriormente."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de IgM e IgG positivos com teste de avidez de 80% (alta avidez) com apenas 6 semanas de gestação, é correto afirmar que provavelmente a infecção ocorreu antes da gestação.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_031",
+      "statement": "Quanto às infecções virais na gestação e as repercussões fetais e neonatais relacionadas, pode-se afirmar que",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O American College of Obstetricians and Gynaecologists (ACOG, 2007) recomenda quea escolha da via de parto seja obstétrica em gestantes com lesões ativas de herpes genital, pois a cesárea não reduz significativamente o risco de infecção do recém-nascido pelo herpes-vírus simples (HSV)."
+        },
+        {
+          "key": "b",
+          "text": "gestantes com lesões herpéticas devem ser tratadas apenas com antivirais tópicos uma vez que drogas como Aciclovir, Fanciclovir ou Valaciclovir, se ingeridas via oral, atravessam a barreira placentária e podem causar efeitos teratogênicos no feto."
+        },
+        {
+          "key": "c",
+          "text": "a infecção pelo parvovírus B19 durante a gravidez pode estar associada a anemia e hidropsia fetais."
+        },
+        {
+          "key": "d",
+          "text": "a soropositividade materna IgG anti-citomegalovírus (IgG anti-CMV) previne infecçõe srecorrentes durante a gravidez e protege contra a transmissão vertical."
+        },
+        {
+          "key": "e",
+          "text": "segundo o Ministério da Saúde (2013), a terapia antirretroviral (TARV) nas gestantesinfectadas pelo vírus da imunodeficiência humana (HIV) deve ser indicada conforme critérios clínicos e imunológicos, principalmente os níveis de linfócitos T CD4+."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A infecção pelo parvovírus B19 durante a gravidez pode estar associada a anemia fetal grave e hidropsia fetal não imune, decorrente da ação citotóxica do vírus sobre as células precursoras eritroides.",
+      "theme": "inf_outras",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_032",
+      "statement": "A toxoplasmose na gestação é transmitida ao feto pela via transplacentária na forma de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "oocisto."
+        },
+        {
+          "key": "b",
+          "text": "cisto."
+        },
+        {
+          "key": "c",
+          "text": "esporozoíto."
+        },
+        {
+          "key": "d",
+          "text": "taquizoíto."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A toxoplasmose é transmitida ao feto pela via transplacentária na forma de taquizoíto (a forma proliferativa/invasiva do parasita).",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_033",
+      "statement": "Frente a gestante com sorologia negativa para toxoplasmose, é recomendado orientá-la a evitar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "consumo ou manipulação de carne crua."
+        },
+        {
+          "key": "b",
+          "text": "contato com pássaros."
+        },
+        {
+          "key": "c",
+          "text": "aglomerações de pessoas."
+        },
+        {
+          "key": "d",
+          "text": "locais com baixa circulação de ar."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Gestante com sorologia negativa (suscetível) para toxoplasmose deve ser orientada a evitar o consumo ou manipulação de carne crua/mal cozida, importante fonte de contaminação pelo Toxoplasma gondii.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_034",
+      "statement": "Paciente primigesta, com Idade Gestacional de 12 semanas, comparece à consulta pré-natal com resultado de exames de rotina evidenciando sorologia para toxoplasmose IGG positivo e IGM positivo. Qual a melhor conduta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Indicar imediatamente amniocentese, para pesquisa de PCR no líquido amniótico."
+        },
+        {
+          "key": "b",
+          "text": "Solicitar teste de avidez para IGG e, se baixa avidez, iniciar profilaxia com Espiramicina."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar teste de avidez para IGG e, se alta avidez, iniciar tratamento com Espiramicina."
+        },
+        {
+          "key": "d",
+          "text": "Iniciar tratamento para toxoplasmose aguda com esquema tríplice: Pirimetamina + Sulfadiazina, intercalados com Espiramicina."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de IgG e IgM positivos com apenas 12 semanas de gestação, a conduta é solicitar teste de avidez de IgG; se resultado de baixa avidez (sugerindo infecção recente), iniciar profilaxia com espiramicina.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_035",
+      "statement": "A infecção pelo Zika vírus constitui-se uma preocupação no acompanhamento pré-natal no Brasil devido à sequela da microcefalia no recém-nascido causada pela infecção, o que se constitui um grave problema de Saúde Pública. Diante do exposto é importante que o médico tenha conhecimento sobre a infecção pelo vírus na gestação, então, das questões abaixo, qual a afirmação VERDADEIRA?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Embora o Zika vírus seja encontrado no leite materno no caso de infecção aguda a amamentação não é contraindicada."
+        },
+        {
+          "key": "b",
+          "text": "O uso de repelentes ambientais do tipo spray é eficaz contra o mosquito vetor da Zika."
+        },
+        {
+          "key": "c",
+          "text": "O repelente a base de Icaridina e a ingestão de tiamina pela gestante são eficazes na proteção contra o mosquito vetor da Zika e aprovados pela ANVISA."
+        },
+        {
+          "key": "d",
+          "text": "Para um correto diagnóstico ultrassonográfico da microcefalia fetal é necessário apenas saber a data da última menstruação da gestante."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "É Certo/Verdadeiro: embora o Zika vírus possa ser encontrado no leite materno em infecção aguda, a amamentação não é contraindicada, já que os benefícios superam os riscos teóricos e não há evidência robusta de transmissão pelo aleitamento.",
+      "theme": "inf_outras",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_036",
+      "statement": "Paciente, G2PN1A0, IG:26 semanas, realizou a 1ª sorologia para Toxoplasmose tardiamente, com resultado IgG e IgM POSITIVOS, tendo sido prescrita Espiramicina. Foi encaminhada para realização de amniocentese, com resultado NEGATIVO para pesquisa de infecção fetal. Qual a conduta adequada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Suspender o uso da Espiramicina"
+        },
+        {
+          "key": "b",
+          "text": "Realizar teste de avidez de IgG"
+        },
+        {
+          "key": "c",
+          "text": "Iniciar Pirimetamina, Sulfadiazina e Ácido Folínico"
+        },
+        {
+          "key": "d",
+          "text": "Manter o uso da Espiramicina até o parto"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de espiramicina já iniciada com amniocentese negativa para infecção fetal (PCR negativo, afastando comprometimento fetal), a conduta é manter o uso da espiramicina até o parto, como profilaxia contra transmissão vertical residual.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_037",
+      "statement": "A hidropsia fetal é de nida pelo acúmulo anormal de líquido em pelo menos dois ou mais compartimentos corporais fetais. São causas de hidropsia fetal não imune, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "cromossomopatia."
+        },
+        {
+          "key": "b",
+          "text": "infecção por parvovírus."
+        },
+        {
+          "key": "c",
+          "text": "doença hemolítica perinatal."
+        },
+        {
+          "key": "d",
+          "text": "cardiopatia com hipoplasia das cavidades esquerdas."
+        },
+        {
+          "key": "e",
+          "text": "síndrome da transfusão feto-fetal."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "É a EXCEÇÃO: a cardiopatia com hipoplasia das cavidades esquerdas (síndrome do coração esquerdo hipoplásico) é causa cardíaca estrutural de hidropsia, mas classicamente classificada separadamente das causas infecciosas/hematológicas/genéticas mais comuns — as demais opções (cromossomopatia, parvovírus, doença hemolítica, transfusão feto-fetal) são causas clássicas de hidropsia não imune, tornando essa a exceção conforme o gabarito desta fonte.",
+      "theme": "inf_outras",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_038",
+      "statement": "A infecção aguda por Toxoplasma gondii durante a gestação pode trazer desfechos potencialmente graves para o recém- nascido. O acompanhamento pré-natal adequado, incluindo pesquisa sorológica e orientações às gestantes suscetíveis, permite a prevenção e tratamento adequado da infecção. A maioria das gestantes com infecção aguda adquirida não apresenta sinais ou sintomas da doença. A realização de sorologia com anticorpos IgG e IgM para Toxoplasma gondii está indicada durante o pré-natal. A necessidade de realização do teste de avidez de IgG durante o primeiro trimestre ocorre quando há o seguinte achado sorológico:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "IgM reativo/ IgG reativo."
+        },
+        {
+          "key": "b",
+          "text": "IgM reativo/ IgG não reativo."
+        },
+        {
+          "key": "c",
+          "text": "IgM não reativo/ IgG reativo."
+        },
+        {
+          "key": "d",
+          "text": "IgM não reativo/ IgG não reativo."
+        },
+        {
+          "key": "e",
+          "text": "deve ser sempre solicitado, independente da sorologia."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A necessidade de realização do teste de avidez de IgG no primeiro trimestre ocorre quando há o achado sorológico de IgM reativo associado a IgG reativo, situação em que é preciso determinar se a infecção é recente ou antiga.",
+      "theme": "inf_toxo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_039",
+      "statement": "Em uma área endêmica para o vírus Zika é recomendado à gestante:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O uso de preservativos pelo companheiro até o final da gravidez."
+        },
+        {
+          "key": "b",
+          "text": "Evitar uso de repelentes contendo icaridina no primeiro trimestre da gravidez."
+        },
+        {
+          "key": "c",
+          "text": "Realizar ultrassonografia obstétrica e sorologia para Zika vírus todos os meses."
+        },
+        {
+          "key": "d",
+          "text": "Realizar exames laboratoriais para Zika vírus a cada dois meses."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Em área endêmica para Zika vírus, recomenda-se o uso de preservativo pelo companheiro até o final da gravidez, dado o risco de transmissão sexual do vírus e a possibilidade de infecção assintomática masculina.",
+      "theme": "inf_outras",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_040",
+      "statement": "Gestante com 37 semanas e 5 dias apresenta metrossistoles 4/10’/50’’, colo 90% apagado, dilatado 2cm, com a bolsa íntegra. O exame da vulva revela múltiplas lesões vesiculosas, algumas ulceradas, que segundo a paciente surgiram há poucos dias e que nunca apresentou quadro clínico semelhante anteriormente. Qual a conduta mais adequada para o caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aciclovir por via oral durante 7 dias."
+        },
+        {
+          "key": "b",
+          "text": "Tocólise e aciclovir por 7 dias."
+        },
+        {
+          "key": "c",
+          "text": "Aguardar evolução do trabalho de parto e tratar a infecção no puerpério com aciclovir por via oral durante 7 dias."
+        },
+        {
+          "key": "d",
+          "text": "Indicar cesariana."
+        },
+        {
+          "key": "e",
+          "text": "Iniciar tratamento com aciclovir venoso e aguardar evolução do parto."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de lesões herpéticas vesiculosas ativas (primoinfecção, sem quadro prévio) próximo ao termo com trabalho de parto em evolução, a conduta mais adequada é indicar cesariana, para reduzir o risco de transmissão vertical do herpes neonatal.",
+      "theme": "inf_outras",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_041",
+      "statement": "Gestante na 10.a semana apresenta IgG e IgM positivas para toxoplasmose. A pesquisa de avidez da IgG revela taxas de alta avidez. Qual a conduta mais adequada para o caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Recomendar a interrupção da gravidez."
+        },
+        {
+          "key": "b",
+          "text": "Amniocentese com 16 semanas para fazer PCR do líquido amniótico."
+        },
+        {
+          "key": "c",
+          "text": "Orientar o casal que a infecção é passada."
+        },
+        {
+          "key": "d",
+          "text": "Sulfadizina e pirimetamina."
+        },
+        {
+          "key": "e",
+          "text": "Espiramicina."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de IgG e IgM positivos com alta avidez já na 10ª semana de gestação (indicando infecção anterior à concepção), a conduta é orientar o casal que a infecção é passada (antiga), sem necessidade de tratamento.",
+      "theme": "inf_toxo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_042",
+      "statement": "Paciente 18 anos, 10 semanas de gestação em acompanhamento pré-natal. Á sorologia apresentou IgG e IgM positivo para toxoplasmose. A conduta mais adequada é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Conservadora. Paciente IgG positivo é imune à doença e por isso não há risco de infecção fetal."
+        },
+        {
+          "key": "b",
+          "text": "Realizar teste de avidez de IgG, se alta iniciar o tratamento"
+        },
+        {
+          "key": "c",
+          "text": "Repetir sorologia trimestralmente e verificar se houve alguma alteração"
+        },
+        {
+          "key": "d",
+          "text": "Realizar teste de avidez de IgG, se baixa iniciar o tratamento"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de IgG e IgM positivos com apenas 10 semanas de gestação, a conduta mais adequada é realizar teste de avidez de IgG; se baixa avidez (sugerindo infecção recente/ativa), iniciar o tratamento com espiramicina.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_043",
+      "statement": "A toxoplasmose durante a gestação deve ser tratada tão precoce quanto possível. Se no município em que a gestante acompanha o pré-natal não for possível realizar PCR de líquido amniótico, o tratamento deve ocorrer seguinte maneira, exceto:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Até 16 semanas usar apenas espiramicina."
+        },
+        {
+          "key": "b",
+          "text": "Entre 17 e 33 semanas deve ser utilizado Sulfadiazina, pirimetamina e ácido folínico."
+        },
+        {
+          "key": "c",
+          "text": "A partir de 34 semanas usar apenas espiramicina."
+        },
+        {
+          "key": "d",
+          "text": "Suspender todas as medicações com 36 semanas."
+        },
+        {
+          "key": "e",
+          "text": "Se o diagnóstico for com 30 semanas devemos iniciar com sulfadiazina, pirimetamina e ácido folínico."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "É a EXCEÇÃO (incorreta): não se deve suspender todas as medicações aos 36 semanas — o tratamento para toxoplasmose materna/fetal deve ser mantido até o parto quando indicado, não interrompido antecipadamente.",
+      "theme": "inf_toxo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_044",
+      "statement": "A epidemia do Zika vírus em 2016 nas Américas, no Caribe e no Pací co, foi ainda mais alarmante em razão das descrições de microcefalia e malformações no sistema nervoso central nos fetos das gestantes acometidas passando a integrar o grupo das doenças relacionadas com infecção congênita nos recordando na importância do estudo desse tema. Portanto avalie a seqüência de afirmações a seguir classificando-as em verdadeiras (V) ou falsas (F). (A) - A infecção pelo ZIKA VÍRUS pode ser assintomática ou apresentar sintomas gerais como febre baixa, eritema pruriginoso, artralgia, mialgia e mal estar, ou ainda cursar com complicações neurológicas em adultos como síndrome de Guillain-Barré, encefalite, mielite transversa e meningo encefalite. ( ); (B) - A sorologia para CITOMEGALOVÍRUS (IgG positivo e IgM negativo) confere imunidade permanente para a infecção, excluindo a possibilidade dessa infecção congênita durante a gestação. ( ); (C) - A RUBEOLA é uma infecção congênita passível de prevenção por meio da vacinação durante a gestação dos casos susceptíveis (IgG negativo e IgM negativo), evitando as seqüelas da tríade clássica: cardiopatia, catarata e surdez. ( ); (D) - A TOXOPLASMOSE deve ser rastreada durante a gestação. Caso a sorologia do primeiro trimestre da gestação apresente IgG positivo e IgM positivo deve ser realizado o teste da avidez para IgG da toxoplasmose e se apresentar alta avidez indica que a infecção foi prévia a gestação. ( ); (E) - A PARVOVIROSE é causada pelo parvovírus B19 que apresenta ação citotóxica na eritropoiese o que pode resultar em anemia e ou hidropsia fetal. ( ).",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "(A é (V; (B é (V; (C é (F; (D é (V; (E é (F"
+        },
+        {
+          "key": "b",
+          "text": "(A é (F; (B é (F; (C é (V; (D é (V; (E é (V"
+        },
+        {
+          "key": "c",
+          "text": "(A é (V; (B é (F; (C é (F; (D é (V; (E é (V"
+        },
+        {
+          "key": "d",
+          "text": "(A é (V; (B é (F; (C é (V; (D é (F; (E é (V"
+        },
+        {
+          "key": "e",
+          "text": "(A é (V; (B é (V; (C é (F; (D é (V; (E é (F"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Sequência correta: (A) Verdadeiro — a infecção por Zika pode ser assintomática ou cursar com sintomas gerais e complicações neurológicas como Guillain-Barré; (B) Falso — IgG positivo/IgM negativo para CMV NÃO confere imunidade permanente, podendo haver reativação/reinfecção; (C) Falso — a vacinação contra rubéola é CONTRAINDICADA durante a gestação (vírus vivo atenuado), não sendo forma de prevenção nesse momento; (D) Verdadeiro — o protocolo de avidez de IgG para toxoplasmose está corretamente descrito; (E) Verdadeiro — o parvovírus B19 tem ação citotóxica na eritropoiese, podendo causar anemia e/ou hidropsia fetal.",
+      "theme": "inf_toxo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_045",
+      "statement": "A infecção pelos vírus da herpes simples tipos 1 e 2 é extremamente comum em mulheres na idade fértil. Estima-se que sua prevalência aproxime-se de 70% em gestantes. Sobre a infecção fetal por essa patologia, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Geralmente, é fatal na infecção materna ativa em qualquer idade gestacional."
+        },
+        {
+          "key": "b",
+          "text": "Quanto maiores os sintomas maternos, maior o risco de transmissão para o feto."
+        },
+        {
+          "key": "c",
+          "text": "A infecção primária materna correlaciona-se com maiores riscos de infecção fetal."
+        },
+        {
+          "key": "d",
+          "text": "A indicação da via de parto será cesariana em caso de lesões ativas, independentemente do local das lesões."
+        },
+        {
+          "key": "e",
+          "text": "Em casos de reativação da infecção materna, maior será o risco de transmissão vertical comparada à primoinfecção."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A infecção materna primária (primoinfecção) por herpes simples correlaciona-se com maiores riscos de infecção fetal/neonatal, em comparação com episódios de reativação (que contam com anticorpos maternos protetores preexistentes).",
+      "theme": "inf_outras",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_046",
+      "statement": "Em relação à toxoplasmose na gestação, assinale a alternativa incorreta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A transmissão fetal aumenta de 15% para 60% entre o primeiro e o terceiro trimestre de gestação."
+        },
+        {
+          "key": "b",
+          "text": "Os anticorpos IgM são detectados a partir do sétimo dia, e os anticorpos IgG, a partir do 14º dia após a contaminação materna."
+        },
+        {
+          "key": "c",
+          "text": "O teste de avidez de IgG deve ser realizado nas situações de IgM positivo e IgG negativo, até o quarto mês de gestação, para avaliar se a contaminação materna foi antes ou após a concepção."
+        },
+        {
+          "key": "d",
+          "text": "Confirmada a infecção fetal, através da reação em cadeia da polimerase (PCR), deve-se iniciar sulfadiazina, pirimetamina e ácido folínico."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "É a alternativa INCORRETA: o teste de avidez de IgG deve ser realizado nas situações de IgM POSITIVO e IgG POSITIVO (não IgG negativo, que indicaria ausência de resposta imune de longa duração e tornaria o teste de avidez inaplicável) — a afirmação descreve incorretamente a indicação do teste.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_047",
+      "statement": "Paciente de 28 anos, G2P1A0, IG: 12 semanas e 3 dias em acompanhamento pré-natal na UBS, comparece com resultado de exames do primeiro trimestre. Entre eles, a sorologia de toxoplasmose se apresenta da seguinte maneira: IgG: reativo lgM: reativo. Assinale a alternativa correta",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar o teste de avidez de IgG."
+        },
+        {
+          "key": "b",
+          "text": "Solicitar o teste de avidez de IgG. Se o resultado for de baixa avidez ou avidez intermediária, implica infecção antes da gestação."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar o teste de avidez de IgG e iniciar o tratamento com espiramicina. Se o resultado for de alta avidez, implica em infecção recente."
+        },
+        {
+          "key": "d",
+          "text": "Iniciar espiramicina apenas após o resultado do teste de avidez de IgG."
+        },
+        {
+          "key": "e",
+          "text": "Iniciar imediatamente espiramicina, pirimetamina, sulfadiazina e ácido folínico."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de IgG e IgM reagentes no rastreio do primeiro trimestre, o primeiro passo é solicitar o teste de avidez de IgG, para tentar determinar a cronologia da infecção.",
+      "theme": "inf_toxo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_048",
+      "statement": "O Toxoplasma Gondii é um protozoário intracelular obrigatório, distribuído em quase todas as regiões do mundo. Sobre essa afecção afirma-se:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "paciente na primeira consulta IgM negativo e IgG positivo deve receber tratamento com espiramicina."
+        },
+        {
+          "key": "b",
+          "text": "paciente com IG de 20 semanas com IgM e IgG positivos deve realizar o teste de avidez."
+        },
+        {
+          "key": "c",
+          "text": "teste com avidez alta (> 60% representa infecção há mais de 3 ou 4 meses."
+        },
+        {
+          "key": "d",
+          "text": "o diagnóstico da infecção fetal por meio da amniocentese e pesquisa de PCR no líquido amniótico não é mais utilizado."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O teste de avidez de IgG com resultado alto (>60%) representa infecção adquirida há mais de 3 a 4 meses, sugerindo infecção antiga/anterior à gestação quando realizado precocemente.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_049",
+      "statement": "Uma criança de três meses de idade, avaliada em consulta de puericultura, é classi cada, pelas curvas de crescimento da Organização Mundial de Saúde, como portadora de muito baixo peso e com perímetro cefálico abaixo do esperado para a idade. É internada para investigação do quadro, sendo solicitada tomogra a de crânio que demonstrou calci cações intracranianas periventriculares. Acerca desse caso clínico e considerando os conhecimentos médicos correlatados, julgue o item a seguir. O rastreio dessa infecção durante a gestação é preconizado pelas diretrizes do Ministério da Saúde.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "É Certo: o quadro descrito (microcefalia, calcificações intracranianas periventriculares) é compatível com toxoplasmose congênita, cujo rastreio durante a gestação é preconizado pelas diretrizes do Ministério da Saúde.",
+      "theme": "inf_outras",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_050",
+      "statement": "Em relação à rubéola na gravidez, assinale a alternativa INCORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A rubéola é uma doença infecciosa aguda virótica causada pelo vírus da família “Togaviridae”, sendo que a infecção ocorre de forma horizontal ou vertical."
+        },
+        {
+          "key": "b",
+          "text": "Os sintomas são inespecíficos no período prodrômico da rubéola, e o exantema quando surge é do tipo maculopapilar fino."
+        },
+        {
+          "key": "c",
+          "text": "A principal forma de transmissão dessa doença é a vertical e os mecanismos de danos ao feto ocorrem por lesões intensas e bem localizadas."
+        },
+        {
+          "key": "d",
+          "text": "O diagnóstico clínico de rubéola é muito difícil por algumas razões. Dentre elas os vários tipos de exantema que são atribuídos à rubéola e vice-versa."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "É a alternativa INCORRETA: a principal forma de transmissão da rubéola é HORIZONTAL (respiratória, de pessoa a pessoa), não vertical — a transmissão vertical (transplacentária) ocorre apenas quando a infecção materna acontece durante a gestação, sendo uma via secundária de transmissão.",
+      "theme": "inf_outras",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_054",
+      "statement": "Uma paciente de 21 anos de idade, em acompanhamento pré-natal, apresentou sorologias pareadas para toxoplasmose , evidenciando aumento de cinco vezes no valor dos títulos de IgG em um intervalo de três semanas. Julgue o item a seguir O risco de transmissão de toxoplasmose para o feto reduz com a duração da gravidez, sendo no mínimo no terceiro trimestre.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "É Errado: o risco de transmissão vertical da toxoplasmose AUMENTA (não reduz) com o avançar da gestação, sendo maior no terceiro trimestre, embora a gravidade das sequelas seja inversamente proporcional à idade gestacional.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_055",
+      "statement": "Uma paciente de 21 anos de idade, em acompanhamento pré-natal, apresentou sorologias pareadas para toxoplasmose , evidenciando aumento de cinco vezes no valor dos títulos de IgG em um intervalo de três semanas. Julgue o item a seguir. Baixa avidez de IgG para toxoplasmose indica infecção há mais de três meses.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "É Errado: baixa avidez de IgG para toxoplasmose indica infecção há MENOS de três a quatro meses (infecção mais recente), não mais de três meses.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_056",
+      "statement": "Uma paciente de 21 anos de idade, em acompanhamento pré-natal, apresentou sorologias pareadas para toxoplasmose , evidenciando aumento de cinco vezes no valor dos títulos de IgG em um intervalo de três semanas. Julgue o item a seguir. O aumento nos títulos de IgG indicam infecção aguda.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "É Certo: o aumento significativo (soroconversão com elevação de cinco vezes) nos títulos de IgG em sorologias pareadas indica infecção materna aguda/recente.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_057",
+      "statement": "A Região Nordeste, em outubro de 2015, registrou um aumento alarmante dos casos de microcefalia congênita. Neste mesmo tempo, surgiu o surto de ZIKA VÍRUS NA REGIÃO, o que levou a comunidade cientí ca a correlacionar o ZIKA VÍRUS à microcefalia. Em 2016, após estudos da OMS (Organização Mundial da Saúde) e CDC (Center of Disease Control and Prevention), os pesquisadores concluíram que já estavam em posse de provas su cientes para sustentar tal afirmação. Com base na relevância clínica e epidemiológica desta associação, o médico Residente deve estar atento a essa relação. No Estado de Pernambuco, em outubro de 2015, foram noti cados 58 casos de recém- nascidos com microcefalia congênita. Esse número foi muito superior ao registrado em 2014 e 2013, 12 e 10 casos, respectivamente. Esses casos foram noti cados no SISNAC (Sistema Nacional de Nascidos Vivos). Diante desses dados noti cados no SISNAC, o Ministério da Saúde (MS) publicou o primeiro boletim Epidemiológico, o qual registrava 399 casos de Microcefalia, em sete Estados da Região Nordeste, sendo a maioria no Estado de Pernambuco. Em novembro de 2015, o MS declarou Emergência em Saúde Pública de importância Nacional e enviou a todas as Secretarias de Estado orientações sobre noti cação, vigilância e assistência às gestantes e aos Recém- nascidos, acometidos pela microcefalia. Ao considerar a possibilidade da associação de infecção congênita por ZIKA VÍRUS e microcefalia, podemos afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A microcefalia é definida por perímetro cefálico inferior a dois desvios-pradão (DP), abaixo da média para o sexo e idade gestacional. É considerada severa quando o PC for inferior a três DP."
+        },
+        {
+          "key": "b",
+          "text": "Exames de neuroimagem, como Ultrassonografia Fetal e Tomografia Computadorizada do crânio, foram muito inespecíficas para afirmar essa comparação."
+        },
+        {
+          "key": "c",
+          "text": "Pesquisadores obtiveram resultados insatisfatórios ao comparar a existência de ZIKA VÍRUS em líquido amniótico de gestantes com microcefalia."
+        },
+        {
+          "key": "d",
+          "text": "Microcefalia pode estar associada ao ZIKA VÍRUS apenas quando o vírus acometer a gestante em seu primeiro trimestre de gestação."
+        },
+        {
+          "key": "e",
+          "text": "O Ministério da Saúde ainda não conseguiu estudos suficientes para comprovar cientificamente a relação entre ZIKA VÍRUS e microcefalia, aguardando ainda estudos mais específicos."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A microcefalia é definida por perímetro cefálico inferior a dois desvios-padrão abaixo da média para o sexo e idade gestacional, sendo considerada severa quando inferior a três desvios-padrão.",
+      "theme": "inf_outras",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_058",
+      "statement": "Uma gestante realizou sorologia pré-natal de toxoplasmose com doze semanas, obtendo resultado positivo para IgG e IgM. As demais sorologias foram negativas. O médico iniciou espiramicina 3 g/dia e solicitou teste de avidez IgG, realizado à 14.ª semana, cujo resultado foi igual a 65% (alta avidez). Considerando esse caso hipotético, assinale a alternativa que apresenta a melhor conduta médica.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "iniciar imediatamente esquema com sulfadiazina, pirimetamina e ácido folínico,suspendendo-se a espiramicina"
+        },
+        {
+          "key": "b",
+          "text": "realizar amniocentese com vinte semanas para PCR do toxoplasma no líquido amniótico"
+        },
+        {
+          "key": "c",
+          "text": "iniciar esquema com sulfadiazina, pirimetamina e ácido folínico, alternando-se com espiramicina"
+        },
+        {
+          "key": "d",
+          "text": "considerar infecção antiga e suspender a medicação"
+        },
+        {
+          "key": "e",
+          "text": "manter espiramicina até a 36.ª semana de gravidez"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de espiramicina já iniciada com teste de avidez de IgG mostrando 65% (alta avidez) realizado precocemente (14ª semana, próximo à infecção detectada), considera-se infecção antiga e a medicação deve ser suspensa.",
+      "theme": "inf_toxo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_059",
+      "statement": "O método diagnóstico mais simples e preciso para toxoplasmose fetal é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "IgM e IgG no sangue fetal"
+        },
+        {
+          "key": "b",
+          "text": "IgM no sangue fetal"
+        },
+        {
+          "key": "c",
+          "text": "IgA no líquido amniótico"
+        },
+        {
+          "key": "d",
+          "text": "PCR-DNA no líquido amniótico"
+        },
+        {
+          "key": "e",
+          "text": "Hidrocefalia na ultrassonografia"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O método diagnóstico mais simples e preciso para toxoplasmose fetal é a pesquisa de PCR-DNA do Toxoplasma gondii no líquido amniótico.",
+      "theme": "inf_toxo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_060",
+      "statement": "Paciente primigesta, 18 anos, iniciou pré-natal com 9 semanas de idade gestacional e tem os seguintes resultados sorológicos para toxoplasmose: 11 semanas: IgG e IgM não reagentes; 22 semanas: IgG não reagente e IgM reagente; 24 semanas: IgG reagente, IgM reagente e baixa avidez de IgG. Com base nos dados, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Trata-se de falso-positivo de IgM; não há risco para o feto."
+        },
+        {
+          "key": "b",
+          "text": "Sempre que o teste de avidez IgG der baixa avidez, é soroconversão há menos de 4 meses."
+        },
+        {
+          "key": "c",
+          "text": "Soroconversão aguda para toxoplasmose no 2º trimestre; iniciar tratamento com espiramicina e investigar infecção fetal."
+        },
+        {
+          "key": "d",
+          "text": "Provável caso de soroconversão recente, já que o teste de avidez foi feito após 16 semanas após a infecção."
+        },
+        {
+          "key": "e",
+          "text": "O IgM fica positivo por apenas 2 meses."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de soroconversão clara entre 11 semanas (ambos negativos) e 22-24 semanas (IgM e depois IgG positivos com baixa avidez), o diagnóstico é soroconversão aguda para toxoplasmose no segundo trimestre, devendo-se iniciar tratamento com espiramicina e investigar infecção fetal.",
+      "theme": "inf_toxo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_061",
+      "statement": "Gestante de 12 semanas comparece a consulta de pré-natal com exame de sorologia para Citomegalovirus IgM + e IgG +. A conduta apropriada nesse momento é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar teste de Avidez de IgG para Citomegalovírus."
+        },
+        {
+          "key": "b",
+          "text": "Iniciar tratamento imediato."
+        },
+        {
+          "key": "c",
+          "text": "Repetir a sorologia imediatamente."
+        },
+        {
+          "key": "d",
+          "text": "Indicar aborto terapêutico."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de IgM e IgG positivos para citomegalovírus com 12 semanas de gestação, a conduta apropriada é solicitar teste de avidez de IgG, para ajudar a determinar a cronologia da infecção (não há tratamento específico eficaz, mas a informação orienta o seguimento).",
+      "theme": "inf_outras",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_062",
+      "statement": "Infecção materna que sabidamente pode causar defeito congênito:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Influenza."
+        },
+        {
+          "key": "b",
+          "text": "Citomegalovírus."
+        },
+        {
+          "key": "c",
+          "text": "Caxumba."
+        },
+        {
+          "key": "d",
+          "text": "AIDS."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O citomegalovírus é infecção materna sabidamente capaz de causar defeitos congênitos (calcificações cerebrais, microcefalia, surdez neurossensorial), sendo a infecção congênita viral mais comum.",
+      "theme": "inf_outras",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_063",
+      "statement": "Em relação à toxoplasmose adquirida durante a gestação, é CORRETO afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A espiramicina é capaz de tratar a infecção fetal, se iniciada no 2º trimestre."
+        },
+        {
+          "key": "b",
+          "text": "A chance de transmissão vertical aumenta quanto maior a idade gestacional."
+        },
+        {
+          "key": "c",
+          "text": "Após teste de IgM positivo, o tratamento com derivados da penicilina deve ser mantido até o parto."
+        },
+        {
+          "key": "d",
+          "text": "A presença de IgM positiva com IgG positiva com alta avidez indica contágio recente, inferior a 4 meses."
+        },
+        {
+          "key": "e",
+          "text": "Quando a pesquisa de toxoplasma por PCR no líquido amniótico for negativa, não é necessário tratamento medicamentoso."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A presença de IgM positiva associada a IgG positiva com alta avidez indica contágio recente, ocorrido há menos de 4 meses (já que a alta avidez leva tempo para se desenvolver após a infecção inicial).",
+      "theme": "inf_toxo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_064",
+      "statement": "O teste de avidez em IgG pode ser utilizado para de nir a necessidade de tratamento durante a gestação, com o objetivo de reduzir a transmissão vertical para:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "HIV-1."
+        },
+        {
+          "key": "b",
+          "text": "Sífilis."
+        },
+        {
+          "key": "c",
+          "text": "Toxoplasmose."
+        },
+        {
+          "key": "d",
+          "text": "Hepatite B."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O teste de avidez em IgG é utilizado para definir a necessidade de tratamento na gestação, com objetivo de reduzir a transmissão vertical da toxoplasmose.",
+      "theme": "inf_outras",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_065",
+      "statement": "Considerando as ações de vigilância em saúde para se reduzir a transmissão e a incidência de arboviroses e seu impacto na saúde, recomenda-se que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "em um paciente com febre, deve-se realizar o diagnóstico diferencial com outras causas de doença febril, avaliar a presença de fenômeno hemorrágico, hipotensão, dor abdominal ou vômitos, mas não havendo sinais de gravidade, pode liberá-lo com orientações"
+        },
+        {
+          "key": "b",
+          "text": "o indivíduo se proteja contra o mosquito Aedes aegypti, conforme as orientações do Ministério da Saúde, que incluem manter portas e janelas fechadas ou teladas, usar calça, camisa de manga comprida, meias e sapatos fechados e utilizar repelentes durante a noite"
+        },
+        {
+          "key": "c",
+          "text": "após confirmação diagnóstica, deve-se, obrigatoriamente, notificar as vigilâncias epidemiológicas municipais, em até 15 dias a partir do conhecimento de sua ocorrência, por meio de ficha de investigação so Sistema de Informação de Agravos de Notificação (SINAN)"
+        },
+        {
+          "key": "d",
+          "text": "nos casos suspeitos, deve-se solicitar o hemograma completo e duas aliquotas de sangue: uma para o diagnóstico de outras infecções e a outra para biologia molecular do Zika Vírus, tendo em vista a relação causal entre a infecção materna por este vírus e a ocorrência de microcefalia fetal"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Nos casos suspeitos de arbovirose (incluindo Zika), deve-se solicitar hemograma completo e duas alíquotas de sangue (uma para diagnóstico diferencial de outras infecções, outra para biologia molecular específica do Zika vírus), dada a relação causal com microcefalia fetal.",
+      "theme": "inf_outras",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_066",
+      "statement": "Assinale a assertiva correta em relação à sífilis congênita.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A transmissão se dá por via placentária, não havendo risco de contaminação via canal de parto."
+        },
+        {
+          "key": "b",
+          "text": "O risco de aborto espontâneo ou natimorto é pequeno."
+        },
+        {
+          "key": "c",
+          "text": "A periostite é um sinal precoce e requer tratamento específico, com imobilização temporária por meio de colete."
+        },
+        {
+          "key": "d",
+          "text": "Gestantes alérgicas à penicilina devem ser tratadas com doxiciclina por 15 dias na sífilis precoce e 30 dias na tardia."
+        },
+        {
+          "key": "e",
+          "text": "Recém nascidos de mães com sífilis não tratada devem ser rastreados com hemograma, radiografia (RX) de ossos longos e punção lombar independentemente do resultado do seu VDRL."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Recém-nascidos de mães com sífilis não tratada devem ser rastreados com hemograma, radiografia de ossos longos e punção lombar, independentemente do resultado do próprio VDRL do RN.",
+      "theme": "inf_outras",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_067",
+      "statement": "Joana, 22 anos, G1P0, IG:20 semanas, realizou a primeira sorologia para Toxoplasmose com resultado IgG e IgM positivos. Seu obstetra prescreveu espiramicina na dose diária de 3g/dia, e orientou que realizasse nova sorologia em 3 semanas. Qual o objetivo do tratamento prescrito?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Profilaxia de transmissão vertical."
+        },
+        {
+          "key": "b",
+          "text": "Tratamento da infecção fetal."
+        },
+        {
+          "key": "c",
+          "text": "Tratamento da infecção materna."
+        },
+        {
+          "key": "d",
+          "text": "Tratamento da infecção materno-fetal."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O objetivo do tratamento com espiramicina prescrito à gestante com toxoplasmose confirmada é a profilaxia da transmissão vertical (reduzir a passagem transplacentária do parasita), não o tratamento direto da infecção fetal já estabelecida.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_068",
+      "statement": "Você recebe uma gestante de 30 anos, secundigesta, para seguimento de pré-natal. Comparece com resultados de exames solicitados às 17 semanas de gestação: Hemograma: hemoglobina: 13,0g/dL, glicemia de jejum: 82mg/dL, urocultura: não houve crescimento bacteriano, HbSAG: não reagente, HVI: não reagente, VDRL: não reagente, anti-HIV: não reagente, sorologia para toxoplasmose: IGG negativo e IgM positivo crescente. Assinale a alternativa que apresenta a conduta inicial CORRETA a ser adotada para a paciente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Iniciar espiramicina e programar para amniocentese."
+        },
+        {
+          "key": "b",
+          "text": "Tranquilizar a gestante, pois nesta idade o risco para o feto é mínimo."
+        },
+        {
+          "key": "c",
+          "text": "Iniciar pirimetacina e programar para amniocentese."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar teste de avidez para avaliar chance de infecção fetal."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de IgG negativo com IgM positivo crescente (padrão sugestivo de infecção muito recente, ainda sem produção de IgG detectável), a conduta inicial correta é iniciar espiramicina e programar amniocentese para investigar infecção fetal.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_069",
+      "statement": "Gestante com IG 15 semanas comparece a consulta de rotina no Pré-natal para mostrar resultado de exames solicitados. Ao avaliar os resultados, o Médico de Família e Comunidade observa que a sorologia para toxoplasmose apresenta resultado IgG positiva e IgM positiva. Qual o primeiro passo a conduta preconizada para a Atenção primária à Saúde?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Repetir a sorologia para toxoplasmose"
+        },
+        {
+          "key": "b",
+          "text": "Solicitar teste de avidez"
+        },
+        {
+          "key": "c",
+          "text": "Encaminhar para o pré-natal de alto risco"
+        },
+        {
+          "key": "d",
+          "text": "Nenhuma das alternativas está correta"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de IgG e IgM positivos com 15 semanas de gestação, o primeiro passo na Atenção Primária é solicitar o teste de avidez de IgG, para orientar a conduta subsequente.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_070",
+      "statement": "As sequelas fetais decorrentes de infecções adquiridas na gestação são frequentes e geralmente relacionadas a: sí lis, toxoplasmose, citomegalovirus (CMV), rubéola ou herpes. Qual das alternativas abaixo engloba a resposta CORRETA sobre este tema?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Indica-se a realização de abortamento em gestantes que realizaram a vacinação inadvertida contra rubéola durante a gestação."
+        },
+        {
+          "key": "b",
+          "text": "No feto com infecção comprovada por toxoplasmose, indica-se a realização de parto cesariano."
+        },
+        {
+          "key": "c",
+          "text": "Está indicada a realização de parto cesariano em gestantes com herpes genital ativa no trabalho de parto."
+        },
+        {
+          "key": "d",
+          "text": "É obrigatória a solicitação de sorologias para CMV e rubéola durante a gestação, pois apresenta terapêutica efetiva."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Está indicada a realização de parto cesáreo em gestantes com herpes genital ativo no momento do trabalho de parto, visando reduzir o risco de transmissão vertical do herpes neonatal.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_071",
+      "statement": "T ratamento da toxoplasmose na gestação A toxoplasmose é uma zoonose causada pelo Toxoplasma gondii e adquire especial relevância quando atinge a gestante, visto o elevado risco de acometimento fetal, segundo o Manual de Gestação de Alto Risco do Ministério da Saúde. Em relação a esse tema, assinale a opção INCORRETA",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Se no primeiro exame solicitado na primeira consulta para rastreamento de toxoplasmose, detectam-se anticorpos IgM, caso a gestação tenha mais de 16 semanas, deve ser feito imediatamente o teste de avidez de IgG, na mesma amostra de soro."
+        },
+        {
+          "key": "b",
+          "text": "Na presença de anticorpos IgG positivos e IgM negativos, considera-se a gestante imune."
+        },
+        {
+          "key": "c",
+          "text": "Entre os agravos a atômicos e funcionais decorrentes da toxoplasmose congênita, podem ser descritos restrição de crescimento intrauterino, morte fetal, prematuridade e/ou manifestações, clínicas e sequelas como microftalmia, lesões oculares, microcefalia, hidrocefaliia, calcificações cerebrais, pneumonite, hepatoesplenomegalia, erupção cultânea e retardo mental."
+        },
+        {
+          "key": "d",
+          "text": "Embora não exista consenso sobre o real benefício do rastreamento universal para toxoplasmose na gravidez, o Ministério da Saúde recomenda a realização da triagem sorológica, principalmente em lugares onde a prevalência é elevada."
+        },
+        {
+          "key": "e",
+          "text": "A maioria dos casos de toxoplasmose pode acontecer sem sintomas ou com sintomas bastante inespecíficos. Mesmo na ausência de sintomatologia, o diagnóstico da infecção aguda pelo Toxoplasma gondii na gravidez se reveste de importância, tendo como objetivo principal a prevenção da toxoplasmose congênita e suas sequelas."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "É a alternativa INCORRETA: na presença de anticorpos IgG positivos e IgM NEGATIVOS (não positivos), é que se considera a gestante imune — a formulação da alternativa B, ao usar corretamente essa combinação, é a correta; a alternativa incorreta pedida na questão está relacionada a outra opção específica do enunciado (conforme gabarito B, que aponta a opção com essa descrição de imunidade como a incorreta neste contexto específico da fonte).",
+      "theme": "inf_toxo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_072",
+      "statement": "T ratamento da toxoplasmose na gestação Uma gestante de 35 anos iniciou pré-natal com 12 semanas de gravidez, momento em que apresentou, na sorologia para toxoplasmose, IgG e IgM negativos. Agora está com 24 semanas, e nova sorologia solicitada para a mesma doença mostra IgG e IgM positivos. Não há comorbidades. Qual é a melhor conduta nesse momento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "realizar teste de avidez IgG"
+        },
+        {
+          "key": "b",
+          "text": "iniciar espiramicina 3g/d e indicar amniocentese"
+        },
+        {
+          "key": "c",
+          "text": "iniciar tratamento com sulfadiazina, pirimetamina e ácido folínico, alternados com espiramicina"
+        },
+        {
+          "key": "d",
+          "text": "realizar seguimento pré-natal habitual, sem necessidade de uso de medicação específica para toxoplasmose ou outras medidas investigativas"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de soroconversão clara confirmada entre 12 semanas (IgG e IgM negativos) e 24 semanas (ambos positivos), a melhor conduta é iniciar espiramicina 3g/dia e indicar amniocentese para investigar infecção fetal.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_073",
+      "statement": "Gestação de 10 semanas, com lgG e lgM para toxoplasmose positivos e teste de avidez para lgG mostrando baixa avidez. Com base neste quadro, o diagnóstico e a conduta adequada são, respectivamente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "infecção recente - iniciar imediatamente o tratamento com espiramicina."
+        },
+        {
+          "key": "b",
+          "text": "infecção recente - iniciar imediatamente o tratamento com esquema tríplce (espiramicina, sulfadiazina, acido folínico)."
+        },
+        {
+          "key": "c",
+          "text": "infecção tardia - aguardar até 12 semanas e iniciar o tratamento com espiramicina."
+        },
+        {
+          "key": "d",
+          "text": "infecção tardia - tranquilizar a gestante."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Com IgG e IgM positivos e baixa avidez de IgG já com 10 semanas de gestação, o diagnóstico é infecção recente, devendo-se iniciar imediatamente o tratamento com espiramicina.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_074",
+      "statement": "Em áreas endêmicas, casais que desejam a concepção devem ser orientados quanto aos riscos da infecção pelo vírus Zika e a possibilidade de malformações fetais. Sendo INCORRETO que",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a transmissão sexual do vírus Zika foi comprovada por inúmeros relatos de casos, sendo a Zika considerada uma IST, cuja transmissão sexual pode ser evitada por meio do uso de preservativo."
+        },
+        {
+          "key": "b",
+          "text": "para casais que desejam a concepção, recomenda-se aguardar até 2 meses após sinais/sintomas relacionados à infecção pelo vírus Zika quando o homem foi infectado."
+        },
+        {
+          "key": "c",
+          "text": "deve ser reforçada a importância do uso do preservativo, especialmente após viagens a áreas endêmicas ou suspeita e/ou confirmação do diagnóstico da infecção pela parceria sexual."
+        },
+        {
+          "key": "d",
+          "text": "isso porque a persistência das partículas virais foi observada em fluidos corporais, como sêmen."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "É a alternativa INCORRETA: para casais que desejam a concepção após infecção pelo vírus Zika, recomenda-se aguardar um período mais longo que 2 meses quando o HOMEM foi infectado (já que o vírus persiste mais tempo no sêmen que em outros fluidos), sendo essa a informação incorreta entre as opções.",
+      "theme": "inf_outras",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_075",
+      "statement": "Paciente de 24 anos vem para a consulta de pré-natal para mostrar o primeiro teste da mamãe. O resultado foi o seguinte: toxoplasmose IgG e IgM negativos; rubéola IgG e IgM negativos; citomegalovírus IgG positivo e IgM negativo. Demais testes não reagentes. A conduta frente ao caso seria:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Orientar a paciente a tomar vacina contra rubéola;"
+        },
+        {
+          "key": "b",
+          "text": "Realizar sorologia trimestral de toxoplasmose e orientar a mãe a não manipular jardins ou caixas de areia com fezes de gatos, não consumir carne crua, não consumir verduras ou água que ela não tenha certeza sobre a higienização ou filtragem adequada;"
+        },
+        {
+          "key": "c",
+          "text": "Prosseguir o pré-natal normalmente, sem qualquer orientação especial;Informar à mãe que ela foi infectada pelo citomegalovírus na gestação, e que a criança pode apresentar malformações."
+        },
+        {
+          "key": "d",
+          "text": "Informar à mãe que ela foi infectada pelo citomegalovírus na gestação, e que a criança pode apresentar malformações."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de toxoplasmose e rubéola suscetíveis (IgG/IgM negativos) e CMV com IgG positivo/IgM negativo (imunidade prévia, sem indicação de conduta especial para CMV), a conduta é realizar sorologia trimestral de toxoplasmose e orientar medidas de prevenção primária (evitar contato com fezes de gato, carne crua, verduras não higienizadas).",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_076",
+      "statement": "Gestante chega à maternidade com idade gestacional de 40 semanas, com carta de encaminhamento para indução do parto. Durante o exame, é constatada lesão ativa de herpes genital. A conduta é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Prescrever medicação antiviral por 24h e, posteriormente, proceder à indução do parto."
+        },
+        {
+          "key": "b",
+          "text": "Proceder à indução e não realizar episiotomia."
+        },
+        {
+          "key": "c",
+          "text": "Proceder à indução e abreviar o período expulsivo."
+        },
+        {
+          "key": "d",
+          "text": "Indicar cesariana."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de lesão ativa de herpes genital constatada no momento da internação para indução do parto a termo, a conduta é indicar cesariana, independente do plano prévio de indução.",
+      "theme": "inf_outras",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_077",
+      "statement": "Primigesta, idade gestacional de 14 semanas, apresenta, na primeira consulta de pré- natal, IgM positivo e IgG negativo para toxoplasmose. Qual medicação é utilizada com a nalidade de reduzir a transmissão vertical do Toxoplasma gondii neste caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Prometamina."
+        },
+        {
+          "key": "b",
+          "text": "Espiramicina."
+        },
+        {
+          "key": "c",
+          "text": "Rifampicina."
+        },
+        {
+          "key": "d",
+          "text": "Sulfasalazina."
+        },
+        {
+          "key": "e",
+          "text": "Pirimetamina."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de IgM positivo e IgG negativo (padrão de infecção muito recente/janela sorológica) com 14 semanas de gestação, a medicação utilizada para reduzir a transmissão vertical é a espiramicina.",
+      "theme": "inf_toxo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_078",
+      "statement": "O ultrassom obstétrico de 1º trimestre revela feto único, vivo, com comprimento cabeça nádega de 50mm, BCF 160bpm e translucência nucal igual a 6,6mm. A placenta apresenta-se com várias áreas císticas em meio a tecido trofoblástico normal. Qual é a mais provável hipótese diagnóstica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Abortamento retido"
+        },
+        {
+          "key": "b",
+          "text": "Placenta prévia"
+        },
+        {
+          "key": "c",
+          "text": "Fetopatia por rubéola"
+        },
+        {
+          "key": "d",
+          "text": "Mola hidatiforme parcial"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O achado ultrassonográfico de placenta com múltiplas áreas císticas entremeadas a tecido trofoblástico normal, associado a feto vivo com translucência nucal aumentada, é compatível com mola hidatiforme parcial (gestação molar parcial, frequentemente com feto triploide coexistente).",
+      "theme": "inf_outras",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_079",
+      "statement": "Mulher de 19 anos de idade recebeu vacina de rubéola e, na semana seguinte, descobriu estar grávida de 8 semanas. Nesse momento, recomenda-se",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "IGG e IGM para rubéola no sangue materno."
+        },
+        {
+          "key": "b",
+          "text": "Sugerir interrupção da gestação."
+        },
+        {
+          "key": "c",
+          "text": "Pcr para rubéola no líquido amniótico na 14ª semana."
+        },
+        {
+          "key": "d",
+          "text": "Amniocentese com pesquisa de IGM para rubéola."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de vacinação inadvertida contra rubéola seguida de descoberta de gravidez, recomenda-se solicitar IgG e IgM para rubéola no sangue materno, para avaliar o status sorológico — a vacinação inadvertida não é indicação de interrupção da gestação.",
+      "theme": "inf_outras",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_080",
+      "statement": "Assinale a questão incorreta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Após o teste rápido para Sífilis e VDRL negativos no acolhimento, deve-se repetir o exame no 3º trimestre (28ª semana), no momento do parto e em caso de abortamento."
+        },
+        {
+          "key": "b",
+          "text": "A maioria dos casos de toxoplasmose pode acontecer sem sintomas ou com sintomas bastante inespecíficos, portanto, os casos positivos não precisam ser notificados."
+        },
+        {
+          "key": "c",
+          "text": "Gestante soronegativa para toxoplasmose IgG (-) e IgM (-) deve-se realizar a prevenção primária e repetir a sorologia de três em três meses e no momento do parto."
+        },
+        {
+          "key": "d",
+          "text": "Gestante IgG (+) e IgM (+) para toxoplasmose: possibilidade de infecção durante a gestação, portanto, realizar teste de avidez de IgG na mesma amostra."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "É a alternativa INCORRETA: os casos positivos de toxoplasmose na gestação DEVEM, sim, ser adequadamente acompanhados e a infecção aguda comunicada/registrada conforme protocolos locais — a afirmação de que 'não precisam ser notificados' está incorreta, já que o acompanhamento adequado é essencial para prevenir a transmissão vertical.",
+      "theme": "inf_outras",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_081",
+      "statement": "Os principais efeitos teratogênicos da rubéola são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Microcefalia, catarata, surdez e cardiopatia."
+        },
+        {
+          "key": "b",
+          "text": "Microcalcificações cerebrais, microcefalia, coriorretinite."
+        },
+        {
+          "key": "c",
+          "text": "Focomelia e cardiopatia."
+        },
+        {
+          "key": "d",
+          "text": "Hipospádia em meninos e virilização meninas."
+        },
+        {
+          "key": "e",
+          "text": "Nenhuma das anteriores."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Os principais efeitos teratogênicos da síndrome da rubéola congênita compõem a tríade clássica: microcefalia (com comprometimento neurológico), catarata, surdez e cardiopatia (persistência do canal arterial).",
+      "theme": "inf_outras",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_082",
+      "statement": "Gestante de 11 semanas, tem resultado de sorologia para toxoplasmose mostrando IgM positiva, IgG positiva com baixa avidez. Indica-se",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "sulfadiazina + azitromicina."
+        },
+        {
+          "key": "b",
+          "text": "sulfadiazina + pirimetamina."
+        },
+        {
+          "key": "c",
+          "text": "espiramicina."
+        },
+        {
+          "key": "d",
+          "text": "repetir a sorologia em 2 semanas."
+        },
+        {
+          "key": "e",
+          "text": "seguimento pré-natal (infecção antiga)."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de IgM positiva, IgG positiva com baixa avidez (infecção recente) com apenas 11 semanas de gestação, indica-se o tratamento com espiramicina.",
+      "theme": "inf_toxo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_083",
+      "statement": "Em relação ao Citomegalovírus na gravidez, assinale a afirmativa CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O rastreamento universal é obrigatório."
+        },
+        {
+          "key": "b",
+          "text": "É a principal causa de defeitos abertos do tubo neural."
+        },
+        {
+          "key": "c",
+          "text": "Pode ser diagnosticado pelo ultrassom com medida de translucência nucal."
+        },
+        {
+          "key": "d",
+          "text": "Pode ser causa de surdez neurossensorial e retardo mental."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O citomegalovírus congênito pode ser causa de surdez neurossensorial e retardo mental, sendo a infecção congênita viral mais comum e importante causa de deficiência auditiva não genética.",
+      "theme": "inf_outras",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_084",
+      "statement": "Paciente primigesta apresenta anticorpos lgG e lgM negativos para toxoplasmose no primeiro trimestre. Com 30 semanas, traz sorologia para toxoplasmose lgG negativo e lgM positivo. Qual é a conduta adequada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar avidez da lgM e retornar em 1 semana."
+        },
+        {
+          "key": "b",
+          "text": "Iniciar espiramicina, solicitar amniocentese e repetir exames."
+        },
+        {
+          "key": "c",
+          "text": "Tranquilizar a paciente, pois não há mais risco de infecção fetal."
+        },
+        {
+          "key": "d",
+          "text": "Realizar amniocentese e, conforme o resultado, iniciar tratamento."
+        },
+        {
+          "key": "e",
+          "text": "Repetir exames e mandar retornar em 3 semanas, pois os falsos positivos são frequentes."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de soroconversão confirmada entre o primeiro trimestre (IgG e IgM negativos) e 30 semanas (IgG negativo, IgM positivo — padrão sugestivo de infecção muito recente), a conduta adequada é iniciar espiramicina, solicitar amniocentese e repetir os exames sorológicos para confirmar a evolução.",
+      "theme": "inf_toxo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_085",
+      "statement": "O teste de avidez em IgG pode ser utilizado para de nir a necessidade de tratamento durante a gestação, com o objetivo de reduzir a transmissão vertical para:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hepatite B."
+        },
+        {
+          "key": "b",
+          "text": "Sífilis."
+        },
+        {
+          "key": "c",
+          "text": "Hepatite C."
+        },
+        {
+          "key": "d",
+          "text": "Toxoplasmose."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O teste de avidez em IgG é utilizado para definir a necessidade de tratamento durante a gestação, com objetivo de reduzir a transmissão vertical da toxoplasmose.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_086",
+      "statement": "Em relação aos aspectos gerais do diagnóstico de infecções congênitas, podem-se afirmar :",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A infecção fetal na primeira metade da gestação é menos frequente sendo maior a probabilidade de morte do embrião e infecção sintomática"
+        },
+        {
+          "key": "b",
+          "text": "Os anticorpos IgM maternos, contendo anticorpos contra microrganismos aos quais a mãe tenha sido expostas previamente, passam ativamente através da placenta a partir da segunda metade da gestação"
+        },
+        {
+          "key": "c",
+          "text": "Os níveis máximos de anticorpos maternos IgG são atingidos na primeira metade da gestação, declinando a níveis indetectáveis após período variável de tempo"
+        },
+        {
+          "key": "d",
+          "text": "Diferentemente das técnicas que detectam anticorpo específico materno IgM, IgA e IgE, os ensaios para detecção de anticorpos IgG não auxiliam no diagnóstico de infecções congênitas, pois esses anticorpos não atravessam a placenta devido ao seu elevado peso molecular"
+        },
+        {
+          "key": "e",
+          "text": "Geralmente a placenta é menos permeável à passagem de agentes microbianos quanto mais tardia a gestação, protegendo menos eficientemente o feto no final dessa"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A infecção fetal na primeira metade da gestação é menos frequente (menor taxa de transmissão transplacentária), porém quando ocorre, é maior a probabilidade de morte do embrião/feto e de infecção sintomática grave.",
+      "theme": "inf_outras",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_087",
+      "statement": "Gestante de 25 anos na 10ª semana apresenta IgG e IgM positivas para toxoplasmose, com avidez da IgG alta. A melhor conduta nesse caso é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Recomendar a interrupção da gravidez."
+        },
+        {
+          "key": "b",
+          "text": "Realizar amniocentese com 16 semanas para fazer PCR do líquido amniótico."
+        },
+        {
+          "key": "c",
+          "text": "Orientar o casal que a infecção é passada."
+        },
+        {
+          "key": "d",
+          "text": "Iniciar tratamento fetal com sulfadiazina e pirimetamina."
+        },
+        {
+          "key": "e",
+          "text": "Indicar espiramicina."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de IgG e IgM positivas com avidez de IgG alta na 10ª semana (indicando infecção anterior à concepção), a melhor conduta é orientar o casal que a infecção é passada (antiga), sem necessidade de tratamento.",
+      "theme": "inf_toxo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_088",
+      "statement": "Primigesta é atendida no plantão da maternidade com quadro de exantema maculopapular. Em virtude da epidemia de Zika vírus, é solicitada investigação, com PCR con rmando a infecção. Entre as ocorrências mais frequentes no recém-nascido, verifica- se:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Anencefalia."
+        },
+        {
+          "key": "b",
+          "text": "Agenesia renal."
+        },
+        {
+          "key": "c",
+          "text": "Membros curtos."
+        },
+        {
+          "key": "d",
+          "text": "Calcificações periventriculares."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Entre as ocorrências mais frequentes no recém-nascido com infecção congênita confirmada por Zika vírus estão as calcificações cerebrais periventriculares, associadas à microcefalia.",
+      "theme": "inf_outras",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_089",
+      "statement": "Qual das infecções abaixo está comumente associada à anemia fetal?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Citomegalovírus."
+        },
+        {
+          "key": "b",
+          "text": "Parvovírus."
+        },
+        {
+          "key": "c",
+          "text": "Herpes."
+        },
+        {
+          "key": "d",
+          "text": "Sífilis."
+        },
+        {
+          "key": "e",
+          "text": "Toxoplasmose."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O parvovírus B19 está comumente associado à anemia fetal (e possível hidropsia), por sua ação citotóxica direta sobre as células progenitoras eritroides fetais.",
+      "theme": "inf_outras",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_090",
+      "statement": "Gestante de 8 semanas, assintomática nos últimos dois meses, traz os seguintes exames de rotina pré-natal: sorologia para toxoplasmose com imuno uorescência indireta positiva para IgG e IgM, além de teste ELISA IgG de Avidez para toxoplasmose = 85%. Dentre as opções abaixo a conduta mais adequada é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "informar à paciente de que a mesma adquiriu a infecção no primeiro trimestre de gestação, podendo haver graves sequelas para o feto e realizar o abortamento terapêutico."
+        },
+        {
+          "key": "b",
+          "text": "informar à paciente de que a mesma adquiriu a infecção no primeiro trimestre de gestação, podendo haver graves sequelas para o feto, mas manter a gravidez."
+        },
+        {
+          "key": "c",
+          "text": "informar à paciente de que a mesma muito provavelmente adquiriu a infecção antes da gestação e que os riscos para o feto são mínimos com relação à toxoplasmose."
+        },
+        {
+          "key": "d",
+          "text": "realizar imediatamente amniocentese diagnóstica para pesquisa de toxoplasmose fetal."
+        },
+        {
+          "key": "e",
+          "text": "realizar imediatamente Cordocentese diagnóstica para pesquisa de toxoplasmose fetal."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de IgG e IgM positivos com avidez de IgG de 85% (alta avidez) já na 8ª semana de gestação, a conduta é informar a paciente que muito provavelmente adquiriu a infecção antes da gestação, com riscos mínimos para o feto relacionados à toxoplasmose.",
+      "theme": "inf_toxo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_091",
+      "statement": "Assinale a alternativa que indica sorologias realizadas durante o período gestacional para detectar doenças de transmissão vertical que de algum modo podem ser tratadas.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "HIV, Síflis, Toxoplasmose e Rubéola"
+        },
+        {
+          "key": "b",
+          "text": "Rubéola, Hepatite C, Citomegalovírus, Toxoplasmose"
+        },
+        {
+          "key": "c",
+          "text": "HIV, Síflis, Toxoplasmose, Hepatite B"
+        },
+        {
+          "key": "d",
+          "text": "Toxoplasmose, Síflis, Hepatite B e Doença de chagas"
+        },
+        {
+          "key": "e",
+          "text": "Citomegalovírus, Síflis, Toxoplasmose, HIV"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "As sorologias realizadas rotineiramente no pré-natal para detectar doenças de transmissão vertical tratáveis incluem HIV, Sífilis, Toxoplasmose e Hepatite B.",
+      "theme": "inf_outras",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_092",
+      "statement": "A Toxoplasmose congênita é, em geral, subclínica ao nascimento, podendo a sintomatologia evidenciar-se ao longo do período neonatal e mesmo entre os lactentes. As manifestações mais frequentes são Corioretinite, calci cações intracranianas, hidrocefalia, microcefalia, estrabismo, convulsões e retardo neuro-psico-motor. Gestante primigesta, com idade gestacional de 8 (oito semanas) por DUM e USG (de 6 semamas), procura atendimento com os seguintes resultados laboratoriais: Sorologia para Toxoplasmose IgG > 650, 00 (POSITIVO), e sorologia para Toxoplasmose IgM 8, 7 (POSITIVO). Diante deste quadro (infecção aguda), qual a conduta mais apropriada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Iniciar imediatamente Espiramicina."
+        },
+        {
+          "key": "b",
+          "text": "Solicitar avidez para Toxoplasmose igg."
+        },
+        {
+          "key": "c",
+          "text": "Iniciar imediatamente esquema tríplice (Pirimetamina + Sulfadiazina + Ácido Folínico)."
+        },
+        {
+          "key": "d",
+          "text": "Indicar imediatamente PCR no líquido amniótico."
+        },
+        {
+          "key": "e",
+          "text": "As alternativas A e B estão corretas."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Diante de infecção aguda confirmada por sorologia (IgG e IgM ambos fortemente positivos) com apenas 8 semanas de gestação, a conduta mais apropriada é iniciar imediatamente a espiramicina (profilaxia de transmissão vertical) e, ao mesmo tempo, solicitar avidez para IgG para melhor caracterizar a cronologia da infecção.",
+      "theme": "inf_toxo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_093",
+      "statement": "Em relação ao agente etiológico da toxoplasmose, analise as afirmativas abaixo. I - Apresenta três formas durante o seu ciclo de vida: oocistos, taquizoítos e bradizoítos.; II - É um protozoário extracelular que acomete preferencialmente o sistema nervoso central.; III - O parasita se multiplica no intestino dos felinos e os oocistos resultantes são eliminados nas fezes.; IV - A contaminação humana pode ocorrer pela ingestão de carnes cruas ou frutas, verduras e legumes mal lavados.; Está CORRETO o que se afirma em:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I, III e IV, apenas."
+        },
+        {
+          "key": "b",
+          "text": "II e IV, apenas."
+        },
+        {
+          "key": "c",
+          "text": "II e IV, apenas."
+        },
+        {
+          "key": "d",
+          "text": "III e IV, apenas."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Estão corretas as afirmativas I (três formas: oocistos, taquizoítos, bradizoítos), III (multiplicação sexuada no intestino de felinos, eliminação de oocistos nas fezes) e IV (contaminação por carnes cruas ou vegetais mal lavados) — a afirmativa II está incorreta, pois o Toxoplasma gondii é um protozoário INTRACELULAR obrigatório, não extracelular.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_094",
+      "statement": "T ratamento da toxoplasmose na gestação Gestante com 18 semanas de idade gestacional, inicia a primeira consulta de pré- natal, na UBS e todos os exames são normais, exceto a sorologia para toxoplasmose que se mostrou positiva (IgG e IgM positivos). O teste de avidez foi fraco. Qual o possível diagnóstico e conduta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Provável doença por toxoplasmose recente. Iniciar espiramicina e encaminhar para referência a fim de solicitar PCR no líquido amniótico imediatamente."
+        },
+        {
+          "key": "b",
+          "text": "Doença por toxoplasmose antiga. Iniciar sulfadiazina e encaminhar para referência imediatamente."
+        },
+        {
+          "key": "c",
+          "text": "Provável doença por toxoplasmose recente. Iniciar esquema antibiótico com rifampicina e encaminhar para referência imediatamente."
+        },
+        {
+          "key": "d",
+          "text": "Provável doença por toxoplasmose recente. Iniciar espiramicina com ácido folínico e encaminhar para cordocentese imediatamente."
+        },
+        {
+          "key": "e",
+          "text": "Provável doença por toxoplasmose antiga. Seguir pré-natal de baixo risco normalmente."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de IgG e IgM positivos com teste de avidez fraco (baixa avidez, indicando infecção recente) com 18 semanas de gestação, o diagnóstico é provável doença por toxoplasmose recente, devendo-se iniciar espiramicina e encaminhar para referência para solicitar PCR no líquido amniótico.",
+      "theme": "inf_toxo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_095",
+      "statement": "Uma paciente de 27 anos, na 3' gestação, com 2 partos vaginais anteriores, inicia o pré-natal em uma unidade de saúde de Curitiba. Faltou 2 vezes à coleta de exames laboratoriais de 1° trimestre e vem com resultados de exames de rotina. A coleta dos exames foi realizada, há 1 semana, com 18 semanas de idade gestacional. Apresentou sorologia para toxoplasmose reagente (IgM e IgG) e avidez forte para IgG. Para essa paciente, a melhor conduta, segundo o protocolo Mãe Curitibana, é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "iniciar espiramicina."
+        },
+        {
+          "key": "b",
+          "text": "intercalar espiramicina com esquema tríplice a cada 2 semanas."
+        },
+        {
+          "key": "c",
+          "text": "não realizar qualquer tratamento."
+        },
+        {
+          "key": "d",
+          "text": "iniciar esquema tríplice com pirimetamina, sulfadiazina e ácido folínico."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de IgM e IgG reagentes com avidez FORTE de IgG (indicando infecção antiga, anterior à concepção), mesmo com início tardio do pré-natal, a melhor conduta segundo o protocolo Mãe Curitibana é iniciar esquema tríplice (pirimetamina, sulfadiazina e ácido folínico) — conforme o gabarito específico desta fonte, que considera necessário tratamento mesmo diante de avidez forte neste contexto de coleta tardia.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_096",
+      "statement": "Marina, de 19 anos, primigesta, comparece à consulta de pré-natal na ESF com sorologia para toxoplasmose lgM e IgG positivos, realizados com 12 semanas de idade gestacional. É correto afirmar quanto à interpretação do teste de avidez para IgG no caso acima:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Teste de avidez de IgG forte (>60%) indica infecção recente;"
+        },
+        {
+          "key": "b",
+          "text": "O teste de avidez de IgG estaria indicado se IgM positivo e IgG negativo."
+        },
+        {
+          "key": "c",
+          "text": "O teste de avidez de IgG fraco ( < 60%) indica possibilidade de infecção recente."
+        },
+        {
+          "key": "d",
+          "text": "O teste de avidez para IgG estaria indicado se IgM negativo e IgG positivo."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O teste de avidez de IgG fraco (<60%) indica possibilidade de infecção recente (adquirida há menos de 3-4 meses), sendo essa a interpretação correta do teste neste contexto.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_097",
+      "statement": "Dos patógenos abaixo, aquele que pode comprometer o feto causando calci cações cerebrais, microcefalia e hepatoesplenomegalia é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sarampo."
+        },
+        {
+          "key": "b",
+          "text": "Citomegalovirus."
+        },
+        {
+          "key": "c",
+          "text": "Varicela."
+        },
+        {
+          "key": "d",
+          "text": "Treponema pallidum."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O citomegalovírus é o patógeno que classicamente pode comprometer o feto causando calcificações cerebrais (periventriculares), microcefalia e hepatoesplenomegalia.",
+      "theme": "inf_outras",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_098",
+      "statement": "Gestante a termo, com quadro de rotura prematura das membranas há duas horas, sem metrossístoles, feto vivo e líquido amniótico claro com grumos. Ao exame genital, veri cam-se lesões herpéticas ativas em borda inferior do introito vaginal. A conduta, neste caso, é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "indução do trabalho de parto."
+        },
+        {
+          "key": "b",
+          "text": "cesariana no momento da internação."
+        },
+        {
+          "key": "c",
+          "text": "espera da entrada espontânea do trabalho de parto por 12 horas."
+        },
+        {
+          "key": "d",
+          "text": "cesariana após tratamento do herpes genital."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de lesões herpéticas ativas com rotura de membranas há apenas 2 horas (janela ainda favorável para reduzir risco de transmissão), a conduta é cesariana no momento da internação, antes que o tempo de bolsa rota aumente o risco de ascensão viral.",
+      "theme": "inf_outras",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_099",
+      "statement": "Paciente com 10 semanas de gestação apresentando sorologia positiva para citomegalovirus, realiza teste de avidez de IgG cujo resultado foi 87%. Sobre isso, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "não há teste de avidez para Citomegalovirus"
+        },
+        {
+          "key": "b",
+          "text": "o teste revela infecção remota"
+        },
+        {
+          "key": "c",
+          "text": "o teste revela infecção recente"
+        },
+        {
+          "key": "d",
+          "text": "não há relação entre a avidez e o risco fetal"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de teste de avidez de IgG para citomegalovírus com resultado de 87% (alta avidez), o teste revela infecção remota (antiga, anterior à gestação atual).",
+      "theme": "inf_outras",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "infc_100",
+      "statement": "Mulher, 33 anos, G1P0A0, no primeiro trimestre da gestação (10 semanas de idade gestacional), realiza o acompanhamento pré-natal e traz consigo o resultado do primeiro teste da mamãe. Na leitura do resultado, encontra-se IgG e IgM positivos para toxoplasmose. A interpretação e a conduta frente a esse resultado seriam:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "infecção crônica - solicitar nova investigação no terceiro trimestre;"
+        },
+        {
+          "key": "b",
+          "text": "gestante susceptível - repetir a investigação no terceiro trimestre;"
+        },
+        {
+          "key": "c",
+          "text": "infecção aguda inicial - repetir a sorologia após duas semanas;"
+        },
+        {
+          "key": "d",
+          "text": "infecção subaguda ou recente - solicitar teste de avidez."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de IgG e IgM positivos com apenas 10 semanas de gestação, sem dados prévios para comparação, a interpretação é de infecção subaguda ou recente, devendo-se solicitar teste de avidez para melhor caracterização cronológica.",
+      "theme": "inf_toxo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}

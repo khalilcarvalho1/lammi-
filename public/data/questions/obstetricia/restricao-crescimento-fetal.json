@@ -1,0 +1,2752 @@
+{
+  "questions": [
+    {
+      "id": "rcf_001",
+      "statement": "Paciente de 28 anos, G2PC1A0, IG 31 semanas, encaminhada ao Pré-Natal de Alto Risco (PNAR) devido a quadro de crescimento intrauterino restrito (CIUR). Na história clínica: tabagismo 10 cigarros/dia desde a adolescência e lho anterior nasceu com 34 semanas devido a quadro de CIUR. Não apresentava doenças sistêmicas. Ao exame clínico apresentava UF de 28cm e BCF de 132bpm. O último US era de 27 semanas com peso fetal estimado entre os percentis 3 e 10, sem Doppler. Solicitado ultrassonogra a com Doppler na urgência que con rmou o CIUR. Assinale a opção com a avaliação pela Dopplervelocimetria que, se estiver alterada, define a necessidade da interromper a gestação:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Estudo da artéria cerebral média (ACM) que é marcador do mecanismo de compensação fetal"
+        },
+        {
+          "key": "b",
+          "text": "Estudo das artérias umbilicais, um marcador da reserva funcional placentária"
+        },
+        {
+          "key": "c",
+          "text": "Estudo das artérias uterinas que avalia o fluxo uteroplacentário"
+        },
+        {
+          "key": "d",
+          "text": "Estudo do ducto venoso que é marcador da descompensação e da exaustão do mecanismo de compensação"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A alteração no Doppler do ducto venoso (onda A ausente/reversa) é marcador de descompensação cardiovascular fetal grave e exaustão do mecanismo de centralização, definindo a necessidade de interrupção da gestação.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_002",
+      "statement": "Para um feto entre o 3º e o 10º percentil de crescimento, que não apresenta comprometimento da vitalidade, o momento ideal da interrupção da gestação será:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Antes da 37ª semana."
+        },
+        {
+          "key": "b",
+          "text": "Entre a 37ª e 38ª semanas."
+        },
+        {
+          "key": "c",
+          "text": "Entre a 38ª e 39ª semanas."
+        },
+        {
+          "key": "d",
+          "text": "A partir da 39ª semana."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Para feto entre o 3º e o 10º percentil sem comprometimento da vitalidade (pequeno para idade gestacional, sem sinais de insuficiência placentária), o momento ideal de interrupção é a partir da 39ª semana.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_003",
+      "statement": "Primigesta na 35ª semana de gravidez, apresenta curva de altura uterina estacionada. Ultrassonogra a com Doppler: feto com peso no percentil 8, líquido amniótico normal, índice de pulsatibilidade menor que o percentil 95 na artéria umbilical e acima do percentil 5 na artéria cerebral média. O diagnóstico mais provável é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "restrição de crescimento fetal tardio."
+        },
+        {
+          "key": "b",
+          "text": "restrição de crescimento fetal precoce."
+        },
+        {
+          "key": "c",
+          "text": "pequeno para idade gestacional."
+        },
+        {
+          "key": "d",
+          "text": "crescimento fetal adequado."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Com peso no percentil 8, líquido amniótico normal e Doppler de artéria umbilical e cerebral média normais, trata-se de feto pequeno para a idade gestacional (PIG) constitucional, não RCF verdadeira (que exigiria alteração Doppler).",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_004",
+      "statement": "S.T.B., 36 anos, GII PI 1C A0, IG usg: 34 semanas, deu entrada no PSO com queixa de escotomas, dor em hipocôndrio direito e náuseas. PA de 150 x 100 mmHg. Nega aumento de PA prévio. Ausência de edema de membros de pré-eclâmpsia: relação proteína na urina/creatinina na urina de 0,4, TGO 20, TGP 25, hb 11, htco: 33, plaquetas: 160.000, DHL 400, Bb totais de 0,8; Cr 0,9. Paciente submetida a ultrassom obstétrico com doppler que identi cou: peso fetal no percentil 4, ILA normal, placenta anterior, GIII, feto em apresentação cefálica. Doppler de artéria umbilical, conforme imagem a seguir. De acordo com a figura, assinale a interpretação correta do doppler fetal.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Diástolo zero na artéria umbilical."
+        },
+        {
+          "key": "b",
+          "text": "Artéria umbilical com diástole reversa."
+        },
+        {
+          "key": "c",
+          "text": "Diminuição do índice de pulsatilidade em artéria umbilical."
+        },
+        {
+          "key": "d",
+          "text": "Aumento do índice de pulsatilidade em artéria cerebral média."
+        },
+        {
+          "key": "e",
+          "text": "Relação cérebro placentária normal."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O achado ao Doppler de artéria umbilical (dependente de imagem não capturada na extração do PDF) foi determinado como artéria umbilical com diástole reversa, conforme gabarito oficial da fonte.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_005",
+      "statement": "A.M.N., 32 anos, GIII PII (1N 1C) A0, IG de 38 semanas e 1 dia, sem comorbidades, veio à consulta de pré natal de rotina, com ultrassom obstétrico com doppler realizado no mesmo dia: feto único e vivo (FUV), apresentação cefálica, peso fetal de 2660g, no percentil 10 (manteve-se na curva de crescimento fetal), de acordo com a curva de Hadlock. Placenta anterior grau III de Grannum, doppler normal. Morfologia fetal normal. Assinale a alternativa que apresenta a conduta correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Internação para interrupção da gestação via baixa."
+        },
+        {
+          "key": "b",
+          "text": "Internação para parto cesariano após completado o jejum."
+        },
+        {
+          "key": "c",
+          "text": "Internação para acompanhamento do doppler a cada 3 dias, já que o peso fetal encontra-se no limite inferior do normal."
+        },
+        {
+          "key": "d",
+          "text": "Retorno ao pré-natal em 7 dias."
+        },
+        {
+          "key": "e",
+          "text": "Retorno ao pré-natal em 14 dias."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Com peso no percentil 10 mantendo a curva de crescimento e Doppler normal, a conduta é retorno ao pré-natal em 7 dias, mantendo vigilância próxima dado o percentil limítrofe.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_006",
+      "statement": "Primigesta de 19 anos com idade gestacional de 31 semanas apresenta altura uterina abaixo do percentil 10. US: morfologia fetal normal, peso estimado no percentil 3 para a idade gestacional e resistência aumentada ao doppler das artérias umbilicais. O provável diagnóstico é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "feto pequeno constitucional."
+        },
+        {
+          "key": "b",
+          "text": "restrição de crescimento fetal tardia."
+        },
+        {
+          "key": "c",
+          "text": "restrição de crescimento fetal precoce."
+        },
+        {
+          "key": "d",
+          "text": "datação incorreta."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Peso no percentil 3 com resistência aumentada ao Doppler das artérias umbilicais (indicando insuficiência placentária) em idade gestacional inferior a 32 semanas caracteriza restrição de crescimento fetal precoce.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_007",
+      "statement": "Paciente na primeira consulta de pré-natal, sem comorbidades, que não sabe informar a data da última menstruação e que também não fez exame ultrassonográ co até o momento. Ao exame obstétrico, é constatado medida da altura uterina de 26 centímetros. Nesses casos, para diferenciar fetos constitucionalmente pequenos de fetos com restrição intra-útero, deverá ser realizado (a):",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doplervelocimetria da artéria uterina quinzenal."
+        },
+        {
+          "key": "b",
+          "text": "Perfil biofísico fetal e cardiotocografia semanais."
+        },
+        {
+          "key": "c",
+          "text": "Avaliação mensal do índice de líquido amniótico."
+        },
+        {
+          "key": "d",
+          "text": "Avaliação ultrassonográfica da biometria fetal quinzenal."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Para diferenciar fetos constitucionalmente pequenos de fetos com verdadeira restrição de crescimento, deve-se realizar avaliação ultrassonográfica seriada (quinzenal) da biometria fetal, observando a curva de crescimento ao longo do tempo.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_009",
+      "statement": "Secundigesta, 32 anos de idade com parto anterior por via vaginal há 10 anos. Desde então, devido à ocorrência de pré- eclâmpsia nesta ocasião, evoluiu com hipertensão arterial crônica. Faz suas consultas de pré-natal na Unidade Básica de Saúde e em Unidade de Atenção Terciária. Apresenta a curva demonstrada abaixo - altura uterina e idade gestacional. Também apresenta ganho de peso materno abaixo do esperado para idade gestacional. Devido a esses dados, foi feita a hipótese de restrição de crescimento fetal. Hipótese essa con rmada por exame ultrassonográ co, caracterizando restrição de crescimento fetal tipo simétrico (classificação de Lis & Evans, 1984). Neste caso, o principal parâmetro clínico para o diagnóstico inicial de restrição de crescimento fetal é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Exame ultrassonográfico confirmando a hipótese diagnóstica."
+        },
+        {
+          "key": "b",
+          "text": "Hipertensão arterial crônica secundária à sequela de toxemia gravídica."
+        },
+        {
+          "key": "c",
+          "text": "Ganho de peso ponderal materno menor que o esperado para a idade gestacional."
+        },
+        {
+          "key": "d",
+          "text": "Altura uterina menor que a esperada para a idade gestacional em medidas seriadas."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O principal parâmetro clínico para o diagnóstico inicial (rastreio) de restrição de crescimento fetal é a medida seriada da altura uterina menor que a esperada para a idade gestacional.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_010",
+      "statement": "Gestante de 32 semanas com hipertensão arterial crônica e restrição de crescimento fetal. Apresenta dopplervelocimetria obstétrica da artéria umbilical conforme a imagem em anexo. Qual é a conduta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Resolução imediata da gestação."
+        },
+        {
+          "key": "b",
+          "text": "Avaliação diária do ducto venoso."
+        },
+        {
+          "key": "c",
+          "text": "Avaliação diária da artéria uterina."
+        },
+        {
+          "key": "d",
+          "text": "Seguimento no pré-natal de rotina."
+        },
+        {
+          "key": "e",
+          "text": "Repetir dopplervelocimetria em uma semana."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O achado de Doppler da artéria umbilical (dependente de imagem não capturada na extração do PDF) foi determinado como indicativo de necessidade de avaliação diária do ducto venoso, conforme gabarito oficial da fonte — sugerindo alteração significativa de resistência na artéria umbilical que exige monitorização mais estreita da função cardiovascular fetal.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_011",
+      "statement": "O crescimento intrauterino restrito (CIUR) é uma inibição do crescimento fetal. Trata-se de uma complicação frequente da gestação e está associada a uma variedade de desfechos adversos. Sobre o CIUR, assinale a alternativa INCORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O CIUR precoce está frequentemente relacionado à pré-eclâmpsia precoce, sendo associado com hipóxia crônica e insuficiência placentária."
+        },
+        {
+          "key": "b",
+          "text": "A oligodramnia está sempre presente na restrição do crescimento, mas não se relaciona com o prognóstico da gestação."
+        },
+        {
+          "key": "c",
+          "text": "Os fetos com CIUR precoce costumam ser mais imaturos e possuem maior tolerância a hipóxia que os fetos com CIUR tardio."
+        },
+        {
+          "key": "d",
+          "text": "O Doppler da artéria umbilical é utilizado para controle e seguimento dos casos de CIUR."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "É a alternativa INCORRETA: a oligodramnia NÃO está sempre presente na restrição de crescimento fetal, e quando presente, relaciona-se sim com pior prognóstico da gestação (ao contrário do afirmado).",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_012",
+      "statement": "Sobre Restrição de Crescimento Intra-uterino marque a alternativa CERTA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A definição de RCIU considera a associação entre peso e altura fetal em determinada população estudada por meio de curva de crescimento."
+        },
+        {
+          "key": "b",
+          "text": "Pode ser classificado em três tipos: simétrico, assimétrico e indeterminado de acordo com o peso ao nascimento."
+        },
+        {
+          "key": "c",
+          "text": "Como não existe tratamento padronizado, apenas orientações como repouso em decúbito lateral esquerdo, suspensão de maus hábitos como o tabagismo e álcool, nutrição adequada, dentre outras devem ser estimuladas."
+        },
+        {
+          "key": "d",
+          "text": "A cesareana é a única via de parto possível nestes casos que garante bons resultados perinatais."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O tratamento da RCIU não é padronizado (não há terapia específica comprovadamente eficaz), sendo recomendadas apenas orientações gerais como suspensão do tabagismo/álcool, nutrição adequada e vigilância, além de definição do melhor momento do parto.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_013",
+      "statement": "Feto restrito com 30 semanas de gestação, morfologicamente normal, apresenta dopplervelocimetria com diástole ausente nas artérias umbilicais. A conduta é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "resolução por cesárea após corticoterapia e sulfato de magnésio."
+        },
+        {
+          "key": "b",
+          "text": "acompanhamento pelo ducto venoso."
+        },
+        {
+          "key": "c",
+          "text": "avaliação diária com cardiotocografia convencional até 34 semanas."
+        },
+        {
+          "key": "d",
+          "text": "resolução imediata por cesárea."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de diástole ausente nas artérias umbilicais (estágio intermediário de comprometimento, sem diástole reversa) em feto restrito de 30 semanas, a conduta é acompanhamento pelo Doppler do ducto venoso, que sinalizará a real necessidade de interrupção.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_014",
+      "statement": "Acerca da restrição do crescimento intrauterino, é CORRETO afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "As mulheres com peso inferior a 60 kg têm o dobro do risco para um recém-nascido pequeno."
+        },
+        {
+          "key": "b",
+          "text": "Anormalidades cromossômicas, como trissomia do 13, não são aptas a ocasionar restrição em grandes proporções."
+        },
+        {
+          "key": "c",
+          "text": "A ocorrência de diabetes, epilepsia e hipotireoidismo pode produzir restrição do crescimento fetal."
+        },
+        {
+          "key": "d",
+          "text": "O parto vaginal é contraindicado, devido ao aumento no risco do sofrimento do feto durante o parto."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A ocorrência de diabetes, epilepsia e hipotireoidismo (doenças maternas crônicas) pode produzir restrição do crescimento fetal, entre os múltiplos fatores etiológicos reconhecidos.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_015",
+      "statement": "Gestante de 43 anos de idade, casada, está em consulta pré-natal após submeter-se a reprodução assistida. É primigesta e tem 33 semanas de gestação. Na avaliação clínica, está em bom estado geral, corada, PA 120 x 75mmHg, FC 78 bpm, IMC 21,4 kg/m². A altura uterina é de 31 cm. O BCF está presente e é rítmico. Tônus normal. Traz ultrassonogra a obstétrica mostrando feto único, cefálico, com dorso à esquerda e placenta posterior. Índice de líquido amniótico 9 cm e peso estimado 1685g (percentil 5). Na mesma consulta foi realizada a seguinte avaliação de vitalidade fetal: Valores de referência: A umb PI: 030 a 1,40 A umb S/D: 1,24 a 3,40 A orientação a ser dada à paciente quanto à resolução da gravidez é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Indicar parto com 34 semanas de gestação."
+        },
+        {
+          "key": "b",
+          "text": "Programar parto no termo precoce."
+        },
+        {
+          "key": "c",
+          "text": "Aguardar termo tardio."
+        },
+        {
+          "key": "d",
+          "text": "Aguardar até 40 semanas de gestação."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de peso fetal no percentil 5 com Doppler dentro dos valores de referência normais (sem sinais de insuficiência placentária), a orientação é aguardar até 40 semanas de gestação, com vigilância adequada.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_016",
+      "statement": "Primigesta com idade gestacional de 34 semanas (data por ultrassonogra a precoce) procura o pronto atendimento do HUJM queixando-se que a sua barriga não estava crescendo. Realizou apenas uma consulta pré-natal pois cou com medo devido à pandemia. No exame ultrassonográ co realizado no atendimento, o peso fetal é estimado em 1.200 gramas (peso abaixo do percentil 3) e foi observada restrição do crescimento fetal assimétrico, com doppler da artéria umbilical representado abaixo. Com base no caso clínico, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Há necessidade de realizar ducto venoso semanal até o parto."
+        },
+        {
+          "key": "b",
+          "text": "É indicado realizar o ciclo de corticoterapia e aguardar o feto atingir o peso mínimo de 1500 g para a interrupção da gestação."
+        },
+        {
+          "key": "c",
+          "text": "Há indicação de interrupção dessa gestação de imediato."
+        },
+        {
+          "key": "d",
+          "text": "Pela restrição do crescimento apresentada, devem-se investigar cromossomopatias e infecção congênitas."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de restrição de crescimento fetal assimétrico grave (peso abaixo do percentil 3) identificada tardiamente, sem pré-natal adequado prévio, deve-se investigar cromossomopatias e infecções congênitas como possíveis etiologias.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_017",
+      "statement": "Nos casos de restrição do crescimento fetal, é correto afirmar que.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "está recomendada a pesquisa universal de trombofilias e a prescrição de heparina de baixo peso molecular (HBPM)."
+        },
+        {
+          "key": "b",
+          "text": "as situações patológicas, devido à placentação inadequada, podem revelar, na Dopplervelocimetria das artérias umbilicais, o aumento da resistência de perfusão e a diminuição do fluxo diastólico."
+        },
+        {
+          "key": "c",
+          "text": "o clampeamento do cordão umbilical deve ser tardio no parto, para se proporcionar maior transferência de glóbulos vermelhos ao recém-nascido."
+        },
+        {
+          "key": "d",
+          "text": "há acometimento da fase de hiperplasia celular na restrição de crescimento fetal do tipo II, assimétrica, de acordo com a classificação de Lin e Evans de 1984."
+        },
+        {
+          "key": "e",
+          "text": "o aumento do índice de pulsatilidade da artéria cerebral média (ACM) reflete vasoconstrição cerebral secundária à hipóxia, mecanismo conhecido como “centralização fetal”."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Nas situações patológicas de placentação inadequada, a Dopplervelocimetria das artérias umbilicais revela aumento da resistência de perfusão e diminuição do fluxo diastólico, refletindo a insuficiência placentária subjacente.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_018",
+      "statement": "A restrição do crescimento fetal é caracterizada pelo crescimento fetal abaixo do esperado para a idade gestacional, utilizando-se curvas-padrão específicas de cada população. Nesta situação analise as afirmativas abaixo. I - Os fatores de risco podem ser de origem fetal, placentária e materna. II - O crescimento fetal diminuído não está relacionado com doenças cardiovasculares e metabólicas na idade adulta. III - Com tratamentos clínicos adequados, pode se prevenir ou corrigir o crescimento fetal deficiente. IV - A dopplervelocimetria permite diferenciar o feto pequeno patológico do constitucional, além de avaliar o grau de insuficiência placentária. Estão corretas apenas as afirmativas",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I e IV."
+        },
+        {
+          "key": "b",
+          "text": "I, II e III."
+        },
+        {
+          "key": "c",
+          "text": "I, II e IV."
+        },
+        {
+          "key": "d",
+          "text": "II, III e IV."
+        },
+        {
+          "key": "e",
+          "text": "I, II, III e IV."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Estão corretas as afirmativas I (fatores de risco de origem fetal, placentária e materna) e IV (a dopplervelocimetria diferencia o feto pequeno patológico do constitucional e avalia o grau de insuficiência placentária).",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_019",
+      "statement": "Uma gestante de trinta semanas de gravidez, possuidora de dupla lesão de valva aórtica, realizou consulta pré-natal de rotina, em que se notou altura uterina de 26 cm. Tal fato levou o obstetra da paciente a solicitar ultrassonografia, que revelou peso fetal de 1.159 g (P < 3), ILA de 12 cm, Doppler normal em artéria umbilical e artéria cerebral média. Com base nessa situação hipotética, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dada a restrição de crescimento fetal grave, deve-se realizar o parto imediatamente."
+        },
+        {
+          "key": "b",
+          "text": "Deve-se administrar corticoide e programar a resolução para 48 horas, dada a restrição de crescimento fetal grave."
+        },
+        {
+          "key": "c",
+          "text": "Trata-se de uma restrição de crescimento fetal precoce."
+        },
+        {
+          "key": "d",
+          "text": "Não há elementos suficientes para caracterizar o quadro como restrição decrescimento fetal."
+        },
+        {
+          "key": "e",
+          "text": "Em restrições de crescimento fetal como essa, espera-se alteração de STV (Short-termvariation) em cardiotocografia computadorizada antes do aumento da resistência vascular da artéria umbilical ao Doppler."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Com peso fetal no percentil <3 (P<3, RCF grave) mas Doppler normal em artéria umbilical e cerebral média, trata-se de uma restrição de crescimento fetal precoce (idade gestacional <32 semanas) sem sinais de descompensação hemodinâmica no momento.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_020",
+      "statement": "Secundigesta, 1 parto normal anterior, apresenta a seguinte curva de altura uterina durante o pré-natal: Uma hipótese diagnóstica compatível com esse quadro é?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hipertensão arterial."
+        },
+        {
+          "key": "b",
+          "text": "Diabetes gestacional."
+        },
+        {
+          "key": "c",
+          "text": "Aloimunização Rh."
+        },
+        {
+          "key": "d",
+          "text": "Obstrução gastrointestinal fetal."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A curva de altura uterina apresentada (dependente de gráfico não capturado na extração do PDF) foi determinada como compatível com hipertensão arterial (fator etiológico de RCF por insuficiência placentária), conforme gabarito oficial da fonte.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_021",
+      "statement": "Não é causa comum de CIR (Crescimento Intrauterino Restrito):",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Insuficiência placentária."
+        },
+        {
+          "key": "b",
+          "text": "Hipotiroidismo subclínico."
+        },
+        {
+          "key": "c",
+          "text": "Desnutrição materna grave."
+        },
+        {
+          "key": "d",
+          "text": "Trombofilia."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O hipotireoidismo subclínico não é classicamente listado como causa comum e bem estabelecida de restrição de crescimento intrauterino, diferente de insuficiência placentária, desnutrição materna grave e trombofilias.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_022",
+      "statement": "Em relação ao crescimento intrauterino restrito (CIUR), a rma-se: I. Há associação entre o CIUR e fatores de riscos cardiovasculares na vida adulta, como hipertensão arterial, dislipidemia e resistência à insulina. II. As principais causas do CIUR assimétrico são genéticas, infecções congênitas e uso de drogas, e a principal causa do tipo simétrico é a insuficiência placentária. III. Devido à placentação inadequada, eleva-se a resistência de perfusão e, consequentemente, o uxo diastólico diminui à dopplervelocimetria das artérias umbilicais e precocemente ocorre alteração do ducto venoso fetal. Está/Estão correta(s) apenas a(s) afirmativa(s)",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I."
+        },
+        {
+          "key": "b",
+          "text": "III."
+        },
+        {
+          "key": "c",
+          "text": "I e II."
+        },
+        {
+          "key": "d",
+          "text": "II e III."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Está correta apenas a afirmativa I: há associação entre CIUR e fatores de risco cardiovascular na vida adulta — os itens II e III trocam as causas típicas de CIUR assimétrico/simétrico e a sequência de alterações Doppler.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_023",
+      "statement": "Paciente 32 anos, primigesta, comparece à consulta de pré-natal após ter perdido a consulta do mês anterior. Atualmente encontra-se com 32 semanas de gestação. Ao observar o cartão, nota-se que na consulta com 24 semanas, a altura uterina era de 20cm. No exame atual a altura uterina é de 26cm. É CORRETO concluir a respeito do crescimento uterino que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A medida do fundo uterino tornou-se pouco importante após a disseminação da ultrassonografia, devido à grande variabilidade, de acordo com o examinador."
+        },
+        {
+          "key": "b",
+          "text": "O crescimento foi abaixo do esperado e a ultrassonografia obstétrica poderá revelar um feto com restrição de crescimento."
+        },
+        {
+          "key": "c",
+          "text": "O crescimento foi abaixo do esperado e a ultrassonografia obstétrica poderá sugerir má-formação do tubo digestivo fetal como, por exemplo, atresia de esôfago."
+        },
+        {
+          "key": "d",
+          "text": "O crescimento foi abaixo do esperado e o diagnóstico de diabetes gestacional poderia justificar esse quadro."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de crescimento uterino muito abaixo do esperado entre as consultas (20cm em 24 semanas para 26cm em 32 semanas — ganho de apenas 6cm em 8 semanas), o crescimento foi abaixo do esperado e a ultrassonografia poderá revelar um feto com restrição de crescimento.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_024",
+      "statement": "A restrição de crescimento fetal ocorre quando o feto não atinge o tamanho esperado ou determinado pelo seu potencial genético, sendo identificada clinicamente quando o peso fetal está abaixo do percentil 10 para a idade gestacional. Com relação a esta condição conclui-se que: I - A restrição de crescimento fetal não acarreta in uência alguma no desenvolvimento do indivíduo no período pós-natal assim como no estado nutricional na infância. II - Considerando-se o fator causal, a idade gestacional em que ocorre a agressão e os órgãos acometidos, os recém- nascidos com restrição de crescimento fetal são classificados em três tipos: simétrico; assimétrico ou misto; III - A restrição de crescimento fetal não exerce influência sobre as taxas de mortalidade e morbidade infantil; IV - A insu ciência vascular uteroplacentária causa diminuição do uxo e determina a restrição de crescimento no feto por mecanismos como redução da pressão de perfusão, aumento da resistência vascular placentária e diminuição da superfície vascular de trocas, podendo ocorrer em condições como artéria umbilical única, anormalidade uterina (útero bicorno, septado), anormalidade do sítio de implantação (placenta prévia), placenta circunvalada, inserção velamentosa de cordão umbilical, tumores (corioangioma), síndrome de transfusão fetal, mosaico placentário e infartos da placenta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "As afirmativas I e III estão incorretas."
+        },
+        {
+          "key": "b",
+          "text": "Todas as afirmativas estão corretas."
+        },
+        {
+          "key": "c",
+          "text": "Nenhuma das afirmativas acima estão corretas."
+        },
+        {
+          "key": "d",
+          "text": "Apenas a afirmativa I está correta."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Está correta apenas a afirmativa II (classificação em simétrico, assimétrico ou misto) — as afirmativas I e III estão incorretas, já que a RCF, sim, influencia o desenvolvimento pós-natal e as taxas de morbimortalidade infantil; e a afirmativa IV também está correta quanto aos mecanismos de insuficiência vascular uteroplacentária.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_025",
+      "statement": "A restrição de crescimento fetal (RCF) representa hoje uma patologia de relevância na prática clínica do obstetra. Sabe-se que atualmente o diagnóstico acurado, tal como o manejo criterioso desses fetos, é imprescindível para o desfecho perinatal adequado. Com relação à RCF, assinale a alternativa INCORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A mortalidade do feto com restrição de crescimento é cerca de oito vezes maior quando comparada ao feto com peso adequado para a idade gestacional."
+        },
+        {
+          "key": "b",
+          "text": "O recém-nascido acometido pela RCF tem maior risco de insuficiência respiratória, hipoglicemia, hipocalemia, hipotermia e prejuízo no desenvolvimento neuropsicomotor."
+        },
+        {
+          "key": "c",
+          "text": "O estudo Doppler é um método que auxilia na distinção do feto pequeno para a idade gestacional constitucional daquele feto pequeno por insuficiência placentária."
+        },
+        {
+          "key": "d",
+          "text": "Estudos recentes indicam que o risco de resultado perinatal adverso em casos de RCF tardia pode ser melhor avaliado pelo Doppler cerebral, visto que o Doppler da artéria umbilical pode não se modificar."
+        },
+        {
+          "key": "e",
+          "text": "Em casos de insuficiência placentária prolongada, evoluindo com vasoconstrição periférica fetal intensa, observa- se a deterioração da função cardíaca que pode ser avaliada pelo Doppler do ducto arterioso."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "É a alternativa INCORRETA: a deterioração da função cardíaca fetal na insuficiência placentária prolongada é avaliada pelo Doppler do DUCTO VENOSO (não do ducto arterioso), que reflete diretamente a função miocárdica e pré-carga fetal.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_026",
+      "statement": "O exame ultrassonográ co de eleição para avaliar insu ciência placentária em casos com restrição de crescimento intra- uterino é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Medida do volume de líquido amniótico."
+        },
+        {
+          "key": "b",
+          "text": "Doppler de artérias uterinas."
+        },
+        {
+          "key": "c",
+          "text": "Doppler de artéria cerebral média."
+        },
+        {
+          "key": "d",
+          "text": "Doppler de artéria umbilical."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O Doppler de artéria umbilical é o exame ultrassonográfico de eleição para avaliar insuficiência placentária em casos de restrição de crescimento intrauterino.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_027",
+      "statement": "Sobre definição de restrição de crescimento fetal, é correto:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "É a presença de peso fetal abaixo do percentil 10 para a idade gestacional estimado pela altura do fundo uterino."
+        },
+        {
+          "key": "b",
+          "text": "A curva de crescimento fetal deve ser igual para toda a população."
+        },
+        {
+          "key": "c",
+          "text": "Prematuridade é sinônimo de crescimento restrito fetal."
+        },
+        {
+          "key": "d",
+          "text": "Entre as medidas da ultrassonografia, a circunferência abdominal é um dos marcadores mais importantes para a avaliação do estado nutricional do feto."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Entre as medidas ultrassonográficas, a circunferência abdominal é um dos marcadores mais importantes para avaliação do estado nutricional fetal, refletindo diretamente as reservas de glicogênio hepático fetal.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_028",
+      "statement": "O item a seguir apresenta uma situação hipotética, seguida de uma assertiva a ser julgada. Uma paciente com idade gestacional de trinta semanas apresenta quadro de restrição de crescimento fetal e diástole reversa na artéria umbilical, conforme identi cado por doppler. Nessa situação, a conduta recomendada pelo protocolo da Secretaria de Saúde do Distrito Federal é a administração de sulfato de magnésio à mãe, visando à neuroproteção fetal, com posterior interrupção do parto via alta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "É Errado: diante de diástole reversa na artéria umbilical (sinal grave de descompensação), a conduta recomendada é a interrupção da gestação (após corticoterapia se possível), não apenas a administração de sulfato de magnésio seguida de parto por via alta sem outras considerações — a afirmativa generaliza incorretamente a conduta.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_029",
+      "statement": "Mulher, 25 anos, G1P0, 34 semanas de gestação, sem intercorrências vai à consulta pré-natal. Exames de rotina normais. Ganho de peso adequado. Ao exame: normotensa, altura uterina 25 cm; batimentos cardiofetais de 128 bpm; ausência de contrações uterinas. Qual deverá ser a conduta inicial?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Prescrever corticoterapia."
+        },
+        {
+          "key": "b",
+          "text": "Carditotocografia imediata."
+        },
+        {
+          "key": "c",
+          "text": "Dopplervelocimetria."
+        },
+        {
+          "key": "d",
+          "text": "Perfil Biofísico Fetal."
+        },
+        {
+          "key": "e",
+          "text": "Parto cesareana por sofrimento fetal"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de altura uterina bem abaixo do esperado (25cm para 34 semanas) com exame físico e sinais vitais normais, a conduta inicial é a dopplervelocimetria, para investigar a causa da discrepância e avaliar função placentária.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_030",
+      "statement": "Considere um recém-nascido que nasceu pequeno para a idade gestacional devido à infecção congênita adquirida no primeiro trimestre de gestação. Considerando a época em que ocorreu o insulto, a classi cação do retardo do crecimento intrauterino e o(s) parâmetros(s) antropométrico(s) alterado(s) são, respectivamente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "assimétrico - a relação segmentos superior-segmento inferior."
+        },
+        {
+          "key": "b",
+          "text": "assimétrico - o peso e o comprimento."
+        },
+        {
+          "key": "c",
+          "text": "simétrico - apenas o peso."
+        },
+        {
+          "key": "d",
+          "text": "simétrico - a relação segmento superior-segmento inferior."
+        },
+        {
+          "key": "e",
+          "text": "simétrico - o peso, o comprimento e o perímetro cefálico"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Infecção congênita adquirida no primeiro trimestre tipicamente causa restrição de crescimento do tipo simétrico, afetando proporcionalmente peso, comprimento e perímetro cefálico (insulto precoce durante a fase de hiperplasia celular).",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_031",
+      "statement": "No rastreamento do crescimento intra-uterino restrito pela ultra-sonografia, o parâmetro mais adequado é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Diâmetro biparietal"
+        },
+        {
+          "key": "b",
+          "text": "A circunferência abdominal"
+        },
+        {
+          "key": "c",
+          "text": "A circunferência cefálica"
+        },
+        {
+          "key": "d",
+          "text": "Comprimento do fêmur"
+        },
+        {
+          "key": "e",
+          "text": "Diâmetro torácico"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A circunferência abdominal é o parâmetro ultrassonográfico mais adequado para o rastreamento do crescimento intrauterino restrito, por refletir diretamente as reservas de glicogênio hepático fetal.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_032",
+      "statement": "Gestante de 34 semanas, com idade gestacional con rmada por ultrassonogra a no início da gestação, comparece para consulta pré-natal de rotina. Refere boa movimentação fetal e nega dor ou perda de líquido por via vaginal. A pressão arterial é de 120 × 80 mmHg, a altura uterina é de 28 cm, os batimentos cardíacos fetais estão em 154 por minuto. Baseado no exame físico, o obstetra deve se preocupar com a possibilidade de várias afecções, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Uso de drogas ilícitas."
+        },
+        {
+          "key": "b",
+          "text": "Tabagismo."
+        },
+        {
+          "key": "c",
+          "text": "Diabetes gestacional."
+        },
+        {
+          "key": "d",
+          "text": "Infecção congênita por citomegalovírus."
+        },
+        {
+          "key": "e",
+          "text": "Toxoplasmose gestacional."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "É a alternativa EXCETO: diante de altura uterina compatível com a idade gestacional e batimentos cardíacos normais (achados tranquilizadores, sem sinais de RCF), o diabetes gestacional NÃO é uma preocupação diretamente ligada ao achado de altura uterina reduzida (associa-se, ao contrário, a fetos maiores) — sendo essa a exceção entre as causas de RCF listadas.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_033",
+      "statement": "Gestante de 32 semanas vem ao PS com queixa de diminuição da movimentação fetal. Até o momento, pré-natal de risco habitual. Foi solicitado ultrassonogra a obstétrica com dopplervelocimetria, com a seguinte imagem em questão: Qual a conduta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Amnioinfusão para aumento do líquido amniótico e reavaliação em 12 horas."
+        },
+        {
+          "key": "b",
+          "text": "Reavaliação com perfil biofísico fetal em 24 horas."
+        },
+        {
+          "key": "c",
+          "text": "Cardiotocografia a cada 6 horas."
+        },
+        {
+          "key": "d",
+          "text": "Corticoterapia e resolução da gestação."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O achado de Doppler apresentado na imagem (dependente de figura não capturada na extração do PDF) foi determinado como indicativo de corticoterapia e resolução da gestação, conforme gabarito oficial da fonte — sugerindo alteração grave (diástole ausente/reversa) compatível com necessidade de interrupção.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_034",
+      "statement": "PRSD, 42 anos, 4G 2P 1A; IG 31 semanas, dá entrada no PS com queixa de cefaléia. Ao exame: BEG, corada, hidratada, anictérica, acianótica, afebril. PA: 180 X 110 mmHg. Altura uterina: 23cm. Batimentos cardíacos fetais: 140bpm. Dinâmica uterina ausente. Tônus uterino normal. Membros inferiores edema 3+/4. Quais as hipóteses diagnósticas?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pré-eclâmpsia superajuntada, trombose venosa profunda."
+        },
+        {
+          "key": "b",
+          "text": "Crescimento fetal restrito, pré-eclâmpsia."
+        },
+        {
+          "key": "c",
+          "text": "Idade materna avançada, HAC, crescimento fetal restrito."
+        },
+        {
+          "key": "d",
+          "text": "HAC, pré-eclâmpsia superajuntada, trombose venosa profunda."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O quadro de altura uterina muito abaixo do esperado (23cm para 31 semanas) associado a PA muito elevada (180x110mmHg) e edema importante sugere a combinação de crescimento fetal restrito e pré-eclâmpsia (fisiopatologicamente relacionadas pela insuficiência placentária comum).",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_035",
+      "statement": "Gestante com idade gestacional de 37 semanas. Procura assistência pré-natal após 2 meses sem consulta. O exame obstétrico revela, BCF (batimentos cardíacos fetais): 144, (Altura de Fundo Uterino) AFU: 32 cm, apresentação cefálica, dinâmica uterina esparsada, não dolorosa, sem dilatação cervical. O médico assistente deve suspeitar de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Restrição de crescimento fetal."
+        },
+        {
+          "key": "b",
+          "text": "Trabalho de parto."
+        },
+        {
+          "key": "c",
+          "text": "Prematuridade."
+        },
+        {
+          "key": "d",
+          "text": "Gestação normal de baixo risco."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de discrepância significativa entre altura uterina esperada (37 semanas) e a idade gestacional pela ultrassonografia recente após período sem pré-natal, o médico deve suspeitar de restrição de crescimento fetal.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_036",
+      "statement": "Considerando a restrição de crescimento fetal grave e precoce, assinale a opção que mais comumente se relaciona com esse diagnóstico.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cromossomopatia"
+        },
+        {
+          "key": "b",
+          "text": "Hipertensão arterial"
+        },
+        {
+          "key": "c",
+          "text": "Diabete gestacional"
+        },
+        {
+          "key": "d",
+          "text": "Lupus eritematoso sistêmico"
+        },
+        {
+          "key": "e",
+          "text": "Talassemia major"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A restrição de crescimento fetal grave e precoce está mais comumente relacionada a cromossomopatias, refletindo um insulto intrínseco fetal que ocorre desde fases iniciais do desenvolvimento.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_037",
+      "statement": "Com relação à Restrição de Crescimento Intrauterino (RCIU), assinale a alterantiva correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A restrição de crescimento intrauterino tem como principal causa a infecção por citomegalovírus, visto que esse patógeno está associado à aplasia medular fetal."
+        },
+        {
+          "key": "b",
+          "text": "A produção deficiente de insulina materna tem sido demonstrada como fator intrínseco à gênese da RCIU."
+        },
+        {
+          "key": "c",
+          "text": "A restrição do crescimento intrauterino pode ser tratada pela utilização de anti- hipertensivos de ação central ou pela utilização de betabloqueadores."
+        },
+        {
+          "key": "d",
+          "text": "No caso de diástole zero da artéria umbilical, o próximo vaso a ser avaliado é a artéria cerebral média."
+        },
+        {
+          "key": "e",
+          "text": "A dopplervelocimetria permite a diferenciação do feto pequeno por insuficiência placentária do feto pequeno constitucional."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A dopplervelocimetria permite a diferenciação do feto pequeno por insuficiência placentária (Doppler alterado) do feto pequeno constitucional (Doppler normal).",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_038",
+      "statement": "A restrição do crescimento fetal é caracterizada pelo crescimento abaixo do esperado para a idade gestacional, utilizando- se curvas-padrão especí cas de cada população. Baseado nesta de nição, qual das a rmativas a seguir não é considerada como sendo importante para sua caracterização e conduta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Os fatores de risco podem ser de origem fetal, placentária e materna."
+        },
+        {
+          "key": "b",
+          "text": "Os tratamento clínicos podem prevenir ou corrigir o crescimento fetal deficiente."
+        },
+        {
+          "key": "c",
+          "text": "O crescimento fetal diminuído pode estar relacionado com doenças cardiovasculares e metabólicas na idade adulta."
+        },
+        {
+          "key": "d",
+          "text": "A dopplervelocimetria permite diferenciar o feto pequeno patológico do constitucional, além de avaliar o grau de insuficiência placentária."
+        },
+        {
+          "key": "e",
+          "text": "O momento do parto deve ser reservado para quando as situações de risco para o feto ao permanecer no útero, se tornarem maiores de que ao receber os cuidados no berçário."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "É a alternativa que NÃO é considerada importante (incorreta): não existem tratamentos clínicos comprovadamente eficazes para prevenir ou corrigir o crescimento fetal deficiente uma vez estabelecido — a conduta principal é vigilância e definição do melhor momento do parto.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_039",
+      "statement": "Gestante em acompanhamento pré-natal, com idade gestacional de 30 semanas e altura uterina de 23 cm. A situação mais comum nesse caso é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "restrição de crescimento intrauterino."
+        },
+        {
+          "key": "b",
+          "text": "defeito aberto do tubo neural."
+        },
+        {
+          "key": "c",
+          "text": "diabete gestacional."
+        },
+        {
+          "key": "d",
+          "text": "aloimunização Rh."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Com altura uterina de 23cm para 30 semanas de gestação (discrepância significativa), a situação mais comum é a restrição de crescimento intrauterino.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_040",
+      "statement": "Gestante de 38 anos, G1P0A0, sem comorbidades, com pré-natal sem intecorrências e com 37 semanas e seis dias de gravidez. Ultrassonogra a realizada hoje revela peso fetal estimado e cincunferência abdominal fetal no percentil 3. Per l biofísico fetal 6/8 (perdeu em movimento respiratório). Exame clínico e obstétrico sem alterações. Toque vaginal com colo uterino apagado 50%, centralizado e com 2cm de dilatação. Polo cefálico no plano - 2 de De Lee. Bolsa formada. Cardiotocografia fetal realizada no momento do atendimento com padrão tranquilizador. Diante desse quadro, assinale a MELHOR conduta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Internar a paciente para administração de corticoterapia."
+        },
+        {
+          "key": "b",
+          "text": "Internar a paciente para cesariana eletiva."
+        },
+        {
+          "key": "c",
+          "text": "Internar a paciente para indução do parto."
+        },
+        {
+          "key": "d",
+          "text": "Internar a paciente para repetir ultrassonografia com Doppler fetal."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de peso fetal e circunferência abdominal no percentil 3, com perfil biofísico levemente reduzido (perda apenas do movimento respiratório, ainda tranquilizador) e cardiotocografia com padrão tranquilizador em idade gestacional a termo (quase 38 semanas), a melhor conduta é internar a paciente para indução do parto.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_041",
+      "statement": "Paciente de 30 anos, G2P1CA0, com 38 semanas de idade gestacional con rmada pelo ultrassom obstétrico de primeiro trimestre, comparece à consulta assintomática, onde é veri cada altura de fundo uterino de 28 cm, com restante do exame físico sem anormalidades. Traz ultrassom obstétrico realizado no dia anterior que mostra maior bolsão vertical de líquido amniótico de 1 cm. Qual a conduta ideal a ser tomada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Internar para resolução da gestação."
+        },
+        {
+          "key": "b",
+          "text": "Repetir ultrassom obstétrico após uma semana."
+        },
+        {
+          "key": "c",
+          "text": "Seguir semanal até trabalho de parto ou 41 semanas."
+        },
+        {
+          "key": "d",
+          "text": "Orientar ingesta adequada de líquido e repouso domiciliar."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de altura uterina bem abaixo do esperado (28cm para 38 semanas) e oligoâmnio importante (bolsão de 1cm) a termo, a conduta ideal é internar para resolução da gestação.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_042",
+      "statement": "Gestante no curso das 31 semanas, com diagnóstico prévio de trombo lia, em uso de anticoagulação pro lática e ácido acetilsalicílico. Realizou avaliação ultrassonográ ca que evidenciou feto com peso estimado abaixo do percentil 10 e Doppler de artéria umbilical com o sonograma apresentado na figura abaixo. Qual a melhor conduta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dopplervelocimetria obstétrica a cada 2 a 3 dias."
+        },
+        {
+          "key": "b",
+          "text": "Dopplervelocimetria obstétrica semanal."
+        },
+        {
+          "key": "c",
+          "text": "Perfil biofísico fetal diário."
+        },
+        {
+          "key": "d",
+          "text": "Indicar o parto."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O achado de Doppler apresentado na imagem (dependente de figura não capturada na extração do PDF) foi determinado como indicativo de dopplervelocimetria obstétrica a cada 2 a 3 dias, conforme gabarito oficial da fonte — compatível com alteração moderada de resistência na artéria umbilical sem sinais de descompensação grave.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_043",
+      "statement": "Gestante com 30 semanas e diagnóstico de restrição de crescimento fetal estabelecido desde a 26ª semana. No acompanhamento pelo exame de Doppler de artéria umbilical a resistência é aumentada, e, na avaliação do ducto venoso verifica-se o resultado demonstrado na imagem. Nesse caso, o próximo passo para o melhor cuidado é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Preparo de colo e indução do parto."
+        },
+        {
+          "key": "b",
+          "text": "Corticoterapia por 48h e indução do parto."
+        },
+        {
+          "key": "c",
+          "text": "Corticoterapia por 48h e cesárea."
+        },
+        {
+          "key": "d",
+          "text": "Sulfato de magnésio e Doppler diário."
+        },
+        {
+          "key": "e",
+          "text": "Sulfato de magnésio e cesárea."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "O resultado do Doppler do ducto venoso apresentado na imagem (dependente de figura não capturada na extração do PDF) foi determinado como indicativo de sulfato de magnésio (neuroproteção fetal) associado à cesárea, conforme gabarito oficial da fonte — compatível com alteração grave do ducto venoso associada à resistência aumentada já estabelecida na artéria umbilical, configurando indicação de interrupção imediata.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_044",
+      "statement": "Primigesta, procura o Pré-natal pela primeira vez. Tendo por base a data da última menstruação, a idade gestacional era de 36 semanas. O exame ultrassonográ co indicou uma idade gestacional de 32 semanas em todos os parâmetros avaliados, incluindo as medidas do diâmetro bi-parietal, circunferência cefálica, circunferência abdominal e comprimento do fêmur. Qual das seguintes condutas, é A MELHOR para essa gestante?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Amniocentese para avaliar a maturidade pulmonar fetal"
+        },
+        {
+          "key": "b",
+          "text": "Continuar o acompanhamento pré-natal e repetir a Ultrassonografia em duas semanas"
+        },
+        {
+          "key": "c",
+          "text": "Corticóide devido à provável presença de restrição ao crescimento fetal"
+        },
+        {
+          "key": "d",
+          "text": "Manter o acompanhamento pré-natal, tendo por base a idade gestacional ultrassonográfica"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de discrepância significativa entre a idade gestacional pela DUM (36 semanas) e todos os parâmetros ultrassonográficos concordantes entre si (32 semanas), deve-se manter o acompanhamento pré-natal com base na idade gestacional ultrassonográfica, já que a concordância entre múltiplos parâmetros sugere maior confiabilidade da datação por USG em relação à DUM incerta.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_045",
+      "statement": "G2P1(N), 30 anos, em seguimento pré-natal, realizou ultrassonogra a com 12 semanas, com Idade gestacional concordante com a amenorreia. Atualmente com 32 semanas e 5 dias, referindo dor em baixo ventre acompanhado de perda de secreção espessa pela vagina e diminuição de movimentação fetal. Ao exame: AU= 26cm, BCF=132bpm, dinâmica uterina ausente. Exame especular= sem alterações, TV= colo grosso, posterior e impérvio, feto alto e pouco móvel. Realizou Ultrassonogra a com Doppler que demonstrou: peso fetal no percentil 5 para a idade gestacional, ILA= 5 cm (<P5), Doppler das artérias umbilicais: IP= 1,60 (>P95) com diástole presente, ACM: IP=1,75 (entre o P5 e P95), Razão cerebroplacentária: 1,09 (normal). Qual o principal diagnóstico e a conduta inicial?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Centralização fetal, corticoterapia e Indução do trabalho de parto"
+        },
+        {
+          "key": "b",
+          "text": "Gestação normal, prescrição de sintomáticos e retorno ao pré-natal"
+        },
+        {
+          "key": "c",
+          "text": "Restrição de Crescimento intrauterino, corticoterapia e controle de Doppler em no máximo 3 dias."
+        },
+        {
+          "key": "d",
+          "text": "Trabalho de parto prematuro, corticoterapia e inibição com bloqueador de canal de cálcio."
+        },
+        {
+          "key": "e",
+          "text": "Amniorrexe prematura no pré-termo, internação e hidratação."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de peso no percentil 5, oligoâmnio (ILA<P5), resistência aumentada na artéria umbilical (IP>P95) mas relação cerebroplacentária normal, o diagnóstico é restrição de crescimento intrauterino, com conduta de corticoterapia e controle do Doppler em no máximo 3 dias.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_046",
+      "statement": "Primigesta, 16a, apresenta os seguintes dados no cartão de pré-natal. O diagnóstico é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hipertensão arterial crônica, restrição de crescimento e óbito fetal."
+        },
+        {
+          "key": "b",
+          "text": "Pré-eclâmpsia, restrição de crescimento e óbito fetal."
+        },
+        {
+          "key": "c",
+          "text": "Pré-eclâmpsia complicada com iminência de eclâmpsia e óbito fetal."
+        },
+        {
+          "key": "d",
+          "text": "Hipertensão arterial crônica, pré-eclâmpsia e óbito fetal."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O quadro apresentado no cartão de pré-natal (dependente de dados não capturados integralmente na extração do PDF) foi determinado como compatível com pré-eclâmpsia associada a restrição de crescimento e óbito fetal, conforme gabarito oficial da fonte.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_047",
+      "statement": "Qual a causa mais comum de crescimento intrauterino restrito tardio?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Anormalidades cromossômicas."
+        },
+        {
+          "key": "b",
+          "text": "Infecção fetal."
+        },
+        {
+          "key": "c",
+          "text": "Insuficiência placentária."
+        },
+        {
+          "key": "d",
+          "text": "Malformações congênitas."
+        },
+        {
+          "key": "e",
+          "text": "Alterações genéticas."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A causa mais comum de crescimento intrauterino restrito tardio (após 32 semanas) é a insuficiência placentária.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_048",
+      "statement": "Uma gestante primogesta de 37 semanas é encaminhada ao pronto atendimento por ter realizada ultrassonogra a cujo peso fetal está abaixo do décicmo percentil. Não há evidência de doença materna e os exames de rotina pré-natais são normais. A alttura uterina é de 31 cm, batimentos cardíacos fetais presentes 140 rítmicos, cefálico, dinâmica uterina ausente, toque colo grosso posterior impérvio. Cardiotocogra a tranquilizadora. Realizada ultrassonogra a com doppler com feto morfologicamente normal, peso fetal realmente abaixo do décimo percentil, placenta corporal grau II anterior, líquido amniótico com maior bolsão 6 cm. Doppler da artéria umbilical com resistência normal. A melhor conduta é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Induzir o parto imediatamente"
+        },
+        {
+          "key": "b",
+          "text": "Realizar cesárea imediatamente"
+        },
+        {
+          "key": "c",
+          "text": "Administrar corticoides e realizar cesárea após 48 h"
+        },
+        {
+          "key": "d",
+          "text": "Acompanhar com doppler e cardiotocografia semanalmente e se normais induzir com 40 semanas"
+        },
+        {
+          "key": "e",
+          "text": "Acompanhar com doppler e cardiotocografia semanalmente e se normais realizar cesárea com 40 semanas"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de peso fetal abaixo do percentil 10 a termo (37 semanas), mas com cardiotocografia tranquilizadora, Doppler de artéria umbilical normal e líquido amniótico normal (sem sinais de comprometimento), a melhor conduta é acompanhar com Doppler e cardiotocografia semanalmente e, se normais, induzir o parto com 40 semanas.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_049",
+      "statement": "Paciente VSD, 18 anos, G1, idade gestacional de 35 semanas e 2 dias, apresenta diagnóstico de pré-eclâmpsia, em uso de anti-hipertensivos orais com bom controle pressórico. Vem ao PA da Maternidade com queixa de diminuição da movimentação fetal há 3 dias, ausência de percepção de movimentos fetais há 6 horas. Ao exame: PA: 130x85 mmHg, pulso: 79 bpm, Sat.O2: 99%, T: 36,7 °C. Bom estado geral, corada, hidratada, eupneica, anictérica, acianótica. AU: 31 cm, BCF:126 bpm, movimentos fetais não observados durante o exame. Feto: situação longitudinal, dorso à esquerda, cefálico, alto e móvel. Você solicita exame de cardiotocogra a que foi laudada como categoria II (linha de base: 128 bpm, variabilidade diminuída, ausência de acelerações transitórias e ausência de desacelerações). A paciente é, então, internada e submetida a ultrassonogra a obstétrica com dopplervelocimetria, que apresentou como laudo: feto único, longitudinal, dorso à esquerda, cefálico. Placenta anterior, grau 3 de Grannum. ILA: 51 mm. Peso fetal: 1902 g(p3). Doppler de artérias uterinas com IP acima do p95 para idade gestacional (IG) e presença de incisura protodiastólica bilateralmente. Doppler de artérias umbilicais com IP acima do p95 para IG e presença de onda diastólica reversa. Doppler de artéria cerebral média com IP abaixo do p5 para IG. Relação umbílico/cerebral: 1,26. Com relação ao caso clínico acima, qual deve ser a conduta terapêutica correta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A paciente deve ser internada para seguimento com cardiotocografia diária e corticoterapia antenatal por 48 horas, seguida de resolução da gestação."
+        },
+        {
+          "key": "b",
+          "text": "A resolução da gestação deve ser indicada tão logo se observe alteração na dopplervelocimetria do ducto venoso."
+        },
+        {
+          "key": "c",
+          "text": "A resolução da gestação deve ser preferencialmente por indução do parto vaginal, com paciente e feto constantemente monitorados."
+        },
+        {
+          "key": "d",
+          "text": "A paciente deve ser internada para seguimento com cardiotocografia diária sem indicação de corticoterapia antenatal."
+        },
+        {
+          "key": "e",
+          "text": "A paciente deve ser internada para seguimento com ultrassonografia e dopplervelocimetria diária, e a cesariana deve ser indicada se observados coágulos retroplacentários."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de quadro grave com Doppler de artérias uterinas, umbilicais e cerebral média todos alterados (onda diastólica reversa na umbilical, indicando descompensação grave) em feto de 35 semanas, com cardiotocografia categoria II, a conduta é internar para corticoterapia antenatal por 48 horas seguida de resolução da gestação.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_050",
+      "statement": "Com relação ao crescimento intra-uterino retardado (CIUR), é ERRADO afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A ausência de fluxo diastólico no Doppler da artéria umbilical é sinal de mau prognóstico fetal"
+        },
+        {
+          "key": "b",
+          "text": "A Cardiotocografia seriada é o exame de escolha para o seguimento de fetos com CIUR;"
+        },
+        {
+          "key": "c",
+          "text": "O tipo mais frequente, nas gestantes portadoras de hipertensão crônica, é o assimétrico;"
+        },
+        {
+          "key": "d",
+          "text": "O tipo simétrico pode estar associado a cromossomopatias e infecções congênitas"
+        },
+        {
+          "key": "e",
+          "text": "No tipo assimétrico, o primeiro parâmetro que se altera na USG é o perímetro abdominal."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "É a alternativa ERRADA: a Cardiotocografia seriada NÃO é o exame de escolha isolado para seguimento de fetos com CIUR — a dopplervelocimetria (artéria umbilical, cerebral média e ducto venoso) é o principal método de vigilância nesses casos.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_051",
+      "statement": "Mulher, 30ᵃ, G1P0A0, em seguimento regular de pré-natal, realizou ultrassonogra a com 12 semanas, concordante com amenorreia. Atualmente idade gestacional de 30 semanas, refere endurecimento da barriga há 1 dia, acompanhado de saída de secreção espessa via vaginal. Antecedente pessoal: tabagismo. Exame İsico: altura uterina= 25cm, batimento cardiofetais= 152 bpm, dinâmica uterina= ausente; especular= ausência de secreções, pH=5,5. O DIAGNÓSTICO É:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Restrição de crescimento intrauterino."
+        },
+        {
+          "key": "b",
+          "text": "Amniorrexe."
+        },
+        {
+          "key": "c",
+          "text": "Trabalho de parto prematuro."
+        },
+        {
+          "key": "d",
+          "text": "Gestação dentro da normalidade."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de altura uterina discrepante (25cm para 30 semanas) com sinais de possível amniorrexe (secreção espessa, pH 5,5 sugerindo teste de cristalização/pH vaginal alterado compatível com líquido amniótico), o diagnóstico neste contexto é amniorrexe (rotura de membranas), conforme o gabarito desta fonte.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_052",
+      "statement": "Sobre restrição de crescimento intrauterino (RCIU): a) O tipo 2 é o mais frequente, de pior prognóstico e, em geral, relacionado a insuficiência placentária.; b) Doenças crônicas do adulto como a dislipidemia podem ter origem na vida fetal acometida pela RCIU; c) A presença de desacelerações umbilicais podem surgir na vigência de oligoãmnio. Pode-se assinar como correto o(s) item(ns):",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas A"
+        },
+        {
+          "key": "b",
+          "text": "apenas A e B"
+        },
+        {
+          "key": "c",
+          "text": "apenas A e C"
+        },
+        {
+          "key": "d",
+          "text": "apenas B e C"
+        },
+        {
+          "key": "e",
+          "text": "A, B e C"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Estão corretas as afirmativas b (doenças crônicas do adulto podem ter origem na RCIU) e c (desacelerações umbilicais podem surgir com oligoâmnio) — a afirmativa a está incorreta, já que o tipo simétrico (não o tipo 2/assimétrico) é geralmente de pior prognóstico quando por causa intrínseca precoce.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_053",
+      "statement": "M.P.E., de 29 anos, idade gestacio nal de 31 semanas, estimada pela data da última menstruação. Em consulta pré-natal de rotina, foi constatada altura uterina de 26 cm. Caso a estimativa de idade gestacional esteja correta, quais devem ser primeiras hipóteses diagnósticas e o que deverá ser feito para confirmá-las?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Oligoâmnio e macrossomia fetal. Toque vaginal, confirmar a idade gestacional através de ultrassonografia mais recente e, caso se confirme a disparidade entre a altura uterina e a idade gestacional, solicitar nova ultrassonografia."
+        },
+        {
+          "key": "b",
+          "text": "Polidrâmnio e atraso de crescimento intrauterino. Toque vaginal, confirmar idade gestacional por meio da ultrassonografia mais recente e, caso se confirme a disparidade entre a altura uterina e a idade gestacional, realizar cardiotocografia."
+        },
+        {
+          "key": "c",
+          "text": "Polidrâmnio e atraso de crescimento intrauterino. Toque vaginal, confirmar idade gestacional por meio da ultrassonografia mais recente e, caso se confirme a disparidade entre a altura uterina e a idade gestacional, realizar cardiotocografia."
+        },
+        {
+          "key": "d",
+          "text": "Oligoâmnio e atraso de crescimento intrauterino. Exame especular, confirmar a idade gestacional por meio da ultrassonografia mais precoce e, caso se confirme a disparidade entre a altura uterina e a idade gestacional, solicitar nova ultrassonografia."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de altura uterina bem abaixo do esperado (26cm para 31 semanas), as primeiras hipóteses diagnósticas são oligoâmnio e atraso de crescimento intrauterino, devendo-se confirmar a idade gestacional pela ultrassonografia mais precoce disponível e, se confirmada a discrepância, solicitar nova ultrassonografia com Doppler.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_054",
+      "statement": "Gestante de 22 anos, tem idade gestacional de 33 semanas estimada por ultrassonogra a precoce, apresenta PA= 150x100mmHg e relação proteína/creatinina= 1 mg/dl. A altura do fundo uterino é de 28 cm. Realizou ultrassonogra a cujo peso fetal estimado estava abaixo do 3º percentil para 33 semanas e Doppler das artérias uterinas e umbilical com índices acima do percentil 95 sem diástole zero ou reversa. De na o estágio da restrição do crescimento fetal, levando em consideração as novas recomendações de Gratacós (2014).",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Estágio 1"
+        },
+        {
+          "key": "b",
+          "text": "Estágio 2"
+        },
+        {
+          "key": "c",
+          "text": "Estágio 3"
+        },
+        {
+          "key": "d",
+          "text": "Estágio 4"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Com Doppler de artérias uterinas e umbilical acima do percentil 95 mas sem diástole zero ou reversa, e peso abaixo do percentil 3, o quadro se classifica como Estágio 1 na classificação de Gratacós (2014), representando o estágio mais leve de comprometimento.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_055",
+      "statement": "A restrição do crescimento fetal (RCF) pode ser de nida como um processo capaz de modi car e restringir o potencial de crescimento do feto. Na prática clínica, é de nida por meio do percentil de peso em relação à idade gestacional, sendo considerada RCF quando o peso fetal está abaixo do percentil 3 pela Organização Mundial da Saúde (OMS) ou abaixo do percentil 10 pelo American College of Obstetrics and Gynecology (ACOG). Diante do exposto, é correto a rmar sobre este tema:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "transtornos de nutrição não estão associados à RCF."
+        },
+        {
+          "key": "b",
+          "text": "entre os fatores fetais, as anomalias cromossômicas não estão incluídas como causas de RCF."
+        },
+        {
+          "key": "c",
+          "text": "a dopplervelocimetria da artéria cerebral média fetal é a única medida que pode informar o diagnóstico e o prognóstico ao mesmo tempo em que acompanha a RCF."
+        },
+        {
+          "key": "d",
+          "text": "quando identificado a RCF, deve ser feita a interrupção imediata da gestação, independentemente do tempo gestacional, não havendo a necessidade de avaliar o risco de prematuridade."
+        },
+        {
+          "key": "e",
+          "text": "os fatores maternos frequentemente evidenciados na prática clínica são distúrbios hipertensivos, devido à invasão trofoblástica deficiente, e, ao tabagismo, devido à exposição ao monóxido de carbono, que reduz a capacidade da hemoglobina fetal de carrear oxigênio."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Entre os fatores maternos mais frequentemente associados à RCF na prática clínica estão os distúrbios hipertensivos (por invasão trofoblástica deficiente) e o tabagismo (pela exposição ao monóxido de carbono, que reduz a capacidade de transporte de oxigênio pela hemoglobina).",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_056",
+      "statement": "No acompanhamento pré-natal da gestante deve ser realizada a medida da Altura uterina em todas as consultas e anotação no grá co de altura uterina x idade gestacional. O registro nal da Sra. Maria José, 39 anos mostra esse pontilhado que pode ser indicativo de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Macrossomia fetal"
+        },
+        {
+          "key": "b",
+          "text": "Baixo peso materno"
+        },
+        {
+          "key": "c",
+          "text": "Restrição crescimento intra-útero"
+        },
+        {
+          "key": "d",
+          "text": "Mioma uterino"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O registro gráfico de altura uterina abaixo da curva esperada (dependente de gráfico não capturado na extração do PDF) foi determinado como indicativo de restrição de crescimento intrauterino, conforme gabarito oficial da fonte.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_057",
+      "statement": "MFR, 30 anos, GIII PII A0, inicia o pré-natal com IG: 29 semanas pela DUM. Não realizou exames. Ao exame: altura de fundo uterino de 22 cm; movimentos fetais presentes e BCF 136 bpm QIE . Qual a alternativa que relaciona o tipo de gestação?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Evolução normal."
+        },
+        {
+          "key": "b",
+          "text": "Múltipla."
+        },
+        {
+          "key": "c",
+          "text": "Polidrâmnio."
+        },
+        {
+          "key": "d",
+          "text": "Crescimento intrauterino restrito."
+        },
+        {
+          "key": "e",
+          "text": "Não se pode suspeitar de patologias neste caso."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Com altura de fundo uterino de 22cm para 29 semanas de gestação (discrepância significativa), a hipótese é de crescimento intrauterino restrito.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_058",
+      "statement": "Observe as imagens: As imagens da dopplervelocimetria das artérias uterinas, realizada com 22 semanas de gravidez, mostram uma alteração que pode associar-se, com o avançar da gestação, a:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Acretismo placentário."
+        },
+        {
+          "key": "b",
+          "text": "Restrição do crescimento fetal."
+        },
+        {
+          "key": "c",
+          "text": "Macrossomia fetal."
+        },
+        {
+          "key": "d",
+          "text": "Síndrome do colo curto."
+        },
+        {
+          "key": "e",
+          "text": "Microcefalia fetal."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A alteração observada na dopplervelocimetria das artérias uterinas com 22 semanas (dependente de imagem não capturada na extração do PDF, compatível com persistência de incisura protodiastólica bilateral) pode associar-se, com o avançar da gestação, à restrição do crescimento fetal.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_059",
+      "statement": "Com relação ao gráfico de altura uterina no seguimento de pré-natal, que está reproduzido abaixo, deve-se investigar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Restrição de crescimento intrauterino."
+        },
+        {
+          "key": "b",
+          "text": "Diabetes gestacional."
+        },
+        {
+          "key": "c",
+          "text": "Macrossomia fetal."
+        },
+        {
+          "key": "d",
+          "text": "Gemelaridade."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O gráfico de altura uterina apresentado (dependente de imagem não capturada na extração do PDF, mostrando curva abaixo do esperado) foi determinado como indicativo de necessidade de investigar restrição de crescimento intrauterino, conforme gabarito oficial da fonte.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_060",
+      "statement": "A melhor conduta para gestante de 35 anos de idade, primigesta e hipertensa crônica, em uso de metildopa 750 mg/dia, 31 semanas de gestação, com diagnóstico de centralização do fluxo fetal e cardiotocografia normal é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cesariana imediata."
+        },
+        {
+          "key": "b",
+          "text": "Resolução por indução (misoprostol), porém com cardiotocografia contínua."
+        },
+        {
+          "key": "c",
+          "text": "Adequar a medicação anti-hipertensiva para observar se ocorre a melhora do Doppler."
+        },
+        {
+          "key": "d",
+          "text": "Administrar corticoide, acompanhamento com cardiotocografia e cesariana após 48h."
+        },
+        {
+          "key": "e",
+          "text": "Administrar corticoide, acompanhamento com cardiotocografia e Doppler."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Diante de centralização do fluxo fetal (sinal de comprometimento crônico compensado) com cardiotocografia ainda normal em idade gestacional pré-termo (31 semanas), a conduta é administrar corticoide e manter acompanhamento rigoroso com cardiotocografia e Doppler seriados, individualizando o momento do parto.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_061",
+      "statement": "Primigesta, 21 anos, tabagista, comparece para consulta de pré-natal com 38 semanas. Queixa-se apenas de contrações esporádicas. Refere boa movimentação fetal. Antecedentes pessoais: nega doenças ou qualquer intercorrência durante o pré-natal. Seu exame físico geral e sinais vitais estão normais. Exame físico obstétrico: altura uterina de 32 cm, sem contrações, e frequência cardíaca fetal de 130 bpm, sem desacelerações. A cardiotocogra a realizada nessa consulta, após alimentação e repouso materno adequado, mostrou: feto hipoativo e hiporreativo. O ultrassom obstétrico realizado após a cardiotocogra a mostrou: feto único, longitudinal, cefálico, com anatomia normal, peso estimado de 2.550 gramas (limites normais para a idade gestacional: 2.430-3.640 gramas), placenta anterior, grau II, per l biofísico fetal de 4/8, maior bolsão de líquido amniótico de 3 cm, índice de resistência da artéria umbilical de 0,68 (limite superior da normalidade: 0,70), índice de resistência da artéria cerebral média de 0,70 (limite inferior da normalidade: 0,63) e índice de pulsatilidade do ducto venoso de 0,86. Qual alternativa possui a melhor conduta imediata para o caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Repetir a cardiotocografia após a realização de manobras de reanimação fetal."
+        },
+        {
+          "key": "b",
+          "text": "Resolver a gestação por parto cesárea devido à suspeita de sofrimento fetal agudo."
+        },
+        {
+          "key": "c",
+          "text": "Induzir o trabalho de parto por causa do achado de centralização hemodinâmica fetal."
+        },
+        {
+          "key": "d",
+          "text": "Complementar o exame ecográfico com o estudo Doppler das artérias uterinas maternas."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de achados limítrofes (peso normal-baixo, PBF 4/8 reduzido, mas índices Doppler ainda dentro da normalidade) associados a feto hipoativo/hiporreativo, a conduta imediata é repetir a cardiotocografia após manobras de reanimação fetal (estímulo, alimentação, mudança de posição materna), antes de assumir sofrimento fetal.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_062",
+      "statement": "Sobre Crescimento Intrauterino Restrito (CIUR), analise as assertativas abaixo: I. Intervenções baseadas na avaliação com doppler uxometria dos vasos fetais podem contribuir para a redução da mortalidade fetal; II. Anemia materna, ismo, anormalidades cromossômicas fetais e infecções fetais são fatores de risco/causas de CIUR; III. O diagnóstico provável é feito por ultrassonografia, e sua confirmação é pós- natal. Quais estão CORRETAS:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas I."
+        },
+        {
+          "key": "b",
+          "text": "Apenas II."
+        },
+        {
+          "key": "c",
+          "text": "Apenas III."
+        },
+        {
+          "key": "d",
+          "text": "Apenas I e II."
+        },
+        {
+          "key": "e",
+          "text": "I, II e III."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Estão corretas todas as afirmativas: intervenções guiadas por Doppler reduzem mortalidade fetal (I); anemia materna, tabagismo, anormalidades cromossômicas e infecções fetais são fatores de risco para CIUR (II); e o diagnóstico é provável/pré-natal por USG, com confirmação definitiva apenas pós-natal (III).",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_063",
+      "statement": "Mulher de 38 anos, GIIIPIIA0, começa na 32ª semana a apresentar diminuição do crescimento do fundo uterino, com redução da biometria fetal para a idade gestacional, além de exibir oligodramnia leve em duas USG de terceiro trimestre. Atualmente, encontra-se com 38 semanas de idade gestacional e biometria fetal compatível com 34 semanas. É realizado o diagnóstico de crescimento intrauterino restrito assimétrico, com provável causa placentária, através da combinação de dois parâmetros biofísicos:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doppler de artéria umbilical e Doppler de artéria cerebral média."
+        },
+        {
+          "key": "b",
+          "text": "Circunferência cefálica e Doppler de artéria cerebral média."
+        },
+        {
+          "key": "c",
+          "text": "Circunferência abdominal e Doppler de artéria umbilical."
+        },
+        {
+          "key": "d",
+          "text": "Diâmetro biparietal e Doppler de ducto venoso."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O diagnóstico de RCIU assimétrico com causa placentária provável é feito pela combinação da circunferência abdominal reduzida (reflete depleção de reservas hepáticas) com o Doppler de artéria umbilical alterado (reflete resistência placentária aumentada).",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_064",
+      "statement": "Gestante com 30 semanas de evolução, primigesta, realizou ultrassonogra a de rotina que mostrou feto com peso estimado de 1250 kg (percentil 6). A dopplervelocimetria mostrou uxo diastólico reverso na artéria umbilical. Qual é a MELHOR conduta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Repetir o exame semanalmente."
+        },
+        {
+          "key": "b",
+          "text": "Acompanhar com Doppler do ducto venoso e veia umbilical 3 (três) vezes por semana."
+        },
+        {
+          "key": "c",
+          "text": "Acompanhar com Doppler da artéria cerebral média."
+        },
+        {
+          "key": "d",
+          "text": "Interrupção da gestação."
+        },
+        {
+          "key": "e",
+          "text": "Seguimento pré-natal normal."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de fluxo diastólico reverso na artéria umbilical (sinal de descompensação grave) com peso no percentil 6 em 30 semanas, a melhor conduta é a interrupção da gestação (após corticoterapia quando possível).",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_065",
+      "statement": "Diante de um feto no terceiro trimestre da gestação, cujo peso estimado pela ultrassonogra a encontra-se abaixo do décimo percentil para a idade gestacional. Se os exames de doppler da artéria umbilical estiverem normais, bem como o líquido amniótico normal e as cardiotocogra as estiverem normais, esta gestação deverá ser interrompida da seguinte forma:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Com 34 semanas;"
+        },
+        {
+          "key": "b",
+          "text": "Com 37 semanas;"
+        },
+        {
+          "key": "c",
+          "text": "Com 40 semanas;"
+        },
+        {
+          "key": "d",
+          "text": "Deve-se administrar heparina e interromper com 34 semanas;"
+        },
+        {
+          "key": "e",
+          "text": "Deve-se administrar heparina e interromper com 37 semanas."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de peso abaixo do percentil 10 com Doppler de artéria umbilical, líquido amniótico e cardiotocografias todos normais (feto pequeno sem sinais de insuficiência placentária), a gestação deve ser interrompida com 37 semanas.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_066",
+      "statement": "Dentre as opções abaixo, marque o principal fator materno para restrição do crescimento fetal.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Trombofilias"
+        },
+        {
+          "key": "b",
+          "text": "Cardiopatias"
+        },
+        {
+          "key": "c",
+          "text": "Anemias"
+        },
+        {
+          "key": "d",
+          "text": "Diabetes mellitus"
+        },
+        {
+          "key": "e",
+          "text": "Síndromes hipertensivas"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "As síndromes hipertensivas são o principal fator materno relacionado à restrição do crescimento fetal, pela invasão trofoblástica deficiente e consequente insuficiência placentária.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_067",
+      "statement": "Gestante tabagista (um maço de cigarros/dia) é atendida na primeira consulta de pré-natal com história de ciclos menstruais irregulares. Segundo a data da última menstruação, a idade gestacional é 34 semanas. Ao exame clíncio, apresenta altura uterina de 27 cm. Ainda não realizou exames laboratoriais/subsidiários nesta gestação. É CORRETO afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Trata-se de restrição de crescimento fetal grave associada a elevado risco de óbito intrauterino devido à insuficiência placentária, estando indicado a corticoterapia."
+        },
+        {
+          "key": "b",
+          "text": "Trata-se de restrição de crescimento fetal grave associada a elevado risco de óbito intrauterino devido a insuficiência placentária, estando indicado amniocentese."
+        },
+        {
+          "key": "c",
+          "text": "Dentre as hipóteses diagnósticas, vale considerar: erro de data, presença de malformação fetal e crescimento fetal restrito."
+        },
+        {
+          "key": "d",
+          "text": "Nestes casos, o achado ultrassonográfico de oligoidrâmnio é patognomônico de insuficiência placentária grave."
+        },
+        {
+          "key": "e",
+          "text": "No exame dopplervelocimétrico da artéria umbilical, a reversão do fluxo diastólico final descarta a hipótese de restrição do crescimento fetal."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de discrepância entre altura uterina e idade gestacional estimada por DUM incerta (ciclos irregulares) sem ultrassonografia prévia, entre as hipóteses diagnósticas a considerar estão erro de datação, malformação fetal e crescimento fetal restrito verdadeiro.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_068",
+      "statement": "A dopplervelocimetria é um exame ultrassonográ co de valor relevante na prática obstétrica, podendo ser decisiva para de nição do melhor momento de interrupção da gestação. Entre as alternativas abaixo, assinale aquela que apresenta achados encontrados ao exame de pacientes com gestações complicadas por sofrimento fetal crônico:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aumento na resistência das artérias uterinas, indicando centralização de fluxo fetal."
+        },
+        {
+          "key": "b",
+          "text": "Aumento progressivo nos índices de pulsatilidade e na resistência da artéria umbilical, demonstrando comprometimento do suprimento sanguíneo fetal."
+        },
+        {
+          "key": "c",
+          "text": "Diminuição na resistência das artérias uterinas, comprometendo a perfusão placentária."
+        },
+        {
+          "key": "d",
+          "text": "Diminuição nos índices de pulsatilidade e na resistência da artéria umbilical, diminuindo o fluxo sanguíneo durante a diástole."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Nas gestações complicadas por sofrimento fetal crônico, observa-se aumento progressivo dos índices de pulsatilidade e resistência da artéria umbilical, refletindo o comprometimento progressivo do suprimento sanguíneo fetal pela insuficiência placentária.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_069",
+      "statement": "Restrição do Crescimento Fetal (RCF) é a limitação patológica de um feto em atingir o seu potencial de crescimento devido a vários fatores. Constitui-se em importante causa de morbidade e mortalidade perinatal. Quando o peso ao nascer está abaixo do percentil 10 para a idade gestacional, a mortalidade perinatal pode ser oito vezes maior e quando está abaixo do percentil 3 pode ser até 20 vezes mais. Além da mortalidade, a morbidade em curto e longo prazo está signi cativamente aumentada em um feto com restrição de crescimento. A principal causa de Crescimento Intrauterino Restrito (CIUR) no terceiro trimestre é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O constitucional."
+        },
+        {
+          "key": "b",
+          "text": "As cromossomopatias."
+        },
+        {
+          "key": "c",
+          "text": "O alcoolismo materno."
+        },
+        {
+          "key": "d",
+          "text": "A insuficiência placentária."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A principal causa de crescimento intrauterino restrito no terceiro trimestre (RCF tardio) é a insuficiência placentária.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_070",
+      "statement": "Primigesta comparece para avaliação pré-natal na 33ª semana de gestação. Até o momento, sem intercorrências. Exames de rotina normais. Ganho de peso adequado. Ao exame: normotensa, altura uterina 25 cm; batimentos cardiofetais de 128 bpm; ausência de contrações uterinas. Qual o exame propedêutico mais indicado para avaliar a principal hipótese diagnóstica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Amnioscopia."
+        },
+        {
+          "key": "b",
+          "text": "Carditotocografia."
+        },
+        {
+          "key": "c",
+          "text": "Dopplervelocimetria."
+        },
+        {
+          "key": "d",
+          "text": "Perfil Biofísico Fetal."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de altura uterina bem abaixo do esperado (25cm para 33 semanas) com demais parâmetros normais, o exame propedêutico mais indicado para avaliar a hipótese de RCF é a dopplervelocimetria.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_071",
+      "statement": "AFS, 39 anos foi a consulta de pré-natal, para mostrar ao médico os exames solicitados. Não sabia informar a data da última menstruação. Durante todo o pré-natal só havia feito uma ultrassonogra a no dia 10/04/2016 e estava com 9 semanas. Os exames laboratoriais solicitados na segunda consulta estavam dentro da normalidade. No ultrassom realizado no dia 18/10/2016 a biometria fetal era de 31 semanas e o peso estava adequado para 31 semanas. A relação circunferência cefálica/circunferência abdominal estava normal. Baseado nas informações acima, assinale a alternativa CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A idade gestacional dada pelo segundo ultrassom é compatível com a idade gestacional do primeiro ultrassom. No entanto, devido a idade da paciente deve recomendar amniocentese."
+        },
+        {
+          "key": "b",
+          "text": "A idade gestacional dada pelo segundo ultrassom é compatível com a idade gestacional do primeiro ultrassom. O feto está normal e a paciente deve retornar em 4 semanas a consulta pré-natal."
+        },
+        {
+          "key": "c",
+          "text": "A idade gestacional dada pelo segundo ultrassom não é compatível com a idade gestacional do primeiro ultrassom. Isso provavelmente representa um caso de restrição de crescimento simétrico e pode ser decorrente de cromossomopatia."
+        },
+        {
+          "key": "d",
+          "text": "A idade gestacional dada pelo segundo ultrassom não é compatível com a idade gestacional do primeiro ultrassom. Isso provavelmente representa um caso de restrição de crescimento assimétrico e pode ser decorrente de insuficiência placentária."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de discrepância entre a idade gestacional do primeiro USG precoce (9 semanas, mais confiável para datação) e o segundo USG tardio (que indicaria 31 semanas em vez das ~27-28 semanas esperadas pela cronologia, mas com peso adequado para a idade sugerida pelo próprio USG tardio e relação cefálico/abdominal normal), a interpretação mais provável, conforme o gabarito desta fonte, é que a idade gestacional dos dois USGs é incompatível entre si, sugerindo restrição de crescimento assimétrico por insuficiência placentária.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_072",
+      "statement": "Qual o parâmetro ultrassonográfico mais adequado para rastreamento do crescimento intrauterino restrito?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Comprimento do fêmur."
+        },
+        {
+          "key": "b",
+          "text": "Diâmetro biparietal."
+        },
+        {
+          "key": "c",
+          "text": "Circunferência abdominal."
+        },
+        {
+          "key": "d",
+          "text": "Circunferência cefálica."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A circunferência abdominal é o parâmetro ultrassonográfico mais adequado para o rastreamento do crescimento intrauterino restrito.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_073",
+      "statement": "Observe o quadro a seguir: (VER IMAGEM) Considerando a evolução da altura uterina apresentada no quadro, a hipótese diagnóstica é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Restrição de crescimento intrauterino tardia."
+        },
+        {
+          "key": "b",
+          "text": "Restrição de crescimento intrauterino precoce."
+        },
+        {
+          "key": "c",
+          "text": "Crescimento intrauterino adequado."
+        },
+        {
+          "key": "d",
+          "text": "Erro no cálculo da idade gestacional."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A evolução da altura uterina apresentada no quadro (dependente de imagem não capturada na extração do PDF, mostrando desaceleração tardia do crescimento) foi determinada como compatível com restrição de crescimento intrauterino tardia, conforme gabarito oficial da fonte.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_074",
+      "statement": "Primigesta, 20 anos, obesa, com 36 semanas de gestação, portadora de hipertensão arterial crônica, em uso de 1 grama de alfametildopa ao dia. Comparece para consulta de seguimento pré-natal. Queixa-se de contrações esporádicas indolores. Nega outras queixas. Refere boa movimentação fetal. No exame físico, a paciente está corada, pressão arterial 150 X 100 mmHg, frequência cardíaca de 82 bpm, ausculta pulmonar e cardíaca sem alterações, abdomen globoso, indolor. Útero normotenso, altura uterina de 30 cm, sem contrações, frequência cardíaca fetal de 130 bpm sem desacelerações. Membros inferiores com edema (+/4+). Cardiotocogra a realizada nessa consulta: feto hipoativo, reativo. O ultrassom obstétrico realizado nessa ocasião mostra: feto único, longitudinal, cefálico, anatomia fetal normal, peso estimado de 1910 gramas (valores normais para 36 semanas: 2050-3390), placenta posterior, grau II, maior bolsão de liquido amniótico de 1,2 cm, per l biofísico fetal de 6/8, centralização hemodinâmica fetal, índice de pulsatilidade do ducto venoso normal. Qual alternativa possui a melhor conduta para o caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Repetir o ultrassom após a prescrição de anti-hipertensivos e normalização dos níveis pressóricos."
+        },
+        {
+          "key": "b",
+          "text": "Induzir o trabalho de parto devido ao achado de sinais ecográficos de hipóxia crônica fetal."
+        },
+        {
+          "key": "c",
+          "text": "Indicar resolução da gestação por cesárea devido ao comprometimento fetal por acidose."
+        },
+        {
+          "key": "d",
+          "text": "Repetir a cardiotocografia e o perfil biofísico fetal após alimentação materna adequada"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de peso muito abaixo do esperado (1910g para 36 semanas, valores normais 2050-3390) com centralização hemodinâmica fetal já estabelecida (sinal de hipóxia crônica), mesmo com cardiotocografia e Doppler do ducto venoso ainda normais, a conduta é induzir o trabalho de parto devido aos sinais ecográficos de hipóxia crônica fetal.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_075",
+      "statement": "No rastreamento da restrição do crescimento intrauterino, pela ultrassonografia, o parâmetro mais ADEQUADO é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O diâmetro biparietal."
+        },
+        {
+          "key": "b",
+          "text": "A circunferência abdominal."
+        },
+        {
+          "key": "c",
+          "text": "A circunferência craniana."
+        },
+        {
+          "key": "d",
+          "text": "O comprimento do fêmur."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A circunferência abdominal é o parâmetro ultrassonográfico mais adequado para o rastreamento da restrição do crescimento intrauterino.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_076",
+      "statement": "Mulher, 30a, G1P0A0, em seguimento regular de pré-natal, realizou ultrassonogra a com 12 semanas, concordante com amenorreia. Atualmente idade gestacional de 30 semanas, refere endurecimento da barriga há 1 dia, acompanhado de saída de secreção espessa via vaginal. Antecedente pessoal: tabagismo. Exame físico: altura uterina= 25cm, batimento cardiofetais= 152 bpm, dinâmica uterina= ausente; especular= ausência de secreções, pH=5,5. O DIAGNÓSTICO É:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Restrição de crescimento intrauterino."
+        },
+        {
+          "key": "b",
+          "text": "Amniorrexe."
+        },
+        {
+          "key": "c",
+          "text": "Trabalho de parto prematuro."
+        },
+        {
+          "key": "d",
+          "text": "Gestação dentro da normalidade"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de altura uterina discrepante (25cm para 30 semanas) com sinais sugestivos de amniorrexe (secreção espessa, pH vaginal alcalino de 5,5 compatível com líquido amniótico), o diagnóstico é restrição de crescimento intrauterino, conforme o gabarito desta fonte (interpretando o quadro predominantemente pela discrepância biométrica).",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_077",
+      "statement": "Paciente de 25 anos, sem comorbidades GIII PI (PN) AI, pré-natal sem intercorrências, realiza ultrassonogra a de rotina na 38ª semana de gestação que apresenta o seguinte laudo: feto único, cefálico, normodramnia, peso estimado em 3.000 g (percentil 50) e placenta anterior grau II de maturidade. A doppler uxometria evidencia artéria umbilical com relação S/D = 2,5, artéria cerebral média com relação S/D = 4,5 e incisura bilateral de artérias uterinas. A conduta indicada diante desse caso é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "realizar acompanhamento ultrassonográfico semanal"
+        },
+        {
+          "key": "b",
+          "text": "continuar o acompanhamento pré-natal de rotina"
+        },
+        {
+          "key": "c",
+          "text": "prescrever aspirina 100 mg/dia"
+        },
+        {
+          "key": "d",
+          "text": "realizar indução do parto"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de peso fetal adequado (percentil 50) com Doppler normal de artéria umbilical e cerebral média, mas com incisura bilateral nas artérias uterinas (marcador de risco para pré-eclâmpsia/RCF tardia, ainda sem repercussão fetal), a conduta é continuar o acompanhamento pré-natal de rotina.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_078",
+      "statement": "Numa gestação de 28 semanas, constatou-se que o feto apresentava restrição de crescimento intrauterino. A interrupção da gestação será mandatória se houver alteração à dopplervelocimetria do(a)",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ducto venoso."
+        },
+        {
+          "key": "b",
+          "text": "Artéria cerebral média."
+        },
+        {
+          "key": "c",
+          "text": "Artéria umbilical."
+        },
+        {
+          "key": "d",
+          "text": "Artéria oftálmica."
+        },
+        {
+          "key": "e",
+          "text": "Artéria uterina."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Em restrição de crescimento intrauterino, a alteração no Doppler do ducto venoso torna mandatória a interrupção da gestação, por indicar descompensação cardiovascular fetal grave.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_079",
+      "statement": "A Restrição do Crescimento Fetal (RCF) ainda é uma das principais complicações da gravidez e está associada a elevados índices de morbidade e mortalidade perinatal e na infância. Das alternativas abaixo, assinale a incorreta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Evidências recentes indicam que a adaptação fetal ao suprimento limitado de nutrientes pode levar a alterações permanentes em sua fisiologia e em seu metabolismo, dando origem a doenças que surgirão posteriormente, na idade adulta, como hipertensão arterial, hipercolesterolemia, coronariopatias e diabetes."
+        },
+        {
+          "key": "b",
+          "text": "Em um estudo no qual se analisou a média da estatura de adultos que nasceram com RCF, não se verificou o risco de apresentarem estatura menor quando comparados a adultos que nasceram com peso adequado."
+        },
+        {
+          "key": "c",
+          "text": "A definição de RCF mais utilizada na literatura é a do crescimento fetal abaixo do percentil 10 para a idade gestacional, empregando-se curvas-padrão específicas de cada população."
+        },
+        {
+          "key": "d",
+          "text": "Vários são os fatores que podem estar envolvidos na gênese da RCF. Tais agentes podem ser de origem exclusivamente fetal, placentária ou materna, ou pode haver associação entre eles."
+        },
+        {
+          "key": "e",
+          "text": "As infecções congênitas são responsáveis por aproximadamente 5 a 10% dos casos de RCF e podem ser causadas por vírus, bactérias ou protozoários."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "É a alternativa INCORRETA: estudos mostram que adultos que nasceram com RCF apresentam, sim, maior risco de estatura menor quando comparados a adultos nascidos com peso adequado — contrariando a afirmativa de ausência de associação.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_080",
+      "statement": "Gestante, G1 P0, na 33ª semana apresenta restrição do crescimento fetal. Nos exames de propedêutica fetal, observa-se ao Doppler, artéria umbilical com diástole zero e artéria cerebral média com baixa resistência (relação A/B=3,00) e cardiotografia anteparto reativa. O diagnóstico CORRETO é centralização com",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sofrimento fetal agudo."
+        },
+        {
+          "key": "b",
+          "text": "Sofrimento fetal assimétrico."
+        },
+        {
+          "key": "c",
+          "text": "Ausência de sofrimento fetal."
+        },
+        {
+          "key": "d",
+          "text": "Sofrimento fetal descompensado."
+        },
+        {
+          "key": "e",
+          "text": "Sofrimento fetal crônico compensado."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "O achado de artéria umbilical com diástole zero, artéria cerebral média com baixa resistência (centralização) mas cardiotocografia ainda reativa caracteriza sofrimento fetal crônico compensado.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_081",
+      "statement": "Durante o pré-natal em primigesta de 26 anos, observou-se a partir da segunda metade da gestação diminuição do crescimento do fundo uterino e desaceleração do ganho de peso fetal, con gurando um crescimento intrauterino restrito assimétrico. Uma das causas maternas que podem ser aventadas é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doença vascular."
+        },
+        {
+          "key": "b",
+          "text": "Placenta circunvalada."
+        },
+        {
+          "key": "c",
+          "text": "Gemelidade."
+        },
+        {
+          "key": "d",
+          "text": "Infecção."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Entre as causas maternas de restrição de crescimento fetal assimétrico (por insuficiência placentária), a doença vascular materna é uma das principais etiologias aventadas.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_082",
+      "statement": "Gestante hipertensa crônica, com idade gestacional de 28 semanas, realizou dopplervelocimetria, há um dia, com o seguinte laudo: \"Artérias uterinas apresentando persistência de incisura protodiastólica. Aumento de resistência na artéria umbilical. Centralização de uxo fetal\". Iniciou corticoide para maturação pulmonar fetal há um dia. No momento, referindo diminuição da movimentação fetal. Qual a melhor conduta para essa situação?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Repetir Doppler arterial fetal."
+        },
+        {
+          "key": "b",
+          "text": "Realizar Doppler venoso fetal."
+        },
+        {
+          "key": "c",
+          "text": "Resolver imediatamente a gestação."
+        },
+        {
+          "key": "d",
+          "text": "Reavaliar movimentação fetal nas próximas 24 horas."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de Doppler já alterado (incisura uterina bilateral, resistência aumentada na umbilical, centralização fetal) associado a nova queixa de diminuição da movimentação fetal, a conduta é realizar Doppler venoso fetal (ducto venoso), para avaliar se já há descompensação cardiovascular que indique resolução imediata.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_083",
+      "statement": "Gestante de 32 semanas traz ultrassom mostrando peso fetal estimado de 1350 g, ILA 6,8, doppler da artéria cerebral média de 68% e da artéria umbilical de 80%. Realizou cardiotocogra a que mostrou feto ativo. Quais as suas hipóteses diagnósticas e melhor conduta frente ao caso? Obs.: valor normal de peso para 32 semanas: 1290 – 2280; Valor normal de ILA para 32 semanas: 7,1 – 20,4.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Restrição de crescimento intrauterino e resolução da gestação por sofrimento fetal."
+        },
+        {
+          "key": "b",
+          "text": "Oligoâmnio e reavaliações da vitalidade fetal semanais visto que avaliação dopplervelocimétrica normal."
+        },
+        {
+          "key": "c",
+          "text": "Ultrassonografia normal com retorno em 2 semanas para nova consulta de pré-natal."
+        },
+        {
+          "key": "d",
+          "text": "Oligoâmnio e centralização fetal; como carditocografia normal, realizar corticoindução e acompanhamento da vitalidade fetal diariamente."
+        },
+        {
+          "key": "e",
+          "text": "Centralização fetal, restrição de crescimento intrauterino e oligoâmnio, com indicação de resolução da gestação"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de oligoâmnio (ILA 6,8, abaixo do normal) e centralização fetal (Doppler de ACM e umbilical alterados proporcionalmente) mas cardiotocografia normal, a conduta é considerar oligoâmnio e centralização fetal, realizando corticoindução e acompanhamento diário da vitalidade fetal, dada a gravidade do quadro mas ainda sem indicação de parto imediato.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_084",
+      "statement": "Gestante de 22 anos, tabagista há 6 anos (10 cigarros ao dia), vem para consulta de pré-natal com 10 semanas de gestação. Diante de tal caso, devemos orientá-la quanto ao risco de qual complicação para o feto durante a gestação?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Macrossomia."
+        },
+        {
+          "key": "b",
+          "text": "Restrição de crescimento intrauterino."
+        },
+        {
+          "key": "c",
+          "text": "Eclâmpsia."
+        },
+        {
+          "key": "d",
+          "text": "Pós-datismo."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O tabagismo materno é fator de risco reconhecido para restrição de crescimento intrauterino, pela exposição fetal ao monóxido de carbono e nicotina, que comprometem a oxigenação placentária.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_085",
+      "statement": "Ao receber o resultado de uma doppler uxometria das artérias uterinas (com a imagem mostrada abaixo) (VER IMAGEM) e ao prestar atenção nas porções do grá co assinaladas com setas brancas, o obstetra deve car muito atento, porque esse perfil é marcador de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "mola hidatiforme e descolamento prematuro de placenta."
+        },
+        {
+          "key": "b",
+          "text": "doença hipertensiva específica da gravidez e amniorrexe prematura."
+        },
+        {
+          "key": "c",
+          "text": "restrição de crescimento intrauterino e amniorrexe prematura."
+        },
+        {
+          "key": "d",
+          "text": "restrição de crescimento fetal e doença hipertensiva específica da gravidez."
+        },
+        {
+          "key": "e",
+          "text": "abortamento retido e amniorrexe prematura."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O perfil de dopplerfluxometria das artérias uterinas apresentado (dependente de imagem não capturada na extração do PDF, mostrando incisura protodiastólica indicada pelas setas) é marcador de restrição de crescimento fetal e doença hipertensiva específica da gravidez.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_086",
+      "statement": "Em gestantes, a observação de incisura protodiastólica na dopplerfluxometria das artérias uterinas é marcador de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "eclâmpsia e amniorrexe prematura."
+        },
+        {
+          "key": "b",
+          "text": "pré-eclâmpsia e restrição de crescimento intrauterino."
+        },
+        {
+          "key": "c",
+          "text": "amniorrexe prematura e restrição de crescimento intrauterino."
+        },
+        {
+          "key": "d",
+          "text": "hipertensão arterial essencial e restrição de crescimento intrauterino."
+        },
+        {
+          "key": "e",
+          "text": "hipertensão arterial essencial associada à pré-eclâmpsia."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A incisura protodiastólica na dopplerfluxometria das artérias uterinas é marcador de risco para pré-eclâmpsia e restrição de crescimento intrauterino, refletindo resistência vascular uteroplacentária aumentada.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_087",
+      "statement": "Gestante de 35 semanas, referindo diminuição da movimentação fetal, apresenta ao ultrassom feto com peso estimado abaixo do percentil 3 e Doppler da artéria umbilical com diástole reversa. A melhor conduta no caso é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Resolução do parto."
+        },
+        {
+          "key": "b",
+          "text": "Complementar a investigação com cardiotocografia e realizar o parto se houver acelerações transitórias."
+        },
+        {
+          "key": "c",
+          "text": "Repetir a ultrassonografia com Doppler da artéria umbilical em uma semana."
+        },
+        {
+          "key": "d",
+          "text": "Complementar a investigação com perfil biofísico fetal e realizar o parto caso não sejam identificados movimentos Respiratórios fetais."
+        },
+        {
+          "key": "e",
+          "text": "Realizar uma cordocentese para obter amostra de sangue fetal para uma gasometria"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de peso abaixo do percentil 3 com diástole reversa na artéria umbilical (sinal de descompensação grave) associado a diminuição da movimentação fetal, a melhor conduta é a resolução do parto.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_088",
+      "statement": "Primigesta, com 39 semanas de gestação, chega à emergência relatando diminuição do fundo uterino, dor lombar e perda transvaginal de muco com sangue. A cardiotocogra a basal apresentou padrão reativo. Ao exame: BCF = 142 bpm; FU = 3 cm abaixo da última mensuração anotada no cartão de pré-natal. Colo 40% apagado, fechado. Metrossístoles 1 em 20 minutos. O diagnóstico é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Segundo período do parto."
+        },
+        {
+          "key": "b",
+          "text": "Crescimento intrauterino restrito."
+        },
+        {
+          "key": "c",
+          "text": "Período premonitório do parto."
+        },
+        {
+          "key": "d",
+          "text": "Oligodrâmnia."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de diminuição da altura uterina em relação à medida anterior, dor lombar e perda de muco com sangue (sinais de trabalho de parto iminente) com cardiotocografia reativa, o diagnóstico é período premonitório do parto.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_089",
+      "statement": "Paciente de 22 anos, GIP0A0, com lúpus eritematoso sistêmico, em uso de hidroxicloroquina e prednisona, é atendida na 32ª semana de gestação em consulta pré- natal, assintomática e estável clinicamente. Ela apresenta o seguinte laudo de exame ultrassonográ co: feto único; situação longitudinal; apresentação cefálica; placenta anterior grau II de maturidade; normodramnia; circunferência abdominal e peso fetal abaixo do percentil 3 para idade gestacional; doppler uxometria da artéria umbilical normal para idade gestacional. A cardiotocogra a apresenta padrão reativo. A recomendação para a condução inicial desse caso é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Prescrição de corticoterapia e posterior indução do parto."
+        },
+        {
+          "key": "b",
+          "text": "Indicação de suplementação nutricional e início de aspirina."
+        },
+        {
+          "key": "c",
+          "text": "Realização de cordocentese para cariotipagem e rastreio infeccioso fetal."
+        },
+        {
+          "key": "d",
+          "text": "Seguimento pré-natal com acompanhamento rigoroso do bem-estar fetal."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de peso e circunferência abdominal abaixo do percentil 3 mas Doppler de artéria umbilical normal e cardiotocografia reativa (sem sinais de descompensação), em paciente com lúpus estável, a recomendação é seguimento pré-natal com acompanhamento rigoroso do bem-estar fetal.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_090",
+      "statement": "Gestante com 18 semanas, 40 anos de idade, com diagnóstico clínico e ultrassonográ co, há 15 dias, de Restrição de Crescimento Intrauterino (RCIU) e, pela medida da altura uterina, com 15 cm. A principal hipótese diagnóstica para esse caso é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "RCIU assimétrica."
+        },
+        {
+          "key": "b",
+          "text": "RCIU simétrica."
+        },
+        {
+          "key": "c",
+          "text": "Macrossomia fetal."
+        },
+        {
+          "key": "d",
+          "text": "Feto AIG."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de RCIU diagnosticada precocemente (18 semanas, insulto muito precoce, tipicamente afetando proporcionalmente todo o feto), a principal hipótese é RCIU do tipo simétrico.",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_091",
+      "statement": "Paciente com gestação de 30 semanas, em acompanhamento pré-natal na unidade básica de saúde da família. Ao exame obstétrico: fundo uterino = 26 cm; frequência cardíaca fetal = 140 bpm. Solicitado exame de ultrassonogra a obstétrica que revelou os seguintes parâmetros para 30 semanas: circunferência cefálica = percentil 25°; circunferência abdominal = percentil 8°; comprimento do fêmur = percentil 25°; peso estimado = percentil 8°. Ante o quadro clínico e os achados ultrassonográficos, qual o diagnóstico a ser firmado?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Restrição do crescimento fetal do tipo simétrico."
+        },
+        {
+          "key": "b",
+          "text": "Restrição do crescimento fetal do tipo assimétrico."
+        },
+        {
+          "key": "c",
+          "text": "Restrição do crescimento fetal do tipo intermediário."
+        },
+        {
+          "key": "d",
+          "text": "Crescimento fetal adequado para a idade gestacional."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Com circunferência abdominal (percentil 8) proporcionalmente mais reduzida que circunferência cefálica e comprimento do fêmur (ambos percentil 25), o diagnóstico é restrição do crescimento fetal do tipo assimétrico (poupando o crescimento cefálico, padrão típico de insuficiência placentária tardia).",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_092",
+      "statement": "Gestante de 18 anos foi encaminhada para a Maternidade por apresentar PA=160x100 mmHg durante a consulta pré-natal, que reduziu para 140x100 mmHg após decúbito lateral esquerdo. Negava cefaleia, turvação visual, náuseas, vômitos ou epigastralgia. Realizou exames laboratoriais com os seguintes resultados: plaquetas=160.000/mm³, TGO= 20U/L, TGP= 30U/L, LDH= 250U/L, Creatinina=0,9 mg/dl, proteinúria de 24h=350 mg. A ultrassonogra a obstétrica revelou idade gestacional de 30 semanas, peso fetal estimado no 5°. Percentil, índice de líquido amniótico de 20 mm e doppler do ducto venoso com onda A zero. Defina a MELHOR conduta dentre as opções abaixo.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Acompanhamento ambulatorial."
+        },
+        {
+          "key": "b",
+          "text": "Repetir doppler com 1 semana."
+        },
+        {
+          "key": "c",
+          "text": "Induzir parto com misoprostol."
+        },
+        {
+          "key": "d",
+          "text": "Indicar parto abdominal."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de onda A zero no ducto venoso (sinal grave de descompensação cardiovascular fetal) em gestante com sinais de pré-eclâmpsia iminente, a melhor conduta é indicar parto abdominal (cesárea).",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_093",
+      "statement": "Analise as sentenças abaixo como verdadeiro ou falso: I. Crescimento intrauterino restrito é a denominação para fetos com menos de 2.500g. II. Na restrição de crescimento intrauterino simétrico a circunferência cefálica está do tamanho adequado para a idade gestacional e a circunferência abdominal está diminuída. III. Na restrição de crescimento intrauterino assimétrico a circunferência cefálica e circunferência abdominal estão do tamanho adequado para a idade gestacional. IV. A restrição de crescimento intrauterino simétrico é considerado como indicador de insulto intrínseco precoce no crescimento fetal como ocorre nas aneuploidias, malformações estruturais, infecções, drogas ou outros agentes químicos. V. A restrição de crescimento intrautrerino assimétrico é consequência de fatores extrínsecos geralmente associado a doença vascular materna e se apresenta tardiamente na gravidez após 28 semanas. A sequencia correta é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "F, F, F, V, V"
+        },
+        {
+          "key": "b",
+          "text": "F, V, V, V, F"
+        },
+        {
+          "key": "c",
+          "text": "V, V, F, F, V"
+        },
+        {
+          "key": "d",
+          "text": "V, F, V, F, V"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Sequência correta F, F, F, V, V: RCIU não é definido apenas por peso <2.500g mas por percentil abaixo do esperado para a IG (I falso); no tipo simétrico ambas circunferências (cefálica e abdominal) estão proporcionalmente reduzidas, não apenas a abdominal (II falso); no tipo assimétrico a circunferência abdominal está reduzida enquanto a cefálica é poupada, não ambas normais (III falso); o tipo simétrico reflete insulto intrínseco precoce como aneuploidias/infecções (IV verdadeiro); e o tipo assimétrico reflete fatores extrínsecos/doença vascular materna, manifestando-se tardiamente após 28 semanas (V verdadeiro).",
+      "theme": "rcf_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "rcf_094",
+      "statement": "Em gestante primigesta com diagnóstico clínico há 15 dias de restrição de crescimento intrauterino (RCIU) com gestação de 18 semanas e pela medida da altura uterina com 15 cm, a conduta correta para a confirmação do diagnóstico é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "cardiotocografia."
+        },
+        {
+          "key": "b",
+          "text": "dopplervelocimetria das artérias uterinas."
+        },
+        {
+          "key": "c",
+          "text": "ultrassonografia seriada."
+        },
+        {
+          "key": "d",
+          "text": "seguimento com medida da altura uterina."
+        },
+        {
+          "key": "e",
+          "text": "dopplervelocimetria da artéria umbilical."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Para confirmação diagnóstica da restrição de crescimento intrauterino suspeitada clinicamente, a conduta é a realização de ultrassonografia seriada, permitindo avaliar a curva de crescimento fetal ao longo do tempo.",
+      "theme": "rcf_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}

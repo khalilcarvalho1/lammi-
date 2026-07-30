@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T20:07:42.119Z",
+  "generatedAt": "2026-07-30T20:29:00.394Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,7 +26,7 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 4186,
+  "totalQuestions": 4625,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
@@ -73,11 +73,17 @@
     "dheg_pe": 47,
     "dheg_hellp": 18,
     "sg_hpp": 98,
+    "inf_outras": 35,
+    "inf_toxo": 61,
     "par_normal": 149,
     "par_cesarea": 10,
     "pn_exames": 23,
     "pn_habitual": 48,
     "pn_alto": 27,
+    "rcf_dx": 93,
+    "obs_rpm": 100,
+    "sif_gestante": 88,
+    "sif_congenita": 62,
     "orto_trauma_basico": 32,
     "ped_aleitamento": 99,
     "ped_alimentacao": 33,
@@ -2174,6 +2180,17 @@
     },
     {
       "area": "obstetricia",
+      "slug": "infeccoes-congenitas",
+      "themes": [
+        "inf_outras",
+        "inf_toxo"
+      ],
+      "questionsCount": 96,
+      "flashcardsCount": 0,
+      "casosCount": 0
+    },
+    {
+      "area": "obstetricia",
       "slug": "parto",
       "themes": [
         "par_normal",
@@ -2208,6 +2225,37 @@
       "slug": "puerperio",
       "themes": [],
       "questionsCount": 0,
+      "flashcardsCount": 0,
+      "casosCount": 0
+    },
+    {
+      "area": "obstetricia",
+      "slug": "restricao-crescimento-fetal",
+      "themes": [
+        "rcf_dx"
+      ],
+      "questionsCount": 93,
+      "flashcardsCount": 0,
+      "casosCount": 0
+    },
+    {
+      "area": "obstetricia",
+      "slug": "rotura-prematura-membranas",
+      "themes": [
+        "obs_rpm"
+      ],
+      "questionsCount": 100,
+      "flashcardsCount": 0,
+      "casosCount": 0
+    },
+    {
+      "area": "obstetricia",
+      "slug": "sifilis",
+      "themes": [
+        "sif_gestante",
+        "sif_congenita"
+      ],
+      "questionsCount": 150,
       "flashcardsCount": 0,
       "casosCount": 0
     },
