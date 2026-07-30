@@ -1,1 +1,920 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "toc_005",
+      "statement": "Adolescente, 12 anos, encaminhada pela psicóloga de sua escola com queixa de arrancar os cabelos. Os pais contam que, sem nenhum desencadeante ambiental, há sete meses a menina começou a arrancar os de cabelo, apresentando extensas áreas de alopecia em todo o couro cabeludo. A menina refere sentir uma necessidade urgente e incontrolável de arrancar os cabelos, seguida de alívio momentâneo. A mãe nota que ela arranca mais cabelos quando ca ansiosa por algum motivo. Também relata que a lha engole os pedacinhos da raíz dos cabelos, bem como aparenta escoriações próximas das unhas das mãos. Relaciona-se bem com seus amigos e, embora não deixe de frequentar a escola, ca mais isolada do que o habitual, pois incomoda-se com as perguntas a respeito de seu cabelo. Nega, porém, sintomas gastrintestinais. A família nega qualquer di culdade de relacionamento em casa ou em outros contextos sociais. Em relação ao caso, qual é o transtorno mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "De escoriação"
+        },
+        {
+          "key": "b",
+          "text": "Tricotilomania"
+        },
+        {
+          "key": "c",
+          "text": "Dismórfico corporal"
+        },
+        {
+          "key": "d",
+          "text": "Obsessivo-compulsivo"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Necessidade urgente e incontrolável de arrancar os próprios cabelos seguida de alívio momentâneo, com alopecia extensa e ingestão dos fios (tricofagia), sem sintomas gastrointestinais atuais, é o quadro clássico de Tricotilomania.",
+      "theme": "ans_toc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_006",
+      "statement": "Homem, 25 anos, trazido por familiares à consulta na atenção primária por apresentar, desde o início da pandemia, mudanças no comportamento, com prejuízo funcional expressivo. Familiares contam que ele apresenta comportamento excessivo de limpeza e preocupações com a higiene, lavando as mãos centenas de vezes ao dia, tomando vários banhos e guardando suas roupas em sacos plásticos. Usa cerca de ½ litro de álcool gel para se higienizar todos os dias e apresenta lesões de pele devido ao comportamento de esfregar as mãos a cada lavagem. Paciente refere medo intenso de ser contaminado pelo vírus da COVID e, mesmo estando sozinho, permanece com o uso de 2 máscaras e face shield em casa, não saindo nem mesmo para o seu pátio, que é amplo e arejado. Entende que seus comportamentos são exagerados, mas não consegue controlá-los, apesar de estar sofrendo intensamente com eles. Sobre a principal hipótese diagnóstica do caso clínico, afirma-se: I. Os sintomas caracterizam um quadro típico de mania, com pensamentos obsessivos de contaminação e rituais de limpeza. II. Os inibidores seletivos da recaptação da serotonina são considerados a primeira linha de tratamento medicamentoso. III. As psicoterapias psicodinâmicas são consideradas intervenções não medicamentosas de primeira linha para casos como esse. Está/Estão correta(s) apenas a(s) afirmativa(s)",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I."
+        },
+        {
+          "key": "b",
+          "text": "II."
+        },
+        {
+          "key": "c",
+          "text": "I e III."
+        },
+        {
+          "key": "d",
+          "text": "II e III."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O quadro (obsessões de contaminação e rituais de limpeza, com insight preservado sobre o exagero do comportamento) caracteriza TOC, não mania. Os ISRS são de fato primeira linha farmacológica (II correta); porém a primeira linha não farmacológica é a Terapia Cognitivo-Comportamental, não a psicoterapia psicodinâmica (III incorreta) — apenas II está correta.",
+      "theme": "ans_toc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_007",
+      "statement": "Analise o caso clínico a seguir. Paciente do sexo feminino, 9 anos de idade, apresenta área de alopecia assimétrica, de contornos bizarros, permeados de os de comprimentos diversos. A dermatoscopia mostrou rompimento da haste do cabelo em diversos níveis, fendas longitudinais e ausência de inflamação pericapilar ou cilindros capilares. Nesse caso, qual é o diagnóstico?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Alopecia areata."
+        },
+        {
+          "key": "b",
+          "text": "Alopecia androgenética"
+        },
+        {
+          "key": "c",
+          "text": "Tricotilomania"
+        },
+        {
+          "key": "d",
+          "text": "Síndrome de Graham-Little-Piccardi-Lassueur."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Área de alopecia com contornos bizarros, fios de comprimentos diversos, rompimento da haste em múltiplos níveis e ausência de inflamação perifolicular na dermatoscopia são achados característicos de Tricotilomania.",
+      "theme": "ans_toc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_009",
+      "statement": "Leia o caso clínico a seguir. Benício, de 24 anos, a rma estar tendo intenso sofrimento por não conseguir ter controle sobre algumas imagens que lhe vêm à consciência a “quase todo momento”. Diz que vê, em seu pensamento, repetidas vezes, a imagem de sua esposa morta e ensaguentada no chão. Tal visualização o faz entrar em estado de “quase desespero” e vê a necessidade de imaginar uma cena agradável dos dois na praia para “anular” esse pensamento. Muitas vezes, acha que, se não zer isso, sua esposa irá morrer antes de chegar em casa. Frequentemente, tem impulsos de agredir alguém com faca ou socos. Esses impulsos são vivenciados como sem contexto, inadequados, contra sua vontade ou seus princípios. No entanto, acontecem repetidas vezes, e ele acha que acontecerá uma catástrofe se não tentar isolar esse impulso repetindo a palavra ‘paz’ sete vezes. Tais sintomas se iniciaram de forma leve há cerca de sete anos e pioraram há um ano. No momento, o paciente apresenta-se altamente disfuncional e em intenso sofrimento. Os sintomas apresentados são característicos de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "obsessões e compulsões."
+        },
+        {
+          "key": "b",
+          "text": "delírios e alucinações."
+        },
+        {
+          "key": "c",
+          "text": "fobias e despersonalização."
+        },
+        {
+          "key": "d",
+          "text": "confabulações e dissociação."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Imagens intrusivas e angustiantes, neutralizadas por rituais mentais (visualizar cena agradável, repetir palavra) para evitar uma catástrofe imaginada, reconhecidas como indesejadas e fora de contexto, caracterizam obsessões e compulsões — não delírios/alucinações, pois o paciente mantém insight sobre o caráter irracional dos pensamentos.",
+      "theme": "ans_toc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_010",
+      "statement": "Paciente do sexo masculino com 19 anos de idade procura seu consultório relatando di culdade em sua vida devida a pensamentos repetitivos e persistentes de contaminação, que o impelem a realizar a higienização de suas mãos e de superfícies, várias vezes sequencialmente. Relata também pensamentos de ter deixado de fazer algo, com comportamentos repetitivos de conferência (relata conferir se sua casa está fechada por muitas vezes). Tais pensamentos e atividades ocupam grande parte do seu dia (em torno de 1h e 30 minutos). Relata ter feito um “check-up” recentemente e não apresenta comorbidades. O paciente percebe que os pensamentos não são compatíveis com a realidade e interferem com suas atividades. Considerando o diagnóstico mais provável, analise as assertivas. I – Comorbidades são comuns, entre as mais frequentes estão depressão, tiques e transtornos alimentares. II – A doença sempre apresenta evolução progressiva e deterioração constante da função psicossocial. III – A fluvoxamina é aprovada para o tratamento desta doença em adultos e crianças. IV – A clomipramina é eficaz nesta doença e bem tolerada. Assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "As assertivas I e II são corretas."
+        },
+        {
+          "key": "b",
+          "text": "As assertivas I e III são corretas."
+        },
+        {
+          "key": "c",
+          "text": "As assertivas II e III são corretas."
+        },
+        {
+          "key": "d",
+          "text": "As assertivas II e IV são corretas."
+        },
+        {
+          "key": "e",
+          "text": "As assertivas III e IV são corretas."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Comorbidades (depressão, tiques, transtornos alimentares) são de fato comuns no TOC (I correta); porém o curso NÃO é sempre progressivo/deteriorante, podendo ser flutuante com períodos de melhora (II incorreta); a fluvoxamina é aprovada para adultos e crianças (III correta); a clomipramina é eficaz mas NÃO é bem tolerada, devido a efeitos anticolinérgicos/cardíacos significativos (IV incorreta) — corretas I e III.",
+      "theme": "ans_toc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_011",
+      "statement": "Durante seu atendimento na demanda espontânea em uma UBS, você atende Dona Marta, de 52 anos. Dona Marta vem com queixa de \"angústia\" e traz o seguinte relato: \"Doutor, desde agosto de 2019, quando minha lha terminou o namoro com um rapaz, eu não consigo superar o m do relacionamento dela, porque ela perdeu a virgindade com esse rapaz. Doutor, eu durmo e acordo pensando nisso, eu não consigo tirar esse problema da minha cabeça. Eu já perdi 7 quilos, desde o m desse relacionamento deles dois. Eu reconheço que isso é ridículo, que não faz sentido, que não me faz bem, mas eu não consigo nem mais ter relação com meu marido desde então. Eu não consigo tirar esses pensamentos da cabeça. Eu cheguei ao ponto de escrever cartas sobre como a vida dele e da minha lha poderia ser. Eu só consigo melhorar essa angústia se eu escrever. Eu já escrevi mais de 30 cartas.\" Considerando o relato de Dona Marta, assinale a alternativa com hipótese diagnóstica mais provável.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Fobia Social."
+        },
+        {
+          "key": "b",
+          "text": "Transtorno Esquizoafetivo."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno Obsessivo Compulsivo."
+        },
+        {
+          "key": "d",
+          "text": "Transtorno de Ansiedade Generalizada."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Pensamento intrusivo e recorrente reconhecido pela própria paciente como sem sentido ('eu reconheço que isso é ridículo'), associado a um ritual compulsivo de alívio (escrever cartas), é característico de Transtorno Obsessivo-Compulsivo.",
+      "theme": "ans_toc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_012",
+      "statement": "Paciente, 10 anos de idade, sexo feminino, é levado ao consultório por sua mãe em decorrência de movimentos involuntários iniciados há cerca de 2 semanas. Os movimentos são espontâneos, incoordenados, melhoram no repouso e se agravam ao estímulo. Além disso, a criança está mais irritada e tem apresentado o hábito de lavar a mão sucessivas vezes durante o dia. Tem antecedente de orofaringite, provavelmente bacteriana, há cerca de 5 meses. Indique o diagnóstico provável e uma opção terapêutica:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Coreia de Syndeham e venlafaxina"
+        },
+        {
+          "key": "b",
+          "text": "Síndrome de Tourette e haloperidol"
+        },
+        {
+          "key": "c",
+          "text": "Coreia de Syndeham e haloperidol"
+        },
+        {
+          "key": "d",
+          "text": "TOC e psicoterapia"
+        },
+        {
+          "key": "e",
+          "text": "TOC e venlafaxina."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "História de faringoamigdalite (provável estreptocócica) 5 meses antes, seguida de movimentos coreiformes, irritabilidade e ritual de lavagem das mãos, sugere Coreia de Sydenham (relacionada à febre reumática/PANDAS), tratada com haloperidol para controle dos movimentos coreicos.",
+      "theme": "ans_toc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_013",
+      "statement": "Com relação aos critérios diagnósticos do Transtorno Dismór co Corporal, segundo o DSM-V, assinale a alternativa correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Despreocupação com um ou mais defeitos ou falhas percebidas na aparência física que não são observáveis ou que parecem leves para os outros."
+        },
+        {
+          "key": "b",
+          "text": "Em algum momento durante o curso do transtorno, o indivíduo executou comportamentos repetitivos (p. ex., verificar-se no espelho, arrumar-se excessivamente, beliscar a pele, buscar tranquilização) ou atos mentais (p. ex., comparando sua aparência com a de outros) em resposta às preocupações com a aparência."
+        },
+        {
+          "key": "c",
+          "text": "A preocupação não causa sofrimento clinicamente significativo ou prejuízo no funcionamento social, profissional ou em outras áreas importantes da vida do indivíduo."
+        },
+        {
+          "key": "d",
+          "text": "A preocupação com a aparência é mais bem explicada por preocupações com a gordura ou o peso corporal em um indivíduo cujos sintomas satisfazem os critérios diagnósticos para um transtorno alimentar."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O critério do DSM-5 para Transtorno Dismórfico Corporal inclui a execução, em algum momento do curso do transtorno, de comportamentos repetitivos (checar no espelho, arrumar-se excessivamente, comparar-se com outros) em resposta às preocupações com a aparência.",
+      "theme": "ans_toc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_014",
+      "statement": "Em conformidade com o DSM-V, até _______________ dos indivíduos com TOC têm um transtorno de tique ao longo da vida. Isso é mais comum no sexo _______________ com início do TOC na infância. A alternativa que corresponde às lacunas é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "80%; masculino."
+        },
+        {
+          "key": "b",
+          "text": "30%; feminino."
+        },
+        {
+          "key": "c",
+          "text": "30%; masculino."
+        },
+        {
+          "key": "d",
+          "text": "80%; feminino."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Segundo o DSM-5, até 30% dos indivíduos com TOC apresentam transtorno de tique ao longo da vida, sendo mais comum no sexo masculino com início do TOC na infância.",
+      "theme": "ans_toc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_015",
+      "statement": "Assinale a alternativa que melhor explique a diferença entre ideias obsessivas e ideias delirantes:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Diferente das ideias obsessivas, as ideias delirantes não são introduzidas de forma repetida e recorrente, já que o indivíduo é capaz de ter maior controle e consciência dos momentos que as ideias delirantes aparecem."
+        },
+        {
+          "key": "b",
+          "text": "Nas ideias delirantes o indivíduo apresenta pensamentos com características e conteúdos específicos, já as ideias obsessivas possuem temas variados ligados à compulsão previamente apresentada pelo indivíduo."
+        },
+        {
+          "key": "c",
+          "text": "As ideias delirantes são exclusivas da esquizofrenia, e as ideias obsessivas podem estar presentes em diversos transtornos mentais psicóticos e não psicóticos."
+        },
+        {
+          "key": "d",
+          "text": "Nas ideias delirantes o indivíduo não reconhece o pensamento como absurdo, já nas ideias obsessivas o indivíduo reconhece os pensamentos como absurdos, mas não consegue se livrar deles."
+        },
+        {
+          "key": "e",
+          "text": "As ideias delirantes podem se apresentar com conteúdos diversos, normalmente paranoico, enquanto as ideias obsessivas são de conteúdo religioso-demoníaco."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A principal diferença é o insight: nas ideias delirantes, o indivíduo não reconhece o pensamento como absurdo (falta de crítica); nas ideias obsessivas, o indivíduo reconhece os pensamentos como absurdos ou excessivos, mas não consegue se livrar deles (insight preservado).",
+      "theme": "ans_toc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_016",
+      "statement": "Homem de 22 anos, estudante de medicina, procura o consultório relatando pensamentos desagradáveis de início há cerca de 4 anos. Tais pensamentos relacionavam-se a medo de ser violento ou “perder o controle”. Esse quadro motivava idas frequentes à igreja para se confessar. Relata medo intenso de se contaminar, agora que está entrando no internato. Esse medo e pensamento ocupam grande parte do seu dia, impedindo muitas vezes a aproximação de pacientes que apresentam sangramento. Qual o provável diagnóstico?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno de ansiedade generalizada."
+        },
+        {
+          "key": "b",
+          "text": "Transtorno obsessivo-compulsivo."
+        },
+        {
+          "key": "c",
+          "text": "Delirium misto."
+        },
+        {
+          "key": "d",
+          "text": "Esquizofrenia paranoide leve."
+        },
+        {
+          "key": "e",
+          "text": "Transtorno paranoide delirante."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Medo de perder o controle/violência e de contaminação, com pensamentos intrusivos ocupando grande parte do dia e interferindo na rotina (evitar pacientes sangrando), configura Transtorno Obsessivo-Compulsivo.",
+      "theme": "ans_toc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_017",
+      "statement": "O transtorno obsessivo-compulsivo (TOC) resulta em sofri- mento e redução da qualidade de vida de pacientes e de seus familiares e em prejuízos para a sociedade. Como o início do transtorno costuma ser precoce e o seu curso crônico, os gastos resultantes são substanciais. Sobre essa patologia pode- se afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "dos casos em tratamento psiquiátrico a taxa de associação do TOC com outros transtornos mentais é de 60%"
+        },
+        {
+          "key": "b",
+          "text": "a frequência com a qual pacientes com TOC apresentam abuso ou dependência de álcool não parece ser muito diferente da população geral"
+        },
+        {
+          "key": "c",
+          "text": "a estratégia de potencialização de inibidores da receptação da serotonina (IRS) em paciente com TOC com um maior volume de evidências favorável à sua administração é o emprego de antipsicóticos ou lítio"
+        },
+        {
+          "key": "d",
+          "text": "segundo o CID-10, para um diagnóstico definitivo, sinto- mas obsessivos, atos compulsivos ou ambos devem estar presentes na maioria dos dias, por pelo menos cinco semanas e ser uma fonte de angústia ou interferência para as atividades"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A frequência de abuso/dependência de álcool em pacientes com TOC não difere significativamente da população geral — diferente de outros transtornos ansiosos, nos quais essa associação é mais marcada.",
+      "theme": "ans_toc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_018",
+      "statement": "O Transtorno ObsessivoCompulsivo (TOC) é um transtorno neuropsiquiátrico que afeta quase 2% da população. Seus sintomas são uma combinação de obsessões, que são pensamentos intrusivos e angustiantes, e compulsões, que são rituais em que o paciente busca alívio para seu sofrimento. Esse transtorno normalmente causa grande prejuízo funcional e sofrimento ao paciente. Assinale a alternativa em que se encontra a melhor opção terapêutica para o tratamento de um TOC:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Paroxetina"
+        },
+        {
+          "key": "b",
+          "text": "Bupropiona + Terapia Cognitivo-comportamental (TCC)"
+        },
+        {
+          "key": "c",
+          "text": "Clomipramina + Terapia Cognitivo-comportamental (TCC)"
+        },
+        {
+          "key": "d",
+          "text": "Fluoxetina + Lítio"
+        },
+        {
+          "key": "e",
+          "text": "Risperidona + Ácido Valproico"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A melhor opção terapêutica para o TOC combina um inibidor da recaptação de serotonina com maior evidência de eficácia no transtorno (clomipramina, antidepressivo tricíclico com ação serotoninérgica potente) associado à Terapia Cognitivo-Comportamental.",
+      "theme": "ans_toc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_019",
+      "statement": "Paciente com dor abdominal crônica, nauseas, vômitos, anorexia, saciedade precoce, emagrecimento e áreas de falha em couro cabeludo. Ao exame físico, não há sinais dignos de nota. RX de abdômen acusa presença de bezoar no estômago. Esse quadro deve-se provavelmente a:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ingestão de leite."
+        },
+        {
+          "key": "b",
+          "text": "Ingestão de alimentos vegetais."
+        },
+        {
+          "key": "c",
+          "text": "Tricotilomania."
+        },
+        {
+          "key": "d",
+          "text": "Uso de nifedipina."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Dor abdominal crônica, náuseas, perda de peso, áreas de alopecia e bezoar gástrico ao RX sugerem tricobezoar, complicação da tricofagia (ingestão dos cabelos arrancados) associada à Tricotilomania.",
+      "theme": "ans_toc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_020",
+      "statement": "Sobre o diagnóstico do TOC na infância, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A idade média de início do TOC na infância é entre 6 e 11 anos."
+        },
+        {
+          "key": "b",
+          "text": "O transtorno nessa faixa etária cursa somente com sintomas obsessivos na maioria dos casos."
+        },
+        {
+          "key": "c",
+          "text": "O sintoma obsessivo de medo de contaminação é raro em crianças com TOC."
+        },
+        {
+          "key": "d",
+          "text": "A criança não ter insight sobre seus sintomas afasta o diagnóstico do TOC."
+        },
+        {
+          "key": "e",
+          "text": "Apresenta-se com um curso agudo, com resolução completa na maior parte dos casos."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A idade média de início do TOC na infância situa-se entre 6 e 11 anos. O TOC infantil costuma cursar com obsessões E compulsões (não apenas obsessões isoladas), a contaminação é um dos temas MAIS comuns (não raro), a ausência de insight não afasta o diagnóstico (é aceita em crianças) e o curso costuma ser crônico/flutuante, não agudo com resolução completa.",
+      "theme": "ans_toc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_023",
+      "statement": "Assinale a alternativa INCORRETA sobre Transtorno Obsessivo-Compulsivo (TOC) na infância e adolescência.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Considerando a hipótese de contribuições imunológicas para o surgimento do TOC, parece existir um subgrupo de crianças e adolescentes com surgimento de sintomas do Transtorno após exposição ou infecção com estreptococo β-hemolítico do grupo A."
+        },
+        {
+          "key": "b",
+          "text": "Tanto a Tomografia Computadorizada quanto a Ressonância Magnética em crianças sem tratamento revelam volumes maiores de segmentos dos gânglios da base, em comparação com controles sadios."
+        },
+        {
+          "key": "c",
+          "text": "As obsessões mais relatadas nessa faixa etária incluem medos extremos de contaminação (exposição a sujeira, germes ou doença)."
+        },
+        {
+          "key": "d",
+          "text": "Psicoterapia Cognitivo-comportamental e tratamento psicofarmacológico com Inibidores Seletivos da Recaptação de Serotonina demonstraram ser tratamentos eficazes nessa faixa etária."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "É a alternativa INCORRETA a que afirma que exames de neuroimagem em crianças com TOC não tratadas revelam volumes MAIORES dos gânglios da base — na literatura, o achado mais consistente é de volumes MENORES dessas estruturas em comparação a controles saudáveis.",
+      "theme": "ans_toc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_026",
+      "statement": "Em relação ao Transtorno Obsessivo Compulsivo, considere as seguintes afirmativas: I- As obsessões são de nidas por pensamentos, impulsos ou imagens recorrentes e persistentes, que em algum momento, são experimentados como intrusivos e indesejados e na maioria dos indivíduos, causam acentuada ansiedade ou sofrimento. II- Nas obsessões o indivíduo tenta ignorar ou suprimir tais pensamentos e impulsos ou neutralizá-los com algum outro pensamento ou ação. III- As compulsões são de nidas por comportamentos repetitivos (p. ex., lavar as mãos, organizar, veri car) ou atos mentais (p. ex., orar, contar ou repetir palavras em silêncio) que o indivíduo se sente compelido a executar em resposta a uma obsessão ou de acordo com regras que devem ser rigidamente aplicadas. IV- Nas compulsões, os comportamentos ou os atos repetitivos, visam prevenir ou reduzir a ansiedade ou o sofrimento, evitar algum evento ou situação temida; entretanto, esses comportamentos ou atos mentais não têm uma conexão com a realidade e são claramente excessivos. Pode-se afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Somente I está correta."
+        },
+        {
+          "key": "b",
+          "text": "Somente as afirmativas I e II estão corretas."
+        },
+        {
+          "key": "c",
+          "text": "Somente as afirmativas I, II e III estão corretas."
+        },
+        {
+          "key": "d",
+          "text": "Todas as afirmativas estão corretas."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Todas as quatro afirmativas descrevem corretamente os critérios do DSM-5 para obsessões (pensamentos/impulsos/imagens intrusivos e indesejados que causam ansiedade) e compulsões (comportamentos/atos mentais repetitivos realizados para reduzir a ansiedade, sem conexão realista com o que pretendem prevenir).",
+      "theme": "ans_toc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_029",
+      "statement": "Adolescente com queixa de perda de cílios e supercílios. Foi observada a rarefação de cílios com diversos pelos quebrados e com tamanhos diferentes. Faz acompanhamento psiquiátrico por distúrbios do humor e alimentar e está com baixo peso e anêmica. Nenhum outro sinal ocular ou sistêmico signi cativo foi detectado. Qual alternativa apresenta a principal hipótese diagnóstica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tricotilomania."
+        },
+        {
+          "key": "b",
+          "text": "Infestação por Sarcoptes scabiei por baixa imunidade."
+        },
+        {
+          "key": "c",
+          "text": "Síndrome paraneoplástica de discrasia sanguínea."
+        },
+        {
+          "key": "d",
+          "text": "Hipovitaminose B3 causando pelagra."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Perda de cílios e supercílios com fios quebrados de tamanhos variados, em paciente com histórico psiquiátrico de transtorno do humor e alimentar, é compatível com Tricotilomania, que pode acometer cílios e supercílios além do couro cabeludo.",
+      "theme": "ans_toc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_030",
+      "statement": "Sintomas de transtornos psiquiátricos podem ou não ocorrer como comorbidades de diagnósticos clínicos e in uenciam a aderência do paciente e a evolução do tratamento. Entre esses sintomas, pode-se observar a ablutomania, que é sugestiva de",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "esquizofrenia hebefrênica."
+        },
+        {
+          "key": "b",
+          "text": "transtorno obsessivo-compulsivo."
+        },
+        {
+          "key": "c",
+          "text": "alteração comportamental decorrente de lesão em lobo temporoparietal."
+        },
+        {
+          "key": "d",
+          "text": "bulimia nervosa."
+        },
+        {
+          "key": "e",
+          "text": "transtorno afetivo bipolar."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Ablutomania (necessidade compulsiva de lavar-se excessivamente) é sintoma clássico sugestivo de Transtorno Obsessivo-Compulsivo.",
+      "theme": "ans_toc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_033",
+      "statement": "Apesar da e cácia comprovada dos agentes serotoninérgicos no tratamento do transtorno obsessivo compulsivo, 40 a 60% dos pacientes não apresentam resposta ou apresentam uma resposta parcial ao tratamento farmacológico de primeira linha. Qual a alternativa correta a respeito da potencialização com antipsicóticos para os inibidores seletivos da recaptação de serotonina (ISRS)?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A potencialização com haloperidol é recomendada (evidências limitadas de estudo controlado)."
+        },
+        {
+          "key": "b",
+          "text": "Na maioria dos estudos, a melhora acontece em aproximadamente 2 semanas."
+        },
+        {
+          "key": "c",
+          "text": "Essa estratégia deve ser iniciada após 6 semanas da máxima dose tolerada de um ISRS."
+        },
+        {
+          "key": "d",
+          "text": "A risperidona pode gerar sintomas obsessivos-compulsivos, geralmente logo após a introdução de dose baixa (>: 1mg)."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A potencialização com haloperidol em pacientes com TOC refratário a ISRS é recomendada, embora com evidências limitadas de estudos controlados — estratégia empregada em casos de resposta parcial ou ausente ao tratamento de primeira linha.",
+      "theme": "ans_toc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_040",
+      "statement": "Em relação a pacientes esquizofrênicos com sintomas obsessivos-compulsivos (SOC), assinale a alternativa correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A prevalência de SOS na esquizofrenia é de 3%."
+        },
+        {
+          "key": "b",
+          "text": "Pacientes esquizofrênicos com SOC apresentam melhor prognóstico."
+        },
+        {
+          "key": "c",
+          "text": "O uso de antipsicóticos atípicos pode exacerbar SOC."
+        },
+        {
+          "key": "d",
+          "text": "O uso de haloperidol é contraindicado para o tratamento de SOC nos pacientes com esquizofrenia."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Em pacientes esquizofrênicos, o uso de antipsicóticos atípicos (especialmente clozapina e olanzapina) pode induzir ou exacerbar sintomas obsessivo-compulsivos — fenômeno bem descrito na literatura, relevante para o manejo farmacológico desses pacientes.",
+      "theme": "ans_toc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_041",
+      "statement": "A ansiedade é um estado de humor desconfortável, uma apreensão negativa em relação ao futuro ou uma inquietação interna desagradável, A ansiedade passa a ser patológica quando se torna uma emoção desagradável e incômoda, que surge sem estímulos externos apropriados para justificá-la, prejudicando o desempenho social e/ou profissional do indivíduo. Existem vários tipo de transtorno de ansiedade. P.S.T., empresário, 45 anos, foi ao médico de família em virtude de estar preocupado devido considerar que a maior frequência de determinados atos repetidos estão trazendo problemas até constrangedores em suas relações sociais e familiares. Refere o paciente a existência de pensamentos obsessivos e descreve atos repetidos e recorrentes. O diagnóstico deste caso é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno de ansiedade generalizada"
+        },
+        {
+          "key": "b",
+          "text": "Transtorno de pânico"
+        },
+        {
+          "key": "c",
+          "text": "Transtorno de ansiedade social"
+        },
+        {
+          "key": "d",
+          "text": "Transtorno obsessivo compulsivo"
+        },
+        {
+          "key": "e",
+          "text": "Transtorno pós-traumático"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Pensamentos obsessivos associados a atos repetidos e recorrentes causando prejuízo social e profissional caracterizam Transtorno Obsessivo-Compulsivo.",
+      "theme": "ans_toc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_050",
+      "statement": "Paciente do sexo masculino, 17 anos, refere que ouve “vozes” dentro da sua cabeça que mandam dar três passos para trás a cada vez que visualizar um carro vermelho; essas “vozes” também mandam repetir “não, não, não” diante de notícias catastró cas que ouça, a m de evitar que essas situações noticiadas aconteçam com ele ou membros de sua família. Diante do caso exposto, qual o diagnóstico pensado pelo psiquiatra que atendeu este paciente, bem como a terapêutica indicada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Esquizofrenia paranoide; haloperidol 10 mg/dia"
+        },
+        {
+          "key": "b",
+          "text": "Transtorno de ansiedade generalizada; paroxetina 20 mg/dia"
+        },
+        {
+          "key": "c",
+          "text": "Transtorno obsessivo-compulsivo; fluoxetina 40 mg/dia"
+        },
+        {
+          "key": "d",
+          "text": "Esquizofrenia simples; risperidona 6 mg/dia"
+        },
+        {
+          "key": "e",
+          "text": "Transtorno obsessivo-compulsivo; amitriptilina 50 mg/dia"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "As 'vozes' descritas são, na verdade, pensamentos internos e comandos egodistônicos que geram rituais neutralizadores (dar passos para trás, repetir palavras) para evitar catástrofes imaginadas — quadro típico de obsessões e compulsões (TOC), tratado com ISRS em dose elevada (fluoxetina 40mg é dose usual para TOC, superior à dose antidepressiva padrão).",
+      "theme": "ans_toc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_057",
+      "statement": "O transtorno obsessivo-compulsivo (TOC) é uma condição psiquiátrica de grande importância epidemiológica, chegando a afetar mais de 2% da população, segundo alguns estudos. O TOC:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "pode se manifestar com a ocorrência de imagens ou impulsos recorrentes, intrusivos e egodistônicos. Muito frequentemente, inicia-se na infância ou adolescência e responde a tratamentos diversos, como, por exemplo, a psicocirurgia e o uso do antidepressivo tricíclico clomipramina."
+        },
+        {
+          "key": "b",
+          "text": "manifesta-se clinicamente com ideias obsessivas e rituais compulsivos. Tem etiologia neurobiológica bem determinada, mas responde melhor à terapia cognitivo- comportamental associada a inibidores seletivos de recaptura de serotonina. Não melhora com o uso de antidepressivos tricíclicos."
+        },
+        {
+          "key": "c",
+          "text": "é uma condição psicologicamente determinada e deve ser tratada primordialmente com o uso de psicoterapia. O uso de antidepressivos promove ação ansiolítica, mas não é capaz de controlar a ocorrência de pensamentos obsessivos."
+        },
+        {
+          "key": "d",
+          "text": "é uma doença mais prevalente entre as mulheres. Inicia-se habitualmente após os 30 anos de idade. Pode ser tratada com terapia cognitivo-comportamental, com psicocirurgia ou com antidepressivos sem ação noradrenérgica."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O TOC pode se manifestar com imagens ou impulsos intrusivos e egodistônicos, frequentemente iniciando na infância/adolescência, respondendo a diversos tratamentos, incluindo psicocirurgia (em casos refratários graves) e a clomipramina.",
+      "theme": "ans_toc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_063",
+      "statement": "Menino de 10 anos apresenta múltiplos tiques associados a tiques vocais, evoluindo com períodos de exacerbação e remissão, com manifestações de Transtorno Obsessivo Compulsivo (TOC), o que acarreta prejuízos acadêmicos e sociais. Esse quadro clínico sugere a hipótese diagnóstica de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno do Déficit de Atenção com Hiperatividade (TDAH) associado à comorbidade TOC."
+        },
+        {
+          "key": "b",
+          "text": "Transtorno Disruptivo."
+        },
+        {
+          "key": "c",
+          "text": "Síndrome de Gilles de La Tourette."
+        },
+        {
+          "key": "d",
+          "text": "Síndrome Hipercinética da Infância."
+        },
+        {
+          "key": "e",
+          "text": "Transtorno do Humor Bipolar."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Tiques motores e vocais múltiplos, com flutuação de exacerbação/remissão, associados a manifestações obsessivo-compulsivas e prejuízo funcional, caracterizam a Síndrome de Gilles de la Tourette (frequentemente comórbida com TOC).",
+      "theme": "ans_toc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_074",
+      "statement": "L.I.L.S., do sexo masculino, de 18 anos, estudante universitário, se diz \"assombrado por imagens e pensamentos de machucar, ferir, agredir outras pessoas\" e teme realizá- los. Diz que eles são recorrentes, incontroláveis e desprovidos de contexto. \"Não tenho motivos para querer agredir determinada pessoa e, de repente, me vem aquele impulso de bater nela, o que me deixa muito angustiado\". \"É como se eu me visse batendo nos outros, podendo ser minha mãe, minha namorada ou até um desconhecido na rua. Sofro muito para tirar isso da cabeça e não fazer aquilo\". Diz que tem rezado muito após a emergência do quadro como forma de tentar o alívio, já que isso tem trazido muito sofrimento e prejuízo tanto na sua vida social quanto na acadêmica por serem intensos e frequentes. O quadro se iniciou há mais de um ano e vem piorando progressivamente. A descrição clínica é compatível com:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "delírios primários, indicando a esquizofrenia paranoica de como principal hipótese diagnóstica."
+        },
+        {
+          "key": "b",
+          "text": "alucinações visuais, indicando a necessidade de exames complementares, como ressonância magnética de crânio, pela possibilidade de apresentar alguma doença cerebral (neoplasia, por exemplo)."
+        },
+        {
+          "key": "c",
+          "text": "obsessões e compulsões, indicando o transtorno obssessivo-compulsivo como principal hipótese diagnóstica."
+        },
+        {
+          "key": "d",
+          "text": "perda de controle dos impulsos, indicando algum subtipo de transtorno de controle dos impulsos (como o transtorno explosivo intermitente) como principal hipótese diagnóstica."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Imagens/impulsos intrusivos e recorrentes de agredir outras pessoas, reconhecidos como incontroláveis e sem contexto/motivação real, neutralizados por rituais (rezar), com sofrimento e prejuízo funcional progressivo, caracterizam obsessões e compulsões — Transtorno Obsessivo-Compulsivo.",
+      "theme": "ans_toc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_090",
+      "statement": "Uma das doenças psiquiátricas mais comuns no nosso meio é o Transtorno Obsessivo Compulsivo, mais conhecido como TOC. Os sintomas compulsivos mais comuns desta doença são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Lavar as mãos para se descontaminar e verificar se as coisas estão como deveriam: porta trancada, gás desligado."
+        },
+        {
+          "key": "b",
+          "text": "Pensamento mágico e rememorar fatos da infância."
+        },
+        {
+          "key": "c",
+          "text": "Ansiedade e vontade de cantar e dançar."
+        },
+        {
+          "key": "d",
+          "text": "Guardar coisas inúteis e telefonar por longo tempo."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Os sintomas compulsivos mais comuns do TOC são lavar as mãos para se descontaminar e verificar repetidamente se as coisas estão como deveriam (porta trancada, gás desligado) — os subtipos de contaminação/limpeza e checagem/verificação são os mais frequentes.",
+      "theme": "ans_toc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_094",
+      "statement": "Em relação ao Transtorno Obsessivo-Compulsivo (TOC), confira a veracidade das seguintes afirmações. I - As obsessões são de nidas como pensamentos egodistônicos recorrentes, enquanto as compulsões são ações ritualizadas que devem ser realizadas para aliviar a ansiedade. II - O TOC é, com frequência, complicado por depressão e por sério prejuízo no funcionamento ocupacional e social. III - Na maioria das vezes, não são identificados os fatores relacionados ao início ou agravamento dos sintomas. Assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas I"
+        },
+        {
+          "key": "b",
+          "text": "Apenas I e II"
+        },
+        {
+          "key": "c",
+          "text": "Apenas I e III"
+        },
+        {
+          "key": "d",
+          "text": "Apenas II e III"
+        },
+        {
+          "key": "e",
+          "text": "I, II e III"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "As obsessões são pensamentos egodistônicos recorrentes e as compulsões são ações ritualizadas para alívio da ansiedade (I correta); o TOC é frequentemente complicado por depressão e prejuízo funcional significativo (II correta); porém, ao contrário do afirmado, frequentemente É possível identificar fatores desencadeantes ou agravantes dos sintomas (estressores, eventos de vida) — III incorreta. Corretas apenas I e II.",
+      "theme": "ans_toc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_096",
+      "statement": "Leia o caso clínico a seguir. Mulher de 28 anos de idade, casada, mãe de duas lhas, encaminhada ao psiquiatra pelo dermatologista após a terceira vez que compareceu ao consultório desse profissional. As consultas foram motivadas pelo aparecimento de lesões erosivas nos joelhos, que após exames inconclusivos ou negativos para as hipóteses diagnósticas aventadas e, mesmo após prescrição de cicatrizantes, estavam piorando. Na última consulta, pressionada pelo marido que a agrara ajoelhando-se repetidamente em chão áspero, contou a seguinte história: ela, católica devota desde criança, três anos antes da consulta começou a ter a mente invadida por imagens em que se via tendo relações sexuais com esculturas de Cristo e dos santos existentes na igreja. Inicialmente, isso só acontecia pouco e só quando se encontrava na igreja. Aumentou gradativamente e, por m, as imagens intrusas entravam em sua mente centenas de vezes ao dia, em qualquer lugar. A única coisa que lhe aliviava a culpa era pedir perdão a Deus, de joelhos, repetidamente. Já não conseguia mais cumprir sua agenda doméstica, tantas eram as interrupções. Escondeu o problema das pessoas, de medo que a julgassem louca. Ajoelhava-se tanto nos últimos meses, que feriu os joelhos, o que chamou a atenção do marido, que a levou ao dermatologista. O quadro clínico descrito preenche os critérios para:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno esquizofreniforme."
+        },
+        {
+          "key": "b",
+          "text": "Transtorno de estresse pós-traumático."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno obsessivo-compulsivo."
+        },
+        {
+          "key": "d",
+          "text": "Transtorno delirante crônico."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Imagens intrusivas sacrílegas recorrentes (temática religiosa/sexual), reconhecidas como indesejadas e causando intensa culpa e vergonha, neutralizadas por um ritual compulsivo (ajoelhar-se repetidamente pedindo perdão, a ponto de causar lesões físicas), é um quadro clássico de Transtorno Obsessivo-Compulsivo de temática religiosa (escrupulosidade).",
+      "theme": "ans_toc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_098",
+      "statement": "Leila, 39 anos, notou aumento da mama, com endurecimento focal, calor e rubor há 4 meses. Automedicou- se com pomadas, sem melhora. Há 2 semanas surgiram febre e ulceração em mama, com saída de secreção purulenta. A mamogra a revela \"classi cação de Bi-rads IV\". Foi ao médico com amiga e, por insistência dela. Leila relata que vem sendo acometida por “pensamentos desagradáveis’’ sobre sexualidade. Reconhece estes pensamentos como seus, eles a constrangem e a fazem se afastar das pessoas, e a única forma que encontrou para tentar se livrar da ansiedade que lhe provocam é lavando as mãos várias vezes ao dia. Com estas informações, a principal hipótese diagnóstica é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Fobia social"
+        },
+        {
+          "key": "b",
+          "text": "Esquizofrenia"
+        },
+        {
+          "key": "c",
+          "text": "Transtorno obsessivo-compulsivo"
+        },
+        {
+          "key": "d",
+          "text": "Transtorno de pânico"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Apesar do achado mamário concomitante (que exige investigação oncológica própria), a queixa psiquiátrica central — pensamentos intrusivos indesejados sobre sexualidade, reconhecidos como próprios mas causando constrangimento e isolamento, neutralizados por rituais de lavagem das mãos — caracteriza Transtorno Obsessivo-Compulsivo.",
+      "theme": "ans_toc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "toc_099",
+      "statement": "No Transtorno Obsessivo Compulsivo (TOC), marque a CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Trata-se de patologia rara na população em geral, com prevalência na ordem de 10/10.000 habitantes."
+        },
+        {
+          "key": "b",
+          "text": "Em geral ocorre de forma isolada, sem estar associada a outros distúrbios psiquiátricos."
+        },
+        {
+          "key": "c",
+          "text": "Não existe aparente substrato anatômico funcional cerebral na gênese desta patologia."
+        },
+        {
+          "key": "d",
+          "text": "Fluoxetina e sertralina estão entre os medicamentos efetivos no controle do TOC."
+        },
+        {
+          "key": "e",
+          "text": "Terapias comportamentais, como exposição gradual ao fator desencadeante, têm resultado pobre, muito inferior à terapia medicamentosa."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Fluoxetina e sertralina (ISRS) estão entre os medicamentos efetivos no controle do TOC. O TOC não é raro (prevalência de cerca de 2% da população, muito maior que 10/10.000), costuma ter comorbidades psiquiátricas frequentes (não isolado), possui substrato anatomofuncional cerebral reconhecido (circuito córtico-estriado-tálamo-cortical), e a terapia comportamental (exposição com prevenção de resposta) tem boa eficácia, comparável ou superior à farmacoterapia isolada em muitos estudos.",
+      "theme": "ans_toc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}

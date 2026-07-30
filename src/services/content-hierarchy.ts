@@ -1138,6 +1138,16 @@ export const AREAS: Area[] = [
           { id: 'sui_manejo',label: 'Manejo na urgência' },
         ]
       },
+      {
+        id: 'psi_somatoformes',
+        label: 'Transtornos Somatoformes e Factícios',
+        subtemas: []
+      },
+      {
+        id: 'psi_trauma',
+        label: 'Transtornos Relacionados a Trauma e Estresse',
+        subtemas: []
+      },
     ]
   },
 

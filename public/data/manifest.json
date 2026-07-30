@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T15:35:24.024Z",
+  "generatedAt": "2026-07-30T16:30:59.879Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,7 +26,7 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 3201,
+  "totalQuestions": 3301,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
@@ -90,7 +90,10 @@
     "tb_tto": 100,
     "tb_dx": 85,
     "tb_mdr": 16,
-    "tb_lat": 75
+    "tb_lat": 75,
+    "psi_somatoformes": 55,
+    "psi_trauma": 14,
+    "ans_toc": 31
   },
   "flashcardThemeCounts": {
     "atls_choque": 3,
@@ -2810,6 +2813,16 @@
     },
     {
       "area": "psiquiatria",
+      "slug": "somatoformes",
+      "themes": [
+        "psi_somatoformes"
+      ],
+      "questionsCount": 55,
+      "flashcardsCount": 0,
+      "casosCount": 0
+    },
+    {
+      "area": "psiquiatria",
       "slug": "tag",
       "themes": [],
       "questionsCount": 0,
@@ -2819,16 +2832,20 @@
     {
       "area": "psiquiatria",
       "slug": "tept",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "psi_trauma"
+      ],
+      "questionsCount": 14,
       "flashcardsCount": 0,
       "casosCount": 0
     },
     {
       "area": "psiquiatria",
       "slug": "toc",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "ans_toc"
+      ],
+      "questionsCount": 31,
       "flashcardsCount": 0,
       "casosCount": 0
     },

@@ -1,0 +1,1672 @@
+{
+  "questions": [
+    {
+      "id": "soma_001",
+      "statement": "Mãe comparece a pronto atendimento com criança de 3 anos com relato de cefaleia intensa e perda de consciência. Em consulta rápida em prontuário digital da unidade são constatadas 15 avaliações no PA nos últimos 6 meses, por diversos motivos (\"palpitação\", \"boca roxa\", \"dor no peito\", \"olhar parado\", \"sonolência excessiva\", \"dor de barriga intensa\", \"vômitos com sangue\", \"fezes esbranquiçadas \"urina laranja\", dentre outras). Ao exame físico não são identi cadas alterações, no momento criança em bom estado geral, sem queixas. Mãe traz consigo diversos exames, dentre eles ecocardiograma, holter. tomogra a computadorizada de crânio, eletroencefalograma, tomogra a computadorizada de abdome, endoscopia digestiva alta, e vários exames laboratoriais, todos sem alterações. A acompanhante exige a internação para realização de \"mais exames e avaliar cirurgia\". Sobre o quadro descrito, é CORRETO afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Deve-se suspeitar de síndrome de Müncchausen por procuração e considerar notificar conselho tutelar e SINAN."
+        },
+        {
+          "key": "b",
+          "text": "Deve-se suspeitar de violência física e psíquica e realizar boletim de ocorrência."
+        },
+        {
+          "key": "c",
+          "text": "Deve-se suspeitar de violência sexual, com provável quadro de somatização, e acionar a psicologia."
+        },
+        {
+          "key": "d",
+          "text": "Deve-se suspeitar de tumor do sistema nervoso central e repetir exames de imagem e acionar neurocirurgia."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O padrão descrito (múltiplas avaliações em pronto atendimento por queixas variadas e inconsistentes, extensa bateria de exames sempre normais, acompanhante que exige internação e mais procedimentos) é altamente sugestivo de síndrome de Münchhausen por procuração — deve-se notificar o Conselho Tutelar e registrar no SINAN, por se tratar de suspeita de maus-tratos infantis.",
+      "theme": "psi_somatoformes",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_002",
+      "statement": "Considerando a apresentação das demandas de saúde mental na atenção primária, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "É comum que os pacientes relatem claramente suas queixas psíquicas."
+        },
+        {
+          "key": "b",
+          "text": "Aproximadamente um terço dos sintomas relatados pelos pacientes permanecerão sem explicação médica mesmo após investigação adequada, apresentando importante associação com sofrimento mental."
+        },
+        {
+          "key": "c",
+          "text": "É imprescindível descartar primeira e exaustivamente todas as possibilidades orgânicas para apenas posteriormente pensar nos aspectos psicossociais."
+        },
+        {
+          "key": "d",
+          "text": "Devem ser prontamente encaminhadas para avaliação na atenção especializada."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Aproximadamente um terço dos sintomas relatados na atenção primária permanece sem explicação médica mesmo após investigação adequada, com importante associação com sofrimento mental — fato epidemiológico central para o manejo de queixas somáticas na APS.",
+      "theme": "psi_somatoformes",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_003",
+      "statement": "Trata-se de um transtorno constituído por sintomas que afetam funções motoras/sensoriais voluntárias, sugerindo etiologia neurológica, embora seja causado por fatores psicológicos. Costuma ser precedido por forte estresse emocional, apesar de não haver intencionalidade na produção de sintomas. Historicamente, já foi chamado de “Histeria”, termo em desuso hoje. A nomenclatura atual desse transtorno é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno de Sintomas Somáticos."
+        },
+        {
+          "key": "b",
+          "text": "Transtorno Hipocondríaco."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno Factício."
+        },
+        {
+          "key": "d",
+          "text": "Transtorno Conversivo."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O transtorno com sintomas motores/sensoriais sugestivos de doença neurológica, mas de origem psicológica, sem intencionalidade, antigamente chamado de 'histeria', é atualmente denominado Transtorno Conversivo (DSM-5).",
+      "theme": "psi_somatoformes",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_004",
+      "statement": "Fábio, 19 anos, homem transgênero, negro, estudante cotista de administração em uma faculdade particular. Acompanhado pela mãe, vai à consulta em UBS com Médico de Família e Comunidade (MFC) por queixa de dor abdominal intensa em crises, há 6 meses. Procurou a emergência 3 vezes neste período e foi medicado com soro e analgésicos endovenosos com melhora parcial dos sintomas. Refere dor em pontada em regiões diferentes do abdome, acompanhadas de náuseas. Nega febre, vômitos, alterações urinárias. Realizou exames de sangue, ultrassom abdominal e exames de urina sem alterações. Está muito preocupado, com medo de ter alguma doença grave. Sente-se culpado porque sua mãe está preocupada e perde o sono por isso. Não tem histórico pessoal de doenças, seus pais são vivos e saudáveis e não tem irmãos. O médico de família investiga alimentação, hábitos, prática de exercícios físicos e percebe que desde que começou a faculdade, há 9 meses, parou de ter hábitos saudáveis, embora praticasse corrida e futebol antes. O paciente considera que deveria estar feliz na faculdade, que era um sonho realizado poder estudar, mas tem se sentido rejeitado pelos colegas e não sabe se vai conseguir continuar, refere tristeza maior parte do tempo. Exame físico normal. Entre os seguintes planos de tratamento e seguimento o melhor a ser oferecido pelo MFC é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Explicar ao paciente que seus sintomas são característicos de transtorno mental causado pelas alterações em sua vida. Prescrever antidepressivo e encaminhar o paciente para seguimento com o psiquiatra da UBS."
+        },
+        {
+          "key": "b",
+          "text": "Utilizar o método clínico centrado na pessoa para compreender os sentimentos relacionados ao sofrimento do paciente e prejuízo em suas funções. Prescrever analgésico. Seguir com equipe multiprofissional na UBS."
+        },
+        {
+          "key": "c",
+          "text": "Repetir os exames laboratoriais e solicitar novos exames de imagem caso aparecerem sinais de alerta com o objetivo de avaliar surgimento de lesões e para tranquilizar o paciente. Seguir com equipe multiprofissional na UBS."
+        },
+        {
+          "key": "d",
+          "text": "Explicar para o paciente e à sua mãe que a ausência de alterações no exame físico e nos exames suplementares indicam ausência de doenças físicas. Prescrever analgésicos e encaminhar para avaliação com psiquiatra."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A melhor conduta é utilizar o método clínico centrado na pessoa, buscando compreender os sentimentos e o sofrimento do paciente relacionados ao contexto de vida (adaptação à faculdade, sentimento de rejeição, tristeza), oferecendo alívio sintomático e seguimento multiprofissional na UBS — evitando tanto a psiquiatrização precoce quanto a reafirmação de que 'não há nada' de errado.",
+      "theme": "psi_somatoformes",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_008",
+      "statement": "Conceição tem 40 anos e busca a Unidade Básica de Saúde (UBS) com queixa de dor no peito. Na UBS, ela mantém, com o médico de família e comunidade (MFC), o diálogo abaixo. A paciente realizou investigação, e foram excluídas causas cardíacas e pulmonares. Diante disso, de acordo com os princípios da medicina de família e comunidade, a melhor abordagem do médico para explicar os sintomas físicos como somatização é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "“Você não tem nenhuma doença no corpo. Não se preocupe, não é nada. Você verá que vai passar sem precisarmos fazer nada” (O Médico de Família e Comunidade é um clínico qualificado)."
+        },
+        {
+          "key": "b",
+          "text": "“Isso é tudo fruto da sua cabeça e precisa tentar esquecer esses problemas. Se quiser, posso te encaminhar para um psicólogo” (O médico de família é coordenador do cuidado)."
+        },
+        {
+          "key": "c",
+          "text": "“Tome estes medicamentos para alívio da dor e você verá que vai passar. Volte em 15 dias para conversarmos novamente” (O Médico de Família e Comunidade é o recurso de uma população definida)."
+        },
+        {
+          "key": "d",
+          "text": "“Algumas situações de estresse e nervosismo podem fazer com que o corpo reaja com sintomas, como dor no peito. A senhora pode falar sobre isso comigo também, caso se sinta à vontade\" (A relação médico-pessoa é fundamental para o desempenho do Médico de Família e Comunidade)."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A melhor abordagem para explicar sintomas físicos como somatização é validar a experiência do paciente e apresentar a conexão mente-corpo (estresse podendo gerar sintomas físicos), mantendo a porta aberta para o diálogo — coerente com a relação médico-pessoa como fundamento da Medicina de Família e Comunidade.",
+      "theme": "psi_somatoformes",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_022",
+      "statement": "Uma equipe de saúde de certa unidade básica está preocupada com os altos índices de solicitações de atestados médicos com diagnósticos de transtornos mentais, para ns de perícia médica, e de pedidos de benefício saúde. Grande parte das pessoas solicitantes são mulheres desempregadas, em uso de inibidores seletivos de serotonina e benzodiazepínicos. Esse cenário piorou com a pandemia da Covid-19. Diante desse quadro, o serviço deseja desenvolver ações com base na Política Nacional de Saúde Mental para reverter essa situação. Tendo em vista esse caso e os conhecimentos médicos correlatos, julgue os itens a seguir. Uma atividade terapêutica, para a população em questão, é a terapia de solução de problemas, que se refere a um processo de abordagem de pacientes com sofrimento emocional/transtornos psíquicos, que buscam cuidados na atenção primária, geralmente com sintomas físicos sem explicação médica.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A terapia de solução de problemas é de fato uma intervenção terapêutica reconhecida para pacientes com sofrimento emocional/sintomas físicos sem explicação médica na atenção primária. Afirmação Certa.",
+      "theme": "psi_somatoformes",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_024",
+      "statement": "São características gerais da Síndrome de Münchhausen por procuração: I. Queixas constantes de sinais e sintomas de doenças, de várias localizações, associadas com patologias habituais, porém, sem resposta aos tratamentos. II. Busca de atendimento médico frequente, por parte do agressor, por queixas de sintomas xos e sem resposta aos tratamentos convencionais, ou com sintomas variados e procura de consultas em especialistas de diversas áreas, sem obtenção de melhora. III. Da parte da criança, a vítima, há uma colagem no discurso do agressor, muitas vezes repetindo com as mesmas palavras a queixa de ter sintomas dos quais não sabe nem o significado. Quais estão corretas?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas I e II."
+        },
+        {
+          "key": "b",
+          "text": "Apenas I e III."
+        },
+        {
+          "key": "c",
+          "text": "Apenas II e III."
+        },
+        {
+          "key": "d",
+          "text": "I, II e III."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Todas as três características descritas (queixas persistentes sem resposta a tratamento, busca frequente de atendimento por parte do agressor, e a criança repetindo o discurso do agressor sobre sintomas que não compreende) são características reconhecidas da síndrome de Münchhausen por procuração.",
+      "theme": "psi_somatoformes",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_025",
+      "statement": "Sobre o caso clínico a seguir: Paciente 14 anos apresentando quadro de desmaios, as vezes se debate quando cai, fraqueza, hipotonia muscular sem liberação es ncteriana ou quadro pós ictal. Esses sintomas iniciaram há cerca de 7 meses após episódio de bullying na escola e outros eventos estressores. Tem apresentado prejuízo em sua vida. Não está mais frequentado escola há cerca de 3 semanas, nem o curso de dança que tanto gostava. Já passou por diversas especialidades médicas e foram realizados diversos exames sem alterações que justi quem o quadro. Exames laboratoriais e de imagem são sempre normais. Paciente sem comorbidades e sem uso de substâncias psicoativas. Qual o provável diagnóstico?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno de somatização"
+        },
+        {
+          "key": "b",
+          "text": "Transtorno psicótico"
+        },
+        {
+          "key": "c",
+          "text": "Transtorno de personalidade histriônico"
+        },
+        {
+          "key": "d",
+          "text": "Transtorno de personalidade borderline"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O quadro (episódios paroxísticos sem liberação esfincteriana ou período pós-ictal, iniciados após estressor psicossocial claro — bullying —, com extensa investigação negativa e importante prejuízo funcional) é compatível com transtorno de somatização, dentro do espectro dos transtornos de sintomas somáticos/funcionais desencadeados por estresse.",
+      "theme": "psi_somatoformes",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_028",
+      "statement": "É característica da síndrome de Munchausen por procuração:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Deixar sequelas físicas e psíquicas, com a criança assumindo o papel de doente, frágil e dependente de seu agressor."
+        },
+        {
+          "key": "b",
+          "text": "Agressor com psicopatologia diagnosticada, compulsivo, que utiliza a criança para seus rituais sadomasoquistas."
+        },
+        {
+          "key": "c",
+          "text": "Forma de autoagressão, com a simulação de doença para obtenção de vantagens pessoais."
+        },
+        {
+          "key": "d",
+          "text": "Classificada como transtorno somatoforme, em que a criança simula a doença para chamar a atenção dos pais e do meio médico."
+        },
+        {
+          "key": "e",
+          "text": "Nenhuma das anteriores está correta."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "É característica da síndrome de Münchhausen por procuração deixar sequelas físicas e psíquicas na criança, que assume o papel de doente, frágil e dependente do agressor — diferente de simulação (autoagressão para ganho pessoal) ou de outras formas de abuso não relacionadas a fabricação de doença.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_031",
+      "statement": "Mulher de 54 anos apresenta diminuição da concentração e rendimento no trabalho, desânimo, piora do sono e despertar matinal precoce, há dois meses, com piora há 15 dias. Os sintomas são piores pela manhã melhorando no período da tarde. Emagreceu 4 kg nesse período. Seus sintomas começaram logo após ter sofrido infarto do miocárdio. AP: menopausa aos 50 anos sem terapia hormonal. O diagnóstico e a conduta são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "depressão maior; inibidor preferencial de recaptura de serotonina."
+        },
+        {
+          "key": "b",
+          "text": "distúrbio psicossomático; benzodiazepínicos."
+        },
+        {
+          "key": "c",
+          "text": "transtorno de ajustamento; inibidor preferencial de recaptura de serotonina."
+        },
+        {
+          "key": "d",
+          "text": "transtorno somatoforme; benzodiazepínicos."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Quadro de humor deprimido, anedonia, insônia com despertar matinal precoce, variação diurna do humor (pior pela manhã) e perda ponderal, iniciado após evento estressor grave (IAM), caracteriza depressão maior — tratamento de escolha é um ISRS.",
+      "theme": "psi_somatoformes",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_034",
+      "statement": "Maria, de 57 anos, procura consulta médica na UBS carregando uma sacola repleta de exames, alegando que médico nenhum consegue resolver o problema dela. Refere que já passou por vários especialistas, fez uso de várias medicações, mas permanece com dores no corpo todo. Começa descrevendo \"\"o queimor\"\" nas pernas, depois as ncadas nos quadris e segue explicando a dor que mais a preocupa, a dor no peito, que irradia para as costas, o pescoço e a cabeça. Associadas a isso ela descreve ainda fadiga, dispneia e palpitações. Não se conforma que os resultados dos exames estejam normais e deseja fazer \"\"exames mais especí cos\"\". Tira da sacola o frasco da medicação manipulada que lhe foi prescrita por último, uma associação de meloxicam, ciclobenzaprina, amitriptilina, prednisona e ranitidina. Assinale a alternativa correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "sintomas físicos difusos, pouco definidos, para os quais não se verificam alterações anatomopatológicas que os justifiquem, frequentemente rejeitados ou ignorados pelos profissionais de saúde, são causas pouco frequentes de busca por atendimento médico em pessoas com sofrimento emocional."
+        },
+        {
+          "key": "b",
+          "text": "hipermedicalização, solicitação irracional de exames, indicação de procedimentos desnecessários e outras intervenções não baseadas em evidências são práticas pouco observadas na abordagem a pacientes que apresentam sintomas somáticos."
+        },
+        {
+          "key": "c",
+          "text": "no Brasil, apesar de os sintomas sem explicação médica serem frequentes em pessoas com sofrimento emocional, a minoria delas tem associação com transtornos mentais comuns, tais como depressão e ansiedade."
+        },
+        {
+          "key": "d",
+          "text": "ao paciente que somatiza é especialmente importante proceder com uma anamnese cuidadosa, buscando-se a compreensão do seu universo psicossocial. O exame físico pode ajudar a descartar causas médicas pouco evidentes e também doenças físicas. Os exames complementares devem ser parcimoniosos."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de paciente somatizadora, a conduta correta é realizar anamnese cuidadosa buscando compreender o universo psicossocial, com exame físico para descartar causas orgânicas pouco evidentes, mas com parcimônia na solicitação de exames complementares adicionais.",
+      "theme": "psi_somatoformes",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_035",
+      "statement": "Com base nos conceitos de abordagem de saúde mental na Atenção Primária à Saúde, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Na presença de sintomas ansiosos e sintomas somáticos inexplicados, devem-se tratar inicialmente os sintomas somáticos para melhorar a ansiedade."
+        },
+        {
+          "key": "b",
+          "text": "No exame do estado mental, deve-se avaliar a atenção, a sensopercepção, a memória, a orientação, a consciência, o pensamento, a inteligência, a linguagem e a afetividade."
+        },
+        {
+          "key": "c",
+          "text": "A saúde mental na criança não deve ser abordada na equipe da Estratégia de Saúde da Família, devendo sempre ser avaliada e acompanhada em serviço especializado com equipe multiprofissional."
+        },
+        {
+          "key": "d",
+          "text": "A abordagem ao paciente tabagista é atividade exclusiva do médico dentro da equipe de Estratégia de Saúde da Família."
+        },
+        {
+          "key": "e",
+          "text": "A fuga de ideias e o pensamento vago são sinônimos para descrever as alterações do pensamento."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O exame do estado mental deve avaliar sistematicamente atenção, sensopercepção, memória, orientação, consciência, pensamento, inteligência, linguagem e afetividade — domínios centrais da semiologia psiquiátrica.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_036",
+      "statement": "Assinale com um X a atitude mais adequada que o médico deve ter diante do paciente que traz queixas somáticas e faz uso problemático de álcool e/ou outras drogas que a elas estão relacionadas:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Medicar o sintoma e deixar o problema das substâncias químicas para outro profissional."
+        },
+        {
+          "key": "b",
+          "text": "Não atender o paciente, encaminhando-o imediatamente a um centro de recuperação."
+        },
+        {
+          "key": "c",
+          "text": "Valorizar o uso abusivo das substâncias químicas relacionando-as às queixas do paciente e envolver a família no diagnóstico e tratamento."
+        },
+        {
+          "key": "d",
+          "text": "Atender o paciente sem interagir com a equipe interdisciplinar."
+        },
+        {
+          "key": "e",
+          "text": "Só atender ao paciente se ele prometer interromper o consumo de álcool / outras drogas."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de paciente com queixas somáticas associadas ao uso problemático de álcool/drogas, a atitude adequada é valorizar essa relação, abordando o uso abusivo como parte do quadro e envolvendo a família no diagnóstico e tratamento.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_037",
+      "statement": "É característica da síndrome de Munchausen por procuração:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Deixar sequelas físicas e psíquicas, com a criança assumindo o papel de doente, frágil e dependente de seu agressor."
+        },
+        {
+          "key": "b",
+          "text": "Agressor com psicopatologia diagnosticada, compulsivo, que utiliza a criança para seus rituais sadomasoquistas."
+        },
+        {
+          "key": "c",
+          "text": "Forma de autoagressão, com a simulação de doença para obtenção de vantagens financeiras, como salário por invalidez."
+        },
+        {
+          "key": "d",
+          "text": "Classificada como transtorno somatoforme, em que a criança simula a doença para chamar a atenção dos pais."
+        },
+        {
+          "key": "e",
+          "text": "Todas as anteriores."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "É característica da síndrome de Münchhausen por procuração deixar sequelas físicas e psíquicas, com a criança assumindo o papel de doente, frágil e dependente do agressor.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_042",
+      "statement": "Em uma pessoa com Síndrome de Munchausen, o que poderíamos encontrar?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Vesícula biliar normal"
+        },
+        {
+          "key": "b",
+          "text": "Apêndice cecal inflamado"
+        },
+        {
+          "key": "c",
+          "text": "Confirmação endoscópica de uma úlcera péptica"
+        },
+        {
+          "key": "d",
+          "text": "Diagnóstico colonoscópico de câncer"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na síndrome de Münchhausen, como os sintomas são fabricados/simulados, exames objetivos de órgãos-alvo (como uma vesícula biliar avaliada por imagem) tendem a ser normais, já que não há doença orgânica real subjacente às queixas.",
+      "theme": "psi_somatoformes",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_043",
+      "statement": "Mãe leva criança de 3 anos à emergência relatando que a mesma apresenta quadro de sangramento retal volumoso há 5 dias, acompanhado de inapetência. Ao exame clínico a criança encontra-se em bom estado geral, sem queixas álgicas, exame físico sem alterações, sem sinais de ssuras ou outras lesões anais. O pediatra da emergência optou por internar a criança para observação clínica. Durante o período de enternação, observou-se uma aceitação regular e satisfatória das dietas e evacuações fisiológicas, sem presença de sangramento. O diagnóstico mais provável deste caso é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Enterocolite necrotizante."
+        },
+        {
+          "key": "b",
+          "text": "Doença de Crohn,"
+        },
+        {
+          "key": "c",
+          "text": "Síndrome de Munchausen por procuração."
+        },
+        {
+          "key": "d",
+          "text": "Retocolite ulcerativa."
+        },
+        {
+          "key": "e",
+          "text": "Dearréia bacteriana autolimitada."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O padrão de sintomas relatados pela mãe (sangramento retal volumoso) que não se confirmam durante a internação hospitalar (sem sangramento, boa aceitação alimentar, evacuações fisiológicas normais quando separada da mãe) é característico de síndrome de Münchhausen por procuração.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_044",
+      "statement": "A Síndrome de Münchausen por procuração é uma forma grave de abuso na criança e frequentemente passa despercebida pelos médicos. O diagnóstico muitas vezes é demorado, por desconhecimento ou por não estar presente na lista de diagnósticos diferenciais, resultando em complicações decorrentes de tratamentos e procedimentos desnecessários levando, ás vezes, à morte do paciente devido a recorrência do abuso. É característica desta síndrome:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "agressor com psicopatologia diagnosticada, compulsivo, que utiliza a criança para seus rituais sadomasoquistas"
+        },
+        {
+          "key": "b",
+          "text": "classificada como transtorno somatoforme, em que a criança simula a doença para chamar a atenção dos pais e do meio médico."
+        },
+        {
+          "key": "c",
+          "text": "deixar sequelas físicas e psíquicas, com a criança no papel de doente, frágil e dependente de seu agressor."
+        },
+        {
+          "key": "d",
+          "text": "forma de autoagressão, com a simulação de doença para obtenção de vantagens financeiras, como salário por invalidez."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "É característica da síndrome de Münchhausen por procuração deixar sequelas físicas e psíquicas, com a criança no papel de doente, frágil e dependente do agressor.",
+      "theme": "psi_somatoformes",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_045",
+      "statement": "Após longo período de investigação ambulatorial e internamentos devido à hematúria, conclui-se que menina de 8 anos é completamente hígida e as urinas com hematúria, na verdade, são diurese de sua mãe em período menstrual. O caso caracteriza",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "síndrome de Alport."
+        },
+        {
+          "key": "b",
+          "text": "esquizofrenia materna."
+        },
+        {
+          "key": "c",
+          "text": "síndrome de Munchausen por procuração."
+        },
+        {
+          "key": "d",
+          "text": "síndrome da alienação parental."
+        },
+        {
+          "key": "e",
+          "text": "negligência parental."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A fabricação de uma falsa hematúria na filha, substituindo a amostra de urina por sangue menstrual materno, após extensa investigação desnecessária, caracteriza síndrome de Münchhausen por procuração.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_046",
+      "statement": "Comumente pacientes procuram o serviço de atenção básica com sensações somáticas anormais, pouco de nidas, sem alterações anatomopatológicas que o justi quem, con gurando importante causa de busca de atendimento em pessoas com sofrimento emocional. Diante de queixas somáticas, sem explicações médicas, pode-se concluir que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O principal transtorno mental, que ocasiona somatizadores agudos, é a Esquizofrenia, que necessita de manejo especializado em serviço de saúde mental."
+        },
+        {
+          "key": "b",
+          "text": "A abordagem, centrada na pessoa, e a utilização de habilidades de comunicação são estratégias que auxiliam o manejo de queixas somáticas sem explicações médicas."
+        },
+        {
+          "key": "c",
+          "text": "Pacientes poliqueixosos precisam compreender que não apresentam nenhuma alteração anatomopatológica que justifique suas queixas, sendo apenas problemas psicológicos e que não necessitam de tratamento específico."
+        },
+        {
+          "key": "d",
+          "text": "É mandatório que o médico solicite todos os possíveis exames complementares para acalmar o paciente com queixas inexplicáveis, mesmo que o profissional entenda pela anamnese e exame físico que os exames são desnecessários."
+        },
+        {
+          "key": "e",
+          "text": "Os somatizadores crônicos precisam ser educados a não consultar frequentemente na atenção básica, sendo prioritário que seu atendimento ocorra exclusivamente com a equipe multidisciplinar de saúde mental em centros de referência."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A abordagem centrada na pessoa e o uso de habilidades de comunicação são estratégias eficazes no manejo de queixas somáticas sem explicação médica na atenção básica.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_047",
+      "statement": "Pré-escolar, 2 anos, é trazido pela mãe com quadro de anorexia, febre e diarreia com sangue, há mais de 3 meses. Avô em tratamento para tuberculose. A criança teve 4 internações hospitalares no último ano pela mesma queixa. Gravidez não desejada, mãe G6P5, pais separados, sendo a mãe a única cuidadora da criança. Exames laboratoriais: anemia ferropriva leve RX de tórax normal, 2 lavados gástricos negativos para BAAR, exames fezes (incluindo parasitológico e pesquisa de sangue oculto) normais. Durante a internação (15 dias) não apresentou febre ou diarreia, boa aceitação alimentar com ganho de 380 gramas de peso neste período. Mãe presente durante toda a internação e insiste na realização de novos exames. Qual é a conduta CORRETA?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dar alta com sulfato ferroso, considerando que a anemia ferropriva deve ser consequência da síndrome de má absorção."
+        },
+        {
+          "key": "b",
+          "text": "Iniciar tratamento para tuberculose pela queixa de febre persistente e história de contato."
+        },
+        {
+          "key": "c",
+          "text": "Tratar a desnutrição, sem a necessidade de investigação adicional no momento, uma vez que houve melhora espontânea do quadro."
+        },
+        {
+          "key": "d",
+          "text": "lnvestigar a possibilidade de Síndrome de Munchausen por procuração."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Sintomas recorrentes que desaparecem completamente durante a internação, sem a presença contínua da mãe controlando o quadro, associados a contexto psicossocial de risco (gravidez não desejada, múltiplas internações prévias, mãe insistindo em mais exames), levantam forte suspeita de síndrome de Münchhausen por procuração, exigindo investigação dirigida.",
+      "theme": "psi_somatoformes",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_048",
+      "statement": "A desordem na qual os pais fabricam uma doença no lho, pelo uso de mentiras na história narrada, pela simulação ou indução de sintomas e, até, pela procura de serviço médico para tratamento chama-se:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "síndrome de Burnout."
+        },
+        {
+          "key": "b",
+          "text": "sindrome de Münchausen por procuração."
+        },
+        {
+          "key": "c",
+          "text": "transtorno opositivo-desafiador."
+        },
+        {
+          "key": "d",
+          "text": "transtorno hipercinético de conduta."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A descrição (pais fabricam doença no filho por meio de mentiras, simulação ou indução de sintomas, buscando atendimento médico) corresponde à definição de síndrome de Münchhausen por procuração.",
+      "theme": "psi_somatoformes",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_049",
+      "statement": "Patrícia, há cerca de seis meses, leva seu lho de 11 anos para investigação diagnóstica de crise convulsiva focal em membros, sem fatores desencadeantes ou relação com sono, os quais surgem e cedem espontaneamente, já tendo sido realizada triagem com neuropediatria e eletroencefalograma, sem determinação de alterações em exame físico ou em exames complementares. É lho único de casal divorciado, há sete meses, saudável previamente, e com bom desenvolvimento neuropsicomotor. Qual a hipótese diagnóstica mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Síndrome de Munchhausen por procuração."
+        },
+        {
+          "key": "b",
+          "text": "Encefalopatia mioclônica precoce."
+        },
+        {
+          "key": "c",
+          "text": "Síndrome de Panayiotopoulos."
+        },
+        {
+          "key": "d",
+          "text": "Epilepsia mioclônica juvenil."
+        },
+        {
+          "key": "e",
+          "text": "Síndrome de West."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Crises convulsivas focais sem correlação em exame físico, EEG ou triagem neuropediátrica, iniciadas após estressor familiar recente (divórcio), levantam suspeita de síndrome de Münchhausen por procuração (fabricação/indução de sintomas pela mãe).",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_051",
+      "statement": "Uma mulher bastante ativa de 79 anos consulta o clínico geral com fadiga e palpitações. Ela está preocupada com as palpitações, que costumam iniciar quando ela usa o aspirador de pó. Após realizar anamnese e o exame físico, o médico decide solicitar um eletrocardiograma e exames de sangue para excluir algum problema cardíaco ou hipertireoidismo. Ambos os testes são normais. Nas consultas de seguimento, a paciente comenta repetidas vezes sobre suas palpitações. Ela pergunta se o problema tem alguma relação com sua glândula tireóide. O médico responde que realizou exames da glândula e que está bem. Ela parece aceitar isso e diz: \"Bem, doutor, tudo depende de como a vida é vivida\". O médico responde: \"O que você quer dizer com isso?\". E a mulher fala, então, sobre uma história importante em sua vida. Ela conta ter ido para um convento aos 16 anos de idade e sobre os momentos ruins pelos quais passou ali. A madre superiora atribuía a ela todas as tarefas desagradáveis e a rebaixava à condição de faxineira. Ela sofria bullying por parte de suas colegas. Após vários anos, ela teve que deixar o convento. Por m, ela conta ao médico: \"Pode ser por isso que eu tenho essas palpitações quando eu uso o aspirador de pó\". Durante uma consulta de seguimento, por outra queixa clínica, cerca de meio ano mais tarde, a paciente diz que suas palpitações desapareceram completamente desde a sua última consulta. A melhor maneira de manejar as pessoas com sintomas sem explicação médica é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Realizar tratamento com terapia cognitivo-comportamental."
+        },
+        {
+          "key": "b",
+          "text": "A tranquilização."
+        },
+        {
+          "key": "c",
+          "text": "Ter uma boa comunicação entre médico e pessoa não diferente da comunicação com outras pessoas."
+        },
+        {
+          "key": "d",
+          "text": "Prescrever medicação antidepressiva."
+        },
+        {
+          "key": "e",
+          "text": "Nenhuma das anteriores."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A melhor forma de manejar pacientes com sintomas sem explicação médica é manter uma comunicação médico-paciente de boa qualidade, semelhante à empregada com qualquer outro paciente, evitando tanto a banalização quanto a medicalização excessiva.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_052",
+      "statement": "Criança de 3 anos, com internações sucessivas por vômitos intratáveis, diarreia e febre. Foi observado envolvimento excessivo da mãe nos cuidados com a criança, excelente relação com a equipe médica e com controle dos procedimentos terapêuticos. A criança foi investigada exaustivamente. Ingressou na última internação com exantemas e relato de crise convulsiva. A mãe queixou-se de exaustão, depressão e ansiedade. Recordou, durante a entrevista, da perda precoce de sua mãe na infância. Qual a suspeita diagnóstica mais provável:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Púrpura trombocitopênica idiopática na criança."
+        },
+        {
+          "key": "b",
+          "text": "Pancreatite autoimune na criança."
+        },
+        {
+          "key": "c",
+          "text": "Psicose da mãe."
+        },
+        {
+          "key": "d",
+          "text": "Síndrome de Munchausen por procuração."
+        },
+        {
+          "key": "e",
+          "text": "Intolerância ao glúten na criança."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O envolvimento excessivo/controlador da mãe nos cuidados, o bom relacionamento com a equipe médica, a investigação exaustiva sem diagnóstico definido, e o histórico psicossocial da mãe (exaustão, perda precoce da própria mãe) compõem o quadro clássico de síndrome de Münchhausen por procuração.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_053",
+      "statement": "Uma mulher bastante ativa de 79 anos consulta o clínico geral com fadiga e palpitações. Ela está preocupada com as palpitações, que costumam iniciar quando ela usa o aspirador de pó. Após realizar a anamnese e o exame físico, o médico decide solicitar um eletrocardiograma e exames de sangue para excluir algum problema cardíaco ou hipertireoidismo. Ambos os testes são normais. Nas consultas de seguimento, a paciente comenta repetidas vezes sobre suas palpitações. Ela pergunta se o problema tem alguma relação com a sua glândula tireóide. O médico responde que realizou exames da glândula e que está bem. Ela parece aceitar isso e diz: \"Bem, doutor, tudo depende de como a vida é vivida\". O médico responde: \" O que você quer dizer com isso?\". E a mulher fala, então, sobre uma história importante em sua vida. Ela conta sobre ter ido para um convento com 16 anos de idade e sobre os momentos ruins pelos quais passou ali. A madre superiora atribuía a ela todas as tarefas desagradáveis e a rebaixava à condição de faxineira. Ela sofria bullying por parte de suas colegas. Após vários anos, ela teve que deixar o convento. Por m, ela conta ao médico: \"Pode ser por isso que eu tenho essas palpitações quando uso o aspirador de pó\". Durante uma consulta de seguimento por outra queixa clínica, cerca de meio ano mais tarde, a paciente diz que suas palpitações desapareceram completamente desde a sua última consulta. Em que porcentagem de pessoas com sintomas sem explicação médica a depressão ou a ansiedade são a causa desses sintomas?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "0-5%"
+        },
+        {
+          "key": "b",
+          "text": "5-10%"
+        },
+        {
+          "key": "c",
+          "text": "10-15%"
+        },
+        {
+          "key": "d",
+          "text": "15-20%"
+        },
+        {
+          "key": "e",
+          "text": "Nenhuma das anteriores."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Estima-se que em apenas 0-5% dos casos de sintomas sem explicação médica a depressão ou a ansiedade sejam identificadas como causa direta desses sintomas.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_054",
+      "statement": "Uma mulher bastante ativa de 79 anos consulta o clínico geral com fadiga e palpitações. Ela está preocupada com as palpitações, que costumam iniciar quando ela usa o aspirador de pó. Após realizar a anamnese e o exame físico, o médico decide solicitar um eletrocardiograma e exames de sangue para excluir algum problema cardíaco ou hipertireoidismo. Ambos os testes são normais. Nas consultas de seguimento, a paciente comenta repetidas vezes sobre suas palpitações. Ela pergunta se o problema tem alguma relação com a sua glândula tireóide. O médico responde que realizou exames da glândula e que está bem. Ela parece aceitar isso e diz: \"Bem, doutor, tudo depende de como a vida é vivida\". O médico responde: \" O que você quer dizer com isso?\". E a mulher fala, então, sobre uma história importante em sua vida. Ela conta sobre ter ido para um convento com 16 anos de idade e sobre os momentos ruins pelos quais passou ali. A madre superiora atribuía a ela todas as tarefas desagradáveis e a rebaixava à condição de faxineira. Ela sofria bullying por parte de suas colegas. Após vários anos, ela teve que deixar o convento. Por m, ela conta ao médico: \"Pode ser por isso que eu tenho essas palpitações quando uso o aspirador de pó\". Durante uma consulta de seguimento por outra queixa clínica, cerca de meio ano mais tarde, a paciente diz que suas palpitações desapareceram completamente desde a sua última consulta. Com muita frequência uma porcentagem das pessoas em atenção primária apresenta sintomas sem explicação médica, isto é, sintomas não relacionados a uma doença. Que porcentagem de todos as pessoas em atenção primária apresenta com muita frequência sintomas sem explicação médica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "0-2%"
+        },
+        {
+          "key": "b",
+          "text": "2-4%"
+        },
+        {
+          "key": "c",
+          "text": "4-6%"
+        },
+        {
+          "key": "d",
+          "text": "6-8%"
+        },
+        {
+          "key": "e",
+          "text": "Nenhuma das anteriores."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Estima-se que 2-4% de todas as pessoas atendidas na atenção primária apresentem, com muita frequência, sintomas sem explicação médica.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_055",
+      "statement": "Em saúde mental, os transtornos cujas queixas físicas não se associam nem com alterações do exame físico nem dos exames complementares e que não preenchem critério diagnóstico algum são denominados transtornos:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "De humor."
+        },
+        {
+          "key": "b",
+          "text": "Neuróticos."
+        },
+        {
+          "key": "c",
+          "text": "De ansiedade."
+        },
+        {
+          "key": "d",
+          "text": "Psicóticos."
+        },
+        {
+          "key": "e",
+          "text": "Somatoformes."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Transtornos cujas queixas físicas não se correlacionam com achados de exame físico ou complementares, e que não preenchem critérios diagnósticos para outras condições, são denominados transtornos somatoformes.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_056",
+      "statement": "Paciente do sexo feminino, de 53 anos, solteira, procedente do interior de Goiás, vem à consulta queixando-se de problemas de pele e sentindo-se triste por ser vítima de “preconceito”. Conta que as pessoas têm se afastado dela achando que ela tem hanseníase. Relata que, há mais de três anos, vem apresentando lesões espalhadas por todo o corpo (membros, tronco e face) acompanhadas de intenso prurido. Diz que há pequenos “insetos” vivendo sob sua pele e que eles causam dor e coceira, além de levarem ao aparecimento de grandes lesões que chegam a sangrar. Diz que passa horas do dia se coçando, o que, com frequência, leva ao aparecimento de lesões que sangram. Ao exame, nota-se escoriações em membros, tórax, abdome e face, assim como lesões ulceradas recentes e presença de múltiplas cicatrizes de tamanho semelhante às ulcerações atuais. Em locais do dorso, onde a paciente não alcança, a pele encontra-se completamente íntegra. Biópsia realizada previamente mostra lesões cicatriciais e atividade in amatória inespecí ca. Relatório de um dermatologista que a atendeu há doze meses relata a hipótese de dermatite factícia. O quadro clínico acima é compatível com qual diagnóstico?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Simulação."
+        },
+        {
+          "key": "b",
+          "text": "Transtorno obsessivo-compulsivo."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno de escoriações (dermatotilexomania)."
+        },
+        {
+          "key": "d",
+          "text": "Transtorno delirante persistente."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Crença fixa e não passível de correção de infestação por insetos sob a pele (formigamento/delírio de parasitose), levando a lesões autoinfligidas por coçadura compulsiva, mesmo diante de investigação negativa, caracteriza Transtorno Delirante Persistente (tipo somático) — distingue-se do TOC pela ausência de insight/crítica sobre a irracionalidade da crença.",
+      "theme": "psi_somatoformes",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_060",
+      "statement": "Mulher de 22 anos é admitida no hospital devido à anestesia da mão direita, que se desenvolveu após uma discussão com seu irmão. Ela está bem-disposta e parece despreocupada quanto ao seu problema. Não há história de trauma físico. O exame neurológico é negativo, exceto pela sensibilidade à dor diminuída em uma distribuição de luva sobre a mão direita. Sua família inteira está presente e expressando grande preocupação e atenção. Ela ignora seu irmão e parece alheia ao ciúme e à rivalidade crônica descrita por sua família. O diagnóstico mais provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno dismórfico corporal."
+        },
+        {
+          "key": "b",
+          "text": "Transtorno de personalidade histriônica."
+        },
+        {
+          "key": "c",
+          "text": "Tumor cerebral parietal."
+        },
+        {
+          "key": "d",
+          "text": "Transtorno de conversão."
+        },
+        {
+          "key": "e",
+          "text": "Histeria."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Perda sensitiva súbita em distribuição 'em luva' (não corresponde a um território neuroanatômico real), após conflito emocional, com indiferença afetiva quanto ao déficit ('la belle indifférence') e ganho secundário evidente (atenção familiar), é o quadro clássico de Transtorno de Conversão.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_061",
+      "statement": "Uma paciente de 22 anos dá entrada ao pronto socorro com queixa de paralisia súbita, em ambas as pernas. Não há outras queixas. Os achados do exame neurológico são normais. Os re exos estão simétricos, não há re exos patológicos, a sensibilidade está intacta, mas as pernas estão flácidas. A primeira suspeita diagnóstica para esse caso seria:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Polineurite infecciosa."
+        },
+        {
+          "key": "b",
+          "text": "Acidente vascular cerebral isquêmico."
+        },
+        {
+          "key": "c",
+          "text": "Histeria."
+        },
+        {
+          "key": "d",
+          "text": "Esclerose múltipla."
+        },
+        {
+          "key": "e",
+          "text": "Trombose de uma das artérias que irrigam a medula espinhal."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Paralisia flácida súbita e bilateral de membros inferiores, com reflexos simétricos preservados, sem reflexos patológicos e sensibilidade intacta (sem correlação neuroanatômica coerente), sugere quadro conversivo/funcional (histeria, na nomenclatura clássica usada nesta questão).",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_065",
+      "statement": "Na definição de Síndrome de Munchausen por procuração, considera-se que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Um dos pais apenas simula doença em seu filho."
+        },
+        {
+          "key": "b",
+          "text": "A criança simula ou provoca a própria doença."
+        },
+        {
+          "key": "c",
+          "text": "Um dos pais simula ou provoca doença em seu filho."
+        },
+        {
+          "key": "d",
+          "text": "A criança apenas simula a própria doença."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Na definição da síndrome de Münchhausen por procuração, um dos pais (ou cuidador) simula OU provoca ativamente a doença no filho — não se trata apenas de simulação passiva.",
+      "theme": "psi_somatoformes",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_067",
+      "statement": "A prevalência de sofrimento emocional entre os usuários atendidos por equipes de atenção primária e da Saúde da Família pode chegar a 50% das consultas e, em média, 35% desses pacientes apresentam critérios para transtornos mentais diversos. As queixas somáticas são os principais sintomas de portadores de Transtornos Mentais Comuns e incluem os transtornos somatoformes e dissociativos e as sindromes funcionais. Os serviços e pro ssionais de saúde podem croni car quadros de somatização. Entre as intervenções que devem ser realizadas pelos médicos de família em pacientes com queixas somáticas sem explicação biomédica está:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "valorizar o vínculo e correlação do sintoma com o sofrimento emocional antes do encaminhamento dos somatizadores crônicos para especialistas."
+        },
+        {
+          "key": "b",
+          "text": "evitar a realização de anamnese e exame clínicos completos já que são sintomas vagos e sem padrões clínicos estabelecidos."
+        },
+        {
+          "key": "c",
+          "text": "explicar o mais rápido possível que os sintomas são emocionais, em especial nos casos de somatizadores crônicos."
+        },
+        {
+          "key": "d",
+          "text": "preocupar-se intensamente com a remissão dos sintomas, pois esses pacientes querem necessário e prontamente o alívio."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Entre as intervenções recomendadas para queixas somáticas sem explicação biomédica está valorizar o vínculo terapêutico e a correlação do sintoma com o sofrimento emocional antes de encaminhar precocemente somatizadores crônicos para especialistas focais.",
+      "theme": "psi_somatoformes",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_068",
+      "statement": "As duas manifestações clínicas mais comuns na Síndrome de Munchausen são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Anemia e febre;"
+        },
+        {
+          "key": "b",
+          "text": "Apnéia e crise convulsiva;"
+        },
+        {
+          "key": "c",
+          "text": "Febre e dor muscular;"
+        },
+        {
+          "key": "d",
+          "text": "Apnéia e vômitos;"
+        },
+        {
+          "key": "e",
+          "text": "Tosse e prurido."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Segundo esta fonte, apneia e crise convulsiva estão entre as manifestações clínicas mais comumente fabricadas/simuladas na síndrome de Münchhausen.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_069",
+      "statement": "Qual dos seguintes fatores não é considerado uma causa de sintomas sem explicação médica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Experiências traumáticas na infância."
+        },
+        {
+          "key": "b",
+          "text": "Eventos midiáticos."
+        },
+        {
+          "key": "c",
+          "text": "Constituição genética."
+        },
+        {
+          "key": "d",
+          "text": "Comportamento de evitação."
+        },
+        {
+          "key": "e",
+          "text": "Todos acima são causa de sintomas sem explicação médica."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A constituição genética isolada não é tipicamente considerada, no modelo biopsicossocial, uma causa primária de sintomas sem explicação médica — diferente de experiências traumáticas na infância, eventos midiáticos (que podem amplificar preocupações com saúde) e comportamentos de evitação, todos reconhecidos como fatores contribuintes.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_070",
+      "statement": "Com muita frequência, uma porcentagem das pessoas em atenção primária apresenta sintomas sem explicação médica, isto é, sintomas não relacionados a uma doença. Que porcentagem de todas as pessoas em atenção primária apresenta com muita frequência sintomas sem explicação médica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "0-2%"
+        },
+        {
+          "key": "b",
+          "text": "2-4%"
+        },
+        {
+          "key": "c",
+          "text": "4-6%"
+        },
+        {
+          "key": "d",
+          "text": "6-8%"
+        },
+        {
+          "key": "e",
+          "text": "8-10%"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Estima-se que 2-4% de todas as pessoas atendidas na atenção primária apresentem, com muita frequência, sintomas sem explicação médica.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_071",
+      "statement": "Os sintomas são, algumas vezes, a manifestação de uma doença. No entanto, com frequência os sintomas não estão relacionados a uma doença especí ca. São os chamados \"Diagnósticos Sintomáticos\". Que percentagem de todos os diagnósticos de um clínico geral são \"Diagnósticos Sintomáticos\" ao ano?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "0-10%."
+        },
+        {
+          "key": "b",
+          "text": "10-20%."
+        },
+        {
+          "key": "c",
+          "text": "20-30%."
+        },
+        {
+          "key": "d",
+          "text": "30-50%."
+        },
+        {
+          "key": "e",
+          "text": "> 50%."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Estima-se que 30-50% de todos os diagnósticos realizados por um clínico geral ao ano sejam 'diagnósticos sintomáticos', sem uma doença específica identificada.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_072",
+      "statement": "Qual dos seguintes fatores não é considerado uma causa de sintomas sem explicação médica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Experiências traumáticas na infância."
+        },
+        {
+          "key": "b",
+          "text": "Eventos midiáticos."
+        },
+        {
+          "key": "c",
+          "text": "Constituição genética."
+        },
+        {
+          "key": "d",
+          "text": "Comportamento de evitação."
+        },
+        {
+          "key": "e",
+          "text": "Todos acima são causa de sintomas sem explicação médica."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A constituição genética isolada não é tipicamente considerada uma causa primária de sintomas sem explicação médica no modelo biopsicossocial, diferente de experiências traumáticas na infância, eventos midiáticos e comportamentos de evitação.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_073",
+      "statement": "Os transtornos somatoformes são heterogêneos, tanto na apresentação clínica quanto na etiologia e muito diferentes dos transtornos factícios e de simulação. Entre os principais transtornos somatoformes discutidos abaixo, marque com [C] as afirmações corretas e com [E] as afirmações erradas e escolha a alternativa com a sequência correta: [ ] A “somatização” geralmente tem início antes dos 30 anos e o paciente costuma apresentar suas queixas de forma dramática, exagerada ou vaga e costuma ser conhecido como “poliqueixoso”. [ ] A “conversão ” é um quadro clínico em que a característica essencial é a presença de sintomas que afetam a função motora ou sensorial voluntária como paresias flácidas e rígidas, tremores, tiques e alterações da marcha; [ ] a “hipocondria” tem como característica essencial a preocupação com o medo de ter ou a crença na existência de uma doença grave e persistente ameaçadora, esses pacientes costumam apresentar suas histórias médicas de forma muito extensa com grandes detalhes e, frequentemente, com pouco afeto, relatando múltiplas consultas e deterioração da relação médicopaciente com frustração e raiva de ambos os lados.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "C, C, E."
+        },
+        {
+          "key": "b",
+          "text": "C, C, C."
+        },
+        {
+          "key": "c",
+          "text": "E, E, C."
+        },
+        {
+          "key": "d",
+          "text": "C, E, C."
+        },
+        {
+          "key": "e",
+          "text": "Nenhuma das alternativas acima está correta."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "As três descrições estão corretas: a somatização geralmente inicia antes dos 30 anos com apresentação dramática/vaga ('poliqueixoso') [C]; a conversão afeta função motora/sensorial voluntária (paresias, tremores, tiques, alterações de marcha) [C]; e a hipocondria caracteriza-se pelo medo/crença de doença grave, com histórias médicas extensas e deterioração da relação médico-paciente [C] — sequência C, C, C.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_075",
+      "statement": "O Dr. Paulo está há seis meses trabalhando em uma unidade de saúde da família. Nesse período, ele identi cou um grupo de pacientes que frequenta a unidade assiduamente. Há uma paciente que vai ao posto até duas vezes por semana, e cada vez se queixa de algo diferente. O Dr. Paulo sabe que a referida paciente, Dona Célia, é portadora de hipertensão e diabetes, mas a cada dia surge um novo sintoma que a estimula a procurar atendimento. São dores osteomusculares, dor epigástrica, fadiga, cefaleia, tonturas, di culdade para dormir, palpitações. Pacientes assim são comuns na rotina da atenção primária, e recebem inadequadamente a impressão de poliqueixosos. Muitas vezes, o médico está diante de queixas somáticas sem explicação médica. Diante disso, a melhor sugestão para o Dr. Paulo lidar com pacientes como Dona Célia é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "superar a identificação de doença-lesão e ver os sintomas inexplicáveis como uma manifestação positiva de sofrimento emocional, associando os sintomas físicos ao sofrimento psíquico;"
+        },
+        {
+          "key": "b",
+          "text": "buscar sempre excluir doenças orgânicas através da realização de exames complementares, o que possibilitará a redução dos sintomas físicos quando um resultado de exame for negativo;"
+        },
+        {
+          "key": "c",
+          "text": "encaminhar para avaliação psiquiátrica, já que esses pacientes geralmente são de difícil manejo na atenção primária;"
+        },
+        {
+          "key": "d",
+          "text": "prescrever um benzodiazepínico, a fim de deixar a paciente mais tranquila;"
+        },
+        {
+          "key": "e",
+          "text": "encaminhar para a avaliação com especialistas focais de acordo com os problemas que a paciente apresentar."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A melhor sugestão é superar o modelo doença-lesão e enxergar os sintomas inexplicáveis como manifestação positiva de sofrimento emocional, associando ativamente os sintomas físicos ao sofrimento psíquico da paciente, sem descartar prematuramente sua queixa nem investigar excessivamente.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_076",
+      "statement": "Na síndrome de Munchausen por procuração, podemos afirmar, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Os sintomas são fabulados ou produzidos na criança para que o profissional da saúde, em especial o pediatra, maltrate a criança com exames invasivos, internações e tratamentos desnecessários."
+        },
+        {
+          "key": "b",
+          "text": "O agressor tem a necessidade constante de desafiar o saber da equipe médica."
+        },
+        {
+          "key": "c",
+          "text": "A vítima é excluída da vida infantil, privada do lazer e está sempre sob ação de seu agressor."
+        },
+        {
+          "key": "d",
+          "text": "A vítima apresenta um comportamento inconformado."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "É a exceção: vítimas de síndrome de Münchhausen por procuração tipicamente NÃO apresentam comportamento 'inconformado' — pelo contrário, tendem a ser complacentes e submissas, assumindo o papel de doente ensinado pelo agressor, como descrito nas demais características da síndrome.",
+      "theme": "psi_somatoformes",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_077",
+      "statement": "A regulação siológica é in uenciada pelo estado psicológico, e a maioria dos sistemas orgânicos e muitas patologias são sensíveis ao estresse. Os distúrbios somatoformes apresentam-se com queixas e/ou disfunções somáticas que não estão sob o controle consciente e para as quais estão ausentes achados físicos ou eles são insu cientes para explicar todas as queixas, tendo como exemplo:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "síndrome do cólon irritável;"
+        },
+        {
+          "key": "b",
+          "text": "asma brônquica;"
+        },
+        {
+          "key": "c",
+          "text": "síndrome de Munchausen;"
+        },
+        {
+          "key": "d",
+          "text": "eczema atópico;"
+        },
+        {
+          "key": "e",
+          "text": "transtorno de conversão."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "O transtorno de conversão é o exemplo clássico de distúrbio somatoforme, com queixas/disfunções somáticas não sob controle consciente e sem achados físicos suficientes para explicá-las — diferente de condições com substrato orgânico reconhecido, como asma brônquica ou eczema atópico (que podem ser influenciadas pelo estresse, mas têm fisiopatologia orgânica bem definida).",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_078",
+      "statement": "Um homem que recebeu placebo devido a uma dor discreta relata, após 30 minutos, que a dor desapareceu. A conclusão mais apropriada seria de que o homem:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apresenta um trastorno de conversão."
+        },
+        {
+          "key": "b",
+          "text": "Apresenta um trastorno dissociativo."
+        },
+        {
+          "key": "c",
+          "text": "Está simulando."
+        },
+        {
+          "key": "d",
+          "text": "Não tinha uma dor verdadeira desde o início."
+        },
+        {
+          "key": "e",
+          "text": "Responde a placebos."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A melhora da dor após administração de placebo caracteriza resposta a placebo — fenômeno neurobiológico real que ocorre mesmo em dores genuínas, não implicando necessariamente transtorno conversivo, dissociativo, simulação ou ausência de dor real.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_079",
+      "statement": "Criança de 9 anos, previamente saudável, apresenta tosse estridente persistente nos últimos 3 meses. A tosse está presente durante o dia, mas não à noite. Na família, ninguém está doente. Foi tratada com salbutamol em aerossol, beclometasona inalatória e um ciclo de prednisona por via oral por 7 dias, não apresentando nenhuma melhora. A causa mais provável desta tosse é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "tosse psicogênica."
+        },
+        {
+          "key": "b",
+          "text": "asma."
+        },
+        {
+          "key": "c",
+          "text": "aspiração de corpo estranho."
+        },
+        {
+          "key": "d",
+          "text": "tuberculose."
+        },
+        {
+          "key": "e",
+          "text": "fibrose cística."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Tosse persistente, presente apenas durante o dia e ausente durante o sono, sem resposta a broncodilatador, corticoide inalatório ou sistêmico, em criança sem outros sinais de doença orgânica, é característica de tosse psicogênica (tosse habitual/psicogênica) — a ausência da tosse durante o sono é o achado mais discriminativo.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_080",
+      "statement": "O pediatra atende uma criança de 4 anos, lha de pais em con ito familiar. A história é a seguinte: há 2 meses, nas primeiras horas após dormir, a criança senta-se na cama com fácies de pavor, agitação, gritos, gestos descoordenados, com sudorese, taquicardia, midríase. Não se consegue consolar a criança nesse momento, e, em 1 a 2 minutos, volta a dormir; no dia seguinte, ela passa bem e não se lembra do ocorrido. Assinale a hipótese diagnóstica desse caso.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Terror noturno. 4 000110650"
+        },
+        {
+          "key": "b",
+          "text": "Pesadelo."
+        },
+        {
+          "key": "c",
+          "text": "Epilepsia."
+        },
+        {
+          "key": "d",
+          "text": "Mioclonia hípnica."
+        },
+        {
+          "key": "e",
+          "text": "Síndrome de Munchausen."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Episódio de despertar abrupto com pavor intenso, agitação, gritos, sinais autonômicos (sudorese, taquicardia, midríase), inconsolabilidade, resolução rápida e amnésia completa no dia seguinte, ocorrendo nas primeiras horas de sono, caracteriza terror noturno (parassonia do sono não-REM), distinto do pesadelo (que ocorre mais tarde na noite, durante o REM, com recordação do conteúdo).",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_081",
+      "statement": "Na definição da síndrome de Munchausen por procuração, considera-se que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "um dos pais apenas simula doença em seu filho."
+        },
+        {
+          "key": "b",
+          "text": "a criança simula ou provoca a própria doença."
+        },
+        {
+          "key": "c",
+          "text": "a criança apenas simula a própria doença."
+        },
+        {
+          "key": "d",
+          "text": "um dos pais simula ou provoca doença em seu filho."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Na definição da síndrome de Münchhausen por procuração, um dos pais (ou cuidador) simula ou provoca ativamente a doença no filho.",
+      "theme": "psi_somatoformes",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_082",
+      "statement": "Uma senhora de 87 anos foi examinada por seu médico de família e comunidade devido a uma dor lombar aguda. A não ser pela perda de visão central devido à degeneração macular, essa senhora tinha boa saúde para a sua idade. Ela e seu esposo de 89 anos viviam independentes e conseguiam dar conta das tarefas diárias da casa. O médico prescreveu duas semanas de completo repouso na cama. Como não conseguiu nenhum auxílio para ajudá-los com a casa, toda a carga dos cuidados cou nos ombros do marido que não estava familiarizado com as tarefas domésticas, por isso tinha que fazer repetidas perguntas à sua esposa, mas não conseguia entender suas respostas por causa da surdez. Esses problemas causaram grande ansiedade e sentimento de desamparo em sua esposa, que se exacerbaram devido à sua perda de visão central, e teve frequentes diarreias e perda rápida de peso. Suspeitou-se de câncer de cólon, e foi internada para avaliação, que foi negativa. Com a chegada da lha e sob seus cuidados, essa senhora gradualmente se recuperou. O casal viveu até os noventa e poucos anos em boa saúde. Analise o caso acima e assinale a alternativa correta: I. É possível que a tensão emocional da paciente tenha produzido ansiedade aguda, com diarreia psicogênica e perda de peso; II. Houve erro por parte do médico ao não prever que sua estratégia de manejo da situação causaria uma tensão intolerável em um sistema precário; III. Não houve erro por parte do médico em sua estratégia de manejo da situação, e a diarreia e a perda de peso da paciente deveriam ser investigadas mais aprofundadamente.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "As afirmativas I e II estão corretas."
+        },
+        {
+          "key": "b",
+          "text": "As afirmativas I e III estão corretas."
+        },
+        {
+          "key": "c",
+          "text": "As afirmativas II e III estão corretas."
+        },
+        {
+          "key": "d",
+          "text": "As afirmativas I, II e III estão corretas."
+        },
+        {
+          "key": "e",
+          "text": "As afirmativas I, II e III estão incorretas."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "É plausível que a tensão emocional decorrente da situação (repouso forçado, sobrecarga do marido despreparado, perda auditiva/visual dificultando comunicação) tenha produzido diarreia psicogênica e perda de peso por ansiedade aguda (I correta); e houve, sim, erro do médico ao não antecipar que sua prescrição de repouso completo geraria tensão insustentável nesse sistema familiar frágil (II correta) — corretas I e II.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_084",
+      "statement": "Maria, 69 anos, comparece para uma consulta. É poliqueixosa e frequentadora constante da UPA. Seu exame clínico nunca mostra alterações objetivas e sua história patológica pregressa é sem importância clínica. O melhor manejo desta paciente é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Encaminhá-la para uma avaliação psicológica."
+        },
+        {
+          "key": "b",
+          "text": "Tranquilizá-la dizendo que ela não tem nada."
+        },
+        {
+          "key": "c",
+          "text": "Prescrever uma medicação antidepressiva."
+        },
+        {
+          "key": "d",
+          "text": "Estabelecer uma boa comunicação médico-paciente."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O melhor manejo de uma paciente poliqueixosa com investigação sistematicamente negativa é estabelecer uma boa comunicação médico-paciente, evitando tanto a banalização ('você não tem nada') quanto a medicalização ou encaminhamentos desnecessários.",
+      "theme": "psi_somatoformes",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_087",
+      "statement": "Dentre as recomendações gerais para a abordagem de pacientes com transtornos somatoformes, pode-se afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O médico deve mostrar curiosidade e interesse pelas queixas do paciente e validar seu sofrimento; no entanto, atribuições psicogênicas aos sinais e sintomas devem ser estabelecidas já na primeira consulta de forma bastante incisiva, auxiliando no tratamento."
+        },
+        {
+          "key": "b",
+          "text": "O transtorno deve ser tratado como uma doença crônica, com foco na função ao invés da cura dos sintomas. Deve-se esperar uma mudança gradual, com períodos de melhora e recidiva."
+        },
+        {
+          "key": "c",
+          "text": "Procedimentos diagnósticos e terapêuticos invasivos devem sempre ser realizados, mesmo baseados em queixas subjetivas, pois auxiliarão a provar que não existem causas orgânicas evidentes."
+        },
+        {
+          "key": "d",
+          "text": "As consultas devem ser breves e regulares, no entanto, se for necessário, o paciente deverá ser orientado a buscar atendimento de urgência e emergência sempre que se sentir desconfortável e ansioso."
+        },
+        {
+          "key": "e",
+          "text": "As questões psicossociais devem prevalecer sobre as questões biomédicas. A colocação da situação desta forma ajuda o paciente com transtorno somatoforme a reconhecer sua situação (insight) e modificar suas atitudes."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O transtorno somatoforme deve ser tratado como condição crônica, com foco na função (não na cura completa dos sintomas), esperando-se uma evolução gradual com períodos de melhora e recidiva — abordagem realista e sustentável a longo prazo.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_088",
+      "statement": "Mulher de 35 anos comparece pela sexta vez, no intervalo de dois meses, à consulta com seu médico de família e comunidade com queixa de dor torácica em pontadas que piorava com estresse emocional e melhorava com massagem local com cânfora. Havia abandonado o emprego como diarista, pois as dores eram intensas. A paciente apresentava, como histórico, queixas de dor muscular generalizada, artralgias, dor torácica em pontadas, disúria, diarreia, sensação de plenitude gástrica, irregularidade menstrual, fraqueza de membros inferiores e amnésias. Apresentou receitas médicas com prescrição de paracetamol, omeprazol e soro de reidratação oral. Os sintomas e sinais iniciaram-se há oito anos com piora progressiva. O exame clínico, os exames laboratoriais, o ECG e a radiogra a de tórax não apresentavam alterações dignas de nota. Levou à consulta uma tomogra a computadorizada de crânio (realizada após consulta com neurologista através do plano de saúde, há três meses) considerada normal. Apesar de exames sem alterações, o médico cou confuso e irritado, pois a paciente e sua família estavam em real sofrimento psíquico com o quadro e cobraram um “diagnóstico e tratamento”. Qual a hipótese diagnóstica mais provável no caso acima?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Conversão."
+        },
+        {
+          "key": "b",
+          "text": "Hipocondria."
+        },
+        {
+          "key": "c",
+          "text": "Somatização."
+        },
+        {
+          "key": "d",
+          "text": "Dismorfofobia."
+        },
+        {
+          "key": "e",
+          "text": "Transtorno factício."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Múltiplas queixas físicas persistentes e recorrentes ao longo de 8 anos, envolvendo diversos sistemas orgânicos (dor muscular, articular, torácica, disúria, diarreia, plenitude gástrica, irregularidade menstrual, fraqueza, amnésia), sem achados objetivos em extensa investigação, é o quadro clássico de Somatização (Transtorno de Sintomas Somáticos polissintomático).",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_091",
+      "statement": "Dentre os transtornos somatiformes (mimetizam doenças clínicas ou doenças neurológicas), assinale a alternativa INCORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A síndrome de Munchausen é uma simulação onde o paciente procura atenção médica com queixas dramáticas falsas, como dor abdominal, tendendo a gerar intervenções médicas dolorosas ou invasivas."
+        },
+        {
+          "key": "b",
+          "text": "Transtorno conversivo é o mimetismo de uma condição médica geral discreta ou de uma síndrome neurológica por um processo psiquiátrico. Pode ser episódica como crise epilética conversiva ou crônico e persistente, como no caso de perda sensitiva ou fraqueza."
+        },
+        {
+          "key": "c",
+          "text": "Hipocondria estabelece uma relação anormal e emocionalmente exaltada com seus sintomas clínicos."
+        },
+        {
+          "key": "d",
+          "text": "No transtorno doloroso somatiforme, a dor crônica e persistente não responde efetivamente aos tratamentos físicos, com resultados desapontadores. Vício de analgésicos constitui normalmente o caminho final comum psiquiátrico destes pacientes."
+        },
+        {
+          "key": "e",
+          "text": "No transtorno fictício, o indivíduo pode autoadministrar uma droga ou outro material para criar sinais físicos. A motivação das ações pode ser inconsciente, mas a própria ação é deliberada."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "É a alternativa INCORRETA a que descreve a síndrome de Münchhausen como 'simulação' — na realidade, o Münchhausen (transtorno factício) se distingue da simulação justamente por não haver ganho externo evidente (financeiro, legal); a motivação é a necessidade psicológica interna de assumir o papel de doente.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_092",
+      "statement": "Sabrine, 11 meses, é internada no HUGG devido a estar \"urinando sangue\". Segundo relato, foi internada pelo mesmo motivo, em outra unidade, com 7 meses de idade. Bom estado geral e sem achados clínicos. A hematúria macroscópica foi visualizada em amostra, mas não ocorria em todas as micções. A hipótese da equipe foi Síndrome de Munchausen \"by proxy\", que vem a ser a:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Provocação da doença na criança por parte do pai ou da mãe."
+        },
+        {
+          "key": "b",
+          "text": "Simulação da doença na criança por parte do pai ou da mãe."
+        },
+        {
+          "key": "c",
+          "text": "Simulação e/ou provocação da doença pela própria criança."
+        },
+        {
+          "key": "d",
+          "text": "Simulação da doença pela própria criança com a conivência do pai ou da mãe."
+        },
+        {
+          "key": "e",
+          "text": "Simulação e/ou provocação da doença na criança por parte do pai ou da mãe."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A síndrome de Münchhausen 'by proxy' consiste na simulação e/ou provocação da doença na criança por parte do pai ou da mãe — definição mais ampla, que engloba tanto a fabricação quanto a indução ativa de sintomas.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_093",
+      "statement": "Mulher de 20 anos procura ambulatório de clínica geral devido à insônia, ansiedade, dispneia e perda de 5 kg nas últimas semanas. Ao exame físico, nota-se pulso de 120 bpm, tremor de extremidade, PA de 160 X 50 mmHg e palpação cervical normal. Laboratorialmente detecta-se TSH < 0,01 mU/L, VHS de 8 mm/h e captação de I131 em 24 horas < 1%. O diagnóstico mais provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "tireoidite de Hashimoto."
+        },
+        {
+          "key": "b",
+          "text": "doença de Graves."
+        },
+        {
+          "key": "c",
+          "text": "doença de Plummer."
+        },
+        {
+          "key": "d",
+          "text": "hipertireoidismo factício."
+        },
+        {
+          "key": "e",
+          "text": "tireoidite subaguda."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Quadro de tireotoxicose clínica (taquicardia, tremor, perda de peso, pressão de pulso alargada) com TSH suprimido, mas captação de iodo radioativo baixíssima (<1%) e tireoide não palpável/não dolorosa (afastando tireoidite subaguda, que cursaria com VHS elevado e tireoide dolorosa), é característico de hipertireoidismo factício, por ingestão exógena e oculta de hormônio tireoidiano.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_095",
+      "statement": "Na definição da síndrome de Munchausen por procuração, considera-se que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "um dos pais apenas simula doença em seu filho"
+        },
+        {
+          "key": "b",
+          "text": "a criança simula ou provoca a própria doença"
+        },
+        {
+          "key": "c",
+          "text": "a criança apenas simula a própria doença"
+        },
+        {
+          "key": "d",
+          "text": "um dos pais simula ou provoca doença em seu filho"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Na definição da síndrome de Münchhausen por procuração, um dos pais (ou cuidador) simula ou provoca ativamente a doença no filho.",
+      "theme": "psi_somatoformes",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_097",
+      "statement": "A Síndrome de Münchausen é ocasionada por:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sugestão/indução paternal."
+        },
+        {
+          "key": "b",
+          "text": "Reação autoimune pós-vacinal."
+        },
+        {
+          "key": "c",
+          "text": "Pneumonite durante o ciclo pulmonar de parasitas intestinais."
+        },
+        {
+          "key": "d",
+          "text": "Cianose por doença cardíaca congênita."
+        },
+        {
+          "key": "e",
+          "text": "Reação idiossincrática após aplicação de penicilina."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A síndrome de Münchhausen, na sua forma clássica descrita nesta fonte, está associada à sugestão/indução por parte de um dos pais.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "soma_100",
+      "statement": "A síndrome de Munchausen por procuração é uma forma complexa de maus-tratos infantis, de difícil con rmação diagnóstica. É importante seu reconhecimento precoce principalmente por:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "apresentar altas taxas de recidiva e de óbito."
+        },
+        {
+          "key": "b",
+          "text": "apresentar altos custos com exames e internações desnecessárias."
+        },
+        {
+          "key": "c",
+          "text": "facilitar que a mãe (ou o pai) reconheçam sua situação e sejam tratados o mais precocemente possível."
+        },
+        {
+          "key": "d",
+          "text": "sua alta taxa de interação com neoplasia maligna de sistema nervoso central."
+        },
+        {
+          "key": "e",
+          "text": "permitir uma abordagem conservadora, já que é uma entidade sem maiores riscos."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O reconhecimento precoce da síndrome de Münchhausen por procuração é fundamental principalmente por suas altas taxas de recidiva e de óbito, dado o risco contínuo de dano decorrente de procedimentos desnecessários e da própria ação do agressor.",
+      "theme": "psi_somatoformes",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}

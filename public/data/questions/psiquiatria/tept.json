@@ -1,1 +1,416 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "trauma_021",
+      "statement": "T ranstorno do Estresse PósT raumático T EPT Com relação ao transtorno de estresse pós-traumático (TEPT), é correto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sexo masculino é fator de risco para o desenvolvimento do transtorno."
+        },
+        {
+          "key": "b",
+          "text": "A exposição direta ao trauma é condição para diagnóstico no DSM-5."
+        },
+        {
+          "key": "c",
+          "text": "Distúrbios do sono são pouco comuns."
+        },
+        {
+          "key": "d",
+          "text": "Hidrocortisona tem eficácia na prevenção do TEPT."
+        },
+        {
+          "key": "e",
+          "text": "Benzodiazepínicos são indicados como tratamento após o trauma agudo para prevenir o TEPT."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A hidrocortisona administrada precocemente após o trauma tem mostrado eficácia na prevenção do desenvolvimento de TEPT em alguns estudos. O sexo feminino (não masculino) é fator de risco, a exposição direta não é obrigatória para o diagnóstico no DSM-5 (testemunhar ou saber do trauma a um familiar próximo também qualifica), distúrbios do sono são muito comuns (não raros), e benzodiazepínicos NÃO são recomendados para prevenção do TEPT após trauma agudo.",
+      "theme": "psi_trauma",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "trauma_027",
+      "statement": "Leia o caso clínico a seguir. Magda, de 35 anos, previamente hígida e sem prévio diagnóstico psiquiátrico, estava aparentemente bem até dois dias atrás. Ontem foi trazida ao pronto-socorro por ter tentado engolir água sanitária. Magda recebeu notícia sobre o assassinato do noivo em uma briga de trânsito. Inicialmente, a família notou que ela reagira com uma tranquilidade incomum, não falava e dedicava-se a atividades repetitivas, como dobrar e desdobrar roupas. Algumas horas depois, deu um grito, pegou uma garrafa de água sanitária e tentou bebê-la, sendo impedida pelo irmão. Ela caiu no chão tremendo, chorando e gritando e, depois, ficou parada “como se estivesse morta”. A família não notou movimentos tônico-clônicos ou liberação esfincteriana. Após ser levada ao hospital, foi se tornando mais responsiva, mas diz não se lembrar de nada que ocorreu após receber a notícia da morte de seu noivo. Foi mantida em observação e teve vários episódios de agitação repentina, choro e gritos, durante os quais tentou arranhar o rosto e sair do quarto. Ao exame, mostrava-se chorosa, triste e relatando desrealização e amnésia para o episódio em que tentou beber água sanitária. Os exames laboratoriais de screening e o exame físico não constataram alterações. Nesse caso, qual é o diagnóstico e o tratamento mais adequado para o quadro apresentado por Magda?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno psicótico agudo; prescrição de risperidona por pelo menos quatro semanas."
+        },
+        {
+          "key": "b",
+          "text": "Episódio depressivo grave, com tentativa de suícido; iniciar escitalopram 10 mg."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno de estresse pós-traumático; iniciar fluoxetina e psicoterapia."
+        },
+        {
+          "key": "d",
+          "text": "Transtorno dissociativo; ofertar suporte emocional e psicoterapia."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Reação inicial de tranquilidade incomum com atividades repetitivas, seguida de agitação intensa e amnésia dissociativa para o evento traumático (morte do noivo), com desrealização, configura Transtorno Dissociativo — o manejo inclui suporte emocional e psicoterapia. O quadro ocorre dias após o evento, não preenchendo ainda os critérios temporais para TEPT (que exige persistência além de um mês).",
+      "theme": "psi_trauma",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "trauma_032",
+      "statement": "T ranstorno do Estresse PósT raumático T EPT Homem, 53a, procura serviço médico com queixas de tonturas, zumbidos e insônia há seis meses. Relaciona os sintomas com a função de motorista de ônibus urbano há 15 anos. Diz que o trabalho é cansativo e relatou que há um ano foi vítima de um assalto a mão armada e desmaiou. Desde então, não consegue trabalhar devido os zumbidos e tampouco dormir, pois acorda com lembranças daquele episódio. O DIAGNÓSTICO É:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Síndrome vestíbulo coclear relacionada ao trabalho."
+        },
+        {
+          "key": "b",
+          "text": "Transtorno de estresse pós-traumático."
+        },
+        {
+          "key": "c",
+          "text": "Depressão."
+        },
+        {
+          "key": "d",
+          "text": "Síndrome de pânico."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Zumbido, tontura e insônia com lembranças intrusivas de um assalto sofrido há um ano, associados a prejuízo funcional (incapacidade de trabalhar), configuram Transtorno de Estresse Pós-Traumático.",
+      "theme": "psi_trauma",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "trauma_038",
+      "statement": "T ranstorno do Estresse PósT raumático T EPT Na saída de um plantão uma enfermeira de sua equipe pede para você acompanhá-la até o estacionamento do hospital. Durante o trajeto ela ca apreensiva, assustada e revela que não consegue andar sozinha porque revive pensamentos do assalto que sofreu há cerca de sete meses, no mesmo estacionamento, quando saia do plantão. O DIAGNÓSTICO E A CONDUTA SÃO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno de ansiedade e notificação."
+        },
+        {
+          "key": "b",
+          "text": "Transtorno de estresse pós-traumático e notificação."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno de ansiedade e não necessidade de notificação."
+        },
+        {
+          "key": "d",
+          "text": "Transtorno de estresse pós-traumático e não necessidade de notificação."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Sintomas de reexperiência (revivência do assalto), evitação (medo de andar sozinha no local) e hiperexcitação, iniciados após um assalto sofrido durante o trabalho, configuram Transtorno de Estresse Pós-Traumático relacionado ao trabalho, exigindo notificação (CAT/vigilância em saúde do trabalhador).",
+      "theme": "psi_trauma",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "trauma_039",
+      "statement": "Mulher, 17 anos, procura a Unidade Básica de Saúde acompanhada pelos pais, que relatam alteração de comportamento. Notaram ansiedade crescente nas últimas semanas manifestada por preocupações exageradas com violência, morte, e por medo de ter contraído uma doença sexualmente transmissível ou de estar grávida. Também apresenta perturbação do sono, falta de apetite e gagueira de início súbito. Frente ao quadro clínico, qual é a suspeita diagnóstica mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Fobia específica."
+        },
+        {
+          "key": "b",
+          "text": "Transtorno dismórfico corporal."
+        },
+        {
+          "key": "c",
+          "text": "Abuso de substâncias psicoativas."
+        },
+        {
+          "key": "d",
+          "text": "Reação não verbalizada ao estupro."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O quadro de ansiedade súbita com medo de DST/gravidez, perturbação do sono, apetite e início abrupto de gagueira em adolescente, sem fator desencadeante relatado espontaneamente, levanta suspeita de reação não verbalizada a uma vivência de violência sexual (estupro) que a paciente ainda não revelou.",
+      "theme": "psi_trauma",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "trauma_058",
+      "statement": "O médico deve estar atento em como lidar com casos em que não são comprovadas por intermédio de exame físico e complementar as queixas do paciente. Dos diagnósticos abaixo, qual o paciente sabe que não está realmente doente, mas produz deliberadamente sinais ou sintomas para se colocar aos cuidados de terceiros?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Delírio somático."
+        },
+        {
+          "key": "b",
+          "text": "Transtorno factício."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno somatoforme."
+        },
+        {
+          "key": "d",
+          "text": "Transtorno dissociativo."
+        },
+        {
+          "key": "e",
+          "text": "Transtorno conversivo."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O paciente que sabe que não está realmente doente, mas produz deliberadamente sinais/sintomas para assumir o papel de doente perante terceiros, apresenta Transtorno Factício — distinto da simulação (ganho externo) e dos transtornos somatoformes (produção inconsciente).",
+      "theme": "psi_trauma",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "trauma_059",
+      "statement": "Diagnóstico da Depressão Senhora de 63 anos procura o médico de família e comunidade para consulta de rotina do tratamento da hipertensão arterial. Durante a consulta, por várias vezes, os olhos se enchem de lágrimas e se mostra um pouco agitada. Ao ser questionada sobre esse fato, ela conta que o lho mais novo casou e foi morar em outra casa há mais ou menos 10 dias e que está saudosa. Conta ainda que, no dia do casamento, ao chegarem em casa, ela e o marido foram assaltados, sendo levados deles o carro e grande parte dos presentes recebidos. Desde então, não consegue dormir direito, não quer mais sair de carro e prefere mesmo é ficar em casa. O diagnóstico mais plausível nesta situação é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Fobia social."
+        },
+        {
+          "key": "b",
+          "text": "Episódio depressivo."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno do estresse pós-traumático."
+        },
+        {
+          "key": "d",
+          "text": "Transtorno do pânico."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Sintomas de hiperexcitação (insônia, agitação), evitação (não quer mais sair de carro) e reexperiência emocional após um assalto violento, com prejuízo funcional persistente, são compatíveis com Transtorno de Estresse Pós-Traumático.",
+      "theme": "psi_trauma",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "trauma_062",
+      "statement": "Considera-se que o paciente desenvolve transtorno do estresse pós-traumático quando, em até seis meses depois do evento desencadeante, apresentar as seguintes manifestações, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Recordações aflitivas, recorrentes e intrusivas do evento, incluindo imagens, pensamentos e percepções (em crianças pequenas podem ocorrer jogos repetitivos)."
+        },
+        {
+          "key": "b",
+          "text": "Sonhos aflitivos e recorrentes com o evento (em crianças podem ocorrer sonhos amedrontadores)."
+        },
+        {
+          "key": "c",
+          "text": "Revivências, ilusões, alucinações e flashbacks como se o evento traumático estivesse ocorrendo novamente."
+        },
+        {
+          "key": "d",
+          "text": "Esquiva persistente de estímulos associados com o trauma e entorpecimento de reatividade geral, não presente antes do evento traumático."
+        },
+        {
+          "key": "e",
+          "text": "Hipersonia noturna, adinamia, letargia, sonolência diurna, prostração, não presentes antes do ocorrido."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Hipersonia, adinamia e prostração NÃO são manifestações típicas do TEPT — os critérios diagnósticos envolvem recordações intrusivas, sonhos angustiantes, revivências/flashbacks e esquiva persistente com entorpecimento afetivo, além de hiperexcitação (insônia, não hipersonia).",
+      "theme": "psi_trauma",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "trauma_064",
+      "statement": "Assinale a alternativa ERRADA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O nexo causal entre transtornos mentais e a organização do trabalho está nas dificuldades pelas quais perpassa o campo da saúde mental e o trabalho."
+        },
+        {
+          "key": "b",
+          "text": "No Brasil, os transtornos mentais, entre eles o alcoolismo crônico, estão entre os principais problemas de saúde que afetam o trabalho."
+        },
+        {
+          "key": "c",
+          "text": "Dentre os principais sintomas advindos dos denominados transtornos somatoformes estão a fadiga, a irritabilidade e as alterações do sono."
+        },
+        {
+          "key": "d",
+          "text": "O estado de stress pós-traumático manifesta-se imediatamente após o acontecimento do evento ou a situação provocadora do adoecimento."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "É a alternativa ERRADA a que afirma que o TEPT se manifesta sempre imediatamente após o evento traumático — o transtorno pode ter início tardio, meses ou até anos após o trauma (especificador 'com expressão tardia' no DSM-5).",
+      "theme": "psi_trauma",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "trauma_066",
+      "statement": "Um menino de 7 anos de idade, lho de genitor desconhecido, presenciou a morte da mãe. Desde então, passou a apresentar alterações do sono, com terror noturno. Na escola, mudou seu comportamento, passou a se isolar das brincadeiras com os colegas, demonstrando alteração no humor. Além disso, desistiu das aulas de violão que antes gostava de frequentar. A tia materna, que assumiu sua criação, o levou ao ambulatório em busca de ajuda. Nesse caso, além da intervenção multiprofissional, qual a conduta adequada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Suspender as atividades escolares, com retorno progressivo, e prescrever clonidina."
+        },
+        {
+          "key": "b",
+          "text": "Sugerir a manutenção da rotina diária e ingresso em terapia cognitiva- comportamental."
+        },
+        {
+          "key": "c",
+          "text": "Sugerir aumento da ingestação de cálcio e ingresso em psicoterapia individual e em grupo."
+        },
+        {
+          "key": "d",
+          "text": "Instruir que as atividades escolares sejam desempenhadas em casa, e prescrever sertralina."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Criança que testemunhou a morte da mãe, apresentando alterações do sono, isolamento social, alteração de humor e perda de interesse em atividades prazerosas, deve ser orientada a manter a rotina diária e iniciar terapia cognitivo-comportamental, além da intervenção multiprofissional.",
+      "theme": "psi_trauma",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "trauma_083",
+      "statement": "Mulher de 63 anos procura o médico para consulta de rotina do tratamento da hipertensão arterial. Durante a consulta, por várias vezes, os olhos se enchem de lágrimas e se mostra um pouco agitada. Ao ser questionada sobre esse fato, ela conta que o lho mais novo casou e foi morar em outra casa há mais ou menos 10 dias e que está saudosa. Conta ainda que, no dia do casamento, ao chegarem em casa, ela e o marido foram assaltados, sendo levados deles o carro e grande parte dos presentes recebidos. Desde então, não consegue dormir direito, não quer mais sair de carro e prefere mesmo é car em casa. O diagnóstico mais plausível nesta situação é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "fobia social"
+        },
+        {
+          "key": "b",
+          "text": "episódio depressivo"
+        },
+        {
+          "key": "c",
+          "text": "transtorno de ajustamento"
+        },
+        {
+          "key": "d",
+          "text": "Transtorno do estresse pós-traumático"
+        },
+        {
+          "key": "e",
+          "text": "transtorno do pânico"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Sintomas de hiperexcitação, evitação (recusa a andar de carro) e reexperiência emocional após um assalto violento, com prejuízo funcional persistente, são compatíveis com Transtorno de Estresse Pós-Traumático — mais específico que transtorno de ajustamento pela presença do cluster completo de sintomas pós-traumáticos.",
+      "theme": "psi_trauma",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "trauma_085",
+      "statement": "Reação Aguda ao Estresse No transtorno de estresse pós-traumático (TEPT),",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "os sintomas têm resolução espontânea em, no máximo, um mês após o evento traumático."
+        },
+        {
+          "key": "b",
+          "text": "a presença de amnésia de partes importantes do evento traumático exclui o diagnóstico."
+        },
+        {
+          "key": "c",
+          "text": "o componente ambiental (trauma) é fundamental para o seu surgimento."
+        },
+        {
+          "key": "d",
+          "text": "a psicoterapia apresenta baixa eficácia no tratamento."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "No TEPT, o componente ambiental (exposição ao trauma) é fundamental e necessário para o surgimento do transtorno, por definição. Os sintomas não necessariamente resolvem espontaneamente em até um mês (esse é o critério temporal do Transtorno de Estresse Agudo), a amnésia para partes do evento é um sintoma reconhecido (não exclui o diagnóstico), e a psicoterapia (especialmente TCC focada no trauma) tem boa eficácia.",
+      "theme": "psi_trauma",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "trauma_086",
+      "statement": "T ranstorno do Estresse PósT raumático T EPT Uma bancária, presente na agência durante um assalto, sem ter sido diretamente ameaçada, várias semanas depois desenvolve sensação de desconforto ao lembrar-se do assalto, acompanhada de reatividade siológica (tremores, sudorese e taquicardia), passando a ter pesadelos. O banco não tomou nenhuma providência no sentido de fornecer apoio psicológico a nenhum dos trabalhadores presentes. Pode-se afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "como a bancária não foi diretamente ameaçada, o quadro que apresenta provavelmente não tem relação com o trabalho."
+        },
+        {
+          "key": "b",
+          "text": "se trata de quadro clínico de transtorno do estresse pós-traumático (fase de revivescência), que pode ocorrer mesmo na circunstância descrita de não ter sido diretamente ameaçada."
+        },
+        {
+          "key": "c",
+          "text": "o banco deveria ter providenciado suporte psicológico a todos os presentes ao assalto, pois o trauma representado por este pode desencadear quadro de esgotamento profissional (burnout), que parece ser o caso da bancária."
+        },
+        {
+          "key": "d",
+          "text": "o fato de não ter sido diretamente ameaçada aponta para possível simulação da bancária, de modo que deve ser submetida a exame médico-pericial."
+        },
+        {
+          "key": "e",
+          "text": "o aparecimento de sintomas várias semanas após o assalto, não sugere tratar-se de transtorno relacionado ao trabalho."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O TEPT pode ocorrer mesmo em quem não foi diretamente ameaçado, bastando testemunhar o evento traumático (critério do DSM-5) — o quadro descrito (reexperiência, reatividade fisiológica, pesadelos) é compatível com TEPT relacionado ao trabalho, mesmo sem ameaça direta à vítima.",
+      "theme": "psi_trauma",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "trauma_089",
+      "statement": "No Transtorno de Estresse Pós-Traumático (TEPT),",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "os sintomas têm resolução espontânea em, no máximo, um mês após o evento traumático."
+        },
+        {
+          "key": "b",
+          "text": "a presença da amnésia de partes importantes do evento traumático exclui o diagnóstico"
+        },
+        {
+          "key": "c",
+          "text": "o componente ambiental (trauma) é fundamental para o seu surgimento."
+        },
+        {
+          "key": "d",
+          "text": "a psicoterapia apresenta baixa eficácia no tratamento."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "No TEPT, o componente ambiental (trauma) é fundamental para seu surgimento. Os sintomas não resolvem necessariamente em até um mês, a amnésia parcial do evento não exclui o diagnóstico, e a psicoterapia tem boa eficácia.",
+      "theme": "psi_trauma",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}
