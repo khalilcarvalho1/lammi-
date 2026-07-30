@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T14:38:37.012Z",
+  "generatedAt": "2026-07-30T15:35:24.024Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,7 +26,7 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 3158,
+  "totalQuestions": 3201,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
@@ -70,10 +70,12 @@
     "atls_genitourinario": 1,
     "orto_trauma_basico": 32,
     "ped_aleitamento": 99,
+    "ped_alimentacao": 33,
     "ped_bronco": 2,
     "cresce_curvas": 98,
     "cresce_dnpm": 100,
     "ped_exant": 97,
+    "ped_hebiatria": 10,
     "ped_congenitas": 200,
     "neo_reanim": 46,
     "pneumo_outros": 6,
@@ -2384,6 +2386,16 @@
     },
     {
       "area": "pediatria",
+      "slug": "alimentacao-complementar",
+      "themes": [
+        "ped_alimentacao"
+      ],
+      "questionsCount": 33,
+      "flashcardsCount": 0,
+      "casosCount": 0
+    },
+    {
+      "area": "pediatria",
       "slug": "asma",
       "themes": [],
       "questionsCount": 0,
@@ -2459,6 +2471,16 @@
       "slug": "gastroenterite",
       "themes": [],
       "questionsCount": 0,
+      "flashcardsCount": 0,
+      "casosCount": 0
+    },
+    {
+      "area": "pediatria",
+      "slug": "hebiatria",
+      "themes": [
+        "ped_hebiatria"
+      ],
+      "questionsCount": 10,
       "flashcardsCount": 0,
       "casosCount": 0
     },

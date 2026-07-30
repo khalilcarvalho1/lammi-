@@ -1,0 +1,300 @@
+{
+  "questions": [
+    {
+      "id": "heb_002",
+      "statement": "Durante a consulta com pacientes adolescentes, algumas situações próprias da faixa etária não requerem a quebra do sigilo médico. Nesse contexto, o sigilo médico pode ser mantido em relação a",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "namoro, bullying e infecção sexualmente transmissível."
+        },
+        {
+          "key": "b",
+          "text": "autoagressão, não adesão a tratamentos e prescrição de contraceptivos."
+        },
+        {
+          "key": "c",
+          "text": "iniciação sexual, prescrição de contraceptivos e infecção sexualmente transmissível."
+        },
+        {
+          "key": "d",
+          "text": "conflitos de identidade de gênero, gravidez e não adesão a tratamentos."
+        },
+        {
+          "key": "e",
+          "text": "prescrição de contraceptivos, autoagressão e bullying."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O sigilo médico pode ser mantido em relação à iniciação sexual, à prescrição de contraceptivos e a infecções sexualmente transmissíveis do adolescente — temas próprios da autonomia do paciente adolescente que não exigem, por si só, comunicação aos pais.",
+      "theme": "ped_hebiatria",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "heb_010",
+      "statement": "O atendimento especializado ao adolescente é feito pelo pediatra ou hebiatra. Um tema de grande discussão é o sigilo médico para esses pacientes. Nesse sentido, analise a seguinte afirmação: É vedado ao médico revelar segredo pro ssional referente ao paciente menor de idade, inclusive a seus pais ou responsáveis legais, desde que o menor tenha capacidade de avaliar seu problema e de conduzir-se por seus próprios meios para solucioná- lo; salvo quando a não revelação possa acarretar danos ao paciente. Todos os jovens têm direito à privacidade. Essa afirmação está",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "correta."
+        },
+        {
+          "key": "b",
+          "text": "incorreta, pois, no caso de paciente menor de idade, os pais/responsáveis devem saber de tudo o que é conversado na consulta."
+        },
+        {
+          "key": "c",
+          "text": "incorreta, pois os adolescentes não têm capacidade de avaliação de seus problemas."
+        },
+        {
+          "key": "d",
+          "text": "incorreta, pois o segredo só pode ser contado quando puder acarretar danos a terceiros."
+        },
+        {
+          "key": "e",
+          "text": "incorreta, pois o risco de dano ao paciente não supera a obrigação médica quanto ao sigilo."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A afirmação está correta: é vedado ao médico revelar segredo profissional do paciente adolescente, inclusive aos pais/responsáveis, desde que o adolescente tenha capacidade de avaliar seu problema e conduzir-se para solucioná-lo — exceto quando a não revelação puder causar dano ao próprio paciente.",
+      "theme": "ped_hebiatria",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "heb_017",
+      "statement": "Leia o caso clínico a seguir. Mãe traz seu lho adolescente de 12 anos para consulta. Relata estar preocupada com o seu comportamento. Ele só quer vestir roupas pretas, não permite que o acompanhe até à porta da escola e não aceita manifestações de afeto dos pais perto dos colegas. Passou a ficar desobediente e não quer sair mais com a família. Esse comportamento significa que o adolescente",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "está com sintomas sugestivos de depressão."
+        },
+        {
+          "key": "b",
+          "text": "tem vergonha da família ou não gosta mais dos seus pais."
+        },
+        {
+          "key": "c",
+          "text": "está rebelde, e os pais devem tomar atitudes firmes para evitar esse comportamento indesejável."
+        },
+        {
+          "key": "d",
+          "text": "busca a separação progressiva dos pais para o desenvolvimento da própria autonomia."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O comportamento descrito (busca por privacidade, resistência a demonstrações públicas de afeto dos pais, desejo de maior independência) representa a busca normal de separação progressiva dos pais como parte do desenvolvimento da autonomia própria da adolescência, não sendo indicativo de depressão ou de rebeldia patológica.",
+      "theme": "ped_hebiatria",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "heb_020",
+      "statement": "Um adolescente de 14 anos é trazido à consulta e seus pais queixam-se de que ele mudou completamente o modo de relacionar-se em casa. Não aceita mais os padrões vigentes na família, não mantém mais suas coisas arrumadas e passa muitas horas ouvindo música com o som excessivamente alto. Na escola, o padrão de comportamento de Pedro é normal, não havendo qualquer queixa dos professores. É um aluno bastante responsável com suas obrigações escolares. Ao orientar a família, qual a explicação que o médico deve fornecer à família sobre o comportamento do filho?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Está apresentando a Síndrome da Personalidade Dupla."
+        },
+        {
+          "key": "b",
+          "text": "Está vivenciando um evidente conflito e deve ser encaminhado à psicoterapia."
+        },
+        {
+          "key": "c",
+          "text": "Está apresentando características normais, assumindo identidades circunstanciais."
+        },
+        {
+          "key": "d",
+          "text": "Está vivenciando um intenso conflito e a melhor abordagem é a farmacológica."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O comportamento descrito (não aceitar padrões familiares, quarto desarrumado, música alta), associado a bom desempenho escolar e responsabilidade nas obrigações, representa características normais do desenvolvimento adolescente, no qual o jovem experimenta diferentes 'identidades circunstanciais' como parte da construção da própria identidade — não configura patologia nem exige intervenção farmacológica ou psicoterápica compulsória.",
+      "theme": "ped_hebiatria",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "heb_024",
+      "statement": "Sobre a consulta o adolescente: I) A orientação da SBP é que adolescentes não devem car isolados nos seus quartos ou ultrapassar suas horas saudáveis de sono noturno para usar meios eletrônicos. II) É aconselhável conversar sobre as regras de uso da internet, con gurações para segurança e privacidade sobre nunca compartilhar senhas, fotos ou informações pessoais. III) adolescente tem direito à con dencialidade. ao sigilo de sua atividade sexual e à prescrição de métodos anticoncepcionais em todas as circunstâncias. IV) A triagem anual para Clamídia deve ser realizada em todas as meninas após a menarca. As alternativas corretas são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I e II"
+        },
+        {
+          "key": "b",
+          "text": "I e III"
+        },
+        {
+          "key": "c",
+          "text": "II e IV"
+        },
+        {
+          "key": "d",
+          "text": "II e III"
+        },
+        {
+          "key": "e",
+          "text": "III e IV"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Estão corretos os itens I (orientação da SBP sobre uso equilibrado de mídias eletrônicas e sono) e II (conversar sobre regras de segurança/privacidade na internet). O item III está incorreto, pois a confidencialidade do adolescente não é absoluta 'em todas as circunstâncias' — pode ser quebrada diante de risco à vida. O item IV está incorreto, pois a triagem anual para Clamídia não é recomendada indiscriminadamente para todas as meninas após a menarca, sendo direcionada por fatores de risco/atividade sexual.",
+      "theme": "ped_hebiatria",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "heb_026",
+      "statement": "Adolescente, sexo feminino, 14 anos de idade, veio para consulta ambulatorial acompanhada de sua mãe, que está muito preocupada com o seu desempenho escolar. A adolescente está no 9º ano, nunca reprovou, mas este semestre está de recuperação em matemática, física e química, cujas provas serão realizadas amanhã. Ao ser questionada se já começou a estudar para as provas de amanhã, diz que pretende fazer isso hoje após a consulta, pois acha que a matéria não é muito extensa. Na consulta de hoje, a adolescente está nitidamente sonolenta. Quando confrontada sobre a sonolência, refere que passou a madrugada na la para comprar ingressos de um show musical que ocorrerá em junho do próximo ano. A previsão de abertura da bilheteria era hoje pela manhã, mas ela chegou com 24 horas de antecedência, por medo de perder o ingresso, sendo a primeira da fila. Levando em consideração as características do desenvolvimento psicológico-emocional presentes na adolescência, podemos enquadrar a descrição acima como uma manifestação de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Vivência temporal singular."
+        },
+        {
+          "key": "b",
+          "text": "Atitude social reivindicatória."
+        },
+        {
+          "key": "c",
+          "text": "Desenvolvimento do pensamento abstrato."
+        },
+        {
+          "key": "d",
+          "text": "Flutuação constante de humor."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A situação descrita (priorizar uma fila para ingressos de show em detrimento do estudo para provas no dia seguinte, sem noção de urgência quanto às consequências futuras) exemplifica a vivência temporal singular característica da adolescência, marcada por uma percepção de tempo e prioridades centrada no presente imediato.",
+      "theme": "ped_hebiatria",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "heb_031",
+      "statement": "Sobre a consulta do adolescente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a família deve ser a fonte primordial de informações, uma vez que o adolescente, independentemente da idade, não tem autonomia do seu cuidado."
+        },
+        {
+          "key": "b",
+          "text": "a avaliação do perfil psicossocial do adolescente deve ser realizada a partir de 14 anos, preferencialmente na presença de pais ou responsáveis."
+        },
+        {
+          "key": "c",
+          "text": "a família deve ser ouvida em tempo específico, em separado do adolescente, para que possa expor mais livremente as angústias e preocupações que motivaram a busca pela consulta."
+        },
+        {
+          "key": "d",
+          "text": "o estabelecimento de um senso de confidencialidade com o adolescente é indispensável, mas o sigilo da consulta poderá ser quebrado em situações que ameacem a vida do adolescente ou de terceiros."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Na consulta do adolescente, o estabelecimento de um senso de confidencialidade é indispensável para a construção de vínculo terapêutico, mas o sigilo pode ser quebrado em situações que ameacem a vida do próprio adolescente ou de terceiros.",
+      "theme": "ped_hebiatria",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "heb_034",
+      "statement": "Adolescente de 15 anos comparece a consulta de emergência acompanhada dos pais. A mãe insiste em falar com o médico para saber do que a adolescente se queixou especialmente para ele. O sigilo médico deve ser preservado, mas pode ser rompido na seguinte situação:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ideias suicidas."
+        },
+        {
+          "key": "b",
+          "text": "Comportamento agressivo."
+        },
+        {
+          "key": "c",
+          "text": "Experimentação de cigarro."
+        },
+        {
+          "key": "d",
+          "text": "Prescrição de anticoncepcional."
+        },
+        {
+          "key": "e",
+          "text": "Atividade sexual da adolescente."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O sigilo médico pode ser rompido diante de ideação suicida, por representar risco iminente à vida do adolescente — situação que se sobrepõe ao direito de confidencialidade. Comportamento agressivo, experimentação de cigarro, prescrição de anticoncepcional e atividade sexual, isoladamente, não justificam a quebra do sigilo.",
+      "theme": "ped_hebiatria",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "heb_036",
+      "statement": "Paciente de 14 anos, sexo feminino, 1 ano após a menarca, comparece à consulta de rotina, acompanhada da mãe. Após entrevista com a mãe e adolescente juntas, médico pede para que a mãe aguarde na sala de espera e entrevista individualmente a adolescente. Durante a entrevista individual, a adolescente refere ao pediatra estar tendo relações sexuais com o namorado. A melhor conduta a ser tomada pelo médico neste caso seria:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Orientar a adolescente para que exija do parceiro o uso do preservativo, sugerir que a adolescente converse à respeito com a mãe, prescrever anticoncepcional oral, oferecer orientações sobre anticoncepção de emergência e doenças sexualmente transmissíveis e encaminhar ao ginecologista"
+        },
+        {
+          "key": "b",
+          "text": "Orientar a adolescente para que exija do parceiro o uso do preservativo, conversar à respeito com a mãe da adolescente, encaminhar ao ginecologista e não prescrever anticoncepcional"
+        },
+        {
+          "key": "c",
+          "text": "Orientar sobre os riscos de uma vida sexual nesta faixa etária, sugerir que a adolescente postergue sua vida sexual e termine o ensino médio, encaminhar ao ginecologista e orientar retorno breve"
+        },
+        {
+          "key": "d",
+          "text": "Orientar a adolescente para que exija do parceiro o uso do preservativo, oferecer orientações sobre anticoncepção de emergência, aguardar 2 anos após menarca para introdução do anticoncepcional oral devido efeitos indesejáveis do uso contínuo hormonal nesta fase de crescimento, encaminhar ao ginecologista e orientar retorno breve."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A conduta adequada respeita a autonomia da adolescente: orientar o uso de preservativo pelo parceiro, sugerir (sem impor) que converse com a mãe, prescrever anticoncepcional oral, orientar sobre contracepção de emergência e IST, e encaminhar ao ginecologista — sem necessidade de aguardar prazo após a menarca nem de exigir revelação aos pais.",
+      "theme": "ped_hebiatria",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "heb_039",
+      "statement": "De acordo com os princípios éticos na atenção integral à saúde do adolescente, pode-se afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ele tem o direito de ser atendido sem a presença dos pais ou responsáveis no ambiente de consulta, garantindo- se a privacidade e a confidencialidade."
+        },
+        {
+          "key": "b",
+          "text": "A ausência de um dos pais ou responsáveis inviabiliza o atendimento do adolescente."
+        },
+        {
+          "key": "c",
+          "text": "Os pais ou responsáveis devem ser informados sobre o conteúdo da consulta relacionado à atividade sexual e à prescrição de métodos anticoncepcionais, independente do consentimento ou não do adolescente."
+        },
+        {
+          "key": "d",
+          "text": "Caracteriza-se necessidade de quebra de sigilo médico mediante achados de exame físico que não foram relatados pelo adolescente durante a entrevista."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Segundo os princípios éticos de atenção integral à saúde do adolescente, ele tem o direito de ser atendido sem a presença dos pais ou responsáveis, garantindo-se privacidade e confidencialidade da consulta.",
+      "theme": "ped_hebiatria",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}

@@ -772,6 +772,16 @@ export const AREAS: Area[] = [
         label: 'Infecções Congênitas',
         subtemas: []
       },
+      {
+        id: 'ped_alimentacao',
+        label: 'Alimentação Complementar e Cuidados Gerais',
+        subtemas: []
+      },
+      {
+        id: 'ped_hebiatria',
+        label: 'Hebiatria (Adolescência)',
+        subtemas: []
+      },
     ]
   },
 

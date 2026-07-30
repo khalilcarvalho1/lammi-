@@ -1,0 +1,936 @@
+{
+  "questions": [
+    {
+      "id": "topped_001",
+      "statement": "O Ministério da Saúde e a Organização Pan-Americana de Saúde (MS/OPAS) propõem dez passos para a alimentação saudável para crianças menores de dois anos de idade. Uma recomendação considerada adequada para essa faixa etária é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "iniciar a oferta de fruta a partir dos sete meses de idade, amassada ou raspada, e a papa principal a partir dos oito meses."
+        },
+        {
+          "key": "b",
+          "text": "preparar as refeições da alimentação complementar sem a adição de sal ou açúcar nos 2 primeiros anos de vida."
+        },
+        {
+          "key": "c",
+          "text": "iniciar a oferta da papa principal com tubérculos, proteínas, hortaliças e leguminosas aos 6 meses, postergando os cereais para depois dos nove meses de idade."
+        },
+        {
+          "key": "d",
+          "text": "oferecer apenas água ou chás, se o lactente ainda estiver em aleitamento materno exclusivo nos primeiros seis meses de vida."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Entre os Dez/Doze Passos para uma Alimentação Saudável (MS/OPAS), a recomendação é preparar as refeições da alimentação complementar sem adição de sal ou açúcar nos dois primeiros anos de vida — as demais opções contêm marcos incorretos (frutas e papa principal devem começar aos 6 meses, não postergando cereais).",
+      "theme": "ped_alimentacao",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_003",
+      "statement": "Assinale a alternativa que preenche, correta e respectivamente, as lacunas do parágrafo abaixo. As orientações para a introdução da alimentação complementar para uma criança saudável em aleitamento materno exclusivo estão contidas no Guia Alimentar de Crianças Brasileiras Menores de Dois Anos. Assim, esse tipo de alimentação deve ter início a partir dos .........., com alimentos in natura ou minimamente processados, .......... .",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "4 meses – utilizando-se sal e açúcar em quantidades mínimas nas preparações"
+        },
+        {
+          "key": "b",
+          "text": "4 meses – não se utilizando sal nem açúcar nas preparações até os 2 anos"
+        },
+        {
+          "key": "c",
+          "text": "6 meses – utilizando-se sal e açúcar em quantidades mínimas nas preparações"
+        },
+        {
+          "key": "d",
+          "text": "6 meses – utilizando-se sal em quantidade mínima sem a adição de açúcar nas preparações até os 2 anos"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Segundo o Guia Alimentar de Crianças Brasileiras Menores de Dois Anos, a alimentação complementar deve iniciar aos 6 meses, com alimentos in natura ou minimamente processados, utilizando sal em quantidade mínima e sem adição de açúcar nas preparações até os 2 anos.",
+      "theme": "ped_alimentacao",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_004",
+      "statement": "A mãe de uma criança de 2 anos de idade vem à consulta preocupada com os hábitos alimentares de seu lho. Qual das alternativas é a correta em relação às orientações para hábitos alimentares saudáveis de crianças dessa faixa de idade?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pode-se oferecer refrigerantes, sucos de caixinha e alguns tipos de balas e doces."
+        },
+        {
+          "key": "b",
+          "text": "Pode-se oferecer líquidos durante a refeição, como água, sucos; evitar refrigerantes."
+        },
+        {
+          "key": "c",
+          "text": "Fazer a adequação do prato de acordo com a necessidade da criança, evitando deixar a criança repetir."
+        },
+        {
+          "key": "d",
+          "text": "A sobremesa pode ser oferecida como parte da refeição, não como recompensa; deve-se dar preferência às frutas."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A sobremesa pode ser oferecida como parte da refeição (não como recompensa), dando-se preferência às frutas — não se deve oferecer refrigerantes/doces, líquidos durante a refeição atrapalham o apetite, e não se deve restringir a criança de repetir o prato, respeitando sua autorregulação do apetite.",
+      "theme": "ped_alimentacao",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_005",
+      "statement": "Lactente de 6 meses está sendo atendido na unidade básica de saúde para consulta de puericultura. A criança, nascida com 39 semanas, encontra-se em aleitamento materno exclusivo e com desenvolvimento neuropsicomotor adequado. Sua genitora solicita orientações para iniciar a alimentação complementar. Acerca da introdução alimentar nesse caso, assinale a opção correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A carne deve ser triturada e peneirada, para garantir oferta adequada de ferro, zinco e vitamina B12."
+        },
+        {
+          "key": "b",
+          "text": "As frutas, in natura, raspadas, amassadas ou picadas devem ser introduzidas como fontes de fibras."
+        },
+        {
+          "key": "c",
+          "text": "Os sucos devem ser introduzidos na rotina alimentar, uma vez ao dia, sendo importante fonte de vitaminas e fibras."
+        },
+        {
+          "key": "d",
+          "text": "A gema do ovo, por ser uma importante fonte proteica, deve ser oferecida de imediato, ao passo que a clara, devido ao seu poder alergênico, deve ser oferecida somente após 12 meses de idade."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "As frutas in natura, raspadas, amassadas ou picadas devem ser introduzidas como fonte de fibras na alimentação complementar — a carne não deve ser peneirada/coada (deve ser picada/desfiada para preservar ferro/zinco/B12), sucos não devem ser rotina, e a gema e a clara do ovo podem ser oferecidas juntas desde os 6 meses, sem necessidade de postergar a clara.",
+      "theme": "ped_alimentacao",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_006",
+      "statement": "Durante o acompanhamento de uma família com três crianças de idades distintas, em Unidade Básica de Saúde, a mãe pergunta sobre a conduta adequada quanto aos cuidados com os dentes das crianças. As crianças têm 10 meses, 5 anos o 9 anos. Sobre as orientações adequadas de saúde bucal para a faixa etária pediátrica, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A alimentação da criança não deve conter açúcar simples adicionado às preparações até um ano de idade para se evitar as cáries"
+        },
+        {
+          "key": "b",
+          "text": "A criança de cinco anos já sabe cuspir, portanto deverá utilizar creme dental fluoretado na quantidade de equivalente a um grão de ervilha (0,3g)"
+        },
+        {
+          "key": "c",
+          "text": "A criança de nove anos pode realizar a escovação e a utilização do fio dental sem a necessidade da supervisão de um adulto"
+        },
+        {
+          "key": "d",
+          "text": "A escovação com escova de dentes adequada à idade e realizada por um adulto deve ter inicio aos dois anos de idade"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Aos 5 anos, a criança já sabe cuspir e deve utilizar creme dental fluoretado na quantidade equivalente a um grão de ervilha (~0,3g) — o açúcar deve ser evitado até os 2 anos (não apenas até 1 ano), a supervisão de um adulto na escovação/fio dental ainda é recomendada mesmo aos 9 anos, e a escovação supervisionada deve começar já com a erupção do primeiro dente, não aos 2 anos.",
+      "theme": "ped_alimentacao",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_007",
+      "statement": "A escolha dos alimentos para o preparo das refeições da criança é fundamental para uma alimentação adequada e saudável. Nos dois primeiros anos de vida da criança, a escolha dos alimentos merece atenção especial, pois é quando os hábitos alimentares estão sendo formados e existem alguns cuidados relacionados a esses alimentos. Considerando cuidados de saúde e segurança do lactente, qual dentre as opções abaixo apresenta um alimento que NÃO precisa ser evitado primeiro ano de vida da criança:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Carne de porco"
+        },
+        {
+          "key": "b",
+          "text": "Mel"
+        },
+        {
+          "key": "c",
+          "text": "Pipoca"
+        },
+        {
+          "key": "d",
+          "text": "Suco de frutas"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A carne de porco bem cozida não precisa ser evitada no primeiro ano de vida. Já o mel (risco de botulismo infantil), a pipoca (risco de engasgo) e o suco de frutas (sem benefício nutricional relevante, favorece preferência por sabor doce) devem ser evitados nessa fase.",
+      "theme": "ped_alimentacao",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_008",
+      "statement": "Um bebê de 6 meses de vida foi levado pela mãe à equipe de Saúde da Família (eSF) para consulta de rotina de puericultura. A mãe relata que está preocupada, pois a criança mostra-se mais chorosa, apresentando irritabilidade, di culdade para dormir e pico febril de 39 °C na noite anterior. A criança está previamente hígida, em aleitamento materno exclusivo, fez uso de paracetamol há duas horas e sua temperatura é de 37,5 °C no momento. A mãe nega que a criança tenha alergias medicamentosas. Ao exame físico, veri cam-se auscultas pulmonar e cardíaca sem alterações, abdome sem particularidades, otoscopia direita com presença de membrana timpânica abaulada e hiperemiada, sem presença de otorreia. A criança é capaz de rmar a cabeça e apanhar objetos, e as medidas antropométricas estão próximas ao percentil 50. Carteira de vacinação atualizada. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue o item a seguir. Nessa consulta, já é possível orientar acerca da introdução de alimentação complementar ao aleitamento materno.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Durante um quadro agudo de doença (otite média aguda em vigência), não é o momento adequado para iniciar a introdução de novos alimentos — recomenda-se aguardar a criança estar saudável, evitando confundir possíveis reações alimentares com sintomas da doença e considerando a redução do apetite durante o quadro infeccioso. Afirmação Errada.",
+      "theme": "ped_alimentacao",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_009",
+      "statement": "O Guia Alimentar para crianças brasileiras menores de 2 anos trouxe uma atualização de Dez passos para Doze Passos para uma Alimentacã̧ o Saudável, ampliando a importância do conhecimento na manutenção da alimentação saudável no lactente. Qual recomendação é dada pelo Guia Alimentar para crianças brasileiras menores de 2 anos acerca da oferta da alimentação infantil?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Não deve ser oferecido açúcar nem preparações ou produtos que contenham açúcar à criança até 2 anos de idade."
+        },
+        {
+          "key": "b",
+          "text": "Podem ser oferecidos à crianca̧ menor de 2 anos, alimentos preparados em casa com pequenas quantidades de açúcar."
+        },
+        {
+          "key": "c",
+          "text": "Produtos ultraprocessados que não contenham açúcar em suas preparações, podem ser oferecidos a partir de 1 ano de idade."
+        },
+        {
+          "key": "d",
+          "text": "Para uma alimentação variada, oferecer à crianca̧ , além de água própria para o consumo, sucos e outras bebidas açucaradas."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Segundo os Doze Passos para uma Alimentação Saudável, não se deve oferecer açúcar nem preparações ou produtos que contenham açúcar à criança até os 2 anos de idade.",
+      "theme": "ped_alimentacao",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_011",
+      "statement": "Na cronologia da dentição humana permanente, é correto afirmar que os primeiros dentes a terem erupção são os:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Incisivos centrais."
+        },
+        {
+          "key": "b",
+          "text": "Incisivos laterais."
+        },
+        {
+          "key": "c",
+          "text": "Caninos."
+        },
+        {
+          "key": "d",
+          "text": "Pré-molares."
+        },
+        {
+          "key": "e",
+          "text": "Molares."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na cronologia da dentição permanente, os primeiros dentes a erupcionar são os incisivos centrais (geralmente os inferiores, por volta dos 6-7 anos de idade).",
+      "theme": "ped_alimentacao",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_012",
+      "statement": "Considerando a orientação da Sociedade Brasileira de Pediatria, com relação à alimentação da criança no primeiro ano de vida, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Devemos oferecer suco de fruta natural, sem adição de açucares ou adoçantes."
+        },
+        {
+          "key": "b",
+          "text": "O aleitamento materno deve ser exclusivo ate o 4° mês de vida, sem necessidade de oferecer água, chás ou qualquer outro alimento."
+        },
+        {
+          "key": "c",
+          "text": "Na transição alimentar a papa principal pode ser liquidificada ou processada devendose evitar o sal e utilizando a gordura, sob a forma de óleo vegetal."
+        },
+        {
+          "key": "d",
+          "text": "Em média, a criança precisa ser exposta a um novo alimento de 8 a 1 O vezes para que o aceite bem."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Segundo a Sociedade Brasileira de Pediatria, em média a criança precisa ser exposta a um novo alimento de 8 a 10 vezes para que o aceite bem — fenômeno conhecido como neofobia alimentar, comum na introdução de novos sabores.",
+      "theme": "ped_alimentacao",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_013",
+      "statement": "Mãe de lactente de seis meses vem para consulta de puericultura e pergunta como deve cuidar dos dentinhos do bebê que estão nascendo, pois o irmão mais velho teve várias cáries antes dos dois anos de idade. Qual orientação é a mais adequada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Profilaxia com fluoreto tópico pelo dentista a partir da erupção do primeiro dente."
+        },
+        {
+          "key": "b",
+          "text": "Suspender oferta de leite materno durante a noite para evitar cáries."
+        },
+        {
+          "key": "c",
+          "text": "Escovação com dentifrício fluoretado a partir da erupção do primeiro dente."
+        },
+        {
+          "key": "d",
+          "text": "Iniciar oferta de água de abastecimento público, que é fluoretada."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A orientação mais adequada é iniciar a escovação com dentifrício fluoretado a partir da erupção do primeiro dente — não se deve restringir os cuidados apenas à profilaxia odontológica nem suspender o leite materno noturno como medida isolada de prevenção de cárie.",
+      "theme": "ped_alimentacao",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_014",
+      "statement": "Pedro e Eduarda são pais de Mateus, um lactente que acabou de completar 6 meses. Mateus é um bebê hígido, sem intercorrências desde o nascimento, com bom desenvolvimento neuropsicomotor e está atualmente em seio materno livre demanda. Você é o médico da UBS e vai orientá-los sobre a introdução da alimentação complementar. Na Caderneta de Saúde da Criança do Ministério da Saúde existem os 10 passos para alimentação saudável que orientam:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "No início da introdução de alimentos, deve-se deixar a consistência líquida para que as crianças não engasguem."
+        },
+        {
+          "key": "b",
+          "text": "Primeiro deve-se oferecer frutas 2x ao dia até que a criança se adapte e se acostume. Só então, passar para alimentos salgados."
+        },
+        {
+          "key": "c",
+          "text": "As carnes devem ser oferecidas após o nono mês, pois nesse momento já existem os dentes que auxiliarão na mastigação."
+        },
+        {
+          "key": "d",
+          "text": "A alimentação complementar deve ser oferecida de acordo com os horários de refeição da família, em intervalos regulares e de forma a respeitar o apetite da criança."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Segundo os 10 passos para alimentação saudável da Caderneta de Saúde da Criança, a alimentação complementar deve ser oferecida de acordo com os horários de refeição da família, em intervalos regulares e respeitando o apetite da criança — não se deve iniciar apenas com líquidos, nem seguir uma ordem rígida de frutas antes de salgados, nem postergar as carnes para depois do nono mês.",
+      "theme": "ped_alimentacao",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_015",
+      "statement": "O agente comunitário traz para a reunião da equipe de Saúde da Família o caso de uma puérpera de 17 anos de idade que está em casa com seu recém-nascido (RN) de 3 dias de vida, após alta do Hospital Universitário naquele dia. Fez pré-natal na Unidade Básica de Saúde a partir dos cinco meses de gestação, sem intercorrências e os exames de rotina foram normais. Segundo informações do hospital, a criança nasceu de parto vaginal, a termo, Peso= 2.800g, sem intercorrências. Saiu do hospital com aleitamento materno exclusivo, recebeu BCG e uma dose da vacina para o vírus da hepatite B, foi registrada. Qual é a medida imediata que deve ser adotada neste caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Agendar para a semana seguinte uma consulta médica com o pediatra do Hospital Universitário pois a primeira semana de vida é o período de maior risco para esse RN de mãe adolescente."
+        },
+        {
+          "key": "b",
+          "text": "Agendar uma consulta com o médico de família quando o RN fizer 1 mês de vida, pois a gestação foi de baixo risco, não houve intercorrências no parto e a criança nasceu saudável."
+        },
+        {
+          "key": "c",
+          "text": "Inscrever a puérpera no grupo de apoio às mães adolescentes que fazem encontros semanais, para que ela possa receber orientações sobre os cuidados com o RN."
+        },
+        {
+          "key": "d",
+          "text": "Realizar uma visita domiciliar ainda na primeira semana de vida do RN para verificar a saúde do binômio mãe-filho, e garantir a manutenção da amamentação exclusiva."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de puérpera adolescente com recém-nascido de 3 dias recém-saído de alta hospitalar, a medida imediata é realizar visita domiciliar ainda na primeira semana de vida do RN, para verificar a saúde do binômio mãe-filho e garantir a manutenção do aleitamento materno exclusivo — a primeira semana de vida é período crítico, especialmente em contexto de maior vulnerabilidade social (mãe adolescente).",
+      "theme": "ped_alimentacao",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_016",
+      "statement": "A alimentação adequada das crianças, nos primeiros dois anos de idade, é condição essencial para a formação de bons hábitos alimentares e uma vida futura saudável. Nessa fase, a melhor recomendação do esquema alimentar é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "uso de leite materno exclusivo até os quatro meses de idade; leite materno complementado até os 2 anos ou mais; introdução de sucos de frutas aos 4 meses, frutas amassadas ou raspadas aos 6 meses; primeira e segunda papas principais de misturas múltiplas aos 7 e aos 8 ou 9 meses, respectivamente; comida da família (observando a adequação dos alimentos) a partir dos 10 meses."
+        },
+        {
+          "key": "b",
+          "text": "uso de leite materno exclusivo até os quatro meses de idade; leite materno complementado até 1 ano ou mais; introdução de frutas amassadas ou raspadas aos 4 meses; primeira e segunda papas principais de misturas múltiplas aos 5 e aos 6 ou 7 meses, respectivamente; comida da família (observando a adequação dos alimentos) a partir dos 9 meses."
+        },
+        {
+          "key": "c",
+          "text": "uso de leite materno exclusivo até os seis meses de idade; leite materno complementado até 1 ano ou mais; introdução de frutas amassadas ou raspadas aos 6 meses; primeira e segunda papas principais de misturas múltiplas aos 8 e aos 9 ou 10 meses, respectivamente; comida da família (observando a adequação dos alimentos) a partir dos 11 meses."
+        },
+        {
+          "key": "d",
+          "text": "uso de leite materno exclusivo até os seis meses de idade; leite materno complementado até os 2 anos ou mais; introdução de frutas amassadas ou raspadas aos 6 meses; primeira e segunda papas principais de misturas múltiplas aos 6 e aos 7 ou 8 meses, respectivamente; comida da família (observando a adequação dos alimentos) a partir dos 12 meses."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O esquema recomendado é: leite materno exclusivo até os 6 meses; leite materno complementado até os 2 anos ou mais; introdução de frutas amassadas/raspadas aos 6 meses; primeira e segunda papas principais aos 6 e aos 7-8 meses, respectivamente; e comida da família a partir dos 12 meses.",
+      "theme": "ped_alimentacao",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_018",
+      "statement": "Com relação a alimentação do lactente aos 6 meses de vida é correto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A carne não deve ser retirada após o cozimento, mas, sim, picada ou desfiada e oferecida à criança (procedimento fundamental para garantir oferta adequada de ferro e zinco)."
+        },
+        {
+          "key": "b",
+          "text": "Os sucos naturais são oferecidos no copo, de preferência após as refeições principais, e não em substituição a estas, em uma dose de 500 ml/dia dividido em 2 vezes."
+        },
+        {
+          "key": "c",
+          "text": "Para o preparo pode ser utilizado caldos, temperos industrializados e sal em pequena quantidade."
+        },
+        {
+          "key": "d",
+          "text": "Dá-se preferência às composições de cardápios em que se encontrem um tubérculo ou cereal associado a leguminosa, proteína de origem animal e hortaliça ou vegetal. A papa deve ser peneirada ou liquidificada até que apareçam os primeiros dentes."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Aos 6 meses, a carne não deve ser retirada/descartada após o cozimento — deve ser picada ou desfiada e oferecida à criança, sendo procedimento fundamental para garantir oferta adequada de ferro e zinco. Sucos não devem substituir refeições nem ser oferecidos em grandes volumes, o sal deve ser evitado por completo (não apenas reduzido), e a papa não deve ser peneirada/liquidificada rotineiramente, devendo ser amassada com garfo desde o início para estimular a mastigação.",
+      "theme": "ped_alimentacao",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_019",
+      "statement": "Em relação às orientações sobre Saúde Bucal na consulta pediátrica, assinale a alternativa que indica corretamente o procedimento de higienização adequado após irrupção da dentição decídua.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Gaze umedecida com enxaguante bucal"
+        },
+        {
+          "key": "b",
+          "text": "Gaze umedecida com água filtrada"
+        },
+        {
+          "key": "c",
+          "text": "Escovação sem dentifrício"
+        },
+        {
+          "key": "d",
+          "text": "Escovação com dentifrício fluoretado"
+        },
+        {
+          "key": "e",
+          "text": "Escovação com dentifrício sem flúor"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Após a erupção da dentição decídua, a higienização adequada é a escovação com dentifrício fluoretado.",
+      "theme": "ped_alimentacao",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_021",
+      "statement": "Mãe leva lho de 6 meses para consulta de puericultura em unidade básica de saúde. Criança em aleitamento materno exclusivo com bom ganho pondero-estatural e genitora deseja solucionar algumas dúvidas em relação à alimentação do seu lho. Baseado no Guia alimentar para crianças brasileiras menores de 2 anos (Ministério da Saúde, 2019), o pediatra orientou corretamente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Introduza ovos, peixe e outros alimentos potencialmente alergênicos a partir do 9º mês de vida."
+        },
+        {
+          "key": "b",
+          "text": "Priorize o uso de mel de abelha em relação a açúcar para adoçar sucos e outras preparações do bebê."
+        },
+        {
+          "key": "c",
+          "text": "Interrompa o aleitamento materno assim que o bebê começar a ter 4 refeições (lanche da manhã, lanche da tarde, almoço e jantar)."
+        },
+        {
+          "key": "d",
+          "text": "Ofereça inicialmente alimentos com consistência pastosa (papas/purês) e, gradativamente, aumente a consistência até chegar à alimentação da família."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A orientação correta é oferecer inicialmente alimentos com consistência pastosa (papas/purês), aumentando gradativamente a consistência até chegar à alimentação da família — ovos, peixe e outros alimentos potencialmente alergênicos podem ser introduzidos desde os 6 meses (não é preciso esperar até o 9º mês), o mel é contraindicado no primeiro ano, e o aleitamento materno não deve ser interrompido apenas por a criança atingir 4 refeições diárias.",
+      "theme": "ped_alimentacao",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_022",
+      "statement": "Em relação à introdução da alimentação complementar ao aleitamento materno, aos seis meses de idade, está correto afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A papa principal inicialmente deve ser peneirada ou liquidificada, passando a ser posteriormente amassada com o garfo."
+        },
+        {
+          "key": "b",
+          "text": "A papa principal pode conter alimentos de todos os grupos alimentares, com exceção do ovo que deve ser sempre introduzido após um ano de idade pelo risco de desencadear alergia."
+        },
+        {
+          "key": "c",
+          "text": "Os pais devem adotar esquemas mais rígidos, como horários e quantidades fixas, para evitar prejuízo ao aleitamento materno."
+        },
+        {
+          "key": "d",
+          "text": "É comum o lactente rejeitar alimentos que não lhe são familiares, sendo necessários, em algumas situações, várias exposições para uma plena aceitação."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "É comum que o lactente rejeite alimentos que não lhe são familiares, sendo necessárias, em algumas situações, várias exposições para uma plena aceitação (neofobia alimentar) — a papa não precisa ser sempre peneirada/liquidificada, o ovo pode ser introduzido desde os 6 meses, e não se recomendam esquemas rígidos de horários/quantidades fixas.",
+      "theme": "ped_alimentacao",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_023",
+      "statement": "Qual das recomendações abaixo não faz parte dos “Doze Passos para uma Alimentação Saudável\", do Guia Alimentar para Crianças Brasileiras Menores de Dois Anos do Ministério da Saúde (2019)?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Não oferecer alimentos ultraprocessados para a criança."
+        },
+        {
+          "key": "b",
+          "text": "Não oferecer açúcar nem preparações ou produtos que contenham açúcar à criança até os 2 anos de idade."
+        },
+        {
+          "key": "c",
+          "text": "No adicionar sal no preparo das refeições de crianças com menos de 12 meses de idade."
+        },
+        {
+          "key": "d",
+          "text": "Proteger a criança da publicidade de alimentos."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A recomendação oficial dos Doze Passos é não adicionar sal no preparo das refeições de crianças com menos de 12 MESES de idade — na realidade, o Guia Alimentar recomenda evitar a adição de sal até os 2 ANOS (24 meses), não apenas até os 12 meses, tornando essa a alternativa que não corresponde corretamente à recomendação oficial.",
+      "theme": "ped_alimentacao",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_025",
+      "statement": "Menina, 10 meses, é levada à consulta de rotina de Puericultura. Mãe está preocupada porque até agora não tem nenhum dente. Mama no peito até hoje. Relata que no outro lho com 6 meses de idade nasceu dente. O médico disse que os dentes de leite são temporários, mas muito importantes e são substituídos pelos dentes permanentes. Analise as seguintes informações/orientações sobre a dentição: I - Cada criança tem seu próprio tempo para o surgimento dos dentes, apesar de ser um processo natural e hereditário. II - Os dentes incisivos centrais superiores geralmente são os primeiros a aparecerem e, ainda, estão em tempo de erupção, esperar até os 12 meses. III - Os dentes incisivos centrais inferiores geralmente são os segundos dentes a aparecerem, esperar até os 15 meses. IV - Depois da erupção dos primeiros dentes de leite, a higiene oral da criança deve ser realizada como a primeira tarefa da manhã e a última tarefa da noite, e se possível, depois das refeições. Quais informações/orientações estão corretas?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "II e IV, apenas."
+        },
+        {
+          "key": "b",
+          "text": "I, II, III e IV."
+        },
+        {
+          "key": "c",
+          "text": "I e IV, apenas."
+        },
+        {
+          "key": "d",
+          "text": "II e III, apenas."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Estão corretas as afirmações I (cada criança tem seu próprio tempo, natural e hereditário, para o surgimento dos dentes) e IV (a higiene oral deve ser feita de manhã, à noite e, se possível, após as refeições, assim que surgirem os primeiros dentes). As afirmações II e III estão invertidas: os incisivos centrais INFERIORES geralmente são os primeiros a erupcionar (não os superiores), e os incisivos centrais superiores costumam ser os segundos, não o contrário.",
+      "theme": "ped_alimentacao",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_027",
+      "statement": "Em relação à saúde bucal na criança, o primeiro dente permanente a nascer é o:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "incisivo superior"
+        },
+        {
+          "key": "b",
+          "text": "segundo molar"
+        },
+        {
+          "key": "c",
+          "text": "incisivo inferior"
+        },
+        {
+          "key": "d",
+          "text": "primeiro molar"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O primeiro dente permanente a nascer é o primeiro molar, geralmente por volta dos 6 anos de idade — costuma erupcionar antes mesmo dos incisivos permanentes.",
+      "theme": "ped_alimentacao",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_028",
+      "statement": "Em relação à higiene oral de lactentes, é correto afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O uso de escovas dentárias e de creme dental com flúor na quantidade inicialsemelhante a \"\"um grão de arroz\"\" deve ser introduzido quando da irrupção dos primeiros dentes permanentes."
+        },
+        {
+          "key": "b",
+          "text": "O uso de escovas dentárias e de creme dental com flúor na quantidade inicialsemelhante a \"\"um grão de arroz\"\" deve ser introduzido quando da irrupção dos primeiros dentes decíduos."
+        },
+        {
+          "key": "c",
+          "text": "O uso de escovas dentárias deve ser introduzido quando da irrupção dos primeirosdentes decíduos e o creme dental com flúor na quantidade inicial semelhante a \"\"um grão de arroz\"\" deve ser introduzido quando da irrupção dos primeiros dentes permanentes."
+        },
+        {
+          "key": "d",
+          "text": "O uso de escovas dentárias deve ser introduzido quando da irrupção dos primeirosdentes permanentes e o uso de creme dental com flúor, independentemente da quantidade, deve ser evitado na infância pelo risco de fluorose."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O uso de escova dentária e de creme dental com flúor, na quantidade inicial equivalente a um grão de arroz, deve ser introduzido já na erupção dos primeiros dentes DECÍDUOS (de leite), não apenas na erupção dos dentes permanentes.",
+      "theme": "ped_alimentacao",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_029",
+      "statement": "Seguindo a recomendação do Ministério da Saúde, que consta na Caderneta de Saúde da Criança, as consultas de rotina após 1 ano de idade, no segundo ano de vida da criança e posteriormente, devem ser:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "15 e 22 meses e depois semestralmente"
+        },
+        {
+          "key": "b",
+          "text": "18 e 24 meses e depois anualmente"
+        },
+        {
+          "key": "c",
+          "text": "15 e 22 meses e depois anualmente"
+        },
+        {
+          "key": "d",
+          "text": "18 e 14 meses e depois semestralmente"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Segundo a Caderneta de Saúde da Criança do Ministério da Saúde, as consultas de rotina no segundo ano de vida e posteriormente devem ocorrer aos 18 e 24 meses, e depois anualmente.",
+      "theme": "ped_alimentacao",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_030",
+      "statement": "A tecnologia digital incorpora benefícios e malefícios à rotina das crianças e adolescentes. O bom senso e a informação adequada devem ser enfatizados pelos pediatras para as famílias, crianças e adolescentes. Sobre esse assunto, a Sociedade Brasileira de Pediatria recomenda que",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "o limite do tempo de exposição às mídias seja, no máximo, de uma hora por dia para crianças entre dois a cinco anos de idade."
+        },
+        {
+          "key": "b",
+          "text": "a duração total/dia do uso de tecnologia digital não precisa ser limitada e proporcional às idades e às etapas do desenvolvimento, desde que sejam equilibradas com atividades ao ar livre."
+        },
+        {
+          "key": "c",
+          "text": "crianças, independente da idade, podem fazer uso de televisão ou computador nos seus próprios quartos, desde que sejam estabelecidos limites de horários para uso e na presença dos pais."
+        },
+        {
+          "key": "d",
+          "text": "crianças com mais de quatro anos já conseguem separar a fantasia da realidade, portanto jogos online com cenas de tiroteios ou desastres podem ser utilizados a partir dessa idade, com supervisão dos pais."
+        },
+        {
+          "key": "e",
+          "text": "crianças, independente da idade, não podem fazer uso da tecnologia digital, mesmo que esse tempo seja limitado pelos pais."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A Sociedade Brasileira de Pediatria recomenda que o limite de exposição às mídias digitais seja de, no máximo, uma hora por dia para crianças entre dois e cinco anos de idade.",
+      "theme": "ped_alimentacao",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_032",
+      "statement": "Mãe comparece à consulta de rotina de puericultura com seu lho de 5 meses de idade. Ela irá retornar ao trabalho e quer introduzir alimentação complementar. Assinale a alternativa correta com relação ao consumo de suco de frutas.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Deve ser a primeira escolha na introdução de alimentação complementar."
+        },
+        {
+          "key": "b",
+          "text": "Seu consumo deve ser priorizado em relação ao ganho nutricional por conter grande quantidade de vitaminas, fibras e frutose."
+        },
+        {
+          "key": "c",
+          "text": "Restringir o seu consumo diário colabora para reduzir a absorção de triglicérides e o aumento de produção de insulina."
+        },
+        {
+          "key": "d",
+          "text": "Há associação entre consumo de suco de fruta e aumento do gasto energético por incremento do ácido úrico."
+        },
+        {
+          "key": "e",
+          "text": "Existe associação entre o uso abusivo de suco de frutas e a obesidade, podendo acarretar doença não alcoólica do fígado."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Existe associação entre o uso abusivo de suco de frutas e a obesidade, podendo inclusive contribuir para o desenvolvimento de doença hepática gordurosa não alcoólica — por isso o suco não deve ser priorizado nem ser a primeira escolha na introdução alimentar, preferindo-se sempre a fruta in natura.",
+      "theme": "ped_alimentacao",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_033",
+      "statement": "Recentemente o Ministério da Saúde publicou o Guia Alimentar para Crianças Brasileiras Menores de Dois Anos. Com relação a esse tema, julgue o item a seguir. Nos dois primeiros anos de vida, as bebidas não devem ser adoçadas com açúcar, devendo ser utilizados adoçantes naturais como a stevia ou o mel, com a finalidade de criar hábitos saudáveis e evitar cáries dentárias.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A recomendação é não adoçar as bebidas com açúcar nos dois primeiros anos de vida, mas também não se deve substituir o açúcar por adoçantes naturais como stevia ou mel — o mel, inclusive, é contraindicado no primeiro ano de vida pelo risco de botulismo infantil. Afirmação Errada.",
+      "theme": "ped_alimentacao",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_035",
+      "statement": "O Ministério da Saúde e a Organização Pan-americana da Saúde estabeleceram, para crianças menores de dois anos de idade, dez passos para a alimentação saudável. Em relação a essas recomendações, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A partir dos seis meses de vida, devem ser introduzidos, de forma lenta e gradual, na alimentação da criança, outros alimentos, suspendendo-se o leite materno."
+        },
+        {
+          "key": "b",
+          "text": "A mãe deve ofertar à criança somente leite materno até os seis meses de vida, sem oferecer água, chás ou quaisquer outros alimentos."
+        },
+        {
+          "key": "c",
+          "text": "Açúcar, café, enlatados, frituras, refrigerantes, balas, salgadinhos e outras guloseimas deverão ser oferecidos após os doze meses de vida."
+        },
+        {
+          "key": "d",
+          "text": "Após os seis meses de vida, a mãe deverá oferecer alimentos complementares (cereais,tubérculos, carnes,leguminosas, frutas e legumes) à criança; uma vez ao dia se esta ainda receber leite materno e duas vezes ao dia se estiver desmamada."
+        },
+        {
+          "key": "e",
+          "text": "Os horários em que a alimentação complementar é oferecida devem ser rigidamente respeitados, independentemente da vontade da criança."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A recomendação correta é ofertar à criança somente leite materno até os 6 meses de vida, sem oferecer água, chás ou quaisquer outros alimentos — o aleitamento materno exclusivo dispensa qualquer complementação líquida nesse período.",
+      "theme": "ped_alimentacao",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_037",
+      "statement": "Em relação à introdução da alimentação complementar em pediatria, é CORRETO afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A fruta ser oferecida a partir dos 4 meses de idade, amassada ou cortada em pequenos pedaços, 2 vezes ao dia."
+        },
+        {
+          "key": "b",
+          "text": "A segunda papa ou papa da janta deve ser oferecida a partir do sétimo mês de vida, amassada, acrescendo óleos vegetais depois da preparação pronta."
+        },
+        {
+          "key": "c",
+          "text": "A papa salgada deve ser oferecida a partir dos 6 meses, acompanhada de suco de frutas cítricas na quantidade máxima de 100 ml por refeição, para auxiliar na absorção do ferro não heme."
+        },
+        {
+          "key": "d",
+          "text": "As papas principais devem conter, inicialmente, cereais ou tubérculos, carnes, legumes e verduras, evitando feijões e leguminosas pela fermentação no trato intestinal do bebê."
+        },
+        {
+          "key": "e",
+          "text": "O ovo e os peixes, pela elevada alergenicidade, devem ser oferecidos apenas a partir dos 12 meses de idade."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A segunda papa principal (papa da janta) deve ser oferecida a partir do sétimo mês de vida, amassada, acrescentando óleos vegetais após a preparação pronta — a fruta pode ser oferecida desde os 6 meses (não 4), sucos cítricos não devem ser associados sistematicamente à refeição principal, feijões e leguminosas são recomendados desde o início (não devem ser evitados), e ovo/peixe podem ser introduzidos desde os 6 meses.",
+      "theme": "ped_alimentacao",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_038",
+      "statement": "Lactente de 8 meses de idade, que está em aleitamento materno e recebe alimentação complementar com almoço, jantar e 2 papas de frutas por dia, foi trazido à consulta de rotina. A mãe questionou sobre o aparecimento do primeiro dente e sobre os cuidados que deveriam ser tomados. Ao exame físico, percebeu-se uma erupção de metade do incisivo central inferior. Assinale a assertiva que contempla a orientação mais adequada a ser dada sobre a higiene oral dessa criança.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O cuidador deve passar apenas pano com água no dente, especialmente após a alimentação complementar."
+        },
+        {
+          "key": "b",
+          "text": "O cuidador deve proceder à escovação dentária com escova de cerdas macias e usar, também, creme dental sem flúor, por se tratar de criança com menos de 1 ano."
+        },
+        {
+          "key": "c",
+          "text": "O cuidador deve proceder à escovação dentária com escovas de cerdas macias e creme dental com flúor (em concentração > 1.000 ppm de flúor), na quantidade de aproximadamente 0,1 g (tamanho de um grão de arroz)."
+        },
+        {
+          "key": "d",
+          "text": "O cuidador deve proceder à escovação dentária com escova de cerdas macias e creme dental com flúor (em concentração > 1.000 ppm de flúor), na quantidade de aproximadamente 0,3 g (tamanho de um grão de ervilha)."
+        },
+        {
+          "key": "e",
+          "text": "O cuidador deve proceder à escovação dentária com escova de cerdas macias e usar, também, creme dental com flúor (em concentração < 1.000 ppm de flúor), na quantidade de aproximadamente 0,3 g (tamanho de um grão de ervilha)."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante da erupção do primeiro dente (incisivo central inferior) em lactente de 8 meses, a orientação adequada é a escovação com escova de cerdas macias e creme dental com flúor (concentração >1.000 ppm), na quantidade de aproximadamente 0,1g (tamanho de um grão de arroz) — a quantidade maior (grão de ervilha, ~0,3g) é reservada para quando a criança já sabe cuspir, por volta dos 5 anos.",
+      "theme": "ped_alimentacao",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_040",
+      "statement": "São recomendações de puericultura, para acompanhamento da criança, avaliações periódicas, como propostas de calendário, EXCETO: (Tratado de Pediatria da SBP, 2ª Ed, pág.: 185)",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Consulta de orientação aos pais pré-concepção."
+        },
+        {
+          "key": "b",
+          "text": "Consulta na sala de parto e na alta da maternidade."
+        },
+        {
+          "key": "c",
+          "text": "Consulta semestral ou anual após 24 meses de vida até 10 anos de idade."
+        },
+        {
+          "key": "d",
+          "text": "Consulta no final do 1° mês, 2 meses, 3 meses, 4 meses, 5 meses, 6 meses, 9 meses, 12 meses, 18 meses e 24 meses."
+        },
+        {
+          "key": "e",
+          "text": "Consulta após 24 horas da alta da maternidade"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Entre as recomendações do calendário de consultas de puericultura, não consta especificamente uma consulta '24 horas após a alta da maternidade' como marco isolado — a recomendação padrão é uma consulta já na primeira semana de vida, sendo essa a alternativa que não corresponde ao calendário formal proposto.",
+      "theme": "ped_alimentacao",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_041",
+      "statement": "R.G.R., uma criança de 7 meses de idade, foi levada pelos pais a um pronto atendimento infantil com quadro de tosse e secreção nasal há cerca de 10 dias, com o desenvolvimento de febre, nos últimos 2 dias, e respiração rápida. Ao exame físico, foram observados uma orofaringe com hiperemia discreta, linfonodos cervicais normais, otoscopia normal bilateral, ausculta pulmonar com estertores crepitantes à esquerda, palpação abdominal normal, ausência de sinais de irritação meníngea e inexistência de alterações dermatológicas. A frequência respiratória foi de 52 incursões por minuto. Não havia presença de tiragem subcostal, nem de insu ciência ventilatória, nem de cianose. A paciente consegue alimentar-se ao seio materno com pouca di culdade. A saturação periférica de oxigênio é de 96%. A radiogra a de tórax demonstra área de consolidação em lobo inferior esquerdo e derrame pleural de cerca de 1,5 cm. R.G.R., após a resolução de seu quadro de saúde, foi levada por seus pais para um atendimento rotineiro de puericultura, agora com 9 meses de idade, com o médico de família e comunidade do posto de saúde próximo à casa deles. Os pais estão realizando, na criança, a introdução alimentar de forma adequada, associada a 600 mL de fórmula láctea apropriada para a idade. A criança não está em uso de qualquer medicação ou suplemento. A respeito do caso clínico apresentado e de conhecimentos médicos correlatos, julgue o item a seguir. De acordo com o Caderno de Atenção Básica de Saúde da Criança, recomendam-se sete consultas rotineiras no 1º ano de vida, para que haja, entre outras ações, o acompanhamento do crescimento e do desenvolvimento da criança.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Segundo o Caderno de Atenção Básica de Saúde da Criança, recomendam-se sete consultas de rotina no primeiro ano de vida (além da consulta na maternidade), permitindo o acompanhamento adequado do crescimento e desenvolvimento. Afirmação Certa.",
+      "theme": "ped_alimentacao",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_042",
+      "statement": "Segundo a Caderneta da Criança do Ministério da Saúde, a idade em que a criança já pode apresentar todos os dentes de leite é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "6 anos."
+        },
+        {
+          "key": "b",
+          "text": "5 anos."
+        },
+        {
+          "key": "c",
+          "text": "4 anos."
+        },
+        {
+          "key": "d",
+          "text": "3 anos."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Segundo a Caderneta da Criança do Ministério da Saúde, a criança já pode apresentar todos os 20 dentes de leite (dentição decídua completa) por volta dos 3 anos de idade.",
+      "theme": "ped_alimentacao",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "topped_043",
+      "statement": "Pré-escolar, três anos, masculino, em treino de retirada de fralda, refuta em evacuar no sanitário ou no penico. Nestes casos, a orientação imediata do pediatra aos pais deverá ser:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Insistir no formato do treino devido à idade da criança."
+        },
+        {
+          "key": "b",
+          "text": "Interromper temporariamente, retomando a fralda."
+        },
+        {
+          "key": "c",
+          "text": "Alterar o formato usando esquema de recompensa."
+        },
+        {
+          "key": "d",
+          "text": "Buscar orientação junto à profissional especializado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de recusa da criança no treino de retirada de fralda, a orientação imediata é interromper temporariamente o treino, retomando a fralda, sem insistir ou forçar — evita-se criar aversão ao processo, retomando quando a criança demonstrar sinais de prontidão.",
+      "theme": "ped_alimentacao",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}
