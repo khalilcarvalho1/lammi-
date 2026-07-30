@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T14:30:39.147Z",
+  "generatedAt": "2026-07-30T14:38:37.012Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,7 +26,7 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 3112,
+  "totalQuestions": 3158,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
@@ -75,6 +75,7 @@
     "cresce_dnpm": 100,
     "ped_exant": 97,
     "ped_congenitas": 200,
+    "neo_reanim": 46,
     "pneumo_outros": 6,
     "dpoc_dx": 21,
     "dpoc_exac": 24,
@@ -2508,6 +2509,16 @@
       "slug": "prematuridade",
       "themes": [],
       "questionsCount": 0,
+      "flashcardsCount": 0,
+      "casosCount": 0
+    },
+    {
+      "area": "pediatria",
+      "slug": "reanimacao-neonatal",
+      "themes": [
+        "neo_reanim"
+      ],
+      "questionsCount": 46,
       "flashcardsCount": 0,
       "casosCount": 0
     },

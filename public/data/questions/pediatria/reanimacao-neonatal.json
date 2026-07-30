@@ -1,0 +1,1360 @@
+{
+  "questions": [
+    {
+      "id": "reanim_001",
+      "statement": "Um pediatra é chamado para atendimento de um recém- nascido (RN) em sala de parto, sendo informado de que a gestante não realizou pré-natal. A criança nasce em apneia. O cordão umbilical foi clampeado imediatamente e o RN é levado à mesa de reanimação. O pediatra realiza os passos iniciais em, no máximo, 30 segundos, mas o RN continua em apneia. Considerando-se o quadro clínico descrito, qual é a conduta adequada nesse momento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Oferecer oxigênio inalatório."
+        },
+        {
+          "key": "b",
+          "text": "Indicar a entubação traqueal."
+        },
+        {
+          "key": "c",
+          "text": "Aplicar estímulo tátil com fricção circular no abdome."
+        },
+        {
+          "key": "d",
+          "text": "Iniciar a ventilação com pressão positiva por máscara."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de apneia persistente após os passos iniciais (realizados em até 30 segundos), a conduta é iniciar a ventilação com pressão positiva (VPP) por máscara — não se deve oferecer apenas oxigênio inalatório, aplicar estímulo tátil adicional (já tentado nos passos iniciais) ou partir direto para entubação sem antes tentar a VPP por máscara.",
+      "theme": "neo_reanim",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_002",
+      "statement": "Considere a seguinte situação clínica para responder à questão Gestante com diagnóstico de doença hipertensiva da gestação, dá entrada no centro obstétrico com 29 semanas de idade gestacional, em pré-eclâmpsia e com sinais de sofrimento fetal agudo, sendo submetida a parto cesáreo. Ao ser extraído, o recém-nascido está hipotônico e não apresenta movimento respiratório. Após o clampeamento do cordão o recém-nascido foi levado para a mesa de reanimação, colocado sob fonte de calor radiante, em saco plástico e com touca, posicionado em decúbito dorsal com o pescoço em leve extensão e monitorado. Após esses procedimentos iniciais realizados no primeiro minuto, veri ca-se que o recém-nascido apresenta frequência cardíaca de 120 bpm, movimentos respiratórios espontâneos, porém com sinais de desconforto respiratório, saturando 67%. Nesse momento está indicado",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "aspirar as vias aéreas."
+        },
+        {
+          "key": "b",
+          "text": "aplicar CPAP por meio de ventilador mecânico manual e máscara facial."
+        },
+        {
+          "key": "c",
+          "text": "realizar ventilação com pressão positiva e oferta de O₂ a 30%."
+        },
+        {
+          "key": "d",
+          "text": "proceder intubação orotraqueal."
+        },
+        {
+          "key": "e",
+          "text": "iniciar massagem cardíaca."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Prematuro de 29 semanas com FC normal (120bpm) e respiração espontânea, porém com desconforto respiratório e saturação ainda baixa para o tempo de vida, está indicado o uso de CPAP (pressão de distensão contínua em vias aéreas) — não há indicação de VPP (FC normal) nem de intubação nesse momento.",
+      "theme": "neo_reanim",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_003",
+      "statement": "Recém-nascido, 40 semanas de gestação, gravidez sem intercorrências e parto cesárea por sofrimento fetal agudo com presença de líquido amniótico meconial. Foi recebido em campos aquecidos, posicionado em decúbito dorsal sob fonte de calor radiante, trocados os campos úmidos e asseguradas as vias aéreas pérvias. Encontra-se hipotônico, com movimentos respiratórios irregulares e FC=60bpm. A CONDUTA É:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Intubação traqueal, administração de oxigênio a 100%, seguida de aspiração do conteúdo traqueal."
+        },
+        {
+          "key": "b",
+          "text": "Intubação traqueal e ventilação com pressão positiva com oxigênio a 21%."
+        },
+        {
+          "key": "c",
+          "text": "Compressão torácica coordenada com a ventilação com pressão positiva."
+        },
+        {
+          "key": "d",
+          "text": "Ventilação com pressão positiva por máscara com oxigênio a 21%."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Segundo as diretrizes atuais, mesmo diante de líquido amniótico meconial, não se realiza mais aspiração traqueal rotineira independentemente do vigor do recém-nascido — a conduta diante de apneia/respiração irregular e FC=60bpm é iniciar ventilação com pressão positiva por máscara com oxigênio a 21% (ar ambiente), o mesmo algoritmo aplicado a qualquer RN ≥34 semanas.",
+      "theme": "neo_reanim",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_004",
+      "statement": "Recém-nascido em sala de parto, após a extração completa do concepto da cavidade uterina apresentou hipotonia e choro fraco. AP IG 36 semanas, parto cesárea. Realizado os passos iniciais e avaliadas frequência cardíaca e respiração. Assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Se FC menor ou igual 100 bpm e respiração irregular, iniciar ventilação com pressão positiva com concentração de oxigênio a 21%."
+        },
+        {
+          "key": "b",
+          "text": "Se FC menor ou igual 60 bpm, iniciar imediatamente a massagem cardíaca, mantendo relação de 3 massagens para uma ventilação (3:1)."
+        },
+        {
+          "key": "c",
+          "text": "Se respiração irregular e FC maior ou igual 100 bpm, iniciar oxigênio inalatório e, a seguir, oferecer pressão de distensão contínua em vias aéreas (CPAP nasal)."
+        },
+        {
+          "key": "d",
+          "text": "Se houver presença de mecônio no líquido amniótico, realizar imediatamente a aspiração de vias aéreas e de traqueia sob visualização direta."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Se após os passos iniciais o RN ≥34 semanas apresenta FC≤100bpm com respiração irregular, a conduta é iniciar ventilação com pressão positiva com concentração de oxigênio a 21% (ar ambiente) — a aspiração traqueal rotineira por mecônio não é mais indicada, e a massagem cardíaca só é iniciada após VPP eficaz malsucedida com FC<60bpm.",
+      "theme": "neo_reanim",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_005",
+      "statement": "No RN a termo, com asfixia neonatal, a manobra de reanimação a ser realizada que apresenta maior efetividade é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "infusão de adrenalina pelo cateter umbilical"
+        },
+        {
+          "key": "b",
+          "text": "ventilação com pressão positiva"
+        },
+        {
+          "key": "c",
+          "text": "intubação orotraqueal"
+        },
+        {
+          "key": "d",
+          "text": "massagem cardíaca"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A manobra de reanimação mais efetiva no RN a termo asfixiado é a ventilação com pressão positiva — a intervenção isolada mais importante em todo o processo de reanimação neonatal.",
+      "theme": "neo_reanim",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_006",
+      "statement": "Ao atender o nascimento de um bebê, termo, com choro fraco e hipotonia após a extração num parto cesárea, conduz-se a criança ao berço de reanimação, realiza-se a secagem, o aquecimento e o posiconamento em cerca de 30 segundos e avalia-se o recém-nascido que está respirando e com frequência cardíaca, veri cada com estetoscópio, de cerca de 80 batimentos/minuto. Sobre os próximos passos da reanimação neonatal, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Deve-se instalar monitor cardíaco e oxímetro de pulso."
+        },
+        {
+          "key": "b",
+          "text": "Deve-se repetir os passos iniciais, aspirando as vias aéreas (boca e nariz)."
+        },
+        {
+          "key": "c",
+          "text": "Deve-se iniciar ventilação com pressão positiva com balão e máscara, e oxigênio a 60%."
+        },
+        {
+          "key": "d",
+          "text": "Deve-se encaminhar a criança para mãe para a amamentação."
+        },
+        {
+          "key": "e",
+          "text": "Deve-se prover estímulo tátil na região dorsal do bebê."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de RN com FC de 80bpm (portanto <100) após os passos iniciais, a ventilação por pressão positiva deve ser iniciada, sendo instalados simultaneamente o monitor cardíaco e o oxímetro de pulso para acompanhamento contínuo — condutas realizadas em conjunto sempre que a VPP é indicada.",
+      "theme": "neo_reanim",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_007",
+      "statement": "Nasce um bebê, termo, em apneia após a extração pelo obstetra. O médico conduz a criança ao berço de reanimação, realiza os passos iniciais em cerca de 30 segundos e avalia o RN que está sem movimentos respiratórios e com frequência cardíaca (veri cada com estetoscópio em 6 segundos) de 6 batimentos. A conduta imediata de nida pelas diretrizes atuais de reanimação neonatal da Sociedade Brasileira de Pediatria é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "proceder o estímulo tátil vigoroso do dorso do bebê oferecendo oxigênio inalatório."
+        },
+        {
+          "key": "b",
+          "text": "oferecer oxigênio inalatório (concentração 100%) pela narina."
+        },
+        {
+          "key": "c",
+          "text": "iniciar ventilação com pressão positiva com balão e máscara, apenas com ar ambiente."
+        },
+        {
+          "key": "d",
+          "text": "iniciar ventilação com pressão positiva com balão e máscara, com oxigênio 30%."
+        },
+        {
+          "key": "e",
+          "text": "iniciar compressões cardíacas e ventilação compressão positiva com balão e cânula."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "RN termo em apneia com FC de 60bpm (6 batimentos em 6 segundos) após os passos iniciais — a conduta imediata pelas diretrizes da SBP é iniciar ventilação com pressão positiva com balão e máscara, utilizando apenas ar ambiente (oxigênio a 21%) para recém-nascidos ≥34 semanas.",
+      "theme": "neo_reanim",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_008",
+      "statement": "A frequência cardíaca (FC) é o principal determinante da decisão de indicar as diversas manobras de reanimação neonatal durante o atendimento na sala de parto. O método que demonstra a forma mais acurada, rápida e contínua de detecção da FC nos primeiros minutos de vida denomina-se",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "detecção do sinal de pulso pela oximetria."
+        },
+        {
+          "key": "b",
+          "text": "atividade elétrica do coração pelo monitor cardíaco."
+        },
+        {
+          "key": "c",
+          "text": "palpação do cordão umbilical."
+        },
+        {
+          "key": "d",
+          "text": "ausculta do precórdio com estetoscópio durante 6 segundos."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O método mais acurado, rápido e contínuo para detecção da frequência cardíaca nos primeiros minutos de vida é a monitorização da atividade elétrica do coração por meio do monitor cardíaco (ECG), superando a oximetria de pulso (mais lenta para captar sinal) e a ausculta com estetoscópio (sujeita a subestimação).",
+      "theme": "neo_reanim",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_009",
+      "statement": "Gestante de 25 anos não realizou pré-natal, idade gestacional de 38 semanas, feto único, bolsa rota de 36 horas. Na sala de parto, após o nascimento, o RN apresentou hipotonia e choro fraco. A conduta é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "deixar o RN junto à mãe e avaliar a vitalidade periodicamente."
+        },
+        {
+          "key": "b",
+          "text": "estimular o RN e aguardar 1 minuto para clampear o cordão umbilical."
+        },
+        {
+          "key": "c",
+          "text": "clampear o cordão umbilical após 3 minutos e realizar os passos iniciais da reanimação."
+        },
+        {
+          "key": "d",
+          "text": "clampear imediatamente o cordão umbilical e realizar os passos iniciais da reanimação."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "RN com sinais de depressão ao nascer (hipotonia, choro fraco) necessitando de reanimação deve ter o cordão umbilical clampeado imediatamente (o clampeamento tardio é contraindicado quando há necessidade de reanimação) e ser conduzido para os passos iniciais.",
+      "theme": "neo_reanim",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_010",
+      "statement": "Em relação às diretrizes da Sociedade Brasileira de Pediatria para Reanimação de Recém-Nascidos com idade gestacional ≥ 34 semanas, analisar os itens abaixo: I. A necessidade de reanimação é maior quanto maior a idade gestacional e o peso ao nascer. II. Cesareana a termo pode elevar a chance de que a ventilação ao nascer seja necessária, mesmo sem fatores de risco antenatais para asfixia. III. Qualquer equipe de saúde está habilitada para atender a sala de parto de um recém-nascido, desde que o mesmo seja a termo. IV. O material que será utilizado na reanimação deve estar previamente revisado e preparado para o atendimento. Estão CORRETOS:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Somente os itens I e II."
+        },
+        {
+          "key": "b",
+          "text": "Somente os itens II, III e IV."
+        },
+        {
+          "key": "c",
+          "text": "Somente os itens II e IV."
+        },
+        {
+          "key": "d",
+          "text": "Somente os itens III e IV."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Das afirmativas: (I) é falsa — a necessidade de reanimação é maior quanto MENOR a idade gestacional e o peso ao nascer, não maior; (II) é verdadeira — cesárea a termo por si só pode aumentar a chance de necessidade de ventilação; (III) é falsa — nem toda equipe está habilitada, é necessário treinamento específico; (IV) é verdadeira — o material deve estar previamente revisado e preparado. Corretas: II e IV.",
+      "theme": "neo_reanim",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_011",
+      "statement": "Um recém-nascido, em sala de parto, com idade gestacional de 39 semanas e parto normal, ao nascimento, encontra-se hipotônico e sem choro. Com base nesse caso hipotético, assinale a alternativa que apresenta a conduta imediata.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "clampeamento imediato do cordão umbilical e levar a berço aquecido para medidas de reanimação"
+        },
+        {
+          "key": "b",
+          "text": "clampeamento tardio/oportuno do cordão umbilical e levar a berço aquecido para medidas de reanimação"
+        },
+        {
+          "key": "c",
+          "text": "clampeamento imediato do cordão umbilical e deixar em contato pele a pele com a mãe durante a primeira hora de vida (golden hour)"
+        },
+        {
+          "key": "d",
+          "text": "clampeamento tardio/oportuno do cordão umbilical e deixar em contato pele a pele com a mãe durante a primeira hora de vida (golden hour)"
+        },
+        {
+          "key": "e",
+          "text": "clampeamento tardio/oportuno do cordão umbilical e efetuar as manobras de reanimação no contato pele a pele com a mãe"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "RN termo hipotônico e sem choro ao nascer configura recém-nascido com necessidade de reanimação — nesses casos, o clampeamento do cordão deve ser imediato (não tardio) e o paciente levado ao berço aquecido para as medidas de reanimação, sem contato pele a pele nesse momento.",
+      "theme": "neo_reanim",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_012",
+      "statement": "Veri cou-se que um recém-nascido a termo se encontrava hipotônico e em apneia. Imediatamente, o recém-nascido foi levado à unidade de calor radiante, onde foi feita secagem, assim como aspiração de vias aéreas e posicionamento correta da cabeça. Após 30 segundos, o recém-nascido se manteve em apneia e com uma frequência cardíaca (FC) de 45bpm. A conduta subsequente é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Massagem cardíaca pela técnica dos dois polegares, já que a FC está abaixo de 60bpm;"
+        },
+        {
+          "key": "b",
+          "text": "Cateterismo umbilical para administração de adrenalina;"
+        },
+        {
+          "key": "c",
+          "text": "Ventilação com pressão positiva através de balão autoinflável com FiO2 de 100%;"
+        },
+        {
+          "key": "d",
+          "text": "Ventilação com máscara facial e balão em ar ambiente;"
+        },
+        {
+          "key": "e",
+          "text": "Intubação orotraqueal."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "RN termo hipotônico e em apneia após os passos iniciais (30s), com FC=45bpm — a conduta é iniciar ventilação com pressão positiva com máscara facial e balão em ar ambiente (21%), já que a massagem cardíaca só está indicada após VPP eficaz sem resposta e FC<60bpm.",
+      "theme": "neo_reanim",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_014",
+      "statement": "Você está de plantão em um hospital e é chamado para atender um Recém-Nascido (RN) em sala de parto. O parto é por via vaginal, e o RN nasce hipotônico e com movimentos respiratórios irregulares. Você prontamente recebe o RN e inicia o atendimento. A avaliação da Frequência Cardíaca (FC) é o principal determinante da decisão de indicar as diversas manobras de reanimação. Sobre as particularidades de cada método que pode ser utilizado, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A detecção da atividade elétrica do coração pelo monitor cardíaco não traz benefício na condução da reanimação neonatal, pois atrapalha as demais manobras."
+        },
+        {
+          "key": "b",
+          "text": "A palpação do pulso carotídeo é o melhor método em sala de parto, apesar de subestimar a FC."
+        },
+        {
+          "key": "c",
+          "text": "A ausculta do precórdio com estetoscópio subestima a FC."
+        },
+        {
+          "key": "d",
+          "text": "A palpação do cordão umbilical superestima a FC."
+        },
+        {
+          "key": "e",
+          "text": "A oximetria de pulso detecta de forma contínua a frequência de pulso, é rápida e não subestima nem superestima a FC."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A ausculta do precórdio com estetoscópio tende a subestimar a frequência cardíaca real do recém-nascido, sendo por isso considerada menos acurada que a monitorização eletrocardiográfica contínua.",
+      "theme": "neo_reanim",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_015",
+      "statement": "Durante a reanimação de um recém-nascido em sala de parto, deve-se realizar",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a intubação do paciente, sem se considerar a sincronia entre compressão e ventilação."
+        },
+        {
+          "key": "b",
+          "text": "trinta compressões para cada duas ventilações."
+        },
+        {
+          "key": "c",
+          "text": "quinze compressões para cada duas ventilações."
+        },
+        {
+          "key": "d",
+          "text": "cinco compressões para cada ventilação."
+        },
+        {
+          "key": "e",
+          "text": "três compressões para cada ventilação."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A relação recomendada na reanimação neonatal é de três compressões torácicas para cada uma ventilação (3:1), totalizando cerca de 120 eventos por minuto (90 compressões + 30 ventilações).",
+      "theme": "neo_reanim",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_016",
+      "statement": "Você está na sala de parto e recebe um recém-nascido termo (38 semanas), que nasceu com respiração irregular e tônus fraco, sendo o cordão umbilical clampeado imediatamente. O paciente foi levado para o berço com calor radiante, secado, retirado campos úmidos, e posicionado. Após esses primeiros passos, a avaliação constatou movimentos respiratórios ausentes e frequência cardíaca de 80 bpm. O próximo passo na reanimação neonatal é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Infundir por via endovenosa adrenalina e expansor de volume 10 ml/kg."
+        },
+        {
+          "key": "b",
+          "text": "Ventilar com pressão positiva e máscara com oxigênio a 21%."
+        },
+        {
+          "key": "c",
+          "text": "Oferecer 100% de oxigênio em máscara aberta."
+        },
+        {
+          "key": "d",
+          "text": "Realizar massagem cardíaca sincronizada com a ventilação."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "RN termo com respiração ausente e FC=80bpm (portanto <100) após os passos iniciais — a conduta é ventilar com pressão positiva por máscara com oxigênio a 21% (ar ambiente).",
+      "theme": "neo_reanim",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_017",
+      "statement": "No atendimento na sala de parto de recém nascido com 35 semanas de idade gestacional, após os passos iniciais, você observa que ele apresenta apneia, respiração irregular e frequência cardíaca abaixo de 100 bpm. Analise as asserções abaixo e a relação proposta entre elas. I – Você deve iniciar ventilação com ar ambiente. PORQUE II – Estudos indicam que pacientes ventilados com ar ambiente, comparados aos ventilados com oxigênio a 100%, iniciam a respiração espontânea e revertem a bradicardia mais rapidamente. A respeito destas asserções, assinale a opção correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I."
+        },
+        {
+          "key": "b",
+          "text": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I."
+        },
+        {
+          "key": "c",
+          "text": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa."
+        },
+        {
+          "key": "d",
+          "text": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira."
+        },
+        {
+          "key": "e",
+          "text": "As asserções I e II são proposições falsas."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Ambas as asserções são verdadeiras: deve-se iniciar a ventilação com ar ambiente em recém-nascidos ≥34 semanas, e estudos de fato demonstram que pacientes ventilados com ar ambiente recuperam a respiração espontânea e revertem a bradicardia mais rapidamente que os ventilados com oxigênio a 100% — a segunda asserção é, portanto, justificativa da primeira.",
+      "theme": "neo_reanim",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_018",
+      "statement": "Em relação à avaliação da vitalidade imediatamente após o nascimento, quando o neonato ainda está ligado ao cordão, ainda em campo obstétrico. Qual dos critérios abaixo indica que o paciente deve ser levado imediatamente ao berço para avaliação da necessidade de ressuscitação?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cianose."
+        },
+        {
+          "key": "b",
+          "text": "Frequência cardíaca diminuída."
+        },
+        {
+          "key": "c",
+          "text": "Frequência respiratória aumentada ou diminuída."
+        },
+        {
+          "key": "d",
+          "text": "Hipotonia."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Na avaliação rápida inicial (ainda com o cordão intacto), a presença de hipotonia é um dos critérios que indicam que o recém-nascido deve ser levado imediatamente ao berço de reanimação para avaliação mais detalhada — junto com ausência de respiração/choro e prematuridade, compõe as três perguntas rápidas da triagem inicial.",
+      "theme": "neo_reanim",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_019",
+      "statement": "Um médico de maternidade pública é chamado para realizar a sala de parto de gestante de 35 semanas com pré-eclâmpsia. Um recém-nascido pesando 2,3 kg apresenta-se banhado em líquido amniótico meconial, hipotônico e respirando de forma irregular. O médico assistente decide levá-lo à mesa de reanimação para realizar aspiração de vias aéreas superiores sob calor. Além disso, posiciona o pescoço em leve extensão, aspira a boca e narinas e seca o paciente. Após 30 segundos, o recém-nascido mostra respiração irregular e frequência cardíaca = 80 bpm. Considerando a situação acima descrita, assinale a alternativa que apresenta a próxima conduta que deve ser tomada pelo médico assistente.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Realizar ventilação com pressão positiva com máscara facial."
+        },
+        {
+          "key": "b",
+          "text": "Realizar massagem cardíaca externa."
+        },
+        {
+          "key": "c",
+          "text": "Realizar intubação orotraqueal."
+        },
+        {
+          "key": "d",
+          "text": "Realizar aspiração traqueal sob visualização direta."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "RN pré-termo (35 semanas) com FC=80bpm e respiração irregular após os passos iniciais (30s) — a conduta é realizar ventilação com pressão positiva com máscara facial, sem indicação de aspiração traqueal rotineira mesmo havendo líquido meconial.",
+      "theme": "neo_reanim",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_020",
+      "statement": "Um recém-nascido a termo de parto cesáreo, que foi indicado por sofrimento fetal, encontra-se, logo após o nascimento, hipotônico e cianótico, banhado em líquido meconial viscoso. Não houve retardo de crescimento intrauterino e a mãe não apresentou intercorrências durante a gestação. Na mesa de reanimação, foram realizadas as manobras iniciais de secagem, oferta de calor e aspiração de boca e narinas com sonda. Decorridos 15 segundos, o recém-nascido encontra-se hipotônico, com respiração irregular e frequência cardíaca de 75 bpm. A conduta que deve ser realizada até completar o primeiro minuto da reanimação é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "aspirar traqueia sob visualização direta para remover o mecônio."
+        },
+        {
+          "key": "b",
+          "text": "intubar por via endotraqueal e ventilar com pressão positiva."
+        },
+        {
+          "key": "c",
+          "text": "intubar por via endotraqueal e aspirar vias aéreas inferiores."
+        },
+        {
+          "key": "d",
+          "text": "ventilar com pressão positiva através de máscara facial."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Mesmo diante de líquido meconial espesso, a conduta atual diante de RN hipotônico, com respiração irregular e FC=75bpm é ventilar com pressão positiva por máscara facial — não se realiza mais aspiração traqueal sob visualização direta como rotina.",
+      "theme": "neo_reanim",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_021",
+      "statement": "Nasce uma criança, a termo, com aproximadamente 3 kg, em apneia após a extração. O médico conduz a criança ao berço de reanimação, realiza os passos iniciais em cerca de 30 segundos e, avalia o RN que está sem movimentos respiratórios e com frequência cardíaca (veri cada com estetoscópio em 6 segundos) de 5 batimentos. A conduta imediata de nida pelas diretrizes atuais de reanimação neonatal da Sociedade Brasileira de Pediatria é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "proceder o estímulo tátil vigoroso do dorso do bebê oferecendo oxigênio inalatório."
+        },
+        {
+          "key": "b",
+          "text": "oferecer oxigênio inalatório (concentração 100% pela narina."
+        },
+        {
+          "key": "c",
+          "text": "iniciar ventilação com pressão positiva com balão e máscara, com ar ambiente."
+        },
+        {
+          "key": "d",
+          "text": "iniciar ventilação com pressão positiva com balão e máscara, com oxigênio 30%."
+        },
+        {
+          "key": "e",
+          "text": "iniciar compressões cardíacas e ventilação com pressão positiva com balão e cânula.proceder o estímulo tátil vigoroso do dorso do bebê oferecendo oxigênio inalatório."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "RN termo em apneia com FC de 50bpm (5 batimentos em 6 segundos) — a conduta imediata pelas diretrizes da SBP é iniciar ventilação com pressão positiva com balão e máscara, utilizando ar ambiente (não oxigênio suplementar) para recém-nascidos ≥34 semanas.",
+      "theme": "neo_reanim",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_022",
+      "statement": "Gestação de 36 semanas evoluiu com trabalho de parto. Após amniorrexe espontânea foi observado hemoâmnio e indicado parto cesárea. Recém-nascido (RN) trazido ao berço devido hipotonia e apneia. Após os passos iniciais foi realizada ventilação com balão e máscara com ar ambiente por 30 segundos e com oxigênio titulado até 60%, além de revisada a técnica de ventilação. Como não houve melhora da frequência cardíaca e da respiração, optado por intubação orotraqueal. Após 30 segundos, foi revisada a técnica de ventilação e con rmada a posição correta da cânula, entretanto o RN permanecia em apneia e com frequência cardíaca de 50 bpm. Segundo as recomendações atuais, assinale a conduta imediata mais adequada.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Iniciar massagem cardíaca sincronizada com ventilação, com FiO₂ de 100%, por 60 segundos."
+        },
+        {
+          "key": "b",
+          "text": "Aumentar a FiO₂ para 100% e realizar 40 a 60 ventilações por minuto por mais 30 segundos."
+        },
+        {
+          "key": "c",
+          "text": "Aguardar a leitura da oximetria de pulso para reavaliar a frequência cardíaca."
+        },
+        {
+          "key": "d",
+          "text": "Administrar adrenalina endovenosa na dose de 0,01 mg/kg."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Após ventilação com pressão positiva via cânula traqueal com técnica confirmada correta por 30 segundos, sem melhora (FC=50bpm, apneia persistente), a conduta é iniciar massagem cardíaca sincronizada com a ventilação, com FiO₂ de 100%, mantendo por 60 segundos antes de nova reavaliação.",
+      "theme": "neo_reanim",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_023",
+      "statement": "Ventilação com pressão positiva Gestante de 40 semanas é encaminhada para realização de parto cesáreo de urgência devido ao descolamento prematuro de placenta. Dá à luz a recém-nascido em morte aparente, sem tônus muscular, em apneia, que é levado à unidade de calor radiante para secagem, aspiração de vias aéreas e posicionamento. Após 30 segundos, mantém apneia e frequência cardíaca de 30bpm. O próximo passo a ser seguido na reanimação neonatal é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "intubação orotraqueal com tubo 3,5"
+        },
+        {
+          "key": "b",
+          "text": "massagem cardíaca pela técnica dos dois polegares"
+        },
+        {
+          "key": "c",
+          "text": "cateterismo umbilical para realização de dose de adrenalina"
+        },
+        {
+          "key": "d",
+          "text": "ventilação com pressão positiva através de balão autoinflável"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Mesmo diante de FC muito baixa (30bpm) após os passos iniciais, o próximo passo do algoritmo permanece sendo iniciar a ventilação com pressão positiva através de balão autoinflável — a intubação e a massagem cardíaca só são consideradas se a VPP eficaz não obtiver resposta.",
+      "theme": "neo_reanim",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_024",
+      "statement": "Você é chamado para a recepção em um parto, e o obstetra avisa que a idade gestacional é 41 semanas e o líquido amniótico está meconiado. O RN nasce vigoroso, com tônus em exão. Segundo as Diretrizes de 2016 de Reanimação Neonatal, da Sociedade Brasileira de Pediatria, a conduta correta é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "levar a criança ao berço aquecido e realizar os passos iniciais da reanimação"
+        },
+        {
+          "key": "b",
+          "text": "intubar e aspirar a traqueia com aspirador de mecônio."
+        },
+        {
+          "key": "c",
+          "text": "intubar e aspirar a traqueia sob visualização direta."
+        },
+        {
+          "key": "d",
+          "text": "realizar clampeamento tardio do cordão e manter a criança com a mãe."
+        },
+        {
+          "key": "e",
+          "text": "iniciar a ventilação com balão e máscara em ar ambiente."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "RN vigoroso (bom tônus, em flexão) ao nascer, mesmo com líquido amniótico meconiado, não necessita de nenhuma intervenção especial de vias aéreas — a conduta é o cuidado de rotina, com clampeamento tardio do cordão e manutenção junto à mãe, independentemente do vigor ou da presença de mecônio.",
+      "theme": "neo_reanim",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_025",
+      "statement": "RN a termo, nascido de parto cesárea com anestesia geral, foi levado à mesa de reanimação e, na avaliação depois dos passos iniciais, mostrava frequência cardíaca = 50 bpm e não apresentava movimentos respiratórios. A ventilação positiva com balão e máscara em ar ambiente foi iniciada, e a criança foi monitorizada. Após 30 segundos de ventilação, o recém- nascido estava com frequência cardíaca = 50 bpm e Sat O2 = 75%, ainda em apneia. Foi revisada a técnica, e a criança foi ventilada por mais 30 segundos, mas mantinha FC = 50 e Sat O2 = 80%. Segundo as Diretrizes de 2016 de Reanimação Neonatal, da Sociedade Brasileira de Pediatria, a conduta correta é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "aplicar estímulo tátil com fricção circular."
+        },
+        {
+          "key": "b",
+          "text": "cateterizar a veia umbilical para realização de adrenalina endovenosa."
+        },
+        {
+          "key": "c",
+          "text": "continuar a ventilar com pressão positiva com balão e máscara por mais 30 segundos e oxigênio a 100%."
+        },
+        {
+          "key": "d",
+          "text": "realizar a intubação traqueal do paciente."
+        },
+        {
+          "key": "e",
+          "text": "iniciar massagem cardíaca."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Após duas tentativas de 30 segundos de ventilação com pressão positiva por máscara com técnica revisada, mantendo FC=50bpm (portanto <60) apesar da ventilação otimizada, a conduta é realizar a intubação traqueal para assegurar via aérea definitiva e ventilação mais eficaz antes de escalonar para massagem cardíaca.",
+      "theme": "neo_reanim",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_026",
+      "statement": "Você é chamado para a recepção em um parto, e o obstetra avisa que a idade gestacional é 41 semanas e o líquido amniótico está meconiado. O RN nasce em apneia, é levado para o berço aquecido, e são feitos os passos iniciais, entretanto ele não apresenta movimentos respiratórios, e a FC é =50 bpm. Segundo as Diretrizes de 2016 de Reanimação Neonatal, da Sociedade Brasileira de Pediatria, a conduta correta é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "iniciar a ventilação com balão e máscara com concentração de O2 de 100%."
+        },
+        {
+          "key": "b",
+          "text": "intubar e aspirar a traqueia com aspirador de mecônio."
+        },
+        {
+          "key": "c",
+          "text": "intubar e aspirar a traqueia sob visualização direta."
+        },
+        {
+          "key": "d",
+          "text": "passar sonda orogástrica."
+        },
+        {
+          "key": "e",
+          "text": "iniciar a ventilação com balão e máscara em ar ambiente."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Mesmo diante de líquido amniótico meconiado em RN pós-termo, não há indicação de aspiração traqueal rotineira — a conduta diante de apneia e FC=50bpm após os passos iniciais é iniciar a ventilação com balão e máscara em ar ambiente (21%).",
+      "theme": "neo_reanim",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_027",
+      "statement": "Acerca da reanimação neonatal no recém-nascido (RN) com idade gestacional maior ou igual a 34 semanas, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aplicar o boletim de Apgar é importante, pois define a necessidade de reanimação neonatal. Nele são avaliados cor da pele, tônus muscular, padrão respiratório, frequência cardíaca e irritabilidade reflexa."
+        },
+        {
+          "key": "b",
+          "text": "Naquele que necessita de reanimação neonatal, a ventilação por pressão positiva (VPP) deve ser iniciada com ar ambiente."
+        },
+        {
+          "key": "c",
+          "text": "No RN que necessita de massagem cardíaca, são realizadas 15 compressões para cada duas ventilações."
+        },
+        {
+          "key": "d",
+          "text": "A oximetria de pulso deve ter seu sensor aplicado no membro superior esquerdo."
+        },
+        {
+          "key": "e",
+          "text": "Considera-se RN a termo aquele entre 36 semanas e 41 semanas de idade gestacional."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Em RN ≥34 semanas que necessita de reanimação, a ventilação com pressão positiva deve ser iniciada com ar ambiente — o boletim de Apgar não define a necessidade de reanimação (é descritivo/retrospectivo), a relação de massagem é 3:1 (não 15:2), o sensor de oximetria deve ser colocado no membro superior DIREITO, e considera-se a termo o RN entre 37 e 41 semanas e 6 dias.",
+      "theme": "neo_reanim",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_028",
+      "statement": "Em relação à massagem cardíaca na reanimação em sala de parto, é correto afirmar que",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "deve ser rapidamente realizada independentemente da adequação da ventilação pulmonar."
+        },
+        {
+          "key": "b",
+          "text": "a técnica dos 2 dedos é mais recomendada por ser mais fácil, menos cansativa e mais efetiva."
+        },
+        {
+          "key": "c",
+          "text": "deve ser intercalada com ventilação por cânula traqueal utilizando oxigênio a 100%."
+        },
+        {
+          "key": "d",
+          "text": "a sincronização da massagem com a ventilação deve possibilitar 30 ventilações e 120 compressões por minuto."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Quando indicada, a massagem cardíaca deve ser intercalada/coordenada com a ventilação, preferencialmente por cânula traqueal com oxigênio a 100% — a massagem não deve ser iniciada sem antes garantir ventilação pulmonar adequada, a técnica dos DOIS POLEGARES é a preferida (não a de dois dedos), e a meta é de 90 compressões e 30 ventilações por minuto (não 120 e 30).",
+      "theme": "neo_reanim",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_029",
+      "statement": "Recém-nascido (RN) do sexo feminino, termo tem peso adequado para a idade gestacional (3.200g) É lha de mãe primigesta de 31 anos de idade. Não houve intercorrências no pré-natal. Foi feito parto cesáreo, devido sofrimento fetal agudo. O RN nasceu em apneia, cianótico e hipotônico. Foi levado à mesa de reanimação com fonte de calor, onde foi secado, estimulado e teve a via aérea reti cada. Evoluiu com respiração irregular e presença 8 batimentos cardíacos no período de 6 segundos. Após monitorização da frequência cardíaca (FC) e da saturação, iniciou-se ventilação com pressão positiva (VPP) com FiO2 de 21%. Após 30 segundos de VPP, o RN apresenta respiração regular, FC de 140 bpm e saturação de 70% no membro superior direito. De acordo com as diretrizes de reanimação da Sociedade Brasileira de Pediatria de 2016, o próximo passo é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Suspender a VPP e manter o paciente em ar ambiente."
+        },
+        {
+          "key": "b",
+          "text": "Rever a técnica da VPP e a vedação adequada da máscara com a face."
+        },
+        {
+          "key": "c",
+          "text": "Manter a VPP, mas aumentar a oferta de oxigênio para 50%."
+        },
+        {
+          "key": "d",
+          "text": "Realizar a intubação orotraqueal para a ventilação."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de boa resposta clínica à VPP (FC=140bpm, respiração regular) mas saturação ainda considerada inadequada para o momento, a conduta é rever a técnica da VPP e a vedação adequada da máscara com a face, garantindo que a ventilação está sendo efetivamente entregue antes de qualquer outra escalada.",
+      "theme": "neo_reanim",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_030",
+      "statement": "Após os passos iniciais da reanimação de bebê a termo, a decisão das próximas ações depende da avaliação da:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Frequência cardíaca."
+        },
+        {
+          "key": "b",
+          "text": "Respiração: ritmo e presença de desconforto."
+        },
+        {
+          "key": "c",
+          "text": "Saturação de oxigênio."
+        },
+        {
+          "key": "d",
+          "text": "Nota do Apgar."
+        },
+        {
+          "key": "e",
+          "text": "Temperatura corporal."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Após os passos iniciais, a decisão sobre as próximas ações de reanimação depende principalmente da avaliação da frequência cardíaca — o principal determinante das condutas subsequentes no algoritmo de reanimação neonatal.",
+      "theme": "neo_reanim",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_031",
+      "statement": "De acordo com as Diretrizes do Programa de Reanimação Neonatal de 2016 da Sociedade Brasileira de Pediatria, no caso de melhora clínica do RN, a massagem cardíaca na reanimação neonatal deve ser interrompida quando a frequência cardíaca estiver maior",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "do que 60 batimentos por minuto após 60 segundos de ventilação com pressão positiva com balão e máscara e oxigênio a 100%."
+        },
+        {
+          "key": "b",
+          "text": "do que 60 batimentos por minuto após 60 segundos de ventilação com pressão positiva com cânula traqueal e oxigênio a 100%."
+        },
+        {
+          "key": "c",
+          "text": "ou igual a 50 batimentos por minuto após 30 segundos de ventilação com pressão positiva com balão e máscara e oxigênio a 100%."
+        },
+        {
+          "key": "d",
+          "text": "ou igual a 50 batimentos por minuto após 60 segundos de ventilação com balão e cânula traqueal e oxigênio a 100%."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A massagem cardíaca deve ser interrompida quando a frequência cardíaca estiver maior que 60 batimentos por minuto, após 60 segundos de ventilação com pressão positiva com cânula traqueal e oxigênio a 100% — a massagem é sempre realizada com ventilação assegurada por via aérea definitiva.",
+      "theme": "neo_reanim",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_032",
+      "statement": "Determinado recém-nascido (RN) a termo, grande para a idade gestacional, nascido de parto vaginal com período expulsivo prolongado, apresenta-se ao nascimento em apneia, com hipotonia. O líquido amniótico era tinto de mecônio. O paciente, então, é levado ao berço aquecido. Demonstra FC = 80 bpm; e SatO2 = 80%. A mãe realizou pré-natal adequadamente, sem malformações congênitas detectadas no RN. A respeito desse caso clínico e considerando os conhecimentos médicos correlatos, julgue o item a seguir. Indica-se ventilar o paciente utilizando-se de pressão positiva.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de FC=80bpm (portanto <100) em RN após os passos iniciais, está indicada a ventilação com pressão positiva — afirmação Certa.",
+      "theme": "neo_reanim",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_033",
+      "statement": "Determinado recém-nascido (RN) a termo, grande para a idade gestacional, nascido de parto vaginal com período expulsivo prolongado, apresenta-se ao nascimento em apneia, com hipotonia. O líquido amniótico era tinto de mecônio. O paciente, então, é levado ao berço aquecido. Demonstra FC = 80 bpm; e SatO2 = 80%. A mãe realizou pré-natal adequadamente, sem malformações congênitas detectadas no RN. A respeito desse caso clínico e considerando os conhecimentos médicos correlatos, julgue o item a seguir. Deve-se proceder imediatamente com massagem cardíaca externa.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A massagem cardíaca não é indicada neste momento, já que a FC de 80bpm ainda não atinge o critério de FC<60bpm após VPP eficaz — a conduta correta seria iniciar VPP, não massagem cardíaca diretamente. Afirmação Errada.",
+      "theme": "neo_reanim",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_034",
+      "statement": "Durante recepção de um recém-nascido a termo com líquido amniótico meconial espesso, observa-se apneia, respiração irregular e frequência cardíaca menor que 100 bpm. A CONDUTA É:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Laringoscopia para aspiração sob visualização direta do mecônio da hipofaringe e traqueia antes de iniciar a ventilação com pressão positiva"
+        },
+        {
+          "key": "b",
+          "text": "Ventilação com pressão positiva com máscara facial e ar ambiente nos primeiros 60 segundos de vida."
+        },
+        {
+          "key": "c",
+          "text": "Ventilação com pressão positiva com máscara facial e concentração de oxigênio 30%nos primeiros 60 segundos de vida."
+        },
+        {
+          "key": "d",
+          "text": "Ventilação com pressão positiva com tubo traqueal e ar ambiente nos primeiros 60 segundos de vida."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Mesmo diante de líquido amniótico meconial espesso, a conduta atual é a ventilação com pressão positiva com máscara facial e ar ambiente (21%) nos primeiros 60 segundos de vida, sem aspiração traqueal rotineira sob visualização direta.",
+      "theme": "neo_reanim",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_035",
+      "statement": "Os recém-nascidos que, ao nascimento, não iniciam movimentos respiratórios regulares e/ou aqueles cujo tônus muscular está ácido precisam ser conduzidos à mesa de reanimação. Nesses casos, quais os passos iniciais indicados em um correto procedimento de reanimação?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Posicionar a cabeça em extensão, aspirar boca e narinas, entubar e ventilar. Esses passos devem ser executados em, no máximo, 60 segundos."
+        },
+        {
+          "key": "b",
+          "text": "Posicionar a cabeça em leve extensão, aspirar boca e narinas, e ventilar com ambu e máscara. Esses passos devem ser executados nos primeiros 30 segundos."
+        },
+        {
+          "key": "c",
+          "text": "Prover calor, posicionar a cabeça em leve extensão, aspirar boca e narinas, se necessário, e secar o paciente. Esses passos devem ser executados em, no máximo, 30 segundos."
+        },
+        {
+          "key": "d",
+          "text": "Aspirar boca e narinas, posicionar a cabeça em leve extensão, prover calor e ventilar com ambu e máscara, além de massagem cardíaca. Esses passos devem ser executados nos primeiros 60 segundos."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Os passos iniciais da reanimação neonatal (prover calor, posicionar a cabeça em leve extensão, aspirar boca e narinas se necessário, e secar o paciente) devem ser executados em no máximo 30 segundos.",
+      "theme": "neo_reanim",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_036",
+      "statement": "Durante as manobras de reanimação neonatal, a administração de adrenalina pode ser necessária. Segundo o Programa de Reanimação Neonatal, a diluição e a dose a ser administrada por via IV, respectivamente são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "1/1.000 / 0,1-0,5ml/kg."
+        },
+        {
+          "key": "b",
+          "text": "1/2.000 / 0,3-0,5ml/kg."
+        },
+        {
+          "key": "c",
+          "text": "1/5.000 / 0,05-0,1ml/kg."
+        },
+        {
+          "key": "d",
+          "text": "1/10.000 / 0,1-0,3ml/kg."
+        },
+        {
+          "key": "e",
+          "text": "Nenhuma das anteriores."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A diluição de adrenalina recomendada pelo Programa de Reanimação Neonatal para uso endovenoso é 1:10.000, na dose de 0,1 a 0,3 mL/kg.",
+      "theme": "neo_reanim",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_037",
+      "statement": "RN a termo nasce de parto vaginal em apneia e com hipotonia generalizada. Após os passos iniciais no berço aquecido, permanece em apneia e com bradicardia. Iniciada a ventilação com pressão positiva (VPP) com máscara facial e oxigênio a 21%. Após alguns ciclos de VPP, com técnica correta, a frequência cardíaca é de 50 bpm. De acordo com as recomendações para reanimação do RN em sala de parto, a conduta correta é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "iniciar a massagem cardíaca de forma sincronizada com VPP com balão e máscarafacial."
+        },
+        {
+          "key": "b",
+          "text": "manter VPP com balão e máscara, e aumentar a concentração de oxigênio para 100%."
+        },
+        {
+          "key": "c",
+          "text": "intubar o RN e iniciar massagem cardíaca sincronizada com VPP com balão e cânula orotraqueal."
+        },
+        {
+          "key": "d",
+          "text": "manter VPP e administrar adrenalina endovenosa."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "RN termo com apneia e FC=50bpm após ciclos de VPP com técnica correta por máscara (sem melhora) — a conduta é intubar o RN e iniciar massagem cardíaca sincronizada com VPP através de cânula orotraqueal, já que a via aérea definitiva é necessária quando se avança para a massagem cardíaca.",
+      "theme": "neo_reanim",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_038",
+      "statement": "Durante o atendimento em sala de parto a um recém-nascido a termo, parto vaginal, com líquido amniótico meconiado, espesso, você nota que o bebê está cianótico, ácido e não apresenta movimentos torácicos. Você o leva imediatamente à mesa de reanimação sob fonte de calor radiante e realiza os passos iniciais do cuidado ao recém-nascido, sem melhora. A frequência cardíaca é < 60 bpm. Qual é a conduta imediata mais indicada neste momento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Iniciar ventilação com pressão positiva com máscara."
+        },
+        {
+          "key": "b",
+          "text": "Realizar intubação traqueal."
+        },
+        {
+          "key": "c",
+          "text": "Realizar aspiração traqueal sob visualização."
+        },
+        {
+          "key": "d",
+          "text": "Iniciar massagem cardíaca."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Mesmo com FC<60bpm após os passos iniciais, o algoritmo determina que a ventilação com pressão positiva deve ser sempre iniciada antes de qualquer outra medida (intubação ou massagem), garantindo ventilação adequada como base de toda reanimação subsequente.",
+      "theme": "neo_reanim",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_039",
+      "statement": "Uma criança ao nascer apresenta-se em apneia e hipotônica. O pré-natal e o parto transcorreram sem anormalidades e a ultrassonogra a morfológica não identi cou alterações fetais. Foi indicada imediata reanimação ao recém-nascido, os passos iniciais foram realizados e seguidos de adequada técnica de ventilação com balão e máscara facial em ar ambiente. Após, o bebê persistia sem ventilação espontânea e frequência cardíaca de 70 bpm. Assinale a alternativa que apresenta a conduta correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Obter acesso venoso e administrar adrenalina."
+        },
+        {
+          "key": "b",
+          "text": "Suplementar oxigênio à ventilação com balão e máscara."
+        },
+        {
+          "key": "c",
+          "text": "Iniciar massagem cardíaca sincronizada à ventilação."
+        },
+        {
+          "key": "d",
+          "text": "Aspirar vias aéreas superiores e ajustar a posição do pescoço."
+        },
+        {
+          "key": "e",
+          "text": "Intubação traqueal e ventilar com pressão positiva."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Diante de ausência de respiração espontânea e FC=70bpm mesmo após VPP com técnica adequada por máscara em ar ambiente, a conduta é proceder à intubação traqueal e manter a ventilação com pressão positiva através da via aérea definitiva, buscando maior eficácia da ventilação.",
+      "theme": "neo_reanim",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_040",
+      "statement": "Logo após o nascimento, um recém-nascido (RN) de 33 semanas encontra-se apnéico. O clampeamento do cordão é imediato e o RN é levado à mesa de reanimação. Após os passos iniciais, o paciente continua em apnéia. O que fazer?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Administrar oxigênio inalatório"
+        },
+        {
+          "key": "b",
+          "text": "Iniciar ventilação com pressão positiva por máscara facial"
+        },
+        {
+          "key": "c",
+          "text": "Realizar intubação traqueal"
+        },
+        {
+          "key": "d",
+          "text": "Iniciar CPAP"
+        },
+        {
+          "key": "e",
+          "text": "Iniciar massagem cardíaca"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "RN pré-termo (33 semanas) que permanece em apneia após os passos iniciais — a conduta é iniciar ventilação com pressão positiva por máscara facial, seguindo o mesmo algoritmo geral aplicado a qualquer recém-nascido que necessite de reanimação.",
+      "theme": "neo_reanim",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_043",
+      "statement": "Recém-nascido a termo nasce com presença de líquido amniótico meconial. Exame físico: hipotônico e respiração irregular. Após os passos iniciais da reanimação, ele se encontra ácido, em apneia e com frequência cardíaca de 50 batimentos por minuto. A CONDUTA É:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Intubação orotraqueal e aplicação de pressão positiva."
+        },
+        {
+          "key": "b",
+          "text": "Intubação orotraqueal e aspiração da cânula traqueal."
+        },
+        {
+          "key": "c",
+          "text": "Aplicação de pressão positiva por máscara facial."
+        },
+        {
+          "key": "d",
+          "text": "Aplicação de massagem cardíaca externa."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Mesmo diante de líquido amniótico meconial, a conduta atual diante de RN acidótico, em apneia e com FC=50bpm após os passos iniciais é a aplicação de pressão positiva por máscara facial — sem indicação de aspiração/intubação traqueal rotineira por mecônio.",
+      "theme": "neo_reanim",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_044",
+      "statement": "O acesso preferencial para reposição volêmica ao RN na sala de parto é através de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Agullha intraóssea"
+        },
+        {
+          "key": "b",
+          "text": "Jelco periférico, no membro superior direito"
+        },
+        {
+          "key": "c",
+          "text": "Cateter em subclávia"
+        },
+        {
+          "key": "d",
+          "text": "Cateter em artéria umbilical"
+        },
+        {
+          "key": "e",
+          "text": "Cateter em veia umbilical"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "O acesso preferencial para reposição volêmica no recém-nascido em sala de parto é o cateter em veia umbilical, de fácil e rápido acesso nesse contexto.",
+      "theme": "neo_reanim",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_045",
+      "statement": "Para todos os recém-nascidos, na sala de parto, a necessidade de reanimação depende da avaliação simultânea de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "respiração e colocação de oxímetro de pulso para verificação de saturação de oxigênio."
+        },
+        {
+          "key": "b",
+          "text": "frequência cardíaca e cor da pele para verificar a presença de cianose central."
+        },
+        {
+          "key": "c",
+          "text": "respiração e frequência cardíaca."
+        },
+        {
+          "key": "d",
+          "text": "temperatura corporal e frequência cardíaca."
+        },
+        {
+          "key": "e",
+          "text": "avaliação da cianose central e respiração."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Para todos os recém-nascidos na sala de parto, a necessidade de reanimação depende da avaliação simultânea de respiração e frequência cardíaca — os dois parâmetros centrais que guiam o algoritmo de reanimação.",
+      "theme": "neo_reanim",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_046",
+      "statement": "Você está aguardando o nascimento de um bebê na sala de parto e observa-se durante saída da cabeça a presença de líquido amniótico meconial espesso. I - Estaria indicada a aspiração rotineira da nasofaringe no intraparto. PORQUE: II - Reduz o risco da síndrome de aspiração meconial.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "As asserções I e II são proposições verdadeiras, e a segunda é uma justificativa da primeira."
+        },
+        {
+          "key": "b",
+          "text": "As asserções I e II são proposições verdadeiras, mas a segunda não é uma justificativa da primeira."
+        },
+        {
+          "key": "c",
+          "text": "A asserção I é uma proposição verdadeira e a asserção II é uma proposição falsa."
+        },
+        {
+          "key": "d",
+          "text": "A asserção I é uma proposição falsa e a asserção II é uma proposição verdadeira."
+        },
+        {
+          "key": "e",
+          "text": "As asserções I e II são proposições falsas."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Ambas as asserções são falsas: a aspiração rotineira da nasofaringe no intraparto (antes da liberação completa do tórax) não é mais indicada nas diretrizes atuais, e evidências demonstraram que essa prática não reduz o risco de síndrome de aspiração meconial.",
+      "theme": "neo_reanim",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_047",
+      "statement": "Segundo o Programa de Reanimação Neonatal da Sociedade Brasileira de Pediatria, a diluição e a dose a ser administrada de adrenalina por via IV, quando necessária, respectivamente são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "1:1.000 - 0,5 a 1,0 ml/Kg"
+        },
+        {
+          "key": "b",
+          "text": "1:2.000 - 0,1 a 0,3 ml/Kg"
+        },
+        {
+          "key": "c",
+          "text": "1:3.000 - 0,3 a 0,5 ml/Kg"
+        },
+        {
+          "key": "d",
+          "text": "1:10.000 - 0,1 a 0,3 ml/kg"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A diluição de adrenalina recomendada pelo Programa de Reanimação Neonatal da SBP para uso endovenoso é 1:10.000, na dose de 0,1 a 0,3 mL/kg.",
+      "theme": "neo_reanim",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_048",
+      "statement": "Na reanimação neonatal, o \"minuto de ouro\" refere-se à necessidade de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Oferta de oxigênio suplementar a 100% para o recém-nascido a termo no primeiro minuto de vida."
+        },
+        {
+          "key": "b",
+          "text": "Realização de massagem cardíaca até o primeiro minuto de vida, quando constatada frequência cardíaca abaixo de 100 bpm."
+        },
+        {
+          "key": "c",
+          "text": "Realização de manobras para obter adequada ventilação pulmonar na sala de parto no primeiro minuto de vida."
+        },
+        {
+          "key": "d",
+          "text": "Colocação do recém-nascido em berço aquecido, aspiração de boca e narinas e oferta de oxigênio inalatório quando constatada cianose de extremidades no primeiro minuto de vida."
+        },
+        {
+          "key": "e",
+          "text": "Obtenção de oximetria de pulso com saturação a 98% em recém-nascido prematuro extremo no primeiro minuto de vida."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O 'minuto de ouro' na reanimação neonatal refere-se à necessidade de realizar as manobras para obter adequada ventilação pulmonar do recém-nascido já no primeiro minuto de vida — o passo mais crítico e determinante de todo o processo de reanimação.",
+      "theme": "neo_reanim",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "reanim_049",
+      "statement": "Após período expulsivo prolongado de parto vaginal, RN nasce em apneia e com hipotonia generalizada. É levado ao berço de reanimação e, após os passos iniciais, apresenta: FC = 80 bpm e apneia. Após o primeiro ciclo de Ventilação com Pressão Positiva (VPP) com máscara facial e oxigênio a 21%; a FC é de 80 bpm; a respiração é irregular e o RN apresenta cianose generalizada. O oxímetro de pulso ainda não mostra a saturação de oxigênio. O próximo passo na reanimação é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Oferecer oxigênio a 100% por via inalatória."
+        },
+        {
+          "key": "b",
+          "text": "Verificar o ajuste da máscara à face do RN e repetir a VPP com oxigênio a 21%, por mais 30 segundos."
+        },
+        {
+          "key": "c",
+          "text": "Intubar o RN e realizar a VPP com balão e cânula orotraqueal, com oxigênio a 100%."
+        },
+        {
+          "key": "d",
+          "text": "Iniciar massagem cardíaca e oferecer oxigênio por máscara não reinalante."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de FC=80bpm mantida (sem melhora) após um ciclo de VPP com máscara e ar ambiente, respiração irregular, cianose generalizada e sem leitura ainda do oxímetro, a conduta é verificar o ajuste da máscara à face e repetir a VPP com oxigênio a 21% por mais 30 segundos — a revisão da técnica (MR. SOPA) antecede o aumento da oferta de oxigênio ou a intubação.",
+      "theme": "neo_reanim",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}
