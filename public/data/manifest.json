@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T17:53:33.885Z",
+  "generatedAt": "2026-07-30T20:07:42.119Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,7 +26,7 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 3914,
+  "totalQuestions": 4186,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
@@ -69,8 +69,12 @@
     "cinetica_trauma": 1,
     "atls_genitourinario": 1,
     "obs_aloimunizacao": 72,
-    "par_normal": 52,
-    "par_cesarea": 8,
+    "dheg_ec": 10,
+    "dheg_pe": 47,
+    "dheg_hellp": 18,
+    "sg_hpp": 98,
+    "par_normal": 149,
+    "par_cesarea": 10,
     "pn_exames": 23,
     "pn_habitual": 48,
     "pn_alto": 27,
@@ -2108,6 +2112,18 @@
     },
     {
       "area": "obstetricia",
+      "slug": "dheg",
+      "themes": [
+        "dheg_ec",
+        "dheg_pe",
+        "dheg_hellp"
+      ],
+      "questionsCount": 75,
+      "flashcardsCount": 0,
+      "casosCount": 0
+    },
+    {
+      "area": "obstetricia",
       "slug": "diabetes-gestacional",
       "themes": [],
       "questionsCount": 0,
@@ -2149,8 +2165,10 @@
     {
       "area": "obstetricia",
       "slug": "hemorragia-pos-parto",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "sg_hpp"
+      ],
+      "questionsCount": 98,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -2161,7 +2179,7 @@
         "par_normal",
         "par_cesarea"
       ],
-      "questionsCount": 60,
+      "questionsCount": 159,
       "flashcardsCount": 0,
       "casosCount": 0
     },

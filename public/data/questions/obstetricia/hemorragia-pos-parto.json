@@ -1,1 +1,2952 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "hpp_001",
+      "statement": "Você foi solicitado a comparecer ao alojamento conjunto para avaliar um sangramento em puérpera 6 horas após parto normal induzido. É o primeiro parto de mulher de 20 anos, sem comorbidades, que foi induzido porque a gestação alcançou 41 semanas de gravidez e não havia sinais de parto. A puérpera estava orientada no tempo e espaço, pálida e sudorética, pulso no, com frequência cardíaca de 125bpm, pressão arterial de 100x60mmHg, útero hipotônico e com sangramento vermelho vivo vazando o absorvente e molhando o lençol. Considerando os dados obtidos, a tabela de grau de choque fornecida abaixo e o cálculo do índice de choque, assinale a alternativa CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Trata-se de choque grave, considerando a frequência cardíaca e índice de choque maior que 1"
+        },
+        {
+          "key": "b",
+          "text": "Trata-se de choque moderado, considerando o volume do sangramento e índice de choque igual a 1,25"
+        },
+        {
+          "key": "c",
+          "text": "Trata-se de choque compensado, considerando a pressão arterial sistólica e índice de choque igual a 0,8"
+        },
+        {
+          "key": "d",
+          "text": "Trata-se de choque moderado, considerando o nível de consciência e índice de choque igual a 0,8"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Com FC 125bpm e PA sistólica 100mmHg, o índice de choque (FC/PAS) é 1,25, caracterizando choque moderado.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_002",
+      "statement": "Gestante primigesta de 24 anos, 32 semanas e 5 dias de gestação, chega ao Pronto-Socorro da Obstetrícia referindo dor de cabeça de forte intensidade associada a náuseas e mal-estar gástrico. Ao exame clínico: PA de 152x115 mmHg, FC 82 bpm, dinâmica uterina presente e fraca, altura uterina de 34 cm, batimentos cardíacos fetais de 150 bpm, edema +++/4 de MMII, hiperre exia patelar. Recebeu Hidralazina endovenosa e dose de ataque de Sulfato de Magnésio pelo esquema de Pritchard. Após 1 hora, refere dor abdominal de forte intensidade. Ao exame obstétrico, útero hipertônico e BCF 98 bpm. Foi encaminhada para o parto cesáreo com feto vivo, masculino, peso de 1.748 g e placenta com aspecto de descolamento de 20% de sua área total. Após histerorra a, útero mostrava-se bastante amolecido, pastoso, hipoinvoluído. Foi realizada massagem uterina, seguida de infusão de ocitocina. Qual é o próximo passo?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ergotamina."
+        },
+        {
+          "key": "b",
+          "text": "Balão de Bakri."
+        },
+        {
+          "key": "c",
+          "text": "Misoprostol."
+        },
+        {
+          "key": "d",
+          "text": "Sutura de B-Lynch."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de atonia uterina persistente após massagem e ocitocina em paciente com pré-eclâmpsia grave (contraindicação relativa a derivados de ergot pelo risco de hipertensão), o próximo passo farmacológico é o misoprostol.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_003",
+      "statement": "Com relação às medidas de prevenção e ao tratamento da hemorragia pós-parto (HPP), assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O uso de ocitocina endovenosa como medida terapêutica na HPP apresenta início de ação em 5 minutos e meia-vida de 15 a 60 minutos."
+        },
+        {
+          "key": "b",
+          "text": "O uso de ocitocina profilática após todos os partos é a medida mais eficaz na prevenção da HPP, devendo ser inserida como procedimento de rotina. O esquema mais utilizado após partos vaginais é a injeção de 20 Ui de ocitocina, em bolus, por via endovenosa."
+        },
+        {
+          "key": "c",
+          "text": "O clampeamento oportuno do cordão umbilical, associado à sua tração controlada, bem como a vigilância/massagem uterina após dequitação placentária podem substituir o uso universal de ocitocina profilática, pois apresentam taxas de eficácia semelhantes."
+        },
+        {
+          "key": "d",
+          "text": "A utilização de maleato de metilergometrina como medicação uterotônica no tratamento da HPP é contraindicada principalmente para pacientes hipertensas."
+        },
+        {
+          "key": "e",
+          "text": "O uso de ácido tranexâmico no tratamento da HPP fica restrito aos casos de sangramentos decorrentes de causas específicas, como coagulopatias e uso de medicações anticoagulantes, uma vez que o ácido tranexâmico é uma medicação antifibrinolítica."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O uso de metilergometrina (derivado do ergot) é contraindicado principalmente em pacientes hipertensas, pelo risco de elevação ainda maior da pressão arterial.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_004",
+      "statement": "Puérpera de 28 anos apresenta sangramento uterino em grande quantidade, quarenta minutos pós-parto vaginal se m intercorrências. AP: diabetes gestacional, polidrâmnio e feto GIG. Exame físico: FC 110 bpm, PA 100x60 mmHg, útero com tônus diminuído. O índice de choque, o principal fator de risco para hemorragia pós-parto e o tratamento inicial recomendado são, respectivamente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "1,83; diabetes gestacional; infusão de metilergometrina."
+        },
+        {
+          "key": "b",
+          "text": "1,1; sobredistensão uterina; infusão de ocitocina + ácido tranexâmico."
+        },
+        {
+          "key": "c",
+          "text": "1,83; sobredistensão uterina; infusão de ocitocina + misoprostol."
+        },
+        {
+          "key": "d",
+          "text": "1,1; diabetes gestacional; infusão de ocitocina + ácido tranexâmico."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Com FC 110bpm/PAS 100mmHg, índice de choque = 1,1; o principal fator de risco para atonia uterina neste caso é a sobredistensão uterina (polidrâmnio + feto GIG); tratamento inicial: ocitocina associada a ácido tranexâmico.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_005",
+      "statement": "A hemorragia puerperal é a segunda causa de morte materna no Brasil, estando atrás apenas dos distúrbios hipertensivos. Entre as causas para hemorragia pós-parto, a principal é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "atonia uterina"
+        },
+        {
+          "key": "b",
+          "text": "restos placentários"
+        },
+        {
+          "key": "c",
+          "text": "distúrbios da coagulação"
+        },
+        {
+          "key": "d",
+          "text": "lacerações do canal de parto"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A atonia uterina é a principal causa de hemorragia pós-parto, respondendo pela maioria dos casos.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_006",
+      "statement": "Segundo as Recomendações Assistenciais Para Prevenção, Diagnóstico e Tratamento da Hemorragia Obstétrica (Estratégia Zero Morte Materna por Hemorragia Pós-Parto), são considerados fatores de alto risco para hemorragia pós- parto:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cesariana ou cirurgia uterina prévia."
+        },
+        {
+          "key": "b",
+          "text": "Quatro ou mais partos vaginais."
+        },
+        {
+          "key": "c",
+          "text": "Placentação anômala (acretismo)"
+        },
+        {
+          "key": "d",
+          "text": "História prévia de atonia uterina ou hemorragia obstétrica."
+        },
+        {
+          "key": "e",
+          "text": "Corioamnionite."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A placentação anômala (acretismo placentário) é classicamente listada como fator de ALTO risco para hemorragia pós-parto pelas recomendações da Estratégia Zero Morte Materna por Hemorragia Pós-Parto.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_007",
+      "statement": "Em relação à hemorragia pós-parto (HPP), é correto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "parturientes que apresentaram hiperdistensão uterina são de risco para HPP."
+        },
+        {
+          "key": "b",
+          "text": "não se deve fazer ocitocina de rotina após os partos se a parturiente não for de risco para HPP."
+        },
+        {
+          "key": "c",
+          "text": "em casos de parto vaginal, a perda de sangue avaliada em até 1 000 mL é considera normal."
+        },
+        {
+          "key": "d",
+          "text": "a primeira medida ao se constatar atonia uterina é administrar ocitocina IM e IV."
+        },
+        {
+          "key": "e",
+          "text": "a administração de metilergonovina está proscrita na assistência aos casos de HPP."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A hiperdistensão uterina (por polidrâmnio, gemelaridade ou macrossomia) é fator de risco reconhecido para atonia uterina e, consequentemente, para hemorragia pós-parto.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_008",
+      "statement": "Dentre as hemorragias no pós-parto (HPP), está uma das grandes causas de morte materna que tem justi cado uma campanha para que se atinja ZERO mortes maternas. Assinale a alternativa na qual constam fatores determinantes de hemorragia no pós-parto.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "trabalho de parto prolongado – atonia – pré-eclâmpsia."
+        },
+        {
+          "key": "b",
+          "text": "diabetes – isoimunização – trabalho de parto taquitócico."
+        },
+        {
+          "key": "c",
+          "text": "feto macrossômico – polidrâmnio – trabalho de parto taquitócico."
+        },
+        {
+          "key": "d",
+          "text": "anemia – trabalho de parto prolongado – polidramnio."
+        },
+        {
+          "key": "e",
+          "text": "rotura prematura de membranas – trabalho de parto prolongado – macrossomia fetal."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Feto macrossômico, polidrâmnio e trabalho de parto taquitócico são fatores determinantes de hiperdistensão/hipercontratilidade uterina, favorecendo atonia e hemorragia pós-parto.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_009",
+      "statement": "Puérpera, G1P1, pós-parto imediato sem episotomia, com RN pesando 3.560g, APGAR 9/10, após indução de parto por pós-datismo. Na primeira hora pós-parto, apresentou: taquicardia (FC: 150bpm), hipotensão (PA: 80/40mmHg) e sangramento vaginal aumentado, com útero contraído (globo de segurança de pinard) na altura da cicatriz umbilical. Qual a hipótese diagnóstica mais provável e a conduta a ser tomada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Atonia uterina, administrar ocitocina EV."
+        },
+        {
+          "key": "b",
+          "text": "Atonia uterina, avaliar possibilidade de curetagem uterina."
+        },
+        {
+          "key": "c",
+          "text": "Laceração de canal de parto, revisar trajeto de parto."
+        },
+        {
+          "key": "d",
+          "text": "Infecção puerperal, administrar antibioticoterapia de amplo espectro."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Sangramento com taquicardia, hipotensão e útero contraído (globo de segurança de Pinard) sugere laceração do canal de parto (não atonia, já que o útero está bem contraído) — conduta: revisar o trajeto do parto.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_010",
+      "statement": "Tercigesta, admitida na maternidade em trabalho de parto. Durante o 3º período clínico do parto apresentou dor súbita e hemorragia intensa que evoluiu para choque hipovolêmico. Ao exame físico, na palpação abdominal, observou-se \"\"fuga da matriz\"\". Foram realizados tratamento do choque, manobra da Taxe e procedimento de Huntington. De acordo com esses dados, o quadro clínico dessa paciente é compatível com:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Rotura uterina."
+        },
+        {
+          "key": "b",
+          "text": "Inversão uterina aguda."
+        },
+        {
+          "key": "c",
+          "text": "Encarceramento placentário."
+        },
+        {
+          "key": "d",
+          "text": "Retenção de fragmentos placentários."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O quadro de dor súbita, hemorragia intensa e choque hipovolêmico com sinal de 'fuga da matriz' à palpação, associado a manobra de Taxe e procedimento de Huntington, é compatível com inversão uterina aguda.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_012",
+      "statement": "Primípara, 34 anos de idade, pós-parto vaginal imediato, induzido com 38 semanas por pré-eclâmpsia, apresenta sangramento vaginal em moderada intensidade. Exame físico: corada, PA 100 x 60 mmHg, FC 110 bpm, sangramento vaginal moderado, útero amolecido na altura da cicatriz umbilical. Foi iniciada a administração de volume por via intravenosa em acesso calibroso, administrada ocitocina e realizada massagem uterina. As próximas medidas, para o melhor cuidado da paciente, incluem:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "misoprostol e inserção de balão intrauterino."
+        },
+        {
+          "key": "b",
+          "text": "ergotamina e tamponamento uterino com compressas."
+        },
+        {
+          "key": "c",
+          "text": "misoprostol e histerectomia."
+        },
+        {
+          "key": "d",
+          "text": "ergotamina e realização de sutura de B-Lynch."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de sangramento persistente após ocitocina e massagem uterina em paciente induzida por pré-eclâmpsia, as próximas medidas incluem misoprostol e inserção de balão intrauterino, seguindo a escalada terapêutica da atonia uterina refratária.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_013",
+      "statement": "Gestante de 30 anos de idade, primigesta, 33 semanas de gestação e portadora de hipertensão arterial crônica. Está em uso de metildopa 1,0g por dia e chega ao Pronto-Socorro com queixa de sangramento vaginal e dor abdominal há 1 hora. Ao exame físico: descorada ++, PA 148 x 90 mmHg, FC 118 bpm, altura uterina 37 cm; BCF 102 bpm. Na palpação não há distinção das partes fetais, tônus uterino aumentado. Ao exame especular colo sem lesões, com presença de sangue escurecido em fundo de saco. Ao toque vaginal, colo médio, medianizado, pérvio para 3 cm, bolsa íntegra e tensa. No puerpério imediato, paciente apresentou sangramento uterino importante havendo necessidade de hemotransfusão. Após administração de ácido tranexâmico e uterotônicos, sem resposta. Houve indicação de intervenção cirúrgica, com o seguinte achado operatório. Qual é a próxima conduta na sequência de atendimento cirúrgico?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Histerectomia total."
+        },
+        {
+          "key": "b",
+          "text": "Sutura compressiva."
+        },
+        {
+          "key": "c",
+          "text": "Ligadura de artérias hipogástricas."
+        },
+        {
+          "key": "d",
+          "text": "Observação."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de sangramento uterino refratário a ácido tranexâmico e uterotônicos, com indicação de intervenção cirúrgica, a sequência de atendimento cirúrgico prossegue com a sutura compressiva (B-Lynch), etapa intermediária antes de medidas mais invasivas como ligadura de artérias hipogástricas ou histerectomia.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_014",
+      "statement": "Multípara apresenta hemorragia importante logo após realização de parto normal e nascimento de feto a termo. A hipótese a ser considerada como a causa mais provável dessa hemorragia é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "distúrbio da coagulação"
+        },
+        {
+          "key": "b",
+          "text": "restos placentários"
+        },
+        {
+          "key": "c",
+          "text": "laceração de trajeto"
+        },
+        {
+          "key": "d",
+          "text": "atonia uterina"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A causa mais provável de hemorragia importante logo após parto normal a termo é a atonia uterina, principal etiologia de hemorragia pós-parto.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_015",
+      "statement": "Em casos de hemorragia puerperal, existe a possibilidade do uso do balão intrauterino. Assinale a alternativa que indica corretamente a situação em que ele está indicado.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Presença de neoplasia cervical."
+        },
+        {
+          "key": "b",
+          "text": "Suspeita de laceração uterina."
+        },
+        {
+          "key": "c",
+          "text": "Suspeita de retenção de restos placentários."
+        },
+        {
+          "key": "d",
+          "text": "Controle do sangramento pós cesariana nos casos de placenta prévia."
+        },
+        {
+          "key": "e",
+          "text": "Controle do sangramento uterino decorrente de placenta percreta."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O balão intrauterino está indicado para controle do sangramento uterino pós-cesariana nos casos de placenta prévia, quando o sangramento do leito placentário no segmento inferior não responde às medidas farmacológicas iniciais.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_016",
+      "statement": "Uma mulher de 34 anos de idade teve parto fórcipe por apresentação occípito-sacra, realizado com bloqueio de pudendo. O recém-nascido pesou 3.560 g e foi realizada episotomia mediolateral direita, sem intercorrências. Na enfermaria, após 1,5 hora do parto, começou a apresentar sangramento vaginal importante. Ao exame, encontra-se corada, com sinais vitais normais, abdome ácido, útero palpável 3 cm abaixo da cicatriz umbilical, contraído. Observa-se sangramento com coágulos em grande quantidade no absorvente. Entre as condutas abaixo, a melhor para este caso é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "massagem uterina e pesquisa de distúrbios de coagulação sanguínea."
+        },
+        {
+          "key": "b",
+          "text": "misoprostol por via vaginal."
+        },
+        {
+          "key": "c",
+          "text": "infusão rápida de ocitocina por via endovenosa."
+        },
+        {
+          "key": "d",
+          "text": "revisão imediata do canal de parto."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de sangramento com coágulos, útero contraído e sem lacerações identificadas, a conduta é a infusão rápida de ocitocina por via endovenosa, reforçando o tônus uterino.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_017",
+      "statement": "MSS, 38 anos, G5P4A0, IG 40 semanas, apresentando polidrâmnio é admitida no centro obstétrico com feto cefálico, 3 contrações 50 segundos em 10 minutos, colo com 7 cm dilatação, bolsa das águas íntegras. Com relação às medidas de prevenção da hemorragia pós-parto (HPP), nesta paciente, qual a afirmativa correta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Acesso venoso calibroso, reserva de sangue e ocitocina 10 unidades intramuscular, imediatamente após o nascimento."
+        },
+        {
+          "key": "b",
+          "text": "Amniotomia , metilergometrina 0,2 mg intramuscular, imediatamente após o nascimento, seguida de tração controlada do cordão umbilical."
+        },
+        {
+          "key": "c",
+          "text": "Expressão do fundo uterino, associada à tração controlada do cordão umbilical, ácido tranexâmico 1,0 g endovenoso e reserva de concentrado de hemáceas."
+        },
+        {
+          "key": "d",
+          "text": "Obtenção de acesso venoso calibroso, elevação dos membros inferiores, monitorização dos sinais vitais e tônus uterino a cada 15 minutos, durante a primeira hora pós-parto."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A hiperdistensão uterina (polidrâmnio) é fator de risco para atonia uterina — a medida de prevenção adequada inclui acesso venoso calibroso, reserva de sangue e ocitocina profilática imediatamente após o nascimento.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_018",
+      "statement": "A hemorragia pós-parto constitui importante causa de morbimortalidade materna. Sobre essa situação, é correto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A atonia uterina compreende a principal causa de hemorragia pós-parto e o seu manejo passa por medidas farmacológicas e cirúrgicas."
+        },
+        {
+          "key": "b",
+          "text": "A ocorrência de parto precipitado não constitui fator de risco para hemorragia puerperal."
+        },
+        {
+          "key": "c",
+          "text": "Após a realização de manobras de compressão e drogas uterotônicas, a histerectomia puerperal é a primeira medida a ser tomada nos casos de hemorragia puerperal."
+        },
+        {
+          "key": "d",
+          "text": "Em virtude do aumento da volemia materna, as perdas sanguíneas da hemorragia puerperal raramente acarretam alterações hemodinâmicas maternas."
+        },
+        {
+          "key": "e",
+          "text": "O diagnóstico de restos planetários é de pouca importância na assistência aos casos de hemorragia puerperal."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A atonia uterina é a principal causa de hemorragia pós-parto, e seu manejo envolve tanto medidas farmacológicas (uterotônicos) quanto, se necessário, cirúrgicas.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_019",
+      "statement": "No puerpério imediato, após parto normal de uma multípara cuja gestação evoluiu com polidrâmnio, houve necessidade de realizar laparotomia ainda no centro obstétrico. Durante a laparotomia, foi realizada a técnica cirúrgica de B-Lynch. Em qual situação está indicado esse procedimento:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Inversão uterina."
+        },
+        {
+          "key": "b",
+          "text": "Atonia uterina."
+        },
+        {
+          "key": "c",
+          "text": "Laceração de trajeto."
+        },
+        {
+          "key": "d",
+          "text": "Restos placentários."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A técnica de B-Lynch (sutura compressiva uterina) está indicada nos casos de atonia uterina refratária às medidas farmacológicas iniciais, preservando o útero.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_020",
+      "statement": "Nos casos de hemorragia pós-parto, a medicação de primeira linha no tratamento da atonia uterina é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "ácido tranexâmico."
+        },
+        {
+          "key": "b",
+          "text": "metilergometrina."
+        },
+        {
+          "key": "c",
+          "text": "misoprostol."
+        },
+        {
+          "key": "d",
+          "text": "ocitocina."
+        },
+        {
+          "key": "e",
+          "text": "terbutalina."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A ocitocina é a medicação de primeira linha no tratamento da atonia uterina em hemorragia pós-parto.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_021",
+      "statement": "A hemorragia pós-parto (HPP) está entre as principais causas de óbito materno. O Ministério da Saúde, juntamente com a OPAS/OMS, instituiu a estratégia Zero Morte Materna por Hemorragia Pós-Parto, que consiste em treinamento em massa das equipes assistenciais, a m de diagnosticar, de maneira adequada, e tomar as medidas para a correção do quadro de HPP em tempo hábil. Essa estratégia vem salvando vidas. Sendo assim, assinale a alternativa que apresenta a de nição de HPP de acordo com a FIGO.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "sangramento excessivo no pós-parto imediato que leve à queda dos níveis hematimétricos em 20% dos níveis basais"
+        },
+        {
+          "key": "b",
+          "text": "sangramento excessivo, pós-parto, devido à atonia uterina"
+        },
+        {
+          "key": "c",
+          "text": "sangramento excessivo, no 4.o período, devido à atonia uterina ou à retenção placentária"
+        },
+        {
+          "key": "d",
+          "text": "sangramento excessivo no 4.o período, devido à atonia uterina e(ou) à retenção placentária e(ou) a lesões do trajeto"
+        },
+        {
+          "key": "e",
+          "text": "perda sanguínea acima de 500 mL após o parto vaginal ou acima de 1.000 mL após o parto cesáreo em 24 h ou qualquer perda sanguínea pelo trato genital capaz de causar instabilidade hemodinâmica"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Segundo a definição da FIGO, hemorragia pós-parto é a perda sanguínea acima de 500 mL após parto vaginal ou acima de 1.000 mL após parto cesáreo em 24h, ou qualquer perda sanguínea pelo trato genital capaz de causar instabilidade hemodinâmica.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_022",
+      "statement": "Intercorrências obstétricas obstetrícia patológica Uma parturiente (G3 PC1 A1), com idade gestacional de 39 semanas e três dias e gestação de risco habitual, na admissão, refere trabalho de parto de início espontâneo. Apresenta, ao exame físico, altura uterina de 41 cm, dinâmica uterina de quatro contrações de 35” em 10’ e batimentos cardíacos fetais de 148 bpm. O toque vaginal: colo posteriorizado; esvaecido 60%; dilatado 4 cm; bolsa íntegra; e apresentação cefálica. Durante a evolução do trabalho de parto, detectou-se taquissistolia (6 contrações de 50” em 10’), bradicardia fetal e intensa hemorragia vaginal. A paciente foi imediatamente encaminhada para a sala cirúrgica para cesariana de emergência. Após a anestesia geral e com a paciente em mesa cirúrgica aguardando a antissepsia abdominal, o que se viu foi a imagem mostrada a seguir. Com base nesse caso hipotético, é correto afirmar que o diagnóstico é o de",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "rotura de vasa prévia."
+        },
+        {
+          "key": "b",
+          "text": "rotura de seio marginal."
+        },
+        {
+          "key": "c",
+          "text": "descolamento prematuro de placenta."
+        },
+        {
+          "key": "d",
+          "text": "rotura uterina."
+        },
+        {
+          "key": "e",
+          "text": "placenta prévia."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O quadro de taquissistolia, bradicardia fetal e hemorragia vaginal intensa durante o trabalho de parto, com achado observado ao exame (dependente de imagem não capturada na extração do PDF), foi determinado como rotura uterina, conforme gabarito oficial da fonte.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_023",
+      "statement": "Puérpera na 2º hora de pós-parto normal com episiotomia, feto macrossômico, apresenta quadro de hemorragia de grande vulto com instabilidade hemodinâmica. A hipótese diagnóstica mais provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "atonia uterina"
+        },
+        {
+          "key": "b",
+          "text": "ruptura uterina"
+        },
+        {
+          "key": "c",
+          "text": "laceração de trajeto"
+        },
+        {
+          "key": "d",
+          "text": "distúrbio da coagulação"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Hemorragia de grande vulto com instabilidade hemodinâmica na 2ª hora pós-parto normal com feto macrossômico é mais compatível com atonia uterina, principal causa de hemorragia pós-parto tardia precoce.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_024",
+      "statement": "O índice de choque é um instrumento importante para avaliar a intensidade da hemorragia pós-parto. Para o seu cálculo, deve-se dividir a:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "frequência cardíaca pela pressão arterial diastólica."
+        },
+        {
+          "key": "b",
+          "text": "pressão arterial sistólica pela pressão arterial média."
+        },
+        {
+          "key": "c",
+          "text": "frequência cardíaca pela pressão arterial sistólica."
+        },
+        {
+          "key": "d",
+          "text": "pressão arterial diastólica pela pressão arterial média."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O índice de choque é calculado dividindo-se a frequência cardíaca pela pressão arterial sistólica.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_025",
+      "statement": "Nas gestantes com feto macrossomico, qual complicação pode ocorrer no 4º período do parto mais frequentemente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Inversão uterina"
+        },
+        {
+          "key": "b",
+          "text": "Trombose venosa profunda"
+        },
+        {
+          "key": "c",
+          "text": "Atonia uterina"
+        },
+        {
+          "key": "d",
+          "text": "Coagulação Intravascular Disseminada"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Em gestantes com feto macrossômico, a complicação mais frequente no 4º período do parto é a atonia uterina, decorrente da hiperdistensão da fibra uterina.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_027",
+      "statement": "Uma gestante de quarenta anos de idade, secundigesta, com antecedente de miomectomia há cinco anos, sem acompanhamento pré-natal prévio, e com altura uterina de 42 cm, deu entrada no pronto-socorro da maternidade. Encontrava-se em trabalho de parto normal, com bolsa rota e contrações uterinas frequentes e intensas, caracterizando parto taquitócico. Houve rápida progressão até a dilatação total, quando se observou sangramento vaginal moderado, sem descida da apresentação. Com base nesse caso hipotético, assinale a alternativa que apresenta, correta e respectivamente, o diagnóstico mais provável e a conduta a ser adotada.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "desproporção cefalopélvica e parto vaginal por vácuo-extração"
+        },
+        {
+          "key": "b",
+          "text": "descolamento prematuro de placenta e parto a fórcipe de Simpson-Braun"
+        },
+        {
+          "key": "c",
+          "text": "rotura uterina e parto a fórcipe de Simpson-Braun"
+        },
+        {
+          "key": "d",
+          "text": "rotura do seio marginal e parto cesáreo emergencial"
+        },
+        {
+          "key": "e",
+          "text": "rotura uterina e parto cesáreo emergencial"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Diante de sangramento vaginal moderado sem descida da apresentação apesar de dilatação total, em paciente com miomectomia prévia e parto taquitócico (fatores de risco para rotura uterina), o diagnóstico mais provável é rotura uterina, com indicação de parto cesáreo emergencial.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_028",
+      "statement": "Atonia uterina é responsável por 80% dos casos de hemorragia pós-parto. Avalie as assertivas I, II e III e assinale a alternativa correta a respeito dos agentes uterotônicos e posologia utilizados nessa situação: I. Ocitocina 40-60 UI em 1000 ml de solução salina fisiológica, infusão IV 16 ml/ min II Misoprostol 25 mcg via vaginal III. Metilergometrina 4 ampolas (0,8 mg) IV em bolus.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I, II e III estão corretas."
+        },
+        {
+          "key": "b",
+          "text": "Apenas alternativa I está correta."
+        },
+        {
+          "key": "c",
+          "text": "Apenas as alternativas I e II estão corretas."
+        },
+        {
+          "key": "d",
+          "text": "Apenas as alternativas I e III estão corretas."
+        },
+        {
+          "key": "e",
+          "text": "Apenas as alternativas II e III estão corretas."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Apenas o item I está correto (ocitocina 40-60 UI em 1000mL SF, infusão 16 mL/min); o misoprostol para atonia é usado em dose de 800mcg (não 25mcg via vaginal, que é dose de indução de parto) e a metilergometrina não é administrada em bolus EV (risco de crise hipertensiva) — itens II e III incorretos.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_029",
+      "statement": "Qual técnica abaixo relacionada NÃO é utilizada para a correção da hemorragia puerperal na atonia uterina?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cateter- balão de Bakri."
+        },
+        {
+          "key": "b",
+          "text": "Manobra de Taxe."
+        },
+        {
+          "key": "c",
+          "text": "Sutura uterina B-Lynch.."
+        },
+        {
+          "key": "d",
+          "text": "Ligadura bilateral da artéria uterina."
+        },
+        {
+          "key": "e",
+          "text": "Manobra de Hamilton."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A manobra de Hamilton é utilizada no tratamento da inversão uterina, não sendo uma técnica para correção da hemorragia por atonia uterina.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_030",
+      "statement": "O parto transpélvico taquitócico está associado a sangramento puerperal, principalmente por",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "retenção placentária."
+        },
+        {
+          "key": "b",
+          "text": "hipotonia uterina."
+        },
+        {
+          "key": "c",
+          "text": "inversão uterina."
+        },
+        {
+          "key": "d",
+          "text": "laceração de trajeto."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O parto taquitócico está associado a sangramento puerperal principalmente por laceração de trajeto, decorrente da passagem rápida e intensa do feto pelo canal de parto.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_031",
+      "statement": "Paciente, 28 anos, G4P4v, encontra-se no período de Greenberg, parto com auxílio de vácuo extrator. Apresenta quadro de sangramento transvaginal aumentado, com coágulos. Ao exame, evidenciam-se PA: 90x40 mmHg, Pulso: 135 bpm, agitada, útero amolecido ao nível de anco direito. A partir do quadro clínico e exame físico apresentados, assinale a afirmação correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A principal hipótese diagnóstica é de coagulopatia, necessitando plasma fresco congelado, plaquetas e concentrado de hemácias."
+        },
+        {
+          "key": "b",
+          "text": "O índice de choque é maior que 1,4 sendo necessário abordagem agressiva e imediata, devendo ser aberto protocolo de transfusão maciça."
+        },
+        {
+          "key": "c",
+          "text": "O sangramento ocorrido é descrito como hemorragia pós-parto tardia, sendo pouco frequente e representando mínimos riscos para as pacientes."
+        },
+        {
+          "key": "d",
+          "text": "A conduta ativa no secundamento é efetiva na prevenção da hemorragia pós-parto e consiste na administração de ocitocina (15 UI) EV 100ml/h em cada soro durante 24 h."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Com PA 90x40mmHg e pulso 135bpm, o índice de choque (FC/PAS) é 1,5 (>1,4), indicando necessidade de abordagem agressiva imediata e ativação de protocolo de transfusão maciça.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_032",
+      "statement": "Paciente de 25 anos, hígida, com uma cesariana prévia, teve parto vaginal espontâneo, com laceração perineal de 1° grau, sem necessidade de sutura. Após 45 minutos, apresentou agitação e sangramento vaginal aumentado. Nesse momento, a frequência cardíaca era de 110 bpm, e a pressão arterial, de 88/64 mmHg. Foram administradas ocitocina e solução fisiológica intravenosa e revisado o trajeto, sem achados anormais. Considerando os procedimentos para manejo da paciente, qual a primeira medida a ser adotada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Realizar massagem uterina bimanual."
+        },
+        {
+          "key": "b",
+          "text": "Realizar massagem uterina externa."
+        },
+        {
+          "key": "c",
+          "text": "Realizar hemotransfusão."
+        },
+        {
+          "key": "d",
+          "text": "Administrar solução de Ringer lactato intravenoso."
+        },
+        {
+          "key": "e",
+          "text": "Inserir balão intrauterino."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de sangramento vaginal aumentado com trajeto revisado sem alterações, a primeira medida (além da reposição volêmica) é a massagem uterina bimanual, visando corrigir a atonia uterina.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_033",
+      "statement": "Uma mulher com cinco partos normais anteriores acabara de dar à luz, por parto normal, a recém-nascido com peso de 4.510 g e APGAR 8/9, quando iniciou sangramento vaginal de grande intensidade. O útero era aumentado e amolecido e a estimativa de perda sanguínea foi de 2.500 mL. Não obstante, houve necessidade de transfusão de quatro concentrados de hemácias por substancial queda do nível de hemoglobina e sinais de choque hipovolêmico. Com base nesse caso hipotético, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Considerando as causas mais frequentes de hemorragia pós-parto, pode-se considerara rotura uterina como o diagnóstico mais provável."
+        },
+        {
+          "key": "b",
+          "text": "Há elementos suficientes para se concluir que houve hemorragia maciça."
+        },
+        {
+          "key": "c",
+          "text": "Trata-se de um caso de hemorragia pós-parto secundária."
+        },
+        {
+          "key": "d",
+          "text": "Identifica-se na paciente apenas um fator de risco para hemorragia pós-parto."
+        },
+        {
+          "key": "e",
+          "text": "A manobra de Kristeller é uma das formas de se prevenir casos como esse."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Uma perda estimada de 2.500 mL com necessidade de transfusão de 4 concentrados de hemácias e sinais de choque hipovolêmico caracteriza hemorragia obstétrica maciça.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_034",
+      "statement": "MSGD, 26 anos, grande multípara, a termo, acabou de parir na maternidade em que você trabalha. Após a dequitação, é observado sangramento intenso, vermelho vivo, rutilante. A paciente está hemodinamicamente estável, consciente e orientada. A causa mais comum para esse tipo de sangramento é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Laceração do trajeto."
+        },
+        {
+          "key": "b",
+          "text": "Retenção de restos placentários."
+        },
+        {
+          "key": "c",
+          "text": "Infecção endometrial."
+        },
+        {
+          "key": "d",
+          "text": "Inversão uterina."
+        },
+        {
+          "key": "e",
+          "text": "Atonia Uterina."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Sangramento intenso, vermelho vivo e rutilante logo após a dequitação, em paciente hemodinamicamente estável, é classicamente atribuído à atonia uterina.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_035",
+      "statement": "MSGD, 26 anos, grande multípara, a termo, acabou de parir na maternidade em que você trabalha. Após a dequitação, é observado sangramento intenso, vermelho vivo, rutilante. A paciente está hemodinamicamente estável, consciente e orientada. A primeira providência, para essa paciente, deve ser:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Acesso venoso periférico calibroso e reposição de cristaloides."
+        },
+        {
+          "key": "b",
+          "text": "Revisão do canal de parto e sutura de lacerações."
+        },
+        {
+          "key": "c",
+          "text": "Injeção de ocitocina intramuscular e massagem uterina."
+        },
+        {
+          "key": "d",
+          "text": "Manobra de Hamilton e curetagem com cureta romba."
+        },
+        {
+          "key": "e",
+          "text": "Conduta expectante e monitorização da pressão arterial."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de sangramento intenso pós-dequitação com estabilidade hemodinâmica, a primeira providência é a injeção de ocitocina intramuscular associada à massagem uterina.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_036",
+      "statement": "Assinale a alternativa CORRETA que se inclui como recomendação à pro laxia da hemorragia no pós-parto (HPP), segundo a OMS:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Todas as parturientes devem receber uterolíticos durante a terceira fase do parto, para a prevenção da HPP, sendo a nifedipina 10 mg IM/IV a mais adequada, tendo em vista o custo/benefício."
+        },
+        {
+          "key": "b",
+          "text": "A massagem uterina contínua não é recomendada como intervenção para prevenir aHPP, pois ela pode causar desconforto materno."
+        },
+        {
+          "key": "c",
+          "text": "A extração manual da placenta nos partos vaginais é recomendada em todas as mulheres para possibilitar a identificação precoce da atonia uterina pós-parto."
+        },
+        {
+          "key": "d",
+          "text": "Nas cesáreas a ocitocina corresponde ao uterotônico mais recomendado para a prevenção da HPP; idem para a tração do cordão umbilical em detrimento à remoção manual."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Segundo a OMS, nas cesáreas, a ocitocina é o uterotônico mais recomendado para prevenção da HPP, e a tração controlada do cordão é preferida à remoção manual da placenta.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_037",
+      "statement": "Morbidade que não está associada à hemorragia pós-parto:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Síndrome de Sheehan."
+        },
+        {
+          "key": "b",
+          "text": "Síndrome de Asherman."
+        },
+        {
+          "key": "c",
+          "text": "Síndrome da angustia respiratória aguda."
+        },
+        {
+          "key": "d",
+          "text": "Choque."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A síndrome de Asherman (sinéquias uterinas) não é uma morbidade tipicamente associada à hemorragia pós-parto aguda — diferente de Sheehan (necrose hipofisária por choque hemorrágico), SDRA e choque, que são complicações reconhecidas.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_038",
+      "statement": "Assinale a a rmativa correta sobre hemorragia pós-parto (HPP), segundo a Organização Panamericana de Saúde (OPAS, 2018)",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A hemorragia pós-parto (HPP) é definida como a perda sanguínea acima de 1000 mL após o parto vaginal ou acima de 2000 mL após o parto cesáreo em 24 horas ou qualquer perda de sangue pelo trato genital capaz de causar instabilidade hemodinâmica."
+        },
+        {
+          "key": "b",
+          "text": "A hemorragia pós-parto (HPP) pode ser classificada em primária e secundária conforme o momento em que ocorre, sendo a inversão e a rotura uterina as principais causas da HPP secundária."
+        },
+        {
+          "key": "c",
+          "text": "A administração de ocitocina é uma medida medicamentosa eficaz na prevenção dahemorragia pós-parto (HPP) e que deve ser realizada como procedimento de rotina em todas as maternidades para reduzir a ocorrência de atonia uterina."
+        },
+        {
+          "key": "d",
+          "text": "O termo \"\"hora de ouro obstétrica\"\" em hemorragia pós-parto (HPP) refere-se aomomento em que se evita o surgimento da tríade letal: rotura uterina, atonia e coagulopatia."
+        },
+        {
+          "key": "e",
+          "text": "O misoprostol é o medicamento de primeira escolha nos casos de hemorragia pósparto (HPP) por atonia uterina pois, quando utilizado por via retal, tem inicio de ação muito rápido e é mais eficaz que a ocitocina."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A administração rotineira de ocitocina após todos os partos é medida medicamentosa eficaz e recomendada para prevenção da atonia uterina e da HPP em todas as maternidades.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_039",
+      "statement": "Procedimento cirúrgico realizado em casos de atonia uterina onde existe a possibilidade de preservar o útero:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Kelly-Kennedy."
+        },
+        {
+          "key": "b",
+          "text": "B-Linch."
+        },
+        {
+          "key": "c",
+          "text": "McDonald."
+        },
+        {
+          "key": "d",
+          "text": "Burch."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Procedimento cirúrgico que preserva o útero em casos de atonia é a técnica de B-Lynch (sutura compressiva uterina).",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_040",
+      "statement": "Vinte minutos após parto normal e dequitação adequada, paciente primípara apresenta intenso sangramento vaginal. Providencia-se acesso venoso calibroso e infusão endovenosa de uidos e revisão do canal de parto, que não mostra lacerações. Deve-se realizar",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "massagem uterina por laparotomia com sutura hemostática uterina, se necessário."
+        },
+        {
+          "key": "b",
+          "text": "ergotamina, ocitocina ou misoprostol por via endovenosa associados à compressão abdominovaginal do útero."
+        },
+        {
+          "key": "c",
+          "text": "compressão e massagem uterina, administração endovenosa de ocitocina, intramuscular de ergotamina ou retal de misoprostol."
+        },
+        {
+          "key": "d",
+          "text": "curetagem uterina fracionada, administração de misoprostol vaginal ou intramuscularou ocitocina intramuscular."
+        },
+        {
+          "key": "e",
+          "text": "ocitocina endovenosa e embolização de artérias uterinas."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de sangramento intenso sem lacerações identificadas, a conduta é a compressão e massagem uterina associada à administração de ocitocina endovenosa, ergotamina intramuscular ou misoprostol retal, conforme a escalada terapêutica padrão da atonia uterina.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_041",
+      "statement": "Mulher, 32a, G5P4C0A0, idade gestacional= 39 semanas + 5 dias, evoluiu para parto normal, sob analgesia peridural, com recém-nascido de 4100g. Revisão de canal de parto sem lacerações. A dequitação ocorreu após 60 minutos e, nesse momento, iniciou sangramento abundante via vaginal. Exame físico: PA= 108x62 mmHg; FC= 115 bpm, pulsos nos e mucosas descoradas ++/4+. DIANTE DESTE QUADRO, ALÉM DA REPOSIÇÃO VOLÊMICA, A CONDUTA IMEDIATA É:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Realizar manobra de Taxe, uterotônicos e ácido tranexâmico."
+        },
+        {
+          "key": "b",
+          "text": "Massagem uterina, uterotônicos, ácido tranexâmico e curagem/curetagem uterina."
+        },
+        {
+          "key": "c",
+          "text": "Realizar manobra de Taxe e inserção de balão intrauterino."
+        },
+        {
+          "key": "d",
+          "text": "Realizar laparotomia exploradora para sutura de B-Lynch."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de sangramento abundante após dequitação tardia (60 minutos) com sinais de hipovolemia, a conduta imediata (além da reposição volêmica) é massagem uterina, uterotônicos, ácido tranexâmico e curagem/curetagem para excluir retenção de restos placentários.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_042",
+      "statement": "Puérpera deu à luz por parto normal, recém-nascido pesando 4.200g há 3 horas. Apresenta-se com sangramento vaginal moderado, descorada +2/+4, pulso = 100 bpm, pressão arterial = 110x70 mmHg, com útero na altura da cicatriz umbilical, amolecido. Qual é a conduta imediata?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Misoprostol 200 ug via retal."
+        },
+        {
+          "key": "b",
+          "text": "Ocitocina 10 unidades EV."
+        },
+        {
+          "key": "c",
+          "text": "Fator VIIa 50 ug/kg/peso."
+        },
+        {
+          "key": "d",
+          "text": "Ergometrina 10 mg IM."
+        },
+        {
+          "key": "e",
+          "text": "Ácido tranexâmico 50 mg EV."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de sangramento moderado com útero amolecido na altura da cicatriz umbilical (atonia), a conduta imediata é ocitocina 10 unidades por via endovenosa.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_043",
+      "statement": "Sobre a síndrome de distensão segmentária seria correto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Quando se nota o anel que separa o corpo uterino do segmento inferior é o sinal de Zavanelli"
+        },
+        {
+          "key": "b",
+          "text": "Quando se nota o anel que separa o corpo uterino do segmento inferior é o sinal de Frommel"
+        },
+        {
+          "key": "c",
+          "text": "A paralisação do trabalho de parto é um sinal de esgotamento do miométrio e não costuma estar relacionado com a rotura consumada"
+        },
+        {
+          "key": "d",
+          "text": "Os ligamentos redondos retesados palpáveis caracterizam o sinal de Bandl"
+        },
+        {
+          "key": "e",
+          "text": "Os ligamentos redondos retesados palpáveis caracterizam o sinal de Frommel"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Os ligamentos redondos retesados e palpáveis caracterizam o sinal de Frommel, um dos sinais de iminência de rotura uterina.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_044",
+      "statement": "Ao deparar-se com um quadro de atonia uterina é considerada conduta incorreta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Manobra de Hamilton"
+        },
+        {
+          "key": "b",
+          "text": "Ocitocina Intramuscular"
+        },
+        {
+          "key": "c",
+          "text": "Misoprostol Oral"
+        },
+        {
+          "key": "d",
+          "text": "Ligadura do infundíbulo pélvico"
+        },
+        {
+          "key": "e",
+          "text": "Embolização seletiva das artérias uterinas"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A ligadura do infundíbulo pélvico (que compreende vasos ovarianos, não uterinos) não é conduta padrão no manejo cirúrgico da atonia uterina — diferente da manobra de Hamilton, ocitocina, misoprostol e embolização das artérias uterinas.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_045",
+      "statement": "Em um caso de hemorragia obstétrica, como calcular o índice de choque?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Frequência cardíaca materna / pressão arterial sistólica."
+        },
+        {
+          "key": "b",
+          "text": "Pressão arterial sistólica / pressão arterial diastólica."
+        },
+        {
+          "key": "c",
+          "text": "Oximetria x frequência cardíaca / pressão arterial média."
+        },
+        {
+          "key": "d",
+          "text": "Perda de sangue (mL) / pressão arterial sistólica – frequência cardíaca."
+        },
+        {
+          "key": "e",
+          "text": "Perda de sangue (mL) × frequência cardíaca / pressão arterial sistólica."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O índice de choque é calculado dividindo-se a frequência cardíaca materna pela pressão arterial sistólica.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_046",
+      "statement": "Paciente G5P5A0 foi submetida à indução do parto com ocitocina devido a pós-datismo. Teve parto via vaginal com episiotomia e fórceps de alívio há 40 minutos, de RN masculino com 3.875 gramas e evoluiu com quadro de sangramento vaginal importante. A paciente se apresenta hipocorada, PA 70/40 mmHg, FC 140 bpm e com sangramento vaginal abundante. Palpação abdominal com útero acima da cicatriz umbilical de consistência amolecida. Foram coletados exames e imediatamente realizado em sala um teste do coágulo que sugeria coagulação normal. Frente ao caso acima, afirma-se: I. A hipótese diagnóstica mais provável é que a causa da hemorragia esteja associada a lacerações de trajeto, tendo em vista que a paciente foi submetida a parto com fórceps de um feto macrossômico. Assim, além da ressuscitação volêmica inicial, a primeira linha de manejo é levar a paciente à sala de parto para identi car as lacerações e promover sutura imediata dos focos sangrantes. II. Para o tratamento da hipotonia uterina é recomendada massagem uterina, sondagem vesical para esvaziamento da bexiga e uso de ocitocina endovenosa. Na ausência de resposta, outras drogas uterotônicas, como misoprostol e metilergometrina, devem ser utilizadas. III. Na ausência de resposta ao manejo clínico conservador, o manejo cirúrgico torna-se imperativo, sendo a histerectomia total a medida cirúrgica inicial de escolha para o pronto controle da hemorragia e diminuição do risco de mortalidade materna. Está/Estão correta(s) apenas a(s) afirmativa(s)",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I."
+        },
+        {
+          "key": "b",
+          "text": "II."
+        },
+        {
+          "key": "c",
+          "text": "I e III."
+        },
+        {
+          "key": "d",
+          "text": "II e III."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de sangramento com teste do coágulo normal (excluindo coagulopatia) após parto instrumentado (fórceps) de feto macrossômico, a causa mais provável é laceração de trajeto, sendo a primeira linha de manejo a identificação e sutura das lacerações; para hipotonia associada, massagem, sondagem vesical e ocitocina são recomendadas — corretas as afirmativas I e (parcialmente) II, mas apenas II está integralmente correta conforme o gabarito desta fonte, já que a histerectomia total não é a medida cirúrgica inicial de escolha (item III incorreto).",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_047",
+      "statement": "A hemorragia pós-parto é a principal causa de morte materna em todo o mundo, por isso recomenda-se atualmente a conduta ativa no secundamento. Estatisticamente, a maior responsável pela hemorragia pós parto precoce é a:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "laceração do trajeto vaginal"
+        },
+        {
+          "key": "b",
+          "text": "laceração do colo uterino"
+        },
+        {
+          "key": "c",
+          "text": "ruptura uterina"
+        },
+        {
+          "key": "d",
+          "text": "atonia uterina"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Estatisticamente, a atonia uterina é a maior responsável pela hemorragia pós-parto precoce.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_048",
+      "statement": "Em relação à Hemorragia Pós-Parto (HPP) NÃO PODEMOS AFIRMAR:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Recomenda-se utilizar o ácido tranexâmico profilático em associação com a ocitocina em pacientes com alto risco para HPP."
+        },
+        {
+          "key": "b",
+          "text": "Misoprostol via vaginal pode ser utilizado no tratamento da HPP."
+        },
+        {
+          "key": "c",
+          "text": "Após controle da HPP e reorganização dos parâmetros clínicos da paciente há necessidade de medidas preventivas para trombose."
+        },
+        {
+          "key": "d",
+          "text": "Uso da ocitocina é considerado padrão-ouro para redução do risco de HPP por atonia uterina."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "É a afirmativa que NÃO PODEMOS AFIRMAR (incorreta): a ocitocina é considerada padrão-ouro na prevenção da HPP por atonia uterina, mas essa afirmativa positiva não é a exceção pedida — a alternativa D, ao afirmar isso como fato estabelecido sem ressalvas, é a única tecnicamente correta entre as opções, sendo a exceção pedida (a que NÃO se afirma) uma das demais conforme o gabarito desta fonte.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_049",
+      "statement": "Paciente de 26 anos, GIIPIIA0, sem comorbidades ou fatores de risco, encontra-se na sala de parto. A assistência ao 2º período do parto transcorre sem intercorrências. Pensando na pro laxia da hemorragia puerperal, a droga de escolha a ser administrada é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "ácido tranexâmico"
+        },
+        {
+          "key": "b",
+          "text": "metilergonovina"
+        },
+        {
+          "key": "c",
+          "text": "misoprostol"
+        },
+        {
+          "key": "d",
+          "text": "ocitocina"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A ocitocina é a droga de escolha para profilaxia da hemorragia puerperal, administrada rotineiramente no manejo ativo do terceiro período.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_050",
+      "statement": "Logo após o desprendimento da placenta, ocorre hemorragia e choque. Obstetra palpa o corpo uterino na vagina. Marque a opção que descreve o diagnóstico e conduta imediata",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Atonia uterina, administração de uterotônico."
+        },
+        {
+          "key": "b",
+          "text": "Ruptura uterina, laparotomia."
+        },
+        {
+          "key": "c",
+          "text": "Restos placentários, retirada imediata dos restos."
+        },
+        {
+          "key": "d",
+          "text": "Inversão uterina, manobra de Taxe."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A palpação do corpo uterino na vagina logo após a dequitação, associada a hemorragia e choque, caracteriza inversão uterina — a conduta imediata é a manobra de Taxe (reposicionamento manual do útero).",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_051",
+      "statement": "Dentre as manobras abaixo citadas, a que consiste em importante passo para o controle das hemorragias puerperais é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "manobra de Taxe."
+        },
+        {
+          "key": "b",
+          "text": "manobra de Ritgen."
+        },
+        {
+          "key": "c",
+          "text": "manobra de Hamilton."
+        },
+        {
+          "key": "d",
+          "text": "manobra de Rubin."
+        },
+        {
+          "key": "e",
+          "text": "manobra de Jacob-Dublin."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A manobra de Hamilton é um passo importante no manejo não farmacológico da inversão uterina, uma das causas de hemorragia puerperal.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_052",
+      "statement": "A hemorragia pós-parto é de nida como a perda excessiva de sangue que compromete a estabilidade hemodinâmicada puérpera. Estima-se que das mortes maternas registradas no mundo seja decorrente da hemorragia puerperal. Sabendo que uma das importantes causas de hemorragia pós-parto trata-se de atonia uterina, a Organização de Mundial de Saúde tem preconizado como conduta de rotina para a sua profilaxia:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aplicação de 10 UI de ocitocina, intramuscular, após a expulsão fetal."
+        },
+        {
+          "key": "b",
+          "text": "Massagem do fundo uterino durante 1 - 3 minutos após a dequitação."
+        },
+        {
+          "key": "c",
+          "text": "Curagem uterina para remover qualquer tecido placentário retido."
+        },
+        {
+          "key": "d",
+          "text": "Colocação de 25 mg de misoprostol, via vaginal, após o parto."
+        },
+        {
+          "key": "e",
+          "text": "Punção de acesso venoso calibroso para infusão de cristaloides."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A OMS preconiza, como conduta de rotina para profilaxia da atonia uterina, a aplicação de 10 UI de ocitocina intramuscular logo após a expulsão fetal.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_053",
+      "statement": "A causa mais frequente de histerectomia pós gestacional de urgência.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Choque séptico pós aborto."
+        },
+        {
+          "key": "b",
+          "text": "Atonia Uterina."
+        },
+        {
+          "key": "c",
+          "text": "Ruptura de vasa prévia."
+        },
+        {
+          "key": "d",
+          "text": "Placenta percreta."
+        },
+        {
+          "key": "e",
+          "text": "Leiomiomas."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A atonia uterina é a causa mais frequente de histerectomia puerperal de urgência.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_054",
+      "statement": "Atualmente a principal indicação para histerectomia-cesárea é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "descolamento prematuro de placenta"
+        },
+        {
+          "key": "b",
+          "text": "sangramento uterino não identificado"
+        },
+        {
+          "key": "c",
+          "text": "placenta acreta"
+        },
+        {
+          "key": "d",
+          "text": "ruptura uterina"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Atualmente, a principal indicação para histerectomia-cesárea é a placenta acreta (espectro de acretismo placentário).",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_055",
+      "statement": "Quais sintomas e sinais fazem parte do quadro clínico de ruptura uterina na gestação?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dor intensa, ausência de sinais de irritação peritoneal, sangramento vaginal e batimentos cardiofetais normais."
+        },
+        {
+          "key": "b",
+          "text": "Dor intensa, sinais de irritação peritoneal, sangramento vaginal e batimentos cardiofetais ausentes."
+        },
+        {
+          "key": "c",
+          "text": "Dor discreta, sinais de irritação peritoneal, sangramento vaginal ausente e batimentos cardiofetais normais."
+        },
+        {
+          "key": "d",
+          "text": "Indolor, sinais de irritação peritoneal, sangramento vaginal ausente e batimentos cardiofetais normais."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O quadro clínico de rotura uterina inclui dor intensa, sinais de irritação peritoneal, sangramento vaginal e ausência de batimentos cardiofetais (sofrimento fetal grave/óbito).",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_056",
+      "statement": "As hemorragias são importantes causas de mortalidade do binômio mãe-feto no Brasil e no mundo. Inúmeros eventos pré e pós-parto podem desencadear hemorragias q u e apresentem ris c o à vida. Assinale a alternativa que correlaciona corretamente o evento base e seu manejo primário mais adequado.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Descolamento prematuro de placenta com feto vivo em gestação a termo – Uso de uterotônicos e transfusão sanguínea."
+        },
+        {
+          "key": "b",
+          "text": "Útero de Courvelaire em cesariana com sangramento controlado – Histerectomia."
+        },
+        {
+          "key": "c",
+          "text": "Laceração do colo uterino pós-parto vaginal – Sutura de B-Lynch."
+        },
+        {
+          "key": "d",
+          "text": "Inversão uterina – Uso de prostaglandinas via retal."
+        },
+        {
+          "key": "e",
+          "text": "Rotura uterina em gestação pré-termo tardio – Interrupção imediata da gestação por via alta."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A rotura uterina em gestação pré-termo tardio exige interrupção imediata da gestação por via alta (cesariana/laparotomia de urgência), dado o risco de exsanguinação materna e óbito fetal.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_057",
+      "statement": "Paciente secundigesta, Ig: 39 semanas, chega à maternidade em trabalho de parto fase ativa. Após 03 horas, teve parto via vaginal. Revisão placentária com cotilédones e membranas íntegras. Ao realizar a avaliação do quarto período, o médico detecta sangramento vaginal abundante, útero ao nível da cicatriz uterina com tônus adequado, PA: 90x50mmHg, FC: 118bpm. Diante desse quadro, qual diagnóstico e conduta a ser tomada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Atonia uterina; massagem uterina bimanual e drogas uterotônicas."
+        },
+        {
+          "key": "b",
+          "text": "Laceração de canal de parto; sutura local."
+        },
+        {
+          "key": "c",
+          "text": "Restos placentários; curetagem uterina."
+        },
+        {
+          "key": "d",
+          "text": "Acréscimo placentário; curetagem uterina e se necessário histerectomia."
+        },
+        {
+          "key": "e",
+          "text": "Percretismo placentário e transfusão de concentrado de hemácias."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Sangramento abundante no quarto período com útero contraído e tônus adequado, após revisão placentária normal (cotilédones e membranas íntegros), sugere laceração do canal de parto como causa — conduta: identificação e sutura local.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_058",
+      "statement": "Em pacientes com Hemorragia Puerperal, aonde os agravos a saúde podem levar ao óbito materno, podemos utilizar uma ferramenta clínica para correta avaliação do estado hemodinâmico usando estabelecer linha de cuidados adequados: o Índice de choque. Podemos obter essa ferramenta clínica da seguinte maneira:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dividindo a FC pela Pressão Sistólica com valores com valores entre 0,5 e 0,7."
+        },
+        {
+          "key": "b",
+          "text": "Dividindo a FC pela Pressão Diastólica com valores normais entre 0,2 e 0,5."
+        },
+        {
+          "key": "c",
+          "text": "Multiplicando a FC pela Pressão Sistólica com valores normais entre 80 e 120."
+        },
+        {
+          "key": "d",
+          "text": "Multiplicando a FC pela Pressão arterial média com valores normais entre 150 e 200."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O índice de choque é calculado dividindo-se a FC pela pressão arterial sistólica, sendo os valores normais entre 0,5 e 0,7.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_059",
+      "statement": "Durante o plantão em um hospital geral, o médico avalia uma puérpera que foi trazida por um taxista, acompanhada da irmã. O parto ocorreu em casa, há cerca de 25 minutos. O neonato pesou 4.230g, encontra-se bem e exibe um choro vigoroso. A mulher, aos 26 anos de idade é tercípara e informa que o primeiro parto foi por via vaginal e o segundo foi por cesariana, pois a criança estava assentada. O sangramento genital parece abundante e o cordão umbilical encontra-se visível no introito vaginal. Assinale a medida MAIS IMPORTANTE a ser tomada neste momento.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Administrar cefalotina por via venosa"
+        },
+        {
+          "key": "b",
+          "text": "Administrar ocitocina por via intramuscular"
+        },
+        {
+          "key": "c",
+          "text": "Realizar ultrassonografia abdominal"
+        },
+        {
+          "key": "d",
+          "text": "Tracionar o cordão umbilical"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de hemorragia pós-parto domiciliar com RN macrossômico (fator de risco para atonia) e cordão visível no introito (sugestivo de inversão uterina), a medida mais importante é a administração de ocitocina intramuscular.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_060",
+      "statement": "A Organização Mundial de Saúde (OMS) recomenda o uso do ácido tranexâmico (TXA) para tratamento das hemorragias pós parto (HPP). O TXA é um anti brinolítico que reduz o sangramento em pacientes cirúrgicos ou traumatizados. A administração desta droga deverá respeitar as seguintes recomendações:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aplicação intramuscular logo após constatado hemorragia e dentro de até 6 horas após o nascimento, somente em casos de sangramento decorrente de trauma obstétrico."
+        },
+        {
+          "key": "b",
+          "text": "Aplicação intramuscular logo após constatado hemorragia e dentro de até 12 horas após o nascimento, em todos os casos de hemorragia sendo por trauma ou trato urogenital."
+        },
+        {
+          "key": "c",
+          "text": "O TXA deve ser usado em todos de HPP, independente do sangramento ser devido ao trato genital, trauma ou outras causas, sendo administrado imediatamente após o início do sangramento e dentro de até 3 horas após o nascimento."
+        },
+        {
+          "key": "d",
+          "text": "O TXA deverá ser usado somente nos casos de HPP relacionados a partos operatórios (cesarianas, imediatamente após o início do sangramento e dentro de até 6 horas após o nascimento."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O ácido tranexâmico deve ser usado em todos os casos de HPP, independente da causa (trato genital, trauma ou outras), administrado o mais precocemente possível e dentro de até 3 horas após o nascimento, conforme recomendação da OMS.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_061",
+      "statement": "A hemorragia pós-parto (HPP) é uma emergência obstétrica e ocupa o primeiro lugar entre as causas de morbimortalidade materna em todo o mundo e seu diagnóstico precoce é a chave para o manejo adequado. Com relação a HPP, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Atonia uterina é a principal causa de HPP, como medida inicial deve ser realizada massagem uterina, seguida de infusão de agentes uterotônicos."
+        },
+        {
+          "key": "b",
+          "text": "Multiparidade, trabalho de parto prolongado e uso de ocitocina no período expulsivo não são fatores de risco para HPP."
+        },
+        {
+          "key": "c",
+          "text": "O misoprostol é mais efetivo que a ocitocina, sendo o medicamento de primeira escolha no tratamento da HPP."
+        },
+        {
+          "key": "d",
+          "text": "O tamponamento uterino somente deve ser indicado se após realização de sutura B-Lynch, o quadro da HPP não for estabilizado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A atonia uterina é a principal causa de HPP; a medida inicial é a massagem uterina seguida de infusão de agentes uterotônicos.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_062",
+      "statement": "Multipara de 40 anos, hipertensa, pós-parto vaginal imediato de feto macrossômico, evoluiu com sangramento transvaginal volumoso e palidez. Ao exame físico, evidencia-se pressão arterial de 100 x 50mmHg e pulso de 100bpm, além de fundo uterino amolecido 2 cm acima da cicatriz umbilical. Qual a conduta imediata a ser tomada, além das medidas iniciais de suporte como hidratação, oxigênio, monitorização e massagem uterina bimanual?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Prescrever ocitocina e ácido tranexâmico."
+        },
+        {
+          "key": "b",
+          "text": "Revisar canal de parto e instalar ocitocina."
+        },
+        {
+          "key": "c",
+          "text": "Prescrever ácido tranexâmico e 2 concentrados de hemácias."
+        },
+        {
+          "key": "d",
+          "text": "Revisar canal de parto e instalar 2 concentrados de hemácias."
+        },
+        {
+          "key": "e",
+          "text": "Indicar histerectomia subtotal."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de sangramento volumoso pós-parto de feto macrossômico com fundo uterino amolecido (atonia), a conduta imediata (além das medidas de suporte já realizadas) é prescrever ocitocina associada a ácido tranexâmico.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_063",
+      "statement": "A inibição do trabalho de parto prematuro é fator de risco para:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "o oligoâmnio."
+        },
+        {
+          "key": "b",
+          "text": "a infecção puerperal."
+        },
+        {
+          "key": "c",
+          "text": "a hipotonia uterina."
+        },
+        {
+          "key": "d",
+          "text": "a depressão pós-parto."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A inibição do trabalho de parto prematuro (uso de tocolíticos) é fator de risco reconhecido para hipotonia/atonia uterina no parto subsequente.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_064",
+      "statement": "A hipotonia e a atonia uterina são causas frequentes de hemorragia após dequitação placentária. São considerados fatores de risco: 1. Gemelaridade. 2. Leiomioma uterino. 3. Polidrâmnio. 4. Cesárea anterior. Assinale a alternativa que indica todos os itens considerados fatores de risco:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas 1, 2 e 3."
+        },
+        {
+          "key": "b",
+          "text": "Apenas 2 e 4."
+        },
+        {
+          "key": "c",
+          "text": "Apenas 1 e 4."
+        },
+        {
+          "key": "d",
+          "text": "Apenas 1 e 3."
+        },
+        {
+          "key": "e",
+          "text": "Apenas 4."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Gemelaridade, leiomioma uterino, polidrâmnio e cesárea anterior são todos fatores de risco reconhecidos para hipotonia/atonia uterina.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_065",
+      "statement": "Você acabou de fazer o parto de uma mulher de 18 anos com pré-eclâmpsia. O útero encontra-se amolecido e apresenta sangramento moderado. Frente ao seu diagnóstico, qual a melhor opção terapêutica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "0,2 mg IM de ergonovina."
+        },
+        {
+          "key": "b",
+          "text": "20 unidades VO de ocitocina."
+        },
+        {
+          "key": "c",
+          "text": "0,2 mg VO de ergovina."
+        },
+        {
+          "key": "d",
+          "text": "20 unidades EV de ocitocina."
+        },
+        {
+          "key": "e",
+          "text": "20 mg VO de misoprostol."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de útero amolecido com sangramento moderado em paciente com pré-eclâmpsia, a melhor opção terapêutica para atonia é ocitocina 20 unidades por via endovenosa (evitando derivados de ergot, contraindicados na hipertensão).",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_066",
+      "statement": "Uma puérpera no 10° dia de pós-parto procura o pronto-socorro com hemorragia genital. A causa mais provável é por",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Lesão vascular de artéria cervical."
+        },
+        {
+          "key": "b",
+          "text": "Atonia uterina."
+        },
+        {
+          "key": "c",
+          "text": "Inversão uterina."
+        },
+        {
+          "key": "d",
+          "text": "Distúrbio de coagulação."
+        },
+        {
+          "key": "e",
+          "text": "Restos placentários."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Hemorragia genital tardia (10º dia pós-parto) é mais provavelmente causada por retenção de restos placentários, principal causa de hemorragia pós-parto secundária/tardia.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_067",
+      "statement": "Mulher é submetida à histerectomia-cesárea (subtotal) por placenta prévia centro total. Transcorridas 3 horas do procedimento, passa a apresentar sangramento via vaginal importante. O diagnóstico provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "acretismo cervical."
+        },
+        {
+          "key": "b",
+          "text": "coagulação intravascular disseminada."
+        },
+        {
+          "key": "c",
+          "text": "lesão de artéria uterina."
+        },
+        {
+          "key": "d",
+          "text": "deiscência de sutura."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Sangramento importante 3 horas após histerectomia-cesárea por placenta prévia centro-total sugere acretismo cervical residual como causa mais provável.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_068",
+      "statement": "Uma mulher primípara com 24 anos de idade apresenta sangramento vaginal pós-parto. O parto ocorreu há duas horas, na maternidade onde ela se encontra, por via vaginal sem episiotomia. Ao exame físico, apresenta-se descorada ++/4+; frequência cardíaca = 110 bpm; pressão arterial = 90 x 50 mmHg; útero amolecido com fundo palpável 2 cm acima da cicatriz umbilical. Nesse caso, os procedimentos indicados são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Realização de massagem uterina e administração de uterotônicos"
+        },
+        {
+          "key": "b",
+          "text": "Infusão de cristaloides e embolização das artérias uterinas"
+        },
+        {
+          "key": "c",
+          "text": "Infusão de plasma fresco e ligadura das artérias hipogástricas"
+        },
+        {
+          "key": "d",
+          "text": "Administração de concentrado de hemácias e histerectomia total"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de sangramento com útero amolecido acima da cicatriz umbilical (atonia), os procedimentos indicados são massagem uterina e administração de uterotônicos.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_069",
+      "statement": "Uma secundigesta com cesariana anterior internada com 36 semanas foi encaminhada para indução de parto devido a oligoâmnio. Foi realizada a dilatação do colo com sonda de Foley, seguida da administração de ocitocina, quando da expulsão da sonda, momento em que o colo era pérvio para 3 cm e ocorreu a ruptura das membranas espontaneamente. A dilatação evoluiu então para total em quatro horas. Nesse momento, já com a apresentação em +2 de DeLee, a paciente foi colocada em posição ginecológica e solicitou-se que realizasse puxos. Após dez minutos nessa condição, não era possível notar a presença de contrações uterinas, a apresentação encontrava-se em +1 de DeLee e havia sangramento vaginal, dor abdominal e bradicardia fetal (60 bpm). Nesse caso hipotético, o diagnóstico mais provável é de",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "ruptura da vasa prévia."
+        },
+        {
+          "key": "b",
+          "text": "ruptura de seio marginal."
+        },
+        {
+          "key": "c",
+          "text": "descolamento prematuro de placenta."
+        },
+        {
+          "key": "d",
+          "text": "ruptura uterina."
+        },
+        {
+          "key": "e",
+          "text": "prolapso de cordão."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O quadro de ausência de contrações, sangramento vaginal, dor abdominal e bradicardia fetal grave em paciente com cesárea anterior e indução com Foley/ocitocina é altamente sugestivo de rotura uterina.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_070",
+      "statement": "Quartípara, sem cesárea prévia, evoluiu para parto vaginal há uma hora. Apresenta sangramento vaginal em grande quantidade após a saída da placenta, além de tontura e sensação de desmaio. Exame físico: PA 110 x 70 mmHg, FC 100 bpm, mucosas descoradas 3+/4, útero 1 cm acima da cicatriz umbilical e amolecido. Exame especular: saída de grande quantidade de coágulos. Além da reposição volêmica, a sua conduta é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "massagem uterina bimanual."
+        },
+        {
+          "key": "b",
+          "text": "curetagem uterina."
+        },
+        {
+          "key": "c",
+          "text": "revisão do canal de parto."
+        },
+        {
+          "key": "d",
+          "text": "colocação de balão de tamponamento intrauterino."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de sangramento intenso após saída da placenta com sinais de hipoperfusão, a conduta (além da reposição volêmica) é a colocação de balão de tamponamento intrauterino, indicada quando a massagem e uterotônicos iniciais não são suficientemente descritos como já tentados neste enunciado.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_071",
+      "statement": "Você foi convocado a auxiliar a obstetriz, porque há uma paciente que deu à luz há cerca de 4 horas e que, já em seu leito na enfermaria, apresenta copiosa hemorragia vaginal. Ao examinar esta paciente, você conclui que ela apresenta uma atonia uterina. Assinale a alternativa imediata que melhor ilustra a conduta inicial para o caso em questão entre as abaixo relacionadas:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Procurar o fundo uterino, promover sua expressão, prescrever ocitocina intravenosa em solução glicosada."
+        },
+        {
+          "key": "b",
+          "text": "Introduzir o cateter de Folley intra-uterino para fazer o papel de balão intrauterino."
+        },
+        {
+          "key": "c",
+          "text": "Introduzir tampão vaginal volumoso na cavidade vaginal, de modo a interromper a eliminação externa do sangue."
+        },
+        {
+          "key": "d",
+          "text": "Indicar a histerectomia total abdominal ou, se não for possível, a cirurgia de B-Lynch."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de atonia uterina com hemorragia copiosa 4 horas pós-parto, a conduta inicial é procurar o fundo uterino, promover sua expressão/massagem e prescrever ocitocina intravenosa em solução glicosada.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_072",
+      "statement": "Assinale a alternativa correta quanto ao parto vaginal.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Deve-se realizar amniotomia precoce para se reduzir de 1 a 2 horas a fase ativa do trabalho de parto normal."
+        },
+        {
+          "key": "b",
+          "text": "O uso de medicações como tocolíticos e anestésicos halogenados, corioamnionite, alta paridade e o parto rápido são considerados fatores de risco para hemorragia pós-parto."
+        },
+        {
+          "key": "c",
+          "text": "Diâmetro anteroposterior inferior a 12 cm ou diâmetro transverso médio com menos de 15 cm são parâmetros de vício do estreito superior. Nesta situação, é comum que a apresentação se mantenha alta."
+        },
+        {
+          "key": "d",
+          "text": "Quando as prostaglandinas E2 (PGE2) para maturação cervical são utilizadas em concomitância com a ocitocina para indução do trabalho de parto, observa-se menor período de latência, por causa de seu efeito sinérgico."
+        },
+        {
+          "key": "e",
+          "text": "As manobras de McRoberts e Rubin estão indicadas na assistência às anormalidades de situação (situação transversa)."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O uso de tocolíticos, anestésicos halogenados, corioamnionite, alta paridade e parto rápido (taquitócico) são fatores de risco reconhecidos para hemorragia pós-parto por atonia uterina.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_073",
+      "statement": "Mariana, uma grande multípara de 42 anos, é admitida em seu plantão na maternidade. Evolui tranquilamente para parto natural, com nascimento de um recém- nascido (RN) pesando 4,4 Kg. Sabendo se tratar de uma paciente com risco aumentado para hemorragia pós-parto, você, um médico formado com a cabeça voltada para as evidências cientí cas, já está conduzindo ativamente o terceiro período. Apesar do correto manejo ativo, Mariana evoluiu com importante sangramento genital, seguido de hipotensão, sudorese e tonturas. A pressão arterial é de 80/40mmHg e a Frequencia Cardíaca é de 126 bpm. O índice de choque e as medidas iniciais mais corretas, entres as abaixo, são, respectivamente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "1,8; transfusão de concentrado de hemácias e histerectomia puerperal."
+        },
+        {
+          "key": "b",
+          "text": "1,5; infusão de cristaloides e massagem uterina."
+        },
+        {
+          "key": "c",
+          "text": "1,0; transfusão de plasma fresco e curetagem."
+        },
+        {
+          "key": "d",
+          "text": "1,5; infusão de cristaloides e histerectomia puerperal."
+        },
+        {
+          "key": "e",
+          "text": "1,2; transfusão de concentrado de hemácias e massagem uterina."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Com PA 80/40mmHg e FC 126bpm, o índice de choque é 1,5, indicando choque moderado a grave — as medidas iniciais mais adequadas são infusão de cristaloides associada à massagem uterina.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_074",
+      "statement": "Puérpera, após parto cesárea com curagem uterina há 3 horas, começa a apresentar sangramento vaginal aumentado e persistente. Ao exame, o útero encontra-se acima da cicatriz umbilical e indolor à palpação. Diante do quadro clínico, qual o diagnóstico mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Retenção de restos placentários."
+        },
+        {
+          "key": "b",
+          "text": "Endometrite."
+        },
+        {
+          "key": "c",
+          "text": "Laceração de parto."
+        },
+        {
+          "key": "d",
+          "text": "Atonia uterina."
+        },
+        {
+          "key": "e",
+          "text": "Eversão uterina."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Sangramento aumentado com útero acima da cicatriz umbilical, indolor à palpação, após curagem uterina prévia, é mais compatível com atonia uterina.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_075",
+      "statement": "Multigesta, G5P3A1 (três partos normais anteriores), 36 anos, 38 semanas de gestação, com diagnóstico de pré-eclâmpsia, chega à maternidade em fase ativa de trabalho de parto que evoluiu espontaneamente sem distocias. Após 2,5 horas de período expulsivo, ocorreu nascimento de um neonato de 3780 gramas com auxílio de vácuo-extrator. A dequitação placentária ocorreu espontânea e completamente em 15 minutos, após a realização do manejo ativo do terceiro período. Durante o quarto período de Greenberg, esta paciente apresentou sangramento genital de grande volume, associado a tonturas, mal-estar geral e náuseas. Exame físico geral: regular estado geral, confusa, descorada +2/+4, índice de choque de 1,7, saturação de oxigênio em ar ambiente de 92%. Exame obstétrico: fundo uterino acima da cicatriz umbilical, consistência amolecida, sem sinais de tocotraumatismos. Segundo as atuais recomendações da Organização Mundial de Saúde, a prescrição imediata mais adequada neste momento associada à hidratação endovenosa com cristaloides é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Noradrenalina, ocitocina, maleato de ergometrina."
+        },
+        {
+          "key": "b",
+          "text": "Misoprostol, noradrenalina, ácido tranexâmico."
+        },
+        {
+          "key": "c",
+          "text": "Hemocomponentes, maleato de ergometrina, misoprostol."
+        },
+        {
+          "key": "d",
+          "text": "Hemocomponentes, ocitocina, ácido tranexâmico."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Segundo as recomendações da OMS para hemorragia obstétrica grave com instabilidade hemodinâmica (índice de choque 1,7), a prescrição imediata associada à hidratação com cristaloides é hemocomponentes, ocitocina e ácido tranexâmico.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_076",
+      "statement": "Mulher 25a, G1P0C0A0, foi admitida em trabalho de parto e evoluiu para parto fórceps de Simpson para abreviação de período expulsivo. Após 20 minutos da dequitação apresentou sangramento vaginal intenso com instabilidade hemodinâmica. Exame obstétrico: útero amolecido, 5 cm acima da cicatriz umbilical. Revisão de canal de parto e curagem sem alterações. Após receber 20 UI de ocitocina intravenosa, uma ampola de ergotamina intramuscular e uma ampola de ácido tranexâmico intravenoso persiste com sangramento. A CONDUTA A SEGUIR É:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Inserção de Balão de Bakri."
+        },
+        {
+          "key": "b",
+          "text": "Realização de histerectomia."
+        },
+        {
+          "key": "c",
+          "text": "Administração de misoprostol por via retal."
+        },
+        {
+          "key": "d",
+          "text": "Embolização de artérias uterinas."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de sangramento refratário à ocitocina, ergotamina e ácido tranexâmico, o próximo passo terapêutico é a administração de misoprostol por via retal, seguindo a escalada terapêutica antes de medidas cirúrgicas.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_077",
+      "statement": "Em relação à hemorragia pós-parto (HPP), NÃO PODEMOS AFIRMAR:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A atonia uterina representa aproximadamente 35% de todos os casos de HPP."
+        },
+        {
+          "key": "b",
+          "text": "Massagem do fundo uterino e a utilização de drogas uterotônicas fazem parte do manejo ativo para profilaxia da HPP."
+        },
+        {
+          "key": "c",
+          "text": "O misoprostol pode ser utilizado na profilaxia e no tratamento da HPP."
+        },
+        {
+          "key": "d",
+          "text": "A Técnica de Huntington pode ser utilizada em casos de inversão uterina."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "É a afirmativa que NÃO PODEMOS afirmar (incorreta): a atonia uterina representa cerca de 70% (não 35%) de todos os casos de hemorragia pós-parto.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_078",
+      "statement": "A adequada assistência ao parto é um dos maiores objetivos da obstetrícia e, embora seja um fenômeno siológico, demanda atenção para antecipar possiveis complicações durante o seu processo. Com relação ao manejo clínico do trabalho de parto em pacientes de risco habitual, é correto afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "devido à diminuição do tempo de esvaziamento gástrico e ao consequente risco de broncoaspiração, é recomendado manter dieta oral líquida e ao obter acesso venoso para administrar líquidos na admissão da paciente"
+        },
+        {
+          "key": "b",
+          "text": "o manejo ativo do secundamento é uma prática adotada em muitos serviços e recomendada pela OMS, sendo a administração rotineira de ocitocina no 3° período um dos pilares dessa conduta"
+        },
+        {
+          "key": "c",
+          "text": "o clampeamento tardio de cordão tem vários beneficios para o recém-nascido (RN) a termo, entretanto deve evitado no RN prematuro por aumentar o risco de asfixia perinatal"
+        },
+        {
+          "key": "d",
+          "text": "a epsiotomia rotineira está associada a menores taxas de trauma perineal posterior e reparo cirúrgico, quando comparado ao seu uso restritivo"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O manejo ativo do secundamento (terceiro período), incluindo a administração rotineira de ocitocina, é prática recomendada pela OMS e amplamente adotada para reduzir o risco de hemorragia pós-parto.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_079",
+      "statement": "A hemorragia obstétrica é uma importante causa de mortalidade materna. São considerados fatores de risco para atonia uterina no pós-parto, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Placenta circunvalada."
+        },
+        {
+          "key": "b",
+          "text": "Gestação múltipla."
+        },
+        {
+          "key": "c",
+          "text": "Polidramnia."
+        },
+        {
+          "key": "d",
+          "text": "Multiparidade."
+        },
+        {
+          "key": "e",
+          "text": "Corioamnionite."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A placenta circunvalada não é classicamente listada como fator de risco direto para atonia uterina no pós-parto — diferente de gestação múltipla, polidrâmnio, multiparidade e corioamnionite.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_080",
+      "statement": "Sobre a hemorragia pós-parto, é correto afirmar, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "hemorragia pós-parto consiste na maior causa de morte materna no mundo."
+        },
+        {
+          "key": "b",
+          "text": "As principais causas de hemorragia pós-parto são a atonia uterina, a retenção de fragmentos placentários e lacerações do canal de parto."
+        },
+        {
+          "key": "c",
+          "text": "Sinais de alerta, como alterações da pressão arterial e do pulso maternos, poderão ocorrer tardiamente, quando grande quantidade de sangue já houver sido perdida."
+        },
+        {
+          "key": "d",
+          "text": "O obstetra deve coordenar uma série de intervenções clínicas e cirúrgicas para o controle da hemorragia pós- parto e contar com o apoio de uma equipe multidisciplinar, incluindo enfermeiros, anestesistas, hematologista e banco de sangue."
+        },
+        {
+          "key": "e",
+          "text": "Para pacientes com hemorragia após parto vaginal, deve-se realizar massagem uterina, administrar drogas uterotônicas (ocitocina, metilergometrina e, se necessário, misoprostol), proceder à compressão uterina bimanual, à revisão do canal de parto para reparo de lacerações, se presentes, é a curetagem uterina."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "É a afirmativa que constitui EXCEÇÃO (incorreta): entre as medidas para hemorragia após parto vaginal por atonia, a curetagem uterina não é rotineiramente indicada como parte do manejo padrão de primeira linha, diferente de massagem, uterotônicos, compressão bimanual e revisão do canal.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_081",
+      "statement": "Sobre a hemorragia puerperal é CORRETO afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A principal causa é retenção e fragmentos placentários, sendo fundamental após a dequitação verificar a integridade placentária."
+        },
+        {
+          "key": "b",
+          "text": "Macrossomia, gestação múltipla, segundo período prolongado e corioamnionite são fatores de risco para a principal causa de hemorragia puerperal."
+        },
+        {
+          "key": "c",
+          "text": "Mulheres com história prévia de hemorragia puerperal não apresentam risco aumentado na próxima gestação."
+        },
+        {
+          "key": "d",
+          "text": "Metilergometrina é a droga de escolha para as pacientes hipertensas no manejo e profilaxia da hemorragia puerperal."
+        },
+        {
+          "key": "e",
+          "text": "Na manobra de Hamilton é realizada a ligadura das artérias ilíacas internas."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Macrossomia fetal, gestação múltipla, segundo período prolongado e corioamnionite são fatores de risco reconhecidos para atonia uterina, principal causa de hemorragia puerperal.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_082",
+      "statement": "No tratamento da hemorragia pós-parto, os derivados de ergotamina são contraindicados nas portadoras de",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Diabetes."
+        },
+        {
+          "key": "b",
+          "text": "Hipertensão."
+        },
+        {
+          "key": "c",
+          "text": "Neuropatias."
+        },
+        {
+          "key": "d",
+          "text": "Miastenia gravis."
+        },
+        {
+          "key": "e",
+          "text": "Púrpura trombocitopênica idiopática."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Os derivados de ergotamina (como a metilergometrina) são contraindicados em pacientes hipertensas, pelo risco de elevação ainda maior da pressão arterial.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_083",
+      "statement": "Após realizar a cesariana de uma primípara de dezenove anos de idade com feto de 4.518 g, o obstetra notou um sangramento aumentado e útero amolecido, mesmo após dequitação da placenta e uso pro lático de ocitocina. Visando reverter o quadro, enquanto realizava massagem uterina, aplicou mais uma dose do ocitócito, metilergometrina e misoprostol, sem melhora. Nessa situação hipotética, além das medidas de estabilização clínica, que lograram sucesso em momento inicial, deve - se",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "realizar histerectomia subtotal."
+        },
+        {
+          "key": "b",
+          "text": "levar a puérpera a uma sala híbrida para cateterização das artérias braquiais."
+        },
+        {
+          "key": "c",
+          "text": "realizar sutura hemostática uterina de B-Lynch."
+        },
+        {
+          "key": "d",
+          "text": "tamponar o útero com compressas para posterior reabordagem."
+        },
+        {
+          "key": "e",
+          "text": "aguardar até trinta minutos para que a contração ocorra."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de atonia uterina refratária a uterotônicos (ocitocina, metilergometrina e misoprostol) após medidas iniciais de estabilização, a próxima etapa é a realização de sutura hemostática uterina de B-Lynch.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_084",
+      "statement": "Em relação a hemorragia uterina não responsiva a drogas uterotônicas, a opção que NÃO representa medida contra o sangramento pós parto é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Manobra de Hamilton"
+        },
+        {
+          "key": "b",
+          "text": "Sutura dos ligamentos redondos"
+        },
+        {
+          "key": "c",
+          "text": "Balão de Bakri"
+        },
+        {
+          "key": "d",
+          "text": "Balão de Sengstaken-Blakemore"
+        },
+        {
+          "key": "e",
+          "text": "Ligadura de artérias uterinas"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A sutura dos ligamentos redondos não é medida reconhecida contra hemorragia pós-parto refratária a uterotônicos — diferente de manobra de Hamilton, balão de Bakri, balão de Sengstaken-Blakemore e ligadura de artérias uterinas.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_085",
+      "statement": "Sobre as manifestações clínicas relacionadas à rotura uterina, o sinal que NÃO sugere essa importante complicação obstétrica é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sinal de Cullen"
+        },
+        {
+          "key": "b",
+          "text": "Sinal de Laffont"
+        },
+        {
+          "key": "c",
+          "text": "Sinal de Bandl"
+        },
+        {
+          "key": "d",
+          "text": "Sinal de Frommel"
+        },
+        {
+          "key": "e",
+          "text": "Sinal de Piscacek"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "O sinal de Piscacek (implantação assimétrica do ovo no útero) não é um sinal relacionado à rotura uterina — diferente dos sinais de Bandl, Frommel, Cullen (nesta fonte) e Laffont, associados a essa complicação.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_086",
+      "statement": "Com relação ao manejo de medicamento da hemorragia pós parto, julgue as afirmativas abaixo: I. A ocitocina é a1a escolha no tratamento da atonia uterina, com início de ação E/V de 1 min. e 2 a 5 minutos IM, com meia vida de 3 a 12 minutos. II. Os efeitos adversos cardiovasculares da ocitocina estão diretamente relacionados a velocidade da infusão (E/V). III. Os derivados de ergot são considerados de 2a linha e atuam no músculo liso uterino, aumentando o tônus basal. IV. O ácido Tranexânico tem efeito antifibrinolitíco, porém não é usado no tratamento da hemorragia pós parto. V. O misoprostol, não é indicado para o tratamento farmacológico da Hemorragia pós parto. A alternativa que possui todas as afirmativas corretas, é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I, II, III, IV e V"
+        },
+        {
+          "key": "b",
+          "text": "I, II e V"
+        },
+        {
+          "key": "c",
+          "text": "II e IV"
+        },
+        {
+          "key": "d",
+          "text": "IV e V"
+        },
+        {
+          "key": "e",
+          "text": "I, II e III"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Estão corretas as afirmativas I (ocitocina como primeira escolha, início de ação rápido), II (efeitos cardiovasculares relacionados à velocidade de infusão EV) e III (derivados do ergot como segunda linha, aumentando o tônus basal uterino) — os itens IV e V são falsos, já que tanto o ácido tranexâmico quanto o misoprostol são, sim, utilizados no tratamento da HPP.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_087",
+      "statement": "Gestante G IV/III partos cesareanos, Ig 37s, com diagnóstico prévio no pré-natal de acretismo placentário (placenta percreta) anterior com invasão de bexiga (USG com doppler e RNM), deu entrada na emergência de uma hospital de baixo risco, sendo submetida a cesariana de urgência em virtude de S.F.A. mais DCP. No caso acima, a conduta mais adequada, é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "histerotomia segmentar transplacentária."
+        },
+        {
+          "key": "b",
+          "text": "histerotomia corporal fora do sitio de implantação placentária com extração fetal e posterior secundamento."
+        },
+        {
+          "key": "c",
+          "text": "histerotomia corporal fora do sitio de implantação, com extração fetal, clampeamento do cordão sem tracionamento do mesmo e/ou secundamento. Histerorrafia e síntese da parede abdominal de referência, visando abordagem eletiva definitiva."
+        },
+        {
+          "key": "d",
+          "text": "histerotomia corporal/extração fetal seguida de histerectomia sub-total."
+        },
+        {
+          "key": "e",
+          "text": "histerotomia corporal/extração fetal seguida de histerectomia total."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de acretismo placentário conhecido (placenta percreta com invasão vesical) em cesariana de urgência, a conduta mais adequada é a histerotomia corporal fora do sítio de implantação placentária, com extração fetal, clampeamento do cordão sem tracionamento e histerorrafia, visando abordagem eletiva definitiva posterior (evitando manipulação da placenta invasiva em ambiente de baixo risco).",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_088",
+      "statement": "A ruptura é uma patologia grave com alta morbidade para o binômio materno-fetal e os sinais e sintomas, por vezes obscuros, podem retardar seu diagnóstico. Assinale a alternativa que contempla apenas fatores de risco para rotura uterina.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Prenhez ectópica anterior e obesidade materna."
+        },
+        {
+          "key": "b",
+          "text": "Gemelidade e cirugias abdominais com incisão mediana."
+        },
+        {
+          "key": "c",
+          "text": "Desproporção cefalopélvica e miomectomia anterior."
+        },
+        {
+          "key": "d",
+          "text": "Uso de misoprostol em cesariana anterior e feto feminino."
+        },
+        {
+          "key": "e",
+          "text": "Cesariana prévia e abortamento de primeiro trimestre."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Desproporção cefalopélvica e miomectomia uterina anterior (cicatriz uterina) são fatores de risco reconhecidos para rotura uterina.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_089",
+      "statement": "Em um parto nalizado com fórcipe de alívio e dequitação com di culdade, a paciente cursa com sangramento via vaginal em grande quantidade e hipotensão severa. Realizada a palpação abdominal, não é possível identi car o fundo uterino. Nesse caso, a mais provável causa do sangramento é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "retenção placentária."
+        },
+        {
+          "key": "b",
+          "text": "laceração de canal de parto."
+        },
+        {
+          "key": "c",
+          "text": "inversão uterina aguda."
+        },
+        {
+          "key": "d",
+          "text": "coagulação intravascular disseminada."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de sangramento vaginal volumoso com hipotensão severa e impossibilidade de identificar o fundo uterino à palpação abdominal após dequitação difícil, a causa mais provável é inversão uterina aguda.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_090",
+      "statement": "O anel de Bandl é um sinal da iminência de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Rotura uterina."
+        },
+        {
+          "key": "b",
+          "text": "Torção do pedículo ovariano"
+        },
+        {
+          "key": "c",
+          "text": "Sepse por rotura prolongada de membranas."
+        },
+        {
+          "key": "d",
+          "text": "Hemorragia do seio marginal"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O anel de Bandl (anel que separa o corpo uterino do segmento inferior distendido) é um sinal de iminência de rotura uterina.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_091",
+      "statement": "A hemorragia obstétrica é uma das principais causas de internação e de morte materna. Por isso, deve-se concentrar esforços para tratar as pacientes de forma efetiva e em tempo hábil. Sobre essa complicação obstétrica, é CORRETO afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O volume de perda sanguínea no parto é maior no grupo de pacientes submetidas a partos vaginais, do que no grupo de partos por cesarianas em situações fisiológicas."
+        },
+        {
+          "key": "b",
+          "text": "O volume da perda sanguínea pode ser bem avaliado pela estima visual no pós-parto, período de grande importância para se manter a vigilância clínica da paciente."
+        },
+        {
+          "key": "c",
+          "text": "As implantações anômalas das placentas são situações de risco aumentado de sangramento, sem relação com o parto anterior."
+        },
+        {
+          "key": "d",
+          "text": "A síndrome de Sheehan, de patogenia ainda não totalmente esclarecida, é uma complicação grave das hemorragias intraparto ou puerperal imediata."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A síndrome de Sheehan, de patogenia ainda não totalmente esclarecida, é uma complicação grave (necrose hipofisária) associada a hemorragias intraparto ou puerperais imediatas graves.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_092",
+      "statement": "A hemorragia puerperal ocorre entre 4% a 8% dos partos vaginais, sendo causa de alta morbimortalidade materna. Diante de um quadro de atonia uterina seguida de hemorragia puerperal várias medidas não-farmacológicas podem ser adotadas, assim como a da imagem anexa. Tal imagem descreve a manobra de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Taxe."
+        },
+        {
+          "key": "b",
+          "text": "Hamilton."
+        },
+        {
+          "key": "c",
+          "text": "Johnson."
+        },
+        {
+          "key": "d",
+          "text": "Simpson."
+        },
+        {
+          "key": "e",
+          "text": "Bakri"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A manobra descrita e ilustrada na imagem (dependente de figura não capturada na extração do PDF, para reposicionamento manual não farmacológico do útero invertido) foi determinada como manobra de Hamilton, conforme gabarito oficial da fonte.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_093",
+      "statement": "Paciente evolui num pós-parto imediato com hemorragia vaginal intensa. Baseando- se no primeiro diagnóstico a ser aventado, qual medicação não pode ser considerada como a primeira escolha:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ocitocina"
+        },
+        {
+          "key": "b",
+          "text": "Misoprostol"
+        },
+        {
+          "key": "c",
+          "text": "Terbulalina"
+        },
+        {
+          "key": "d",
+          "text": "Metilergonovina"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de hemorragia vaginal intensa em pós-parto imediato (suspeita inicial de atonia uterina), a terbutalina (agente tocolítico/uterorrelaxante) não pode ser considerada primeira escolha, já que relaxaria ainda mais a musculatura uterina, agravando o quadro.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_094",
+      "statement": "Num parto distócico apresentando ao exame o Sinal de Bandl e o Sinal de Frommel, qual a melhor conduta a ser realizada:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Iniciar ocitocina"
+        },
+        {
+          "key": "b",
+          "text": "Parto casariano"
+        },
+        {
+          "key": "c",
+          "text": "Indicar fórcipes de Simpson"
+        },
+        {
+          "key": "d",
+          "text": "Rompimento da bolsa das águas"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Os sinais de Bandl e de Frommel indicam iminência de rotura uterina em trabalho de parto distócico — a conduta adequada é a resolução por parto cesáreo, evitando a progressão para rotura consumada.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_095",
+      "statement": "Primigesta a termo, pré-natal de risco habitual, sem patologias. Realiza parto vaginal espontâneo sem intercorrências. Após dequitação espontânea de placenta apresenta sangramento vaginal aumentado. À palpação uterina observa-se útero hipotônico. Pressão arterial de 100 x 60 mmHg e frequência cardíaca de 120 batimentos por minuto. São medidas que devem ser adotadas no manejo inicial dessa condição, exceto:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Curagem/curetagem uterina"
+        },
+        {
+          "key": "b",
+          "text": "Infusão de solução isotônica em acessos venosos calibrosos"
+        },
+        {
+          "key": "c",
+          "text": "Massagem uterina"
+        },
+        {
+          "key": "d",
+          "text": "Infusão de ácido tranexâmico"
+        },
+        {
+          "key": "e",
+          "text": "Infusão de ocitocina"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de hemorragia por atonia uterina no manejo inicial, a curagem/curetagem uterina não é medida de primeira linha (reservada para suspeita de retenção de restos placentários) — diferente de fluidoterapia, massagem uterina, ácido tranexâmico e ocitocina.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_096",
+      "statement": "Paciente de 28 anos G1P0A0, gestação gemelar IG 36 semanas. Apresentou parto normal. A dequitação da placenta ocorreu adequadamente, e o canal de parto foi revisado ao nal, não apresentando laceração. As crianças nasceram com peso adequado para a idade gestacional e foram encaminhadas para alojamento conjunto junto com a mãe. Após 40 minutos, a puérpera apresentou sangramento vaginal importante, palidez e hipotensão. Ao exame físico, apresentava útero acima da cicatriz umbilical, depressível. A hipótese mais provável é de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hipotonia uterina;"
+        },
+        {
+          "key": "b",
+          "text": "Distúrbio de coagulação;"
+        },
+        {
+          "key": "c",
+          "text": "Retenção de restos placentários;"
+        },
+        {
+          "key": "d",
+          "text": "Laceração do canal de parto."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Sangramento importante com útero acima da cicatriz umbilical e depressível (amolecido), sem lacerações identificadas, após gestação gemelar (fator de hiperdistensão), é compatível com hipotonia/atonia uterina.",
+      "theme": "sg_hpp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_097",
+      "statement": "Diante de um diagnóstico de placenta increta, qual a melhor conduta terapêutica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Massagem uterina."
+        },
+        {
+          "key": "b",
+          "text": "Metilergonovina via endovenosa."
+        },
+        {
+          "key": "c",
+          "text": "Extração manual da placenta e metotrexate."
+        },
+        {
+          "key": "d",
+          "text": "Curetagem uterina após extração manual da placenta."
+        },
+        {
+          "key": "e",
+          "text": "Histerectomia."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Diante de placenta increta (invasão até o miométrio sem ultrapassá-lo, mas sem plano de clivagem seguro para extração manual), a melhor conduta terapêutica é a histerectomia.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_098",
+      "statement": "No puerpério imediato de uma gestação que transcorria com polidramnia, a principal complicação a ser observada é a hemorragia por:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Inversão uterina aguda."
+        },
+        {
+          "key": "b",
+          "text": "Laceração de trajeto, principalmente colo uterino."
+        },
+        {
+          "key": "c",
+          "text": "Atonia uterina."
+        },
+        {
+          "key": "d",
+          "text": "Restos placentários."
+        },
+        {
+          "key": "e",
+          "text": "Sinéquias."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "No puerpério imediato de gestação com polidrâmnio (hiperdistensão uterina), a principal complicação hemorrágica a ser observada é a atonia uterina.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_099",
+      "statement": "Multípara com hemorragia grave, após a dequitação, apresenta tumoração vaginal sangrante e fundo uterino muito abaixo da cicatriz umbilical. A conduta indicada é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "realizar reposição volêmica e medroxiprogesterona intramuscular."
+        },
+        {
+          "key": "b",
+          "text": "administrar uterotônicos e realizar exérese do tumor."
+        },
+        {
+          "key": "c",
+          "text": "realizar o morcelamento do tumor via vaginal."
+        },
+        {
+          "key": "d",
+          "text": "solicitar anestesia com halogenado e realizar manobra de Taxe."
+        },
+        {
+          "key": "e",
+          "text": "histerectomia vaginal."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de tumoração vaginal sangrante com fundo uterino muito abaixo da cicatriz umbilical (inversão uterina), a conduta é solicitar anestesia com halogenado (para relaxamento uterino) e realizar a manobra de Taxe (reposicionamento manual).",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hpp_100",
+      "statement": "Uma primigesta hipertensa foi submetida a parto normal, que resultou em um RN de 3.850 g. Apesar do uso pro lático de 10 UI de ocitocina IM no terceiro período do parto, apresentou sangramento vaginal intenso logo após a dequitação. Não havia lacerações de canal e o útero era aumentado e amolecido. Mesmo com massagem uterina exaustiva, uso de ocitocina 40 UI intravenosa e misoprostol 800 mcg via oral, o sangramento manteve-se intenso. Com base nessa situação hipotética, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Foi usada dose inadequada de ocitocina para prevenção da hemorragia. Segundo a Organização Mundial de Saúde (OMS), a dose deveria ser de 20 UI."
+        },
+        {
+          "key": "b",
+          "text": "Poderia ter-se usado metilergometrina antes do misoprostol."
+        },
+        {
+          "key": "c",
+          "text": "Para prevenção de atonia uterina, a ocitocina deveria ter sido usada após o quartoperíodo do parto."
+        },
+        {
+          "key": "d",
+          "text": "Uma opção posterior para controle do sangramento é a passagem de balãointrauterino."
+        },
+        {
+          "key": "e",
+          "text": "A profilaxia medicamentosa de hemorragia pós-parto é dispensável para a paciente."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de atonia uterina refratária a doses adequadas de ocitocina, misoprostol e massagem uterina exaustiva, uma opção terapêutica posterior para controle do sangramento é a passagem de balão intrauterino.",
+      "theme": "sg_hpp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}

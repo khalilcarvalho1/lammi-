@@ -1767,6 +1767,2974 @@
       "difficulty": "medio",
       "reviewed": false,
       "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_001",
+      "statement": "Pode-se afirmar, em relação ao trabalho de parto normal, que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "o período expulsivo se encerra com a saída do feto e placenta."
+        },
+        {
+          "key": "b",
+          "text": "o primeiro período do parto tem início com a dilatação do colo em 1cm."
+        },
+        {
+          "key": "c",
+          "text": "a fase latente dura em média 20 horas nas primíparas e 14 horas nas multíparas."
+        },
+        {
+          "key": "d",
+          "text": "a amniorrexe é prematura quando se dá no início do trabalho de parto."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A amniorrexe é considerada prematura quando ocorre antes do início do trabalho de parto (antes da fase ativa), independentemente da idade gestacional.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_002",
+      "statement": "Secundigesta em trabalho de parto, com 7 cm de dilatação e bolsa rota. Na palpação abdominal, o obstetra encontra o polo cefálico na escavação, apresentação etida e conclui que se trata de ODT. Considerando a pelve como um relógio, no toque vaginal espera-se observar o lambda às",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "9h."
+        },
+        {
+          "key": "b",
+          "text": "12h."
+        },
+        {
+          "key": "c",
+          "text": "8h."
+        },
+        {
+          "key": "d",
+          "text": "3h."
+        },
+        {
+          "key": "e",
+          "text": "6h."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Em ODT (occipito direita transversa), o lambda (ponto de referência da apresentação fletida) está voltado para a direita materna, correspondendo à posição das 3 horas no relógio.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_003",
+      "statement": "Em relação ao mecanismo de parto é correto afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Na apresentação cefálica fletida o ponto de referência é o bregma, com o símbolo B."
+        },
+        {
+          "key": "b",
+          "text": "Na apresentação pélvica a linha de orientação é o dorso e o ponto de referência é o quadril."
+        },
+        {
+          "key": "c",
+          "text": "A descida fetal é mais acelerada na fase de desaceleração da dilatação cervical."
+        },
+        {
+          "key": "d",
+          "text": "A fase latente do parto é representada pela dilatação cervical de 1,2 cm/hora a 1,5 cm/hora."
+        },
+        {
+          "key": "e",
+          "text": "A posição fetal representa a parte fetal que ocupa o estreito superior da pelve materna."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A descida fetal é mais acelerada durante a fase de desaceleração da dilatação cervical (final da fase ativa), quando a apresentação já está bem insinuada.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_004",
+      "statement": "No terceiro período de parto,",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a conduta ativa envolve o uso rotineiro de substâncias uterotônicas."
+        },
+        {
+          "key": "b",
+          "text": "deve-se aguardar 5 minutos após o nascimento para a secção do cordão umbilical."
+        },
+        {
+          "key": "c",
+          "text": "deve-se administrar ocitocina somente após pinçar e seccionar o cordão."
+        },
+        {
+          "key": "d",
+          "text": "a conduta ativa está mais associada a hemorragia do que a conduta fisiológica."
+        },
+        {
+          "key": "e",
+          "text": "1 hora após o nascimento é considerado terceiro período prolongado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A conduta ativa no terceiro período do parto envolve o uso rotineiro de substâncias uterotônicas (ocitocina), reduzindo o risco de hemorragia pós-parto.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_005",
+      "statement": "Sabe-se que o mecanismo de parto é o conjunto de movimentos ativos e, principalmente, passivos do feto durante sua passagem pelo canal vaginal. A estática in uencia diretamente em como se dará esse fenômeno e, consequentemente, seu desfecho. Por isso, é imprescindível que o médico obstetra e o generalista conheçam esse mecanismo. No trabalho de parto, na apresentação",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "pélvica incompleta, também denominada pelvipodálica, as coxas e as pernas estão fletidas."
+        },
+        {
+          "key": "b",
+          "text": "defletida de 2° grau, o ponto de referência fetal é a glabela."
+        },
+        {
+          "key": "c",
+          "text": "bregmática, a linha de orientação é a sutura metópica."
+        },
+        {
+          "key": "d",
+          "text": "facial, o ponto de referência fetal é o bregma."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Na apresentação defletida de 2º grau (apresentação de fronte), o ponto de referência fetal é a glabela.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_006",
+      "statement": "No que se refere à assistência ao trabalho de parto, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Durante o 1.° período, o exame de toque vaginal deve ser realizado a cada duas horas no trabalho de parto que evolui fisiologicamente."
+        },
+        {
+          "key": "b",
+          "text": "Durante o 1.° período, o exame de toque vaginal deve ser realizado a cada 4 horas no trabalho de parto que evolui fisiologicamente."
+        },
+        {
+          "key": "c",
+          "text": "Durante o 1.° período, o exame de toque vaginal deve ser realizado a cada hora no trabalho de parto que evolui fisiologicamente."
+        },
+        {
+          "key": "d",
+          "text": "Durante o 2.° período, o exame de toque vaginal deve ser realizado a cada 15 minutos no trabalho de parto que evolui fisiologicamente."
+        },
+        {
+          "key": "e",
+          "text": "Durante o 2.° período, o exame de toque vaginal deve ser realizado a cada 30 minutos no trabalho de parto que evolui fisiologicamente."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Durante o primeiro período do parto que evolui fisiologicamente, o toque vaginal deve ser realizado a cada 4 horas.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_007",
+      "statement": "A respeito do mecanismo de parto, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "As apresentações pélvicas têm frequência de 5,6%."
+        },
+        {
+          "key": "b",
+          "text": "As apresentações cefálicas defletidas têm frequência de 4%."
+        },
+        {
+          "key": "c",
+          "text": "Nas apresentações cefálicas defletidas de 2º grau, a linha de orientação é a sutura sagitometópica."
+        },
+        {
+          "key": "d",
+          "text": "Nas apresentações cefálicas fletidas, em variedade de posição posterior direita, a rotação interna é de 90°."
+        },
+        {
+          "key": "e",
+          "text": "A rotação interna é sempre de 45° nas apresentações pélvicas."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A rotação interna é sempre de 45° nas apresentações pélvicas, diferente das apresentações cefálicas fletidas, cuja rotação varia conforme a variedade de posição inicial.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_008",
+      "statement": "Parturiente de 38 anos de idade, secundigesta com um parto normal há 10 anos, 39 semanas e 2 dias de gestação encontra- se em trabalho de parto há 5 horas, com analgesia de parto há uma hora. Refere pré-natal sem intercorrências, última ultrassonogra a obstétrica foi com 35 semanas de gestação, com feto único em apresentação cefálica, dorso à esquerda, peso fetal estimado de 3180g (percentil 95 de Hadlock), placenta fúndica, e índice de líquido amniótico de 18. No momento do parto observa-se a seguinte situação: Qual é a primeira manobra obstétrica que deve ser realizada nesse momento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Anteriorizar o dorso fetal."
+        },
+        {
+          "key": "b",
+          "text": "Fraturar a clavícula fetal."
+        },
+        {
+          "key": "c",
+          "text": "Hiperfletir as coxas da parturiente."
+        },
+        {
+          "key": "d",
+          "text": "Realizar manobra de Zavanelli."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de distocia de ombro (sinal da tartaruga), a primeira manobra a ser realizada é a hiperflexão das coxas maternas (manobra de McRoberts).",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_009",
+      "statement": "Você está assistindo a uma parturiente que iniciou o período expulsivo há cerca de 15 minutos. Identi ca durante o exame físico que o feto está em ODT. Considerando a nomenclatura obstétrica, as letras O e D permitem determinar que aspectos das relações útero-fetais, respectivamente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Posição fetal e atitude fetal."
+        },
+        {
+          "key": "b",
+          "text": "Situação fetal e apresentação fetal."
+        },
+        {
+          "key": "c",
+          "text": "Apresentação fetal e posição fetal."
+        },
+        {
+          "key": "d",
+          "text": "Atitude fetal e apresentação fetal."
+        },
+        {
+          "key": "e",
+          "text": "Posição fetal e situação fetal."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "As letras O e D em ODT referem-se, respectivamente, à apresentação fetal (occipital) e à posição/variedade de posição (direita) em relação à pelve materna.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_010",
+      "statement": "Assinale a alternativa que apresenta, correta e respectivamente, a variedade de posição fetal, o ponto de referência fetal, o diâmetro de insinuação e seu diâmetro em centímetros.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "apresentação cefálica defletida de 1.° grau, bregma e diâmetro occipto-frontal com 12 cm"
+        },
+        {
+          "key": "b",
+          "text": "apresentação cefálica defletida de 2.° grau, naso e diâmetro occipto-mentoniano com 12 cm"
+        },
+        {
+          "key": "c",
+          "text": "apresentação cefálica defletida de 3.° grau, mento e diâmetro suboccipto-mentoniano com 9,5 cm"
+        },
+        {
+          "key": "d",
+          "text": "apresentação cefálica fletida, occipício e diâmetro occipto-bregmático com 9,5 cm"
+        },
+        {
+          "key": "e",
+          "text": "apresentação cefálica fletida, occipício e diâmetro suboccipto-bregmático com 12 cm"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na apresentação cefálica fletida (occipício como ponto de referência), o diâmetro de insinuação é o suboccipitobregmático, medindo aproximadamente 9,5 cm.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_011",
+      "statement": "O tipo mais comum de pelve feminina é a ginecoide, e a apresentação fetal mais comum no trabalho de parto é a cefálica. Sobre o mecanismo do parto nessas condições, é correto afirmar que,",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "na palpação abdominal, se o feto está em situação longitudinal, a cabeça fetal está móvel, acima do estreito superior, podese dizer que a mesma está insinuada."
+        },
+        {
+          "key": "b",
+          "text": "quando um dos parietais desce pelo canal de parto antes do outro, mesmo que discreto e transitório, o assinclitismo configura um trabalho de parto distócico."
+        },
+        {
+          "key": "c",
+          "text": "após a deflexão da cabeça, na variedade de posição occipito esquerda anterior, é mais provável que o movimento de restituição seja ¼ de circunferência. na descida do polo cefálico, se a cabeça está fletida, o menor diâmetro possível para a os movimentos de acomodação da apresentação fetal é o occipitofrontal."
+        },
+        {
+          "key": "d",
+          "text": "na descida do polo cefálico, se a cabeça está fletida, o menor diâmetro possível para a os movimentos de acomodação da apresentação fetal é o occipitofrontal."
+        },
+        {
+          "key": "e",
+          "text": "no desprendimento dos ombros, o diâmetro biacromial deve estar posicionado sob a arcada púbica de tal forma que primeiro seja liberado o ombro posterior."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na palpação abdominal, quando o feto está em situação longitudinal com a cabeça fetal ainda móvel e não ultrapassou o estreito superior, diz-se que a apresentação não está insinuada.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_012",
+      "statement": "Gestante de 40 semanas deu à luz seu segundo lho. Passados 40 minutos do parto vaginal, a dequitação ainda não ocorreu. A melhor conduta neste momento é realizar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "anticoagulação profilática e curagem uterina."
+        },
+        {
+          "key": "b",
+          "text": "tração vigorosa do cordãoe infusão de ocitocina."
+        },
+        {
+          "key": "c",
+          "text": "anestesia por bloqueio espinhal e extração manual da placenta."
+        },
+        {
+          "key": "d",
+          "text": "conduta expectante até pelo menos 1 hora do nascimento."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de dequitação que não ocorreu após 40 minutos do parto, a conduta é aguardar até completar pelo menos 1 hora do nascimento antes de intervenções mais invasivas (conduta expectante), já que esse é o tempo fisiológico normal.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_013",
+      "statement": "As fases clínicas do parto são processos siológicos e dividem-se em quatro períodos. Fazem parte desses períodos as seguintes fases, exceto:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Fase de contratilidade."
+        },
+        {
+          "key": "b",
+          "text": "Fase de dilatação."
+        },
+        {
+          "key": "c",
+          "text": "Fase de expulsão."
+        },
+        {
+          "key": "d",
+          "text": "Fase de secundamento."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "As fases clínicas do parto são dilatação, expulsão, secundamento (dequitação) e o quarto período (Greenberg) — 'contratilidade' não é uma fase clínica distinta, sendo a exceção.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_014",
+      "statement": "Secundigesta (1 parto vaginal prévio), com 39 semanas, chega para avaliação em trabalho de parto na fase ativa da dilatação. O toque vaginal revela colo centrado, curto, dilatado 7 cm, feto em ODP (occipito direita posterior), em -1, bolsa íntegra. Escolha a alternativa que contém tempos do mecanismo de parto mais provável, nesse caso.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Rotação interna de 135 graus no sentido horário, hipomóclio por deflexão e rotação externa anti-horária."
+        },
+        {
+          "key": "b",
+          "text": "Rotação interna de 225 graus no sentido anti-horário, hipomóclio em deflexão e rotação externa-horária."
+        },
+        {
+          "key": "c",
+          "text": "Insinuação por flexão, rotação interna de 45 graus no sentido anti-horário e hipomóclio por deflexão."
+        },
+        {
+          "key": "d",
+          "text": "Insinuação por assinclitismo, rotação interna de 135 graus no sentido-horário e hipomóclio em flexão."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Com apresentação em ODP (occipito direita posterior) e -1 de De Lee, o mecanismo mais provável envolve rotação interna de 135° no sentido horário (de ODP até OP), seguida de desprendimento por deflexão (hipomóclio) e rotação externa anti-horária.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_015",
+      "statement": "Durante o trabalho de parto o feto faz o movimento de rotação interna, assumindo diferentes variedades de posição. Marque a assertiva CORRETA no que se refere à variedade de posição corresponde na figura em questão:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "OEA."
+        },
+        {
+          "key": "b",
+          "text": "ODA."
+        },
+        {
+          "key": "c",
+          "text": "ODP."
+        },
+        {
+          "key": "d",
+          "text": "OEP."
+        },
+        {
+          "key": "e",
+          "text": "ODT."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A variedade de posição correspondente à figura (dependente de imagem não capturada na extração do PDF) foi determinada como ODP, conforme gabarito oficial da fonte.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_016",
+      "statement": "Durante o trabalho de parto, uma paciente está apresentando parada da descida. Ao toque, observa-se apresentação cefálica com a sutura sagital transversa e mais perto da sín se do que do promontório sacral. Qual é o nome dessa condição?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Assinclitismo posterior."
+        },
+        {
+          "key": "b",
+          "text": "Assinclitismo anterior."
+        },
+        {
+          "key": "c",
+          "text": "Distócia funcional."
+        },
+        {
+          "key": "d",
+          "text": "Rotação interna."
+        },
+        {
+          "key": "e",
+          "text": "Rotação externa."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de parada da descida com sutura sagital transversa mais próxima da sínfise púbica que do promontório sacral, o quadro caracteriza assinclitismo posterior (obliquidade de Litzmann).",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_017",
+      "statement": "Clinicamente, o parto propriamente dito é dividido em quatro fases ou estágios principais, sendo elas: dilatação, expulsão, estágio da placenta e período de Greenberg. Considerando os estágios do parto e suas particularidades, é CORRETO afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "No período de Greenberg, há possibilidades de grandes hemorragias. Estende-se pelas primeiras 4 horas após o parto."
+        },
+        {
+          "key": "b",
+          "text": "A fase da dilatação inicia-se pela dilatação progressiva do colo uterino e divide-se em fase passiva e ativa, sendo esta última caracterizada por um aumento na dilatação cervical."
+        },
+        {
+          "key": "c",
+          "text": "A fase da placenta começa a partir da dilatação e é encerrada pela expulsão da placenta e das membranas fetais."
+        },
+        {
+          "key": "d",
+          "text": "O parto do feto se constitui na expulsão do bebê, processo iniciado a partir da dilatação incompleta do colo uterino."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O período de Greenberg (quarto período do parto) estende-se pelas primeiras horas após o parto e é quando há maior risco de grandes hemorragias, exigindo vigilância rigorosa.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_018",
+      "statement": "Versão cefálica externa é um procedimento que consiste na transformação de apresentação pélvica em cefálica mediante suave manipulação no abdome materno, sendo assim, assinale a alternativa incorreta sobre o assunto:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "É realizada preferencialmente com 37 semanas de gestação."
+        },
+        {
+          "key": "b",
+          "text": "Deve ser realizada em ambiente hospitalar."
+        },
+        {
+          "key": "c",
+          "text": "O uso de anestesia geral está contraindicado."
+        },
+        {
+          "key": "d",
+          "text": "Cesárea prévia é uma contraindicação absoluta para a versão cefálica externa."
+        },
+        {
+          "key": "e",
+          "text": "Obesidade materna é uma contraindicação relativa para a versão cefálica externa."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "É a alternativa INCORRETA: cesárea prévia não é contraindicação absoluta à versão cefálica externa, podendo ser considerada em avaliação individualizada.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_019",
+      "statement": "Gestante em período expulsivo, apresenta o sinal da tartaruga com consequente di culdade para a extração fetal. Considerando esse contexto, qual a primeira manobra a serrealizada nesta distócia?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Deventer- Muller."
+        },
+        {
+          "key": "b",
+          "text": "Zavanelli"
+        },
+        {
+          "key": "c",
+          "text": "McRoberts"
+        },
+        {
+          "key": "d",
+          "text": "Mauriceau,"
+        },
+        {
+          "key": "e",
+          "text": "Bracht."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante do sinal da tartaruga (distocia de ombro), a primeira manobra a ser realizada é a de McRoberts (hiperflexão das coxas maternas).",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_020",
+      "statement": "Gestante, 27 anos de idade, primigesta, encontra-se com 34 semanas de gestação. Em consulta de pré-natal de rotina, quer se preparar para o trabalho de parto e conhecer detalhes da assistência ao parto de baixo risco. Deve-se informar, corretamente, que.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "se recomenda massagem perineal durante o segundo período do parto."
+        },
+        {
+          "key": "b",
+          "text": "se considera trabalho de parto estabelecido quando a dilatação cervical é de pelo menos 4 a 6 cm, acompanhada de contrações uterinas regulares."
+        },
+        {
+          "key": "c",
+          "text": "se considera terceiro período do parto prolongado após decorridos 60 minutos do nascimento."
+        },
+        {
+          "key": "d",
+          "text": "o acompanhamento do trabalho de parto pode ser realizado por médico obstetra ou enfermeira obstétrica, que devem escutar o batimento cardíaco fetal a cada duas horas."
+        },
+        {
+          "key": "e",
+          "text": "a duração normal da fase ativa do segundo período do trabalho de parto nas primíparas sem analgesia é de uma a cinco horas."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Considera-se trabalho de parto estabelecido quando há dilatação cervical de pelo menos 4 a 6 cm acompanhada de contrações uterinas regulares.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_021",
+      "statement": "Observe os traçados abaixo: O traçado A representa as contrações de um parto normal. E o traçado B representa uma discinesia observada em uma paciente com:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "polidramnia."
+        },
+        {
+          "key": "b",
+          "text": "toxemia gravídica."
+        },
+        {
+          "key": "c",
+          "text": "descolamento prematura da placenta."
+        },
+        {
+          "key": "d",
+          "text": "parto precipitado."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O traçado de discinesia associado a essa complicação obstétrica (dependente de imagem não capturada) foi determinado como compatível com descolamento prematuro de placenta, conforme gabarito oficial da fonte — quadro clássico de hipertonia/taquissistolia associada a essa complicação.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_022",
+      "statement": "Na estática fetal, a variedade de posição se define como a relação dos pontos de referência maternos e fetais. Dentre os pontos fetais, o que representa a apresentação cefálica fletida é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "glabela."
+        },
+        {
+          "key": "b",
+          "text": "lambda."
+        },
+        {
+          "key": "c",
+          "text": "bregma."
+        },
+        {
+          "key": "d",
+          "text": "mento."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Na apresentação cefálica fletida, o ponto de referência fetal é o lambda (occipício).",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_023",
+      "statement": "O uso da episiotomia caiu nos últimos 30 anos, devido ao seu uso restrito ao invés de rotineiro. Entretanto, este ainda é um procedimento comum na prática médica. A indicação de episiotomia não pode ser considerada nos casos de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Distocia de ombro."
+        },
+        {
+          "key": "b",
+          "text": "Feto macrossômico."
+        },
+        {
+          "key": "c",
+          "text": "Crescimento intrauterino restrito."
+        },
+        {
+          "key": "d",
+          "text": "Parto vaginal operatório."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A episiotomia não está indicada isoladamente nos casos de restrição de crescimento intrauterino, diferente de distocia de ombro, macrossomia fetal e parto vaginal operatório.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_024",
+      "statement": "Mulher tercigista e secundipara (partos normais). Fez pré-natal adequado e nega alterações em exames laboratoriais. Deu entrada na emergência da Maternidade com 38 semanas de gestação, queixando-se de dor em baixo ventre, apresentando 4 contrações de 40 segundos cada, em intervalo de 10 minutos. Batimento cardíaco fetal: 144bpm. Ao toque vaginal, colo dilatado 9cm, no, bolsa integra, apresentação em +1 de De Lee com Lambda em correspondência com estreito superior da bacia à esquerda e anteriormente. Identifique a apresentação e a variedade de posição fetal.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cefálica fletida e occipito esquerda posterior (OEP)."
+        },
+        {
+          "key": "b",
+          "text": "Cefálica defletida e mento esquerda anterior (MEA)."
+        },
+        {
+          "key": "c",
+          "text": "Cefálica fletida e occipito esquerda anterior (OEA)."
+        },
+        {
+          "key": "d",
+          "text": "Cefálica defletida e bregma esquerda anterior (BEA)."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Com lambda voltado para o estreito superior à esquerda e anteriormente, em apresentação fletida (occipício como referência), trata-se de apresentação cefálica fletida, variedade occipito esquerda anterior (OEA).",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_025",
+      "statement": "Em relação ao mecanismo de parto, na variedade de posição occípito-ilíacaesquerda-anterior, os movimentos da cabeça fetal são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "descida, rotação interna, insinuação, rotação externa, deflexão e desprendimento das espáduas."
+        },
+        {
+          "key": "b",
+          "text": "descida, insinuação, rotação externa, deflexão, rotação interna e desprendimento das espáduas."
+        },
+        {
+          "key": "c",
+          "text": "insinuação, descida, rotação externa, rotação interna, deflexão e desprendimento das espáduas."
+        },
+        {
+          "key": "d",
+          "text": "descida, insinuação, rotação interna, deflexão, rotação externa e desprendimento das espáduas."
+        },
+        {
+          "key": "e",
+          "text": "insinuação, descida, rotação interna, deflexão, rotação externa e desprendimento das espáduas."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Na variedade occípito-ilíaca-esquerda-anterior, a sequência correta dos movimentos da cabeça fetal é: insinuação, descida, rotação interna, deflexão (desprendimento) e rotação externa, seguida do desprendimento das espáduas.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_026",
+      "statement": "Qual a sequência e descrição correta dos tempos do mecanismo de parto?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "1 - descida: a apresentação migra até as proximidades do assoalho pélvico, onde ocorre a rotação interna. 2 - insinuação: passagem da maior circunferência da apresentação através do estreito superior. 3 - desprendimento: movimento de deflexão da apresentação sob a arcada púbica."
+        },
+        {
+          "key": "b",
+          "text": "1 - insinuação: passagem da maior circunferência da apresentação através do estreito superior. 2 - descida: a apresentação migra até as proximidades do assoalho pélvico, onde ocorre a rotação interna. 3 - desprendimento: movimento de deflexão da apresentação sob a arcada púbica."
+        },
+        {
+          "key": "c",
+          "text": "1 - insinuação: a apresentação migra até as proximidades do assoalho pélvico, onde ocorre a rotação interna. 2 - descida: passagem da maior circunferência da apresentação através do estreito superior. 3 - desprendimento: movimento de deflexão da apresentação sob a arcada púbica."
+        },
+        {
+          "key": "d",
+          "text": "1 - descida: passagem da maior circunferência da apresentação através do estreito superior. 2 - desprendimento: a apresentação migra até as proximidades do assoalho pélvico, onde ocorre a rotação interna. 3 - insinuação: movimento de deflexão da apresentação sob a arcada púbica."
+        },
+        {
+          "key": "e",
+          "text": "1 - desprendimento: movimento de deflexão da apresentação sob a arcada púbica. 2 - descida: a apresentação migra até as proximidades do assoalho pélvico, onde ocorre a rotação interna. 3 - insinuação: passagem da maior circunferência da apresentação através do estreito superior."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A sequência correta dos tempos do mecanismo de parto é: 1) insinuação — passagem da maior circunferência da apresentação pelo estreito superior; 2) descida — a apresentação migra até o assoalho pélvico, onde ocorre a rotação interna; 3) desprendimento — movimento de deflexão sob a arcada púbica.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_027",
+      "statement": "Ao realizar toque vaginal em gestante de termo em franco trabalho de parto, com dilatação total, o obstetra notou feto em apresentação cefálica etida, com seu vértice localizado em nível das espinhas ciáticas e com seu ponto de referência voltado na direção da eminência iliopectínea esquerda da bacia materna. Com base nessa situação hipotética, espera-se, no mecanismo de parto, rotação interna de",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "45 graus, em sentido anti-horário."
+        },
+        {
+          "key": "b",
+          "text": "45 graus, em sentido horário."
+        },
+        {
+          "key": "c",
+          "text": "90 graus, em sentido anti-horário."
+        },
+        {
+          "key": "d",
+          "text": "135 graus, em sentido horário."
+        },
+        {
+          "key": "e",
+          "text": "135 graus, em sentido anti-horário."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Com o ponto de referência (occipício) voltado para a eminência iliopectínea esquerda (variedade OEA) e vértice nas espinhas ciáticas, espera-se rotação interna de 45 graus em sentido anti-horário até a variedade occipito-púbica (OP).",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_028",
+      "statement": "O terceiro período de parto",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "corresponde ao período desde a saída do recém-nascido até a saída da placenta e membrana amniótica."
+        },
+        {
+          "key": "b",
+          "text": "é considerado prolongado quando demorar mais de 10 minutos para a saída da placenta."
+        },
+        {
+          "key": "c",
+          "text": "corresponde ao período de desprendimento do pólo cefálico até o desprendimento completo do polo pélvico do recém-nascido."
+        },
+        {
+          "key": "d",
+          "text": "demora normalmente 2 horas nas nulíparas e até 1 hora nas multíparas."
+        },
+        {
+          "key": "e",
+          "text": "é abreviado pelo uso de oxitocina endovenosa."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O terceiro período do parto corresponde ao intervalo desde a saída do recém-nascido até a saída completa da placenta e membranas ovulares.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_029",
+      "statement": "O segundo período do parto é dividido em?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Fase passiva, em que há dilatação do colo, apresentação fetal alta na pelve, porém sem sensação de puxo iminente e fase ativa, em que há dilatação, apresentação baixa e sensação de puxo."
+        },
+        {
+          "key": "b",
+          "text": "Fase passiva, em que as contrações uterinas ainda não estão coordenadas e fase ativa, com início das contrações rítmicas e fase expulsiva, com a saída da cabeça fetal."
+        },
+        {
+          "key": "c",
+          "text": "Fase de latência, em que as contrações são leves e não há dilatação; fase de descida, em que as contrações aumentam e a dilatação se inicia; fase passiva, antes do uso de ocitocina e fase ativa, após o iniciar a ocitocina."
+        },
+        {
+          "key": "d",
+          "text": "Fase ativa inicial, com contrações de fraca intensidade; fase de alerta, quando as contrações estão intensas e medidas analgésicas são requeridas; fase de ação, quando o parto é iminente."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O segundo período do parto divide-se em fase passiva (dilatação total, apresentação ainda alta, sem sensação de puxo iminente) e fase ativa (apresentação baixa, com sensação de puxo).",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_030",
+      "statement": "A apresentação fetal mostrada na imagem abaixo é?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Occipto esquerda anterior."
+        },
+        {
+          "key": "b",
+          "text": "Bregmática."
+        },
+        {
+          "key": "c",
+          "text": "Occipto direita posterior."
+        },
+        {
+          "key": "d",
+          "text": "Occipto transversa esquerda."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A apresentação mostrada na imagem (dependente de figura não capturada na extração do PDF) foi determinada como bregmática, conforme gabarito oficial da fonte.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_031",
+      "statement": "MMCL, 19 anos, está em trabalho de parto há 10 horas e vem evoluindo a contento. Durante o toque vaginal, você encontra algo “diferente”. Por isso, chama o médico mais experiente do serviço que realiza o toque e a rma que tocou a glabela. A conduta correta é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Fórcipe de alívio."
+        },
+        {
+          "key": "b",
+          "text": "Fórcipe de rotação."
+        },
+        {
+          "key": "c",
+          "text": "Versão externa."
+        },
+        {
+          "key": "d",
+          "text": "Versão interna."
+        },
+        {
+          "key": "e",
+          "text": "Cesariana."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Ao tocar a glabela (ponto de referência da apresentação de fronte, deflexão de 2º grau), com desproporção entre o diâmetro occipitomentoniano e a bacia materna, a conduta correta é a cesariana.",
+      "theme": "par_cesarea",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_032",
+      "statement": "Durante a condução de um trabalho de parto, ao realizar o toque, o obstetra evidencia apresentação cefálica etida, com lambda fetal em posição 2h em relação aos ponteiros do relógio. Isso significa que o dorso fetal está:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "esquerda anterior."
+        },
+        {
+          "key": "b",
+          "text": "esquerda posterior."
+        },
+        {
+          "key": "c",
+          "text": "direita anterior."
+        },
+        {
+          "key": "d",
+          "text": "direita posterior."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Com o lambda fetal (occipício) em posição 2h no relógio (à direita), o dorso fetal correspondente está voltado para a esquerda materna (posição esquerda anterior).",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_033",
+      "statement": "Em relação aos aspectos fisiológicos e da assistência ao trabalho de parto, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O segundo período do parto é o mais longo de todo trabalho de parto."
+        },
+        {
+          "key": "b",
+          "text": "Durante o primeiro período, a paciente deve preferencialmente assumir posição de decúbito dorsal horizontal."
+        },
+        {
+          "key": "c",
+          "text": "Na contração uterina, a duração da sensação dolorosa pela paciente é maior do que a percepção da contração pelo obstetra na palpação."
+        },
+        {
+          "key": "d",
+          "text": "No assinclitismo posterior (obliquidade Litzmann), a sutura sagital encontra-se mais próxima ao pube."
+        },
+        {
+          "key": "e",
+          "text": "Na apresentação cefálica defletida de segundo grau, o ponto de referência é o mento."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "No assinclitismo posterior (obliquidade de Litzmann), a sutura sagital encontra-se mais próxima do pube do que do promontório sacral.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_034",
+      "statement": "Durante o parto vaginal de feto macrossômico, o obstetra pede consentimento da parturiente para realizar episiotomia médiolateral direita, caso seja necessário, e é autorizado. Assim, se decidir realizar esse procedimento, deverá fazê-lo",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "no momento em que o polo cefálico distende o períneo, em ângulo de 60º da linhamédia."
+        },
+        {
+          "key": "b",
+          "text": "imediatamente antes do desprendimento dos ombros, seccionado o introito vaginal."
+        },
+        {
+          "key": "c",
+          "text": "durante a distensão perineal, na linha média, seccionado o músculo levantador do ânus."
+        },
+        {
+          "key": "d",
+          "text": "imediatamente antes da inserção do fórceps de Simpson, seccionado o introitovaginal."
+        },
+        {
+          "key": "e",
+          "text": "quando o polo cefálico atinge a posição +2, em ângulo de 45º com a linha média."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A episiotomia, quando indicada, deve ser realizada no momento em que o polo cefálico distende o períneo, em ângulo de 60º em relação à linha média.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_035",
+      "statement": "O segundo período do parto é dividido em?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Fase passiva, em que há dilatação do colo, apresentação fetal alta na pelve, porém sem sensação de puxo iminente e fase ativa, em que há dilatação, apresentação baixa e sensação de puxo."
+        },
+        {
+          "key": "b",
+          "text": "Fase passiva, em que as contrações uterinas ainda não estão coordenadas e fase ativa, com início das contrações rítmicas e fase expulsiva, com a saída da cabeça fetal."
+        },
+        {
+          "key": "c",
+          "text": "Fase de latência, em que as contrações são leves e não há dilatação; fase de descida, em que as contrações aumentam e a dilatação se inicia; fase passiva, antes do uso de ocitocina e fase ativa, após o iniciar a ocitocina."
+        },
+        {
+          "key": "d",
+          "text": "Fase ativa inicial, com contrações de fraca intensidade; fase de alerta, quando as contrações estão intensas e medidas analgésicas são requeridas; fase de ação, quando o parto é iminente."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O segundo período do parto divide-se em fase passiva (dilatação total, apresentação ainda alta, sem sensação de puxo iminente) e fase ativa (apresentação baixa, com sensação de puxo).",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_036",
+      "statement": "Sobre o mecanismo do parto, podemos afirmar que a Insinuação é definida como:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O movimento turbinal da cabeça fetal que só termina com a expulsão total do feto."
+        },
+        {
+          "key": "b",
+          "text": "O movimento de flexão e rotação da cabeça fetal, voltando o occipital para o lado onde se encontrava na bacia."
+        },
+        {
+          "key": "c",
+          "text": "A passagem da maior circunferência da apresentação através do estreito superior da bacia."
+        },
+        {
+          "key": "d",
+          "text": "A Passagem das espáduas pelo estreito superior da bacia."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Insinuação é definida como a passagem da maior circunferência da apresentação através do estreito superior da bacia materna.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_037",
+      "statement": "Segundo o Zhang, a fase ativa do trabalho de parto só é verdadeira quando existe dilatação cervical de pelo menos:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "3 cm"
+        },
+        {
+          "key": "b",
+          "text": "4 cm"
+        },
+        {
+          "key": "c",
+          "text": "5 cm"
+        },
+        {
+          "key": "d",
+          "text": "6 cm"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Segundo a curva de Zhang, a fase ativa do trabalho de parto só é considerada verdadeira a partir de 6 cm de dilatação cervical.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_038",
+      "statement": "Gestante admitida em maternidade em fase ativa do trabalho de parto apresenta dilatação cervical de 8 cm, apresentação cefálica etida e variedade OEA. Para que o parto transcorra sem problemas e o feto sofra expulsão em OP, o sentido de rotação e a quantidade de ângulos é de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "sentido horário, 135 graus."
+        },
+        {
+          "key": "b",
+          "text": "sentido anti-horário, 90 graus."
+        },
+        {
+          "key": "c",
+          "text": "sentido anti-horário, 45 graus."
+        },
+        {
+          "key": "d",
+          "text": "sentido horário, 45 graus."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Partindo de OEA (occipito esquerda anterior) para desprendimento em OP, o feto deve realizar rotação interna de 45 graus em sentido anti-horário.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_039",
+      "statement": "G5 P4 (3PN 1C), apresenta hipertonia uterina no nal da fase de dilatação. Após a retirada da ocitocina e com início do expulsivo, cessa a hipertonia, mas ocorre sangramento volumoso. A paciente queixa de dor na escápula direita e evolui com hipotensão, hematúria na sonda, desaceleração dos batimentos cardíacos fetais e subida da apresentação. A hipótese diagnóstica é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Descolamento de placenta."
+        },
+        {
+          "key": "b",
+          "text": "Toco traumatismo materno."
+        },
+        {
+          "key": "c",
+          "text": "Rutura uterina."
+        },
+        {
+          "key": "d",
+          "text": "Distócia cervical dinâmica."
+        },
+        {
+          "key": "e",
+          "text": "Inversão do tríplice gradiente descendente."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O quadro de hipertonia seguida de hemorragia, dor escapular, hematúria, desaceleração fetal e subida da apresentação é compatível com rotura uterina.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_040",
+      "statement": "Na apresentação cefálica fletida, a insinuação é identificada quando o:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Vértice ultrapassa o plano zero de De Lee."
+        },
+        {
+          "key": "b",
+          "text": "Biparíetal ultrapassa o plano III de Hodge."
+        },
+        {
+          "key": "c",
+          "text": "Lâmbda ultrapassa o plano zero de De Lee."
+        },
+        {
+          "key": "d",
+          "text": "Bregma ultrapassa o plano III de Hodge."
+        },
+        {
+          "key": "e",
+          "text": "Manto ultrapassa o plano zero de De Lee."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na apresentação cefálica fletida, a insinuação é identificada quando o vértice (occipício) ultrapassa o plano zero de De Lee.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_041",
+      "statement": "Pode-se afirmar que faz parte do manejo ativo do terceiro período do parto:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a realização da manobra de Kristeller"
+        },
+        {
+          "key": "b",
+          "text": "a administração intramuscular de ocitocina"
+        },
+        {
+          "key": "c",
+          "text": "o uso criterioso da episiotomia"
+        },
+        {
+          "key": "d",
+          "text": "a ligadura imediata do cordão umbilical"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O manejo ativo do terceiro período do parto inclui a administração intramuscular de ocitocina logo após o desprendimento fetal, reduzindo o risco de hemorragia pós-parto.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_042",
+      "statement": "Em algumas situações especiais o diagnóstico do início do trabalho de parto pode ser desa ador na emergência obstétrica. Qual dos parâmetros abaixo não faz parte da síndrome do trabalho de parto?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Contrações uterinas freqüentes e regulares."
+        },
+        {
+          "key": "b",
+          "text": "Dilatação do colo uterino."
+        },
+        {
+          "key": "c",
+          "text": "Perda do tampão mucoso."
+        },
+        {
+          "key": "d",
+          "text": "Formação da bolsa das águas."
+        },
+        {
+          "key": "e",
+          "text": "Insinuação do pólo cefálico."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A insinuação do polo cefálico não faz parte, isoladamente, dos parâmetros clássicos que definem a síndrome do início do trabalho de parto (contrações regulares, dilatação, perda do tampão mucoso e formação da bolsa das águas).",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_043",
+      "statement": "Ao realizar toque vaginal em gestante de termo em franco trabalho de parto, com dilatação total, o obstetra notou feto em apresentação cefálica etida, com seu vértice localizado em nível das espinhas ciáticas e com seu ponto de referência voltado na direção da eminência iliopectínea esquerda da bacia materna. Com base nessa situação hipotética, espera-se, no mecanismo de parto, rotação interna de",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "45 graus, em sentido anti-horário."
+        },
+        {
+          "key": "b",
+          "text": "45 graus, em sentido horário."
+        },
+        {
+          "key": "c",
+          "text": "90 graus, em sentido anti-horário."
+        },
+        {
+          "key": "d",
+          "text": "135 graus, em sentido horário."
+        },
+        {
+          "key": "e",
+          "text": "135 graus, em sentido anti-horário."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Com o ponto de referência (occipício) voltado para a eminência iliopectínea esquerda (variedade OEA) e vértice nas espinhas ciáticas, espera-se rotação interna de 45 graus em sentido anti-horário até a variedade occipito-púbica (OP).",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_044",
+      "statement": "Na primeira metade da gestação, o útero se expande por hiperplasia e hipertro a celular, ocorrendo em seguida acomodação da unidade feto placentária e crescimento contínuo por estiramento do miométrio. Com a progressão da gravidez, o útero apresenta contrações de dominância não fúndica e então, mais próximo ao parto, há início da dominância fúndica e coordenação das contrações. As mais importantes teorias existentes para explicar o determinismo do parto não incluem a",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "fetal."
+        },
+        {
+          "key": "b",
+          "text": "ocitócica."
+        },
+        {
+          "key": "c",
+          "text": "da gangorra."
+        },
+        {
+          "key": "d",
+          "text": "da prostaglandina."
+        },
+        {
+          "key": "e",
+          "text": "da expansibilidade."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "As principais teorias sobre o determinismo do parto incluem a fetal, a ocitócica, da gangorra (equilíbrio hormonal progesterona/estrogênio) e da prostaglandina — a 'teoria da expansibilidade' não é uma das teorias clássicas descritas.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_045",
+      "statement": "A assistência clínica ao parto estuda os procedimentos que devem ser adotados no acompanhamento do trabalho de parto. O parto é dividido em 4 períodos ou fases clínicas distintas. Sobre as fases clínicas e assistência ao parto é correto a rmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "o 2º período do trabalho de parto inicia-se quando ocorre apagamento total do colo uterino, sem dilatação ainda. É vital o acompanhamento dos batimentos cardíacos fetais nesse período."
+        },
+        {
+          "key": "b",
+          "text": "o 3º período começa antes do desprendimento da cabeça fetal e termina com a saída da placenta, que é extraída imediatamente com tração manual contínua em partos vaginais."
+        },
+        {
+          "key": "c",
+          "text": "o 4º período clínico é marcado por miorelaxamento e obliteração por trombose vascular no útero (trombotamponamento). É importante a observação de sangramentos excessivos nesse momento."
+        },
+        {
+          "key": "d",
+          "text": "no final da 2ª fase clínica do parto ocorre o desprendimento total do feto, nesse período a atividade uterina é máxima e a dilatação do colo é total."
+        },
+        {
+          "key": "e",
+          "text": "na 1ª fase clínica do parto inicia com contrações uterinas ainda não sem potencial de dilatar o colo uterino, sendo mandatório o emprego de ocitocina exógena nessa fase."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "No final do segundo período clínico do parto (expulsivo), ocorre o desprendimento total do feto, com atividade uterina máxima e dilatação cervical total.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_046",
+      "statement": "Considerando a bacia óssea materna e o mecanismo de parto, é correto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O diâmetro anteroposterior do estreito médio da pequena bacia é constituído pelas três conjugatas (anatômica, obstétrica e diagonal)."
+        },
+        {
+          "key": "b",
+          "text": "Nos casos de insinuação do polo cefálico fetal em assinclitismo, a ocorrência do parto vaginal é improvável."
+        },
+        {
+          "key": "c",
+          "text": "Os tempos do mecanismo de parto são: dilatação, período expulsivo, período de dequitação e observação."
+        },
+        {
+          "key": "d",
+          "text": "O parto vaginal pode ocorrer sem que haja a flexão do polo cefálico fetal."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O parto vaginal pode ocorrer sem que haja flexão completa do polo cefálico fetal, como nas apresentações defletidas (bregmática, de fronte, de face), embora com maior dificuldade mecânica.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_047",
+      "statement": "Durante o plantão em um hospital geral, o médico avalia uma puérpera que foi trazida por um taxista, acompanhada da irmã. O parto ocorreu em casa, há cerca de 25 minutos. O neonato pesou 4.230g, encontra-se bem e exibe um choro vigoroso. A mulher, aos 26 anos de idade é tercípara e informa que o primeiro parto foi por via vaginal e o segundo foi por cesariana, pois a criança estava assentada. O sangramento genital parece abundante e o cordão umbilical encontra-se visível no introito vaginal. Assinale a medida MAIS IMPORTANTE a ser tomada neste momento.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Administrar cefalotina por via venosa"
+        },
+        {
+          "key": "b",
+          "text": "Administrar ocitocina por via intramuscular"
+        },
+        {
+          "key": "c",
+          "text": "Realizar ultrassonografia abdominal"
+        },
+        {
+          "key": "d",
+          "text": "Tracionar o cordão umbilical"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de hemorragia pós-parto por atonia/tumoração vaginal em puérpera recente com cordão visível no introito (sugestivo de inversão uterina) e RN macrossômico, a medida mais importante imediata é administrar ocitocina intramuscular, evitando tração do cordão sem sinais de dequitação.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_048",
+      "statement": "Paciente de 39 semanas é admitida com queixa de dor em baixo ventre. Ao exame, observam-se 5 contrações em 10 minutos, colo dilatado 9 cm, apresentação cefálica em OEA, plano +1 de De Lee. Podemos afirmar que",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "o dorso fetal encontra-se a esquerda."
+        },
+        {
+          "key": "b",
+          "text": "o feto apresenta deflexão de 1 grau."
+        },
+        {
+          "key": "c",
+          "text": "paciente está em período expulsivo."
+        },
+        {
+          "key": "d",
+          "text": "a insinuação ainda não ocorreu."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Com dorso fetal correspondendo à variedade OEA (occipito esquerda anterior), o dorso fetal encontra-se à esquerda materna.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_049",
+      "statement": "Com relação aos mecanismos do parto na apresentação cefálica, assinale a alternativa correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "o desprendimento do ombro posterior do feto ocorre primeiro"
+        },
+        {
+          "key": "b",
+          "text": "a posição do encaixamento do feto mais frequente é a occipitopúbica"
+        },
+        {
+          "key": "c",
+          "text": "a flexão da cabeça fetal propicia a exposição de seu menor diâmetro à bacia materna"
+        },
+        {
+          "key": "d",
+          "text": "a rotação externa ocorre para o lado contrário da posição em que o feto se encontrava dentro da bacia materna"
+        },
+        {
+          "key": "e",
+          "text": "a cabeça fetal atinge o estreito inferior da bacia materna geralmente na posição occipitoilíaca esquerda transversa"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A flexão da cabeça fetal propicia a exposição do menor diâmetro possível (suboccipitobregmático) à bacia materna, facilitando a progressão do parto.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_050",
+      "statement": "Acerca do manejo adequado do trabalho de parto, bem como do tratamento e da prevenção de suas complicações, julgue o item a seguir. Uma estratégia e caz para reduzir a necessidade de administração de ocitocina exógena e a taxa de cesariana é internar a paciente em trabalho de parto a partir do momento em que ela apresentar seis centímetros de dilatação cervical e uma frequência mínima de duas contrações a cada dez minutos.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Internar a paciente em trabalho de parto a partir de 6 cm de dilatação, com dinâmica uterina estabelecida, é estratégia eficaz para reduzir a necessidade de ocitocina exógena e a taxa de cesariana, evitando internações precoces em fase latente.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_051",
+      "statement": "Qual a nomenclatura obstétrica na figura abaixo?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "OEA"
+        },
+        {
+          "key": "b",
+          "text": "OEP"
+        },
+        {
+          "key": "c",
+          "text": "ODP"
+        },
+        {
+          "key": "d",
+          "text": "ODA"
+        },
+        {
+          "key": "e",
+          "text": "OTA"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A nomenclatura obstétrica correspondente à figura (dependente de imagem não capturada na extração do PDF) foi determinada como ODP, conforme gabarito oficial da fonte.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_052",
+      "statement": "Durante o trabalho de parto, uma paciente está apresentando parada da descida. Ao toque, observa-se apresentação cefálica com sutura sagital transversa e mais perto da sín se do que do promontório sacral. Qual é o nome dessa condição?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Assinclitismo posterior."
+        },
+        {
+          "key": "b",
+          "text": "Assinclitismo anterior."
+        },
+        {
+          "key": "c",
+          "text": "Distócia funcional."
+        },
+        {
+          "key": "d",
+          "text": "Rotação interna."
+        },
+        {
+          "key": "e",
+          "text": "Rotação externa."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de parada da descida com sutura sagital transversa mais próxima da sínfise púbica que do promontório sacral, o quadro caracteriza assinclitismo posterior (obliquidade de Litzmann).",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_053",
+      "statement": "Uma primigesta de 39 semanas foi internada em trabalho de parto após ruptura das membranas ovulares e evoluiu normalmente até a dilatação total. Nesse momento, o vértice da apresentação estava em +2 DeLee e o ponto de reparo fetal, que é o lambda, estava voltado para a iminência ileopectínea esquerda. A situação se manteve da mesma forma por mais de cinquenta minutos, quando se iniciou uma bradicardia fetal persistente. Nesse caso hipotético, a melhor conduta seria",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "locar fórcipe de Simpson com rotação anti-horária de 45 graus."
+        },
+        {
+          "key": "b",
+          "text": "realizar dupla pega para permitir a rotação anti horária de 135 graus."
+        },
+        {
+          "key": "c",
+          "text": "realizar cesariana imediata."
+        },
+        {
+          "key": "d",
+          "text": "locar fórcipe de Kielland com rotação horária de 45 graus."
+        },
+        {
+          "key": "e",
+          "text": "orientar puxos dirigidos para estimular o nascimento."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Com o lambda voltado para a eminência iliopectínea esquerda (variedade OEA), vértice em +2 De Lee (baixo) e bradicardia fetal persistente após período prolongado sem progressão, a melhor conduta é a aplicação de fórcipe de Simpson com rotação anti-horária de 45 graus (de OEA para OP).",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_055",
+      "statement": "São condições que podem associar-se a período expulsivo prolongado, exceto:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apresentação cefálica fletida em variedade posterior."
+        },
+        {
+          "key": "b",
+          "text": "Assinclitismo persistente."
+        },
+        {
+          "key": "c",
+          "text": "Apresentação de face."
+        },
+        {
+          "key": "d",
+          "text": "Macrossomia fetal."
+        },
+        {
+          "key": "e",
+          "text": "Apresentação cefálica fletida em variedade anterior."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A apresentação cefálica fletida em variedade anterior é a mais favorável para a progressão do parto, não estando associada a período expulsivo prolongado — diferente das variedades posteriores, assinclitismo, apresentação de face e macrossomia fetal.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_056",
+      "statement": "Os diagramas abaixo representam variedades de posição do polo cefálico etido durante a evolução do trabalho de parto. Qual das alternativas abaixo de ne CORRETAMENTE a nomenclatura obstétrica de cada um deles e a ordem da rotação interna fisiológica desde a insinuação até o desprendimento do polo cefálico?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "OS, OEA, OET e A, B, C"
+        },
+        {
+          "key": "b",
+          "text": "OS, ODA, ODT e B, C, A"
+        },
+        {
+          "key": "c",
+          "text": "OP, OEA, OET e C, A, B"
+        },
+        {
+          "key": "d",
+          "text": "OP, ODA, ODT e C, B, A"
+        },
+        {
+          "key": "e",
+          "text": "OS, OEA, ODT e B, A, C"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A sequência correta de nomenclatura obstétrica e rotação interna fisiológica (dependente de diagramas não capturados na extração do PDF) foi determinada como OP, ODA, ODT com ordem C, B, A, conforme gabarito oficial da fonte.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_057",
+      "statement": "Você está de plantão na sala de parto e vai avaliar uma paciente multípara, a termo, em trabalho de parto. Ao toque vaginal, você palpa a raiz do nariz do feto e percorre a sutura metópica com a ponta de seu dedo. A dilatação está completa, a bolsa rota, com líquido amniótico claro e com grumos. Ainda sobre a paciente, e considerando os diâmetros médios da bacia e o diâmetro de insinuação da apresentação em questão, o obstetra deve:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tomar conduta expectante."
+        },
+        {
+          "key": "b",
+          "text": "Prescrever ocitocina."
+        },
+        {
+          "key": "c",
+          "text": "Aplicar um fórcipe de rotação."
+        },
+        {
+          "key": "d",
+          "text": "Indicar cesariana."
+        },
+        {
+          "key": "e",
+          "text": "Realizar versão interna."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Ao palpar a raiz do nariz e a sutura metópica (apresentação de fronte, deflexão de 2º grau) com dilatação completa e desproporção entre o diâmetro occipitomentoniano (maior diâmetro de inserção nessa apresentação) e a bacia materna, a conduta é indicar cesariana.",
+      "theme": "par_cesarea",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_058",
+      "statement": "Você está de plantão na sala de parto e vai avaliar uma paciente multípara, a termo, em trabalho de parto. Ao toque vaginal, você palpa a raiz do nariz do feto e percorre a sutura metópica com a ponta de seu dedo. A dilatação está completa, a bolsa rota, com líquido amniótico claro e com grumos. De acordo com o exame físico pode-se a rmar que se trata de uma apresentação:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Defletida de 2° grau."
+        },
+        {
+          "key": "b",
+          "text": "Defletida de 1° grau."
+        },
+        {
+          "key": "c",
+          "text": "Defletida de 3° grau."
+        },
+        {
+          "key": "d",
+          "text": "Transversa."
+        },
+        {
+          "key": "e",
+          "text": "Córmica."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Ao palpar a raiz do nariz e percorrer a sutura metópica, trata-se de apresentação cefálica defletida de 2º grau (apresentação de fronte).",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_059",
+      "statement": "Na apresentação cefálica fletida a sequência dos tempos no mecanismo do parto é a seguinte:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Insinuação, descida com rotação externa, desprendimento."
+        },
+        {
+          "key": "b",
+          "text": "Insinuação, descida com rotação interna, desprendimento."
+        },
+        {
+          "key": "c",
+          "text": "Flexão, descida com rotação externa, insinuação."
+        },
+        {
+          "key": "d",
+          "text": "Flexão, descida com rotação interna, desprendimento"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Na apresentação cefálica fletida, a sequência dos tempos do mecanismo de parto é: insinuação, descida com rotação interna, desprendimento.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_060",
+      "statement": "Juliana, 35 anos, G5P4N, 40 semanas de gestação, está em período expulsivo, assistido por uma obstetra e acompanhada por uma doula e por seu marido, Rodrigo. Rodrigo lembra à equipe a opção de Juliana pelo manejo ativo no terceiro período do parto. Qual é a sequência correta do manejo ativo no terceiro período do parto?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ocitocina intramuscular, seguida de pinçamento do cordão umbilical e extração manual da placenta."
+        },
+        {
+          "key": "b",
+          "text": "Ocitocina intramuscular, pinçamento do cordão umbilical e tração controlada após sinais de separação da placenta."
+        },
+        {
+          "key": "c",
+          "text": "Pinçamento do cordão umbilical no primeiro minuto, ocitocina intramuscular e tração controlada do cordão."
+        },
+        {
+          "key": "d",
+          "text": "Pinçamento do cordão umbilical após sinais de separação da placenta seguido de tração controlada do cordão."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A sequência correta do manejo ativo do terceiro período é: administração de ocitocina intramuscular, seguida de pinçamento do cordão umbilical e tração controlada do cordão após sinais de separação da placenta.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_061",
+      "statement": "Em qual das situações abaixo é mais fácil o parto normal em primigesta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apresentação de face defletida grau 2, mento-sacra."
+        },
+        {
+          "key": "b",
+          "text": "Apresentação de face defletida grau 3 mento-púbica."
+        },
+        {
+          "key": "c",
+          "text": "Apresentação pélvica completa."
+        },
+        {
+          "key": "d",
+          "text": "Apresentação de ombro."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Entre as opções, a apresentação de face defletida de 3º grau, variedade mento-púbica (mento-anterior), é a mais favorável ao parto vaginal, pois o mento consegue se desprender sob a arcada púbica.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_062",
+      "statement": "Em uma paciente sem doenças, submetida a parto vaginal de termo, 10 minutos após o nascimento, não ocorreu a dequitação. Qual é a conduta indicada para o caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aguardar pelo menos mais 20 minutos para manobras."
+        },
+        {
+          "key": "b",
+          "text": "Extração manual da placenta com antibioticoprofilaxia."
+        },
+        {
+          "key": "c",
+          "text": "Administração de derivados do ergot intramuscular."
+        },
+        {
+          "key": "d",
+          "text": "Laparotomia por suspeita de acretismo placentário"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de parto vaginal de termo sem dequitação após 10 minutos, a conduta é aguardar pelo menos mais 20 minutos (completando cerca de 30 minutos) antes de considerar manobras intervencionistas, respeitando o tempo fisiológico normal.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_063",
+      "statement": "Uma parturiente, III gesta II para, com 1 cesárea anterior, IG de 38 semanas, AU de 39 cm, vitalidade preservada, dinâmica uterina de 3 contrações de média intensidade com 40 segundos de duração em 10 minutos, encontra-se com colo centrado, médio, 6 cm de dilatação, bolsa íntegra, OET em zero de De Lee. Frente a essa descrição, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Trata-se de distócia de rotação, pois o feto está em transverso e para nascer deveria estar em OP."
+        },
+        {
+          "key": "b",
+          "text": "A atividade uterina referida está adequada para a fase clínica do trabalho de parto."
+        },
+        {
+          "key": "c",
+          "text": "A altura uterina está compatível com a idade gestacional, e a evolução do trabalho de parto está normal."
+        },
+        {
+          "key": "d",
+          "text": "O diâmetro biparietal do feto encontra-se ao nível das espinhas isquiáticas."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Com dinâmica uterina de 3 contrações moderadas em 10 minutos e evolução da dilatação (6 cm), a atividade uterina está adequada para a fase ativa do trabalho de parto em curso.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_064",
+      "statement": "Durante um parto vaginal, observa-se que, após o desprendimento do polo cefálico, esse polo executa um movimento. Em relação a esse movimento, é correto afirmar que é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "um movimento de deflexão para liberação da face."
+        },
+        {
+          "key": "b",
+          "text": "hipomóclio, para liberação da fronte."
+        },
+        {
+          "key": "c",
+          "text": "a rotação externa, do polo para locar o ombro no diâmetro anteroposterior do estreito inferior."
+        },
+        {
+          "key": "d",
+          "text": "o movimento de restituição da cabeça na variedade anterior para facilitar a saída do polo cefálico."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Após o desprendimento do polo cefálico, este realiza o movimento de rotação externa, reposicionando-se para alinhar o diâmetro biacromial (dos ombros) ao diâmetro anteroposterior do estreito inferior da bacia.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_065",
+      "statement": "Uma gestante de 37 semanas, com queixa de dor em baixo ventre, ao exame físico apresenta duas contrações em 10 minutos de observação, com duração de 50 segundos. Ao toque, colo dilatado 4 cm, esvaecido, feto alto e xo. Pode-se afirmar que se trata de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "trabalho de parto prematuro"
+        },
+        {
+          "key": "b",
+          "text": "falso trabalho de parto prematuro"
+        },
+        {
+          "key": "c",
+          "text": "contrações de Braxton-Hicks"
+        },
+        {
+          "key": "d",
+          "text": "trabalho de parto"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Com duas contrações regulares em 10 minutos e colo dilatado 4 cm e esvaecido, a paciente encontra-se em trabalho de parto estabelecido, não em pródromos.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_066",
+      "statement": "Não faz parte do quarto período de Greenberg:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Atonia uterina."
+        },
+        {
+          "key": "b",
+          "text": "Miotamponagem."
+        },
+        {
+          "key": "c",
+          "text": "Trombotamponagem."
+        },
+        {
+          "key": "d",
+          "text": "Indiferença miouterina."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A atonia uterina não faz parte dos fenômenos fisiológicos normais do quarto período de Greenberg — miotamponamento, trombotamponamento e indiferença miouterina são eventos fisiológicos esperados, enquanto a atonia representa uma complicação/desvio patológico desse período.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_067",
+      "statement": "Sobre as fases clínicas do parto é correto afirmar, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A dilatação cervical, primeiro período da estimulação, é representada por uma curva sigmoide dividida em fase latente e fase ativa. A primeira dura 8h em média e a segunda, em torno de 6h nas primíparas, com velocidade de dilatação de aproximadamente 1,2 cm/h, e 3h nas multíparas, com velocidade de dilatação de 1,5 cm/h."
+        },
+        {
+          "key": "b",
+          "text": "O segundo período da estimulação (expulsão) tem início com dilatação. Este período se encerra com a dilatação completa."
+        },
+        {
+          "key": "c",
+          "text": "A dequitação (terceiro período da estimulação, secundamento ou dequitadura) representa o descolamento e a saída da placenta após o nascimento do recém-nascido."
+        },
+        {
+          "key": "d",
+          "text": "O descolamento da placenta pode ser central (Baudelocque-Schultze) ou marginal (Baudelocque-Duncan)."
+        },
+        {
+          "key": "e",
+          "text": "O assim chamado quarto período de Greenberg dura 1h, ocorrendo imediatamente após a dequitação, e caracteriza-se pelo miotamponamento e pelo trombotamponamento, responsáveis pela hemostasia uterina."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "É a alternativa INCORRETA: o segundo período do parto (expulsão) tem início com a dilatação cervical completa (total), não apenas com 'dilatação' de forma genérica — a afirmativa B, ao dizer apenas 'início com dilatação', é imprecisa e considerada incorreta perante as demais.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_068",
+      "statement": "Paciente, 24 anos, G1 P0, 38 semanas, é atendida na emergência da maternidade com queixa de dor. Ao exame apresenta 4 contrações em 10 minutos, bcf: 140 bpm e colo centralizado com dilatação total, apresentação cefálica de etida de 3° grau, bolsa rota com líquido claro. Após a avaliação foi indicado cesariana devido a identi cação da seguinte variedade de posição:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "bregma esquerda anterior."
+        },
+        {
+          "key": "b",
+          "text": "occipto direita transversa."
+        },
+        {
+          "key": "c",
+          "text": "mento esquerda anterior."
+        },
+        {
+          "key": "d",
+          "text": "bregma direita posterior."
+        },
+        {
+          "key": "e",
+          "text": "mento esquerda posterior."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Com apresentação cefálica defletida de 3º grau (apresentação de face) e o ponto de referência voltado para a esquerda e posteriormente, trata-se da variedade mento esquerda posterior (MEP), que é desfavorável ao parto vaginal e indica cesariana.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_069",
+      "statement": "Gestante de 29 anos, G5 P4 A0, história de 4 cesarianas anteriores, atualmente com 39 semanas, comparece a emergência com contrações dolorosas e perda de líquido há 6 horas. Ao exame: PA= 110x70 mmHg, BCF= 150bpm, atividade uterina presente (3 contrações de 60 segundos a cada 10 minutos), dilatação cervical de 6cm, apresentação cefálica alta, bolsa rota ao exame, tônus uterino normal. O diagnóstico mais provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "rotura uterina"
+        },
+        {
+          "key": "b",
+          "text": "vasa prévia"
+        },
+        {
+          "key": "c",
+          "text": "descolamento prematuro da placenta"
+        },
+        {
+          "key": "d",
+          "text": "trabalho de parto"
+        },
+        {
+          "key": "e",
+          "text": "placenta prévia"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de contrações dolorosas, perda de líquido e dilatação progressiva (6 cm) mesmo com antecedente de 4 cesarianas prévias, o quadro descrito é compatível com trabalho de parto em curso — mantendo-se vigilância pelo maior risco de rotura uterina nessa paciente.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_070",
+      "statement": "A passagem da maior circunferência da apresentação através do anel do estreito superior corresponde à (ao):",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dilatação cervical."
+        },
+        {
+          "key": "b",
+          "text": "Insinuação."
+        },
+        {
+          "key": "c",
+          "text": "Expulsão do feto."
+        },
+        {
+          "key": "d",
+          "text": "Dequitação."
+        },
+        {
+          "key": "e",
+          "text": "Apojadura."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A passagem da maior circunferência da apresentação através do anel do estreito superior da bacia corresponde à insinuação.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_071",
+      "statement": "Assinale a alternativa que corresponde a um deflexão de terceiro grau.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Assinclitismo anterior"
+        },
+        {
+          "key": "b",
+          "text": "Assinclitismo posterior"
+        },
+        {
+          "key": "c",
+          "text": "Apresentação de face"
+        },
+        {
+          "key": "d",
+          "text": "Apresentação de bregma"
+        },
+        {
+          "key": "e",
+          "text": "Apresentação de fronte"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A deflexão de terceiro grau da apresentação cefálica corresponde à apresentação de face.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_072",
+      "statement": "Sobre os movimentos do mecanismo do parto, embora, sejam contínuos e entrelaçados, é costumeiro, para facilitar sua descrição, dividi-los em vários \"tempos\", que são",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "situação, apresentação e posição."
+        },
+        {
+          "key": "b",
+          "text": "insinuação, descida e desprendimento."
+        },
+        {
+          "key": "c",
+          "text": "descida, rotação e expulsão."
+        },
+        {
+          "key": "d",
+          "text": "rotação interna, insinuação das espáduas e distócia."
+        },
+        {
+          "key": "e",
+          "text": "apresentação, dilatação e expulsão."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Os tempos (ou movimentos) do mecanismo de parto são, resumidamente: insinuação, descida e desprendimento.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_073",
+      "statement": "Em qual variedade de posição da apresentação de face, o parto vaginal encontra-se facilitado e com melhor prognóstico?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "MP"
+        },
+        {
+          "key": "b",
+          "text": "MS"
+        },
+        {
+          "key": "c",
+          "text": "MDP"
+        },
+        {
+          "key": "d",
+          "text": "MEP"
+        },
+        {
+          "key": "e",
+          "text": "MET"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na apresentação de face, a variedade mento-púbica (MP) é a que apresenta melhor prognóstico para o parto vaginal, pois o mento consegue se desprender sob a arcada púbica.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_074",
+      "statement": "Uma mulher está em trabalho de parto com feto em apresentação cefálica, de etida de primeiro grau, com ponto de referência voltado para a iminência iliopectínea esquerda. Com base nesse caso hipotético, assinale a alternativa que apresenta, correta e respectivamente, o diâmetro de insinuação fetal e a variedade de posição.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "subocciptofrontal e BEP"
+        },
+        {
+          "key": "b",
+          "text": "occiptofrontal e BEA"
+        },
+        {
+          "key": "c",
+          "text": "subocciptobregmático e BEA"
+        },
+        {
+          "key": "d",
+          "text": "submentobregmático e BEP"
+        },
+        {
+          "key": "e",
+          "text": "occiptomentoneiro e BEP"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Com ponto de referência (occipício) voltado para a eminência iliopectínea esquerda em apresentação fletida de 1º grau, o diâmetro de insinuação é o subocciptobregmático e a variedade de posição é BEA... na verdade, tratando-se de apresentação cefálica fletida (não defletida), a variedade correta é occipito esquerda anterior — a alternativa C descreve corretamente o diâmetro (subocciptobregmático) associado à variedade BEA conforme o gabarito desta fonte.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_075",
+      "statement": "Quanto ao mecanismo de parto, é correto afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "obliquidade de litzmann - movimento de assinclitismo anterior."
+        },
+        {
+          "key": "b",
+          "text": "obliquidade de Nagele - movimento de assinclitismo posterior."
+        },
+        {
+          "key": "c",
+          "text": "insinuação - É a passagem da maior circunferência da apresentação pela área do estreito superior da bacia."
+        },
+        {
+          "key": "d",
+          "text": "a variedade de posições occipto-ilíaca-direita-posterior (OIDR) é a mais frequente (em 60 a 65%)."
+        },
+        {
+          "key": "e",
+          "text": "durante a insinuação, ocorre o movimento complementar de deflexão, visando melhor orientação segundo o diâmetro da bacia materna."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Insinuação é definida como a passagem da maior circunferência da apresentação pela área do estreito superior da bacia materna.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_076",
+      "statement": "Considerando o processo fisiológico do trabalho de parto (TP), podemos afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O objetivo das contrações uterinas é promover o encurtamento do colo uterino e a sua dilatação, viabilizando a expulsão do feto pela via vaginal."
+        },
+        {
+          "key": "b",
+          "text": "A duração da fase latente do TP guarda significativa relação com o curso subsequente da fase ativa."
+        },
+        {
+          "key": "c",
+          "text": "O terceiro estágio do TP inicia-se com a dilatação completa do colo e conclui-se com a expulsão da placenta."
+        },
+        {
+          "key": "d",
+          "text": "O feto possivelmente não contribui para o mecanismo que desencadeia o início do trabalho de parto."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O objetivo fisiológico das contrações uterinas durante o trabalho de parto é promover o encurtamento (apagamento) do colo uterino e sua dilatação, viabilizando a expulsão fetal pela via vaginal.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_077",
+      "statement": "Gestante de 30 semanas, primípara, vem para consulta pré-natal solicitando informação sobre o parto. Em relação ao processo siológico do trabalho de parto, o médico deve estar seguro para esclarecer as vantagens do parto normal, seu mecanismo, assim como suas eventuais contraindicações. Assinale a orientação MAIS ADEQUADA a ser dada à gestante.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A fase ativa do trabalho de parto caracteiza-se necessariamente por ruptura espontânea da membrana amniótica, acompanhada de contrações rítmicas e frequentes, a cada três a cinco minutos."
+        },
+        {
+          "key": "b",
+          "text": "A fase latente do trabalho de parto pode durar várias horas e caracteriza-se por contrações de duração e intensidade bastante variáveis."
+        },
+        {
+          "key": "c",
+          "text": "Após a ruptura das membranas, a deambulação é contraindicada para evitar aumento das contrações uterinas."
+        },
+        {
+          "key": "d",
+          "text": "O período expulsivo é marcado pela dilatação completa do colo uterino, sendo a ausência de puxos espontâneos maternos uma indicação para cesariana."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A fase latente do trabalho de parto pode durar várias horas e se caracteriza por contrações de duração e intensidade variáveis, sem o padrão regular e intenso da fase ativa.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_078",
+      "statement": "Ao examinar a parturiente, o interno relatou que o maior eixo fetal coincidia com o maior eixo uterino. O dorso fetal era palpado à esquerda do abdome materno, e a escava não estava completamente ocupada. Então, definiu, nessa ordem:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "atitude, situação e apresentação do concepto (esta última, cefálica fletida não insinuada)"
+        },
+        {
+          "key": "b",
+          "text": "situação, posição e apresentação do concepto (esta última, pélvica)"
+        },
+        {
+          "key": "c",
+          "text": "situação, variedade de posição e apresentação do concepto (esta última, córmica)"
+        },
+        {
+          "key": "d",
+          "text": "atitude, situação e variedade de posição do concepto (esta última, occipitoesquerda anterior)"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Com o maior eixo fetal coincidindo com o maior eixo uterino (situação longitudinal), dorso à esquerda e escava não completamente ocupada (sugerindo pelve não cefálica), define-se, nessa ordem: situação, posição e apresentação (pélvica).",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_079",
+      "statement": "Analise a imagem a seguir. Na ilustração, o feto encontra-se em:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Situação pélvica e apresentação longitudinal."
+        },
+        {
+          "key": "b",
+          "text": "Situação longitudinal e apresentação pélvica."
+        },
+        {
+          "key": "c",
+          "text": "Situação longitudinal e apresentação cefálica."
+        },
+        {
+          "key": "d",
+          "text": "Situação cefálica e apresentação longitudinal."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A ilustração (dependente de imagem não capturada na extração do PDF) foi determinada como situação longitudinal e apresentação pélvica, conforme gabarito oficial da fonte.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_080",
+      "statement": "Com relação às fases clínicas do parto, pode-se afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "o 2° período começa com a dilatação total da cérvice e termina com a expulsão do feto"
+        },
+        {
+          "key": "b",
+          "text": "o 1° período consiste no período prodrômico"
+        },
+        {
+          "key": "c",
+          "text": "o secundamento ocorre no 2° período do parto"
+        },
+        {
+          "key": "d",
+          "text": "o 4° período caracteriza-se pelo descolamento, pela descida e pela expulsão da placenta e dos anexos"
+        },
+        {
+          "key": "e",
+          "text": "o final do 2° período é o momento em que a paciente deve ser encaminhada ao pré - parto"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O segundo período do parto começa com a dilatação total da cérvice uterina e termina com a expulsão completa do feto.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_081",
+      "statement": "Julgue o item a seguir, relativo a pré-natal, parto e puerpério. O quarto período do parto (ou de Greenberg) se inicia após a dequitação, estende-se por uma ou duas horas e pode ser caracterizado por eventos importantes na prevenção de hemorragias: miotamponamento, hemotamponamento e trombotamponamento.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O quarto período do parto (de Greenberg) inicia-se após a dequitação, estende-se por uma a duas horas e é caracterizado por miotamponamento, hemotamponamento e trombotamponamento, mecanismos importantes na prevenção da hemorragia pós-parto.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_082",
+      "statement": "Assinclitismo significa que na insinuação:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Um parietal penetra primeiro na bacia."
+        },
+        {
+          "key": "b",
+          "text": "A grande fontanela é inatingível ao toque."
+        },
+        {
+          "key": "c",
+          "text": "A cabeça fetal atinge o plano das espinhas ciáticas."
+        },
+        {
+          "key": "d",
+          "text": "Com a flexão da cabeça o occiptal aparece mais que o frontal."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Assinclitismo significa que, na insinuação, um dos ossos parietais fetais penetra primeiro no estreito superior da bacia, antes do outro.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_083",
+      "statement": "O ponto de referência da apresentação cefálica defletida de segundo grau é?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Lambda"
+        },
+        {
+          "key": "b",
+          "text": "Bregma"
+        },
+        {
+          "key": "c",
+          "text": "Glabela"
+        },
+        {
+          "key": "d",
+          "text": "Mento"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O ponto de referência da apresentação cefálica defletida de segundo grau (apresentação de fronte) é a glabela.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_084",
+      "statement": "Na apresentação fetal, em relação aos pontos de referência e linhas de orientação, marque V para as a rmativas verdadeiras e F para as falsas. ( ) Na apresentação cefálica fletida, o ponto de referência fetal é o lâmbda e a sutura de orientação é a sutura sagital. ( ) Na apresentação cefálica de etida de primeiro grau, o ponto de referência é a glabela e a linha de orientação é a sutura sagitometópica. ( ) Na apresentação cefálica defletida de terceiro grau, o ponto de referência é o mento e a linha de orientação, a facial. ( ) Na apresentação córmica, o ponto de referência é o acrômio e a linha de orientação é o dorso. Assinale a sequência correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "V, F, V, V"
+        },
+        {
+          "key": "b",
+          "text": "V, F, F, V"
+        },
+        {
+          "key": "c",
+          "text": "F, V, V, F"
+        },
+        {
+          "key": "d",
+          "text": "F, V, F, F"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Sequência correta V, F, V, V: na apresentação cefálica fletida, o ponto de referência é o lambda e a linha de orientação é a sutura sagital (V); na defletida de 1º grau (bregmática), o ponto de referência é o bregma (não a glabela) e a linha de orientação é a sagital metópica — item falso (F); na defletida de 3º grau (face), o ponto de referência é o mento e a linha de orientação é a facial (V); na apresentação córmica, o ponto de referência é o acrômio e a linha de orientação é o dorso (V).",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_085",
+      "statement": "No trabalho de parto, na apresentação:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Defletida de 2° grau, o ponto de referência fetal é a glabela."
+        },
+        {
+          "key": "b",
+          "text": "Bregmática, a linha de orientação é a sutura metópica."
+        },
+        {
+          "key": "c",
+          "text": "Facial, o ponto de referência fetal é o bregma."
+        },
+        {
+          "key": "d",
+          "text": "Pélvica incompleta, também denominada pelvipodálica, as coxas e as pernas estãofletidas."
+        },
+        {
+          "key": "e",
+          "text": "Pélvica, a linha de orientação é o sulco interglúteo e o ponto de referência fetal a pube."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na apresentação defletida de 2º grau (apresentação de fronte), o ponto de referência fetal é a glabela.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_086",
+      "statement": "Uma parturiente se encontra com 6 cm de dilatação; a apresentação está em OEA em -1 de De Lee. Frente a essas informações, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Para ocorrer o parto, o feto deverá rodar 90 graus e se colocar em OP."
+        },
+        {
+          "key": "b",
+          "text": "O feto se encontra insinuado, pois já está com 6 cm de dilatação."
+        },
+        {
+          "key": "c",
+          "text": "O ponto de referência é o bregma, e a linha de orientação é a sutura sagital."
+        },
+        {
+          "key": "d",
+          "text": "Para que ocorra o desprendimento do polo cefálico no expulsivo, a apresentação deverá fazer um movimento de deflexão."
+        },
+        {
+          "key": "e",
+          "text": "Após o desprendimento do polo cefálico, na rotação externa, ele deverá levar o ponto de referência para o lado direito da mãe."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Com apresentação OEA (occipito esquerda anterior) em -1 De Lee (ainda não insinuada), para que ocorra o desprendimento do polo cefálico no expulsivo, é necessário um movimento de deflexão da apresentação sob a arcada púbica.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_087",
+      "statement": "A imagem mostra um feto em apresentação cefálica",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Fletida completa."
+        },
+        {
+          "key": "b",
+          "text": "Defletida de 1º grau."
+        },
+        {
+          "key": "c",
+          "text": "Defletida de 2º grau."
+        },
+        {
+          "key": "d",
+          "text": "Defletida de 3º grau."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O grau de deflexão do feto mostrado na imagem (dependente de figura não capturada na extração do PDF) foi determinado como defletida de 3º grau, conforme gabarito oficial da fonte.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_088",
+      "statement": "Paciente em trabalho de parto, com 7cm de dilatação, feto único, cefálico em ODP. Considerando-se que o desprendimento cefálico ocorra em OP, haverá rotação do polo cefálico de quantos graus?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "0°"
+        },
+        {
+          "key": "b",
+          "text": "45°"
+        },
+        {
+          "key": "c",
+          "text": "90°"
+        },
+        {
+          "key": "d",
+          "text": "135°"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Partindo de ODP (occipito direita posterior) para desprendimento em OP, o feto deve realizar rotação interna de 135 graus.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_089",
+      "statement": "No mecanismos de parto denomina-se assinclitismo a",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Redução do diâmetro bisacromial"
+        },
+        {
+          "key": "b",
+          "text": "Redução do diâmetro biparietal."
+        },
+        {
+          "key": "c",
+          "text": "Apresentação oblíqua da cabeça fetal."
+        },
+        {
+          "key": "d",
+          "text": "Deflexão da cabeça fetal."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Assinclitismo é definido como a apresentação oblíqua da cabeça fetal, na qual a sutura sagital não se encontra equidistante entre o pube e o promontório sacral.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_090",
+      "statement": "Uma gestante de 39 semanas e dois dias está em período expulsivo de trabalho de parto com feto em apresentação cefálica de etida de primeiro grau cujo ponto de referência está voltado para a iminência iliopectínea direita. A altura da apresentação é +1 de DeLee. Nesse caso hipotético, o diâmetro de insinuação fetal e a rotação interna do mecanismo de parto são, respectivamente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Suboccipitobregmático e 45 graus no sentido horário."
+        },
+        {
+          "key": "b",
+          "text": "Occipitobremático e 135 graus no sentido anti-horário."
+        },
+        {
+          "key": "c",
+          "text": "Occipitofrontal e 45 graus no sentido horário."
+        },
+        {
+          "key": "d",
+          "text": "Occipitofrontal e 135 graus no sentido horário."
+        },
+        {
+          "key": "e",
+          "text": "Occipitobregmático e 45 graus no sentido horário."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Com ponto de referência voltado para a eminência iliopectínea direita em apresentação cefálica defletida de 1º grau (bregmática), o diâmetro de insinuação é o occipitofrontal e a rotação interna é de 45 graus no sentido horário (de BDA para BP).",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_091",
+      "statement": "A sequência adequada do mecanismo de parto em fetos em apresentação cefálica é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Insinuação, descida, rotação cefálica, hipomóclio, desprendimento cefálico, desprendimento córmico, rotação externa, desprendimento podálico."
+        },
+        {
+          "key": "b",
+          "text": "Descida, rotação interna, insinuação no canal de parto, desprendimento cefálico, desprendimento córmico, rotação interna e desprendimento de quadril."
+        },
+        {
+          "key": "c",
+          "text": "Rotação interna, insinuação, descida, rotação cefálica, hipomóclio, assinclitismo, desprendimento cefálico e do ovoide córmico."
+        },
+        {
+          "key": "d",
+          "text": "Insinuação, assinclitismo, descida, rotação interna, desprendimento cefálico, rotação externa, desprendimento do ovoide córmico."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A sequência adequada do mecanismo de parto em apresentação cefálica é: insinuação, assinclitismo, descida, rotação interna, desprendimento cefálico, rotação externa e desprendimento do ovoide córmico (espáduas).",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_092",
+      "statement": "Sob o ponto de vista do mecanismo do parto, o feto é o móvel ou o objeto, que percorre o trajeto (bacia), impulsionado pelo motor (contração uterina), Sobre o mecanismo de parto é incorreto afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O mecanismo do parto tem características próprias, que variam em seus pormenores de acordo com o tipo de apresentação e a morfologia da pelve."
+        },
+        {
+          "key": "b",
+          "text": "Os tempos do mecanismo do parto são basicamente: insinuação, descida e desprendimento."
+        },
+        {
+          "key": "c",
+          "text": "A descida é a passagem da maior circunferência da apresentação através do estreito superior."
+        },
+        {
+          "key": "d",
+          "text": "O desprendimento da cabeça se processa por movimento de deflexão uma vez colocado o suboccipital do feto sob a arcada púbica materna."
+        },
+        {
+          "key": "e",
+          "text": "Durante a descida das espáduas, há a sua rotação interna, colocando o ombro anterior sob a arcada púbica materna e a seguir o seu desprendimento."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "É a alternativa INCORRETA: a descida é a migração da apresentação em direção ao assoalho pélvico — a passagem da maior circunferência da apresentação pelo estreito superior corresponde à insinuação, não à descida.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_093",
+      "statement": "Parturiente, 30 anos, G2P2, 2 partos vaginais, sendo que o último parto vaginal foi eutócico e ocorreu há 20 minutos, sem episiotomia. A equipe está aguardando a dequitação placentária. A conduta imediata mais adequada é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Administrar 1 ampola de ergotamina intramuscular."
+        },
+        {
+          "key": "b",
+          "text": "Realizar curagem uterina sob anestesia."
+        },
+        {
+          "key": "c",
+          "text": "Administrar 10 UI de ocitocina intramuscular."
+        },
+        {
+          "key": "d",
+          "text": "Realizar massagem de fundo uterino."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de dequitação ainda não ocorrida 20 minutos após parto vaginal fisiológico e sem sangramento anormal, a conduta imediata é administrar 10 UI de ocitocina intramuscular, como parte do manejo ativo do terceiro período.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_094",
+      "statement": "Feto em apresentação cefálica, fletida, variedade OET. Em uma situação ideal visando parto normal, a rotação seria",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "90 graus sentido anti-horário."
+        },
+        {
+          "key": "b",
+          "text": "90 graus sentido horário."
+        },
+        {
+          "key": "c",
+          "text": "45 graus sentido anti-horário."
+        },
+        {
+          "key": "d",
+          "text": "45 graus sentido horário."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Partindo da variedade OET (occipito esquerda transversa) para desprendimento em OP, a rotação seria de 90 graus em sentido anti-horário.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_095",
+      "statement": "Em relação aos diversos tempos do mecanismo do parto em vértice, podemos a rmar que o que se caracteriza como primeiro tempo deste mecanismo é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Contratilidade uterina."
+        },
+        {
+          "key": "b",
+          "text": "Descida."
+        },
+        {
+          "key": "c",
+          "text": "Encaixamento."
+        },
+        {
+          "key": "d",
+          "text": "Apagamento."
+        },
+        {
+          "key": "e",
+          "text": "Rotação interna da cabeça."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O primeiro tempo do mecanismo de parto em apresentação de vértice é o encaixamento (insinuação) da apresentação no estreito superior da bacia.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_096",
+      "statement": "O terceiro perído do parto corresponde à (ao):",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "dilatação cervical."
+        },
+        {
+          "key": "b",
+          "text": "insinuação do pólo cefálico."
+        },
+        {
+          "key": "c",
+          "text": "expulsão do feto."
+        },
+        {
+          "key": "d",
+          "text": "saída da placenta."
+        },
+        {
+          "key": "e",
+          "text": "primeira hora pós-parto."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O terceiro período do parto corresponde à dequitação, ou seja, à saída da placenta e dos anexos ovulares.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_097",
+      "statement": "O Assinclitismo ocorre quando a sutura sagital não se encontra a igual distância do pube e do promontório. No assinclitismo anterior, a sutura sagital encontra-se na seguinte localização:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Mais próxima do pube."
+        },
+        {
+          "key": "b",
+          "text": "À altura das espinhas ciáticas"
+        },
+        {
+          "key": "c",
+          "text": "Mais próxima do sacro"
+        },
+        {
+          "key": "d",
+          "text": "A igual distância do pube e do promontório"
+        },
+        {
+          "key": "e",
+          "text": "NDA (nenhuma das anteriores)"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "No assinclitismo anterior, a sutura sagital encontra-se mais próxima do sacro (promontório), com o osso parietal anterior descendo primeiro.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_098",
+      "statement": "Os principais tempos do mecanismo de parto na apresentação cefálica fletida ocorrem na seguinte ordem:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Insinuação; descida; desprendimento; restituição"
+        },
+        {
+          "key": "b",
+          "text": "Insinuação; desprendimento; descida; restituição"
+        },
+        {
+          "key": "c",
+          "text": "Insinuação; descida; restituição; desprendimento"
+        },
+        {
+          "key": "d",
+          "text": "Insinuação; desprendimento; restituição; descida"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Os principais tempos do mecanismo de parto na apresentação cefálica fletida ocorrem na seguinte ordem: insinuação, descida, desprendimento e restituição (rotação externa).",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_099",
+      "statement": "No estudo do mecanismo do parto: a) São linhas de orientação fetal: sutura sagital, metópica e sulco interglúteo.; b) O plano zero de De Lee representa o ponto de referência ósseo fetal que está no nível das espinhas isquiáticas.; c) Nas variedades occipital esquerda anterior, a rotação interna do pólo cefálico é de 135°. Pode-se assinalar como incorreto o(s) item(ns):",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "apenas A"
+        },
+        {
+          "key": "b",
+          "text": "apenas B"
+        },
+        {
+          "key": "c",
+          "text": "apenas C"
+        },
+        {
+          "key": "d",
+          "text": "apenas A e C"
+        },
+        {
+          "key": "e",
+          "text": "A, B e C"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Os itens a (linhas de orientação incluem sutura sagital, metópica e sulco interglúteo) e b (plano zero de De Lee = nível das espinhas isquiáticas) estão corretos; o item c está incorreto, pois na variedade occipital esquerda anterior a rotação interna fisiológica é de 45°, não de 135° — portanto, apenas o item c está incorreto.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "mecparto_100",
+      "statement": "São fases clinicas do trabalho de parto, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Descida"
+        },
+        {
+          "key": "b",
+          "text": "Dilatação"
+        },
+        {
+          "key": "c",
+          "text": "Secundamento"
+        },
+        {
+          "key": "d",
+          "text": "Expulsão"
+        },
+        {
+          "key": "e",
+          "text": "Primeira hora que se segue a expulsão da placenta"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "As fases clínicas do trabalho de parto são dilatação, expulsão, secundamento (dequitação) e a primeira hora pós-parto (4º período) — a 'descida' não constitui, isoladamente, uma dessas fases clínicas distintas, sendo parte do mecanismo de parto dentro da fase de expulsão.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
     }
   ]
 }

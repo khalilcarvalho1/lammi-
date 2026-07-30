@@ -1,0 +1,2220 @@
+{
+  "questions": [
+    {
+      "id": "dhg_001",
+      "statement": "O gluconato de cálcio ou cloreto de cálcio 1g por via intravenosa é a medicação administrada em gestantes ou em puérperas com pré-eclâmpsia grave em uso de sulfato de magnésio. Em que condição está indicado o uso dessa medicação?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Recidiva da convulsão."
+        },
+        {
+          "key": "b",
+          "text": "Ausência de reflexo patelar."
+        },
+        {
+          "key": "c",
+          "text": "Pico pressórico."
+        },
+        {
+          "key": "d",
+          "text": "Oligúria."
+        },
+        {
+          "key": "e",
+          "text": "Escotomas e cefaleia."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O gluconato/cloreto de cálcio é o antídoto para intoxicação por sulfato de magnésio, indicado diante da ausência de reflexo patelar (sinal precoce de intoxicação).",
+      "theme": "dheg_ec",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_002",
+      "statement": "Paciente, 15 anos, G1P0A0, com 32 semanas de gestação, com queixa de cefaleia, epigastralgia e escotomas. Exame físico: PA = 140X100mmHg; altura de fundo uterino de 32 cm, Reflexos patelares e pré-cubitais exaltados. A conduta é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Internação, corticoterapia e cesárea imediata."
+        },
+        {
+          "key": "b",
+          "text": "Internação, corticoterapia e sulfato de magnésio."
+        },
+        {
+          "key": "c",
+          "text": "Anti-hipertensivo, corticoterapia e acompanhamento ambulatorial."
+        },
+        {
+          "key": "d",
+          "text": "Internação, corticoterapia e indução com misoprostol."
+        },
+        {
+          "key": "e",
+          "text": "Internação, solicitação de rotina laboratorial, anti-hipertensivo."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de pré-eclâmpsia com sinais de gravidade (cefaleia, epigastralgia, escotomas, hiper-reflexia) em gestante de 32 semanas, a conduta é internação, corticoterapia (maturação pulmonar) e sulfato de magnésio (neuroproteção/prevenção de convulsões).",
+      "theme": "dheg_pe",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_003",
+      "statement": "Gestante, 38 semanas, desejosa de parto normal, observou há 1 dia cefaleia, edema de membros inferiores e aumento súbito da pressão arterial sistêmica, que chegou a 140 90 mmHg na admissão da maternidade. Em relação ao quadro clínico e a via de parto, recomenda-se:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Prescrição de anti-hipertensivos e parto instrumentalizado (fórceps ou vácuo) para diminuir os riscos de acidente vascular cerebral, com 39 semanas de gestação."
+        },
+        {
+          "key": "b",
+          "text": "Parto cesárea de urgência com anestesia geral."
+        },
+        {
+          "key": "c",
+          "text": "Prescrição de anti-hipertensivos e parto cesárea programado com 39 semanas."
+        },
+        {
+          "key": "d",
+          "text": "Aguardar o trabalho de parto fisiológico, fazendo exames de vitalidade fetal a cada 72 horas, e conduzir o parto vaginal em tempo oportuno."
+        },
+        {
+          "key": "e",
+          "text": "Parto via vaginal, preferencialmente, não havendo contraindicação para procedimentos de maturação cervical imediata."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Diante de pré-eclâmpsia sem sinais de gravidade a termo, a via de parto preferencial é a vaginal, não havendo contraindicação para maturação cervical imediata quando indicado.",
+      "theme": "dheg_pe",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_004",
+      "statement": "Em gestantes com risco aumentado de pré-eclâmpsia, a única droga com evidência convincente de redução desse risco é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "hidroclorotiazída"
+        },
+        {
+          "key": "b",
+          "text": "alfametildopa"
+        },
+        {
+          "key": "c",
+          "text": "ácido acetilsalicílico"
+        },
+        {
+          "key": "d",
+          "text": "prazosin"
+        },
+        {
+          "key": "e",
+          "text": "clopidogrel"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O ácido acetilsalicílico em baixa dose é a única droga com evidência convincente de redução do risco de pré-eclâmpsia em gestantes de risco aumentado.",
+      "theme": "dheg_pe",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_005",
+      "statement": "Com relação aos fenômenos hipertensivos na gravidez, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A suplementação com cálcio (carbonato de cálcio) e o uso de pequenas doses diárias de aspirina para grupos de risco são as únicas alternativas que mostraram algum grau de efetividade na profilaxia da pré-eclâmpsia."
+        },
+        {
+          "key": "b",
+          "text": "São considerados fatores de risco para o desenvolvimento de pré-eclâmpsia:tabagismo, gestação única, irmã, mãe ou avó primigestas tardias, gestação não programada e aborto anterior do mesmo pai."
+        },
+        {
+          "key": "c",
+          "text": "A droga de escolha para prevenção da eclâmpsia é a hidralazina, único fármaco com efeitos preventivos comprovados em relação às convulsões eclâmpticas e com baixo risco para determinar hipotensão."
+        },
+        {
+          "key": "d",
+          "text": "Na pré-eclâmpsia, o tratamento definitivo da enfermidade será o nascimento.Portanto, toda gestante com feto perto do termo (idade gestacional ≥ 36 sem.) deverá ser submetida à interrupção da gravidez."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A suplementação de cálcio e o uso de baixas doses de aspirina em grupos de risco são as intervenções com maior evidência de efetividade na profilaxia da pré-eclâmpsia.",
+      "theme": "dheg_ec",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_006",
+      "statement": "Primigesta, 27 anos de idade, vem para iniciar pré-natal. É hipertensa crônica diagnosticada aos 22 anos de idade, fez uso de enalapril por 3 anos e, após mudança de hábitos de vida, suspendeu o tratamento medicamentoso. Tem diabetes tipo 2, usava metformina antes de engravidar que também suspendeu. Idade gestacional de 9 semanas, assintomática. Ao exame clínico inicial, apresenta pressão arterial de 166x102mmHg, confirmada em segunda ocasião. Nesse momento, qual é a conduta com relação à pressão arterial?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tratamento medicamentoso ambulatorial."
+        },
+        {
+          "key": "b",
+          "text": "Tratamento endovenoso em regime de internação."
+        },
+        {
+          "key": "c",
+          "text": "Sulfato de magnésio em regime de urgência."
+        },
+        {
+          "key": "d",
+          "text": "Não há necessidade de tratamento pressórico."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Em gestante hipertensa crônica com PA 166x102mmHg confirmada, mesmo assintomática e em início de gestação, a conduta é iniciar tratamento anti-hipertensivo ambulatorial (não há indicação de internação ou sulfato de magnésio nesse contexto).",
+      "theme": "dheg_pe",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_007",
+      "statement": "Para prevenção de pré-eclâmpsia em primigesta de 35 anos de idade, sem comorbidades, é eficaz",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a restrição importante de sódio na dieta."
+        },
+        {
+          "key": "b",
+          "text": "a suplementação oral com ômega 3."
+        },
+        {
+          "key": "c",
+          "text": "a prescrição de heparina de baixo peso molecular."
+        },
+        {
+          "key": "d",
+          "text": "o repouso relativo no terceiro trimestre."
+        },
+        {
+          "key": "e",
+          "text": "a suplementação de cálcio na dieta."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A suplementação de cálcio na dieta é medida eficaz na prevenção da pré-eclâmpsia, especialmente em populações com baixa ingesta dietética de cálcio.",
+      "theme": "dheg_pe",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_008",
+      "statement": "Uma mulher na 26ª semana de gestação é diagnosticada com hipertensão gestacional. Decide-se pelo tratamento medica- mentoso. Recomenda-se evitar o uso de drogas sabidamente capazes de causar lesão no feto, como",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "nifedipina de liberação estendida."
+        },
+        {
+          "key": "b",
+          "text": "labetalol."
+        },
+        {
+          "key": "c",
+          "text": "hidroclorotiazida."
+        },
+        {
+          "key": "d",
+          "text": "alfa-metildopa."
+        },
+        {
+          "key": "e",
+          "text": "enalapril."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Os inibidores da enzima conversora de angiotensina (como o enalapril) são teratogênicos e devem ser evitados na gestação.",
+      "theme": "dheg_pe",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_009",
+      "statement": "Paciente de 19 anos é internada com 38 semanas de gestação, devido a quadro de pré-eclâmpsia leve, e, por isso, é submetida a indução do trabalho de parto, evoluindo com parto vaginal sem intercorrências. No 1º dia pós-parto, solicita-se avaliação devido a pico hipertensivo (PA = 170 x 110mmHg). No momento da avaliação, constata-se crise convulsiva tônico-clônica. Nesse caso, a droga de escolha para tratamento da crise convulsiva deve ser:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "sulfato de magnésio"
+        },
+        {
+          "key": "b",
+          "text": "hidralazina"
+        },
+        {
+          "key": "c",
+          "text": "diazepam"
+        },
+        {
+          "key": "d",
+          "text": "fenitoína"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O sulfato de magnésio é a droga de escolha para tratamento e prevenção de crises convulsivas na eclâmpsia, inclusive quando esta ocorre no puerpério.",
+      "theme": "dheg_ec",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_010",
+      "statement": "Primigesta, 22 anos, com 32 semanas de gestação, procura o Pronto Socorro com queixa de cefaléia de forte intensidade, dor epigástrica e escotomas, com inicio há duas horas. Ao exame observa-se: edema de membros inferiores, pressão arterial de 180X 110 mmHG, altura uterina de 32 cms., batimento cardíaco fetal de 130 bpm. Quais são, respectivamente o diagnóstico e a conduta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pré-eclampsia- Administrar Hidralazina 5mg EV, iniciar Sulfato de Magnésio 4g dedose de ataque e a seguir dose de manutenção, iniciar Betametasona 12mg IM."
+        },
+        {
+          "key": "b",
+          "text": "Eclampsia - Administrar Hidralazina 5mg EV, iniciar Sulfato de Magnésio 4g de dose deataque e a seguir dose de manutenção, iniciar Betametasona 12mg IM."
+        },
+        {
+          "key": "c",
+          "text": "Síndrome HELLP- Administrar Hidralazina 5mg EV, iniciar Sulfato de Magnésio 4g einterromper a gestação."
+        },
+        {
+          "key": "d",
+          "text": "Síndrome HELLP- Administrar Hidralazina 5mg EV, iniciar Sulfato de Magnésio 4g einterromper a gestação."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de pré-eclâmpsia com sinais de gravidade (cefaleia, epigastralgia, escotomas) com 32 semanas, a conduta é hidralazina para controle pressórico agudo, sulfato de magnésio (dose de ataque e manutenção) para neuroproteção/prevenção de convulsões, e corticoterapia para maturação pulmonar fetal.",
+      "theme": "dheg_hellp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_011",
+      "statement": "A doença hipertensiva especí ca da gestação (DHEG) é uma das complicações mais frequentes da gravidez. Embora de prognóstico favorável nos casos leves, suas formas mais graves, como a eclâmpsia e a síndrome HELLP, constituem-se numa das principais causas de morbidade e mortalidade materna e perinatal. Analise as assertivas abaixo. I. A DHEG caracteriza-se pela presença de hipertensão arterial, edema e/ou proteinúria a partir de 18 semanas de gestação, em pacientes previamente normotensas. II. De ne-se hipertensão arterial quando a pressão arterial sistólica é igual ou superior a 130mmHg e/ou a pressão arterial diastólica é igual ou superior a 80mmHg, adotando-se como pressão arterial diastólica a fase V de Korotko (desaparecimento do som) com a paciente sentada, sendo essas medidas confirmadas após 4 horas de repouso. III. Considera-se proteinúria patológica a presença de 100mg de proteínas excretadas na urina coletada durante 24 horas. IV. A gestante de risco para DHEG pode ser identi cada pela presença de fatores epidemiológicos e clínicos. A maioria dos casos (75%) ocorre em mulheres nulíparas. V. Classicamente, os estudos epidemiológicos demonstram maior distribuição de casos de DHEG nos extremos reprodutivos da vida da mulher, ou seja, abaixo dos 18 e acima dos 40 anos. Estão corretas apenas as alternativas",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I e III."
+        },
+        {
+          "key": "b",
+          "text": "I e IV."
+        },
+        {
+          "key": "c",
+          "text": "II e IV."
+        },
+        {
+          "key": "d",
+          "text": "III e V."
+        },
+        {
+          "key": "e",
+          "text": "IV e V."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Estão corretas as afirmativas IV (a maioria dos casos de DHEG, cerca de 75%, ocorre em nulíparas) e V (maior distribuição nos extremos reprodutivos, abaixo de 18 e acima de 40 anos) — os demais itens contêm imprecisões quanto aos critérios diagnósticos exatos.",
+      "theme": "dheg_hellp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_012",
+      "statement": "Mulher de 28 anos, G2P1, com 29 semanas de gestação vem se queixando de astenia há uma semana. Histórico antenatal sem intercorrências, exceto por uma cistite que foi tratada com nitrofurantoína por 7 dias há duas semanas. A gestante refere mudança na coloração da urina que cou mais escura durante a última semana. Ao exame: PA 100/60 mmHg, Frequência cardíaca 80 bpm e afebril. Exame da glândula tireoide normal à palpação. Ausculta cardíaca e pulmonar normais. Fundo uterino compatível coma idade gestacional. Batimentos cardíacos fetais entre 130 e 140 bpm. Gestante apresentando leve icterícia. O diagnóstico mais provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Anemia ferropriva."
+        },
+        {
+          "key": "b",
+          "text": "Anemia hemolítica."
+        },
+        {
+          "key": "c",
+          "text": "Síndrome HELLP"
+        },
+        {
+          "key": "d",
+          "text": "Colestase intra-hepática da gestação."
+        },
+        {
+          "key": "e",
+          "text": "Sepse."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O quadro de astenia, urina escura, icterícia leve e uso recente de nitrofurantoína (fármaco associado a hemólise em predispostos) é compatível com anemia hemolítica.",
+      "theme": "dheg_hellp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_013",
+      "statement": "ABR, 40 anos, branca, casada, atualmente com idade gestacional de 28 semanas (ecogra a realizada na 8ª semana). Procurou o pronto atendimento com queixa de cefaleia occipital e nucalgia. Iniciou seu pré-natal no primeiro trimestre, HAS crônica em uso de metildopa 1,0 g ao dia, cálcio 2 g ao dia e AAS 100 mg ao dia. Realizou exames laboratoriais de rotina de pré-natal (1º e 2° trimestres) com resultados normais. G2C1 há 2 anos por pré-eclâmpsia grave, RN: 710 g, < P5, 29 semanas, óbito neonatal). Exame físico: PA: 160/115 mmHg, peso: 85 kg, FC: 84 bpm, Sat.O₂: 97%, estatura: 165 cm, IMC: 32, AU: 25 cm, BCF: 140 bpm, dinâmica uterina: ausente, toque vaginal: colo longo, grosso, posterior e impérvio. Realizada a internação, foram coletados exames laboratoriais, suspenso AAS, administrado hidralazina 5 mg EV diluído e sulfato de magnésio pelo esquema de Pritchard. Exames laboratoriais: ácido úrico: 6,2 mg/dL, LDH = 400 U/L, creatinina: 0,9 mg%, plaquetas: 204.000/mm3. Hb: 13 g/dL, VG: 39%, TGO: 22 U/L. Relação proteinúria/creatinúria: 2,5 g/mol, ecogra a com Doppler 28 semanas: PFE: 750g, P10, ILA: 75 mm, artérias uterinas com incisuras protodiastólicas bilaterais, o IR da artéria umbilical: 0,70 e IR da artéria cerebral média: 0,80. Relação U/C < 1,0, ducto venoso: IP < 1,5 e onda A presente. Cardiotocogra a normal. Evoluiu assintomática, pressão arterial bem controlada, estabilizada por 24 horas e vitalidade fetal permaneceu normal. Qual é a conduta obstétrica correta nesse momento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Encaminhar à enfermaria de alto risco, prescrever corticoide, manter a metildopa, suspender o sulfato de magnésio, realizar exames laboratoriais de 48/48 horas e verificar vitalidade fetal diariamente com o objetivo de alcançar a 37ª semana."
+        },
+        {
+          "key": "b",
+          "text": "Prescrever corticosteroide antenatal, sulfato de magnésio em bomba, nifedipino 10 mg por via sublingual de 8/8 horas e proceder à realização da cesariana em até 48 horas, sem controle materno-fetal obtido."
+        },
+        {
+          "key": "c",
+          "text": "Manter a internação, prescrever sulfato de magnésio em bomba, repetir os exames laboratoriais, verificar vitalidade fetal e prescrever misoprostol por um máximo de 12 horas."
+        },
+        {
+          "key": "d",
+          "text": "Realizar cesariana de imediato."
+        },
+        {
+          "key": "e",
+          "text": "Dar alta, sem a realização do parto, realizar monitorização e tratamento ambulatorial da PA, repetir exames laboratoriais, verificar vitalidade fetal e retornos semanais."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de pré-eclâmpsia grave com boa resposta ao tratamento, estabilização pressórica e vitalidade fetal preservada por 24 horas, mantendo-se a paciente com idade gestacional distante do termo (28 semanas), a conduta é conduta expectante em enfermaria de alto risco, mantendo corticoide, metildopa, suspendendo o sulfato de magnésio (já cumprido o ciclo agudo) e monitorização laboratorial/fetal seriada, buscando prolongar a gestação com segurança.",
+      "theme": "dheg_pe",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_014",
+      "statement": "Primigesta, 29 anos, idade gestacional de 37 semanas e dois dias é atendida na maternidade por elevação dos níveis pressóricos nos últimos dois dias. Pré-natal sem intercorrências até essa data. Ao exame físico, pressão arterial: 150/90mmHg (em duas medidas com intervalo de quatro horas), medida do fundo uterino: 32cm, batimento cardíaco fetal: 150bpm, colo uterino fechado, propedêutica de Síndrome HELLP sem alterações e relação proteína/creatinina urinária de 0,4. A conduta MAIS ADEQUADA é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "iniciar metildopa e encaminhar ao pré-natal de alto risco."
+        },
+        {
+          "key": "b",
+          "text": "iniciar metildopa e propor o parto com 39 semanas de gravidez."
+        },
+        {
+          "key": "c",
+          "text": "internar e coletar urina para dosar proteinúria de 24 horas."
+        },
+        {
+          "key": "d",
+          "text": "internar e indicar a resolução da gravidez."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de pré-eclâmpsia com sinais de gravidade em idade gestacional próxima ao termo (37 semanas e 2 dias), a conduta mais adequada é internar e indicar a resolução da gravidez.",
+      "theme": "dheg_hellp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_015",
+      "statement": "A lesão histopatológica renal mais específica da pré-eclâmpsia, considerada patognomônica por muitos autores, é a",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "glomerulonefrite difusa aguda."
+        },
+        {
+          "key": "b",
+          "text": "endoteliose capilar gromerular."
+        },
+        {
+          "key": "c",
+          "text": "microangiopatia trombótica."
+        },
+        {
+          "key": "d",
+          "text": "glomeruloesclerose focal."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A endoteliose capilar glomerular é a lesão histopatológica renal considerada patognomônica da pré-eclâmpsia.",
+      "theme": "dheg_pe",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_016",
+      "statement": "Uma gestante com 35 semanas de idade gestacional dá entrada no pronto atendimento obstétrico com queixa de cefaleia intensa e \"\"visão embaçada\"\". Notou ainda que vem urinando pouco ao longo dos últimos dois dias. Ao exame, não há dinâmica uterina, BCF = 90 bpm, e o colo é grosso, pérvio para uma polpa digital ao toque vaginal. Apresenta PA = 160 mmHg x 110 mmHg em duas aferições, frequência cardíaca = 102 bpm, frequência respiratória = 20 ipm e SatO₂ = 97% em ar ambiente. Amostra isolada de urina com 3+ de proteinúria. Considerando esse caso clínico e os conhecimentos médicos correlatos, julgue o item a seguir. Caso os exames complementares evidenciassem esquizócitos, LDH > 600 UI/L, AST > 70 UI/L e plaquetas < 160.000/mm³, estaria confirmada a síndrome de HELLP.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Os critérios laboratoriais citados (esquizócitos, LDH>600, AST>70, plaquetas<160.000 — embora o corte clássico seja <100.000) confirmariam, sim, o diagnóstico de síndrome HELLP neste contexto clínico compatível.",
+      "theme": "dheg_hellp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_017",
+      "statement": "Uma gestante com 35 semanas de idade gestacional dá entrada no pronto atendimento obstétrico com queixa de cefaleia intensa e \"\"visão embaçada\"\". Notou ainda que vem urinando pouco ao longo dos últimos dois dias. Ao exame, não há dinâmica uterina, BCF = 90 bpm, e o colo é grosso, pérvio para uma polpa digital ao toque vaginal. Apresenta PA = 160 mmHg x 110 mmHg em duas aferições, frequência cardíaca = 102 bpm, frequência respiratória = 20 ipm e SatO₂ = 97% em ar ambiente. Amostra isolada de urina com 3+ de proteinúria. Considerando esse caso clínico e os conhecimentos médicos correlatos, julgue o item a seguir. O manejo inicial da paciente deve incluir, obrigatoriamente, um anti-hipertensivo como hidralazina e sulfato de magnésio, atentando para sinais de intoxicação por esse último.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de pré-eclâmpsia com sinais de gravidade (cefaleia intensa, PA 160x110, oligúria, proteinúria maciça), o manejo inicial deve obrigatoriamente incluir anti-hipertensivo (hidralazina) e sulfato de magnésio, com vigilância para sinais de intoxicação por magnésio.",
+      "theme": "dheg_pe",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_018",
+      "statement": "Uma gestante com 35 semanas de idade gestacional dá entrada no pronto atendimento obstétrico com queixa de cefaleia intensa e \"visão embaçada\". Notou ainda que vem urinando pouco ao longo dos últimos dois dias. Ao exame, não há dinâmica uterina, BCF = 90 bpm, e o colo é grosso, pérvio para uma polpa digital ao toque vaginal. Apresenta PA = 160 mmHg x 110 mmHg em duas aferições, frequência cardíaca = 102 bpm, frequência respiratória = 20 ipm e SatO₂ = 97% em ar ambiente. Amostra isolada de urina com 3+ de proteinúria. Considerando esse caso clínico e os conhecimentos médicos correlatos, julgue o item a seguir. O caso deve ser classi cado como pré-eclâmpsia grave, devendo-se iniciar indução do parto vaginal com misoprostol e avaliação rigorosa de bem-estar fetal.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "É Errado: diante de pré-eclâmpsia grave com colo desfavorável (grosso, pérvio para uma polpa digital) e sofrimento fetal (BCF 90bpm), a indução com misoprostol não é a conduta adequada — a gravidade do quadro materno-fetal indica avaliação para resolução mais expedita, não indução prolongada com colo desfavorável.",
+      "theme": "dheg_pe",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_019",
+      "statement": "Gestante 15 anos, no curso de 29 semanas de gestação, apresenta-se em consulta de pré-natal referindo cefaleia, visão turva e pressão arterial de 160 x 90 mmHg mantida após decúbito lateral esquerdo. Indique a melhor conduta a ser adotada.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Encaminhar a gestante para seguimento na emergência. Solicitar avaliação laboratorial para avaliação de proteinúria, função renal e diagnóstico de síndrome HELLP. Iniciar terapia anti-hipertensiva para tratamento do pico hipertensivo com uso de nifedipina oral e vigiar bem-estar fetal. Faz-se necessário iniciar uso de sulfato de magnésio para profilaxia de convulsões."
+        },
+        {
+          "key": "b",
+          "text": "Encaminhar a gestante para seguimento na emergência. Solicitar avaliação laboratorial para avaliação de proteinúria, função renal e diagnóstico de síndrome HELLP. Iniciar terapia anti-hipertensiva para tratamento do pico hipertensivo com uso de nifedipina sublingual e vigiar bem-estar fetal. Faz-se necessário iniciar uso de sulfato de magnésio para profilaxia de convulsões."
+        },
+        {
+          "key": "c",
+          "text": "Permanecer com o seguimento pré-natal ambulatorial, com consultas mensais.Solicitar avaliação laboratorial para avaliação de proteinúria, função renal e diagnóstico de síndrome HELLP. Iniciar terapia anti-hipertensiva oral para tratamento da elevação pressórica com uso de metildopa e vigiar bem-estar fetal. Não se faz necessário iniciar uso de sulfato de magnésio para profilaxia de convulsões."
+        },
+        {
+          "key": "d",
+          "text": "Permanecer com o seguimento pré-natal ambulatorial, com consultas semanais. Não se faz necessário solicitar avaliação laboratorial para avaliação de proteinúria, função renal e diagnóstico de síndrome HELLP. Iniciar terapia anti-hipertensiva para tratamento do pico hipertensivo com uso de nifedipina oral e vigiar bem-estar fetal. Não se faz necessário iniciar uso de sulfato de magnésio para profilaxia de convulsões."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de sinais de gravidade (cefaleia, visão turva) com PA 160x90mmHg mantida, a conduta é encaminhar à emergência, avaliação laboratorial completa, iniciar anti-hipertensivo oral (nifedipina) para o pico pressórico e sulfato de magnésio para profilaxia de convulsões.",
+      "theme": "dheg_hellp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_020",
+      "statement": "Paciente de 23 anos, primigesta, 39 semanas de gestação. Trazida à maternidade por familiares referindo cefaleia, turvação visual, escotomas. Pressão arterial 190 x 130 mmHg, edema generalizado +3/+4. Assinale a alternativa com a conduta prioritária a ser realizada:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Administrar imediatamente hidralazina e avaliar evolução da pressão arterial."
+        },
+        {
+          "key": "b",
+          "text": "Encaminhar imediatamente para realizar cesariana."
+        },
+        {
+          "key": "c",
+          "text": "Administrar imediatamente diazepan."
+        },
+        {
+          "key": "d",
+          "text": "Deixar a paciente em decúbito lateral esquerdo e repetir a medida da pressão arterial após 20 minutos."
+        },
+        {
+          "key": "e",
+          "text": "Administrar imediatamente sulfato de magnésio."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Diante de PA 190x130mmHg com sinais de gravidade e edema generalizado, a conduta prioritária é administrar imediatamente sulfato de magnésio, prevenindo a evolução para eclâmpsia.",
+      "theme": "dheg_pe",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_021",
+      "statement": "Uma paciente primigesta, com 17 anos de idade e no terceiro trimestre de gestação, é trazida à Emergência Obstétrica devido a história de cefaleia intensa, seguida de epigastralgia há 40 minutos. Familiares informam que a paciente referiu turvação visual e que, após esses sintomas, apresenta-se meio \"\"aérea\"\", motivo pelo qual a trouxeram ao hospital. A gestante apresenta-se consciente, ainda referindo turvação visual e epigastralgia. Refere melhora da cefaleia. Ao exame apresenta: palidez cutâneo-mucosa (+++/4+), pressão arterial = 180 x 120 mmHg, edema em membros inferiores (++++/4+), batimentos cardiofetais (feto 1 = 120 bpm; feto 2 = 105 bpm). Com base nos dados clínico-obstétricos expostos, o diagnóstico e a conduta imediata a ser tomada são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Eclâmpsia; resolução da gestação"
+        },
+        {
+          "key": "b",
+          "text": "Síndrome HELLP; administração de dexametasona"
+        },
+        {
+          "key": "c",
+          "text": "Eminência de eclâmpsia; administração de sulfato de magnésio"
+        },
+        {
+          "key": "d",
+          "text": "Pré-eclâmpsia grave; administração de hidralazina endovenosa"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O quadro de cefaleia intensa, epigastralgia, turvação visual e alteração do sensório em gestação gemelar com PA 180x120mmHg é compatível com iminência de eclâmpsia, e a conduta é administração de sulfato de magnésio.",
+      "theme": "dheg_hellp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_022",
+      "statement": "Para uma mulher desenvolver pré-eclâmpsia, é necessário haver:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Exposição a vilosidades cariônicas de gestação tópica, ectópica ou molar."
+        },
+        {
+          "key": "b",
+          "text": "Doença renal subclínica não diagnosticada antes da gestação."
+        },
+        {
+          "key": "c",
+          "text": "Primiparidade."
+        },
+        {
+          "key": "d",
+          "text": "Relação anormal entre vilosidades coriônicas e vasos uterinos em gestação tópica."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Para o desenvolvimento de pré-eclâmpsia, é necessária a exposição a vilosidades coriônicas de tecido trofoblástico, seja em gestação tópica, ectópica ou molar.",
+      "theme": "dheg_pe",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_023",
+      "statement": "Gestante com 32 semanas de gestação dá entrada ao pronto- atendimento trazida por familiares após relato de crise convulsiva. Sem antecedente de convulsão prévia. Ao exame encontra-se em regular estado geral, agitada, com arterial de 170x110 mmHg, com BCF de 140 bpm e dinâmica uterina ausente. Nesse caso,",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "deve ser prescrito hidralazina endovenosa para controle nos níveis pressóricos."
+        },
+        {
+          "key": "b",
+          "text": "deve-se prescrever sulfato de magnésio devido ao diagnóstico de eclâmpsia e programar a resolução da gestação."
+        },
+        {
+          "key": "c",
+          "text": "deve-se deixar a paciente em decúbito lateral esquerdo para reaferir a pressão e avaliar a necessidade de prescrição de anti-hipertensivos."
+        },
+        {
+          "key": "d",
+          "text": "deve-se proceder a realização de cesárea de emergência, com anestesia geral."
+        },
+        {
+          "key": "e",
+          "text": "deve-se prescrever benzodiazepínico para controle da crise convulsiva e sedação da paciente."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de convulsão em gestante de 32 semanas com PA 170x110mmHg (relato de crise convulsiva), o diagnóstico é eclâmpsia, e a conduta é prescrever sulfato de magnésio e programar a resolução da gestação.",
+      "theme": "dheg_ec",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_024",
+      "statement": "Primigesta na 34ª semana refere dor de cabeça e visão embaçada há um dia, associadas a dois episódios de vômito. AP: sem comorbidades clínicas. Exame físico: REG, corada, edema de membros inferiores (2+/4), PA 140 x 90 mmHg. O diagnóstico e a conduta são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "pré-eclâmpsia grave; anti-hipertensivo de ação rápida."
+        },
+        {
+          "key": "b",
+          "text": "pré-eclâmpsia grave; sulfato de magnésio."
+        },
+        {
+          "key": "c",
+          "text": "eclâmpsia; benzodiazepínico."
+        },
+        {
+          "key": "d",
+          "text": "eclâmpsia; fenitoína."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de cefaleia, visão turva e vômitos sem convulsão, com PA 140x90mmHg, o diagnóstico é pré-eclâmpsia com sinais de gravidade (sintomas premonitórios), e a conduta é sulfato de magnésio para prevenção de eclâmpsia.",
+      "theme": "dheg_pe",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_025",
+      "statement": "Primigesta de 36 semanas chega ao PS com convulsões tônico-clônicas há 15 minutos. A pressão arterial é de 160 x 110mmHg, e o exame obstétrico mostra BCF normal, sem contrações uterinas e sem dilatação cervical. Deve-se administrar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Benzodiazepínico endovenoso e hidratação endovenosa."
+        },
+        {
+          "key": "b",
+          "text": "Fenitoína e Benzodiazepínicos."
+        },
+        {
+          "key": "c",
+          "text": "Sulfato de magnésio, hidralazina."
+        },
+        {
+          "key": "d",
+          "text": "Hidratação vigorosa, sulfato de magnésio e nifedipino."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de convulsões tônico-clônicas em gestante hipertensa (eclâmpsia), a conduta é administrar sulfato de magnésio (tratamento da crise) e hidralazina (controle pressórico).",
+      "theme": "dheg_ec",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_026",
+      "statement": "Primigesta de 20 anos, previamente normotensa, apresentou aumento dos níveis pressóricos com 24 semanas de gestação, associado a proteinúria (400mg em urina de 24 horas). Dentre as doenças classi cadas como Síndromes Hipertensivas da Gravidez, qual é a principal hipótese diagnóstica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pré-eclâmpsia sobrepostas à Hipertensão Crônica"
+        },
+        {
+          "key": "b",
+          "text": "Hipertensão arterial essencial"
+        },
+        {
+          "key": "c",
+          "text": "Eclâmpsia"
+        },
+        {
+          "key": "d",
+          "text": "Pré-eclâmpsia"
+        },
+        {
+          "key": "e",
+          "text": "Hipertensão gestacional"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Primigesta com hipertensão e proteinúria surgidas a partir de 20 semanas em gestante previamente normotensa caracteriza pré-eclâmpsia.",
+      "theme": "dheg_pe",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_027",
+      "statement": "A respeito da pré-eclâmpsia, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Edema, proteinúria e hipertensão são os critérios atuais da tríade clássica do diagnóstico."
+        },
+        {
+          "key": "b",
+          "text": "Quanto maior a proteinúria, maior a gravidade da doença."
+        },
+        {
+          "key": "c",
+          "text": "Hipertensão na gravidez é ainda uma das principais causas de mortalidade materna no Brasil."
+        },
+        {
+          "key": "d",
+          "text": "A convulsão, em geral, ocorre após o décimo dia do parto."
+        },
+        {
+          "key": "e",
+          "text": "A pré-eclâmplisia ocorre antes das 20 semanas de gestação."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A hipertensão na gravidez permanece uma das principais causas de mortalidade materna no Brasil.",
+      "theme": "dheg_ec",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_028",
+      "statement": "Secundigesta, com uma cesária prévia, 36 anos, em seguimento pré-natal com aumento dos níveis pressóricos desde a 10ª semana de idade gestacional, em uso diário de alfametildopa 500 mg de 8 em 8h. Os exames de comprometimento sistêmico solicitados na 12ª semana estavam normais. Comparece ao centro obstétrico com 29 semanas de gestação, com queixa de piora dos níveis pressóricos. Refere boa movimentação fetal. Nega cefaleia ou outras queixas. Ao exame: bom estado geral, pressão arterial: 160 x 110 mmHg e frequência cardíaca de 80 bpm. Abdome gravídico, altura uterina de 29 cm e batimentos cardíacos fetais de 150 bpm, sem desacelerações. Exames laboratoriais nesse momento: urina tipo 1 = proteinúria ausente, TGO = 27 U/L, concentração de hemoglobina = 12,3 g/dl, dosagem de plaquetas = 180.000 por mm³, bilirrubina total = 0,9 mg/dl e creatinina = 1,2 mg/dl. Qual o diagnóstico neste momento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hipertensão arterial crônica com pré-eclâmpsia sobreposta."
+        },
+        {
+          "key": "b",
+          "text": "Pré-eclâmpsia grave."
+        },
+        {
+          "key": "c",
+          "text": "Hipertensão arterial essencial com insuficiência renal crônica."
+        },
+        {
+          "key": "d",
+          "text": "Hipertensão arterial gestacional."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Elevação pressórica desde o início da gestação (10ª semana, antes de 20 semanas), sem proteinúria e com exames normais, caracteriza hipertensão arterial crônica — na ausência de proteinúria/sinais de gravidade mesmo com piora pressórica, mantém-se o diagnóstico de hipertensão crônica (sem pré-eclâmpsia sobreposta neste momento).",
+      "theme": "dheg_pe",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_029",
+      "statement": "Gestante com 29 semanas é diagnosticada com pré-eclâmpsia grave, restrição de crescimento fetal, insu ciência placentária grave e centralização fetal, com per l biofísico fetal10. Qual dos mecanismos abaixo melhor se correlaciona com a fisiopatologia da pré-eclâmpsia grave?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transformação inadequada do cito para o sinciciotrofoblasto."
+        },
+        {
+          "key": "b",
+          "text": "Invasão inadequada da muscular média das arteríolas espiraladas."
+        },
+        {
+          "key": "c",
+          "text": "Alterações na morfologia do crescimento dos sistemas tambores."
+        },
+        {
+          "key": "d",
+          "text": "Dificuldade de transformação de vilos secundários em terciários."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A fisiopatologia da pré-eclâmpsia grave envolve invasão trofoblástica inadequada da camada muscular média das artérias espiraladas, resultando em má perfusão placentária.",
+      "theme": "dheg_pe",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_030",
+      "statement": "Chega ao pronto-socorro uma gestante com 34 semanas, com queixa de cefaleia importante há 2 horas, distúrbios visuais e dor no hipocôndrio direito. PA em 150x110 mmHg, AU de 33 cm, FCF 140 bpm, tônus normal, colo impérvio. A conduta é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "hidralazina intravenosa pelo quadro de emergência hipertensiva."
+        },
+        {
+          "key": "b",
+          "text": "encaminhar para sala de cesárea imediatamente e operar, pois está fora de trabalho de parto."
+        },
+        {
+          "key": "c",
+          "text": "fazer sulfato de magnésio e reavaliar a pressão arterial."
+        },
+        {
+          "key": "d",
+          "text": "corticoide para acelerar a maturidade pulmonar e sulfato de magnésio para neuroproteção fetal."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de cefaleia importante, distúrbios visuais e dor em hipocôndrio direito (sinais de gravidade) com PA 150x110mmHg, a conduta é fazer sulfato de magnésio e reavaliar a pressão arterial.",
+      "theme": "dheg_pe",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_031",
+      "statement": "Primigesta, 25 anos, portadora de hipertensão arterial crônica controlada, encontra- se na 24ª semana de gestação. A ocorrência de toxemia superajuntada à hipertensão será diagnosticada se ocorrer",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Edema"
+        },
+        {
+          "key": "b",
+          "text": "Elevação sérica das transaminases"
+        },
+        {
+          "key": "c",
+          "text": "Proteinúria"
+        },
+        {
+          "key": "d",
+          "text": "Hemólise"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O diagnóstico de pré-eclâmpsia sobreposta à hipertensão crônica é confirmado pelo aparecimento de proteinúria de novo em gestante previamente hipertensa sem proteinúria basal.",
+      "theme": "dheg_pe",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_032",
+      "statement": "Mulher, 28a, G1P0C0A0, grávida de 14 semanas. Antecedentes pessoais: diabetes mellitus tipo I há 15 anos, sobrepeso e hipertensão arterial sistêmica crônica controlada, em uso de insulina, metformina e captopril. Fundo de olho: retinopatia diabética. Proteinúria = 2g/24horas. A CONDUTA É:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Internar para perfil glicêmico com dieta; manter captopril; suspender metformina; ajustar insulina de acordo com perfil glicêmico."
+        },
+        {
+          "key": "b",
+          "text": "Suspender metformina e captopril; iniciar metildopa, ácido acetilsalicílico e carbonato de cálcio; ajustar dose de insulina segundo perfil glicêmico; recomendar dieta."
+        },
+        {
+          "key": "c",
+          "text": "Internar para perfil glicêmico com dieta; suspender metformina; prescrever metildopa, ácido acetilsalicílico e heparina de baixo peso."
+        },
+        {
+          "key": "d",
+          "text": "Suspender captopril; manter metformina apenas se houver necessidade de dose total de insulina acima de 100 UI/dia; recomendar dieta e atividade física aeróbica."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Em gestante diabética hipertensa crônica com proteinúria significativa (2g/24h, sugerindo pré-eclâmpsia sobreposta), a conduta é suspender metformina e captopril (teratogênicos/contraindicados), iniciar metildopa, AAS e carbonato de cálcio, ajustando a insulina conforme perfil glicêmico.",
+      "theme": "dheg_pe",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_033",
+      "statement": "Mulher iniciando seu pré-natal, refere que na sua gestação anterior teve um parto induzido com 31 semanas, devido a um quadro de pré-eclâmpsia grave. Nega outros antecedentes médicos signi cativos. Exames laboratoriais normais. Mora em região urbana e refere alimentação adequada. Quais medidas devem ser realizadas na tentativa de prevenir um novo quadro de pré-eclâmpsia?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Prescrição de ácido acetilsalicílico, na dose de 100 a 150 mg, iniciando antes de 16 semanas."
+        },
+        {
+          "key": "b",
+          "text": "Prescrição de Heparina não fracionada ou de baixo peso molecular em dose profilática, iniciando no segundo trimestre."
+        },
+        {
+          "key": "c",
+          "text": "Suplementação de cálcio (1 g/dia) e vitamina C (500 mg/dia), iniciando com 12 semanas."
+        },
+        {
+          "key": "d",
+          "text": "Prescrição de ácido fólico (5 mg/dia), restrição moderada da ingesta de sódio e orientação para ganho adequado de peso."
+        },
+        {
+          "key": "e",
+          "text": "Controle rigoroso da pressão arterial e ganho de peso, pois não há evidências claras que alguma medicação pode prevenir a pré-eclâmpsia."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Para prevenção de novo quadro de pré-eclâmpsia grave (antecedente de parto induzido por pré-eclâmpsia grave), a medida indicada é a prescrição de ácido acetilsalicílico em baixa dose (100-150mg), iniciada antes de 16 semanas.",
+      "theme": "dheg_pe",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_034",
+      "statement": "Primigesta de 19 anos, em acompanhamento pré-natal para pré-eclâmpsia, apresenta na 35ª semana piora do quadro clínico, chegando à emergência da maternidade com PA = 180 X 115 mmHg. Durante o tratamento com anti-hipertensivo apresenta quadro de eclampsia, que não cede após o uso de sulfato de magnésio. Está indicado, para esta paciente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Propofol intravenoso."
+        },
+        {
+          "key": "b",
+          "text": "Diazepam sublingual."
+        },
+        {
+          "key": "c",
+          "text": "Amobarbital de sódio intravenoso."
+        },
+        {
+          "key": "d",
+          "text": "Clonazepam sublingual."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de eclâmpsia refratária ao sulfato de magnésio, está indicado o uso de amobarbital de sódio intravenoso como anticonvulsivante de resgate.",
+      "theme": "dheg_pe",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_035",
+      "statement": "O sulfato de magnésio é um medicamento frequentemente utilizado na prática obstétrica, sendo indicado em diversas situações. Entre as indicações para sua utilização, pode-se citar, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "tratamento do pico hipertensivo nos casos de pré-eclâmpsia grave"
+        },
+        {
+          "key": "b",
+          "text": "prevenção de convulsões em pacientes com síndrome HELLP"
+        },
+        {
+          "key": "c",
+          "text": "tratamento do episódio convulsivo em casos de eclâmpsia"
+        },
+        {
+          "key": "d",
+          "text": "neuroproteção fetal em partos prematuros"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "É a EXCEÇÃO: o sulfato de magnésio não é utilizado para tratamento do pico hipertensivo (que requer anti-hipertensivos como hidralazina/nifedipina) — seu papel é anticonvulsivante/neuroprotetor, não anti-hipertensivo direto.",
+      "theme": "dheg_hellp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_036",
+      "statement": "Na doença hipertensiva específica da gravidez, pode ser observada:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Disfunção endotelial e diminuição de resposta aos agentes vasoconstrictores."
+        },
+        {
+          "key": "b",
+          "text": "Hipo-reatividade ao sistema renina-angiotensina-aldosterona."
+        },
+        {
+          "key": "c",
+          "text": "Diminuição de prostaciclina e aumento de tromboxano."
+        },
+        {
+          "key": "d",
+          "text": "Invasão exacerbada do trofoblasto, reduzindo a perfusão periférica."
+        },
+        {
+          "key": "e",
+          "text": "Vaso dilatação do território arteriolar."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Na doença hipertensiva específica da gravidez, observa-se diminuição da produção de prostaciclina (vasodilatadora) e aumento do tromboxano (vasoconstritor), resultando em vasoespasmo generalizado.",
+      "theme": "dheg_pe",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_037",
+      "statement": "Julia, 16 anos, primigesta, IG: 32 semanas, vem apresentando aumento dos níveis pressóricos nas duas últimas semanas. Realizou exame de proteinúria de 24 horas cujo resultado foi 350 mg. Considerando o diagnóstico da paciente, a alteração renal responsável pela perda de proteína na urina é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Endoteliose capilar glomerular."
+        },
+        {
+          "key": "b",
+          "text": "Glomerulonefrite difusa aguda."
+        },
+        {
+          "key": "c",
+          "text": "Insuficiência renal aguda."
+        },
+        {
+          "key": "d",
+          "text": "Síndrome nefrótica."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A endoteliose capilar glomerular é a alteração renal responsável pela perda de proteína na urina em gestantes com pré-eclâmpsia.",
+      "theme": "dheg_pe",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_038",
+      "statement": "São fatores de risco para pré-eclâmpsia todos abaixo citados, EXCETO",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tabagismo."
+        },
+        {
+          "key": "b",
+          "text": "Gestação múltipla."
+        },
+        {
+          "key": "c",
+          "text": "Obesidade."
+        },
+        {
+          "key": "d",
+          "text": "Doenças autoimunes."
+        },
+        {
+          "key": "e",
+          "text": "Mudança de parceiro."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "É a EXCEÇÃO: a mudança de parceiro é, na verdade, fator de RISCO para pré-eclâmpsia (não fator protetor) — mas dentre as opções, o gabarito aponta o tabagismo como a exceção, já que classicamente o tabagismo está associado a MENOR risco de pré-eclâmpsia (efeito paradoxal descrito na literatura), diferente dos demais fatores listados que aumentam o risco.",
+      "theme": "dheg_pe",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_039",
+      "statement": "Gestante comparece à Unidade Básica de Saúde para iniciar o cuidado pré-natal e relata ao médico a seguinte história clinico-obstétrica. \"Tenho 28 anos e estou grávida pela terceira vez, sendo que meu primeiro parto aconteceu antes da data prevista por conta de elevação de pressão arterial, pela pré-eclâmpsia. Na segunda gravidez não tive complicações, e meu bebê nasceu bem e na data prevista. Agora, essa gestação foi inesperada, pois acabo de iniciar um novo relacionamento e estava tomando pílula anticoncepcional. Tenho muitos parentes com problemas de hipertensão arterial, entre eles, minha mãe e uma irmã que também teve pré-eclâmpsia. Estou com medo de ter esta doença de novo\". Entre os fatores de risco presentes, assinale o que NÃO se associa ao maior risco de pré-eclâmpsia:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Histórico familiar."
+        },
+        {
+          "key": "b",
+          "text": "Idade da gestante."
+        },
+        {
+          "key": "c",
+          "text": "Pré-eclâmpsia na primeira gestação."
+        },
+        {
+          "key": "d",
+          "text": "Primeiro filho com o parceiro atual."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A idade da gestante (28 anos), isoladamente, não se associa a maior risco de pré-eclâmpsia neste contexto — diferente de histórico familiar, pré-eclâmpsia em gestação anterior e novo parceiro (fatores de risco reconhecidos).",
+      "theme": "dheg_pe",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_040",
+      "statement": "Paciente feminino, 18 anos, primípara, no curso das 32 semanas de gestação, procurou atendimento em unidade de atenção primária no interior do Estado, onde se evidenciou quadro clínico de cefaleia occipital, epigastralgia e escotomas visuais cintilantes, associado a pressão arterial de 170x110 mmHg. Frente ao quadro clínico e capacidade hospitalar existente, o plantonista decide transferir a paciente para centro terciário na capital para assistência obstétrica adequada. Qual terapia disponível no Brasil é considerada atualmente como de primeira linha para a crise hipertensiva descrita e que pode ser feita com segurança no cenário descrito?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Labetalol."
+        },
+        {
+          "key": "b",
+          "text": "Nifedipina."
+        },
+        {
+          "key": "c",
+          "text": "Hidralazina."
+        },
+        {
+          "key": "d",
+          "text": "Sulfato de magnésio."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de crise hipertensiva em unidade sem recursos avançados, a nifedipina oral é considerada terapia de primeira linha segura e disponível para controle da crise hipertensiva na gestação.",
+      "theme": "dheg_pe",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_041",
+      "statement": "Gestante secundigesta, 35 semanas é admitida na urgência com quadro de icterícia, hipertensão arterial de 150 x 100 mmHg e óbito fetal. Relata que, há 10 dias, vem apresentando náuseas, vômitos e desconforto em hipocôndrio direito. A avaliação laboratorial evidencia: hipoglicemia, aumento discreto das enzimas hepáticas, hiperbilirrubinemia às custas de bilirrubina direta, leucocitose sem desvio, anemia e plaquetas normais. O diagnóstico mais provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Síndrome HELLP."
+        },
+        {
+          "key": "b",
+          "text": "Cirrose hepática."
+        },
+        {
+          "key": "c",
+          "text": "Hepatite por vírus C."
+        },
+        {
+          "key": "d",
+          "text": "Hepatite por vírus B."
+        },
+        {
+          "key": "e",
+          "text": "Esteatose hepática aguda da gestação."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "O quadro de icterícia, hipoglicemia, aumento discreto de enzimas hepáticas, hiperbilirrubinemia direta e óbito fetal em gestante com náuseas/vômitos e dor em hipocôndrio direito é compatível com esteatose hepática aguda da gestação.",
+      "theme": "dheg_hellp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_042",
+      "statement": "Tercigesta, secundípara (1 cesárea), 28 anos de idade, 34 semanas, com diagnóstico de pré-eclâmpsia. Procurou pronto socorro queixando-se de cefaleia, dor de estômago e visualização de pontos brilhantes há 2 horas. Exame físico: PA = 180 x 120 mmHg, edema de membros inferiores, altura uterina de 31 cm, FC = 140 bpm, apresentação cefálica, ausência de contrações, toque colo grosso, amolecido, medianizado, pérvio para 2 cm, bolsa íntegra. Cardiotocogra a normal. Nesse caso, a conduta é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Nifedipino, sulfato de magnésio para neuroproteção fetal e indução do parto."
+        },
+        {
+          "key": "b",
+          "text": "Nifedipino, corticoterapia para maturação pulmonar fetal e cesárea."
+        },
+        {
+          "key": "c",
+          "text": "Hidralazina, profilaxia para streptococo B e indução do parto."
+        },
+        {
+          "key": "d",
+          "text": "Hidralazina, sulfato de magnésio para prevenção de eclâmpsia e cesárea."
+        },
+        {
+          "key": "e",
+          "text": "Hidralazina, corticoterapia, gluconato de cálcio e cesárea."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de pré-eclâmpsia com sinais de gravidade em 34 semanas com colo desfavorável, a conduta é hidralazina para controle pressórico, sulfato de magnésio para prevenção de eclâmpsia, e cesárea.",
+      "theme": "dheg_pe",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_043",
+      "statement": "Primigesta de 13 semanas apresenta queixa de cefaleia e pressão arterial de 170 x 110 mmHg. Ao exame, veri ca-se dopplervelocimetria das artérias uterinas com índices acima do percentil 95; proteinúria de 5,2 g/24h; creatinina sérica de 1,4 mg/dl e plaquetas em 90.000 por mm². Qual o diagnóstico?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hipertensão gestacional."
+        },
+        {
+          "key": "b",
+          "text": "Pré-eclâmpsia moderada, com plaquetopenia gestacional."
+        },
+        {
+          "key": "c",
+          "text": "HELLP síndrome."
+        },
+        {
+          "key": "d",
+          "text": "Hipertensão arterial sistêmica e nefropatia."
+        },
+        {
+          "key": "e",
+          "text": "Pré-eclâmpsia grave."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de PA 170x110mmHg com 13 semanas (antes das 20 semanas, afastando pré-eclâmpsia clássica), Doppler alterado, proteinúria e alteração de função renal, o diagnóstico mais provável é hipertensão arterial crônica com nefropatia de base.",
+      "theme": "dheg_hellp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_044",
+      "statement": "Na pré-eclâmpsia, observa-se que a produção de endotelina e prostaciclina encontra-se, respectivamente,",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "diminuída e aumentada."
+        },
+        {
+          "key": "b",
+          "text": "inalterada e diminuída."
+        },
+        {
+          "key": "c",
+          "text": "aumentada e diminuída."
+        },
+        {
+          "key": "d",
+          "text": "aumentada e inalterada."
+        },
+        {
+          "key": "e",
+          "text": "diminuída e inalterada."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Na pré-eclâmpsia, há aumento da produção de endotelina (vasoconstritora) e diminuição da prostaciclina (vasodilatadora), contribuindo para o vasoespasmo generalizado.",
+      "theme": "dheg_pe",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_045",
+      "statement": "Com relação à síndrome de HELLP, é CORRETO afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Se caracteriza por surgimento de hemólise, diminuição das enzimas hepáticas e plaquetopenia em gestante com Doença Hipertensiva Específica da Gestação (DHEG)."
+        },
+        {
+          "key": "b",
+          "text": "Entre as alterações eritrocitárias, pode-se observar em sangue periférico a presença de esquizócitos também conhecidos como \"células em capacete\"."
+        },
+        {
+          "key": "c",
+          "text": "Os melhores critérios laboratoriais para o seu diagnóstico são aspartato aminotransferase = 40 UI/L e proteinúria > 300 mg/24h."
+        },
+        {
+          "key": "d",
+          "text": "Apresenta achados laboratoriais muito diferentes da púrpura trombocitopênica trombótica."
+        },
+        {
+          "key": "e",
+          "text": "A diminuição de bilirrubina total e da desidrogenase láctica (DHL) são critérios diagnósticos."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Na síndrome HELLP, observam-se esquizócitos ('células em capacete') no esfregaço de sangue periférico, refletindo a hemólise microangiopática.",
+      "theme": "dheg_hellp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_046",
+      "statement": "Qual a Droga de primeira escolha para hipertensão leve na gestação ?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Alfa metil dopa."
+        },
+        {
+          "key": "b",
+          "text": "Hidralazina."
+        },
+        {
+          "key": "c",
+          "text": "Captopril."
+        },
+        {
+          "key": "d",
+          "text": "Enalapril."
+        },
+        {
+          "key": "e",
+          "text": "Sulfato de magnésio."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A alfametildopa é a droga de primeira escolha para tratamento da hipertensão leve/crônica na gestação.",
+      "theme": "dheg_pe",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_047",
+      "statement": "É fator de risco para doença hipertensiva específica da gravidez",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "desnutrição"
+        },
+        {
+          "key": "b",
+          "text": "multiparidade"
+        },
+        {
+          "key": "c",
+          "text": "restrição de crescimento intrauterino"
+        },
+        {
+          "key": "d",
+          "text": "mola hidatiforme"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A mola hidatiforme (doença trofoblástica gestacional) é fator de risco reconhecido para doença hipertensiva específica da gravidez, podendo inclusive se manifestar antes de 20 semanas.",
+      "theme": "dheg_pe",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_048",
+      "statement": "Assinale a incorreta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O sulfato de magnésio intravenoso é a droga de eleição na terapia anticonvulsivante na eclâmpsia."
+        },
+        {
+          "key": "b",
+          "text": "A abolição do reflexo patelar é um bom parâmetro clínico para impedir efeito tóxico do magnésio, orientando a suspensão da infusão da droga."
+        },
+        {
+          "key": "c",
+          "text": "O monitoramento da frequência cardíaca materna e fetal é um cuidado fundamental para utilização segura do sulfato de magnésio."
+        },
+        {
+          "key": "d",
+          "text": "Cesárea é o método de eleição na presença de hematoma subcapsular hepático, sinais de choque, DPP com feto vivo, sofrimento fetal agudo e sangramento do SNC."
+        },
+        {
+          "key": "e",
+          "text": "O edema agudo de pulmão é uma complicação cujo risco está aumentado no período pós-parto imediato na eclâmpsia."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "É a alternativa INCORRETA: o monitoramento da frequência cardíaca materna e fetal não é o parâmetro central de segurança do sulfato de magnésio — o cuidado fundamental é a avaliação do reflexo patelar, diurese e frequência respiratória materna (sinais de intoxicação).",
+      "theme": "dheg_ec",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_049",
+      "statement": "Não é fator de risco para Pré-Eclâmpsia",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Trombofilias"
+        },
+        {
+          "key": "b",
+          "text": "Multiparidade"
+        },
+        {
+          "key": "c",
+          "text": "Colagenose"
+        },
+        {
+          "key": "d",
+          "text": "Diabets Mellitus"
+        },
+        {
+          "key": "e",
+          "text": "Obesidade"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A multiparidade não é fator de risco para pré-eclâmpsia — pelo contrário, a nuliparidade/primiparidade é o fator de risco clássico reconhecido.",
+      "theme": "dheg_pe",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_050",
+      "statement": "Primigesta, 16 anos, 32 semanas de gestação, comparece ao Centro Obstétrico, assintomática, com pressão arterial de 170x110mmHg, havendo redução para 140x90mmHg após 30 minutos de decúbito lateral esquerdo. Paciente foi mantida em observação por 2 horas e na reavaliação apresentava pressão arterial de 150x100mmHg, assintomática. Exames laboratoriais: hemoglobina: 13,3g/dl; hematócrito: 42%; contagem de plaquetas: 85 000/mm3; TGO: 25U/L; Urina I: normal, ausência de proteinúria; Ureia : 28mg/dl; Creatinina: 0,9mg/dl. Qual é o diagnóstico do quadro hipertensivo desta gestante?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Crise hipertensiva na gestação"
+        },
+        {
+          "key": "b",
+          "text": "Hipertensão arterial crônica"
+        },
+        {
+          "key": "c",
+          "text": "Hipertensão arterial gestacional"
+        },
+        {
+          "key": "d",
+          "text": "Pré-eclâmpsia"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de PA elevada que se reduz para 140x90mmHg após repouso em DLE mas volta a se elevar (150x100mmHg) na reavaliação, associada a plaquetopenia (85.000), mesmo sem proteinúria, o diagnóstico é pré-eclâmpsia (a plaquetopenia já configura sinal de gravidade/comprometimento sistêmico compatível com a doença).",
+      "theme": "dheg_pe",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_051",
+      "statement": "São achados comuns na Síndrome HELLP, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Anemia megaloblástica."
+        },
+        {
+          "key": "b",
+          "text": "Hiperbilirrubinemia."
+        },
+        {
+          "key": "c",
+          "text": "Aumento de enzimas hepáticas."
+        },
+        {
+          "key": "d",
+          "text": "Presença de esquizócitos no sangue periférico."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A anemia megaloblástica não é achado característico da síndrome HELLP — diferente de hiperbilirrubinemia, aumento de enzimas hepáticas e esquizócitos (hemólise microangiopática), que são achados clássicos.",
+      "theme": "dheg_hellp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_052",
+      "statement": "Em relação à fisiopatologia da pré-eclâmpsia, assinale a alternativa INCORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A segunda onda de migração trofoblástica acontece normalmente, com destruição da capa musculoelástica das artérias espiraladas."
+        },
+        {
+          "key": "b",
+          "text": "O vasoespasmo generalizado é característica básica."
+        },
+        {
+          "key": "c",
+          "text": "A lesão endotelial acarreta o consumo de plaquetas, com consequente liberação de tromboxano."
+        },
+        {
+          "key": "d",
+          "text": "O edema é generalizado e pode comprometer inclusive o cérebro."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "É a alternativa INCORRETA: na pré-eclâmpsia, a segunda onda de migração trofoblástica é DEFICIENTE/inadequada (não ocorre normalmente), resultando em manutenção da resistência vascular nas artérias espiraladas.",
+      "theme": "dheg_pe",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_053",
+      "statement": "Dentre as características da convulsão epiléptica e convulsão eclâmptica assinale a alternativa correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Na convulsão eclâmptica não há edema cerebral."
+        },
+        {
+          "key": "b",
+          "text": "Na convulsão eclâmptica não pode ser utilizado barbitúrico no tratamento."
+        },
+        {
+          "key": "c",
+          "text": "Na convulsão eclâmptica pode haver hemorragia cerebral."
+        },
+        {
+          "key": "d",
+          "text": "Na convulsão epiléptica estão presentes os sinais preditivos: cefaléia, epigastralgia e escotomas cintilantes."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Na convulsão eclâmptica, ao contrário da epiléptica, pode haver hemorragia cerebral associada, decorrente da encefalopatia hipertensiva e vasoespasmo.",
+      "theme": "dheg_ec",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_054",
+      "statement": "M.A.S., 40 anos, G5P3A1, afrodescendente, família de hipertensos, portadora de hipertensão arterial crônica há 7 anos, bom controle com 50 mg diários de losartana, sem complicações ou evidências de lesões em órgãos-alvo, procura pré-natal tão logo soube de seu estado gestacional, na oitava semana, apresentando: PA = 105 x 60 mmHg; peso = 65 kg; altura = 165 cm; IMC = 23,87 e pulso = 74 bpm. Exame clínico e tocoginecológico sem alterações, ecogra a compatível com gestação de primeiro trimestre, oito semanas. Frente a esse quadro, a melhor conduta é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Suspender a losartana e iniciar enalapril."
+        },
+        {
+          "key": "b",
+          "text": "Manter a medicação e instituir diurético."
+        },
+        {
+          "key": "c",
+          "text": "Iniciar alfametildopa e suspender losartana."
+        },
+        {
+          "key": "d",
+          "text": "Iniciar atenolol e suspender losartana."
+        },
+        {
+          "key": "e",
+          "text": "Suspender losartana e observar com perfil pressórico."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Em hipertensa crônica bem controlada com losartana (contraindicada na gestação por teratogenicidade) que engravidou, a conduta é suspender a losartana e observar com perfil pressórico seriado, dado o bom controle prévio e ausência de lesão de órgão-alvo.",
+      "theme": "dheg_pe",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_055",
+      "statement": "Em qual da situações abaixo se deve administrar gluconato de cálcio 10 ml a 10% na gestante que está fazendo uso de sulfato de magnésio para prevenção de convulsões com quadro de pré-eclâmpsia grave?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Diurese < 25 ml/h"
+        },
+        {
+          "key": "b",
+          "text": "Reflexo tendinoso presente"
+        },
+        {
+          "key": "c",
+          "text": "Reflexo tendinoso ausente"
+        },
+        {
+          "key": "d",
+          "text": "Depressão respiratória"
+        },
+        {
+          "key": "e",
+          "text": "Edema agudo do pulmão"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O gluconato de cálcio deve ser administrado diante de sinais de intoxicação por sulfato de magnésio, sendo a depressão respiratória o sinal mais grave que exige essa reversão imediata.",
+      "theme": "dheg_ec",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_056",
+      "statement": "Qual o principal risco do uso de sulfato de magnésio no tratamento da eclâmpsia?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Depressão respiratória."
+        },
+        {
+          "key": "b",
+          "text": "Insuficiência renal."
+        },
+        {
+          "key": "c",
+          "text": "Amaurose."
+        },
+        {
+          "key": "d",
+          "text": "Hipercalcemia e arritmia cardíaca."
+        },
+        {
+          "key": "e",
+          "text": "Síndrome de Stevens-Johnson."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O principal risco do uso de sulfato de magnésio no tratamento da eclâmpsia é a depressão respiratória, decorrente de níveis séricos tóxicos do magnésio.",
+      "theme": "dheg_pe",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_057",
+      "statement": "São critérios para diagnóstico de síndrome HELLP:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hemodiluição e aumento da pressão arterial."
+        },
+        {
+          "key": "b",
+          "text": "Plaquetopenia e aumento de transaminases."
+        },
+        {
+          "key": "c",
+          "text": "Aumento de DHL e hipercoagulabilidade."
+        },
+        {
+          "key": "d",
+          "text": "Oligúria e proteinúria."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Os critérios para diagnóstico de síndrome HELLP incluem plaquetopenia e aumento das transaminases (hepáticas), além de hemólise (elevação de LDH e bilirrubinas).",
+      "theme": "dheg_hellp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_058",
+      "statement": "Sobre hipertensão na gestação, é CORRETO afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A síndrome HELLP é caracterizada pela plaquetopenia, elevação das enzimas hepáticas e diminuição da desidrogenase láctica."
+        },
+        {
+          "key": "b",
+          "text": "A pré-eclâmpsia superposta à hipertensão crônica é caracterizada pela proteinúriaapós a 34ª semana em paciente com diagnóstico de hipertensão crônica."
+        },
+        {
+          "key": "c",
+          "text": "A pré-eclâmpsia é caracterizada como hipertensão arterial diagnosticada após a 20ªsemana associada frequentemente à proteinúria e desaparece até 2 semanas após o parto."
+        },
+        {
+          "key": "d",
+          "text": "A hipertensão gestacional é a hipertensão arterial diagnosticada após a 34ª semana sem proteinúria."
+        },
+        {
+          "key": "e",
+          "text": "Hipertensão crônica é diagnosticada antes da 20ª semana e não desaparece 12semanas após o parto."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A hipertensão crônica é diagnosticada antes da 20ª semana de gestação e não desaparece até 12 semanas após o parto, diferenciando-a da pré-eclâmpsia e da hipertensão gestacional (que se resolvem no puerpério).",
+      "theme": "dheg_hellp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_059",
+      "statement": "Com relação à doença hipertensiva na gestação, é CORRETO afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A primeira escolha de tratamento para a doença hipertensiva da gestação é o furosemide (ou outro diurético tiazídico), pois combate a situação de hipervolemia."
+        },
+        {
+          "key": "b",
+          "text": "São complicações maternas da pré-eclâmpsia grave a mastite puerperal, infecção de trato urinário e hiperuricemia."
+        },
+        {
+          "key": "c",
+          "text": "O quadro de edema que se instala em pacientes com doença hipertensiva específica da gravidez denota insuficiência renal."
+        },
+        {
+          "key": "d",
+          "text": "Podemos definir eclâmpsia como a presença de convulsões tônico-clônicas generalizadas e/ou coma."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Eclâmpsia é definida pela presença de convulsões tônico-clônicas generalizadas e/ou coma em gestante com doença hipertensiva específica da gravidez.",
+      "theme": "dheg_ec",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_060",
+      "statement": "Uma primigesta, de 18 anos, com 22 semanas de gestação, assintomática, apresenta PA = 160 x 110 mmHg e proteinúria de 24 horas =3 g. O diagnóstico provável é de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hipertensão crônica."
+        },
+        {
+          "key": "b",
+          "text": "Pré – eclâmpsia leve."
+        },
+        {
+          "key": "c",
+          "text": "Pré – eclâmpsia grave."
+        },
+        {
+          "key": "d",
+          "text": "Hipertensão crônica com pré – eclâmpsia superposta."
+        },
+        {
+          "key": "e",
+          "text": "Hipertensão gestacional."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de PA 160x110mmHg com proteinúria de 3g/24h em gestante de 22 semanas assintomática, o diagnóstico é pré-eclâmpsia grave, dado o alto grau de proteinúria e a hipertensão significativa.",
+      "theme": "dheg_pe",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_061",
+      "statement": "Uma das mais importantes doenças no ciclo grávido-puerperal com elevada taxa de morbiletalidade materna é pré- eclâmpsia. Assinale a alternativa que apresenta, corretamente, o marcador que melhor avalia a gravidade da pré-eclâmpsia.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Excreção urinária de cálcio."
+        },
+        {
+          "key": "b",
+          "text": "Fibronectina plasmática."
+        },
+        {
+          "key": "c",
+          "text": "Ácido úrico sérico."
+        },
+        {
+          "key": "d",
+          "text": "Alfa-feto proteína."
+        },
+        {
+          "key": "e",
+          "text": "Cálcio plasmático."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O ácido úrico sérico é o marcador laboratorial que melhor se correlaciona com a gravidade da pré-eclâmpsia entre as opções listadas.",
+      "theme": "dheg_pe",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_062",
+      "statement": "A Doença Hipertensiva Especí ca da Gestação (DHEG) é uma das complicações mais frequentes da gravidez. Embora de prognóstico favorável nos casos leves, suas formas mais graves, como a eclâmpsia e a síndrome HELLP, constituem-se numa das principais causas de morbidade e mortalidade materna e perinatal. Das alternativas a seguir, assinale a que está incorreta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Define-se hipertensão arterial quando a pressão arterial sistólica é igual ou superior a 140 mmHg e/ou a pressão arterial diastólica é igual ou superior a 90 mmHg, adotando-se como pressão arterial diastólica a fase V de Korotkoff (desaparecimento do som) com a paciente sentada, sendo essas medidas confirmadas após 4 horas de repouso."
+        },
+        {
+          "key": "b",
+          "text": "Classicamente, os estudos epidemiológicos demonstram maior distribuição de casos de DHEG nos extremos reprodutivos da vida da mulher, ou seja, abaixo dos 18 e acima dos 40 anos."
+        },
+        {
+          "key": "c",
+          "text": "A gestante de risco para DHEG pode ser identificada pela presença de fatores epidemiológicos e clínicos. A maioria dos casos (75%) ocorre em mulheres nulíparas."
+        },
+        {
+          "key": "d",
+          "text": "A DHEG caracteriza-se pela presença de hipertensão arterial, edema e/ou proteinúria a partir de 20 semanas de gestação, em pacientes previamente normotensas."
+        },
+        {
+          "key": "e",
+          "text": "Considera-se proteinúria patológica a presença de 100 mg de proteínas excretadas na urina coletada durante 24 horas."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "É a alternativa INCORRETA: a DHEG caracteriza-se por hipertensão, edema e/ou proteinúria a partir de 20 semanas de gestação (não 18, como citado anteriormente em outra formulação) — a opção que descreve 20 semanas está correta, tornando as demais (com valores diferentes) as incorretas conforme o contexto desta questão específica.",
+      "theme": "dheg_hellp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_063",
+      "statement": "No que se refere às intercorrências clínicas da gestação, julgue o item seguinte. Entre as medicações indicadas para o tratamento de gestantes hipertensas estão os inibidores das enzimas conversoras da angiotensina.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "É Errado: os inibidores da enzima conversora de angiotensina (IECA) são teratogênicos e CONTRAINDICADOS no tratamento de gestantes hipertensas.",
+      "theme": "dheg_pe",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_064",
+      "statement": "Uma mulher com 40 anos de idade, Gesta 4 Para 2 Aborto 1, assintomática, na 16ª semana de gestação, é atendida no ambulatório de pré-natal de alto risco, encaminhada da Unidade Básica de Saúde (UBS), por ser portadora de hipertensão crônica e ter apresentado pressão arterial = 150 x 100 mmHg na última consulta na UBS. A gestante relata ter feito uso de captopril (75 mg/dia) desde seu último parto, há três anos, e ter suspendido o uso da medicação após descobrir que estava grávida. Aferida novamente a pressão arterial, obteve-se resultado de 160 x 105 mmHg. Nesse caso, a conduta terapêutica indicada é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "iniciar furosemida."
+        },
+        {
+          "key": "b",
+          "text": "iniciar alfametildopa."
+        },
+        {
+          "key": "c",
+          "text": "reintroduzir captopril, com dose maior."
+        },
+        {
+          "key": "d",
+          "text": "reintroduzir captopril e associar hidroclorotiazida."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Em hipertensa crônica que suspendeu o captopril (teratogênico) ao descobrir a gravidez, com PA ainda elevada (160x105mmHg), a conduta terapêutica indicada é iniciar alfametildopa, anti-hipertensivo seguro na gestação.",
+      "theme": "dheg_pe",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_065",
+      "statement": "Qual droga hipotensora não deve ser utilizada em gestantes?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Inibidor da enzima conversora."
+        },
+        {
+          "key": "b",
+          "text": "Diurético tiazídico."
+        },
+        {
+          "key": "c",
+          "text": "Bloqueador de canal de cálcio."
+        },
+        {
+          "key": "d",
+          "text": "Beta-bloqueador."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Os inibidores da enzima conversora de angiotensina (IECA) não devem ser utilizados em gestantes, pelo risco de teratogenicidade e insuficiência renal fetal.",
+      "theme": "dheg_pe",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_066",
+      "statement": "A dosagem do fator de crescimento placentário e o achado de incisura protodiastólica, à dopplervelocimetria das artérias uterinas, são úteis para chamar precocemente a atenção para a possível instalação de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "HELLP síndrome."
+        },
+        {
+          "key": "b",
+          "text": "Pré-eclâmpsia."
+        },
+        {
+          "key": "c",
+          "text": "Descolamento prematuro de placenta."
+        },
+        {
+          "key": "d",
+          "text": "Parto prematuro."
+        },
+        {
+          "key": "e",
+          "text": "Hipertensão arterial nefrogênica."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A dosagem do fator de crescimento placentário reduzido e a incisura protodiastólica bilateral ao Doppler das artérias uterinas são marcadores precoces de risco para pré-eclâmpsia.",
+      "theme": "dheg_hellp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_067",
+      "statement": "São características que diferem a Hipertensão Arterial Sistêmica (HAS) e a PréEclâmpsia (PE):",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A HAS costuma aparecer antes da gestação ou no primeiro trimestre, e a PE, habitualmente, após a 20ª semana."
+        },
+        {
+          "key": "b",
+          "text": "A PE apresenta proteinúria, considerada como acima de 300 mg/L, e a HAS não costuma cursar com proteinúria."
+        },
+        {
+          "key": "c",
+          "text": "Quando a gestante fica em repouso em DLE, a pressão arterial costuma abaixar na PE e isto não ocorre na HAS."
+        },
+        {
+          "key": "d",
+          "text": "As multíparas, assim como as portadoras de gestações múltiplas, apresentam mais HAS, e as primigestas, PE."
+        },
+        {
+          "key": "e",
+          "text": "O parto deve ser antecipado nos casos de PE leve com 39 semanas, nas graves com 37, e nas portadoras de HAS não poderá ultrapassar as 40 semanas."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A hipertensão arterial sistêmica crônica costuma preceder a gestação ou surgir no primeiro trimestre, enquanto a pré-eclâmpsia habitualmente surge após a 20ª semana de gestação.",
+      "theme": "dheg_pe",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_068",
+      "statement": "A pré-eclâmpsia se diferencia da hipertensão arterial sistêmica por apresentar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Multiparidade."
+        },
+        {
+          "key": "b",
+          "text": "Uricemia aumentada."
+        },
+        {
+          "key": "c",
+          "text": "Fundoscopia c/alterações anatômicas."
+        },
+        {
+          "key": "d",
+          "text": "Relação proteína/creatinina < 0,3."
+        },
+        {
+          "key": "e",
+          "text": "Calciúria \"maior ou igual a\" 100 mg/24h"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A pré-eclâmpsia se diferencia da hipertensão arterial sistêmica crônica pela uricemia (ácido úrico sérico) elevada, marcador de disfunção placentária/renal específico da doença.",
+      "theme": "dheg_pe",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_069",
+      "statement": "Em que condição pode aparecer a pré-eclâmpsia antes de 20 semanas?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Gemelaridade."
+        },
+        {
+          "key": "b",
+          "text": "Diabetes."
+        },
+        {
+          "key": "c",
+          "text": "Mola hidatiforme."
+        },
+        {
+          "key": "d",
+          "text": "Hipertensão essencial."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A mola hidatiforme é condição que pode levar ao aparecimento de pré-eclâmpsia antes das 20 semanas de gestação, dada a proliferação trofoblástica excessiva.",
+      "theme": "dheg_pe",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_070",
+      "statement": "Uma paciente primigesta de 27 anos de idade e com 36 semanas de gestação chega à Emergência Obstétrica queixando- se de cefaleia, visão turva, diplopia e dor epigástrica. Ao exame físico, constatou-se: PA = 170 x 110 mmHg, dinâmica uterina ausente, frequência cardíaca fetal de 140 bpm, re exos patelares hiperativos. Nessa situação, qual a conduta imediata indicada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Iniciar sulfato de magnésio por via endovenosa."
+        },
+        {
+          "key": "b",
+          "text": "Solicitar avaliação especializada de neurologista."
+        },
+        {
+          "key": "c",
+          "text": "Interromper a gestação através de cesárea segmentar."
+        },
+        {
+          "key": "d",
+          "text": "Colocar a paciente em decúbito lateral e reavaliar a pressão arterial após 15 minutos."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de sinais de gravidade (cefaleia, visão turva, diplopia, dor epigástrica, hiper-reflexia) com PA 170x110mmHg, a conduta imediata é iniciar sulfato de magnésio por via endovenosa, prevenindo a evolução para eclâmpsia.",
+      "theme": "dheg_pe",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_071",
+      "statement": "Ao receber o resultado de uma doppler uxometria das artérias uterinas (com a imagem mostrada abaixo) (VER IMAGEM) e ao prestar atenção nas porções do grá co assinaladas com setas brancas, o obstetra deve car muito atento, porque esse perfil é marcador de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "mola hidatiforme e descolamento prematuro de placenta."
+        },
+        {
+          "key": "b",
+          "text": "doença hipertensiva específica da gravidez e amniorrexe prematura."
+        },
+        {
+          "key": "c",
+          "text": "restrição de crescimento intrauterino e amniorrexe prematura."
+        },
+        {
+          "key": "d",
+          "text": "restrição de crescimento fetal e doença hipertensiva específica da gravidez."
+        },
+        {
+          "key": "e",
+          "text": "abortamento retido e amniorrexe prematura."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O perfil de dopplerfluxometria das artérias uterinas mostrado (dependente de imagem não capturada na extração do PDF, com incisura protodiastólica indicada pelas setas) foi determinado como marcador de restrição de crescimento fetal e doença hipertensiva específica da gravidez, conforme gabarito oficial da fonte.",
+      "theme": "dheg_pe",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_072",
+      "statement": "Com relação a Síndrome HELLP, assinale a INCORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "É uma entidade clínica exclusiva dos quadros de eclampsia."
+        },
+        {
+          "key": "b",
+          "text": "Caracteriza-se por um conjunto de sinais e sintomas associados à hemólise, elevação das enzimas hepáticas e plaquetopenia."
+        },
+        {
+          "key": "c",
+          "text": "Foi inicialmente descrito por Louis Weinstein, em 1982."
+        },
+        {
+          "key": "d",
+          "text": "A incidência nos quadros de eclampsia é de 11%."
+        },
+        {
+          "key": "e",
+          "text": "Ocorre incidência de mortalidade materna em até 24% dos casos."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "É a alternativa INCORRETA: a síndrome HELLP não é entidade clínica exclusiva dos quadros de eclampsia, podendo ocorrer também em gestantes com pré-eclâmpsia sem convulsões (e até em normotensas, em casos raros).",
+      "theme": "dheg_hellp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_073",
+      "statement": "Uma paciente primigesta, negra, com 17 anos de idade e no terceiro trimestre de gestação, é trazida à Emergência Obstétrica devido à história de cefaleia intensa, seguida de epigastralgia há 40 minutos. Familiares informam que a paciente referiu turvação visual e que, após esses sintomas, apresenta-se meio \"aérea\", motivo pelo qual a trouxeram ao hospital. A gestante apresenta-se consciente, ainda referindo turvação visual e epigastralgia. Refere melhora da cefaleia. Ao exame, apresenta: palidez cutâneo- mucosa (+++/4+), pressão arterial = 180 x 120 mmHg, edema em membros inferiores (++++/4+), batimentos cardiofetais ( feto 1 = 120 bpm; feto 2 = 105 bpm). Com base nos dados clinico-obstétricos expostos, o diagnóstico e a conduta imediata a ser tomada são",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "eclâmpsia; resolução da gestação."
+        },
+        {
+          "key": "b",
+          "text": "síndrome HELLP; administração de dexametasona."
+        },
+        {
+          "key": "c",
+          "text": "iminência de eclâmpsia; administração de sulfato de magnésio."
+        },
+        {
+          "key": "d",
+          "text": "pré-eclâmpsia grave; administração de hidralazina endovenosa."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O quadro de cefaleia intensa seguida de epigastralgia, turvação visual e alteração do sensório ('aérea') com PA 180x120mmHg em gestação gemelar é compatível com iminência de eclâmpsia, e a conduta é administração de sulfato de magnésio.",
+      "theme": "dheg_hellp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_074",
+      "statement": "Uma primigesta, com 37 semanas de gestação, queixa-se de edema de membros inferiores há uma semana. O cartão de pré-natal apresenta anotações conforme demonstrado na gura a seguir (VER IMAGEM). Ao exame físico apresenta bom estado geral, pressão arterial = 150 x 90 mmHg, altura uterina = 34 cm, dinâmica uterina ausente, ausculta fetal = 140 bpm, sem desacelerações, edema de membros inferiores ++/4+. Toque vaginal: colo grosso e impérvio. Proteinúria de ta +/4+. Qual o diagnóstico correto e a conduta mais adequada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hipertensão gestacional; solicitação de exames para avaliação do bem-estar fetal e seguimento no pré-natal."
+        },
+        {
+          "key": "b",
+          "text": "Pré-eclâmpsia leve; hospitalização para repouso relativo, dieta normossódica e avaliação do bem-estar fetal."
+        },
+        {
+          "key": "c",
+          "text": "Pré-eclâmpsia leve; solicitação de exames para avaliação do bem-estar fetal e seguimento no pré-natal."
+        },
+        {
+          "key": "d",
+          "text": "Pré-eclâmpsia grave; hospitalização para resolução da gestação por indução do parto ou cesárea."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de PA 150x90mmHg com proteinúria +/4+ e sem sinais de gravidade associados (cardiotocografia/BCF normais, sem dor epigástrica ou distúrbios visuais), o diagnóstico é pré-eclâmpsia leve, e a conduta é hospitalização para repouso relativo, dieta normossódica e avaliação do bem-estar fetal.",
+      "theme": "dheg_pe",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dhg_075",
+      "statement": "A melhor opção de drogas para o tratamento da emergência hipertensiva, a uma gestante portadora de pré-eclâmpsia é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Captopril – Hidralazina. ."
+        },
+        {
+          "key": "b",
+          "text": "Alfa metildopa – Hidralazina."
+        },
+        {
+          "key": "c",
+          "text": "Hidralazina – Nifedipina."
+        },
+        {
+          "key": "d",
+          "text": "Alfa metildopa – Nifedipina."
+        },
+        {
+          "key": "e",
+          "text": "Furosemida – Hidralazina"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A melhor opção de drogas para tratamento da emergência hipertensiva em gestante com pré-eclâmpsia, entre as combinações listadas, é hidralazina associada à nifedipina.",
+      "theme": "dheg_pe",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}
