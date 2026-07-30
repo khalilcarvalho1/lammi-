@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T13:23:31.985Z",
+  "generatedAt": "2026-07-30T13:39:24.929Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,7 +26,7 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 2641,
+  "totalQuestions": 2817,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
@@ -80,10 +80,10 @@
     "pna_imuno": 4,
     "pna_pah": 9,
     "tep_dx": 2,
-    "tb_tto": 35,
-    "tb_dx": 54,
-    "tb_mdr": 6,
-    "tb_lat": 5
+    "tb_tto": 100,
+    "tb_dx": 85,
+    "tb_mdr": 16,
+    "tb_lat": 75
   },
   "flashcardThemeCounts": {
     "atls_choque": 3,
@@ -2696,7 +2696,7 @@
         "tb_mdr",
         "tb_lat"
       ],
-      "questionsCount": 100,
+      "questionsCount": 276,
       "flashcardsCount": 0,
       "casosCount": 0
     },
