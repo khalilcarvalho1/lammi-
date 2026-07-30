@@ -1,0 +1,1120 @@
+{
+  "questions": [
+    {
+      "id": "th_003",
+      "statement": "Paciente, 67 anos, sexo feminino, professora aposentada, é trazida primeira vez à consulta com MFC da Estratégia Saúde da Família (ESF), desde que se mudou para morar com o lho após falecimento do marido. Refere fazer tratamento para hipertensão (enalapril 20 mg ao dia) e osteoartrite (condroitina - glicosamina). Questionada sobre seu estado de humor, a paciente refere que já não vê graça na vida, pois não faz sentido viver com tantas dores. Além de medicação para dor, solicitou também para insônia. Mesmo bem acolhida pelo lho, a paciente referiu sentir-se sozinha. Mostrou-se emotiva e esboçou choro, pausando a fala. Sobre a depressão nos idosos, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A relação do médico da APS com o paciente não influencia o tratamento."
+        },
+        {
+          "key": "b",
+          "text": "Os tricíclicos têm maior eficácia no tratamento da depressão em idosos do que os inibidores de recaptação de serotonina."
+        },
+        {
+          "key": "c",
+          "text": "É mais frequente nos homens e o terceiro fator mais associado ao suicídio no idoso."
+        },
+        {
+          "key": "d",
+          "text": "A Escala de Depressão Geriátrica (GDS) é um instrumento de triagem confiável e pode ser útil para a detecção dos sintomas de depressão nos idosos."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A Escala de Depressão Geriátrica (GDS) é um instrumento de triagem validado e confiável, útil na detecção de sintomas depressivos em idosos — ferramenta amplamente recomendada na atenção primária.",
+      "theme": "sui_aval",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_004",
+      "statement": "Paciente masculino, 20 anos, estudante do 2º ano do curso de economia, é levado ao pronto-socorro psiquiátrico após uma mudança de comportamento nos últimos sete dias. De acordo com os familiares, começou a car progressivamente mais agitado, querendo fazer várias coisas ao mesmo tempo; houve aumento na velocidade da fala, por vezes elaborando frases sem nexo; houve diminuição do sono; e estava alimentando-se muito mal e em pouca quantidade. Relatam também que, há uns quatro meses, o paciente cou muito triste com o falecimento da avó, pois eram muito próximos. Chorou muito e, por semanas, não queria sair do quarto, tendo emagrecido 6 kg. O paciente sempre teve boa saúde e é responsável, bom aluno e sociável. Não tem história prévia de transtorno mental. Antecedentes familiares: mãe, 44 anos, teve depressão depois do nascimento do último lho – que durou mais de um ano, mas “foi passando aos poucos, sem tratamento”; tio materno bebia bastante e cometeu suicídio aos 40 anos de idade. Qual a hipótese diagnóstica provável para o caso descrito acima?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno de personalidade borderline."
+        },
+        {
+          "key": "b",
+          "text": "Transtorno depressivo reativo."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno bipolar."
+        },
+        {
+          "key": "d",
+          "text": "Intoxicação por estimulantes."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Sete dias de agitação progressiva, aceleração da fala, diminuição do sono e alimentação, em paciente com episódio depressivo grave 4 meses antes (após luto), com história familiar de depressão pós-parto e suicídio, é compatível com Transtorno Bipolar (episódio maníaco/misto sucedendo episódio depressivo).",
+      "theme": "sui_manejo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_005",
+      "statement": "Valéria, 21 anos, desempregada, solteira, relata quadro de angústia e tristeza diária iniciado há 5 meses, após o falecimento de seus pais devido à COVID-19. Refere falta de vontade para realizar suas atividades diárias, crises de choro, sono excessivo, falta de perspectiva para o futuro. Relata que tem vontade de sumir, mas nega pensamentos de morte ou de autoagressão. Apresenta rede de apoio fragilizada, já que seus familiares moram em outro estado. Nesse caso, a melhor conduta é iniciar",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "fluoxetina 20 mg e encaminhar para o psicólogo."
+        },
+        {
+          "key": "b",
+          "text": "lítio 300 mg, duas vezes ao dia, e encaminhar para o CAPS."
+        },
+        {
+          "key": "c",
+          "text": "amitriptilina 25 mg e encaminhar para o psiquiatra."
+        },
+        {
+          "key": "d",
+          "text": "práticas integrativas e complementares."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Luto complicado/depressão reativa após perda parental, sem ideação suicida ativa, com rede de apoio fragilizada — a conduta é iniciar antidepressivo (fluoxetina) e encaminhar para acompanhamento psicológico.",
+      "theme": "sui_manejo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_009",
+      "statement": "Paciente do sexo masculino, de 46 anos, é atendido em um Centro de Atenção Psicossocial (CAPS) e tem um diagnóstico de transtorno de humor bipolar tipo I. Por isso, vem em uso, há vários anos, de carbonato de lítio, com ótima resposta estabilizadora do humor. Sobre o lítio, é INCORRETO afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Essa medicação controla a mania aguda e impede a recorrência na grande maioria das pessoas com transtorno bipolar tipo I."
+        },
+        {
+          "key": "b",
+          "text": "Em pessoas tratadas com esse fármaco, dosagens de TSH devem ser medidas a cada intervalo de 6 a 12 meses."
+        },
+        {
+          "key": "c",
+          "text": "O lítio é um fármaco seguro e eficaz para idosos."
+        },
+        {
+          "key": "d",
+          "text": "O lítio é excretado pela via hepática."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O lítio é excretado por via RENAL, não hepática — sendo esta a afirmação INCORRETA. As demais estão corretas: controla mania aguda e previne recorrências, requer monitorização de TSH a cada 6-12 meses, e é seguro/eficaz em idosos com acompanhamento adequado.",
+      "theme": "sui_aval",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_012",
+      "statement": "AZN, 17 anos, G1P0A0, com consultas de pré-natal irregulares, comparece no segundo trimestre de gravidez ao ambulatório, referindo adinamia, insônia e irritabilidade. Sua acompanhante informa que ela apresenta, em casa, comportamento pessimista e choro fácil. Sobre depressão e ansiedade no ciclo gravídico puerperal, é correto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Idade materna precoce, quadro depressivo antenatal, tabagismo, uso de AINE no terceiro trimestre da gestação e histórico de abuso físico ou emocional estão associados a um maior número de casos de depressão pós-parto."
+        },
+        {
+          "key": "b",
+          "text": "Pacientes que apresentaram depressão puerperal em gestação prévia, e encontram-se com “blues puerperal” nessa gravidez, apresentam risco aumentado de evoluir para depressão grave, podendo, inclusive, incorrerem na prática de suicídio e infanticídio"
+        },
+        {
+          "key": "c",
+          "text": "Os transtornos de ansiedade são três vezes mais frequentes em mulheres grávidas em relação às não grávidas, e estão associados a uma alta taxa de abortamentos provocados, quando seu início ocorre antes da décima segunda semana de gestação."
+        },
+        {
+          "key": "d",
+          "text": "A presença de distúrbios do humor, no ciclo gravídico puerperal, é determinada pelas alterações hormonais próprias da gestação. Desta forma, não devem ser utilizadas terapias comportamentais ou medicamentosas, salvo em casos de ideação suicida."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Pacientes com depressão puerperal em gestação prévia que apresentam 'blues puerperal' na gravidez atual têm risco aumentado de evoluir para depressão grave, inclusive com risco de suicídio e infanticídio — fator de alerta importante na avaliação perinatal.",
+      "theme": "sui_aval",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_014",
+      "statement": "Uma paciente de 30 anos de idade, levada à avaliação médica por familiares que relatam tristeza, angústia, desânimo, falta ao trabalho, descuido com a higiene pessoal e labilidade emocional (choro fácil e pensamentos de autoextermínio). Acerca desse caso, assinale a alternativa que indica a hipótese diagnóstica.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Depressão moderada/grave"
+        },
+        {
+          "key": "b",
+          "text": "Transtorno psicótico"
+        },
+        {
+          "key": "c",
+          "text": "Depressão leve"
+        },
+        {
+          "key": "d",
+          "text": "Enlutamento por perda familiar"
+        },
+        {
+          "key": "e",
+          "text": "Esquizofrenia"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Tristeza, angústia, desânimo, falta ao trabalho, negligência com a higiene pessoal e labilidade emocional com pensamentos de autoextermínio configuram quadro de depressão moderada/grave, dada a gravidade e a presença de ideação de morte.",
+      "theme": "sui_aval",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_015",
+      "statement": "Sobre o suicídio e seus riscos na adolescência, assinale a alternativa incorreta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O suicídio está entre as 5 principais causa de morte entre adolescentes mais velhos (15 a 19 anos)"
+        },
+        {
+          "key": "b",
+          "text": "O uso nocivo do álcool é um fator de risco para o suicídio na adolescência"
+        },
+        {
+          "key": "c",
+          "text": "O abuso na infância é um fator de risco para sofrimento mental e suicídio na adolescência"
+        },
+        {
+          "key": "d",
+          "text": "A imensa maioria dos suicídios acontecem entre adolescentes que moram em países de renda média ou alta"
+        },
+        {
+          "key": "e",
+          "text": "As tentativas de suicídio podem ser impulsivas ou associadas a um sentimento de desesperança ou solidão"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "É a alternativa INCORRETA: a grande maioria dos suicídios entre adolescentes ocorre em países de renda BAIXA ou média-baixa, não de renda média ou alta, segundo dados da OMS.",
+      "theme": "sui_aval",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_016",
+      "statement": "Uma mulher de 34 anos com diagnóstico de depressão procurou a unidade de saúde da família (UBS) onde você trabalha. Com base no prontuário da paciente, você observou que ela faz acompanhamento na unidade há 10 meses com outro médico da unidade. A paciente consulta sozinha, mas chegou à unidade acompanhada da irmã, com quem ela mora e que está bastante preocupada. A paciente tem sintomas de humor deprimido, fatigabilidade e choro fácil; está em uso de 40 mg/dia de uoxetina nos últimos 6 meses, tendo apresentado discreta melhora. Segundo a paciente, há 1 mês, aproximadamente, começou a ouvir vozes e ver alguns vultos, e tem pensado em se matar, mas sem plano. Nesse caso, qual é a conduta adequada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Continuar o atendimento na UBS e trocar o tratamento."
+        },
+        {
+          "key": "b",
+          "text": "Encaminhar a paciente para internação em hospital psiquiátrico."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar internação em hospital geral e otimizar o tratamento farmacológico."
+        },
+        {
+          "key": "d",
+          "text": "Referenciar a paciente à equipe multiprofissional do Centro de Atenção Psicossocial."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Paciente em uso de antidepressivo com resposta parcial que desenvolve sintomas psicóticos (alucinações auditivas/visuais) e ideação suicida sem plano — a conduta adequada é referenciar para acompanhamento pela equipe multiprofissional do CAPS, dado o agravamento do quadro com sintomas psicóticos.",
+      "theme": "sui_manejo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_017",
+      "statement": "Maria, 39 anos, chega à Unidade de Saúde de seu bairro, ESF Andrade Costa, para consulta com o Dr. Marcelo. Ao iniciar a consulta, queixa-se de dores no corpo. O Dr. Marcelo percebe o semblante abatido e pergunta se está acontecendo algo mais. Maria começa a chorar e diz: “Não aguento mais, doutor, estou com dores fortes no corpo e uma dor de cabeça insuportável”. Maria era uma paciente que ia sempre acompanhando sua tia, idosa, com Alzheimer, e seu marido, com obesidade grave, para realizar tratamento. Sem interromper, Dr. Marcelo mostra-se interessado, e Dona Maria continua: “Você sabe a pressão que vivo lá em casa, mas agora está insuportável. Tudo sou eu que tenho que resolver, meu marido e minha tia são dependentes de mim. Desde que mataram meu lho, vivo triste, mas agora está pior. Não tenho vontade de fazer nada e choro todos os dias. Não consigo dormir e co muito nervosa com tudo”. Diante da situação, como abordagem inicial, o Dr. Marcelo deve",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "explorar a gravidade do sofrimento, conhecer os recursos de Maria para lidar com os sintomas e apresentar as possibilidades terapêuticas."
+        },
+        {
+          "key": "b",
+          "text": "explorar os sintomas, evitando falar sobre suicídio, para não induzir Maria, de acordo com os princípios da prevenção quaternária."
+        },
+        {
+          "key": "c",
+          "text": "referenciar ao psiquiatra, já que Maria apresenta sinais de gravidade como o choro fácil e a falta de vontade para realizar suas atividades."
+        },
+        {
+          "key": "d",
+          "text": "orientar Maria a procurar um psicólogo, profissional mais adequado para acompanhá​la, visto que ela está vivenciando uma crise normativa, referenciando-a."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de paciente sobrecarregada com múltiplos estressores e sofrimento emocional expresso através de queixas físicas, a abordagem inicial adequada é explorar a gravidade do sofrimento, conhecer os recursos próprios da paciente para lidar com os sintomas e apresentar as possibilidades terapêuticas — abordagem centrada na pessoa.",
+      "theme": "sui_manejo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_019",
+      "statement": "Homem de 45 anos, casado, chega ao consultório referindo cansaço intenso, di culdade de concentração e diminuição do apetite. Além disso, percebe-se triste, choroso e, apesar de cansado, tem acordado em torno das 5h30 da manhã, cerca de 1h antes do necessário. Diz que se sente \"\"um peso para os familiares\"\", pois não tem conseguido trabalhar regularmente, nem sente prazer em realizar atividades que antes gostava de fazer, como assistir ao seu time de futebol jogar e car com a família. Tais sintomas estão presentes há mais de duas semanas. Sobre a conduta nesse momento da entrevista, assinalar a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Chamar os familiares para internar o paciente compulsoriamente."
+        },
+        {
+          "key": "b",
+          "text": "Fluoxetina 40mg e não perguntar sobre suicídio, pois poderia dar-lhe ideia de fazê-lo."
+        },
+        {
+          "key": "c",
+          "text": "Questionar sobre suicídio para avaliar a gravidade dos sintomas e melhor orientar a conduta."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar RM de crânio com contraste, endoscopia e ecografia abdominal total para elucidar o diagnóstico."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de sintomas depressivos há mais de duas semanas, a conduta adequada é questionar ativamente sobre ideação suicida para avaliar a gravidade do quadro e melhor orientar a conduta — nunca evitar essa pergunta, pois isso não induz o comportamento suicida (mito).",
+      "theme": "sui_aval",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_023",
+      "statement": "Paciente masculino de 49 anos, em tratamento medicamentoso há seis meses para transtorno depressivo maior grave, sem sintomas psicóticos, compareceu para atendimento na UBS, relatando remissão total dos sintomas e recuperação de sua capacidade funcional. Em sua historia pregressa, relata diagnóstico de depressão aos 20 anos de idade após falecimento de sua mãe. Na época recebeu alta por cura sem fazer uso de medicamentos. No inicio do episódio atual apresentou pensamentos de autoextermínio, sem planejamento em sua família há histórico de transtornos mentais um tio faleceu por suicídio. Dentre as condutas abaixo, qual a MAIS ADEQUADA para esse caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Mantar o tratamento medicamentoso com a mesma dose que levou à remissão dos sintomas até completar 12 meses ou mais, levando-se em consideração o risco de recorrência"
+        },
+        {
+          "key": "b",
+          "text": "Reduzir a dose do antidepressivo e manter tratamento por mais 12 semanas"
+        },
+        {
+          "key": "c",
+          "text": "Suspender a medicação antidepressiva e compartilhar o caso com o psicólogo do Núcleo de Apoio à Saúde da Família para inserir paciente em grupo de psicoterapia"
+        },
+        {
+          "key": "d",
+          "text": "Suspender o tratamento farmacológico e dar alta, pois houve remissão total dos sintomas e o paciente completou 6 meses de acompanhamento"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de segundo episódio depressivo grave com ideação suicida prévia e história familiar de suicídio (fatores de risco para recorrência), a conduta é manter o tratamento medicamentoso na dose que levou à remissão por pelo menos 12 meses, considerando o risco elevado de recorrência.",
+      "theme": "sui_aval",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_024",
+      "statement": "Sobre a abordagem e o tratamento de uma pessoa em comportamento suicida, sabe-se que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a ineficácia de tratamentos farmacológicos em conseguir prevenir o suicídio torna a psicoterapia o padrão-ouro para a maioria dos pacientes com planejamento suicida, especialmente a terapia cognitivo-comportamental."
+        },
+        {
+          "key": "b",
+          "text": "em pacientes com transtornos psiquiátricos que apresentem ideação suicida grave, medicamentos com alto risco de toxicidade, tais como antidepressivos tricíclicos, clozapina e lítio, devem ser suspensos"
+        },
+        {
+          "key": "c",
+          "text": "a prescrição de antidepressivos estará sempre indicada devido à especificidade desse sintoma no diagnóstico da depressão, ainda que o efeito tenda a demorar várias semanas para ocorrer."
+        },
+        {
+          "key": "d",
+          "text": "além da esculta empática e psicoterapia, a indicação de eletroconvulsoterapia ou de escetamina podem ser realizadas no paciente com transtorno depressivo maior, devido ao rápido efeito antisuicida."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Além da escuta empática e psicoterapia, a eletroconvulsoterapia e a escetamina podem ser indicadas em pacientes com transtorno depressivo maior e risco suicida, devido ao seu rápido efeito antissuicida — opções valiosas quando a urgência do quadro exige resposta mais imediata que a farmacoterapia convencional.",
+      "theme": "sui_aval",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_025",
+      "statement": "Sobre a prevalência de comportamento suicida e suicídio consumado, sabe-se que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a proporção de suicídio entre os diversos estados brasileiros e os diversos países é bastante homogênea, sugerindo-se a primazia de determinantes biológicos."
+        },
+        {
+          "key": "b",
+          "text": "apesar da grande prevalência de ideação suicida em adolescentes do sexo feminino, o suicídio em si não figura como importante causa de morte nessa população."
+        },
+        {
+          "key": "c",
+          "text": "as maiores taxas de suicídio estão nos países altamente desenvolvidos e se correlacionam com perda de valores morais, ateísmo e aculturação de imigrantes."
+        },
+        {
+          "key": "d",
+          "text": "ao contrário do Brasil, a taxa mundial de suicídio vem caindo desde o início do século, provavelmente fruto da implementação de estratégias de prevenção e tratamento."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Ao contrário do Brasil, a taxa mundial de suicídio vem caindo desde o início do século, atribuída à implementação de estratégias de prevenção e tratamento — dado epidemiológico relevante que contrasta as tendências nacional e global.",
+      "theme": "sui_aval",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_028",
+      "statement": "Homem de 70 anos, viúvo, aposentado e alcoolista diário, vai à consulta médica para acompanhar Hipertensão Arterial Sistêmica e Diabetes anteriormente conhecidas e controladas. Durante a consulta, ca evidente humor deprimido constante, fala em volume baixo e pouco espontâneo. Relata perda do interesse na convivência com os netos e nos jogos de futebol que costuma acompanhar, insônia intermediária, perda de peso involuntária por redução do apetite, e ideias de que é um fardo para a família. Tem ideia de morte, achando que pode ser um alívio, inclusive com pensamentos sobre suicídio, mas sem planejamento no momento. Qual a opção correta em relação ao manejo do paciente no contexto descrito acima?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O uso de antidepressivo tricíclico deve ser evitado pelo risco de morte em caso de ingestão em grande quantidade."
+        },
+        {
+          "key": "b",
+          "text": "O médico deve evitar o uso de Inibidor de Recaptação de Serotonina, pela possibilidade do aumento de risco de suicídio."
+        },
+        {
+          "key": "c",
+          "text": "Como perguntar sobre ideias de suicídio pode induzir ou aumentar o risco de tentativa, tal questionamento deve ser evitado."
+        },
+        {
+          "key": "d",
+          "text": "O grau de preocupação é baixo e a intervenção médica deve ser pouco invasiva, pois o paciente está fora da faixa etária de maior incidência de suicídio."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Em idoso com ideação suicida passiva, o uso de antidepressivos tricíclicos deve ser evitado pelo risco de morte em caso de ingestão de grande quantidade (alta toxicidade em superdosagem/cardiotoxicidade) — preocupação farmacológica relevante na escolha terapêutica em pacientes de risco.",
+      "theme": "sui_manejo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_029",
+      "statement": "Em relação ao risco de suicídio e à avaliação do paciente com risco suicida, considere as afirmativas a seguir. I. Mulheres cometem quatro vezes mais suicídios que homens. II. O método empregado ou planejado na tentativa de suicídio é irrelevante na avaliação, já que toda tentativa de suicídio deve ser levada a sério. III. Tentativa prévia de suicídio é o principal fator de risco para suicídio consumado no futuro. IV. Mesmo diante de recusa de um paciente, com alto risco de suicídio, em aceitar tratamento, a internação psiquiátrica deve ser considerada e discutida com o paciente e os familiares. Assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Somente as afirmativas I e II são corretas."
+        },
+        {
+          "key": "b",
+          "text": "Somente as afirmativas I e IV são corretas."
+        },
+        {
+          "key": "c",
+          "text": "Somente as afirmativas III e IV são corretas."
+        },
+        {
+          "key": "d",
+          "text": "Somente as afirmativas I, II e III são corretas."
+        },
+        {
+          "key": "e",
+          "text": "Somente as afirmativas II, III e IV são corretas."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Tentativa prévia de suicídio é o principal fator de risco isolado para suicídio consumado futuro (III correta); mesmo diante de recusa do paciente de alto risco, a internação psiquiátrica deve ser considerada e discutida com paciente e família (IV correta). Homens completam suicídio mais que mulheres (I incorreta, invertida) e o método é sim relevante na avaliação de gravidade (II incorreta).",
+      "theme": "sui_manejo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_031",
+      "statement": "Paciente feminina, de 27 anos, buscou atendimento em uma Unidade Básica de Saúde por apresentar humor deprimido, sentimentos de culpa excessiva, acentuada diminuição do interesse nas atividades do dia a dia, insônia e perdas de peso e de energia signi cativas. Esses sintomas tiveram início há 4 semanas e vinham piorando progressivamente. Que conduta, dentre as abaixo, deve ser adotada de imediato?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Investigar risco de suicídio e história de transtorno bipolar"
+        },
+        {
+          "key": "b",
+          "text": "Prescrever clonazepam."
+        },
+        {
+          "key": "c",
+          "text": "Prescrever amitriptilina."
+        },
+        {
+          "key": "d",
+          "text": "Encaminhar a paciente para internação psiquiátrica pela gravidade do quadro"
+        },
+        {
+          "key": "e",
+          "text": "Internar o paciente no CAPS"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de quadro depressivo com piora progressiva ao longo de 4 semanas, a conduta imediata é investigar o risco de suicídio e a história de transtorno bipolar — etapas essenciais antes de qualquer decisão terapêutica farmacológica.",
+      "theme": "sui_manejo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_045",
+      "statement": "Leia o caso clínico a seguir. Você atende um paciente de 27 anos, do sexo masculino, com episódio depressivo grave e risco de suicídio. Ele tem história prévia de episódios depressivos com sintomas atípicos (hipersonia, aumento de apetite, labilidade do humor e ausência de anedonia) e delírios de ruína. Já fez muito abuso de álcool, maconha e cocaína, e relatou episódios de franca irritabilidade, comportamento agressivo, logorreia e aumento da impulsividade sexual e pensamentos acelerados com duração de vários dias, mesmo sem estar intoxicado por drogas. Na família, há vários casos de suicídio e internações psiquiátricas por surtos de agressividade e agitação psicomotora. Em relação à conduta medicamentosa, a prescrição adequada é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Nortriptilina, um antidepressivo tricíclico."
+        },
+        {
+          "key": "b",
+          "text": "Escitalopram, antidepressivo inibidor seletivo de recaptação de serotonina."
+        },
+        {
+          "key": "c",
+          "text": "Quetiapina, um antipsicótico de segunda geração."
+        },
+        {
+          "key": "d",
+          "text": "Lorazepam, um benzodiazepínico."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Quadro complexo com episódios depressivos atípicos, delírios de ruína, abuso de substâncias, episódios de irritabilidade/agressividade/hipersexualidade/pensamento acelerado mesmo sem intoxicação, e forte história familiar de suicídio/internações por agitação, sugere transtorno do humor com características psicóticas/bipolares — a quetiapina (antipsicótico de segunda geração com propriedades antidepressivas e estabilizadoras) é a escolha mais adequada nesse contexto complexo.",
+      "theme": "sui_aval",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_047",
+      "statement": "Paciente feminina, de 27 anos, buscou atendimento em uma Unidade Básica de Saúde por apresentar humor deprimido, sentimentos de culpa excessiva, acentuada diminuição do interesse nas atividades do dia a dia, insônia e perda de peso signi cativa e de energia. Esses sintomas tiveram início há 4 semanas e vinham piorando progressivamente. Que conduta, dentre as abaixo, deve ser adotada de imediato?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Investigar risco de suicídio e história de transtorno bipolar."
+        },
+        {
+          "key": "b",
+          "text": "Prescrever clonazepam."
+        },
+        {
+          "key": "c",
+          "text": "Prescrever amitriptilina."
+        },
+        {
+          "key": "d",
+          "text": "Encaminhar a paciente para internação psiquiátrica pela gravidade do quadro."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de quadro depressivo com piora progressiva ao longo de 4 semanas, a conduta imediata é investigar o risco de suicídio e a história de transtorno bipolar antes de qualquer decisão terapêutica.",
+      "theme": "sui_manejo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_050",
+      "statement": "A respeito do comportamento suicida e seu manejo, é incorreto afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "passo importante para acalmar um indivíduo em crise suicida é ouvi-lo efetivamente."
+        },
+        {
+          "key": "b",
+          "text": "é comum que os desejos de viver e de morrer alternem-se de maneira confusa nesses indivíduos, caracterizando ambivalência."
+        },
+        {
+          "key": "c",
+          "text": "acalmar um impulso suicida desencadeado por eventos negativos do dia-a-dia é uma forma de manejar o momento de crise."
+        },
+        {
+          "key": "d",
+          "text": "o indivíduo que verbaliza desejo e intenção de cometer suicídio repetidas vezes, em geral, não tentará de fato."
+        },
+        {
+          "key": "e",
+          "text": "é importante identificar indivíduos em risco e questioná-los ativamente a respeito de ideação e planejamento suicida."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "É a afirmação INCORRETA: verbalizar repetidamente o desejo e a intenção de cometer suicídio NÃO significa, em geral, que o indivíduo não tentará — pelo contrário, essa verbalização deve sempre ser levada a sério como sinal de risco real.",
+      "theme": "sui_manejo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_051",
+      "statement": "Com relação ao suicídio e seus fatores de risco, podemos afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "indivíduos com esquizofrenia têm risco aumentado."
+        },
+        {
+          "key": "b",
+          "text": "todos os indivíduos que cometem suicídio estão deprimidos."
+        },
+        {
+          "key": "c",
+          "text": "o suicídio é sempre passível de prevenção."
+        },
+        {
+          "key": "d",
+          "text": "as maiores taxas estão entre adultos jovens, diminuindo entre idosos acima dos 70 anos."
+        },
+        {
+          "key": "e",
+          "text": "cerca de um terço dos casos de suicídio é relacionado à dependência do álcool."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Indivíduos com esquizofrenia apresentam risco aumentado de suicídio — fato epidemiológico bem estabelecido, relevante na avaliação de risco em pacientes psicóticos.",
+      "theme": "sui_aval",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_054",
+      "statement": "Márcia, 46 anos, trabalha como caixa de supermercado e mora em uma comunidade vulnerável de Florianópolis. Procurou a Unidade Básica de Saúde do seu bairro e conseguiu ser consultada no mesmo dia. Durante a consulta, Márcia se queixa de cansaço, fraqueza, sentimento de tristeza e dores pelo corpo, sintomas que já tem ocorrido há cerca de 5 meses. Recentemente, também está com muita di culdade para dormir, algo que tem lhe incomodado, pois sempre dormiu muito bem, e di culdade para se concentrar no trabalho. Quando você pergunta se ela relacionou algo aos sentimentos de tristeza, Márcia começa a chorar e relata que está com problemas com o marido, que voltou a beber há cerca de 6 meses, depois de perder o emprego, e ela está tendo que sustentar a casa sozinha. A única coisa que ainda lhe distrai, é quando sai para passear com o cachorro. Em relação ao quadro depressivo de Márcia, pode-se afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "trata-se de um caso leve, que deve ser tratado inicialmente com intervenções como seguimento usual de suporte com equipe de saúde, atividade física ou psicoterapia"
+        },
+        {
+          "key": "b",
+          "text": "é um caso moderado, onde estaria indicado tratamento farmacológico, preferencialmente com um antidepressivo tricíclico, que ajudaria na insônia dela"
+        },
+        {
+          "key": "c",
+          "text": "como é um caso leve, não há necessidade de se questionar sobre suicídio, que deve ser explorado apenas nos quadros moderados a graves"
+        },
+        {
+          "key": "d",
+          "text": "se ela evoluir com alucinações e delírios, os antipsicóticos estariam contraindicados, pois estes sintomas seriam decorrentes do transtorno depressivo de base"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Fadiga, tristeza, dores corporais, insônia e dificuldade de concentração por 5 meses, com estressor psicossocial identificável (marido alcoolista desempregado, sobrecarga financeira) mas ainda com algum interesse preservado (passear com o cachorro), caracterizam um caso leve de depressão — tratamento inicial com seguimento de suporte, atividade física ou psicoterapia, sem necessidade imediata de farmacoterapia.",
+      "theme": "sui_aval",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_056",
+      "statement": "A avaliação do risco de suicídio tem se tornado uma rotina cada vez mais incentivada pelos pro ssionais da saúde, diante dos benefícios que uma abordagem preventiva pode proporcionar ao cuidado da pessoa em sofrimento mental. Sobre a avaliação do risco de suicídio, considere as afirmações abaixo. I - Paciente sem histórico de tentativa prévia, apresentando ideação suicida, sem planejamento pode ser classi cado como baixo risco para suicídio. II - Se um profissional falar com o paciente sobre suicídio, o profissional está dando a ideia de suicídio à pessoa. III - Quando um indivíduo mostra sinais de melhoria ou sobrevive a uma tentativa de suicídio, está fora de risco de suicídio. IV - Pessoas com fatores de risco psicossociais, como abuso físico ou sexual, perda ou separação dos pais na infância, instabilidade familiar e ausência de apoio social, mesmo sem transtorno mentais, apresentam risco para o suicídio. Estão corretas as afirmações",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "II e IV."
+        },
+        {
+          "key": "b",
+          "text": "I e III."
+        },
+        {
+          "key": "c",
+          "text": "I e IV."
+        },
+        {
+          "key": "d",
+          "text": "II e III."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Ideação suicida sem plano e sem tentativa prévia pode ser estratificada como risco relativamente baixo dentro da avaliação de risco padronizada (I correta); fatores psicossociais de risco (abuso, perda parental, instabilidade familiar, falta de apoio social) aumentam o risco de suicídio mesmo sem transtorno mental diagnosticado (IV correta). Perguntar sobre suicídio não induz o ato (II incorreta, mito), e melhora clínica ou sobrevivência a uma tentativa não elimina o risco futuro (III incorreta, mito).",
+      "theme": "sui_aval",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_059",
+      "statement": "Um adolescente de catorze anos de idade compareceu à consulta ambulatorial, referindo tristeza por término de namoro há duas semanas. Além disso, relatou diminuição no rendimento escolar, há dois meses, por ter muito sono durante as aulas e di culdade para prestar atenção. Ao exame físico, o médico constatou lesões cicatriciais de ferimentos cortocontusos em ambos os membros superiores. Com base nessa situação hipotética, assinale a alternativa que apresenta a conduta que não é recomendada.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "abordar o paciente em ambiente acolhedor e estimar o risco de tentativa de suicídio"
+        },
+        {
+          "key": "b",
+          "text": "demonstrar compreender as emoções do paciente que motivaram suas ações e verificar transtornos psiquiátricos coexistentes."
+        },
+        {
+          "key": "c",
+          "text": "determinar tipo, quantidade e gravidade das lesões e a disposição do paciente para aderir ao tratamento"
+        },
+        {
+          "key": "d",
+          "text": "avaliar a data da última vacinação para tétano ou aplicar reforço e checar alguns danos laboratoriais, incluindo pesquisa para anticorpos de hepatite C"
+        },
+        {
+          "key": "e",
+          "text": "notificar a família, internar o paciente e iniciar tratamento específico"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A internação compulsória imediata e o início de 'tratamento específico' sem avaliação individualizada mais aprofundada não é a conduta recomendada como primeira resposta — o manejo adequado envolve avaliação cuidadosa de risco, compreensão do contexto emocional, caracterização das lesões e triagem de exposições (tétano/hepatite C) antes de decisões mais drásticas.",
+      "theme": "sui_aval",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_060",
+      "statement": "Sobre a abordagem individual, na avaliação de risco e prevenção de suicídio é possível dizer que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O médico não deve perguntar ao paciente abertamente a respeito de ideação suicida para não o sugestionar."
+        },
+        {
+          "key": "b",
+          "text": "Se houver história pregressa de tentativa de suicídio, todo paciente deve ser encaminhado, imediatamente, para avaliação com psiquiatra."
+        },
+        {
+          "key": "c",
+          "text": "O sexo do paciente não deve ser considerado um fator de risco, pois o suicídio é mais comum em mulheres."
+        },
+        {
+          "key": "d",
+          "text": "Ideação suicida com planejamento é um sinal de risco imediato e enseja avaliação especializada."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Ideação suicida associada a planejamento estruturado é sinal de risco imediato, exigindo avaliação especializada urgente — diferente da ideação isolada sem plano, que ainda requer atenção mas com gravidade distinta.",
+      "theme": "sui_manejo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_061",
+      "statement": "A Organização Mundial da Saúde (OMS) estima que 1 pessoa morre por suicídio a cada 40 segundos, totalizando mais de 800.000 mortes por ano em todo o mundo. A OMS estabeleceu como meta reduzir em 10% o número de mortes por suicídio globalmente até 2020, enfatizando que suicídio é uma causa de morte evitável. A respeito do suicídio e sua prevenção, assinale a alternativa correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Leis que restringem o acesso a métodos letais de suicídio, como armas de fogo e pesticidas, não reduzem as taxas de suicídio"
+        },
+        {
+          "key": "b",
+          "text": "Perguntar ao paciente sobre ideação suicida é inadequado, pois a pergunta pode ser interpretada como incitação ao ato"
+        },
+        {
+          "key": "c",
+          "text": "Tentativas de suicídio repetidas no mesmo indivíduo indicam baixa probabilidade de morte por suicídio em tentativas futuras"
+        },
+        {
+          "key": "d",
+          "text": "Estudos do tipo autópsia psicológica evidenciam a presença de transtornos mentais em cerca de 90% das pessoas que se suicidaram"
+        },
+        {
+          "key": "e",
+          "text": "Mulheres fazem uso de métodos com mais alta letalidade comparadas aos homens"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Estudos de autópsia psicológica demonstram a presença de transtornos mentais diagnosticáveis em cerca de 90% das pessoas que morreram por suicídio — dado que reforça a forte associação entre transtorno mental e suicídio consumado.",
+      "theme": "sui_aval",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_065",
+      "statement": "Lívia, 15 anos, vem à Unidade Básica de Saúde para consulta com o médico. A consulta foi marcada pela mãe que percebeu cortes nos braços da lha. Durante a consulta, Lívia relata há 6 meses quadro de humor deprimido, baixa auto-estima e falta de motivação para sair de casa e para estudar, tendo repetido de ano na escola. Conta que tem pensamentos frequentes de morte e que corta os braços quando está se sentindo pior. Refere que os cortes são impulsivos, sem planejamento. Ao investigar os possíveis fatores estressores recentes em sua vida, ela revelou que sofre bullying de alguns colegas em sua escola e que saiu de casa para morar com a avó devido as brigas frequentes em casa. Assinale a alternativa mais adequada sobre o manejo do caso de Lívia:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Diante da presença de ideação suicida, encaminhar à urgência psiquiátrica."
+        },
+        {
+          "key": "b",
+          "text": "Explicar que o sofrimento de Lívia é causado pelos fatores estressores e encaminhar à psicologia."
+        },
+        {
+          "key": "c",
+          "text": "Iniciar tratamento com antidepressivo e agendar retorno em 2 semanas para avaliar o risco de suicídio e efeitos adversos."
+        },
+        {
+          "key": "d",
+          "text": "Encaminhar ao CAPS infantil e evitar início de antidepressivo antes da avaliação psiquiátrica."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de depressão moderada com ideação suicida passiva e autolesão impulsiva (sem planejamento), mas sem indicação de internação imediata, a conduta adequada é iniciar tratamento antidepressivo com retorno em 2 semanas para reavaliar risco de suicídio e efeitos adversos — abordagem ativa e proporcional à gravidade apresentada.",
+      "theme": "sui_manejo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_068",
+      "statement": "Numa manhã de segunda-feira você na segunda semana de sua atuação como residente de medicina de família e comunidade entra em seu consultório Dona Maria, 25 anos, você como bom residente inicia a consulta como uma pergunta aberta para que a paciente sinta-se confortável; \"\"Como posso lhe ajudar Dona Maria?\"\" A paciente já fragilizada pelo seu sofrimento mental começa a lacrimejar e depois de enxugar as lágrimas discorre: \"\"Olha doutor, tudo começou há 1 ano atrás, quando perdi minha mãe sabe?! E as coisas pioraram há 1 mês quando meu marido me deixou, desde então aqui aculá sinto um aperto no peito sabe?! O coração acelera parece que vai sair pela boca dá uma falta de ar, eu queria alguma coisa pra esse sufocamento passar, preciso seguir a vida!\"\" Baseado no diálogo, responda a questão: Supondo que na paciente acima você diagnosticou como depressão grave, porém a mesma está gestante, levando em conta essa nova informação, qual seria a conduta e/ou fármaco de melhor escolha:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Encaminhar apenas para psicoterapia, pois nenhum fármaco é completamente seguro na gestação"
+        },
+        {
+          "key": "b",
+          "text": "Ácido Valpróico, pois a paciente apresenta claras ideações suicidas e tal fármaco é comprovadamente efetivo em tais sintomas"
+        },
+        {
+          "key": "c",
+          "text": "Iniciar Sertralina e agendar retorno em 15 dias para reavaliar"
+        },
+        {
+          "key": "d",
+          "text": "Encaminhar para internação nos Leitos de Saúde Mental da sua cidade visto a gravidade do transtorno em questão."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Em gestante com depressão grave, a sertralina é considerada uma escolha segura e bem estudada entre os ISRS na gravidez — a conduta adequada é iniciar o tratamento farmacológico com retorno em 15 dias para reavaliação, evitando fármacos teratogênicos (como o ácido valproico) e reservando a internação para casos de risco iminente não presente aqui.",
+      "theme": "sui_manejo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_069",
+      "statement": "T ratamento do T ranstorno de Ansiedade Generalizada T AG Numa manhã de segunda-feira você na segunda semana de sua atuação como residente de medicina de família e comunidade entra em seu consultório Dona Maria, 25 anos, você como bom residente inicia a consulta como uma pergunta aberta para que a paciente sinta-se confortável; \"\"Como posso lhe ajudar Dona Maria?\"\" A paciente já fragilizada pelo seu sofrimento mental começa a lacrimejar e depois de enxugar as lágrimas discorre: \"\"Olha doutor, tudo começou há 1 ano atrás, quando perdi minha mãe sabe?! E as coisas pioraram há 1 mês quando meu marido me deixou, desde então aqui aculá sinto um aperto no peito sabe?! O coração acelera parece que vai sair pela boca dá uma falta de ar, eu queria alguma coisa pra esse sufocamento passar, preciso seguir a vida!\"\" Baseado no diálogo, responda a questão: Diante as informações acima, qual seria a conduta mais adequada para a paciente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dar seguimento com a consulta e questionar sobre a rede social da paciente, possíveis sintomas que prejudiquem a qualidade de vida e suas atividades diárias, assim como perguntar sobre ideações e pensamentos suicidas"
+        },
+        {
+          "key": "b",
+          "text": "Iniciar imediatamente tratamento medicamentoso, já que a paciente apresenta taquicardia, que é um dos sintomas clássicos de transtorno de ansiedade generalizada"
+        },
+        {
+          "key": "c",
+          "text": "Encaminhar para internação psiquiátrica visto que a paciente levou a hipótese de dificuldade de seguir a vida e isso significa que a mesma pode estar pensando em suicídio"
+        },
+        {
+          "key": "d",
+          "text": "Direcionar a paciente em questão a um CAPS (Centro de Atenção Psicossocial, pois o mesmo é o mais atualizado e indicado dispositivo na RAPS (Rede de Atenção Psicossocial para atender paciente com qualquer tipo de transtorno/sofrimento mental"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A conduta mais adequada é dar continuidade à consulta, investigando a rede de apoio social da paciente, os sintomas que prejudicam sua qualidade de vida e suas atividades diárias, além de perguntar ativamente sobre ideações e pensamentos suicidas — avaliação completa antes de qualquer decisão terapêutica.",
+      "theme": "sui_manejo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_070",
+      "statement": "Diagnóstico do T ranstorno de Ansiedade Generalizada T AG Senhor Mário, sexo masculino, 50 anos, casado, evangélico, 4 lhos, pedreiro é levado pela esposa para atendimento médico, na unidade básica de saúde, com relato de que, há cerca de três semanas, vem evoluindo com quadro de tristeza, isolamento social, faltas frequentes ao trabalho, redução do apetite e consequente perda de peso, insônia inicial, desânimo, perda da energia, choro fácil e ideação suicida. Também parou de realizar atividades que, antes lhe davam prazer, como jogar futebol e encontrar-se com os amigos. Relatou episódio semelhante quando era mais jovem, mas percebe os sintomas atuais de forma mais intensa. Como fatores estressores, relata que está passando por dificuldades financeiras e que um dos filhos está usando drogas. Negou uso de álcool ou outras drogas. Negou sintomas, como alucinações ou delírios. Como comorbidades, apresenta hipertensão arterial. Diante do exposto, assinale a alternativa CORRETA que apresente hipótese diagnóstica para o caso do paciente.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Episódio depressivo grave, com sintomas psicóticos."
+        },
+        {
+          "key": "b",
+          "text": "Transtorno afetivo bipolar, episódio de mania."
+        },
+        {
+          "key": "c",
+          "text": "Episódio depressivo grave, sem sintomas psicóticos."
+        },
+        {
+          "key": "d",
+          "text": "Transtorno de ansiedade generalizada."
+        },
+        {
+          "key": "e",
+          "text": "Episódio depressivo moderado."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Tristeza, isolamento social, faltas ao trabalho, redução de apetite/peso, insônia inicial, desânimo, choro fácil e ideação suicida, sem alucinações ou delírios, por 3 semanas, caracterizam episódio depressivo grave sem sintomas psicóticos.",
+      "theme": "sui_aval",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_073",
+      "statement": "Vendedora autônoma de produtos cosméticos, de 55 anos, casada, com dois lhos (de 18 e de 20 anos), vem para retorno de rotina na unidade básica de saúde, para acompanhamento de seu sobrepeso. Durante a consulta com o médico, relata estar se sentindo cansada com mais intensidade e frequência nos últimos dois meses, além de não conseguir dormir direito à noite, ter di culdade de se concentrar e sentir-se mais triste que seu habitual na maior parte dos dias. Nega outras queixas e nega ideação suicida. Refere ter sentido algo parecido há cerca de 5 anos, mas de maneira menos intensa e por menos tempo. Conta também que fuma um cigarro todo dia na hora do almoço, a não ser que esteja em local onde é proibido fumar e aí só vai fumar no dia seguinte. Ao exame físico apresenta IMC de 28Kg/m², sem outras alterações ao exame físico. Qual é a conduta mais adequada a tomar nesta situação?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Informar a paciente que ela tem depressão e tabagismo, introduzir bupropiona 150 mg/dia com orientação para aumentar para 300 mg/dia após três dias, solicitar dosagem de TSH e marcar nova consulta em 1 mês."
+        },
+        {
+          "key": "b",
+          "text": "Introduzir diazepam 10 mg/dia à noite, informando à paciente que a medicação vai lhe ajudar a dormir melhor, solicitar dosagem de TSH, encaminhar para o psicólogo e marcar nova consulta em 2 meses"
+        },
+        {
+          "key": "c",
+          "text": "Informar a paciente que ela tem depressão e tabagismo, introduzir nortriptilina 25 mg/dia com aumento para 50 mg/dia após 1 semana, solicitar dosagem de T4 e marcar nova consulta em 2 meses."
+        },
+        {
+          "key": "d",
+          "text": "Perguntar à paciente se está acontecendo algum problema ou alguma dificuldade na sua vida que a está incomodando no momento, sugerir experimentar fazer atividade física leve - como caminhada - para se sentir melhor, solicitar dosagem de TSH e marcar nova consuta em 1 mês"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de sintomas depressivos recentes (2 meses) e ainda não plenamente caracterizados, sem ideação suicida, a conduta inicial mais adequada é explorar ativamente o contexto psicossocial da paciente, sugerir atividade física leve, solicitar TSH para descartar causa orgânica, e reavaliar em 1 mês — antes de rotular e medicar prematuramente.",
+      "theme": "sui_aval",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_075",
+      "statement": "RJA parecia cada vez pior. A morte do seu lho foi desoladora. Apesar de estar tentando cuidar melhor, das crianças, a cada ida ao posto, sua tristeza cava mais aparente. Numa das vezes, RJA não aguentou e começou a chorar. O médico, então, percebe que é hora de avaliar melhor a situação. Ao longo da conversa, RJA explicita suas di culdades e confessa: \"Antes de ontem, comprei um pouco de chumbinho (veneno de rato, altamente tóxico). Mandei os meninos para a casa da vizinha e já olhei um lugar mais afastado, perto do açude para que ninguém me veja. Doutor, eu moro só com os meninos... não existe ninguém por mim... Não vejo a hora disso acabar...\" Diante deste contexto, assinale a alternativa que demonstra a conduta mais adequada ao caso:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Em geral, pacientes com depressão, que comunicam o desejo de morrer, têm um traço de histeria associado. A conduta correta é tratar a depressão com um inibidor de recaptação da serotonina e marcar retorno para sete dias."
+        },
+        {
+          "key": "b",
+          "text": "O diagnóstico provável é de depressão e existe risco real de suicídio. A ausência de suporte social e o plano elaborado para a tentativa de suicídio indicam a necessidade de avaliação psiquiátrica de urgência."
+        },
+        {
+          "key": "c",
+          "text": "O diagnóstico é de depressão com sintomas psicóticos, sendo necessário o uso de antidepressivo associado a um antipsicótico (Risperidona). Deve-se marcar retorno em dois dias."
+        },
+        {
+          "key": "d",
+          "text": "Pacientes que choram em consulta indicam a necessidade de uso de benzodiazepínico. É necessário marcar um retorno em sete dias para a reavaliação."
+        },
+        {
+          "key": "e",
+          "text": "O diagnóstico é de depressão maior. No caso deve ser prescrito fluoxetina associado a benzodiazepínico para melhoria dos sintomas. É necessário marcar um retorno em sete dias para a reavaliação."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de plano suicida elaborado (aquisição de veneno, local isolado escolhido, afastamento das crianças) associado a desesperança e ausência de suporte social, há risco real de suicídio — a conduta adequada é encaminhar para avaliação psiquiátrica de urgência.",
+      "theme": "sui_manejo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_080",
+      "statement": "Leia o texto a seguir, extraído do livro Medicina Ambulatorial: Condutas de Atenção Primária Baseadas em Evidências (DUNCAN & cols, 4ª edição). A depressão é uma condição médica relativamente comum, de curso crônico e recorrente. Está muitas vezes associada à incapacitação funcional e comprometimento da saúde física. Pessoas deprimidas apresentam limitação das suas atividades e comprometimento do bem-estar, além de utilizarem mais os serviços de saúde. No entanto, a depressão segue sendo subdiagnosticada e subtratada. Entre 30 e 60% dos casos de depressão não são detectados pelo médico em atenção primária à saúde (APS). Muitas vezes, os pacientes deprimidos também não recebem tratamentos su cientemente adequados e especí cos. Em APS, a mediana de prevalência de depressão está acima de 10%. Em populações especí cas, como a de pacientes com infarto recente, é de 33%, chegando a 47% nos pacientes com câncer. A prevalência de depressão é aproximadamente 2x maior em mulheres do que em homens. Sobre transtorno depressivo, verifica-se o seguinte:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a depressão é uma doença comum na população em geral e compromete muito a qualidade de vida das pessoas, porém é incomum em pacientes com outras doenças clínicas."
+        },
+        {
+          "key": "b",
+          "text": "existem evidências de que os antidepressivos são eficazes na depressão aguda moderada a grave, no entanto, não mostraram vantagens em relação ao placebo em depressões leves."
+        },
+        {
+          "key": "c",
+          "text": "o suicídio está entre as 10 principais causas de morte no mundo e o transtorno depressivo é um importante fator de risco para tal; portanto, é importante salientar que perguntar sobre suicídio induz estes pacientes a pensar em suicídio."
+        },
+        {
+          "key": "d",
+          "text": "os transtornos depressivos também são condições altamente prevalentes na infância e na adolescência e, diante do diagnóstico, o tratamento não difere muito do adulto, porém na depressão maior deve-se preferir o uso de tricíclicos."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Os antidepressivos demonstram eficácia estabelecida na depressão aguda moderada a grave, mas não mostraram vantagem consistente sobre o placebo em quadros de depressão leve — achado relevante de metanálises que orienta a decisão terapêutica conforme a gravidade do quadro.",
+      "theme": "sui_aval",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_081",
+      "statement": "Paciente do sexo feminino, de 45 anos, empresária, previamente hígida, desconhece casos de transtornos mentais na família, abre quadro de rebaixamento do humor vital, ruminações pessimistas e ideias de suicídio. Sem história de abuso de drogas. Exame físico sem alterações. Hemoglobina e TSH normais. Foi diagnosticada com episódio depressivo maior. Qual é o dado clínico a ser pesquisado que fará maior diferença na determinação da melhor escolha terapêutica farmacológica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Padrão de sono e apetite (se aumentados ou diminuídos)."
+        },
+        {
+          "key": "b",
+          "text": "Presença de ansiedade patológica e ataques de pânico."
+        },
+        {
+          "key": "c",
+          "text": "Presença de outro episódio depressivo no passado."
+        },
+        {
+          "key": "d",
+          "text": "Episódio prévio de hipertimia com aumento de energia corporal."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Antes de escolher o antidepressivo, é fundamental pesquisar história de episódio prévio de hipertimia com aumento de energia (hipomania/mania) — dado que, se presente, indicaria transtorno bipolar e contraindicaria antidepressivo em monoterapia pelo risco de virada maníaca.",
+      "theme": "sui_aval",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_082",
+      "statement": "Uma das principais causas de morte no mundo é o suicídio, tendo atingido a cifra de mais de 800.000 pessoas por ano, segundo a Organização Mundial da Saúde. Em relação ao comportamento suicida, sabe-se que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a tentativa de suicídio, na maioria das vezes, ocorre subitamente, sem a pessoa dar sinais prévios de que possa vir a atentar contra a própria vida."
+        },
+        {
+          "key": "b",
+          "text": "a pergunta aberta sobre pensamentos suicidas dirigida aos pacientes é perigosa pelo risco de se encorajar esse ato naqueles que não contemplavam a possibilidade."
+        },
+        {
+          "key": "c",
+          "text": "as mulheres fazem mais tentativas de suicídio do que os homens, não morrendo na mesma proporção pela baixa letalidade dos métodos escolhidos."
+        },
+        {
+          "key": "d",
+          "text": "uma minoria de pessoas que tentam o suicídio sem sucesso apresenta transtornos mentais diagnosticáveis."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "As mulheres realizam mais tentativas de suicídio que os homens, mas morrem em proporção menor devido à escolha de métodos de menor letalidade — padrão epidemiológico bem estabelecido (paradoxo de gênero no suicídio).",
+      "theme": "sui_aval",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_086",
+      "statement": "Você é médico de família e comunidade. Atualmente trabalha em uma Unidade de Saúde da Família (USF) no interior do Estado de São Paulo. J.D.M., 51 anos, divorciado, desempregado, vem para consulta eventual acompanhado de sua nora, Elaine. Relata que chegou há 3 semanas do Ceará para morar com seu lho (mora no território de abrangência da sua USF). Elaine diz que J.D.M. veio para tratamento, pois estava difícil arrumar \"médico de cabeça\", em Aracati. Segundo ela, há mais ou menos 3 anos ele teve diagnóstico de depressão com alucinações (episódio depressivo maior com sintomas psicóticos). Faz uso desde então de sertralina 75mg/dia, risperidona 1mg/dia e diazepam 5mg/dia. Estava bem, porém a depressão retornou há aproximadamente 1 ano, com aumento das alucinações (inclusive levando ao término de seu casamento há 3 meses). Já teve ideação suicida, mas no momento nega. Refere ainda insônia (diz que tem passado as noites em claro). Antecedentes: Sobrepeso, hipertensão arterial controlada com enalapril 10mg/dia e tabagismo 10 cigarros/dia. Restante normal. Contexto familiar: J.D.M. mora com o lho, que tem 32 anos, é mecânico e é usuário de cocaína, Elaine trabalha em casa, vendendo bijuterias e produtos de beleza. Eles têm 3 lhos: um bebê de 2 anos, um menino de 5 anos (com síndrome de Down) e uma menina de 9 anos. Exame físico normal, exceto humor deprimido. Com base no caso descrito acima, você como médico de família e comunidade: (marque a resposta mais completa)",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Encaminha o paciente com prioridade para a psiquiatria, pois trata-se de caso complexo de saúde mental e que deve ser manejado exclusivamente na atenção secundária."
+        },
+        {
+          "key": "b",
+          "text": "Aumenta a sertralina para 100mg/dia, aumenta o diazepam para 10mg/dia e marca um retorno curto de 30 dias para reavaliação."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar exames gerais (incluindo TSH) e agenda para checar os exames em 2 semanas (por hora mantém os mesmos medicamentos e doses)."
+        },
+        {
+          "key": "d",
+          "text": "Planeja com a agente comunitária de saúde uma visita domiciliar para entender melhor a dinâmica familiar e em seguida solicita agendamento rápido com o matriciamento de saúde mental. Você não modifica os medicamentos psicotrópicos pois trata-se de caso complexo de saúde mental que deve ser manejado pela psiquiatria."
+        },
+        {
+          "key": "e",
+          "text": "Aumenta a sertralina para 100mg/dia, aumenta a risperidona para 2mg/dia, aumenta o diazepam para 10mg/dia, planeja com a agente comunitária de saúde uma visita domiciliar para entender melhor a dinâmica familiar e em seguida solicita agendamento rápido com o matriciamento de saúde mental."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Diante de depressão psicótica recorrente com piora das alucinações, insônia e contexto familiar complexo (mas sem ideação suicida ativa no momento), a resposta mais completa combina ajuste medicamentoso (aumento de sertralina, risperidona e diazepam) com investigação psicossocial ativa (visita domiciliar com a agente comunitária) e acesso rápido ao matriciamento em saúde mental — abordagem biopsicossocial integrada, sem excluir o manejo da atenção primária.",
+      "theme": "sui_aval",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_088",
+      "statement": "Homem de 50 anos, branco, solteiro (nunca casado), médico, está em tratamento para doença renal crônica, realizando hemodiálise. Vem à consulta clínica e conta que tem se sentido bastante desanimado, desesperançoso, triste e anedônico. Relata que perdeu peso nos últimos meses por diminuição importante do apetite e apresenta insônia quase que diariamente (utiliza um benzodiazepínico de forma constante como hipnótico e não faz uso de nenhum outro psicofármaco). Não vê perspectiva para o seu futuro, seja pessoal ou pro ssional. Nos últimos tempos, tem permanecido muito em casa sozinho, afastado de familiares e amigos. Ao nal da consulta, conta que não vê mais muito sentido em seguir vivo. Tem, eventualmente, pensado em tirar a própria vida e já imaginou a forma como o faria. Assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apesar da ideação suicida, o paciente tem alguns fatores protetores (como ter uma profissão), o que permite que você possa se tranquilizar sobre os riscos do paciente."
+        },
+        {
+          "key": "b",
+          "text": "Apesar da ideação suicida, você não entende que o paciente necessite de antidepressivo, uma vez que, por estar em hemodiálise, é natural que se sinta deprimido e desanimado pelo tratamento clínico a que vem se submetendo."
+        },
+        {
+          "key": "c",
+          "text": "A ideação suicida do paciente lhe preocupa, mas como ele apresenta fatores protetores (é médico, está na meia idade e tem uma doença psiquiátrica e não apenas uma doença clínica), você decide por iniciar um antidepressivo e marcar um retorno para quinze dias."
+        },
+        {
+          "key": "d",
+          "text": "A ideação do paciente lhe preocupa, ele apresenta muitos fatores de risco, por isso, você decide por iniciar um antidepressivo. Além disso, você decide revê-lo em, no máximo, uma semana no consultório."
+        },
+        {
+          "key": "e",
+          "text": "A ideação do paciente lhe preocupa, e como ele apresenta muitos fatores de risco, tem pouco suporte social e um plano de ação suicida, você entende que precisa ser encaminhado para uma internação psiquiátrica."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Diante de ideação suicida ativa com plano estruturado, pouco suporte social e múltiplos fatores de risco (isolamento, doença crônica, desesperança), a conduta adequada é encaminhar para internação psiquiátrica — a gravidade do quadro supera qualquer fator supostamente 'protetor' isolado.",
+      "theme": "sui_manejo",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_089",
+      "statement": "Mulher de 53 anos procura Unidade de Saúde da Familia. Vem acompanhada por uma vizinha, já que é viúva sem lhos e mora sozinha. Relatou ao clínico que a atendeu que, há cerca de um ano, apresenta quase todos os dias sensação de tristeza e melancolia, perda de apetite, com emagrecimento de 5 kg e insônia. O médico solicitou avaliação da psicóloga da unidade, que detectou que a paciente já teve ataques de pânico e, nos últimos 6 meses, surgiu falta de interesse em realizar suas atividades habituais, além de fadiga, dé cit de concentração e sentimento de menos-valia. A vizinha relatou con dencialmente que a paciente abusa do consumo de álcool, atualmente fala frases como: \"viver assim é melhor morrer\", \"eu não aguento mais\" e teve um irmão que cometeu suicídio. O exame físico e os testes laboratoriais (hemograma, glicemia e TSH) foram normais. O médico deve considerar, nessa paciente, como fatores de risco de suicídio:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "o sexo feminino e a história de alcoolismo e perguntar abertamente à paciente sobre a intenção e os meios de se matar."
+        },
+        {
+          "key": "b",
+          "text": "a história de alcoolismo e a viuvez sem filhos e explicar-lhe que a ideação de terminar com a vida é manifestação da depressão e não uma aberração."
+        },
+        {
+          "key": "c",
+          "text": "a idade inferior a 55 anos e o antecedente de ataques de pânico e indicar eletroconvulsoterapia."
+        },
+        {
+          "key": "d",
+          "text": "viuvez sem filhos e a idade inferior a 55 anos e indicar farmacoterapia e psicoterapia."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Os fatores de risco de suicídio a serem considerados incluem a história de alcoolismo e a viuvez sem filhos (isolamento social) — importante também explicar à paciente que a ideação de acabar com a vida é manifestação reconhecida da depressão, não uma aberração pessoal, reduzindo estigma e facilitando abertura para tratamento.",
+      "theme": "sui_manejo",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_094",
+      "statement": "O transtorno psiquiátrico mais importante e frequente relacionado ao suicídio é o (a):",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno orgânico mental."
+        },
+        {
+          "key": "b",
+          "text": "Transtorno por uso de substância psicoativa."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno do humor."
+        },
+        {
+          "key": "d",
+          "text": "Transtorno de personalidade."
+        },
+        {
+          "key": "e",
+          "text": "Esquizofrenia."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O transtorno do humor (especialmente depressão maior e transtorno bipolar) é o transtorno psiquiátrico mais frequentemente associado ao suicídio consumado.",
+      "theme": "sui_aval",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}

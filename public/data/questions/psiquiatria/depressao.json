@@ -1,1 +1,1052 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "th_002",
+      "statement": "Sobre Depressão marque a resposta ERRADA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pode causar incapacidade."
+        },
+        {
+          "key": "b",
+          "text": "É um fator de risco reversível para Demência."
+        },
+        {
+          "key": "c",
+          "text": "Inibidores da receptação da serotonina é uma das classes de anti-depressivo mais utilizadas para tratar depressão."
+        },
+        {
+          "key": "d",
+          "text": "Sintomas cognitivos podem estar presentes na depressão."
+        },
+        {
+          "key": "e",
+          "text": "Clonazepan e lorazepan são as drogas de escolha para tratamento da depressão."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Clonazepam e lorazepam são benzodiazepínicos (ansiolíticos), não antidepressivos — não são as drogas de escolha para tratamento da depressão, sendo esta a afirmação ERRADA.",
+      "theme": "dep_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_007",
+      "statement": "Paciente, de 36 anos, consulta em ambulatório, referindo um quadro de muita dor em região lombo-sacra que a tem impedido de realizar diversas atividades habituais, diminuindo, assim, de forma importante, sua qualidade de vida. No decorrer da consulta, paciente conta que tem se sentido extremamente triste, sensível, com episódios de choro, intercalados por episódios de raiva intensa. Conta, ainda, que tem lhe ocorrido a ideia de tirar a própria vida. Relata que tudo iniciou quando, há cerca de um mês, foi prescrita, em outro serviço, uma medicação para o seu quadro de dor. Assinalar a medicação, entre as descritas abaixo, relacionada ao presente quadro:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Paracetamol."
+        },
+        {
+          "key": "b",
+          "text": "Dexametasona."
+        },
+        {
+          "key": "c",
+          "text": "Diazepam."
+        },
+        {
+          "key": "d",
+          "text": "Ácido acetilsalicílico."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Corticoides como a dexametasona são bem descritos por causarem alterações do humor, incluindo quadros depressivos e até psicóticos, como efeito colateral psiquiátrico relevante.",
+      "theme": "dep_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_008",
+      "statement": "Os conceitos de síndrome da tristeza pós-parto (STPP) ou Baby blues e de Depressão pós-parto (DPP) são, muitas vezes, confundidos. Considerando-se o exposto, assinalar a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A incidência de STPP é de cerca de 10 a 15% e de DPP 30 a 75% nas mulheres que dão à luz."
+        },
+        {
+          "key": "b",
+          "text": "O momento de início da STPP é nos 3 a 6 meses após o parto e da DPP é nos 3 a 5 dias após o parto."
+        },
+        {
+          "key": "c",
+          "text": "Na STTP, há forte associação com história de transtorno de humor, enquanto que não há essa associação na DPP."
+        },
+        {
+          "key": "d",
+          "text": "A anedonia não é um sintoma frequente na STPP e é frequente na DPP."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A anedonia não é sintoma típico do baby blues (síndrome da tristeza pós-parto), mas é frequente e característica da depressão pós-parto — diferença importante entre os dois quadros. A incidência do blues é maior (não menor) que a da DPP, o blues inicia nos primeiros dias (não meses) pós-parto, e a associação com histórico de transtorno de humor é mais forte na DPP.",
+      "theme": "dep_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_010",
+      "statement": "Mulher de 75 anos vem à consulta de saúde acompanhada da lha que refere que sua mãe está apresentando muitos esquecimentos, há aproximadamente 6 meses. Paciente é hipertensa, diabética e faz uso de losartana 50 mg 1 comprimido ao dia e glifage XR 500 mg 2 comprimidos ao dia. Paciente estudou até a 8° série do ensino médio. Ao exame clínico: PA: 120 x 80 mmHg, FC: 71 bpm, FR:16 ipm Peso: 60 Kg, Alt: 1.65 m, IMC: 22, saturação de O₂: 98% dextro: 110 mg/dl. Exames laboratoriais: vitamina B12: 400 (VR: 210-980 pg/ml), TSH: 2.80 (VR: 0.3-4.8), MEEM: 28 pontos. GDS (Escala de Depressão Geriátrica) 8. De acordo com o quadro descrito acima, qual o diagnóstico mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hipotireoidismo."
+        },
+        {
+          "key": "b",
+          "text": "Síndrome demencial."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno depressivo."
+        },
+        {
+          "key": "d",
+          "text": "Hipovitaminose de B12."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Esquecimentos há 6 meses, com MEEM normal (28 pontos, afastando demência), GDS elevado (8, sugestivo de depressão), TSH e B12 normais, são compatíveis com transtorno depressivo (pseudodemência depressiva), não com síndrome demencial verdadeira.",
+      "theme": "dep_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_011",
+      "statement": "Leia o caso clínico. Paciente masculino, adulto jovem, sem antecedentes patológicos ou psiquiátricos prévios, apresentando, há vinte dias, sentimento de vazio emocional a maior parte do tempo, anedonia, hipersonia, sensação de fraqueza muscular e aumento do apetite. Relata estar bastante sensível a frustrações e eventos cotidianos interpretados como adversos, embora note amenização dos sintomas quando recebe notícias positivas. O diagnóstico mais provável é o de",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno Depressivo Maior com características mistas."
+        },
+        {
+          "key": "b",
+          "text": "Transtorno Depressivo Maior com características atípicas."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno Depressivo Maior com características melancólicas."
+        },
+        {
+          "key": "d",
+          "text": "Transtorno de Ajustamento com humor deprimido."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Vazio emocional, anedonia, hipersonia, fadiga muscular, aumento do apetite e reatividade do humor a eventos positivos (melhora com boas notícias) caracterizam Transtorno Depressivo Maior com características atípicas.",
+      "theme": "dep_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_013",
+      "statement": "Uma mulher de 42 anos apresenta quadro de depressão associada à morte de sua lha de 15 anos há 1 ano. É acompanhada pela equipe de saúde de uma UBS, que identi ca vários aspectos de sua vida que interferem em sua saúde, entre os quais o fato de que ela é tabagista há 20 anos, tem di culdades nanceiras e tem um lho adolescente usuário de drogas. Em decorrência disso,",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "é fundamental que a equipe de saúde invista na cessação tabágica da paciente estabelecendo metas por períodos definidos conjuntamente."
+        },
+        {
+          "key": "b",
+          "text": "a equipe de saúde deve analisar junto com a paciente suas necessidades, levando em conta sua história e condições de vida."
+        },
+        {
+          "key": "c",
+          "text": "provavelmente, a paciente se beneficiaria com a estratégia de criação de tarefas e cronogramas para o combate à depressão."
+        },
+        {
+          "key": "d",
+          "text": "a equipe de saúde deve estabelecer quais são as prioridades da paciente e cumprir as etapas necessárias para auxiliar a paciente."
+        },
+        {
+          "key": "e",
+          "text": "a equipe de saúde deve estabelecer o que está ao seu alcance, restringindo-se ao tratamento medicamentoso da depressão e à cessação tabágica."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A equipe de saúde deve analisar, junto com a paciente, suas necessidades reais, considerando sua história de vida e condições concretas (múltiplos estressores: luto, tabagismo, dificuldades financeiras, filho usuário de drogas) — abordagem centrada na pessoa, não impondo uma única prioridade isolada.",
+      "theme": "dep_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_020",
+      "statement": "M., 23 anos, solteira, vem ao consultório para realizar consulta de revisão. Ela tem um bebê de dois meses de idade e diz que \"\"não vai dar conta das exigências maternas\"\". Sente-se sozinha e desamparada. Apresenta, desde então, disforia, anedonia, insônia e ansiedade. Sem outras alterações clínicas. Assinalar a alternativa que melhor de ne a condição da paciente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Blues pós-parto."
+        },
+        {
+          "key": "b",
+          "text": "Psicose puerperal."
+        },
+        {
+          "key": "c",
+          "text": "Depressão perinatal."
+        },
+        {
+          "key": "d",
+          "text": "Transtorno disfórico pós-parto."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Sensação de sobrecarga, solidão, desamparo, disforia, anedonia, insônia e ansiedade em puérpera de 2 meses (além do período típico do blues) caracterizam depressão perinatal.",
+      "theme": "dep_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_021",
+      "statement": "Paciente do sexo feminino, 23 anos, relata tristeza intensa, pois foi demitida devido a repetidas faltas no trabalho. Diz que, desde seus 22 anos, na maioria dos meses, sente uma mudança em ciclos, com um período de alguns dias de irritabilidade, labilidade, letargia, avidez por doce e uma \"\"sensação de inchaço\"\", que ocorrem quase todos os meses. Percebe que, logo após a menstruação, a \"\"vida volta a car leve e colorida\"\". Associa suas faltas ao trabalho a esses períodos de \"\"mudança do humor e inchaços\"\". Assinalar a alternativa que apresenta o diagnóstico mais provável:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dismenorreia."
+        },
+        {
+          "key": "b",
+          "text": "Transtorno ciclotímico."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno de personalidade histriônica."
+        },
+        {
+          "key": "d",
+          "text": "Transtorno disfórico pré-menstrual."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Sintomas cíclicos ligados ao ciclo menstrual (irritabilidade, labilidade, letargia, avidez por doces, sensação de inchaço) que melhoram após a menstruação caracterizam Transtorno Disfórico Pré-menstrual.",
+      "theme": "dep_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_022",
+      "statement": "So a mulher, 39 anos, cabelereira, casada, G2A0P2, chega a Unidade Básica de Saúde para consulta de rotina. Relata perceber, há cerca de 3 meses, dores pelo corpo com sensação de fadiga e falta de energia para realizar, tarefas habituais. Percebeu aumento de irritabilidade, Insônia de manutenção e aumento da apetite com ganho ponderal de 6 kg, algo que a incomoda muito porque tem medo de engordar. Observa que esse quadro piorou nos últimos 20 dias e não tem conseguido realizar as atividades que antes gostava, como caminhar ou cozinhar, diz não ver mais graça. Não relaciona sua situação a nenhum fator ambiental. Informa episódio semelhante aos 30 anos mas, na época, não buscou ajuda. A hipótese diagnóstica mais provável e a conduta que deve ser sugerida são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno do sintoma somático, com predomínio de dor; benzodiazepínicos e atividade física."
+        },
+        {
+          "key": "b",
+          "text": "Transtorno depressivo maior; inibidor preferencial da recaptação de serotonina e psicoterapia."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno alimentar, provável compulsão alimentar periódica; inibidor preferencial da recaptação de serotonina"
+        },
+        {
+          "key": "d",
+          "text": "Transtorno depressivo persistente (distimia); antidepressivo tricíclico, benzodiazepínico para insónia psicoterapia."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Dor corporal, fadiga, irritabilidade, insônia de manutenção, aumento de apetite com ganho de peso, anedonia, piora progressiva em 20 dias e episódio semelhante prévio aos 30 anos são compatíveis com Transtorno Depressivo Maior — tratamento com ISRS e psicoterapia.",
+      "theme": "dep_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_026",
+      "statement": "Mulher, 30 anos, apresenta episódios intercorrentes de tristeza intensa, desinteresse, ideias de desvalia, tensão, acompanhada de cefaleia e dores musculares. Fica irritada facilmente, mas os sintomas desaparecem rapidamente, voltando ao seu comportamento usual, tranquilidade e interesse. O transtorno mais provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Disfórico pré-menstrual."
+        },
+        {
+          "key": "b",
+          "text": "Ansiedade generalizada."
+        },
+        {
+          "key": "c",
+          "text": "Ciclotímico."
+        },
+        {
+          "key": "d",
+          "text": "Dismórfico corporal."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Episódios intermitentes de tristeza intensa, desinteresse, desvalia, tensão, cefaleia e dores musculares, com irritabilidade e retorno rápido ao estado habitual, são compatíveis com Transtorno Disfórico Pré-menstrual (padrão cíclico com resolução completa entre episódios).",
+      "theme": "dep_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_030",
+      "statement": "No Transtorno Disfórico Pré-menstrual, segundo o DSM-V, um (ou mais) dos seguintes sintomas deve estar presente. Assinale a alternativa incorreta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Labilidade afetiva reduzida."
+        },
+        {
+          "key": "b",
+          "text": "Irritabilidade ou raiva acentuadas ou aumento nos conflitos interpessoais."
+        },
+        {
+          "key": "c",
+          "text": "Humor deprimido acentuado, sentimentos de desesperança ou pensamentos autodepreciativos."
+        },
+        {
+          "key": "d",
+          "text": "Ansiedade acentuada, tensão e/ou sentimentos de estar nervosa ou no limite."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "É a alternativa INCORRETA: os critérios do Transtorno Disfórico Pré-menstrual descrevem labilidade afetiva AUMENTADA (não reduzida) entre os sintomas exigidos — a afirmativa inverte o critério real.",
+      "theme": "dep_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_034",
+      "statement": "Os pro ssionais de saúde tem observado aumento do número de transtornos mentais relacionados ao trabalho, particularmente de casos que se manifestam por um estado físico, emocional e mental de exaustão extrema, diminuição do envolvimento pessoal no trabalho ou afastamento do público que deveria receber os serviços, resultantes do acúmulo de situações de trabalho emocionalmente exigentes e estressantes, que demandam muita competitividade ou responsabilidade. Assinale, dentre as alternativas a seguir, aquela que CORRETAMENTE corresponde ao quadro clínico descrito.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Estado de Estresse Pós-Traumático"
+        },
+        {
+          "key": "b",
+          "text": "Neurastenia"
+        },
+        {
+          "key": "c",
+          "text": "Síndrome de Burnout"
+        },
+        {
+          "key": "d",
+          "text": "Transtorno Cognitivo Leve"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Exaustão física, emocional e mental extrema, com afastamento/despersonalização em relação ao público atendido, decorrente do acúmulo de situações de trabalho emocionalmente exigentes, caracteriza Síndrome de Burnout.",
+      "theme": "dep_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_035",
+      "statement": "A sobrecarga de trabalho dos pro ssionais de saúde durante o enfrentamento da pandemia por COVID-19 é um dos principais problemas a serem abordados por gestores e todos diretamente envolvidos com o sistema de saúde. A síndrome de Burnout é uma condição complexa que se manifesta de diversas formas. Marque a alternativa que não apresenta uma manifestação típica desta síndrome:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "\"\"Meu trabalho me faz sentir como se estivesse no limite das minhas possibilidades\"\"."
+        },
+        {
+          "key": "b",
+          "text": "\"\"Quando me levanto de manhã sinto cansaço só de pensar que tenho que encarar mais um dia de trabalho\"\"."
+        },
+        {
+          "key": "c",
+          "text": "\"\"Vejo sentido e propósito em meu trabalho, apesar de às vezes me sentir muito cansado\"\"."
+        },
+        {
+          "key": "d",
+          "text": "\"\"Trato alguns pacientes com frieza, mau humor ou com raiva\"\"."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Ver sentido e propósito no próprio trabalho, apesar do cansaço, NÃO é manifestação típica de burnout — pelo contrário, é sinal de engajamento preservado, contrário à despersonalização/cinismo característicos da síndrome.",
+      "theme": "dep_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_037",
+      "statement": "Dona Helena, 67 anos, secretária aposentada, vem pela primeira vez a consulta na Unidade Básica do bairro desde que se mudou para morar com sua lha. Seu esposo faleceu de Infarto Agudo do Miocárdio há 4 meses, e, desde então, veio residir com a lha mais velha, o genro e um neto. Tem outra lha que mora em outro estado, mas que não vê há 5 anos, embora conversem por telefone ou aplicativos de vídeo online frequentemente. É sabidamente hipertensa, tem hipotireoidismo e osteoartrite. Refere dores nas articulações das mãos, joelhos e ombro direito, há anos, que pioram com alterações do clima. Apresenta ainda insônia e gostaria de uma medicação para dormir melhor. Mudou-se contra a vontade, embora reconheça que será mais bem cuidada perto da filha. Faz uso de enalapril 20 mg ao dia, levotiroxina 75 mcg em jejum e condroitina-glucosamina. Quando foi questionada sobre seu estado de humor, a rma desinteresse em atividades que antes lhe davam satisfação, por causa das dores intensas. Mesmo morando com a família, sente-se sozinha. Visivelmente emocionada, com fala pausada pelo choro. Relata episódio de depressão no passado, quando as lhas foram morar em outros estados. Usou uoxetina por um tempo, mas quando sentiu que estava melhor, suspendeu por conta própria. Ao exame físico: paciente entristecida, tendendo ao choro, humor deprimido, embora lúcida, orientada no tempo e espaço, atenta, com discurso coerente. Pressão 160x80 mmHg, Frequência Cardíaca (FC) 85 bpm. Ausculta cardiopulmonar sem alterações dignas de nota. Redução da amplitude do movimento e da força envolvendo todas as manobras do manguito rotador direito. Nódulos de Hederben nos dedos da mão direita. Com relação ao quadro clínico apresentado, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Depressão prévia e viuvez são fatores predisponentes para quadros depressivos, e o uso de mirtazapina poderia beneficiar a paciente por melhorar o sono."
+        },
+        {
+          "key": "b",
+          "text": "A principal hipótese da paciente é depressão, sendo interessante e seguro reiniciar a fluoxetina, já que é a droga de primeira escolha nesses casos."
+        },
+        {
+          "key": "c",
+          "text": "Nesses casos é importante avaliar e tratar a insônia da paciente, visto que prejudica a qualidade de vida, sendo o diazepam uma ótima opção."
+        },
+        {
+          "key": "d",
+          "text": "Exames são desnecessários no caso, visto que o quadro apresentado não sofre influência de alterações hormonais ou de outras comorbidades presentes."
+        },
+        {
+          "key": "e",
+          "text": "Em se tratando de depressão e insônia, qualquer opção de antidepressivo ou de indutor do sono é bem tolerada por esses pacientes, sendo indicados sempre."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Depressão prévia e viuvez recente são fatores predisponentes reconhecidos para novos episódios depressivos; a mirtazapina poderia beneficiar a paciente ao melhorar simultaneamente o humor e a insônia relatada, dado seu perfil sedativo.",
+      "theme": "dep_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_044",
+      "statement": "Na depressão de início na infância e adolescência, é correto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Escitalopram, fluoxetina e sertralina são medicamentos autorizados pelo FDA para o tratamento."
+        },
+        {
+          "key": "b",
+          "text": "Nessa faixa etária, o humor pode ser deprimido ou irritável para o diagnóstico."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno depressivo persistente é descrito como um transtorno crônico de pelo menos 2 anos de evolução."
+        },
+        {
+          "key": "d",
+          "text": "A prevalência de depressão é semelhante em crianças e adolescentes, em torno de 2%."
+        },
+        {
+          "key": "e",
+          "text": "A duração média de um episódio depressivo em crianças e adolescentes é em torno de 3 meses."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Na depressão de início na infância/adolescência, o humor pode se apresentar como deprimido OU irritável para fins diagnósticos — critério alternativo reconhecido pelo DSM-5 para essa faixa etária, diferente do critério estritamente 'humor deprimido' usado em adultos.",
+      "theme": "dep_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_046",
+      "statement": "Sra. Cleide, 50 anos, motorista de ônibus, mora com o esposo. Tem 3 lhos adultos e 2 netos. É conhecida na Unidade de Saúde por ter cuidado de seu pai, acamado durante 2 anos, até o seu falecimento há 3 anos. Em suas consultas de rotina sempre foi ativa e bem humorada. Desta vez, chega abatida, dizendo estar triste há uns meses, sem apresentar mais a mesma disposição para realizar as atividades diárias. Acha que menstrual está irregular há 6 meses, mas teme estar com depressão. Escolha a alternativa mais adequada para a abordagem inicial da Sra. Cleide.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Orientar cuidadosamente a paciente de que possui critérios diagnóstico de depressão. Solicitar priorização do encaminhamento ao psiquiatra para o manejo medicamentoso."
+        },
+        {
+          "key": "b",
+          "text": "Explicar à paciente gentilmente que a gênese do seu sofrimento mental é decorrente da menopausa. Solicitar mamografia, Ultrassom Transvaginal, FSH, TSH, lipidograma e glicemia em jejum. Se todos estiverem normais propor início de Terapia de Reposição Hormonal."
+        },
+        {
+          "key": "c",
+          "text": "Explorar a gravidade do seu sofrimento, verificar seus próprios recursos para lidar com os sintomas e apresentar as possibilidades terapêuticas. Agendar um retorno para 2 semanas e mostrar-se disponível."
+        },
+        {
+          "key": "d",
+          "text": "Explicar que está vivendo uma crise relacionada a fase do ciclo de vida familiar (“lançando os filhos e seguindo em frente”), mostrando quanto é importante lidar por si com essa questão, com isso estimulando sua autonomia de cuidado."
+        },
+        {
+          "key": "e",
+          "text": "Iniciar Fluoxetina 20mg pela manhã e Amitriptilina 25mg antes de dormir. Explicar que, pelo potencial efeito sedativo das medicações, deve cautelar na direção veicular. Agendar retorno em 1 mês para reavaliação."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de paciente sobrecarregada com sintomas depressivos e preocupação sobre seu próprio diagnóstico, a abordagem inicial adequada é explorar a gravidade do sofrimento, verificar seus recursos próprios para lidar com os sintomas, apresentar possibilidades terapêuticas e agendar retorno próximo, mantendo disponibilidade — abordagem centrada na pessoa.",
+      "theme": "dep_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_049",
+      "statement": "Homem, afrodescendente, 70 anos, viúvo. É portador de um quadro de Hipertensão Arterial Sistêmica, atualmente controlado pelo uso de um inibidor dos receptores de angiotensina II associado a um diurético tiazídico. Apresenta eventuais episódios de arritmia, demonstrados por um intervalo QT longo no seu último eletrocardiograma. Além disso, tem histórico de úlcera gástrica e, por isso, faz uso de cimetidina; também apresenta alterações nos exames de função hepática. Na consulta, conta que, em função da pandemia da COVID-19, permaneceu, desde março, completamente sozinho em casa, apenas tendo contato, por via remota, com seus familiares. Aos poucos, foi se sentido cada vez mais triste, desanimado, sem perspectiva, pensando que não vale mais a pena viver, sem prazer no seu cotidiano, insone, inapetente (tendo perdido 6 kg nos últimos três meses), se culpando por muitas condutas tomadas ao longo de sua vida e com uma preocupação extrema de se manter nanceiramente (o que não condiz com sua realidade). Essa sintomatologia já dura cerca de três meses e, aplicando uma escala que avalia depressão, o quadro é classi cado como grave. Assinale a alternativa que apresenta o antidepressivo mais indicado para esse caso.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Fluoxetina."
+        },
+        {
+          "key": "b",
+          "text": "Venlafaxina."
+        },
+        {
+          "key": "c",
+          "text": "Citalopram."
+        },
+        {
+          "key": "d",
+          "text": "Sertralina."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Em idoso com múltiplas comorbidades (QT longo, uso de cimetidina — inibidor enzimático com risco de interação medicamentosa, disfunção hepática), a sertralina é considerada uma das opções mais seguras entre os ISRS quanto ao perfil de interações e risco cardiovascular, sendo a mais indicada nesse contexto.",
+      "theme": "dep_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_052",
+      "statement": "Mulher de 54 anos apresenta diminuição da concentração e rendimento no trabalho, desânimo, piora do sono e despertar matinal precoce, há dois meses, com piora há 15 dias. Os sintomas são piores pela manhã melhorando no período da tarde. Emagreceu 4 kg nesse período. Seus sintomas começaram logo após ter sofrido infarto do miocárdio. AP: menopausa aos 50 anos sem terapia hormonal. O diagnóstico e a conduta são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "depressão maior; inibidor preferencial de recaptura de serotonina."
+        },
+        {
+          "key": "b",
+          "text": "distúrbio psicossomático; benzodiazepínicos."
+        },
+        {
+          "key": "c",
+          "text": "transtorno de ajustamento; inibidor preferencial de recaptura de serotonina."
+        },
+        {
+          "key": "d",
+          "text": "transtorno somatoforme; benzodiazepínicos."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Piora do humor, concentração reduzida, insônia com despertar matinal precoce, variação diurna (melhora à tarde) e perda de peso, iniciados após IAM, caracterizam depressão maior com características melancólicas — tratamento com ISRS.",
+      "theme": "dep_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_053",
+      "statement": "Uma paciente no 10º dia de puerpério encontra-se entristecida, com labilidade emocional e chorando com alguma facilidade. Ela nega outras queixas e amamenta sem qualquer problema. É correto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ela deve ser encaminhada ao psiquiatra."
+        },
+        {
+          "key": "b",
+          "text": "Deve-se prescrever antidepressivos."
+        },
+        {
+          "key": "c",
+          "text": "Trata-se de depressão puerperal."
+        },
+        {
+          "key": "d",
+          "text": "O quadro é provavelmente transitório."
+        },
+        {
+          "key": "e",
+          "text": "Deve-se afastar a mãe do RN, pelo risco de ela agredi-lo."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Tristeza, labilidade emocional e choro fácil no 10º dia de puerpério, sem outras queixas e amamentação preservada, correspondem a um quadro provavelmente transitório (baby blues), autolimitado e sem necessidade de intervenção farmacológica ou psiquiátrica imediata.",
+      "theme": "dep_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_055",
+      "statement": "Assinale a alternativa que corresponde a um sintoma especificador de transtorno depressivo com sintomas melancólicos.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dificuldade de se concentrar devido a preocupações."
+        },
+        {
+          "key": "b",
+          "text": "Temor de que algo terrível aconteça."
+        },
+        {
+          "key": "c",
+          "text": "Sentimento de que o indivíduo possa perder o controle de si mesmo."
+        },
+        {
+          "key": "d",
+          "text": "Sentimento de tristeza mais intenso pela manhã."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O especificador de sintomas melancólicos na depressão inclui, entre outros critérios, o humor mais intensamente deprimido pela manhã (variação diurna característica).",
+      "theme": "dep_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_057",
+      "statement": "Seu Cláudio, 70 anos, aposentado da lavoura, vem apresentando há seis meses tristeza, apatia, mialgia, tendência ao isolamento e comprometimento da memória. Nunca havia manifestado tal quadro antes. Ficou viúvo há 2 anos. Com base na história acima marque a alternativa correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Como seu Cláudio tem comprometimento da memória o diagnóstico de demência é o mais provável."
+        },
+        {
+          "key": "b",
+          "text": "Deverá ser iniciada medicação que estimule sua memória."
+        },
+        {
+          "key": "c",
+          "text": "Está claro que o quadro acima se trata de fibromialgia reumática."
+        },
+        {
+          "key": "d",
+          "text": "Todos os idosos tendem a apresentar este quadro, pois é inerente do processo de envelhecimento."
+        },
+        {
+          "key": "e",
+          "text": "No idoso, o quadro de depressão, pode cursar com comprometimento da memória."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Na depressão do idoso, é comum o quadro cursar com comprometimento cognitivo/de memória (pseudodemência depressiva), sem que isso indique necessariamente demência verdadeira.",
+      "theme": "dep_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_062",
+      "statement": "Escolar com 10 anos de idade, sexo masculino, é conduzido a consulta, pois sua mãe está preocupada com as mudanças de comportamento de seu lho, nos últimos 2 meses. Apresenta-se diariamente com di culdade na escola, reduziu a capacidade de concentração. Queixa-se de fadiga e perda de energia. Desinteresse em quase todas as atividades durante maior parte do dia e indecisão. Apetite normal e às vezes aumentado. Fica mais tempo no celular. Não tinha esses sintomas anteriormente e com bom desempenho escolar anterior. Qual é a causa mais provável desses sintomas?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Depressão."
+        },
+        {
+          "key": "b",
+          "text": "Déficit de atenção."
+        },
+        {
+          "key": "c",
+          "text": "Dificuldade global de aprendizado."
+        },
+        {
+          "key": "d",
+          "text": "Síndrome da adolescência normal."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Dificuldade escolar, redução da concentração, fadiga, perda de energia, desinteresse na maior parte das atividades e indecisão, com início há 2 meses e sem histórico prévio, em criança previamente bem-sucedida na escola, são compatíveis com Depressão infantil (pode se apresentar com irritabilidade/mudança comportamental em vez de tristeza clássica).",
+      "theme": "dep_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_064",
+      "statement": "A depressão, na Atenção Primária à Saúde:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "é um agravo de tratamento fácil, desde que o paciente consiga atendimento médico o mais cedo possível para evitar as sequelas"
+        },
+        {
+          "key": "b",
+          "text": "pode ser detectada em rastreamento pelo questionário PHQ-2 (Patient Health Questionnaire), que tem especificidade de 96% e sensibilidade de 54%"
+        },
+        {
+          "key": "c",
+          "text": "é exageradamente diagnosticada e, assim, há um excessivo uso de antidepressivos. Por isso a excessiva quantidade de pessoas apresentando incapacidade pelos efeitos adversos, aguardando afastamento definitivo pelo INSS"
+        },
+        {
+          "key": "d",
+          "text": "é prevalente em pessoas com dificuldades em lidar com seus problemas pessoais e tomar atitudes para resolvê- los. São levadas a ter essa doença por ausência de uma família presente, amigos, religião e emprego satisfatório"
+        },
+        {
+          "key": "e",
+          "text": "raramente é identificada pelo médico de família ou generalista nas Unidades de Saúde Pública, já que tal agravo é mais prevalente em populações de maior escolaridade e renda. Estas buscam atendimento diretamente com psiquiatras de planos de saúde privados"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O questionário PHQ-2, usado para rastreamento de depressão na atenção primária, apresenta alta especificidade (96%) mas sensibilidade moderada (54%) — características importantes para interpretar corretamente seus resultados como ferramenta de triagem inicial.",
+      "theme": "dep_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_066",
+      "statement": "Homem, 39 anos, divorciado, auxiliar de produção de uma indústria de calçados. Procurou a UBS por estar dormindo mal, acordando com sensação de fadiga, com di culdade de ir ao trabalho, devido à di culdade de concentração e irritabilidade. Permanece jogando futebol com os amigos durante a semana, e atividades de lazer com os lhos no m de semana. Sem alterações no apetite, no peso, na memória e na cognição. Comenta estresse diante as exigências excessivas no trabalho e relata que tudo começou quando foi transferido para o setor da empresa responsável pela colagem de sola de sapatos. Relata que o cheiro forte o desconcentrava e isso impedia que ele mantivesse a atenção e concentração nos processos de trabalho. Os recorrentes erros o levaram a situações vexaminosas devido às queixas da che a. Qual diagnóstico mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno de ansiedade generalizada."
+        },
+        {
+          "key": "b",
+          "text": "Síndrome do Esgotamento Profissional."
+        },
+        {
+          "key": "c",
+          "text": "Estresse Pós-Traumático relacionado do Trabalho."
+        },
+        {
+          "key": "d",
+          "text": "Episódio depressivo por exposição a substâncias químicas."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Sintomas relacionados especificamente ao ambiente de trabalho (dificuldade de concentração desencadeada por exposição a odor forte, situações vexatórias por erros recorrentes), com preservação de atividades de lazer e ausência de alterações de apetite/peso/memória/cognição, caracterizam Síndrome do Esgotamento Profissional (Burnout), distinta de um quadro depressivo generalizado.",
+      "theme": "dep_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_071",
+      "statement": "Paciente feminina, 28 anos, solteira, procura atendimento psiquiátrico referindo que, desde os 24 anos, ao terminar a faculdade, tem estado mais triste, com baixa autoestima e baixa concentração. Há dois anos, se trata com psicoterapia e, desde então, se conhece melhor. No entanto, em nenhum momento, se livrou dos sintomas referidos acima. Nega antecedentes clínicos e psiquiátricos. Qual é a sua hipótese diagnóstica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno ciclotímico."
+        },
+        {
+          "key": "b",
+          "text": "Transtorno depressivo maior."
+        },
+        {
+          "key": "c",
+          "text": "Distimia."
+        },
+        {
+          "key": "d",
+          "text": "Transtorno de personalidade depressiva."
+        },
+        {
+          "key": "e",
+          "text": "Transtorno depressivo refratário."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Sintomas depressivos leves persistentes por mais de 2 anos (desde os 24 anos), não superados apesar de psicoterapia prolongada, sem outros antecedentes, caracterizam Distimia (Transtorno Depressivo Persistente).",
+      "theme": "dep_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_072",
+      "statement": "Paciente de 72 anos, viúvo, aposentado, vive só. Os três lhos trabalham em outra cidade. É hipertenso controlado com uso diário de hidroclorotiazida. Vai regularmente ao Centro de Saúde, há anos, e diz que se alimenta pouco por falta de apetite. Diz não ter vontade de fazer comida somente para ele. Queixa-se de emagrecimento (6-7 Kg em um ano), sem outras queixas sistêmicas. Está corado, hidratado, PA 112/76 mmHg, FC 68 bpm, sem relato de febres ou dores. Sem gânglios palpáveis, sem outras alterações do exame físico, exceto aumento do próstata, já diagnosticado como hiperplasia benigna sem sintomas. Os exames feitos nesses últimos meses não evidenciaram anemia ou outra anormalidade metabólica. O motivo mais comum da perda do peso nesse caso, é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "hipertireoidismo oculto."
+        },
+        {
+          "key": "b",
+          "text": "depressão."
+        },
+        {
+          "key": "c",
+          "text": "câncer."
+        },
+        {
+          "key": "d",
+          "text": "insuficiência cardíaca diastólica."
+        },
+        {
+          "key": "e",
+          "text": "envelhecimento."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Em idoso vivendo sozinho, com perda de apetite atribuída à falta de motivação para cozinhar apenas para si mesmo e emagrecimento progressivo sem outras alterações ao exame ou exames laboratoriais, a causa mais comum de perda de peso nesse cenário é a depressão relacionada ao isolamento social.",
+      "theme": "dep_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_074",
+      "statement": "Mulher de 71 anos é trazida por familiares à Unidade de Saúde da Família com queixa de perda de interesse nas coisas, fadiga, insônia, choro freqüente sem causa aparente. Aventada a hipótese diagnostica de depressão, qual seria primeira escolha terapêutica:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Inibidores seletivos da receptação de serotonina."
+        },
+        {
+          "key": "b",
+          "text": "Antidepressivo tricíclico."
+        },
+        {
+          "key": "c",
+          "text": "Eletroconvulsoterapia."
+        },
+        {
+          "key": "d",
+          "text": "Bloqueadores de receptação de noradrenalina e dopamina."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Em idosos com depressão, os inibidores seletivos da recaptação de serotonina são a primeira escolha terapêutica, por apresentarem melhor perfil de segurança e tolerabilidade em comparação aos tricíclicos nessa faixa etária.",
+      "theme": "dep_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_077",
+      "statement": "Mariana, 32 anos, casada, médica, refere quadro de ansiedade, anedonia, desânimo, insônia inicial, inapetência com perda não intencional de 10 kg nos últimos 3 meses, angústia frequente, falta de energia para qualquer atividade, no último mês só saiu de casa para trabalhar, alteração da atenção que quase lhe fez prescrever dose errada de medicação para um paciente seu. Sintomas iniciaram há 3 meses, após falecimento de sua mãe. Nega ideação auto ou heteroagressiva. Procurou assistência médica, há dois meses, sendo afastada do trabalho e medicada com amitriptilina, 25 mg/dia. Refere, até o momento, pouca melhora dos sintomas; cessou perda de peso, mas não recuperou peso perdido, mantém demais queixas. Qual diagnóstico mais provável para o caso acima?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno de estresse pós-traumático;"
+        },
+        {
+          "key": "b",
+          "text": "Luto;"
+        },
+        {
+          "key": "c",
+          "text": "Distimia;"
+        },
+        {
+          "key": "d",
+          "text": "Depressão Maior;"
+        },
+        {
+          "key": "e",
+          "text": "Ansiedade generalizada."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Sintomas depressivos intensos e persistentes (ansiedade, anedonia, insônia, perda ponderal significativa não intencional, prejuízo funcional grave incluindo erro profissional) após luto, com pouca melhora após 2 meses de tratamento antidepressivo, ultrapassam o quadro de luto não complicado, caracterizando Depressão Maior (luto complicado por depressão).",
+      "theme": "dep_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_079",
+      "statement": "Com relação a exposição prolongada a estressores emocionais e interpessoais no trabalho, analise as alternativas a seguir: I - Despersonalização do outro; II - Exaustão emocional; III - Perda da motivação profissional São componentes da síndrome de burnout:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "l,ll,lll"
+        },
+        {
+          "key": "b",
+          "text": "I,II"
+        },
+        {
+          "key": "c",
+          "text": "I,III"
+        },
+        {
+          "key": "d",
+          "text": "ll,lll"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "São componentes clássicos da síndrome de burnout (tríade de Maslach): despersonalização do outro (I), exaustão emocional (II) e perda da motivação/realização profissional (III) — todos os três presentes.",
+      "theme": "dep_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_083",
+      "statement": "Sobre a disforia pós-parto, assinale a alternativa incorreta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Costuma acometer mulheres nos primeiros dias após o nascimento do bebê."
+        },
+        {
+          "key": "b",
+          "text": "O pico geralmente ocorre entre o quarto e o quinto dia após o parto e tem remissão espontânea em até duas semanas."
+        },
+        {
+          "key": "c",
+          "text": "Observa-se choro fácil, labilidade de humor, irritabilidade e comportamento hostil com familiares e/ou parceiro."
+        },
+        {
+          "key": "d",
+          "text": "Normalmente não é necessária a intervenção farmacológica, mas se faz necessário o suporte emocional à puérpera."
+        },
+        {
+          "key": "e",
+          "text": "É comum observar uma alteração de contato com a realidade."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "É a alternativa INCORRETA: a disforia pós-parto (baby blues) não costuma cursar com alteração do contato com a realidade (sem sintomas psicóticos) — esse achado sugeriria, em vez disso, psicose puerperal, um quadro distinto e mais grave.",
+      "theme": "dep_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_084",
+      "statement": "Mulher de 59 anos com quadro de labilidade emocional, anedonia, inapetência, perda de peso, insônia, apatia, eventualmente com agitação psicomotora. Exame neurológico sem déficit motor ou sensitivo. Assinale dentre as opções abaixo aquela que NÃO está indicada para o tratamento desta paciente.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Escitalopram."
+        },
+        {
+          "key": "b",
+          "text": "Venlafaxina."
+        },
+        {
+          "key": "c",
+          "text": "Alprazolam."
+        },
+        {
+          "key": "d",
+          "text": "Trazodona."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O alprazolam (benzodiazepínico) não é indicado como tratamento para o quadro depressivo descrito — não trata os sintomas centrais da depressão e carrega risco de dependência, diferente dos antidepressivos listados (escitalopram, venlafaxina, trazodona).",
+      "theme": "dep_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_087",
+      "statement": "Mulher de 48 anos de idade, obesa, procura ambulatório de Clínica Médica, acompanhada da irmã, com queixas de sentir- se cansada, sem ânimo e interesse para suas atividades corriqueiras e sociais, apresentando constante vontade de dormir, sem conseguir concentrar-se nas suas atividades. Seu peso aumentou de 75 para 82 kg em um mês. A irmã relata que a paciente \"está fazendo as coisas de maneira lenta\", passa os dias em um quarto escuro e verbalizou vontade de morrer. Exame físico: IMC = 31 kg/m² (valor de referência < 25 Kg/m²), sem outras alterações. A paciente tem histórico de arritmia cardíaca. Avaliação recente de função tiroideana revelou resultados normais para TSH, T3 e T4. No caso descrito acima, qual a conduta terapêutica mais adequada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Indicação de psicoterapia de apoio e de antidepressivo tricíclico."
+        },
+        {
+          "key": "b",
+          "text": "Indicação de psicoterapia cognitivo-comportamental e inibidor da mono-amino- oxidase."
+        },
+        {
+          "key": "c",
+          "text": "Prescrição de antidepressivo inibidor seletivo da recaptação de dopamina."
+        },
+        {
+          "key": "d",
+          "text": "Indicação de psicoterapia e antidepressivo inibidor seletivo da recaptação de serotonina."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de depressão com hipersomnia, anedonia, ganho de peso e histórico de arritmia cardíaca (contraindicando tricíclicos, cardiotóxicos), a conduta mais adequada é psicoterapia associada a um inibidor seletivo da recaptação de serotonina, opção mais segura no contexto cardiológico do paciente.",
+      "theme": "dep_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_091",
+      "statement": "Médico de família realiza visita domiciliar a paciente que vem sendo acompanhado com mais proximidade devido diagnóstico de neoplasia de pulmão metastático e problemas no enfrentamento da doença, com grande repercussão na dinâmica familiar. Os familiares presentes no domicílio relatam que o paciente está mais calmo em relação a períodos anteriores, as vezes até um pouco \"aéreo\". A lha está preocupada com o fato do paciente estar \"dormindo demais\" em sua opinião. Nos últimos dias, segundo os relatos, o paciente tem procurado algumas pessoas com quem não tinha mais relações próximas, incluindo um lho, para \"pedir perdão pelas coisas que fez\". Considerando os trabalhos de Elizabeth Kübler-Ross sobre o processo de luto e enfrentamento da morte e do morrer, pode-se dizer que este paciente encontra-se no estágio de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aceitação."
+        },
+        {
+          "key": "b",
+          "text": "Negociação."
+        },
+        {
+          "key": "c",
+          "text": "Depressão."
+        },
+        {
+          "key": "d",
+          "text": "Isolamento."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Paciente terminal que se torna mais calmo, dorme mais, e busca reconciliação com pessoas de quem se afastou (pedindo perdão) está, segundo os estágios de Kübler-Ross, na fase de Aceitação — momento de resolução e paz relativa diante da proximidade da morte.",
+      "theme": "dep_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_092",
+      "statement": "Homem de 35 anos, há cerca de três meses, apresenta perda de peso, fadiga, choro fácil, diminuição do interesse em atividades antes prazerosas, angústia, sentimento de fracasso e culpa, indecisão, falta de concentração. Em uma Unidade de Pronto Atendimento (UPA), foi prescrito paroxetina – 20 mg/dia, e agendada consulta em ambulatório de seguimento na atenção primária, no prazo de duas semanas. Compareceu ao primeiro atendimento ambulatorial referindo estar usando a medicação, mas que não estava satisfeito com o resultado. A esposa, presente à consulta, disse que notou que ele estava menos angustiado e as crises de choro diminuíram. Qual a conduta indicada em relação ao manejo da medicação, a partir dessa consulta ambulatorial?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Trocar por venlafaxina – 75 mg/dia."
+        },
+        {
+          "key": "b",
+          "text": "Acrescentar alprazolam – 0,5 mg/dia."
+        },
+        {
+          "key": "c",
+          "text": "Manter a paroxetina na mesma dose."
+        },
+        {
+          "key": "d",
+          "text": "Aumentar a dose da paroxetina para 40 mg/dia."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de melhora clínica objetiva já observada em 2 semanas de uso de paroxetina (relatada pela esposa: menos angústia, menos choro), mesmo que o paciente ainda não se sinta plenamente satisfeito, a conduta adequada é manter a mesma dose — antidepressivos levam de 4 a 6 semanas para efeito pleno, e uma resposta parcial precoce é sinal prognóstico favorável, não indicando troca ou aumento prematuro.",
+      "theme": "dep_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_093",
+      "statement": "No que se refere ao transtorno depressivo maior e à distímia, julgue o item subsequente. Em pessoas com diagnóstico de depressão maior, a distimia representa a fase aguda, de curta duração, com sintomas mais intensos.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A distimia NÃO representa a fase aguda e intensa da depressão maior — pelo contrário, é um quadro crônico, de baixa intensidade e longa duração (pelo menos 2 anos), distinto e geralmente menos intenso que um episódio depressivo maior agudo. Afirmação Errada.",
+      "theme": "dep_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_097",
+      "statement": "Puérpera apresentando, 2 semanas após o parto, quadro de irritabilidade, desânimo, ansiedade e sensibilidade exacerbada à críticas. Esse quadro é altamente sugestivo de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Blues Puerperal"
+        },
+        {
+          "key": "b",
+          "text": "Depressão puerperal"
+        },
+        {
+          "key": "c",
+          "text": "Esquizofrenia"
+        },
+        {
+          "key": "d",
+          "text": "Psicose puerperal"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Irritabilidade, desânimo, ansiedade e sensibilidade exacerbada a críticas, 2 semanas após o parto (ainda dentro da janela temporal típica), são altamente sugestivos de Blues Puerperal.",
+      "theme": "dep_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}

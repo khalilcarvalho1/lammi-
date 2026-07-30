@@ -1,1 +1,668 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "th_001",
+      "statement": "Um estudante de biologia de 24 anos de idade é trazido por sua mãe e seu irmão ao pronto-socorro. Nas últimas duas semanas, o estudante tem ficado progressivamente mais agitado, inquieto, dormindo menos e falando rápido, às vezes difícil de entender. Há dois dias começou a falar que descobriu a cura para a covid-19, tendo enviado várias mensagens eletrônicas para diferentes jornais, instituições públicas e embaixadas. Diz agora que aguarda a ligação de ministros da saúde de vários países para conversar sobre sua descoberta. Quando questionado pelo irmão sobre esses fatos, cou muito irritado e tentou agredi-lo sicamente. A família diz que o paciente sempre foi estudioso, trabalhador, carinhoso com os pais e é amigo do irmão. Aos 20 anos de idade, apresentou quadro depressivo e foi tratado com medicamento, cujo nome os familiares não se recordam. Não há antecedentes familiares mórbidos relevantes. Qual é a principal hipótese diagnóstica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno Obsessivo Compulsivo."
+        },
+        {
+          "key": "b",
+          "text": "Esquizofrenia Hebefrênica."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno Afetivo Bipolar."
+        },
+        {
+          "key": "d",
+          "text": "Transtorno de Personalidade."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Duas semanas de agitação, insônia, fala acelerada, delírios de grandeza (cura da COVID, contato com ministros) e irritabilidade com agressividade, em paciente com episódio depressivo prévio aos 20 anos, caracterizam episódio maníaco com sintomas psicóticos — Transtorno Afetivo Bipolar.",
+      "theme": "bipo_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_006",
+      "statement": "T ranstorno do Humor Bipolar T ipo 1 Mulher de 30 anos procurou atendimento na UBS por insistência da família. Iniciou o uso de uoxetina 20 mg/dia há três semanas por sentir-se muito triste, com redução do apetite e isolamento social. Nos últimos dias, apresentou sensação de “estar ligada na tomada”, reduziu a necessidade de sono, realizou gastos abusivos e apresentou comportamento sexual de risco. A conduta mais adequada nesse caso é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aumentar a dose do antidepressivo de forma gradual e iniciar um benzodiazepínico à noite."
+        },
+        {
+          "key": "b",
+          "text": "Trocar para um antidepressivo dual."
+        },
+        {
+          "key": "c",
+          "text": "Trocar por um antidepressivo com perfil mais sedativo."
+        },
+        {
+          "key": "d",
+          "text": "Suspender gradualmente o antidepressivo e iniciar um estabilizador do humor."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Sintomas de virada maníaca/hipomaníaca (insônia, sensação de estar 'ligada na tomada', gastos abusivos, comportamento sexual de risco) após início de fluoxetina sugerem transtorno bipolar desmascarado pelo antidepressivo — a conduta é suspender gradualmente o antidepressivo e iniciar um estabilizador do humor.",
+      "theme": "bipo_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_018",
+      "statement": "T ranstorno do Humor Bipolar T ipo 1 O Transtorno Bipolar do Humor (TBH) é uma doença crônica e grave caracterizada por alternância de episódios depressivos, com ou sem sintomas psicóticos, e episódios de hipomania ou mania, com ou sem sintomas psicóticos. O TBH é classificado em três subtipos, segundo o Manual Diagnóstico e Estatístico de Transtornos Mentais, 5ª edição (DSM- 5). Com base nessa classificação, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O TBH tipo II compreende os casos nos quais ocorrem manias, hipomanias e depressões."
+        },
+        {
+          "key": "b",
+          "text": "O TBH tipo I compreende os casos nos quais ocorrem hipomanias e depressões."
+        },
+        {
+          "key": "c",
+          "text": "O TBH tipo I compreende os casos nos quais ocorrem manias, hipomanias e depressões."
+        },
+        {
+          "key": "d",
+          "text": "O TBH tipo III compreende os casos em que encontramos as oscilações do humor, mas essas não satisfazem os critérios para episódios do DSM-5"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O TBH tipo I compreende casos em que ocorrem manias (critério obrigatório), além de hipomanias e depressões ao longo do curso da doença — diferente do tipo II, que exige hipomania e depressão, sem mania plena.",
+      "theme": "bipo_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_027",
+      "statement": "Paciente de 65 anos, feminina, com apatia, sensação de tristeza e de fardo para a família, sentimento de culpa e baixa autoestima, relatou que perdeu capacidade de sentir prazer e alegria, além de queixar-se de câimbras nas pernas, problemas de memória e desesperança quanto ao futuro. Ao exame físico apresenta retardo motor. A paciente refere que apresenta essas queixas há, aproximadamente, três semanas. Entre as hipóteses diagnósticas abaixo, a mais provável é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "transtornos de personalidade."
+        },
+        {
+          "key": "b",
+          "text": "transtorno afetivo bipolar."
+        },
+        {
+          "key": "c",
+          "text": "transtorno depressivo recorrente."
+        },
+        {
+          "key": "d",
+          "text": "transtorno depressivo maior."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Apatia, tristeza, sentimento de ser um fardo, culpa, baixa autoestima, anedonia, queixas somáticas (câimbras), problemas de memória, desesperança e retardo motor, com 3 semanas de evolução, caracterizam Transtorno Depressivo Maior (episódio atual, sem menção a episódios prévios que caracterizariam 'recorrente').",
+      "theme": "bipo_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_032",
+      "statement": "Seu Agenor, 77 anos de idade, bancário aposentado, casado há 49 anos com Dona Rosinha, aparece na UBS para uma consulta agendada por Saionara, neta do casal. A moça conta que seu avô é um homem muito alegre, ativo, está sempre conversando com a vizinhança pela manhã com seu chimarrão na mão, e atualizando-se dos acontecimentos e fofocas da vila onde mora. É conhecido pelos amigos por sua fala alta, riso fácil e por estar sempre ajudando quem precisa. Apesar disso, há cerca de 9 meses, perdeu o lho mais velho em um acidente de carro. Depois disso, “perdeu o brilho no olhar”, parece ter envelhecido vários anos, está com a cabeça “mais devagar”, sai pouco de casa, não se interessa mais nas jogatinas no clube da terceira idade, perdeu 14 quilos e tem muitas di culdades em dormir, o que o torna muito irritado e causa muito sofrimento à família. Dona Rosinha, por sua vez, mostra grande resiliência e está disposta a reunir todas as suas forças para trazer o “velho Agenor” de volta. A esposa ainda conta que não é a primeira vez que o paciente apresenta quadros assim, pois em 1987, quando perdeu a mãe, houve um episódio parecido, assim como em 1998, quando o Brasil perdeu a nal da Copa do Mundo para a França, o que o abalou por várias semanas e causou sintomas parecidos. Tendo em vista o quadro acima, assinale a alternativa que traz a melhor hipótese diagnóstica e a melhor proposta terapêutica.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Distimia – Fluoxetina 20 mg/manhã + amitriptilina 50mg/noite."
+        },
+        {
+          "key": "b",
+          "text": "Transtorno Depressivo – Sertralina 100mg/manhã + clonazepam 0,5mg/noite."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno Depressivo Recorrente – quetiapina 300mg/manhã."
+        },
+        {
+          "key": "d",
+          "text": "Episódio depressivo Bipolar – Lítio 600mg + diazepam 10mg."
+        },
+        {
+          "key": "e",
+          "text": "Transtorno depressivo Recorrente – Mirtazapina 15mg/noite."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Perda de interesse, lentificação, isolamento social, perda ponderal significativa (14kg), insônia e irritabilidade após luto, associados a episódios semelhantes prévios desencadeados por perdas/eventos estressantes (1987 e 1998), caracterizam Transtorno Depressivo Recorrente — tratamento com mirtazapina (boa escolha por seu perfil sedativo e estimulante de apetite, úteis dado a insônia e a perda de peso).",
+      "theme": "bipo_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_033",
+      "statement": "Você atende, às 3 horas da manhã, Gilson, de 29 anos de idade, durante seu plantão na emergência. O paciente foi levado pelo SAMU, contido em uma maca rígida devido à intensa agitação psicomotora e gritaria incontrolável. Quem o acompanha é sua namorada, Fátima, que, muito assustada, conta que conheceu o paciente há cerca de 1 mês e meio durante um jantar na casa de amigos em comum. Fátima relata que tem notado que seu namorado está agitado há 2 semanas, mais falante, inclusive dizendo coisas sem sentido, como frases do tipo “eu sou o messias”, “eu vou salvar a terra do apocalipse zumbi”, está muito descon ado, olhando para os lados a todo o momento, está dormindo pouco, menos de 4 horas por dia, e quando acorda já parece estar cheio de energia; inclusive, o casal tem tido cerca de 5 relações sexuais diariamente desde então, e ele tem gastado todo seu salário em acessórios de pesca esportiva (apesar de jamais ter pescado na vida). Fátima sabe pouco da história pregressa de Gilson, apenas que é um rapaz que já apresentou 2 episódios graves de depressão previamente e recebeu tratamento com algum antidepressivo. Atualmente, o paciente não tem usado nenhuma medicação de uso contínuo, não usa drogas nem álcool, e também não tem uma doença crônica conhecida, contudo é obeso e sedentário. Após a estabilidade clínica do paciente, você decide iniciar um tratamento de base para seu transtorno psiquiátrico. Assinale a melhor escolha terapêutica para seu paciente.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Carbamazepina."
+        },
+        {
+          "key": "b",
+          "text": "Quetiapina."
+        },
+        {
+          "key": "c",
+          "text": "Fluoxetina."
+        },
+        {
+          "key": "d",
+          "text": "Lítio."
+        },
+        {
+          "key": "e",
+          "text": "Lamotrigina."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Quadro de mania com sintomas psicóticos (delírios de grandeza/messiânicos, paranoia, insônia, hipersexualidade, gastos exagerados), com dois episódios depressivos graves prévios, caracteriza Transtorno Bipolar tipo I — o tratamento de manutenção de base é o lítio, padrão-ouro para estabilização do humor a longo prazo.",
+      "theme": "bipo_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_036",
+      "statement": "São critérios indicadores de transtorno depressivo maior segundo o DSM-V:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sintomas que causam sofrimento clinicamente significativo ou prejuízo no funcionamento social ou ocupacional, ou em outras áreas importantes da vida do indivíduo."
+        },
+        {
+          "key": "b",
+          "text": "Ocorrência de episódios maníacos ou hipomaníacos."
+        },
+        {
+          "key": "c",
+          "text": "Tensão motora com tremores, abalos, tensão muscular, inquietação, fadiga fácil e dores."
+        },
+        {
+          "key": "d",
+          "text": "Medo excessivo de humilhação ou embaraço em vários contextos sociais."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Critério central do DSM-5 para Transtorno Depressivo Maior: os sintomas devem causar sofrimento clinicamente significativo ou prejuízo no funcionamento social, ocupacional ou em outras áreas importantes da vida do indivíduo.",
+      "theme": "bipo_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_038",
+      "statement": "Mulher, 28 anos de idade, é levada pela polícia a uma Unidade de Pronto Atendimento, UPA, por quadro de comportamento violento (estava atirando pedras nos carros que passavam). Vem acompanhada da genitora que refere alteração do comportamento, há dois dias. Relata que nos últimos meses a paciente vinha apresentando episódios de irritabilidade, dormindo cerca de 3 horas por dia e fez compras não condizentes com a situação econômica da família. Nega comorbidades, uso de medicações, drogas ou quedas. A paciente apresenta-se com comportamento violento, ameaçando a equipe de saúde, e fazendo gestos obscenos. Diz que os familiares querem interná-la para car com todo o dinheiro dela e que é muito rica. Se recusa a receber atendimento médico, não permite ser examinada e não aceita tomar nenhuma medicação. Considerando o provável quadro de base, identifique o principal tratamento farmacológico de manutenção.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Antidepressivo."
+        },
+        {
+          "key": "b",
+          "text": "Estabilizador do humor."
+        },
+        {
+          "key": "c",
+          "text": "Benzodiazepínico."
+        },
+        {
+          "key": "d",
+          "text": "Antipsicótico."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "No quadro de mania com sintomas psicóticos (irritabilidade, insônia, gastos exagerados, delírios de grandeza/persecutórios), o tratamento farmacológico de manutenção principal é um estabilizador do humor.",
+      "theme": "bipo_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_039",
+      "statement": "Mulher, 28 anos de idade, é levada pela polícia a uma Unidade de Pronto Atendimento, UPA, por quadro de comportamento violento (estava atirando pedras nos carros que passavam). Vem acompanhada da genitora que refere alteração do comportamento, há dois dias. Relata que nos últimos meses a paciente vinha apresentando episódios de irritabilidade, dormindo cerca de 3 horas por dia e fez compras não condizentes com a situação econômica da família. Nega comorbidades, uso de medicações, drogas ou quedas. A paciente apresenta-se com comportamento violento, ameaçando a equipe de saúde, e fazendo gestos obscenos. Diz que os familiares querem interná-la para car com todo o dinheiro dela e que é muito rica. Se recusa a receber atendimento médico, não permite ser examinada e não aceita tomar nenhuma medicação. Em relação ao quadro de base da paciente, é correto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O diagnóstico de transtorno afetivo bipolar é o mais provável, mesmo sem histórico de depressão."
+        },
+        {
+          "key": "b",
+          "text": "O quadro provavelmente decorre de um distúrbio orgânico, sendo indicado exame de imagem do sistema nervoso central."
+        },
+        {
+          "key": "c",
+          "text": "Os delírios de grandeza e persecutório apresentados sugerem diagnóstico de esquizofrenia."
+        },
+        {
+          "key": "d",
+          "text": "A paciente apresenta-se em episódio de histeria, associado a um transtorno psicossomático."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Mesmo sem história prévia de depressão, um único episódio de mania já é suficiente para o diagnóstico de Transtorno Afetivo Bipolar tipo I — não é necessário episódio depressivo prévio para o diagnóstico.",
+      "theme": "bipo_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_040",
+      "statement": "Mulher de 42 anos apresenta, há 2 meses, dores pelo corpo, desânimo, irritabilidade, insônia com sono não reparador, diminuição do apetite e emagrecimento de 5 kg, com piora há 15 dias. Não tem conseguido fazer as tarefas domésticas, nem outras atividades de que antes gostava, passando a maior parte do dia com os sintomas, com discreta melhora da disposição física no período da tarde. Não consegue relacionar sua situação a nenhum fator ambiental, mas relata maior indisposição para o trabalho, o que tem gerado alguma dificuldade com os colegas. AP: episódio semelhante há 10 anos. O diagnóstico e a conduta medicamentosa são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "transtorno depressivo maior; inibidor preferencial de recaptura de serotonina."
+        },
+        {
+          "key": "b",
+          "text": "transtorno do sintoma somático; benzodiazepínicos."
+        },
+        {
+          "key": "c",
+          "text": "transtorno bipolar; estabilizador de humor."
+        },
+        {
+          "key": "d",
+          "text": "transtorno depressivo persistente (distimia); antidepressivo tricíclico."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Dor corporal, desânimo, irritabilidade, insônia não reparadora, perda de apetite/peso, variação diurna (melhora à tarde), prejuízo funcional e episódio semelhante há 10 anos caracterizam Transtorno Depressivo Maior — tratamento com ISRS.",
+      "theme": "bipo_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_041",
+      "statement": "Um estudante de biologia de 24 anos de idade é trazido por sua mãe e seu irmão ao Pronto-Socorro. Nas últimas duas semanas, o estudante tem ficado progressivamente mais agitado, inquieto, dormindo menos e falando rápido, às vezes difícil de entender. Há dois dias começou a falar que descobriu a cura para a covid-19, tendo enviado várias mensagens eletrônicas para diferentes jornais, instituições públicas e embaixadas. Diz agora que aguarda a ligação de ministros da saúde de vários países para conversar sobre sua descoberta. Quando questionado pelo irmão sobre esses fatos, cou muito irritado e tentou agredi-lo sicamente. A família diz que o paciente sempre foi estudioso, trabalhador, carinhoso com os pais e é amigo do irmão. Aos 20 anos de idade, apresentou quadro depressivo e foi tratado com medicamento, cujo nome os familiares não se recordam. Não há antecedentes familiares mórbidos relevantes. Qual é a principal hipótese diagnóstica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno obsessivo compulsivo."
+        },
+        {
+          "key": "b",
+          "text": "Esquizofrenia Hebefrênica."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno Afetivo Bipolar."
+        },
+        {
+          "key": "d",
+          "text": "Transtorno de Personalidade."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Duas semanas de agitação, insônia, fala acelerada, delírios de grandeza e irritabilidade com agressividade, em paciente com episódio depressivo prévio, caracterizam Transtorno Afetivo Bipolar.",
+      "theme": "bipo_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_042",
+      "statement": "Uma das mudanças diagnósticas no DSM-5 foi criar o especificador de sintomas mistos para o transtorno depressivo maior. Uma medicação que se mostrou eficaz em estudo controlado para esse tipo de depressão foi:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a quetiapina."
+        },
+        {
+          "key": "b",
+          "text": "a olanzapina."
+        },
+        {
+          "key": "c",
+          "text": "a fluoxetina."
+        },
+        {
+          "key": "d",
+          "text": "o escitalopram."
+        },
+        {
+          "key": "e",
+          "text": "a lurasidona."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A lurasidona demonstrou eficácia em estudos controlados para depressão com características mistas/depressão bipolar, sendo uma das opções com evidência específica para esse especificador do DSM-5.",
+      "theme": "bipo_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_043",
+      "statement": "O transtorno ciclotímico em adultos é diagnosticado de acordo com o DSM-5 quando sintomas hipomaníacos e depressivos leves se alternam durando pelo menos:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "6 meses."
+        },
+        {
+          "key": "b",
+          "text": "12 meses."
+        },
+        {
+          "key": "c",
+          "text": "18 meses."
+        },
+        {
+          "key": "d",
+          "text": "24 meses."
+        },
+        {
+          "key": "e",
+          "text": "36 meses."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O transtorno ciclotímico em adultos é diagnosticado quando sintomas hipomaníacos e depressivos leves se alternam por pelo menos 24 meses (em crianças/adolescentes, o critério é de 12 meses).",
+      "theme": "bipo_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_048",
+      "statement": "Pacientes com esse transtorno se caracterizam por ter um distúrbio do humor crônico e utuante, com muitos períodos de hipomania e de depressão menor. Apresentam di culdades conjugais devido à natureza imprevisível de suas mudanças de humor e a irritabilidade acentuada. Também é comum, nesses pacientes, o abuso de álcool e outras substâncias. Assinale o diagnóstico que corretamente se relaciona com a descrição sintomatológica apresentada.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno distímico."
+        },
+        {
+          "key": "b",
+          "text": "Transtorno ciclotímico."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno de Humor Bipolar tipo I."
+        },
+        {
+          "key": "d",
+          "text": "Transtorno de Humor Bipolar tipo II."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Distúrbio crônico e flutuante do humor com muitos períodos de hipomania e depressão leve/subsindrômica, dificuldades conjugais pela imprevisibilidade do humor e irritabilidade, com abuso frequente de substâncias associado, caracteriza Transtorno Ciclotímico.",
+      "theme": "bipo_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_058",
+      "statement": "Quanto ao diagnóstico do transtorno depressivo maior (TDM), é correto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Para seu diagnóstico não deve haver prejuízo significante da funcionalidade."
+        },
+        {
+          "key": "b",
+          "text": "Deve-se excluir transtorno afetivo bipolar, pois o tratamento da depressão unipolar difere da bipolar."
+        },
+        {
+          "key": "c",
+          "text": "A presença de sintomas dolorosos, ansiedade e desesperança não são fatores de risco para pior resposta ao tratamento antidepressivo."
+        },
+        {
+          "key": "d",
+          "text": "Condições sociais e demográficas não interferem na resposta ao tratamento."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "No diagnóstico do transtorno depressivo maior, é fundamental excluir transtorno afetivo bipolar, já que o tratamento da depressão unipolar difere significativamente do tratamento da depressão bipolar (risco de virada maníaca com antidepressivo isolado neste último caso).",
+      "theme": "bipo_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_063",
+      "statement": "Sobre o transtorno afetivo bipolar tipo 1 assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A maioria dos casos inicia-se com um episódio maníaco."
+        },
+        {
+          "key": "b",
+          "text": "É necessário pelo menos um episódio de transtorno maníaco e um depressivo para o diagnóstico."
+        },
+        {
+          "key": "c",
+          "text": "Apesar de ser um transtorno do humor, no decorrer da doença ocorrem prejuízos cognitivos."
+        },
+        {
+          "key": "d",
+          "text": "A farmacoterapia apresenta boa resposta na estabilização inicial do humor, porém a psicoterapia é que mantém o paciente estável por períodos prolongados."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "No transtorno bipolar tipo I, apesar de ser classificado como transtorno do humor, ocorrem prejuízos cognitivos ao longo do curso da doença — achado cada vez mais reconhecido na literatura, especialmente após episódios recorrentes.",
+      "theme": "bipo_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_067",
+      "statement": "Paciente, sexo masculino, frentista, 45 anos, casado, procura UBS motivado pelas faltas constantes ao trabalho. Diz que acorda triste, sem vontade de sair da cama. Não tem ido também aos jogos de futebol do bairro, que antes frequentava semanalmente. Passa a maior parte do dia dormindo. Relata perda de apetite e libido. Durante a consulta apresentou choro fácil. Refere que não faz uso de álcool e de outras drogas e não relata nenhum evento associado ao aparecimento dos sintomas. Para realizar o diagnóstico é necessário considerar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Episódio depressivo e diferenciar do transtorno afetivo bipolar."
+        },
+        {
+          "key": "b",
+          "text": "Episódio depressivo relacionado ao trabalho com solventes."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno de ansiedade generalizada."
+        },
+        {
+          "key": "d",
+          "text": "Episódio depressivo moderado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de tristeza matinal, anedonia, hipersonia, perda de apetite/libido e choro fácil sem substância ou evento desencadeante claro, é necessário considerar o diagnóstico de episódio depressivo, mas sempre diferenciando-o do transtorno afetivo bipolar antes de definir o tratamento.",
+      "theme": "bipo_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_076",
+      "statement": "Em relação ao tratamento da depressão bípolar, pode-se afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Carbamazepina e ácido valproico têm eficácia semelhante à do placebo."
+        },
+        {
+          "key": "b",
+          "text": "Quetiapina é mais eficaz que olanzapina."
+        },
+        {
+          "key": "c",
+          "text": "A combinação de antidepressivo com estabilizador de humor é mais eficaz que apenas o estabilizador."
+        },
+        {
+          "key": "d",
+          "text": "A bupropiona parece oferecer menos risco de virada maníaca."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "No tratamento da depressão bipolar, a bupropiona parece oferecer menor risco de virada maníaca em comparação a outras classes de antidepressivos, sendo considerada uma opção mais segura quando indicado o uso de antidepressivo nesse contexto.",
+      "theme": "bipo_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_078",
+      "statement": "Puérpera no 10° dia, pós parto, apresenta quadro de insônia, choro fácil, ansiedade, irritabilidade, labilidade emocional, dificuldade de concentração. Qual o diagnóstico mais provavél para esse quadro?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Blues pós- parto."
+        },
+        {
+          "key": "b",
+          "text": "Depressão puerperal."
+        },
+        {
+          "key": "c",
+          "text": "Psicose puerperal."
+        },
+        {
+          "key": "d",
+          "text": "Transtorno bipolar."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Insônia, choro fácil, ansiedade, irritabilidade, labilidade emocional e dificuldade de concentração no 10º dia de puerpério são compatíveis com Blues pós-parto, quadro transitório e autolimitado.",
+      "theme": "bipo_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_085",
+      "statement": "Mulher de 30 anos, comparece a consulta em APS queixando de anedonia, insônia, aumento do apetite com ingesta de grande quantidade de comida. Relata acordar a noite para fazer \"ataques a geladeira\", há 2 meses. O médico resolve prescrever uoxetina para tratar depressão. Ao prescrever uoxetina em monoterapia para uma paciente deprimida com compulsão alimentar periódica, deve-se:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Determinar o uso de duas doses devido a meia vida curta do seu metabólito ativo"
+        },
+        {
+          "key": "b",
+          "text": "Excluir a possibilidade de gravidez devido a importante teratogenicidade da medicação"
+        },
+        {
+          "key": "c",
+          "text": "Excluir presença de quadros maníacos ou hipomaníacos no passado pelo risco de piora do quadro mental"
+        },
+        {
+          "key": "d",
+          "text": "Associar um benzodiazepínico ao inibidor seletivo de recaptação de serotonina"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Antes de prescrever fluoxetina em monoterapia para paciente com depressão e compulsão alimentar periódica, deve-se excluir história de episódios maníacos/hipomaníacos prévios, pelo risco de o antidepressivo precipitar ou agravar quadro de humor não identificado (bipolaridade).",
+      "theme": "bipo_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_090",
+      "statement": "Quanto ao diagnóstico do transtorno depressivo maior (TDM), é correto afimar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Para seu diagnóstico não deve haver prejuízo significante da funcionalidade."
+        },
+        {
+          "key": "b",
+          "text": "Deve-se excluir transtorno afeitvo bipolar, pois o tratamento da depressão unipolar difere da bipolar."
+        },
+        {
+          "key": "c",
+          "text": "A presença de sintomas dolorosos, ansiedade e desesperança não são fatores de risco para pior resposta ao tratamento antidepressivo."
+        },
+        {
+          "key": "d",
+          "text": "Condições sociais e demográficas não interferem na resposta ao tratamento."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "No diagnóstico do transtorno depressivo maior, é fundamental excluir transtorno afetivo bipolar, já que o tratamento da depressão unipolar difere significativamente do tratamento da depressão bipolar.",
+      "theme": "bipo_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_095",
+      "statement": "Mulher, 25 anos de idade, procura pronto atendimento, referindo perda do interesse por tudo, tristeza com choro fácil e ganho de peso há 3 semanas. Relata muito sono e mesmo dormindo 10 horas por noite, acorda cansada. Prefere car sozinha na maior parte do tempo e pensa que isso possa ser um castigo por algo que fez, mas não sabe o quê. Nega ter qualquer outra doença, bem como uso de drogas lícitas ou ilícitas. O diagnóstico e a conduta, respectivamente, são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Episódio depressivo, acompanhamento ambulatorial com antidepressivo."
+        },
+        {
+          "key": "b",
+          "text": "Episódio depressivo, internação em unidade psiquiátrica."
+        },
+        {
+          "key": "c",
+          "text": "Episódio esquizoafetivo, acompanhamento ambulatorial com estabilizador do humor."
+        },
+        {
+          "key": "d",
+          "text": "Episódio esquizoafetivo, acompanhamento ambulatorial com antipsicótico."
+        },
+        {
+          "key": "e",
+          "text": "Episódio depressivo com sintomas psicóticos, acompanhamento ambulatorial com antidepressivo e antipsicótico."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Anedonia, tristeza com choro fácil, ganho de peso, hipersonia não reparadora, isolamento social e pensamento tentativo (não delirante fixo) de estar sendo punida caracterizam episódio depressivo — acompanhamento ambulatorial com antidepressivo é a conduta adequada, sem necessidade de antipsicótico já que não há delírio fixo caracterizado.",
+      "theme": "bipo_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "th_096",
+      "statement": "Sintomas como euforia, choro fácil e ansiedade, mesmo prevalecendo a sensação de felicidade, que tem início já no primeiro dia de puerpério e, geralmente, dura até 2 semanas. O quadro se refere a",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Blues puerperal."
+        },
+        {
+          "key": "b",
+          "text": "Depressão puerperal."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno bipolar puerperal."
+        },
+        {
+          "key": "d",
+          "text": "Psicose puerperal."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Euforia, choro fácil e ansiedade com predomínio de sensação de felicidade, iniciando já no primeiro dia de puerpério e durando até 2 semanas, caracterizam o Blues puerperal — quadro leve, transitório e autolimitado.",
+      "theme": "bipo_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}

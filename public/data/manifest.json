@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T16:43:06.491Z",
+  "generatedAt": "2026-07-30T16:54:07.065Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,7 +26,7 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 3393,
+  "totalQuestions": 3490,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
@@ -91,7 +91,13 @@
     "tb_dx": 85,
     "tb_mdr": 16,
     "tb_lat": 75,
+    "bipo_dx": 12,
+    "bipo_tto": 11,
+    "dep_tto": 14,
+    "dep_dx": 22,
     "psi_somatoformes": 55,
+    "sui_aval": 22,
+    "sui_manejo": 16,
     "psi_trauma": 14,
     "ans_toc": 31,
     "psi_alimentares": 92
@@ -2767,8 +2773,11 @@
     {
       "area": "psiquiatria",
       "slug": "bipolar",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "bipo_dx",
+        "bipo_tto"
+      ],
+      "questionsCount": 23,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -2799,8 +2808,11 @@
     {
       "area": "psiquiatria",
       "slug": "depressao",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "dep_tto",
+        "dep_dx"
+      ],
+      "questionsCount": 36,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -2819,6 +2831,17 @@
         "psi_somatoformes"
       ],
       "questionsCount": 55,
+      "flashcardsCount": 0,
+      "casosCount": 0
+    },
+    {
+      "area": "psiquiatria",
+      "slug": "suicidio",
+      "themes": [
+        "sui_aval",
+        "sui_manejo"
+      ],
+      "questionsCount": 38,
       "flashcardsCount": 0,
       "casosCount": 0
     },
