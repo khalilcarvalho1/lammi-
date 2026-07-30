@@ -1,0 +1,2120 @@
+{
+  "questions": [
+    {
+      "id": "choqped_001",
+      "statement": "Pré escolar de 3 anos morador de área rural, com queimadura em 1% da superfície corporal por contato com superfície aquecida, no terceiro dia subitamente apresenta febre alta, vômitos e diarreia, acompanhada de dor de garganta, cefaleia e mialgias. Área queimada sem sinais de secreção purulenta. Um exantema macular eritematoso difuso surge dentro de 24 horas. Evolui com alteração do nível de consciência e oligúria. O diagnóstico mais provável é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "tétano."
+        },
+        {
+          "key": "b",
+          "text": "dengue."
+        },
+        {
+          "key": "c",
+          "text": "leptospirose."
+        },
+        {
+          "key": "d",
+          "text": "sepse de foco abdominal."
+        },
+        {
+          "key": "e",
+          "text": "síndrome do choque tóxico."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "O quadro de queimadura com febre alta, exantema macular difuso, oligúria e alteração de consciência é compatível com síndrome do choque tóxico, associada a colonização por Staphylococcus aureus ou Streptococcus pyogenes em ferida/queimadura.",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_002",
+      "statement": "Criança com 6 anos de idade em fase escolar, do sexo masculino, é atendida no pronto atendimento pois há 3 dias iniciou quadro de tosse e dor torácica (ventilatório- -dependente), além de cansaço e di culdade para respirar. A mãe relata que apresentou picos de febre de até 40 ºC e 3 episódios de vômitos. No exame físico estava em regular estado geral, descorada 2+/4+, com palidez cutânea com discreto livedo reticular e hipoativa. O exame pulmonar evidenciava diminuição importante do murmúrio vesicular à esquerda, FR = 42 ipm, tiragem de fúrcula e tiragem intercostal, SatO2 = 90% em ar ambiente. Na avaliação cardiovascular havia BRNF sem sopros, FC = 155 bpm e PA = 88 x 54 mmHg. Tempo de enchimento capilar = 4 segundos. Não havia sinais de irritação meníngea e após administração de 40 ml/kg de Ringer lactato o exame físico permanece inalterado. O diagnóstico mais provável para essa criança é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sepse grave secundária à pneumonia sem disfunção cardiovascular."
+        },
+        {
+          "key": "b",
+          "text": "Choque séptico compensado secundário à pneumonia aguda."
+        },
+        {
+          "key": "c",
+          "text": "Choque séptico descompensado secundário à pneumonia aguda."
+        },
+        {
+          "key": "d",
+          "text": "Insuficiência respiratória aguda secundária à síndrome gripal."
+        },
+        {
+          "key": "e",
+          "text": "Sepse com choque hipovolêmico secundário à pneumonia aguda."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Com PA normal (88x54) mas taquicardia, enchimento capilar prolongado (4s) e ausência de resposta à expansão volêmica, o quadro é de choque séptico compensado (PA ainda normal) secundário a pneumonia.",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_003",
+      "statement": "Criança, 4 anos de idade, diagnóstico de meningite por pneumococo. Internada em enfermaria de pediatria, apresenta há algumas horas taquicardia (155 bpm), leve taquipneia, palidez moderada e extremidades malperfundidas, com tempo de enchimento capilar de 6 segundos. Escala de coma de Glasgow = 11. Nos controles de enfermagem, não há registro de diurese nas 12 horas mais recentes. Edemaciada, com fígado palpável a 7 cm do rebordo costal direito. Pressão arterial de 60/25 mmHg. Exames laboratoriais revelam acidose metabólica, aumento do lactato sérico e creatinina. Não há UTI Pediátrica como retaguarda da enfermaria. Com base nessas informações clínicas, considere as afirmativas a seguir. I. Trata-se de sepse com disfunção orgânica e choque séptico, devendo ser administrada reparação com soro siológico, com alíquotas de 20 mL/kg, três vezes. II. Considerando a possibilidade de sepse com provável injúria renal associada, a administração de ringer com lactato, como solução cristaloide, não é recomendada pela maior concentração de potássio. III. Como agente com propriedade vasoativa, recomenda-se a administração de noradrenalina ou adrenalina como primeira opção de tratamento, não havendo, nesse momento, vantagens comprovadas entre essas catecolaminas. IV. Após estabilização da pressão arterial, havendo sinais de baixo débito cardíaco, com aumento da extração de oxigênio e baixa saturação venosa central, recomenda-se associação de fármacos com ação inodilatadora. Assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Somente as afirmativas I e II são corretas."
+        },
+        {
+          "key": "b",
+          "text": "Somente as afirmativas I e IV são corretas."
+        },
+        {
+          "key": "c",
+          "text": "Somente as afirmativas III e IV são corretas."
+        },
+        {
+          "key": "d",
+          "text": "Somente as afirmativas I, II e III são corretas."
+        },
+        {
+          "key": "e",
+          "text": "Somente as afirmativas II, III e IV são corretas."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Estão corretas as afirmativas III (noradrenalina ou adrenalina como primeira linha vasoativa, sem vantagem comprovada entre elas) e IV (inodilatadores em caso de baixo débito cardíaco pós-estabilização) — os itens I (deve-se limitar a 40-60ml/kg de expansão com reavaliação constante, não repetir cegamente 3 vezes) e II (Ringer lactato não é contraindicado por injúria renal) contêm imprecisões.",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_004",
+      "statement": "Segundo as novas recomendações para parada cardiorrespiratória (RCP) em pediatria, com base no Guia da American Heart Association de 2020, no choque hemorrágico depois de trauma, é aconselhável administrar, quando disponível,",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "solução composta por 50% de glicose e 50% de soro fisiológico."
+        },
+        {
+          "key": "b",
+          "text": "glicose 5%."
+        },
+        {
+          "key": "c",
+          "text": "adrenalina."
+        },
+        {
+          "key": "d",
+          "text": "solução salina."
+        },
+        {
+          "key": "e",
+          "text": "derivados de sangue."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "No choque hemorrágico pós-trauma pediátrico, quando disponíveis, devem ser administrados derivados de sangue (hemocomponentes), preferencialmente em detrimento de grandes volumes de cristaloide isolado.",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_005",
+      "statement": "Assinale a assertiva correta sobre reposição de fluídos em pacientes pediátricos.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Uso de Ringer-lactato, por seu alto conteúdo de potássio, está contraindicado para pacientes com sepse."
+        },
+        {
+          "key": "b",
+          "text": "Reposição volêmica com grandes volumes de solução salina (solução fisiológica) pode provocar acidose hiperclorêmica."
+        },
+        {
+          "key": "c",
+          "text": "Lactente em pausa alimentar deve receber solução fisiológica de manutenção estimada em 100ml/kg/dia com 5 mEq/kg de sódio e 3 mEq/kg de potássio."
+        },
+        {
+          "key": "d",
+          "text": "Balanço hídrico cumulativo positivo e edema após reposição fluídica são achados com pouca relevância clínica para pacientes em choque."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A reposição volêmica com grandes volumes de solução salina 0,9% pode causar acidose metabólica hiperclorêmica, pela alta concentração de cloreto da solução.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_006",
+      "statement": "Escolar, sexo masculino, 9 anos de idade, portador de osteossarcoma, realizou último ciclo de quimioterapia há 6 dias. É trazido ao Pronto-Socorro com queixa de picos febris de até 39ºC há um dia, vômitos, dor abdominal, dor anal e lesões em cavidade oral conforme imagem abaixo. Admitido na sala de emergência em mau estado geral, descorado 2+/4, FC: 180 bpm, FR: 50 irpm, PA: 70 x 40 mmHg, saturação de O₂: 98% em ar ambiente, tempo de enchimento capilar 6 segundos, pulsos nos, cateter central de longa permanência sem sinais ogísticos. Exames coletados na véspera mostram Hb: 8,2 g/dL, leucócitos 150/mm³ (sem diferencial devido à baixa celularidade), plaquetas 50.000/µL. O paciente recebeu expansão volêmica adequada, antimicrobianos e, após 30 minutos do atendimento inicial, seguia sem melhora signi cativa dos sinais descritos. Qual é a alternativa que contém respectivamente o melhor esquema antimicrobiano inicial e a próxima medida a ser instituída, considerando que não houve melhora dos parâmetros clínicos após a expansão volêmica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ceftriaxona e fluconazol. Introduzir epinefrina endovenosa contínua."
+        },
+        {
+          "key": "b",
+          "text": "Ceftazidima e aciclovir. Solicitar concentrados de hemácias e de plaquetas."
+        },
+        {
+          "key": "c",
+          "text": "Piperaciclina-tazobactam. Solicitar concentrados de hemácias e de plaquetas."
+        },
+        {
+          "key": "d",
+          "text": "Meropenem e vancomicina. Introduzir epinefrina endovenosa contínua."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de neutropenia febril grave sem melhora após expansão volêmica adequada e antibioticoterapia, o esquema mais indicado é meropenem e vancomicina (cobertura ampliada para neutropenia febril de alto risco), associado ao início de epinefrina endovenosa contínua para o choque séptico refratário a fluidos.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_007",
+      "statement": "Uma paciente feminina, 2 anos de vida, iniciou há um dia quadro de febre até 40°C e tosse. Mãe relata que a paciente cou mais cansada para respirar e menos ativa hoje. Ao exame apresenta enchimento capilar em 4 segundos, pele fria e moteada, pressão arterial: 60×40 mmHg, sonolenta, com cianose perilabial, ausculta pulmonar com diminuição do murmúrio vesicular em base direita, com estertores crepitantes à direita, sinais meníngeos ausentes. Baseado no quadro clínico exposto, é correto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Deve-se iniciar imediatamente a expansão com soro glicosado 5% - 20 ml/kg."
+        },
+        {
+          "key": "b",
+          "text": "Deve-se iniciar sequência rápida de intubação como medida inicial."
+        },
+        {
+          "key": "c",
+          "text": "Está indicado o uso da hidrocortisona antes da expansão com solução cristaloide."
+        },
+        {
+          "key": "d",
+          "text": "Deve-se usar solução coloide 10 ml/kg em 30 minutos como medida inicial."
+        },
+        {
+          "key": "e",
+          "text": "Deve-se iniciar antibioticoterapia preferencialmente na primeira hora"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Diante de choque séptico com foco pulmonar já identificado clinicamente, é correto afirmar que se deve iniciar antibioticoterapia preferencialmente na primeira hora, medida associada à redução de mortalidade.",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_008",
+      "statement": "Lactente, 18 meses, sexo feminino, deu entrada no serviço de emergência com quadro de febre há 48 horas, constante, de 38-38,5ºC, não cede a antitérmicos. Mãe percebeu dor abdominal difusa, prostação, baixa ingesta, nega tosse, nega alterações de pele. Ao exame físico encontra-se desidratada, prostada, saliva espessa, frequência cardíaca de 136 bpm (batimentos por minuto), frequência respiratória de 22 irm (incursões respiratórias por minuto), PA (pressão arterial de 80/46 mmHG, pulsos nos. Coletado exames. Apresenta hemoglobina de 8,5g/dL, hematócrito de 30%. PCR: 90 (proteína C reativa). Exame simples de urina coletado por sonda vesical de alívio com leucocitose, hematúria, nitrito positivo. Qual o diagnóstico e a conduta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Infecção do trato urinário, antibiótico oral e observação domiciliar."
+        },
+        {
+          "key": "b",
+          "text": "Sepse, coleta de culturas e antibiótico venoso, observação por 24 horas."
+        },
+        {
+          "key": "c",
+          "text": "Infecção do trato urinário, sepse, hidratação venosa e antibiótico, internação hospitalar."
+        },
+        {
+          "key": "d",
+          "text": "Infecção do trato urinário, sepse, expansão volumétrica, coleta de culturas e iniciar antibiótico de amplo expectro, internação hospitalar."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O quadro (febre, dor abdominal, achados de ITU com leucocitúria/nitrito positivo, associados a sinais de choque) caracteriza infecção do trato urinário complicada por sepse, sendo a conduta expansão volumétrica, coleta de culturas e antibioticoterapia de amplo espectro com internação hospitalar.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_009",
+      "statement": "Considera-se que uma criança de 8 anos está hipotensa quando sua PAS está abaixo de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "70."
+        },
+        {
+          "key": "b",
+          "text": "82."
+        },
+        {
+          "key": "c",
+          "text": "86."
+        },
+        {
+          "key": "d",
+          "text": "90."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Para uma criança de 8 anos, considera-se hipotensão quando a pressão arterial sistólica está abaixo de 86 mmHg (fórmula: 70 + 2×idade em anos, ajustada por faixas etárias específicas do PALS).",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_010",
+      "statement": "Criança de 6 anos, com fígado transplantado há 3 meses, tem apresentado febre, cansaço e recusa alimentar há 3 dias. Na admissão hospitalar, está com taquicardia e má perfusão periférica. Apresenta hemoglobina de 7g/dl, leucócitos de 830/mm³ e plaquetas de 160.000/mm³. A conduta inicial mais adequada neste momento é administrar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cefepime."
+        },
+        {
+          "key": "b",
+          "text": "Azitromicina."
+        },
+        {
+          "key": "c",
+          "text": "Fluconazol."
+        },
+        {
+          "key": "d",
+          "text": "Aciclovir."
+        },
+        {
+          "key": "e",
+          "text": "Prednisolona."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Em paciente imunossuprimido (transplantado, com neutropenia — leucócitos 830/mm³) com febre e sinais de sepse, a conduta inicial mais adequada é iniciar cobertura antimicrobiana de amplo espectro como o cefepime.",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_011",
+      "statement": "Paciente de cinco anos de idade, dá entrada no Pronto Atendimento, em estado de choque séptico, caracterizado por rubor das extremidades, enchimento capilar de 2 segundos, pulsos cheios, pressão arterial diminuída e baixo débito urinário. Foi iniciado prontamente reposição volêmica com solução fisiológica sem resposta. O próximo passo é INICIAR:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Adrenalina"
+        },
+        {
+          "key": "b",
+          "text": "Nilrinona"
+        },
+        {
+          "key": "c",
+          "text": "Noradrenalina"
+        },
+        {
+          "key": "d",
+          "text": "Vasopressina"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de choque séptico 'quente' (rubor de extremidades, enchimento capilar normal, pulsos amplos, pressão arterial baixa) refratário à reposição volêmica, o próximo passo é iniciar noradrenalina, droga vasoativa de escolha para choque com baixa resistência vascular sistêmica.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_012",
+      "statement": "Criança de 5 anos de idade com peso estimado de 20 kg, foi atropelada por uma moto. Segundo equipe do resgate, criança foi encontrada no cenário, inconsciente, com escala de coma de Glasgow de 7, com múltiplas escoriações no corpo e hematoma subgaleal temporal à esquerda, sendo então prontamente intubada e transferida para sala de urgência de hospital terciário. Ao exame: criança intubada, sedada, pupilas mióticas e bradifotorreagentes, ventilada com bolsa valva- máscara com uxo de 1 O litros de oxigênio/min. Subitamente, durante a monitorização, nota-se frequência cardíaca 160 bpm, pressão arterial 70 x 40 mmHg, saturação de 02 85%, pulsos periféricos nos e centrais palpáveis, tempo de enchimento capilar de 4-5 segundos. Na ausculta pulmonar, o murmúrio vesicular está reduzido em hemitórax direito e hipertimpânico à percussão. Escolha qual das alternativas abaixo de ne melhor a condição de deterioração constatada na sala de urgência:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Choque distributivo."
+        },
+        {
+          "key": "b",
+          "text": "Choque obstrutivo."
+        },
+        {
+          "key": "c",
+          "text": "Choque hipovolêmico hemorrágico."
+        },
+        {
+          "key": "d",
+          "text": "Choque neurogênico."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O quadro de trauma com hemitórax direito hipertimpânico à percussão, murmúrio vesicular abolido e deterioração hemodinâmica súbita é compatível com pneumotórax hipertensivo, causando choque obstrutivo.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_013",
+      "statement": "Criança, 21 meses, é levada à emergência por \"estar gripado\". Segundo a mãe, ele está com febre e sem se alimentar bem há cerca de 20 horas, além de apresentar dor abdominal e um episodio de vômito (líquido verde) pela a manhã. Sinais vitais: peso = 15kg; temperatura = 39,2°C; frequência cardíaca (FC) = 60bpm; frequência respiratória (FR) = 35irpm; saturação de oxigênio (SpO2) = 98%, em ar ambiente; pressão arterial sistólica = 60mmHg e diastólica indetectável; enchimento capilar superior a 4 segundos. Letárgica e incapaz de acompanhar objetos com o olhar, choro sem lágrimas. A hipótese diagnóstica mais provável e a conduta mais adequada para este menino, respectivamente, é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "choque séptico / puncionar acesso venoso, iniciar etapa rápida de solução salina a 300mL em 5-10 minutos,"
+        },
+        {
+          "key": "b",
+          "text": "estenose hipertrófica de piloro/ puncionar acesso venoso, administrar antitérmico e realizar intubação orotraqueal"
+        },
+        {
+          "key": "c",
+          "text": "choque séptico/ puncionar acesso venoso, administrar antitérmico e iniciar massagem cardíaca"
+        },
+        {
+          "key": "d",
+          "text": "estenose hipertrófica de piloro / puncionar acesso venoso, iniciar etapa rápida de solução salina a 300mL em 20 minutose realizar intubação orotraqueal"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O quadro de febre, vômito bilioso, letargia, ausência de lágrimas e hipotensão em lactente é compatível com choque séptico; a conduta é puncionar acesso venoso e iniciar etapa rápida de expansão com solução salina.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_014",
+      "statement": "Criança de 3 anos, sexo feminino, dá entrada no serviço de urgência, com história de febre e vômitos há 24 horas. Exame físico: Estado geral regular, hipocorada (2+/4+), febril, eupneica, mucosa oral seca, olhos encovados, consciente, porém sonolenta. Auscultas cardíaca e respiratória normais. FC: 120 bpm. FR: 36 ipm. Pulsos nos, tempo de enchimento capilar de 4 segundos. Abdome: plano, ácido, indolor, sem visceromegalias. SN: rigidez de nuca presente, pupilas isocóricas e fotorreagentes, fundo de olho normal, escala de coma de Glasgow de 14. Pele: petéquias em membros inferiores. Qual a conduta mais adequada dentre as alternativas abaixo citadas?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Expansão de 20 mL/Kg com SF 0,9% por via endovenosa, coletar líquor e hemocultura e iniciar antibioticoterapia empírica."
+        },
+        {
+          "key": "b",
+          "text": "Expansão de 20 mL/Kg com SF 0,9% por via endovenosa, coletar líquor e hemocultura e aguardar resultado do líquor para definir início de antibioticoterapia."
+        },
+        {
+          "key": "c",
+          "text": "Expansão de 20 mL/Kg com SF 0,9% por via endovenosa, coletar hemocultura, iniciar antibioticoterapia empírica, realizar tomografia computadorizada de crânio de urgência para definir coleta de líquor."
+        },
+        {
+          "key": "d",
+          "text": "Hidratação venosa com soro de manutenção, coletar líquor e hemocultura e iniciar antibioticoterapia empírica."
+        },
+        {
+          "key": "e",
+          "text": "Hidratação venosa com soro de manutenção, coletar líquor e hemocultura e aguardar resultado do líquor para definir início de antibioticoterapia."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de sinais de choque compensado associados a rigidez de nuca e petéquias (suspeita de meningococcemia/meningite bacteriana), a conduta é expansão volêmica, coleta de líquor e hemocultura, e início imediato de antibioticoterapia empírica, sem aguardar resultados.",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_015",
+      "statement": "Adolescente, 15 anos, sexo masculino, vítima de acidente automobilístico com amputação da perna direita no local do acidente, chega ao pronto-socorro trazido pelo SAMU. Monitorizado na sala de urgência, apresenta o seguinte exame físico: REG, descorada 3+/4+, hidratada, acianótica, anictérico. Glasgow 13, pupilas isocóricas e fotorreagentes, sem dé cits motores. Temperatura: 36 0C. Oroscopia e otoscopia normais. AP: murmúrio vesicular presentes em ambos os hemitórax, sem ruídos adventícios, SatO2: 98%. ACV: ruídos cardíacas em 2T sem sopros, PA= 70x40 mmHg, FC= 105 bpm. Abdome flácido, sem massas ou visceromegalias, RHA +. Pulsos +, finos, perfusão de 4 segundos. Com essas características, qual o tipo de choque esse paciente apresenta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Choque cardiogênico."
+        },
+        {
+          "key": "b",
+          "text": "Choque séptico."
+        },
+        {
+          "key": "c",
+          "text": "Choque hipovolêmico."
+        },
+        {
+          "key": "d",
+          "text": "Choque elétrico."
+        },
+        {
+          "key": "e",
+          "text": "Não apresenta sinais de choque."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O quadro de trauma com amputação de membro (perda sanguínea maciça), taquicardia e hipotensão é compatível com choque hipovolêmico (hemorrágico).",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_016",
+      "statement": "Giulia, oito meses de idade, foi levada pela sua mãe a uma unidade de pronto atendimento com história de infecção do trato urinário e febre há 5 dias. A mãe refere que a bebê estava fazendo uso de antibioticoterapia para tratamento dessa infecção, mas notou piora importante do quadro clínico nas últimas horas. O médico que a atendeu constatou que a criança se encontrava em choque séptico, com extremidades frias, pulso fino e PA: 80 x 30 mmHg. A conduta inicial mais indicada para essa paciente, dentre as abaixo, é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "soro de manutenção e infusão contínua de dobutamina."
+        },
+        {
+          "key": "b",
+          "text": "reposição volêmica com ringer ou ringer lactato, em bôlus de 10 mL/kg em 5 a 10 minutos."
+        },
+        {
+          "key": "c",
+          "text": "reposição volêmica com soro fisiológico de 20 mL/kg em uma hora."
+        },
+        {
+          "key": "d",
+          "text": "reposição volêmica com ringer ou ringer lactato, em bôlus de 20 mL/kg em 5 a 10 minutos."
+        },
+        {
+          "key": "e",
+          "text": "soro de manutenção e infusão contínua de noradrenalina."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de choque séptico com extremidades frias e pulso fino ('choque frio'), a conduta inicial é reposição volêmica com Ringer lactato ou Ringer simples em bólus de 20 mL/kg em 5 a 10 minutos.",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_017",
+      "statement": "A melhor opção de reposição volêmica na emergência pediátrica é o.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "soro glicosado 5% 20 mL/kg."
+        },
+        {
+          "key": "b",
+          "text": "soro glicosado 50% 5 mL/kg."
+        },
+        {
+          "key": "c",
+          "text": "soro fisiológico 20 mL/kg."
+        },
+        {
+          "key": "d",
+          "text": "soro fisiológico 30 mL/kg."
+        },
+        {
+          "key": "e",
+          "text": "ringer lactato 1 mL/kg."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A melhor opção de reposição volêmica na emergência pediátrica é o soro fisiológico (cristaloide isotônico) 20 mL/kg.",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_018",
+      "statement": "Criança, 21 meses, é levada à emergência por \"estar gripado\". Segundo a mãe, ele está com febre e sem se alimentar bem há cerca de 20 horas, além de apresentar dor abdominal e um episodio de vômito (líquido verde) pela a manhã. Sinais vitais: peso = 15kg; temperatura = 39,2°C; frequência cardíaca (FC) = 60bpm; frequência respiratória (FR) = 35irpm; saturação de oxigênio (SpO2) = 98%, em ar ambiente; pressão arterial sistólica = 60mmHg e diastólica indetectável; enchimento capilar superior a 4 segundos. Letárgica e incapaz de acompanhar objetos com o olhar, choro sem lágrimas. A hipótese diagnóstica mais provável e a conduta mais adequada para este menino, respectivamente, é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "choque séptico / puncionar acesso venoso, iniciar etapa rápida de solução salina a 300mL em 5-10 minutos."
+        },
+        {
+          "key": "b",
+          "text": "estenose hipertrófica de piloro/ puncionar acesso venoso, administrar antitérmico e realizar intubação orotraqueal."
+        },
+        {
+          "key": "c",
+          "text": "choque séptico/ puncionar acesso venoso, administrar antitérmico e iniciar massagem cardíaca."
+        },
+        {
+          "key": "d",
+          "text": "estenose hipertrófica de piloro / puncionar acesso venoso, iniciar etapa rápida de solução salina a 300mL em 20 minutose realizar intubação orotraqueal."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O quadro de febre, vômito bilioso, letargia, ausência de lágrimas e hipotensão em lactente é compatível com choque séptico; a conduta é puncionar acesso venoso e iniciar etapa rápida de expansão com solução salina.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_019",
+      "statement": "A causa mais comum de choque em crianças são diarreia e vômitos. De acordo com a siopatologia, essas crianças apresentam choque",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "obstrutivo."
+        },
+        {
+          "key": "b",
+          "text": "cardiogênico."
+        },
+        {
+          "key": "c",
+          "text": "distributivo."
+        },
+        {
+          "key": "d",
+          "text": "hipovolêmico."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A causa mais comum de choque em crianças (diarreia e vômitos, com perda de volume intravascular) é o choque hipovolêmico.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_020",
+      "statement": "Criança em choque séptico, apresentando vasodilatação, aumento da permeabilidade capilar e redistribuição do uxo sanguíneo, com consequente hipovolemia relativa, tem choque",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "obstrutivo."
+        },
+        {
+          "key": "b",
+          "text": "cardiogênico."
+        },
+        {
+          "key": "c",
+          "text": "distributivo."
+        },
+        {
+          "key": "d",
+          "text": "hipovolêmico."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O choque com vasodilatação, aumento da permeabilidade capilar e redistribuição do fluxo sanguíneo (hipovolemia relativa) caracteriza o choque distributivo, como ocorre no choque séptico.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_021",
+      "statement": "Você atende um paciente de 14 meses com quadro de cansaço, irritabilidade e recusa alimentar há 3 dias, com piora há 1 dia. É previamente saudável, mas há 15 dias teve, segundo a mãe, uma “virose” que causou diarreia e “manchas” pelo corpo. Ao exame físico, está em regular estado geral, febril (39°C), pálida, taquidispneica (frequência respiratória de 60 incursões por minuto), com saturação de pulso de oxigênio de 96% com oxigênio a 100%. Sua perfusão periférica é de 7 segundos, pulsos periféricos nos e pressão arterial de 55 x 32 mmHg. Ausculta cardíaca normal, estertores nos em ambas bases pulmonares e fígado palpável a 4 cm do rebordo costal direito. Restante do exame sem alterações. A conduta imediata é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Monitoração em sala de emergência, obtenção de acesso venoso periférico e infusão de 5 a 10 mL/kg de solução cristaloide em 20 a 30 minutos."
+        },
+        {
+          "key": "b",
+          "text": "Monitoração em sala de emergência, obtenção de acesso venoso ou intraósseo e infusão de 20 mL/kg de solução cristaloide em 5 a 10 minutos."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar avaliação cirúrgica para obtenção de acesso venoso profundo na sala de emergência, e iniciar noradrenalina contínua assim que obtido o acesso."
+        },
+        {
+          "key": "d",
+          "text": "Administrar uma dose de dipirona parenteral, manter o paciente em observação e reavaliar após melhora da febre."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de choque séptico com sinais de gravidade (perfusão de 7 segundos, hipotensão), a conduta imediata é monitorização em sala de emergência, obtenção de acesso venoso ou intraósseo e infusão de 20 mL/kg de cristaloide em 5 a 10 minutos.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_022",
+      "statement": "Menina, 7 anos de idade, previamente hígida, apresenta quadro de febre há 1 dia de até 39,5°C, mal-estar e hipoatividade. Foi admitida no Pronto-Socorro letárgica, sendo levada à sala de emergência. Na avaliação primaria, estava febril, sonolenta, porém responsiva ao chamado, hidratada. Apresentava extremidades frias, pulsos nos e tempo de enchimento capilar de 6 segundos. Ausculta pulmonar e cardíaca sem alterações, abdome indolor, sem visceromegalias. Abaixo os dados de monitorização do paciente. Qual é a conduta imediata?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sedação seguida de cardioversão elétrica."
+        },
+        {
+          "key": "b",
+          "text": "Ceftriaxone e expansão volêmica."
+        },
+        {
+          "key": "c",
+          "text": "Manobra vagal seguida de adenosina."
+        },
+        {
+          "key": "d",
+          "text": "Antitérmico e reavaliação após 1 hora."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de choque séptico 'frio' (extremidades frias, pulsos finos, enchimento capilar prolongado), a conduta imediata é iniciar antibioticoterapia (ceftriaxona) associada à expansão volêmica.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_023",
+      "statement": "Criança de 3 meses, com história de febre alta, tosse e desconforto respiratório há 2 dias, dá entrada na sala de emergência apresentando taquicardia (FC 150 bpm), taquipneia com frequência respiratória em torno de 70 irpm, tiragem subcostal e ausculta pulmonar com murmúrio vesicular diminuído à direita. De acordo com a suspeita diagnóstica, espera-se encontrar",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "acidose e lactato sérico aumentado."
+        },
+        {
+          "key": "b",
+          "text": "acidose e lactato sérico diminuído."
+        },
+        {
+          "key": "c",
+          "text": "alcalose e lactato sérico aumentado."
+        },
+        {
+          "key": "d",
+          "text": "alcalose e lactato sérico diminuído."
+        },
+        {
+          "key": "e",
+          "text": "distúrbio misto e lactato sérico aumentado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O quadro de taquicardia, taquipneia compensatória e sinais de infecção pulmonar em choque séptico inicial é compatível com alcalose respiratória (hiperventilação compensatória) associada a lactato sérico aumentado (hipoperfusão tecidual).",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_024",
+      "statement": "Menina, 3 anos de idade, sem comorbidades, é levada a Pronto-Socorro por quadro de febre há 3 dias, de até 39,5°C. Os episódios são frequentes, sendo necessário intercalar dipirona e ibuprofeno para controle térmico. Há 2 dias evoluiu com eritema pruriginoso em tronco e há 1 dia com descamação. Ao exame clínico, criança em regular estado geral, T 37,5°C, PA 74 x 58 mmHg, FC 177 bpm, FR 38 ipm, SatO2 94% em ar ambiente. Sem outras alterações ao exame clínico, exceto pelas lesões difusas na pele com eritrodermia intensa e descamação, conforme figura abaixo. Qual é a conduta imediata indicada neste momento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Difenidramina, ranitidina e hidrocortisona endovenosos."
+        },
+        {
+          "key": "b",
+          "text": "Adrenalina endovenosa contínua e antibioticoterapia com eritromicina."
+        },
+        {
+          "key": "c",
+          "text": "Expansão volêmica e antibioticoterapia com oxacilina e clindamicina."
+        },
+        {
+          "key": "d",
+          "text": "Pulsoterapia com metilprednisolona e suspensão de qualquer outra medicação."
+        },
+        {
+          "key": "e",
+          "text": "Sulfadiazina de prata tópica e enfaixamento das lesões."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O quadro de febre prolongada, eritrodermia difusa com descamação e instabilidade hemodinâmica é compatível com síndrome do choque tóxico estafilocócico/estreptocócico, sendo a conduta expansão volêmica e antibioticoterapia com oxacilina e clindamicina (esta última pela ação antitoxina).",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_025",
+      "statement": "Lactente, 11 meses, é trazido pela mãe à emergência com quadro de vômitos e diarreia há dois dias. Hoje mais irritado, urinando menos, segundo a mãe e apresentando febre, fez antitérmico antes de sair de casa. Exame físico: irritado, choroso, tax: 36,8ºC, desidratado, corado, acianótico, anictérico. Perfusão periférica: 3s, pulsos periféricos diminuídos, FC: 175 bpm. PA: 90 X40 mmHg. FR: 40 irpm, leve tiragem subcostal. Fontanela anterior deprimida, sem sinais de irritação meníngea ou de focalização neurológica. Restante do exame físico sem alterações. O diagnóstico e tratamento imediato indicados neste caso são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "choque compensado; hidratação venosa de manutenção"
+        },
+        {
+          "key": "b",
+          "text": "choque descompensado; hidratação venosa de manutenção"
+        },
+        {
+          "key": "c",
+          "text": "choque compensado; etapa de expansão com soro fisiológico rápido, 20 ml/kg"
+        },
+        {
+          "key": "d",
+          "text": "choque descompensado; etapa de expansão com soro fisiológico rápido, 20 ml/kg"
+        },
+        {
+          "key": "e",
+          "text": "choque descompensado; etapa de expansão com plasma freso"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de sinais de choque compensado (PA ainda normal, mas taquicardia e má perfusão) por desidratação, a conduta é etapa de expansão com soro fisiológico rápido, 20 mL/kg.",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_026",
+      "statement": "Você atende uma criança de 3 anos no pronto atendimento de um hospital terciário com a seguinte história: febre de início há 3 dias com piora nas últimas 24 horas, prostração e tosse produtiva. Ao exame a criança encontra-se taquipneica (FR: 60irpm), taquicárdica (FC: 180bpm), febril (tax: 39,8oC), prostrada e um pouco confusa, pulsos carotídeos nos, perfusão capilar periférica lenti cada, murmúrio vesicular rude com crepitações difusas, ritmo cardíaco regular em 2 tempos, ausência de sopros, abdômen levemente distendido, fígado a cerca de 3cm do rebordo costal direito, saturação 91% em ar ambiente. É CORRETO afirmar que a prioridade no atendimento a essa criança é de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Oferecer oxigenoterapia por máscara, puncionar acesso venoso calibroso, realizar expansão volêmica 20ml/kg de solução fisiológica 0,9% e iniciar antibioticoterapia."
+        },
+        {
+          "key": "b",
+          "text": "Colher exames laboratoriais e somente após, iniciar antibioticoterapia em acesso venoso periférico."
+        },
+        {
+          "key": "c",
+          "text": "Puncionar acesso venoso e intubar a criança o mais rápido possível, iniciando ventilação mecânica."
+        },
+        {
+          "key": "d",
+          "text": "Iniciar hidratação venosa vigorosa após puncionar acesso venoso central, iniciando antibioticoterapia após a coleta de exames laboratoriais."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de criança com sinais de sepse/choque séptico com hipoxemia, a prioridade é oxigenoterapia, acesso venoso calibroso, expansão volêmica com 20 mL/kg de SF 0,9% e início de antibioticoterapia, sem atrasar por exames.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_027",
+      "statement": "Menino de 5 anos de idade, vitima de acidente automobilístico, chega ao Pronto Socorro, com relato de que estava sentado no banco de trás, sem cinto de segurança, sendo projetado para o banco da frente. Ao exame: sonolento, pálido, hidratado limítrofe, taquidispneico. Pólo cefálico: sem alterações; OF: ndn; Ap: MV abolido a direita e presente, sem ruídos adventícios a esquerda; Hipertimpanismo a percussão do lado direito Tórax assimétrico; AC: BCNF, RCR 2t s/s. FC; 160 bpm; Pulsos periféricos nos e enchimento capilar de 4 segundos; PA: 70 x 40 mmhg; ABd: depressível, rha +, indolor; Descompressão brusca negativo; SN: ECG 10; Pupilas isocoricas e fotoreagentes. Sem sinais de fraturas A opção de tratamento mais adequada para o caso acima é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Antibioticoterapia e bolus de cristalóide"
+        },
+        {
+          "key": "b",
+          "text": "Cristalóides e hemocomponentes"
+        },
+        {
+          "key": "c",
+          "text": "Toracocentese de alivio"
+        },
+        {
+          "key": "d",
+          "text": "Epinefrina + Hidrocortisona"
+        },
+        {
+          "key": "e",
+          "text": "Metilprednisolona em altas doses"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O quadro de trauma torácico com hipertimpanismo, murmúrio vesicular abolido unilateralmente e instabilidade hemodinâmica é compatível com pneumotórax hipertensivo; a conduta mais adequada é a toracocentese de alívio (descompressão torácica imediata).",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_028",
+      "statement": "Menino de 5 anos de idade, vitima de acidente automobilístico, chega ao Pronto Socorro, com relato de que estava sentado no banco de trás, sem cinto de segurança, sendo projetado para o banco da frente. Ao exame: sonolento, pálido, hidratado limítrofe, taquidispneico. Pólo cefálico: sem alterações; OF: ndn; Ap: MV abolido a direita e presente, sem ruídos adventícios a esquerda; Hipertimpanismo a percussão do lado direito Tórax assimétrico; AC: BCNF, RCR 2t s/s. FC; 160 bpm; Pulsos periféricos nos e enchimento capilar de 4 segundos; PA: 70 x 40 mmhg; ABd: depressível, rha +, indolor; Descompressão brusca negativo; SN: ECG 10; Pupilas isocoricas e fotoreagentes. Sem sinais de fraturas O provável diagnóstico do paciente acima, é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "choque séptico"
+        },
+        {
+          "key": "b",
+          "text": "choque hemorrágico"
+        },
+        {
+          "key": "c",
+          "text": "choque obstrutivo"
+        },
+        {
+          "key": "d",
+          "text": "choque anafilático"
+        },
+        {
+          "key": "e",
+          "text": "choque neurogênico"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O quadro de trauma torácico com hipertimpanismo, murmúrio vesicular abolido unilateralmente e instabilidade hemodinâmica é compatível com pneumotórax hipertensivo, causando choque obstrutivo.",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_029",
+      "statement": "Criança com três anos de idade, há cinco dias com diagnóstico de varicela é levada à UPA. Nos últimos dois dias, há relato de prostração, febre alta e aparecimento de secreção purulenta em várias das lesões cutâneas. Ao exame clínico, está confusa, febril (39,5ºC), taquicárdica (180bpm), taquipneica (30irpm), com pulsos periféricos nos e rápidos, perfusão capilar entre 4 e 5 segundos, PA 90/60mmHg e com lesões crostosas e purulentas em tórax, abdome e membros. Após, administração de 40ml/Kg de cloreto de sódio a 0,9%, livre (em bolus), manteve o quadro inalterado. Exames laboratoriais: Hemácias: 3,69 milhões/mm³ (VR: 4,0-5,2 milhões/mm³); Hemoglobina: 11,1g/dL (VR: 11,5 - 13,5g/dL); Hematócrito: 40% (VR: 34-40%); Global de leucócitos: 16.420/mm³ (VR: 5.00014.500/mm³); Diferencial: 70% segmentados; 25% linfócitos; 2% monócitos; e 3% bastonetes. Plaquetas: 200.000/mm³ (VR: 150.000 a 450.000/mm³); Proteína C reativa: 105mg/dL (VR <6 mg/dL); Dosagem de sódio sérico: 138mmol/L (VR: 135-145mmol/L); Gasometria: pH 7,35; PaO₂ 81mmHg; PaCO₂ 33mmHg; HCO₃ 19mEq/L; BE -6 (VR: pH 7,357,45; PaO₂ >80 mmHG; PaCO₂ 35-45mmHg; HCO₃ 21-27mEq/L; BE -6) Assinale a conduta MAIS INDICADA neste momento.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Fazer bolus de bicarbonato de sódio e administrar cloreto de sódio a 0,9%"
+        },
+        {
+          "key": "b",
+          "text": "Fazer bolus de bicarbonato de sódio e administrar solução colóide"
+        },
+        {
+          "key": "c",
+          "text": "Iniciar antibioticoterapia e administrar cloreto de sódio a 0,9%"
+        },
+        {
+          "key": "d",
+          "text": "Iniciar antibioticoterapia e administrar solução colóide"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de choque séptico refratário a 40mL/kg de cristaloide (varicela sobreinfectada, provável origem estafilocócica/estreptocócica de partes moles), a conduta é iniciar antibioticoterapia e continuar administrando cloreto de sódio a 0,9%.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_030",
+      "statement": "Menina, 15 meses, chega à Emergência com quadro de febre, vômitos e alternando irritabilidade e letargia há um dia. Mãe refere que a urina está diminuida. Exame físico: Regular estado geral, T= 38,6°, PA= 90 x 60 mmHg, FC= 170 bpm, FR=50 irpm, palidez cutânea, mucosas secas, anictérica, acianótica, pulsos periféricos finos, perfusão periférica= 4 seg. Pele: lesões arroxeadas nos membros inferiores e abdome, não desaparecem à dígito pressão. Nas várias tentativas de punção venosa periférica, apresenta sangramento profundo. A HIPÓTESE DIAGNÓSTICA É:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Choque séptico."
+        },
+        {
+          "key": "b",
+          "text": "Sindrome hemolitico urêmica."
+        },
+        {
+          "key": "c",
+          "text": "Choque hipovolêmico."
+        },
+        {
+          "key": "d",
+          "text": "Púrpura de Henoch-Schonlein."
+        },
+        {
+          "key": "e",
+          "text": "Crise asmática."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O quadro de choque com lesões purpúricas que não desaparecem à digitopressão é compatível com choque séptico (meningococcemia clássica), sendo a principal hipótese diagnóstica frente às demais opções.",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_031",
+      "statement": "Assinale a alternativa que NÃO apresenta um achado compatível com choque neurogênico:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hipotensão."
+        },
+        {
+          "key": "b",
+          "text": "Bradipneia."
+        },
+        {
+          "key": "c",
+          "text": "Vasodilatação periférica."
+        },
+        {
+          "key": "d",
+          "text": "Taquicardia."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "É a EXCEÇÃO: o choque neurogênico caracteriza-se por bradicardia (não taquicardia), devido à perda do tônus simpático — hipotensão, bradipneia e vasodilatação periférica são achados esperados, mas a taquicardia não é compatível com esse tipo de choque.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_032",
+      "statement": "Menino, 3 anos de idade, chega ao pronto atendimento com quadro de febre há três dias, inapetência e dispneia. Exame físico: MEG, descorado e desidratado +/4+, FR = 40 ipm, T = 37,8 °C, FC = 140 bpm, SatO₂ = 84 % em ar ambiente, PA= 70x50 mmHg. MV presente e diminuído em base direita, com estertor crepitante no local. BRNF sem sopros. Fígado a 1 cm do RCD, baço não percutível. Extremidades sem edema, com gradiente térmico e enchimento capilar igual a 4 segundos. Levado à sala de emergência, qual seria a sequência de prioridades no atendimento deste paciente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cateter nasal 1l/min, monitorização cardíaca, acesso vascular, antitérmico intravenoso e glicemia capilar"
+        },
+        {
+          "key": "b",
+          "text": "Cateter nasal 1l/min, acesso vascular, expansão volêmica com 20 ml/Kg de cloreto de sódio 0,9% e radiografia de tórax"
+        },
+        {
+          "key": "c",
+          "text": "Máscara facial não reinalante, monitorização cardíaca, acesso vascular, glicemia capilar e expansão volêmica com 20 ml/Kg de cloreto de sódio 0,9%"
+        },
+        {
+          "key": "d",
+          "text": "Acesso vascular, expansão volêmica com 10 ml/Kg de cloreto de sódio 0,9%, máscara facial não reinalante e radiografia de tórax"
+        },
+        {
+          "key": "e",
+          "text": "Acesso vascular, antitérmico intravenoso, expansão volêmica com 10 ml/Kg de cloreto de sódio 0,9%, máscara facial não reinalante e radiografia de tórax"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de criança com sinais de choque séptico e hipoxemia (SatO2 84%), a sequência de prioridades é máscara facial não reinalante, monitorização cardíaca, acesso vascular, glicemia capilar e expansão volêmica com 20 mL/kg de cloreto de sódio 0,9%.",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_033",
+      "statement": "Menino, 5 meses, com história de tosse, di culdade respiratória e cansaço às mamadas há 3 dias. Nas últimas 24 horas, houve intensi cação do cansaço, com recusa alimentar. Refere febre baixa no início do quadro. Exame físico: descorado +/4+, palidez cutânea, afebril, irritado, FR= 178bpm, FR= 65irpm, saturação transcutânea de oxigênio= 92% (ar ambiente), pulsos de baixa amplitude, tempo de enchimento capilar de 3 segundos; Coração: bulhas normofonéticas, com 3ª bulha presente, sem sopros; Pulmões: murmúrio vesicular simétrico e estertores subcrepitantes em bases; Abdome: ácido, fígado palpável à 4 cm do rebordo costal direito. OS DIAGNÓSTICOS SINDRÔMICO, ANATÔMICO E ETIOLÓGICO SÃO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Síndrome do desconforto respiratório agudo, bronquiolite, vírus sincicial respiratório."
+        },
+        {
+          "key": "b",
+          "text": "Choque cardiogênico, miocardite, enterovírus."
+        },
+        {
+          "key": "c",
+          "text": "Choque séptico, abscesso hepático, Staphylococcus aureus."
+        },
+        {
+          "key": "d",
+          "text": "Choque séptico, pneumonia, Streptococcus pneumoniae."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O quadro de lactente com desconforto respiratório, hepatomegalia, terceira bulha e pulsos de baixa amplitude é compatível com choque cardiogênico por miocardite (etiologicamente associada a enterovírus na faixa etária).",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_034",
+      "statement": "Você está trabalhando como médico da família e atende um adolescente de 14 anos com quadro de vômitos e febre desde hoje de manhã. Ao meio-dia, os pais referem que está prostrado e, no nal da tarde, iniciou com manchas arroxeadas no corpo todo. Ao exame: MEG, pálido, FC 148, FR 18, PA 86x55. Respiratório com padrão irregular, gasping, cardiovascular sem alterações. Pele: presença de sufusões hemorrágicas difusas. Neurológico: sonolento e irresponsivo, sem sinais meníngeos. Sua conduta inicial imediata é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "ventilação com ambu e máscara, soro fisiológico 5-10 ml/kg, colher exames."
+        },
+        {
+          "key": "b",
+          "text": "intubação orotraqueal, soro fisiológico 5-30 ml/kg, ceftriaxone dose de ataque."
+        },
+        {
+          "key": "c",
+          "text": "intubação orotraqueal, dopamina, colher exames, ceftriaxone dose de ataque."
+        },
+        {
+          "key": "d",
+          "text": "intubação orotraqueal, ringer lactato 20ml/kg, colher exames, ampicilina e cloranfenicol."
+        },
+        {
+          "key": "e",
+          "text": "ventilação com ambu e máscara, ringer lactato 20ml/kg, ceftriaxone, colher exames."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Diante de choque séptico grave com respiração irregular/gasping (indicação de via aérea avançada) e púrpura fulminante (suspeita de meningococcemia), a conduta é ventilação com ambu e máscara, ringer lactato 20 mL/kg, ceftriaxona e coleta de exames.",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_035",
+      "statement": "Uma menina de quatro anos de idade foi levada ao hospital com queixa de edema em face e região cervical direita iniciado há dois dias, acompanhado de vários picos febris (39-40 graus Celsius). Há um dia, passou em atendimento na Unidade Básica de Saúde, onde foi diagnosticada clinicamente como provável caxumba, recebendo tratamento apenas sintomático. Hoje, evoluiu com piora do edema, com rápida progressão de tamanho e áreas de equimose. A mãe relatou também quadro de varicela iniciado há dez dias, apresentando apenas lesões cicatriciais no momento, e que a paciente não urinava há doze horas. À entrada no setor de internação, estava acordada, consciente, afebril, hidratada, com FC de 150 bpm e PA de 100 x 60 mmHg, sem outras allterações ao exame físico, além da evidenciada em região cervical com edema, áreas equimóticas e descamativas. Foi iniciada antibioticoterapia com cefalosporina de 3.ª geração e expansão volêmica. Foram coletados exames. Evoluiu rapidamente com alteração do nível da consciência e muita sonolência, sendo submetida à intubação orotraqueal. Após expansão total com 60 mL/kg de cristaloide, ainda mantinha perfusão periférica de 5 s, FC de 160 bpm e PA de 90 x 55 mmHg, sem diurese. Com base nessa situação hipotética, assinale a alternativa correta quanto ao diagnóstico mais provável e à conduta a ser adotada.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "diagnóstico: choque séptico por meningococcemia conduta: coletador o líquor, manter antibiótico e iniciar droga vasoativa"
+        },
+        {
+          "key": "b",
+          "text": "diagnóstico: varicela infectada conduta: associar aciclovir ao antibiótico"
+        },
+        {
+          "key": "c",
+          "text": "diagnóstico: choque tóxico estreptocócico conduta: associar clindamicina e iniciar droga vasoativa"
+        },
+        {
+          "key": "d",
+          "text": "diagnóstico: choque tóxico estafilocócico conduta: trocar antibiótico por oxacilina, sem necessidade de droga vasoativa, pois a pressão arterial permanece normal"
+        },
+        {
+          "key": "e",
+          "text": "diagnóstico: sepse por parotidite complicada conduta: manter antibiótico e realizar drenagem"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O quadro de edema cervical progressivo com choque refratário a grande volume de cristaloide, história de varicela recente e evolução rápida é compatível com choque tóxico estreptocócico, sendo a conduta associar clindamicina (inibição da produção de toxinas) ao esquema antimicrobiano e iniciar droga vasoativa.",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_036",
+      "statement": "Uma menina de quatro anos de idade foi levada ao hospital com queixa de edema em face e região cervical direita iniciado há dois dias, acompanhado de vários picos febris (39-40 graus Celsius). Há um dia, passou em atendimento na Unidade Básica de Saúde, onde foi diagnosticada clinicamente como provável caxumba, recebendo tratamento apenas sintomático. Hoje, evolui com piora do edema, com rápida progressão de tamanho e áreas de equimose. A mãe relatou também quadro de varicela iniciado há dez dias, apresentando apenas lesões cicatriciais no momento, e que a paciente não urinava há doze horas. À entrada no setor de internação, estava acordada, consciente, afebril, hidratada, com FC de 150 bpm e PA de 100 x 60 mmHg, sem outras alterações ao exame físico, além da evidenciada em região cervical com edema, áreas equimóticas e descamativas. Foi iniciada antibioticoterapia com cefalosporina de 3.ª geração e expansão volêmica. Foram coletados exames. Evoluiu rapidamente com alteração do nível de consciência e muita sonolência, sendo submetida à intubação orotraqueal. Após expansão total com 60 mL/kg de cristaloide, ainda mantinha perfusão periférica de 5 s, FC de 160 bpm e PA de 90 x 55 mmHg, sem diurese. Com base nessa situação hipotética, assinale a alternativa correta quanto ao diagnóstico mais provável e à conduta a ser adotada.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "diagnóstico: choque séptico por meningococcemia conduta: coletador o liquor, manter antibiótico e iniciar droga vasoativa"
+        },
+        {
+          "key": "b",
+          "text": "diagnóstico: varicela infectada conduta: associar aciclovir ao antibiótico"
+        },
+        {
+          "key": "c",
+          "text": "diagnóstico: choque tóxico estreptocócico conduta: associar clindamicina e iniciar droga vasoativa"
+        },
+        {
+          "key": "d",
+          "text": "diagnóstico: choque tóxico estafilocócico conduta: trocar antibiótico por oxacilina, sem necessidade de droga vasoativa, pois a pressão arterial permanece normal"
+        },
+        {
+          "key": "e",
+          "text": "diagnóstico: sepse por parotidite complicada conduta: manter antibiótico e realizar drenagem"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O quadro de edema cervical progressivo com choque refratário a grande volume de cristaloide, história de varicela recente e evolução rápida é compatível com choque tóxico estreptocócico, sendo a conduta associar clindamicina ao esquema antimicrobiano e iniciar droga vasoativa.",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_037",
+      "statement": "Menina de 1 ano apresenta diarreia aquosa, explosiva e volumosa, cerca de 5 episódios ao dia, há 3 dias. Mãe refere que as fezes parecem ácidas e que desde o início houve o aparecimento de “assaduras”. Relata que, quando a criança ca em jejum, não evacua. Apresentou febre, de até 38 ºC, no primeiro dia. Não urinou nas últimas 12 horas. Exame físico: sonolenta, FC 140 bpm, FR 36 irpm, pulsos finos, perfusão periférica de 3 segundos, PA 72 x 40 mmHg. As hipóteses diagnósticas para o tipo de diarreia aguda e para o estado da criança são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "osmótica e choque hipovolêmico."
+        },
+        {
+          "key": "b",
+          "text": "osmótica e desidratação hipotônica."
+        },
+        {
+          "key": "c",
+          "text": "secretora e choque hipovolêmico."
+        },
+        {
+          "key": "d",
+          "text": "inflamatória e choque séptico."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O quadro de diarreia aquosa explosiva com fezes ácidas causando assaduras (indicativo de diarreia osmótica, comum em intolerância a carboidratos) associado a sinais de choque hipovolêmico por perda volêmica intensa caracteriza diarreia osmótica com choque hipovolêmico.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_038",
+      "statement": "O comportamento hemodinâmico do choque séptico em lactentes difere substancialmente daquele apresentado por adultos, sendo, mais frequentemente, caracterizado por",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "diminuição do débito cardíaco e diminuição da resistência vascular periférica"
+        },
+        {
+          "key": "b",
+          "text": "aumento do débito cardíaco e diminuição da resistência vascular periférica."
+        },
+        {
+          "key": "c",
+          "text": "diminuição do débito cardíaco e aumento da resistência vascular periférica."
+        },
+        {
+          "key": "d",
+          "text": "aumento do débito cardíaco e aumento da resistência vascular periférica."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O choque séptico em lactentes/crianças caracteriza-se mais frequentemente por diminuição do débito cardíaco associada a aumento da resistência vascular periférica ('choque frio'), diferente do padrão hiperdinâmico mais comum em adultos.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_039",
+      "statement": "Lactente de 6 meses, 8 kg, é admitido na sala de emergência pediátrica com história de febre e tosse há 3 dias e desconforto respiratório há 1 dia, com piora progressiva. Ao exame: regular estado geral, alternando irritabilidade e sonolência, frequência respiratória 60 ipm, frequência cardíaca 160 bpm, pressão arterial 80/60 mmHg, saturação de oxigênio 92% em ar ambiente. Presença de tiragens intercostais, murmúrio vesicular simétrico, com estertores nos bilateralmente. Ritmo cardíaco regular em 2 tempos, bulhas hipofonéticas sem sopros. Pulsos centrais amplos, pulsos periféricos nos, extremidades frias, tempo de enchimento capilar 4 segundos. Inicialmente é realizada abertura de vias aéreas pela colocação de coxim sob os ombros, fornecido suporte ventilatório não invasivo com CPAP nasal e siológico em pinça aberta, sem melhora. É solicitada radiogra a de tórax. Qual é a conduta, já administrados 160 ml de soro, mais indicada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Iniciar norepinefrina 1 mcg/kg/min."
+        },
+        {
+          "key": "b",
+          "text": "Iniciar dobutamina 5 mcg/kg/min."
+        },
+        {
+          "key": "c",
+          "text": "Iniciar nitroprussiato de sódio 1 mcg/kg/min."
+        },
+        {
+          "key": "d",
+          "text": "Iniciar prostaglandina E 0,1 mcg/kg/min."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de sinais de choque cardiogênico (bulhas hipofonéticas, pulsos periféricos finos com centrais amplos, sem melhora após volume) em lactente com quadro respiratório, a conduta é iniciar dobutamina (inotrópico), evitando sobrecarga de volume adicional.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_040",
+      "statement": "Em relação ao choque séptico pediátrico, pode-se afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a expansão volêmica em pacientes menores não está indicada pelo risco e edema pulmonar."
+        },
+        {
+          "key": "b",
+          "text": "deve-se aguardar os resultados de exames para iniciar antibioticoterapia criteriosa e específica"
+        },
+        {
+          "key": "c",
+          "text": "o débito urinário no paciente pediátrico não é critério importante na avaliação do choque séptico."
+        },
+        {
+          "key": "d",
+          "text": "uma das características do choque frio é a perfusão capilar periférica rápida, menor que dois segundos."
+        },
+        {
+          "key": "e",
+          "text": "do ponto de vista hemodinâmico, apresenta apenas taquicardia, sendo a hipotensão arterial um sinal tardio."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Do ponto de vista hemodinâmico, no choque séptico pediátrico observa-se inicialmente apenas taquicardia (sinal precoce e compensatório), sendo a hipotensão arterial um sinal tardio de descompensação.",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_041",
+      "statement": "No atendimento de crianças na urgência, em qual das situações apresentadas está indicado o acesso venoso imediato?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "3 anos de idade com 4 dias de vômito, FC de 160 bpm e PA de 70 x 40 mmHg."
+        },
+        {
+          "key": "b",
+          "text": "5 anos de idade, com urticária pós-ingestão de amendoim, com FC de 100 bpm e PA100 x 65 mmHg."
+        },
+        {
+          "key": "c",
+          "text": "10 anos de idade, com queimadura de primeiro grau consequente à exposição solar,com FC de 90 bpm e PA 120 x 75 mmHg."
+        },
+        {
+          "key": "d",
+          "text": "4 anos de idade, que sofreu acidente automobilístico, com FC de 110 bpm e PA 110 x65 mmHg."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de criança com quadro de vômitos prolongados associado a taquicardia e hipotensão (sinais de choque hipovolêmico/desidratação grave), está indicado o acesso venoso imediato.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_042",
+      "statement": "Menina de 2 anos chega à unidade de pronto atendimento com quadro de febre, vômitos e alternando irritabilidade e letargia há 12 horas. Mãe refere que a urina está diminuída. Ao exame físico, apresenta regular estado geral, Temperatura axilar de 38,6 °C, PA de 80x40 mmHg, FC= 163 bpm, FR=45irpm, palidez cutânea, mucosas secas, anictérica, acianótica, pulsos periféricos nos, perfusão periférica= 4 seg. Pele: lesões arroxeadas em membros inferiores e abdômen, não desaparecem à digito pressão. Nas várias tentativas de punção venosa periférica, apresenta sangramento profuso. Diante do exposto, a hipótese diagnostica é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Choque séptico."
+        },
+        {
+          "key": "b",
+          "text": "Síndrome Hemolítico-Urêmica."
+        },
+        {
+          "key": "c",
+          "text": "Choque Hipovolêmico."
+        },
+        {
+          "key": "d",
+          "text": "Púrpura de Henoch-Schonlein."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O quadro de choque com lesões purpúricas que não desaparecem à digitopressão é compatível com choque séptico (meningococcemia).",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_043",
+      "statement": "Criança, 6 anos, é atendida no PS com ferimento com faca, não intencional, no braço e sangramento importante. Ao exame, você observa sinais de choque compensado. Qual dos sinais NÃO pode estar presente, caso seu diagnóstico esteja correto?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Taquicardia."
+        },
+        {
+          "key": "b",
+          "text": "Tempo de enchimento capilar >2 segundos."
+        },
+        {
+          "key": "c",
+          "text": "Pressão arterial sistólica de 90mmHg."
+        },
+        {
+          "key": "d",
+          "text": "Rebaixamento do nível de consciência."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "No choque compensado, a pressão arterial sistólica permanece dentro dos limites normais (mecanismos compensatórios ainda eficazes); o rebaixamento do nível de consciência é sinal de choque já descompensado, não estando presente no choque compensado.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_044",
+      "statement": "Assinale a alternativa que apresenta a conduta mais apropriada para o atendimento inicial de um paciente com diagnóstico de choque hipovolêmico na sala de emergência:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a reposição volêmica inicial deve ser feita por meio de acessos venosos periféricos calibrosos, com soluções cristaloides"
+        },
+        {
+          "key": "b",
+          "text": "deve ser puncionada veia central para a infusão de hemoderivados"
+        },
+        {
+          "key": "c",
+          "text": "se hemorragia grave estiver presente, considerar precocemente a transfusão de plasma, concentrado de hemácias e concentrado de plaquetas, sempre associados a coloides"
+        },
+        {
+          "key": "d",
+          "text": "iniciar ressuscitação volêmica agressiva com cristaloide, albumina e norepinefrina"
+        },
+        {
+          "key": "e",
+          "text": "se os canais de hipoperfusão persistirem apesar da reposição volêmica, considerar a utilização de corticoide e inotrópico"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "No atendimento inicial do choque hipovolêmico, a reposição volêmica deve ser feita por acessos venosos periféricos calibrosos com soluções cristaloides.",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_045",
+      "statement": "Um lactente masculino com 6 meses de idade, apresenta quadro de diarreia há 24 h, evoluindo com piora, e a mãe leva ao pronto atendimento infantil. Relata que a criança apresentou mais de 10 evacuações nas últimas 24 horas e que as tezes são liquidas, volumosas, ausência de sangue ou muco. O exame sico revelou comprometimento do estado geral, não consegue beber, letargia, olhos encovados, ao sinal da prega, a pele retoma à posição inicial lentamente, apresenta ainda pulsos nos, além de frequência respiratória de 54 irpm. Foi submetido a expansão com duas repetições, com solução siológica e com melhora discreta do quadro. Foi realizada uma gasometria que revelou pH = 7.29; pO2 = 140 mmHg; pCO2 = 24 mmHg; HCO3 = 17 mEq/L; Ao analisar esse cenário clínico, a interpretação da gasometria e a complicação apresentada, a conduta médica imediata são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Acidose metabólica e infusão de bicarbonato de sódio."
+        },
+        {
+          "key": "b",
+          "text": "Acidose mista parcialmente compensada e suporte de oxigênio."
+        },
+        {
+          "key": "c",
+          "text": "Acidose metabólica e expansão volêmica."
+        },
+        {
+          "key": "d",
+          "text": "Alcalose respiratória e intubação orotraqueal."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A gasometria (pH 7,29, HCO3 17, PaCO2 24 — compensação respiratória parcial) é compatível com acidose metabólica; diante de desidratação grave com má resposta a duas expansões, a conduta é continuar a expansão volêmica.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_046",
+      "statement": "Assinale a alternativa INCORRETA sobre os critérios para classificação e SIRS.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Taquicardia."
+        },
+        {
+          "key": "b",
+          "text": "Queda de saturação de oxigênio."
+        },
+        {
+          "key": "c",
+          "text": "Hipertermia ou hipotermia."
+        },
+        {
+          "key": "d",
+          "text": "Taquipneia."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "É a alternativa INCORRETA: a queda de saturação de oxigênio não é um dos critérios clássicos de SIRS pediátrica (que incluem alterações de temperatura, frequência cardíaca, frequência respiratória e contagem de leucócitos).",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_047",
+      "statement": "Um menino de 5 anos chega ao pronto-socorro com história de febre e tosse há 2 dias, com recusa alimentar e hipoatividade há 1 dia. Ao exame físico, apresenta-se prostrado, sonolento, taquidispneico, taquicárdico, afebril, com pulsos nos, enchimento capilar de 5 segundos e PA = 60x3OmmHg. Na ausculta de aparelho respiratório, apresenta sopro tubário no hemitórax esquerdo. Foram realizados 3 bolus com 20mUkg de soro siológico, sem melhora clínica. O diagnóstico adequado é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "sepse"
+        },
+        {
+          "key": "b",
+          "text": "choque séptico"
+        },
+        {
+          "key": "c",
+          "text": "disfunção de múltiplos órgãos"
+        },
+        {
+          "key": "d",
+          "text": "pneumonia sem critérios para definição de sepse"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de sinais de sepse com sopro tubário (pneumonia) associados a hipotensão (PA 60x30) refratária a 3 expansões de 20mL/kg, o diagnóstico é choque séptico (hipotensão já configura descompensação).",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_048",
+      "statement": "Lactente, 11 meses, é trazido pela mãe à emergência com quadro de vômitos e diarreia há dois dias. Hoje mais irritado, urinando menos, segundo a mãe, e apresentando febre, fez antitérmico antes de sair de casa. Exame físico: irritado, choroso, TAx.: 36,8°C, desidratado, corado, acianótico, anictérico. Perfusão periférica: 3s, pulsos periféricos diminuídos, FC = 175 bpm, PA = 90 x 40 mmHg. FR = 40 irpm, leve tiragem subcostal. Fontanela anterior deprimida, sem sinais de irritação meníngea ou de focalização neurológica. Restante do exame físico sem alterações. O diagnóstico indicados neste caso são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Choque compensado; hidratação venosa de manutenção."
+        },
+        {
+          "key": "b",
+          "text": "Choque descompensado; hidratação venosa de manutenção."
+        },
+        {
+          "key": "c",
+          "text": "Choque compensado; etapa de expansão com soro fisiológico rápido, 20 ml/kg."
+        },
+        {
+          "key": "d",
+          "text": "Choque descompensado; etapa de expansão com soro fisiológico rápido 20 ml/kg."
+        },
+        {
+          "key": "e",
+          "text": "Choque compensado; hidratação com soro de reidratação oral."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de sinais de choque compensado (PA ainda dentro da normalidade, taquicardia e má perfusão) por desidratação, a conduta é etapa de expansão com soro fisiológico rápido, 20 mL/kg.",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_049",
+      "statement": "O choque séptico é causa frequente de choque em crianças, e a morbimortalidade dessa grave situação pode ser reduzida significativamente com diagnóstico precoce e tratamento adequado. Que tipo de choque, o choque séptico representa?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Choque hipovolêmico."
+        },
+        {
+          "key": "b",
+          "text": "Choque cardiogênico."
+        },
+        {
+          "key": "c",
+          "text": "Choque distributivo."
+        },
+        {
+          "key": "d",
+          "text": "Choque obstrutivo."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O choque séptico representa um tipo de choque distributivo, caracterizado por vasodilatação e redistribuição anômala do fluxo sanguíneo.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_050",
+      "statement": "Um menino de 4 anos de idade, pesando 15 kg, manifestou gastroenterite aguda, com evacuações sanguinolentas e purulentas. Não urinava há cerca de 10 horas. No momento em que chegou ao hospital, encontrava-se em desidratação grave. Evoluiu com convulsão generalizada, tônico-clônica, de difícil controle, com duração de 20 minutos. Ao exame físico, estava em mau estado geral, pálido, com saturação de oxigênio de 97% em ar ambiente, afebril, com frequência respiratória em 45 irpm e frequência cardíaca em 135 bpm. Estava ictérico, com petéquias em tórax, abdome e membros inferiores. Apresentava hepatomegalia. O hemograma mostrou leucócitos na faixa da normalidade, sem formas jovens, e revelou anemia, com aumento de reticulócitos e eritrócitos fragmentados, e teste de Coombs direto negativo. Apresentou exame de urina com hematúria e proteinúria, creatinina sérica elevada e provas de coagulação normais. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue o item a seguir. Para a fase rápida inicial da expansão volumétrica no manejo do choque hipovolêmico, sugere-se o uso de coloides ou cristaloides na dose de 100 mL por quilograma de peso corporal, via endovenosa em infusão lenta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "É Errado: a fase rápida inicial da expansão volumétrica no choque hipovolêmico deve ser feita com bólus de 20 mL/kg em infusão RÁPIDA (não 100 mL/kg em infusão lenta), repetida conforme resposta clínica.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_051",
+      "statement": "Uma criança de 11 meses de vida tem histórico de febre há dois dias. Os pais levaram-no ao pronto-socorro, pois, desde o início do quadro, observaram que o lho não os estava reconhecendo, além de apresentar sono agitado ao longo do dia. Hoje, associado ao quadro, iniciou episódios de vômitos e de recusa alimentar. Ao exame, percebe-se peso de 10 kg, fontanela abaulada, sem sinais meníngeos. Pálido, sonolento e desidratado. FC = 185 bpm, PA = 55 mmHg x 35 mmHg, F 38 irpm, SpO₂ = 93% em ambiente, temperatura axilar = 35,5°C. Ausculta cardiopulmonar sem alteração, com tiragem subcostal leve. Abdome normotenso. Pulsos centrais com média amplitude e pulsos periféricos liformes. Tempo de enchimento capilar de 4 segundos. Considerando o caso clínico, o diagnóstico mais provável e os sinais/sintomas que o caracterizam são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "síndrome da resposta inflamatória sistêmica - taquicardia (FC > 180 bpm) e hipotermia (temperatura < 36 °C)."
+        },
+        {
+          "key": "b",
+          "text": "Sepse - taquipneia (FR > 34 irpm) e hipotensão (pressão arterial média < 60 mmHg)."
+        },
+        {
+          "key": "c",
+          "text": "Síndrome da resposta inflamatória sistêmica - taquicardia (FC > 180 bpm) e hipotensão (pressão arterial média < 60 mmHg)."
+        },
+        {
+          "key": "d",
+          "text": "Sepse - taquicardia (FC > 180 bpm) e hipotermia (temperatura < 36 °C)."
+        },
+        {
+          "key": "e",
+          "text": "Síndrome da resposta inflamatória sistêmica - taquipneia (FR > 34 irpm) e hipotensão (pressão arterial medida < 60 mmH g)."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O quadro de taquicardia (FC 185) associada a hipotermia (temperatura 35,5°C) em lactente com sinais de infecção caracteriza sepse (disfunção — hipotermia é sinal de gravidade em lactentes pequenos).",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_052",
+      "statement": "O reconhecimento do choque séptico em pediatria é de enorme importância para o clínico, principalmente relacionado ao diagnóstico precoce e início da conduta adequada, conforme a faixa etária. A sepse e o choque séptico ainda continuam sendo uma preocupação no atendimento pediátrico, principalmente pelo fato das infecções em pediatria serem mais comuns do que em adultos e o sistema imune deles realizar uma proteção menor, quando comparado com um adulto. Deste modo, o reconhecimento dos sinais precoces de alterações que podem levar ao choque séptico e as condutas que devem ser tomadas nestes casos são essenciais para um desfecho satisfatório com melhor sobrevida das crianças e menor morbidade associada a estes eventos. Dentre as assertivas abaixo, assinale a que está CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A hipotensão demonstrou ser um sinal precoce do choque séptico em pediatria, sendo que as últimas recomendações é que as crianças devem ter a sua pressão aferida em consultas, principalmente de emergência."
+        },
+        {
+          "key": "b",
+          "text": "Na definição de choque séptico na criança não se faz necessária a hipotensão, sendo fundamental que o choque séptico seja reconhecido antes da ocorrência da hipotensão pelo seu melhor desfecho."
+        },
+        {
+          "key": "c",
+          "text": "Apesar de bastante utilizado pelos pediatras, a manutenção de uma perfusão tecidual ruim por algumas horas não demonstrou aumentar a mortalidade e a morbidade da criança, sendo mais indicada a aferição da pressão arterial."
+        },
+        {
+          "key": "d",
+          "text": "Caso o paciente seja conduzido com choque séptico e na conduta inicial o antibiótico tenha sido introduzido, este deverá ser mantido até o fim do tratamento, mesmo observando-se que não se tratava de uma infecção bacteriana grave."
+        },
+        {
+          "key": "e",
+          "text": "O uso de antibiótico nos casos de choque sépticos poderá ser adiado até que se obtenham alguns exames básicos para realizar o diagnóstico da criança, sendo imprescindível a administração de líquidos apenas e de drogas vasoativas, quando necessárias."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Na definição de choque séptico pediátrico, não é necessária a presença de hipotensão — é fundamental reconhecer o choque séptico ANTES da hipotensão se instalar, já que esta é um sinal tardio associado a pior desfecho.",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_053",
+      "statement": "Escolar de 12 anos chega ao Pronto Socorro com queixa de febre alta há 5 horas. A mãe refere que após o início da febre, notou o aparecimento de manchas arroxeadas pelo corpo principalmente em membros e agitação psicomotora. Ao exame físico apresenta frequência respiratória de 28, frequência cardíaca de 180 com os pulsos periféricos liformes, com tempo de enchimento capilar de 6 segundos, temperatura de 39,8 C e pressão arterial de 90/30 e Glasgow de 8. Perante este quadro clinico assinale a melhor alternativa:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Este escolar está em choque e necessita de hidratação rápida, suporte inotrópico, antibióticos e monitoração invasiva de pressões sanguíneas"
+        },
+        {
+          "key": "b",
+          "text": "Este escolar está em choque e necessita de hidratação rápida, suporte com beta bloqueador, antibióticos e monitoração invasiva de pressões sanguíneas"
+        },
+        {
+          "key": "c",
+          "text": "Este escolar está em insuficiência cardiopulmonar e necessita de hidratação rápida, suporte inotrópico, antibióticos e monitoração não invasiva de pressões sanguíneas"
+        },
+        {
+          "key": "d",
+          "text": "Este escolar está em choque e necessita de hidratação rápida, suporte inotrópico, corticoides e monitoração invasiva de pressões sanguíneas"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de choque séptico grave com púrpura fulminante e rebaixamento do nível de consciência (Glasgow 8), a conduta é hidratação rápida, suporte inotrópico, antibióticos e monitorização invasiva de pressões sanguíneas.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_054",
+      "statement": "Um lactente, 5 meses de idade, é encaminhado ao Departamento de Urgência e Emergência devido a um quadro de letargia progressiva e febre baixa intermitente. A mãe relata que há aproximadamente 15 dias o paciente iniciou sinais e sintomas de infecção das vias aéreas superiores com melhora após 7 dias, porém manteve febre baixa a cada 2 ou 3 dias; evoluiu com prostração progressiva e nas últimas 24 horas apresentou respiração rápida e desconfortável, não aceitando a fórmula infantil há várias horas. Nega patologias pregressas, alergias ou uso de medicamentos. Ao exame físico: letárgico, pupilas isocóricas e isofotorreagentes, membranas mucosas hipohidratadas, palidez cutâneo-mucosa, extremidades frias e acinzentadas. FC: 192 bpm, FR: 60 irpm, Saturação de Oxigênio: 92% em ar ambiente, PA: 75-55mm/Hg. Ritmo de galope, sem sopros, pulsos periféricos fracos, crepitações em bases pulmonares, fígado palpável a 3 cm do rebordo costal direito e ruídos hidroaéreos diminuídos. Com base no caso exposto, o paciente apresenta características clínicas de",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "choque obstrutivo compensado."
+        },
+        {
+          "key": "b",
+          "text": "choque cardiogênico compensado."
+        },
+        {
+          "key": "c",
+          "text": "choque obstrutivo hipotensivo."
+        },
+        {
+          "key": "d",
+          "text": "choque cardiogênico hipotensivo."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O quadro de lactente com letargia progressiva, febre baixa intermitente, ritmo de galope, hepatomegalia e PA ainda dentro da normalidade (75x55) é compatível com choque cardiogênico compensado (provável miocardite pós-viral).",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_055",
+      "statement": "Em relação ao choque na população pediátrica, pode-se afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "No choque anafilático a adrenalina deve ser administrada na dose de 0,01mg/kg (solução 1:1000) via intramuscular. Pode ser administrada a cada 15 minutos até três doses se necessário enquanto se tenta acesso IV."
+        },
+        {
+          "key": "b",
+          "text": "No choque séptico a hipotensão arterial é um achado precoce, assim como é para adultos. É essencial para diagnóstico do choque séptico em crianças."
+        },
+        {
+          "key": "c",
+          "text": "A primeira manifestação clínica de choque compensado em crianças é a taquicardia."
+        },
+        {
+          "key": "d",
+          "text": "Crianças, especialmente lactentes, com vômitos e/ou diarreia com perdas importantes dificilmente evoluem com choque hipovolêmico."
+        },
+        {
+          "key": "e",
+          "text": "Devemos infundir volume de maneira vigorosa. Podem ser ultilizadas soluções hipotônicas ou contendo glicose, assim como os cristalóides em fases de expansão de 20 ml/kg em 20 minutos que poderão ser repetidas caso necessário."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A primeira manifestação clínica do choque compensado em crianças é a taquicardia, mecanismo compensatório precoce antes da queda da pressão arterial.",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_056",
+      "statement": "Na condução do choque séptico na infância a medida inicial mais importante e que diminuía mortalidade é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Fluidoterapia agressiva."
+        },
+        {
+          "key": "b",
+          "text": "Corticóterapia venoso."
+        },
+        {
+          "key": "c",
+          "text": "Antibioticoterapia de largo espectro em doses altas."
+        },
+        {
+          "key": "d",
+          "text": "Uso de aminas vasoativas (dopamina / dobutamina)."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na condução do choque séptico pediátrico, a medida inicial mais importante associada à redução de mortalidade é a fluidoterapia agressiva (expansão volêmica precoce).",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_057",
+      "statement": "Selecione a opção que corresponde a um sinal tardio do choque séptico pediátrico.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Febre"
+        },
+        {
+          "key": "b",
+          "text": "Tempo de enchimento capilar maior que três segundos"
+        },
+        {
+          "key": "c",
+          "text": "Taquipneia"
+        },
+        {
+          "key": "d",
+          "text": "Taquicardia"
+        },
+        {
+          "key": "e",
+          "text": "Hipotensão arterial"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A hipotensão arterial é um sinal tardio do choque séptico pediátrico, refletindo descompensação já estabelecida — diferente de febre, taquipneia, taquicardia e enchimento capilar prolongado, que são sinais mais precoces.",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_058",
+      "statement": "Uma criança de 3 anos deu entrada no serviço de pronto atendimento com quadro de franco choque séptico. Qual das opções abaixo representa a terapêutica inicial preconizada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ressuscitação volêmica"
+        },
+        {
+          "key": "b",
+          "text": "Adrenalina endovenosa"
+        },
+        {
+          "key": "c",
+          "text": "Dobutamina endonenosa"
+        },
+        {
+          "key": "d",
+          "text": "Hidrocortisona endovenosa"
+        },
+        {
+          "key": "e",
+          "text": "Dopamina endovenosa"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de choque séptico franco, a terapêutica inicial preconizada é a ressuscitação volêmica (expansão com cristaloide).",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_059",
+      "statement": "Criança com 9 meses de idade chega ao Pronto Atendimento com história de vários episódios de vômitos e diarreia há 48 horas. Segundo os pais, a menor há 12 horas não aceita nenhum tipo de alimentação e liquido e está sem urinar nesse período. Apresenta o seguinte quadro ao exame físico: irritada, taquipneia, sem esforço respiratório com ausculta respiratória normal, taquicardia, pressão sistólica adequada para a idade, pulsos periféricos fracos e centrais normais, extremidades pálidas e frias. De acordo com o quadro descrito, identifique o tipo de choque e o tratamento inicial mais adequado para esse caso.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Choque séptico; hidrocortisona 2 mg/kg."
+        },
+        {
+          "key": "b",
+          "text": "Choque hipovolêmico; SF0,9%/LR 20 ml/kg em 20 minutos."
+        },
+        {
+          "key": "c",
+          "text": "Choque cardiogênico; adrenalina 2 mcg/kg/min."
+        },
+        {
+          "key": "d",
+          "text": "Choque obstrutivo; prostraglandina 0,01 mg/kg/min."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O quadro de desidratação grave por gastroenterite com extremidades frias e pulsos periféricos fracos (mas centrais normais e PA ainda preservada) é compatível com choque hipovolêmico compensado, sendo o tratamento inicial SF 0,9% ou Ringer lactato 20 mL/kg em 20 minutos.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_060",
+      "statement": "Um menino com 8 anos de idade foi encaminhado ao setor de emergência de um hospital pelo Corpo de Bombeiros. À admissão, a mãe do menino relata que, há 3 dias, ele começou a ter febre de 39 °C e tosse produtiva, com expectoração amarelada. Refere, ainda, que a criança apresentou piora signi cativa do estado geral nas últimas 24 horas, com redução do débito urinário. Ao exame físico, encontrava-se torporoso, taquicárdico, taquidispneico, hipotenso, com pulsos nos, extremidades frias e cianóticas e enchimento capilar de 5 segundos. Os exames e respectivos resultados são apresentados a seguir: hemograma: leucócitos = 24.000/mm³ (valor de referência: 4.000 a 10.000/mm³), bastões = 15%, segmentados = 50%. Gasometria: alcalose respiratória. Radiogra a de tórax: condensação em todo pulmão direito. Nesse caso, nos primeiros 10 minutos, além de iniciar oxigenoterapia e antibioticoterapia, a conduta em relação ao acesso e à expansão volumétrica deve ser:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Venoso central; soro glicofisiológico a 40 ml/kg."
+        },
+        {
+          "key": "b",
+          "text": "Venoso central; soro fisiológico a 40 ml/kg."
+        },
+        {
+          "key": "c",
+          "text": "Intraósseo; soro glicofisiológico a 20 ml/kg."
+        },
+        {
+          "key": "d",
+          "text": "Intraósseo; soro fisiológico a 20 ml/kg."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de choque séptico com foco pulmonar, nos primeiros 10 minutos, a conduta é obter acesso intraósseo (caso o venoso não seja rapidamente obtido) e iniciar expansão com soro fisiológico 20 mL/kg.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_061",
+      "statement": "Na avaliação de uma criança de 6 anos de idade, observa-se que ela está irritada e a pele está moteada. Na avaliação primária, a temperatura é 36,5 ºC, as extremidades estão frias, tempo de enchimento capilar é de 5 segundos. Os pulsos periféricos estão ausentes e os centrais estão fracos. A frequência cardíaca é 180 bpm, frequência respiratória 45 rpm, SatO2 99% em ar ambiente e a pressão arterial, aferida com manguito adequado para a idade, 70/40 mmHg. Qual o provável diagnóstico dessa criança?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Choque compensado que requer intervenção imediata."
+        },
+        {
+          "key": "b",
+          "text": "Choque compensado que não requer intervenção imediata."
+        },
+        {
+          "key": "c",
+          "text": "Choque hipotensivo que requer intervenção imediata."
+        },
+        {
+          "key": "d",
+          "text": "Falência cardiopulmonar que requer intervenção imediata."
+        },
+        {
+          "key": "e",
+          "text": "Insuficiência respiratória que requer intervenção imediata."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O quadro de extremidades frias, pulsos periféricos ausentes e centrais fracos, mas com pressão arterial ainda dentro da normalidade (70/40 para a idade), caracteriza choque compensado que requer intervenção imediata, dado o alto risco de descompensação iminente.",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_062",
+      "statement": "Um menino de 4 anos está sendo atendido no pronto-socorro com provável diagnóstico de amigdalite estreptocócica. Ao exame físico, apresenta frequência cardíaca de 140 bpm, frequência respiratória de 30 ipm, pressão arterial de 65 x 40 mmHg e tempo de perfusão periférica de 4 segundos. A conduta médica imediata apropriada para este paciente é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "solicitar cultura de orofaringe para documentar infecção estreptocócica e prescrever amoxicilina."
+        },
+        {
+          "key": "b",
+          "text": "administrar antitérmico e penicilina benzatina."
+        },
+        {
+          "key": "c",
+          "text": "colher hemograma, proteína C reativa e culturas, e aguardar o resultado para definir conduta."
+        },
+        {
+          "key": "d",
+          "text": "encaminhar paciente para sala de emergência, solicitar expansão com 10 mL/kg de albumina a 5% e primeira dose de antibiótico intravenoso."
+        },
+        {
+          "key": "e",
+          "text": "encaminhar paciente para sala de emergência, administrar expansão com soro fisiológico 20 mL/kg e primeira dose de antibiótico intravenoso."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Diante de sinais de choque séptico (hipotensão, perfusão prolongada) mesmo com foco aparentemente localizado (amigdalite), a conduta é encaminhar para sala de emergência, expansão com soro fisiológico 20 mL/kg e primeira dose de antibiótico intravenoso imediatamente.",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_063",
+      "statement": "Segundo o Instituto Latino Americano de Sepse, no protocolo clínico pediátrico de 2016, choque séptico é de nido na população pediátrica como sepse associada à:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hipotensão arterial."
+        },
+        {
+          "key": "b",
+          "text": "Disfunção cardiovascular."
+        },
+        {
+          "key": "c",
+          "text": "Falência respiratória."
+        },
+        {
+          "key": "d",
+          "text": "Insuficiência de múltiplos órgãos."
+        },
+        {
+          "key": "e",
+          "text": "Disfunção neurológica."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Segundo o Instituto Latino-Americano de Sepse (protocolo pediátrico 2016), o choque séptico é definido como sepse associada à disfunção cardiovascular.",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_064",
+      "statement": "Em casos de choque hipovolêmico, séptico ou outras formas em que a hipovolemia seja o fator principal e na ausência de comprometimento da função do ventrículo esquerdo, deve-se iniciar a reposição volêmica com: Assinale a alternativa CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Soluções cristaloides (soro fisiológico ou Ringer lactato) – 20 mL/Kg (mililitros porquilograma de peso corporal), rapidamente, por via intravenosa ou intraóssea."
+        },
+        {
+          "key": "b",
+          "text": "Soluções cristaloides (soro fisiológico ou Ringer lactato) – 100 mL/Kg (mililitros porquilograma de peso corporal), infundir em uma hora, por via intravenosa ou intraóssea."
+        },
+        {
+          "key": "c",
+          "text": "Soluções de cristaloides hipertônicos (NaCl a 7,5%) – 3 a 4 mL/Kg (mililitros por quilograma de peso corporal), rapidamente, por via intravenosa ou intraóssea."
+        },
+        {
+          "key": "d",
+          "text": "Soluções coloides proteicas – 5 mL/Kg (mililitros por quilograma de peso corporal), infundir em 30 minutos, por via intravenosa ou intraóssea."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na ausência de comprometimento da função do ventrículo esquerdo, a reposição volêmica no choque hipovolêmico/séptico deve ser iniciada com soluções cristaloides (SF 0,9% ou Ringer lactato) 20 mL/kg, administrados rapidamente por via intravenosa ou intraóssea.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_065",
+      "statement": "Você está atendendo uma criança cardiopata de três anos que apresenta arritmias ventriculares e hipotensão grave. Depois de fornecer oxigênio em alto uxo, estabelecer dois acessos intravenosos calibrosos, você se prepara para administrar fluido em bolus. Qual dos seguintes será o fluido mais apropriado para esta criança?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cristalóide isotônica, 10 ml/kg em 20 minutos."
+        },
+        {
+          "key": "b",
+          "text": "Cristalóide isotônica, 20 ml/kg, em 5 minutos."
+        },
+        {
+          "key": "c",
+          "text": "Soro glicosado 5%, 10 ml/kg, em 20 minutos."
+        },
+        {
+          "key": "d",
+          "text": "Soro glicofisiológico, 50 ml/kg, em 30 minutos."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Em criança cardiopata com choque cardiogênico (arritmia, hipotensão grave), o fluido mais apropriado em bolus é cristaloide isotônico em volume reduzido (10 mL/kg) e infundido mais lentamente (20 minutos), evitando sobrecarga volêmica adicional ao coração comprometido.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_066",
+      "statement": "Às três horas da manhã, você é chamado na sala de emergência para atender uma criança de quatro anos de idade com histórico de diarreia líquida. No exame físico, a criança encontra-se prostrada, pálida, FR 45 ipm, com ruídos respiratórios presentes e bilaterais, FC 150 bpm, enchimento capilar de 5 segundos. Você coloca a criança na máscara facial 10 I/min e solicita à enfermagem pegar um acesso venoso. Qual é a sua próxima conduta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Administrar em infusão contínua dopamina 5 mcg/kg/min."
+        },
+        {
+          "key": "b",
+          "text": "Administrar em bolus 20 ml/kg de cristaloide isotônico."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar radiografia de tórax."
+        },
+        {
+          "key": "d",
+          "text": "Iniciar manutenção de cristaloides com a regra de Holiday."
+        },
+        {
+          "key": "e",
+          "text": "Administrar atropina dose de ataque."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de sinais de choque hipovolêmico compensado por diarreia (taquicardia, enchimento capilar prolongado, mas ainda sem hipotensão), a próxima conduta é administrar em bolus 20 mL/kg de cristaloide isotônico.",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_067",
+      "statement": "Em relação ao choque séptico pediátrico, pode-se afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A expansão volêmica em pacientes menores não está indicada pelo risco de edema pulmonar."
+        },
+        {
+          "key": "b",
+          "text": "Deve-se aguardar os resultados de exames para iniciar antibioticoterapia criteriosa e específica"
+        },
+        {
+          "key": "c",
+          "text": "O débito urinário no paciente pediátrico não é critério importante na avaliação do choque séptico"
+        },
+        {
+          "key": "d",
+          "text": "Do ponto de vista hemodinâmico, a taquicardia é um sinal precoce, sendo a hipotensão arterial um sinal tardio"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Do ponto de vista hemodinâmico no choque séptico pediátrico, a taquicardia é um sinal precoce, sendo a hipotensão arterial um sinal tardio de descompensação.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_068",
+      "statement": "A conduta que melhora a sobrevivência da criança no tratamento imediato do choque séptico é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Corticoides em bolo IV"
+        },
+        {
+          "key": "b",
+          "text": "Fluidoterapia agressiva"
+        },
+        {
+          "key": "c",
+          "text": "Dopamina e dobutamina em infusão contínuas IV"
+        },
+        {
+          "key": "d",
+          "text": "Antibioticoterapia em doses dobradas IV"
+        },
+        {
+          "key": "e",
+          "text": "Noradrenalina em infusão contínua"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A conduta que mais melhora a sobrevivência da criança no tratamento imediato do choque séptico é a fluidoterapia agressiva (expansão volêmica precoce e adequada).",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_069",
+      "statement": "A melhora da sobrevida em pacientes com choque séptico está relacionada, entre outros fatores,",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "à infusão rápida de solução fisiológica, 20 ml/kg a 60 ml/kg, nos primeiros 15 minutos."
+        },
+        {
+          "key": "b",
+          "text": "ao uso de insulina nos pacientes com hiperglicemia associada."
+        },
+        {
+          "key": "c",
+          "text": "à obtenção de acesso venoso central nas primeiras 6 horas do atendimento."
+        },
+        {
+          "key": "d",
+          "text": "à transfusão de hemoderivados na admissão, na UTI Pediátrica."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A melhora da sobrevida no choque séptico está relacionada à infusão rápida de solução fisiológica, 20 a 60 mL/kg, nos primeiros 15 minutos do atendimento.",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_070",
+      "statement": "Os objetivos terapêuticos no tratamento do choque séptico, principalmente após a primeira hora (golden hour), são os seguintes, com EXCEÇÃO de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pulsos normais."
+        },
+        {
+          "key": "b",
+          "text": "Extremidades quentes."
+        },
+        {
+          "key": "c",
+          "text": "Débito urinário superior a 1 ml/kg/h."
+        },
+        {
+          "key": "d",
+          "text": "Tempo de enchimento capilar de até 4 segundos."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "É a EXCEÇÃO: um tempo de enchimento capilar de até 4 segundos NÃO é objetivo terapêutico adequado — a meta é um tempo de enchimento capilar normal (até 2 segundos), não 4 segundos (que ainda indica perfusão inadequada).",
+      "theme": "ped_choque",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "choqped_071",
+      "statement": "Em relação ao choque séptico na infância, pode-se afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A expansão volêmica em pacientes menores não está indicada pelo risco de edema pulmonar."
+        },
+        {
+          "key": "b",
+          "text": "Deve-se aguardar os resultados de exames para iniciar antibioticoterapia criteriosa e específica."
+        },
+        {
+          "key": "c",
+          "text": "O débito urinário no paciente pediátrico não é critério importante na avaliação do choque séptico."
+        },
+        {
+          "key": "d",
+          "text": "Uma das características do choque frio é a perfusão capilar periférica rápida, menor que dois segundos."
+        },
+        {
+          "key": "e",
+          "text": "Do ponto de vista hemodinâmico, a hipotensão arterial é um sinal tardio."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Do ponto de vista hemodinâmico, no choque séptico da infância, a hipotensão arterial é um sinal tardio de descompensação, surgindo apenas após esgotamento dos mecanismos compensatórios (taquicardia, vasoconstrição).",
+      "theme": "ped_choque",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}

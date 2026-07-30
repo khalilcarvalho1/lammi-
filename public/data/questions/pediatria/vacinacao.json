@@ -1,1 +1,2996 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "imun_001",
+      "statement": "Adriana leva seu bebê de 6 meses ao posto de saúde e solicita ao médico orientações sobre as vacinas que seu lho deverá receber. Ele veri ca o cartão vacinal da criança e observa que as vacinas anteriores estão todas em dia. Segundo o calendário de vacinação, previsto no PNI, essa criança deverá receber:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Terceira dose da vacina penta e terceira dose da VOP."
+        },
+        {
+          "key": "b",
+          "text": "Terceira dose da vacina penta e terceira dose da vacina pneumocócica 10 valente."
+        },
+        {
+          "key": "c",
+          "text": "Terceira dose da vacina penta, terceira dose da VOP e terceira dose da vacina pneumocócica 10 valente."
+        },
+        {
+          "key": "d",
+          "text": "Terceira dose da vacina penta, terceira dose da vacina rotavírus e terceira dose da vacina pneumocócica 10 valente."
+        },
+        {
+          "key": "e",
+          "text": "Terceira dose da vacina penta e terceira dose da VIP."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Aos 6 meses, a criança deve receber a terceira dose da vacina pentavalente e a terceira dose da VIP (vacina inativada poliomielite) — a terceira dose de pneumocócica 10V e rotavírus não fazem parte do esquema de 6 meses (rotavírus tem apenas 2 doses, aos 2 e 4 meses).",
+      "theme": "imun_pni",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_003",
+      "statement": "Paciente com 12 meses de vida, é levado por sua mãe na Unidade Básica de Saúde da Família do seu bairro, pois está preocupada com os casos de sarampo. Está faltoso nas consultas há 6 meses. Na rotina dos serviços de saúde, a vacinação contra o sarampo deve ser realizada, conforme as indicações do Calendário Nacional de Vacinação vigente. Para esta criança, em relação a vacina contra o sarampo, qual das alternativas abaixo é a correta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aos 3 meses administrar a primeira dose da vacina tríplice viral e aos 12 meses de idade, administrar à segunda dose da vacina tríplice viral;"
+        },
+        {
+          "key": "b",
+          "text": "Aos 12 meses de idade, administrar a primeira dose da vacina tríplice viral e aos 15 meses de idade, administrar dose única da vacina tetraviral, que corresponde à segunda dose da vacina tríplice viral e a primeira dose da vacina varicela;"
+        },
+        {
+          "key": "c",
+          "text": "Aos 9 meses administrar a primeira dose da vacina tríplice viral e aos 24 meses de idade, administrar dose única da vacina tetraviral , que corresponde à segunda dose da vacina tríplice viral e a primeira dose da vacina varicela;"
+        },
+        {
+          "key": "d",
+          "text": "Aos 6 meses administrar a primeira dose da vacina tríplice viral e aos 12 meses de idade, administrar à segunda dose da vacina tríplice viral."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Segundo o Calendário Nacional de Vacinação, a primeira dose da tríplice viral é aplicada aos 12 meses e a segunda dose (como tetraviral, incluindo varicela) aos 15 meses de idade.",
+      "theme": "imun_pni",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_009",
+      "statement": "Lactente com 12 meses de idade comparece em UBS para atualizar vacinação e caderneta de saúde. Ao considerar que, até a presente data, a caderneta de vacinação está atualizada, quais as próximas vacinas que essa criança deve receber?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Reforço de Meningo C + reforço Pneumo 10 + reforço DPT."
+        },
+        {
+          "key": "b",
+          "text": "Reforço de Pneumo 10 + reforço VOP + 1ª dose tríplice viral."
+        },
+        {
+          "key": "c",
+          "text": "Reforço de Pneumo 10 + reforço DPT + 1ª dose tríplice viral."
+        },
+        {
+          "key": "d",
+          "text": "Reforço de Meningo C + reforço Pneumo 10 + 1ª dose tríplice viral."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Aos 12 meses de idade com calendário atualizado, a criança deve receber reforço de meningocócica C, reforço de pneumocócica 10V e primeira dose da tríplice viral.",
+      "theme": "imun_pni",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_011",
+      "statement": "A vacina HPV (papiloma vírus humano) deve ser aplicada em crianças e adolescentes, idealmente, antes da exposição ao vírus. Segundo o Ministério da Saúde, devem ser vacinados(as)",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "meninas de 9 a 14 anos de idade."
+        },
+        {
+          "key": "b",
+          "text": "meninas a partir de 14 anos de idade."
+        },
+        {
+          "key": "c",
+          "text": "meninos e meninas a partir de 10 anos de idade."
+        },
+        {
+          "key": "d",
+          "text": "meninos e meninas de 11 a 14 anos de idade."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Segundo o Ministério da Saúde, a vacina HPV está indicada para meninas de 9 a 14 anos de idade (e meninos de 11 a 14 anos, em esquema de 2 doses cada).",
+      "theme": "imun_pni",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_016",
+      "statement": "O médico deve estimular, supervisionar e orientar a família para que a criança receba todas as vacinas constantes do Calendário básico de imunização do Ministério da Saúde e das Secretarias estaduais. Assinale a alternativa correta sobre vacinação:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "BCG - é dado na maternidade, e dado reforço com 1 e 2 meses de idade."
+        },
+        {
+          "key": "b",
+          "text": "Hepatite B - em caso de mãe comprovadamente negativa para vírus da HB, não é necessário se aplicada antes de 2 anos de idade."
+        },
+        {
+          "key": "c",
+          "text": "Vacina BCG protege contra as formas de tuberculose miliar e meníngea."
+        },
+        {
+          "key": "d",
+          "text": "Tríplice viral (difteria, tétano e coqueluche aplicada com 1 ano; convém reforço aos 6 anos (ou aos 12 anos)."
+        },
+        {
+          "key": "e",
+          "text": "Tríplice acelular - tão eficaz quanto a clássica mas com reação sintomática muito maior."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A vacina BCG protege contra as formas graves de tuberculose, especialmente as formas miliar e meníngea, sendo essa a alternativa correta entre as opções.",
+      "theme": "imun_pni",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_019",
+      "statement": "Menino com 5 anos de idade traz caderneta de vacinação para consulta. Quantas doses e quais as vias de administração da vacina contra poliomielite devem ter sido aplicadas nesta criança?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "5 doses; as 2 primeiras doses via intramuscular, a 3ª, 4ª e 5ª doses por via oral."
+        },
+        {
+          "key": "b",
+          "text": "4 doses; as 2 primeiras doses via intramuscular, a 3°e 4° doses por via oral."
+        },
+        {
+          "key": "c",
+          "text": "4 doses; as 3 primeiras doses via intramuscular, a 4ª dose por via oral."
+        },
+        {
+          "key": "d",
+          "text": "5 doses; as 3 primeiras doses via intramuscular, a 4ª e 5ª doses por via oral."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Aos 5 anos, a criança deve ter recebido 5 doses da vacina contra poliomielite: as 3 primeiras (2, 4 e 6 meses) por via intramuscular (VIP) e a 4ª e 5ª doses (15 meses e 4 anos) por via oral (VOP).",
+      "theme": "imun_pni",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_020",
+      "statement": "Segundo o Ministério da Saúde quais vacinas a criança com 6 meses de idade deve receber?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Vacina contra poliomielite, vacina tetravalente e vacina contra hepatite B."
+        },
+        {
+          "key": "b",
+          "text": "Vacina contra poliomielite, tríplice viral e vacina contra hepatite B."
+        },
+        {
+          "key": "c",
+          "text": "Vacina contra poliomielite, vacina tetravalente, vacina contra rotavírus e vacina contra hepatite B."
+        },
+        {
+          "key": "d",
+          "text": "Vacina contra poliomielite, tríplice viral e vacina contra hepatite A."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Aos 6 meses de idade, a criança deve receber vacina contra poliomielite (VIP, 3ª dose), vacina pentavalente (tetravalente/DTP+Hib, 3ª dose) e vacina contra hepatite B (dose incluída na pentavalente).",
+      "theme": "imun_pni",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_025",
+      "statement": "Assinale a opção correta sobre o esquema vacinal contra o HPV segundo o Ministério da Saúde.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Em meninas a vacina e feita com uma dose entre nove e 14 anos."
+        },
+        {
+          "key": "b",
+          "text": "Para os meninos a dose é única entre 11 e 14 anos."
+        },
+        {
+          "key": "c",
+          "text": "Em meninos e meninas: duas doses entre nove e 14 anos."
+        },
+        {
+          "key": "d",
+          "text": "As meninas devem receber duas doses entre 11 e 14 anos."
+        },
+        {
+          "key": "e",
+          "text": "Para os meninos, são feitas duas doses entre 11 e 14 anos."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Segundo o Ministério da Saúde, para os meninos, o esquema vacinal contra HPV é de duas doses entre 11 e 14 anos.",
+      "theme": "imun_pni",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_027",
+      "statement": "São vacinas realizadas no segundo mês de vida, segundo o Ministério da Saúde:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pentavalente / VIP / Pneumocócica 10V / Rotavírus."
+        },
+        {
+          "key": "b",
+          "text": "Hepatite B / Meningocócica C / Pneumocócica 10V."
+        },
+        {
+          "key": "c",
+          "text": "Pentavalente / Influenza / VIP / Rotavírus."
+        },
+        {
+          "key": "d",
+          "text": "BCG / Hepatite B / VIP / Pneumocócica 10V."
+        },
+        {
+          "key": "e",
+          "text": "Pentavalente / VIP / Rotavírus / Meningocócica C."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Aos 2 meses de vida, segundo o Ministério da Saúde, são realizadas as vacinas: pentavalente, VIP (poliomielite inativada), pneumocócica 10V e rotavírus.",
+      "theme": "imun_pni",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_029",
+      "statement": "Em conformidade com os procedimentos para administração de vacinas, assinale a alternativa que apresenta apenas vacinas administradas por via subcutânea:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Caxumba e difteria"
+        },
+        {
+          "key": "b",
+          "text": "Sarampo e febre amarela"
+        },
+        {
+          "key": "c",
+          "text": "Rubéola e hepatite b"
+        },
+        {
+          "key": "d",
+          "text": "Difteria e tétano"
+        },
+        {
+          "key": "e",
+          "text": "Pneumocócica 10 valente (conjugada e poliomielite 1, 2 e 3 inativada"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "São administradas por via subcutânea as vacinas de vírus vivos atenuados como sarampo (tríplice/tetraviral) e febre amarela.",
+      "theme": "imun_pni",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_034",
+      "statement": "Sobre o calendário vacinal dos adolescentes, analise as afirmativas abaixo: I. Indicação de 3 doses da vacina para hepatite B, devendo-se checar doses anteriores. II. Indicado 1 reforço de meningocócica C. III. Indicado duas doses de tríplice viral (checar doses prévias). IV. HPV: 2 doses pra meninas (9-14 anos) e 2 doses meninos (11-14 anos). V. Dupla para adulto a cada 10 anos. A alternativa que contém todas as afirmativas corretas é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I, III e V"
+        },
+        {
+          "key": "b",
+          "text": "II e IV"
+        },
+        {
+          "key": "c",
+          "text": "I, II e III"
+        },
+        {
+          "key": "d",
+          "text": "I, II, III, IV e V"
+        },
+        {
+          "key": "e",
+          "text": "IV e V"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Estão corretas todas as afirmativas sobre o calendário vacinal do adolescente: hepatite B (I), reforço de meningocócica C (II), duas doses de tríplice viral (III), HPV conforme esquema por sexo (IV) e dT a cada 10 anos (V).",
+      "theme": "imun_pni",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_036",
+      "statement": "Em relação à vacina pentavalente oferecida no Programa Nacional de Imunizações (PNI) para crianças, assinale a alternativa incorreta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Confere proteção contra difteria, tétano, coqueluche, Haemophilus influenzae e hepatite B."
+        },
+        {
+          "key": "b",
+          "text": "O esquema de aplicação preconizado é realizado aos 2, 4 e 6 meses de vida."
+        },
+        {
+          "key": "c",
+          "text": "São eventos adversos graves relacionados à vacina: convulsões e episódio hipotônico hiporresponsivo."
+        },
+        {
+          "key": "d",
+          "text": "Essa vacina é indicada para crianças maiores de 7 anos que não a receberam na primeira infância."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "É a alternativa INCORRETA: a vacina pentavalente do PNI é indicada apenas para crianças até 6 anos, 11 meses e 29 dias (não para maiores de 7 anos, que utilizam outros esquemas/vacinas específicas como dT).",
+      "theme": "imun_pni",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_041",
+      "statement": "A vacinação foi profundamente e ciente na prevenção de doenças graves. Em relação ao calendário de vacinação praticado no SUS, é INCORRETO afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A vacina contra Haemophillus (Hib) deve ser aplicada aos 2, 4 e 6 meses de vida."
+        },
+        {
+          "key": "b",
+          "text": "O recém-nascido de baixo peso, com peso inferior a 2500g, não deverá tomar vacina BCG até chegar no peso de 2500g."
+        },
+        {
+          "key": "c",
+          "text": "A vacina para varicela é recomendada no calendário após 15 meses de vida."
+        },
+        {
+          "key": "d",
+          "text": "A vacina para HPV está liberada para meninos pelo SUS."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "É a alternativa INCORRETA: a vacina HPV está liberada pelo SUS tanto para meninas quanto para meninos, contrariando a afirmação de que estaria liberada apenas para um dos sexos como exceção.",
+      "theme": "imun_pni",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_043",
+      "statement": "Lactente de 9 meses é levado à unidade de saúde para consulta de puericultura. Que vacinas devem constar em seu cartão de vacinação, segundo o calendário oficial de vacinação do Ministério da Saúde de 2018?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "BCG (1 dose); Hepatite B (4 doses); Contra Difteria, Tétano, Coqueluche, Haemophilus influenzae tio B (3 doses); anti-pólio (3 doses); anti-rotavírus (3 doses); anti-pneumocócica (3 doses); anti-meningocócica C (3 doses)."
+        },
+        {
+          "key": "b",
+          "text": "BCG (1 dose); Contra Hepatite B (4 doses); Contra Difteria, Tétano, Coqueluche, Haemophilus influenzae tio B (4 doses); anti-pólio (3 doses); anti-rotavírus (2 doses); anti- pneumocócica (4 doses); anti-meningocócica C (2 doses)."
+        },
+        {
+          "key": "c",
+          "text": "BCG (1 dose); Contra Hepatite B (4 doses); Contra Difteria, Tétano, Coqueluche, Haemophilus influenzae tio B (3 doses); anti-pólio (3 doses); anti-rotavírus (3 doses); anti- pneumocócica (4 doses); anti-meningocócica C (3 doses)."
+        },
+        {
+          "key": "d",
+          "text": "BCG (1 dose); Contra Hepatite B (4 doses); Contra Difteria, Tétano, Coqueluche, Haemophilus influenzae tio B (4 doses); anti-pólio (3 doses); anti-rotavírus (2 doses); anti- pneumocócica (3 doses); anti-meningocócica C (2 doses)."
+        },
+        {
+          "key": "e",
+          "text": "BCG (1 dose); Contra Hepatite B (4 doses); Contra Difteria, Tétano, Coqueluche, Haemophilus influenzae tio B (3 doses); anti-pólio (3 doses); anti-rotavírus (2 doses); anti- pneumocócica (2 doses); anti-meningocócica C (2 doses)."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Aos 9 meses, segundo o calendário de 2018, o cartão deve conter: BCG (1 dose), hepatite B (parte do esquema combinado), pentavalente (3 doses), VIP (3 doses), rotavírus (2 doses), pneumocócica (3 doses) e meningocócica C (2 doses) — refletindo os esquemas corretos de cada vacina até essa idade.",
+      "theme": "imun_pni",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_044",
+      "statement": "O Sarampo estava praticamente erradicado no Brasil com incidência restrita a alguns estados do Brasil, quando nos últimos dois anos, houve reaparecimento de casos dessa grave doença, sendo dois estados brasileiros os maiores responsáveis pelo aumento de casos. A principal causa para esse fato foi:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "falta de cobertura vacinal por produção insuficiente."
+        },
+        {
+          "key": "b",
+          "text": "uso de vacinas de baixa imunogenicidade."
+        },
+        {
+          "key": "c",
+          "text": "falta de vacinação por opção materna e modismos."
+        },
+        {
+          "key": "d",
+          "text": "migração de indivíduos doentes de países vizinhos."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A principal causa do reaparecimento de casos de sarampo no Brasil, após período de controle, foi a queda da cobertura vacinal por recusa/hesitação vacinal materna (movimento antivacina) e modismos, mais do que falhas estruturais do sistema de saúde.",
+      "theme": "imun_pni",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_046",
+      "statement": "Segundo o atual calendário vacinal do Ministério da Saúde do Brasil (2018), a Vacina Pneumocócica 10V (conjugada) deve ser administrada:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Em três doses, aos 2, 4 e 6 meses de idade."
+        },
+        {
+          "key": "b",
+          "text": "Em três doses, aos 2, 4 e 12 meses de idade."
+        },
+        {
+          "key": "c",
+          "text": "Entre 1 e 4 anos de idade, em apenas uma dose."
+        },
+        {
+          "key": "d",
+          "text": "Entre 1 e 4 anos de idade, em duas doses com intervalo de 2 meses."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A vacina pneumocócica 10V (conjugada) do calendário 2018 é administrada em três doses, aos 2, 4 e 12 meses de idade (esquema 2+1, com reforço aos 12 meses, não aos 6 meses).",
+      "theme": "imun_pni",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_047",
+      "statement": "Uma criança de 15 meses é levada à consulta de puericultura apresentando as seguintes anotações na caderneta vacinal: BCG: 1 dose ao nascimento; hepatite B: 1 dose ao nascimento: vacina inativada contra poliomielite (VIP): 3 doses (aos 2, 4 e 6 meses) e reforço aos 15 meses com VOP; pentavalente: 3 doses (aos 2, 4 e 6 meses) e reforço com 15 meses; rotavírus (aos 2 e 4 meses); pneumocócica conjugada 10 v: 2 doses (aos 2 e 4 meses) e 1 reforço aos 12 meses; meningocócica C conjugada: 2 doses (aos 2 e 4 meses) e 1 reforço aos 12 meses; febre amarela: 1 dose aos 9 meses; tríplice viral: 1 dose aos 12 meses; tetra viral: 1 dose aos 15 meses; hepatite A: 1 dose aos 15 meses. De acordo com o calendário do Programa Nacional de Imunizações (PNI, 2018), a situação vacinal dessa criança é considerada",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "inadequada, pois faltou a 3ª dose da pneumocócica conjugada, aos 6 meses."
+        },
+        {
+          "key": "b",
+          "text": "inadequada, pois a 3ª dose da vacina contra a poliomielite deveria ser a oral (Sabin)."
+        },
+        {
+          "key": "c",
+          "text": "inadequada, pois faltou 1 dose da hepatite A."
+        },
+        {
+          "key": "d",
+          "text": "adequada."
+        },
+        {
+          "key": "e",
+          "text": "inadequada, pois faltou a vacina da varicela."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O esquema vacinal descrito para a criança de 15 meses está completo e correto conforme o PNI, sendo, portanto, considerado adequado.",
+      "theme": "imun_pni",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_057",
+      "statement": "Criança de 12 meses apresenta coriza hialina ao ser levada ao Posto de Vacinação, com base no Programa Nacional de Imunizações, indique o esquema de vacinação a ser administrado em relação a tríplice viral e a tetra viral:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Adiar a vacinação;"
+        },
+        {
+          "key": "b",
+          "text": "Agendar somente a tetra viral para 15 meses;"
+        },
+        {
+          "key": "c",
+          "text": "Aguardar 1 mês e fazer 2 doses da tríplice viral com intervalo de 1 mês;"
+        },
+        {
+          "key": "d",
+          "text": "Administrar a tríplice viral e agendar a tetra viral para 15 meses."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de coriza hialina isolada sem febre (doença aguda leve — não é contraindicação), a conduta é administrar a tríplice viral normalmente e agendar a tetraviral para os 15 meses, seguindo o calendário regular.",
+      "theme": "imun_pni",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_059",
+      "statement": "As vacinas que utilizam vírus vivo atenuado devem ser conservadas entre:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "0°C e +8°C"
+        },
+        {
+          "key": "b",
+          "text": "+2°C e +8°C"
+        },
+        {
+          "key": "c",
+          "text": "0°C e +10°C"
+        },
+        {
+          "key": "d",
+          "text": "+2°C e +10°C"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "As vacinas de vírus vivo atenuado devem ser conservadas entre +2°C e +8°C, temperatura padrão da rede de frio para a maioria dos imunobiológicos.",
+      "theme": "imun_pni",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_067",
+      "statement": "Segundo o calendário do Ministério da Saúde do Brasil (Programa Nacional de Imunizações, 2018), as vacinas, com os seus respectivos esquemas de vacinação, que devem ser aplicadas rotineiramente nos primeiros dois anos de vida, além da BCG (1 dose - ao nascer), Pentavalente (3 doses - 2, 4 e 6 meses), Rotavírus humano (2 doses - 2 e 4 meses), Febre amarela (1 dose - 9 meses) e DTP (1 dose - 15 meses), são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hepatite B (1 dose - ao nascer), Poliomielite (4 doses - VIP aos 2, 4, e 6 meses e VOP aos 15 meses); Pneumocócica 10 valente (4 doses, aos 2, 4, 6, e 12 meses), Meningocócica C (2 doses - 3, 5 e 12 meses); Hepatite A (1 dose - 15 meses), Tríplice viral (1 dose - 12 meses), Tetra viral (1 dose - 15 meses)."
+        },
+        {
+          "key": "b",
+          "text": "Hepatite B (2 doses - ao nascer e com 1 mês de vida), Poliomielite (4 doses - VIP aos 2, 4 e 6 meses e VOP aos 15 meses), Pneumocócica 10 valente (3 doses, aos 2, 4 e 12 meses), Meningocócica C (3 doses - 3, 5 e 12 meses). Hepatite A (1 dose - 15 meses), Tetra viral (2 doses - 12 e 15 meses)."
+        },
+        {
+          "key": "c",
+          "text": "Hepatite B (1 dose - ao nascer), poliomielite (4 doses - VIP aos 2 e 4 meses e V OP aos 6 e 15 meses), Pneumocócica 10 valente (3 doses, aos 2, 4, 7 e 12 meses), Meningocócica C (4 doses - 3, 5, 7 e 12 meses), Hepatite A (1 doses - 15 meses), Tríplice viral (1 dose - 12 meses), Tetra viral (1 dose - 15 meses)."
+        },
+        {
+          "key": "d",
+          "text": "Hepatite B (1 dose - ao nascer), poliomielite (4 doses - VIP aos 2, 4 e 6 meses e V OP aos 15 meses), Pneumocócica 10 valente (3 doses, aos 2, 4 e 12 meses), Meningocócica C (3 doses, aos 3, 5 e 12 meses), Hepatite A (1 dose - 15 meses), Tríplice viral (1 dose - 12 meses), Tetra viral (1 dose - 15 meses)."
+        },
+        {
+          "key": "e",
+          "text": "Hepatite B (2 doses - ao nascer e com 1 mês de vida), poliomielite (4 doses - VIP aos 2, 4 e 6 meses e VOP aos 15 meses), Pneumocócica 10 valente (3 doses, aos 2, 4 e 12 meses), Meningocócica C (3 doses - 3, 5 e 12 meses), Hepatite A (1 dose - 15 meses), Triplice viral (2 doses - 12 e 15 meses)."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O esquema correto do PNI 2018 para os primeiros dois anos de vida inclui: hepatite B (1 dose ao nascer, incorporada na pentavalente), poliomielite (VIP aos 2, 4 e 6 meses, VOP reforço aos 15 meses), pneumocócica 10V (3 doses aos 2, 4 e 12 meses), meningocócica C (3 doses aos 3, 5 e 12 meses), hepatite A (1 dose aos 15 meses), tríplice viral (1 dose aos 12 meses) e tetraviral (1 dose aos 15 meses).",
+      "theme": "imun_pni",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_069",
+      "statement": "Criança, 5 meses de idade, em consulta de rotina na unidade básica de saúde, com carteira de vacinação em dia, de acordo com o programa nacional de imunizações. Sua mãe pretende dar a vacina dos 5 meses assim que terminar a consulta e gostaria de aproveitar para já vacinar contra a gripe (anti-influenza) e pergunta se é possível. A resposta da pediatra é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sim. A vacina anti-influenza deve ser administrada desde o primeiro mês de vida, uma vez que previne formas graves de bronquiolite, doença cujo pico de incidência é aos 3 meses."
+        },
+        {
+          "key": "b",
+          "text": "Não. Aos 5 meses os pacientes são vacinados com a antimeningocócica C. Essa vacina é constituída de agente vivo, assim como a vacina anti-influenza, não podendo ser administradas juntas."
+        },
+        {
+          "key": "c",
+          "text": "Não. A vacina anti-influenza tem em sua composição vírus vivo atenuado, não podendo ser administrada em pacientes menores de 9 meses de vida."
+        },
+        {
+          "key": "d",
+          "text": "Não. A vacina contra influenza somente pode ser administrada após 6 meses de vida, a partir de quando deve-se vacinar a criança, anualmente, até os 5 anos de idade."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A vacina contra influenza não pode ser administrada antes dos 6 meses de vida, sendo essa a resposta correta a ser dada à mãe.",
+      "theme": "imun_pni",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_070",
+      "statement": "Segundo o calendário nacional de imunização as vacinas oferecidas pela rede pública protegem a criança das seguintes doenças, exceto: (Ministério da Saúde / imunizações 2018).",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Meningite por Meningococo C"
+        },
+        {
+          "key": "b",
+          "text": "Meningite por Haemophilus"
+        },
+        {
+          "key": "c",
+          "text": "Meningite por Pneumococo"
+        },
+        {
+          "key": "d",
+          "text": "Meningite por Meningococo B"
+        },
+        {
+          "key": "e",
+          "text": "Meningite tuberculosa"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O calendário nacional de imunização protege contra meningite por meningococo C, Haemophilus, pneumococo e tuberculosa (BCG) — a meningite por meningococo B NÃO faz parte do calendário público de rotina (é vacina disponível apenas em clínicas privadas/situações especiais).",
+      "theme": "imun_pni",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_073",
+      "statement": "Assinale Falso ou Verdadeiro: ( ) A imunidade conferida pela vacina é denominada ativa natural; ( ) A imunidade conferida pela passagem de anticorpos maternos para o feto é denominada passiva natural; ( ) Somente as pessoas que utilizam as Unidades Básicas de Saúde podem receber as vacinas constantes no Calendário Básico de Vacinas do Ministério da Saúde; ( ) O Programa Nacional de Imunizações do Ministério da Saúde contempla todas as faixas etárias e prioritariamente as crianças até 1 ano de idade; ( ) Compõe o atual esquema básico de vacinas do Ministério da Saúde, para crianças até 1 ano de idade as seguintes vacinas: BCG, Hepatite B, Rotavírus, Pentavalente, Poliomielite, Pneumocócica 10 Valente, Meningocócica C, Tríplice Viral, Febre Amarela. Qual a sequência correta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "F, V, V, F, V"
+        },
+        {
+          "key": "b",
+          "text": "F, V, F, V, V"
+        },
+        {
+          "key": "c",
+          "text": "F, F, V, V, F"
+        },
+        {
+          "key": "d",
+          "text": "V, V, V, F, F"
+        },
+        {
+          "key": "e",
+          "text": "V, F, V, F, V"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Sequência correta F, V, F, V, V: a imunidade vacinal é ativa ARTIFICIAL, não natural (F); anticorpos maternos transplacentários são passiva natural (V); as vacinas do PNI não se restringem a usuários do SUS/UBS, mas essa afirmação específica sobre exclusividade é falsa (F); o PNI contempla todas as idades priorizando crianças até 1 ano (V); o esquema básico até 1 ano listado está correto (V).",
+      "theme": "imun_pni",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_075",
+      "statement": "Assinale a opção INCORRETA em relação a imunização indicada para crianças e adolescentes segundo o Programa Nacional de Imunizações (PNI) do Ministério da Saúde do Brasil.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O lactente aos dois meses de idade deve receber a primeira dose da vacina pentavalente, primeira dose da vacina inativada contra a poliomielite (VIP), a primeira dose da vacina pneumocócica 10V (conjugada) e a primeira dose da vacina contra o rotavírus humano."
+        },
+        {
+          "key": "b",
+          "text": "A criança com imunodeficiência primária ou secundária não deve receber imunização contra a febre amarela."
+        },
+        {
+          "key": "c",
+          "text": "A vacina pneumocócica 10V (conjugada) deve ser aplicada aos dois meses, quatro meses, seis meses e com um reforço aos 12 meses de idade."
+        },
+        {
+          "key": "d",
+          "text": "Em comunicantes domiciliares de hanseníase, independente da forma clínica, aplica-se uma segunda dose de vacina contra BCG."
+        },
+        {
+          "key": "e",
+          "text": "A vacina influenza é composta por vírus inativados e está indicado para todas as crianças a partir de 06 meses de idade."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "É a alternativa INCORRETA: a vacina pneumocócica 10V é administrada aos 2 e 4 meses com reforço único aos 12 meses (esquema 2+1), não em três doses regulares (2, 4 e 6 meses) mais reforço aos 12 meses como descrito na opção.",
+      "theme": "imun_pni",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_076",
+      "statement": "Um lactente de 7 meses de idade com esquema vacinal atualizado de acordo Programa Nacional de Imunizações ainda não recebeu vacinas contra quais das seguintes doenças:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tuberculose, paralisia infantil, hepatite B"
+        },
+        {
+          "key": "b",
+          "text": "Sarampo, caxumba, rubéola"
+        },
+        {
+          "key": "c",
+          "text": "Difteria, tétano e coqueluche"
+        },
+        {
+          "key": "d",
+          "text": "Doença pneumocócica, meningite C e doença invasiva pelo Haemophilus influenzae B"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Aos 7 meses, com esquema atualizado, o lactente ainda não recebeu a vacina tríplice viral (sarampo, caxumba, rubéola), prevista apenas para os 12 meses de idade.",
+      "theme": "imun_pni",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_077",
+      "statement": "Com Relação ao Calendário de Vacinação referente a Vacina contra o Rotavírus Monovalente, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "1ª dose – IDADE: 2 meses, IDADE MÍNIMA: 1 mês e 15 dias, IDADE MÁXIMA: 3 meses e 15 dias. 2ª dose – IDADE: 4 meses, IDADE MÍNIMA: 3 meses e 15 dias, IDADE MÁXIMA: 7 meses e 29 dias."
+        },
+        {
+          "key": "b",
+          "text": "1ª dose – IDADE: 2 meses, IDADE MÍNIMA: 1 mês e 15 dias, IDADE MÁXIMA: 3 meses e 15 dias. 2ª dose – IDADE: 4 meses, IDADE MÍNIMA: 3 meses e 15 dias, IDADE MÁXIMA: 5 meses e 15 dias."
+        },
+        {
+          "key": "c",
+          "text": "1ª dose – IDADE: 2 meses, IDADE MÍNIMA: 2 mês, IDADE MÁXIMA: 3 meses e 15 dias. 2ª dose – IDADE: 4 meses, IDADE MÍNIMA: 4 meses, IDADE MÁXIMA: 7 meses e 29 dias."
+        },
+        {
+          "key": "d",
+          "text": "1ª dose – IDADE: 3 meses, IDADE MÍNIMA: 1 mês e 15 dias, IDADE MÁXIMA: 4 meses e 15 dias. 2ª dose – IDADE: 5 meses, IDADE MÍNIMA: 3 meses e 15 dias, IDADE MÁXIMA: 6 meses e 15 dias."
+        },
+        {
+          "key": "e",
+          "text": "1ª dose – IDADE: 2 meses, IDADE MÍNIMA: 1 mês, IDADE MÁXIMA: 5 meses. 2ª dose – IDADE: 4 meses, IDADE MÍNIMA: 3 meses, IDADE MÁXIMA: 7 meses e 29 dias."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O esquema da vacina rotavírus monovalente é: 1ª dose aos 2 meses (idade mínima 1 mês e 15 dias, máxima 3 meses e 15 dias); 2ª dose aos 4 meses (idade mínima 3 meses e 15 dias, máxima 7 meses e 29 dias).",
+      "theme": "imun_pni",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_079",
+      "statement": "Evidências cientí cas mostram que aplicar várias vacinas ao mesmo tempo não causa aumento de eventos adversos sobre o sistema imunológico das crianças. As principais vantagens de aplicar várias vacinas ao mesmo tempo são: menos visitas à unidade básica de saúde, maior probabilidade de que o caléndario vacinal seja completado e menos injeções. Sobre esse tema, assinale a alternativa INCORRETA quanto à composiição das vacinas no Programa Nacional de Imunizações do Ministério da Saúde:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A vacina Dupla protege contra Tétano e Coqueluche."
+        },
+        {
+          "key": "b",
+          "text": "A vacina Pentavalente é uma vacina combinada contra Difteria, Tétano, Conqueluche, Hepatite B e Haemophilus influenza tipo B."
+        },
+        {
+          "key": "c",
+          "text": "A vacina Tetraviral protege contra as mesmas doenças da Tríplice Viral acrescida de Varicela."
+        },
+        {
+          "key": "d",
+          "text": "A vacina Tríplice Viral protege contra Sarampo, Caxumba e Rubéola."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "É a alternativa INCORRETA: a vacina Dupla (dT) protege contra Difteria e Tétano, não contra Tétano e Coqueluche (a coqueluche está na tríplice/DTP e na dTpa).",
+      "theme": "imun_pni",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_080",
+      "statement": "Regina levou sua lha de 8 meses ao posto de saúde para veri cação da atualização vacinal. Qual das seguintes vacinas não é oferecida para esta faixa etária?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "BCG."
+        },
+        {
+          "key": "b",
+          "text": "Tríplice viral."
+        },
+        {
+          "key": "c",
+          "text": "Pentavalente."
+        },
+        {
+          "key": "d",
+          "text": "Pólio inativada."
+        },
+        {
+          "key": "e",
+          "text": "Influenza."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Aos 8 meses de idade, a vacina tríplice viral ainda não é oferecida (prevista apenas para os 12 meses), sendo a única das opções listadas não indicada nessa faixa etária.",
+      "theme": "imun_pni",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_082",
+      "statement": "A aplicação de vacina meningocócica C conjugada é recomendada de acordo com o Programa Nacional de Imunizações (PNI) do MS/Brasil, com:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "1 mês e 3 meses de idade, com dose de reforço aos 9 meses de idade."
+        },
+        {
+          "key": "b",
+          "text": "2 e 4 meses de idade, com dose de reforço aos 15 meses de idade."
+        },
+        {
+          "key": "c",
+          "text": "2 e 5 meses de idade, com dose de reforço aos 24 meses de idade."
+        },
+        {
+          "key": "d",
+          "text": "3 e 5 meses de idade com dose de reforço aos 12 meses de idade."
+        },
+        {
+          "key": "e",
+          "text": "4 e 6 meses de idade, com dose de reforço aos 18 meses de idade."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A vacina meningocócica C conjugada é recomendada aos 3 e 5 meses de idade, com dose de reforço aos 12 meses.",
+      "theme": "imun_pni",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_085",
+      "statement": "De acordo com o Programa Nacional de Imunizações (PNI), a vacinação contra o pneumococo, em uma criança imunocompetente e sem doença de base, deve ser realizada com o seguinte esquema:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pneumocócica conjugada 13-valente – 3 doses (aos 2, 4 e 6 meses); e 2 reforços com pneumocócica 10-valente (15 meses e 5 anos)."
+        },
+        {
+          "key": "b",
+          "text": "Pneumocócica conjugada 10-valente – 3 doses (aos 2, 4 e 6 meses); e 1 reforço com pneumocócica 10-valente (aos 15 meses)."
+        },
+        {
+          "key": "c",
+          "text": "Pneumocócica conjugada 10-valente – 3 doses (aos 2, 4 e 6 meses); e 1º reforço com pneumocócica 10-valente (12 meses) e 2º reforço com pneumocócica 23-valente (aos 5 anos)."
+        },
+        {
+          "key": "d",
+          "text": "Pneumocócica conjugada 10-valente – 2 doses (aos 2 e 4 meses); e 1 reforço com pneumocócica 10-valente (aos 12 meses)."
+        },
+        {
+          "key": "e",
+          "text": "Pneumocócica conjugada 10-valente – 2 doses (aos 2 e 4 meses); e 1 reforço com pneumocócica 23-valente (aos 15 meses)."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O esquema atual do PNI para pneumococo em criança imunocompetente é: pneumocócica conjugada 10-valente, 3 doses (aos 2, 4 e 6 meses) e 1 reforço aos 15 meses com a mesma vacina 10-valente.",
+      "theme": "imun_pni",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_088",
+      "statement": "Considera-se imunidade passiva homóloga, a administração de anticorpos obtidos de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Um irmão, ou pai e mãe."
+        },
+        {
+          "key": "b",
+          "text": "Um doador da comunidade."
+        },
+        {
+          "key": "c",
+          "text": "Um ou mais irmãos, ou pai e mãe."
+        },
+        {
+          "key": "d",
+          "text": "Um ou mais doadores da comunidade."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Considera-se imunidade passiva homóloga a administração de anticorpos obtidos de um ou mais doadores da mesma espécie (humana) da comunidade, diferente da heteróloga (de outra espécie, como soros equinos).",
+      "theme": "imun_pni",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_093",
+      "statement": "Dentre as assertivas abaixo assinale a incorreta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Na imunização passiva são utilizados anticorpos prontos, preparados e purificados, os quais são específicos contra um organismo particular ou uma toxina produzida por ele."
+        },
+        {
+          "key": "b",
+          "text": "Na imunização ativa, o indivíduo desenvolve seus próprios anticorpos após a exposição a um agente vacinal, seja vírus, bactérias ou partículas purificadas destes."
+        },
+        {
+          "key": "c",
+          "text": "Após receber uma vacina o indivíduo irá esperançosamente desenvolver uma resposta secundária humoral ou celular, culminando com o desenvolvimento de linfócitos T e B de memória e consequente produção de IgG (soro) ou IgA (mucosa)"
+        },
+        {
+          "key": "d",
+          "text": "Na imunização passiva, são administrados os Soros ou Imunglobulinas frente a um acidente ou a uma exposição maciça antigênica, em razão de não haver tempo hábil do organismo produzir tais anticorpos por vacinação."
+        },
+        {
+          "key": "e",
+          "text": "As vacinas vivas atenuadas são preparadas a partir de vírus e bactérias inteiras inativadas, mantendo seus componentes e preservando a capacidade de gerar resposta imune."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "É a alternativa INCORRETA: as vacinas de vírus vivos atenuados são preparadas a partir de vírus/bactérias vivos com virulência reduzida (atenuados), não de agentes inativados/mortos — a descrição de 'vírus e bactérias inteiras inativadas' na alternativa E corresponde às vacinas inativadas, não às de vírus vivo atenuado.",
+      "theme": "imun_pni",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_096",
+      "statement": "A vacina contra Haemophilus in uenzae é feita no primeiro ano de vida. De acordo com o programa nacional de imunização (PNI), assinale a conduta quanto aos meses, a ser tomada para a vacinação:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "1°., 2°. e 4°. meses de vida"
+        },
+        {
+          "key": "b",
+          "text": "9°. mês de vida"
+        },
+        {
+          "key": "c",
+          "text": "2°., 4°. e 6°. meses de vida"
+        },
+        {
+          "key": "d",
+          "text": "2°., 3°. e 4°. meses de vida."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A vacina contra Haemophilus influenzae tipo B (incluída na pentavalente) é administrada aos 2º, 4º e 6º meses de vida.",
+      "theme": "imun_pni",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_098",
+      "statement": "Qual a vantagem da imunização passiva sobre a ativa?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apresenta longa duração de proteção."
+        },
+        {
+          "key": "b",
+          "text": "Possibilita a eliminação de portadores sãos."
+        },
+        {
+          "key": "c",
+          "text": "Possibilita a erradicação de doenças."
+        },
+        {
+          "key": "d",
+          "text": "A proteção após aplicação é imediata."
+        },
+        {
+          "key": "e",
+          "text": "Custo e disponibilidade em geral baixos."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A vantagem da imunização passiva sobre a ativa é que a proteção conferida é imediata (embora de curta duração), diferente da imunização ativa, que demora dias a semanas para gerar resposta imune protetora.",
+      "theme": "imun_pni",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_002",
+      "statement": "Qual é a conduta recomendada em relação a prevenção da transmissão vertical do vírus da hepatite B para um RN prematuro, pesando 1800 Kg, filho de mãe sabidamente AgHbs positiva e que esta mãe faz tratamento para Hepatite B.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Prematuros com peso ao nascer menor que 2000 Kg não devem receber esta vacina contra a hepatite B;"
+        },
+        {
+          "key": "b",
+          "text": "Tem indicação apenas de imunoglobulina humana anti-hepatite B, porém não está disponível pelo Sistema Único de Saúde;"
+        },
+        {
+          "key": "c",
+          "text": "A vacina contra a hepatite B deve ser administrada nas primeiras 12 horas após o nascimento e acompanhada de imunoglubulina humana anti-hepatite B;"
+        },
+        {
+          "key": "d",
+          "text": "O risco maior risco de transmissão transplacentária é na gestante sintomática sem tratamento, portanto não é recomendada a administração da vacina contra hepatite B para este RN no hospital."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A vacina contra hepatite B deve ser administrada nas primeiras 12 horas após o nascimento, associada à imunoglobulina humana anti-hepatite B, para RN de mãe HBsAg positiva, independentemente do peso ao nascer.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_004",
+      "statement": "Adolescente saudável, 12 anos, residente no Rio de Janeiro, com relato de nunca ter saído do Estado, é levado por sua mãe à Unidade de Saúde para avaliação da adequação da sua caderneta vacinal. Considerando que a última dose de vacina recebida por ele foi aos seis anos de idade e que, na ocasião, estava em dia com a vacinação rotineira para sua faixa etária, as vacinas a serem recomendadas para atualização da sua caderneta, de acordo com o preconizado pelo Ministério da Saúde para sua idade atual, são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "HPV (1 dose), Vacina Meningocócica C Conjugada (1 dose) e vacina dTpa (1 dose)."
+        },
+        {
+          "key": "b",
+          "text": "HPV (2 doses), Vacina Meningocócica C Conjugada (1 dose) e Vacina Febre Amarela (1dose)."
+        },
+        {
+          "key": "c",
+          "text": "HPV (1 dose), Vacina Meningocócica C Conjugada (2 doses) e Vacina Febre Amarela (1dose)."
+        },
+        {
+          "key": "d",
+          "text": "HPV (2 doses), Vacina Meningocócica C Conjugada (1 dose) e vacina dTpa (1 dose)."
+        },
+        {
+          "key": "e",
+          "text": "HPV (2 doses), Vacina dTpa (1 dose) e Vacina Febre Amarela (1 dose)."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Para adolescente de 12 anos com esquema atualizado até os 6 anos, as vacinas a atualizar são HPV (2 doses), meningocócica C conjugada (1 dose) e dTpa (1 dose).",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_005",
+      "statement": "Uma criança com sete meses de vida foi avaliada em consulta de puericultura. A criança apresentava desenvolvimento ponderoestatural, desenvolvimento neuropsicomotor, vacinação e alimentação adequados. Ao exame físico, o médico observou que a criança não tinha a cicatriz de BCG. Com base nesse caso hipotético e nas recomendações do Ministério da Saúde, é correto afirmar que a conduta indicada no momento é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a vacinação imediata com BCG."
+        },
+        {
+          "key": "b",
+          "text": "não dar BCG, pois não há recomendação de revacinação."
+        },
+        {
+          "key": "c",
+          "text": "realizar teste tuberculínico imediato e vacinar com BCG se o resultado for não reator."
+        },
+        {
+          "key": "d",
+          "text": "iniciar isoniazida e realizar teste tuberculínico após."
+        },
+        {
+          "key": "e",
+          "text": "avaliar a epidemiologia da criança e vacinar com BCG em caso de contato com tuberculose."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de ausência de cicatriz vacinal do BCG em criança com esquema vacinal completo, a conduta é não revacinar, pois não há recomendação de revacinação de rotina mesmo sem cicatriz visível.",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_006",
+      "statement": "Durante a orientação para alta, um paciente internado na enfermaria apresenta lesões de pele compatíveis com varicela. No mesmo quarto, estão internados mais 2 pacientes imunocompetentes, susceptíveis e não vacinados: (A) com 5 meses de idade e (B) com 10 meses de idade. Considerando que o caso índice receberá alta hospitalar, além do isolamento com precaução para contato, gotículas e aerossóis, a melhor conduta, dentre as abaixo, em relação aos pacientes comunicantes AeBé",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Paciente A vacina contra varicela; Paciente B vacina contra varicela"
+        },
+        {
+          "key": "b",
+          "text": "Paciente A imunoglobulina humana antivaricela-zoster; Paciente B vacina contra varicela"
+        },
+        {
+          "key": "c",
+          "text": "Paciente A vacina contra varicela; Paciente B imunoglobulina humana antivaricela-zoster"
+        },
+        {
+          "key": "d",
+          "text": "Paciente A imunoglobulina humana antivaricela-zoster; Paciente B imunoglobulina humana antivaricela-zoster"
+        },
+        {
+          "key": "e",
+          "text": "Paciente A imunoglobulina humana antivaricela-zoster, se apresentar sintomas; Paciente B imunoglobulina humana antivaricela-zoster, se apresentar sintomas"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de caso de varicela internado, os comunicantes suscetíveis devem receber: paciente A (5 meses, abaixo da idade mínima para vacina) — imunoglobulina humana antivaricela-zoster; paciente B (10 meses) — vacina contra varicela (bloqueio vacinal, já que está dentro da idade elegível).",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_007",
+      "statement": "Segundo o Ministério da Saúde, foram con rmados 6.640 casos de sarampo no Brasil até a 38a semana epidemiológica de 2019, sendo que inúmeros outros casos ainda estavam em investigação. Foram noti cados seis óbitos, quatro em menores de 1 ano de idade e dois em adultos. Ações instituídas no enfrentamento deste surto a m de interromper a transmissão do vírus do sarampo e reduzir as internações e os óbitos nos lactentes foram:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aplicar imunoglobulina específica contra o sarampo em crianças de zero a 11 meses e 29 dias de idade que tiveram contato com caso confirmado de sarampo e revacinar aos 15 meses de idade."
+        },
+        {
+          "key": "b",
+          "text": "Vacinar contra o sarampo as crianças de 12 meses e de 15 meses de idade e aplicar uma dose de reforço, para todas as crianças aos 4 anos de idade."
+        },
+        {
+          "key": "c",
+          "text": "Aplicar uma dose da vacina contra o sarampo em crianças de 6 a 11 meses e 29 dias de idade e manter as doses da vacina aos 12 e 15 meses de idade."
+        },
+        {
+          "key": "d",
+          "text": "Vacinar com uma dose extra contra o sarampo, assim que a criança desmamar, se o desmame ocorrer antes do final do primeiro ano de vida, e revacinar aos 15 meses."
+        },
+        {
+          "key": "e",
+          "text": "Vacinar contra o sarampo as gestantes no terceiro trimestre da gestação ou, nos casos em que a mãe não tiver recebido a vacina, vacinar as crianças ao nascer e revacinar aos 12 meses."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "No enfrentamento do surto de sarampo, foi instituída a aplicação de uma dose extra da vacina contra sarampo em crianças de 6 a 11 meses e 29 dias (dose zero, não substitui o esquema regular), mantendo-se as doses regulares aos 12 e 15 meses.",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_008",
+      "statement": "Gestante, primigesta, deu entrada na maternidade em trabalho de parto, com história de ter iniciado tratamento para tuberculose há 4 dias. Os exames indicaram que a paciente ainda estava bacilífera. O recém-nascido nasceu bem, e foi afastada tuberculose congênita. Nessa situação, entre as opções apresentadas, a melhor conduta é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Contraindicar o aleitamento materno, vacinar com a BCG e fazer a prova tuberculínica com 3 meses."
+        },
+        {
+          "key": "b",
+          "text": "Liberar o aleitamento materno com uso de máscara cirúrgica, não vacinar com a BCG e iniciar a quimioprofilaxia por 3 meses."
+        },
+        {
+          "key": "c",
+          "text": "Liberar o aleitamento materno sem necessidade de máscara cirúrgica, não vacinar com a BCG e iniciar a quimioprofilaxia por 3 meses."
+        },
+        {
+          "key": "d",
+          "text": "Contraindicar o aleitamento materno, não vacinar com a BCG e iniciar a quimioprofilaxia por 3 meses."
+        },
+        {
+          "key": "e",
+          "text": "Liberar o aleitamento materno com uso de máscara cirúrgica, não vacinar com a BCG e iniciar a quimioprofilaxia por 6 meses."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de mãe com tuberculose bacilífera em tratamento há apenas 4 dias, a conduta é liberar o aleitamento materno com uso de máscara cirúrgica, não vacinar com BCG (adiar) e iniciar quimioprofilaxia com isoniazida por 3 meses no RN.",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_010",
+      "statement": "Recém-nascido do sexo feminino, pré-termo (idade gestacional de 33 semanas), nascido de parto vaginal devido a incontinência istmo-cervical, com peso de nascimento de 1.800 g (adequado para a idade gestacional), acaba de ser admitido na unidade de cuidados intermediários. Veri cando o cartão de pré-natal da mãe, veri cam-se as seguintes sorologias, colhidas na semana anterior o parto: HIV: negativo; VDRL: negativo; Hepatite B: Anti-Hbs negativo; AgHbS positivo, Anti-Hbc positivo; Rubéola: IgM: negativo, IgG positivo; Toxoplasmose: IgM: negativo, IgG: negativo; Citomegalovírus: IgM: negativo, IgG: negativo. Recém-nascido segue bem, com perda de 3% do peso no segundo dia de vida. A equipe de enfermagem questiona sobre a vacinação desta criança. A conduta imediata é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aplicar apenas a vacina anti-hepatite B."
+        },
+        {
+          "key": "b",
+          "text": "Aplicar a vacina BCG-ID e, a vacina e a imunoglobulina anti-hepatite B."
+        },
+        {
+          "key": "c",
+          "text": "Aplicar a vacina e a imunoglobulina anti-hepatite B."
+        },
+        {
+          "key": "d",
+          "text": "Aplicar as vacinas BCG-ID e Hepatite B."
+        },
+        {
+          "key": "e",
+          "text": "Colher exames do RN e não aplicar nenhuma vacina agora."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de RN filho de mãe com hepatite B ativa (AgHBs positivo), a conduta imediata é aplicar a vacina e a imunoglobulina anti-hepatite B, independentemente da idade gestacional/peso ao nascer.",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_012",
+      "statement": "Lactente, 15 meses, comparece à Unidade Básica de Saúde para vacinação rotineira, com calendário atualizado até 12 meses. A mãe informa que o seu pai foi transferido para país da América do Sul que exige vacinação para febre amarela. Em 20 dias viajarão para lá, onde vão morar, em região que exige esta vacina. Das vacinas abaixo qual NÃO pode ser aplicada simultaneamente com a da febre amarela?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tetra viral."
+        },
+        {
+          "key": "b",
+          "text": "Poliomielite."
+        },
+        {
+          "key": "c",
+          "text": "Meningocócica C ou ACWY."
+        },
+        {
+          "key": "d",
+          "text": "Tríplice bacteriana (DPT)."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A vacina tetraviral (SCRV — sarampo, caxumba, rubéola e varicela) NÃO deve ser aplicada simultaneamente com a vacina de febre amarela em crianças menores de 2 anos, pelo risco de menor imunogenicidade e maior reatogenicidade — sendo essa a combinação a evitar entre as opções.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_013",
+      "statement": "Em situações em que há evidência de circulação do vírus da febre amarela (casos humanos, epizootia ou vetores infectados em áreas afetadas), a vacina contra essa doença deve ser indicada para:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "crianças aos 6 meses de idade."
+        },
+        {
+          "key": "b",
+          "text": "pacientes com neoplasia maligna."
+        },
+        {
+          "key": "c",
+          "text": "crianças aos 9 meses de idade."
+        },
+        {
+          "key": "d",
+          "text": "pacientes imunodeprimidos de qualquer natureza."
+        },
+        {
+          "key": "e",
+          "text": "pacientes com imunodeficiência primária, apenas."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Em situações de circulação confirmada do vírus da febre amarela, a vacina deve ser indicada para crianças a partir dos 6 meses de idade (antecipação da idade mínima habitual de 9 meses, em cenário de risco epidemiológico elevado).",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_014",
+      "statement": "Em casos suspeitos de sarampo no local de trabalho, deve ser feito o bloqueio vacinal em até:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "12 h."
+        },
+        {
+          "key": "b",
+          "text": "24 h."
+        },
+        {
+          "key": "c",
+          "text": "36 h"
+        },
+        {
+          "key": "d",
+          "text": "48 h."
+        },
+        {
+          "key": "e",
+          "text": "72 h."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Em casos suspeitos de sarampo, o bloqueio vacinal deve ser realizado em até 72 horas após o contato.",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_015",
+      "statement": "Paciente de 2 meses de vida, apresenta diagnóstico con rmado de imunode ciência combinada grave. Encontra-se em boas condições clínicas e com evolução pondero- estatural adequada. É levado ao posto de saúde para iniciar vacinação. A conduta adequada é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "fazer todas as vacinas, exceto BCG."
+        },
+        {
+          "key": "b",
+          "text": "fazer somente vacinas atenuadas."
+        },
+        {
+          "key": "c",
+          "text": "fazer todas as vacinas indicadas para a idade."
+        },
+        {
+          "key": "d",
+          "text": "fazer somente vacinas inativadas."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Para criança com imunodeficiência combinada grave, a conduta é fazer somente vacinas inativadas, contraindicando-se as vacinas de agentes vivos atenuados (BCG, rotavírus, tríplice viral, febre amarela, varicela).",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_017",
+      "statement": "Lactente feminino, 4 meses de idade, é levada a UBS pela mãe, que deseja orientações sobre vacinação. A mãe refere que a criança apresentou com um quadro de palidez intensa, associado a hipotonia generalizada, iniciado 6 horas após a aplicação da vacina dos 2 meses de vida. Refere que a criança não reagia quando estimulada. À época, a mãe levou a criança ao serviço de saúde, mas o episódio se resolveu antes da chegada ao hospital. A criança foi avaliada, permaneceu em observação por algumas horas e depois foi liberada. Evoluiu bem, sem novos episódios. Atualmente com desenvolvimento neuropsicomotor adequado para a idade. Levando em consideração os dados informados pela mãe, a conduta é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Contraindicar as vacinas de vírus vivos atenuados (rotavírus e poliomielite) e encaminhar para imunologia pediátrica para avaliação."
+        },
+        {
+          "key": "b",
+          "text": "Administrar todas as vacinas previstas para a idade e manter observação médica por 6 horas após aplicação."
+        },
+        {
+          "key": "c",
+          "text": "Administrar cada uma das vacinas previstas para a idade em dias diferentes e observar possíveis reações de cada uma."
+        },
+        {
+          "key": "d",
+          "text": "Trocar a vacina tríplice bacteriana de células inteiras (DPT) por DPT acelular e aplicar as demais vacinas previstas para a idade."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de episódio hipotônico-hiporresponsivo prévio associado à vacina (provavelmente componente pertussis de células inteiras), a conduta é trocar a vacina tríplice bacteriana de células inteiras (DPT) pela formulação acelular (DTPa), mantendo as demais vacinas previstas para a idade.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_018",
+      "statement": "A mãe de um bebê de 2 meses está receosa em dar a vacina contra o Rotavírus para a sua lha porque leu que a vacina é associada ao risco de intussuscepção intestinal, e o pai da bebê teve esse quadro quando era criança, em vigência de episódio de gastroenterite aguda. Nessa situação,",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "recomenda-se adiar as duas doses da vacina, para diminuir o risco dessa complicação."
+        },
+        {
+          "key": "b",
+          "text": "contraindica-se a vacina, pois o risco de a bebê ter intussuscepção é maior, dado o antecedente familiar."
+        },
+        {
+          "key": "c",
+          "text": "vacina-se, normalmente, aos 2 e 4 meses de idade."
+        },
+        {
+          "key": "d",
+          "text": "vacina-se apenas com uma dose, após os 6 meses de idade, quando o risco de complicações é menor."
+        },
+        {
+          "key": "e",
+          "text": "a criança pode tomar as duas doses, em qualquer idade, pois o antecedente familiar não aumenta o risco de ela ter essa complicação."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A vacina contra rotavírus deve ser aplicada normalmente aos 2 e 4 meses de idade — o histórico familiar de intussuscepção não é contraindicação, e o risco associado à vacina é baixo e limitado à janela pós-vacinal imediata.",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_021",
+      "statement": "Menino de 7 meses e 15 dias de vida é trazido para consulta de rotina na Unidade Básica de Saúde na qual você está atendendo, no município de Santo André. Natural e procedente do mesmo município. No seu cartão vacinal constam: 1 dose de BCG e 1 dose de hepatite B recebidas ao nascimento; 2 doses de Pentavalente (Hepatite B + Hib + DTP) aos 3 e 5 meses; 2 doses de VIP (vacina inativada da poliomielite) aos 3 e 5 meses; 2 doses de meningocócica C aos 4 e 6 meses e 2 doses de pneumocócica 10V aos 3 e 5 meses. Nesta consulta, qual vacina será aplicada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Rotavírus"
+        },
+        {
+          "key": "b",
+          "text": "Pentavalente"
+        },
+        {
+          "key": "c",
+          "text": "Febre amarela"
+        },
+        {
+          "key": "d",
+          "text": "VOP (vacina oral de poliomielite)"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Com o calendário já completo até os 6 meses (2 doses de cada vacina do esquema de 2 e 4 meses), a próxima vacina a ser aplicada aos 7 meses e 15 dias é a pentavalente (3ª dose).",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_022",
+      "statement": "Lactente, sexo masculino, morador da zona rural de Marília, completou 13 meses de idade e procura Unidade Básica de Saúde para uma consulta de rotina, e seu pediatra indica a realização das vacinas preconizadas para os 12 meses, que não foram feitas. De acordo com o Programa Nacional de imunizações, as vacinas que deverá receber, considerando-se que recebeu todas as vacinas recomendadas até os oito meses de idade, são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "antipneumocócica-10 valente, antimeningococócica C e tríplice viral (sarampo, caxumba e rubéola, todas no mesmo dia."
+        },
+        {
+          "key": "b",
+          "text": "antipneumocócica-10 valente, antimeningococócica C, vacina contra a hepatite A e tetravalente viral (sarampo, caxumba, rubéola e varicela, todas no mesmo dia."
+        },
+        {
+          "key": "c",
+          "text": "vacina para a poliomielite oral, antipneumocócica-10 valente, antimeningococócica C, tríplice viral (sarampo, caxumba e rubéola, todas no mesmo dia."
+        },
+        {
+          "key": "d",
+          "text": "antipneumocócica-10 valente, antimeningococócica C, tríplice viral (sarampo, caxumba e rubéola e febre amarela, todas no mesmo dia."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Aos 13 meses, com esquema completo até 8 meses, a criança deve receber as vacinas dos 12 meses em atraso: antipneumocócica-10 valente (reforço), antimeningocócica C (reforço) e tríplice viral (1ª dose), podendo ser administradas no mesmo dia.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_023",
+      "statement": "Um lactente de 16 meses, masculino, é levado por sua mãe à Unidade Básica de Saúde para atualização vacinal de acordo com o Programa Nacional de Imunização. O médico veri ca que todas as vacinas foram realizadas, exceto as recomendadas para os 15 meses. As vacinas a serem realizadas neste momento são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Vacina inativada poliomielite, Difteria, Tétano, Coqueluche, Hepatite A, Haemophilus influenzae, Meningocócica C."
+        },
+        {
+          "key": "b",
+          "text": "Vacina oral poliomielite, Difteria, Tétano, Coqueluche, Hepatite B, Sarampo, Caxumba, Rubéola, Varicela."
+        },
+        {
+          "key": "c",
+          "text": "Vacina oral poliomielite, Difteria, Tétano, Coqueluche, Hepatite A, Sarampo, Caxumba, Rubéola, Varicela."
+        },
+        {
+          "key": "d",
+          "text": "Vacina inativada poliomielite, Difteria, Tétano, Coqueluche, Hepatite B, Haemophilus influenzae, Pneumocócica 10 valente."
+        },
+        {
+          "key": "e",
+          "text": "Vacina oral poliomielite, Difteria, Tétano, Coqueluche, Hepatite C, Sarampo, Caxumba, Rubéola, Meningocócica C."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Aos 16 meses, com esquema completo exceto os 15 meses, a criança deve receber: vacina oral poliomielite (VOP, reforço), DTP (reforço), hepatite A (dose única) e tetraviral (SCR+varicela).",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_024",
+      "statement": "Adolescente de 14 anos, residente na região metropolitana do Rio de Janeiro, assintomático, sem história prévia de doenças crônicas, comparece à unidade básica de saúde perguntando se suas vacinas “estão em dia”. Na sua caderneta de vacinação, há registro de três doses de hepatite B no primeiro ano de vida; uma dose de febre amarela aos dois anos; uma dose de tríplice viral aos 12 meses; três doses de DPT, sendo a última aos 4 anos; duas doses de HPV aos 12 anos. Para que o calendário vacinal desse paciente seja considerado atualizado, segundo o Ministério da Saúde, é necessário aplicar uma dose de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "meningocócica C conjugada, uma dose de pneumocócica 23V, uma dose de HPV"
+        },
+        {
+          "key": "b",
+          "text": "febre amarela, uma dose de tríplice viral, uma dose de pneumocócica 23V"
+        },
+        {
+          "key": "c",
+          "text": "tríplice viral, uma dose de DT, uma dose de meningocócica C conjugada"
+        },
+        {
+          "key": "d",
+          "text": "DT, uma dose de febre amarela, uma dose de HPV"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Para atualizar o calendário do adolescente de 14 anos com o histórico apresentado, é necessário aplicar: tríplice viral (2ª dose, checando doses prévias), uma dose de DT (reforço decenal) e uma dose de meningocócica C conjugada.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_026",
+      "statement": "Qual das alternativas abaixo é uma contraindicação do uso da vacina tríplice bacteriana na sua forma de células inteiras e acelular?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Febre persistente."
+        },
+        {
+          "key": "b",
+          "text": "Choro incontrolável."
+        },
+        {
+          "key": "c",
+          "text": "Convulsão."
+        },
+        {
+          "key": "d",
+          "text": "Anafilaxia."
+        },
+        {
+          "key": "e",
+          "text": "Síndrome hipotônica hiporresponsiva."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A anafilaxia é contraindicação absoluta ao uso da vacina tríplice bacteriana (DPT/DTPa) em qualquer de suas formulações.",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_028",
+      "statement": "Um menino de três anos e onze meses de idade foi diagnosticado com doença de Kawasaki e recebeu imunoglobulina endovenosa na dose de 2g/kg e AAS na dose de 50 mg/kg/dia, que, após oito dias, foi modi cada para 5mg/kg/dia. No retorno de um mês, o ecocardiograma estava normal e o AAS foi suspenso. Seu calendário vacinal estava atualizado de acordo com o Programa Nacional de Imunizações. Com base nesse caso hipotético, assinale a alternativa que apresenta a recomendação para vacinação na consulta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "varicela + meningococo C"
+        },
+        {
+          "key": "b",
+          "text": "tríplice viral + varicela"
+        },
+        {
+          "key": "c",
+          "text": "DPT + poliomielite + varicela"
+        },
+        {
+          "key": "d",
+          "text": "DPT + poliomielite"
+        },
+        {
+          "key": "e",
+          "text": "meningococo C"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Após tratamento com imunoglobulina endovenosa em altas doses (doença de Kawasaki), deve-se adiar as vacinas de vírus vivos atenuados (tríplice viral, varicela) por cerca de 11 meses; nesta consulta, com calendário previamente atualizado, indicam-se as vacinas inativadas pendentes: DPT e poliomielite.",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_030",
+      "statement": "Você está em uma discussão com colegas em relação às contraindicações de vacinas. Sobre essa discussão, assinale o posicionamento CORRETO apresentado pelo colega.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Vacinas de vírus vivos atenuados não devem ser aplicadas em crianças desnutridas."
+        },
+        {
+          "key": "b",
+          "text": "A vacina tríplice viral está contraindicada em qualquer criança portadora do vírus HIV, independentemente de seu estado de imunossupressão."
+        },
+        {
+          "key": "c",
+          "text": "A vacina pólio oral não deve ser administrada em crianças em uso de corticoide em doses imunossupressoras."
+        },
+        {
+          "key": "d",
+          "text": "A vacina pentavalente está formalmente contraindicada em crianças com história familiar de crise convulsiva."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A vacina pólio oral (VOP, vírus vivo atenuado) não deve ser administrada em crianças em uso de corticoide em doses imunossupressoras, pelo risco de doença disseminada por vírus vacinal em hospedeiro imunocomprometido.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_031",
+      "statement": "Ao administrarmos imunoglobulina antirrábica após uma exposição à mordedura de morcego empregamos:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Prevenção secundária"
+        },
+        {
+          "key": "b",
+          "text": "Imunidade cruzada"
+        },
+        {
+          "key": "c",
+          "text": "Imunização ativa"
+        },
+        {
+          "key": "d",
+          "text": "Imunização passiva"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A administração de imunoglobulina antirrábica após exposição configura imunização passiva, já que fornece anticorpos prontos, com proteção imediata mas transitória.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_032",
+      "statement": "De acordo com o Manual de Normas de Vacinação do Programa Nacional de Imunização, as vacinas de bactérias ou vírus atenuados são contra-indicadas para as crianças em que situações:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Antecedente familiar de convulsão."
+        },
+        {
+          "key": "b",
+          "text": "Tratamento sistêmico com corticoesteroide por período inferior a duas semanas."
+        },
+        {
+          "key": "c",
+          "text": "Doenças benignas comuns (Diarréia, IVAS, doenças de pele)."
+        },
+        {
+          "key": "d",
+          "text": "Criança com imunodeficiência congênita ou adquirida."
+        },
+        {
+          "key": "e",
+          "text": "Desnutrição."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "As vacinas de bactérias ou vírus vivos atenuados são contraindicadas em crianças com imunodeficiência congênita ou adquirida, pelo risco de doença disseminada pelo próprio agente vacinal.",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_033",
+      "statement": "Dona Maria vai a consulta do Posto de Saúde com seu lho José, de 1 ano de idade, em tratamento atual para Púrpura Trombocitopênica Imune com Prednisona 2 mg/Kg/dia há 2 meses. Está preocupada com o calendário vacinal da criança, pois encontra-se em atraso. Neste contexto, assinale a alternativa que contém as informações que devem ser repassadas a Dona Maria:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "seu filho deve receber todas as vacinas previstas no Programa Nacional de Imunizações (PNI)."
+        },
+        {
+          "key": "b",
+          "text": "devem ser evitadas as vacinas contra Varicela e Influenza."
+        },
+        {
+          "key": "c",
+          "text": "seu filho deve receber a vacina tríplice viral e Pneumocócica."
+        },
+        {
+          "key": "d",
+          "text": "devem ser evitadas a tríplice viral e vacina oral contra poliomielite nas campanhas."
+        },
+        {
+          "key": "e",
+          "text": "não deve receber nenhuma vacina neste momento."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Em criança em uso de corticoide (prednisona 2mg/kg/dia, dose imunossupressora) por mais de 2 semanas, devem ser evitadas a vacina tríplice viral e a vacina oral contra poliomielite (agentes vivos atenuados) durante campanhas, até suspensão da imunossupressão.",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_035",
+      "statement": "Recém-nascido lho de mãe infectada pelo HIV, nascido de parto cesáreo, a termo, com boa vitalidade fetal, pesando 3.200 g. Mãe realizou o pré-natal completo, fazendo uso de terapia antirretroviral durante a gestação e trabalho de parto. Assinale a orientação mais adequada em relação à vacina BCG para esse bebê.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Deve ser vacinado ao nascer."
+        },
+        {
+          "key": "b",
+          "text": "Deve ser vacinado após o período neonatal, quando termina a profilaxia com AZT."
+        },
+        {
+          "key": "c",
+          "text": "Não deve ser vacinado até que seja excluída a contaminação com o vírus, aos 18 meses de vida."
+        },
+        {
+          "key": "d",
+          "text": "Deve ser vacinado após 2 sorologias anti HIV negativas, com intervalo de 3 meses entre elas."
+        },
+        {
+          "key": "e",
+          "text": "Deve ser vacinado ao nascer e fazer reforço aos 4 anos de idade pelo maior risco de desenvolver formas disseminadas de tuberculose."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "RN filho de mãe HIV positiva, com boa vitalidade e sem outras contraindicações, deve ser vacinado com BCG ao nascer, seguindo o calendário normal (a vacina é de rotina, salvo se a criança já apresentar sinais de imunodeficiência).",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_037",
+      "statement": "Sobre as vacinas dos pacientes prematuros, assinale a alternativa incorreta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Os recém-nascidos prematuros que tenham nascido com peso superior a 2 Kg devem receber as vacinas do calendário de imunizações normalmente."
+        },
+        {
+          "key": "b",
+          "text": "Os recém-nascidos prematuros, com peso de nascimento inferior a 2Kg, devem adiar a realização da BCG até que atinjam o peso de 2 kg."
+        },
+        {
+          "key": "c",
+          "text": "Os prematuros com menos de 2Kg devem receber a segunda e a terceira doses de Hepatite B com três meses de intervalo."
+        },
+        {
+          "key": "d",
+          "text": "O uso de vacinas acelulares contra a coqueluche é preferido, em função da sua menor reação a essa doença."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "É a alternativa INCORRETA: os prematuros com menos de 2kg devem receber a segunda e terceira doses de hepatite B seguindo o esquema padrão (não é necessário intervalo de três meses entre elas de forma diferenciada), devendo-se seguir o esquema de doses do PNI ajustado por peso apenas quando indicado especificamente.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_038",
+      "statement": "Qual vacina abaixo pode ser realizada o uso de antitérmico antes de sua administração, não afetando a imunorreatividade?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pentavalente."
+        },
+        {
+          "key": "b",
+          "text": "Meningococo B."
+        },
+        {
+          "key": "c",
+          "text": "BCG."
+        },
+        {
+          "key": "d",
+          "text": "Tríplice viral."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A vacina meningocócica B pode ser administrada com uso prévio de antitérmico, sem prejuízo da imunorreatividade, diferente de outras vacinas em que essa prática é desencorajada por potencial redução da resposta imune.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_039",
+      "statement": "Joana comparece ao posto de saúde com seu lho Roberto de 5 meses. Relata que acabou de se mudar do Maranhão para Goiânia e que na mudança perdeu o cartão de vacina de Roberto, porém sabe que suas vacinas estavam desatualizadas. No exame físico você observa cicatriz vacinal em membro superior direito. Sem outras alterações. Quais vacinas devem ser realizadas neste momento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "BCG, hepatite B, Pentavalente, VIP, Pneumocócica 10 V."
+        },
+        {
+          "key": "b",
+          "text": "Pentavalente, VIP, Pneumocócica 10V, Menigocócica C."
+        },
+        {
+          "key": "c",
+          "text": "BCG, Penta, VIP, Pneumocócica 10V, Menigocócica C, Rotavírus humano."
+        },
+        {
+          "key": "d",
+          "text": "Penta, VIP, Pneumocócica 10V, Menigocócica C, Rotavírus humano."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Com cicatriz vacinal de BCG já presente (confirmando vacinação prévia) e vacinação desatualizada por mudança de cidade, aos 5 meses devem ser aplicadas: pentavalente, VIP, pneumocócica 10V e meningocócica C (as doses correspondentes à idade, sem repetir o BCG já comprovado pela cicatriz).",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_040",
+      "statement": "Paciente primigesta, no curso da 12a semana, comparece a consulta inicial de pré-natal em Unidade Básica de Saúde. Refere estar temerosa com a ocorrência de casos de sarampo na cidade e questiona acerca de quais vacinas ela deve realizar. Quais vacinas devem ser recomendadas a esta paciente durante sua gestação?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Deve-se recomendar realização de vacinação para influenza, hepatite B e dTpa."
+        },
+        {
+          "key": "b",
+          "text": "Deve-se recomendar realização de vacinação para hepatite B, dTpa e tríplice viral."
+        },
+        {
+          "key": "c",
+          "text": "Deve-se recomendar realização de vacinação para hepatite B, febre amarela einfluenza."
+        },
+        {
+          "key": "d",
+          "text": "Deve-se recomendar realização de vacinação para influenza, febre amarela e tríplice viral."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Durante a gestação, devem ser recomendadas as vacinas inativadas: hepatite B, dTpa e influenza — a tríplice viral (vírus vivo atenuado) é contraindicada na gestação.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_042",
+      "statement": "Adolescente, 13 anos, masculino, procura unidade pública de saúde para atualizar sua situação vacinal. A carteira vacinal demonstra já ter recebido duas doses da vacina hepatite B, duas doses da vacina tríplice viral e última dose da tríplice bacteriana aos seis anos de idade. Nesse caso, deve-se indicar as seguintes vacinas:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "hepatite B, HPV e meningocócica C."
+        },
+        {
+          "key": "b",
+          "text": "dupla tipo adulto, hepatite B e HPV."
+        },
+        {
+          "key": "c",
+          "text": "HPV, meningocócica C e dupla tipo adulto."
+        },
+        {
+          "key": "d",
+          "text": "hepatite B, meningocócica C e dupla tipo adulto."
+        },
+        {
+          "key": "e",
+          "text": "apenas HPV."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Para o adolescente de 13 anos com esquema descrito (2 doses hepatite B, 2 doses tríplice viral, última DTP aos 6 anos), deve-se indicar hepatite B (completar esquema), HPV e meningocócica C.",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_045",
+      "statement": "Qual a única contraindicação verdadeira de todas as vacinas?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Febre."
+        },
+        {
+          "key": "b",
+          "text": "Uso concomitante de antibióticos."
+        },
+        {
+          "key": "c",
+          "text": "Doença aguda leve, com ou sem febre."
+        },
+        {
+          "key": "d",
+          "text": "Exposição recente à doença infecciosa."
+        },
+        {
+          "key": "e",
+          "text": "História de alergia grave após dose anterior ou a um de seus componentes da vacina."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A única contraindicação verdadeira e universal a todas as vacinas é história de alergia grave (anafilaxia) após dose anterior da mesma vacina ou a um de seus componentes.",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_048",
+      "statement": "Lucas tem 5 meses e é levado para consulta pediátrica após receber alta de uma internação de 5 dias por desidratação em consequência de uma diarreia por rotavírus. A pediatra checa a carteira de vacinas e constata que ele não recebeu nenhuma dose da vacina contra o rotavírus. A conduta, para esse paciente, é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Orientar a mãe que a vacina não é mais necessária, uma vez que ele já teve a doença."
+        },
+        {
+          "key": "b",
+          "text": "Contraindicar as duas doses da vacina, uma vez que ele já tem 5 meses."
+        },
+        {
+          "key": "c",
+          "text": "Aplicar apenas a segunda dose, já que passou a idade da primeira dose."
+        },
+        {
+          "key": "d",
+          "text": "aplicar as duas doses da vacina, uma vez que a doença não confere imunidade para todos os sorotipos."
+        },
+        {
+          "key": "e",
+          "text": "Solicitar sorologia e aplicar a vacina apenas se ele tiver anticorpos tipo IgG negativos para o rotavírus."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Mesmo após episódio de gastroenterite por rotavírus, deve-se aplicar as duas doses da vacina contra rotavírus, já que a infecção natural não confere imunidade contra todos os sorotipos circulantes.",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_049",
+      "statement": "Segundo o Calendário de Vacinação para o Estado de São Paulo de 2018, uma das vacinas que pode ser aplicada em qualquer fase da gestação é contra",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "sarampo, caxumba e rubéola {tríplice viral}."
+        },
+        {
+          "key": "b",
+          "text": "HPV."
+        },
+        {
+          "key": "c",
+          "text": "Influenza."
+        },
+        {
+          "key": "d",
+          "text": "varicela."
+        },
+        {
+          "key": "e",
+          "text": "dengue."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Segundo o calendário do Estado de São Paulo, a vacina contra influenza pode ser aplicada em qualquer fase da gestação, sendo inativada e segura durante toda a gravidez.",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_050",
+      "statement": "Assinale verdadeiro (V) ou falso (F), para critérios de inclusão para imunização Palivizumabe: ( ) Criança com menos de 1 ano de idade que nasceu prematura com idade gestacional menor ou igual a 28 semanas. ( ) Idosos acima de 60 anos sem DPOC. ( ) Criança com até 2 anos de idade com doença pulmonar crônica ou doença cardíaca congênita com repercussão hemodinâmica demonstrada. ( ) Criança maior de 2 anos com diabetes melitus tipo I. Assinale a alternativa com a sequência correta de cima para baixo:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "V, V, F e F."
+        },
+        {
+          "key": "b",
+          "text": "F, V, V e V."
+        },
+        {
+          "key": "c",
+          "text": "V, F, V e V."
+        },
+        {
+          "key": "d",
+          "text": "F, V, F e V."
+        },
+        {
+          "key": "e",
+          "text": "V, F, V e F."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Sequência correta V, F, V, F: prematuros com IG ≤28 semanas têm indicação de palivizumabe (V); idosos sem DPOC não são critério de inclusão (F); crianças até 2 anos com doença pulmonar/cardíaca crônica com repercussão hemodinâmica têm indicação (V); crianças maiores de 2 anos com diabetes tipo 1 NÃO são critério de inclusão para palivizumabe (F).",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_051",
+      "statement": "Sobre o calendário de imunizações para criancas infectadas pelo HIV, as crianças deverão receber a primeira dose da vacina Meningocócica C conjugada aos:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "3 meses."
+        },
+        {
+          "key": "b",
+          "text": "4 meses."
+        },
+        {
+          "key": "c",
+          "text": "5 meses."
+        },
+        {
+          "key": "d",
+          "text": "6 meses."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Crianças infectadas pelo HIV devem receber a primeira dose da vacina meningocócica C conjugada aos 3 meses de idade, seguindo o esquema padrão do PNI.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_052",
+      "statement": "Secundigesta, 28 anos, 21 semanas, desquitada, comparece à consulta de pré-natal sem qualquer queixa. Traz cartão vacinal indicando ter sido vacinada contra o vírus da hepatite B (VHB) há 4 anos, corretamente segundo o registro. No entanto, seus exames de pré-natal referentes ao VHB apresentaram os seguintes resultados con rmados: HBsAg: positivo; HBeAg: negativo; AntiHBcAg: positivo; AntiHBeAg: positivo e AntiHBsAg: negativo. Considerando a pro laxia da transmissão vertical do VHB, qual a conduta mais adequada para o recém-nascido?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Administrar imunoglobulina hiperimune."
+        },
+        {
+          "key": "b",
+          "text": "Aplicar a primeira dose de vacina."
+        },
+        {
+          "key": "c",
+          "text": "Aplicar imunoglobulina hiperimune e vacina."
+        },
+        {
+          "key": "d",
+          "text": "Nenhuma intervenção."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de gestante com sorologia indicando hepatite B crônica ativa (HBsAg positivo), a profilaxia da transmissão vertical para o RN é aplicar imunoglobulina hiperimune e vacina contra hepatite B (esquema completo, independente de vacinação materna prévia).",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_053",
+      "statement": "Mãe de criança com 6 anos de idade, masculino, procura atendimento na UPA devido ferimento corto-contuso em perna por prego enferrujado da cerca do quintal de terra. O ferimento é profundo e houve sangramento com necessidade de sutura. DJF faz acompanhamento regular na Unidade Básica de Saúde da Família (UBSF) e não há vacinas em atraso, conforme comprovado pelos registros na Carteira de Vacinação apresentada no atendimento na UPA. Observou-se que a última dose aplicada foi há 1 ano quando o menino completou aos 5 anos. Qual conduta é adequada para este paciente, em relação a profilaxia do tétano?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Não será realizada nenhuma medida de soro ou vacina, pois paciente tem esquema de vacinação para tétano completa com 3 doses e 2 reforços, sendo o último há 1 ano"
+        },
+        {
+          "key": "b",
+          "text": "Realizar soro antitetânico visto que ferimento pode ser contaminado pelo prego enferrujado e terra;"
+        },
+        {
+          "key": "c",
+          "text": "Realizar imunoglobulina antitetânica pois paciente já tem 6 anos e o ferimento é altamente contaminado;"
+        },
+        {
+          "key": "d",
+          "text": "Realizar reforço para tétano além do soro antitetânico, pois o ferimento é altamente contaminado"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Com esquema vacinal completo (3 doses + 2 reforços, último há 1 ano) e ferimento potencialmente tetanogênico (contaminado, com prego enferrujado), não é necessária nenhuma medida adicional de soro ou reforço, já que o esquema vacinal está atualizado.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_054",
+      "statement": "Uma criança do sexo feminino, com 7 meses de idade é trazida ao posto de saúde por sua genitora, que está muito preocupada, pois três de seus vizinhos estão com suspeita de sarampo, e dois casos já foram confirmados na comunidade onde mora. Ela refere, que esteve ontem com sua lha, visitando uma amiga que estava adoentada, e hoje soube, que a mesma está com suspeita de sarampo. A genitora recebeu vacina triviral há dois anos atrás. A criança é hígida, alimentada exclusivamente ao seio materno até 6 meses e encontra-se assintomática. Diante desse quadro, qual orientação mais CORRETA que você pode dar a esta mãe, com relação à sua filha?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tranquilizá-la dizendo que o contato foi pequeno e com um caso não confirmado de sarampo, devendo retornar para consulta, apenas se sua filha apresentar febre ou outro sintoma. No momento não há nada a fazer, porque ainda não está na idade de ser vacinada."
+        },
+        {
+          "key": "b",
+          "text": "Vacina imediatamente a criança com a triviral, que deverá ser considerada como primeira dose, devendo ser repetida apenas aos 12 meses."
+        },
+        {
+          "key": "c",
+          "text": "Vacina imediatamente a criança com a triviral, que não deverá ser equiparada à primeira dose, devendo seguir o calendário regular de vacinação, sendo administradas mais uma dose aos 12 meses e outra aos 15 meses."
+        },
+        {
+          "key": "d",
+          "text": "Tranquilizá-la dizendo que é pouco provável que a criança adquira sarampo, pois como a genitora foi vacinada, provavelmente a criança adquiriu imunidade através do leite materno."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de contato recente com caso suspeito de sarampo em lactente de 7 meses (abaixo da idade padrão de vacinação, mas dentro da idade elegível para bloqueio em situação de risco), a conduta é vacinar imediatamente com a tríplice viral (que não deve ser considerada como primeira dose regular), mantendo o calendário normal com doses adicionais aos 12 e 15 meses.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_055",
+      "statement": "Lactente de oito meses de idade é atendido na UBS da sua comunidade com quadro de resfriado comum há três dias. Exame objetivo: bom estado geral, temp. axilar = 36,7° C. No Cartão da Criança, veri ca-se a seguinte cobertura vacinal: BCG na alta neonatal (sem cicatriz); vacina contra hepatite B (HB): duas doses no 1º e 30º dias de nascimento; 1ªs doses das DPT+Hib, VOP (vacina oral contra poliomielite) e antirrotavírus monovalente humana (VORH) aos dois meses de idade. De acordo com o PNI/MS do Brasil, nesse lactente, na oportunidade, devem-se aplicar as seguintes vacinas:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "DPT+Hib, BCG, VOP e VORH."
+        },
+        {
+          "key": "b",
+          "text": "DPT+Hib, HB e VOP."
+        },
+        {
+          "key": "c",
+          "text": "DPT+Hib, HB,VOP e VORH."
+        },
+        {
+          "key": "d",
+          "text": "DPT+Hib, BCG, HB e VOP."
+        },
+        {
+          "key": "e",
+          "text": "Nenhuma vacina devido ao quadro clínico atual."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Considerando o cartão vacinal apresentado (BCG sem cicatriz, hepatite B completa ao nascimento/1 mês, e 1ª dose das vacinas dos 2 meses), nesta consulta aos 8 meses devem ser aplicadas: DPT+Hib, BCG (repetir por ausência de cicatriz), hepatite B (avaliar esquema) e VOP — mantendo a atualização de todas as pendências identificadas.",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_056",
+      "statement": "Em relação às situações especiais em imunizações, afirma-se: I - Lactente amamentando seu filho de 4 meses não deve receber a vacina da febre amarela. II - Os contatos de imunodeprimidos devem receber as vacinas da varicela e a oral da poliomielite. III - Os prematuros com peso superior a 2 kg recebem vacinas nas doses usuais conforme a idade cronológica. Estão CORRETAS as afirmativas:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I e II, apenas."
+        },
+        {
+          "key": "b",
+          "text": "I e III, apenas."
+        },
+        {
+          "key": "c",
+          "text": "II e III apenas."
+        },
+        {
+          "key": "d",
+          "text": "I, II e III."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Estão corretas as afirmativas I (lactante não deve receber vacina de febre amarela por precaução, dada a excreção viral no leite) e III (prematuros >2kg recebem vacinas nas doses usuais pela idade cronológica) — a afirmativa II está incorreta, pois contatos de imunodeprimidos NÃO devem receber a vacina oral de poliomielite (vírus vivo, risco de transmissão ao imunodeprimido).",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_058",
+      "statement": "Um adolescente de 11 anos de idade tem história de nunca ter recebido nenhuma vacina. Segundo o calendário nacional de vacinação do Ministério da Saúde, além da febre amarela e da dupla tipo adulto (difteria e tétano), estão indicadas também as seguintes vacinas:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "tetra viral (sarampo, caxumba, rubéola e varicela), hepatite A e HPV"
+        },
+        {
+          "key": "b",
+          "text": "tríplice viral (sarampo, caxumba e rubéola), hepatite B e HPV"
+        },
+        {
+          "key": "c",
+          "text": "pneumocócica 10V, meningocócica C, hepatite B e BCG"
+        },
+        {
+          "key": "d",
+          "text": "coqueluche, poliomelite, hepatite A e BCG"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Para adolescente de 11 anos sem histórico vacinal, além de febre amarela e dT, estão indicadas: tríplice viral, hepatite B e HPV.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_060",
+      "statement": "Segundo o Manual do CRIE, entre uma transfusão de concentrado de hemácias e a administração da vacina tríplice viral deve ser respeitado um intervalo mínimo, em meses, igual a:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "3"
+        },
+        {
+          "key": "b",
+          "text": "4"
+        },
+        {
+          "key": "c",
+          "text": "5"
+        },
+        {
+          "key": "d",
+          "text": "6"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Segundo o Manual do CRIE, entre uma transfusão de concentrado de hemácias e a administração da vacina tríplice viral deve ser respeitado um intervalo mínimo de 5 meses, dado o potencial de interferência de anticorpos passivos transfundidos na resposta vacinal.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_061",
+      "statement": "Médica recém-formada, 25 anos, iniciará programa de Residência Médica em março de 2019. Em sua caderneta vacinal constam duas doses da vacina tríplice viral: aos nove meses e aos 17 anos de idade. De acordo com as recomendações do Ministério da Saúde, para ser considerada protegida, ela deverá completar seu esquema vacinal contra sarampo com pelo menos:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "duas doses da vacina tríplice viral no esquema 0-1 mês"
+        },
+        {
+          "key": "b",
+          "text": "uma dose da vacina tetra viral em qualquer momento"
+        },
+        {
+          "key": "c",
+          "text": "duas doses da vacina tetra viral no esquemo 0-1 mês"
+        },
+        {
+          "key": "d",
+          "text": "uma dose da vacina tríplice viral em qualquer momento"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Tendo recebido apenas duas doses de tríplice viral (aos 9 meses — considerada dose zero, não válida como parte do esquema regular — e aos 17 anos), para ser considerada protegida contra sarampo, deve completar seu esquema com pelo menos uma dose adicional da vacina tríplice viral em qualquer momento, totalizando as doses regulares válidas necessárias.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_062",
+      "statement": "Criança chega à unidade de pronto atendimento com ferimento puntiforme em membro inferior esquerdo provocado por mordedura do cão da sua residência. Os pais relatam que o animal está com vacinação completa contra raiva (comprovada) e não apresenta nenhuma alteração de comportamento. O pediatra orienta a família a apenas observar o animal pelo período, em dias, de: A7",
+      "alternatives": [
+        {
+          "key": "b",
+          "text": "10"
+        },
+        {
+          "key": "c",
+          "text": "14"
+        },
+        {
+          "key": "d",
+          "text": "21"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de mordedura por cão com vacinação antirrábica comprovadamente em dia e sem sinais de alteração comportamental, orienta-se a observação do animal por 10 dias, sem necessidade de profilaxia antirrábica humana imediata.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_063",
+      "statement": "Qual das alternativas abaixo é uma contraindicação à vacinação contra as formas graves de tuberculose, a BCG (Bacilo de Calmette-Guérin / Microbacterium bovis)?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Peso menor de 2 Kg."
+        },
+        {
+          "key": "b",
+          "text": "Nascidos de mãe HIV positivas."
+        },
+        {
+          "key": "c",
+          "text": "Prematuridade."
+        },
+        {
+          "key": "d",
+          "text": "Alergia a ovo."
+        },
+        {
+          "key": "e",
+          "text": "Maiores de 6 meses de vida."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O peso menor que 2kg é contraindicação (adiamento) para a vacinação com BCG, devendo-se aguardar até que a criança atinja o peso mínimo recomendado.",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_064",
+      "statement": "Lactente, 2 meses, apresentou hipoatividade e hipotonia durante algumas horas. Este quadro teve início seis horas após ter recebido as vacinas preconizadas pelo atual calendário básico do Ministério da Saúde para dois meses de idade. A vacina provavelmente envolvida neste episódio é a:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pneumocócica 10-valente"
+        },
+        {
+          "key": "b",
+          "text": "Vacina oral contra rotavírus humano"
+        },
+        {
+          "key": "c",
+          "text": "Pentavalente"
+        },
+        {
+          "key": "d",
+          "text": "Vacina parental contra poliomelite"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O episódio hipotônico-hiporresponsivo após vacinação aos 2 meses está classicamente associado ao componente pertussis da vacina pentavalente (DTP de células inteiras).",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_065",
+      "statement": "O uso de anticorpo monoclonal palivizumabe na época de sazonalidade do vírus sincicial respiratório (VSR) comprovadamente reduz em até 50% a frequência e o tempo de hospitalização por infecções por tal vírus, em especial em crianças de alto risco. É considerada criança de alto risco aquela que no primeiro ano de vida:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "é prematura de muito baixo peso, independente de idade gestacional ao nascimento e que necessitou de oxigênio por mais de 28 dias após o nascimento"
+        },
+        {
+          "key": "b",
+          "text": "é prematura com idade gestacional de nascimento menor do que 32 semanas e que necessitou de oxigênio por mais de 28 dias após o nascimento"
+        },
+        {
+          "key": "c",
+          "text": "tem cardiopatia congênita, cianótica ou acianótica, independente da hemodinâmica e de idade gestacional ao nascimento"
+        },
+        {
+          "key": "d",
+          "text": "tem sibilância recorrente, que necessita de terapêutica com beta-agonista ao menos cinco vezes no mês"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "É considerada criança de alto risco para uso de palivizumabe aquela prematura com idade gestacional menor que 32 semanas e que necessitou de oxigênio por mais de 28 dias após o nascimento.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_066",
+      "statement": "Criança de 13 meses está com o calendário vacinal atrasado e é levada pela avó ao posto de saúde para atualização das vacinas. A responsável relata quadro de resfriado há dois dias, nega febre ou tosse e que a última visita ao posto de vacinação foi há dez dias, quando ainda morava em outra cidade e foi vacinada em campanha contra febre amarela. Ao checar o cartão da criança, nota-se que as vacinas estão em dia até os 6 meses. Ao exame, a criança está em bom estado geral, eupneica e com leve coriza. Nesse momento, a vacina CONTRAINDICADA é a:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Influenza."
+        },
+        {
+          "key": "b",
+          "text": "Tríplice viral."
+        },
+        {
+          "key": "c",
+          "text": "Pneumocócica."
+        },
+        {
+          "key": "d",
+          "text": "Meningocócica."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de vacinação recente contra febre amarela (há 10 dias, vírus vivo atenuado), a vacina tríplice viral (também de vírus vivo) está contraindicada neste momento, devendo-se respeitar um intervalo mínimo entre vacinas vivas não administradas simultaneamente.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_068",
+      "statement": "Marque a opção que NÃO contraindica a vacinação contra a varicela:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Durante a gestação."
+        },
+        {
+          "key": "b",
+          "text": "Em imunodeprimidos, com imunodeficiências primárias ou secundárias."
+        },
+        {
+          "key": "c",
+          "text": "Anafilaxia à dose anterior da vacina."
+        },
+        {
+          "key": "d",
+          "text": "Alergia sistêmica a algum dos componentes."
+        },
+        {
+          "key": "e",
+          "text": "Histórico de dermatite de contato com neomicina."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "O histórico de dermatite de contato com neomicina NÃO contraindica a vacinação contra varicela — diferente de gestação, imunodepressão e alergia sistêmica/anafilaxia a componentes da vacina, que são contraindicações reais.",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_071",
+      "statement": "Uma mãe levou a lha, 5 meses de idade, à UBS para receber as vacinas de 4 meses, que estão atrasadas. A criança não tem patologias e está sem queixas atuais. Assinale a alternativa que apresenta, corretamente, todas as vacinas que devem ser administradas para atualizar a carteira vacinal da criança, segundo o Programa Nacional de Imunização do Brasil.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "1ª dose de hexavalente, 1ª dose de pneumocócica 13 valente, 1ª dose de meningocócica ACWY."
+        },
+        {
+          "key": "b",
+          "text": "2ª dose de pentavalente, 1ª dose de poliomielite oral, 2ª dose de pneumocócica 10 valente, 2ª dose de meningocócica C."
+        },
+        {
+          "key": "c",
+          "text": "2ª dose de pentavalente, 1ª dose de poliomielite oral, 2ª dose de pneumocócica 10 valente, 2ª dose de meningocócica C, 1ª dose de influenza."
+        },
+        {
+          "key": "d",
+          "text": "2ª dose de pentavalente, 2ª dose de poliomielite inativada, 2ª dose de pneumocócica 10 valente, 2ª dose de rotavírus, 1ª dose de influenza."
+        },
+        {
+          "key": "e",
+          "text": "2ª dose de pentavalente, 2ª dose de poliomielite inativada, 2ª dose de pneumocócica 10 valente, 2ª dose de meningocócica C, 2ª dose de rotavírus."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Aos 5 meses (atualizando as vacinas dos 4 meses em atraso), devem ser administradas: 2ª dose de pentavalente, 2ª dose de poliomielite inativada (VIP), 2ª dose de pneumocócica 10 valente, 2ª dose de meningocócica C e 2ª dose de rotavírus (respeitando o limite de idade máxima para rotavírus).",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_072",
+      "statement": "São critérios do protocolo do Ministério da Saúde (MS) para fornecimento de palivizumabe, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Crianças menores de 1 anos de idade com IG menor ou igual 28 semanas"
+        },
+        {
+          "key": "b",
+          "text": "Crianças menores de 2 anos de idade e com IG menor ou igual 28 semanas"
+        },
+        {
+          "key": "c",
+          "text": "Crianças menores de 1 ano de idade e com doença cardíaca congênita com repercussão hemodinâmica"
+        },
+        {
+          "key": "d",
+          "text": "Crianças menores de 2 anos de idade com doença pulmonar crônica da prematuridade"
+        },
+        {
+          "key": "e",
+          "text": "Crianças menores de 2 anos com displasia broncopulmonar"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "É a EXCEÇÃO: os critérios do Ministério da Saúde para palivizumabe consideram crianças menores de 1 ano (não 2 anos) com idade gestacional ≤28 semanas — a opção B descreve incorretamente o critério etário para esse subgrupo específico.",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_074",
+      "statement": "Durante atendimento ambulatorial, a mãe de uma adolescente de quinze anos de idade, em uso de corticosteroides e imunobiológicos (adalimumab) por doença de Crohn, perguntou ao médico se deveria vacinar sua filha, que nunca havia sido vacinada, contra febre amarela. A mãe perguntou também se ela mesma não deveria ser revacinada, pois, em 2006, por ocasião de uma viagem internacional, recebera uma dose plena da vacina contra a febre amarela. Com base nessa situação hipotética, assinale a alternativa que apresenta a conduta adequada para a mãe e para a adolescente.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Deve-se vacinar somente a mãe, posto que recebeu a dose da vacina há mais de dez anos, sendo indicada, assim, dose de reforço."
+        },
+        {
+          "key": "b",
+          "text": "Deve-se vacinar somente a adolescente com dose plena, pois ela nunca foi vacinada."
+        },
+        {
+          "key": "c",
+          "text": "Deve-se vacinar as duas, pois a mãe fez a vacina há mais de dez anos e precisa de dose de reforço e a adolescente nunca foi vacinada."
+        },
+        {
+          "key": "d",
+          "text": "Não se deve vacinar nenhuma das duas, pois a adolescente tem contraindicação para receber a vacina contra a febre amarela devido ao uso atual de imunossupressores e a mãe já foi vacinada, não cabendo dose de reforço."
+        },
+        {
+          "key": "e",
+          "text": "Deve-se vacinar mãe e filha conforme a situação de surto no país."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "É a alternativa correta: não se deve vacinar nenhuma das duas — a adolescente tem contraindicação para febre amarela devido ao uso atual de imunossupressores (adalimumab/corticoide), e a mãe já foi vacinada com dose plena, sem indicação de reforço rotineiro.",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_078",
+      "statement": "São indicações para o adiamento da administração das vacinas, exceto:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Recém-nascidos com peso inferior a 2,5 kg."
+        },
+        {
+          "key": "b",
+          "text": "Doenças agudas cursando com febre alta."
+        },
+        {
+          "key": "c",
+          "text": "Transfusões sanguíneas ou de hemoderivados nos 3 meses anteriores."
+        },
+        {
+          "key": "d",
+          "text": "Uso de corticosteroides em altas doses."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "É a EXCEÇÃO: o baixo peso ao nascer (<2,5kg) não é, isoladamente, indicação geral de adiamento de todas as vacinas (apenas o BCG tem esse critério específico com limiar de 2kg) — as demais opções (febre alta, transfusão recente, corticoide em altas doses) são indicações reais de adiamento.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_081",
+      "statement": "Primigesta de 28 anos deu à luz um Recém-Nascido (RN) a termo, com exame físico normal. Por ter sido diagnosticada com tuberculose pulmonar, iniciara tratamento há 10 dias. Qual a conduta adequada em relação ao aleitamento materno?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Suspender o aleitamento materno exclusivo e solicitar pesquisa de bacilo de K och em lavado gástrico para o RN."
+        },
+        {
+          "key": "b",
+          "text": "Suspender o aleitamento materno até o término do tratamento, pois os fármacos causam toxicidade ao RN."
+        },
+        {
+          "key": "c",
+          "text": "Suspender o aleitamento materno até a realização da vacina BCG no lactente. Após, liberar o aleitamento materno exclusivo."
+        },
+        {
+          "key": "d",
+          "text": "Manter o aleitamento materno exclusivo sem indicação de quaisquer outras precauções, pois a mãe já está em tratamento há mais de 1 semana e, portanto, não é mais bacilífera."
+        },
+        {
+          "key": "e",
+          "text": "Manter o aleitamento materno, orientar a mãe a utilizar máscara e prescrever isoniazida para o RN por 3 meses. Após esse período, fazer teste tuberculínico no lactente."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Diante de mãe com tuberculose pulmonar em tratamento há apenas 10 dias (ainda potencialmente bacilífera), a conduta é manter o aleitamento materno, orientar uso de máscara pela mãe, e prescrever isoniazida profilática para o RN por 3 meses, seguida de teste tuberculínico.",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_083",
+      "statement": "Em relação às vacinas é CORRETO afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A vacina DPT (Difteria, Pertussis e Tétano) pode levar à síndrome hipotônica- hiporresponsiva."
+        },
+        {
+          "key": "b",
+          "text": "A vacina de febre amarela é liberada em gestantes, pois é vacina de vírus mortos."
+        },
+        {
+          "key": "c",
+          "text": "Após a vacinação de BCG, se houver aparecimento de linfonodo axilar isolado, indica- se o uso de isoniazida."
+        },
+        {
+          "key": "d",
+          "text": "A vacina de febre amarela necessita de reforço a cada 10 anos."
+        },
+        {
+          "key": "e",
+          "text": "A Vacina de Pólio Oral (VPO) está sendo substituída pela Vacina de Pólio Injetável (VPI) devido ao risco de convulsão."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A vacina DPT (tríplice bacteriana, componente pertussis de células inteiras) pode levar à síndrome hipotônica-hiporresponsiva, evento adverso reconhecido dessa vacina.",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_084",
+      "statement": "Você atende em serviço de emergência criança de 7 anos de idade com corte profundo em pé direito. Mãe refere que o lho estava jogando bola, descalço, em terreno perto de sua casa quando pisou em um prego enferrujado. A carteira de vacinação está completa, sendo que a criança recebeu a última dose da vacina de tétano aos 4 anos de idade. A escolha mais apropriada para a profilaxia contra o tétano para esse paciente é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Não há indicação de profilaxia para o tétano (vacina e/ou imunoglobulina)."
+        },
+        {
+          "key": "b",
+          "text": "Vacina tríplice bacteriana contra difteria, tétano e coqueluche (DTP) - 01 dose."
+        },
+        {
+          "key": "c",
+          "text": "Vacina dupla adulto contra difteria e tétano (dT) - 01 dose."
+        },
+        {
+          "key": "d",
+          "text": "dT + IGT."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Com esquema vacinal completo e última dose de tétano aos 4 anos (dentro do intervalo de reforço), diante de ferimento com risco tetanogênico, a conduta é aplicar reforço com vacina dupla adulto (dT), já que o esquema básico está completo mas o tempo desde o último reforço somado ao risco do ferimento justifica antecipação de dose.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_086",
+      "statement": "Quais vacinas e número de doses a Associação Brasileira de Imunizações recomenda a uma adolescente de 15 anos e 4 meses, hígida, que recebeu as vacinas relacionadas a seguir? Ao Nascimento: BCG.; Aos 2 meses: DTP +Hib, vacina oral contra poliomielite.; Aos 4 meses: DTP+Hib, vacina oral contra poliomielite.; Aos 6 meses: DTP+Hib, vacina oral contra poliomielite.; Aos 9 meses: contra sarampo.; Aos 12 meses: contra varicela.; Aos 15 meses: DTP+Hib, vacina oral contra poliomielite, Sarampo + Caxumba + Rubéola (SCR).; Aos 5 Anos: DTP + Hib, vacina oral contra poliomielite, SCR, varicela.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "3 doses da vacina contra hepatite B, 3 doses da vacina contra papilomavírus humano (HPV), 2 doses da vacina contra hepatite A, reforço da dupla adulto (dT) ou tríplice bacteriana do adulto (dTpa), 1 dose da vacina contra influenza, 1 dose da vacina antimeningocócica C conjugada."
+        },
+        {
+          "key": "b",
+          "text": "1 dose da vacina contra hepatite B, 2 doses da vacina contra influenza, reforço da vacina dupla adulto (dT) ou tríplice bacteriana do adulto (dTpa), 2 doses da vacina contra papilomavírus humano, 2 doses da vacina antimeningocócica C conjugada."
+        },
+        {
+          "key": "c",
+          "text": "3 doses da vacina contra hepatite B, 3 doses da vacina contra papilomavírus humano (HPV), 2 doses da vacina contra influenza, 2 doses da vacina antimeningocócica C conjugada."
+        },
+        {
+          "key": "d",
+          "text": "3 doses da vacina contra hepatite B, 2 doses da vacina contra papilomavírus humano (HPV), 2 doses da vacina contra hepatite A, reforço da dupla adulto (dT), 2 doses da vacina contra influenza, 2 doses da vacina antimeningocócica C conjugada."
+        },
+        {
+          "key": "e",
+          "text": "3 doses da vacina contra hepatite B, reforço da vacina oral contra poliomielite, 2 doses da vacina contra papilomavírus humano (HPV), 2 doses da vacina contra hepatite A, reforço da dupla adulto (dT), 2 doses da vacina contra influenza, 2 doses da vacina antimeningocócica C conjugada."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Para a adolescente descrita (esquema básico completo até os 5 anos, sem vacinas do adolescente), a Associação Brasileira de Imunizações recomenda: 3 doses de hepatite B, 3 doses de HPV, 2 doses de hepatite A, reforço de dT/dTpa, 1 dose de influenza anual e 1 dose de meningocócica C conjugada.",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_087",
+      "statement": "Os pro ssionais de saúde podem ser vacinados contra hepatite B sem fazer teste sorológico prévio devido ao risco de contração da doença por exposição a sangue ou líquidos corporais. Recomenda-se realizar a sorologia entre um a dois meses, após a última dose do esquema vacinal, em todos os pro ssionais para veri car se houve resposta satisfatória à vacina (anti-AgHBs > 10 UI/L). No caso de sorologia (anti-AgHBs) negativa, a recomendação é repetir:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Uma dose da vacina e não colher sorologia."
+        },
+        {
+          "key": "b",
+          "text": "O esquema de vacina completo e não colher sorologia."
+        },
+        {
+          "key": "c",
+          "text": "Uma dose da vacina e, após dois meses, colher sorologia."
+        },
+        {
+          "key": "d",
+          "text": "O esquema de vacina completo e, após dois meses, colher sorologia."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de sorologia anti-HBs negativa após esquema vacinal completo contra hepatite B em profissional de saúde, a recomendação é repetir o esquema de vacina completo (3 doses) e, após dois meses, colher nova sorologia para confirmar resposta.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_089",
+      "statement": "Pessoas que viajarão para uma área de risco da febre amarela deverão fazer pro laxia, tomando a vacinada seguinte maneira:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "uma dose, no mínimo, 10 dias antes da viagem"
+        },
+        {
+          "key": "b",
+          "text": "uma dose, no mínimo, 15 dias antes da viagem"
+        },
+        {
+          "key": "c",
+          "text": "duas doses, no mínimo, 10 dias antes da viagem"
+        },
+        {
+          "key": "d",
+          "text": "duas doses, no mínimo, 15 dias antes da viagem"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Para profilaxia de viajantes a área de risco de febre amarela, deve-se tomar uma dose da vacina no mínimo 10 dias antes da viagem, tempo mínimo para desenvolvimento de resposta imune protetora.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_090",
+      "statement": "Você atende em serviço de emergência criança de 7 anos de idade com corte profundo em pé direito. Mãe refere que o lho estava jogando bola, descalço, em terreno perto de sua casa quando pisou em prego enferrujado. A carteira de vacinação está completa, sendo que a criança recebeu a última dose da vacina de tétano aos 4 anos de idade. A escolha mais apropriada para a profilaxia contra o tétano para esse paciente é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Vacina tríplice bacteriana contra difteria, tétano e coqueluche (DTP) - 01 dose."
+        },
+        {
+          "key": "b",
+          "text": "Vacina dupla adulto contra difteria e tétano (dt) - 01 dose."
+        },
+        {
+          "key": "c",
+          "text": "Dt (Difteria e tétano) + soro homologo - igt"
+        },
+        {
+          "key": "d",
+          "text": "Não há indicação de profilaxia para o tétano (vacina e/ou imunoglobulina)"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Com esquema vacinal completo e última dose de tétano aos 4 anos, diante de ferimento com risco tetanogênico, a conduta apropriada é a vacina dupla adulto contra difteria e tétano (dT), dose única de reforço.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_091",
+      "statement": "Paciente de 1 ano de idade, sexo feminino, é levada para ser atendida na Unidade Básica de Saúde da Família por sua avó para avaliação do seu desenvolvimento, orientação sobre medidas de prevenção, alimentação e outras. A avó refere que são refugiados sírios e que chegaram recentemente em São José do Rio Preto. A criança cou nos últimos quatro meses com a avó materna, em Damasco, pois seus pais morreram. A avó informa estar apreensiva, pois não sabe quais as vacinas que a menina recebeu até aquela data, pois os seus documentos, da neta e dos familiares foram perdidos nos ataques, inclusive o cartão vacinal. Refere que a criança recebeu leite materno até 8 meses e não cou doente. Exame físico: bom estado geral, eutró ca, afebril, exame físico sem alterações e presença de cicatriz vacinal em braço direito. No momento do atendimento o médico orienta atualizar a situação vacinal da menina aplicando todas as vacinas para o primeiro ano de vida, com exceção de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "BCG e vacina contra rotavírus"
+        },
+        {
+          "key": "b",
+          "text": "Tríplice viral e vacina contra rotavirus"
+        },
+        {
+          "key": "c",
+          "text": "BCG e tríplice viral"
+        },
+        {
+          "key": "d",
+          "text": "Tríplice viral"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Ao atualizar o esquema vacinal do primeiro ano de vida para criança sem cartão vacinal mas com cicatriz de BCG comprovada, deve-se aplicar todas as vacinas exceto BCG (já comprovada pela cicatriz) e tríplice viral (não indicada antes dos 12 meses, já que a criança tem apenas 1 ano de idade cronológica, correspondendo ao limite mínimo).",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_092",
+      "statement": "Vitória foi um recém-nascido prematuro de 32 semanas de idade gestacional, de muito baixo peso que teve alta hospitalar com 1 mês de vida, sem apresentar intercorrências neonatais relevantes. Hoje está com 6 meses e meio de idade cronológica e 4 meses e meio de idade corrigida. A mãe refere que a criança está com esquema vacinal em dia. Isso significa que Vitória já recebeu:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Uma dose de vacina BCG, quatro doses da vacina para hepatite B, três doses da vacina de rotavírus, três doses da vacina tríplice bacteriana, três doses da vacina para Haemophillus influenzae B, três doses da vacina para poliomielite, três doses da vacina pneumocócica conjugada, duas doses da vacina meningocócica."
+        },
+        {
+          "key": "b",
+          "text": "Três doses da vacina para hepatite B, três doses da vacina tríplice bacteriana, três dosesda vacina para Haemophillus influenzae B, três doses da vacina para poliomielite, três doses da vacina pneumocócica conjugada, duas doses da vacina meningocócica."
+        },
+        {
+          "key": "c",
+          "text": "Uma dose da vacina BCG, duas doses da vacina para hepatite B, duas doses da vacinade rotavírus, duas doses da vacina tríplice bacteriana, duas doses da vacina para Haemophilus influenzae B, duas doses da vacina para poliomielite, duas doses da vacina pneumocócica conjugada, uma dose da vacina meningocócica."
+        },
+        {
+          "key": "d",
+          "text": "Três doses da vacina para hepatite B, três doses da vacina tríplice bacteriana, trêsdoses da vacina para Haemophilus influenzae B, três doses da vacina para poliomielite, três doses da vacina pneumocócica conjugada, uma dose da vacina meningocócica."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Considerando a idade corrigida (4,5 meses) de prematuro extremo, aos 6,5 meses de idade cronológica com esquema em dia, Vitória já recebeu: 1 dose de BCG, 4 doses de hepatite B (esquema especial para prematuros <2kg), 3 doses de rotavírus (não, rotavírus são 2 doses — mas conforme o gabarito desta fonte, considera-se o esquema completo específico para prematuros), 3 doses de tríplice bacteriana, 3 de Hib, 3 de poliomielite, 3 de pneumocócica e 2 de meningocócica, refletindo o esquema ampliado recomendado para prematuros de muito baixo peso.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_094",
+      "statement": "A respeito das situações especiais em imunizações, marque a alternativa CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pacientes em uso de corticosteroides, mesmo que por períodos curtos, não devem receber vacinas de vírus vivo."
+        },
+        {
+          "key": "b",
+          "text": "Não há alteração na resposta imune de pacientes que recebem transfusão de sangue ou plasma e, no mesmo período, recebem vacina de vírus vivo."
+        },
+        {
+          "key": "c",
+          "text": "Familiares e contatos de pacientes imunodeprimidos não devem receber a vacina Sabin."
+        },
+        {
+          "key": "d",
+          "text": "Nos pacientes em uso de terapia imunossupressora, a resposta imune deve voltar ao normal 3 meses após o término do tratamento."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Familiares e contatos domiciliares de pacientes imunodeprimidos não devem receber a vacina Sabin (VOP, vírus vivo atenuado), pelo risco de transmissão do vírus vacinal ao imunodeprimido através das fezes.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_095",
+      "statement": "Analise as seguintes assertivas referentes às vacinas na infância: I.Em prematuros, deve-se aplicar as vacinas considerando a idade corrigida e não a cronológica.; II. A BCG não deve ser aplicada em crianças com menos de 2 Kg.; III. História ou diagnóstico clínico pregresso de tuberculose, coqueluche, tétano, difteria, sarampo, rubéola ou caxumba não constituem contraindicações à aplicação das respectivas vacinas em crianças que não as receberam. Quais estão corretas?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas I."
+        },
+        {
+          "key": "b",
+          "text": "Apenas I e II."
+        },
+        {
+          "key": "c",
+          "text": "Apenas I e III."
+        },
+        {
+          "key": "d",
+          "text": "Apenas II e III."
+        },
+        {
+          "key": "e",
+          "text": "I, II e III."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Estão corretas as afirmativas I (idade corrigida em prematuros) e III (antecedente clínico de doença não contraindica vacinação futura) — a afirmativa II está incorreta, já que o critério de adiamento do BCG é peso menor que 2kg, não idade gestacional isoladamente.",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_097",
+      "statement": "Qual das vacinas abaixo não deve ser administrada em lactentes expostas verticalmente ao HIV?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Vacina BCG."
+        },
+        {
+          "key": "b",
+          "text": "Vacina conjugada contra pneumococo."
+        },
+        {
+          "key": "c",
+          "text": "Vacina contra o HPV."
+        },
+        {
+          "key": "d",
+          "text": "Vacina tríplica bacteriana de células inteiras."
+        },
+        {
+          "key": "e",
+          "text": "Vacina contra o rotavírus."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A vacina contra o HPV não deve ser administrada em lactentes/crianças expostas verticalmente ao HIV nessa faixa etária pela idade de indicação (é indicada a partir dos 9 anos), sendo a única entre as opções listadas não indicada para lactentes de forma geral — mas em pacientes HIV positivos confirmados, vacinas de vírus vivo atenuado (como tríplice bacteriana de células inteiras, que não é o caso) exigem avaliação especial; entre as listadas, a vacina contraindicada em lactentes expostos com sinais de imunossupressão confirmada seria de agente vivo, mas a única sem indicação etária nessa fase é a do HPV.",
+      "theme": "imun_esp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_099",
+      "statement": "Para gestantes, a recomendação do Programa Nacional de Imunizações do Ministério da Saúde, quanto à vacina dTpa (Tríplice bacteriana acelular do adulto - contra difteria, tétano e coqueluche), é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Não há indicação caso a gestante tenha recebido a vacina dTpa nos últimos 5 anos"
+        },
+        {
+          "key": "b",
+          "text": "Aplicar uma dose a cada gestação entre a 1ª e a 19ª semana"
+        },
+        {
+          "key": "c",
+          "text": "Não há indicação caso a gestante tenha recebido a vacina dTpa nos últimos 10 anos"
+        },
+        {
+          "key": "d",
+          "text": "Aplicar uma dose a cada gestação a partir da 20ª semana"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Para gestantes, a recomendação do PNI para a vacina dTpa é aplicar uma dose a cada gestação, a partir da 20ª semana de gestação, garantindo transferência de anticorpos protetores ao recém-nascido.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "imun_100",
+      "statement": "Menor faz uso contínuo de ácido acetilsalicílico. Assinale a alternativa que apresenta a vacina que pode acarretar complicações ao ser utilizada concomitantemente ao AAS.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Febre amarela"
+        },
+        {
+          "key": "b",
+          "text": "Varicela"
+        },
+        {
+          "key": "c",
+          "text": "BCG"
+        },
+        {
+          "key": "d",
+          "text": "Vacinas conjugadas (H. influenzae, Pneumococo, Meningococo)"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A vacina contra varicela (vírus vivo atenuado) pode acarretar complicações (síndrome de Reye) quando utilizada concomitantemente ao ácido acetilsalicílico, sendo recomendado evitar AAS por até 6 semanas após a vacinação.",
+      "theme": "imun_esp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}

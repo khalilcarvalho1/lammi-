@@ -724,6 +724,7 @@ export const AREAS: Area[] = [
           { id: 'neo_icter',    label: 'Icterícia neonatal' },
           { id: 'neo_pre',      label: 'Prematuridade' },
           { id: 'neo_sepse',    label: 'Sepse neonatal' },
+          { id: 'neo_resp',     label: 'Distúrbios respiratórios neonatais' },
         ]
       },
       {
@@ -760,6 +761,7 @@ export const AREAS: Area[] = [
           { id: 'ped_pals',  label: 'PCR pediátrico (PALS)' },
           { id: 'ped_asma',  label: 'Asma aguda grave' },
           { id: 'ped_mening',label: 'Meningite' },
+          { id: 'ped_choque',label: 'Choque pediátrico' },
         ]
       },
       {
@@ -780,6 +782,11 @@ export const AREAS: Area[] = [
       {
         id: 'ped_hebiatria',
         label: 'Hebiatria (Adolescência)',
+        subtemas: []
+      },
+      {
+        id: 'ped_alergia_alim',
+        label: 'Alergia Alimentar',
         subtemas: []
       },
     ]
