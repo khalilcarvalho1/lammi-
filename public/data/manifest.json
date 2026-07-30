@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T16:30:59.879Z",
+  "generatedAt": "2026-07-30T16:43:06.491Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,7 +26,7 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 3301,
+  "totalQuestions": 3393,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
@@ -93,7 +93,8 @@
     "tb_lat": 75,
     "psi_somatoformes": 55,
     "psi_trauma": 14,
-    "ans_toc": 31
+    "ans_toc": 31,
+    "psi_alimentares": 92
   },
   "flashcardThemeCounts": {
     "atls_choque": 3,
@@ -2852,8 +2853,10 @@
     {
       "area": "psiquiatria",
       "slug": "transtornos-alimentares",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "psi_alimentares"
+      ],
+      "questionsCount": 92,
       "flashcardsCount": 0,
       "casosCount": 0
     },

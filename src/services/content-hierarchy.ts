@@ -1148,6 +1148,11 @@ export const AREAS: Area[] = [
         label: 'Transtornos Relacionados a Trauma e Estresse',
         subtemas: []
       },
+      {
+        id: 'psi_alimentares',
+        label: 'Transtornos Alimentares',
+        subtemas: []
+      },
     ]
   },
 
