@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T14:02:11.988Z",
+  "generatedAt": "2026-07-30T14:16:04.902Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,7 +26,7 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 2914,
+  "totalQuestions": 3014,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
@@ -71,6 +71,7 @@
     "orto_trauma_basico": 32,
     "ped_aleitamento": 99,
     "ped_bronco": 2,
+    "cresce_dnpm": 100,
     "ped_exant": 97,
     "ped_congenitas": 200,
     "pneumo_outros": 6,
@@ -2424,8 +2425,10 @@
     {
       "area": "pediatria",
       "slug": "desenvolvimento",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "cresce_dnpm"
+      ],
+      "questionsCount": 100,
       "flashcardsCount": 0,
       "casosCount": 0
     },

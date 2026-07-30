@@ -1,1 +1,2852 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "dnpm_001",
+      "statement": "Miguel é uma criança de 3 meses, que foi levada por sua mãe, Rafaela, para consulta de puericultura. Miguel nasceu com peso de 3450g, perímetro cefálico de 34cm e 48cm de comprimento; seu exame físico, hoje, apresenta as seguintes medidas: peso de 6830g, perímetro cefálico de 41cm e comprimento de 61cm. Quando questionada, Rafaela traz algumas preocupações: refere que está preocupada com o peso de Miguel, pois acha que produz pouco leite; está preocupada também com o desenvolvimento do bebê e se ele já não deveria estar sentando. Ao conferir o cartão de vacinas de Miguel, o médico da UBS verifica as seguintes vacinas no cartão: BCG, DTP, Hib, VIP e pneumo conjugada. Considerando o caso descrito e seus conhecimentos, julgue o item a seguir. Pelo relato de Rafaela, Miguel apresenta atraso no desenvolvimento, pois, nessa idade, já é esperado que a criança sente sem apoio.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Sentar sem apoio é um marco esperado por volta dos 8-9 meses de vida, não aos 3 meses — portanto, o fato de Miguel ainda não sentar aos 3 meses NÃO caracteriza atraso de desenvolvimento. A afirmativa está Errada.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_002",
+      "statement": "Menina de 9 meses foi trazida à UBS para atendimento em puericultura. Ao ser aplicado o Instrumento dos Marcos de Desenvolvimento, que integra a Caderneta da Criança, foi constatado, pela 1a vez, que a criança não desenvolvera 2 habilidades para a faixa etária. Até então, vinha sendo capaz de dar conta de todos os itens do Instrumento para a faixa etária correspondente. Diante desse cenário e segundo as orientações contidas na referida Caderneta, como a criança deve ser classificada e qual a conduta a ser adotada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Desenvolvimento adequado – Aplicar o Instrumento na próxima consulta."
+        },
+        {
+          "key": "b",
+          "text": "Desenvolvimento adequado – Aplicar o Instrumento em 30 dias."
+        },
+        {
+          "key": "c",
+          "text": "Alerta para o desenvolvimento – Aplicar o Instrumento em 30 dias."
+        },
+        {
+          "key": "d",
+          "text": "Provável atraso no desenvolvimento – Acionar a rede de atenção especializada para avaliação do desenvolvimento."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Segundo o Instrumento de Vigilância do Desenvolvimento da Caderneta da Criança (MS), quando a criança que sempre cumpria todos os itens para a idade deixa de apresentar, pela primeira vez, 2 habilidades esperadas, ela é classificada como 'Alerta para o desenvolvimento' — a conduta é reaplicar o instrumento em 30 dias, e não encaminhar de imediato para a rede especializada (reservado para casos de provável atraso).",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_003",
+      "statement": "A avaliação do desenvolvimento dos re exos primitivos da criança, a partir do nascimento, permite determinar a integridade do sistema nervoso central, de acordo com a idade cronológica. O re exo de Moro deve estar presente no recém-nascido a termo desde o nascimento. Em relação ao período máximo de idade em que pode persistir, dentro de um cenário de normalidade do desenvolvimento, assinalar a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "2 meses de vida."
+        },
+        {
+          "key": "b",
+          "text": "4 meses de vida."
+        },
+        {
+          "key": "c",
+          "text": "6 meses de vida."
+        },
+        {
+          "key": "d",
+          "text": "8 meses de vida."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O reflexo de Moro é considerado normal quando presente desde o nascimento e persiste, no máximo, até por volta dos 6 meses de vida; sua permanência além dessa idade é sinal de alerta neurológico.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_004",
+      "statement": "Para que um recém-nascido, 15 dias de vida, nascido a termo por parto normal, em aleitamento materno exclusivo, tenha seu desenvolvimento motor considerado como adequado,",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "ele deve apresentar tônus flexor dos membros associado à hipotonia axial, preensão palmar reflexa e reflexo de sucção."
+        },
+        {
+          "key": "b",
+          "text": "ele deve apresentar reflexo da marcha reflexa, reflexo de procura; ao posicionar a cabeça para o lado direito, mantém o braço direito em extensão e a perna direita e membros esquerdos em flexão."
+        },
+        {
+          "key": "c",
+          "text": "a musculatura cervical deve manter, em decúbito ventral, a cabeça elevada em 45 graus, com os cotovelos posicionados atrás das orelhas."
+        },
+        {
+          "key": "d",
+          "text": "ele deve, em decúbito ventral, levantar a cabeça, apoiar-se nos antebraços, segurar as roupas e cabelos quando no colo e objetos próximos."
+        },
+        {
+          "key": "e",
+          "text": "ele deve apresentar movimentação ativa dos membros superiores e inferiores, abertura espontânea das mãos e reflexo de sucção."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O recém-nascido de 15 dias com desenvolvimento motor adequado apresenta classicamente tônus flexor dos membros associado à hipotonia axial, preensão palmar reflexa e reflexo de sucção — o padrão típico do neonato a termo.",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_005",
+      "statement": "Menino de 2 anos e 3 meses comparece ao ambulatório com a avó. Preocupada com o desenvolvimento da criança, a senhora relata que, diferente de seus outros netos, o paciente ainda não fala nenhuma palavra, embora emita sons, escute bem e aponte o que deseja. A avó nega história de prematuridade, as xia perinatal ou comorbidades e o menino não apresenta prejuízo no desenvolvimento motor ou na interação social. Nesse caso, em relação à investigação, o médico deve:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "orientar a avó sobre o desenvolvimento do menino que será acompanhado sem intervenção imediata"
+        },
+        {
+          "key": "b",
+          "text": "solicitar ressonância magnética do crânio e eletroencefalograma para fechar o diagnóstico"
+        },
+        {
+          "key": "c",
+          "text": "excluir o diagnóstico de deficiência auditiva, tomando como base o relato da avó"
+        },
+        {
+          "key": "d",
+          "text": "encaminhar o menino para avaliação multidisciplinar e terapias de estímulo"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Uma criança de 2 anos e 3 meses sem nenhuma palavra, apesar de boa audição, compreensão e interação social preservadas, apresenta atraso isolado de linguagem — a conduta é encaminhar para avaliação multidisciplinar (fonoaudiologia/estimulação), não apenas observar sem intervenção.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_006",
+      "statement": "Durante uma consulta de rotina de puericultura, a mãe de uma criança de 8 meses relata que está preocupada porque o seu lho ainda não consegue sentar sem apoio. A criança nasceu a termo e não há outras queixas; teste do pezinho: sem alterações. Você observa, durante a consulta, que a criança necessita de auxílio para passar da posição supina para a sentada, mas uma vez nessa posição permanece estável, sem cair. Restante do exame físico sem alterações. Qual a melhor conduta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Manter retorno regular de puericultura."
+        },
+        {
+          "key": "b",
+          "text": "Solicitar dosagem sérica de TSH e T4 livre."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar eletroneuromiografia e dosagem sérica de CPK."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar tomografia computadorizada de crânio."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Aos 8 meses, é normal que a criança ainda precise de auxílio para assumir a posição sentada, desde que, uma vez sentada, permaneça estável sem cair (controle de tronco presente) — achado dentro da normalidade, mantendo puericultura de rotina sem necessidade de exames complementares.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_007",
+      "statement": "Uma criança do sexo masculino, com 11 meses de idade, é avaliada quanto ao seu desenvolvimento em consulta de rotina. A mãe pergunta ao pediatra se a criança está com o desenvolvimento adequado. Considerando que a criança já atingiu os marcos do desenvolvimento esperados em idades anteriores, neste momento, para que esta criança seja considerada como tendo seu desenvolvimento normal, espera-se que ela",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "mostre o que quer; empilhe três blocos e ande sem apoio."
+        },
+        {
+          "key": "b",
+          "text": "imite gestos; coloque blocos na caneca e fique parada em um pé só."
+        },
+        {
+          "key": "c",
+          "text": "imite gestos; faça pinça e ande com apoio."
+        },
+        {
+          "key": "d",
+          "text": "mostre o que quer; coloque blocos na caneca e ande sem apoio."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Aos 11 meses, espera-se que a criança imite gestos, faça pinça e ande com apoio — marcos típicos da faixa de 9 a 12 meses; andar sem apoio só é esperado depois, por volta de 12-15 meses.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_008",
+      "statement": "Uma senhora vem à consulta de rotina e deseja saber do médico algumas das características de desenvolvimento normais para seu filho de 15 meses de idade. Assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "É precária a demonstração de afeto por pessoas conhecidas."
+        },
+        {
+          "key": "b",
+          "text": "Nessa idade, a criança já regulou os acessos de raiva quando frustrada."
+        },
+        {
+          "key": "c",
+          "text": "A criança ainda não compartilha, com os outros objetos, que considera interessante."
+        },
+        {
+          "key": "d",
+          "text": "A criança já é capaz de explorar sozinha o ambiente em que está na presença vigilante dos pais."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Aos 15 meses, é esperado que a criança já explore o ambiente de forma autônoma na presença vigilante dos pais (comportamento exploratório típico do toddler) — compartilhar objetos e regular birras são aquisições mais tardias (2-3 anos).",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_009",
+      "statement": "Considere a descrição abaixo, referente a um reflexo evidenciado pelo pediatra ao examinar um recém-nascido. A descrição corresponde ao reflexo de",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Moro."
+        },
+        {
+          "key": "b",
+          "text": "Magnus e Kleijn."
+        },
+        {
+          "key": "c",
+          "text": "Landau e Magnus."
+        },
+        {
+          "key": "d",
+          "text": "Galant."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A descrição de assimetria postural ao rodar a cabeça para um lado (extensão do braço/perna facial, flexão dos membros contralaterais — postura de 'esgrimista') corresponde ao reflexo tônico-cervical assimétrico, também conhecido como reflexo de Magnus e Kleijn.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_010",
+      "statement": "Uma lactente de 6 meses, sexo feminino, nascida com 30 semanas, ganho de peso satisfatório, em aleitamento materno exclusivo até o momento, é levada para consulta de puericultura. A mãe acredita que sua lha está com atraso de desenvolvimento. Ao exame físico, o médico nota que a criança não consegue car sentada sem apoio, mas sustenta a cabeça na posição sentada; leva as mãos à boca; ao encostar brinquedo na mão, ela o segura; não se apoia sobre os braços e ainda não rola. Diante desse quadro, assinale a conduta correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Orientar atividades de estímulo para os pais realizarem e reavaliar o desenvolvimento em 3 meses."
+        },
+        {
+          "key": "b",
+          "text": "Encaminhar para atendimento multidisciplinar, pois apresenta sinais de alerta para atraso do desenvolvimento."
+        },
+        {
+          "key": "c",
+          "text": "Tranquilizar a mãe quanto à ausência de atraso de desenvolvimento e manter acompanhamento de rotina."
+        },
+        {
+          "key": "d",
+          "text": "Encaminhar para neuropediatria, para investigação da etiologia do atraso de desenvolvimento já notável nessa avaliação."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Corrigindo a idade gestacional (nascida com 30 semanas, ou seja, 10 semanas/~2,5 meses de prematuridade), a idade corrigida dessa lactente de 6 meses é de aproximadamente 3,5 meses — os achados descritos (firma cabeça sentada, leva mãos à boca, segura brinquedo colocado na mão, ainda não senta nem rola) são absolutamente compatíveis com essa idade corrigida, devendo-se tranquilizar a mãe e manter acompanhamento de rotina.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_011",
+      "statement": "Leandro acabou de completar 3 anos de idade e veio à consulta de puericultura, acompanhado de sua mãe, Roseli, que não tem nenhuma queixa. Qual achado indicaria atraso de desenvolvimento neuropsicomotor?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Não é capaz de copiar o desenho de um círculo."
+        },
+        {
+          "key": "b",
+          "text": "Não é capaz de emparelhar objetos da mesma cor."
+        },
+        {
+          "key": "c",
+          "text": "Não pula com um pé só."
+        },
+        {
+          "key": "d",
+          "text": "Não consegue copiar o desenho de uma cruz."
+        },
+        {
+          "key": "e",
+          "text": "Não forma frases com 2 palavras."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Aos 3 anos, já é esperado que a criança forme frases com pelo menos 2 palavras — a ausência completa dessa habilidade é um sinal de alerta importante para atraso de linguagem, mais preocupante que a ausência de habilidades mais tardias como copiar cruz ou pular em um pé só (esperadas por volta dos 4 anos).",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_012",
+      "statement": "Os re exos primitivos aparecem e desaparecem dentro de períodos especí cos do desenvolvimento. A imagem abaixo faz alusão gráfica a reflexo que aparece por volta do:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Quarto a quinto mês de vida, e desaparece por volta de um ano."
+        },
+        {
+          "key": "b",
+          "text": "Sexto a sétimo mês de vida, e desaparece por volta dos dois anos."
+        },
+        {
+          "key": "c",
+          "text": "Décimo a décimo primeiro mês de vida, e desaparece por volta dos dois anos."
+        },
+        {
+          "key": "d",
+          "text": "Sétimo a oitavo mês de vida, e se mantém por toda a vida."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O reflexo do paraquedista (reação de proteção lateral/pára-quedas) surge por volta do 7º-8º mês de vida e, diferentemente dos demais reflexos primitivos, não desaparece — permanece presente por toda a vida como reação postural protetora.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_013",
+      "statement": "Tendo em vista a avaliação de desenvolvimento neuropsicomotor e os conhecimentos médicos correlatos, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aos 12 meses de vida é esperado que a criança compreenda ordens e solicitações simples."
+        },
+        {
+          "key": "b",
+          "text": "Aos 7 meses de vida é esperado que a criança saiba rabiscar."
+        },
+        {
+          "key": "c",
+          "text": "Aos 9 meses de vida é esperado que a criança caminhe sem apoio."
+        },
+        {
+          "key": "d",
+          "text": "Aos 6 meses de vida é esperado que a criança use o movimento de pinça."
+        },
+        {
+          "key": "e",
+          "text": "Aos 18 meses de vida é esperado que a criança use mais de 50 palavras."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Aos 12 meses, é esperado que a criança já compreenda ordens e solicitações simples ('dá tchau', 'bate palma'). As demais alternativas descrevem marcos fora de suas faixas etárias reais: rabiscar (~15-18m), andar sem apoio (~12-15m), pinça (~9m) e vocabulário de 50 palavras (mais próximo dos 24m).",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_014",
+      "statement": "Antônio é um lactente de 10 meses de idade e a mãe o trouxe para uma consulta de rotina. A anamnese completa e ao exame físico para avaliação dos marcos do desenvolvimento, qual dos achados abaixo é preocupante e deve ser motivo de melhor investigação nessa idade?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A criança apresenta somente os dentes incisivos centrais inferiores e superiores"
+        },
+        {
+          "key": "b",
+          "text": "A criança assenta-se utilizando o tripé de pernas com uma mão apoiada e segura um objeto com a mão, mas sem conseguir passá-lo para a outra mão"
+        },
+        {
+          "key": "c",
+          "text": "A criança fica de pé com apoio, mas quando colocada no chão não engatinha em quatro apoios, arrastando-se"
+        },
+        {
+          "key": "d",
+          "text": "A criança reconhece a face da mãe ou cuidador e chora quando é afastado dos mesmos"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Aos 10 meses, a incapacidade de transferir um objeto de uma mão para a outra é um achado preocupante, pois essa habilidade é esperada muito antes, por volta dos 6-7 meses — um atraso isolado nessa aquisição motora fina merece investigação. Os demais achados (posição tripé ao sentar, engatinhar arrastando-se em vez do padrão clássico, ansiedade de separação) são variações normais nessa idade.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_015",
+      "statement": "Um bebê de 6 meses de vida foi levado pela mãe à equipe de Saúde da Família (eSF) para consulta de rotina de puericultura. A mãe relata que está preocupada, pois a criança mostra-se mais chorosa, apresentando irritabilidade, di culdade para dormir e pico febril de 39 °C na noite anterior. A criança está previamente hígida, em aleitamento materno exclusivo, fez uso de paracetamol há duas horas e sua temperatura é de 37,5 °C no momento. A mãe nega que a criança tenha alergias medicamentosas. Ao exame físico, veri cam-se auscultas pulmonar e cardíaca sem alterações, abdome sem particularidades, otoscopia direita com presença de membrana timpânica abaulada e hiperemiada, sem presença de otorreia. A criança é capaz de rmar a cabeça e apanhar objetos, e as medidas antropométricas estão próximas ao percentil 50. Carteira de vacinação atualizada. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue o item a seguir. Apesar de medidas antropométricas estarem adequadas nesse momento, o desenvolvimento neuropsicomotor está atrasado, pois a criança com essa idade já deveria ser capaz de sentar sem apoio.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Sentar sem apoio é esperado por volta dos 8-9 meses, não aos 6 meses — portanto, a afirmação de que o desenvolvimento já estaria atrasado aos 6 meses por esse motivo está Errada.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_016",
+      "statement": "Um paciente de 2 anos e 3 meses de idade foi levado ao ambulatório de pediatria pela mãe, pois ela está preocupada com um “caroço” no pescoço do lho, que ela notou há cinco meses. Relatou que o lho é bastante ativo, que se alimenta sempre ganhou peso, mas fala pouco e palavras difíceis de compreender. Ademais, há muito tempo apareceram alguns machucados no couro cabeludo dele, que o menino coça bastante e tem algumas crostas. Ao exame físico, constataram- se altura = 90 cm (escore z 0), peso = 12,300 kg (escore z entre 0 e -2), FC = 120 bpm, FR = 26 irpm e SatO2 = 97% em AA. No couro cabeludo, há várias lesões com crostas melicéricas e presença de linfonodo retroauricular medindo 1,5 cm, móvel, broelástico, indolor à palpação. Observaram-se oroscopia, dentes em bom estado, sem lesões, sem frênulo lingual, otoscopia, com membrana timpânica translúcida, sem abaulamentos ou retrações e ausculta cardíaca, BNF, RR, 2t, sem sopro. Veri caram-se, ainda, ausculta pulmonar, MVUD, sem RA, abdome, RHA+, depressível, sem megalias, indolor à palpação e genitália com testículos em bolsa escrotal e mose. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue o item a seguir. Aos 2 anos de idade, com certeza a criança deve usar colher/garfo, subir degraus, imitar trabalhos caseiros, rabiscar e nomear partes do corpo.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Aos 2 anos de idade, é de fato esperado que a criança já use colher/garfo, suba degraus, imite tarefas domésticas, rabisque espontaneamente e nomeie partes do corpo — marcos clássicos dos 24 meses segundo a Caderneta da Criança. A afirmativa está Certa.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_017",
+      "statement": "Você é médico da Estratégia de Saúde da Família na zona rural de sua cidade. Recebe para consulta um lactente de 10 meses com antecedentes neonatais sem intercorrências e com boa evolução até o momento. Já iniciou introdução alimentar e mantém aleitamento materno. Ao aplicar o instrumento para avaliação do desenvolvimento você veri ca que: não duplica sílabas, não transfere objetos de uma mão para outra, brinca de esconde achou, senta-se sem apoio, imita gestos, faz pinça, produz jargão e não anda com apoio. Qual a classificação e qual seria sua conduta nessa consulta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "DNPM normal"
+        },
+        {
+          "key": "b",
+          "text": "DNPM normal com fator de risco"
+        },
+        {
+          "key": "c",
+          "text": "Alerta para desenvolvimento"
+        },
+        {
+          "key": "d",
+          "text": "Provável atraso no desenvolvimento"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Aos 10 meses, a ausência simultânea de várias aquisições esperadas (não duplica sílabas, não transfere objetos entre as mãos, não anda com apoio), apesar de outras habilidades presentes, caracteriza provável atraso do desenvolvimento — quando múltiplos marcos estão ausentes ao mesmo tempo, a classificação é mais grave que um simples alerta isolado.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_018",
+      "statement": "Menino, 1 ano e 2 meses de idade, é acompanhado em puericultura na UBS desde o nascimento, apresentando crescimento e desenvolvimento adequados. Na consulta de hoje, a mãe mostrou-se preocupada, pois o lho fala pouco e ainda não anda sozinho, diferentemente da outra lha que nessa idade falava bastante e andava pela casa sozinha. Ao avaliar os marcos do desenvolvimento, o médico observou que o menino ca de pé com apoio e troca passos, faz movimento de pinça ao pegar uma “bolinha de papel”, aponta com o indicador quando quer um objeto e fala “papá, mamá, qué, dá, não”. Qual é o diagnóstico mais provável do desenvolvimento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Atraso no desenvolvimento motor grosseiro; desenvolvimento motor fino e de linguagem dentro do esperado."
+        },
+        {
+          "key": "b",
+          "text": "Atraso do desenvolvimento motor fino; desenvolvimento motor grosseiro e de linguagem dentro do esperado."
+        },
+        {
+          "key": "c",
+          "text": "Atraso do desenvolvimento da linguagem; desenvolvimento motor grosseiro e motor fino dentro do esperado."
+        },
+        {
+          "key": "d",
+          "text": "Desenvolvimento motor grosseiro, motor fino e de linguagem dentro do esperado."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Aos 14 meses (1 ano e 2 meses), ficar em pé com apoio e dar passos apoiado, fazer pinça fina, apontar com o indicador e falar algumas palavras reconhecíveis (mesmo que poucas) são todos marcos adequados para a idade — o desenvolvimento motor grosseiro, motor fino e de linguagem estão, portanto, dentro do esperado; andar sem apoio só é esperado até os 15 meses.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_019",
+      "statement": "Recém-nascido, 40 semanas de idade gestacional, sexo masculino, nasceu de parto cesárea por falha de indução, Apgar 9/10, peso de 2.950 g. Mãe primigesta, 20 anos, não fez pré-natal e relata ser usuária habitual de drogas ilícitas. O menor está sendo examinado no alojamento conjunto, com 72 horas de vida, e alguns dados do exame clínico estão apresentados nas imagens abaixo. Qual é a conduta indicada face aos dados clínicos apresentados?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apuração de maus-tratos no alojamento conjunto."
+        },
+        {
+          "key": "b",
+          "text": "Solicitação de cariótipo."
+        },
+        {
+          "key": "c",
+          "text": "nvestigação neurológica complementar."
+        },
+        {
+          "key": "d",
+          "text": "Alta hospitalar com seguimento de rotina em UBS."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de fatores de risco perinatais relevantes (ausência de pré-natal, uso materno de drogas ilícitas), mesmo sem poder visualizar diretamente os achados de exame descritos nas imagens do PDF original, a conduta prudente é a investigação neurológica complementar antes da alta.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_020",
+      "statement": "Lactente, sexo feminino, 11 meses de vida, está em consulta ambulatorial de rotina. Trata-se de criança prematura, nascida de 35 semanas, com peso de nascimento de 2110 g, sem intercorrências durante o seguimento. Na consulta de hoje, a maior preocupação da mãe é que a criança não engatinha. Na avaliação realizada na consulta, notado que a criança imita a mãe ao bater palmas, faz movimentos de pinça para pegar objetos, reage a uma conversa como se estivesse respondendo, mas com sons incompreensíveis, sem falar nenhuma palavra. Ela ca em pé com apoio, mas realmente não engatinha quando colocada de bruços. Qual das alternativas contempla, respectivamente, a avaliação do desenvolvimento e a conduta indicada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O atraso do desenvolvimento é justificado pela prematuridade, orientar estimulação motora e retorno precoce."
+        },
+        {
+          "key": "b",
+          "text": "O desenvolvimento motor está atrasado mesmo se considerada a prematuridade, encaminhar para seguimento com fisioterapia."
+        },
+        {
+          "key": "c",
+          "text": "O desenvolvimento está compatível com o esperado para a idade, sem necessidade de nenhuma intervenção específica."
+        },
+        {
+          "key": "d",
+          "text": "O desenvolvimento motor e de linguagem estão atrasados para a idade, iniciar investigação com eletroencefalograma."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Corrigindo a prematuridade (nascida com 35 semanas), a idade corrigida dessa lactente de 11 meses fica próxima de 9-9,5 meses — os achados descritos (imita bater palmas, faz pinça, balbucia sem palavras, fica em pé com apoio mas ainda não engatinha) são compatíveis com essa idade corrigida, não havendo necessidade de intervenção específica no momento.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_021",
+      "statement": "Um casal de adolescentes traz seu lho de 6 meses à Unidade de Saúde, preocupado se seu desenvolvimento está se dando de forma normal. O lactente nasceu a termo e está em aleitamento materno exclusivo. Ao examiná-lo, o médico orienta o casal em relação à aquisição de novas habilidades pelo bebê. Aos 6 meses, o que se espera que um lactente com desenvolvimento normal seja capaz de fazer?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Arrastar-se e dar \"tchau\"."
+        },
+        {
+          "key": "b",
+          "text": "Engatinhar e bater palmas."
+        },
+        {
+          "key": "c",
+          "text": "Ficar em pé com apoio e falar ao menos 1 palavra com sentido."
+        },
+        {
+          "key": "d",
+          "text": "Segurar um objeto com as duas mãos, levá-lo à boca e rolar no leito."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Aos 6 meses, espera-se que o lactente segure um objeto com as duas mãos, leve-o à boca e role no leito — marcos clássicos dessa idade. Engatinhar e bater palmas (9m) e ficar em pé com apoio/falar palavra (9-12m) são aquisições mais tardias.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_022",
+      "statement": "Em relação aos reflexos primitivos e posturais da criança, o reflexo presente em uma criança normal aos 3 anos de idade é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "reflexo de Moro."
+        },
+        {
+          "key": "b",
+          "text": "reflexo de preensão plantar."
+        },
+        {
+          "key": "c",
+          "text": "reflexo tônico-cervical assimétrico."
+        },
+        {
+          "key": "d",
+          "text": "marcha automática."
+        },
+        {
+          "key": "e",
+          "text": "reflexo do paraquedista."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "O reflexo do paraquedista (reação de proteção lateral) é o único reflexo primitivo/postural que permanece presente ao longo de toda a vida, inclusive aos 3 anos — os demais reflexos listados (Moro, preensão plantar, tônico-cervical assimétrico, marcha automática) já desapareceram muito antes dessa idade.",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_023",
+      "statement": "Maria Clara, tem 18 meses, e após um período ausente do acompanhamento médico, retornou hoje à sua consulta. A mãe relata que a criança esteve bem no período entre as consultas, têm boa aceitação alimentar, é ativa e anda para todos os lados da casa, mas o fato da criança não falar nenhuma palavra até hoje a incomoda bastante. Durante a consulta, você nota que a criança anda com equilíbrio sem apoio, rabisca uma linha e faz uma torre de 4 cubos. Ao tentar interagir com a criança, ela responde com emissão dissilábica e apontando para os objetos. A mãe nega comorbidades. Diante dessa situação, qual a conduta mais adequada para esse paciente e sua família?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Informar a mãe sobre os sinais de alerta, orientar estímulo e agendar consulta para 60 dias."
+        },
+        {
+          "key": "b",
+          "text": "Referir para avaliação especializada neurológica."
+        },
+        {
+          "key": "c",
+          "text": "Orientar a mãe para que continue estimulando a criança, e agendar retorno conforme rotina do serviço."
+        },
+        {
+          "key": "d",
+          "text": "Informar a mãe que a criança tem até os 24 meses de idade para adquirir esse marco da linguagem."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Aos 18 meses, a ausência completa de qualquer palavra falada (mesmo com boa compreensão, aponta para objetos) é um sinal de alerta significativo, já que a criança deveria ter adquirido pelo menos algumas palavras com sentido desde os 12 meses — a conduta adequada é referir para avaliação especializada (neurologia/fonoaudiologia), não apenas aguardar o desenvolvimento espontâneo.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_024",
+      "statement": "Ao concluir o exame de Maria, 4 meses e meio, o médico comunica aos pais da criança que a criança tem alerta para atraso do desenvolvimento motor. Qual das situações abaixo caracteriza esse diagnóstico?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Quando examinada deitada, a criança não é capaz de mudar de posição ventral para dorsal."
+        },
+        {
+          "key": "b",
+          "text": "Quando examinada de decúbito ventral, a criança não é capaz de sustentar-se nos antebraços."
+        },
+        {
+          "key": "c",
+          "text": "A criança é capaz de agarrar um objeto, mas não de trazer o objeto para si."
+        },
+        {
+          "key": "d",
+          "text": "Quando examinado sentado, não é capaz de sustentar-se sem apoio."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O alerta para atraso do desenvolvimento motor aos 4 meses e meio é caracterizado pela incapacidade de sustentar-se sobre os antebraços em decúbito ventral — habilidade esperada já por volta dos 3-4 meses. As demais situações descritas (não mudar de posição ventral-dorsal, não trazer objeto para si, não sentar sem apoio) ainda não são esperadas nessa idade e não configuram alerta isolado.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_025",
+      "statement": "Os pais de Cauê, 5 meses, questionam se o desenvolvimento neuropsicomotor (DNPM) da criança está normal, pois percebem que a criança ainda não rola como o vizinho da mesma idade. Quais os outros marcos de DNPM o médico deve avaliar, pois devem estar presentes na faixa etária de Cauê, antes de emitir um parecer diagnóstico.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Busca ativa de objetos e localiza o som."
+        },
+        {
+          "key": "b",
+          "text": "Leva objetos à boca e aponta para as coisas que quer."
+        },
+        {
+          "key": "c",
+          "text": "Emite jargão e ri alto."
+        },
+        {
+          "key": "d",
+          "text": "Imita gestos e faz pinça."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Antes de concluir sobre atraso pelo fato de Cauê (5 meses) ainda não rolar, o médico deve avaliar marcos anteriores na sequência do desenvolvimento, como a busca ativa de objetos com o olhar e a localização de sons — habilidades adquiridas antes da capacidade de rolar e que, se ausentes, reforçariam maior preocupação; se presentes, sugerem que o atraso em rolar pode ser apenas uma variação da normalidade.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_026",
+      "statement": "O preceptor do ambulatório de puericultura, solicita o seu parecer diagnóstico para o desenvolvimento neuropsicomotor de Luiza, 9 meses de idade, nascida a termo e sem antecedentes patológicos. Assinale a alternativa que contém as aquisições que devem ter ocorrido entre seis e nove meses, de acordo com o instrumento de avaliação da caderneta do Ministério da Saúde.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Senta-se com apoio; Leva objetos à boca; Busca interação; Rola."
+        },
+        {
+          "key": "b",
+          "text": "Andar com apoio; Produz jargão; Faz pinça polpa-polpa; Imita gestos;"
+        },
+        {
+          "key": "c",
+          "text": "Observa as mãos; Segue com o olhar até 180°; Sustenta a cabeça; Agarra um brinquedo colocado em sua mão."
+        },
+        {
+          "key": "d",
+          "text": "Brincar de esconde-achou; Transfere objetos de uma mão para outra; Duplica sílabas; Senta-se sem apoio."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Entre 6 e 9 meses, segundo o instrumento da Caderneta do Ministério da Saúde, são esperadas as aquisições: brincar de esconde-achou, transferir objetos de uma mão para outra, duplicar sílabas e sentar-se sem apoio — todas aquisições típicas dessa janela etária.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_027",
+      "statement": "Lactente de 6 meses de vida é conduzido para consulta de puericultura. Está em aleitamento materno exclusivo, sem queixas. Não faz uso de nenhuma medicação. Refere gestação e parto sem intercorrências. Em relação ao desenvolvimento neuropsicomotor, qual alternativa configura atraso para um lactente de 6 meses?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Senta somente com apoio."
+        },
+        {
+          "key": "b",
+          "text": "Não engatinha."
+        },
+        {
+          "key": "c",
+          "text": "Não sustenta a cabeça."
+        },
+        {
+          "key": "d",
+          "text": "Não pega em pinça."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Aos 6 meses, a incapacidade de sustentar a cabeça é o achado mais preocupante e caracteriza atraso, já que essa habilidade é esperada muito antes, por volta dos 3-4 meses. Sentar apenas com apoio, ainda não engatinhar e ainda não fazer pinça são todos normais para essa idade.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_028",
+      "statement": "Considerando o desenvolvimento neuromotor, o desaparecimento do re exo tônico assimétrico signi ca que uma criança pode começar a examinar objetos na linha média e manipulálos com ambas as mãos. Essa etapa do desenvolvimento é esperada que aconteça a partir da faixa etária de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "7-14 dias de vida."
+        },
+        {
+          "key": "b",
+          "text": "15-30 dias de vida."
+        },
+        {
+          "key": "c",
+          "text": "2-6 meses de vida."
+        },
+        {
+          "key": "d",
+          "text": "9-12 meses de vida."
+        },
+        {
+          "key": "e",
+          "text": "15-18 meses de vida."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O desaparecimento do reflexo tônico-cervical assimétrico, que libera a criança para examinar objetos na linha média e manipulá-los com as duas mãos, ocorre esperadamente entre 2 e 6 meses de vida.",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_029",
+      "statement": "Lactente de um ano e dois meses engatinha e anda com apoio, consegue apanhar objetos, reconhece a mãe, aponta o que quer e imita gestos, como bater palmas e dar tchau. Entretanto, ainda não fala palavra alguma nem mantém jargão (fala com emissão de sons com entonação e sem significado). Esse lactente tem:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Desenvolvimento normal para sua idade."
+        },
+        {
+          "key": "b",
+          "text": "Autismo, pois já deveria estar falando algumas palavras."
+        },
+        {
+          "key": "c",
+          "text": "Possível atraso no desenvolvimento, pois ainda não anda."
+        },
+        {
+          "key": "d",
+          "text": "Atraso na aquisição da linguagem, sendo necessária investigação"
+        },
+        {
+          "key": "e",
+          "text": "Nenhuma das anteriores está correta."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Uma criança de 1 ano e 2 meses com desenvolvimento motor e social adequados (engatinha, anda com apoio, aponta, imita gestos), mas com ausência completa de palavras e de jargão, apresenta um atraso específico na aquisição da linguagem, que deve ser investigado — não se trata de autismo (diagnóstico que exigiria outros critérios, como prejuízo na interação social e comunicação não verbal, ausentes no caso) nem de desenvolvimento normal.",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_030",
+      "statement": "Você preenche a Caderneta da Criança no primeiro mês de vida de seu paciente e, somando-se às informações maternas e sua observação na consulta, conclui que o desenvolvimento neuropsicomotor (DNPM) está adequado. Qual das alternativas contém o preenchimento compatível com essa condição? braços e pernas exionados em supino; observa olhar a 30cm; reage ao som de chocalho com mudança de expressão - facial/movimento dos olhos; em prono, levanta a cabeça sem virar para os lados",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "P; P; P; P"
+        },
+        {
+          "key": "b",
+          "text": "NA; P; P; P"
+        },
+        {
+          "key": "c",
+          "text": "NA; F; P; NA"
+        },
+        {
+          "key": "d",
+          "text": "F; P; P; NA"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "No primeiro mês de vida, o desenvolvimento neuropsicomotor adequado inclui todos os itens descritos como presentes (P): braços e pernas flexionados em supino, fixação do olhar a 30cm, reação ao som do chocalho com mudança de expressão facial/movimento dos olhos, e elevação momentânea da cabeça em prono sem virar para os lados — todos achados esperados e presentes (P) nessa idade.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_031",
+      "statement": "A preocupação materna quanto ao desenvolvimento motor de um lactente de 9 meses de idade deve ser valorizada quando a criança não for capaz de?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sentar sem apoio."
+        },
+        {
+          "key": "b",
+          "text": "Andar sem apoio."
+        },
+        {
+          "key": "c",
+          "text": "Apontar o que der."
+        },
+        {
+          "key": "d",
+          "text": "Engatinhar."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Aos 9 meses, a preocupação materna com o desenvolvimento motor deve ser valorizada especificamente quando a criança não é capaz de sentar sem apoio — marco que já deveria estar presente nessa idade. Engatinhar, apontar e andar sem apoio ainda estão em desenvolvimento ou são esperados apenas mais tarde.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_032",
+      "statement": "Maria, 11 meses de idade, está ao lado de sua mãe e de sua tia. Elas conversam sobre crianças. Consideram a garotinha muito esperta: há um mês já cava em pé sem apoio e agora dá vários passos sem auxílio. Qual o marco motor anterior a “ficar em pé” e qual uma idade esperada para que seja observado?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sustentar a cabeça, 4 meses"
+        },
+        {
+          "key": "b",
+          "text": "Engatinhar, 3 meses."
+        },
+        {
+          "key": "c",
+          "text": "Sentar-se sem apoio, 7 meses."
+        },
+        {
+          "key": "d",
+          "text": "Primeiras palavras, 9 meses."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O marco motor anterior a 'ficar em pé sem apoio' é 'sentar-se sem apoio', tipicamente observado por volta dos 7 meses de vida, antes da sequência que leva a ficar em pé e, posteriormente, andar.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_033",
+      "statement": "Espera-se que, no desenvolvimento normal para a idade, um lactente de 3 meses de vida seja capaz de",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "segurar objetos, emitir sons, ter resposta ativa ao contato social"
+        },
+        {
+          "key": "b",
+          "text": "observar um rosto, brincar de esconde-achou, levar objetos a boca."
+        },
+        {
+          "key": "c",
+          "text": "sorrir quando estimulada, transferir objetos de uma mão para outra, reagir ao som."
+        },
+        {
+          "key": "d",
+          "text": "fazer pinça, mudar de posição ativamente, movimentar ativamente os quatromembros."
+        },
+        {
+          "key": "e",
+          "text": "levantar a cabeça ao ser colocada de bruços, imitar gestos, abrir as mãos."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Aos 3 meses, espera-se que o lactente segure objetos colocados na mão, emita sons e apresente resposta ativa ao contato social (sorriso social, engajamento) — marcos clássicos dessa idade.",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_034",
+      "statement": "Lactente com história de gestação e parto sem intercorrências; nasceu a termo e com APGAR 9/10. Ao exame, sustenta a cabeça, roda sobre o próprio eixo, acompanha os olhos do examinador, sorri e reage com gargalhadas aos estímulos maternos. Colocado sentado, não se sustenta e cai. Sua idade provável, em meses, é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "7"
+        },
+        {
+          "key": "b",
+          "text": "3"
+        },
+        {
+          "key": "c",
+          "text": "9"
+        },
+        {
+          "key": "d",
+          "text": "5"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O quadro descrito (firma a cabeça, gira sobre o próprio eixo, acompanha com o olhar, sorri e dá gargalhadas, mas ainda não se sustenta sentado) é compatível com 5 meses de idade — a gargalhada surge por volta dos 4 meses e a ausência de sustentação ao sentar é esperada até essa idade.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_035",
+      "statement": "A mãe de uma criança de 10 meses de idade está preocupada porque a sua lha não engatinha. A menina nasceu de parto normal com 35 semanas de gestação, com peso de 2100 g e APGAR 6 e 8. Vem evoluindo com bom ganho ponderoestatural e nunca cou doente. Em relação ao desenvolvimento, diz que ela ca em pé com apoio, ainda não anda, nem com apoio, e refere que a lha é canhota, porque sempre pega os objetos e dá tchau com a mão esquerda. A bebê fala apenas mama e dada, mas sem signi cados especí cos, e é alegre, mas chora muito na presença de estranhos. Quanto ao quadro apresentado, é considerado um sinal de alerta o fato de esse bebê",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "não engatinhar ainda."
+        },
+        {
+          "key": "b",
+          "text": "não falar palavras com significado."
+        },
+        {
+          "key": "c",
+          "text": "chorar na presença de estranhos."
+        },
+        {
+          "key": "d",
+          "text": "dar preferência para pegar os objetos com a mão esquerda."
+        },
+        {
+          "key": "e",
+          "text": "não andar ainda."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Nesse caso, o sinal de alerta verdadeiro é a preferência lateral definida (dar preferência à mão esquerda) — a dominância manual verdadeira não deve estar estabelecida antes de aproximadamente 1 ano e meio a 2 anos; sua definição precoce pode sugerir hemiparesia contralateral. Não engatinhar, não falar palavras com significado, chorar com estranhos e ainda não andar são todos achados normais aos 10 meses (considerando ainda a prematuridade).",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_036",
+      "statement": "Na avaliação do desenvolvimento neuropsicomotor (DNPM) de um lactente, os re exos primitivos ou arcaicos devem ser pesquisados. Ao atender uma criança com 9 meses de idade com DNPM adequado, qual alternativa contém re exo que deve estar presente nessa idade?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Preensão palmar."
+        },
+        {
+          "key": "b",
+          "text": "Reflexo de Moro."
+        },
+        {
+          "key": "c",
+          "text": "Magnus de Klein."
+        },
+        {
+          "key": "d",
+          "text": "Cutâneo plantar em extensão."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Aos 9 meses, com DNPM adequado, o reflexo cutâneo-plantar em extensão (sinal de Babinski) ainda pode estar fisiologicamente presente, podendo persistir até os 12-24 meses. Preensão palmar, Moro e o reflexo tônico-cervical assimétrico (Magnus-de Kleijn) já devem ter desaparecido bem antes dessa idade.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_037",
+      "statement": "De acordo com o Instrumento de Vigilância do Desenvolvimento do Ministério da Saúde contido na Caderneta da Criança 2019, espera-se qual marco do desenvolvimento em um paciente de 4 meses?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Levar objetos à boca."
+        },
+        {
+          "key": "b",
+          "text": "Fazer pinça."
+        },
+        {
+          "key": "c",
+          "text": "Andar com apoio."
+        },
+        {
+          "key": "d",
+          "text": "Brincar de esconde-achou."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Segundo o Instrumento de Vigilância do Desenvolvimento da Caderneta da Criança 2019, aos 4 meses espera-se que a criança leve objetos à boca — marco clássico dessa faixa etária. Pinça, andar com apoio e brincar de esconde-achou são aquisições mais tardias (9 meses ou mais).",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_038",
+      "statement": "Você está atendendo um lactente, nove meses, em seu consultório. Em relação aos marcos do desenvolvimento motor, ele deve ser capaz de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Andar sem apoio."
+        },
+        {
+          "key": "b",
+          "text": "Mostrar o que quer."
+        },
+        {
+          "key": "c",
+          "text": "Usar colher ou garfo."
+        },
+        {
+          "key": "d",
+          "text": "Fazer pinça."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Aos 9 meses, espera-se que o lactente já inicie o movimento de pinça (pinça inferior/rudimentar). Andar sem apoio, usar colher/garfo são marcos bem mais tardios; mostrar o que quer é mais um marco de comunicação/social do que estritamente motor.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_039",
+      "statement": "Em qual faixa etária o lactente consegue passar o objeto de uma mão para a outra em linha média?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "3 a 5 meses."
+        },
+        {
+          "key": "b",
+          "text": "6 a 8 meses."
+        },
+        {
+          "key": "c",
+          "text": "9 a 11 meses."
+        },
+        {
+          "key": "d",
+          "text": "12 a 14 meses."
+        },
+        {
+          "key": "e",
+          "text": "16 a 18 meses."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A transferência de um objeto de uma mão para a outra na linha média é esperada entre 6 e 8 meses de vida.",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_040",
+      "statement": "Lactente, sexo masculino, 11 meses, é trazido à consulta e, segundo a mãe, não está fazendo as mesmas coisas que as outras crianças da sua idade. Ainda não caminha, balbucia, mas não diz nenhuma palavra, além de \"\"mama\"\" e \"\"papa\"\". Apresenta uma boa interação social com a mãe, se interessa pelos brinquedos que são colocados ao seu alcance e campo visual. Senta com apoio, engatinha pouco e, por poucos segundos, consegue car em pé, apoiado. História pregressa: nasceu pré-termo de 35 semanas de gestação, pesando 2.230g. Não apresentou intercorrências no período perinatal e iniciou o aleitamento materno nas primeiras 24h de vida. A orientação adequada, nesse caso, é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Encaminhar para avaliação neurológica com investigação de imagem e eletroencefalograma."
+        },
+        {
+          "key": "b",
+          "text": "Investigar audição, encaminhar a neurologista e iniciar tratamento fonoaudiológico imediato."
+        },
+        {
+          "key": "c",
+          "text": "Iniciar intervenção com fisioterapia e terapia ocupacional, duas vezes na semana, e fazer revisão em um mês."
+        },
+        {
+          "key": "d",
+          "text": "Investigar audição e transtorno do espectro autista, iniciar tratamento fonoaudiológico e terapia ocupacional."
+        },
+        {
+          "key": "e",
+          "text": "Considerar defasagem normal dentro dos padrões esperados se corrigida a idade gestacional e reavaliar em um mês."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Corrigindo a idade gestacional (nascido com 35 semanas), a idade corrigida desse lactente de 11 meses é de aproximadamente 9,5 meses — os achados descritos (senta com apoio, engatinha pouco, fica em pé apoiado por segundos, balbucia sem palavras) são compatíveis com essa idade corrigida, devendo-se considerar uma defasagem normal e reavaliar em 1 mês, sem necessidade de investigação imediata.",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_041",
+      "statement": "A preocupação materna quanto ao desenvolvimento motor de um lactente de 9 meses de idade deve ser valorizada quando a criança não for capaz de?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sentar sem apoio."
+        },
+        {
+          "key": "b",
+          "text": "Andar sem apoio."
+        },
+        {
+          "key": "c",
+          "text": "Apontar o que der."
+        },
+        {
+          "key": "d",
+          "text": "Engatinhar."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Aos 9 meses, a preocupação materna quanto ao desenvolvimento motor deve ser valorizada quando a criança não for capaz de sentar sem apoio — marco já esperado nessa idade. As demais habilidades (apontar, engatinhar, andar sem apoio) ainda estão em aquisição ou são esperadas mais tardiamente.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_042",
+      "statement": "Uma lactente de 6 meses, sexo feminino, é trazida pela mãe à consulta de puericultura com queixa de atraso do desenvolvimento. A mãe relata que a lha senta-se projetando para frente e apoiando nas mãos, brinca com os pés e emite sons consonantais. Porém, não engatinha, e não faz gestos com a mão e a cabeça (“tchau”, “não bate palmas”). Baseado na sua hipótese diagnóstica, a melhor conduta é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tranquilizar a mãe."
+        },
+        {
+          "key": "b",
+          "text": "Encaminhar à fisioterapia."
+        },
+        {
+          "key": "c",
+          "text": "Encaminhar ao neuropediatra."
+        },
+        {
+          "key": "d",
+          "text": "Investigar erro inato do metabolismo."
+        },
+        {
+          "key": "e",
+          "text": "Investigar maus tratos."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Aos 6 meses, os achados descritos (senta projetando-se para frente e apoiando nas mãos — posição tripé, brinca com os pés, emite sons consonantais) são todos adequados para a idade; ainda não engatinhar e não fazer gestos como 'tchau' e bater palmas também é esperado, já que essas habilidades surgem por volta dos 9 meses — a conduta correta é tranquilizar a mãe.",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_043",
+      "statement": "Ao exame físico de um lactente de dois meses de idade, sem intercorrências perinatais, percebe-se que ele observa rostos, sorri quando estimulado, reage ao som, emite sons que não o choro, abre as mãos e movimenta pernas e braços espontaneamente, mas não rola no leito. Podemos afirmar, considerando essas informações, que o desenvolvimento desse lactente para a sua idade está:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Adequado."
+        },
+        {
+          "key": "b",
+          "text": "Atrasado."
+        },
+        {
+          "key": "c",
+          "text": "Adequado com fator de risco."
+        },
+        {
+          "key": "d",
+          "text": "Adequado com situação de alerta."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Aos 2 meses, os achados descritos (observa rostos, sorri quando estimulado, reage ao som, emite sons além do choro, abre as mãos, movimenta os membros espontaneamente) são todos adequados para a idade; ainda não rolar no leito também é esperado, já que essa habilidade surge apenas por volta dos 4-6 meses — desenvolvimento adequado.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_044",
+      "statement": "Em uma Unidade de Estratégia de Saúde da Família, o pediatra é convidado para fazer uma palestra sobre o crescimento e desenvolvimento, para a comunidade. Uma avó pergunta o que ela precisa observar no seu neto de 4 meses. O pediatra responde que é necessário verificar se, nessa idade, a criança",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pinça polegar - dedo;"
+        },
+        {
+          "key": "b",
+          "text": "Senta sem apoio - balbucia;"
+        },
+        {
+          "key": "c",
+          "text": "Brinca de esconde - achou;"
+        },
+        {
+          "key": "d",
+          "text": "Rola no leito - volta-se para o som;"
+        },
+        {
+          "key": "e",
+          "text": "Agarra um brinquedo quando colocado na sua mão;"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Aos 4 meses, um marco clássico a ser observado é a capacidade de agarrar/segurar um brinquedo quando colocado na própria mão (integração do reflexo de preensão palmar em preensão voluntária).",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_045",
+      "statement": "A mãe de um lactente que está completando três meses hoje está preocupada porque acha o desenvolvimento de seu lho um pouco lento. Dentre os achados abaixo, aquele que pode ser considerado um sinal de alerta é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "membros inferiores permanentemente estendidos com hipertonia moderada."
+        },
+        {
+          "key": "b",
+          "text": "não se vira no leito, de frente e de bruços."
+        },
+        {
+          "key": "c",
+          "text": "mãos persistentemente fechadas."
+        },
+        {
+          "key": "d",
+          "text": "sorri, mas não dá risada."
+        },
+        {
+          "key": "e",
+          "text": "não brinca com os pés."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Aos 3 meses, mãos persistentemente fechadas (sem abertura espontânea) é um sinal de alerta, pois o reflexo de preensão palmar já deveria estar se atenuando, permitindo que as mãos permaneçam abertas na maior parte do tempo — achado sugestivo de hipertonia/comprometimento neurológico.",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_046",
+      "statement": "Em relação ao desenvolvimento neuropsicomotor, indique a opção INCORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aos dois meses de idade, apresenta sorriso social."
+        },
+        {
+          "key": "b",
+          "text": "Aos três meses de idade, sustenta a cabeça."
+        },
+        {
+          "key": "c",
+          "text": "Aos seis meses de idade, senta com apoio e gira sobre o abdome."
+        },
+        {
+          "key": "d",
+          "text": "Aos seis meses de idade, apresenta movimento de pinça digital."
+        },
+        {
+          "key": "e",
+          "text": "Aos 10 meses de idade engatinha e, aos 11 meses, fica em pé com apoio."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A afirmativa INCORRETA é a que descreve movimento de pinça digital aos 6 meses — a pinça (inicialmente rudimentar/inferior, depois fina) só surge por volta dos 9-12 meses, não aos 6 meses. As demais descrições (sorriso social aos 2 meses, sustento de cabeça aos 3 meses, sentar com apoio/girar sobre o abdome aos 6 meses, engatinhar aos 10 meses e ficar em pé com apoio aos 11 meses) estão corretas.",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_047",
+      "statement": "Ao exame de lactente com seis meses de idade, espera-se encontrar na análise do desenvolvimento neuropsicomotor a seguinte habilidade:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ficar de pé sozinho."
+        },
+        {
+          "key": "b",
+          "text": "Preensão com pinça delicada usando as pontas dos dedos ou unha, articulação do polegar fletida."
+        },
+        {
+          "key": "c",
+          "text": "Repetição de sons que ela mesma iniciou."
+        },
+        {
+          "key": "d",
+          "text": "Responder à rotina verbal tal como bater palmas, dar \"tchau- tchau\"."
+        },
+        {
+          "key": "e",
+          "text": "Não localização de sons quando estimulada."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Aos 6 meses, espera-se que a criança repita sons que ela mesma iniciou (início da lalação/balbucio reduplicado, autoimitação vocal) — marco de linguagem típico dessa idade. As demais opções descrevem habilidades mais tardias (ficar de pé sozinho, pinça fina, resposta a rotinas verbais como 'tchau-tchau') ou um achado de alerta (ausência de localização de sons).",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_048",
+      "statement": "Mãe leva sua lha de 12 meses para consulta de rotina no posto de saúde e mostra- se preocupada com o desenvolvimento da lha, pois lhe parece “mais atrasada” em relação às crianças da mesma idade. Na avaliação desta criança, a ausência de um marco indica atraso do desenvolvimento. Trata-se de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "andar sem apoio."
+        },
+        {
+          "key": "b",
+          "text": "falar frases completas."
+        },
+        {
+          "key": "c",
+          "text": "construir torre de 3 cubos."
+        },
+        {
+          "key": "d",
+          "text": "correr ou subir degraus baixos."
+        },
+        {
+          "key": "e",
+          "text": "reagir a pessoas estranhas."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Aos 12 meses, a ausência de reação a pessoas estranhas (ansiedade de estranheza) é um sinal de alerta para o desenvolvimento socioemocional, marco esperado já por volta dos 9-12 meses. Andar sem apoio, falar frases completas, torre de 3 cubos e subir degraus são todos marcos mais tardios, cuja ausência aos 12 meses não seria alarmante.",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_049",
+      "statement": "Na avaliação do desenvolvimento neuropsicomotor da criança, são aquisições esperadas aos 9 meses de vida, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Senta-se sozinho e roda nos dois sentidos"
+        },
+        {
+          "key": "b",
+          "text": "Inicia pinça fina"
+        },
+        {
+          "key": "c",
+          "text": "Reconhece seu nome"
+        },
+        {
+          "key": "d",
+          "text": "Segura a colher e leva alimentos à boca"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Aos 9 meses, ainda NÃO é esperado que a criança segure a colher e leve alimentos à boca sozinha — essa habilidade surge bem mais tarde, geralmente após os 15-18 meses. Sentar-se e girar nos dois sentidos, iniciar pinça fina e reconhecer o próprio nome já são esperados aos 9 meses.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_050",
+      "statement": "Na avaliação do desenvolvimento de um lactente de 12 meses, quais sinais são sugestivos de algum transtorno mental ou atraso do desenvolvimento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Não sabe dizer o próprio nome."
+        },
+        {
+          "key": "b",
+          "text": "Tem mais interesse em pessoas do que em objetos."
+        },
+        {
+          "key": "c",
+          "text": "Incapacidade de formular frases."
+        },
+        {
+          "key": "d",
+          "text": "Apresenta pouca ou nenhuma vocalização."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Aos 12 meses, a apresentação de pouca ou nenhuma vocalização é um sinal de alerta importante, já que balbucio com entonação e tentativas de palavras já deveriam estar presentes nessa idade. Não saber dizer o próprio nome, preferir pessoas a objetos e não formular frases completas ainda são esperados/normais aos 12 meses.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_051",
+      "statement": "Uma mãe leva o bebê de 8 meses, do sexo feminino, para consulta de puericultura na Unidade Básica de Saúde. Ela se mostra preocupada com o fato de a lha ainda não engatinhar. Na anamnese, é identi cado que a criança se senta sem apoio, apanha objetos com a mão e os leva à boca. Com relação ao desenvolvimento psicomotor da criança, você faz corretamente a seguinte orientação para a mãe:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "sugere fisioterapia motora para estimular o bebê a engatinhar, já que, pela idade, há um atraso na aquisição dessa habilidade"
+        },
+        {
+          "key": "b",
+          "text": "diz para ela ficar despreocupada, pois, pela idade, a criança apresenta desenvolvimento motor normal"
+        },
+        {
+          "key": "c",
+          "text": "propõe observação em relação ao atraso motor e orienta exercícios de estimulação em casa, com retorno em 1 mês para reavaliação"
+        },
+        {
+          "key": "d",
+          "text": "encaminha para avaliação com neurologista pediátrico por conta do atraso motor"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Aos 8 meses, a ausência de engatinhar, isoladamente, ainda está dentro da variação normal (existe ampla faixa etária para essa aquisição, podendo inclusive ser pulada por algumas crianças) — como a criança já senta sem apoio e manipula objetos adequadamente, deve-se tranquilizar a mãe quanto ao desenvolvimento motor normal para a idade.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_052",
+      "statement": "Em relação ao desenvolvimento neuropsicomotor, qual das alternativas abaixo apresenta a melhor correlação entre idade de início e processo.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "3 meses: reflexo de preensão plantar."
+        },
+        {
+          "key": "b",
+          "text": "5 meses: engatinha."
+        },
+        {
+          "key": "c",
+          "text": "7 meses: senta sem apoio."
+        },
+        {
+          "key": "d",
+          "text": "9 meses: pinça delicada."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Das opções, a melhor correlação idade-marco é: aos 9 meses, pinça delicada/fina — aquisição clássica dessa faixa etária. As demais associações estão incorretas (preensão plantar já está presente desde o nascimento, engatinhar não é esperado aos 5 meses, e sentar sem apoio costuma ocorrer um pouco mais tarde que os 7 meses).",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_053",
+      "statement": "Uma mãe de primeira viagem, apresenta grandes inseguranças acerca do desenvolvimento da lha, de quais situações são normais ou anormais, além de quando ela deve esperar que a criança consiga demonstrar certas capacidades. Com base nesse caso clínico e nos conhecimentos médicos correlatos, considerando principalmente as informações do Tratado de Pediatria (Nelson), julgue o item a seguir. O reflexo cutâneoplantar em flexão desaparece em torno de 6 a 8 meses de vida.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O reflexo cutâneo-plantar em flexão não desaparece entre 6 e 8 meses — na verdade, o padrão plantar em extensão (Babinski) é fisiológico até cerca de 12-24 meses de vida, quando então passa a se manifestar em flexão como no adulto. A afirmativa está Errada.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_054",
+      "statement": "Uma mãe de primeira viagem, apresenta grandes inseguranças acerca do desenvolvimento da lha, de quais situações são normais ou anormais, além de quando ela deve esperar que a criança consiga demonstrar certas capacidades. Com base nesse caso clínico e nos conhecimentos médicos correlatos, considerando principalmente as informações do Tratado de Pediatria (Nelson), julgue o item a seguir. O movimento de pinça anatômica com o polegar e indicador costuma surgir aos 6 meses de vida.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O movimento de pinça anatômica (madura, entre polegar e indicador) não costuma surgir aos 6 meses — essa aquisição é mais tardia, por volta dos 9-12 meses. A afirmativa está Errada.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_055",
+      "statement": "Uma mãe de primeira viagem, apresenta grandes inseguranças acerca do desenvolvimento da lha, de quais situações são normais ou anormais, além de quando ela deve esperar que a criança consiga demonstrar certas capacidades. Com base nesse caso clínico e nos conhecimentos médicos correlatos, considerando principalmente as informações do Tratado de Pediatria (Nelson), julgue o item a seguir. O desenvolvimento da capacidade de engatinhar, necessariamente, precede o da capacidade de andar.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O desenvolvimento da capacidade de engatinhar não precede necessariamente a capacidade de andar — muitas crianças com desenvolvimento normal pulam a fase de engatinhar e vão diretamente para a marcha, sem prejuízo algum. A afirmativa está Errada.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_056",
+      "statement": "Uma mãe de primeira viagem, apresenta grandes inseguranças acerca do desenvolvimento da lha, de quais situações são normais ou anormais, além de quando ela deve esperar que a criança consiga demonstrar certas capacidades. Com base nesse caso clínico e nos conhecimentos médicos correlatos, considerando principalmente as informações do Tratado de Pediatria (Nelson), julgue o item a seguir. Gargalhadas podem ser observadas a partir dos 4 meses de vida.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Gargalhadas (riso alto, sonoro) são de fato observadas a partir de aproximadamente 4 meses de vida, marco clássico do desenvolvimento social/afetivo dessa idade. A afirmativa está Certa.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_057",
+      "statement": "Uma mãe de primeira viagem, apresenta grandes inseguranças acerca do desenvolvimento da lha, de quais situações são normais ou anormais, além de quando ela deve esperar que a criança consiga demonstrar certas capacidades. Com base nesse caso clínico e nos conhecimentos médicos correlatos, considerando principalmente as informações do Tratado de Pediatria (Nelson), julgue o item a seguir. Espera-se a expressão do sorriso social da criança a partir dos 3 meses de vida.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O sorriso social não surge apenas a partir dos 3 meses — ele é esperado bem mais cedo, geralmente entre 6 e 8 semanas (cerca de 2 meses) de vida. A afirmativa, ao atrasar essa expectativa para os 3 meses, está Errada.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_058",
+      "statement": "Com relação aos marcos do desenvolvimento, é esperado que um lactente de 12 meses, nascido a termo, saudável, seja capaz de, exceto:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sentar sem apoio."
+        },
+        {
+          "key": "b",
+          "text": "Construir torres com dois cubos."
+        },
+        {
+          "key": "c",
+          "text": "Virar as páginas de um livro."
+        },
+        {
+          "key": "d",
+          "text": "Apontar para objetos."
+        },
+        {
+          "key": "e",
+          "text": "Ficar de pé sozinho."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Aos 12 meses, a exceção (habilidade ainda não esperada) é construir torres com 2 cubos — essa aquisição de coordenação motora fina surge mais tardiamente, por volta dos 15-18 meses. Sentar sem apoio, virar páginas de livro, apontar objetos e ficar de pé sozinho já são esperados aos 12 meses.",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_059",
+      "statement": "Mãe de um lactente de quatro meses está preocupada, pois seu filho não sustenta a cabeça. História perinatal: parto vaginal, banhado em mecônio espesso, necessitando de reanimação na sala de parto, Apgar 1/4/7, peso: 2.800 g, comprimento: 49 cm. Exame físico: eleva momentaneamente a cabeça em posição de prono e sorri, faz semi exão dos cotovelos e pronação do antebraço e exão de punhos e dedos, re exo tônico cervical assimétrico, re exo de Moro exacerbado. Nessa situação, deve-se informar à mãe que seu filho apresenta",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "distúrbio neuropsicomotor pela asfixia perinatal e que terá um atraso definitivo físico e mental."
+        },
+        {
+          "key": "b",
+          "text": "distúrbio neuropsicomotor temporário pela asfixia perinatal e que irá se desenvolver normalmente."
+        },
+        {
+          "key": "c",
+          "text": "distúrbio neuropsicomotor pela asfixia perinatal e necessita de acompanhamento multiprofissional."
+        },
+        {
+          "key": "d",
+          "text": "limites normais do desenvolvimento neuropsicomotor e necessita de estimulação em casa."
+        },
+        {
+          "key": "e",
+          "text": "limite normal do desenvolvimento neuropsicomotor, devendo manter acompanhamento habitual."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Apesar da história de asfixia perinatal, os achados do exame físico aos 4 meses (eleva momentaneamente a cabeça em prono, sorri, semiflexão de cotovelos, reflexo tônico-cervical assimétrico e Moro presentes) estão todos dentro dos limites normais para essa idade — deve-se tranquilizar a família e manter o acompanhamento habitual de puericultura, sem necessidade de intervenções adicionais no momento.",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_060",
+      "statement": "O recém-nascido a termo, por meio dos re exos de busca, sucção e deglutição, está pronto para a amamentação e tem capacidade de receber líquidos. Entre quais idades, aparecem os movimentos mastigatórios com diminuição do re exo de extrusão da língua, sendo possível oferecer alimentos semi-sólidos?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "1 e 4 meses."
+        },
+        {
+          "key": "b",
+          "text": "4 e 7 meses."
+        },
+        {
+          "key": "c",
+          "text": "7 e 10 meses."
+        },
+        {
+          "key": "d",
+          "text": "Após 12 meses."
+        },
+        {
+          "key": "e",
+          "text": "Desde o nascimento."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Os movimentos mastigatórios, com diminuição do reflexo de extrusão da língua (permitindo a introdução de alimentos semissólidos), surgem entre 4 e 7 meses de vida — período que coincide com a recomendação de introdução alimentar complementar.",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_061",
+      "statement": "Lactente com 9 meses de idade deve ser capaz de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Andar sem apoio."
+        },
+        {
+          "key": "b",
+          "text": "Fazer pinça."
+        },
+        {
+          "key": "c",
+          "text": "Mostrar o que quer."
+        },
+        {
+          "key": "d",
+          "text": "Usar colher ou garfo."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Aos 9 meses, o lactente deve ser capaz de fazer pinça (pinça inferior/rudimentar em desenvolvimento) — marco esperado dessa idade. Andar sem apoio, mostrar o que quer com gestos mais elaborados e usar colher/garfo são aquisições mais tardias.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_062",
+      "statement": "Em relação ao desenvolvimento neuropsicomotor normal, qual a idade esperada de uma criança que senta com o mínimo apoio, rola da posição supina para a posição prona, tenta buscar um objeto que está fora do seu alcance, mas não desenvolveu ainda o movimento de pinça?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "2 meses"
+        },
+        {
+          "key": "b",
+          "text": "4 meses"
+        },
+        {
+          "key": "c",
+          "text": "6 meses"
+        },
+        {
+          "key": "d",
+          "text": "9 meses"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O quadro descrito (senta com mínimo apoio, rola de supino para prono, tenta alcançar objeto fora do alcance, ainda sem pinça) corresponde à idade esperada de 6 meses.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_063",
+      "statement": "Para uma criança de quatro anos, espera-se com relação ao seu desenvolvimento motor fino que ela seja capaz de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Vestir-se sem supervisão"
+        },
+        {
+          "key": "b",
+          "text": "Andar para trás"
+        },
+        {
+          "key": "c",
+          "text": "Pular em um pé só"
+        },
+        {
+          "key": "d",
+          "text": "Desenhar uma pessoa com 3 partes"
+        },
+        {
+          "key": "e",
+          "text": "Conhecer 3 adjetivos"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Aos 4 anos, no domínio motor fino, espera-se que a criança seja capaz de desenhar uma pessoa com pelo menos 3 partes — marco clássico de coordenação motora fina/visuoconstrutiva dessa idade. Andar para trás e pular em um pé só são marcos motores grosseiros; conhecer adjetivos e vestir-se sem supervisão pertencem a outros domínios.",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_064",
+      "statement": "O bebê reconhece-se no espelho e começa a brincar de faz de conta, atividade que deve ser estimulada, pois auxilia no desenvolvimento cognitivo e emocional, ajudando a criança a lidar com ansiedades e con itos e a elaborar regras sociais. Observa-se essa reação a partir dos:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "12 meses."
+        },
+        {
+          "key": "b",
+          "text": "2 anos."
+        },
+        {
+          "key": "c",
+          "text": "3 anos."
+        },
+        {
+          "key": "d",
+          "text": "4 anos."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O reconhecimento no espelho e o início do brincar de faz de conta (jogo simbólico) surgem a partir de aproximadamente 2 anos de idade, marcos importantes do desenvolvimento cognitivo-emocional dessa fase.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_065",
+      "statement": "Sobre os aspectos do desenvolvimento da criança. Responda verdadeiro (V) ou falso (F) e assinale a alternativa que traz a sequência correta: ( ) Aos 15 dias de vida observa-se rotação da cabeça para um lado, com consequente extensão do membro superior e inferior do lado facial e exão dos membros contralaterais. A atividade é realizada bilateralmente e deve ser simétrica. Desaparece até o 3° mes.; ( ) Entre 3 e 4 meses observa-se o sorriso social; ( ) A partir do 9° mês o bebê senta-se sem apoio.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "V - V - F."
+        },
+        {
+          "key": "b",
+          "text": "V - F - F."
+        },
+        {
+          "key": "c",
+          "text": "F - V - V."
+        },
+        {
+          "key": "d",
+          "text": "F - F - V."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Sequência V-F-F: o item 1 descreve corretamente o reflexo tônico-cervical assimétrico presente aos 15 dias, bilateral e simétrico, desaparecendo por volta do 3º mês (V); o item 2 está incorreto, pois o sorriso social surge mais precocemente, por volta de 2 meses, não entre 3 e 4 meses (F); o item 3 também está incorreto, pois sentar sem apoio costuma ocorrer já por volta dos 8-9 meses, não apenas 'a partir do 9º mês' como marco inicial estrito (F).",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_066",
+      "statement": "São marcos do desenvolvimento da criança: vocalizações, agarrar um objeto quando colocado em sua mão, virar-se de forma completa e virar-se na direção de um som, quando tem a idade de",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "3 a 6 meses."
+        },
+        {
+          "key": "b",
+          "text": "6 a 9 meses."
+        },
+        {
+          "key": "c",
+          "text": "9 a 12 meses."
+        },
+        {
+          "key": "d",
+          "text": "12 a 15 meses."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Os marcos descritos (vocalizações, agarrar objeto colocado na mão, virar-se completamente no leito, virar-se na direção de um som) correspondem à faixa etária de 3 a 6 meses de vida.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_067",
+      "statement": "De acordo com o Instrumento de Vigilância do Desenvolvimento da Caderneta de Saúde da Criança, deve ser encaminhada para avaliação uma criança que, aos 6 meses de idade, NÃO tenha apresentado qual marco de desenvolvimento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Mostrar o que quer sem que seja pelo choro, podendo ser com palavras ou sons, apontando ou estendendo a mão para alcançar."
+        },
+        {
+          "key": "b",
+          "text": "Fazer pinça ao pegar uma bolinha de papel."
+        },
+        {
+          "key": "c",
+          "text": "Reagir ao som com movimentos nos olhos ou mudança de expressão facial."
+        },
+        {
+          "key": "d",
+          "text": "Conseguir dar alguns passos com apoio."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Segundo o Instrumento de Vigilância do Desenvolvimento da Caderneta da Criança, aos 6 meses a ausência de reação ao som com movimento dos olhos ou mudança de expressão facial é um sinal de alerta que indica encaminhamento — essa habilidade é esperada desde os primeiros meses de vida. Mostrar o que quer, fazer pinça e dar passos com apoio são marcos mais tardios cuja ausência aos 6 meses não caracteriza, isoladamente, esse alerta específico.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_068",
+      "statement": "Em uma consulta de um lactente de 7 meses de idade, nascido a termo, a avaliação do desenvolvimento neuropsicomotor mostrou re exo de Moro presente simetricamente, rmeza de cabeça e capacidade de procurar som emitido, objetos fora do alcance e de rolar no leito. Contudo o paciente não sentava sem apoio, não engatinhava nem falava palavras-frase e parecia incomodado com a presença do médico, como se estivesse \"estranhando\". Que característica, dentre as abaixo, justificaria o encaminhamento do paciente para avaliação de um neuropediatra?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Não sentar sem apoio."
+        },
+        {
+          "key": "b",
+          "text": "Não engatinhar."
+        },
+        {
+          "key": "c",
+          "text": "Não falar palavras-frase."
+        },
+        {
+          "key": "d",
+          "text": "Comportar-se como se estivesse estranhando o médico."
+        },
+        {
+          "key": "e",
+          "text": "Apresentar reflexo de Moro."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A presença do reflexo de Moro aos 7 meses é o achado que justifica o encaminhamento ao neuropediatra, pois esse reflexo primitivo deveria ter desaparecido entre 4 e 6 meses — sua persistência além dessa janela é sinal de alerta neurológico. Não sentar sem apoio, não engatinhar, não falar palavras-frase e apresentar estranhamento são todos achados normais aos 7 meses.",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_069",
+      "statement": "Depois de 3 meses, o bebê mediano começa a rolar sobre si deliberadamente, primeiro da frente para as costas, depois das costas para a frente. Um bebê pode conseguir sentar-se sem ajuda, por volta dos:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "4 meses"
+        },
+        {
+          "key": "b",
+          "text": "5 meses"
+        },
+        {
+          "key": "c",
+          "text": "6 meses"
+        },
+        {
+          "key": "d",
+          "text": "8 meses"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Segundo essa descrição clássica do desenvolvimento motor, o bebê consegue sentar-se sem ajuda por volta dos 8 meses de vida.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_070",
+      "statement": "O Médico da Unidade de Estratégia de Saúde da Família é convidado para fazer uma palestra sobre o crescimento e desenvolvimento, para a comunidade. Uma senhora pergunta o que ela precisa observar no seu neto de 4 meses. O Médico responde que é necessário verificar se, nessa idade, a criança:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pinça polegar – dedo."
+        },
+        {
+          "key": "b",
+          "text": "Senta sem apoio – balbucia."
+        },
+        {
+          "key": "c",
+          "text": "Brinca de esconde – achou."
+        },
+        {
+          "key": "d",
+          "text": "Agarra um brinquedo quando colocado na sua mão."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Aos 4 meses, o marco a ser observado é a capacidade de agarrar um brinquedo quando colocado na mão — aquisição típica dessa idade, diferente de pinça fina, sentar sem apoio/balbuciar ou brincar de esconde-achou, que são marcos mais tardios.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_071",
+      "statement": "Na avaliação neurológica de uma criança aos dois anos de vida, é fundamental aferir seu desenvolvimento neuropsicomotor. A aquisição motora se dá numa sequência bem definida no primeiro ano de vida. A opção que contém a sequência de desenvolvimento motor esperada é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "fase cervical, fase do engatinhar, fase troncular e postura ereta."
+        },
+        {
+          "key": "b",
+          "text": "fase cervical, fase troncular, postura ereta e deambulação."
+        },
+        {
+          "key": "c",
+          "text": "fase troncular, fase cervical, postura ereta e deambulação."
+        },
+        {
+          "key": "d",
+          "text": "deambulação, fase cervical, fase do engatinhar e postura ereta."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A sequência céfalo-caudal de aquisição motora no primeiro ano de vida é: fase cervical (controle da cabeça) → fase troncular (controle de tronco, sentar) → postura ereta (ficar em pé) → deambulação (andar).",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_072",
+      "statement": "Lactente com história de gestação e parto sem intercorrências, nasceu a termo. Atualmente senta sem apoio, se inclina para pegar objetos, é capaz de transferir objetos de uma mão para a outra, mas não consegue pegá-los com o polegar e indicador (pinça). Apresenta lalação com sons vogais. O nível de desenvolvimento desta criança é de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "4 a 5 meses"
+        },
+        {
+          "key": "b",
+          "text": "7 a 8 meses"
+        },
+        {
+          "key": "c",
+          "text": "10 a 11 meses"
+        },
+        {
+          "key": "d",
+          "text": "12 a 13 meses"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O quadro descrito (senta sem apoio, inclina-se para pegar objetos, transfere objetos entre as mãos, ainda sem pinça, lalação de vogais) corresponde ao nível de desenvolvimento de 7 a 8 meses de idade.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_073",
+      "statement": "Durante o ambulatório de puericultura, é atendido lactente, um ano e meio, com os seguintes marcos de desenvolvimento: Anda sozinho, vira páginas de um livro, constrói torres de dois cubos, fala quatro palavras e brinca de \"faz de conta\". Com respeito a esse quadro, pode-se afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "o lactente tem desenvolvimento superior a sua idade cronológica."
+        },
+        {
+          "key": "b",
+          "text": "o lactente possui um desenvolvimento adequado para sua idade cronológica."
+        },
+        {
+          "key": "c",
+          "text": "o lactente tem atraso em todos os marcos de desenvolvimento."
+        },
+        {
+          "key": "d",
+          "text": "existe atraso apenas no marco de comunicação e linguagem."
+        },
+        {
+          "key": "e",
+          "text": "existe atraso apenas no marco cognitivo."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Os marcos descritos para esse lactente de 1 ano e meio (anda sozinho, vira páginas de livro, torre de 2 cubos, fala 4 palavras, brinca de faz de conta) são todos adequados para 18 meses — desenvolvimento compatível com a idade cronológica, sem sinais de atraso em nenhum domínio.",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_074",
+      "statement": "A vigilância do desenvolvimento da criança é essencial para promover uma infância saudável. Alguns marcos do desenvolvimento são típicos de determinada idade. É esperado que uma criança aos 4 meses:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tenha movimento de pinça polegar-dedo."
+        },
+        {
+          "key": "b",
+          "text": "Bata palmas e acene."
+        },
+        {
+          "key": "c",
+          "text": "Agarre um brinquedo colocado em sua mão."
+        },
+        {
+          "key": "d",
+          "text": "Estranhe pessoas (prefere pessoas do seu convívio)."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Aos 4 meses, é esperado que a criança agarre um brinquedo quando colocado em sua mão — marco típico dessa idade. Pinça polegar-dedo, bater palmas/acenar e estranhar pessoas são aquisições mais tardias (9-12 meses ou mais).",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_075",
+      "statement": "Dos reflexos abaixo não esperamos encontrar em um RN normal:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Reflexo tônico cervical assimétrico"
+        },
+        {
+          "key": "b",
+          "text": "Reflexo de Landau"
+        },
+        {
+          "key": "c",
+          "text": "Reflexo de Galant"
+        },
+        {
+          "key": "d",
+          "text": "Marcha reflexa"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O reflexo de Landau não é esperado em um recém-nascido normal, pois surge mais tardiamente, por volta dos 3 meses de vida, exigindo maior maturidade do tônus extensor de tronco. O reflexo tônico-cervical assimétrico, o reflexo de Galant e a marcha reflexa (automática) estão todos presentes desde o nascimento.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_076",
+      "statement": "Lactente 9 meses de vida, nascido a termo, sem intercorrências no parto, peso de nascimento de 3350g, Comprimento ao nascer 47cm e Perímetro Cefálico de 35cm. Em aleitamento materno exclusivo. Vem a consulta de puericultura para acompanhamento do seu desenvolvimento pondero estatural e neuropsicomotor. Com relação a este paciente qual dos reflexos primitivos abaixo ainda pode estar presente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Reflexo de Moro."
+        },
+        {
+          "key": "b",
+          "text": "Reflexo Tônico Cervical Assimétrico."
+        },
+        {
+          "key": "c",
+          "text": "Reflexo de Galant (encurvamento do tronco)."
+        },
+        {
+          "key": "d",
+          "text": "Reflexo de Babinski (Cutâneo Plantar em extensão)."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Aos 9 meses, o reflexo cutâneo-plantar em extensão (Babinski) ainda pode estar fisiologicamente presente, persistindo normalmente até 12-24 meses de vida. O reflexo de Moro, o tônico-cervical assimétrico e o de Galant já devem ter desaparecido bem antes dessa idade.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_077",
+      "statement": "Avó comparece à consulta de puericultura, acompanhando mãe e paciente, sexo masculino, de 4 meses, e relata que acha o neto um pouco \"atrasadinho\" pois não apresenta sustento na cabeça e não xa e nem acompanha o movimento dos objetos. Sobre a avaliação do desenvolvimento neuropsicomotor (DNPM), marque a alternativa incorreta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A preocupação da avó não procede visto que aos três meses nenhum lactente apresenta sustento cefálico quando colocado em posição sentada."
+        },
+        {
+          "key": "b",
+          "text": "A presença de Apgar menor que 7 no quinto minuto de vida deve ser valorizado na investigação de atraso no DNPM."
+        },
+        {
+          "key": "c",
+          "text": "A indicação de parto cesariana devido à iteratividade não apresenta relação com atrasos no DNPM."
+        },
+        {
+          "key": "d",
+          "text": "O registro de avaliação dos marcos do desenvolvimento devem ser realizados em todas as consultas de puericultura, não só nas que apresentam suspeita de atraso do DNPM."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A alternativa INCORRETA é a que afirma que 'nenhum lactente' apresenta sustento cefálico aos 3 meses quando sentado — na verdade, aos 3 meses já é esperado bom controle cefálico mesmo na posição sentada, tornando a preocupação da avó (neto de 4 meses sem sustento de cabeça) clinicamente relevante e não descabida.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_078",
+      "statement": "Quais das alternativas a seguir indica atraso desenvolvimento neuropsicomotor de uma lactente de 24 meses?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Não fala sílabas mas solta sons e comunica com gestos."
+        },
+        {
+          "key": "b",
+          "text": "Corre mas sobe escadas somente apoiado."
+        },
+        {
+          "key": "c",
+          "text": "Compreende ordens simples mas faz birras."
+        },
+        {
+          "key": "d",
+          "text": "Impõe sua vontade mas fala apenas frases simples."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Aos 24 meses, a ausência completa de sílabas/palavras faladas (comunicando-se apenas por sons e gestos) caracteriza atraso de desenvolvimento na linguagem, já que aos 2 anos espera-se um vocabulário de dezenas de palavras e início de frases curtas. Correr mas subir escadas apenas apoiado, compreender ordens simples mas fazer birras, e impor a vontade falando frases simples são todos comportamentos normais para essa idade.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_079",
+      "statement": "Levando em conta os marcos do desenvolvimento nos primeiros dois anos de vida, com que idade média, em meses, a criança é capaz de virar as páginas de um livro?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "6 meses"
+        },
+        {
+          "key": "b",
+          "text": "9 meses"
+        },
+        {
+          "key": "c",
+          "text": "12 meses"
+        },
+        {
+          "key": "d",
+          "text": "15 meses"
+        },
+        {
+          "key": "e",
+          "text": "18 meses"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A idade média em que a criança é capaz de virar as páginas de um livro é de 12 meses.",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_080",
+      "statement": "Uma criança comparece a consulta de puericultura. Durante o exame, ela senta sem apoio, ca na posição de engatinhar, não ca em pé sozinha, transfere objetos de uma mão para outra, consegue segurar objetos pequenos entre a ponta do dedo e polegar e balbucia. Qual a idade estimada para esta criança?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "4 meses."
+        },
+        {
+          "key": "b",
+          "text": "6 meses."
+        },
+        {
+          "key": "c",
+          "text": "10 meses."
+        },
+        {
+          "key": "d",
+          "text": "12 meses."
+        },
+        {
+          "key": "e",
+          "text": "15 meses."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O quadro descrito (senta sem apoio, posição de engatinhar, ainda não fica em pé sozinha, transfere objetos, pinça entre polegar e indicador, balbucia) corresponde à idade estimada de 10 meses.",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_081",
+      "statement": "Paciente de 6 meses e 20 dias de vida, nascido com 35 semanas de idade gestacional, é levado a uma consulta de puericultura pela mãe. Recebe aleitamento materno, papas de frutas e duas papas principais. A mãe demonstra muita preocupação, pois o lactente não senta sem apoio e não rola no leito. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue o item a seguir. Nessa faixa etária, espera-se que o paciente tenha sorriso social, que reaja ao som, que vocalize e que agarre um brinquedo quando colocado na respectiva mão.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Aos 6 meses e 20 dias (mesmo considerando a prematuridade leve de 35 semanas), já são esperados sorriso social, reação ao som, vocalização e capacidade de agarrar um brinquedo colocado na mão — marcos bem mais precoces que sentar sem apoio ou rolar, que ainda podem estar ausentes nessa idade sem necessariamente configurar atraso grave. A afirmativa está Certa.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_082",
+      "statement": "O acompanhamento do desenvolvimento da criança na atenção básica objetiva sua promoção, proteção e a detecção precoce de alterações passíveis de modi cação que possam repercutir em sua vida futura. Em relação ao re exo de Moro, normalmente presente em todo bebê recém-nascido, argumenta-se que ele não deve existir a partir do:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "1° mês"
+        },
+        {
+          "key": "b",
+          "text": "3° mês"
+        },
+        {
+          "key": "c",
+          "text": "6° mês"
+        },
+        {
+          "key": "d",
+          "text": "9° mês"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O reflexo de Moro, presente fisiologicamente em todo recém-nascido, não deve mais estar presente a partir do 6º mês de vida — sua persistência além dessa idade é considerada anormal.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_083",
+      "statement": "Criança vem ao consultório de puericultura. Na avaliação, senta-se com apoio, sorri, rola de prona para supina, transfere objetos de uma mão para a outra. É possível a rmar, segundo os marcos do desenvolvimento, que essa criança tem pelo menos:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "3 meses;"
+        },
+        {
+          "key": "b",
+          "text": "5 meses;"
+        },
+        {
+          "key": "c",
+          "text": "6 meses;"
+        },
+        {
+          "key": "d",
+          "text": "9 meses."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O quadro descrito (senta-se com apoio, sorri, rola de prona para supina, transfere objetos entre as mãos) é compatível com uma criança de pelo menos 6 meses, já que a transferência de objetos entre as mãos só surge nessa idade.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_084",
+      "statement": "Lactente, 11 meses, nasceu com 35 semanas de idade gestacional, pesando 2.100g. Sem intercorrências ao nascer, mamou na pimeira hora de vida, mamou exclusivamente por 6 meses. Genitora leva para a consulta porque não faz o que outras crianças fazem na sua idade. não anda, não diz \"mama\" e \"papa\", não bate palma, não brinca de esconde, achou, não se interessa pelos brinquedos que são colocados ao seu alcance e campo visual. A orientação adequada, nesse caso é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Avaliação neurológica."
+        },
+        {
+          "key": "b",
+          "text": "Investigar audição e iniciar tratamento fonoaudiológico."
+        },
+        {
+          "key": "c",
+          "text": "Iniciar Fisioterapia e Terapia Ocupacional, duas vezes na semana, e fazer revisão em um mês."
+        },
+        {
+          "key": "d",
+          "text": "Investigar audição e transtorno do espectro autista, iniciar tratamento fonoaudiológico e terapia ocupacional."
+        },
+        {
+          "key": "e",
+          "text": "Considerar normal dentro dos padrões esperados ao corrigir a idade gestacional e reavaliar em um mês."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Corrigindo a idade gestacional (nascido com 35 semanas), a idade corrigida desse lactente de 11 meses fica em torno de 9-9,5 meses — os achados descritos (não anda, não fala palavras além de sons parecidos com 'mama'/'papa', engatinha pouco) são compatíveis com essa defasagem esperada pela prematuridade, devendo-se considerar normal e reavaliar em 1 mês.",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_085",
+      "statement": "Qual das alternativas pode significar um atraso no desenvolvimento neuropsicomotor?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Entre 4 a 6 meses: o bebê vira a cabeça na direção de uma voz ou de um objeto sonoro."
+        },
+        {
+          "key": "b",
+          "text": "Só a partir do 7° mês: o bebê senta-se sem apoio."
+        },
+        {
+          "key": "c",
+          "text": "Só a partir do 7° mês: o bebê fica de bruços, levanta a cabeça e os ombros."
+        },
+        {
+          "key": "d",
+          "text": "Entre 1 ano e 6 meses a 2 anos; o bebê corre ou sobe degraus baixos."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Um sinal de atraso do desenvolvimento é a criança só conseguir, a partir do 7º mês, ficar de bruços e levantar a cabeça e os ombros — essa habilidade é esperada muito antes, já por volta dos 2-3 meses. Virar a cabeça para sons entre 4-6 meses, sentar sem apoio a partir do 7º mês e correr/subir degraus baixos entre 1 ano e meio e 2 anos são todos dentro da normalidade.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_086",
+      "statement": "Com relação ao desenvolvimento cognitivo do pré-escolar, assinale a alternativa correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "É própria desta fase, a identificação com pais e professores, o que demonstra a necessidade de aceitação do grupo social a que pertence."
+        },
+        {
+          "key": "b",
+          "text": "O pensamento lógico tem início por volta dos 3 anos, o que torna a criança capaz de expressar claramente os seus desejos."
+        },
+        {
+          "key": "c",
+          "text": "Os contos de fadas e estórias infantis apresentam estrutura que se apoia no conceito de animismo."
+        },
+        {
+          "key": "d",
+          "text": "As crises de birra estão associadas a transtornos do humor e devem ter acompanhamento e intervenção precoces."
+        },
+        {
+          "key": "e",
+          "text": "Nesta fase a escrita deve ser estimulada, evitando-se utilizar os desenhos como forma de expressão."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "No desenvolvimento cognitivo do pré-escolar (fase pré-operatória de Piaget), os contos de fadas e histórias infantis exploram amplamente o conceito de animismo — atribuição de vida, sentimentos e intenções a objetos inanimados —, característica marcante do pensamento infantil dessa faixa etária.",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_087",
+      "statement": "A mãe de menino de 2 anos de idade comparece a consulta de puericultura referindo que a avó está preocupada, porque seu neto está com a fala atrasada e gaguejando. A criança começou a falar palavras isoladas com 13 meses e atualmente fala palavras simples, com vocabulário de aproximadamente 30 palavras e chega a formar frases simples, porém, ultimamente começou a repetir palavras enquanto fala. Mãe não tem outras queixas, o menino é ativo tem bom apetite e não frequenta creche. O exame físico encontra-se dentro dos padrões de normalidade. No momento qual seria a melhor conduta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Encaminhar para avaliação da fonoaudiologia para diagnóstico"
+        },
+        {
+          "key": "b",
+          "text": "Solicitar audiometria e recomendar entrar em escolinha"
+        },
+        {
+          "key": "c",
+          "text": "Incentivar a família a corrigir a fala da criança quando estiver em casa"
+        },
+        {
+          "key": "d",
+          "text": "Tranquilizar a família e reavaliar na consulta de puericultura de rotina"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A repetição de palavras/sílabas ao falar (disfluência), em uma criança de 2 anos com vocabulário e formação de frases adequados para a idade, sem outras queixas associadas, é um achado extremamente comum e geralmente fisiológico (gagueira do desenvolvimento) — a conduta é tranquilizar a família e reavaliar na consulta de rotina, sem necessidade de intervenção imediata.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_088",
+      "statement": "Pedrinho, uma criança de 12 meses de vida, foi trazido à neurologia infantil para avaliação do seu desenvolvimento neuropsicomotor (DNPM). O médico indicou essa avaliação pelo fato de Pedrinho ter um irmão com atraso no DNPM. A aquisição motora ocorre em idades -chave bem de nidas no primeiro ano de vida. A sequência de desenvolvimento motor esperada para a idade dessa criança é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "fase troncular, fase cervical, postura ereta e deambulação."
+        },
+        {
+          "key": "b",
+          "text": "deambulação, fase cervical, fase do engatinhar e postura ereta."
+        },
+        {
+          "key": "c",
+          "text": "fase cervical, fase do engatinhar, fase troncular e postura ereta."
+        },
+        {
+          "key": "d",
+          "text": "fase cervical, fase troncular, postura ereta e deambulação."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A sequência de aquisição motora esperada no primeiro ano de vida é: fase cervical (controle cefálico) → fase troncular (sentar) → postura ereta (ficar em pé) → deambulação (andar) — padrão céfalo-caudal clássico.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_089",
+      "statement": "O recém-nascido a termo normalmente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "é incapaz de sustentar bem o olhar de longe."
+        },
+        {
+          "key": "b",
+          "text": "perde capacidade do reflexo de Moro bilateral nos primeiros dias de vida."
+        },
+        {
+          "key": "c",
+          "text": "acompanha um objeto com o olhar, virando também a cabeça para o mesmo lado, quando estimulado de perto."
+        },
+        {
+          "key": "d",
+          "text": "apresenta incapacidade de audição por imaturidade coclear."
+        },
+        {
+          "key": "e",
+          "text": "demonstra preferência para observação de cores suaves."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O recém-nascido a termo normalmente é incapaz de sustentar bem o olhar/fixação para objetos distantes, já que sua acuidade visual ao nascimento é bastante limitada, com foco ideal para objetos próximos (cerca de 20-30cm). O reflexo de Moro não desaparece nos primeiros dias (persiste por meses), a audição já está madura ao nascer, e recém-nascidos preferem, na verdade, padrões de alto contraste a cores suaves.",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_090",
+      "statement": "A vigilância do desenvolvimento é um processo contínuo de acompanhamento das atividades relacionadas à promoção do potencial de desenvolvimento da criança e à detecção de problemas. Pro ssionais de saúde, pais, professores e outros, devem estar envolvidos nesse acompanhamento. Na primeira consulta, é importante perguntar para o cuidador sobre fatos associados ao desenvolvimento da criança, observar alguns detalhes no exame físico e nalizar com a observação da criança na realização de comportamentos esperados para a sua faixa etária. Um dos principais fatores de risco como gerador para um problema do desenvolvimento é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "o parentesco entre os pais"
+        },
+        {
+          "key": "b",
+          "text": "a icterícia fisiológica"
+        },
+        {
+          "key": "c",
+          "text": "a gestação inferior a 39 semanas"
+        },
+        {
+          "key": "d",
+          "text": "o desmame precoce"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Entre os fatores listados, a prematuridade (idade gestacional inferior a 39 semanas) é o principal fator de risco biológico reconhecido para problemas do desenvolvimento neuropsicomotor, diferente da icterícia fisiológica (benigna) e do desmame precoce, que não são fatores de risco diretos estabelecidos para atraso do DNPM.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_091",
+      "statement": "Considerando os marcos de desenvolvimento, uma criança que transfere objetos de uma mão para outra, mas não bate palmas; realiza movimento de pinça polegar-dedo, mas não segura o copo e senta sem apoio, mas não ca de pé; deverá estar em que faixa etária?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "3 meses."
+        },
+        {
+          "key": "b",
+          "text": "6 meses."
+        },
+        {
+          "key": "c",
+          "text": "9 meses."
+        },
+        {
+          "key": "d",
+          "text": "12 meses."
+        },
+        {
+          "key": "e",
+          "text": "15 meses."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O padrão descrito — habilidade mais avançada presente associada à ausência da habilidade seguinte na sequência (transfere objetos mas não bate palmas; pinça mas não segura copo; senta sem apoio mas não fica de pé) — é típico da faixa etária de 9 meses, marcando uma fase de transição entre aquisições.",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_092",
+      "statement": "Paulinho, 1 ano e 3 meses, é trazido a puericultura. Na avaliação do DNPM: Engatinha e anda com apoio. Reconhece a mãe. Aponta objetos, dar tchau e bate palmas. Não fala nenhuma palavra e nem emite sons de entonação. Paulino tem:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "TEA, pois já deveria falar algumas palavras."
+        },
+        {
+          "key": "b",
+          "text": "DNPM normal para idade."
+        },
+        {
+          "key": "c",
+          "text": "possível atraso no desenvolvimento, pois ainda não anda sozinho."
+        },
+        {
+          "key": "d",
+          "text": "atraso na aquisição da linguagem. Necessário investigação."
+        },
+        {
+          "key": "e",
+          "text": "nenhuma das respostas anteriores está correta."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Paulinho, aos 15 meses, com desenvolvimento motor e social adequados (engatinha, anda com apoio, reconhece a mãe, aponta, acena, bate palmas), mas com ausência completa de palavras e de sons com entonação, apresenta atraso isolado na aquisição da linguagem, que necessita investigação — não caracteriza, isoladamente, TEA nem atraso motor.",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_093",
+      "statement": "Você está avaliando no consultório uma criança em consulta de puericultura. Os pais relatam que o lho está apto a apontar de 3 a 5 partes do corpo, usa cerca de 20 a 30 palavras que são compreensíveis por eles e está começando a formar frases com duas palavras. Assumindo que o desenvolvimento de linguagem dessa criança é normal para idade, qual a idade que esse menino deve ter?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "13 meses."
+        },
+        {
+          "key": "b",
+          "text": "15 meses."
+        },
+        {
+          "key": "c",
+          "text": "18 meses."
+        },
+        {
+          "key": "d",
+          "text": "30 meses."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A combinação de apontar 3 a 5 partes do corpo, usar 20 a 30 palavras compreensíveis e começar a formar frases de 2 palavras é característica do marco linguístico esperado aos 18 meses de idade.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_094",
+      "statement": "A principal causa de atraso no desenvolvimento da fala em crianças é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno de espectro do autismo."
+        },
+        {
+          "key": "b",
+          "text": "Distúrbio específico da linguagem."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno do deficit de atenção com hiperatividade."
+        },
+        {
+          "key": "d",
+          "text": "Falta de estimulação: ausência ou deficit na interação entre criança e adulto."
+        },
+        {
+          "key": "e",
+          "text": "Retardo neuropsicomotor."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A principal causa de atraso de fala em crianças, do ponto de vista epidemiológico, é a falta de estimulação adequada — ausência ou déficit na interação verbal e social entre criança e adulto —, mais frequente que causas específicas como TEA, distúrbio específico de linguagem, TDAH ou retardo neuropsicomotor global.",
+      "theme": "cresce_dnpm",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_095",
+      "statement": "Na espécie humana o desenvolvimento motor progride na direção:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cefalocaudal e distoproximal."
+        },
+        {
+          "key": "b",
+          "text": "Caldocefálico e proximodistal."
+        },
+        {
+          "key": "c",
+          "text": "Transversal."
+        },
+        {
+          "key": "d",
+          "text": "Cefalocaudal e proximodistal."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O desenvolvimento motor humano progride nas direções cefalocaudal (da cabeça para os pés) e proximodistal (do centro do corpo para as extremidades) — princípios clássicos da neuromaturação.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_096",
+      "statement": "Uma criança em desenvolvimento normal que salta em um pé só, conta uma história e vai para a toalete sozinha, estará em que idade?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "24 meses"
+        },
+        {
+          "key": "b",
+          "text": "36 meses"
+        },
+        {
+          "key": "c",
+          "text": "48 meses"
+        },
+        {
+          "key": "d",
+          "text": "60 meses"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Saltar em um pé só, contar uma história e ir ao banheiro sozinha (controle esfincteriano independente) são marcos típicos de uma criança de 48 meses (4 anos) com desenvolvimento normal.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_097",
+      "statement": "Em relação ao desenvolvimento neuropsicomotor normal, qual das atividades abaixo não é esperada para uma criança de 03 anos de idade?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Andar de triciclo."
+        },
+        {
+          "key": "b",
+          "text": "Copiar um quadrado."
+        },
+        {
+          "key": "c",
+          "text": "Saber seu nome e seu sexo."
+        },
+        {
+          "key": "d",
+          "text": "Falar sentenças curtas."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Aos 3 anos, ainda NÃO é esperado que a criança copie um quadrado — essa habilidade visuoconstrutiva surge mais tardiamente, por volta dos 4-5 anos (a cópia do círculo é a esperada aos 3 anos). Andar de triciclo, saber o próprio nome e sexo, e falar frases curtas já são esperados aos 3 anos.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_098",
+      "statement": "Uma lactente de 1 ano e 6 meses foi à consulta pediátrica de rotina e, durante a avaliação do desenvolvimento, foram constatados os seguintes achados: a menina rola da posição supina para prona; senta com apoio; não engatinha; balbucia, mas não fala nenhuma palavra; não estranha desconhecidos; e não faz movimento de pinça. De acordo com os marcos descritos acima, seu desenvolvimento encontra-se compatível com:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "3 meses."
+        },
+        {
+          "key": "b",
+          "text": "6 meses."
+        },
+        {
+          "key": "c",
+          "text": "9 meses."
+        },
+        {
+          "key": "d",
+          "text": "12 meses."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Os achados descritos nessa lactente de 1 ano e meio (rola de supino para prono, senta apenas com apoio, não engatinha, balbucia sem palavras, não estranha desconhecidos, sem pinça) são compatíveis com um nível de desenvolvimento de apenas 6 meses — caracterizando atraso significativo e generalizado para a idade cronológica real.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_099",
+      "statement": "A avaliação do desenvolvimento neuropsicomotor é importante na consulta de puericultura e tem como um dos objetivos o diagnóstico precoce de patologias da infância. Nesta avaliação, certa conduta motora considerada normal em uma criança de um mês, pode representar doença em outra de um ano. Assinale a alternativa abaixo, que inclui uma habilidade esperada para uma criança no 4º mês de vida.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Em prona levanta a cabeça e tórax, com a cabeça em posição vertical."
+        },
+        {
+          "key": "b",
+          "text": "Senta-se com apoio e inclina-se com as mãos à frente."
+        },
+        {
+          "key": "c",
+          "text": "Rola, rasteja-se e engatinha."
+        },
+        {
+          "key": "d",
+          "text": "Transfere objetos de uma mão para outra."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Aos 4 meses, é esperado que, em posição prona, a criança levante a cabeça e o tórax, mantendo a cabeça em posição vertical/estável — marco motor clássico dessa idade. As demais opções descrevem habilidades mais tardias (sentar com apoio inclinando-se para frente ~6-7m; rolar/rastejar/engatinhar ~6-10m; transferir objetos entre as mãos ~6-8m).",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dnpm_100",
+      "statement": "Mãe procura consultório do pediatra com bebê de 10 meses, alegando pouco desenvolvimento comparado a crianças da mesma idade. Não deambula, apresenta interesse em objetos ao redor, só fala \"papa\" e \"mama\". Brinca com alguns brinquedos colocados em seu campo visual. Engatinha precariamente, cando em pé apenas por alguns segundos. Na história pregressa: pré-termo de 35 semanas, pesando 2300 g, sem intercorrências no pós-parto imediato, tendo alta após 2 dias. Aleitamento exclusivo imediato. Cabe ao pediatra a seguinte conduta neste caso:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar audiometria e encaminhar ao neurologista, com inicio de tratamento fonoaudiológico imediato."
+        },
+        {
+          "key": "b",
+          "text": "Reavaliação em 1 mês, considerando a defasagem normal se for feita correção da idade gestacional."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar avaliação neurológica, com solicitação de imagem e eletroencefalograma."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar investigação auditiva e transtorno do espectro austista, iniciando tratamento fonoaudiológico e terapia ocupacional."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Corrigindo a idade gestacional (nascido com 35 semanas), a idade corrigida desse lactente de 10 meses fica em torno de 8-8,5 meses — os achados descritos (não deambula, fala apenas 'papa'/'mama', engatinha precariamente, fica em pé por poucos segundos) são compatíveis com essa defasagem esperada pela prematuridade, devendo-se reavaliar em 1 mês considerando a correção da idade gestacional, sem necessidade de investigação imediata.",
+      "theme": "cresce_dnpm",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}
