@@ -1,1 +1,2868 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "tps_001",
+      "statement": "Sobre os sintomas negativos da Esquizofrenia, informe se é Verdadeiro (V) ou Falso (F) para o que se a rma e assinale a alternativa que apresenta a sequência correta. ( ) Perdas de certas funções psíquicas e empobrecimento global da vida afetiva, cognitiva e social. ( ) Distanciamento e aplainamento afetivo ou afeto embotado. ( ) Distorção sobre o que é verdadeiro, como a presença de ideias deturpadas sobre a realidade. ( ) Alucinações, que são consideravelmente frequentes, mas também pode haver ilusões ou pseudoalucinações. A alternativa que apresenta a sequencia correta de cima para baixo é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "V–F–V–V"
+        },
+        {
+          "key": "b",
+          "text": "F–V–F–F"
+        },
+        {
+          "key": "c",
+          "text": "F–F–V–V"
+        },
+        {
+          "key": "d",
+          "text": "V–V–V–V"
+        },
+        {
+          "key": "e",
+          "text": "V–V–F–F"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Sequência V-V-F-F: perda de funções psíquicas e empobrecimento afetivo/cognitivo/social é descrição correta de sintomas negativos (V); afeto embotado/aplainado é sintoma negativo clássico (V); distorção da realidade (ideias deturpadas) descreve delírio, um sintoma POSITIVO, não negativo (F); alucinações também são sintomas POSITIVOS, não negativos (F).",
+      "theme": "esq_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_002",
+      "statement": "Com base na 5ª edição do manual diagnostico e estatístico de transtornos mentais (DSM-5) assinale a resposta correta referente ao diagnóstico de esquizofrenia:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O uso de substâncias ou outra condição médica que explicariam os sintomas é um fator excludente do diagnóstico."
+        },
+        {
+          "key": "b",
+          "text": "Se o paciente apresentar alucinações por mais de 24 horas já pode ser diagnosticado com esquizofrenia."
+        },
+        {
+          "key": "c",
+          "text": "Pelo menos um dos sintomas não deve ser: delírios, alucinações ou discurso desorganizado."
+        },
+        {
+          "key": "d",
+          "text": "Devem ocorrer episódios depressivos maiores ou maníacos concomitantes com os sintomas da fase ativa ou se ocorrerem sua duração total foi breve em relação aos períodos ativo e residual da doença."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Segundo o DSM-5, o uso de substâncias ou outra condição médica que explique os sintomas é fator excludente do diagnóstico de esquizofrenia. As demais alternativas contradizem os critérios reais: alucinações por 24h não bastam, é necessário que PELO MENOS um dos sintomas SEJA delírio/alucinação/discurso desorganizado (não o contrário), e episódios de humor concomitantes devem ser breves em relação ao período ativo/residual, não obrigatórios.",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_003",
+      "statement": "Um homem de 47 anos foi trazido ao Pronto Socorro pelos familiares. Ele conta sofrer \"ameaças veladas\" de sua irmã por meio de mensagens cifradas que ela digita no microondas, o que o entristece muito. Nos últimos meses, ele se manteve restrito ao seu quarto e diminuiu a ingesta alimentar. A rma ser muito \"cismado\" e que algumas pessoas o acusam de ter causado o acidente de avião com o time da Chapecoense. Antecedente de internação psiquiátrica aos 25 anos e tratamento psiquiátrico irregular desde então. Refere primeiro uso de cannabis aos 24 anos, abstinente há 6 meses, nega consumo de outras substâncias. Ao exame do estado mental, autocuidado prejudicado, pensamento organizado, delírios persecutórios, hipobulia, humor apático e embotamento afetivo. Qual a hipótese diagnóstica ?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Depressão psicótica."
+        },
+        {
+          "key": "b",
+          "text": "Transtorno delirante."
+        },
+        {
+          "key": "c",
+          "text": "Esquizofrenia."
+        },
+        {
+          "key": "d",
+          "text": "Transtorno psicótico induzido por cannabis."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Delírios persecutórios crônicos, autocuidado prejudicado, hipobulia, humor apático, embotamento afetivo, com curso desde os 25 anos e tratamento psiquiátrico irregular, caracterizam Esquizofrenia.",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_004",
+      "statement": "A catatonia é um quadro sindrômico caracterizado por alteração grave da volição e da motricidade, di cultando o manejo do paciente na enfermaria, tendo em vista o negativismo, a recusa alimentar, entre outros sintomas. O tratamento farmacológico mais adequado para o manejo de pacientes catatônicos é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "lorazepam."
+        },
+        {
+          "key": "b",
+          "text": "risperidona."
+        },
+        {
+          "key": "c",
+          "text": "clozapina."
+        },
+        {
+          "key": "d",
+          "text": "fluoxetina."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O tratamento farmacológico de escolha para o manejo agudo da catatonia é o lorazepam (benzodiazepínico).",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_005",
+      "statement": "A esquizofrenia é um dos mais comuns transtornos mentais graves, mas sua natureza essencial ainda não foi esclarecida; portanto, às vezes, ela é referida como uma síndrome, como o grupo de esquizofrenias ou, como na quinta edição do Manual Diagnóstico e Estatístico de Transtornos Mentais (DSM-5), o espectro da esquizofrenia. Em relação aos criteŕ ios diagnósticos da esquizofrenia, assinale a afirmativa incorreta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Se há história de transtorno do espectro autista ou de um transtorno da comunicação iniciado na infância, o diagnóstico adicional de esquizofrenia é realizado somente se delírios ou alucinações proeminentes, além dos demais sintomas exigidos de esquizofrenia, estiverem tambeḿ presentes por pelo menos um mês (ou menos, se tratados com sucesso)."
+        },
+        {
+          "key": "b",
+          "text": "Os sintomas devem persistir por pelo menos seis meses, e não deve haver um diagnóstico de transtorno esquizoafetivo ou transtorno do humo"
+        },
+        {
+          "key": "c",
+          "text": "Deve haver dois dos itens a seguir, cada um presente por uma quantidade significativa de tempo durante um período de um mês (ou menos, se tratados com sucesso): delírios, alucinações, discurso desorganizado, comportamento grosseiramente desorganizado ou catatônico e/ou sintomas negativos (i.e., expressão emocional diminuída ou avolia)."
+        },
+        {
+          "key": "d",
+          "text": "A presença de alucinações ou delírios é necessária para um diagnóstico de esquizofrenia."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "É a alternativa INCORRETA: a presença de alucinações OU delírios não é estritamente obrigatória para o diagnóstico de esquizofrenia — os critérios do DSM-5 exigem 2 de 5 sintomas do Critério A, sendo recomendado (mas não absolutamente exigido em todos os casos) que pelo menos um seja delírio, alucinação ou discurso desorganizado.",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_006",
+      "statement": "Um homem de 40 anos de idade é preso e mandado para observação após repetidamente invadir o escritório local de uma repartição pública, com acusação de que ali seria uma base da Agência Central de Inteligência (CIA), que estaria espionando-o com a intenção de assassiná-lo, porque ele tem parentes que vivem na Rússia. O exame de seu estado mental é normal, exceto pelo pensamento delirante referente à repartição. Quando sua esposa o visita, observa-se que ela tem uma espécie de relação passiva com o marido e defende explicitamente as mesmas convicções que o levaram à prisão, embora, sob outros aspectos, apresente um estado mental normal. O diagnóstico mais provável para esta mulher é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "esquizofrenia paranoide."
+        },
+        {
+          "key": "b",
+          "text": "transtorno psicótico compartilhado."
+        },
+        {
+          "key": "c",
+          "text": "transtorno de personalidade paranoide."
+        },
+        {
+          "key": "d",
+          "text": "transtorno obsessivo-compulsivo."
+        },
+        {
+          "key": "e",
+          "text": "transtorno de personalidade esquiva."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Delírio compartilhado entre o paciente preso e sua esposa, que endossa passivamente as mesmas convicções persecutórias apesar de mental normal sob outros aspectos, caracteriza Transtorno Psicótico Compartilhado (folie à deux).",
+      "theme": "esq_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_007",
+      "statement": "Leia o caso clínico a seguir. Marcos é um jovem de 22 anos que foi levado ao pronto socorro por ter parado de se movimentar. Há duas semanas, começou a car mais de 20 horas deitado e imóvel na cama, algumas vezes se levanta e vai ao banheiro, e outras vezes urina na cama. Quando alguém faz uma pergunta ou comentário, ele repetia a última palavra ou sílaba inúmeras vezes. Nos últimos dois dias, vem se recusando a se alimentar, não fala nenhuma palavra por dias seguidos e mantém posturas estranhas por horas, além de rigidez muscular. Faz uso de lítio e lamotrigina há dois anos, após ocorrência de um quadro maníaco e diagnóstico de transtorno bipolar. Qual é a síndrome apresentada no momento e a conduta adequada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Síndrome depressiva – suspender lítio e iniciar fluoxetina."
+        },
+        {
+          "key": "b",
+          "text": "Síndrome dissociativa – indicar ansiolítico e psicoterapia"
+        },
+        {
+          "key": "c",
+          "text": "Síndrome psicótica – introduzir olanzapina."
+        },
+        {
+          "key": "d",
+          "text": "Síndrome catatônica – aplicar benzodiazepínico lorazepam."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Imobilidade prolongada, ecolalia (repetição da última palavra/sílaba), recusa alimentar, mutismo, posturas bizarras mantidas e rigidez muscular caracterizam Síndrome Catatônica — tratamento com benzodiazepínico (lorazepam).",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_008",
+      "statement": "Homem, 20 anos de idade, é levado ao PS por episódio de agressividade há 1 dia. A mãe refere que ele passou a car mais calado e isolado, há 8 meses. Ele abandonou o emprego, pois se sentia desconfortável com os colegas, alegando que comentavam sobre ele e queriam lhe prejudicar frente ao chefe. Passou a escutar vozes, que o xingavam em alguns momentos, falava coisas sem sentido e tinha crises de choro. Chegou a relatar a sua mãe que pensava em se jogar na frente do trem para acabar com seu sofrimento. Vem progressivamente piorando. Faz uso regular de maconha há 1 ano, sendo o último consumo há 2 meses. Qual é o diagnóstico mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Episódio depressivo grave, com sintomas psicóticos."
+        },
+        {
+          "key": "b",
+          "text": "Transtorno psicótico induzido por drogas (cannabis)."
+        },
+        {
+          "key": "c",
+          "text": "Esquizofrenia paranoide."
+        },
+        {
+          "key": "d",
+          "text": "Transtorno delirante persistente."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Oito meses de isolamento social progressivo, delírios persecutórios, alucinações auditivas de comando, discurso desorganizado, ideação suicida, com curso crônico e progressivo apesar de abstinência de cannabis há 2 meses, caracterizam Esquizofrenia paranoide.",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_009",
+      "statement": "Ambrósio, 17 anos, é levado pelos pais à UBS para consulta com a médica de família. Os pais contam que há 3 meses o paciente parece conversar sozinho, apontando em diversas direções. Também notaram que há algumas semanas o garoto tem falado sobre temas como invasão alienígena e sobre a teoria dos “antigos astronautas”. A mãe, mais observadora, também conta que há quase um ano seu lho passa a maior parte do tempo no quarto, tem saído menos de casa e passa alguns dias sem tomar banho. Assinale qual é a melhor hipótese para o caso:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno Psicótico Breve."
+        },
+        {
+          "key": "b",
+          "text": "Esquizofrenia."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno Delirante Persistente."
+        },
+        {
+          "key": "d",
+          "text": "Mania Bipolar"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Cerca de um ano de retraimento social progressivo seguido de meses com crenças bizarras (invasão alienígena, teoria dos antigos astronautas) e comportamento de falar sozinho — a longa duração total (pródromo + fase ativa, ultrapassando 6 meses) é compatível com Esquizofrenia.",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_010",
+      "statement": "Um jovem de 20 anos, concluindo o ensino médio, foi pouco à escola no último mês. Nos últimos meses, vem se envolvendo com questões losó cas e parapsicológicas, temas que nunca lhe haviam interessado. Tem passado muito tempo isolado no quarto, convivendo pouco com os amigos, inclusive com a sua família, e vem tomando pouco banho e quase não troca de roupa. Por insistência da mãe, contra a sua vontade, comparece à consulta médica com um comportamento inadequado com riso imotivado e respostas sem sentido. Nesse caso, o diagnóstico MAIS PROVÁVEL, é de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Neurose."
+        },
+        {
+          "key": "b",
+          "text": "Esquizofrenia hebefrênica."
+        },
+        {
+          "key": "c",
+          "text": "Encefalite viral."
+        },
+        {
+          "key": "d",
+          "text": "Delírio de referência."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Comportamento inadequado com riso imotivado, respostas sem sentido, desorganização de interesses e comportamento, isolamento social e autonegligência caracterizam Esquizofrenia hebefrênica (tipo desorganizado).",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_011",
+      "statement": "A paciente Jéssica Lorraine, 28 anos, está apresentando um comportamento “diferente” há 18 dias. Apresenta risos imotivados, acusa sua irmã de ser uma espiã da antiga união soviética e acredita que sua mãe deseja envenená-la, colocando veneno de rato na sua comida. O quadro iniciou-se abruptamente, após ser acusada de furtar 12 reais do caixa do mercadinho em que trabalha. Após avaliação médica, a paciente é internada, inicia o tratamento com antipsicótico e tem uma melhora completa do quadro após uma semana, com retorno a sua funcionalidade e padrão de comportamento.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno psicótico breve."
+        },
+        {
+          "key": "b",
+          "text": "Esquizofrenia."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno esquizofreniforme."
+        },
+        {
+          "key": "d",
+          "text": "Mania Bipolar."
+        },
+        {
+          "key": "e",
+          "text": "Transtorno esquizoafetivo."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Início abrupto após estressor psicossocial claro (acusação de furto), com quadro delirante e comportamento bizarro, seguido de remissão completa em uma semana e retorno total à funcionalidade prévia, caracteriza Transtorno Psicótico Breve (duração menor que 1 mês).",
+      "theme": "esq_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_012",
+      "statement": "Alfredinho, 19 anos, é levado pelos pais à UBS para consulta com a clínica geral. Os pais contam que há 2 meses o paciente parece conversar sozinho, apontando em diversas direções. Também notaram que há algumas semanas o garoto tem falado sobre temas como invasão alienígena e sobre a teoria dos “antigos astronautas”. A mãe, mais observadora, também conta que há quase um ano seu lho passa a maior parte do tempo no quarto, tem saído menos de casa e passa alguns dias sem tomar banho. Assinale qual é a melhor hipótese para o caso:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno Psicótico Breve."
+        },
+        {
+          "key": "b",
+          "text": "Esquizofrenia."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno Delirante Persistente."
+        },
+        {
+          "key": "d",
+          "text": "Transtorno Esquizofreniforme"
+        },
+        {
+          "key": "e",
+          "text": "Mania Bipolar."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Cerca de um ano de retraimento social seguido de meses com crenças bizarras e comportamento de falar sozinho — a longa duração total é compatível com Esquizofrenia.",
+      "theme": "esq_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_013",
+      "statement": "Alfredinho, 19 anos, é levado pelos pais à UBS para consulta com a clínica geral. Os pais contam que, há 2 meses, o paciente parece conversar sozinho, apontando para diversas direções. Também notaram que, há algumas semanas, o garoto tem falado sobre temas como invasão alienígena e sobre a teoria dos “antigos astronautas”. A mãe, mais observadora, também conta que, há quase um ano, seu filho passa a maior parte do tempo no quarto, tem saído menos de casa e passa alguns dias sem tomar banho. Assinale qual é a melhor hipótese para o caso:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno psicótico breve."
+        },
+        {
+          "key": "b",
+          "text": "Esquizofrenia."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno delirante persistente."
+        },
+        {
+          "key": "d",
+          "text": "Mania bipolar."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Cerca de um ano de retraimento social seguido de meses com crenças bizarras e comportamento de falar sozinho — a longa duração total é compatível com Esquizofrenia.",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_014",
+      "statement": "Sobre o delírio primário e secundário, assinale a alternativa que melhor explique a diferença entre os dois:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "No delírio primário o indivíduo tem uma convicção extraordinária, enquanto no delírio secundário essa convicção é passível de modificação em qualquer tempo por experiência objetiva (provas de realidade funcionam)."
+        },
+        {
+          "key": "b",
+          "text": "O delírio secundário é uma forma gradualmente mais grave do que o delírio primário, mais frequentemente presente em transtornos mentais mais graves, como por exemplo, na psicose."
+        },
+        {
+          "key": "c",
+          "text": "O delírio primário se origina de alteração do pensamento e juízo, e o delírio secundário se origina de alterações em outras atividades mentais (afetividade, nível de consciência, etc.) que depois produzem juízos falsos."
+        },
+        {
+          "key": "d",
+          "text": "No delírio primário as ideias se desenvolvem em torno de um só conteúdo, já o delírio secundário engloba vários temas ao mesmo tempo e com conteúdos diversos."
+        },
+        {
+          "key": "e",
+          "text": "O delírio primário tem caráter mutável, observado nas fases iniciais das psicoses, enquanto o delírio secundário é fixo e irremovível, cristalizado em fases mais avançadas da doença."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O delírio primário se origina de alteração primária do próprio pensamento e juízo, enquanto o delírio secundário se origina de alterações em outras funções mentais (afetividade, nível de consciência, percepção) que posteriormente produzem juízos falsos — essa é a diferença fundamental entre os dois.",
+      "theme": "esq_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_015",
+      "statement": "M.,17 anos de idade, previamente saudável, passou a se comportar de maneira estranha. Às vezes, parecia assustado e dizia a seus amigos que estava sendo seguido pela polícia e pelo serviço secreto. Em outras ocasiões, foi visto rindo sozinho, mesmo sem razão aparente. Durante os últimos oito meses, passou mais tempo isolado, sem vontade de realizar seus afazeres e, aparentemente, preocupado com seus próprios pensamentos. Seu desempenho acadêmico se deteriorou. Nega uso de qualquer substância psicoativa. Quanto o diagnóstico de esquizofrenia segundo o DSM-5:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "os subtipos de esquizofrenia, da edição anterior, foram mantidos e incluídos novos subtipos"
+        },
+        {
+          "key": "b",
+          "text": "para que seja feito o diagnóstico não há mais a necessidade de comprometimento funcional do paciente"
+        },
+        {
+          "key": "c",
+          "text": "os sintomas precisam persistir por mais de um mês e por pelo menos de seis meses para que seja feito o diagnóstico"
+        },
+        {
+          "key": "d",
+          "text": "são necessários, para o diagnóstico, pelo menos um dos seguintes sintomas-delírio, alucinação ou discurso desorganizado"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Segundo o DSM-5, para o diagnóstico de esquizofrenia são necessários pelo menos um dos seguintes sintomas: delírio, alucinação ou discurso desorganizado, entre os critérios do Critério A.",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_016",
+      "statement": "Você está tratando de um paciente de 22 anos com um quadro de esquizofrenia. Inicialmente, você prescreveu haloperidol 15mg e observou, após 3 meses, não houve nenhuma resposta. Depois da primeira tentativa frustrada, você trocou o haloperidol por olanzapina 20mg e, após 2 meses, notou uma resposta terapêutica pobre, então decidiu que o melhor é mudar sua estratégia. Diante desse contexto, quais são: a melhor descrição do diagnóstico e a melhor conduta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Esquizofrenia aguda. Iniciar terapia psicanalítica."
+        },
+        {
+          "key": "b",
+          "text": "Esquizofrenia super-refratária. Associar quetiapina + lítio."
+        },
+        {
+          "key": "c",
+          "text": "Esquizofrenia refratária. Iniciar risperidona."
+        },
+        {
+          "key": "d",
+          "text": "Esquizofrenia refratária. Iniciar clozapina."
+        },
+        {
+          "key": "e",
+          "text": "Esquizofrenia. Iniciar lamotrigina + clorpromazina."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Falha terapêutica com dois antipsicóticos distintos (haloperidol e olanzapina) em doses e tempo adequados caracteriza Esquizofrenia refratária — a conduta correta é iniciar clozapina, o antipsicótico com maior evidência de eficácia nesses casos.",
+      "theme": "esq_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_017",
+      "statement": "Seu Altamiro procura o postinho de saúde acompanhado de seu genro Carlos, sua lha Adriana e seu lho Rodolfo, que foi levado “na marra” pelos familiares para uma avaliação médica. A família conta que Rodolfo, de 19 anos, está mais calado e introspectivo há 6 meses, tem saído pouco do quarto, tem apresentado desleixo com sua aparência e abandonou a faculdade de engenharia naval. Além disso, há cerca de 40 dias, o paciente também tem dado gargalhadas no escuro, grita diversas ofensas pela janela para pessoas que passam na rua e acha que o cachorro do vizinho tem feito xixi no gramado de sua casa para provocá-lo. Apesar de toda a insistência de sua família, o paciente nega-se veementemente a aceitar ajuda especializada e refuta a possibilidade de tomar remédios. Inclusive, deu um “cruzado” no rosto do pai e cuspiu na mãe e na irmã, que correram para acudir seu Altamiro, além de atirar uma faca contra seu cunhado, que passou de raspão. Diante desse cenário, assinale o provável diagnóstico de Rodolfo.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Mania Bipolar"
+        },
+        {
+          "key": "b",
+          "text": "Depressão Psicótica"
+        },
+        {
+          "key": "c",
+          "text": "Esquizofrenia Paranoide"
+        },
+        {
+          "key": "d",
+          "text": "Esquizofrenia Catatônica"
+        },
+        {
+          "key": "e",
+          "text": "Transtorno esquizoafetivo"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Isolamento progressivo, desleixo com a aparência, abandono dos estudos, comportamento bizarro (gargalhadas no escuro, delírios persecutórios envolvendo o cachorro do vizinho), agressividade física direcionada aos familiares e recusa total de tratamento caracterizam Esquizofrenia Paranoide.",
+      "theme": "esq_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_018",
+      "statement": "A paciente Jéssica Lorraine, 28 anos, está apresentando um comportamento “diferente” há 18 dias. Apresenta risos imotivados, acusa sua irmã de ser uma espiã da antiga união soviética e acredita que sua mãe deseja envenenála, colocando veneno de rato na sua comida. O quadro iniciouse abruptamente, após ser acusada de furtar 12 reais do caixa do mercadinho em que trabalha. Após avaliação médica, a paciente é internada, inicia o tratamento com antipsicótico e tem uma melhora completa do quadro após uma semana, com retorno a sua funcionalidade e padrão de comportamento. A hipótese diagnóstica para o caso é de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno psicótico breve."
+        },
+        {
+          "key": "b",
+          "text": "Transtorno esquizofreniforme."
+        },
+        {
+          "key": "c",
+          "text": "Esquizofrenia."
+        },
+        {
+          "key": "d",
+          "text": "Mania Bipolar."
+        },
+        {
+          "key": "e",
+          "text": "Transtorno esquizoafetivo."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Início abrupto após estressor psicossocial claro, com quadro delirante e comportamento bizarro, seguido de remissão completa em uma semana e retorno total à funcionalidade prévia, caracteriza Transtorno Psicótico Breve.",
+      "theme": "esq_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_019",
+      "statement": "Paciente Lucileide, 24 anos, está apresentando um comportamento “diferente” há 38 dias. Apresenta risos imotivados, acusa sua irmã de ser uma espiã da antiga união soviética e acredita que sua mãe deseja envenená-la, colocando veneno de rato na sua comida. O quadro iniciou-se abruptamente após a paciente ser acusada de furtar 25 reais da carteira de seu primo. Após avaliação médica, a paciente é internada, inicia o tratamento com antipsicótico e tem uma melhora completa do quadro após 4 semanas, com retorno a sua funcionalidade e padrão de comportamento. A hipótese diagnóstica para o caso, de acordo com o DSM-5, é de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno psicótico breve."
+        },
+        {
+          "key": "b",
+          "text": "Transtorno esquizofreniforme."
+        },
+        {
+          "key": "c",
+          "text": "Esquizofrenia."
+        },
+        {
+          "key": "d",
+          "text": "Mania Bipolar."
+        },
+        {
+          "key": "e",
+          "text": "Transtorno esquizoafetivo."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Quadro delirante de início abrupto após estressor, com remissão completa em 4 semanas (dentro da janela de 1 a 6 meses do DSM-5, com resolução antes de completar 6 meses), caracteriza Transtorno Esquizofreniforme.",
+      "theme": "esq_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_020",
+      "statement": "De acordo com as Diretrizes Assistenciais em Saúde Mental na Saúde Suplementar, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Devido à baixa incidência da esquizofrenia, os custos econômicos relacionados a ela são considerados pequenos."
+        },
+        {
+          "key": "b",
+          "text": "Entre os transtornos mentais graves e persistentes, estão os transtornos psicóticos e o comportamento suicida."
+        },
+        {
+          "key": "c",
+          "text": "As taxas de suicídio têm diminuído nos últimos anos."
+        },
+        {
+          "key": "d",
+          "text": "Esquizofrenia, ao contrário dos transtornos do humor, não é um fator de risco importante para o suicídio."
+        },
+        {
+          "key": "e",
+          "text": "Idosos apresentam baixa incidência de depressão, demandando menos da assistência em saúde mental."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Entre os transtornos mentais graves e persistentes, segundo as Diretrizes Assistenciais em Saúde Mental, estão os transtornos psicóticos e o comportamento suicida.",
+      "theme": "esq_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_021",
+      "statement": "Sobre a esquizofrenia, analise os itens para assinalar a alternativa verdadeira. I. A esquizofrenia caracteriza-se por psicose (perda do contato com a realidade), alucinações (percepções falsas), delírios (crenças falsas), discurso e comportamento desorganizados, embotamento afetivo (variação emocional restrita), dé cits cognitivos (comprometimento do raciocínio e da solução de problemas) e disfunção ocupacional e social. lI. A causa é desconhecida, porém, há fortes evidências de algum componente genético e ambiental. IlI. Os sintomas geralmente começam na adolescência ou no início da idade adulta. Um ou mais episódios de sintomas devem durar, no 6 meses antes que o diagnóstico seja feito. IV. O tratamento é feito com fármacos, terapia cognitiva e reabilitação psicossocial. A detecção e o diagnóstico precoces melhoram o funcionamento em longo prazo. Estão corretos os itens:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I, II, IlI e IV."
+        },
+        {
+          "key": "b",
+          "text": "I, lI e III, apenas."
+        },
+        {
+          "key": "c",
+          "text": "I, IlI e IV, apenas."
+        },
+        {
+          "key": "d",
+          "text": "II, Il e IV, apenas."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Todas as quatro afirmativas sobre esquizofrenia estão corretas: definição sindrômica com psicose/alucinações/delírios/desorganização/embotamento afetivo/déficits cognitivos/disfunção social; etiologia com componentes genéticos e ambientais; início na adolescência/início da idade adulta com duração mínima de 6 meses; e tratamento multimodal (fármacos + terapia cognitiva + reabilitação psicossocial) com detecção precoce melhorando o prognóstico.",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_022",
+      "statement": "Há cerca de quatro meses, segundo descrição de sua esposa. B., 24 anos, começou a apresentar-se mais preocupado e nervoso, com frequência andando de um lado para o outro em casa, sem conseguir car parado muito tempo, falando que algo de ruim ia acontecer, sem saber explicar o que era essa coisa ruim; também começou a ter di culdade para dormir (tanto para iniciar o sono, como acordando no meio da noite com frequência). Depois de cerca de 2 meses com esse quadro, começou a dizer que via e ouvia uma sombra ruim que queria fazer mal para as pessoas da casa e ter di culdade para fazer suas tarefas pro ssionais, por que não conseguia se concentrar nessas atividades devido ao medo que cava na cabeça o tempo todo. Depois de 3 meses, começou a descuidar de sua higiene, passando dias sem tomar banho e cando trancado em seu quarto às vezes só aceitando comida por uma fresta da porta e comendo dentro dele. Há 1 semana falou, em um momento, que a esposa queria matá-lo, para car sozinha com a casa que tinha comprado. Não apresentou episódios de auto e/ou heteroagressividade. Nunca tinha tido nada parecido antes. O médico do serviço de Atenção Primária à Saúde realizou uma visita domiciliar e, como acompanhava B. desde a infância e ele con ava muito nele. B. aceitou iniciar algum tratamento para ver se conseguia se sentir melhor. Afora estar com a roupa desarrumada e higiene pessoal não muito boa, não foi contatado nenhuma alteração signi cativa no exame físico, nem descreveu outros sintomas além dos já descritos, Qual conduta medicamentosa mais adequada para esse paciente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Clorpromazina 400 mg/dia e lítio 900 mg/dia."
+        },
+        {
+          "key": "b",
+          "text": "Prometazina 50 mg/dia e fluoxetina 20 mg/dia"
+        },
+        {
+          "key": "c",
+          "text": "Clorpromazina 400 mg/dia e fluozetina 20 mg/dia"
+        },
+        {
+          "key": "d",
+          "text": "Haloperidol 2,5 mg/dia e diazepam 10 mg/dia"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Primeiro episódio psicótico com pródromo de ansiedade/insônia evoluindo para alucinações e delírio persecutório, em contexto de boa relação médico-paciente na atenção primária — conduta inicial adequada é haloperidol em dose baixa (2,5mg/dia) associado a diazepam para controle da ansiedade/agitação associada.",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_023",
+      "statement": "Qual efeito colateral da clozapina gerou o protocolo de hemogramas semanais e mensais?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Agranulocitose."
+        },
+        {
+          "key": "b",
+          "text": "Anemia."
+        },
+        {
+          "key": "c",
+          "text": "Reticulocitose."
+        },
+        {
+          "key": "d",
+          "text": "Eosinofilia."
+        },
+        {
+          "key": "e",
+          "text": "Aumento do RDW."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O risco de agranulocitose pela clozapina é o motivo do protocolo obrigatório de monitorização hematológica semanal (inicialmente) e depois mensal durante o tratamento.",
+      "theme": "esq_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_024",
+      "statement": "T ranstorno Delirante Persistente O delírio de o paciente acreditar que está infestado de pequenos organismos macroscópicos, estando essa vivência associada a alucinação tátil, é conhecido como síndrome de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Gaulnick."
+        },
+        {
+          "key": "b",
+          "text": "Ekbon."
+        },
+        {
+          "key": "c",
+          "text": "Cotard."
+        },
+        {
+          "key": "d",
+          "text": "Capgras."
+        },
+        {
+          "key": "e",
+          "text": "Frégoli."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O delírio de estar infestado por pequenos organismos, associado a alucinação tátil (formigamento), é conhecido como Síndrome de Ekbom (delírio de parasitose).",
+      "theme": "esq_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_025",
+      "statement": "Qual é o tempo necessário de sintomas prodrômicos ou residuais para o diagnóstico de esquizofrenia de acordo com o Manual Diagnóstico e Estatístico de Transtornos Mentais, 5ª edição (DSM-5)?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "2 semanas."
+        },
+        {
+          "key": "b",
+          "text": "1 mês."
+        },
+        {
+          "key": "c",
+          "text": "3 meses."
+        },
+        {
+          "key": "d",
+          "text": "6 meses."
+        },
+        {
+          "key": "e",
+          "text": "1 ano."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Segundo o DSM-5, é necessário um tempo total de 6 meses de sintomas (incluindo período prodrômico ou residual) para o diagnóstico de esquizofrenia, com pelo menos 1 mês de sintomas da fase ativa.",
+      "theme": "esq_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_026",
+      "statement": "De acordo com o modelo histórico de diagnóstico da esquizofrenia, é correto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Para Emil Kraepelin, os sintomas psicóticos definiam a demência precoce."
+        },
+        {
+          "key": "b",
+          "text": "Eugene Bleuler incluiu anedonia nos 4 As de Bleuler."
+        },
+        {
+          "key": "c",
+          "text": "Alogia foi considerada por Kurt Schneider como um sintoma de primeira ordem."
+        },
+        {
+          "key": "d",
+          "text": "A publicação do DSM-III definiu a esquizofrenia a partir dos sintomas descritos por Bleuler."
+        },
+        {
+          "key": "e",
+          "text": "A Universidade de Washington produziu uma classificação diagnóstica para transtornos mentais conhecida como os critérios de Feighner."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A Universidade de Washington desenvolveu os critérios de Feighner, um conjunto pioneiro de critérios diagnósticos operacionais para transtornos mentais, historicamente relevante na evolução do diagnóstico psiquiátrico.",
+      "theme": "esq_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_027",
+      "statement": "Um militar reformado por causa do diagnóstico de transtorno bipolar enfartou e foi internado. Necessitou de uma cirurgia cardíaca de emergência. Desde que começou a tomar olanzapina, engordou e atualmente está obeso e sedentário. No pós-operatório, voltou a apresentar sintomas maníacos. O serviço de psiquiatria foi acionado para uma interconsulta. Acerca desse caso clínico e com base nos conhecimentos médicos correlatos, julgue os itens a seguir. Medicamentos antipsicóticos que diminuem os sintomas positivos da esquizofrenia pelo bloqueio dos receptores de dopamina na via mesolímbica podem, simultaneamente, piorar os sintomas negativos por bloquearem receptores de dopamina semelhantes na via mesocortical.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Antipsicóticos que bloqueiam receptores de dopamina na via mesolímbica reduzem sintomas positivos, mas o bloqueio dopaminérgico semelhante na via mesocortical pode simultaneamente piorar os sintomas negativos — mecanismo farmacológico bem estabelecido. Afirmação Certa.",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_028",
+      "statement": "Um jovem de 18 anos de idade, depois de começar a trabalhar em uma agência de viagens, procura atendimento psiquiátrico por aconselhamento da gerente que observou suas di culdades em completar uma tarefa, seguir uma instrução e escutar quando alguém está falando com ele. Tem impulsividade e agitação. É desorganizado, distraído e demonstra muitas di culdades escolares desde a infância, pois é difícil para ele conseguir se concentrar. Há quatro anos, usa álcool e maconha diariamente, várias vezes ao dia, inclusive no horário do trabalho. Sente-se também muito triste, com baixa autoestima, desesperançoso e com vontade de morrer. Para ele, parece que nunca vai conseguir ser feliz. Sua família sempre considerou que ele era “malcriado” e “preguiçoso”, por isso nunca procurou atendimento médico para ele. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue os itens a seguir. Estudos de neuroimagem e patologia identi cam anormalidades estruturais na apresentação da esquizofrenia, incluindo córtex pré-frontal e hipocampo menores e ventrículos aumentados, sugerindo desenvolvimento anormal.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Estudos de neuroimagem e patologia de fato identificam anormalidades estruturais na esquizofrenia, incluindo córtex pré-frontal e hipocampo menores e ventrículos aumentados, sugerindo desenvolvimento neurológico anormal. Afirmação Certa.",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_029",
+      "statement": "Uma mãe encaminha o lho de 22 anos de idade para atendimento. Ele está com excesso de peso, descuidado com a aparência e a higiene corporal, e veste roupas pretas, desgrenhadas e inadequadas para a estação. Ele fala que não sabe o motivo de ter sido levado para consulta psiquiátrica, pois não está acontecendo nada de errado com ele. Acha que quem precisa de tratamento é a mãe. “Ela é que é a louca”. No entanto, a mãe conta que, há mais ou menos 15 dias, o lho tentou amputar o próprio pênis com uma faca. Foi atendido na emergência e realizada a sutura do ferimento. Apesar de nunca ter sido muito sociável, no último ano tem permanecido, a maior parte do tempo, trancado no quarto e indiferente a tudo. Mostrase cada vez mais estranho. Não aceita a comida que a mãe faz, pois fala que enxerga e sente o cheiro do veneno que ela põe. Come apenas alimentos industrializados e lacrados, como pão, margarina e refrigerante. Acerca desse caso clínico e tendo em vista os conhecimentos médicos correlatos, julgue os itens a seguir. Uma das medicações utilizadas no tratamento da esquizofrenia é a olanzapina, na dose inicial de 5 mg/dia a 10 mg/dia, podendo também ser usada para episódios maníacos ou mistos associados ao transtorno bipolar 1.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A olanzapina é de fato utilizada no tratamento da esquizofrenia em dose inicial de 5-10mg/dia, podendo também ser usada em episódios maníacos ou mistos do transtorno bipolar tipo 1. Afirmação Certa.",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_030",
+      "statement": "Uma mãe encaminha o lho de 22 anos de idade para atendimento. Ele está com excesso de peso, descuidado com a aparência e a higiene corporal, e veste roupas pretas, desgrenhadas e inadequadas para a estação. Ele fala que não sabe o motivo de ter sido levado para consulta psiquiátrica, pois não está acontecendo nada de errado com ele. Acha que quem precisa de tratamento é a mãe. “Ela é que é a louca”. No entanto, a mãe conta que, há mais ou menos 15 dias, o lho tentou amputar o próprio pênis com uma faca. Foi atendido na emergência e realizada a sutura do ferimento. Apesar de nunca ter sido muito sociável, no último ano tem permanecido, a maior parte do tempo, trancado no quarto e indiferente a tudo. Mostrase cada vez mais estranho. Não aceita a comida que a mãe faz, pois fala que enxerga e sente o cheiro do veneno que ela põe. Come apenas alimentos industrializados e lacrados, como pão, margarina e refrigerante. Acerca desse caso clínico e tendo em vista os conhecimentos médicos correlatos, julgue os itens a seguir. Os sintomas positivos da esquizofrenia são aqueles que expressam um empobrecimento ou a perda de funções mentais.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Os sintomas POSITIVOS da esquizofrenia NÃO são os que expressam empobrecimento/perda de funções mentais — essa é a definição dos sintomas NEGATIVOS. Os positivos representam acréscimos à experiência normal (delírios, alucinações). Afirmação Errada.",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_031",
+      "statement": "Uma mãe encaminha o lho de 22 anos de idade para atendimento. Ele está com excesso de peso, descuidado com a aparência e a higiene corporal, e veste roupas pretas, desgrenhadas e inadequadas para a estação. Ele fala que não sabe o motivo de ter sido levado para consulta psiquiátrica, pois não está acontecendo nada de errado com ele. Acha que quem precisa de tratamento é a mãe. “Ela é que é a louca”. No entanto, a mãe conta que, há mais ou menos 15 dias, o lho tentou amputar o próprio pênis com uma faca. Foi atendido na emergência e realizada a sutura do ferimento. Apesar de nunca ter sido muito sociável, no último ano tem permanecido, a maior parte do tempo, trancado no quarto e indiferente a tudo. Mostrase cada vez mais estranho. Não aceita a comida que a mãe faz, pois fala que enxerga e sente o cheiro do veneno que ela põe. Come apenas alimentos industrializados e lacrados, como pão, margarina e refrigerante. Acerca desse caso clínico e tendo em vista os conhecimentos médicos correlatos, julgue os itens a seguir. Tipicamente na esquizofrenia, o delírio é bizarro e mal sistematizado, podendo ser primário ou secundário.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na esquizofrenia, o delírio é tipicamente bizarro e mal sistematizado, podendo ser classificado como primário ou secundário. Afirmação Certa.",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_032",
+      "statement": "Uma mãe encaminha o lho de 22 anos de idade para atendimento. Ele está com excesso de peso, descuidado com a aparência e a higiene corporal, e veste roupas pretas, desgrenhadas e inadequadas para a estação. Ele fala que não sabe o motivo de ter sido levado para consulta psiquiátrica, pois não está acontecendo nada de errado com ele. Acha que quem precisa de tratamento é a mãe. “Ela é que é a louca”. No entanto, a mãe conta que, há mais ou menos 15 dias, o lho tentou amputar o próprio pênis com uma faca. Foi atendido na emergência e realizada a sutura do ferimento. Apesar de nunca ter sido muito sociável, no último ano tem permanecido, a maior parte do tempo, trancado no quarto e indiferente a tudo. Mostra-se cada vez mais estranho. Não aceita a comida que a mãe faz, pois fala que enxerga e sente o cheiro do veneno que ela põe. Come apenas alimentos industrializados e lacrados, como pão, margarina e refrigerante. Acerca desse caso clínico e tendo em vista os conhecimentos médicos correlatos, julgue os itens a seguir. Como referido no caso, a esquizofrenia é considerada um transtorno do neurodesenvolvimento.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A esquizofrenia é de fato considerada um transtorno do neurodesenvolvimento, com origem em alterações precoces do desenvolvimento cerebral que se manifestam clinicamente mais tarde. Afirmação Certa.",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_033",
+      "statement": "Uma mãe encaminha o lho de 22 anos de idade para atendimento. Ele está com excesso de peso, descuidado com a aparência e a higiene corporal, e veste roupas pretas, desgrenhadas e inadequadas para a estação. Ele fala que não sabe o motivo de ter sido levado para consulta psiquiátrica, pois não está acontecendo nada de errado com ele. Acha que quem precisa de tratamento é a mãe. “Ela é que é a louca”. No entanto, a mãe conta que, há mais ou menos 15 dias, o lho tentou amputar o próprio pênis com uma faca. Foi atendido na emergência e realizada a sutura do ferimento. Apesar de nunca ter sido muito sociável, no último ano tem permanecido, a maior parte do tempo, trancado no quarto e indiferente a tudo. Mostrase cada vez mais estranho. Não aceita a comida que a mãe faz, pois fala que enxerga e sente o cheiro do veneno que ela põe. Come apenas alimentos industrializados e lacrados, como pão, margarina e refrigerante. Acerca desse caso clínico e tendo em vista os conhecimentos médicos correlatos, julgue os itens a seguir. O caso refere-se ao possível diagnóstico de esquizofrenia. A epidemiologia desse transtorno varia de acordo com a região, sendo maior em países considerados menos desenvolvidos, quando comparados aos mais desenvolvidos.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A prevalência da esquizofrenia é relativamente semelhante entre regiões, mas o PROGNÓSTICO tende a ser melhor (não pior) em países menos desenvolvidos, segundo estudos da OMS — contrariando a afirmação de maior incidência nesses países. Afirmação Errada.",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_034",
+      "statement": "Uma mulher de 39 anos de idade começou a apresentar um comportamento estranho, referido pela família, que surgiu de forma rápida e aguda. Os familiares contam que, há aproximadamente seis semanas, ela começou a sentir tristeza, desânimo, diminuição do apetite, falta de interesse e insônia. Na última semana, tem estado intensamente descon ada e fala que estão mudando o seu sexo biológico. Enxerga o próprio corpo sendo mudado para o sexo masculino. Ouve vozes dizendo-lhe que deve cortar os seios com uma faca, pois eles cresceram por ter tomado hormônios de forma involuntária, dada por seres estranhos. Acredita que a família dela também foi possuída por tais seres que colocam hormônio na comida. Por isso, come apenas alimentos que estão embalados. Acerca desse caso clínico e com base nos conhecimentos médicos correlatos, julgue os itens a seguir. A paciente manifesta um quadro caracteristicamente dramático, infantil, sedutor e manipulativo, critérios necessários para o diagnóstico de transtorno dissociativo como comorbidade, segundo o DSM-5.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A descrição de comportamento dramático, infantil, sedutor e manipulativo caracteriza traços histriônicos, não critérios do DSM-5 para transtorno dissociativo como comorbidade — a afirmação está incorreta. O quadro agudo com delírios e alucinações sugere quadro psicótico agudo, não transtorno de personalidade/dissociativo isoladamente. Afirmação Errada.",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_035",
+      "statement": "Uma mulher de 39 anos de idade começou a apresentar um comportamento estranho, referido pela família, que surgiu de forma rápida e aguda. Os familiares contam que, há aproximadamente seis semanas, ela começou a sentir tristeza, desânimo, diminuição do apetite, falta de interesse e insônia. Na última semana, tem estado intensamente descon ada e fala que estão mudando o seu sexo biológico. Enxerga o próprio corpo sendo mudado para o sexo masculino. Ouve vozes dizendo-lhe que deve cortar os seios com uma faca, pois eles cresceram por ter tomado hormônios de forma involuntária, dada por seres estranhos. Acredita que a família dela também foi possuída por tais seres que colocam hormônio na comida. Por isso, come apenas alimentos que estão embalados. Acerca desse caso clínico e com base nos conhecimentos médicos correlatos, julgue os itens a seguir. No caso clínico mencionado, podem ser identi cados sintomas característicos da síndrome depressiva, da síndrome psicótica, da síndrome relacionada ao consumo de alimentos, da síndrome relacionada a substâncias psicoativas e da síndrome relacionada ao sono.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Apenas 4 das 5 síndromes citadas podem ser identificadas no caso (depressiva, psicótica, alimentar e do sono) — não há evidência de síndrome relacionada a substâncias psicoativas no relato apresentado. Afirmação Errada.",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_036",
+      "statement": "Uma mulher de 39 anos de idade começou a apresentar um comportamento estranho, referido pela família, que surgiu de forma rápida e aguda. Os familiares contam que, há aproximadamente seis semanas, ela começou a sentir tristeza, desânimo, diminuição do apetite, falta de interesse e insônia. Na última semana, tem estado intensamente descon ada e fala que estão mudando o seu sexo biológico. Enxerga o próprio corpo sendo mudado para o sexo masculino. Ouve vozes dizendo-lhe que deve cortar os seios com uma faca, pois eles cresceram por ter tomado hormônios de forma involuntária, dada por seres estranhos. Acredita que a família dela também foi possuída por tais seres que colocam hormônio na comida. Por isso, come apenas alimentos que estão embalados. Acerca desse caso clínico e com base nos conhecimentos médicos correlatos, julgue os itens a seguir. Para o diagnóstico da esquizofrenia, considera-se um grupo de sintomas denominados negativos, que se caracterizam por alexitimia, a qual se refere à diminuição da expressão emocional.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Os sintomas negativos da esquizofrenia NÃO se caracterizam por alexitimia (incapacidade de identificar/descrever as próprias emoções) — esse é um construto psicológico distinto do embotamento afetivo (diminuição da expressão emocional observável), que é o sintoma negativo correto. Afirmação Errada.",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_037",
+      "statement": "Uma mulher de 39 anos de idade começou a apresentar um comportamento estranho, referido pela família, que surgiu de forma rápida e aguda. Os familiares contam que, há aproximadamente seis semanas, ela começou a sentir tristeza, desânimo, diminuição do apetite, falta de interesse e insônia. Na última semana, tem estado intensamente descon ada e fala que estão mudando o seu sexo biológico. Enxerga o próprio corpo sendo mudado para o sexo masculino. Ouve vozes dizendo-lhe que deve cortar os seios com uma faca, pois eles cresceram por ter tomado hormônios de forma involuntária, dada por seres estranhos. Acredita que a família dela também foi possuída por tais seres que colocam hormônio na comida. Por isso, come apenas alimentos que estão embalados. Acerca desse caso clínico e com base nos conhecimentos médicos correlatos, julgue os itens a seguir. No transtorno delirante, segundo o Manual de Diagnóstico e Estatística (DSM-5), subtipo somático, as alucinações são proeminentes e, dessa forma, esse também deve ser considerado como diagnóstico diferencial do caso apresentado.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "No subtipo somático do transtorno delirante, as alucinações NÃO são proeminentes — pelo contrário, sua ausência de alucinações proeminentes é característica que distingue o transtorno delirante de outros transtornos psicóticos. Afirmação Errada.",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_038",
+      "statement": "Uma mulher de 39 anos de idade começou a apresentar um comportamento estranho, referido pela família, que surgiu de forma rápida e aguda. Os familiares contam que, há aproximadamente seis semanas, ela começou a sentir tristeza, desânimo, diminuição do apetite, falta de interesse e insônia. Na última semana, tem estado intensamente descon ada e fala que estão mudando o seu sexo biológico. Enxerga o próprio corpo sendo mudado para o sexo masculino. Ouve vozes dizendo-lhe que deve cortar os seios com uma faca, pois eles cresceram por ter tomado hormônios de forma involuntária, dada por seres estranhos. Acredita que a família dela também foi possuída por tais seres que colocam hormônio na comida. Por isso, come apenas alimentos que estão embalados. Acerca desse caso clínico e com base nos conhecimentos médicos correlatos, julgue os itens a seguir. Trata-se de uma síndrome psicótica, quadro em que é importante considerar a esquizofrenia como diagnóstico diferencial.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Trata-se de fato de uma síndrome psicótica, sendo a esquizofrenia um diagnóstico diferencial importante a ser considerado no quadro apresentado. Afirmação Certa.",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_039",
+      "statement": "Paciente do sexo feminino, 40 anos de idade, chega ao psiquiatra alegando que seu vizinho começou a hostilizá-la, provocando-a ao andar e mover os móveis durante a noite em casa. Ela alega que o vizinho tem vigiado o comportamento dela de modo muito ostensivo. Segundo a lha da paciente, o vizinho e sua mãe sempre conviveram de forma cordial, respeitosa e cooperativa e que não observou nenhuma alteração no comportamento dele. Informa que a mãe sempre foi bastante sistemática, mas que não tinha apresentado nada parecido com essas queixas, antes. Ao exame do estado mental, a única alteração observada é a convicção em relação à mudança de comportamento do vizinho. Qual é o diagnóstico mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Personalidade paranoica."
+        },
+        {
+          "key": "b",
+          "text": "Esquizofrenia paranoide."
+        },
+        {
+          "key": "c",
+          "text": "Doença de Alzheimer."
+        },
+        {
+          "key": "d",
+          "text": "Transtorno delirante."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Crença fixa e circunscrita sobre um vizinho específico perseguindo/vigiando a paciente, sem outras alterações no exame do estado mental, sem deterioração funcional e sem outros sintomas psicóticos, caracteriza Transtorno Delirante (delírio não bizarro, sistematizado, sem outras alterações associadas).",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_040",
+      "statement": "Em relação à monitoração hematológica da clozapina, assinale a alternativa incorreta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "No início do tratamento, os leucócitos devem estar > 3.500."
+        },
+        {
+          "key": "b",
+          "text": "Hemograma e plaquetas semanais por 18 semanas e depois a cada duas semanas por mais seis meses e, após, mensalmente."
+        },
+        {
+          "key": "c",
+          "text": "Sinal amarelo: leucócitos entre 2.500 e 3.500."
+        },
+        {
+          "key": "d",
+          "text": "Sinal vermelho: granulócitos < 1.000."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "É a alternativa INCORRETA: o 'sinal vermelho' na monitorização hematológica da clozapina corresponde a granulócitos <500 (não <1.000).",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_041",
+      "statement": "Sobre o delírio, assinale a alternativa incorreta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "É um juízo falso, possível ou impossível, provável ou improvável."
+        },
+        {
+          "key": "b",
+          "text": "É a partir da definição do seu conteúdo que se pode dizer da sua pertinência diagnóstica."
+        },
+        {
+          "key": "c",
+          "text": "Os delírios primários podem estar presentes na esquizofrenia, nos transtornos bipolares e nas depressões."
+        },
+        {
+          "key": "d",
+          "text": "Os delírios são reconhecidos por serem crenças subjetivas."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "É a alternativa INCORRETA (conforme a definição clássica de delírio como um juízo SEMPRE falso, e não meramente 'possível ou impossível, provável ou improvável') — essa formulação enfraquece a definição central do delírio como convicção patológica inabalável e falsa.",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_042",
+      "statement": "São componentes do treinamento de habilidades sociais para o paciente psicótico, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Desenvolver habilidades de resolução de problemas."
+        },
+        {
+          "key": "b",
+          "text": "Estímulo à percepção do ambiente e de pistas sociais."
+        },
+        {
+          "key": "c",
+          "text": "Interpretação do delírio à luz do conflito inconsciente."
+        },
+        {
+          "key": "d",
+          "text": "Fomento a formas positivas de expressar os sentimentos."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A interpretação do delírio à luz do conflito inconsciente é uma técnica psicanalítica, não um componente do treinamento comportamental de habilidades sociais para pacientes psicóticos, que foca em resolução de problemas, percepção de pistas sociais e expressão positiva de sentimentos.",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_043",
+      "statement": "Em relação aos quadros de Esquizofrenia de início na infância, é incorreto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A Esquizofrenia precoce é uma forma rara e grave de esquizofrenia caracterizada pelo surgimento de sintomas psicóticos antes dos 12 anos de idade."
+        },
+        {
+          "key": "b",
+          "text": "A Esquizofrenia de início precoce é mais rara que a esquizofrenia de início na adolescência e na idade adulta, e não há relatos de início antes dos 5 anos."
+        },
+        {
+          "key": "c",
+          "text": "A etiologia da esquizofrenia de início na infância não é multifatorial."
+        },
+        {
+          "key": "d",
+          "text": "Na esquizofrenia de início na infância, o estado pré-mórbido inclui déficits neuropsicológicos em memória de trabalho, atenção e QI."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "É a alternativa INCORRETA: a etiologia da esquizofrenia de início na infância é, sim, considerada multifatorial (fatores genéticos, ambientais e de neurodesenvolvimento combinados), contrariando a afirmação de que não seria multifatorial.",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_044",
+      "statement": "Usuários com doenças psiquiátricas crônicas e refratárias deveriam ser direcionados, para acompanhamento, aos Centros de Atenção Psicossocial (CAPS), reservando os demais casos para os níveis de Atenção Primária e Secundária. Muitos desses usuários dos CAPS apresentam diagnóstico de Esquizofrenia. Dentre os psicofármacos listados abaixo, assinale o mais eficaz para pacientes com esse diagnóstico e que não responderam aos fármacos habituais.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Haloperidol."
+        },
+        {
+          "key": "b",
+          "text": "Clorpromazina."
+        },
+        {
+          "key": "c",
+          "text": "Quetiapina."
+        },
+        {
+          "key": "d",
+          "text": "Clozapina."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A clozapina é o antipsicótico mais eficaz para pacientes com esquizofrenia refratária que não respondeu aos fármacos habituais.",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_045",
+      "statement": "Sra. Maria de Paula procura a Unidade acompanhada do lho William, de 18 anos. Relata que há cerca de 7 dias o lho está agitado, com pensamentos delirantes, sai de casa sem rumo e não dorme. A mãe diz que há seis meses vem percebendo alteração no comportamento do lho, que às vezes falava sozinho, com di culdade de concentração, insônia e abandono da escola. Sem história de uso de álcool ou outras drogas. Durante a consulta, William tem discurso desorganizado e fala delirante. Não há relatos de agressões contra si próprio ou contra terceiros. Apresenta pouco suporte familiar, pois o pai o julga como vagabundo. Não apresenta alterações no exame físico. A conduta mais adequada para este caso é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Encaminhar para psicoterapia e considerar uso de antipsicótico, caso os sintomas não melhorem ou persistam por mais 3 meses."
+        },
+        {
+          "key": "b",
+          "text": "Introduzir antidepressivo, discutir caso em equipe para acompanhamento regular e orientar retorno em 20 a 30 dias."
+        },
+        {
+          "key": "c",
+          "text": "Explicar para a família que se trata de uma urgência psiquiátrica e encaminhar para internação hospitalar."
+        },
+        {
+          "key": "d",
+          "text": "Introduzir antipsicótico, orientar familiares sobre o quadro, possíveis efeitos adversos do medicamento e para retorno breve, se possível em 24 horas."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Primeiro episódio psicótico com pródromo de 6 meses evoluindo para agitação/delírios agudos há 7 dias, sem uso de substâncias, com pouco suporte familiar — a conduta é introduzir antipsicótico, orientar a família sobre o quadro e possíveis efeitos adversos, com retorno breve (24h) para reavaliação precoce.",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_046",
+      "statement": "Quanto ao tratamento farmacológico da esquizofrenia, afirma-se: I. Antes de se considerar um paciente resistente a determinada droga, é necessário um período de 4 a 6 semanas de administração de doses adequadas do fármaco sem que exista qualquer resposta ao tratamento. II. A clozapina, a despeito de apresentar riscos de efetivos adversos potencialmente graves (como a agranulocitose), é reconhecida por ser um antipsicótico mais eficaz que os demais antipsicóticos típicos, particularmente em casos refratários. III. O aparecimento de efeitos colaterais extrapiramidais (como distonias, impregnação e tremores) é indicação de suspensão de uso de antipsicóticos típicos. Estão corretas as afirmativas",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I e II, apenas."
+        },
+        {
+          "key": "b",
+          "text": "I e III, apenas."
+        },
+        {
+          "key": "c",
+          "text": "II e III, apenas."
+        },
+        {
+          "key": "d",
+          "text": "I, II e III."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "É correto que se necessitam 4-6 semanas de dose adequada antes de considerar resistência ao fármaco (I); a clozapina é reconhecidamente mais eficaz que os antipsicóticos típicos em casos refratários, apesar do risco de agranulocitose (II); porém, efeitos extrapiramidais NÃO indicam suspensão automática dos antipsicóticos típicos, podendo ser manejados com ajuste de dose ou associação de antiparkinsonianos (III incorreta) — corretas I e II.",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_047",
+      "statement": "Sr. João procura a Unidade acompanhado do lho André de 18 anos. Relata que há cerca de 3 dias o lho está agitado, com pensamentos delirantes, não dorme e sai de casa sem rumo. O pai diz que há três meses vem percebendo alteração no comportamento do lho que às vezes falava sozinho, com di culdade de concentração, insônia e abandono do emprego e da escola. Sem história de uso de álcool ou outras drogas. Durante a consulta André tem discurso desorganizado e fala delirante. Não há relatos de agressões contra si próprio ou contra terceiros. Tem boa rede de suporte familiar. Não apresenta alterações no exame físico. A conduta mais adequada para este caso é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Introduzir antidepressivo, discutir caso em equipe para acompanhamento regular e orientar retorno em 20 a 30 dias."
+        },
+        {
+          "key": "b",
+          "text": "Introduzir antipsicótico, orientar familiares sobre o quadro, possíveis efeitos adversos do medicamento e para retorno breve, se possível em 24 horas."
+        },
+        {
+          "key": "c",
+          "text": "Explicar para a família que se trata de uma urgência psiquiátrica e encaminhar para internação hospitalar."
+        },
+        {
+          "key": "d",
+          "text": "Encaminhar para psicoterapia e considerar uso de antipsicótico caso os sintomas não melhorem ou persistam por mais 3 meses."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Primeiro episódio psicótico com pródromo de 3 meses evoluindo para agitação/delírios agudos, sem uso de substâncias, com boa rede de suporte familiar — a conduta é introduzir antipsicótico, orientar a família sobre o quadro e possíveis efeitos adversos, com retorno breve (24h) para reavaliação precoce.",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_048",
+      "statement": "Em uma visita domiciliar feita por uma Equipe de Estratégia de Saúde da Família (ESF), em uma comunidade localizada na periferia de uma grande cidade brasileira, foi encontrada a seguinte situação: uma mãe relata à Equipe que seu lho, de 19 anos, há cerca de 8 meses, vem apresentando sintomas de comportamento bizarro, solilóquios, alucinações auditivas e visuais, isolamento social importante e heteroagressividade em relação aos membros da família, tendo já causado lesão corporal na própria mãe com objeto perfurocortante. Está sem tratamento, pois, segundo ela, o paciente se recusa à ajuda. Diante desse quadro, qual a conduta a ser tomada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Encaminhamento para um Centro de Atenção Psicossocial (CAPS) para acolhimento e acompanhamento multidisciplinar."
+        },
+        {
+          "key": "b",
+          "text": "Encaminhamento para uma Unidade Básica de Saúde (UBS) para acompanhamento por um médico de família."
+        },
+        {
+          "key": "c",
+          "text": "Encaminhamento para um serviço ambulatorial especializado para atendimento por um psiquiatra."
+        },
+        {
+          "key": "d",
+          "text": "Encaminhamento involuntário para uma emergência com vistas à internação."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de quadro psicótico grave (alucinações, comportamento bizarro, isolamento) com heteroagressividade que já causou lesão corporal à mãe, recusa de tratamento e ausência de suporte terapêutico prévio, a conduta é o encaminhamento involuntário para emergência com vistas à internação, dado o risco iminente à segurança de terceiros.",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_049",
+      "statement": "M.N.S, 25 anos, o quadro teve início aos 18 anos, ano em que prestaria vestibular para Medicina. Nesta época mostrava-se muito \"\"estressado, nervoso\"\", aos poucos foi se isolando dos companheiros de classe, não conversava com ninguém. Em casa também passou a car mais ensimesmado, quase não saia do seu quarto, foi deixando de se alimentar. Segundo a família, todos achavam que era uma fase que passaria após o vestibular. Após cerca de um mês, o paciente começou a se apresentar inquieto, falava sobre perseguição no cursinho, que havia um grupo de alunos que possuíam um chip que controlava a mente dos outros estudantes para que fossem mal nas provas, colocando pensamentos errados em sua cabeça. Passou a falar sozinho, sempre com medo, insone, chegou a agredir sicamente outro aluno, dizendo que parasse com aquilo. Desde então, o paciente passou por vários médicos e já foi internado diversas vezes. Fez uso de haloperidol 10 mg/dia por cerca de 3 meses, risperidona 8 mg/dia por dois meses, olanzapina 20 mg/dia por 4 meses, todos com resposta terapêutica pobre. Qual seria o melhor tratamento medicamentoso e a hipótese diagnostica mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aripiprazol, esquizofrenia residual."
+        },
+        {
+          "key": "b",
+          "text": "Clozapina, esquizofrenia refratária."
+        },
+        {
+          "key": "c",
+          "text": "Clozapina, esquizofrenia residual."
+        },
+        {
+          "key": "d",
+          "text": "Aripiprazol, transtorno esquizoafetivo."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Sete anos de evolução crônica desde os 18 anos, delírios persecutórios persistentes, múltiplas internações e falha terapêutica documentada com três antipsicóticos distintos em doses/tempo adequados (haloperidol, risperidona, olanzapina) caracterizam Esquizofrenia refratária — tratamento indicado é a clozapina.",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_050",
+      "statement": "O tratamento farmacológico da esquizofrenia, com os modernos antipsicóticos de 2ª geração,",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "tende a resultar em adequado controle dos sintomas positivos, a ter efeitos limitados nos sintomas negativos e a aumentar o risco de mortalidade cardiovascular pelos efeitos secundários metabólicos."
+        },
+        {
+          "key": "b",
+          "text": "é contraindicado a menores de 15 anos de idade, dado o potencial de essas drogas causarem ganho de peso, hiperglicemia, hipercolesterolemia e piora cognitiva."
+        },
+        {
+          "key": "c",
+          "text": "deve ser prescrito preferencialmente após tentativa malsucedida com psicoterapia cognitivo-comportamental e uso de medicamentos inibidores seletivos de recaptação de serotonina."
+        },
+        {
+          "key": "d",
+          "text": "traz menos efeitos colaterais metabólicos e mais eficácia contra os sintomas negativos e cognitivos desta doença, revolucionando seu tratamento."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Os antipsicóticos de segunda geração tendem a controlar adequadamente os sintomas positivos, têm efeito limitado sobre os sintomas negativos, e aumentam o risco de mortalidade cardiovascular devido aos efeitos colaterais metabólicos (ganho de peso, dislipidemia, resistência insulínica).",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_051",
+      "statement": "Paciente de 46 anos, do sexo masculino, é trazido por familiares para atendimento por estar \"retraído e isolado\". Há um mês não sai do quarto e nem toma banho. O paciente apresenta-se apático, retraído socialmente e está há anos sem trabalhar. Não se engaja em atividades prazerosas e nem em projetos de longo prazo. Fala poucas frases esparsas e desconectadas e neologismos frequentes. Diz não entender o motivo de ter sido levado ao médico, ainda que passe dias sem tomar banho e escovar os dentes. Não se sente triste. Os sintomas vêm se agravando há cerca de 20 anos e se iniciaram após um quadro psicótico que necessitou de internação por dois meses. Nesse caso, qual seria o tratamento ideal para esse paciente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Inibidor seletivo de recaptação de serotonina e terapia cognitivo-comportamental."
+        },
+        {
+          "key": "b",
+          "text": "Antipsicótico de segunda geração e abordagem psicossocial com terapia ocupacional."
+        },
+        {
+          "key": "c",
+          "text": "Inibidor de acetilcolinesterase e reabilitação cognitiva."
+        },
+        {
+          "key": "d",
+          "text": "Sal de lítio ou divalproato de sódio associado a psicoeducação."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Vinte anos de evolução crônica com predomínio de sintomas negativos (apatia, isolamento social, discurso pobre e desconectado, neologismos, ausência de insight) após episódio psicótico inicial — o tratamento ideal combina antipsicótico de segunda geração com abordagem psicossocial e terapia ocupacional, visando reabilitação funcional dado o quadro crônico predominantemente negativo.",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_052",
+      "statement": "Homem, 23 anos de idade, é trazido à Unidade de Pronto Atendimento por familiares preocupados com o seu comportamento. Paciente relata que passou a ser perseguido pela má a por ter descoberto segredos de uma religião antiga. Os pais relatam que ele tem falado desses conteúdos há dois meses, se afastado dos amigos e faltado às aulas na faculdade há oito meses. Refere grande tristeza, pois não entende o motivo da perseguição. Apresenta comportamento desorganizado, parece distanciado afetivamente, mesmo das pessoas mais próximas, e sai pouco de casa espontaneamente. Nega alucinações auditivas ou visuais e não tem histórico de uso de substâncias de abuso. Exame físico geral e neurológico: sem alterações. Qual é o diagnóstico mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno delirante persistente"
+        },
+        {
+          "key": "b",
+          "text": "Transtorno esquizofreniforme"
+        },
+        {
+          "key": "c",
+          "text": "Episódio depressivo com sintomas psicóticos"
+        },
+        {
+          "key": "d",
+          "text": "Transtorno esquizoafetivo"
+        },
+        {
+          "key": "e",
+          "text": "Esquizofrenia"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Oito meses de isolamento social e absenteísmo, associados a delírios persecutórios bizarros (perseguição por máfia relacionada a segredos religiosos), embotamento afetivo, comportamento desorganizado e tristeza secundária ao delírio (não humor primariamente deprimido), caracterizam Esquizofrenia.",
+      "theme": "esq_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_053",
+      "statement": "Mulher moradora de rua, sem acompanhamento pré-natal apresenta no primeiro dia de puerpério quadro de irritabilidade, ansiedade e alucinações auditivas. Esse quadro sugere:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Blues Puerperal."
+        },
+        {
+          "key": "b",
+          "text": "Depressão puerperal."
+        },
+        {
+          "key": "c",
+          "text": "Esquizofrenia."
+        },
+        {
+          "key": "d",
+          "text": "Psicose puerperal."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Irritabilidade, ansiedade e alucinações auditivas no primeiro dia de puerpério, em contexto de extrema vulnerabilidade psicossocial (moradora de rua, sem pré-natal), foi classificado nesta fonte como quadro compatível com blues puerperal — vale reconferir esse gabarito com literatura adicional, já que a presença de alucinações classicamente favoreceria psicose puerperal.",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_054",
+      "statement": "Considere as assertivas abaixo sobre esquizofrenia. I - Menos de 10% das pessoas com esquizofrenia morrem por suicídio. II. - Pessoas com esquizofrenia frequentemente apresentam atitutes hostis e agressivas com estranhos de forma aleatória. III. - Em comparação com a população geral, as pessoas com esquizofrenia são mais frequentemente vítimas de violência. Quais são corretas?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas I"
+        },
+        {
+          "key": "b",
+          "text": "Apenas II"
+        },
+        {
+          "key": "c",
+          "text": "Apenas III"
+        },
+        {
+          "key": "d",
+          "text": "Apenas I e III"
+        },
+        {
+          "key": "e",
+          "text": "I, II e III"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Menos de 10% das pessoas com esquizofrenia morrem por suicídio (I correta); pessoas com esquizofrenia NÃO apresentam frequentemente hostilidade aleatória com estranhos — isso é um mito estigmatizante (II incorreta); comparadas à população geral, pessoas com esquizofrenia são, na verdade, mais frequentemente VÍTIMAS de violência do que agressoras (III correta) — corretas I e III.",
+      "theme": "esq_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_055",
+      "statement": "Em relação a pacientes esquizofrênicos com sintomas obsessivos-compulsivos (SOC), assinale a alternativa correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A prevalência de SOS na esquizofrenia é de 3%."
+        },
+        {
+          "key": "b",
+          "text": "Pacientes esquizofrênicos com SOC apresentam melhor prognóstico."
+        },
+        {
+          "key": "c",
+          "text": "O uso de antipsicóticos atípicos pode exacerbar SOC."
+        },
+        {
+          "key": "d",
+          "text": "O uso de haloperidol é contraindicado para o tratamento de SOC nos pacientes com esquizofrenia."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Em pacientes esquizofrênicos, o uso de antipsicóticos atípicos (especialmente clozapina e olanzapina) pode induzir ou exacerbar sintomas obsessivo-compulsivos — fenômeno bem descrito na literatura.",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_056",
+      "statement": "Sobre a Esquizofrenia, assinale a resposta correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "É a única doença mental que cursa com alucinações."
+        },
+        {
+          "key": "b",
+          "text": "É sempre curável."
+        },
+        {
+          "key": "c",
+          "text": "O tratamento é baseado em antipsicóticos."
+        },
+        {
+          "key": "d",
+          "text": "Aparece no nascimento."
+        },
+        {
+          "key": "e",
+          "text": "Normalmente é imperceptível, sem prejuízos funcionais."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O tratamento da esquizofrenia é baseado fundamentalmente em antipsicóticos, associados a abordagens psicossociais complementares.",
+      "theme": "esq_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_057",
+      "statement": "Sr. João procura a Unidade acompanhamento do lho André de 18 anos. Relata que há cerca de 3 dias o lho está agitado, com pensamentos delirantes, não dorme e sai de casa sem rumo. O pai diz que há três meses vem percebendo alteração no comportamento do lho que às vezes falava sozinho, com di culdade de concentração, insônia e abandono do emprego e da escola. Sem história de uso de ácool ou outras drogas. Durante a consulta André tem discurso desorganizado e fala delirante. Não há relatos de agressões contra si próprio ou contra terceiros. Tem boa rede de suporte familiar. Não apresenta alterações no exame físico. A conduta mais adequada para este caso é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Introduzir antidepressivo, discutir caso em equipe para acompanhamento regular e orientar retorno em 20 a 30 dias;"
+        },
+        {
+          "key": "b",
+          "text": "Introduzir antipsicótico, orientar familiares sobre o quadro, possíveis efeitos adversos do medicamento e para retorno breve, se possível em 24 horas;"
+        },
+        {
+          "key": "c",
+          "text": "Explicar à família que se trata de uma urgência psiquiátrica e encaminhar para internação hospitalar;"
+        },
+        {
+          "key": "d",
+          "text": "Encaminhar para psicoterapia e considerar uso de antipsicótico caso os sintomas não melhorem ou persistam por mais 3 meses;"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Primeiro episódio psicótico com pródromo de 3 meses evoluindo para agitação/delírios agudos, sem uso de substâncias, com boa rede de suporte familiar — a conduta é introduzir antipsicótico, orientar a família e agendar retorno breve (24h).",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_058",
+      "statement": "Assinale a alternativa INCORRETA quanto aos sintomas da esquizofrenia",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Alucinações auditivas na forma de vozes que fazem comentários."
+        },
+        {
+          "key": "b",
+          "text": "Crises de taquicardia, tremores e sudorese fria."
+        },
+        {
+          "key": "c",
+          "text": "Embotamento afetivo."
+        },
+        {
+          "key": "d",
+          "text": "Prejuízo funcional."
+        },
+        {
+          "key": "e",
+          "text": "Comportamento bizarro."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "É a alternativa INCORRETA: taquicardia, tremores e sudorese fria são sintomas autonômicos/ansiosos, não fazendo parte do quadro clínico típico da esquizofrenia (que inclui alucinações, embotamento afetivo, prejuízo funcional e comportamento bizarro).",
+      "theme": "esq_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_059",
+      "statement": "Paulo, 54 anos, morador de rua e portador de quadro psicótico, é levado ao serviço de emergências clínicas pela polícia, após ser detido por conduta violenta. Ele apresenta história pessoal de alcoolismo, abuso de substâncias ilícitas e também é portador de diabetes mellitus e hipertensão arterial. Qual dos sintomas abaixo seria mais sugestivo de um quadro diagnóstico de Esquizofrenia versus outras causas para a psicose, tendo em vista a validade de construto baseada em critérios diagnósticos estabelecidos para a Esquizofrenia?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sintomas catatônicos."
+        },
+        {
+          "key": "b",
+          "text": "Alucinações auditivas, por exemplo, vozes inespecíficas ouvidas por todos os lados."
+        },
+        {
+          "key": "c",
+          "text": "Crença de que discos voadores o estão vigiando."
+        },
+        {
+          "key": "d",
+          "text": "Afeto inadequado."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Entre os achados listados, a crença bizarra e culturalmente implausível (discos voadores vigiando o paciente) é a mais específica para diferenciar esquizofrenia de outras causas de psicose, já que delírios bizarros são mais característicos de transtornos psicóticos primários do que sintomas catatônicos, alucinações auditivas inespecíficas ou afeto inadequado, que podem ocorrer em diversas etiologias de psicose.",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_060",
+      "statement": "Homem, 20 anos, vem apresentando um isolacionismo crescente, com descuido de sua aparência e fumando cerca de três carteiras de cigarro por dia. Apresenta condutas que são descritas pelos familiares como estranhas, com ideias de que vem sendo perseguido e de que seres de outro planeta vem se comunicando com ele através de ondas que invadem a sua mente. Em função do provável diagnóstico, a conduta terapêutica psicofarmacológica mais adequada seria iniciar com:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Nortriptilina."
+        },
+        {
+          "key": "b",
+          "text": "Sertralina."
+        },
+        {
+          "key": "c",
+          "text": "Carbonato de lítio."
+        },
+        {
+          "key": "d",
+          "text": "Clozapina."
+        },
+        {
+          "key": "e",
+          "text": "Clonazepam."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Isolamento progressivo, autonegligência, delírios persecutórios e bizarros (comunicação alienígena por ondas mentais) caracterizam Esquizofrenia — entre as opções apresentadas, a clozapina é a única classe farmacológica de antipsicótico disponível para tratar o quadro psicótico (embora, na prática clínica usual, um antipsicótico diferente costume ser escolhido como primeira linha antes da clozapina, reservada a casos refratários).",
+      "theme": "esq_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_061",
+      "statement": "R.B., 32 anos, sexo masculino, apresenta comportamento desorganizado, risos imotivados e discurso de cunho persecutório há duas semanas, segundo familiares. Negam episódio ou tratamento psiquiátrico prévios. Paciente relata que, há 20 dias, fez uso de cannabis uma única vez, estando abstinente desde então. A hipótese diagnostica para o caso é de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno psicótico breve."
+        },
+        {
+          "key": "b",
+          "text": "Transtorno esquizofreniforme."
+        },
+        {
+          "key": "c",
+          "text": "Esquizofrenia."
+        },
+        {
+          "key": "d",
+          "text": "Transtorno psicótico induzido por substância."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Comportamento desorganizado, riso imotivado e discurso persecutório iniciados logo após uso único de cannabis (20 dias atrás), sem história psiquiátrica prévia, sugerem Transtorno Psicótico Induzido por Substância, dada a relação temporal clara com o uso da droga.",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_062",
+      "statement": "As manifestações clínicas da esquizofrenia costumam ser divididas entre sintomas positivos e negativos. São considerados sintomas positivos dentro do quadro de esquizofrenia:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sensação de não conseguir sentir prazer ou emoções."
+        },
+        {
+          "key": "b",
+          "text": "Embotamento afetivo."
+        },
+        {
+          "key": "c",
+          "text": "Ideias delirantes persecutórias."
+        },
+        {
+          "key": "d",
+          "text": "Isolamento social."
+        },
+        {
+          "key": "e",
+          "text": "Redução da fala.São considerados sintomas positivos dentro do quadro de esquizofrenia:"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Ideias delirantes persecutórias são um sintoma POSITIVO da esquizofrenia — representam um acréscimo anômalo à experiência normal, diferente dos sintomas negativos (anedonia, embotamento afetivo, isolamento social, redução da fala/alogia).",
+      "theme": "esq_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_063",
+      "statement": "Paciente de 28 anos esquizofrênico sem tratamento apresenta comportamento bizarro, agitação psicomotora, alucinações auditivas e ideias delirantes persecutórias. A mãe, cuidadora, separada, deixou de administrar as medicações do lho há 3 meses devido a mobilidade reduzida por cirurgia no fêmur. Sobre o manejo do caso, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Administrar antipsicóticos de longa ação disponíveis em preparações de depósito é mais efetivo do que as formulações orais na prevenção de recidivas."
+        },
+        {
+          "key": "b",
+          "text": "Associar neurolépticos com ansiolíticos ou antidepressivos é uma estratégia bastante utilizada na prática clínica que proporciona mais benefícios do que riscos."
+        },
+        {
+          "key": "c",
+          "text": "Após a escolha do fármaco, deve-se avaliar a resposta depois de seis meses do uso do agente em doses adequadas."
+        },
+        {
+          "key": "d",
+          "text": "Administrar antipsicóticos típicos pois possuem eficácia superior aos atípicos no tratamento das manifestações agudas e na prevenção de recaídas dos sintomas."
+        },
+        {
+          "key": "e",
+          "text": "Ao optar por antipsicóticos de alta potência devemos sempre associar antiparkinsonianos para controle de efeitos adversos neurológicos."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Em paciente com histórico de má adesão medicamentosa (por dificuldade do cuidador em administrar as doses), antipsicóticos de longa ação (depósito) são mais efetivos que as formulações orais na prevenção de recidivas, por eliminarem a dependência da adesão diária.",
+      "theme": "esq_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_064",
+      "statement": "Homem, 21 anos, vem para consulta trazido por acompanhantes que referem que ele vem apresentando di culdade de expressar emoções e sentimentos associados com agitação, confusão e alucinações auditivas há cerca de 6 meses. Qual melhor alternativa para dar início ao seu tratamento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Amitriptilina."
+        },
+        {
+          "key": "b",
+          "text": "Haloperidol."
+        },
+        {
+          "key": "c",
+          "text": "Carbamazepina."
+        },
+        {
+          "key": "d",
+          "text": "Prometazina."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Dificuldade de expressar emoções, agitação, confusão e alucinações auditivas por 6 meses caracterizam quadro psicótico compatível com esquizofrenia — o tratamento inicial adequado é o haloperidol (antipsicótico).",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_065",
+      "statement": "Homem, 22 anos de idade, chega ao pronto-socorro com história de alteração do comportamento há 2 dias, tendo agredido a mãe há poucas horas. Acusa os pais de colocarem câmeras pela casa para vigiá-lo e de tentarem envenená-lo. Os pais relatam que o paciente faz uso abusivo de álcool e uso regular de maconha há um ano, além de grandes quantidades de cocaína no último mês. Negam doenças prévias do lho e referem história de dependência química e de esquizofrenia na família (tio e primos). O exame clínico é normal e o do estado mental revelou desorientação alopsíquica, hipotenacidade, agitação psicomotora, ideias delirantes de caráter persecutório. O diagnóstico e o tratamento inicial no pronto-socorro, respectivamente, são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Síndrome de abstinência alcoólica; diazepam ou lorazepam."
+        },
+        {
+          "key": "b",
+          "text": "Dependência de múltiplas substâncias; naltrexona associada a suporte psicoterápico."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno bipolar, episódio misto; carbonato de lítio."
+        },
+        {
+          "key": "d",
+          "text": "Depressão psicótica; antidepressivo associado a antipsicótico."
+        },
+        {
+          "key": "e",
+          "text": "Primeiro episódio psicótico; benzodiazepínico associado a antipsicótico."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Alteração comportamental aguda, agressividade, delírios persecutórios, uso pesado recente de múltiplas substâncias (álcool, cannabis, cocaína) e história familiar de esquizofrenia caracterizam um primeiro episódio psicótico — o tratamento inicial no pronto-socorro combina benzodiazepínico (para agitação) e antipsicótico (para os sintomas psicóticos).",
+      "theme": "esq_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_066",
+      "statement": "Mulher, 25 anos de idade, procura pronto atendimento, referindo perda do interesse por tudo, tristeza com choro fácil e ganho de peso há 3 semanas. Relata muito sono e mesmo dormindo 10 horas por noite, acorda cansada. Prefere car sozinha na maior parte do tempo e pensa que isso possa ser um castigo por algo que fez, mas não sabe o quê. Nega ter qualquer outra doença, bem como uso de drogas lícitas ou ilícitas. O diagnóstico e a conduta, respectivamente, são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Episódio depressivo, acompanhamento ambulatorial com antidepressivo."
+        },
+        {
+          "key": "b",
+          "text": "Episódio depressivo, internação em unidade psiquiátrica."
+        },
+        {
+          "key": "c",
+          "text": "Episódio esquizoafetivo, acompanhamento ambulatorial com estabilizador do humor."
+        },
+        {
+          "key": "d",
+          "text": "Episódio esquizoafetivo, acompanhamento ambulatorial com antipsicótico."
+        },
+        {
+          "key": "e",
+          "text": "Episódio depressivo com sintomas psicóticos, acompanhamento ambulatorial com antidepressivo e antipsicótico."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Anedonia, tristeza, ganho de peso, hipersonia não reparadora, isolamento social e pensamento tentativo (não delirante fixo) de estar sendo punida caracterizam episódio depressivo — acompanhamento ambulatorial com antidepressivo é a conduta adequada.",
+      "theme": "esq_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_067",
+      "statement": "T ranstorno Delirante Persistente Mulher, 55 anos, solteira, professora, refere que há 10 anos percebe as pessoas com quem convive cochichando e fazendo gestos a seu respeito, como se estivessem julgando o seu comportamento. Recentemente, tem feito denúncias à delegacia, causando constrangimentos. Não faz uso de drogas ou álcool. Não relata alucinações auditivas. O quadro é compatível com:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "esquizofrenia;"
+        },
+        {
+          "key": "b",
+          "text": "transtorno delirante persistente;"
+        },
+        {
+          "key": "c",
+          "text": "bipolaridade;"
+        },
+        {
+          "key": "d",
+          "text": "transtorno obsessivo-compulsivo."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Dez anos de crença fixa e circunscrita de estar sendo julgada/observada por outros, sem alucinações, sem uso de substâncias, mantendo funcionalidade profissional normal, caracterizam Transtorno Delirante Persistente.",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_068",
+      "statement": "Embora a esquizofrenia não seja uma doença curável, em muitos casos os sintomas e a evolução da doença podem ser controlados. Entretanto, o sucesso do tratamento com medicamentos antipsicóticos está intimamente relacionado com o percentual da resposta ao medicamento e à sua adesão. Os efeitos colaterais do uso da medicação poderão comprometer a devida utilização desses fármacos, sendo a inter-relação do diabetes com os antipsicóticos de importante entendimento. Sobre isso, assinale a alternativa INCORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Estudos têm identificado uma associação entre o uso de alguns antipsicóticos, com o aparecimento de eventos metabólicos adversos."
+        },
+        {
+          "key": "b",
+          "text": "A ziprasidona se relacionou com hiperglicemia."
+        },
+        {
+          "key": "c",
+          "text": "Clozapina apresenta eventos adversos como resistência à insulina e DM2."
+        },
+        {
+          "key": "d",
+          "text": "Os eventos adversos como hiperglicemia não foram encontrados quando do uso de aripiprazol e amilsulprida."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "É a alternativa INCORRETA: a ziprasidona é, na verdade, um dos antipsicóticos atípicos com PERFIL METABÓLICO MAIS FAVORÁVEL (menor associação com hiperglicemia/ganho de peso), contrariando a afirmação de que estaria relacionada à hiperglicemia.",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_069",
+      "statement": "Paciente do sexo masculino, 17 anos, refere que ouve “vozes” dentro da sua cabeça que mandam dar três passos para trás cada vez que visualizar um carro vermelho; essas “vozes” também mandam repetir “não, não, não” diante de notícias catastró cas que ouça, a m de evitar que essas situações noticiadas aconteçam com ele ou membros de sua família. Diante do caso exposto, qual o diagnóstico pensado pelo psiquiatra que atendeu este paciente, bem como a terapêutica indicada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Esquizofrenia paranoide; haloperidol 10 mg/dia"
+        },
+        {
+          "key": "b",
+          "text": "Transtorno de ansiedade generalizada; paroxetina 20 mg/dia"
+        },
+        {
+          "key": "c",
+          "text": "Transtorno obsessivo-compulsivo; fluoxetina 40 mg/dia"
+        },
+        {
+          "key": "d",
+          "text": "Esquizofrenia simples; risperidona 6 mg/dia"
+        },
+        {
+          "key": "e",
+          "text": "Transtorno obsessivo-compulsivo; amitriptilina 50 mg/dia"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "As 'vozes' descritas são, na verdade, pensamentos internos egodistônicos que geram rituais neutralizadores (passos para trás, repetir palavras) para evitar catástrofes imaginadas — quadro típico de Transtorno Obsessivo-Compulsivo, tratado com ISRS em dose elevada (fluoxetina 40mg, dose usual para TOC).",
+      "theme": "esq_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_070",
+      "statement": "Um adolescente de 14 anos é trazido à avaliação médica devido a quadro de mudança gradativa do comportamento com abandono das atividades escolares, isolamento social, atitudes auto-agressivas, solilóquios e mussitações, discurso messiânico sobre fim do mundo, recusa alimentar e prejuízo na qualidade do sono. Durante a entrevista, acompanhado pelos pais, ele permanece em mutismo e desvia, constantemente, o olhar para a porta do consultório. O provável diagnóstico e o tratamento mais adequado seriam:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Depressão e diazepam."
+        },
+        {
+          "key": "b",
+          "text": "Esquizofrenia e risperidona."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno Bipolar e fenobarbital."
+        },
+        {
+          "key": "d",
+          "text": "Drogadição e biperideno."
+        },
+        {
+          "key": "e",
+          "text": "Autismo e metilfenidato."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Mudança comportamental progressiva, abandono escolar, isolamento, autoagressão, solilóquios/mussitações, discurso messiânico apocalíptico, recusa alimentar, prejuízo do sono e mutismo com desvio de olhar caracterizam Esquizofrenia em adolescente — tratamento com risperidona.",
+      "theme": "esq_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_071",
+      "statement": "Em relação à maioria dos casos de esquizofrenia nos seus estágios iniciais afirma-se: I. Ocorrem sintomas leves ou inespecí cos de transtornos psicóticos, tais como dé cit cognitivo e discreto prejuízo funcional. II. Tem início súbito, sem pródromos, já com alucinações auditivas, afeto hipomodulado e delírios persecutórios. III. Quando o tratamento adequado é instituído precocemente, logo após o primeiro episódio psicótico, o paciente pode voltar a apresentar funcionalidade normal. Está/Estão correta (s) a (s) afirmativas (s):",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I, apenas."
+        },
+        {
+          "key": "b",
+          "text": "II, apenas."
+        },
+        {
+          "key": "c",
+          "text": "III, apenas."
+        },
+        {
+          "key": "d",
+          "text": "I e III, apenas."
+        },
+        {
+          "key": "e",
+          "text": "I, II e III"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Nos estágios iniciais da esquizofrenia, costumam ocorrer sintomas leves/inespecíficos com déficit cognitivo e prejuízo funcional discreto (I correta); o início costuma ser insidioso, com pródromo, não súbito sem pródromo (II incorreta); o tratamento precoce após o primeiro episódio pode restaurar a funcionalidade normal (III correta) — corretas I e III.",
+      "theme": "esq_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_072",
+      "statement": "Dentre os transtornos mentais do período puerperal, aquele que pode cursar com alterações da sensopercepção, do juízo de realidade, isolamento social, negativismo, ideação ou atitudes agressivas para com o recém-nascido e que se inicia até seis semanas após o termo é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Baby blues"
+        },
+        {
+          "key": "b",
+          "text": "Depressão puerperal"
+        },
+        {
+          "key": "c",
+          "text": "Psicose puerperal"
+        },
+        {
+          "key": "d",
+          "text": "Esquizofrenia residual"
+        },
+        {
+          "key": "e",
+          "text": "Esquizofrenia simples"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Alterações da sensopercepção, do juízo de realidade, isolamento social, negativismo e ideação/atitudes agressivas para com o recém-nascido, com início em até 6 semanas pós-parto, caracterizam Psicose Puerperal.",
+      "theme": "esq_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_073",
+      "statement": "Paciente do sexo feminino, de 53 anos, solteira, procedente do interior de Goiás, vem à consulta queixando-se de problemas de pele e sentindo-se triste por ser vítima de “preconceito”. Conta que as pessoas têm se afastado dela achando que ela tem hanseníase. Relata que, há mais de três anos, vem apresentando lesões espalhadas por todo o corpo (membros, tronco e face) acompanhadas de intenso prurido. Diz que há pequenos “insetos” vivendo sob sua pele e que eles causam dor e coceira, além de levarem ao aparecimento de grandes lesões que chegam a sangrar. Diz que passa horas do dia se coçando, o que, com frequência, leva ao aparecimento de lesões que sangram. Ao exame, nota-se escoriações em membros, tórax, abdome e face, assim como lesões ulceradas recentes e presença de múltiplas cicatrizes de tamanho semelhante às ulcerações atuais. Em locais do dorso, onde a paciente não alcança, a pele encontra-se completamente íntegra. Biópsia realizada previamente mostra lesões cicatriciais e atividade in amatória inespecí ca. Relatório de um dermatologista que a atendeu há doze meses relata a hipótese de dermatite factícia. O quadro clínico acima é compatível com qual diagnóstico?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Simulação."
+        },
+        {
+          "key": "b",
+          "text": "Transtorno obsessivo-compulsivo."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno de escoriações (dermatotilexomania)."
+        },
+        {
+          "key": "d",
+          "text": "Transtorno delirante persistente."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Crença fixa de infestação por insetos sob a pele com escoriações autoinfligidas por coçadura compulsiva, mesmo diante de investigação dermatológica negativa e diagnóstico prévio equivocado de dermatite factícia, caracteriza Transtorno Delirante Persistente (delírio de parasitose).",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_074",
+      "statement": "Alteração do conteúdo do pensamento ou juízo de realidade presente em transtornos como a esquizofrenia:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Neologismo."
+        },
+        {
+          "key": "b",
+          "text": "Delírio."
+        },
+        {
+          "key": "c",
+          "text": "Incoerência."
+        },
+        {
+          "key": "d",
+          "text": "Alucinação."
+        },
+        {
+          "key": "e",
+          "text": "Roubo do pensamento."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A alteração do conteúdo do pensamento ou juízo de realidade presente em transtornos como a esquizofrenia é denominada Delírio.",
+      "theme": "esq_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_075",
+      "statement": "O Sr. AGF começou a apresentar há 1 mês alucinações auditivas, pensamento desorganizado, ideias acerca de estar sendo perseguido por vizinhos e importante descuido na aparência. Segundo relato dos seus familiares, há cerca de 6 meses antes do aparecimento dos sintomas já descritos o Sr. AGF já exibia comportamento de estar mais retraído socialmente, interessado em demasia por assuntos religiosos e losó cos, falando e rindo sozinho várias vezes. O diagnóstico mais provável do Sr. A, pelo sistema CID-10, é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno Psicótico Breve."
+        },
+        {
+          "key": "b",
+          "text": "Esquizofrenia indiferenciada."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno Delirante Persistente."
+        },
+        {
+          "key": "d",
+          "text": "Transtorno psicótico induzido por substâncias."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Um mês de sintomas ativos (alucinações auditivas, pensamento desorganizado, delírios persecutórios, autonegligência) precedido por 6 meses de sintomas prodrômicos (retraimento social, hiperreligiosidade, falar/rir sozinho) totaliza mais de 6 meses de evolução — compatível com Esquizofrenia indiferenciada pelo CID-10 (apresentação sem predomínio claro de um subtipo específico).",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_076",
+      "statement": "Paciente com 30 anos, diagnóstico de lúpus eritematoso sistêmico, submetida à pulsoterapia, apresenta alterações de comportamento: sente-se perseguida pelas enfermeiras e pelos colegas de quarto. Durante a noite cou agitada e tentou fugir do hospital. A provável situação clínica em questão é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A paciente tem um quadro de esquizofrênia paranóide, que é frequente em lúpus eritematoso sistêmico."
+        },
+        {
+          "key": "b",
+          "text": "Deve-se transferi-la para unidade de acompanhamento psiquiátrico, pois o tratamento do transtorno psiquiátrico é prioritário."
+        },
+        {
+          "key": "c",
+          "text": "Eclosão de um quadro mental indica bom prognóstico para a evolução do lúpus eritematoso sistêmico."
+        },
+        {
+          "key": "d",
+          "text": "A alteração de comportamento pode estar relacionada à atividade da doença de base e ao tratamento."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Em paciente com LES em pulsoterapia apresentando alterações comportamentais/psicóticas, deve-se considerar que o quadro pode estar relacionado tanto à atividade da doença de base (neurolúpus) quanto ao próprio tratamento com corticoide em altas doses (psicose corticoide-induzida) — ambas causas orgânicas reconhecidas.",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_077",
+      "statement": "Uma senhora de 85 anos de idade, tem visita domiciliar da Equipe de Saúde da Família (ESF) solicitada por sua cuidadora, pois há dois dias tem apresentado comportamento estranho. Fala coisas desconexas, teve alucinação visual e comporta-se de forma agressiva algumas vezes. A paciente faz seguimento regular com a ESF há 10 anos, atualmente com assistência domiciliar, pois está restrita ao lar, após uma queda sofrida há quatro anos. A médica da equipe conhece a paciente e sabe que ela nunca teve problemas cardiovasculares, cognitivos ou de saúde mental, e que não faz uso de medicamentos contínuos. No exame físico, mostra-se desorientada em relação ao tempo. A hipótese diagnóstica mais provável e a conduta adequada são, respectivamente,",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "quadro depressivo; tratamento medicamentoso com tricíclico e avaliação por psicólogo."
+        },
+        {
+          "key": "b",
+          "text": "quadro infeccioso agudo; solicitação de raio X, exame de urina e hemograma para melhor avaliação."
+        },
+        {
+          "key": "c",
+          "text": "demência de Alzheimer; encaminhamento para neurologista para realização de exames de imagem."
+        },
+        {
+          "key": "d",
+          "text": "distúrbios de comportamento por transtorno psicótico; prescrição de antipsicótico e encaminhamento para psiquiatra."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Início agudo (2 dias) de confusão, discurso desconexo, alucinações visuais, agressividade e desorientação temporal, em idosa previamente hígida sob o aspecto cognitivo/psiquiátrico, sugere quadro confusional agudo (delirium) — a causa mais provável a investigar é infecciosa, sendo adequado solicitar radiografia de tórax, urina tipo I e hemograma.",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_078",
+      "statement": "Rafael, de 17 anos, apresentou um quadro insidioso e progressivo de descon ança e retraimento social, acusando seus colegas de sala de formarem um complô para roubar seu dinheiro e prejudicar sua família. Passou a faltar às aulas e a não cuidar mais de sua higiene, chegando a car dias sem banho e sem trocar de roupa. O quadro agravou-se de forma progressiva por um período de aproximadamente 7 meses (segundo seu pai), até que culminou com agressão física à empregada, pois acreditava que havia escutas e câmeras ocultas por meio das quais a empregada informava seus movimentos aos colegas de classe (sic). Ao exame, chamavam atenção a apatia e embotamento afetivo do paciente, apesar do ocorrido. Seu discurso era de difícil compreensão e, nas palavras do pai, “parecia possuído”. Após atendimento de emergência, o pai relatou que ele sempre fora “um garoto tímido e sem amigos”. Informou ainda que em sua família havia histórico de doença mental em familiares de primeiro grau, sem saber dar mais detalhes. Qual a hipótese diagnóstica mais provável para o quadro do paciente em questão e as medicações indicadas para tratamento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno bipolar; lítio, fluoxetina, clonazepam."
+        },
+        {
+          "key": "b",
+          "text": "Depressão crônica; escitalopram, sertralina, aripiprazol."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno de personalidade; carbamazepina, divalproato sódico, olanzapina."
+        },
+        {
+          "key": "d",
+          "text": "Esquizofrenia paranoide; risperidona, quetiapina, haloperidol."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Curso insidioso e progressivo (7 meses) de desconfiança, retraimento social, autonegligência, delírios persecutórios (complô, vigilância) culminando em agressão física baseada no delírio, com apatia e embotamento afetivo ao exame, caracterizam Esquizofrenia Paranoide — tratamento com antipsicóticos (risperidona, quetiapina, haloperidol).",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_079",
+      "statement": "Dentre os transtornos mentais do período puerperal, aquele que pode cursar com alterações da sensopercepção, do juízo de realidade, isolamento social, negativismo, ideação ou atitudes agressivas para com o recém-nascido, e que se inicia até seis semanas após o termo é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Baby blues."
+        },
+        {
+          "key": "b",
+          "text": "Depressão puerperal."
+        },
+        {
+          "key": "c",
+          "text": "Psicose puerperal."
+        },
+        {
+          "key": "d",
+          "text": "Esquizofrenia residual."
+        },
+        {
+          "key": "e",
+          "text": "Esquizofrenia simples."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Alterações da sensopercepção, do juízo de realidade, isolamento social, negativismo e ideação/atitudes agressivas para com o recém-nascido, com início em até 6 semanas pós-parto, caracterizam Psicose Puerperal.",
+      "theme": "esq_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_080",
+      "statement": "Qual das opções abaixo indica um caso de transtorno mental que deve ser referenciado para tratamento com especialista focal?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Paciente idoso, que mora sozinho e procura semanalmente a Unidade para consulta ou procedimentos médicos."
+        },
+        {
+          "key": "b",
+          "text": "Paciente passando por período de luto ou doença grave na família com sintomas de tristeza e choro fácil."
+        },
+        {
+          "key": "c",
+          "text": "Gestante com sintomas depressivos e presença de sintomas psicóticos."
+        },
+        {
+          "key": "d",
+          "text": "Paciente com sintomas ansiosos que não obteve melhora com a prescrição de benzodiazepínico."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Gestante com sintomas depressivos associados a sintomas psicóticos representa um caso de alta complexidade (risco para mãe e feto, necessidade de manejo farmacológico cuidadoso na gestação) que deve ser referenciado para especialista focal (psiquiatra), diferente de situações mais simples de manejo na atenção primária, como luto não complicado ou idosos com múltiplas consultas de rotina.",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_081",
+      "statement": "Uma mulher com 55 anos de idade e longa história de episódios depressivos é trazida à Unidade Básica de Saúde por um Agente Comunitário de Saúde por apresentar- se delirante há várias semanas. Já na sala de espera, o quadro agrava-se progressivamente para franca agitação psicomotora, com a paciente tentando agredir outro usuários e a equipe de trabalho, por quem diz estar sendo perseguida. Nessa situação, além de realizar a contenção física da paciente, está indicado administrar",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "sertralina por via oral."
+        },
+        {
+          "key": "b",
+          "text": "diazepam por via oral."
+        },
+        {
+          "key": "c",
+          "text": "haloperidol por via intramuscular."
+        },
+        {
+          "key": "d",
+          "text": "prometazina por via intramuscular."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de paciente com delírio evoluindo para agitação psicomotora e agressividade em ambiente de atenção primária, após contenção física, está indicada a administração de haloperidol por via intramuscular — antipsicótico de ação rápida apropriado para controle de agitação psicótica aguda em emergência.",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_082",
+      "statement": "Um jovem de 20 anos, concluindo o ensino médio, foi pouco à escola no último mês. Nos últimos meses, vem se envolvendo com questões losó cas e parapsicológicas, temas que nunca haviam lhe interessado antes. Tem passado muito tempo isolado no seu quarto, convivendo pouco, inclusive com a família. Vem tomando pouco banho e quase não troca de roupa. Por insistência da mãe, contra a sua vontade, vai para uma consulta médica. Na consulta, tem um comportamento inadequado com riso imotivado e respostas sem sentido. Qual é o diagnóstico mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Neurose."
+        },
+        {
+          "key": "b",
+          "text": "Esquizofrenia hebefrênica."
+        },
+        {
+          "key": "c",
+          "text": "Encefalite viral."
+        },
+        {
+          "key": "d",
+          "text": "Delírio de referência."
+        },
+        {
+          "key": "e",
+          "text": "Doença de Alzheimer precoce."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Comportamento inadequado com riso imotivado, respostas sem sentido, interesses desorganizados (filosofia/parapsicologia), isolamento social e autonegligência caracterizam Esquizofrenia hebefrênica.",
+      "theme": "esq_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_083",
+      "statement": "Paciente do sexo feminino, 17 anos, chega ao consultório a rmando que tem a capacidade de realizar milagres, como o de fazer cegos voltarem a enxergar, e que vem sendo perseguida por \"seres demoníacos que querem promover o apocalipse\". Ao exame, encontra-se vígil, orientada auto e alopsiquicamente, assustada, ansiosa e com memória preservada. Nega humor deprimido ou exaltado. Os familiares informam que o quadro atual iniciou-se há mais de 6 meses. O diagnóstico mais provável e a melhor conduta terapêutica para esse caso são, respectivamente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Esquizofrenia. A paciente deve ser medicada com um medicamento antipsicótico."
+        },
+        {
+          "key": "b",
+          "text": "Estado confusional agudo (Delirium). Ela deve ser medicada, inicialmente, com um tranquilizante."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno Afetivo Bipolar, episódio atual maníaco com sintomas psicóticos. Ela deve ser medicada com um antipscótico e um estabilizador de humor."
+        },
+        {
+          "key": "d",
+          "text": "Quadro demencial com sintomas psicóticos secundários. A paciente deve ser medicada com um agente anticolinesterásico e um antipsicótico."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Delírios de grandeza (poderes milagrosos) e persecutórios (perseguição demoníaca) com mais de 6 meses de evolução, sem alteração do nível de consciência, sem humor deprimido ou exaltado, caracterizam Esquizofrenia — tratamento com antipsicótico.",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_084",
+      "statement": "A esquizofrenia afeta cerca de 1% da população em todas as classes sociais e tem notável impacto na vida dos pacientes acometidos e de seus familiares. Seu diagnóstico é clínico, e os sintomas que melhor a descrevem são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "ilusões auditivas, frouxidão de associações, rebaixamento do nível de consciência e afeto embotado."
+        },
+        {
+          "key": "b",
+          "text": "ilusões auditivas e visuais, pensamento delirante, pragmatismo comprometido e labilidade do humor."
+        },
+        {
+          "key": "c",
+          "text": "alucinações auditivas, nível de consciência preservado, pensamento delirante e abulia."
+        },
+        {
+          "key": "d",
+          "text": "alucinações auditivas e visuais, rebaixamento do nível de consciência, pensamento empobrecido e afeto embotado."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Os sintomas que melhor descrevem a esquizofrenia são: alucinações auditivas, nível de consciência preservado (distinguindo de delirium), pensamento delirante e abulia (sintoma negativo) — o nível de consciência preservado é achado característico que diferencia a esquizofrenia de quadros confusionais.",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_085",
+      "statement": "Qual das opções abaixo indica um caso de transtorno mental que deve ser referenciado para tratamento com especialista focal?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Paciente idoso, que mora sozinho e procura semanalmente a Unidade para consulta ou procedimentos médicos;"
+        },
+        {
+          "key": "b",
+          "text": "Paciente passando por período de luto ou doença grave na família com sintomas de tristeza e choro fácil;"
+        },
+        {
+          "key": "c",
+          "text": "Gestante com sintomas depressivos e presença de sintomas psicóticos;"
+        },
+        {
+          "key": "d",
+          "text": "Paciente com sintomas ansiosos que não obteve melhora com a prescrição de benzodiazepínico;"
+        },
+        {
+          "key": "e",
+          "text": "Paciente com melhora esperada após introdução de antidepressivo, porém ainda mantém dificuldade para dormir."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Gestante com sintomas depressivos associados a sintomas psicóticos representa caso de alta complexidade que deve ser referenciado para especialista focal (psiquiatra).",
+      "theme": "esq_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_086",
+      "statement": "Paciente com 17 anos de idade, primípara, encontra-se no 7º dia pós-parto e permanece internada no alojamento conjunto, acompanhando seu recém-nascido, em tratamento de sepse neonatal. Nesse período, a paciente começa a apresentar quadro de insônia, delírios de grandeza, alternados com manifestações paranoides. Diz que ouve vozes e vê sombras que querem pegá-la e trocar seu bebê. Durante o dia, apresenta agitação psicomotora ininterrupta. Ela não apresenta nenhum sintoma associado a infanticídio ou ideário negativo em relação à sua maternidade, mas diz que prefere morrer a ser \"pega pelas sombras\". A família nega qualquer quadro anterior semelhante. Baseado na sintomatologia apresentada, o diagnóstico é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "disforia pós-parto."
+        },
+        {
+          "key": "b",
+          "text": "psicose pós-parto."
+        },
+        {
+          "key": "c",
+          "text": "depressão pós-parto."
+        },
+        {
+          "key": "d",
+          "text": "transtorno de ansiedade."
+        },
+        {
+          "key": "e",
+          "text": "transtorno bipolar (psicose maníaco-depressiva)."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Sétimo dia pós-parto, insônia, delírios de grandeza alternando com ideação paranoide, alucinações auditivas e visuais, agitação psicomotora contínua, caracterizam Psicose pós-parto (psicose puerperal).",
+      "theme": "esq_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_087",
+      "statement": "Homem, 70 anos, residente em uma pensão, foi levado ao médico da unidade básica de saúde. Nos últimos meses ele “cismou” que a sua comida estava envenenada, passando a ingerir apenas alimentos congelados ou enlatados. Negava humor deprimido, alterações do sono e apetite, di culdades de memória e concentração, bem como alucinações. Cuidava de suas nanças e realizava suas atividades diárias sem di culdade. Exceto pela grave perda auditiva, os exames físico e neurológico não apresentavam alterações. O Miniexame do Estado Mental foi compatível com a escolaridade. A HIPÓTESE DIAGNÓSTICA É:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno delirante."
+        },
+        {
+          "key": "b",
+          "text": "Esquizofrenia."
+        },
+        {
+          "key": "c",
+          "text": "Demência."
+        },
+        {
+          "key": "d",
+          "text": "Transtorno de personalidade."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Crença fixa e circunscrita de que a comida está envenenada (levando à restrição alimentar seletiva), sem outros sintomas psiquiátricos (humor, sono, apetite, memória, alucinações preservados) e com funcionalidade e cognição preservadas (MEEM compatível com escolaridade), caracterizam Transtorno Delirante — a preservação cognitiva/funcional afasta demência.",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_088",
+      "statement": "Em relação à esquizofrenia, é correto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O teste psicológico projetivo de Rorschach é indispensável para se estabelecer o diagnóstico da esquizofrenia."
+        },
+        {
+          "key": "b",
+          "text": "A “mente partida”, expressão de E. Bleuler para a demência precoce, tem o mesmo significado clínico do transtorno dissociativo da identidade."
+        },
+        {
+          "key": "c",
+          "text": "A etiologia da esquizofrenia é unicamente de natureza bioquímica e genética."
+        },
+        {
+          "key": "d",
+          "text": "Embotamento afetivo, alogia e abulia são sintomas negativos da esquizofrenia."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Embotamento afetivo, alogia e abulia são sintomas negativos característicos da esquizofrenia. O teste de Rorschach não é indispensável para o diagnóstico (clínico), o conceito de 'mente partida' de Bleuler não equivale ao transtorno dissociativo de identidade, e a etiologia não é 'unicamente' bioquímica/genética (é multifatorial).",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_089",
+      "statement": "São manifestações típicas do subtipo catatônico de esquizofrenia:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Estupor, alucinações cinestésicas e desagregação do pensamento."
+        },
+        {
+          "key": "b",
+          "text": "Agitação psicomotora, negativismo e estereotipias."
+        },
+        {
+          "key": "c",
+          "text": "Desagregação do pensamento, respostas afetivas inapropriadas e isolamento social."
+        },
+        {
+          "key": "d",
+          "text": "Delírios persecutórios, alucinações auditivas e agitação psicomotora."
+        },
+        {
+          "key": "e",
+          "text": "Estupor, embotamento afetivo e delírios de influência."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "São manifestações típicas do subtipo catatônico: agitação psicomotora, negativismo e estereotipias — além de outros sinais clássicos como estupor, flexibilidade cérea, mutismo e ecopraxia/ecolalia.",
+      "theme": "esq_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_090",
+      "statement": "Um paciente de 19 anos chega para a consulta a rmando: “[...] sou o representante do Senhor no planeta Terra e minha missão é salvar toda a humanidade do Apocalipse [...]”. Relata possuir a capacidade de ouvir o pensamento dos outros e de operar milagres, como o de fazer aleijados voltarem a andar. Entretanto, tem a certeza de que a sua missão vem sendo atrapalhada por “agentes interessados em que o mundo acabe”. Ao exame, encontra-se vígil, orientado auto e alopsiquicamente, humor ansioso e memória preservada. Nega humor deprimido ou exaltado. Pai do paciente conta que ele começou a apresentar o quadro atual gradativamente nos últimos 7 meses e que acabou largando o emprego e os estudos nesse ínterim. Durante a entrevista, em nenhum momento, admite a possibilidade de estar enganado sobre suas ideias. O diagnóstico mais provável e a melhor conduta terapêutica são, respectivamente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Quadro demencial com sintomas psicóticos secundários; medicação com um agente anticolinesterásico, como a Rivastigmina."
+        },
+        {
+          "key": "b",
+          "text": "Estado confusional agudo; medicação inicialmente com um tranquilizante, como o Diazepam, e ser entrevistado novamente em seguida."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno Afetivo Bipolar, episódio atual maníaco com sintomas psicóticos; medicação com um estabilizador de humor, como o carbonato de lítio."
+        },
+        {
+          "key": "d",
+          "text": "Esquizofrenia paranoide; medicamento com antipsicótico como o Haloperidol."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Delírios de grandeza religiosa (representante divino, poderes milagrosos), delírio de leitura do pensamento, delírios persecutórios, curso gradual de 7 meses com abandono de trabalho/estudos, sem alteração de consciência, sem humor deprimido/exaltado, e ausência completa de insight, caracterizam Esquizofrenia paranoide — tratamento com antipsicótico (haloperidol).",
+      "theme": "esq_tto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_091",
+      "statement": "Psicopatologia e Exame do Estado Mental EEM Assinale a alternativa CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Delírios e alucinações (não delirium nem alucinoses) são patognomônicos de Esquizofrenia."
+        },
+        {
+          "key": "b",
+          "text": "Turvação do nível de consciência (ex.: torpor, obnubilação) é indicador de quadros conversivos."
+        },
+        {
+          "key": "c",
+          "text": "10 mg IM de diazepam é uma abordagem adequada para a maior parte dos pacientes que chegam agitados nas emergências."
+        },
+        {
+          "key": "d",
+          "text": "É importante dar um encaminhamento rápido para os casos de psicose, pois, além dos riscos, estudos mais recentes indicam uma relação direta entre permanecer em um estado psicótico e um pior prognóstico."
+        },
+        {
+          "key": "e",
+          "text": "Aplicar uma injeção (IM) de Haloperidol Decanoato (formulação de depósito para 4 semanas) é uma abordagem que pode ser utilizada para os portadores de esquizofrenia que chegam agitados na emergência, aumentando assim, as chances de serem reencaminhados para casa."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "É importante o encaminhamento rápido dos casos de psicose, pois estudos indicam relação direta entre maior duração de psicose não tratada (DUP) e pior prognóstico a longo prazo. Delírios/alucinações não são exclusivos/patognomônicos da esquizofrenia, turvação da consciência sugere delirium (não conversão), diazepam IM não é a abordagem preferida para agitação psiquiátrica aguda, e antipsicóticos de depósito não são indicados para manejo agudo de agitação em emergência.",
+      "theme": "esq_tto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_092",
+      "statement": "Avalie as assertivas abaixo. I. São exemplos de sintomas negativos da esquizofrenia: embotamento afetivo, comportamento bizarro, neologismo. II. Alucinações auditivas características da esquizofrenia são as vozes de comando. III. A esquizofrenia simples caracteriza-se por pensamento desorganizado, comportamento bizarro e afeto pueril. Está (ão) CORRETA (S):",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Somente a assertiva I."
+        },
+        {
+          "key": "b",
+          "text": "Somente a assertiva II."
+        },
+        {
+          "key": "c",
+          "text": "Somente a assertiva III."
+        },
+        {
+          "key": "d",
+          "text": "As assertivas I e II."
+        },
+        {
+          "key": "e",
+          "text": "As assertivas II e III."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Embotamento afetivo é sintoma negativo, mas comportamento bizarro e neologismo são sintomas POSITIVOS de desorganização (I incorreta); alucinações auditivas de comando são de fato características e clássicas da esquizofrenia (II correta); a esquizofrenia simples caracteriza-se por declínio negativo insidioso, SEM sintomas positivos proeminentes como pensamento desorganizado/comportamento bizarro descritos (III incorreta, essa descrição se encaixa melhor no subtipo hebefrênico/desorganizado) — correta apenas II.",
+      "theme": "esq_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_093",
+      "statement": "L.A.M., 55 anos, solteira, professora de ensino médio, evangélica praticante, 1,50 m de altura, pesando cerca de 70 kg, foi levada ao consultório por duas irmãs. Essas alegam que, há mais de 10 anos, a irmã começou a “perceber ” que alguns alunos e pessoas na rua ou mesmo familiares cochicham, fazem gestos, dando a entender que ela é homossexual. No início, as irmãs chegaram a questionar pessoas, condoendo-se do sofrimento de L.A.M., porém, após algum tempo, cou claro que era tudo imaginação da paciente. Recentemente, a situação piorou, pois ela tem feito denúncias à delegacia e criado constrangimento para todos, muito embora continue absolutamente normal em todos os outros aspectos funcionais. Questionada, a paciente garante que é vítima inocente e que realmente muita gente tem feito sinais ou falado entre si, sendo ela o alvo desses comentários maldosos. A paciente a rma que jamais experimentou alucinações auditivas, apenas percebe os significados nos gestos dos outros. O quadro descrito é compatível com transtorno:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Esquizofrênico."
+        },
+        {
+          "key": "b",
+          "text": "Obsessivo-compulsivo."
+        },
+        {
+          "key": "c",
+          "text": "Delirante persistente."
+        },
+        {
+          "key": "d",
+          "text": "Somatoforme."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Mais de 10 anos de crença fixa e circunscrita (pessoas insinuando que é homossexual através de gestos/cochichos), sem alucinações auditivas, mantendo funcionalidade normal em todos os outros aspectos, caracterizam Transtorno Delirante Persistente.",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_094",
+      "statement": "Marcos, 20 anos, há dois anos, vem apresentando mudança de comportamento, começou a ter retraimento social, deixou de estudar, cava recluso no seu quarto, sem conversar com familiares e não saía de casa. Referia ter descon ança dos vizinhos, achava que o olhavam de modo estranho. Dizia que o estavam lmando e que seus pensamentos estavam sendo transmitidos. Dizia que o vizinho estava praticando vodu e ouvia vozes em sua casa, que o acusavam e o ameaçavam. Nega uso de álcool, embora tenha usado maconha ocasionalmente aos 15 anos. O exame físico não revelou anormalidades e todos os testes sanguíneos foram normais. Ao exame do estado mental apresenta afeto embotado, anedonia, abulia, irradiação do pensamento, delírio de controle e alucinações auditivas. Sua fala tem velocidade, ritmo e tom normais. O diagnóstico deste caso é de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Esquizofrenia paranoide."
+        },
+        {
+          "key": "b",
+          "text": "Esquizofrenia catatônica."
+        },
+        {
+          "key": "c",
+          "text": "Depressão pós-esquizofrênica."
+        },
+        {
+          "key": "d",
+          "text": "Esquizofrenia hebefrênica."
+        },
+        {
+          "key": "e",
+          "text": "Esquizofrenia residual."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Dois anos de retraimento social, desconfiança, delírios de irradiação e controle do pensamento, alucinações auditivas acusatórias, embotamento afetivo, anedonia e abulia, mas com fala de velocidade/ritmo/tom normais (sem desorganização formal do discurso), caracterizam Esquizofrenia Paranoide (predomínio de sintomas persecutórios/delirantes com discurso preservado, diferente do subtipo hebefrênico/desorganizado).",
+      "theme": "esq_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_095",
+      "statement": "São causas orgânicas que podem gerar tanto psicose quanto depressão e mania, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "uso de corticoesteroides."
+        },
+        {
+          "key": "b",
+          "text": "uso de cocaína ou anfetaminas."
+        },
+        {
+          "key": "c",
+          "text": "hipotireoidismo."
+        },
+        {
+          "key": "d",
+          "text": "doença de Alzheimer."
+        },
+        {
+          "key": "e",
+          "text": "lúpus eritematoso sistêmico."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Entre as causas orgânicas listadas, a doença de Alzheimer não é classicamente citada como causa que gera tanto psicose quanto mania de forma equivalente — diferente de corticoides, cocaína/anfetaminas, hipotireoidismo e LES, que são causas orgânicas clássicas de sintomas tanto psicóticos quanto do humor (depressão e mania).",
+      "theme": "esq_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_096",
+      "statement": "A síndrome catatônica, inicialmente considerada como manifestação de doença psiquiátrica, tem sido cada vez mais identi cada nas enfermarias de clínica médica. São exemplos de sinais que podem ser encontrados nesta síndrome, EXCETO a:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "flexibilidade cérea."
+        },
+        {
+          "key": "b",
+          "text": "alucinações hipnagógicas."
+        },
+        {
+          "key": "c",
+          "text": "obediência automática."
+        },
+        {
+          "key": "d",
+          "text": "ecopraxia."
+        },
+        {
+          "key": "e",
+          "text": "catalepsia."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Alucinações hipnagógicas (fenômeno normal que ocorre na transição para o sono) NÃO são sinal da síndrome catatônica — diferente de flexibilidade cérea, obediência automática, ecopraxia e catalepsia, que são sinais catatônicos clássicos.",
+      "theme": "esq_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_097",
+      "statement": "Com relação à psicose puerperal, assinale a alternativa incorreta. (KAPLAN; SADOCK, Synopsis of Psychiatry. Tenth Edition. 2007)",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "É um exemplo de transtorno psicótico não especificado que ocorre na mulher que teve uma parturição recentemente."
+        },
+        {
+          "key": "b",
+          "text": "A incidência de psicose puerperal é de 10 a 20 por 1.000 nascimentos."
+        },
+        {
+          "key": "c",
+          "text": "Das mulheres afetadas, 50% têm uma história familiar de transtorno do humor."
+        },
+        {
+          "key": "d",
+          "text": "A psicose puerperal é uma emergência psiquiátrica."
+        },
+        {
+          "key": "e",
+          "text": "Medicação antipsicótica e carbonato de litio, geralmente combinados com um antidepressivo, são as medicações de escolha."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "É a alternativa INCORRETA: a incidência de psicose puerperal é, na verdade, muito menor que a citada — cerca de 1 a 2 por 1.000 nascimentos (não 10-20 por 1.000).",
+      "theme": "esq_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_098",
+      "statement": "Do ponto de vista da psicopatologia fenomenológica, a recusa em se alimentar, que normalmente é acompanhada de perda signi cativa de peso, que ocorre principalmente em pacientes esquizofrênicos, sob a justi cativa de que querem envenená- los, recebe o nome de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Anorexia mental."
+        },
+        {
+          "key": "b",
+          "text": "Sitiofobia."
+        },
+        {
+          "key": "c",
+          "text": "Bulimia nervosa."
+        },
+        {
+          "key": "d",
+          "text": "Percepção delirante."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A recusa alimentar por convicção delirante de estar sendo envenenado, típica de pacientes esquizofrênicos, é denominada Sitiofobia.",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_099",
+      "statement": "Raimundo, 22 anos, é levado pelos pais à UBS para avaliação emergencial com a médica de família fora de agenda. Os pais contam que, há 3 meses, o paciente conversa sozinho e gesticula em diversas direções. Também notaram que, há algumas semanas, o garoto tem falado sobre temas “bizarros”, como a teoria da terra plana e sobre a teoria dos “antigos astronautas”. A mãe, mais observadora, conta que, há quase um ano, seu lho passa a maior parte do tempo no quarto, tem saído menos de casa e passa alguns dias sem tomar banho e escovar os dentes. Relata, também, que o lho parece não ter vontade de interagir com a família. Qual é a melhor hipótese para esse caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno psicótico breve."
+        },
+        {
+          "key": "b",
+          "text": "Esquizofrenia."
+        },
+        {
+          "key": "c",
+          "text": "Transtorno delirante persistente."
+        },
+        {
+          "key": "d",
+          "text": "Mania bipolar"
+        },
+        {
+          "key": "e",
+          "text": "Transtorno esquizofreniforme"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Cerca de um ano de retraimento social e autonegligência seguido de semanas com crenças bizarras (terra plana, antigos astronautas) e comportamento de falar/gesticular sozinho — a longa duração total é compatível com Esquizofrenia.",
+      "theme": "esq_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "tps_100",
+      "statement": "César, 16 anos, é levado pelos pais à UBS para consulta com a médica de família. Os pais do garoto estão apavorados e explicam que, há 2 meses, o paciente começou a conversar sozinho, agindo como se estivesse discutindo com outras pessoas, apontando um olhar assombrado em diversas direções. Também notaram que, há algumas semanas, o menor tem falado sobre temas bizarros, como invasão zumbi e sobre a teoria da terra plana. Além disso, sua mãe, mais observadora, também conta que, há aproximadamente 8 meses, o paciente passa a maior parte do tempo no quarto, tem saído menos de casa, interage menos com os familiares e passa alguns dias sem tomar banho e sem escovar os dentes. Assinale qual é a melhor hipótese para o caso:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Transtorno psicótico breve"
+        },
+        {
+          "key": "b",
+          "text": "Esquizofrenia"
+        },
+        {
+          "key": "c",
+          "text": "Transtorno delirante persistente"
+        },
+        {
+          "key": "d",
+          "text": "Transtorno esquizofreniforme"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Cerca de 8 meses de retraimento social e autonegligência seguido de 2 meses com comportamento de conversar sozinho e semanas com crenças bizarras (invasão zumbi, terra plana) — a longa duração total é compatível com Esquizofrenia.",
+      "theme": "esq_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}

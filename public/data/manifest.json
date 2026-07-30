@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T16:54:07.065Z",
+  "generatedAt": "2026-07-30T17:21:45.908Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,7 +26,7 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 3490,
+  "totalQuestions": 3684,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
@@ -95,6 +95,10 @@
     "bipo_tto": 11,
     "dep_tto": 14,
     "dep_dx": 22,
+    "esq_dx": 52,
+    "esq_tto": 48,
+    "psi_personalidade": 32,
+    "psi_semiologia": 62,
     "psi_somatoformes": 55,
     "sui_aval": 22,
     "sui_manejo": 16,
@@ -2819,8 +2823,31 @@
     {
       "area": "psiquiatria",
       "slug": "esquizofrenia",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "esq_dx",
+        "esq_tto"
+      ],
+      "questionsCount": 100,
+      "flashcardsCount": 0,
+      "casosCount": 0
+    },
+    {
+      "area": "psiquiatria",
+      "slug": "personalidade",
+      "themes": [
+        "psi_personalidade"
+      ],
+      "questionsCount": 32,
+      "flashcardsCount": 0,
+      "casosCount": 0
+    },
+    {
+      "area": "psiquiatria",
+      "slug": "semiologia-psiquiatrica",
+      "themes": [
+        "psi_semiologia"
+      ],
+      "questionsCount": 62,
       "flashcardsCount": 0,
       "casosCount": 0
     },

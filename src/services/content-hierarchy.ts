@@ -1153,6 +1153,16 @@ export const AREAS: Area[] = [
         label: 'Transtornos Alimentares',
         subtemas: []
       },
+      {
+        id: 'psi_personalidade',
+        label: 'Transtornos de Personalidade',
+        subtemas: []
+      },
+      {
+        id: 'psi_semiologia',
+        label: 'Psicopatologia e Semiologia',
+        subtemas: []
+      },
     ]
   },
 
