@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T14:16:04.902Z",
+  "generatedAt": "2026-07-30T14:30:39.147Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,7 +26,7 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 3014,
+  "totalQuestions": 3112,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
@@ -71,6 +71,7 @@
     "orto_trauma_basico": 32,
     "ped_aleitamento": 99,
     "ped_bronco": 2,
+    "cresce_curvas": 98,
     "cresce_dnpm": 100,
     "ped_exant": 97,
     "ped_congenitas": 200,
@@ -2417,8 +2418,10 @@
     {
       "area": "pediatria",
       "slug": "crescimento",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "cresce_curvas"
+      ],
+      "questionsCount": 98,
       "flashcardsCount": 0,
       "casosCount": 0
     },

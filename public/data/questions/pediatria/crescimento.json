@@ -1,1 +1,2936 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "cresc_001",
+      "statement": "A maior velocidade de crescimento anual acontece:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Nos primeiros 12 meses de vida."
+        },
+        {
+          "key": "b",
+          "text": "No segundo ano."
+        },
+        {
+          "key": "c",
+          "text": "No estirão da adolescência do menino."
+        },
+        {
+          "key": "d",
+          "text": "No estirão da adolescência da menina."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A maior velocidade de crescimento absoluta ocorre nos primeiros 12 meses de vida (cerca de 25cm/ano), sendo superior inclusive à velocidade observada no estirão puberal.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_002",
+      "statement": "Criança do sexo masculino de 8 anos de idade comparece a unidade básica de saúde para consulta de rotina. Sua mãe queixa-se de que o paciente é o mais baixo da sua turma e que ele não cresceu nos últimos meses, na sua percepção. Ao exame físico, o paciente tinha z-score entre -1 e -2 na curva de estatura para idade da Organização Mundial de Saúde (OMS). Na consulta anterior, há 1 ano, o paciente estava com z-score entre 0 e -1 na mesma curva. Adicionalmente, apresentou volume testicular de 5mL ao exame da genitália. Qual conduta deve ser adotada neste momento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Fazer o diagnóstico de puberdade precoce e o encaminhar para endocrinologia."
+        },
+        {
+          "key": "b",
+          "text": "Fazer o diagnóstico de baixa estatura e o encaminhar para endocrinologia."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar radiografia de ossos longos e agendar reavaliação em 1 mês."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar radiografia de mão direita e agendar reavaliação em 4 meses."
+        },
+        {
+          "key": "e",
+          "text": "Tranquilizar a mãe, pois o paciente apresenta canal de crescimento normal."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A desaceleração do crescimento (queda de escore z em 1 ano) associada a volume testicular de 5mL (sinal de início puberal, considerado precoce para 8 anos) é um quadro discordante que exige cautela antes de fechar qualquer diagnóstico — a conduta prudente é solicitar radiografia de mão para idade óssea e reavaliar em 4 meses, evitando rotular prematuramente como puberdade precoce ou baixa estatura sem mais dados evolutivos.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_003",
+      "statement": "Menina de 7 anos é trazida para consulta ambulatorial com queixa de baixa estatura. A mãe refere que a criança tem desenvolvimento normal, mas que é bem menor que seus colegas de turma da escola. Ao ser questionada sobre doenças prévias, a mãe relata que a menina foi internada mais de cinco vezes por infecção urinária, com presença de febre e que o primeiro episódio aconteceu aos três meses de vida. À época, foi pedida uma ultrassonogra a (USG) de vias urinárias, que não conseguiu realizar. Ao exame físico, a criança apresenta PA = 128 x 86mmHg, FC = 98bpm, FR = 34ipm, sem outras alterações, exceto pela baixa estatura, classi cada como abaixo do alvo genético e do z escore -3 para a idade. O IMC é adequado para a idade. A mãe trouxe um hemograma que mostra: Hgb = 9g/dL, VCM = 79, RDW = 11. Para a investigação diagnóstica dessa criança, é essencial solicitar",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "cinética de ferro"
+        },
+        {
+          "key": "b",
+          "text": "cultura de urina"
+        },
+        {
+          "key": "c",
+          "text": "função renal"
+        },
+        {
+          "key": "d",
+          "text": "mielograma"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O quadro de infecções urinárias febris recorrentes desde os 3 meses de vida, hipertensão arterial e baixa estatura sugere fortemente doença renal crônica (provável nefropatia de refluxo/cicatrizes renais) como causa da falha de crescimento — é essencial avaliar a função renal.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_004",
+      "statement": "Menino de 9 anos está em avaliação por baixa estatura. Nasceu a termo, diagnosticado com estenose pulmonar, corrigida cirurgicamente no período neonatal. Aos 6 meses, foi ainda submetido a oriquidopexia bilateral para tratamento de criptorquidia. Ao exame: face triangular, hipertelorismo ocular, ptose palpebral, implantação baixa do pavilhão auricular, micrognatia e pescoço curto e alado. Estatura ao redor de -3 desvios padrão desde os 5 anos de idade. Idade óssea, 7 anos. Estatura alvo, 175 cm. A primeira hipótese diagnóstica deve ser",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "baixa estatura constitucional."
+        },
+        {
+          "key": "b",
+          "text": "síndrome de Turner."
+        },
+        {
+          "key": "c",
+          "text": "síndrome de Silver-Russel."
+        },
+        {
+          "key": "d",
+          "text": "síndrome de Noonan."
+        },
+        {
+          "key": "e",
+          "text": "síndrome de Sotos."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A combinação de estenose pulmonar, criptorquidia bilateral, fácies triangular, hipertelorismo, ptose palpebral, implantação baixa das orelhas, micrognatia e pescoço alado, associada à baixa estatura, é o fenótipo clássico da síndrome de Noonan (fenótipo Turner-símile, porém ocorrendo também em meninos, com estenose pulmonar como cardiopatia mais característica).",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_005",
+      "statement": "Antonio, 8 anos, é levado à consulta por baixa estatura. No último ano, passou a ganhar peso, tem pouca energia, dorme exageradamente e reclama de sentir muito frio. A sua curva de crescimento mostra que ele caiu do percentil 50 para o percentil 5 na altura, mas o peso subiu para o percentil 90 em relação à altura. No exame físico, está obeso com os cabelos finos e reflexos diminuídos. A conduta mais apropriada para esta criança é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Determinar a idade óssea."
+        },
+        {
+          "key": "b",
+          "text": "Avaliar a função da tireoide."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar dosagem de somatomedina C."
+        },
+        {
+          "key": "d",
+          "text": "Orientar uma dieta adequada para idade."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O quadro de ganho de peso, hipoatividade, sonolência excessiva, intolerância ao frio, queda no percentil de estatura com ascensão do percentil de peso, cabelos finos e reflexos diminuídos é clássico de hipotireoidismo — deve-se avaliar a função tireoidiana.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_006",
+      "statement": "Em consulta de rotina, pai manifesta preocupação com a altura de seu lho de nove anos de idade, pois é um dos menores da turma. Qual é o dado mais importante na avaliação do crescimento da criança?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Idade óssea."
+        },
+        {
+          "key": "b",
+          "text": "Estatura dos familiares."
+        },
+        {
+          "key": "c",
+          "text": "Velocidade de crescimento."
+        },
+        {
+          "key": "d",
+          "text": "Relação peso para altura e altura para idade."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A velocidade de crescimento é o dado mais importante na avaliação inicial de uma criança com queixa de baixa estatura, pois diferencia variantes normais (velocidade preservada) de causas patológicas (velocidade reduzida).",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_007",
+      "statement": "Quanto à avaliação nutrológica em pediatria, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "No primeiro trimestre espera-se um ganho de peso de 400 g/mês."
+        },
+        {
+          "key": "b",
+          "text": "Ao final do primeiro ano, o lactente deve ter aumentado 50% da estatura de nascimento."
+        },
+        {
+          "key": "c",
+          "text": "Considerando-se perímetro cefálico adequado os valores que compreendem os escores de Z -3 a +3."
+        },
+        {
+          "key": "d",
+          "text": "Até os 3 anos de idade deve-se aferir o comprimento com a criança em decúbito dorsal."
+        },
+        {
+          "key": "e",
+          "text": "Considera-se baixa estatura crianças no escore Z entre 0 e -3."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Ao final do primeiro ano de vida, o lactente deve ter aumentado aproximadamente 50% da sua estatura de nascimento (de ~50cm para ~75cm). As demais afirmativas estão incorretas: ganho ponderal do 1º trimestre é maior (~700-800g/mês), perímetro cefálico adequado corresponde a Z-2 a +2 (não -3 a +3), o comprimento em decúbito dorsal é aferido até os 2 anos (não 3), e baixa estatura é definida como escore Z < -2 (não entre 0 e -3).",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_008",
+      "statement": "Menina, 12a, estatura abaixo do percentil 3 e cresceu 6,5 cm nos últimos três anos, com idade óssea de 11 anos e nega menarca. Nega uso de medicamentos, refere alimentação saudável e atividade física. Exame físico: estádio puberal de Tanner= M1P1 sem outras alterações. O QUE JUSTIFICA A INVESTIGAÇÃO DA ESTATURA NESTE CASO É:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Velocidade de crescimento."
+        },
+        {
+          "key": "b",
+          "text": "Estádio Puberal de Tanner."
+        },
+        {
+          "key": "c",
+          "text": "Idade óssea."
+        },
+        {
+          "key": "d",
+          "text": "Ausência de menarca."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O que justifica a investigação nesse caso é a velocidade de crescimento extremamente baixa (apenas 6,5cm em 3 anos, ~2,2cm/ano), muito inferior ao esperado mesmo para uma criança pré-púbere — mais preocupante que a estatura isolada, a idade óssea discretamente atrasada ou a ausência de menarca (compatível com puberdade ainda não iniciada, Tanner M1P1).",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_009",
+      "statement": "Considerando o crescimento do lactente, quantos aos principais índices antropométricos utilizados na avaliação do crescimento e às principais alterações com relação à Estatura/Idade (E/I), é CORRETO afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Avalia principalmente a situação global da criança."
+        },
+        {
+          "key": "b",
+          "text": "Reflete crescimento neural, principalmente nos 6 primeiros meses."
+        },
+        {
+          "key": "c",
+          "text": "Está comprometido nos casos agudos."
+        },
+        {
+          "key": "d",
+          "text": "Está afetado nos processos crônicos."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O índice Estatura/Idade reflete o crescimento linear acumulado ao longo do tempo, estando comprometido principalmente em processos crônicos (desnutrição/doença de longa duração), diferente do índice Peso/Estatura, que reflete o estado nutricional agudo/atual.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_010",
+      "statement": "Em relação ao processo de crescimento infantil, é correto afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O peso é um indicador sensível a longo prazo."
+        },
+        {
+          "key": "b",
+          "text": "É constante, mas apresenta velocidade variável."
+        },
+        {
+          "key": "c",
+          "text": "O canal de crescimento de meninas, nas curvas de peso e estatura, apresenta-se sempre mais elevado quando comparado ao canal de crescimento de meninos."
+        },
+        {
+          "key": "d",
+          "text": "Ao final do primeiro ano de vida, o lactente tem aproximadamente, em relação ao nascimento, o seu peso triplicado e o seu comprimento dobrado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O crescimento é um processo contínuo, porém não uniforme — apresenta velocidade variável ao longo das diferentes fases da vida (rápido na infância, mais estável na fase escolar, acelerado novamente na puberdade).",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_011",
+      "statement": "O crescimento é um processo dinâmico e necessita da utilização de grá cos para sua avaliação. Considerando as características conforme a fase do desenvolvimento e sexo, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A puberdade é a fase de maior velocidade de crescimento."
+        },
+        {
+          "key": "b",
+          "text": "Meninos e meninas crescem de modo semelhante durante a infância."
+        },
+        {
+          "key": "c",
+          "text": "O estirão puberal possui maior duração nas meninas."
+        },
+        {
+          "key": "d",
+          "text": "A desaceleração pré-puberal do crescimento é sinal de doença subjacente."
+        },
+        {
+          "key": "e",
+          "text": "O estirão puberal inicia antes nos meninos."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Durante a infância (fase pré-puberal), meninos e meninas crescem de modo semelhante, com curvas praticamente paralelas entre os sexos. A puberdade não é a fase de maior velocidade absoluta (essa ocorre no primeiro ano de vida), a desaceleração pré-puberal é fisiológica (não indica doença), o estirão puberal tem duração semelhante entre os sexos, e nos meninos o estirão puberal começa mais tarde que nas meninas, não antes.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_012",
+      "statement": "Pedro tem 7 anos de idade e comparece à UBS para consulta de rotina. Sua mãe está preocupada, pois ele é o menor da classe e isso tem di cultado seu relacionamento com os colegas. Além disso, Pedro tem diagnóstico de asma controlada com uso de corticoide inalatório intermitente em dose baixa, associado a beta 2 agonista quando apresenta sintomas; sua última exacerbação de asma ocorreu há 1 ano. Ele está muito desatento durante as aulas e apresenta constipação intestinal há cerca de 1 ano, nessa ocasião, sua estatura era de 100 cm. A estatura de seu pai é de 183cm e a de sua mãe é de 163cm. O exame físico é normal, sua estatura atual é de 103 cm (grá co abaixo) e o estadiamento Tanner é G1P1. Sua mãe traz um exame de idade óssea de três meses atrás, com resultado de 4 anos. De acordo com o quadro clínico de Pedro, qual é a provável causa para o problema de crescimento apresentado por ele?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Atraso constitucional do crescimento e puberdade."
+        },
+        {
+          "key": "b",
+          "text": "Hipotireoidismo"
+        },
+        {
+          "key": "c",
+          "text": "Baixa estatura familiar."
+        },
+        {
+          "key": "d",
+          "text": "Síndrome de Turner."
+        },
+        {
+          "key": "e",
+          "text": "Asma."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O quadro de baixa estatura associado a desatenção escolar, constipação crônica e idade óssea marcadamente atrasada (4 anos aos 7 anos cronológicos) é sugestivo de hipotireoidismo, mesmo sem os sinais clássicos de sonolência/intolerância ao frio explicitamente relatados — os achados de desaceleração do crescimento com atraso importante da maturação óssea reforçam essa hipótese.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_013",
+      "statement": "Adolescente de 13 anos está preocupado porque se considera muito baixinho. Sua altura na consulta de hoje é de 145 cm (escore z entre –2 e –1) e era de 139 cm há 6 meses atrás (escore z entre –2 e –1), está no estádio puberal G3P3. Sua estatura alvo, calculada com base na altura dos seus pais, é de 175 cm. Frente a esses achados, a conduta deve ser",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "expectante, já que apresenta crescimento considerado normal para a sua idade, sexo e estádio puberal."
+        },
+        {
+          "key": "b",
+          "text": "solicitar radiografia de idade óssea."
+        },
+        {
+          "key": "c",
+          "text": "solicitar dosagem de hormônio de crescimento (GH e de hormônios tireoidianos."
+        },
+        {
+          "key": "d",
+          "text": "realizar ressonância de crânio para descartar alterações hipofisárias."
+        },
+        {
+          "key": "e",
+          "text": "encaminhar para o endocrinologista para investigação diagnóstica e terapêutica."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de crescimento com velocidade adequada (6cm em 6 meses = 12cm/ano, compatível com o estirão puberal) e progressão puberal apropriada (Tanner G3P3, já em pleno estirão), a conduta é expectante, pois o quadro é compatível com desenvolvimento normal para idade, sexo e estádio puberal.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_014",
+      "statement": "No acompanhamento do crescimento, é importante a aferição da estatura e observase que em média, no primeiro ano de vida, o lactente cresce em torno de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "12 cm."
+        },
+        {
+          "key": "b",
+          "text": "24 cm."
+        },
+        {
+          "key": "c",
+          "text": "30 cm."
+        },
+        {
+          "key": "d",
+          "text": "8 cm."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Em média, no primeiro ano de vida, o lactente cresce aproximadamente 24-25cm em estatura.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_015",
+      "statement": "Assinale a alternativa que apresenta uma síndrome associada a alta estatura",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Síndrome de Noonan."
+        },
+        {
+          "key": "b",
+          "text": "Síndrome de T urner."
+        },
+        {
+          "key": "c",
+          "text": "Síndrome de Marfan."
+        },
+        {
+          "key": "d",
+          "text": "Síndrome de Down."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A síndrome de Marfan é classicamente associada à alta estatura (devido ao comprometimento do tecido conjuntivo levando a crescimento ósseo longitudinal excessivo). Noonan, Turner e Down são todas associadas à baixa estatura.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_016",
+      "statement": "Uma paciente com 13 anos e 6 meses procura atendimento para avaliar seu desenvolvimento. Estuda no 7° ano com bom rendimento. Nega tratamento atual. Nega internações hospitalares ou cirurgias prévias. Refere alergia respiratória controlada e diversos episódios de otite média prévios. Desde os 9 anos de idade apresenta frequentes episódios de cefaleia bi- temporal intensa. Nega menarca e sua pubarca ocorreu há 2 anos. Tem uma irmã de 16 anos que é saudável, assim como seus pais, que não são consanguíneos e medem 164 cm (mãe) e 176 cm (pai). Apresenta peso de 39 kg (P1 O), estatura total de 144 cm, estatura sentada de 87 cm e seu estágio puberal (Tanner) é M1 P2. Trouxe dados de sua curva de crescimento (abaixo). Em avaliação em UBS haviam sido solicitados os exames complementares com seus resultados demonstrados abaixo (observação: VR = valor de referência normal para a idade): Idade óssea = 11 anos; TSH = 5,6 mUl/mL (VR = 0,5 a 4,5); LH = 16 mUl/mL (VR = 0,4 a 8); FSH = 35 mUl/mL (VR = 4,5 a 10). Além de anamnese e exame físico mais detalhado, diante dos dados apresentados acima, qual a conduta mais adequada para esta paciente nesse momento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar dosagem de IGF 1, T4L, cortisol, prolactina e exame de ressonância magnética do encéfalo."
+        },
+        {
+          "key": "b",
+          "text": "Observar a evolução clínica nos próximos 4 a 6 meses e reavaliá-la com novo exame de TSH e idade óssea."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar exame ultrassonográfico da tireoide."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar exame citogenético (cariótipo)."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O quadro de baixa estatura desproporcional (relação segmento superior/inferior alterada), puberdade discordante (pubarca presente mas telarca ausente, Tanner M1P2), amenorreia primária, cefaleia crônica e gonadotrofinas elevadas (LH e FSH altos, configurando hipogonadismo hipergonadotrófico) é altamente sugestivo de síndrome de Turner — deve-se solicitar cariótipo (exame citogenético) para confirmação.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_017",
+      "statement": "Menino de 5 anos de idade, trazido à consulta de retorno pelo pai preocupado porque a criança está muito pequena. Criança nascida a termo com peso de 2.850g, apresenta asma intermitente desde os 3 anos, estatura alvo: 168 cm. Radiogra a de punhos: Idade Óssea: -1 DP; velocidade de crescimento: 3 cm/ano; IMC: escore z entre -1 e 0; Estatura/Idade: escore z entre -1 e 0. Qual parâmetro indica maior necessidade de investigação do quadro?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Baixa previsão de estatura final."
+        },
+        {
+          "key": "b",
+          "text": "Idade óssea atrasada."
+        },
+        {
+          "key": "c",
+          "text": "Escore de Índice de Massa Corpórea e Estatura/Idade."
+        },
+        {
+          "key": "d",
+          "text": "Baixa velocidade de crescimento."
+        },
+        {
+          "key": "e",
+          "text": "Peso ao nascer e presença de doença crônica."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Apesar da idade óssea próxima do normal e dos escores de IMC e Estatura/Idade discretamente reduzidos mas não alarmantes, a velocidade de crescimento de apenas 3cm/ano é acentuadamente baixa para a idade (esperado 5-7cm/ano) — é o parâmetro mais sensível e precoce para indicar necessidade de investigação, mesmo antes da estatura cair abaixo do percentil 3.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_018",
+      "statement": "Escolar é levado ao ambulatório por apresentar crescimento menor em relação aos colegas de turma preocupando seus pais. A melhor conduta nesse caso é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Avaliar sua velocidade de crescimento"
+        },
+        {
+          "key": "b",
+          "text": "Avaliar a idade óssea no Rx de Punho"
+        },
+        {
+          "key": "c",
+          "text": "Dosar hormônio tireoidiano"
+        },
+        {
+          "key": "d",
+          "text": "Dosar hormônio do crescimento"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A melhor conduta inicial diante de uma criança com crescimento aquém do esperado pelos colegas é avaliar sua velocidade de crescimento — o dado mais sensível para diferenciar variantes normais de causas patológicas de baixa estatura.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_019",
+      "statement": "Um menino cujo pai tem altura de 182cm e sua mãe 162cm, terá qual estatura alvo média esperada na sua vida adulta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "178cm"
+        },
+        {
+          "key": "b",
+          "text": "187cm"
+        },
+        {
+          "key": "c",
+          "text": "166cm"
+        },
+        {
+          "key": "d",
+          "text": "170 cm"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A estatura-alvo para meninos é calculada por: (altura do pai + altura da mãe + 13) ÷ 2 = (182 + 162 + 13) ÷ 2 = 178,5cm ≈ 178cm.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_020",
+      "statement": "Escolar do sexo feminino com 6 anos de idade, previamente saudável, é trazido ao seu consultório com queixa de baixa estatura. A família tem boas condições socioeconômicas, alimentação dentro do padrão preconizado. A mãe mede 1,55 m (entre score -1 e -2) e o pai mede 1,75 (entre score 0 e -1). Há exatamente um ano sua estatura era de 110cm e pesava 17,8 kg. Exames complementares realizados previamente mostram os seguintes resultados: hemograma normal, Urina I normal, Protoparasitológico de fezes com três amostras negativas e idade óssea compatível com cinco anos. Atualmente, a criança mede 115 cm (score 0) e pesa 20 kg, tem desenvolvimento neuropsicomotor adequado e restante do exame físico normal. A melhor conduta é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "solicitar eletrólitos, gasometria venosa, glicemia e radiografia de sela turca."
+        },
+        {
+          "key": "b",
+          "text": "encaminhar ao endocrinologista para avaliação."
+        },
+        {
+          "key": "c",
+          "text": "solicitar dosagem de TSH e T4l juntamente com avaliação da tireoide com exames de imagem."
+        },
+        {
+          "key": "d",
+          "text": "solicitar dosagem de IGF-1 e IGFBP3 para avaliar hormônio de crescimento."
+        },
+        {
+          "key": "e",
+          "text": "tranquilizar a família e reavaliar o crescimento em 6 a 12 meses."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Diante de uma criança previamente hígida, com boas condições socioeconômicas e alimentação adequada, crescimento em recuperação (de escore próximo a -1/-2 para escore 0 em um ano), idade óssea compatível com a idade e exames complementares normais, a conduta apropriada é tranquilizar a família e reavaliar o crescimento em 6 a 12 meses, sem necessidade de investigação adicional imediata.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_021",
+      "statement": "Felipe, 8 anos, apresenta baixa estatura, sem outras comorbidades. O melhor parâmetro clínico e/ou laboratorial para determinar o prognóstico desse paciente é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "altura alvo."
+        },
+        {
+          "key": "b",
+          "text": "velocidade de crescimento."
+        },
+        {
+          "key": "c",
+          "text": "hormônio de crescimento."
+        },
+        {
+          "key": "d",
+          "text": "IGF-1."
+        },
+        {
+          "key": "e",
+          "text": "idade óssea."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A velocidade de crescimento é o melhor parâmetro clínico isolado para determinar o prognóstico de uma criança com baixa estatura sem outras comorbidades, refletindo diretamente se o processo de crescimento está ocorrendo de forma adequada ao longo do tempo.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_022",
+      "statement": "Na investigação de baixa estatura na infância é fundamental:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Realizar cariótipo em todo menino com baixa estatura sem causa determinada."
+        },
+        {
+          "key": "b",
+          "text": "Investigar doença celíaca somente em crianças com distensão abdominal, diarreia crônica e emagrecimento."
+        },
+        {
+          "key": "c",
+          "text": "Afastar distúrbios endocrinológicos que respondem por 90% dos casos de baixa estatura."
+        },
+        {
+          "key": "d",
+          "text": "Ter em mente que após os dois anos de vida o componente nutricional é o mais importante para o crescimento normal."
+        },
+        {
+          "key": "e",
+          "text": "Conhecer e evolução da curva pondero estatural, as proporções corporais, a velocidade de crescimento, o alvo parental, o estágio puberal e a idade óssea da criança."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A investigação da baixa estatura na infância exige uma avaliação abrangente que inclua a evolução da curva pondero-estatural, as proporções corporais, a velocidade de crescimento, o alvo parental (estatura-alvo), o estágio puberal e a idade óssea da criança — não existe um único exame ou triagem isolada suficiente (cariótipo não é indicado para todo menino, doença celíaca pode ser silenciosa sem sintomas gastrointestinais clássicos, causas endocrinológicas não respondem pela maioria dos casos, e o componente nutricional continua relevante além dos 2 anos).",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_023",
+      "statement": "Um lactente do sexo masculino com dois meses de idade e em aleitamento materno exclusivo é avaliado à consulta de rotina de puericultura. Ao exame físico, apresenta peso: 4.600 g, comprimento: 58 cm, perímetro cefálico (PC): 39 cm. Na história gineco-obstétrica, tem relato de ter nascido por parto vaginal na 38ª semana de gestação, peso: 3.400 g, comprimento: 50 cm e PC: 35 cm. Sobre esse lactente, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O perímetro cefálico está menor que o esperado para a idade. O pediatra deve encaminhá-lo ao neurologista."
+        },
+        {
+          "key": "b",
+          "text": "O perímetro cefálico está maior que o esperado para a idade. O pediatra deve solicitar tomografia de crânio."
+        },
+        {
+          "key": "c",
+          "text": "O ganho ponderal está insuficiente. O pediatra deve iniciar complementação com fórmula infantil."
+        },
+        {
+          "key": "d",
+          "text": "O ganho ponderal está suficiente. O pediatra deve incentivar a manutenção do aleitamento materno exclusivo."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Comparando os parâmetros ao nascimento (peso 3.400g, comprimento 50cm, PC 35cm) com os atuais aos 2 meses (peso 4.600g, comprimento 58cm, PC 39cm), observa-se ganho ponderal de 1.200g em 2 meses (~600g/mês, adequado) e crescimento de PC/comprimento também adequados — a conduta é incentivar a manutenção do aleitamento materno exclusivo.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_024",
+      "statement": "Um menino, de 10 anos e 6 meses, consulta com queixa de baixa estatura. Refere que sempre foi o menor entre os seus colegas. Nega outras queixas e doenças anteriores signi cativas. Mãe refere que o paciente media 136 cm quando tinha 9 anos. Pai com 182 cm (P50) e mãe com 159 cm (P25). Ao exame paciente com 141 cm (P50), peso 30 kg (P25), pubarca grau 2 (escala de Tanner) e testículos com 2 ml bilateralmente. Qual o diagnóstico mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doença Celíaca."
+        },
+        {
+          "key": "b",
+          "text": "Hipotireoidismo."
+        },
+        {
+          "key": "c",
+          "text": "Puberdade precoce."
+        },
+        {
+          "key": "d",
+          "text": "Deficiência de hormônio de crescimento."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O quadro de baixa velocidade de crescimento (apenas ~3,3cm/ano entre os 9 e 10,5 anos) com estatura relativamente preservada em percentil, parentais de estatura normal, e sinais de puberdade já iniciados (pubarca grau 2, testículos 2mL), na ausência de outros sintomas evidentes, é compatível com doença celíaca — causa frequentemente subdiagnosticada de falha de crescimento isolada, mesmo sem sintomas gastrointestinais clássicos.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_025",
+      "statement": "Menino, de 12 anos e 6 meses de idade, consulta com queixa de baixa estatura. Não apresenta outras queixas. Alimentação adequada para idade e não faz uso de medicação contínua. Apresentou quadro de asma a partir de 4 anos, fez uso de glicocorticoide inalatório até há 2 anos. Sem crise de bronco espasmo há 3 anos. Mãe refere que com 11 anos a estatura era de 147. Nasceu com 37 semanas de gestação com peso de 2400 g e 46 cm comprimento. Pai com 187 cm (percentil 90) e mãe com 167 cm (percentil 75). Ao exame, paciente com 152 cm (percentil 50), peso de 52 kg (percentil 75), exame segmentar sem alterações e genitália com alguns pelos longos, escuros e grossos em região pubiana e testículos com 4 ml, bilateralmente. Qual o provável diagnóstico etiológico para o caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Baixa estatura familiar"
+        },
+        {
+          "key": "b",
+          "text": "Doença celíaca clássica"
+        },
+        {
+          "key": "c",
+          "text": "Deficiência de hormônio de crescimento"
+        },
+        {
+          "key": "d",
+          "text": "Retardo constitucional de crescimento e puberdade"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Apesar da estatura em percentil aparentemente aceitável, a velocidade de crescimento é baixa (~3,3cm/ano) para um menino com sinais de puberdade já iniciados (pubarca, testículos 4mL) e pais altos (alvo genético elevado) — essa discrepância entre o potencial genético, o início da puberdade e a persistência de baixa velocidade sugere deficiência de hormônio de crescimento, possivelmente desmascarada/descompensada com o início puberal.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_026",
+      "statement": "Um menino, de 10 anos e 6 meses, consulta com queixa de baixa estatura. Refere que sempre foi o menor entre os seus colegas. Nega outras queixas e doenças anteriores signi cativas. Mãe refere que o paciente media 136 cm quando tinha 9 anos. Pai com 182 cm (P50) e mãe com 159 cm (P25).Ao exame paciente com 141 cm (P50), peso 30 kg (P25), pubarca grau 2 (escala de Tanner) e testículos com 2 ml bilateralmente. Qual o diagnóstico mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doença Celíaca"
+        },
+        {
+          "key": "b",
+          "text": "Hipotireoidismo"
+        },
+        {
+          "key": "c",
+          "text": "Puberdade precoce"
+        },
+        {
+          "key": "d",
+          "text": "Deficiência de hormônio de crescimento"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O quadro de baixa velocidade de crescimento associada a sinais de puberdade já iniciados (pubarca grau 2, testículos 2mL) e ausência de outros sintomas evidentes é compatível com doença celíaca — causa de falha de crescimento frequentemente subdiagnosticada, podendo ser assintomática do ponto de vista gastrointestinal.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_027",
+      "statement": "Miguel, 13 anos, é avaliado, pelo médico da unidade básica de saúde, por ele achar que não está crescendo direito há 3 anos. Não há relato de doença crônica, alterações alimentares, ou lesões do sistema nervoso central. Grá co de crescimento mostra altura e peso abaixo e paralelos ao escore z-2 nos últimos três anos, de forma ascendente, com velocidade de 6 cm/ano. A altura-alvo é no escore z 0. A idade óssea é três anos mais baixa do que a idade cronoló Exame físico: Tanner G1P1, sem demais alterações. O diagnóstico para essa baixa estatura é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doença genética."
+        },
+        {
+          "key": "b",
+          "text": "Atraso constitucional do crescimento."
+        },
+        {
+          "key": "c",
+          "text": "Hipotireoidismo."
+        },
+        {
+          "key": "d",
+          "text": "Síndrome de Noonan."
+        },
+        {
+          "key": "e",
+          "text": "Deficiência de hormônio de crescimento."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O padrão de crescimento abaixo mas paralelo ao escore z-2 (canal estável, não decrescente), com velocidade de crescimento adequada (6cm/ano), alvo genético normal (Z0), idade óssea atrasada em relação à cronológica, e ausência de sinais puberais (Tanner G1P1) é o quadro clássico de atraso constitucional do crescimento.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_028",
+      "statement": "João, de 13 anos de idade é trazido à consulta com queixas de estar mais baixo do que seus colegas. É um adolescente previamente hígido, não apresentou intercorrências no período neonatal, e apresenta boas condições de saúde. Sua estatura encontra-se abaixo do escore Z-2, seu IMC é adequado para sexo e idade. Ao exame físico, encontra-se no estadiamento de Tanner G1P1, sua velocidade de crescimento é de 6 cm/ano e sua idade óssea é de 10 anos. Seu pai apresentou atraso puberal, e ambos os pais apresentam estatura média. Analise as afirmações abaixo: I. João provavelmente apresenta alguma deficiência hormonal como causa de baixa estatura. II. Pacientes com doença celíaca que apresentem baixa estatura sempre se queixam de problemas gastrointestinais associados. III. O diagnóstico mais provável é de atraso constitucional do crescimento e puberdade. IV. O prognóstico de estatura final de João é bom, semelhante ao seu padrão familiar.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas a alternativa “I” está correta."
+        },
+        {
+          "key": "b",
+          "text": "Alternativas “I”, “II” e “III” estão corretas."
+        },
+        {
+          "key": "c",
+          "text": "Apenas as alternativas “III” e “IV” estão corretas."
+        },
+        {
+          "key": "d",
+          "text": "Apenas as alternativas “II” e “III” estão corretas."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Das afirmativas: (I) é falsa — a velocidade de crescimento normal (6cm/ano) torna deficiência hormonal pouco provável; (II) é falsa — doença celíaca pode se apresentar sem sintomas gastrointestinais (forma silenciosa); (III) é verdadeira — o quadro (velocidade normal, idade óssea atrasada, histórico paterno de atraso puberal) é compatível com atraso constitucional do crescimento e puberdade; (IV) é verdadeira — o prognóstico de estatura final nesse quadro costuma ser bom, seguindo o padrão familiar.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_029",
+      "statement": "Uma menina de 6 anos de idade é levada a uma clínica pediátrica com uma queixa de baixa estatura. Ela é fruto de um casamento não consanguíneo, nascida a termo de cesariana eletiva. Seu peso ao nascer foi de 2,1 kg e 43 cm. No período pós-natal, cou internada na unidade porque foi inicialmente alimentada por sonda por di culdades alimentares. Seu desenvolvimento neuropsicomotor foi levemente atrasado. No exame, ela tem fácies triangular, com testa grande e clinodactilia do quinto dedo. Seu peso e altura estão ambos abaixo do terceiro percentil. Observa-se assimetria dos membros inferiores, com hipertrofia do membro inferior esquerdo e discrepância de 2,5 cm no comprimento da perna. Qual é o diagnóstico mais provável neste caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Síndrome de Turner"
+        },
+        {
+          "key": "b",
+          "text": "Síndrome de Silver-Russell"
+        },
+        {
+          "key": "c",
+          "text": "Síndrome de Prader Willi"
+        },
+        {
+          "key": "d",
+          "text": "Síndrome alcoólica fetal"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O quadro de restrição de crescimento intrauterino (peso/comprimento baixos ao nascer), dificuldades alimentares neonatais, fácies triangular com testa proeminente, clinodactilia do quinto dedo, e assimetria de membros inferiores (hemi-hipertrofia) é característico da síndrome de Silver-Russell.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_030",
+      "statement": "Menina com 7 anos de idade, é trazida para consulta com queixa de ser menor que as colegas da escola. Exame físico: sem alterações clínicas; estadiamento puberal: M1P1; Peso, Estatura e IMC no percentil 25 das curvas para idade e sexo. Estatura da Mãe: 155 cm e estatura do Pai: 169 cm. Frente a esse caso, qual a afirmativa é adequada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar dosagem de IGF-1 e GH basal."
+        },
+        {
+          "key": "b",
+          "text": "Encaminhar para avaliação nutricional e solicitar microarray."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar retorno em 1 mês para avaliar ritmo de crescimento."
+        },
+        {
+          "key": "d",
+          "text": "A previsão de estatura da criança é 155,5 cm."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Calculando a estatura-alvo para essa menina: (altura do pai + altura da mãe - 13) ÷ 2 = (169 + 155 - 13) ÷ 2 = 155,5cm — compatível com o percentil atual da criança (P25), explicando a estatura relativamente baixa como variação familiar normal, sem necessidade de investigação adicional no momento.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_031",
+      "statement": "Escore z é bastante utilizado em algumas áreas, em particular em nutrição. O que é o escore z?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A variância da população."
+        },
+        {
+          "key": "b",
+          "text": "O número de erros padrão a partir da média da população."
+        },
+        {
+          "key": "c",
+          "text": "A média da população."
+        },
+        {
+          "key": "d",
+          "text": "O número de desvios padrão a partir da média da população."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O escore Z representa o número de desvios padrão que uma medida está distante da média da população de referência.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_032",
+      "statement": "Menina com 8 anos de idade atendida em consulta de retorno ambulatorial com queixa de baixa estatura, apresentou um episódio de amigdalite no período interconsulta, traz RX IO compatível com 7 anos de idade e anotação de que cresceu 3 cm no último ano. Apresenta ao exame físico Peso: P10, Estatura: P3 e IMC: P15; M1P1. Qual das informações acima indica possibilidade de que o quadro precisa de prosseguimento na investigação?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "RX IO atrasado."
+        },
+        {
+          "key": "b",
+          "text": "Velocidade de crescimento."
+        },
+        {
+          "key": "c",
+          "text": "Estadiamento puberal."
+        },
+        {
+          "key": "d",
+          "text": "Peso e Estatura em percentis diferentes."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Apesar da idade óssea levemente atrasada (7 anos aos 8 cronológicos) e da discrepância entre percentis de peso e estatura, o achado mais relevante para indicar necessidade de investigação adicional é a baixa velocidade de crescimento (apenas 3cm no último ano, bem abaixo do esperado ~5-6cm/ano).",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_033",
+      "statement": "Um menino de 13 anos que faz acompanhamento médico no ambulatório escola, está abaixo do percentil 3 para altura (equivalente ao percentil 50 aos 9 anos de idade). O seguinte achado dará a ele o melhor prognóstico para uma altura normal quando adulto:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Idade óssea de 9 anos;"
+        },
+        {
+          "key": "b",
+          "text": "Idade óssea de 13 anos;"
+        },
+        {
+          "key": "c",
+          "text": "Ter o peso no percentil 50 para idade;"
+        },
+        {
+          "key": "d",
+          "text": "Ter o peso no percentil 3 para a idade."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Uma idade óssea atrasada (9 anos em um menino de 13 anos cronológicos, compatível com sua altura-idade) confere o melhor prognóstico para altura final normal, pois indica que ainda há tempo de crescimento residual antes do fechamento das epífises — compatível com atraso constitucional do crescimento.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_034",
+      "statement": "Uma adolescente de 16 anos acompanhada de sua mãe vem ao consultório do pediatra com queixa de que é a menor da classe. A mãe nega antecedentes de doenças, diz que a lha sempre foi menor que os irmãos e que ainda não teve a menarca. Ao exame físico, o pediatra constata baixa estatura, não apresenta telarca ou pubarca e não observa nenhum sinal dismór co. Dentre os exames citados a seguir, aquele que é indicado para a primeira hipótese diagnóstica desse quadro clínico é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "idade óssea."
+        },
+        {
+          "key": "b",
+          "text": "hormônio tireoidiano."
+        },
+        {
+          "key": "c",
+          "text": "cariótipo em banda."
+        },
+        {
+          "key": "d",
+          "text": "hormônio do crescimento."
+        },
+        {
+          "key": "e",
+          "text": "tomografia de crânio."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de baixa estatura com ausência completa de caracteres sexuais secundários (sem telarca ou pubarca) aos 16 anos e amenorreia primária, mesmo sem estigmas dismórficos evidentes, a primeira hipótese a ser investigada é síndrome de Turner — o exame indicado é o cariótipo em banda.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_035",
+      "statement": "Na baixa estatura familial, observa-se:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "retardo no desenvolvimento da puberdade."
+        },
+        {
+          "key": "b",
+          "text": "retardo cognitivo."
+        },
+        {
+          "key": "c",
+          "text": "diminuição da velocidade de crescimento."
+        },
+        {
+          "key": "d",
+          "text": "idade óssea compatível com a idade cronológica."
+        },
+        {
+          "key": "e",
+          "text": "alteração na relação segmento superior/segmento inferior."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Na baixa estatura familiar, a idade óssea é compatível com a idade cronológica (sem atraso de maturação esquelética) — diferente do atraso constitucional do crescimento, no qual a idade óssea está tipicamente atrasada.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_036",
+      "statement": "Mãe leva adolescente de 15 anos para consulta médica, preocupada com o crescimento do lho, pois o irmão mais novo tem a mesma altura dele. Ao exame físico, sua estatura se encontra no score -1 e peso no score 0; estádio de Tanner G1P1. Qual o diagnóstico?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Puberdade adequada, mas com baixa estatura."
+        },
+        {
+          "key": "b",
+          "text": "Atraso puberal, por ainda não apresentar aumento peniano, mas a altura está adequada."
+        },
+        {
+          "key": "c",
+          "text": "Puberdade adequada, pois pode ainda não ter iniciado mudança corporal, mas há baixa estatura."
+        },
+        {
+          "key": "d",
+          "text": "Atraso puberal, por ainda não apresentar aumento testicular, mas a estatura está adequada."
+        },
+        {
+          "key": "e",
+          "text": "Puberdade precoce, já tendo terminado seu estirão puberal, mas a altura final está adequada."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Aos 15 anos com Tanner G1P1 (ausência completa de aumento testicular, primeiro sinal puberal em meninos), o diagnóstico é atraso puberal — a estatura, com escore -1, está apenas discretamente reduzida e considerada adequada dentro da variação normal.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_037",
+      "statement": "Uma mãe leva a lha de 8 anos à consulta pediátrica por estar achando a criança muito pequena. Relata que vem percebendo, nos últimos 8-12 meses, que a menina não está mais crescendo. Nesse período, começou a apresentar hipoatividade, sonolência e constipação. A velocidade de crescimento nos últimos 12 meses foi de 2,5 cm/ano. Ao exame físico, observam-se estatura entre score -1 e -2 e peso score +1. Demais dados do exame físico constam normais. Assinale a alternativa CORRETA em relação a esse caso.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Crescimento anormal, com provável hipotireoidismo adquirido."
+        },
+        {
+          "key": "b",
+          "text": "Velocidade de crescimento e peso dentro dos valores normais."
+        },
+        {
+          "key": "c",
+          "text": "Crescimento normal, associado à obesidade exógena."
+        },
+        {
+          "key": "d",
+          "text": "Crescimento anormal, com provável deficiência de hormônio do crescimento."
+        },
+        {
+          "key": "e",
+          "text": "Crescimento normal, com provável retardo constitucional do crescimento."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O quadro de parada do crescimento, hipoatividade, sonolência e constipação nos últimos 8-12 meses, associado à baixa velocidade de crescimento (2,5cm/ano) e ganho de peso relativo (escore +1) enquanto a estatura cai, é característico de hipotireoidismo adquirido.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_038",
+      "statement": "Adolescente de 13 anos, sem antecedentes patológicos, vem com queixa de que é o menor aluno de sua classe. A sua mãe tem 168 cm e teve menarca aos 14 anos, o seu pai tem 176 cm e parou de crescer por volta dos 17 anos. A estatura alvo calculada para o menino é de 178,5 cm (entre percentil 50 – 85 da curva da OMS). O exame físico é normal, ele está no estádio puberal G2P2, pesando 44 kg, com 145 cm (percentil 3 – 15 da curva da OMS) e com IMC = 20,9 (percentil 50 – 85 da curva da OMS). Ele cresceu 8 cm no último ano e trouxe uma radiogra a de punho atual com idade óssea de 11 anos. Nesse caso,",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "deve-se solicitar a dosagem de GH para indicar reposição hormonal se necessário."
+        },
+        {
+          "key": "b",
+          "text": "não há necessidade de dosar o GH, pois o quadro é compatível com baixa estatura familiar."
+        },
+        {
+          "key": "c",
+          "text": "deve-se tranquilizar o menino, pois ele apresenta um atraso constitucional de crescimento e o seu prognóstico é bom."
+        },
+        {
+          "key": "d",
+          "text": "está indicado iniciar terapia hormonal, pois a idade óssea está atrasada."
+        },
+        {
+          "key": "e",
+          "text": "deve-se investigar hipotireoidismo, pois ele apresenta obesidade e baixa velocidade de crescimento."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Apesar da estatura baixa (percentil 3-15) em relação ao alvo genético calculado (178,5cm), o menino apresenta velocidade de crescimento boa (8cm no último ano), puberdade já iniciada (G2P2) e idade óssea discretamente atrasada (11 anos aos 13 cronológicos) — quadro compatível com atraso constitucional do crescimento, com bom prognóstico, devendo-se tranquilizar o paciente sem necessidade de tratamento hormonal.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_039",
+      "statement": "Adolescente, sexo masculino, com 11 anos de idade, procurou o pediatra com queixa de baixa estatura. Há relato de crescimento adequado até a adolescência, quando começou a crescer um pouco mais lentamente, segundo a impressão da mãe. Gestação e parto sem anormalidades. Ao nascer, o peso foi 3500g e o comprimento, 50cm. Desenvolvimento neuropsicomotor sempre foi adequado. Bom desempenho na escola. Nega doenças crônicas graves. Com a idade de 10 anos, passou por uma consulta com o médico de família da sua região, que não encontrou nenhuma anormalidade clínica e suas medidas foram: peso = 23kg e estatura = 122cm (escore z: -2,2). Na consulta atual, exame físico persiste sem anormalidades, o estadiamento puberal é G1P1 pelos critérios de Tanner e a estatura é 127cm (escore z: -2,2) e peso de 26kg. A idade óssea nesse momento é de 8,9 anos. A mãe tem 162cm e o pai tem 173cm. A causa mais provável da baixa estatura deste paciente é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "hipotireoidismo adquirido."
+        },
+        {
+          "key": "b",
+          "text": "deficiência de hormônio de crescimento."
+        },
+        {
+          "key": "c",
+          "text": "baixa estatura familiar."
+        },
+        {
+          "key": "d",
+          "text": "retardo constitucional do crescimento."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O padrão de estatura mantendo-se estável no mesmo canal ao longo do tempo (escore z -2,2 tanto aos 10 quanto na consulta atual, sem piora progressiva), associado à idade óssea discretamente atrasada (8,9 anos) e ausência de sinais puberais aos 11 anos, é compatível com retardo constitucional do crescimento.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_040",
+      "statement": "Menino, 11 anos de idade, sem comorbidades, está em consulta de rotina. Os pais estão preocupados porque acham que ele não está crescendo muito. Sem outras queixas e com exame clínico sem alterações signi cativas. A última consulta havia sido realizada há 6 meses, quando apresentava estatura de 139 cm (entre percentis 15 e 50), índice de massa corpórea (IMC) de 20 kg/m2 (entre percentis 85 e 97) e estádio de Turner G2P1. Na consulta de hoje está com estatura de 141,5 cm (entre percentis 15 e 50), IMC de 22 kg/m2 (entre percentis 85 e 97) e estádio de Turner G2P2. A altura do pai é 176 cm e a da mãe é 151 cm. Qual é a conduta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Explicar que a velocidade de crescimento está incompatível com o estádio puberal e dosar de GH, IGF-1 e IGF beta-2."
+        },
+        {
+          "key": "b",
+          "text": "Explicar que a evolução puberal e de altura estão conforme esperado e marcar retorno em 6 meses para nova avaliação."
+        },
+        {
+          "key": "c",
+          "text": "Explicar que a altura está comprometida por uma puberdade atrasada e solicitar dosagem de LH, FSH e RNM de crânio."
+        },
+        {
+          "key": "d",
+          "text": "Explicar que a altura atual e o alvo genético estão incongruentes e coletar hemograma, gasometria venosa e anti- endomísio."
+        },
+        {
+          "key": "e",
+          "text": "Explicar que o ganho de altura não acompanhou o de massa corpórea e investigar com dosagem de cortisol, testosterona e 17-hidroxiprogesterona."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A evolução da estatura (139→141,5cm em 6 meses, ~5cm/ano) acompanhada da progressão puberal adequada (Tanner G2P1→G2P2) está dentro do esperado para a idade — deve-se tranquilizar a família e agendar retorno de rotina em 6 meses.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_041",
+      "statement": "Menino, 9a, é atendido na Unidade Básica de Saúde. Os pais referem que é o mais baixo da classe e que não está crescendo. É hígido, ativo e tem uma alimentação saudável. Exame físico: estatura está abaixo do percentil 3 da curva de crescimento adotada pelo Ministério da Saúde. A CONDUTA É:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Verificar a velocidade de crescimento nos últimos 6 meses, canal de crescimento e solicitar radiograma de mão e punho para avaliação de idade óssea."
+        },
+        {
+          "key": "b",
+          "text": "Verificar o canal parental e orientar os pais para retorno em 6 meses."
+        },
+        {
+          "key": "c",
+          "text": "Confirmar a baixa estatura para idade e a partir dos dados antropométricos,tranquilizar a mãe que no estirão da puberdade isto será corrigido."
+        },
+        {
+          "key": "d",
+          "text": "Confirmar a baixa estatura abaixo do percentil 3 para idade, solicitar retorno em 6meses e pedir para trazer dosagem de TSH e T4 livre."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A conduta inicial padrão diante de uma criança com estatura abaixo do percentil 3, sem outros sinais de alarme, é verificar a velocidade de crescimento nos últimos 6 meses, o canal de crescimento parental e solicitar radiografia de mão e punho para avaliação da idade óssea — a tríade clássica da investigação inicial de baixa estatura.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_042",
+      "statement": "Com relação à velocidade de crescimento, assinale a alternativa CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A velocidade de crescimento é decrescente no primeiro ano de vida."
+        },
+        {
+          "key": "b",
+          "text": "A velocidade de crescimento no período escolar é de 3cm/ano."
+        },
+        {
+          "key": "c",
+          "text": "Na puberdade o estirão puberal (maior velocidade de crescimento ocorre inicialmente (mais precoce em meninos."
+        },
+        {
+          "key": "d",
+          "text": "A velocidade de crescimento é crescente no primeiro ano de vida e retoma com a puberdade."
+        },
+        {
+          "key": "e",
+          "text": "A velocidade de crescimento puberal é de 5cm/ano."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A velocidade de crescimento é decrescente ao longo do primeiro ano de vida (mais alta logo após o nascimento, desacelerando progressivamente ao longo dos 12 meses), retomando maior velocidade apenas com o estirão puberal.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_043",
+      "statement": "Menina com 7 anos de idade, é trazida para consulta com queixa de ser menor que as colegas da escola. Exame físico: sem alterações clínicas; estadiamento puberal: M1P1; Peso, Estatura e IMC no percentil 25 das curvas para idade e sexo. Estatura da Mãe: 155 cm e estatura do Pai: 169 cm. Frente a esse caso, qual a afirmativa é adequada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar dosagem de IGF-1 e GH basal."
+        },
+        {
+          "key": "b",
+          "text": "Encaminhar para avaliação nutricional e solicitar microarray."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar retorno em 1 mês para avaliar ritmo de crescimento."
+        },
+        {
+          "key": "d",
+          "text": "A previsão de estatura da criança é 155,5 cm."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Calculando a estatura-alvo para essa menina: (altura do pai + altura da mãe - 13) ÷ 2 = (169 + 155 - 13) ÷ 2 = 155,5cm — compatível com o percentil atual da criança, explicando a estatura como variação familiar normal.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_044",
+      "statement": "Adolescente de 11 anos, previamente hígida, é levada para atendimento com queixa de que se acha muito baixa. Não há história de internações prévias. Nega menarca ou sexarca. Ao exame, está em bom estado geral, com ectoscopia normal e sem alterações no exame dos aparelhos cardiovascular e respiratório. O exame do abdômen é normal; orofaringe e genitália sem alterações; presença de broto mamário e ausência de pelos pubianos. Ao plotar suas medidas no grá co, encontra-se com estatura para idade entre os Z escore -2 e -3 e com IMC para idade entre os Z escore -1 e -2. O alvo genético está no Z escore -1. A radiogra a de mão e punho esquerdos revela idade óssea de 9 anos. O provável diagnóstico e desfecho da estatura na vida adulta, respectivamente, são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "baixa estatura familiar / baixa estatura na vida adulta"
+        },
+        {
+          "key": "b",
+          "text": "baixa estatura familiar / estatura normal na vida adulta"
+        },
+        {
+          "key": "c",
+          "text": "baixa estatura constitucional / estatura normal na vida adulta"
+        },
+        {
+          "key": "d",
+          "text": "baixa estatura constitucional / baixa estatura na vida adulta"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O quadro de idade óssea atrasada (9 anos aos 11 cronológicos), alvo genético discretamente reduzido (Z-1) mas melhor que a estatura atual (Z-2 a -3), e ausência de outros achados patológicos é compatível com baixa estatura constitucional — o desfecho esperado é estatura normal na vida adulta, já que a maturação óssea atrasada permite mais tempo de crescimento residual.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_045",
+      "statement": "Menina de 6 anos é levada à consulta médica pelos pais, que relatam que ela é a mais baixinha da sala e que a irmã, nessa idade, era mais alta As alturas da criança, do pai e da mãe, respectivamente, são: 108cm, 163cm e 150cm. A estatura-alvo prevista para a paciente, em cm, é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "150"
+        },
+        {
+          "key": "b",
+          "text": "155"
+        },
+        {
+          "key": "c",
+          "text": "160"
+        },
+        {
+          "key": "d",
+          "text": "163"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Calculando a estatura-alvo para essa menina: (altura do pai + altura da mãe - 13) ÷ 2 = (163 + 150 - 13) ÷ 2 = 150cm.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_046",
+      "statement": "Quanto aos genes e fatores de transcrição relacionados ao crescimento, no que se refere ao gene SHOX, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A haploinsuficiência do SHOX leva à indiferenciação dos condrócitos e à baixa estatura observada nos indivíduos com síndrome de Klinefelter."
+        },
+        {
+          "key": "b",
+          "text": "Na síndrome de Turner, ocorre a perda de uma das cópias do SHOX (hemizigose), responsável por dois terços da baixa estatura observada na síndrome."
+        },
+        {
+          "key": "c",
+          "text": "O gene SHOX faz parte da família de genes homeobox e localiza-se apenas no cromossomo X."
+        },
+        {
+          "key": "d",
+          "text": "O gene SHOX inibe a transcrição de fatores de crescimento, levando à baixa estatura."
+        },
+        {
+          "key": "e",
+          "text": "O SHOX estimula a diferenciação dos condrócitos e promove avanço da idade óssea."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Na síndrome de Turner, a perda de uma cópia do gene SHOX (localizado na região pseudoautossômica dos cromossomos X e Y, portanto não exclusivo do X) por hemizigose é responsável por cerca de dois terços da baixa estatura observada na síndrome — o restante decorre de outros fatores relacionados à disgenesia gonadal e outras alterações cromossômicas.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_047",
+      "statement": "João, 6 anos, apresentava crescimento próximo do Z-escore -1. Entre segundo e quarto ano de vida houve redução da velocidade de crescimento assumindo um canal pouco abaixo do Z-escore -2. Estatura alvo no Z-escore -1. Mãe com menarca aos 12 anos e pai com estirão ao redor de 15 anos. Retornou ao pediatra agora e visto que mantém ritmo de crescimento de 5cm/ano e possui Rx de idade de 4 anos, com peso no Z-escore -2 e altura pouco abaixo do Z-escore - 2 . A principal hipótese diagnóstica é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Baixa estatura familiar."
+        },
+        {
+          "key": "b",
+          "text": "Baixa estatura constitucional."
+        },
+        {
+          "key": "c",
+          "text": "Deficiência do hormônio de crescimento."
+        },
+        {
+          "key": "d",
+          "text": "Baixa estatura devido a desnutrição."
+        },
+        {
+          "key": "e",
+          "text": "Estatura adequada a idade."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O padrão de mudança de canal de crescimento entre os 2 e 4 anos (de Z-1 para próximo de Z-2, mantendo-se assim) com peso também caindo em paralelo (Z-2), e velocidade de crescimento atual de apenas 5cm/ano, associado à idade óssea marcadamente atrasada (4 anos), sugere deficiência de hormônio de crescimento — o padrão de mudança de canal na primeira infância (crossing de percentis) é um sinal de alerta clássico para causas orgânicas/hormonais, diferente do padrão estável já presente desde o nascimento típico da baixa estatura familiar ou constitucional.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_048",
+      "statement": "Em relação ao crescimento normal, assinale a opção CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Nos primeiros dias de vida, o bebê perde até 10% do peso de nascimento, que deve estar recuperado em torno do sétimo ao décimo dia de vida."
+        },
+        {
+          "key": "b",
+          "text": "Crianças nascem com aproximadamente 22 centímetros de perímetro cefálico."
+        },
+        {
+          "key": "c",
+          "text": "O peso do bebê dobra no segundo mês de vida, triplica no quarto e quadruplica com um ano."
+        },
+        {
+          "key": "d",
+          "text": "Nas meninas, a velocidade máxima de crescimento ocorre no ano após a menarca."
+        },
+        {
+          "key": "e",
+          "text": "O perímetro cefálico cresce aproximadamente 8 centímetros no primeiro ano de vida."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Nos primeiros dias de vida, é fisiológico que o recém-nascido perca até 10% do peso de nascimento, com recuperação esperada por volta do 7º ao 10º dia de vida.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_049",
+      "statement": "Levando em consideração a etiologia e a fisiopatologia dos distúrbios do crescimento, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Adenomas hipofisários são os tumores que mais comumente causam deficiência de GH em crianças."
+        },
+        {
+          "key": "b",
+          "text": "A deficiência combinada de hormônios hipofisários pode ser de causa genética."
+        },
+        {
+          "key": "c",
+          "text": "Hipertireoidismo, hipoparatireoidismo e raquitismo são causas de baixa estatura."
+        },
+        {
+          "key": "d",
+          "text": "Doença de Cushing causa aceleração do crescimento e virilização em crianças e adolescentes."
+        },
+        {
+          "key": "e",
+          "text": "Hiperglicemia pode ser decorrente da síndrome de Cushing e da deficiência de GH na infância."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A deficiência combinada de hormônios hipofisários (pan-hipopituitarismo) pode ter causa genética, decorrente de mutações em fatores de transcrição da hipófise (como PROP1, POU1F1/PIT1), responsáveis pelo desenvolvimento e diferenciação das células hipofisárias.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_050",
+      "statement": "Maurício, 14 anos de idade, consulta queixando-se de que seus colegas de colégio estão cando maiores que ele. Não apresenta outras queixas, não faz uso de medicação crônica. Mãe refere que aos 12 anos e 6 meses apresentava estatura de 160 cm. Pai com 185 cm (Percentil 90) e mãe com 168 cm (Percentil 75). Ao exame, paciente com estatura de 164 cm (Percentil 50), 59 kg (Percentil 75), ativo, corado, proporcional, precórdio, campos pleuropulmonares e abdômen sem particularidades, genitália com pubarca grau 2 (Escala de Tanner) e testículos com tamanho T6 pelo Orquidômetro de Prader. O diagnóstico mais provável é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "deficiência de hormônio de crescimento."
+        },
+        {
+          "key": "b",
+          "text": "retardo constitucional de puberdade e crescimento."
+        },
+        {
+          "key": "c",
+          "text": "Síndrome de Marfan."
+        },
+        {
+          "key": "d",
+          "text": "acondroplasia."
+        },
+        {
+          "key": "e",
+          "text": "paciente não apresenta falha de crescimento."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O quadro de baixa velocidade de crescimento recente (~4cm em 1,5 anos) mas com sinais de puberdade já iniciados (pubarca grau 2, testículos T6 no orquidômetro de Prader) e pais de estatura alta (bom alvo genético) é compatível com retardo constitucional de puberdade e crescimento — o paciente tende a alcançar boa estatura final, apenas com progressão puberal mais tardia que seus colegas.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_051",
+      "statement": "Durante consulta cuja queixa principal foi baixa estatura em uma menina de 3 anos de idade, o pediatra observou a presença de baixa implantação das orelhas e cabelo, cubitus valgo, palato ogival e quarto metacarpo curto. Tais dados o zeram solicitar, dentre outros exames, o cariótipo por bandeamento GTG. Para o quadro citado, a principal hipótese diagnóstica a ser aventada é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Síndrome de Down."
+        },
+        {
+          "key": "b",
+          "text": "Síndrome de Turner."
+        },
+        {
+          "key": "c",
+          "text": "Pan-hipopituitarismo familiar."
+        },
+        {
+          "key": "d",
+          "text": "Síndrome de Russel-Silver."
+        },
+        {
+          "key": "e",
+          "text": "Síndrome de Seckel."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O quadro de baixa implantação de orelhas e cabelo, cúbito valgo, palato ogival e quarto metacarpo curto em uma menina com baixa estatura é sugestivo de síndrome de Turner, justificando a solicitação de cariótipo por bandeamento GTG.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_052",
+      "statement": "Criança que apresentava peso e estatura no Escore-Z +1 ao nascimento, a partir de 1 ano de vida apresenta queda na velocidade de crescimento, seguindo para novo canal de crescimento (estatura Escore-Z entre -1 e -2) que mantém até a adolescência. A maturação sexual é tardia. Assinale a alternativa com o diagnóstico mais provável e prognóstico esperado.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Atraso constitucional do crescimento e do desenvolvimento puberal com estatura final que segue o padrão familiar"
+        },
+        {
+          "key": "b",
+          "text": "Atraso constitucional do crescimento e do desenvolvimento puberal com estatura final comprometida em relação ao padrão familiar"
+        },
+        {
+          "key": "c",
+          "text": "Baixa estatura familiar/primária com estatura final que segue o padrão familiar"
+        },
+        {
+          "key": "d",
+          "text": "Baixa estatura familiar/primária com estatura final comprometida em relação ao padrão familiar"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O padrão de queda da velocidade de crescimento a partir de 1 ano de vida, migração para um novo canal de crescimento mantido até a adolescência, e maturação sexual tardia, é característico de atraso constitucional do crescimento e do desenvolvimento puberal — o prognóstico de estatura final costuma seguir o padrão familiar (bom prognóstico).",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_053",
+      "statement": "Mãe traz seu lho para consulta pediátrica, sexo masculino, 7 anos de idade, devido à preocupação com crescimento, desenvolvimento e estado nutricional apresentando os seguintes escores: Peso para idade Escore > Z+1 e < Z+2 IMC para idade Escore > Z-1 e < Z+1 Estatura para idade Escore > Z+2 e < Z+3. Qual o diagnóstico?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Baixo peso para a idade, magreza e estaturaadequada para a idade."
+        },
+        {
+          "key": "b",
+          "text": "Peso adequado para a idade, eutrofia e estatura adequada para a idade."
+        },
+        {
+          "key": "c",
+          "text": "Baixo peso para a idade, magreza leve e estatura adequada para a idade."
+        },
+        {
+          "key": "d",
+          "text": "Peso adequado para a idade, magreza leve e alta estatura para a idade."
+        },
+        {
+          "key": "e",
+          "text": "Baixo peso para a idade, eutrofia e alta estatura para a idade."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Com IMC-para-idade dentro da normalidade (Escore -1 a +1, que classifica eutrofia — o principal parâmetro atual para classificação do estado nutricional), peso-para-idade discretamente elevado e estatura-para-idade elevada, o quadro corresponde a peso adequado, eutrofia e estatura considerada dentro do aceitável para a idade, sendo o IMC (não o peso isolado) o parâmetro utilizado para classificar o estado nutricional da criança.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_054",
+      "statement": "T.G.P, 6 anos, sexo masculino, trazido ao retorno no ambulatório de pediatria pela mãe, por achar a criança muito pequena. Paciente nascido a termo, pesando 2.700 g. Apresenta asma, diagnosticada aos 4 anos. Estatura- alvo: 168 cm; radiogra a de punhos: idade óssea -1 DP; velocidade de crescimento: 3 cm/ano; IMC: escore Z entre -1 e 0; estatura/idade: escore Z entre -1 e 0. Qual dos seguintes parâmetros indica maior necessidade de investigação do quadro?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Idade óssea atrasada."
+        },
+        {
+          "key": "b",
+          "text": "Escore de IMC e estatura/idade."
+        },
+        {
+          "key": "c",
+          "text": "Baixa previsão de estatura final."
+        },
+        {
+          "key": "d",
+          "text": "Peso ao nascer e doença crônica."
+        },
+        {
+          "key": "e",
+          "text": "Baixa velocidade de crescimento."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Apesar da idade óssea, do IMC e da relação estatura/idade próximos do normal, a velocidade de crescimento de apenas 3cm/ano é o parâmetro que mais indica necessidade de investigação, por estar muito abaixo do esperado para a idade.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_055",
+      "statement": "A fórmula utilizada para o cálculo da altura final de meninos, em centímetros, é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "(altura do pai - 13 ÷ 2)"
+        },
+        {
+          "key": "b",
+          "text": "(altura da mãe -13 ÷ 2)"
+        },
+        {
+          "key": "c",
+          "text": "(altura do pai altura da mãe - 13 + 2)"
+        },
+        {
+          "key": "d",
+          "text": "(altura do pai 4- altura da mãe 13 ÷ 2)"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A fórmula para cálculo da estatura-alvo (final) de meninos é: (altura do pai + altura da mãe + 13) ÷ 2.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_056",
+      "statement": "Um menino nascido a termo, com 4 kg e 51 cm, vem à consulta de puericultura aos 6 meses. Se a mãe tem 168 cm de altura e o pai 183 cm, qual a estatura-alvo da criança?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "169 cm, com uma variação entre 164 - 174 cm."
+        },
+        {
+          "key": "b",
+          "text": "173 cm, com uma variação entre 168 - 178 cm."
+        },
+        {
+          "key": "c",
+          "text": "182 cm, com uma variação entre 177 - 187 cm."
+        },
+        {
+          "key": "d",
+          "text": "178 cm, com uma variação entre 173 - 182 cm."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Calculando a estatura-alvo para esse menino: (altura do pai + altura da mãe + 13) ÷ 2 = (183 + 168 + 13) ÷ 2 = 182cm, com variação esperada de aproximadamente ±5cm (177-187cm).",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_057",
+      "statement": "Menino, 13 anos, em investigação de baixa estatura. Mãe refere que sempre notou que o lho era menor que os outros da mesma idade, porém, nos últimos 2 anos, essa diferença vem se acentuando. Nega outras queixas, doenças crônicas ou uso de medicamentos. Nasceu de parto normal a termo, com 3.500 g e 49 cm. O pai mede 185 cm e a mãe, 172 cm. Ao exame: estatura 131,5 cm, envergadura 136 cm, púbis-pé 67,5 cm. Tanner G1P1, sem dismor as ou outras alterações. Mãe traz anotações de estaturas anteriores: 12 anos 127 cm, 11 anos 123 cm. Radiogra a de idade óssea aos 12 anos e 6 meses compatível com 8 anos. Analisando os dados antropométricos do paciente, de acordo com o grá co e as informações apresentadas, podemos afirmar que",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "o diagnóstico é de baixa estatura constitucional."
+        },
+        {
+          "key": "b",
+          "text": "é necessário solicitar um cariótipo para este paciente."
+        },
+        {
+          "key": "c",
+          "text": "o diagnóstico é de baixa estatura desproporcionada, provável acondroplasia."
+        },
+        {
+          "key": "d",
+          "text": "o quadro é sugestivo de baixa estatura patológica e deve ser iniciada investigação hormonal."
+        },
+        {
+          "key": "e",
+          "text": "o diagnóstico de deficiência congênita de GH está excluído."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Apesar da idade óssea atrasada (8 anos aos 12,5 cronológicos, achado tipicamente favorável), o quadro de piora progressiva do déficit estatural nos últimos 2 anos, associado a pais de estatura alta (alvo genético elevado) e estatura atual muito comprometida (131,5cm), sugere que não se trata de simples atraso constitucional (que mantém um canal estável, não piora progressivamente) — o quadro é sugestivo de baixa estatura patológica, devendo-se iniciar investigação hormonal.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_058",
+      "statement": "Menino, 9 anos de idade, em consulta na unidade básica de saúde, onde a mãe refere que o lho não cresce e que na sala de aula é o menor. Conta que o menino é saudável, come bem e é muito ativo. A mãe pede uma vitamina para que o menino que grande logo. Exame físico: após colocar o peso e a altura em uma curva de crescimento, foi constatado estatura abaixo do Percentil 3 da curva de crescimento adotada pelo Ministério da Saúde. A conduta nesta consulta é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Confirmar a baixa estatura abaixo do percentil 3 para idade e, a partir dos dados antropométricos, prescrever a vitamina para crescer."
+        },
+        {
+          "key": "b",
+          "text": "Verificar o canal parental e orientar os pais para retorno em 6 meses."
+        },
+        {
+          "key": "c",
+          "text": "Verificar a velocidade de crescimento nos últimos 6 meses, canal de crescimento e solicitar radiografia de punho esquerdo para avaliação de idade óssea."
+        },
+        {
+          "key": "d",
+          "text": "Confirmar a baixa estatura abaixo do percentil 3 para idade, solicitar retorno em 6 meses e pedir para trazer dosagem de TSH e T4 livre."
+        },
+        {
+          "key": "e",
+          "text": "Verificar a velocidade de crescimento nos últimos 6 meses, canal de crescimento, solicitar retorno em 6 meses e tranqulizar a mãe dizendo que a baixa estatura vai ser corrigida no estirão da puberdade."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A conduta padrão diante de uma criança com estatura abaixo do percentil 3, saudável e sem outros sinais de alarme, é verificar a velocidade de crescimento nos últimos 6 meses, o canal de crescimento parental, e solicitar radiografia de punho esquerdo para avaliação da idade óssea — não se deve prescrever vitaminas sem investigação nem apenas tranquilizar sem dados objetivos.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_059",
+      "statement": "Qual dos seguintes parâmetros é consistente com um crescimento normal nos seis primeiros meses de vida?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aumentar a altura em 10 centímetros."
+        },
+        {
+          "key": "b",
+          "text": "Dobrar o peso de nascimento."
+        },
+        {
+          "key": "c",
+          "text": "Aumentar o perímetro cefálico em 0,5 cm por mês."
+        },
+        {
+          "key": "d",
+          "text": "Ganho de peso de 10 gramas por dia."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Um parâmetro consistente com crescimento normal nos primeiros 6 meses de vida é a duplicação do peso de nascimento, que tipicamente ocorre entre os 4 e 6 meses de idade.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_060",
+      "statement": "Um menino de 8 anos e 6 meses é avaliado por apresentar estatura abaixo do percentil 3 e velocidade de crescimento de 3 cm/ano. Sua estatura-alvo seria no percentil 50. Ao exame físico encontra-se em bom estado geral, não apresenta dismor as ou face sindrômica, tem proporções corporais mantidas e está impúbere (Tanner G1 P1). Não são observadas outras anormalidades. Apresenta idade óssea de 6 anos e 10 meses. Os resultados dos seguintes exames complementares foram normais: hemograma, eletrólitos, proteínas, cálcio, fósforo, provas de função renal e hepática. Para prosseguir a investigação, qual das opções abaixo, contém o(s) exame(s) que deve(m) ser solicitado(s) inicialmente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "TSH e T4 livre."
+        },
+        {
+          "key": "b",
+          "text": "Teste de estímulo de GH com clonidina ou glucagon."
+        },
+        {
+          "key": "c",
+          "text": "IGF-1 e/ou IGFBP3."
+        },
+        {
+          "key": "d",
+          "text": "Ressonância magnética do encéfalo e da sela túrcica."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de baixa estatura com velocidade de crescimento reduzida, proporções corporais normais, ausência de dismorfias, idade óssea discretamente atrasada e exames laboratoriais gerais (hemograma, eletrólitos, função renal/hepática) já normais, o próximo exame de triagem inicial mais indicado é a avaliação da função tireoidiana (TSH e T4 livre) — teste simples e de alto rendimento antes de exames mais especializados/invasivos.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_061",
+      "statement": "Com relação à velocidade de crescimento, assinale a alternativa CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A velocidade de crescimento é decrescente no primeiro ano de vida."
+        },
+        {
+          "key": "b",
+          "text": "A velocidade de crescimento no período escolar é de 3 cm/ano."
+        },
+        {
+          "key": "c",
+          "text": "Na puberdade o estirão puberal (maior velocidade de crescimento) ocorre inicialmente (mais precoce) em meninos."
+        },
+        {
+          "key": "d",
+          "text": "A velocidade de crescimento é crescente no primeiro ano de vida e retoma com a puberdade."
+        },
+        {
+          "key": "e",
+          "text": "A velocidade de crescimento puberal é de 5 cm/ano."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A velocidade de crescimento é decrescente ao longo do primeiro ano de vida, retomando maior velocidade apenas com o estirão puberal.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_062",
+      "statement": "Em consulta com o pediatra, dois irmãos adolescentes estão intrigados porque a altura entre eles é muito diferente. A menina (F) com 18 anos, menarca há 5 anos, já parou de crescer há 2 anos, e está com 160 cm, e o menino (M) com 20 anos, também já parou de crescer há 2 anos, está com 177 cm. A mãe deles tem 157 cm e o pai 180 cm. Assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Não era esperada uma diferença tão grande entre as alturas finais de dois irmãos."
+        },
+        {
+          "key": "b",
+          "text": "A altura de M foi abaixo da esperada para a altura dos pais."
+        },
+        {
+          "key": "c",
+          "text": "A altura de F foi acima da esperada para a altura dos pais."
+        },
+        {
+          "key": "d",
+          "text": "As alturas de M e F foram as esperadas de acordo com a altura dos pais."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Calculando as estaturas-alvo: para a menina (F) = (180+157-13)÷2 = 162cm (ela mede 160cm, dentro do esperado); para o menino (M) = (180+157+13)÷2 = 175cm (ele mede 177cm, também dentro do esperado) — ambas as alturas finais estão de acordo com o esperado pela estatura dos pais, explicando a diferença aparente entre os irmãos.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_063",
+      "statement": "Adolescente de 13 anos veio à consulta por baixa estatura. Negou doenças prévias e relatou ter desempenho escolar adequado. Ainda não ocorrera a menarca. A altura do pai era 175 cm, e a da mãe, de 165 cm. O exame físico revelou que a paciente encontra-se no estágio de Tanner M1P1. Seu peso era de 60 kg, a altura de 143 cm (escore-Z -2), com velocidade de crescimento de 2 cm/ano nos últimos 2 anos, e o IMC de 29,3 kg/m² (escore-Z > + 2). Para confirmação do diagnóstico mais provável, que conduta, dentre as abaixo, é fundamental?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar cariótipo."
+        },
+        {
+          "key": "b",
+          "text": "Solicitar teste com estímulo para hormônio do crescimento."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar ressonância magnética de sela túrcica e dosagem de prolactina sérica."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar tomografia de crânio e dosagem de cortisol sérico."
+        },
+        {
+          "key": "e",
+          "text": "Reavaliar a velocidade de crescimento em 3 meses e tranquilizar a adolescente por ainda faltar tempo para a menarca."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O quadro de baixa estatura grave (escore-Z -2), velocidade de crescimento muito baixa (2cm/ano), amenorreia primária, ausência de desenvolvimento puberal (Tanner M1P1) e obesidade (IMC escore >+2) é altamente sugestivo de síndrome de Turner — a conduta fundamental para confirmação diagnóstica é a solicitação de cariótipo.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_064",
+      "statement": "O atraso constitucional do crescimento apresenta, em relação à previsão de estatura final:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Estatura final de acordo com o alvo genético."
+        },
+        {
+          "key": "b",
+          "text": "Estatura final maior que o alvo genético."
+        },
+        {
+          "key": "c",
+          "text": "Estatura final menor que o alvo genético."
+        },
+        {
+          "key": "d",
+          "text": "Estatura final independente do alvo genético."
+        },
+        {
+          "key": "e",
+          "text": "Estatura final dependente da idade óssea."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "No atraso constitucional do crescimento, a previsão de estatura final costuma estar de acordo com o alvo genético (bom prognóstico), diferente de causas patológicas de baixa estatura, nas quais a estatura final tende a ficar comprometida em relação ao alvo familiar.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_065",
+      "statement": "Menina, 8 anos 6 meses, encaminhada para avaliação porque os pais acham que ela é \"muito baixa\". Ao exame, peso 28 kg (percentil 50) e altura 128 cm (percentil 50), estadiamento puberal M1P1. Mãe mede 150 cm e pai 180 cm. Assinale a alternativa correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O estirão puberal na menina ocorre geralmente logo após a menarca"
+        },
+        {
+          "key": "b",
+          "text": "A velocidade de crescimento nessa idade é de 12 cm/ano"
+        },
+        {
+          "key": "c",
+          "text": "O GH e o bloqueio puberal são indicados nesse caso para melhorar o crescimento"
+        },
+        {
+          "key": "d",
+          "text": "O melhor indicador clínico para acompanhamento do crescimento estatural é a velocidade de crescimento"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O melhor indicador clínico para o acompanhamento longitudinal do crescimento estatural de uma criança é a velocidade de crescimento — mais sensível que uma medida isolada de estatura/percentil em um único momento.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_066",
+      "statement": "Paulo, 8 anos, procurou atendimento pediátrico, pois está crescendo pouco. Sua mãe refere que é o menor da sala e não trocou o número do sapato neste último ano. Tem boa alimentação e pratica futebol 2 vezes por semana. A estatura da mãe é 163cm e do pai 176cm, é lho único e não apresenta comorbidades. Pai refere que sempre teve crescimento normal e mãe só lembra que menstruou aos 15 anos e apresentou hipotorepodismo após a gravidez. Paulo atualmente está com peso de 21kg (Z-escore entre-1 e -2), altura 115,2cm (Z-escore -2) e sua radiografia de idade óssea atual é de 6 anos. Exame físico não apresenta particularidades. Observado a carteirinha de saúde, constato que tem uma velocidade de crescimento de 5cm nos últimos 3 anos. Qual a hipótese diagnóstica mais provável neste caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Baixa estatura familiar."
+        },
+        {
+          "key": "b",
+          "text": "Muito baixa estatura."
+        },
+        {
+          "key": "c",
+          "text": "Crescimento adequado para idade."
+        },
+        {
+          "key": "d",
+          "text": "Atraso constitucional de crescimento."
+        },
+        {
+          "key": "e",
+          "text": "Baixa velocidade de crescimento, com atraso de idade óssea por hipotireoidismo."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O quadro de baixa velocidade de crescimento (apenas 5cm em 3 anos, muito reduzida), idade óssea marcadamente atrasada (6 anos aos 8 cronológicos), associado à história materna de atraso constitucional (menarca tardia aos 15 anos) e exame físico sem alterações, sugere atraso constitucional de crescimento, com a história familiar reforçando essa hipótese.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_067",
+      "statement": "Criança, sexo masculino, 12 anos de idade cronológica, em consulta médica ambulatorial, acompanhado de seus pais, queixando-se de que é um dos mais baixos na sala de aula. É lho de pais não consanguíneos, tem exames laboratoriais (hemograma,glicemia, uréia, creatinina, cálcio, fósforo, fosfatase alcalina, TSH, T4 livre, IGF-1, zinco, EAS e exame de fezes) normais, sua velocidade de crescimento foi de 5cm no último ano, idade óssea atrasada, correspondendo à idade estatural (em torno de 9 anos e meio), sem evidências de problemas psicossociais. Menarca apresenta proporções corporais normais, estatura <2 desvios padrões para idade cronológica (idade estatural de 9 anos e 8 meses de idade) e desenvolvimento puberal de Tanner G1P1. Os pais se encontram no percentil 50 de estatura. A conduta médica a ser tomada nesse caso é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar teste de estímulo para ver secreção do hormônio de crescimento"
+        },
+        {
+          "key": "b",
+          "text": "Manter acompanhamento clínico e da velocidade de crescimento a cada 6 meses"
+        },
+        {
+          "key": "c",
+          "text": "Iniciar tratamento com somatropina humana recombinante injetável"
+        },
+        {
+          "key": "d",
+          "text": "Solicitar RNM de sela túrcica"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Com exames laboratoriais completos normais, velocidade de crescimento próxima do limite inferior aceitável, idade óssea atrasada mas compatível com a idade estatural, e ausência de sinais de alerta psicossociais, a conduta apropriada é manter acompanhamento clínico e da velocidade de crescimento a cada 6 meses, sem necessidade de testes hormonais invasivos ou tratamento imediato — quadro compatível com atraso constitucional do crescimento.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_068",
+      "statement": "Paciente JMNM, sexo feminino, data de nascimento: 10/06/2008, na consulta atual (05/11/2018) apresenta Tanner: M3P2, P: 29kg, e Est: 131,3cm (-1,3SD). Nega menarca. A estatura da mãe é de 163cm, e a do pai é de 173cm. Em consultas anteriores, apresentava os seguintes dados: - 05/05/2018: P: 27,5kg e Est: 127,8cm (-1,5SD) Tanner M2P2; - 30/10/2017: P: 27kg e Est: 125cm (-1,5SD) Tanner: M2P1; - 05/05/2017: P:26,6kg e Est: 123cm (-1,6SD) Tanner: M1P1; Considerando os dados acima, assinale a alternativa CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A paciente apresenta velocidade de crescimento de 4,8cm/ano, devendo realizar exames complementares, pois esta é uma velocidade de crescimento considerada baixa para uma menina que já iniciou a puberdade."
+        },
+        {
+          "key": "b",
+          "text": "A estatura-alvo calculada para essa paciente é de 161,5cm (+/- 5 cm)."
+        },
+        {
+          "key": "c",
+          "text": "A paciente deverá ser investigada para causas de puberdade precoce, pois apresenta mamas mais desenvolvidas que o esperado para a faixa etária."
+        },
+        {
+          "key": "d",
+          "text": "A paciente deverá realizar exames complementares, pois apresenta baixa estatura."
+        },
+        {
+          "key": "e",
+          "text": "A paciente apresenta desenvolvimento puberal normal para a idade, porém o ritmo de progressão da puberdade está mais rápido que o habitual."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Calculando a estatura-alvo para essa paciente: (altura do pai + altura da mãe - 13) ÷ 2 = (173+163-13) ÷ 2 = 161,5cm, com variação esperada em torno de ±5cm — compatível com o quadro clínico apresentado (estatura atual -1,3SD, progressão puberal e de crescimento adequadas, sem necessidade de investigação adicional).",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_069",
+      "statement": "Leia o caso clínico a seguir. Dois irmãos procuram o pediatra para saber o motivo de suas alturas serem muito diferentes. A. tem 16 anos e mede 155 cm, refere menarca aos 13,5 anos e a rma ter parado de crescer há dois anos. J., de 17 anos, também parou de crescer há dois anos e está com 178 cm. A mãe mede 160 cm e o pai, 173 cm. Considerando o histórico dos irmãos:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A diferença tão grande entre as alturas finais dos irmãos não era esperada."
+        },
+        {
+          "key": "b",
+          "text": "As alturas de A. e J. estão dentro do esperado para o perfil familiar."
+        },
+        {
+          "key": "c",
+          "text": "A altura de A. está abaixo da esperada para o perfil familiar."
+        },
+        {
+          "key": "d",
+          "text": "A altura de J. está acima da esperada para o perfil familiar."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Calculando as estaturas-alvo: para A. (menina) = (173+160-13)÷2 = 160cm (ela mede 155cm, dentro do esperado); para J. (menino) = (173+160+13)÷2 = 173cm (ele mede 178cm, também dentro do esperado) — ambas as alturas estão de acordo com o perfil familiar.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_070",
+      "statement": "Em uma consulta de rotina, a mãe de um menino de 11 anos se queixa de que ele está menor que os colegas da classe escolar. Na avaliação, o médico constatou velocidade de crescimento de 7 cm/ano, com estatura entre os percentis 25 e 50 da curva de crescimento, e critério de Tanner = G1P1. No que concerne a esse caso clínico, em relação à conduta apropriada a ser seguida, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar radiografia de punhos e pedir para que a mãe e o paciente retornem dentro de dois meses para nova avaliação estatural."
+        },
+        {
+          "key": "b",
+          "text": "Investigar causa renal para estatura baixa para a idade."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar dosagem do hormônio de crescimento para confirmar a baixa estatura e tratar precocemente."
+        },
+        {
+          "key": "d",
+          "text": "Tranquilizar a mãe de que a velocidade de crescimento está normal, uma vez que o paciente está impúbere e não ainda iniciou o estirão puberal."
+        },
+        {
+          "key": "e",
+          "text": "Solicitar dosagens de hormônios tireoidianos e ultrassonografia de tireoide."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A velocidade de crescimento de 7cm/ano é adequada para um menino de 11 anos ainda pré-púbere (Tanner G1P1, ainda não iniciou o estirão puberal) — deve-se tranquilizar a mãe, pois o crescimento está normal para essa fase do desenvolvimento.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_071",
+      "statement": "Uma mãe traz seu lho de 6 anos de idade à consulta no Centro de Saúde da Comunidade, muito preocupada porque ele é mais baixo que os colegas de sala. Qual estatura-alvo de uma criança do sexo masculino, cuja mãe mede 157cm e o pai 166 cm?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "155 cm, com uma variação entre 150 - 160 cm"
+        },
+        {
+          "key": "b",
+          "text": "162 cm, com uma variação entre 157 - 167 cm"
+        },
+        {
+          "key": "c",
+          "text": "168 cm, com uma variação entre 163 - 173 cm"
+        },
+        {
+          "key": "d",
+          "text": "173 cm, com uma variação entre 168 - 178 cm"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Calculando a estatura-alvo para esse menino: (altura do pai + altura da mãe + 13) ÷ 2 = (166+157+13) ÷ 2 = 168cm, com variação esperada de aproximadamente ±5cm (163-173cm).",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_072",
+      "statement": "Mãe traz a lha de 11 anos à consulta com queixa de baixa estatura. Refere que sempre notou que a lha era menor que as colegas de mesma idade, mas nunca se incomodou com isso. A lha, porém, começou a se queixar, pois tem colegas que já estão bem maiores e desenvolvidas, o que faz com que se sinta uma “bebê”. Idade óssea compatível com 11 anos. A estatura de 1 ano atrás era de 123 cm (< Percentil 3). Estatura do pai = 163 cm, estatura da mãe = 150 cm. Ao exame: E = 129 cm (< Percentil 3), Tanner M2P1, sem alterações. Com relação a esse caso, assinale a opção CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A família deve ser tranquilizada por se tratar de baixa estatura constitucional."
+        },
+        {
+          "key": "b",
+          "text": "Visto que a paciente não apresenta estigmas genéticos, não há necessidade de solicitar cariótipo."
+        },
+        {
+          "key": "c",
+          "text": "Provavelmente a criança tem uma baixa estatura não patológica."
+        },
+        {
+          "key": "d",
+          "text": "Devem ser solicitadas dosagens de TSH, T4 livre e IGF1 devido à suspeita de deficiência hormonal."
+        },
+        {
+          "key": "e",
+          "text": "Deve ser solicitada RNM de hipófise pela suspeita de deficiência hormonal."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Apesar da estatura abaixo do percentil 3, a criança apresenta idade óssea compatível com a idade cronológica, velocidade de crescimento adequada (6cm no último ano) e progressão puberal já iniciada (Tanner M2P1) — quadro mais consistente com baixa estatura não patológica (provavelmente familiar, dado que os pais também são de estatura baixa) do que com uma causa endócrina ou genética a ser investigada.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_073",
+      "statement": "Mãe traz seu lho de 10 anos para atendimento pediátrico pois notou que o mesmo é o mais baixo da sala. Ela costuma marcar a altura dos lhos no batente da porta e notou que ele vem crescendo menos que os irmaõs nos últimos 12-18 meses e que nesse período o menino vem tendo muito sono, pele seca, di culdade na escola por estar desatento e que ele sente mais frio que os irmãos e está sempre agasalhado. A velocidade de crescimento nos últimos 12 meses foi de 2cm/ano. Atualmente a estatura está entre os percentis 3 e 10 (alvo estatural no percentil 50), peso entre os percentis 50- 75, sem sinais de puberdade. Em relação ao crescimento e diagnóstico, a principal hipótese é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "crescimento normal e provável retardo constitucional do crescimento."
+        },
+        {
+          "key": "b",
+          "text": "crescimento normal e obesidade exógena."
+        },
+        {
+          "key": "c",
+          "text": "crescimento anormal e provável baixa estatura familiar."
+        },
+        {
+          "key": "d",
+          "text": "crescimento anormal por provável hipotireoidismo adquirido."
+        },
+        {
+          "key": "e",
+          "text": "crescimento anormal por provável deficiência de hormônio de crescimento."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O quadro de baixa velocidade de crescimento (2cm/ano), sonolência excessiva, pele seca, desatenção escolar e maior sensibilidade ao frio nos últimos 12-18 meses, com estatura abaixo do alvo genético, é característico de hipotireoidismo adquirido.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_074",
+      "statement": "A velocidade média de crescimento (cm/ano) na idade escolar é de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "14 cm/ano."
+        },
+        {
+          "key": "b",
+          "text": "12 cm/ano."
+        },
+        {
+          "key": "c",
+          "text": "10 cm/ano."
+        },
+        {
+          "key": "d",
+          "text": "06 cm/ano."
+        },
+        {
+          "key": "e",
+          "text": "03 cm/ano."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A velocidade média de crescimento na idade escolar é de aproximadamente 6cm/ano.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_075",
+      "statement": "No acompanhamento de criança com baixa estatura familiar, encontra-se:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Velocidade de crescimento normal."
+        },
+        {
+          "key": "b",
+          "text": "Diminuição de IGF-1."
+        },
+        {
+          "key": "c",
+          "text": "Puberdade tardia."
+        },
+        {
+          "key": "d",
+          "text": "Atraso de idade óssea."
+        },
+        {
+          "key": "e",
+          "text": "Doença crônica."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "No acompanhamento da baixa estatura familiar, encontra-se velocidade de crescimento normal — o principal diferencial em relação a causas patológicas de baixa estatura, nas quais a velocidade costuma estar reduzida.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_076",
+      "statement": "Menina de 14 anos é atendida devido à dificuldade de desenvolvimento estatural (P < 3) e sexual. Ao exame físico, apresenta fácies atípica, hidratada, corada e acianótica, genitália M1 e P1. Nesse caso, a condição que deve sempre ser descartada é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Síndrome de Turner"
+        },
+        {
+          "key": "b",
+          "text": "Síndrome do ovário policístico"
+        },
+        {
+          "key": "c",
+          "text": "Atraso constitucional do crescimento"
+        },
+        {
+          "key": "d",
+          "text": "Hipotireoidismo"
+        },
+        {
+          "key": "e",
+          "text": "Pan-hipopituitarismo"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de baixa estatura (P<3) associada a atraso puberal completo (M1P1) em uma menina de 14 anos, mesmo com fácies atípica inespecífica, a condição que sempre deve ser descartada é a síndrome de Turner.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_077",
+      "statement": "A fórmula utilizada para o cálculo da altura final de meninos, em centímetros, é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "(Altura do pai + 13) ÷ 2."
+        },
+        {
+          "key": "b",
+          "text": "(Altura da mãe + 13) ÷ 2."
+        },
+        {
+          "key": "c",
+          "text": "(Altura do pai + altura da mãe - 13) ÷ 2."
+        },
+        {
+          "key": "d",
+          "text": "(Altura do pai + altura da mãe + 13) ÷ 2."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A fórmula para cálculo da estatura-alvo (final) de meninos é: (altura do pai + altura da mãe + 13) ÷ 2.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_078",
+      "statement": "A alta estatura, apesar de socialmente mais aceita do que a baixa estatura, é uma situação que merece acompanhamento. A alta estatura na infância pode estar associada com estatura nal abaixo ou adequada ao canal familiar. Isso ocorre em todas as condições abaixo, exceto:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Síndrome de Marfan."
+        },
+        {
+          "key": "b",
+          "text": "Alta estatura constitucional."
+        },
+        {
+          "key": "c",
+          "text": "Obesidade."
+        },
+        {
+          "key": "d",
+          "text": "Puberdade precoce."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A síndrome de Marfan é a exceção entre as condições listadas, pois tipicamente NÃO resulta em estatura final abaixo ou compatível com o canal familiar — ao contrário, geralmente leva a uma estatura final desproporcionalmente ALTA, acima do esperado, devido ao comprometimento do tecido conjuntivo. Alta estatura constitucional, obesidade e puberdade precoce, por sua vez, tendem a resultar em estatura final adequada ou até reduzida em relação ao canal familiar (por fechamento epifisário mais precoce).",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_079",
+      "statement": "Você solicita uma radiogra a das mãos e dos punhos para avaliação da idade óssea de uma criança que apresenta distúrbio do crescimento. Em qual das situações abaixo NÃO devemos encontrar atraso na idade óssea da criança:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hipotireoidismo primário"
+        },
+        {
+          "key": "b",
+          "text": "Pseudopuberdade precoce"
+        },
+        {
+          "key": "c",
+          "text": "Retardo constitucional do crescimento"
+        },
+        {
+          "key": "d",
+          "text": "Desnutrição"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A pseudopuberdade precoce (precocidade sexual periférica, por exposição a esteroides sexuais de origem não central) tipicamente ACELERA a maturação óssea (idade óssea avançada), sendo a exceção entre as causas listadas — hipotireoidismo primário, retardo constitucional do crescimento e desnutrição classicamente cursam com atraso da idade óssea.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_080",
+      "statement": "Menina de 9 anos foi levada ao pediatra porque sua mãe acha que vem crescendo pouco e engordando muito nos últimos 2 anos. Tem pouca energia, se recusa a praticar atividades físicas, dorme mais que o normal, apresenta obstipação e reclama de sentir muito frio. Exame físico sem alterações morfológicas. Na caderneta de acompanhamento, vem caindo no percentil de estatura (50% para 25%) e subindo no percentil de peso (60% para 90%). Apresenta fácies imatura, pele ressecada, cabelos finos e reflexos diminuídos. A conduta a ser adotada é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Avaliar a função da tireoide."
+        },
+        {
+          "key": "b",
+          "text": "Solicitar avaliação da genética."
+        },
+        {
+          "key": "c",
+          "text": "Prescrever dieta hipocalórica."
+        },
+        {
+          "key": "d",
+          "text": "Dosar o hormônio de crescimento."
+        },
+        {
+          "key": "e",
+          "text": "Orientar quanto à baixa estatura constitucional."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O quadro de desaceleração do crescimento com ganho excessivo de peso, baixa energia, recusa a atividades físicas, sono excessivo, constipação, intolerância ao frio, pele ressecada, cabelos finos e reflexos diminuídos é característico de hipotireoidismo — deve-se avaliar a função tireoidiana.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_081",
+      "statement": "Durante a avaliação de um adolescente com queixa de baixa estatura no ambulatório, o pediatra deve ter em mente várias hipóteses. Frequentemente depara-se com a necessidade de diagnóstico diferencial entre baixa estatura familiar e atraso constitucional do crescimento. Marque a assertiva abaixo CORRETA quanto à comparação destes 2 quadros clínicos:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Com relação à história familiar, na baixa estatura familiar é comum o retardo puberal, enquanto no atraso constitucional é comum a baixa estatura."
+        },
+        {
+          "key": "b",
+          "text": "Com relação à previsão de altura final, ambas, atingem e ficam de acordo com o alvo genético."
+        },
+        {
+          "key": "c",
+          "text": "Com relação ao exame físico, este é normal para a idade óssea na baixa estatura familiar, enquanto no atraso constitucional é normal para a idade cronológica."
+        },
+        {
+          "key": "d",
+          "text": "Com relação à idade óssea, esta é compatível com a idade cronológica na baixa estatura familiar, enquanto no atraso constitucional é atrasada para a estatura."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Na diferenciação entre baixa estatura familiar e atraso constitucional do crescimento: na baixa estatura familiar, a idade óssea é compatível com a idade cronológica; no atraso constitucional, a idade óssea está atrasada em relação à idade cronológica, mas é compatível com a idade estatural (altura-idade) da criança.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_082",
+      "statement": "Menor de 12anos refere ser mais baixo que seus colegas. Nasceu com 3.000g, 50cm, seu crescimento foi normal, apresenta bom desempenho escolar e nega doenças crônicas. Seu pai tem 176cm e sua mãe 160cm. Exame físico: Tanner G1P1. Sua altura e seu peso estão nos percentis 3 das curvas respectivas de idade versus estatura e de idade versus peso da OMS. Sua velocidade de crescimento é de 5cm ao ano e sua idade óssea de 10 anos. O diagnóstico mais provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hipotireoidismo adquirido;"
+        },
+        {
+          "key": "b",
+          "text": "Desnutrição energético protéica;"
+        },
+        {
+          "key": "c",
+          "text": "Baixa estatura genética ou familiar;"
+        },
+        {
+          "key": "d",
+          "text": "Retardo constitucional de crescimento;"
+        },
+        {
+          "key": "e",
+          "text": "Deficiência de hormônio de crescimento;"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O quadro de crescimento normal desde o nascimento, bom desempenho escolar, ausência de doenças crônicas, estatura e peso concordantes no percentil 3, velocidade de crescimento levemente reduzida (5cm/ano) e idade óssea atrasada (10 anos aos 12 cronológicos) é compatível com retardo constitucional de crescimento.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_083",
+      "statement": "Menina, de 6 anos de idade com queixa de baixa estatura observado desde os 4 anos. A criança nasceu de tamanho e peso adequados para a idade gestacional e não apresentou outros dados anormais de desenvolvimento. Pais com estaturas na média para o sexo. Ao exame físico, a criança apresentava uma estatura no percentil 5 e peso no percentil 10 para o sexo e idade. O estadiamento puberal é compatível com o padrão 1 de Tanner. Assim, assinale a alternativa CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Toda menina com crescimento baixo e com previsão de estatura final, se forem excluídas outras causas, deve ser avaliada para possível syndrome de Tunner, mesmo que não apresente outros estigmas genéticos."
+        },
+        {
+          "key": "b",
+          "text": "Por apresentar uma estatura abaixo do padrão familiar, o diagnóstico mais provável é o de deficiência de hormônio de crescimento."
+        },
+        {
+          "key": "c",
+          "text": "A presença de um exame de idade óssea atrasada exclui o retardo constitucional do crescimento e da puberdade."
+        },
+        {
+          "key": "d",
+          "text": "A realização de exames rotineiros como hemograma, parcial de urina, parasitológico de fezes são, do ponto de vista econômico, desnecessários, pois as alterações não levariam a uma baixa estatura."
+        },
+        {
+          "key": "e",
+          "text": "Por apresentar uma estatura no percentil abaixo do percentil de estatura do alvo familiar, já é considerada uma criança com deficit de crescimento."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Toda menina com baixa estatura e comprometimento da previsão de estatura final deve ser avaliada para possível síndrome de Turner, mesmo na ausência de outros estigmas genéticos característicos — princípio importante, pois o fenótipo da síndrome de Turner pode ser sutil ou ausente em muitos casos.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_084",
+      "statement": "Dois irmãos procuram o pediatra para saber o motivo de suas alturas serem muito diferentes. A menina (F), de 16 anos, refere menarca há três anos e a rma que parou de crescer há um ano e está com 162cm. O menino (M), de 17 anos, também parou de crescer há dois anos e está com 175cm. Eles informam que a mãe tem 157cm e o pai 180cm. Considerando o histórico dos irmãos, é CORRETO afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "As alturas de M e F foram as esperadas de acordo com a altura dos pais"
+        },
+        {
+          "key": "b",
+          "text": "A diferença tão grande entre as alturas finais dos irmãos não era esperada"
+        },
+        {
+          "key": "c",
+          "text": "A altura de M foi abaixo da esperada para a altura dos pais"
+        },
+        {
+          "key": "d",
+          "text": "A altura de F foi acima da esperada para a altura dos pais"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Calculando as estaturas-alvo: para a menina (F) = (180+157-13)÷2 = 162cm (ela mede exatamente 162cm); para o menino (M) = (180+157+13)÷2 = 175cm (ele mede exatamente 175cm) — ambas as alturas correspondem exatamente ao esperado pela estatura dos pais.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_085",
+      "statement": "Mãe de escolar de nove anos procura o pediatra, pois acha que seu lho está baixinho (sic). Relata que vem percebendo nos últimos 18 a 24 meses que o menino não está mais crescendo. Neste período começou a ganhar peso, dormindo muito e desatento na escola. A velocidade de crescimento nos últimos 12 meses foi de 2,5 cm/ano. Exame físico: estatura entre os percentis 3 e 10; peso entre os percentis 50 e 75; sem sinais de puberdade. Exame neurológico: normal. Baseado nos dados acima, podemos dizer que o crescimento é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Normal com peso adequado."
+        },
+        {
+          "key": "b",
+          "text": "Normal com obesidade exógena."
+        },
+        {
+          "key": "c",
+          "text": "Anormal com possível hipotireoidismo adquirido."
+        },
+        {
+          "key": "d",
+          "text": "Anormal com provável déficit de cortisol."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O quadro de parada do crescimento nos últimos 18-24 meses, ganho de peso, sonolência excessiva e desatenção escolar, com velocidade de crescimento reduzida (2,5cm/ano) e ausência de sinais puberais, é sugestivo de hipotireoidismo adquirido — crescimento anormal.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_086",
+      "statement": "Fabrício, 16 anos, 186 cm, altura alvo 175 cm, envergadura 194 cm, testículos 3 ml bilateral, Tanner de pelos 3 e ginecomastia bilateral. Apresenta os seguintes exames laboratoriais: LH 32 (normal 0,3-6), FSH 76 (normal 1-10), testosterona 0,6 ng/dl (normal 2,5-7,0). Baseado na clínica e resultados laboratoriais, a hipótese diagnóstica mais provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Atraso Constitucional do crescimento e puberdade."
+        },
+        {
+          "key": "b",
+          "text": "Síndrome de Kallman."
+        },
+        {
+          "key": "c",
+          "text": "Síndrome de Klinefelter."
+        },
+        {
+          "key": "d",
+          "text": "Panhipopituitarismo."
+        },
+        {
+          "key": "e",
+          "text": "Menino saudável, sem patologias."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O quadro de estatura elevada com envergadura maior que a altura (proporções eunucoides), testículos pequenos e firmes (3mL, inapropriadamente pequenos para a idade), ginecomastia, e perfil hormonal de hipogonadismo hipergonadotrófico (LH e FSH elevados, testosterona baixa, indicando falência gonadal primária) é característico da síndrome de Klinefelter (47,XXY).",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_087",
+      "statement": "Dois irmãos procuram o pediatra para saber o motivo de suas alturas serem muito diferentes. Amanda tem 16 anos e mede 155 cm, refere menarca aos 13,5 anos e a rma ter parado de crescer há dois anos. André, de 17 anos, também parou de crescer há dois anos e está com 178 cm. A mãe mede 160 cm e o pai 173 cm. Considerando o histórico dos irmãos, é correto afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A diferença tão grande entre as alturas finais dos irmãos não era esperada."
+        },
+        {
+          "key": "b",
+          "text": "As alturas de Amanda e André estão dentro do esperado para o perfil familiar."
+        },
+        {
+          "key": "c",
+          "text": "A altura de Amanda está abaixo da esperada para o perfil familiar."
+        },
+        {
+          "key": "d",
+          "text": "A altura de André está acima da esperada para o perfil familiar."
+        },
+        {
+          "key": "e",
+          "text": "Somente a altura de André está dentro do esperado para o perfil familiar."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Calculando as estaturas-alvo: para Amanda = (173+160-13)÷2 = 160cm (ela mede 155cm, dentro do esperado); para André = (173+160+13)÷2 = 173cm (ele mede 178cm, também dentro do esperado) — ambas as alturas estão de acordo com o perfil familiar.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_088",
+      "statement": "Você está no ambulatório e atende uma menina, 7 anos de idade, cuja mãe se queixa de que a criança tem baixa estatura. A altura da mãe é 150 cm e do pai 165 cm. Após o exame físico e análise do cartão de saúde da criança, você constata que a criança cresceu 6 cm no último ano. Assim você conclui que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A altura final esperada para essa criança é de 160 cm"
+        },
+        {
+          "key": "b",
+          "text": "Deverá ser solicitado THS e raio X para datação da idade óssea para investigação do déficit de crescimento"
+        },
+        {
+          "key": "c",
+          "text": "O estádio de Tanner esperado para essa criança é M2 P2"
+        },
+        {
+          "key": "d",
+          "text": "A criança está crescendo o esperado"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O crescimento de 6cm no último ano é uma velocidade adequada/esperada para uma menina de 7 anos em fase pré-puberal — a criança está crescendo conforme esperado, não havendo indicação de investigação adicional neste momento apenas com base nesse dado.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_089",
+      "statement": "Escolar de 7 anos é referido ao Ambulatório de Endocrinologia Pediátrica por ser o menor aluno de sua turma na escola. Tem boa saúde, é ativo e apresenta bom rendimento escolar. Seu pai mede 1.60 m e sua mãe 1.50 m. O médico mede a criança e constata 112 cm, calcula o alvo genético do paciente, solicita radiogra a para determinação da idade óssea, que resulta compatível com idade cronológica de 6 anos e 6 meses. Os exames laboratoriais solicitados vêm normais. Qual o diagnóstico mais provável desse paciente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hipotireoidismo."
+        },
+        {
+          "key": "b",
+          "text": "Baixa estatura familiar."
+        },
+        {
+          "key": "c",
+          "text": "Deficiência de hormônio do crescimento."
+        },
+        {
+          "key": "d",
+          "text": "Retardo Constitucional do Crescimento e Puberdade."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Com idade óssea compatível com a idade cronológica (sem atraso de maturação esquelética), exames laboratoriais normais e pais de estatura baixa (alvo genético baixo), o diagnóstico mais provável é baixa estatura familiar.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_090",
+      "statement": "O acompanhamento do crescimento e do desenvolvimento da criança é fundamental como medida de medicina preventiva. Considerando esse assunto e os múltiplos aspectos a ele relacionados, julgue o item que se segue. Um escore Z \"maior que\" 0 indica que o valor da medida do indivíduo é maior que a média da população de referência.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Um escore Z maior que zero de fato indica que a medida do indivíduo está acima da média da população de referência — afirmação Certa.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_091",
+      "statement": "Sabe-se que o acompanhamento do crescimento da criança, pelas curvas presentes na Caderneta de Saúde da Criança, é fundamental para a avaliação da saúde dos pacientes. Considerando uma criança de 2 anos de idade cujo comprimento está no percentil 70 (p70), pode-se interpretar corretamente que",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "70% das crianças com 2 anos têm esse comprimento."
+        },
+        {
+          "key": "b",
+          "text": "70% das crianças com 2 anos estão abaixo desse comprimento."
+        },
+        {
+          "key": "c",
+          "text": "30% das crianças com 2 anos têm esse comprimento."
+        },
+        {
+          "key": "d",
+          "text": "30% das crianças com 2 anos estão abaixo desse comprimento."
+        },
+        {
+          "key": "e",
+          "text": "essa criança tem baixa estatura."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O percentil 70 significa que 70% das crianças da mesma idade têm comprimento igual ou menor que o dessa criança (ou seja, estão abaixo desse valor) — afirmação B correta.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_092",
+      "statement": "Síndrome devido a uma anormalidade dos cromossomos sexuais, mais comum em crianças do sexo feminino. A constituição cromossômica pode ser ausência de um cromossomo X (cariótipo 45, X), mosaicismo cromossômico (cariótipo 45, X/46, XX) além de outras anomalias estruturais do cromossomo X. As anormalidades típicas incluem baixa estatura, disgenesia gonadal, pescoço alado, linha posterior de implantação dos cabelos baixa, fácies típica, tórax alargado, com aumento da distância entre os mamilos, linfedema, cúbito valgo, tireoidite autoimune, com ou sem hipotireoidismo, anormalidades renais, cardiovasculares e auditivas, além de de ciência cognitiva em algumas atividades, embora a inteligência média seja considerada como normal. Baixa estatura é o achado mais comum. Caracteristicamente há retardo leve do crescimento na fase intrauterina, redução progressiva da velocidade de crescimento durante a infância e marcada ausência de crescimento na fase puberal. Pacientes não tratadas apresentam altura média, na idade adulta, de 136 a 147 cm. Trata-se da Síndrome de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Edwards."
+        },
+        {
+          "key": "b",
+          "text": "Patau."
+        },
+        {
+          "key": "c",
+          "text": "Turner."
+        },
+        {
+          "key": "d",
+          "text": "Down."
+        },
+        {
+          "key": "e",
+          "text": "Klinefelter."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A descrição (anormalidade dos cromossomos sexuais mais comum em meninas, cariótipo 45,X ou mosaicismo 45,X/46,XX, baixa estatura como achado mais comum, disgenesia gonadal, pescoço alado, linha de implantação capilar baixa, tórax alargado, cúbito valgo, tireoidite autoimune, estatura adulta não tratada de 136-147cm) corresponde classicamente à síndrome de Turner.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_093",
+      "statement": "Pais trazem o filho de 11 anos para consulta por queixa de diminuição na velocidade de crescimento. A mãe refere que a irmã gêmea do paciente sempre foi cerca de 2 cm menor que ele durante a infância. Porém, há cerca de 1 ano, notou que o ritmo de crescimento dos dois se distanciou, e o lho está “ cando um pouco para trás”. Baseado na estatura dos pais, a estatura alvo calculada é de 175 cm (escore-Z = -0,3). A estatura da criança de 1 ano atrás era 134 cm. Ao exame: estatura = 140 cm (escore-Z = -0,5); IMC = 17,3 kg/m² (escore-Z = 0,1); Tanner = G2P2, sem alterações. De acordo com os dados apresentados, assinale a opção CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Se a idade óssea do paciente estiver com atraso, provavelmente trata-se de um caso de baixa estatura constitucional."
+        },
+        {
+          "key": "b",
+          "text": "Pelo estadiamento puberal e a velocidade de crescimento baixa, deve tratar-se de um caso de desaceleração pré-puberal."
+        },
+        {
+          "key": "c",
+          "text": "A irmã deve estar em estirão puberal, o que justificaria a diferença entre os dois, já que o paciente não tem baixa estatura nem redução da velocidade de crescimento."
+        },
+        {
+          "key": "d",
+          "text": "A irmã deve estar em estirão puberal, o que justificaria a diferença entre os dois, já que o paciente não tem baixa estatura nem redução da velocidade de crescimento."
+        },
+        {
+          "key": "e",
+          "text": "É provável que se trate de baixa estatura idiopática, já que paciente não se encaixa em baixa estatura constitucional nem em baixa estatura familiar."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Dado que o paciente não apresenta baixa estatura (escore-Z -0,5, próximo do alvo genético -0,3) nem redução real da velocidade de crescimento (ganhou 6cm no último ano, adequado), e já iniciou a puberdade (Tanner G2P2), a explicação mais provável para a irmã gêmea estar 'ultrapassando-o' é que ela própria esteja em seu estirão puberal (meninas geralmente iniciam a puberdade antes dos meninos), o que justificaria a diferença sem que o paciente tenha qualquer déficit de crescimento.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_094",
+      "statement": "Em relação à estatura da criança, todas as alternativas abaixo estão corretas, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Crianças que apresentam estatura abaixo do percentil 3 ou de -2 desvios-padrão para idade e sexo numa curva de referência apresentam baixa estatura."
+        },
+        {
+          "key": "b",
+          "text": "Crianças acima de três anos de idade, que se apresentam no percentil ou desvio- padrão abaixo do limite inferior do canal familiar apresentam distúrbio do crescimento e merecem avaliação completa e cuidadosa."
+        },
+        {
+          "key": "c",
+          "text": "Está plenamente aceito que crianças submetidas a agravos emocionais e/ou marginalizadas do ponto de vista biopsicossocial têm crescimento físico deficiente, além de reconhecido prejuízo de desenvolvimento emocional."
+        },
+        {
+          "key": "d",
+          "text": "Dentre as principais causas de baixa estatura estão as doenças endocrinológicas (doenças de tireoide, deficiência de hormônio de crescimento)."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "É a alternativa INCORRETA (exceção) a que afirma que as doenças endocrinológicas estão entre as PRINCIPAIS causas de baixa estatura — na realidade, a maioria dos casos de baixa estatura decorre de variantes normais (baixa estatura familiar e atraso constitucional do crescimento), sendo as causas endocrinológicas uma minoria dos casos, ainda que devam sempre ser consideradas na investigação.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_095",
+      "statement": "Menino, 5 anos de idade, está em consulta ambulatorial de rotina. Seus pais estão preocupados, pois notam que ele está mais baixo que os colegas da mesma idade. Sem outras queixas. Trata-se de criança nascida a termo, adequada para a idade gestacional, sem internações ou cirurgias prévias. Vacinação em dia. Frequenta a escola desde os 4 anos de idade, com boa interação com as demais crianças. Mora com pai, mãe e irmã de 8 anos de idade, em casa de 4 cômodos, com boas condições. Alimentação balanceada, tendo boa aceitação alimentar. Os pais restringem acesso a doces e outras guloseimas. Na consulta atual, tem estatura de 100 cm (abaixo do percentil 3), peso de 15 kg (entre o percentil 3 e 15). Estádio puberal: G1 P1. Exame clínico sem alterações signi cativas. A última consulta ambulatorial foi há 6 meses, quando apresentava estatura de 97 cm (abaixo do percentil 3) e peso de 14 kg (entre o percentil 3 e 15). O pai tem estatura de 185 cm e a mãe tem estatura de 172 cm. A conduta é solicitar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Radiografia de punho esquerdo para determinar idade óssea."
+        },
+        {
+          "key": "b",
+          "text": "Dosagem de hormônios tireoidianos (TSH e T4L) e glicemia de jejum."
+        },
+        {
+          "key": "c",
+          "text": "Dosagem de hormônios de crescimento (GH e IGF1) e DHEAS."
+        },
+        {
+          "key": "d",
+          "text": "Ressonância magnética de sela túrcica para avaliar a hipófise."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de baixa estatura persistente (abaixo do percentil 3, mantida ao longo de 6 meses), com proporções corporais normais, ausência de dismorfias, boas condições socioeconômicas e nutricionais, e pais de estatura alta (discrepância com o alvo genético elevado), o primeiro exame a ser solicitado na investigação inicial de baixa estatura é a radiografia de punho esquerdo para determinação da idade óssea.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_096",
+      "statement": "Carlos, estudante de medicina, já completou 30 anos. A sua estatura é exatamente a estatura alvo calculada referente a seus pais. Considerando que o pai de Carlos tem 180cm e sua mãe 165cm, assinale a alternativa que apresenta a estatura CORRETA do estudante.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "179cm"
+        },
+        {
+          "key": "b",
+          "text": "150cm"
+        },
+        {
+          "key": "c",
+          "text": "181cm"
+        },
+        {
+          "key": "d",
+          "text": "170cm"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Calculando a estatura-alvo para Carlos: (altura do pai + altura da mãe + 13) ÷ 2 = (180+165+13) ÷ 2 = 179cm.",
+      "theme": "cresce_curvas",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_097",
+      "statement": "A mãe de um menino de 9 anos procura o pediatra porque seu lho apresenta baixa estatura. Relata que vem percebendo, nos últimos 18 a 24 meses, que o menino não está mais crescendo. Neste período começou a ganhar peso e car mais desatento na escola. Sem quaisquer outras queixas. A velocidade de crescimento, nos últimos 12 meses, foi de 2 cm/ano. Ao exame físico: estatura entre os percentis 3 e 10; peso entre os percentis 50 e 75; sem sinais de puberdade. Demais dados do exame físico normais. Assinale a alternativa CORRETA em relação ao crescimento:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Crescimento anormal; provável hipotireoidismo adquirido."
+        },
+        {
+          "key": "b",
+          "text": "Crescimento normal associado à obesidade exógena."
+        },
+        {
+          "key": "c",
+          "text": "Crescimento e peso dentro dos valores normais."
+        },
+        {
+          "key": "d",
+          "text": "Crescimento anormal por deficiência de hormônio de crescimento."
+        },
+        {
+          "key": "e",
+          "text": "Crescimento normal e deficit de atenção."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O quadro de parada do crescimento nos últimos 18-24 meses, ganho de peso, desatenção escolar, velocidade de crescimento muito reduzida (2cm/ano) e ausência de sinais puberais é característico de hipotireoidismo adquirido — crescimento anormal.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "cresc_098",
+      "statement": "Sobre o crescimento e o desenvolvimento (CD) da criança, qual das afirmativas abaixo NÂO é verdadeira:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A partir da idade escolar a velocidade de crescimento é geralmente constante: 5 a 6 cm/ano até o início do estirão da adolescência, o qual nas meninas ocorre em torno dos 11 anos de idade e nos meninos, ao redor dos 13 anos."
+        },
+        {
+          "key": "b",
+          "text": "Nas crianças menores de cinco anos de idade, o fator genético é o que mais interfere no processo do crescimento."
+        },
+        {
+          "key": "c",
+          "text": "A medição do perímetro cefálico deve ser verificada, prioritariamente de 0 aos 24 meses de nascimento, visto ser o período de maior crescimento do cérebro."
+        },
+        {
+          "key": "d",
+          "text": "Considerando-se a variabilidade individual em uma população saudável, o melhor para a normalidade é um intervalo de valores situados entre o escore Z +2 e o escore Z -2 (curvas da OMS 2006/2007)."
+        },
+        {
+          "key": "e",
+          "text": "A maturação do sistema nervoso ocorre de acordo com o plano contido no potencial genético por meio de etapas previsíveis e predeterminadas, denominadas \"marcos do desenvolvimento\". Ela se dá no sentido crânio- caudal e o centro para a periferia."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A afirmativa NÃO verdadeira é a que atribui ao fator genético a maior influência sobre o crescimento em crianças menores de 5 anos — nessa faixa etária, fatores nutricionais e ambientais têm papel predominante, sendo o potencial genético mais determinante apenas a partir dos 2-3 anos de idade, quando a criança tende a se 'encanalizar' em sua curva de crescimento geneticamente determinada.",
+      "theme": "cresce_curvas",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}
