@@ -1,1 +1,2856 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "pn_001",
+      "statement": "A realização do teste oral de tolerância à glicose com 75 g de glicose é considerada um teste de triagem de diabetes gestacional em mulheres no pré-natal. Assinale a alternativa que apresenta o tempo ideal preconizado para a realização desse teste.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Entre 24 e 28 semanas de gestação."
+        },
+        {
+          "key": "b",
+          "text": "Entre 18 e 22 semanas de gestação."
+        },
+        {
+          "key": "c",
+          "text": "Logo no início da gestação."
+        },
+        {
+          "key": "d",
+          "text": "Seis meses após o parto."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O teste oral de tolerância à glicose com 75g é preconizado entre 24 e 28 semanas de gestação para triagem/diagnóstico de diabetes gestacional.",
+      "theme": "pn_exames",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_002",
+      "statement": "Sobre o diagnóstico de gravidez e gestação inicial, analise as assertivas abaixo considerando V para verdadeiro e F para falso e assinale a alternativa que apresenta a sequência correta. ( ) A detecção da hCG no sangue ou na urina maternos é a base dos testes endócrinos para o diagnóstico de gravidez. ( ) A medida ultrassonográ ca do comprimento cabeça-nádega (CCN) constitui o índice biométrico mais preciso para estimar a idade gestacional. ( ) Através do sonar, os batimentos cardíacos do concepto são audíveis a partir da 7ª semana de gestação na consulta de rotina de prénatal.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "VVF"
+        },
+        {
+          "key": "b",
+          "text": "FVF"
+        },
+        {
+          "key": "c",
+          "text": "FFF"
+        },
+        {
+          "key": "d",
+          "text": "VVV"
+        },
+        {
+          "key": "e",
+          "text": "VFV"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A detecção de hCG é de fato a base dos testes endócrinos de gravidez (V); o CCN é o índice biométrico mais preciso para datação (V); porém os batimentos cardíacos fetais na consulta de rotina (sonar Doppler abdominal) costumam ser audíveis a partir de 10-12 semanas, não da 7ª semana (F) — sequência V-V-F.",
+      "theme": "pn_habitual",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_003",
+      "statement": "A estrati cação de risco obstétrico durante a assistência pré-natal é um dos fatores determinantes para a redução da mortalidade materno-fetal. De acordo com o Manual de Gestação de Alto Risco do Ministério da Saúde, qual das opções abaixo NÃO É característica individual e/ou condição sociodemográ ca que deve ser considerada como critério de encaminhamento de gestante/puérpera à unidade de maior nível hierárquico de pré-natal:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dependência ou uso abusivo de tabaco, álcool ou outras drogas"
+        },
+        {
+          "key": "b",
+          "text": "Idade inferior a 15 anos e maior de 40 anos"
+        },
+        {
+          "key": "c",
+          "text": "Sobrepeso"
+        },
+        {
+          "key": "d",
+          "text": "Transtornos alimentares (bulimia, anorexia)"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Sobrepeso isoladamente não é, por si só, critério de encaminhamento ao pré-natal de alto risco segundo o Manual do Ministério da Saúde — obesidade (não apenas sobrepeso) é que costuma figurar como critério de risco.",
+      "theme": "pn_alto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_004",
+      "statement": "Paciente 38 anos, solteira, do lar, gravidez não planejada, comparece ao pré-natal informando gestação de 24 semanas. Está assintomática e apresenta exames realizados há 1 semana: GS AB negativo, teste de Coombs indireto negativo, glicemia de jejum 85mg/dL, hemoglobina 11,6g/dL, sorologia para toxoplasmose IgG positivo e IgM negativo, teste HIV 1 e 2 negativo, HbsAg não reator, anti Hbs positivo, VDRL não reator, urocultura positiva, acima de 100.000 unidades formadoras de E.Coli. A respeito dessa consulta, é CORRETO afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O resultado em relação à hepatite B é compatível com susceptibilidade e justifica vacinação durante a gestação."
+        },
+        {
+          "key": "b",
+          "text": "A prescrição de sulfametoxazol + trimetoprima deve ser realizada para as infecções urinárias não complicadas na gravidez, evitando risco de prematuridade."
+        },
+        {
+          "key": "c",
+          "text": "O teste de Coombs indireto indica que a paciente precisa receber imunoglobulina anti-D o mais rápido possível."
+        },
+        {
+          "key": "d",
+          "text": "A dose de sulfato ferroso para essa paciente deve ser de 30 a 60mg de ferro elementar por dia."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A dose de sulfato ferroso para suplementação de rotina na gestação corresponde a 30-60mg de ferro elementar/dia. O padrão de anti-Hbs positivo com HBsAg não reagente indica imunidade (não suscetibilidade), o Coombs indireto NEGATIVO não indica necessidade de imunoglobulina anti-D, e SMX-TMP não é a primeira escolha para ITU não complicada na gravidez.",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_005",
+      "statement": "No dia 14 de dezembro de 2022, paciente, primigesta, chegou à emergência obstétrica com queixa de sangramento discreto. Referia dia da última menstruação (DUM) em 15 de setembro de 2022 e que foi submetida a uma ultrassonogra a em 07 de novembro de 2022, a qual constatou idade gestacional pelo comprimento céfalo-nádegas de 8 semanas. Assinale a alternativa CORRETA que representa a idade gestacional mais adequada para acompanhamento da gravidez no dia da consulta da emergência.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "12s6d"
+        },
+        {
+          "key": "b",
+          "text": "12s3d"
+        },
+        {
+          "key": "c",
+          "text": "13s2d"
+        },
+        {
+          "key": "d",
+          "text": "13s6d"
+        },
+        {
+          "key": "e",
+          "text": "13s0d"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Como a discrepância entre a datação por DUM (7s4d) e a USG de 8 semanas realizada em 07/11 foi de apenas 3 dias (dentro do limite de até 5 dias para USG ≤8s6d, que não altera a data de referência), mantém-se a datação pela DUM: em 14/12, a idade gestacional corresponde a 12 semanas e 6 dias.",
+      "theme": "pn_exames",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_006",
+      "statement": "Durante a assistência pré-natal de baixo risco de gestante com 20 semanas, o resultado do AgHBs (antígeno de superfície do vírus da hepatite B) foi não reagente e em sua carteira de vacinação não há registro de vacina contra hepatite B. A conduta em relação a essa imunização é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "iniciar esquema de vacinação."
+        },
+        {
+          "key": "b",
+          "text": "orientar vacinação no terceiro trimestre."
+        },
+        {
+          "key": "c",
+          "text": "orientar vacinação no puerpério."
+        },
+        {
+          "key": "d",
+          "text": "contra-indicar vacinação na gestação."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de AgHBs não reagente e ausência de vacinação prévia, deve-se iniciar o esquema de vacinação contra hepatite B imediatamente, já que a vacina é seEgura e recomendada durante a gestação.",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_007",
+      "statement": "Que fármaco, dentre os abaixo, pode ser utilizado durante a gestação em pacientes com epilepsia?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Lamotrigina"
+        },
+        {
+          "key": "b",
+          "text": "Hidantoína"
+        },
+        {
+          "key": "c",
+          "text": "Fenobarbital"
+        },
+        {
+          "key": "d",
+          "text": "Ácido valproico"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A lamotrigina é considerada uma opção mais segura entre os anticonvulsivantes para uso durante a gestação, em comparação com hidantoína, fenobarbital e, principalmente, ácido valproico (alto risco teratogênico, incluindo defeitos do tubo neural).",
+      "theme": "pn_alto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_008",
+      "statement": "Assinale a assertiva correta sobre assistência pré-natal.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "No exame físico da gestante, a ausculta dos batimentos cardiofetais pode ser feita a partir da 6a semana de gestação com sonar Doppler."
+        },
+        {
+          "key": "b",
+          "text": "No 3º trimestre de gestação, o decúbito dorsal materno pode levar ao efeito Poseiro, que se caracteriza por bradicardia materna e taquicardia fetal."
+        },
+        {
+          "key": "c",
+          "text": "Toda gestante deve receber pelo menos 1 dose da vacina dTpa, mesmo que tenha recebido dTpa na gestação anterior e dT na gestação atual."
+        },
+        {
+          "key": "d",
+          "text": "A presença de anticorpos IgG para toxoplasmose com baixa avidez no 1o trimestre de gestação indica infecção antiga e exclui infecção aguda nos últimos 3 meses."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Toda gestante deve receber pelo menos uma dose de dTpa a cada gestação, independentemente de doses recebidas em gestações anteriores, para garantir transferência de anticorpos protetores contra coqueluche ao recém-nascido. A ausculta com sonar Doppler é possível a partir de 10-12 semanas (não 6ª); o efeito Poseiro causa bradicardia MATERNA e fetal (não taquicardia fetal); e baixa avidez de IgG para toxoplasmose sugere infecção RECENTE (não antiga).",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_009",
+      "statement": "A regra de Nägele pode ser utilizada para o cálculo da data provável do parto. Considerando que uma gestante informou ter sido 01 de junho de 2022 a data da última menstruação, a data provável do parto será",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "26 de fevereiro de 2023."
+        },
+        {
+          "key": "b",
+          "text": "01 de março de 2023."
+        },
+        {
+          "key": "c",
+          "text": "04 de março de 2023."
+        },
+        {
+          "key": "d",
+          "text": "08 de março de 2023."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Pela regra de Nägele: DUM (01/06/2022) + 7 dias = 08/06/2022; subtraindo 3 meses (ou somando 9 meses) = 08/03/2023.",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_010",
+      "statement": "O diagnóstico correto de gestação baseia-se na avaliação clínica de sinais e sintomas que fornecem dados iniciais a respeito do grau de probabilidade de tratar-se realmente de uma gravidez; esses sinais e sintomas podem ser classi cados como sintomas e sinais de presunção, sinais de probabilidade e sinais de certeza. Estão entre os sinais de probabilidade de gestação, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Atraso menstrual de 10-14 dias ou amenorreia secundária."
+        },
+        {
+          "key": "b",
+          "text": "Alterações em formato e em consistência do útero."
+        },
+        {
+          "key": "c",
+          "text": "Consistência cervical amolecida."
+        },
+        {
+          "key": "d",
+          "text": "Aumento do volume abdominal."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O atraso menstrual/amenorreia é classificado como sinal de PRESUNÇÃO de gravidez, não sinal de probabilidade — sendo esta a exceção entre as opções listadas (que descrevem corretamente sinais de probabilidade relacionados às alterações uterinas).",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_011",
+      "statement": "De acordo com a OMS e com o manual técnico para o acompanhamento do pré-natal do Ministério da Saúde, analisar os itens abaixo: I. A primeira consulta de pré-natal deve ocorrer o mais cedo possível, preferivelmente antes da 16ª semana de gestação. II. Recomenda-se um mínimo de 6 consultas pré-natais: uma no 1º trimestre, duas no 2º e três no 3º. III. O acompanhamento pode ser feito com consulta médica e/ou de enfermagem. Estão CORRETOS:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Somente os itens I e II."
+        },
+        {
+          "key": "b",
+          "text": "Somente os itens II e III."
+        },
+        {
+          "key": "c",
+          "text": "Somente os itens I e III."
+        },
+        {
+          "key": "d",
+          "text": "Todos os itens."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Todos os três itens estão corretos: a primeira consulta deve ocorrer preferencialmente antes da 16ª semana (I); recomenda-se mínimo de 6 consultas distribuídas 1-2-3 pelos trimestres (II); o acompanhamento pode ser feito por médico e/ou enfermeiro (III).",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_012",
+      "statement": "É contraindicação absoluta à prática de exercícios físicos na gestante com:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Anemia com Hb <10g/dL."
+        },
+        {
+          "key": "b",
+          "text": "DM 1 descompensado (glicemia capilar >200mg/dL ou <65mg/dL)."
+        },
+        {
+          "key": "c",
+          "text": "Gestação gemelar >28 semanas."
+        },
+        {
+          "key": "d",
+          "text": "Parto pré-termo prévio."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O diabetes tipo 1 descompensado (glicemia muito alta ou muito baixa) é contraindicação absoluta à prática de exercícios físicos na gestação, diferente das contraindicações relativas listadas nas demais opções (anemia leve, gemelaridade após 28 semanas, parto pré-termo prévio).",
+      "theme": "pn_alto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_014",
+      "statement": "Gestante 7 semanas vai à primeira consulta de pré-natal. É hígida e refere ser doadora de sangue frequente. A última doação foi há 2 meses, sem intercorrências. Os exames de sorologia que devem ser solicitados são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hepatite B, hepatite C e HIV."
+        },
+        {
+          "key": "b",
+          "text": "Não precisa solicitar sorologias pois é doadora frequente."
+        },
+        {
+          "key": "c",
+          "text": "Hepatite A, hepatite B e herpes."
+        },
+        {
+          "key": "d",
+          "text": "Hepatite A, hepatite C e Covid-19."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Mesmo sendo doadora frequente de sangue, a gestante deve realizar o painel sorológico padrão do pré-natal, que inclui hepatite B, hepatite C e HIV — a triagem do banco de sangue não substitui o rastreio pré-natal específico.",
+      "theme": "pn_exames",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_015",
+      "statement": "Cálculo da idade gestacional pela ultrassonograf ia IG USG Obstetrícia M.S.S.S., 37 anos, G4P3A0, 3 partos vaginais prévios à termo, idade gestacional de 37 semanas (calculada por ultrassom de 10 semanas), altura de fundo uterino de 31 cm, feto em apresentação cefálica. USG Obstétrica revela peso fetal no percentil 3 para a idade gestacional, e maior bolsão de líquido amniótico 21mm. Doppler das artérias uterinas, cerebral média e umbilical normal. Indique o diagnóstico e conduta corretos.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Trata-se de um feto pequeno para a idade gestacional. Permite-se aguardar a resolução da gestação com até 40 semanas e não está contraindicado o parto vaginal."
+        },
+        {
+          "key": "b",
+          "text": "Trata-se de um feto com restrição de crescimento intrauterino estágio 1. Permite-se aguardar a resolução da gestação com até 38 semanas, realizando Doppler semanalmente e não está contraindicado o parto vaginal."
+        },
+        {
+          "key": "c",
+          "text": "Trata-se de um feto com restrição de crescimento intrauterino estágio 2. Deve-se indicar a resolução da gestação de forma imediata e não está contraindicado o parto vaginal."
+        },
+        {
+          "key": "d",
+          "text": "Trata-se de um feto com restrição de crescimento intrauterino estágio 3. Deve-se indicar a resolução da gestação de forma imediata por meio de uma cesárea."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Feto com peso <p3 mas com Doppler (uterinas, cerebral média, umbilical) e líquido amniótico normais caracteriza feto pequeno para a idade gestacional (PIG), não restrição de crescimento verdadeira (que exigiria alterações Doppler) — pode-se aguardar a resolução da gestação até 40 semanas, sem contraindicação ao parto vaginal.",
+      "theme": "pn_alto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_016",
+      "statement": "Pesquisa Streptococcus do grupo B Strepto B EGB swab para pequisa Strepto B Em relação ao estreptococos do grupo B (EGB), é correto afirmar que",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "quando o resultado vem positivo, o pre-natalista deve prescrever penicilina cristalina ou ampicilina."
+        },
+        {
+          "key": "b",
+          "text": "parturientes que não fizeram pesquisa de EGB devem fazer profilaxia da infecção neonatal."
+        },
+        {
+          "key": "c",
+          "text": "a pesquisa do EGB deve ser solicitada no terceiro trimestre junto com a repetição das sorologias suscetíveis."
+        },
+        {
+          "key": "d",
+          "text": "os casos de EGB negativos no pré-natal com 35 semanas, se apresentarem rotura de membranas com mais de 18 horas, devem fazer profilaxia."
+        },
+        {
+          "key": "e",
+          "text": "além das parturientes que têm pesquisa de EGB positivo, as que apresentam trabalho de parto prematuro, ou que apresentam febre no trabalho de parto e não fizeram pesquisa, devem fazer profilaxia."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Além das parturientes com pesquisa de EGB positiva, devem receber profilaxia intraparto aquelas com trabalho de parto prematuro ou febre intraparto e sem pesquisa de EGB realizada — situações de status desconhecido com fatores de risco associados.",
+      "theme": "pn_alto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_017",
+      "statement": "Sobre assistência pré-natal, assinale a alternativa CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Não há contraindicação para a realização das vacinas contra febre amarela, raiva humana, poliomielite, meningococo, pneumococo, SARS-CoV-2, gripe A e hepatite B durante a gravidez."
+        },
+        {
+          "key": "b",
+          "text": "Segundo o protocolo do Ministério da Saúde, a testagem para sífilis está preconizada na gestação na 1ª consulta de pré-natal, idealmente no 1º trimestre e no início do 3º trimestre, não sendo necessária no momento do parto, caso já tenha sido realizada anteriormente."
+        },
+        {
+          "key": "c",
+          "text": "Devido ao aumento no número de casos de sífilis congênita no país, nos últimos dez anos, o tratamento de escolha para a sífilis primária, conforme recomendação do Ministério da Saúde, deve ser realizado com penicilina G Benzatina 7.200.000 UI intramuscular em três semanas consecutivas (2,4 milhões UI/semana)."
+        },
+        {
+          "key": "d",
+          "text": "No caso de pacientes de riscos para pré-eclâmpsia identificadas, deve ser iniciado ácido acetil salicílico (AAS) 100 mg/dia e cálcio 500 mg/dia o mais precoce possível."
+        },
+        {
+          "key": "e",
+          "text": "O teste de tolerância oral à glicose (TTOG) com 75g é realizado entre 24 e 28 semanas de gravidez, com valores de referência > 92mg/dL no jejum, > 180 mg/dL com 1 hora e > 152 mg/dL com 2 horas."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Segundo o protocolo, não há contraindicação para as vacinas inativadas/atenuadas de baixo risco listadas durante a gestação. A testagem para sífilis deve ocorrer também no momento do parto (não dispensável); o tratamento da sífilis primária é dose ÚNICA de penicilina benzatina (não 3 semanas); o cálcio para prevenção de pré-eclâmpsia é geralmente 1-2g/dia (não 500mg); e os valores do TOTG estão aproximadamente corretos, mas essa não é a opção correta segundo o gabarito desta fonte.",
+      "theme": "pn_habitual",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_018",
+      "statement": "No acompanhamento da assistência pré-natal, vários elementos são importantes. Assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O útero deve ter seu crescimento mês a mês, e sua medida em centímetros deve corresponder à idade gestacional em semanas, de forma que com 6 semanas deve medir 6 cm acima da sínfise púbica, 10 semanas – 10 cm; 18 semanas – 18 cm; 25 semanas – 25 cm; 35 semanas – 35 cm; 40 semanas – 40 cm."
+        },
+        {
+          "key": "b",
+          "text": "O foco corresponde ao local de maior audibilidade dos batimentos cardíacos fetais, assim, num feto em OEA, o foco deverá estar do lado direito, onde está o dorso."
+        },
+        {
+          "key": "c",
+          "text": "A ausculta dos batimentos cardíacos fetais no consultório com sonar doppler é possível a partir de 6,2 semanas."
+        },
+        {
+          "key": "d",
+          "text": "A percepção dos movimentos fetais é um sinal de vitalidade fetal e é perceptível pelas gestantes a partir de 10 semanas."
+        },
+        {
+          "key": "e",
+          "text": "A frequência cardíaca fetal que auscultamos no pré-natal tem uma variação de 110 a 160 batimentos por minuto, podendo, em caso de muita movimentação fetal, ultrapassar esse limite."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A frequência cardíaca fetal normal varia de 110 a 160 bpm, podendo ultrapassar transitoriamente esse limite durante movimentação fetal intensa. A altura uterina não corresponde exatamente à IG em semanas em todas as idades gestacionais; o foco de ausculta em OEA (dorso à esquerda) deveria estar à ESQUERDA, não à direita; o sonar Doppler detecta BCF a partir de 10-12 semanas, não 6,2 semanas; e a percepção dos movimentos fetais geralmente ocorre entre 16-20 semanas, não a partir de 10 semanas.",
+      "theme": "pn_habitual",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_019",
+      "statement": "Uma mulher de 23 anos refere que o primeiro dia de sua última menstruação normal foi dia 25/11/2021. Seus ciclos menstruais eram normais com duração de 3 dias e intervalo de 28 dias. Não fazia uso de métodos contraceptivos. Fez exame de sangue que confirmou gestação. Hoje, sendo dia 10/01/2022, é correto afirmar que",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a DPP é dia 02/08/2022."
+        },
+        {
+          "key": "b",
+          "text": "está com atraso menstrual de 17 dias, e não é possível ainda visibilizar o embrião pela ultrassonografia transvaginal."
+        },
+        {
+          "key": "c",
+          "text": "a idade gestacional é de 6 4/7 semanas, e já se pode visualizar e ouvir os batimentos cardíacos fetais pela ultrassonografia com doppler transvaginal."
+        },
+        {
+          "key": "d",
+          "text": "o teste de gravidez só poderia ser positivo após 25/12/2021, quando teria 1 mês da última menstruação, portanto, deve ter engravidado antes."
+        },
+        {
+          "key": "e",
+          "text": "o teste de gravidez só poderia ser positivo após 10/01/2022, quando teria 15 dias do atraso."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "DUM 25/11/2021 até 10/01/2022 totalizam 46 dias = 6 semanas e 4 dias (6 4/7). Nessa idade gestacional, já é possível visualizar o embrião e auscultar os batimentos cardíacos fetais por ultrassonografia transvaginal com Doppler.",
+      "theme": "pn_exames",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_020",
+      "statement": "L.M.S., 12 anos, reside com os pais, cursa o sétimo ano no colégio, nega patologias, e vem ao consultório acompanhada de uma amiga de 18 anos. Refere que teve um namorado de 20 anos, por alguns meses, o qual conheceu por aplicativo, com que m iniciou vida sexual ativa. Mas acabou o relacionamento. Traz BHCG positivo e ultrassonogra a demonstrando gestação de 19 semanas. Está bem abalada, pois refere que a gestação é indesejada. Solicita orientação. Entre as recomendações a respeito desse caso, qual a conduta imediata?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar presença da mãe ou responsável legal, no processo de avaliação."
+        },
+        {
+          "key": "b",
+          "text": "Encaminhar ao pré-natal e solicitar exames laboratoriais de rastreio."
+        },
+        {
+          "key": "c",
+          "text": "Orientar sobre à insegurança do procedimento de interrupção nesse estágio."
+        },
+        {
+          "key": "d",
+          "text": "Abordagem antecipatória para decisão compartilhada com o parceiro."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de adolescente de 12 anos grávida (configurando situação de violência sexual presumida, dada a idade abaixo do limite legal de consentimento), a conduta imediata é solicitar a presença da mãe ou responsável legal no processo de avaliação, dada a menoridade e a necessidade de proteção e encaminhamento adequados.",
+      "theme": "pn_alto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_021",
+      "statement": "Faz parte da propedêutica da rotina pré-natal de risco habitual, exceto:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Teste rápido para sífilis ou VDRL."
+        },
+        {
+          "key": "b",
+          "text": "Eletroforese de proteínas."
+        },
+        {
+          "key": "c",
+          "text": "Teste de tolerância a glicose."
+        },
+        {
+          "key": "d",
+          "text": "Eletroforese de hemoglobinas."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A eletroforese de proteínas não faz parte da propedêutica de rotina do pré-natal de risco habitual — diferente da eletroforese de hemoglobina (rastreio de hemoglobinopatias), teste para sífilis e teste de tolerância à glicose, que são exames de rotina padronizados.",
+      "theme": "pn_exames",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_022",
+      "statement": "Sobre o pré-natal na Atenção Básica, analise as afirmativas abaixo. I. Diante de um teste rápido positivo para sí lis, na gestação é necessário solicitar o VDRL para con rmação diagnóstica antes de iniciar o tratamento com penicilina. II. A suplementação periconcepcional de ácido fólico em mulheres que planejam engravidar deve ser iniciada, pelo menos, 30 dias antes da provável concepção, de forma a prevenir malformações do tubo neural. III. A indução do parto nas pacientes com gestações de 41 semanas e preferível a avaliação seriada do bem-estar fetal, sendo associada a menor taxa de morbimortalidade perinatal. Assinale a alternativa em que todas as afirmativa(s) são VERDADEIRAS:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I e II"
+        },
+        {
+          "key": "b",
+          "text": "I e III"
+        },
+        {
+          "key": "c",
+          "text": "II e III"
+        },
+        {
+          "key": "d",
+          "text": "I; II e II"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A suplementação periconcepcional de ácido fólico deve iniciar pelo menos 30 dias antes da concepção para prevenir defeitos do tubo neural (II correta); a indução do parto com 41 semanas é preferível à vigilância seriada, associando-se a menor morbimortalidade perinatal (III correta). O item I está incorreto, pois diante de teste rápido positivo para sífilis, o tratamento com penicilina deve ser iniciado imediatamente, sem aguardar confirmação por VDRL.",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_023",
+      "statement": "Mulher, 22a, G2P1FV0, vem para primeira consulta de pré-natal em Unidade Básica de Saúde, assintomática. Idade gestacional pela amenorreia: 6 semanas. Antecedente Pessoal: óbito fetal com 32 semanas sem causa conhecida, nega patologias crônicas e nega uso de substâncias psicoativas. Questiona sobre riscos desta gestação e se deverá fazer algo diferente. EM RELAÇÃO ÀS DÚVIDAS DA PACIENTE, ASSINALE A RESPOSTA CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Risco habitual; seguir pré-natal de rotina em UBS."
+        },
+        {
+          "key": "b",
+          "text": "Alto risco; usar anticoagulaçâo profilática."
+        },
+        {
+          "key": "c",
+          "text": "Alto risco; investigar trombofilias."
+        },
+        {
+          "key": "d",
+          "text": "Risco habitual; ultrassonografia quinzenal no terceiro trimestre."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Antecedente de óbito fetal sem causa conhecida com 32 semanas é critério de alto risco gestacional, justificando investigação de trombofilias como parte da propedêutica dessa gestação.",
+      "theme": "pn_alto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_024",
+      "statement": "Mulher, 19a, G1P0, idade gestacional de 39 semanas e 6 dias, comparece ao pronto atendimento com queixa de perda de líquido via vaginal há 12 horas e contrações a cada 5 minutos (há 6 horas). Refere boa movimentação fetal. Não realizou pré- natal. Exame físico; FC= 88 bpm, PA = 109 x 75 mmHg, T= 36,2°C. Exame obstétrico: altura uterina =35 cm, BCF=150 bpm, dinâmica uterina= 3 contrações moderadas de 40 segundos em 10 minutos. Exame especular: saída de moderada quantidade de líquido claro com grumos grossos pelo orifício externo do colo. Toque vaginal: colo dilatado 5 cm, medianizado, 80% esvaecido, feto cefálico, plano - 2 de DeLee. EM RELAÇÃO AO ESTREPTOCOCO DO GRUPO B, A CONDUTA É:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Coletar cultura e, se positiva, iniciar profilaxia."
+        },
+        {
+          "key": "b",
+          "text": "Iniciar imediatamente profilaxia."
+        },
+        {
+          "key": "c",
+          "text": "Iniciar profilaxia em 6 horas."
+        },
+        {
+          "key": "d",
+          "text": "Não tem indicação de profilaxia."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de trabalho de parto ativo (dilatação 5cm) com rotura de membranas há 12 horas e status de EGB desconhecido (sem pesquisa realizada, sem tempo para cultura em tempo hábil durante o trabalho de parto ativo), a conduta é iniciar a profilaxia antibiótica imediatamente.",
+      "theme": "pn_alto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_025",
+      "statement": "O exame físico obstétrico consiste em inspeção, palpação, ausculta e, se necessário, toque. Quanto à palpação, devemos frisar a avaliação do útero e do seu conteúdo, visando ao reconhecimento do feto nele contido, sua apresentação e posição. Para sistematizar a técnica de palpação, são consideradas diversas fases (manobras de Leopold-Zweifel). Sobre essas fases, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "No primeiro tempo, delimita-se o fundo uterino, diagnosticando a situação fetal. Na maioria dos casos, sentimos no fundo uterino o polo pélvico, sendo mais volumoso, irregular, resistente, mas redutível. Se encontrado o polo cefálico, este será de superfície mais regular, resistente e irredutível. O feto pode estar em situação posterior, anterior, à esquerda e à direita."
+        },
+        {
+          "key": "b",
+          "text": "No segundo tempo, objetiva-se determinar a posição fetal, podendo ser longitudinal (vertical), transversal ou córmica, ou oblíqua, em relação ao eixo materno. As mãos são deslizadas para a lateral, em direção ao polo inferior do órgão, tentando sentir o dorso fetal e as pequenas partes ou membros, de um lado ou outro lado do útero."
+        },
+        {
+          "key": "c",
+          "text": "O terceiro tempo é conhecido, mais particularmente, por manobra de Leopold ou Pawlick. Tem como objetivo avaliar a mobilidade do polo fetal inferior em relação ao estreito superior da pelve materna, determinando, assim, a apresentação fetal. Quando o polo fetal estiver mais insinuado, mais móvel estará, havendo demonstração da dilatação cervical. A apresentação pode ser pélvica, cefálica e córmica."
+        },
+        {
+          "key": "d",
+          "text": "No quarto tempo, objetiva-se a determinação da insinuação fetal. É a única manobra feita com as costas do examinador voltada para os pés das pacientes, colocando-se as mãos sobre as fossas ilíacas, em direção ao hipogástrio, com movimento de escavação."
+        },
+        {
+          "key": "e",
+          "text": "Durante a palpação, foi vista posição fetal à esquerda. Assim, fica perceptível que o dorso está à esquerda e os membros fetais orientados à direita em relação ao eixo materno."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Se o dorso fetal está à esquerda (posição fetal à esquerda), os membros/pequenas partes fetais estarão, correspondentemente, orientados para o lado direito do abdome materno — relação anatômica lógica entre dorso e membros nas manobras de palpação obstétrica.",
+      "theme": "pn_habitual",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_026",
+      "statement": "Segundo orientações do Ministério da Saúde, para o pré-natal nas unidades básicas, uma gestante de 13 semanas que se apresenta para início do pré-natal com peso de 60 kg e 1,60 m de altura, deverá ganhar, semanalmente, no 2º e 3º, trimestres cerca de",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "200 gramas."
+        },
+        {
+          "key": "b",
+          "text": "300 gramas."
+        },
+        {
+          "key": "c",
+          "text": "400 gramas."
+        },
+        {
+          "key": "d",
+          "text": "500 gramas."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Segundo as orientações do Ministério da Saúde, o ganho de peso semanal recomendado no 2º/3º trimestre para gestante com IMC normal é de aproximadamente 400 gramas/semana.",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_027",
+      "statement": "Gestante, 39 anos de idade, 2G 1P normal anterior (nativivo de termo, 3950 gr), veio para consulta pré-natal de rotina. Os dados de seguimento estão a seguir. DUM: 03/01/2021 Peso inicial: 70 kg Est: 1,61 m IMC inicial: 27 kg/m² Exames: 08/03/2021 Hb = 10,1, Ht = 31, Leucograma = 10200, Plaquetas: 221100, Glicemia de jejum: 94 mg/dL, Sorologias: VDRL não reagente/ Teste rápido não reagente, HIV: não reagente, HBsAg: não reagente, Hepatite C: não reagente, Toxoplasmose: IgG reagente; IgM não reagente, Rubéola: IgG reagente; IgM não reagente. A alternativa que descreve os exames que devem ser solicitados na consulta de 20 de julho é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "teste oral de tolerância à glicose, sorologias para HIV e sífilis."
+        },
+        {
+          "key": "b",
+          "text": "hemograma, sorologias para HIV e sífilis."
+        },
+        {
+          "key": "c",
+          "text": "teste oral de tolerância à glicose, hemograma, sorologias para HIV, sífilis e toxoplasmose."
+        },
+        {
+          "key": "d",
+          "text": "hemograma, sorologias para HIV e sífilis, pesquisa de estreptococo."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Considerando a idade gestacional em torno de 28 semanas na consulta de 20 de julho (a partir da DUM de 03/01/2021), os exames de rotina do 3º trimestre incluem o teste oral de tolerância à glicose (janela 24-28 semanas), repetição do hemograma e das sorologias para HIV, sífilis e toxoplasmose.",
+      "theme": "pn_exames",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_028",
+      "statement": "Formas de reposição de potássio Mulher de 31 anos de idade, secundigesta, nulípara, chega ao pronto atendimento referindo náuseas e vômitos intensos (3 a 4 episódios por dia). Refere data da última menstruação em 23/09/2021. Portadora de distúrbio de ansiedade em uso de Sertralina 100 mg por dia, chegou bastante agitada. Ao exame clínico, paciente em regular estado geral, desidratada 2+/ 4+, PA 90x62 mmHg, FC 124 bpm, rítmico, Saturação 98%. Exame ginecológico mostrou conteúdo vaginal siológico, colo impérvio e útero compatível com a idade gestacional. Foram colhidos os seguintes exames: Hb 11,4 g/dl; Ht 34,2%, Leucócitos 10,66mil/mm³; Plaquetas 268 mil/mm³; TSH 0,02 UI/ml, T4 total 8,2 mcg/dl; TGO 19U/L; TGP 28U/L; Cr 0,51 mg/dl; U 15 mg/dl; Na 136 mEq/L; K 3,0 mEq/L; PCR 0,06 mg/L; gasometria venosa (pH 7,47; pO₂ 80,1 mmHg; pCO₂ 29,2 mmHg; HCO₃ 29,1 mmol/L; BE +10). Eletrocardiograma: Além da prescrição de antiemético e hidratação, qual é a prescrição mais adequada no pronto atendimento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Reposição de bicarbonato endovenosa."
+        },
+        {
+          "key": "b",
+          "text": "Ofertar oxigênio em máscara aberta."
+        },
+        {
+          "key": "c",
+          "text": "Reposição de potássio endovenosa."
+        },
+        {
+          "key": "d",
+          "text": "Administrar diurético endovenoso."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Quadro de hiperêmese com hipopotassemia (K=3,0) e alcalose metabólica (pH 7,47, HCO3 elevado, BE +10) decorrentes de vômitos intensos — a conduta correta é a reposição de potássio por via endovenosa, corrigindo o distúrbio eletrolítico associado.",
+      "theme": "pn_alto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_029",
+      "statement": "Paciente 32 anos, primigesta, realizou sorologia para rubéola no primeiro trimestre, com resultados: IgG negativo e IgM negativo. Indique a conduta adequada nesse caso.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Vacinação imediatamente, pois o risco de transmissão fetal é inexistente."
+        },
+        {
+          "key": "b",
+          "text": "Seguimento com sorologia mensal até o parto."
+        },
+        {
+          "key": "c",
+          "text": "Vacinação após a 20ª semana de gestação."
+        },
+        {
+          "key": "d",
+          "text": "Vacinação no puerpério."
+        },
+        {
+          "key": "e",
+          "text": "Vacinação após a interrupção do aleitamento materno, pelo risco de transmissão de rubéola ao lactente."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Rubéola IgG e IgM negativos indicam suscetibilidade (não imune) — como a vacina é de vírus vivo atenuado e contraindicada na gestação, a conduta correta é vacinar no puerpério, após o parto.",
+      "theme": "pn_habitual",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_030",
+      "statement": "Com relação a hiperêmese gravídica, sabe-se até o momento que sua etiologia é ainda incerta. A hipótese de que fatores endócrinos poderiam causá-la, frequentemente é citada. Baseado nesta teoria assinale a alternativa que contempla os fatores relacionados com esta situação. I - Elevação dos níveis de gonadotrofina coriônica humana. II - Alterações dos níveis de progesterona. III - Produção insuficiente do hormônio adrenocorticotrófico (ACTH).",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "As afirmativas I e II são verdadeiras. A afirmativa III é falsa."
+        },
+        {
+          "key": "b",
+          "text": "As afirmativas I e III são verdadeiras. A afirmativa II é falsa."
+        },
+        {
+          "key": "c",
+          "text": "As afirmativas II e III são verdadeiras. A afirmativa I é falsa."
+        },
+        {
+          "key": "d",
+          "text": "As afirmativas I, II e III são verdadeiras."
+        },
+        {
+          "key": "e",
+          "text": "As afirmativas I, II e III são falsas."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Segundo a teoria endócrina da hiperêmese gravídica citada nesta fonte, a elevação dos níveis de hCG (I) e alterações na produção de ACTH (III) estão relacionadas ao quadro, enquanto as alterações isoladas de progesterona (II) não são consideradas centrais nessa teoria específica.",
+      "theme": "pn_alto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_031",
+      "statement": "Mulheres vacinadas com vírus vivos ou vivos atenuados devem ser aconselhadas a evitar a gravidez por pelo menos:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "seis meses"
+        },
+        {
+          "key": "b",
+          "text": "três meses"
+        },
+        {
+          "key": "c",
+          "text": "um mês"
+        },
+        {
+          "key": "d",
+          "text": "doze meses"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Mulheres vacinadas com vírus vivos ou vivos atenuados devem ser aconselhadas a evitar a gravidez por pelo menos 1 mês após a vacinação.",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_032",
+      "statement": "Na hiperêmese gravídica torna-se mandatória a hospitalização e o antiemético melhor indicado é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "ondansetrona"
+        },
+        {
+          "key": "b",
+          "text": "metoclopramida"
+        },
+        {
+          "key": "c",
+          "text": "prometazina"
+        },
+        {
+          "key": "d",
+          "text": "doxilamina"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na hiperêmese gravídica que requer hospitalização, o antiemético mais indicado é a ondansetrona.",
+      "theme": "pn_alto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_033",
+      "statement": "Qual das vacinas abaixo deve ser evitada durante a gestação, segundo os protocolos do Ministério da Saúde?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Difteria."
+        },
+        {
+          "key": "b",
+          "text": "Sarampo."
+        },
+        {
+          "key": "c",
+          "text": "Coqueluche."
+        },
+        {
+          "key": "d",
+          "text": "Tétano."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A vacina contra sarampo (componente da tríplice viral, vírus vivo atenuado) deve ser evitada durante a gestação — diferente das vacinas inativadas/toxoides contra difteria, coqueluche e tétano, seguras na gravidez.",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_034",
+      "statement": "Gestante é atendida na UBS em 10/11/2021 para iniciar acompanhamento pré-natal. Relata não saber a data da última menstruação, mas apresenta ultrassonogra a de 06/09/2021, que mostra embrião único, tópico com CCN = 13mm, BCF = 162bpm, idade gestacional de 7 semanas e 4 dias. A idade gestacional no momento do atendimento prestado na UBS é de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "17 semanas e 1 dia"
+        },
+        {
+          "key": "b",
+          "text": "17 semanas e 5 dias"
+        },
+        {
+          "key": "c",
+          "text": "16 semanas e 4 dias"
+        },
+        {
+          "key": "d",
+          "text": "16 semanas e 6 dias"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A USG de 06/09/2021 indicava 7 semanas e 4 dias. Somando os 65 dias decorridos até 10/11/2021 (9 semanas e 2 dias), obtém-se uma idade gestacional de 16 semanas e 6 dias na data do atendimento.",
+      "theme": "pn_exames",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_035",
+      "statement": "A infecção por Streptococcus do grupo B (EGB) é hoje a principal causa de sepse neonatal precoce. Em pacientes com cultura desconhecida, a profilaxia antimicrobiana é indicada em caso de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "gestação anterior com rastreio positivo para EGB"
+        },
+        {
+          "key": "b",
+          "text": "bacteriúria assintomática positiva para EGB"
+        },
+        {
+          "key": "c",
+          "text": "idade gestacional menor que 40 semanas"
+        },
+        {
+          "key": "d",
+          "text": "amniorrexe há mais de 12 horas"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A bacteriúria assintomática positiva para EGB é indicação estabelecida de profilaxia intraparto, independentemente do resultado da cultura vaginorretal de triagem — qualquer titulação de EGB na urina durante a gestação atual justifica profilaxia.",
+      "theme": "pn_alto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_036",
+      "statement": "Considere o caso clínico abaixo e os personagens nele ilustrados, para responder. Após ser aprovado e ingressar no Programa de Residência Médica em Medicina de Família e Comunidade, você é direcionado para uma Unidade de Atenção Primária à Saúde (UAPS) para ser recebido pelo médico preceptor da Unidade. Em sua primeira participação de reunião de equipe, uma das agentes comunitárias de saúde (ACS) da equipe do médico preceptor traz o relato de uma gestante de sua microárea que não procurou a Unidade de Saúde para começar o pré-natal. A gestante era Vanessa e ela era antiga conhecida da equipe, porque seu nado pai, Seu Odair, fora uma liderança comunitária e era muito querido por todos. Vanessa tinha a primeira consulta de pré-natal agendada para o primeiro horário depois da reunião de equipe. Dr. Marcos Júlio, seu preceptor, relata que Vanessa nunca teve boa relação com os pais e saiu de casa cedo, passando a morar, aos 14 anos, na casa de Ubiratan, seu primeiro parceiro. Após alguns anos morando juntos, Vanessa engravidou e chegou a ser acompanhada pela UAPS no pré-natal, mas teve perda gravídica com aproximadamente 12 semanas de seguimento. Durante esse acompanhamento pré-natal, a equipe cou ciente de que Vanessa vivia em contexto de violência doméstica, mas continuava vivendo com Ubiratan, porque não aceitava voltar para a casa dos pais. Por volta de seus 24 anos, Vanessa teve episódio de hemiplegia desproporcional em dimídio esquerdo, desvio de rima labial e disartria, enquanto trabalhava em uma casa como diarista. Foi levada à urgência e hospitalizada. Durante hospitalização, con rmou-se um infarto cerebral. A família de Vanessa possui histórico de AVCs em idades precoces: Vanusa apresentou episódio de AVC durante uma de suas gestações e dona Benzarina teria apresentado o primeiro AVC antes da menopausa. Segundo a Assistente Social do hospital em que Vanessa cou internada por quase dois meses, Ubiratan nunca teria realizado uma visita, mas Edberto, um ex-namorado, foi companhia assídua. Após a alta hospitalar, Vanessa descobriu que Ubiratan estava vivendo com outra mulher e se mudou para casa de Edberto, que a acolheu, a despeito da não-aceitação do pai de Edberto, Seu Eduardo. Depois de seis anos morando juntos, Vanessa engravidou novamente, mas não procurou a UAPS. A ACS fazia visitas domiciliares na mesma rua em que Edberto e Vanessa moram, quando viu Vanessa, já com barriga gravídica, varrendo a calçada. Após breve conversa, a ACS agenda atendimento para Vanessa na UAPS. A revisão do prontuário de atendimentos prévios da Vanessa mostra que exames de pesquisa de anticoagulante lúpico e anticorpo anticardiolipina foram solicitados duas vezes, em intervalo maior que 12 semanas, com resultados persistentemente elevados. A partir das informações coletadas, assinale a alternativa com risco gestacional de Vanessa.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Alto risco."
+        },
+        {
+          "key": "b",
+          "text": "Risco habitual."
+        },
+        {
+          "key": "c",
+          "text": "Risco habitual com vulnerabilidades."
+        },
+        {
+          "key": "d",
+          "text": "Não há informações suficientes para classificar o risco gestacional."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O histórico de perda fetal recorrente sem causa conhecida, evento trombótico prévio (AVC em idade jovem) e pesquisa de anticoagulante lúpico/anticorpo anticardiolipina persistentemente positiva em duas ocasiões com mais de 12 semanas de intervalo preenchem critérios diagnósticos de síndrome antifosfolípide — caracterizando gestação de alto risco.",
+      "theme": "pn_alto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_037",
+      "statement": "Puérpera, 30 anos, teve parto cesáreo de trigêmeos há 3 dias. Em sua história obstétrica, consta um episódio de aborto e um parto normal. Qual seria a representação gráfica da paridade desta paciente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "G5 P1 C3 A1"
+        },
+        {
+          "key": "b",
+          "text": "G5 P1 C1 A1"
+        },
+        {
+          "key": "c",
+          "text": "G3 P1 C1 A1"
+        },
+        {
+          "key": "d",
+          "text": "G3 P1 C3 A1"
+        },
+        {
+          "key": "e",
+          "text": "G5 P4 A1"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Considerando a nomenclatura empregada nesta fonte: paridade total de gestações prévias (aborto + parto normal) somada à gestação atual (trigemelar) resulta em G3; P1 refere-se ao parto vaginal prévio; C3 registra os três nascidos vivos por via cesárea na gestação atual (trigêmeos); e A1 ao aborto prévio.",
+      "theme": "pn_habitual",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_038",
+      "statement": "Gestante chega ao pronto atendimento com queixa de dor pélvica, não sabe informar a data de sua última menstruação (DUM) e informa presença de movimentos fetais; ao exame físico, apresenta colostro e o fundo uterino localiza-se entre a cicatriz umbilical e a borda superior da sínfise púbica; logo, essa paciente tem uma idade gestacional de, no mínimo:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "12 semanas."
+        },
+        {
+          "key": "b",
+          "text": "16 semanas."
+        },
+        {
+          "key": "c",
+          "text": "20 semanas."
+        },
+        {
+          "key": "d",
+          "text": "24 semanas."
+        },
+        {
+          "key": "e",
+          "text": "28 semanas."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O fundo uterino entre a cicatriz umbilical e a borda superior da sínfise púbica corresponde ao ponto médio entre 12 semanas (fundo pouco acima da sínfise) e 20 semanas (fundo na cicatriz umbilical), estimando idade gestacional mínima de aproximadamente 16 semanas.",
+      "theme": "pn_habitual",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_039",
+      "statement": "G4 PN3 vem para consulta de pré-natal na Unidade Básica de Saúde e relata data da última menstruação (DUM) em 15/11/2020. Apresenta ciclos menstruais regulares. Segundo a regra de Naegele, a data provável do parto (DPP) será em",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "22/12/2021."
+        },
+        {
+          "key": "b",
+          "text": "12/12/2021."
+        },
+        {
+          "key": "c",
+          "text": "12/08/2021."
+        },
+        {
+          "key": "d",
+          "text": "22/08/2021."
+        },
+        {
+          "key": "e",
+          "text": "22/07/2021."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Pela regra de Nägele: DUM (15/11/2020) + 7 dias = 22/11/2020; somando 9 meses = 22/08/2021.",
+      "theme": "pn_habitual",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_040",
+      "statement": "NÃO configura sinal de probabilidade de gravidez",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "sinal de Nobile-Budin."
+        },
+        {
+          "key": "b",
+          "text": "sinal de Hegar."
+        },
+        {
+          "key": "c",
+          "text": "ausculta do batimento cardíaco fetal."
+        },
+        {
+          "key": "d",
+          "text": "aumento do volume uterino."
+        },
+        {
+          "key": "e",
+          "text": "atraso menstrual."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A ausculta do batimento cardíaco fetal é um sinal de CERTEZA de gravidez, não sinal de probabilidade — sendo esta a exceção entre as opções (que descrevem corretamente sinais de probabilidade relacionados às alterações uterinas e ao atraso menstrual).",
+      "theme": "pn_habitual",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_041",
+      "statement": "Qual das seguintes alternativas NÃO con gura uma condição para encaminhamento ou acompanhamento de pré-natal de alto risco?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Intervalo interpartal menor que 2 anos."
+        },
+        {
+          "key": "b",
+          "text": "Nefropatia."
+        },
+        {
+          "key": "c",
+          "text": "Hematoma de saco gestacional."
+        },
+        {
+          "key": "d",
+          "text": "Ganho de peso excessivo."
+        },
+        {
+          "key": "e",
+          "text": "Idade menor que 15 anos."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Entre as opções, a idade materna inferior a 15 anos, conforme especificamente listada nos critérios do Ministério da Saúde para pré-natal de alto risco, não corresponde exatamente ao critério formal documentado — sendo a alternativa apontada como exceção nesta fonte, ainda que extremos de idade materna sejam, de modo geral, reconhecidos como fatores de risco gestacional.",
+      "theme": "pn_alto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_042",
+      "statement": "Maria, com 8 semanas de idade gestacional, queixa-se de náuseas da gravidez. Refere náuseas e cerca de dois episódios de vômitos todos os dias. Nega outras queixas. Não houve perda de peso no intervalo entre as consultas. Sobre a condução da queixa de Maria, marque a opção CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "indicar hospitalização para hidratação venosa e antieméticos intravenosos;"
+        },
+        {
+          "key": "b",
+          "text": "iniciar piridoxina e doxilamina via oral;"
+        },
+        {
+          "key": "c",
+          "text": "Prescrever metilprednisolona via oral;"
+        },
+        {
+          "key": "d",
+          "text": "indicar fracionamento da dieta e evitar medicações até o final do primeiro trimestre;"
+        },
+        {
+          "key": "e",
+          "text": "solicitar laboratório com eletrólitos, enzimas hepáticas, bilirrubina sérica, amilase e lipase."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de náuseas/vômitos leves sem perda de peso significativa no primeiro trimestre, a conduta inicial adequada é orientar fracionamento da dieta e evitar medicações desnecessárias até o final do primeiro trimestre, reservando tratamento farmacológico para quadros mais intensos.",
+      "theme": "pn_habitual",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_043",
+      "statement": "Considerando a datação e o período gestacional, é CORRETO afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pela regra de Doppler, a data provável do parto é calculada pela subtração de três meses e meio do primeiro dia da data da última menstruação."
+        },
+        {
+          "key": "b",
+          "text": "A gestação humana dura aproximadamente 275 dias, a partir do primeiro dia da data da última menstruação até a dilatação."
+        },
+        {
+          "key": "c",
+          "text": "O período de 39 semanas de gestação é baseado nas semanas de concepção e não nas semanas menstruais."
+        },
+        {
+          "key": "d",
+          "text": "Os “chutes” do feto ocorrem por volta de 19 semanas na primeira gravidez."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Os movimentos fetais ('chutes') costumam ser percebidos pela primeira vez pela gestante primigesta por volta da 18ª-20ª semana, compatível com 'cerca de 19 semanas'. A regra correta de datação é a de Nägele (não 'Doppler'); a gestação humana dura cerca de 280 dias (não 275); e as 40 semanas são calculadas a partir de semanas menstruais (DUM), não semanas de concepção.",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_044",
+      "statement": "A avaliação médica é de extrema importância para a análise de problemas e riscos que possam acometer tanto a genitora quanto sua prole diante de uma possível gravidez. Dessa forma, a avaliação de propensos riscos deve abranger:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O rastreamento de gestantes para o vírus da sífilis, sendo que as mulheres com riscos sociais a doenças devem ser vacinadas."
+        },
+        {
+          "key": "b",
+          "text": "A avaliação da exposição a medicamentos, sendo que, em geral, medicamentos das categorias X e C da FDA devem ser evitados durante o período gestacional."
+        },
+        {
+          "key": "c",
+          "text": "O uso de fármacos psiquiátricos, porquanto a doença psiquiátrica não tratada pode ocasionar o nascimento prematuro do bebê."
+        },
+        {
+          "key": "d",
+          "text": "O rastreamento com IGG para varicela deve ser realizado e sua vacina é recomendada atualmente para todos os adultos não imunes."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Medicamentos das categorias X e C da classificação de risco da FDA devem, de modo geral, ser evitados durante a gestação, dado o potencial de risco fetal documentado ou não descartado.",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_045",
+      "statement": "A assistência pré-natal se constitui num dos pilares da medicina preventiva e, como tal, deve ser assistida com muito cuidado e atenção. Muitos exames são efetuados como exames de rotina e devem merecer orientações por parte do profissional. A partir dessas considerações, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A pesquisa de estreptococos do grupo B deve ser feita com 35 semanas, e, se positiva, a gestante deve iniciar o tratamento com ampicilina."
+        },
+        {
+          "key": "b",
+          "text": "Quando a sorologia para toxoplasmose no primeiro trimestre apresentar IgG e IgM positivo, a gestante deverá ser tratada com espiramicina, sulfadiazina e pirimetamina. Essa associação deve ser sempre acompanhada pelo uso do ácido folínico."
+        },
+        {
+          "key": "c",
+          "text": "Se a gestante for Rh negativo, teste de Coombs indireto positivo e apresentar sangramento no primeiro trimestre, está indicada a administração de imunoglobulina anti-Rh."
+        },
+        {
+          "key": "d",
+          "text": "Gestantes não vacinadas ou com sorologia para hepatite B negativa devem receber a vacina."
+        },
+        {
+          "key": "e",
+          "text": "Exame de urina tipo 1 apresentando glicosúria na gestante implica a presença de hiperglicemia, pois o Tm de glicose é 180, isto é, só há perda de glicose na urina com glicemias maiores que 180 mg."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Gestantes não vacinadas ou com sorologia negativa para hepatite B devem receber a vacina, que é segura durante a gestação. A profilaxia para EGB é INTRAPARTO (não tratamento antenatal com ampicilina); a associação tríplice para toxoplasmose exige antes confirmação/avidez, não início automático apenas com IgG/IgM positivos; a imunoglobulina anti-D é indicada para gestantes Rh negativo com Coombs indireto NEGATIVO (não positivo, que indicaria sensibilização já estabelecida); e a glicosúria isolada não implica necessariamente hiperglicemia, pois o limiar renal de glicose está reduzido na gravidez.",
+      "theme": "pn_habitual",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_046",
+      "statement": "Uma gestante refere que sua última menstruação foi dia 01/04/2020. Qual será sua data provável pela regra de Naegele e com quantas semanas completas ela está no dia 6/12/2020?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "DPP: 08/01/2021, 35 semanas."
+        },
+        {
+          "key": "b",
+          "text": "DPP: 08/01/2021, 36 semanas."
+        },
+        {
+          "key": "c",
+          "text": "DPP: 11/02/2021, 30 semanas."
+        },
+        {
+          "key": "d",
+          "text": "DPP: 11/01/2021, 35 semanas."
+        },
+        {
+          "key": "e",
+          "text": "DPP: 15/01/2021, 34 semanas."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "DUM 01/04/2020: pela regra de Nägele, DPP = 08/01/2021 (DUM+7dias, +9meses). Em 06/12/2020, a idade gestacional é de 35 semanas completas (249 dias desde a DUM).",
+      "theme": "pn_habitual",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_047",
+      "statement": "Uma mulher – que já teve 2 partos vaginais, sendo um deles gemelar, 2 cesáreas, sendo que, numa cesárea, o feto nasceu morto – agora está grávida de gêmeos novamente. A representação é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "V-gesta IV-para."
+        },
+        {
+          "key": "b",
+          "text": "V-gesta V-para."
+        },
+        {
+          "key": "c",
+          "text": "VII-gesta V-para."
+        },
+        {
+          "key": "d",
+          "text": "VII-gesta III-para 1 natimorto."
+        },
+        {
+          "key": "e",
+          "text": "V-gesta III-para 1 natimorto."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Considerando a convenção adotada nesta fonte (contagem de gestações incluindo cada feto de gestações múltiplas): a paciente é VII-gesta, com III-para (partos vaginais/cesáreos com recém-nascidos vivos) e 1 natimorto registrado (referente ao feto que nasceu morto em uma das cesáreas).",
+      "theme": "pn_alto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_048",
+      "statement": "O monitoramento sistemático do estado nutricional das populações é fundamental para traçar adequado planejamento e executar ações efetivas de promoção da saúde e prevenção de doenças. Em relação ao consumo de ácido fólico na gestação, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A obesidade (IMC ≥ 30kg/m² não é fator de risco para o desenvolvimento de deficiência de ácido fólico."
+        },
+        {
+          "key": "b",
+          "text": "A vitamina B12 não é essencial para a adequada captação e utilização do ácido fólico pelo organismo."
+        },
+        {
+          "key": "c",
+          "text": "A anemia megaloblástica está relacionada apenas à deficiência de ferro."
+        },
+        {
+          "key": "d",
+          "text": "A deficiência de ácido fólico interfere, principalmente, até a oitava semana de idade gestacional, na formação do tubo neural."
+        },
+        {
+          "key": "e",
+          "text": "Os defeitos do tubo neural ocorrem, mais comumente, a partir da oitava semana de idade gestacional."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A deficiência de ácido fólico interfere principalmente na formação do tubo neural até a 8ª semana de gestação, período crítico do fechamento do tubo neural (que ocorre cerca de 28 dias após a concepção).",
+      "theme": "pn_habitual",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_049",
+      "statement": "Elemento que pode aumentar o estresse oxidativo placentário no início do prénatal e, portanto, deve ter seu uso limitado no primeiro trimestre a gravidez.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ácido Fólico."
+        },
+        {
+          "key": "b",
+          "text": "Ferro."
+        },
+        {
+          "key": "c",
+          "text": "Vitamina C."
+        },
+        {
+          "key": "d",
+          "text": "Metilfolato"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A suplementação de ferro no início do primeiro trimestre tem sido associada a aumento do estresse oxidativo placentário, justificando uso limitado/criterioso nesse período específico em mulheres não anêmicas.",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_050",
+      "statement": "“Vacina não recomendada na gestação, ainda que não existam estudos que demonstrem riscos fetais. Por outro lado, não existem dados que demonstrem benefícios de sua utilização nesse período. Nos casos em que seja con rmada gravidez e já tenha sido iniciada a vacinação, as demais doses devem ser postergadas para o período pós-parto”. O texto, extraído do Manual de Pré-Natal de FEBRASGO, se refere a vacina para",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Influenza."
+        },
+        {
+          "key": "b",
+          "text": "HPV."
+        },
+        {
+          "key": "c",
+          "text": "Hepatite B."
+        },
+        {
+          "key": "d",
+          "text": "Tétano"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A descrição (vacina não recomendada na gestação apesar de ausência de risco fetal comprovado, sem dados de benefício estabelecido, com postergação de doses restantes para o pós-parto) refere-se à vacina contra HPV, conforme orientação da FEBRASGO.",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_051",
+      "statement": "Assinale a alternativa incorreta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A hipertermia pode ser teratogênica quando ocorre no primeiro trimestre gestacional."
+        },
+        {
+          "key": "b",
+          "text": "O banho quente de imersão aumenta o risco de abortamento."
+        },
+        {
+          "key": "c",
+          "text": "A exposição solar não apresenta riscos, desde que respeitado período máximo de 20 minutos diários, evitando o horário de pico."
+        },
+        {
+          "key": "d",
+          "text": "O banho quente de imersão não se associa a defeitos abertos do tubo neura."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "É a alternativa INCORRETA: o banho quente de imersão com hipertermia no início da gestação está, sim, associado a maior risco de defeitos abertos do tubo neural, contrariando a afirmação de ausência de associação.",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_052",
+      "statement": "Assinale a alternativa verdadeira a respeito da suplementação de ferro no início do pré-natal.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Deve ser iniciada assim que diagnosticada gravidez."
+        },
+        {
+          "key": "b",
+          "text": "Deve ser realizada de preferência na forma de polivitamínicos."
+        },
+        {
+          "key": "c",
+          "text": "Não deve ser realizada, pelo risco aumentado de diabete gestacional e préeclâmpsia."
+        },
+        {
+          "key": "d",
+          "text": "Não deve ser realizada pelo risco de induzir abortamento."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Segundo esta fonte, a suplementação universal de ferro no início do pré-natal em mulheres não anêmicas tem sido associada a maior risco de diabetes gestacional e pré-eclâmpsia, reforçando uma abordagem mais criteriosa/individualizada quanto ao momento e à indicação da suplementação — tema que reflete debate mais recente na literatura, distinto da recomendação clássica de suplementação universal.",
+      "theme": "pn_alto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_053",
+      "statement": "Obstetrícia Mulher, 24 anos de idade, primigesta, idade gestacional de 6 semanas, comparece ao pronto atendimento assintomática, desejosa de interrupção da gestação, referindo ser fruto de violência sexual. Para realizar o procedimento, é necessário:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Autorização judicial."
+        },
+        {
+          "key": "b",
+          "text": "Consentimento livre e esclarecido assinado pela paciente."
+        },
+        {
+          "key": "c",
+          "text": "Boletim de ocorrência."
+        },
+        {
+          "key": "d",
+          "text": "Aguardar completar 8 semanas de gestação."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Para a interrupção legal da gestação em caso de violência sexual no Brasil, é necessário apenas o consentimento livre e esclarecido assinado pela própria paciente — não são exigidos autorização judicial, boletim de ocorrência ou limite de idade gestacional mínima.",
+      "theme": "pn_alto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_054",
+      "statement": "Mulher, 42 anos de idade, G3P2C2, idade gestacional 22 semanas, em seguimento adequado de pré-natal, questiona quanto aos exames a serem realizados a partir de agora. Considerando os antecedentes descritos, qual deve ser a orientação adequada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Realizar pesquisa para Streptococus do grupo B com 32 semanas."
+        },
+        {
+          "key": "b",
+          "text": "Realizar apenas a rotina habitual de terceiro trimestre."
+        },
+        {
+          "key": "c",
+          "text": "Realizar ecocardiograma fetal com 28 semanas de gestação."
+        },
+        {
+          "key": "d",
+          "text": "Realizar cardiotocografia fetal semanal a partir de 28 semanas de gestação."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Em gestante com idade materna avançada (42 anos, fator de risco para cardiopatias congênitas fetais), recomenda-se a realização de ecocardiograma fetal por volta da 28ª semana de gestação.",
+      "theme": "pn_alto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_055",
+      "statement": "Das vacinas a seguir, qual NÃO deve ser realizada NUNCA durante a gestação?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Influenza"
+        },
+        {
+          "key": "b",
+          "text": "Tríplice viral"
+        },
+        {
+          "key": "c",
+          "text": "DTPa"
+        },
+        {
+          "key": "d",
+          "text": "Hepatite"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A vacina tríplice viral (contra sarampo, caxumba e rubéola), por conter vírus vivos atenuados, nunca deve ser administrada durante a gestação.",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_056",
+      "statement": "A estimativa da idade gestacional pela data da última menstruação deve ser corrigida pela ultrassonogra a transvaginal de 1º trimestre quando a discrepância for:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "maior que 3 dias"
+        },
+        {
+          "key": "b",
+          "text": "maior que 7 dias"
+        },
+        {
+          "key": "c",
+          "text": "menor que 3 dias"
+        },
+        {
+          "key": "d",
+          "text": "menor que 7 dias"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A idade gestacional estimada pela DUM deve ser corrigida pela ultrassonografia transvaginal de primeiro trimestre quando a discrepância entre os dois métodos for maior que 7 dias.",
+      "theme": "pn_exames",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_057",
+      "statement": "O sinal de probabilidade de gravidez que se caracteriza pelo amolecimento da região ístmica do útero ao toque combinado denomina-se sinal de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hegar"
+        },
+        {
+          "key": "b",
+          "text": "Piskacek"
+        },
+        {
+          "key": "c",
+          "text": "Osiander"
+        },
+        {
+          "key": "d",
+          "text": "Nobile-Budin"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O amolecimento da região ístmica do útero, percebido ao toque bimanual combinado, denomina-se sinal de Hegar — um dos sinais de probabilidade de gravidez.",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_058",
+      "statement": "Mulher, 25 anos, saudável, procura Unidade Básica de Saúde com queixa de atraso menstrual. Durante atendimento, o teste de gravidez é positivo, sendo a idade gestacional estimada em oito semanas. Sobre a assistência pré-natal, assinale a opção verdadeira.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Com oito semanas de gravidez, a ausculta dos batimentos cardíacos embrionários pode ser feita com o sonar Doppler."
+        },
+        {
+          "key": "b",
+          "text": "O nível de hemoglobina de 9g/dL é considerado decorrente da anemia dilucional da gravidez, e deve ser tratado com reposição de ferro, sem investigação adicional."
+        },
+        {
+          "key": "c",
+          "text": "A pesquisa de diabetes gestacional não está indicada, tendo em vista a idade da gestante e a sua boa condição de saúde."
+        },
+        {
+          "key": "d",
+          "text": "A margem de erro da ultrassonografia para cálculo da idade gestacional no primeiro trimestre é de 20 dias, para mais ou para menos."
+        },
+        {
+          "key": "e",
+          "text": "Uma dose da vacina tríplice bacteriana, contra tétano, difteria e coqueluche deve ser aplicada durante a gestação."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Toda gestante deve receber ao menos uma dose de dTpa (tríplice bacteriana acelular) durante a gestação, independentemente de vacinações prévias. Com 8 semanas, ainda não é possível auscultar BCF com sonar Doppler; Hb 9g/dL configura anemia verdadeira exigindo investigação, não apenas 'anemia dilucional'; a triagem para diabetes gestacional é indicada universalmente, independente da idade/saúde da gestante; e a margem de erro da USG de primeiro trimestre é muito menor que 20 dias (cerca de 5-7 dias).",
+      "theme": "pn_habitual",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_059",
+      "statement": "Paciente de 33 anos, G3P1A1, gestação de 9 semanas e 3 dias pela cronologia e con rmada por ultrassonogra a, comparece ao pronto atendimento com náuseas e vômitos muito frequentes. Relata peso antes da gravidez de 64Kg e na consulta de pré-natal no dia anterior, de 63,2Kg. Diante do quadro descrito, qual o diagnóstico e a conduta MAIS ADEQUADOS?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Êmese gravídica: indicar internação hospitalar, solicitar ionograma, prescrever antiemético intravenoso e jejum"
+        },
+        {
+          "key": "b",
+          "text": "Êmese gravídica: orientar sobre dieta nutricional e hidratação oral frequente"
+        },
+        {
+          "key": "c",
+          "text": "Hiperêmese gravídica: indicar internação hospitalar, solicitar ionograma, iniciar hidratação venosa e jejum"
+        },
+        {
+          "key": "d",
+          "text": "Hiperêmese gravídica: indicar internação hospitalar com nutrição parenteral, antiemético intravenoso e jejum"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Perda de peso mínima (0,8kg, menos de 5% do peso corporal) associada a náuseas/vômitos frequentes, sem outros sinais de gravidade, caracteriza êmese gravídica simples (não hiperêmese) — conduta ambulatorial com orientação dietética e hidratação oral frequente.",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_060",
+      "statement": "Primigesta de 20 anos, 1 Oª semana de gestação, compareceu à UBS para dar início ao pré-natal. Durante o preenchimento do cartão da gestante o médico aborda sobre o cartão de vacinação. De acordo com as recomendações do Ministério da Saúde, vacinação de rotina para gestantes são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Vacina dupla do tipo adulto - dT (difteria e tétano), Vacina contra influenza (fragmentada), Vacina contra hepatite B."
+        },
+        {
+          "key": "b",
+          "text": "Vacina contra raiva humana, Vacina dupla do tipo adulto - dT (difteria e tétano), Vacina contra influenza (fragmentada)."
+        },
+        {
+          "key": "c",
+          "text": "Vacina dupla do tipo adulto - dT (difteria e tétano), Vacina contra influenza (fragmentada)."
+        },
+        {
+          "key": "d",
+          "text": "Vacina dupla do tipo adulto - dT (difteria e tétano), Vacina contra influenza (fragmentada), Vacina contra hepatite B Vacina contra febre amarela (atenuada)."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "As vacinas de rotina recomendadas para gestantes pelo Ministério da Saúde são: dT (dupla adulto), influenza (fracionada) e hepatite B — vacinas inativadas/seguras na gestação, diferentemente da vacina de febre amarela (atenuada, não rotineira) e antirrábica (indicada apenas conforme exposição).",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_061",
+      "statement": "Paciente de 22 anos, cor branca, G2P1 AO, 7ª semana de gestação, sem história de patologias previas, compareceu à UBS para realizar sua primeira consulta de pré-natal, sem queixas, gestação anterior sem complicações. Portanto, no acompanhamento de pré-natal de baixo risco, na primeira consulta estão indicados os seguintes exames laboratoriais:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hemograma completo, tipo sanguíneo e fator Rh, glicemia de jejum, EAS, urocultura com antibiograma, sorologias (toxoplasmose, rubéola, citomegalovírus, hepatite B), VDRL e HIV."
+        },
+        {
+          "key": "b",
+          "text": "Hemograma completo, eletroforese de hemoglobina, tipo sanguíneo e fator Rh, glicemia de jejum, EAS, proteinúria e EPF."
+        },
+        {
+          "key": "c",
+          "text": "Hemograma completo, eletroforese de hemoglobina, tipo sanguíneo e fator Rh, glicemia de jejum, EAS, urocultura com antibiograma, sorologias (toxoplasmose, rubéola, citomegalovírus, hepatite B), coombs indireto e hemoglobina glicosilada."
+        },
+        {
+          "key": "d",
+          "text": "Somente a questão B está correta."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "No pré-natal de baixo risco, a primeira consulta deve incluir hemograma completo, tipagem sanguínea e fator Rh, glicemia de jejum, EAS, urocultura com antibiograma e as sorologias de rotina (toxoplasmose, rubéola, citomegalovírus, hepatite B), além de VDRL e HIV.",
+      "theme": "pn_exames",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_062",
+      "statement": "Com relação à assistência pré-natal, marque a alternativa incorreta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A tipagem sanguínea e o fator Rh devem ser solicitados na primeira consulta de prénatal."
+        },
+        {
+          "key": "b",
+          "text": "É recomendada a vacinação de uma dose de DTpa entre a 27ª e a 36ª semanas de gestação em todas as gestantes independente do histórico vacinai."
+        },
+        {
+          "key": "c",
+          "text": "A medida da altura uterina é sempre o correspondente em centímetros da idade gestacional."
+        },
+        {
+          "key": "d",
+          "text": "A urocultura é recomendada a todas as gestantes e deve ser solicitada na primeira consulta pré-natal com o objetivo de erradicar bacteriúria assintomática."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "É a alternativa INCORRETA: a medida da altura uterina em centímetros NÃO corresponde sempre exatamente à idade gestacional em semanas — trata-se de uma aproximação válida principalmente em determinada faixa gestacional (aproximadamente 20-34 semanas), não uma regra absoluta.",
+      "theme": "pn_exames",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_063",
+      "statement": "Em relação ao acompanhamento do pré natal, exames de imagens devem ser realizados de acordo com o período gestacional. Observe as assertivas abaixo e assinale aquela que o exame e/ou indicação não estão corretos.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ultrassonografia via vaginal com 06 a 09 semanas de gestação, com objetivo de identificar gestação ectópica, única ou não, vitalidade e as medidas do saco gestacional."
+        },
+        {
+          "key": "b",
+          "text": "Ultrassonografia morfológica de primeiro trimestre entre a 11ª e a 14ª semana, permitindo rastrear cromossomopatias por meio da medida da transluscência nucal, do fluxo do dueto venoso e do ossículo nasal."
+        },
+        {
+          "key": "c",
+          "text": "Ultrassonografia de segundo trimestre entre a 25ª e 28ª semana, de preferência na 26ª semana, para identificar toda a anatomia fetal."
+        },
+        {
+          "key": "d",
+          "text": "Ultrassonografia com dopplerfluxometria das artérias uterinas, umbilical e artéria cerebral média entre a 34ª e 36ª semana, para avaliar crescimento fetal, vitalidade e volume do líquido amniótico."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "É a alternativa com exame/indicação INCORRETOS: a dopplerfluxometria das artérias uterinas, umbilical e cerebral média não é um exame de rotina programado para TODAS as gestantes entre 34-36 semanas — é reservada a gestações de alto risco ou com indicações específicas (restrição de crescimento, doenças hipertensivas), não parte do rastreio de rotina universal.",
+      "theme": "pn_exames",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_064",
+      "statement": "São sinais de certeza da gravidez, exceto:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sinal de Hunter: hiperpigmentação da aréola primária e aparecimento da aréola secundária com limites imprecisos."
+        },
+        {
+          "key": "b",
+          "text": "Ausculta dos batimentos cardiofetais com o estetoscópio de Pinard (a partir de 20 semanas) ou o sonar (a partir de 1 O a 12 semanas)."
+        },
+        {
+          "key": "c",
+          "text": "Percepção de partes e movimentos fetais pelo examinador por meio da palpação abdominal a partir de 18 a 20 semanas."
+        },
+        {
+          "key": "d",
+          "text": "Sinal de Puzzos (rechaço fetal intrauterino) durante o exame bimanual, um discreto impulso no útero por meio do fundo de saco anterior, deslocará o feto no líquido amniótico para longe do dedo do examinador."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O sinal de Hunter (hiperpigmentação areolar) é sinal de PRESUNÇÃO de gravidez, não sinal de certeza — sendo a exceção entre as opções, que listam corretamente sinais de certeza (ausculta de BCF, palpação de partes fetais, sinal de Puzos/rechaço fetal).",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_065",
+      "statement": "Paciente com 28 anos de idade, gestante com quatro meses de idade gestacional, procura unidade de saúde para completar seu esquema vacinai. Observando-se sua carteira de vacinação, veri ca-se que a paciente nunca tomou vacina contra febre amarela, sendo que reside em uma área urbana, com alto índice de infestação predial por Aedes aegypti (10%), mas sem casos de febre amarela em humanos documentados nos últimos 12 meses. Com essas informações, qual seria a melhor conduta recomendada para a profilaxia da febre amarela?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aguardar o término da gestação e o desmame da criança para indicar a vacina antiamarílica."
+        },
+        {
+          "key": "b",
+          "text": "Indicar a vacinação antiamarílica imediatamente."
+        },
+        {
+          "key": "c",
+          "text": "Aguardar o término da gestação e indicar a vacina antiamarílica."
+        },
+        {
+          "key": "d",
+          "text": "Aguardar o último trimestre da gestação e indicar a vacina antiamarílica."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de área urbana com alta infestação por Aedes aegypti (risco epidemiológico elevado), mesmo sem casos documentados recentes, a conduta recomendada é indicar a vacinação antiamarílica imediatamente, já que o benefício da proteção supera o risco teórico da vacina de vírus atenuado nesse contexto de risco significativo.",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_066",
+      "statement": "Tercigesta, 37 anos, com 1 O semanas de gravidez, sem doenças, apresenta a você um motivo de grande apreensão em consulta pré-natal. Ela sente muita fome e não quer ganhar muito peso nessa gestação. Mas, se preocupa em colocar seu lho em risco se engordar pouco. Não lembra o peso pré-gestacional. Hoje, ela pesa 68kg e tem índice de massa corpórea de 25,6 kg/m² • Para que essa mulher ganhe o mínimo peso necessário, qual é a recomendação de ganho de peso semanal e total permitido, respectivamente, nessa gestação?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "440 gramas e 12,5 kg"
+        },
+        {
+          "key": "b",
+          "text": "230 gramas e 7,0 kg"
+        },
+        {
+          "key": "c",
+          "text": "300 gramas e 9,0 kg"
+        },
+        {
+          "key": "d",
+          "text": "400 gramas e 11,5 kg"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Com IMC de 25,6 kg/m² (sobrepeso), a recomendação de ganho de peso é de aproximadamente 230 gramas/semana e total de 7,0 kg ao longo da gestação (limite inferior da faixa recomendada para sobrepeso, correspondendo ao ganho mínimo necessário mencionado no enunciado).",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_067",
+      "statement": "Hoje (06/12/2020), a paciente comparece com resultado de exame de ultrassom realizado em 23/11/2020 com idade gestacional estimada de 8 semanas e 4 dias. Considerando que a data da última menstruação (DUM) da paciente é: 03/10/2020. Assinale a idade gestacional da paciente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "9 semanas e 1 dia."
+        },
+        {
+          "key": "b",
+          "text": "10 semanas e 1 dia."
+        },
+        {
+          "key": "c",
+          "text": "1 semana e 6 dias."
+        },
+        {
+          "key": "d",
+          "text": "10 semanas e 3 dias."
+        },
+        {
+          "key": "e",
+          "text": "9 semanas e 3 dias."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A USG de 23/11/2020 indicava 8 semanas e 4 dias. Somando os 13 dias decorridos até 06/12/2020 (1 semana e 6 dias), obtém-se uma idade gestacional de 10 semanas e 3 dias — compatível com a correção pela USG, já que a discrepância em relação à datação por DUM (9 semanas e 1 dia) foi maior que 7 dias.",
+      "theme": "pn_exames",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_068",
+      "statement": "Pesquisa Streptococcus do grupo B Strepto B EGB swab para pequisa Strepto B São indicações para uso de antibiótico intraparto objetivando profilaxia antenatal de Estreptococo B-hemolítico, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Febre."
+        },
+        {
+          "key": "b",
+          "text": "Secreção vaginal de odor fétido."
+        },
+        {
+          "key": "c",
+          "text": "Trabalho de parto pré-termo."
+        },
+        {
+          "key": "d",
+          "text": "Rotura prematura de membranas ovulares há mais de 18 horas."
+        },
+        {
+          "key": "e",
+          "text": "Filho anterior infectado por essa bactéria."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A secreção vaginal de odor fétido não é, isoladamente, uma das indicações clássicas estabelecidas para profilaxia intraparto contra EGB — diferente de febre materna, trabalho de parto pré-termo, rotura de membranas >18h e filho anterior acometido pela infecção.",
+      "theme": "pn_alto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_069",
+      "statement": "Primigesta com 38 semanas e 4 dias, internada com diagnóstico de coriomniorrexe prematura há 1 dia, em indução do trabalho de parto, apresentando colo no, 2 cm de dilatação. No cartão de pré-natal, há informação sobre pesquisa de estreptococo do grupo B (swab vaginal/anal) negativa realizada há 20 dias. A melhor conduta nesse caso será",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "aguardar trabalho de parto franco e então iniciar infusão endovenosa de penicilina."
+        },
+        {
+          "key": "b",
+          "text": "fazer profilaxia para infecção estreptocócica somente se houver episódio de febre materna intraparto."
+        },
+        {
+          "key": "c",
+          "text": "iniciar imediatamente infusão endovenosa de penicilina cristalina."
+        },
+        {
+          "key": "d",
+          "text": "iniciar infusão endovenosa de penicilina somente após 48 horas de bolsa rota."
+        },
+        {
+          "key": "e",
+          "text": "não fazer profilaxia para infecção estreptocócica."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Diante de pesquisa de EGB negativa realizada há 20 dias (dentro da janela de validade de 5 semanas), a conduta é não realizar profilaxia para infecção estreptocócica, já que o resultado negativo recente permanece válido.",
+      "theme": "pn_alto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_070",
+      "statement": "Cálculo idade gestacional pela data da última menstruação IG DUM Gestante com última menstruação dia 18/10/2020, foi à consulta pré natal no dia 26/01/2021 e deseja saber com quantas semanas está e qual a data provável do parto. Aplicando a regra de Nagele, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Idade gestacional: 15 semanas e 2 dias Data provável do parto 25/07/2021."
+        },
+        {
+          "key": "b",
+          "text": "Idade gestacional: 14 semanas e 2 dias Data provável do parto 28/07/2021."
+        },
+        {
+          "key": "c",
+          "text": "Idade gestacional: 15 semanas e 2 dias Data provável do parto 28/07/2021."
+        },
+        {
+          "key": "d",
+          "text": "Idade gestacional: 14 semanas e 2 dias Data provável do parto 25/07/2021."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "DUM 18/10/2020 até 26/01/2021 totalizam 100 dias = 14 semanas e 2 dias. Pela regra de Nägele, a DPP é 25/07/2021 (DUM+7dias, +9meses).",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_071",
+      "statement": "Gestante 12 semanas com sorologia para toxoplasmose IgM e IgG positivo. Qual a conduta CORRETA?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Iniciar tratamento com esquema tríplice."
+        },
+        {
+          "key": "b",
+          "text": "Orientações Higienodietéticas."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar Avidez IgG."
+        },
+        {
+          "key": "d",
+          "text": "Gestante imune, pré natal de rotina."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de sorologia para toxoplasmose com IgM e IgG ambos positivos em gestante de 12 semanas, a conduta correta é solicitar o teste de avidez de IgG, que ajuda a diferenciar infecção recente (baixa avidez) de infecção antiga já resolvida (alta avidez), orientando a conduta terapêutica subsequente.",
+      "theme": "pn_exames",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_072",
+      "statement": "O estudo sobre a saúde dos nascimentos é tratada, dentre outros temas, pela gravidez na adolescência, pelo baixo peso ao nascer e pela ocorrência de cesarianas. Assinale a alternativa que descreve, respectivamente, os valores utilizados como padrões para as definições de adolescência, valor do baixo peso ao nascer e da taxa de cesarianas considerada ideal.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "10 a 19 anos de idade; menor que 2.500 gramas; 10 a 15%."
+        },
+        {
+          "key": "b",
+          "text": "12 a 19 anos de idade; igual ou menor que 2.500 gramas; 10 a 20%."
+        },
+        {
+          "key": "c",
+          "text": "Menor que 20 anos de idade; menor que 2.500 gramas; 10 a 15%."
+        },
+        {
+          "key": "d",
+          "text": "10 a 19 anos de idade; menor que 3.000 gramas; 10 a 20%."
+        },
+        {
+          "key": "e",
+          "text": "10 a 19 anos de idade; menor que 3.000 gramas; 10 a 15%."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Os padrões utilizados são: adolescência de 10 a 19 anos de idade (OMS); baixo peso ao nascer definido como menor que 2.500 gramas; e taxa de cesarianas ideal preconizada entre 10 e 15% (OMS).",
+      "theme": "pn_habitual",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_073",
+      "statement": "Qual dos exames abaixo deve ser solicitado de rotina, já no início do pré-natal de risco habitual?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hemoglobina glicada"
+        },
+        {
+          "key": "b",
+          "text": "Urocultura com antibiogramas"
+        },
+        {
+          "key": "c",
+          "text": "IgG e IgM para rubéola"
+        },
+        {
+          "key": "d",
+          "text": "Anti-HCV"
+        },
+        {
+          "key": "e",
+          "text": "Cultura para estreptococo do Grupo B"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A urocultura com antibiograma deve ser solicitada rotineiramente já na primeira consulta do pré-natal de risco habitual, visando rastrear e tratar bacteriúria assintomática.",
+      "theme": "pn_exames",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_074",
+      "statement": "Qual vacina NÃO é recomendada de forma rotineira, na gravidez?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Rubéola"
+        },
+        {
+          "key": "b",
+          "text": "Hepatite B"
+        },
+        {
+          "key": "c",
+          "text": "Influenza A/HIN1"
+        },
+        {
+          "key": "d",
+          "text": "Tétano e difteria"
+        },
+        {
+          "key": "e",
+          "text": "Coqueluche"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A vacina contra rubéola (vírus vivo atenuado, componente da tríplice viral) não é recomendada de forma rotineira durante a gravidez.",
+      "theme": "pn_habitual",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_075",
+      "statement": "Tercípara, portadora de HAS sob controle, em uso de inibidor de receptor de angiotensina (IECA) e hidroclorotiazida (HCTZ), em consulta de rotina com clínico geral, refere que pretende engravidar e quer orientação sobre os medicamentos que está usando, a qual deve ser:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "substituir o IECA por alfametildopa e manter a HCTZ."
+        },
+        {
+          "key": "b",
+          "text": "manter os medicamentos em uso, pois a PA está sob controle."
+        },
+        {
+          "key": "c",
+          "text": "substituir o IECA por bloqueador de receptor de angiotensina."
+        },
+        {
+          "key": "d",
+          "text": "substituir os medicamentos em uso por levomepromazina."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Em mulher hipertensa planejando engravidar, em uso de IECA (teratogênico, contraindicado na gestação), a orientação adequada é substituir o IECA por alfametildopa (anti-hipertensivo de primeira escolha e seguro na gestação), mantendo o diurético tiazídico já em uso e considerado estável para essa paciente.",
+      "theme": "pn_alto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_076",
+      "statement": "Primigesta de 21 anos, com 12 semanas de gestação, comparece assintomática na primeira consulta de pré-natal. Antes da gravidez, recebeu duas doses de vacina contendo o componente tetânico. A orientação quanto à vacina antitetânica é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "informar que não há necessidade de vacinar durante a gestação."
+        },
+        {
+          "key": "b",
+          "text": "indicar uma dose de tríplice bacteriana acelular do tipo adulto (difteria, tétano e coqueluche – dTpa) imediatamente."
+        },
+        {
+          "key": "c",
+          "text": "indicar uma dose de dTpa a partir da 20ª semana de gestação."
+        },
+        {
+          "key": "d",
+          "text": "indicar uma dose de dupla adulto (difteria e tétano) imediatamente e uma dose de dTpa a partir da 20a semana de gestação."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Tendo recebido previamente 2 doses de vacina com componente tetânico (esquema primário considerado completo), a orientação é indicar uma dose de dTpa a partir da 20ª semana de gestação, garantindo a transferência de anticorpos protetores contra coqueluche ao recém-nascido.",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_077",
+      "statement": "O rastreamento pré-natal é de extrema importância para a averiguação da saúde do feto e de eventuais anomalias. O rastreamento quádruplo do segundo trimestre determina, por exemplo, o risco de DTNs abertos, que constituem um grupo de malformações congênitas do neuroeixo. Quanto ao rastreamento quádruplo, é INCORRETO afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Devem receber o seu rastreamento as mulheres que escolheram se submeter ao rastreamento do primeiro trimestre."
+        },
+        {
+          "key": "b",
+          "text": "Associa-se a históricos familiares, sendo que a maioria dos DTNs ocorre em famílias com tais histórias."
+        },
+        {
+          "key": "c",
+          "text": "Inclui a condição fatal de anencefalia."
+        },
+        {
+          "key": "d",
+          "text": "Resulta de uma falha no fechamento do tubo neural."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "É a alternativa INCORRETA: o rastreamento quádruplo do segundo trimestre não é destinado exclusivamente às mulheres que optaram pelo rastreamento do primeiro trimestre — pelo contrário, costuma ser oferecido especialmente como alternativa a quem não realizou ou não teve acesso ao rastreamento de primeiro trimestre.",
+      "theme": "pn_exames",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_078",
+      "statement": "Acerca dos cuidados e aconselhamentos pré-concepção, é INCORRETO afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Não incluem teste de doenças genéticas."
+        },
+        {
+          "key": "b",
+          "text": "O tratamento de doenças, a exemplo de infecções genitais, visa reduzir o risco de perda gestacional recorrente."
+        },
+        {
+          "key": "c",
+          "text": "Podem ser incorporados em qualquer consulta de uma mulher em idade reprodutiva."
+        },
+        {
+          "key": "d",
+          "text": "O reconhecimento de doença hereditária baseia-se nos antecedentes étnicos do casal."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "É a alternativa INCORRETA: os cuidados pré-concepcionais DEVEM incluir, sim, testes para doenças genéticas relevantes (triagem de portadores, avaliação de antecedentes familiares/étnicos), contrariando a afirmação de que não os incluiriam.",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_080",
+      "statement": "Paciente secundigesta está em acompanhamento pré-natal. Teve um parto vaginal há dois anos, quando tinha 16 anos de idade. O cartão de vacinação da paciente está apresentado a seguir. Além de vacina para gripe, qual conduta deve ser feita para a vacinação dessa paciente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Administrar uma dose imediata de dT e outra de dTpa após 60 dias."
+        },
+        {
+          "key": "b",
+          "text": "Administrar uma dose de dTpa no 2º trimestre."
+        },
+        {
+          "key": "c",
+          "text": "Administrar uma dose de reforço para hepatite B."
+        },
+        {
+          "key": "d",
+          "text": "Não há necessidade de administrar outras doses vacinais."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Independentemente de doses vacinais anteriores, a paciente deve receber uma dose de dTpa no segundo trimestre da gestação atual, conforme recomendação padrão para cada gestação.",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_081",
+      "statement": "Pesquisa Streptococcus do grupo B Strepto B EGB swab para pequisa Strepto B Uma primigesta de 35 semanas e seis dias deu entrada na maternidade, referindo contrações regulares e dolorosas de piora progressiva. Ao exame físico, encontra-se em bom estado geral, eupneica, normotensa, afebril. Além disso, foram observados dinâmica uterina de três contrações fortes em dez minutos, colo do útero pérvio para 5 cm, apresentação cefálica e bolsa íntegra. Os exames de pré-natal mostravam Elisa para HIV não reagente e VDRL não reagente no terceiro trimestre. Não havia informações acerca da pesquisa de estreptococo em swab vaginal e anal. Nesse caso, o obstetra deve 4 00014 0575",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "desconsiderar profilaxia para infecção por estreptococo."
+        },
+        {
+          "key": "b",
+          "text": "dispensar o uso de antibióticos no trabalho de parto pré-termo por não haver febre."
+        },
+        {
+          "key": "c",
+          "text": "iniciar um tratamento com tocolítico após a ruptura das membranas ovulares."
+        },
+        {
+          "key": "d",
+          "text": "começar imediatamente um tratamento com penicilina cristalina ou ampicilina."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de trabalho de parto pré-termo ativo (35s6d) com status de EGB desconhecido (sem pesquisa realizada), a conduta correta é iniciar imediatamente a profilaxia antibiótica com penicilina cristalina ou ampicilina.",
+      "theme": "pn_alto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_082",
+      "statement": "Secundigesta de 11 semanas, sem comorbidades, em consulta pré-natal de rotina, traz os seguintes exames: Além de suplementação de ferro, indica-se para essa gestante",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "realizar dosagem de carga viral para hepatite B nesse momento."
+        },
+        {
+          "key": "b",
+          "text": "realizar teste de avidez para IgG de toxoplasmose no segundo trimestre."
+        },
+        {
+          "key": "c",
+          "text": "repetir os exames de sífilis e HIV no segundo e terceiro trimestres."
+        },
+        {
+          "key": "d",
+          "text": "vacinar contra rubéola e hepatite B após 12 semanas de gestação."
+        },
+        {
+          "key": "e",
+          "text": "realizar curva glicêmica de 2 horas nesse momento."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Além da suplementação de ferro, recomenda-se repetir os exames de sífilis e HIV no segundo e terceiro trimestres, dado o risco contínuo de exposição ao longo da gestação.",
+      "theme": "pn_exames",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_083",
+      "statement": "Gestante, refere menstruações regulares e que a data de sua última menstruação foi no dia 28/10/2020, com duração de 5 dias. Teve relação sexual no dia 10/11/2020 com o parceiro A e no dia 20/11/2020 com o parceiro B. A data provável do parto e o pai biológico são, respectivamente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "04/08/2021 − A."
+        },
+        {
+          "key": "b",
+          "text": "04/09/2021 − A."
+        },
+        {
+          "key": "c",
+          "text": "09/08/2021 − B."
+        },
+        {
+          "key": "d",
+          "text": "09/09/2021 − B."
+        },
+        {
+          "key": "e",
+          "text": "28/08/2021 − A ou B."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Pela regra de Nägele, DUM 28/10/2020 + 7 dias = 04/11/2020, + 9 meses = 04/08/2021 (DPP). Considerando a janela típica de ovulação (~14 dias após o início da menstruação), a relação sexual mais próxima do período fértil (10/11, aproximadamente 13 dias após a DUM) com o parceiro A é a mais compatível com a concepção, tornando-o o pai biológico mais provável.",
+      "theme": "pn_habitual",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_084",
+      "statement": "O período gestacional da vida da mulher marca uma das fases mais transformadoras da siologia feminina. As transformações do organismo vão desde sinais e sintomas clínicos até alterações biopsicossociais. A respeito desse assunto e dos sinais e sintomas do diagnóstico de gravidez, julgue o item a seguir. A percepção materna dos movimentos fetais é um dos sinais de certeza de gestação.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A percepção materna dos movimentos fetais é classificada como sinal de PRESUNÇÃO de gravidez (subjetivo), não sinal de certeza (que exige confirmação objetiva por exame ou ultrassonografia). Afirmação Errada.",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_085",
+      "statement": "O período gestacional da vida da mulher marca uma das fases mais transformadoras da siologia feminina. As transformações do organismo vão desde sinais e sintomas clínicos até alterações biopsicossociais. A respeito desse assunto e dos sinais e sintomas do diagnóstico de gravidez, julgue o item a seguir. Em um atraso menstrual de cinco semanas, caso a mãe tenha ciclos menstruais regulares, espera-se visualizar na ecogra a a presença de embrião com BCF.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Com apenas 5 semanas de atraso menstrual, ainda é considerado precoce para visualização confiável de embrião com atividade cardíaca à ultrassonografia — essa visualização costuma tornar-se possível a partir de 6-7 semanas. Afirmação Errada.",
+      "theme": "pn_exames",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_086",
+      "statement": "Mariana, adolescente de quinze anos de idade e moradora do Sol Nascente (bairro periférico do Distrito Federal), descobriu que estava gestante de alguns “meses de gravidez”, por ter apresentado, após relação sexual com seu parceiro, sangramento transvaginal de moderada quantidade. Como não menstruava havia alguns meses, resolveu procurar uma emergência médica. Quando do seu atendimento, entre os exames solicitados, constava um β-hcg, que veio positivo, com resultado de 50.000 mUi/mL. Já no seguimento gestacional, nos exames de rotina de 3.° trimestre, Mariana apresentou VDRL reagente 1/128, sem apresentar quaisquer sintomas atípicos. Foi proposto, então, tratamento com penicilina G benzatina 2,4 milhões de UI IM, semanalmente, o que totalizou 3 aplicações (dose nal 7,2 milhões de UI IM de penicilina G benzatina). O seu parceiro também foi tratado. A paciente negou novos parceiros sexuais nesse intervalo e qualquer lesão cutânea. A respeito desse caso clínico e dos vários aspectos relacionados à obstetrícia, julgue o item. Considerando-se que, no dia 13/12/2020, seja feita uma ecogra a que indique idade gestacional de 13 semanas e 2 dias, a data provável do parto da paciente será dia 18/6/2021.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A USG de 13/12/2020 indicava 13 semanas e 2 dias. Faltando 26 semanas e 5 dias (187 dias) para completar 40 semanas a partir dessa data, a data provável do parto calculada corresponde a 18/06/2021. Afirmação Certa.",
+      "theme": "pn_exames",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_087",
+      "statement": "O estreptococo do grupo B (Streptococcus agalactiae) é um coco gram-positivo que frequentemente coloniza os tratos genital e gastrintestinal de humanos. Avalie as assertivas I, II, III, IV e V e assinale a alternativa correta com relação a infecção por essa bactéria na gestação: I. A infecção materna geralmente é assintomática II. Pode ocasionar complicações no recém-nascido nascido como pneumonia, meningite e sepse. III. O diagnóstico é realizado por swab vaginal e retal realizado no momento do parto IV. É uma contraindicação ao parto vaginal. 4 000138 366 V. O tratamento de escolha para profilaxia é com Ceftriaxona.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I, II, III, IV e V estão corretas."
+        },
+        {
+          "key": "b",
+          "text": "I, II, III, IV e V estão incorretas."
+        },
+        {
+          "key": "c",
+          "text": "Somente as alternativas I e II estão corretas."
+        },
+        {
+          "key": "d",
+          "text": "Estão corretas as alternativas II, III e V."
+        },
+        {
+          "key": "e",
+          "text": "Estão corretas as alternativas I, II, e IV."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A colonização materna por EGB costuma ser assintomática (I correta) e pode causar complicações neonatais graves como pneumonia, meningite e sepse (II correta). O diagnóstico é feito por swab vaginal e retal entre 35-37 semanas (não no momento do parto, III incorreta); a colonização por EGB NÃO é contraindicação ao parto vaginal (IV incorreta); e o tratamento de escolha para profilaxia é a penicilina, não ceftriaxona (V incorreta) — corretas apenas I e II.",
+      "theme": "pn_alto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_088",
+      "statement": "Em relação aos aspectos epidemiológicos na adolescência, é correto afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a principal causa de internações de adolescentes do sexo feminino no Sistema Único de Saúde (SUS) é gravidez, parto e puerpério."
+        },
+        {
+          "key": "b",
+          "text": "a prática contraceptiva entre adolescentes brasileiras é menos frequente do que em mulheres adultas."
+        },
+        {
+          "key": "c",
+          "text": "a experimentação/uso de alguma droga, principalmente álcool e tabaco, é pouco frequente e precoce dentre os adolescentes brasileiros."
+        },
+        {
+          "key": "d",
+          "text": "as doenças crônicas na adolescência, como neoplasias, asma, sobrepeso e obesidade, ainda não refletem como problemas de saúde pública."
+        },
+        {
+          "key": "e",
+          "text": "o início precoce da vida sexual e o uso pouco frequente de preservativos colocam os adolescentes em situação de especial vulnerabilidade às DST, sem comprometer sua saúde atual e futura."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A principal causa de internação de adolescentes do sexo feminino no SUS é gravidez, parto e puerpério — dado epidemiológico relevante para políticas de saúde do adolescente.",
+      "theme": "pn_alto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_089",
+      "statement": "A mielomeningocele é a forma mais grave de disra smo, envolvendo coluna vertebral e medula espinhal. Acomete, aproximadamente, 1 em 4.000 nascidos vivos. Apesar de grave, é evitável a partir da suplementação, em mulheres na idade fértil, com:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "vitaminas do complexo B."
+        },
+        {
+          "key": "b",
+          "text": "ferro."
+        },
+        {
+          "key": "c",
+          "text": "vitamina D."
+        },
+        {
+          "key": "d",
+          "text": "ácido fólico."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A mielomeningocele, forma grave de disrafismo, é evitável com a suplementação de ácido fólico em mulheres em idade fértil, especialmente no período periconcepcional.",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_090",
+      "statement": "Identificada estreptococia do grupo B (GBS) em gestante, pode-se afirmar que está indicada profilaxia intraparto quando:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "cultura vaginorretal de GBS for negativa entre 35 e 37 semanas na gravidez atual, quaisquer que sejam os fatores de risco intraparto."
+        },
+        {
+          "key": "b",
+          "text": "rastreamento de GBS vaginorretal for positivo entre 35 e 37 semanas de gravidez."
+        },
+        {
+          "key": "c",
+          "text": "colonização por GBS em gravidez anterior (a menos que haja indicação na gravidez atual)."
+        },
+        {
+          "key": "d",
+          "text": "cesárea realizada antes do início do parto, em mulher com membranas íntegras, independente do estado de colonização do GBS."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A profilaxia intraparto contra EGB está indicada quando o rastreamento vaginorretal realizado entre 35-37 semanas da gestação atual for positivo. Rastreamento negativo nesse período não indica profilaxia independentemente de fatores de risco; colonização em gestação anterior não determina conduta na gestação atual; e cesárea eletiva com membranas íntegras antes do início do trabalho de parto dispensa a profilaxia independente da colonização.",
+      "theme": "pn_alto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_091",
+      "statement": "Gestante realiza TOTG na 26a semana de gravidez para investigação de diabetes gestacional. Os dados que confirmariam o diagnóstico são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "jejum = 92 / 1h = 180 / 2h = 153 / com um ponto da curva atingido ou ultrapassado."
+        },
+        {
+          "key": "b",
+          "text": "jejum = 95 / 1h = 140 / 2h = 120 / com um ponto da curva atingido ou ultrapassado ."
+        },
+        {
+          "key": "c",
+          "text": "jejum = 92 / 1h = 180 / 2h = 153 / com dois pontos da curva atingidos ou ultrapassados ."
+        },
+        {
+          "key": "d",
+          "text": "jejum = 95 / 1h = 140 / 2h = 120 / com dois pontos da curva atingidos ou ultrapassados."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Os critérios diagnósticos do TOTG 75g (IADPSG) para diabetes gestacional são: jejum ≥92, 1h ≥180, 2h ≥153 mg/dL, sendo suficiente que APENAS UM desses pontos seja atingido ou ultrapassado para confirmar o diagnóstico.",
+      "theme": "pn_exames",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_092",
+      "statement": "Sobre as manobras de Leopold,",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "no primeiro tempo (ou primeira manobra), o examinador consegue palpar o polo pélvico quando o feto está em apresentação transversa."
+        },
+        {
+          "key": "b",
+          "text": "no segundo tempo (ou segunda manobra), o examinador poderá identificar o dorso fetal assim como partes fetais."
+        },
+        {
+          "key": "c",
+          "text": "no terceiro tempo (ou terceira manobra), o examinador poderá apreender o polo cefálico, caso o feto esteja em apresentação pélvica."
+        },
+        {
+          "key": "d",
+          "text": "no quarto tempo (ou quarta manobra), o examinador poderá palpar o polo pélvico, caso o feto esteja em situação cefálica."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "No segundo tempo das manobras de Leopold, o examinador desliza as mãos lateralmente ao útero, identificando o dorso fetal e as pequenas partes fetais em cada lado.",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_093",
+      "statement": "Leia o caso clínico a seguir. Primigesta comparece na maternidade apresentando batimentos cardíacos fetais presentes, contrações uterinas regulares de cinco em cinco minutos, colo médio e dilatado 3 cm. Idade gestacional estimada pela data da última menstruação é de 35 semanas e três dias. No cartão de pré-natal, estão anotados os resultados de três ultrassonogra as: a primeira foi realizada com dez semanas. Assim, a estimativa por esse exame é a de que hoje ela se encontra com 38 semanas; a segunda foi realizada com 20 semanas. Desse modo, a estimativa por esse exame é a de que hoje ela se encontra com 37 semanas; a terceira foi realizada hoje. Assim, a estimativa por este exame é a de que ela se encontra com 36 semanas de idade gestacional. Nesse caso, a idade gestacional a ser considerada hoje e a consequente conduta são, respectivamente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "38 semanas; acompanhamento do trabalho de parto."
+        },
+        {
+          "key": "b",
+          "text": "35 semanas e três dias; inibição do trabalho de parto."
+        },
+        {
+          "key": "c",
+          "text": "36 semanas; acompanhamento do trabalho de parto."
+        },
+        {
+          "key": "d",
+          "text": "36 semanas; inibição do trabalho de parto."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Uma vez estabelecida a datação por ultrassonografia precoce e confiável do primeiro trimestre (realizada com 10 semanas, estimando 38 semanas hoje), essa referência deve ser mantida ao longo da gestação e não deve ser substituída por estimativas de exames mais tardios (menos precisos para datação devido à variabilidade do crescimento fetal) — a idade gestacional a ser considerada é de 38 semanas, com conduta de acompanhamento do trabalho de parto (gestação já a termo, não pré-termo).",
+      "theme": "pn_exames",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_094",
+      "statement": "Dos exames elencados abaixo, o que não deve rotineiramente solicitado na primeira consulta de pré-natal é o (a):",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Glicemia de jejum"
+        },
+        {
+          "key": "b",
+          "text": "EAS"
+        },
+        {
+          "key": "c",
+          "text": "HbsAg"
+        },
+        {
+          "key": "d",
+          "text": "Sorologia para Toxoplasmose"
+        },
+        {
+          "key": "e",
+          "text": "Anti-HCV"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "O anti-HCV (pesquisa de hepatite C) não constava, classicamente, entre os exames de rotina universalmente solicitados na primeira consulta de pré-natal, diferentemente de glicemia de jejum, EAS, HBsAg e sorologia para toxoplasmose.",
+      "theme": "pn_exames",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_095",
+      "statement": "Paciente gestante fez vinculação no pré-natal referindo a data da última menstruação (DUM) em 28/2/2020, con rmada por ultrassonogra a precoce. Sempre assintomática fez seus exames laboratoriais de primeiro trimestre em 12/06/2020 com os seguintes resultados: Hb: 11,3 g/dl, TSH: 3,75 mU/l. Urocultura com E.coli 5.000 UFC/ml, parcial de urina com cristais de oxalato de cálcio. Glicemia 90. Rastreamento para sí lis, hepatites B e C negativos. Toxoplasmose IgM e IgG reagentes com avidez para Ig G forte. HIV negativo. Qual a conduta correta para essa paciente segundo o protocolo da Rede Mãe Curitibana de 2020:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Iniciar o tratamento com levotiroxina imediatamente, com controle do TSH mensalmente, além de encaminhamento para alto risco."
+        },
+        {
+          "key": "b",
+          "text": "Iniciar tratamento com espiramicina imediatamente e encaminhar para alto risco por toxoplasmose aguda."
+        },
+        {
+          "key": "c",
+          "text": "Iniciar tratamento com cefalexina imediatamente e solicitar urocultura de controle 7 dias após o término do tratamento."
+        },
+        {
+          "key": "d",
+          "text": "Classifica-la como baixo risco e solicitar anti-TPO, indicando tratamento somente se este exame for positivo."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de TSH 3,75 (dentro da normalidade), toxoplasmose com avidez de IgG forte (infecção antiga, sem risco de transmissão nesta gestação), urocultura com contagem abaixo do limiar de significância e demais exames normais, a conduta é classificar a paciente como baixo risco, solicitando anti-TPO para investigar disfunção tireoidiana autoimune subclínica, tratando apenas se esse exame for positivo — conforme o protocolo específico referenciado.",
+      "theme": "pn_exames",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_096",
+      "statement": "Primigesta com 13 semanas comparece para iniciar o acompanhamento pré-natal. Está assintomática e nega antecedentes médicos. Ao exame físico, IMC normal, PA 140/90 mmHg, útero compatível com 13 semanas de gestação e batimentos cardíacos fetais perceptíveis ao sonar. Refere alimentação equilibrada e adequada. Qual deve ser a prescrição?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ácido fólico 5 mg/dia."
+        },
+        {
+          "key": "b",
+          "text": "Hidroclorotiazida 25 mg/dia."
+        },
+        {
+          "key": "c",
+          "text": "Ácido acetilsalicílico 150 mg/dia."
+        },
+        {
+          "key": "d",
+          "text": "Cálcio 25 mg/dia e ômega 3 500 mg/dia."
+        },
+        {
+          "key": "e",
+          "text": "Nenhuma medicação no momento."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de PA 140/90mmHg já na 13ª semana (fator de risco para pré-eclâmpsia), a prescrição indicada é o ácido acetilsalicílico em dose baixa para profilaxia de pré-eclâmpsia, iniciado precocemente na gestação em pacientes de risco.",
+      "theme": "pn_alto",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_097",
+      "statement": "Paciente de 38 anos, primigesta, comparece ao ambulatório para primeira consulta de pré-natal com 10 semanas de idade gestacional, pela última menstruação. Você solicita a ultrassonogra a transvaginal para que seja realizada entre 11 semanas e 13 semanas e 6 dias. Qual é, dentre as seguintes opções, uma função dessa ultrassonografia?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Diagnosticar aneuploidia."
+        },
+        {
+          "key": "b",
+          "text": "Rastrear colo curto na gestação."
+        },
+        {
+          "key": "c",
+          "text": "Confirmar a datação da gravidez."
+        },
+        {
+          "key": "d",
+          "text": "Diagnosticar doença hipertensiva gestacional."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A ultrassonografia entre 11 e 13 semanas e 6 dias (morfológica de primeiro trimestre) tem, entre suas funções, confirmar a datação da gestação com alta precisão (por meio do CCN), além de rastrear (não diagnosticar definitivamente) aneuploidias através da translucência nucal e outros marcadores.",
+      "theme": "pn_exames",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_098",
+      "statement": "Não existem respostas de nitivas sobre quais medicamentos são os mais seguros durante a gestação e lactação. A Food and Drug Administration (FDA), agência norte-americana, classi ca os fármacos em cinco categorias de risco para o uso durante a gravidez. Relacione a Coluna 1 à Coluna 2, associando os exemplos de fármacos às categorias com sua definição. Coluna 1 1. Ácido valproico. 2. Acetaminofeno. 3. Aspirina. 4. Lítio. 5. Ferro. Coluna 2 ( ) Categoria A: ausência de risco para o feto em estudos controlados com seres humanos. ( ) Categoria B: ausência de risco para o feto em estudos com animais, mas sem estudos controlados para seres humanos, ou risco para o feto em animais, sem risco em estudos bem controlados com seres humanos. ( ) Categoria C: efeitos adversos para o feto em animais; sem disponibilidade de dados para seres humanos. ( ) Categoria D: risco observado para fetos humanos (pode ser usado em situação potencialmente letal). ( ) Categoria X: risco comprovado para fetos humanos (sem indicação para uso, mesmo em situações potencialmente letais). A ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "2 – 5 – 3 – 1 – 4."
+        },
+        {
+          "key": "b",
+          "text": "3 – 2 – 5 – 4 – 1."
+        },
+        {
+          "key": "c",
+          "text": "5 – 3 – 2 – 1 – 4."
+        },
+        {
+          "key": "d",
+          "text": "5 – 2 – 3 – 4 – 1."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Associação correta pela classificação de risco da FDA: Categoria A = ferro (5); Categoria B = acetaminofeno (2); Categoria C = aspirina (3); Categoria D = lítio (4); Categoria X = ácido valproico (1) — sequência 5-2-3-4-1.",
+      "theme": "pn_habitual",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_099",
+      "statement": "Assinale a assertiva correta sobre dosagem e período ideal de administração de ácido fólico para pacientes que pretendem engravidar.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Todos as pacientes devem utilizar 5 mg/dia, por via oral, por pelo menos 30 dias antes de concepção e até a 1ª semana de gestação."
+        },
+        {
+          "key": "b",
+          "text": "Pacientes com filho com defeito do tubo neural em gestação anterior devem receber 4 mg/dia, por via oral, por pelo menos 30 dias antes da concepção e até a 12ª semana de gestação."
+        },
+        {
+          "key": "c",
+          "text": "Pacientes que não apresentam fator de risco para malformação do tubo neural devem receber pelo menos 1 mg/dia, por via oral, desde a concepção até o final da gestação."
+        },
+        {
+          "key": "d",
+          "text": "Pacientes em uso de carbamazepina devem receber 0,4 mg/dia, por via oral, por pelo menos 30 dias antes da concepção e até a 12ª semana de gestação."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Pacientes com filho prévio afetado por defeito do tubo neural constituem grupo de alto risco, devendo receber dose maior de ácido fólico (4mg/dia), iniciada pelo menos 30 dias antes da concepção e mantida até a 12ª semana de gestação — período crítico do fechamento do tubo neural.",
+      "theme": "pn_alto",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "pn_100",
+      "statement": "No que tange à Lei de Planejamento Familiar nº 9.263, de 12 de janeiro de 1996, que regulamenta a esterilização cirúrgica, julgue como Verdadeiro (V) e Falso (F) as alternativas abaixo: I - Destina-se a homens e mulheres com capacidade civil plena. II - Regulamenta-se somente a indivíduos maiores de vinte e cinco anos de idade e, pelo menos, com dois filhos vivos. III -Deve ser observado o prazo mínimo de sessenta dias entre a manifestação da vontade e o ato cirúrgico. IV - É permitido no caso de risco à vida ou à saúde da mulher ou do futuro concepto, testemunhado em relatório escrito e assinado por dois médicos. V - A esterilização cirúrgica é proibida durante os períodos de parto ou aborto, exceto nos casos de comprovada necessidade, por cesarianas sucessivas anteriores, e que ela não deve ser feita por meio de histerectomia ou ooforectomia.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "V, V, V, V, V."
+        },
+        {
+          "key": "b",
+          "text": "V, F, V, V, V."
+        },
+        {
+          "key": "c",
+          "text": "V, V, V, V, F."
+        },
+        {
+          "key": "d",
+          "text": "V, F, V, V, F."
+        },
+        {
+          "key": "e",
+          "text": "V, F, V, F, F."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Sequência V-F-V-V-V: a lei destina-se a homens e mulheres com capacidade civil plena (I, V); regulamenta-se a maiores de 25 anos OU com pelo menos 2 filhos vivos — não ambos os critérios simultaneamente como afirmado com 'e' (II, F); exige prazo mínimo de 60 dias entre manifestação de vontade e o ato cirúrgico (III, V); é permitida em caso de risco à vida/saúde documentado por dois médicos (IV, V); e é proibida durante parto/aborto exceto por cesarianas sucessivas comprovadas, vedada por histerectomia/ooforectomia (V, V).",
+      "theme": "pn_habitual",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}

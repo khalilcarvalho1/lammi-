@@ -1,1 +1,1772 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "parto_001",
+      "statement": "Em relação ao intervalo de tempo que a ausculta fetal intermitente deve ser realizada na assistência ao parto na fase ativa (primeiro período) e no período expulsivo (segundo período), respectivamente, assinale a alternativa CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "10 minutos em ambos"
+        },
+        {
+          "key": "b",
+          "text": "30 minutos em ambos"
+        },
+        {
+          "key": "c",
+          "text": "10 minutos e 10 a 15 minutos"
+        },
+        {
+          "key": "d",
+          "text": "15 a 30 minutos e 5 minutos"
+        },
+        {
+          "key": "e",
+          "text": "60 minutos e 15 minutos"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A ausculta fetal intermitente deve ser realizada a cada 15-30 minutos na fase ativa do primeiro período e a cada 5 minutos no período expulsivo.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_002",
+      "statement": "Assinale a alternativa que apresenta uma condição que é indicação absoluta de cesárea.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "cabeça derradeira."
+        },
+        {
+          "key": "b",
+          "text": "descolamento prematuro de placenta, com feto morto."
+        },
+        {
+          "key": "c",
+          "text": "placenta prévia centro-total, com feto morto."
+        },
+        {
+          "key": "d",
+          "text": "apresentação pélvica com feto vivo."
+        },
+        {
+          "key": "e",
+          "text": "pré-eclâmpsia com feto vivo."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Entre as opções, a placenta prévia centro-total (mesmo com feto morto) é indicação absoluta de cesárea, já que a obstrução mecânica total do canal de parto impede o parto vaginal independentemente da vitalidade fetal.",
+      "theme": "par_cesarea",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_003",
+      "statement": "Versão cefálica externa é um procedimento que consiste na transformação de apresentação pélvica em cefálica mediante suave manipulação no abdome materno, sendo assim, assinale a alternativa incorreta sobre o assunto:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "É realizada preferencialmente com 37 semanas de gestação."
+        },
+        {
+          "key": "b",
+          "text": "Deve ser realizada em ambiente hospitalar."
+        },
+        {
+          "key": "c",
+          "text": "O uso de anestesia geral está contraindicado."
+        },
+        {
+          "key": "d",
+          "text": "Cesárea prévia é uma contraindicação absoluta para a versão cefálica externa."
+        },
+        {
+          "key": "e",
+          "text": "Obesidade materna é uma contraindicação relativa para a versão cefálica externa."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "É a alternativa INCORRETA: cesárea prévia (segmentar transversa) não é contraindicação absoluta à versão cefálica externa, podendo ser realizada com avaliação individualizada.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_004",
+      "statement": "São indicações absolutas de cesariana, exceto:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Prolapso de cordão."
+        },
+        {
+          "key": "b",
+          "text": "Morte materna com feto vivo."
+        },
+        {
+          "key": "c",
+          "text": "Apresentação pélvica."
+        },
+        {
+          "key": "d",
+          "text": "Cicatriz uterina prévia corporal."
+        },
+        {
+          "key": "e",
+          "text": "Herpes genital ativo."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "É a exceção: apresentação pélvica não é indicação absoluta de cesariana, podendo ser conduzido parto vaginal pélvico em casos selecionados — diferente de prolapso de cordão, morte materna com feto vivo, cicatriz uterina corporal prévia e herpes genital ativo, que são indicações absolutas reais.",
+      "theme": "par_cesarea",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_005",
+      "statement": "Gestante em período expulsivo, apresenta o sinal da tartaruga com consequente di culdade para a extração fetal. Considerando esse contexto, qual a primeira manobra a serrealizada nesta distócia?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Deventer- Muller."
+        },
+        {
+          "key": "b",
+          "text": "Zavanelli"
+        },
+        {
+          "key": "c",
+          "text": "McRoberts"
+        },
+        {
+          "key": "d",
+          "text": "Mauriceau,"
+        },
+        {
+          "key": "e",
+          "text": "Bracht."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O sinal da tartaruga indica distocia de ombro; a primeira manobra a ser realizada é a de McRoberts (hiperflexão e abdução das coxas maternas).",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_006",
+      "statement": "Gestante, 27 anos de idade, primigesta, encontra-se com 34 semanas de gestação. Em consulta de pré-natal de rotina, quer se preparar para o trabalho de parto e conhecer detalhes da assistência ao parto de baixo risco. Deve-se informar, corretamente, que.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "se recomenda massagem perineal durante o segundo período do parto."
+        },
+        {
+          "key": "b",
+          "text": "se considera trabalho de parto estabelecido quando a dilatação cervical é de pelo menos 4 a 6 cm, acompanhada de contrações uterinas regulares."
+        },
+        {
+          "key": "c",
+          "text": "se considera terceiro período do parto prolongado após decorridos 60 minutos do nascimento."
+        },
+        {
+          "key": "d",
+          "text": "o acompanhamento do trabalho de parto pode ser realizado por médico obstetra ou enfermeira obstétrica, que devem escutar o batimento cardíaco fetal a cada duas horas."
+        },
+        {
+          "key": "e",
+          "text": "a duração normal da fase ativa do segundo período do trabalho de parto nas primíparas sem analgesia é de uma a cinco horas."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Considera-se trabalho de parto estabelecido quando há dilatação cervical de pelo menos 4 a 6 cm acompanhada de contrações uterinas regulares.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_007",
+      "statement": "O uso da episiotomia caiu nos últimos 30 anos, devido ao seu uso restrito ao invés de rotineiro. Entretanto, este ainda é um procedimento comum na prática médica. A indicação de episiotomia não pode ser considerada nos casos de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Distocia de ombro."
+        },
+        {
+          "key": "b",
+          "text": "Feto macrossômico."
+        },
+        {
+          "key": "c",
+          "text": "Crescimento intrauterino restrito."
+        },
+        {
+          "key": "d",
+          "text": "Parto vaginal operatório."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A episiotomia não está indicada isoladamente nos casos de restrição de crescimento intrauterino, diferente de distocia de ombro, macrossomia fetal e parto vaginal operatório, situações em que pode ser considerada.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_008",
+      "statement": "O trabalho de parto e o parto são fenômenos siológicos, mas passíveis da ocorrência de eventos complicadores e consequentes desfechos adversos, sendo um dos pilares da boa prática obstétrica a adequada assistência ao parto. Dessa forma, em uma paciente de risco habitual, é recomendada pela OMS, a realização rotineira de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "clampeamento precoce do cordão umbilical."
+        },
+        {
+          "key": "b",
+          "text": "episiotomia mediolateral direita no 2º período."
+        },
+        {
+          "key": "c",
+          "text": "ocitocina intramuscular após saída do ombro anterior."
+        },
+        {
+          "key": "d",
+          "text": "obtenção de acesso venoso para possível administração de medicação."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A OMS recomenda a administração rotineira de ocitocina intramuscular após a saída do ombro anterior, como parte do manejo ativo do terceiro período, mesmo em pacientes de risco habitual.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_009",
+      "statement": "O puerpério é um período marcado pelo retorno das modi cações siológicas da gestação à condição pré-gravídica. Em relação ao puerpério, é correto afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Mulheres que não amamentam podem ovular com 25 dias de puerpério."
+        },
+        {
+          "key": "b",
+          "text": "O útero está na altura da cicatriz umbilical logo após o parto e diminui em média 3 cm por dia nos dias subsequentes."
+        },
+        {
+          "key": "c",
+          "text": "Os lóquios sanguinolentos são seguidos pelos lóquios alvos e, por último, pelos lóquios serossanguinolentos."
+        },
+        {
+          "key": "d",
+          "text": "O orifício cervical interno persiste aberto até 14 dias após o parto."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Mulheres que não estão amamentando podem retomar a ovulação já a partir de aproximadamente 25 dias de puerpério, sendo importante orientar sobre contracepção precoce.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_010",
+      "statement": "São consideradas manobras de primeira linha para tratamento da distocia de ombros:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Manobra de McRoberts, pressão suprapúbica e retirada do braço posterior do feto."
+        },
+        {
+          "key": "b",
+          "text": "Pressão suprapúbica, Manobra de Kristeller e Manobra de Rubin."
+        },
+        {
+          "key": "c",
+          "text": "Sinfisiotomia, Manobra de Rubin e retirada do braço posterior."
+        },
+        {
+          "key": "d",
+          "text": "Manobra de Kristeller, clidotomia e Manobra de McRoberts."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "As manobras de primeira linha para tratamento da distocia de ombro são a manobra de McRoberts, a pressão suprapúbica e a retirada do braço posterior do feto.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_011",
+      "statement": "Das técnicas abaixo, qual apresenta maior efetividade para a analgesia de parto?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Bloqueio espinhal."
+        },
+        {
+          "key": "b",
+          "text": "Bloqueio de nervo pudendo."
+        },
+        {
+          "key": "c",
+          "text": "Meperidina."
+        },
+        {
+          "key": "d",
+          "text": "Analgesia venosa controlada pelo paciente."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O bloqueio espinhal (raquianestesia/bloqueio neuroaxial) é a técnica com maior efetividade para analgesia de parto, comparado a bloqueio de pudendo, opioides sistêmicos ou analgesia venosa controlada.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_012",
+      "statement": "De acordo com a Organização Mundial de Saúde é correto afirmar sobre a assistência ao parto:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A parturiente deve ser orientada de que a fase latente dura por volta de 5 horas."
+        },
+        {
+          "key": "b",
+          "text": "A duração da fase ativa é de cerca de 5 horas."
+        },
+        {
+          "key": "c",
+          "text": "A dilatação de 1 cm/hora na fase ativa é excelente marcador para identificar mulheres em risco de resultados adversos."
+        },
+        {
+          "key": "d",
+          "text": "A fase ativa é caracterizada por dilatação cervical mais rápida de 5 cm até a dilatação total."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Segundo as recomendações atuais da OMS, a fase ativa do trabalho de parto é caracterizada pela dilatação cervical mais rápida, a partir de 5 cm até a dilatação total.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_013",
+      "statement": "O parto em feto de apresentação pélvica é cada vez menos realizado. No entanto pode haver situações em que ele pode ser necessário. Sobre o atendimento ao parto pélvico pode-se afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pode ser utilizada a manobra de McRoberts para aumentar os estreitos médio e inferior da bacia."
+        },
+        {
+          "key": "b",
+          "text": "É dispensado o uso do partograma, já que não há como representar o polo pélvico no gráfico."
+        },
+        {
+          "key": "c",
+          "text": "Não há necessidade de auxiliares devido à baixa taxa de complicações."
+        },
+        {
+          "key": "d",
+          "text": "Nos casos de cabeça derradeira está indicado o fórcipe de Kieland."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "No parto pélvico, a manobra de McRoberts pode ser utilizada para ampliar os diâmetros dos estreitos médio e inferior da bacia, auxiliando a progressão do parto.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_014",
+      "statement": "Sobre as distocias do cordão umbilical é correto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Procidência é a presença do cordão umbilical antes da apresentação após a amniorrexe e, mesmo no feto morto, está indicado cesariana."
+        },
+        {
+          "key": "b",
+          "text": "Procúbito é a presença do cordão umbilical antes da apresentação estando o saco amniótico íntegro, se identificado pela ultrassonografia indica cesariana."
+        },
+        {
+          "key": "c",
+          "text": "Prolapso é a presença do cordão umbilical antes da apresentação com o saco amniótico íntegro, indicando parto vaginal com bolsa íntegra."
+        },
+        {
+          "key": "d",
+          "text": "As circulares de cordão são propiciadas pela oligodramnia e o pós-datismo e indicam formalmente a cesariana."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O procúbito de cordão é a presença do cordão umbilical à frente da apresentação com bolsa amniótica íntegra; quando identificado por ultrassonografia, indica cesariana para evitar compressão do cordão após a rotura da bolsa.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_015",
+      "statement": "Durante o parto vaginal em apresentação pélvica, a manobra usada após a saída do polo pélvico é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "erguimento do tronco, com o dorso fetal em direção à pube, colocando o diâmetro bisacromial transversalmente à bacia."
+        },
+        {
+          "key": "b",
+          "text": "abaixamento do polo pélvico e deslocamento lateral do dorso fetal para liberação dos ombros."
+        },
+        {
+          "key": "c",
+          "text": "tração em direção inferior do dorso fetal até que o diâmetro bisacromial fique em sentido perpendicular ao diâmetro transverso da bacia."
+        },
+        {
+          "key": "d",
+          "text": "tração leve e constante do polo pélvico, oscilando lateralmente repetidas vezes até o desprendimento dos ombros."
+        },
+        {
+          "key": "e",
+          "text": "posicionamento do dorso fetal para baixo em direção à fúrcula vaginal para o desprendimento das espáduas."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Após a saída do polo pélvico no parto vaginal em apresentação pélvica, realiza-se o erguimento do tronco fetal, com o dorso voltado em direção à pube materna, posicionando o diâmetro bisacromial transversalmente à bacia.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_016",
+      "statement": "Durante o parto vaginal de feto macrossômico, o obstetra pede consentimento da parturiente para realizar episiotomia médiolateral direita, caso seja necessário, e é autorizado. Assim, se decidir realizar esse procedimento, deverá fazê-lo",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "no momento em que o polo cefálico distende o períneo, em ângulo de 60º da linhamédia."
+        },
+        {
+          "key": "b",
+          "text": "imediatamente antes do desprendimento dos ombros, seccionado o introito vaginal."
+        },
+        {
+          "key": "c",
+          "text": "durante a distensão perineal, na linha média, seccionado o músculo levantador do ânus."
+        },
+        {
+          "key": "d",
+          "text": "imediatamente antes da inserção do fórceps de Simpson, seccionado o introitovaginal."
+        },
+        {
+          "key": "e",
+          "text": "quando o polo cefálico atinge a posição +2, em ângulo de 45º com a linha média."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A episiotomia, quando indicada, deve ser realizada no momento em que o polo cefálico distende o períneo, em ângulo de 60º em relação à linha média.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_017",
+      "statement": "No parto pélvico, a manobra de Bracht consiste em",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "compressão supra-púbica."
+        },
+        {
+          "key": "b",
+          "text": "elevação do dorso fetal em direção ao abdômen materno"
+        },
+        {
+          "key": "c",
+          "text": "deixar a cabeça fetal pendente, sem sustentação, por 20 segundos."
+        },
+        {
+          "key": "d",
+          "text": "rotação do dorso da posição posterior para anterior."
+        },
+        {
+          "key": "e",
+          "text": "hiperflexão das coxas maternas para ampliar o estreito superior da bacia."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A manobra de Bracht, no parto pélvico, consiste na elevação do dorso fetal em direção ao abdome materno, favorecendo o desprendimento espontâneo dos ombros e da cabeça derradeira.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_018",
+      "statement": "Primigesta, 22 anos, em consulta pré-natal, quer saber mais informações sobre episiotomia, porque viu na televisão uma reportagem sobre violência obstétrica. Para uma orientação correta a esta paciente, o médico que atende deverá saber que: Assinale a correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A episiotomia mediana apresenta baixo risco para lacerações de terceiro ou quartograu e apresenta grande efeito protetor para lacerações."
+        },
+        {
+          "key": "b",
+          "text": "A episiotomia pode ser realizada sem o consentimento da parturiente, não sendonecessário obter seu consentimento esclarecido antes da realização da mesma."
+        },
+        {
+          "key": "c",
+          "text": "Não há evidências cientificas suficientes para definir as indicações para a episiotomia,apenas que o uso seletivo continua a ser a melhor prática a ser adotada."
+        },
+        {
+          "key": "d",
+          "text": "A episiotomia realizada de forma seletiva, bem justificada, com técnica correta, ésempre necessária para evitar roturas perineais importantes."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Não há evidências científicas suficientes para definir indicações precisas para a episiotomia; o uso seletivo, com justificativa clínica individualizada, continua sendo a melhor prática recomendada.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_019",
+      "statement": "A assistência clínica ao parto estuda os procedimentos que devem ser adotados no acompanhamento do trabalho de parto. O parto é dividido em 4 períodos ou fases clínicas distintas. Sobre as fases clínicas e assistência ao parto é correto a rmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "o 2º período do trabalho de parto inicia-se quando ocorre apagamento total do colo uterino, sem dilatação ainda. É vital o acompanhamento dos batimentos cardíacos fetais nesse período."
+        },
+        {
+          "key": "b",
+          "text": "o 3º período começa antes do desprendimento da cabeça fetal e termina com a saída da placenta, que é extraída imediatamente com tração manual contínua em partos vaginais."
+        },
+        {
+          "key": "c",
+          "text": "o 4º período clínico é marcado por miorelaxamento e obliteração por trombose vascular no útero (trombotamponamento). É importante a observação de sangramentos excessivos nesse momento."
+        },
+        {
+          "key": "d",
+          "text": "no final da 2ª fase clínica do parto ocorre o desprendimento total do feto, nesse período a atividade uterina é máxima e a dilatação do colo é total."
+        },
+        {
+          "key": "e",
+          "text": "na 1ª fase clínica do parto inicia com contrações uterinas ainda não sem potencial de dilatar o colo uterino, sendo mandatório o emprego de ocitocina exógena nessa fase."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "No final do segundo período clínico do parto (expulsivo), ocorre o desprendimento total do feto, com atividade uterina máxima e dilatação cervical total.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_020",
+      "statement": "Durante o plantão em um hospital geral, o médico avalia uma puérpera que foi trazida por um taxista, acompanhada da irmã. O parto ocorreu em casa, há cerca de 25 minutos. O neonato pesou 4.230g, encontra-se bem e exibe um choro vigoroso. A mulher, aos 26 anos de idade é tercípara e informa que o primeiro parto foi por via vaginal e o segundo foi por cesariana, pois a criança estava assentada. O sangramento genital parece abundante e o cordão umbilical encontra-se visível no introito vaginal. Assinale a medida MAIS IMPORTANTE a ser tomada neste momento.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Administrar cefalotina por via venosa"
+        },
+        {
+          "key": "b",
+          "text": "Administrar ocitocina por via intramuscular"
+        },
+        {
+          "key": "c",
+          "text": "Realizar ultrassonografia abdominal"
+        },
+        {
+          "key": "d",
+          "text": "Tracionar o cordão umbilical"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de hemorragia pós-parto após parto domiciliar de recém-nascido macrossômico (fator de risco para atonia uterina), a medida mais importante é a administração de ocitocina intramuscular, já que a tração do cordão sem sinais de dequitação pode causar inversão uterina.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_021",
+      "statement": "Paciente primigesta, com gestação a termo, procura atendimento em hospital de nível secundário apresentando quadro de dor em baixo ventre rítmica e perda de tampão mucoso. O exame admissional evidencia dilatação do colo uterino de 6,0cm, concepto em apresentação cefálica, frequência cardíaca fetal de 148 bpm e pressão arterial de 120x70mmHg. Nega doenças crônicas, uso de medicações ou alergias conhecidas. Para garantir atendimento humanizado durante o trabalho de parto, deve ser oferecido:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Puxos orientados, amniotomia precoce, enterocilsma e delivramento ativo."
+        },
+        {
+          "key": "b",
+          "text": "Acompanhante de livre escolha, alimentação leve, tricotomia pubiana e verticalização."
+        },
+        {
+          "key": "c",
+          "text": "Enteroclisma, estimular deambulação, métodos não farmacológicos para alívio da dor e toques vaginais 4/4 horas."
+        },
+        {
+          "key": "d",
+          "text": "Bloqueio combinado raqui/peridural, posição materna de livre escolha, acompanhante de livre escolha e agentes uterotônicos no pós-parto."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Para garantir atendimento humanizado no trabalho de parto, deve ser oferecido bloqueio combinado raqui/peridural para analgesia, posição materna de livre escolha, acompanhante de livre escolha e uso de agentes uterotônicos no pós-parto — condutas baseadas em evidências e alinhadas às boas práticas obstétricas.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_022",
+      "statement": "Acerca do manejo adequado do trabalho de parto, bem como do tratamento e da prevenção de suas complicações, julgue o item a seguir. Uma estratégia e caz para reduzir a necessidade de administração de ocitocina exógena e a taxa de cesariana é internar a paciente em trabalho de parto a partir do momento em que ela apresentar seis centímetros de dilatação cervical e uma frequência mínima de duas contrações a cada dez minutos.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Internar a paciente em trabalho de parto a partir de 6 cm de dilatação, com dinâmica uterina estabelecida, é estratégia eficaz para reduzir a necessidade de ocitocina exógena e a taxa de cesariana, evitando internações precoces em fase latente.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_023",
+      "statement": "O parto vaginal pode ser realizado rotineiramente nos casos de",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "circular de cordão."
+        },
+        {
+          "key": "b",
+          "text": "mãe com HIV e carga viral acima de 1.000 cópias/mL."
+        },
+        {
+          "key": "c",
+          "text": "gêmeos monozigóticos."
+        },
+        {
+          "key": "d",
+          "text": "cesária corporal anterior."
+        },
+        {
+          "key": "e",
+          "text": "herpes genital ativo."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A circular de cordão isolada, sem outras complicações, não contraindica o parto vaginal, podendo ser conduzida rotineiramente por via baixa.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_024",
+      "statement": "É indicação absoluta de cesariana:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pré-eclâmpsia grave"
+        },
+        {
+          "key": "b",
+          "text": "Placenta prévia centro-total"
+        },
+        {
+          "key": "c",
+          "text": "Primigeta com mais de 35 anos"
+        },
+        {
+          "key": "d",
+          "text": "Condiloma vulvar"
+        },
+        {
+          "key": "e",
+          "text": "Macrossomia fetal"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A placenta prévia centro-total é indicação absoluta de cesariana, por obstrução completa do canal de parto.",
+      "theme": "par_cesarea",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_025",
+      "statement": "Manobra condenável durante o trabalho de parto, onde o fundo uterino é comprimido pela borda cubital do antebraço do assistente, com a finalidade de facilitar a expulsão fetal:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Mauriceau."
+        },
+        {
+          "key": "b",
+          "text": "McRoberts."
+        },
+        {
+          "key": "c",
+          "text": "Kristeller."
+        },
+        {
+          "key": "d",
+          "text": "Bracht."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A manobra de Kristeller (compressão do fundo uterino com a borda cubital do antebraço) é uma manobra condenável e proscrita na assistência ao parto, associada a maior risco de lesões maternas e fetais.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_026",
+      "statement": "Em uma paciente sem doenças, submetida a parto vaginal de termo, 10 minutos após o nascimento, não ocorreu a dequitação. Qual é a conduta indicada para o caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aguardar pelo menos mais 20 minutos para manobras."
+        },
+        {
+          "key": "b",
+          "text": "Extração manual da placenta com antibioticoprofilaxia."
+        },
+        {
+          "key": "c",
+          "text": "Administração de derivados do ergot intramuscular."
+        },
+        {
+          "key": "d",
+          "text": "Laparotomia por suspeita de acretismo placentário"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na ausência de sinais de descolamento placentário, deve-se aguardar até completar cerca de 30 minutos (mais 20 minutos além dos 10 já decorridos) antes de considerar manobras intervencionistas, respeitando o tempo fisiológico normal da dequitação.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_027",
+      "statement": "Qual é a referência anatômica utilizada para realizar o procedimento anestésico representado na figura abaixo?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sínfese púbica."
+        },
+        {
+          "key": "b",
+          "text": "Linha íleo pectínea."
+        },
+        {
+          "key": "c",
+          "text": "Espinha isquiática."
+        },
+        {
+          "key": "d",
+          "text": "Forame obturatório"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A espinha isquiática é a referência anatômica utilizada para a realização do bloqueio do nervo pudendo.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_028",
+      "statement": "Uma gestante de 37 semanas, com queixa de dor em baixo ventre, ao exame físico apresenta duas contrações em 10 minutos de observação, com duração de 50 segundos. Ao toque, colo dilatado 4 cm, esvaecido, feto alto e xo. Pode-se afirmar que se trata de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "trabalho de parto prematuro"
+        },
+        {
+          "key": "b",
+          "text": "falso trabalho de parto prematuro"
+        },
+        {
+          "key": "c",
+          "text": "contrações de Braxton-Hicks"
+        },
+        {
+          "key": "d",
+          "text": "trabalho de parto"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A presença de duas contrações regulares em 10 minutos associada a colo dilatado e esvaecido caracteriza trabalho de parto estabelecido.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_029",
+      "statement": "Na condução de trabalho de parto com feto em apresentação pélvica, a complicação mais temida é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Distócia de ombro."
+        },
+        {
+          "key": "b",
+          "text": "Distócia de rotação."
+        },
+        {
+          "key": "c",
+          "text": "Distócia de partes moles."
+        },
+        {
+          "key": "d",
+          "text": "Cabeça derradeira."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A cabeça derradeira (retenção da cabeça última) é a complicação mais temida na condução do trabalho de parto em apresentação pélvica, pelo risco de asfixia e trauma fetal.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_030",
+      "statement": "Não faz parte do quarto período de Greenberg:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Atonia uterina."
+        },
+        {
+          "key": "b",
+          "text": "Miotamponagem."
+        },
+        {
+          "key": "c",
+          "text": "Trombotamponagem."
+        },
+        {
+          "key": "d",
+          "text": "Indiferença miouterina."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A atonia uterina não faz parte dos fenômenos fisiológicos normais do quarto período de Greenberg — miotamponamento, trombotamponamento e indiferença miouterina são eventos fisiológicos esperados, enquanto a atonia representa uma complicação/desvio patológico desse período.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_031",
+      "statement": "Considerando as atuais recomendações da Organização Mundial da Saúde para assistência ao parto (2018), assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A pelvimetria clínica deve ser realizada habitualmente antes de definir a via de parto."
+        },
+        {
+          "key": "b",
+          "text": "Considerar período expulsivo prolongado em primíparas quando for maior que duas horas."
+        },
+        {
+          "key": "c",
+          "text": "O antibiótico profilático deve ser em dose única, para os partos vaginais não complicados."
+        },
+        {
+          "key": "d",
+          "text": "A ligadura do cordão umbilical deve ser realizada apenas após completar o primeiro minuto após o nascimento."
+        },
+        {
+          "key": "e",
+          "text": "Não se deve mais utilizar rotineiramente a administração de vitamina K intramuscular para os recém-nascidos."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Conforme as recomendações da OMS de 2018, o clampeamento do cordão umbilical deve ser tardio, realizado apenas após completar o primeiro minuto de vida, salvo contraindicações específicas.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_032",
+      "statement": "Durante o período expulsivo em uma primípara de 27 anos, gestação única, cefálica, a termo, e com dilatação total, ocorre rotura espontânea da bolsa amniótica, com saída de grande quantidade de líquido claro, com grumos, conjuntamente com o prolapso do cordão umbilical. A conduta adequada, imediata, a ser tomada é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aplicação de fórceps de alívio, devido à dilatação total, para abreviar o período expulsivo, enquanto aplica-se pressão no fundo do útero."
+        },
+        {
+          "key": "b",
+          "text": "Decúbito lateral e encaminhamento o mais breve possível para o centro cirúrgico para a realização de uma cesariana de emergência."
+        },
+        {
+          "key": "c",
+          "text": "Colocação da gestante em posição genupeitoral e introdução dos dedos do obstetra na vagina, empurrando para cima a apresentação."
+        },
+        {
+          "key": "d",
+          "text": "Ausculta com sonar de forma interminente e encaminhamento para o centro obstétrico em decúbito ventral para a realização de uma cesariana imediata."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de prolapso de cordão com dilatação total, a conduta imediata é posicionar a gestante em posição genupeitoral e elevar manualmente a apresentação fetal para aliviar a compressão do cordão, enquanto se prepara a resolução definitiva.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_033",
+      "statement": "Com relação às fases clínicas do parto, pode-se afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "o 2° período começa com a dilatação total da cérvice e termina com a expulsão do feto"
+        },
+        {
+          "key": "b",
+          "text": "o 1° período consiste no período prodrômico"
+        },
+        {
+          "key": "c",
+          "text": "o secundamento ocorre no 2° período do parto"
+        },
+        {
+          "key": "d",
+          "text": "o 4° período caracteriza-se pelo descolamento, pela descida e pela expulsão da placenta e dos anexos"
+        },
+        {
+          "key": "e",
+          "text": "o final do 2° período é o momento em que a paciente deve ser encaminhada ao pré - parto"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O segundo período do parto inicia-se com a dilatação cervical total e termina com a expulsão completa do feto.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_034",
+      "statement": "Julgue o item a seguir, relativo a pré-natal, parto e puerpério. O quarto período do parto (ou de Greenberg) se inicia após a dequitação, estende-se por uma ou duas horas e pode ser caracterizado por eventos importantes na prevenção de hemorragias: miotamponamento, hemotamponamento e trombotamponamento.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O quarto período (de Greenberg) inicia-se após a dequitação, estende-se por cerca de uma a duas horas, e é caracterizado por miotamponamento, hemotamponamento e trombotamponamento, mecanismos importantes na prevenção da hemorragia pós-parto.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_035",
+      "statement": "Quanto à assistência ao trabalho de parto, em apresentação cefálica, assinale a alternativa correta com base em evidências e recomendações do Ministério da Saúde do Brasil.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A ligadura do cordão umbilical deve ser realizada antes de completar o primeiro minuto de vida, a cerca de dois centímetros do abdome fetal."
+        },
+        {
+          "key": "b",
+          "text": "Na presença de mecônio no líquido amniótico, deve-se proceder à aspiração da cavidade oral do feto logo após a saída do polo cefálico."
+        },
+        {
+          "key": "c",
+          "text": "Deve-se realizar rotineiramente o manejo ativo do terceiro período (administração de ocitocina, tração do cordão umbilical e contrapressão do útero)."
+        },
+        {
+          "key": "d",
+          "text": "A episiotomia deve ser realizada sempre antes do uso do vácuo-extrator ou em partos de prematuros (para evitar a hemorragia intracraniana)."
+        },
+        {
+          "key": "e",
+          "text": "A antibioticoterapia profilática (em dose única) deve ser indicada sempre que houver múltiplos toques vaginais durante o trabalho de parto ou a necessidade de episiotomia, para reduzir o risco de infecção materna puerperal."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O manejo ativo do terceiro período do parto (administração de ocitocina, tração controlada do cordão umbilical e contrapressão uterina) deve ser realizado rotineiramente, conforme recomendações do Ministério da Saúde, para reduzir o risco de hemorragia pós-parto.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_036",
+      "statement": "Quanto à assistência ao parto vaginal, é CORRETO afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A palpação do dorso fetal torna-se mais fácil com a manobra de Budin."
+        },
+        {
+          "key": "b",
+          "text": "A tricotomia e o enteroclisma devem ser realizados de rotina."
+        },
+        {
+          "key": "c",
+          "text": "Para as parturientes de baixo risco, no seguimento do trabalho de parto, a deambulação, o banho de chuveiro e o uso de métodos não farmacológicos não devem ser estimulados."
+        },
+        {
+          "key": "d",
+          "text": "para se auxiliar a dequitação, deve-se realizar forte tração do cordão associada à compressão fúndica do útero."
+        },
+        {
+          "key": "e",
+          "text": "A amniotomia está contraindicada nos casos de distocia funcional."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A manobra de Budin (pressão sobre o fundo uterino em direção à pelve) facilita a palpação do dorso fetal durante o exame obstétrico.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_038",
+      "statement": "Assinale a alternativa correta sobre o parto cesárea:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apresentação pélvica é indicação absoluta de parto cesárea."
+        },
+        {
+          "key": "b",
+          "text": "Em gestantes adolescentes é indicado o parto cesárea."
+        },
+        {
+          "key": "c",
+          "text": "Herpes genital com lesão ativa no momento em que se inicia o trabalho de parto é uma indicação real de parto cesárea."
+        },
+        {
+          "key": "d",
+          "text": "Cesárea anterior é indicação absoluta de parto cesárea."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A presença de lesão herpética genital ativa no início do trabalho de parto é uma indicação real (absoluta) de cesariana, visando reduzir o risco de transmissão vertical do herpes neonatal.",
+      "theme": "par_cesarea",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_039",
+      "statement": "São peculiaridades do denominado “quarto período do parto”, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ser posterior à dequitação placentária."
+        },
+        {
+          "key": "b",
+          "text": "Redistribuição volêmica, porque se reduz o desvio de sangue para o útero."
+        },
+        {
+          "key": "c",
+          "text": "Redução da compressão exercida pelo útero sobre os vasos pélvicos."
+        },
+        {
+          "key": "d",
+          "text": "Ausência de contratilidade uterina, com relaxamento das artérias uterinas."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "É a exceção: no quarto período há, sim, contratilidade uterina intermitente (o miotamponamento consiste justamente na contração da musculatura uterina), não ausência de contratilidade com relaxamento das artérias uterinas.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_040",
+      "statement": "Uma gestante III gesta II, para (2 partos vaginais anteriores), procura o pronto atendimento da maternidade com história de gravidez de 37,6 semanas e queixa de dores abdominais referidas como cólica há 3 horas, que vêm se intensi cando. Nega perda de líquido ou sangue por via vaginal. Ao exame clínico, encontra-se em bom estado geral, PA de 110x70 mmHg, pulso de 84 bpm e, ao exame obstétrico, apresenta tônus uterino normal, dinâmica uterina de 3 contrações de 35 segundos de média intensidade em 10 minutos. O feto está em situação longitudinal, apresentação cefálica e dorso à esquerda, FCF de 148 bpm. Ao toque, o colo está medianizado, grosso, pérvio para 4 cm, as membranas estão íntegras e a apresentação em OET-2. Frente a esses dados, é correta a seguinte conduta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "dispensar a gestante, pois ainda não está na fase ativa do trabalho de parto, já que o colo se encontra grosso."
+        },
+        {
+          "key": "b",
+          "text": "internar a gestante e romper as membranas, assim se avalia a cor do líquido amniótico e também se acelera o trabalho de parto."
+        },
+        {
+          "key": "c",
+          "text": "internar a gestante, colher os exames de lues e HIV, instalar soro glicosado com ocitocina em bomba de infusão."
+        },
+        {
+          "key": "d",
+          "text": "internar a gestante, mantendo-a em jejum, cateterizar o acesso venoso e, se não evoluir em 1 hora com pelo menos 1 cm (linha de alerta do partograma), romper membranas."
+        },
+        {
+          "key": "e",
+          "text": "internar a gestante, manter dieta oral, observar a evolução da atividade uterina e dilatação com controle de batimentos cardíacos fetais."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Diante de gestante em fase inicial do trabalho de parto (colo dilatado 4 cm, dinâmica presente, sem alterações de bem-estar fetal), a conduta adequada é internar mantendo dieta oral, com observação da evolução da dinâmica uterina e da dilatação, associada ao controle dos batimentos cardíacos fetais — conduta expectante sem intervenções desnecessárias.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_041",
+      "statement": "Parturiente, 30 anos, G2P2, 2 partos vaginais, sendo que o último parto vaginal foi eutócico e ocorreu há 20 minutos, sem episiotomia. A equipe está aguardando a dequitação placentária. A conduta imediata mais adequada é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Administrar 1 ampola de ergotamina intramuscular."
+        },
+        {
+          "key": "b",
+          "text": "Realizar curagem uterina sob anestesia."
+        },
+        {
+          "key": "c",
+          "text": "Administrar 10 UI de ocitocina intramuscular."
+        },
+        {
+          "key": "d",
+          "text": "Realizar massagem de fundo uterino."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Enquanto se aguarda a dequitação fisiológica dentro do tempo normal (até cerca de 30 minutos), a conduta adequada é a massagem leve do fundo uterino, evitando tração ativa do cordão antes de sinais de descolamento placentário.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_042",
+      "statement": "Dos listados abaixo, aquele que não faz parte das complicações possíveis na amnioscopia é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sangramento do colo uterino."
+        },
+        {
+          "key": "b",
+          "text": "Ruptura da bolsa."
+        },
+        {
+          "key": "c",
+          "text": "Descolamento de placenta."
+        },
+        {
+          "key": "d",
+          "text": "Trauma fetal."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O descolamento de placenta não é uma complicação da amnioscopia (procedimento que avalia o líquido amniótico através da bolsa íntegra, sem manipulação da placenta); sangramento do colo, ruptura da bolsa e trauma fetal são complicações possíveis do procedimento.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_043",
+      "statement": "O terceiro perído do parto corresponde à (ao):",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "dilatação cervical."
+        },
+        {
+          "key": "b",
+          "text": "insinuação do pólo cefálico."
+        },
+        {
+          "key": "c",
+          "text": "expulsão do feto."
+        },
+        {
+          "key": "d",
+          "text": "saída da placenta."
+        },
+        {
+          "key": "e",
+          "text": "primeira hora pós-parto."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O terceiro período do parto corresponde à dequitação, ou seja, à saída da placenta e dos anexos ovulares.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_044",
+      "statement": "São fases clinicas do trabalho de parto, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Descida"
+        },
+        {
+          "key": "b",
+          "text": "Dilatação"
+        },
+        {
+          "key": "c",
+          "text": "Secundamento"
+        },
+        {
+          "key": "d",
+          "text": "Expulsão"
+        },
+        {
+          "key": "e",
+          "text": "Primeira hora que se segue a expulsão da placenta"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "É a exceção: a 'descida' não constitui, isoladamente, uma das fases clínicas distintas do parto, sendo parte do mecanismo de parto dentro da fase de dilatação/expulsão — as fases clínicas clássicas são dilatação, expulsão, secundamento (dequitação) e a primeira hora pós-parto (4º período).",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_045",
+      "statement": "Gestante a termo, com quadro de rotura prematura das membranas há duas horas, sem metrossístoles, feto vivo e líquido amniótico claro com grumos. Ao exame genital, veri cam-se lesões herpéticas ativas em borda inferior do introito vaginal. A conduta, neste caso, é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "indução do trabalho de parto."
+        },
+        {
+          "key": "b",
+          "text": "cesariana no momento da internação."
+        },
+        {
+          "key": "c",
+          "text": "espera da entrada espontânea do trabalho de parto por 12 horas."
+        },
+        {
+          "key": "d",
+          "text": "cesariana após tratamento do herpes genital."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de herpes genital ativo com bolsa rota, a conduta é a cesariana no momento da internação, minimizando o tempo de exposição fetal às lesões ativas e reduzindo o risco de transmissão vertical.",
+      "theme": "par_cesarea",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_046",
+      "statement": "Distócia é por de nição a anormalidade no desenrolar do trabalho de parto. A di culdade de prever e prevenir a ocorrência da distócia de biacromial faz com que todas as atenções se voltem para as manobras que podem ser utilizadas na tentativa de resolver essa grave situação. Sobre distócia de ombro, numere a coluna da direita de acordo com a da esquerda. 1 - Manobra de McRoberts; 2 - Manobra de Rubin; 3 - Manobra de Jacquemier; 4 - Manobra de Woods; 5 - Manobra de Matthes. ( ) Consiste na hiper exão e abdução das coxas, com consequente deslocamento cranial da sín se púbica e reti cação da lordose lombar, liberando-se o ombro impactado. ( ) A paciente deve adotar a posição genupeitoral. Nessa posição, o ombro posterior torna-se anterior, permitindo que o braço seja facilmente apreendido e trazido para fora da vagina pela mão do obstetra. ( ) Realizar pressão suprapúbica, com pressão contínua sobre o ombro anterior do feto, que desliza sob a sín se púbica. ( ) O obstetra deve girar o tronco em 180°, em sentido horário. Após o ombro posterior ser liberado, roda-se o tronco em sentido anti-horário, 180°, soltando-se o outro ombro. ( ) Após suspender o polo cefálico, introduz-se a mão pela concavidade do sacro, apreende-se o antebraço e, por deslizamento, este é retirado pela face anterior do tórax. Assinale a sequência correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "3, 1, 5, 4, 2"
+        },
+        {
+          "key": "b",
+          "text": "1, 4, 3, 5, 2"
+        },
+        {
+          "key": "c",
+          "text": "1, 5, 2, 4, 3"
+        },
+        {
+          "key": "d",
+          "text": "3, 2, 5, 1, 4"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Sequência correta: 1-McRoberts (hiperflexão e abdução das coxas, retificando a lordose lombar), 5-Matthes/posição genupeitoral (tornando o ombro posterior em anterior), 2-Rubin (pressão suprapúbica contínua sobre o ombro anterior), 4-Woods (rotação do tronco em parafuso, 180° em cada sentido) e 3-Jacquemier (retirada do braço posterior pela concavidade do sacro) — sequência 1, 5, 2, 4, 3.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_048",
+      "statement": "Qual é o principal mecanismo siológico que diminui o sangramento após o parto vaginal, evitando a hemorragia no 4° período?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Bloqueio da fibrinólise."
+        },
+        {
+          "key": "b",
+          "text": "Contração muscular uterina."
+        },
+        {
+          "key": "c",
+          "text": "Aumento dos fatores de coagulação."
+        },
+        {
+          "key": "d",
+          "text": "Diminuição do fluxo sanguíneo nos vasos uterinos."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A contração da musculatura uterina (miotamponamento, incluindo o mecanismo das ligaduras vivas de Pinard) é o principal mecanismo fisiológico que reduz o sangramento após o parto vaginal, prevenindo a hemorragia no quarto período.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_049",
+      "statement": "Uma primigesta, com 40 semanas de idade gestacional, encontra-se na fase ativa do trabalho de parto. Apresenta 3 contrações/minuto, colo uterino 75% apagado, dilatado 7 cm, bolsa amniótica rota, líquido claro com grumos, além de apresentação cefálica no plano +2 de DeLee e cardiotocografia basal categoria 1. Nesse momento a conduta é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Realizar cesariana imediata"
+        },
+        {
+          "key": "b",
+          "text": "Realizar amnioscopia"
+        },
+        {
+          "key": "c",
+          "text": "Conduzir o trabalho de parto"
+        },
+        {
+          "key": "d",
+          "text": "Iniciar analgesia de parto imediata"
+        },
+        {
+          "key": "e",
+          "text": "Aplicar fórcipe alto"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de trabalho de parto em evolução normal, com cardiotocografia tranquilizadora (categoria 1) e dilatação progressiva, a conduta adequada é conduzir o trabalho de parto, mantendo acompanhamento expectante.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_050",
+      "statement": "Quando há necessidade de episiotomia, deve-se realizar a anestesia locorregional do períneo, utilizando-se como ponto de reparo:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Nervo pudendo."
+        },
+        {
+          "key": "b",
+          "text": "Promontório."
+        },
+        {
+          "key": "c",
+          "text": "Espinha ciática."
+        },
+        {
+          "key": "d",
+          "text": "Canal de Alcock."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "No contexto do bloqueio locorregional do nervo pudendo para episiotomia, a referência considerada nesta questão é o próprio nervo pudendo, cujo trajeto anatômico próximo à espinha isquiática orienta a técnica anestésica.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_051",
+      "statement": "Assinale a alternativa CORRETA a respeito do trabalho de parto a termo:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "É recomendado administrar ocotocina intramuscular, durante ou logo após a expulsão."
+        },
+        {
+          "key": "b",
+          "text": "Deve-se romper as membranas ovulares, quando a dilatação é maior que 5/6 cm quando não há evidências de infecção."
+        },
+        {
+          "key": "c",
+          "text": "Caso o secundamento não ocorra em até 30 minutos, deve-se proceder à expressão uterina para promover o descolamento placentário."
+        },
+        {
+          "key": "d",
+          "text": "O período expulsivo dura, em média, 15 minutos."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "É recomendada a administração de ocitocina intramuscular durante ou logo após a expulsão fetal, como parte do manejo ativo do terceiro período, para prevenção de hemorragia pós-parto.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_052",
+      "statement": "Gestante GV PIV A0 apresenta o seguinte exame na triagem obstétrica: dinâmica 4/10'/45\", dilatação 10 cm, apagamento de 80%, apresentação cefálica, plano \"0\" de De Lee, Bolsa integra, BCF =148 bpm. A fase clínica do parto e a melhor conduta são, respectivamente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Período de dilatação, amniotomia."
+        },
+        {
+          "key": "b",
+          "text": "Período de dilatação, expectante."
+        },
+        {
+          "key": "c",
+          "text": "Período expulsivo, expectante."
+        },
+        {
+          "key": "d",
+          "text": "Período expulsivo, amniotomia."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Com dilatação total (10 cm) e apagamento de 80%, a paciente encontra-se no período expulsivo; com bolsa íntegra e sem indicação de ruptura artificial das membranas, a conduta adequada é expectante.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_053",
+      "statement": "Quartigesta, tercípara, 34 anos, 39 semanas, todos os partos anteriores por via vaginal, sem comorbidades, está no Centro de Parto Normal na fase ativa do trabalho de parto. Exame físico: altura uterina 33 cm, BCF 142, dinâmica uterina presente com contrações fortes, 4/60”/10’, toque: colo dilatado para 7 cm, médio, bolsa íntegra, apresentação cefálica, plano de De Lee +3. A parturiente solicita o banho para aliviar as dores. Nesse caso, aponte a conduta ADEQUADA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Encaminhar para a hidroterapia com temperatura superior à materna, para maior relaxamento materno."
+        },
+        {
+          "key": "b",
+          "text": "Não indicar a hidroterapia, pois existe risco do neonato inspirar água e apresentar complicação pulmonar."
+        },
+        {
+          "key": "c",
+          "text": "Indicar a hidroterapia, pois a pressão hidrostática reduz a liberação de ocitocina e promove analgesia materna."
+        },
+        {
+          "key": "d",
+          "text": "Encaminhar para a hidroterapia com temperatura superior à materna, para maior liberação de ocitocina."
+        },
+        {
+          "key": "e",
+          "text": "Indicar a hidroterapia, pois o relaxamento promove analgesia materna e favorece a liberação de ocitocina."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A hidroterapia (banho de imersão) durante o trabalho de parto é uma conduta adequada, pois o relaxamento promovido pela água favorece a liberação de ocitocina endógena, auxiliando na analgesia materna e na progressão do trabalho de parto.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_054",
+      "statement": "O 4º período do trabalho de parto caracteriza-se por 4 fases importantes. São elas:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Desprendimento cefálico, rotação externa, desprendimento das espáduas e cintura pélvica."
+        },
+        {
+          "key": "b",
+          "text": "Dequitação, ligaduras vivas de Pinard, trombotamponamento e contratação uterina fixa."
+        },
+        {
+          "key": "c",
+          "text": "Miotamponamento, trombotamponamento, indiferença uterina e contração uterina fixa."
+        },
+        {
+          "key": "d",
+          "text": "Trombotamponamento, contração uterina fixa, miotamponamento e indiferença uterina."
+        },
+        {
+          "key": "e",
+          "text": "Nenhuma das anteriores."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O quarto período do parto é caracterizado por quatro fases fisiológicas: miotamponamento, trombotamponamento, indiferença miouterina e contração uterina fixa (útero de Pinard).",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_055",
+      "statement": "Gestante, 30a, G5P4(C2)A0, 37 semanas de amenorreia, chega ao pronto atendimento, sem cartão de pré-natal, com queixa de dor tipo cólica há 10 horas. Nega sangramento ou perda de líquido via vaginal. Exame ginecológico: dinâmica uterina= 3 contrações fortes em 10 minutos, batimentos cardíacos fetais=150 bpm; movimento fetal presente; altura uterina= 32 cm; toque vaginal= colo dilatado 9,0 cm, cefálico, bolsa integra, plano +2 de De Lee. A CONDUTA É:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cesárea eletiva após completar jejum."
+        },
+        {
+          "key": "b",
+          "text": "Parto vaginal com analgesia local e ampla episiotomia."
+        },
+        {
+          "key": "c",
+          "text": "Parto vaginal com analgesia e avaliação de segmento uterino."
+        },
+        {
+          "key": "d",
+          "text": "Cesárea de urgência por antecedente obstétrico."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de multigesta com duas cesáreas anteriores (cicatriz uterina prévia), agora em trabalho de parto avançado (colo dilatado 9 cm), a conduta é o parto vaginal com analgesia e avaliação cuidadosa do segmento uterino, dado o risco de rotura uterina em cicatriz prévia.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_056",
+      "statement": "Na prática obstétrica moderna, a operação cesariana tem diversas indicações, algumas absolutas e outras relativas. Estando a paciente em trabalho de parto, a indicação da cesariana é absoluta quando se verifica",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Macrossomia fetal."
+        },
+        {
+          "key": "b",
+          "text": "Apresentação pélvica em primípara."
+        },
+        {
+          "key": "c",
+          "text": "Segundo gemelar em apresentação córmica."
+        },
+        {
+          "key": "d",
+          "text": "Sofrimento fetal agudo no final do período expulsivo."
+        },
+        {
+          "key": "e",
+          "text": "Placenta prévia total no início do período de dilatação."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A placenta prévia total, mesmo no início do período de dilatação, é indicação absoluta de cesariana, por obstrução mecânica completa do canal de parto.",
+      "theme": "par_cesarea",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_057",
+      "statement": "A realização da episiotomia",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Não deve ser seletiva."
+        },
+        {
+          "key": "b",
+          "text": "Não deve ser rotineira."
+        },
+        {
+          "key": "c",
+          "text": "Não deve ser mediana."
+        },
+        {
+          "key": "d",
+          "text": "Não deve ser realizada no parto pré termo."
+        },
+        {
+          "key": "e",
+          "text": "Não deve ser realizada no vácuo extrator."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A episiotomia não deve ser realizada de forma rotineira, sendo recomendado o uso seletivo, apenas quando clinicamente justificado.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_058",
+      "statement": "M.A.S., 23 anos, primigesta, 38 semanas e dois dias de gestação, comparece à urgência de obstetrícia com queixa de dor abdominal progressiva há cerca de 5 horas. Ao exame físico, apresenta: TA: 110/70 mmHg, AU: 33 cm, AU: 33 cm, BCF: 122 bpm, dinâmica uterina: contrações presentes: 4/45\"/10'. Ao toque vaginal, constasta-se colo apagado, 5 cm, bolsa íntegra e apresentação cefálica. Com esse quadro, o diagnóstico é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Trabalho de parto."
+        },
+        {
+          "key": "b",
+          "text": "Distócia de situação e apresentação."
+        },
+        {
+          "key": "c",
+          "text": "Distócia funcional - taquissistolia."
+        },
+        {
+          "key": "d",
+          "text": "Pródromos de trabalho de parto."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de contrações regulares e colo apagado e dilatado (5 cm), o diagnóstico é trabalho de parto estabelecido.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_059",
+      "statement": "O quarto período do parto corresponde a:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Expulsão fetal."
+        },
+        {
+          "key": "b",
+          "text": "Dilatação do colo."
+        },
+        {
+          "key": "c",
+          "text": "Insinuação da apresentação."
+        },
+        {
+          "key": "d",
+          "text": "Observação da hemorragia pós-parto."
+        },
+        {
+          "key": "e",
+          "text": "Delivramento."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O quarto período do parto corresponde à observação e vigilância da hemorragia pós-parto durante a primeira hora após o nascimento.",
+      "theme": "par_normal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_060",
+      "statement": "Parto cesáreo, operação cesariana ou tomotocia é o ato cirúrgico, que consiste em incisar o abdome e a parede do útero da gestante para libertar o concepto. Representa o recurso mais e ciente que o obstetra possui para conduzir um grande número de complicações do parto. Durante a realização da cesariana, a ordem correta do aparecimento dos tecidos é a seguinte:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "subcutâneo, peritônio, útero e aponeurose."
+        },
+        {
+          "key": "b",
+          "text": "subcutâneo, aponeurose, peritônio e útero."
+        },
+        {
+          "key": "c",
+          "text": "aponeurose, subcutâneo, útero e peritônio."
+        },
+        {
+          "key": "d",
+          "text": "aponeurose, peritônio, útero e subcutâneo."
+        },
+        {
+          "key": "e",
+          "text": "útero, peritônio, subcutâneo e aponeurose."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Na cesariana, a ordem de exposição dos planos anatômicos é: pele/subcutâneo, aponeurose, peritônio e, por fim, o útero.",
+      "theme": "par_cesarea",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_061",
+      "statement": "As taxas de cesarianas no Brasil estão muito acima das recomendadas pela OMS. A taxa de cesarianas no setor de saúde suplementar chega próximo de 80%, enquanto no SUS ca próxima de 30%. Sabendo-se que as altas taxas de cesarianas são preocupantes, pelo maior risco às mães e os bebês, principalmente nos países em desenvolvimento, qual das opções abaixo é indicação absoluta de realização de cesariana?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Circular de cordão"
+        },
+        {
+          "key": "b",
+          "text": "Cesárea prévia"
+        },
+        {
+          "key": "c",
+          "text": "Desproporção cefalo-pélvica"
+        },
+        {
+          "key": "d",
+          "text": "Gestação gemelar"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A desproporção cefalopélvica é indicação absoluta de cesariana, por impossibilidade mecânica de progressão do parto vaginal.",
+      "theme": "par_cesarea",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "parto_062",
+      "statement": "Paciente de 20 anos, primigesta, com 38 semanas de gestação, chega ao OS com queixa de contrações e dores em baixo- ventre há 1 dia, com piora há 2 horas. Ao exame: AU=36 cm, BCF=140 bpm, DU=2 contrações de 40 segundos em 10 minutos, toque vaginal = colo dilatado 2 cm, amolecido, medianizado, esvaecido 50%, cefálico, alto e móvel. Carditocografia: feto ativo. Podemos concluir que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "é necessário fazer analgesia peridural para corrigir a distócia de progressão."
+        },
+        {
+          "key": "b",
+          "text": "a parturiente ainda está na fase latente do primeiro período do parto."
+        },
+        {
+          "key": "c",
+          "text": "é necessário proceder à amniotomia e iniciar ocitocina EV para corrigir a distócia funcional."
+        },
+        {
+          "key": "d",
+          "text": "há uma distócia de progressão e deve ser realizada operação cesariana."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Com colo dilatado apenas 2 cm e esvaecido 50%, a parturiente ainda se encontra na fase latente do primeiro período do parto.",
+      "theme": "par_normal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}

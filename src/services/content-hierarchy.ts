@@ -881,6 +881,11 @@ export const AREAS: Area[] = [
           { id: 'sg_hpp', label: 'Hemorragia pós-parto' },
         ]
       },
+      {
+        id: 'obs_aloimunizacao',
+        label: 'Aloimunização e Doença Hemolítica Perinatal',
+        subtemas: []
+      },
     ]
   },
 

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T17:21:45.908Z",
+  "generatedAt": "2026-07-30T17:53:33.885Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,7 +26,7 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 3684,
+  "totalQuestions": 3914,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
@@ -68,6 +68,12 @@
     "atls_via_aerea": 1,
     "cinetica_trauma": 1,
     "atls_genitourinario": 1,
+    "obs_aloimunizacao": 72,
+    "par_normal": 52,
+    "par_cesarea": 8,
+    "pn_exames": 23,
+    "pn_habitual": 48,
+    "pn_alto": 27,
     "orto_trauma_basico": 32,
     "ped_aleitamento": 99,
     "ped_alimentacao": 33,
@@ -2092,6 +2098,16 @@
     },
     {
       "area": "obstetricia",
+      "slug": "aloimunizacao",
+      "themes": [
+        "obs_aloimunizacao"
+      ],
+      "questionsCount": 72,
+      "flashcardsCount": 0,
+      "casosCount": 0
+    },
+    {
+      "area": "obstetricia",
       "slug": "diabetes-gestacional",
       "themes": [],
       "questionsCount": 0,
@@ -2141,8 +2157,11 @@
     {
       "area": "obstetricia",
       "slug": "parto",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "par_normal",
+        "par_cesarea"
+      ],
+      "questionsCount": 60,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -2157,8 +2176,12 @@
     {
       "area": "obstetricia",
       "slug": "pre-natal",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "pn_exames",
+        "pn_habitual",
+        "pn_alto"
+      ],
+      "questionsCount": 98,
       "flashcardsCount": 0,
       "casosCount": 0
     },
