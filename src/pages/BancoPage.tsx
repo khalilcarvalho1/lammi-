@@ -22,6 +22,14 @@ const NIVEL_LABELS: Record<string, string> = {
 function toggleSet<T>(s: Set<T>, item: T): Set<T> {
   const n = new Set(s); n.has(item) ? n.delete(item) : n.add(item); return n
 }
+function shuffleArray<T>(arr: T[]): T[] {
+  const a = [...arr]
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[a[i], a[j]] = [a[j], a[i]]
+  }
+  return a
+}
 
 // ─── Modal de reportar erro ────────────────────────────────────────────────
 function ReportarErroModal({
@@ -187,8 +195,10 @@ export function BancoPage() {
   }, [themeParam, temaParam, areaParam])
 
   const [filtroNiveis, setFiltroNiveis] = useState<Set<string>>(new Set())
+  const [filtroFontes, setFiltroFontes] = useState<Set<string>>(new Set())
   const [filtroRes, setFiltroRes] = useState('todas')
   const [busca, setBusca] = useState('')
+  const [embaralhar, setEmbaralhar] = useState(false)
   const [idx, setIdx] = useState(0)
   const [feedback, setFeedback] = useState(false)
   const [sel, setSel] = useState<string | null>(null)
@@ -226,9 +236,18 @@ export function BancoPage() {
     return () => { cancelado = true }
   }, [filtroTemas])
 
-  const filtradas = useMemo(() => {
+  // SNAPSHOT da lista filtrada — recalculado apenas quando o usuário troca um
+  // critério de filtro manualmente (tema, nível, fonte, busca, status ou
+  // embaralhar) ou quando novas questões terminam de carregar. Propositalmente
+  // NÃO depende de `historico`/`marcadas`: sem isso, responder uma questão em
+  // filtros como "não respondidas"/"erradas"/"marcadas" mudava o array
+  // filtrado no meio da navegação e a questão atual sumia ou pulava sozinha.
+  // O snapshot usa o valor de historico/marcadas do momento em que o filtro
+  // foi definido, e só se atualiza de novo na próxima troca de filtro.
+  const [filtradas, setFiltradas] = useState<Question[]>([])
+  useEffect(() => {
     const bl = busca.trim().toLowerCase()
-    return questions.filter(q => {
+    let next = questions.filter(q => {
       if (bl && !q.statement.toLowerCase().includes(bl) && !(q.explanation ?? '').toLowerCase().includes(bl)) return false
       if (filtroRes === 'respondidas' && !historico[q.id]) return false
       if (filtroRes === 'nao_respondidas' && historico[q.id]) return false
@@ -236,11 +255,16 @@ export function BancoPage() {
       if (filtroRes === 'marcadas' && !marcadas.has(q.id)) return false
       if (filtroTemas.size > 0 && !filtroTemas.has(q.theme)) return false
       if (filtroNiveis.size > 0 && !filtroNiveis.has(q.difficulty)) return false
+      if (filtroFontes.size > 0 && !filtroFontes.has(q.source ?? '')) return false
       return true
     })
-  }, [questions, filtroTemas, filtroNiveis, filtroRes, historico, marcadas, busca])
+    if (embaralhar) next = shuffleArray(next)
+    setFiltradas(next)
+    setIdx(0); setFeedback(false); setSel(null)
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- historico/marcadas
+    // são lidos aqui de propósito, mas não devem disparar um novo snapshot.
+  }, [questions, filtroTemas, filtroNiveis, filtroFontes, filtroRes, busca, embaralhar])
 
-  useEffect(() => { setIdx(0); setFeedback(false); setSel(null) }, [filtroTemas, filtroNiveis, filtroRes, busca])
   useEffect(() => { setSel(null); setFeedback(false) }, [idx])
 
   const q = filtradas[idx] ?? null
@@ -248,6 +272,30 @@ export function BancoPage() {
   const acertos = Object.values(historico).filter(h => h.acertou).length
   const resp = Object.keys(historico).length
   const estaMarcada = q && marcadas.has(q.id)
+
+  // Fontes/bancas únicas presentes no pool atualmente carregado, com contagem.
+  const fontesDisponiveis = useMemo(() => {
+    const contagem: Record<string, number> = {}
+    for (const qq of questions) {
+      if (!qq.source) continue
+      contagem[qq.source] = (contagem[qq.source] ?? 0) + 1
+    }
+    return Object.entries(contagem).sort((a, b) => a[0].localeCompare(b[0]))
+  }, [questions])
+
+  // Aproveitamento por tema/subtema (histórico local) — usado no filtro
+  // hierárquico para mostrar "N questões · X% acerto" ao lado da contagem.
+  const progressByTema = useMemo(() => {
+    const map: Record<string, { total: number; acertos: number }> = {}
+    for (const qq of questions) {
+      const h = historico[qq.id]
+      if (!h) continue
+      if (!map[qq.theme]) map[qq.theme] = { total: 0, acertos: 0 }
+      map[qq.theme].total++
+      if (h.acertou) map[qq.theme].acertos++
+    }
+    return map
+  }, [questions, historico])
 
   const confirmar = useCallback(async () => {
     if (!q || !sel || feedback) return
@@ -266,7 +314,7 @@ export function BancoPage() {
     setMarcadas(prev => { const n = new Set(prev); n.has(q.id) ? n.delete(q.id) : n.add(q.id); return n })
   }, [q])
 
-  const limparFiltros = () => { setFiltroTemas(new Set()); setFiltroNiveis(new Set()); setFiltroRes('todas'); setBusca('') }
+  const limparFiltros = () => { setFiltroTemas(new Set()); setFiltroNiveis(new Set()); setFiltroFontes(new Set()); setFiltroRes('todas'); setBusca(''); setEmbaralhar(false) }
 
   const filtroOrigem = useMemo(
     () => filtroOrigemLabel(themeParam, temaParam, areaParam),
@@ -343,6 +391,11 @@ export function BancoPage() {
                 <button className="btn-ghost" style={{ fontSize: '.7rem', padding: '.3rem .7rem' }} onClick={limparFiltros}>Limpar</button>
               </div>
 
+              <button onClick={() => setEmbaralhar(v => !v)} style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '.5rem .75rem', marginBottom: '.5rem', border: '1px solid', borderColor: embaralhar ? 'var(--red)' : 'var(--border)', background: embaralhar ? 'rgba(192,57,43,.15)' : 'transparent', cursor: 'pointer', fontSize: '.82rem', color: 'var(--text)' }}>
+                <span>🔀 Embaralhar</span>
+                <span style={{ fontSize: '.7rem', color: embaralhar ? 'var(--red-bright)' : 'var(--text-dim)', fontWeight: 700 }}>{embaralhar ? 'ON' : 'OFF'}</span>
+              </button>
+
               <button onClick={() => setFiltroRes(v => v === 'marcadas' ? 'todas' : 'marcadas')} style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '.5rem .75rem', marginBottom: '.5rem', border: '1px solid', borderColor: filtroRes === 'marcadas' ? 'var(--red)' : 'var(--border)', background: filtroRes === 'marcadas' ? 'rgba(192,57,43,.15)' : 'transparent', cursor: 'pointer', fontSize: '.82rem', color: 'var(--text)' }}>
                 <span>⭐ Marcadas para revisar</span>
                 <span className="count-badge">{marcadas.size}</span>
@@ -357,7 +410,7 @@ export function BancoPage() {
               ))}
 
               <div className="filtro-label">Temas</div>
-              <ThemeHierarchyFilter selected={filtroTemas} onChange={setFiltroTemas} counts={temaCount} />
+              <ThemeHierarchyFilter selected={filtroTemas} onChange={setFiltroTemas} counts={temaCount} progress={progressByTema} />
 
               <div className="filtro-label">Dificuldade</div>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4 }}>
@@ -367,6 +420,24 @@ export function BancoPage() {
                   </button>
                 ))}
               </div>
+
+              {fontesDisponiveis.length > 0 && (
+                <>
+                  <div className="filtro-label">Fonte / Banca</div>
+                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4, maxHeight: 220, overflowY: 'auto', paddingRight: 2 }}>
+                    {fontesDisponiveis.map(([fonte, count]) => (
+                      <button
+                        key={fonte}
+                        className={`nivel-chip ${filtroFontes.has(fonte) ? 'active-m' : ''}`}
+                        onClick={() => setFiltroFontes(s => toggleSet(s, fonte))}
+                        title={`${count} questões`}
+                      >
+                        {fonte} <span style={{ opacity: .7 }}>({count})</span>
+                      </button>
+                    ))}
+                  </div>
+                </>
+              )}
 
               <div className="filtro-label" style={{ marginTop: '1.25rem' }}>Navegação ({total} questões)</div>
               <div className="q-grid-container">

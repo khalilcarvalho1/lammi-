@@ -6,12 +6,23 @@ interface Props {
   selected: Set<StudyTheme>
   onChange: (next: Set<StudyTheme>) => void
   counts: Record<string, number>
+  // Opcional: aproveitamento do usuário por tema/subtema (histórico local),
+  // usado para mostrar "45 questões · 32% acerto" ao lado da contagem.
+  progress?: Record<string, { total: number; acertos: number }>
+}
+
+function sumProgress(ids: string[], progress: Record<string, { total: number; acertos: number }>) {
+  return ids.reduce((acc, id) => {
+    const p = progress[id]
+    if (p) { acc.total += p.total; acc.acertos += p.acertos }
+    return acc
+  }, { total: 0, acertos: 0 })
 }
 
 // Filtro hierárquico em dois níveis: Área (expansível) > Tema (selecionável).
 // Selecionar um tema inclui automaticamente todos os seus subtemas no filtro,
 // igual ao comportamento de ?tema= na URL (ver resolverFiltroURL).
-export function ThemeHierarchyFilter({ selected, onChange, counts }: Props) {
+export function ThemeHierarchyFilter({ selected, onChange, counts, progress }: Props) {
   const [expanded, setExpanded] = useState<Set<string>>(new Set())
 
   // Auto-expande áreas que já têm algum tema/subtema selecionado (ex.: vindo de link ?tema=)
@@ -76,13 +87,21 @@ export function ThemeHierarchyFilter({ selected, onChange, counts }: Props) {
                 {temasComConteudo.map(({ tema, total: temaTotal }) => {
                   const subtemaIds = tema.subtemas.map(s => s.id)
                   const ativo = [tema.id, ...subtemaIds].every(id => selected.has(id as StudyTheme))
+                  const prog = progress ? sumProgress([tema.id, ...subtemaIds], progress) : null
                   return (
                     <button
                       key={tema.id}
                       className={`subtema-btn ${ativo ? 'active' : ''}`}
                       onClick={() => toggleTema(tema.id, subtemaIds)}
                     >
-                      <span style={{ fontSize: '.8rem' }}>{tema.label}</span>
+                      <span style={{ fontSize: '.8rem' }}>
+                        {tema.label}
+                        {prog && prog.total > 0 && (
+                          <span style={{ display: 'block', fontSize: '.68rem', opacity: .75, fontWeight: 400 }}>
+                            {prog.total} respondida{prog.total !== 1 ? 's' : ''} · {Math.round(prog.acertos / prog.total * 100)}% acerto
+                          </span>
+                        )}
+                      </span>
                       <span className="count-badge">{temaTotal}</span>
                     </button>
                   )
