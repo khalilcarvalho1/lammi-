@@ -376,11 +376,12 @@
         }
       ],
       "correct_key": "b",
-      "explanation": "ATENÇÃO: ECG citado (figura) mas não disponível na extração do PDF — não é necessário para julgar esta afirmativa específica. A afirmativa é falsa: a miocardiopatia isquêmica é, na verdade, uma das causas MAIS COMUNS (não a mais rara) de cardiomiopatia dilatada, respondendo por parcela significativa dos casos, sobretudo em populações com alta prevalência de doença arterial coronariana.",
+      "explanation": "Não é necessário para julgar esta afirmativa específica. A afirmativa é falsa: a miocardiopatia isquêmica é, na verdade, uma das causas MAIS COMUNS (não a mais rara) de cardiomiopatia dilatada, respondendo por parcela significativa dos casos, sobretudo em populações com alta prevalência de doença arterial coronariana.",
       "theme": "mio_dilat",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-27T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-27T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/cmp_013_p3_1.jpeg"
     },
     {
       "id": "cmp_014",
@@ -632,11 +633,12 @@
         }
       ],
       "correct_key": "b",
-      "explanation": "ATENÇÃO: eletrocardiograma citado mas não disponível integralmente na extração do PDF. Sopro sistólico que diminui com agachamento (aumento de pré/pós-carga) e aumenta em ortostase (redução do retorno venoso, acentuando obstrução dinâmica), associado a história familiar de morte súbita precoce, é o padrão clássico de cardiomiopatia hipertrófica obstrutiva.",
+      "explanation": "Sopro sistólico que diminui com agachamento (aumento de pré/pós-carga) e aumenta em ortostase (redução do retorno venoso, acentuando obstrução dinâmica), associado a história familiar de morte súbita precoce, é o padrão clássico de cardiomiopatia hipertrófica obstrutiva.",
       "theme": "mio_hipertrof",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-27T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-27T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/cmp_022_p17_3.jpeg"
     },
     {
       "id": "cmp_023",
@@ -812,11 +814,12 @@
         }
       ],
       "correct_key": "d",
-      "explanation": "ATENÇÃO: ECG citado (\"VER IMAGEM\") mas não disponível na extração do PDF. Jovem atleta com dor torácica ao esforço, síncope e história familiar de morte súbita é o quadro clássico de suspeita de cardiomiopatia hipertrófica — note-se ainda que o uso de nitrato sublingual, se de fato uma CMH obstrutiva estiver presente, é uma conduta potencialmente perigosa (reduz pré-carga e pode piorar a obstrução dinâmica), reforçando a importância do diagnóstico correto antes de medicações vasodilatadoras em síncope de esforço em jovens.",
+      "explanation": "Jovem atleta com dor torácica ao esforço, síncope e história familiar de morte súbita é o quadro clássico de suspeita de cardiomiopatia hipertrófica — note-se ainda que o uso de nitrato sublingual, se de fato uma CMH obstrutiva estiver presente, é uma conduta potencialmente perigosa (reduz pré-carga e pode piorar a obstrução dinâmica), reforçando a importância do diagnóstico correto antes de medicações vasodilatadoras em síncope de esforço em jovens.",
       "theme": "mio_hipertrof",
       "difficulty": "dificil",
-      "reviewed": false,
-      "created_at": "2026-07-27T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-27T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/cmp_028_p24_4.jpeg"
     },
     {
       "id": "cmp_029",
