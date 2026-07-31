@@ -1,1 +1,1720 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "dii_003",
+      "statement": "Paciente de 10 anos previamente hígido, que iniciou há cerca de 8 meses com hiporexia, perda de peso (cerca de 10kg), febre esporádica (cerca de 2 vezes na semana), alteração do hábito intestinal de constipado para regular (cerca de 2 evacuações semilíquidas por dia), associado a dor ao evacuar, e distensão abdominal. Nega vómitos. Sem outras queixas. Vacinação em dia. Teste do pezinho: normal. Ao exame: hipocorado (2+/4+), hidratado, emagrecido, com boa perfusão capilar, pulsos cheios e rítmicos. Aparelho digestivo: abdome distero, indolor, sem massas ou visceromegalias, ruído hidroaéreo positivo. Presença de abcesso associado a stula em região perianal. Toque retal sem alterações. Restante do exame físico sem alterações. Sobre o caso apresentado, é CORRETO afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O paciente tem indicação de iniciar o tratamento com anti-TNF-alfa, com inflixamabe."
+        },
+        {
+          "key": "b",
+          "text": "A realização de exames de imagem para confirmação diagnóstifca não é necessária devido à gravidade do quadro."
+        },
+        {
+          "key": "c",
+          "text": "A antibioticoterapia não é necessária no tratamento dessa patologia."
+        },
+        {
+          "key": "d",
+          "text": "Os exames de prova inflamatória (PCR e VHS) provavelmente estarão normais nessa fase da doença."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Fístula e abscesso perianal em criança com sintomas gastrointestinais crônicos são achados clássicos de doença de Crohn perianal, com indicação de terapia biológica anti-TNF (infliximabe) já na apresentação inicial em casos com doença fistulizante.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_005",
+      "statement": "Assinale a alternativa correta quanto às características das doenças in amatórias intestinais – doença de Crohn e retocolite ulcerativa.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A retocolite ulcerativa tem sua maior incidência em pacientes de 50 anos."
+        },
+        {
+          "key": "b",
+          "text": "A retocolite ulcerativa é uma doença que geralmente acomete mucosa, submucosa e muscular do cólon."
+        },
+        {
+          "key": "c",
+          "text": "A retocolite ulcerativa pode estar associada a manifestações extraintestinais, como a colangite esclerosante, e geralmente é agravada pelo tabagismo."
+        },
+        {
+          "key": "d",
+          "text": "Tanto a retocolite ulcerativa como a doença de Crohn são mais comuns entre mulheres que usam contraceptivos orais em comparação com aquelas que não usam."
+        },
+        {
+          "key": "e",
+          "text": "O tabagismo atua como efeito protetor na doença de Crohn."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Tanto a retocolite ulcerativa quanto a doença de Crohn são mais comuns em mulheres usuárias de contraceptivos orais comparadas às não usuárias, fator de risco ambiental reconhecido para DII.",
+      "theme": "dii_dc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_006",
+      "statement": "A doença de Crohn é uma doença in amatória intestinal que, mesmo com o progresso na terapia clínica, pode cursar com complicações de tratamento cirúrgico. É indicação absoluta de tratamento cirúrgico na doença de Crohn:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "colite fulminante."
+        },
+        {
+          "key": "b",
+          "text": "suspeita de malignidade."
+        },
+        {
+          "key": "c",
+          "text": "fístulas enteroentéricas."
+        },
+        {
+          "key": "d",
+          "text": "abscesso intra-abdominal."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A suspeita de malignidade é indicação absoluta de tratamento cirúrgico na doença de Crohn, diferente das demais complicações que podem ter abordagem inicial clínica em casos selecionados.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_007",
+      "statement": "Paciente adulto jovem, 25 anos, apresenta há 6 meses um quadro de dor abdominal em cólica e diarreia intercalados com normalização das queixas. Notou que tem perdido peso, vigor e nota raias de sangue e muco nas fezes. Além do quadro gastrointestinal, apresenta lesões cutâneas compatíveis com pioderma gangrenoso e uveíte. Pensando-se em doença de Crohn e em seu diagnóstico, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A tomografia computadorizada pode ser útil na demonstração do acentuado espessamento transmural e pode auxiliar no diagnóstico de complicações extramurais."
+        },
+        {
+          "key": "b",
+          "text": "O anticorpo antineutrofílico perinuclear (ANCAp) e o anti-Sacharomyces cerevisiae (ASCA) têm fraca associação com a doença."
+        },
+        {
+          "key": "c",
+          "text": "A sigmoidoscopia ou a colonoscopia podem revelar úlceras aftosas com granularidade. Geralmente, vê-se um padrão contínuo de acometimento do intestino, diferente do padrão que ocorre na retocolite ulcerativa mais alternado."
+        },
+        {
+          "key": "d",
+          "text": "A presença de fissuras, fístulas e abscessos anais são mais comuns na retocolite ulcerativa do que na doença de Crohn."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A tomografia computadorizada é útil para demonstrar o espessamento transmural acentuado da parede intestinal e identificar complicações extramurais (abscessos, fístulas) características da doença de Crohn.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_009",
+      "statement": "Paciente com obstrução intestinal por doença de Crohn, que acomete íleo terminal a 2cm da válvula ileocecal, deve ser operado. Nesse caso, a cirurgia ideal consiste em:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "ileotiflectomia com ileostomia"
+        },
+        {
+          "key": "b",
+          "text": "ressecção segmentar e anastomose ileocecal"
+        },
+        {
+          "key": "c",
+          "text": "colectomia D com anastomose íleo-transverso"
+        },
+        {
+          "key": "d",
+          "text": "by-pass da estenose com anastomose íleo-transverso"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Obstrução por doença de Crohn em íleo terminal próximo à válvula ileocecal deve ser tratada com ressecção segmentar (ileocecal) e anastomose ileocólica, preservando o máximo de intestino possível.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_010",
+      "statement": "O manejo cirúrgico das Doenças In amatórias Intestinais (Doença de Crohn e Retocolite Ulcerativa) deve ser utilizado em situações especí cas, em associação ao tratamento clínico otimizado dessas condições patológicas. Sobre essas enfermidades, assinale a correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O acometimento histológico na retocolite ulcerativa é transmural e, portanto, há maior índice de fístulas perianais em comparação à Doença de Crohn."
+        },
+        {
+          "key": "b",
+          "text": "No megacólon tóxico associado à retocolite ulcerativa, o procedimento cirúrgico recomendado é a colectomia total + ileostomia terminal."
+        },
+        {
+          "key": "c",
+          "text": "Pacientes jovens, tabagistas, com quadro de múltiplas fistulas perianais por Doença de Crohn não se beneficiam do uso de biológicos como tratamento clínico."
+        },
+        {
+          "key": "d",
+          "text": "A retocolite ulcerativa pode ser classificada clinica mente em formas inflamatória, fistulizante e estenosante."
+        },
+        {
+          "key": "e",
+          "text": "As doenças inflamatórias intestinais, paradoxalmente, são consideradas como fatores de proteção ao câncer colorretal."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "No megacólon tóxico associado à retocolite ulcerativa, o procedimento cirúrgico recomendado é a colectomia total com ileostomia terminal, preservando o reto para eventual reconstrução futura.",
+      "theme": "dii_dc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_011",
+      "statement": "Em relação às doenças in amatórias intestinais, numerar a 2ª coluna de acordo com a 1ª e, após, assinalar a alternativa que apresenta a sequência CORRETA: (1) Colite ulcerativa. (2) Doença de Crohn. ( ) Diarreia mucossanguinolenta mais severa, com menores índices de perfuração. ( ) Maior acometimento perianal (fístulas e abscessos). ( ) A severidade da doença pode ser estimada pela Classi cação de Truelove and Witt (número de evacuações, presença de hematoquezia, temperatura, frequência cardíaca e velocidade de hemossedimentação). ( ) Presença de ASCA (anti-Saccharomyces cerevisiae) positivo e ANCA (anti-citoplasma de neutró los) negativo possui valor preditivo de 86% para o diagnóstico. ( ) Colonoscopia com úlceras longitudinais e padrão de \"\"pedras de calçamento\"\" (cobblestone). ( ) Achados histopatológicos, como comprometimento limitado à mucosa e à submucosa, com presença de abscessos crípticos. ( ) Costuma apresentar melhor resposta às medidas clínicas, e a abordagem cirúrgica pode ser considerada tratamento definitivo (sem novas recorrências).",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "1 - 2 - 1 - 2 - 2 - 1 - 1."
+        },
+        {
+          "key": "b",
+          "text": "1 - 1 - 2 - 1 - 2 - 2 - 1."
+        },
+        {
+          "key": "c",
+          "text": "2 - 2 - 1 - 1 - 1 - 2 - 2."
+        },
+        {
+          "key": "d",
+          "text": "2 - 1 - 2 - 2 - 1 - 1 - 2."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Sequência correta: colite ulcerativa (diarreia mucossanguinolenta mais severa) - Crohn (mais fístulas perianais) - ambas (índice de Truelove and Witts é específico da RCU) - RCU (ASCA-/ANCA+ tem valor preditivo) - Crohn (padrão cobblestone) - RCU (limitada à mucosa/submucosa) - RCU (cirurgia pode ser curativa).",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_012",
+      "statement": "Feminina, 37 anos, com história pregressa de colite de Crohn, em acompanhamento com proctologista e em uso de sulfassalazina, chega à emergência com queixa de febre alta, distensão abdominal e sinais clínicos de sepsis. Os exames laboratoriais mostram leucocitose e provas in amatórias elevadas. A radiogra a abdominal evidencia distensão de todo cólon, sem sinais de pneumoperitônio. Uma provável hipótese diagnóstica e o tratamento seria:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Megacólon tóxico; tratamento cirúrgico."
+        },
+        {
+          "key": "b",
+          "text": "Perfuração por colite; tratamento cirúrgico."
+        },
+        {
+          "key": "c",
+          "text": "Obstrução e provável fístula íleo-sigmoidiana; tratamento clínico."
+        },
+        {
+          "key": "d",
+          "text": "Agudização da doença de Crohn; tratamento clínico com corticoide."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Distensão de todo o cólon com sepse e sinais inflamatórios em paciente com DII, sem pneumoperitônio, é quadro clássico de megacólon tóxico, com indicação de tratamento cirúrgico (colectomia) diante de sepse não controlada.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_013",
+      "statement": "Assinale a assertiva incorreta com relação à Doença de Crohn.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Considerando a avaliação macroscópica, as lesões podem afetar qualquer segmento do trato gastrointestinal, com inflamação transmural e propensão a fenótipos penetrantes."
+        },
+        {
+          "key": "b",
+          "text": "O intestino comprometido pela doença pode fistulizar para o intestino adjacente ou estruturas adjacentes normalmente não afetados pela doença."
+        },
+        {
+          "key": "c",
+          "text": "Uma característica macroscópica observada nas abordagens cirúrgicas da doença é a serosite com envolvimento e invasão da serosa pela gordura mesentérica."
+        },
+        {
+          "key": "d",
+          "text": "O clássico granuloma não caseoso é encontrado em menos de 15% das biopsias, sendo o diagnóstico baseado na soma de achados clínicos, endoscópicos e de imagens."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O granuloma não caseoso, embora característico da doença de Crohn, é encontrado em menos de 15% das biópsias — a afirmação de que ele seria facilmente encontrado (mais de 15%) contradiz a real baixa sensibilidade histológica desse achado.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_014",
+      "statement": "Ao se avaliar um paciente com doença de Crohn moderada a grave, com proposta de tratamento com terapia biológica anti-TNF, há indicação absoluta da realização de exames laboratoriais. No estadiamento desse paciente, qual exame é imprescindível?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Teste alérgico cutâneo."
+        },
+        {
+          "key": "b",
+          "text": "PPD."
+        },
+        {
+          "key": "c",
+          "text": "Calprotectina fecal."
+        },
+        {
+          "key": "d",
+          "text": "Ferritina."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Antes de iniciar terapia biológica anti-TNF, é obrigatório investigar tuberculose latente com o teste PPD (ou IGRA), pelo risco de reativação da tuberculose durante a imunossupressão.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_016",
+      "statement": "Mulher jovem, com história de diarreia crônica e anemia, passa a apresentar lesões nodulares vermelhas e dolorosas nos membros inferiores. Quanto às hipóteses diagnósticas, qual é a alternativa correta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O quadro é sugestivo de doença inflamatória intestinal, com manifestação extraintestinal, nesse caso, um pioderma gangrenoso associado a Doença de Crohn."
+        },
+        {
+          "key": "b",
+          "text": "Trata-se de um possível eritema nodoso associado à retocolite ulcerativa. Essa manifestação não se relaciona com a atividade da doença inflamatória."
+        },
+        {
+          "key": "c",
+          "text": "Suspeitar de colangite esclerosante e solicitar colangiorressonância. Essa manifestação não tem relação com a atividade de doença."
+        },
+        {
+          "key": "d",
+          "text": "O quadro sugere eritema nodoso associado a doença inflamatória, sendo mais comum na doença de Crohn, correlacionando-se com atividade de doença."
+        },
+        {
+          "key": "e",
+          "text": "O quadro sugere pioderma gangrenoso, que, assim como a uveíte e colangite esclerosante primária, estão mais associadas à retocolite ulcerativa e não se correlacionam com atividade de doença."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Lesões nodulares vermelhas e dolorosas em membros inferiores (eritema nodoso) associadas a diarreia crônica sugerem doença inflamatória intestinal, sendo mais comum na doença de Crohn e correlacionando-se com a atividade da doença.",
+      "theme": "dii_dc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_018",
+      "statement": "A respeito das doenças inflamatórias intestinais, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A doença de Crohn começa no reto e pode se estender, no sentido proximal, em um padrão contínuo, mas ela afeta apenas o cólon."
+        },
+        {
+          "key": "b",
+          "text": "Os pacientes com retocolite desenvolvem úlceras aftosas, que são úlceras superficiais da mucosa. À medida que a doença progride, a ulceração se torna transmural e pode formar um padrão, ocorrendo do esôfago até o ânus."
+        },
+        {
+          "key": "c",
+          "text": "A artropatia, que é a manifestação extraintestinal mais comum, afeta de 10 a 20% dos pacientes e sua exacerbação tem relação com a atividade da doença."
+        },
+        {
+          "key": "d",
+          "text": "A positividade do marcador sorológico ASCA isoladamente é suficiente para o diagnóstico de doença de Crohn."
+        },
+        {
+          "key": "e",
+          "text": "Nos casos de doença de Crohn, a colectomia total é curativa."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A artropatia é a manifestação extraintestinal mais comum das DII, afetando 10-20% dos pacientes, com exacerbação frequentemente relacionada à atividade da doença intestinal.",
+      "theme": "dii_dc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_020",
+      "statement": "A doença de Crohn se apresenta como uma doença intestinal in amatória inespecí ca, que pode afetar qualquer segmento do trato gastrointestinal. Sobre as indicações cirúrgicas, é correto citar.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Presença de manifestações extracolônicas."
+        },
+        {
+          "key": "b",
+          "text": "Sangramento maciço, câncer e estreitamento intestinal."
+        },
+        {
+          "key": "c",
+          "text": "Colite fulminante, retardo do crescimento e hipoalbuminemia."
+        },
+        {
+          "key": "d",
+          "text": "Megacólon tóxico, fístulas e obstrução intestinal."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "São indicações cirúrgicas na doença de Crohn: megacólon tóxico, fístulas refratárias e obstrução intestinal, complicações que não respondem adequadamente ao tratamento clínico otimizado.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_026",
+      "statement": "Paciente de 30 anos, sem comorbidades prévias, apresentando quadro de dor abdominal e diarreia aquosa há 6 semanas, com muco, pus e sangue. Submetido a colonoscopia que evidenciou múltiplas úlceras em íleo terminal, cólon direito e transverso, com áreas entremeadas de mucosa sã. Exame proctológico identificando fístula perianal. O diagnóstico mais provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tuberculose intestinal."
+        },
+        {
+          "key": "b",
+          "text": "Amebíase."
+        },
+        {
+          "key": "c",
+          "text": "Doença de Crohn."
+        },
+        {
+          "key": "d",
+          "text": "Retocolite ulcerativa."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Múltiplas úlceras salteadas em íleo terminal, cólon direito e transverso, com áreas de mucosa sã e fístula perianal, são achados clássicos de doença de Crohn.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_027",
+      "statement": "Menina de 14 anos apresenta queixa principal de dor abdominal há 4 meses associada a apetite diminuído, perda de 5 kg e ocasionais evacuações amolecidas e sem sangue. Na inspeção anal, são observados dois grandes plicomas. Exames laboratoriais: pesquisa de sangue oculto nas fezes positivo, hemoglobina de 8,8 g/dL e albumina de 3,2 g/dL. A principal hipótese diagnóstica é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "infestação crônica por giárdia."
+        },
+        {
+          "key": "b",
+          "text": "doença de Crohn."
+        },
+        {
+          "key": "c",
+          "text": "doença celíaca."
+        },
+        {
+          "key": "d",
+          "text": "síndrome do intestino irritável."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Perda de peso, dor abdominal, sangue oculto positivo e plicomas anais grandes em adolescente são sugestivos de doença de Crohn, doença que classicamente causa alterações perianais proeminentes.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_030",
+      "statement": "O termo Doença In amatória Intestinal (DII) é usado para representar dois tipos distintos de in amação intestinal crônica: doença de Crohn e Retocolite Ulcerativa. As in uências genéticas e ambientais estão envolvidas na patogênese da DII. Em relação aos aspectos clínicos da DII, marque V para as afirmativas verdadeiras e F para as falsas. ( ) As manifestações extraintestinais que tendem a ocorrer na Retocolite Ulcerativa são pioderma gangrenoso, colangite esclerosante e espondilite anquilosante. ( ) A anemia ferropriva pode ser comumente encontrada nesses pacientes portadores de DII devido à perda sanguínea crônica. ( ) Sinais sistêmicos como febre, mal-estar e fadiga, além do dé cit de crescimento com atraso da maturação óssea e no desenvolvimento sexual, podem estar presentes na doença de Crohn. ( ) A Retocolite Ulcerativa é caracterizada pela formação de fístulas e abcessos. Assinale a sequência correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "V, V, V, F"
+        },
+        {
+          "key": "b",
+          "text": "V, F, F, V"
+        },
+        {
+          "key": "c",
+          "text": "F, V, F, F"
+        },
+        {
+          "key": "d",
+          "text": "F, V, V, V"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Pioderma gangrenoso, colangite esclerosante e espondilite anquilosante são manifestações extraintestinais reconhecidas da RCU (V); anemia ferropriva por perda sanguínea crônica é comum na DII (V); sinais sistêmicos e déficit de crescimento ocorrem na Crohn (V); fístulas e abscessos são característicos de Crohn, não da RCU (F) — sequência V-V-V-F.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_033",
+      "statement": "Com relação a doença de Crohn, marque a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O tabagismo pode prevenir a doença."
+        },
+        {
+          "key": "b",
+          "text": "Pode afetar qualquer parte do trato gastrointestinal, porém o reto é um segmento do intestino frequentemente poupado."
+        },
+        {
+          "key": "c",
+          "text": "Os achados histológicos demonstram que o processo fica limitado à mucosa e à submucosa superficial, sem acometimento das camadas mais profundas."
+        },
+        {
+          "key": "d",
+          "text": "Doença da mucosa difusa (não segmentada), não hã espessamento da parede intestinal, nem aspecto de “calçamento”."
+        },
+        {
+          "key": "e",
+          "text": "O uso de contraceptivos orais não está associado ao aumento do risco de desenvolver a doença."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Na doença de Crohn, o reto é frequentemente poupado, diferente da retocolite ulcerativa, na qual o acometimento retal é praticamente universal.",
+      "theme": "dii_dc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_038",
+      "statement": "A doença de Crohn é uma doença in amatória crônica que pode ocorrer em qualquer parte do trato alimentar, porém, afeta mais comumente o intestino delgado e o cólon. Assinale a alternativa correta em relação a essa doença.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A principal complicação intestinal da doença de Crohn é a perfuração para peritônio livre."
+        },
+        {
+          "key": "b",
+          "text": "A doença de Crohn é mais comum em habitantes da cidade e a prevalência é maior no sexo masculino, na relação de 2:1."
+        },
+        {
+          "key": "c",
+          "text": "A doença de Crohn não tem relação com o risco aumentado de aparecimento de adenocarcinoma no intestino delgado e cólon."
+        },
+        {
+          "key": "d",
+          "text": "O comprometimento perirretal e perianal ocorre em aproximadamente um terço dos pacientes com doença de Crohn, particularmente naqueles com comprometimento colônico."
+        },
+        {
+          "key": "e",
+          "text": "Em cerca de 15% dos casos de doença de Crohn apenas o intestino grosso está acometido. Nesse caso o reto é o local mais comprometido pela doença."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O comprometimento perirretal e perianal ocorre em cerca de um terço dos pacientes com doença de Crohn, sendo mais frequente naqueles com acometimento colônico concomitante.",
+      "theme": "dii_dc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_039",
+      "statement": "Leia o caso clínico a seguir. Paciente portador de doença de Crohn, em uso de budesonida e mesalazina há cerca de oito anos, apresentando quadros de dor e distensão abdominal recorrente, náuseas, vômitos, hipoproteinemia, anemia e perda de peso. Realizado exame de enterorressonância magnética, que identi cou tratar-se de forma estenosante jejunoileal com brose e dilatação a montante. Nesse caso, qual é a melhor opção terapêutica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tratamento cirúrgico, uma vez que se trata de um paciente que perdeu a janela de oportunidade para terapia medicamentosa."
+        },
+        {
+          "key": "b",
+          "text": "Introdução urgente de imunossupressão com azatioprina devido à sua rápida ação terapêutica."
+        },
+        {
+          "key": "c",
+          "text": "Introdução de terapia biológica com anti-TNF e imunossupressor em combo terapia, uma vez que se trata de paciente virgem para terapia biológica."
+        },
+        {
+          "key": "d",
+          "text": "Terapia com corticoide, imunobiológicos e desconsiderar tratamento cirúrgico, pois deve-se operar pacientes com doença de Crohn apenas se eles estiverem com obstrução ou perfuração intestinal."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Estenose jejunoileal fibrótica estabelecida (não inflamatória ativa) na doença de Crohn, mesmo em uso prolongado de terapia otimizada, tem indicação de tratamento cirúrgico, já que fibrose não responde a imunossupressão.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_041",
+      "statement": "Paciente, sexo masculino, 30 anos, acompanhado em ambulatório especializado em Doença In amatória Intestinal por Doença de Crohn, com diagnóstico há 10 anos e em uso de imunobiológico. Submetido a duas cirurgias prévias com enterectomias. Chegou ao pronto-socorro com queixa de distensão e dor abdominal em cólica, vômitos amarelados e diminuição da eliminação de atos. Foi passada uma sonda nasogástrica descompressiva e referido a um serviço terciário. Foi instituído tratamento clínico e solicitada entero tomogra a que evidenciou múltiplas estenoses curtas (< 10 cm) sugestivas de brose crônica em segmentos de intestino delgado, sem alterações no cólon. Mediante melhora apenas parcial dos sintomas, foi solicitada avaliação cirúrgica. Com base na situação clínica exposta, qual a estratégia cirúrgica ideal?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Realizar plastias das estenoses (estenoplastias ou estricturoplastias)."
+        },
+        {
+          "key": "b",
+          "text": "Realizar cirurgia para derivação interna (\"\"bypass\"\" íleo-transverso\"\")."
+        },
+        {
+          "key": "c",
+          "text": "Ressecar as estenoses com margem livre de doença e anastomosar."
+        },
+        {
+          "key": "d",
+          "text": "Ressecar as estenoses sem margem livre de doença e anastomosar."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Múltiplas estenoses curtas (<10cm) por fibrose crônica em intestino delgado, em paciente já com enterectomias prévias (risco de síndrome do intestino curto), têm como estratégia cirúrgica ideal a realização de estenoplastias, preservando comprimento intestinal.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_044",
+      "statement": "Em relação ao uso de corticoides na doença de Crohn podemos afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pode ser utilizado por tempo prolongado"
+        },
+        {
+          "key": "b",
+          "text": "O corticoide não previne recorrências"
+        },
+        {
+          "key": "c",
+          "text": "Doses elevadas não aumentam a redução do edema"
+        },
+        {
+          "key": "d",
+          "text": "Nâo há evidencias robustas para o uso de corticoides"
+        },
+        {
+          "key": "e",
+          "text": "A dose inicial da prednisona é de 70 a 80 mg/dia"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O corticoide não previne recorrências da doença de Crohn, sendo indicado apenas para indução de remissão em surtos agudos, não como terapia de manutenção.",
+      "theme": "dii_dc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_045",
+      "statement": "Paciente de 9 anos, apresentando diarreia crônica, retardo no crescimento e diversas fístulas e abscessos perianais, as quais foram biopsiadas e evidenciado in amação crônica inespecí ca. Ao ser encaminhada ao coloproctologista, este concluiu o diagnóstico como doença de Crohn. Considerando o caso descrito, assinale a alternativa INCORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A paciente não tem indicação de uso biológico como o infliximabe."
+        },
+        {
+          "key": "b",
+          "text": "O excesso de consumo de açúcar está associado a doença de Crohn."
+        },
+        {
+          "key": "c",
+          "text": "O fato de ter doença perianal está associado ao pior prognóstico da doença."
+        },
+        {
+          "key": "d",
+          "text": "O tratamento das fístulas para ter um melhor resultado, é indicado a colocação de sedenhos associados a medicação."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Criança com doença de Crohn perianal com fístulas e abscessos TEM indicação de terapia biológica (infliximabe), sendo essa afirmação (de que não teria indicação) a incorreta, já que a doença perianal é indicação precoce de anti-TNF.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_046",
+      "statement": "Paciente, 19 anos, masculino, com queixa de perda ponderal e diarreia há 6 meses, com fezes líquidas sanguinolentas (sem coágulos) e eliminação de muco. Refere ainda dor abdominal em baixo ventre, sem queixas urinárias. Nega outros sintomas, refere tem apetite, porém se alimenta pouco devido ao grande número de evacuações, que muitas vezes fazem com que ele acorde a noite para ir ao banheiro. Ao exame físico, foi notória a presença de secreção mucoide e sanguinolenta no dedo de luva após toque retal. Escolha abaixo a conduta inicial para diagnóstico do caso e associação com a principal hipótese diagnóstica:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Deve ser realizada prova terapêutica com albendazol e metronidazol, visando diagnóstico de parasitose;"
+        },
+        {
+          "key": "b",
+          "text": "Deve ser solicitada colonoscopia, visando diagnóstico anatomopatológico de Doença Inflamatória Intestinal;"
+        },
+        {
+          "key": "c",
+          "text": "Devem ser solicitados exames laboratoriais (hemograma, função hepática, função renal, pesquisa de sangue oculto nas fezes visando diagnóstico de neoplasia de cólon;"
+        },
+        {
+          "key": "d",
+          "text": "A tomografia de abdome deve ser solicitada por se tratar de forte suspeita diagnóstica de Linfoma de Grandes células de Reto."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diarreia sanguinolenta crônica com secreção mucoide ao toque retal, em jovem, deve ser investigada com colonoscopia para diagnóstico anatomopatológico de doença inflamatória intestinal, principal hipótese diagnóstica.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_047",
+      "statement": "Homem de 28 anos, com quadro de diarreia há 8 meses, não sanguinolenta, associada a fadiga intensa. Relata perda de 7 kg no período. Relatava antecedente pessoal de uveíte anterior aguda recorrente há 2 anos. Ao exame físico apresentava-se emagrecido e com a presença de fissura anal. Qual a principal hipótese diagnóstica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Intolerância à lactose."
+        },
+        {
+          "key": "b",
+          "text": "Infecção por Campylobacter."
+        },
+        {
+          "key": "c",
+          "text": "Doença de Crohn."
+        },
+        {
+          "key": "d",
+          "text": "Síndrome do intestino irritável."
+        },
+        {
+          "key": "e",
+          "text": "Neoplasia de cólon."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diarreia crônica não sanguinolenta com fadiga, perda de peso, uveíte anterior recorrente e fissura anal são achados compatíveis com doença de Crohn.",
+      "theme": "dii_dc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_048",
+      "statement": "Homem, 32 anos, é portador de doença de Crohn e faz uso de sulfassalazina há 4 anos. Cursou com melhora do quadro intestinal logo no início do tratamento, sem apresentar agudizações ou crises. Há seis meses, apresenta queda do estado geral, referindo diarreias frequentes, duas pneumonias bacterianas com má resposta à antibioticoterapia convencional e três episódios de sinusite associados à otite média aguda. O desencadeamento dos quadros infecciosos se deve, mais provavelmente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "à deficiência de anticorpos pela sulfassalazina."
+        },
+        {
+          "key": "b",
+          "text": "à queda da imunidade humoral pela doença de base."
+        },
+        {
+          "key": "c",
+          "text": "à deficiência do sistema complemento."
+        },
+        {
+          "key": "d",
+          "text": "à leucopenia causada pelo tratamento."
+        },
+        {
+          "key": "e",
+          "text": "a uma coinfecção pelo HIV."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Infecções bacterianas recorrentes (pneumonias, sinusites, otites) em paciente com doença de Crohn em uso de sulfassalazina sugerem deficiência de anticorpos induzida pela droga (mecanismo de imunossupressão humoral associado à sulfassalazina).",
+      "theme": "dii_dc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_049",
+      "statement": "Paciente masculino, 31 anos de idade, com quadro de diarreia muco sanguinolenta crônica e perda de peso progressiva, é encaminhado ao ambulatório para avaliação e tratamento. No exame físico, apresenta-se descorado com abdome levemente distendido e doloroso à palpação mesogástrica. Traz exames solicitados em outro serviço: calprotectina fecal = 1348, Hb = 9, Contagem leucócitos = 13800, PCR = 14, TC de abdome mostrando espessamento com subestenose em íleo e colonoscopia com cólon e reto normais sem evidências de doença. Paciente fazendo uso de masalazina 800 mg 2x há 3 meses, sem melhora do quadro clínico. Diante do exposto, qual deve ser o tratamento a ser instituído?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Suspender mesalazina e introduzir prednisona em dose imunossupressora (1 mg/kg nas próximas 8 semanas."
+        },
+        {
+          "key": "b",
+          "text": "Aumentar a dose de mesalazina para 4200 mg/dia."
+        },
+        {
+          "key": "c",
+          "text": "Aumentar a dose da mesalazina para 4200 mg/dia e associar prednisona 1 mg/kg por 8 semanas."
+        },
+        {
+          "key": "d",
+          "text": "Associar imunossupressor à mesalazina."
+        },
+        {
+          "key": "e",
+          "text": "Suspender mesalazina e iniciar terapia biológica associada à azatioprina."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Doença de Crohn ileal com calprotectina muito elevada, PCR alto e falha ao tratamento com mesalazina isolada tem indicação de suspender a mesalazina (ineficaz na forma ileal) e iniciar terapia biológica associada à azatioprina.",
+      "theme": "dii_dc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_050",
+      "statement": "Adolescente de 13 anos iniciou quadro de dor abdominal, diarreia mucossanguinolenta e perda ponderal há 2 anos. Após 1 mês do início, realizou endoscopia digestiva alta que evidenciou duodenite crônica inespecí ca leve e colonoscopia com úlceras profundas entremeadas de áreas de mucosa normal, e alguns segmentos com lesões coalescentes com estreitamento da luz. A biópsia intestinal revelou granulomas não caseosos com células gigantes de Langerhans. O diagnóstico do paciente e a conduta inicial a ser tomada são, respectivamente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "retocolite ulcerativa; administrar sulfassalazina 100 mg/dia por 8 semanas."
+        },
+        {
+          "key": "b",
+          "text": "tuberculose intestinal; iniciar esquema tríplice e manter por 6 meses."
+        },
+        {
+          "key": "c",
+          "text": "doença de Crohn; iniciar prednisolona 2 mg/kg/dia e mesalazina 40 mg/kg/dia."
+        },
+        {
+          "key": "d",
+          "text": "tumor carcinoide; indicar colectomia total + quimioterapia por 6 meses."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Úlceras profundas com áreas de mucosa normal, lesões coalescentes e granulomas não caseosos com células gigantes na biópsia confirmam doença de Crohn; a conduta inicial é prednisolona e mesalazina em dose pediátrica ajustada ao peso.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_051",
+      "statement": "Homem de 31 anos de idade apresenta quadro de dor abdominal e diarreia sanguinolenta intermitente há 2 meses, sem urgência, tenesmo ou febre. O sangramento ocorre com e sem movimentos intestinais. Nega febre, calafrios, suores noturnos, artralgia, dor ocular ou erupção cutânea. Nega viagem recente, uso de antibióticos ou doenças prévias. Exame físico: sinais vitais normais; abdome: sensibilidade moderada à palpação do quadrante inferior esquerdo. A colonoscopia mostra eritema e ulceração não contínuos no cólon ascendente, descendente e sigmoide; reto e o cólon transverso normais. O histopatológico de biópsias das áreas afetadas revela criptas distorcidas e rami cadas, com formação de granulomas. O diagnóstico mais provável é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "colite eosinofílica."
+        },
+        {
+          "key": "b",
+          "text": "colite microscópica."
+        },
+        {
+          "key": "c",
+          "text": "doença de Crohn."
+        },
+        {
+          "key": "d",
+          "text": "retocolite ulcerativa."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Ulceração não contínua (salteada) no cólon, poupando reto e cólon transverso, com granulomas na biópsia, é achado histopatológico e endoscópico clássico de doença de Crohn.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_052",
+      "statement": "Paciente de 19 anos, internado para investigação de dor abdominal crônica, diarreia e perda ponderal. Realizou colonoscopia que evidenciou lesões do tipo descontínuas, segmentadas no trato gastrointestinal, com duas áreas afetadas separadas por uma porção de intestino normal, semelhante a uma superfície em aspecto de paralelepípedo. À microscopia observam-se agregados linfocitários na submucosa e no exterior da camada muscular própria, com presença de granulomas epitelióides. Trata-se PROVAVELMENTE de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "retocolite ulcerativa."
+        },
+        {
+          "key": "b",
+          "text": "doença de Crohn."
+        },
+        {
+          "key": "c",
+          "text": "colite pseudomembranosa."
+        },
+        {
+          "key": "d",
+          "text": "polipose adenomatosa familiar."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Lesões descontínuas segmentares com áreas de mucosa normal intercaladas ('paralelepípedo'), agregados linfocitários transmurais e granulomas epitelióides são características clássicas da doença de Crohn.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_053",
+      "statement": "A Doença de Crohn (DC) é uma doença in amatória intestinal, que apresenta exame histopatológico pode indicar o seguinte item:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Acometimento transmural (quando da análise de ressecções cirúrgicas, padrão segmentar e presença de granulomas não caseosos."
+        },
+        {
+          "key": "b",
+          "text": "Acometimento transmural (quando da análise de ressecções cirúrgicas, padrão não segmentar e presença de granulomas não caseosos."
+        },
+        {
+          "key": "c",
+          "text": "Acometimento transmural (quando da análise de ressecções cirúrgicas, padrão segmentar e presença de granulomas caseosos."
+        },
+        {
+          "key": "d",
+          "text": "Acometimento transmural (quando da análise de ressecções cirúrgicas, padrão generalizado e ausência de granulomas não caseosos."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O exame histopatológico da doença de Crohn mostra acometimento transmural, padrão segmentar (lesões salteadas) e presença de granulomas não caseosos.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_054",
+      "statement": "São indicações cirúrgicas para Colite de Crohn:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Obstrução intestinal, vômitos incoercíveis, desnutrição."
+        },
+        {
+          "key": "b",
+          "text": "Diarreia refratária, desnutrição, megacólon tóxico."
+        },
+        {
+          "key": "c",
+          "text": "Obstrução intestinal, retardo do crescimento, colite fulminate."
+        },
+        {
+          "key": "d",
+          "text": "Sangramento maciço, diarreia refratária, perda ponderal."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "São indicações cirúrgicas para colite de Crohn: obstrução intestinal, retardo do crescimento (em crianças) e colite fulminante refratária ao tratamento clínico.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_058",
+      "statement": "Na Doença de Crohn, os fatores de mau prognóstico são",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "apendicectomia prévia, idade no início dos sintomas e doença extensa."
+        },
+        {
+          "key": "b",
+          "text": "doença fistulizante, manifestações extra intestinais e idade avançada."
+        },
+        {
+          "key": "c",
+          "text": "história familiar de doença de Crohn, doença de longa duração e recidiva pós cirurgia."
+        },
+        {
+          "key": "d",
+          "text": "doença perianal, tabagismo e uso de corticoesteróides."
+        },
+        {
+          "key": "e",
+          "text": "apendicectomia prévia, etilismo e idade avançada."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Doença perianal, tabagismo e uso de corticosteroides são fatores de mau prognóstico reconhecidos na doença de Crohn, associados a curso mais agressivo e maior necessidade de cirurgia.",
+      "theme": "dii_dc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_059",
+      "statement": "Um paciente de 30 anos, sabidamente portador de doença de Crohn de intestino delgado desde os 19 anos, procurou o hospital com queixas de piora da diarreia, associada à dor em cólicas em região periumbilical e distensão abdominal, tendo apresentado alguns episódios de vômitos na última semana. Dentre os exames abaixo, qual NÃO estaria indicado nesse momento para avaliar a atividade da doença?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dosagem de calprotectina fecal"
+        },
+        {
+          "key": "b",
+          "text": "Proteína C reativa"
+        },
+        {
+          "key": "c",
+          "text": "Endoscopia por cápsula"
+        },
+        {
+          "key": "d",
+          "text": "Êntero-tomografia"
+        },
+        {
+          "key": "e",
+          "text": "Êntero-ressonância"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A endoscopia por cápsula não é indicada na avaliação inicial de atividade em paciente com sintomas obstrutivos (distensão, vômitos), pelo risco de retenção da cápsula em segmento estenosado — sendo essa a exceção entre os exames listados.",
+      "theme": "dii_dc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_060",
+      "statement": "Diante de um paciente com doença in amatória intestinal estenosante compatível com Doença de Crohn, qual das manifestações abaixo pode ser considerada manifestação extra-intestinal da doença?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Síndrome de Eisenmenger."
+        },
+        {
+          "key": "b",
+          "text": "Ulceras de Mooren."
+        },
+        {
+          "key": "c",
+          "text": "Ulceras cutâneas indolores."
+        },
+        {
+          "key": "d",
+          "text": "Neuropatia periférica."
+        },
+        {
+          "key": "e",
+          "text": "Cardiomiopatia restritiva."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Úlceras cutâneas indolores (relacionadas a pioderma gangrenoso/vasculite cutânea) podem ser consideradas manifestação extraintestinal da doença de Crohn, diferente das demais opções que não têm associação clássica reconhecida.",
+      "theme": "dii_dc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_061",
+      "statement": "Sobre a Doença de Crohn, assinale a correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O granuloma caseoso é patognomônico da Doença de Crohn e marca atividade inflamatória da doença."
+        },
+        {
+          "key": "b",
+          "text": "As lesões em íleo terminal são comuns e podem poupar o ceco."
+        },
+        {
+          "key": "c",
+          "text": "Sua manifestação clínica mais comum é a fístula cutânea."
+        },
+        {
+          "key": "d",
+          "text": "Apresenta menos complicações quando comparada à retocolite ulcerativa, pois acomete somente as camadas mucosa e submucosa."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Na doença de Crohn, as lesões em íleo terminal são comuns e classicamente podem poupar o ceco, ao contrário do padrão de acometimento contínuo da retocolite ulcerativa.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_062",
+      "statement": "Sobre a doença de Crohn, assinale com V as afirmativas verdadeiras e com F as falsas. ( ) Início insidioso, febre baixa e diarreia são manifestações clínicas encontradas na doença de Crohn. ( ) A doença de Crohn não acomete o intestino delgado, limitando-se aos intestinos grosso e reto, sendo o cólon descendente o mais atingido. ( ) A doença de Crohn limita-se à superfície mucosa do cólon, não atingindo planos mais profundos. ( ) O tabagismo está associado ao desenvolvimento da doença de Crohn, à resistência à terapia médica e à recaída precoce da doença. Assinale a sequência correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "V-F-V-F"
+        },
+        {
+          "key": "b",
+          "text": "F-V-F-V"
+        },
+        {
+          "key": "c",
+          "text": "V - F - F- V"
+        },
+        {
+          "key": "d",
+          "text": "F - V - V- F"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Início insidioso com febre baixa e diarreia são manifestações da Crohn (V); a doença de Crohn PODE acometer o intestino delgado, não se limita ao grosso/reto (F); a Crohn tem acometimento transmural, não limitado à mucosa (F); o tabagismo está associado a pior prognóstico, resistência terapêutica e recaída precoce na Crohn (V) — sequência V-F-F-V.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_063",
+      "statement": "Um homem de 23 anos vai ao pronto-atendimento do Hospital da Polícia Militar de Minas Gerais queixando-se do aparecimento de lesões ulceradas, dolorosas, de bordas elevadas e fundo necrótico em região anterior de perna esquerda há 2 semanas. Relata quadro de diarreia piosanguinolenta há 3 meses, em investigação no ambulatório de Gastroenterologia. Apresenta resultado de colonoscopia recente, que revela presença de úlceras serpiginosas no íleo distal, com deformação da válvula ileocecal. Ultrassonografia abdominal demonstra a presença de nefrolitíase bilateral. Assinale a alternativa CORRETA sobre o caso deste paciente.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Está indicado o uso de mesalazina oral combinada a antibioticotepia como primeira linha de tratamento para esse paciente."
+        },
+        {
+          "key": "b",
+          "text": "A dosagem do anticorpo anti-Saccharomyces cerevisiae (anti-ASCA pode ser positiva, embora seja mais frequente a positividade da dosagem do pANCA."
+        },
+        {
+          "key": "c",
+          "text": "A biópsia da lesão cutânea provavelmente revelará infiltrado inflamatório predominantemente neutrofílico e necrose."
+        },
+        {
+          "key": "d",
+          "text": "Os cálculos urinários mais encontrados nessa situação são de ácido úrico."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Úlceras cutâneas necróticas dolorosas (pioderma gangrenoso), diarreia sanguinolenta e úlceras ileais serpiginosas com nefrolitíase sugerem doença de Crohn; a biópsia da lesão cutânea de pioderma gangrenoso tipicamente revela infiltrado neutrofílico denso com necrose.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_065",
+      "statement": "Paciente jovem, 25 anos, com quadro de diarréia com muco, pus e sangue há 3 meses, com perda ponderal. Em investigação realizou colonoscopia com biópsia.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Para diagnóstico de doença de Crohn observa-se um acometimento transmural com maior possibilidade de fístulas intestinais."
+        },
+        {
+          "key": "b",
+          "text": "A colectomia cura a doença de Crohn."
+        },
+        {
+          "key": "c",
+          "text": "p- ANCA negativo e ASCA positivo ocorrem mais na retocolite ulcerativa."
+        },
+        {
+          "key": "d",
+          "text": "O megacólon tóxico é uma complicação mais comum da doença de Crohn."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O acometimento transmural com maior propensão a formação de fístulas é característica que diferencia a doença de Crohn da retocolite ulcerativa, que se limita à mucosa.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_066",
+      "statement": "Na doença de Crohn (DC) com atividade in amatória intestinal grave a fulminante os pacientes serão tratados preferencialmente em hospitais terciários. Está inadequado apenas que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Devem receber hidratação, transfusões e suporte nutricional, se clinicamente indicados."
+        },
+        {
+          "key": "b",
+          "text": "A avaliação cirúrgica será solicitada se houver suspeita de obstrução."
+        },
+        {
+          "key": "c",
+          "text": "Inicia-se o tratamento com hidrocortisona, IV, na dose de 100 mg, de 8/8 h, se não houver contraindicação."
+        },
+        {
+          "key": "d",
+          "text": "Caso ocorra a piora clínica e a retomada da via oral, pode-se substituir o corticosteroide IV por 40 a 60 mg de prednisona, por via oral (VO, passando, então, os pacientes a serem tratados da mesma forma que os com doença moderada a grave."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de piora clínica e possibilidade de retomada da via oral, a transição de corticosteroide IV para prednisona oral em dose reduzida (não 40-60mg, que é dose plena) faria o paciente ser tratado como doença moderada a grave — a descrição de manter dose alta está inadequada, sendo essa a afirmação incorreta.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_067",
+      "statement": "Homem de 32 anos se queixa de dor abdominal periumbilical em cólica, que alivia após a evacuação. Há diarreia em grande volume com fezes líquidas, algumas vezes contendo sangue, em 4 episódios ao dia, há 35 dias. Apresentou alguns episódios febris e perdeu 2kg no período. Desconhece doenças prévias e nega o uso de medicamentos ou drogas ilícitas. O exame do abdômen revela dor à palpação profunda difusa, sem sinais de irritação peritoneal. O toque retal não revela alterações. Sem outras anormalidades no restante do exame físico. Exames de laboratório: hemoglobina 11,2g/dL, leucócitos 5.460/mm³, plaquetas 230.000/mm³, proteína C reativa 12mg/dL, calprotectina fecal positiva. Colonoscopia: áreas de hiperemia e úlceras longitudinais na mucosa do íleo terminal, ângulo esplênico do cólon e sigmoide. Demais regiões com mucosas de características normais. Considerando o caso descrito, assinale a alternativa que apresenta o diagnóstico MAIS ADEQUADO para esse paciente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Colite isquêmica."
+        },
+        {
+          "key": "b",
+          "text": "Doença de Crohn."
+        },
+        {
+          "key": "c",
+          "text": "Retocolite ulcerativa."
+        },
+        {
+          "key": "d",
+          "text": "Síndrome do cólon irritável."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diarreia com sangue, úlceras longitudinais salteadas em íleo terminal, ângulo esplênico e sigmoide, com áreas de mucosa normal entre elas, são achados clássicos de doença de Crohn.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_069",
+      "statement": "A aterapia biológica com anti-TNF, infliximabe ou adalimumabe é útil na doença de Crohn para:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Induzir a remissão da doença e mantê-la."
+        },
+        {
+          "key": "b",
+          "text": "Curar a doença."
+        },
+        {
+          "key": "c",
+          "text": "Induzir a remissão da doença sem mantê-la."
+        },
+        {
+          "key": "d",
+          "text": "Manter a remissão da doença sem induzi-la."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A terapia biológica anti-TNF (infliximabe/adalimumabe) na doença de Crohn tem papel tanto na indução quanto na manutenção da remissão clínica.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_070",
+      "statement": "Uma doença tem distribuição bimodal, afetando adultos jovens, com um segundo pico de incidência aos setenta anos de idade. Apresenta prevalência particularmente aumentada em judeus asquenazes e acomete mais comumente o íleo distal e o cólon proximal. O tabagismo associa-se a um pior prognóstico. Os anti-in amatórios não hormonais parecem estar associados a exacerbações. Assinale a alternativa correta com relação à doença caracterizada no texto acima.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Trata-se da doença de Whipple."
+        },
+        {
+          "key": "b",
+          "text": "Essas características são de linfoma de Hodgkin."
+        },
+        {
+          "key": "c",
+          "text": "São sintomas de câncer intestinal."
+        },
+        {
+          "key": "d",
+          "text": "Trata-se da doença de Crohn."
+        },
+        {
+          "key": "e",
+          "text": "Essas características são de linfoma não-Hodgkin."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Distribuição bimodal de incidência, prevalência aumentada em judeus asquenazes, acometimento do íleo distal e cólon proximal, e pior prognóstico com tabagismo são características epidemiológicas clássicas da doença de Crohn.",
+      "theme": "dii_dc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_071",
+      "statement": "Sobre a Doença de Crohn, assinale a alternativa INCORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A característica histológica patognomônica é o granuloma caseoso, um agregado bem formado e localizado de histiócitos epitelióides circundados por linfócitos e células gigantes."
+        },
+        {
+          "key": "b",
+          "text": "É caracterizada por inflamação predominante em submucosa caracterizada por uma parede colônica espessada."
+        },
+        {
+          "key": "c",
+          "text": "A tríade clássica de sintomas é caracterizada por dor abdominal, diarréia e perda de peso."
+        },
+        {
+          "key": "d",
+          "text": "60% dos pacientes com doença de Crohn têm doença retal."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O granuloma CASEOSO não é característica da doença de Crohn (que apresenta granuloma NÃO caseoso) — essa é a afirmação incorreta a identificar, já que o granuloma caseoso é típico de tuberculose, não de Crohn.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_078",
+      "statement": "No que diz respeito ao tratamento cirúrgico na doença de Crohn podemos afirmar que o mesmo está indicado:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Somente em caso de complicações tais como obstrução."
+        },
+        {
+          "key": "b",
+          "text": "Profilaticamente nos pacientes com mais de vinte anos de evolução e com recidivas de quadros agudos a fim de evitar complicações."
+        },
+        {
+          "key": "c",
+          "text": "Nos pacientes de difícil controle clínico da doença."
+        },
+        {
+          "key": "d",
+          "text": "Nunca, pois o tratamento cirúrgico sempre se mostra ineficiente."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O tratamento cirúrgico na doença de Crohn está indicado apenas diante de complicações (obstrução, fístulas, abscessos, sangramento maciço), nunca de forma profilática, dado o alto índice de recidiva pós-operatória.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_079",
+      "statement": "Nas doenças in amatórias intestinais ocorrem os seguintes fatos, EXCETO: (DENNIS L. KASPER, STEPHEN L. HAUSER, J. LARRY JAMESON . Medicina Interna de Harrison, parte 14, Seção 1 -19.Ed– 2016.).",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "o comprometimento do cólon distal é comum na retocolite ulcerativa (RCU) e incomum na doença de Crohn"
+        },
+        {
+          "key": "b",
+          "text": "o envolvimento do cólon proximal é pouco frequente na RCU e comum na doença de Crohn"
+        },
+        {
+          "key": "c",
+          "text": "as lesões segmentares (salteadas) não ocorrem na RCU e são frequentes na doença de Crohn"
+        },
+        {
+          "key": "d",
+          "text": "o aspecto pavimentos em mosaico (cobble stone) é raro na RCU e comum na doença de Crohn"
+        },
+        {
+          "key": "e",
+          "text": "os pseudopólipos são incomuns na RCU e frequentes na doença de Crohn"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "É a exceção: os pseudopólipos são frequentes na RCU (não incomuns) e também podem ocorrer na doença de Crohn — sendo essa a afirmação que não corresponde ao padrão descrito no texto de referência.",
+      "theme": "dii_dc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_081",
+      "statement": "A doença in amatória intestinal consiste de 2 entidades: a Doença de Crohn (DC) e a Retocolite Ulcerativa (RCU). O diagnóstico diferencial por vezes é difícil por haver sobreposição das manifestações clínico-patológicas entre elas. Em relação ao diagnóstico diferencial entre essas entidades, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O reto é o local mais acometido na RCU, e pode haver doença perianal com abscessos e fístulas."
+        },
+        {
+          "key": "b",
+          "text": "A colonoscopia que revela pancolite granulomatosa, sem acometimento endoscópico ou histológico do íleo terminal e do reto, é mais compatível com o diagnóstico de RCU."
+        },
+        {
+          "key": "c",
+          "text": "O teste pANCA positivo é útil no diagnóstico diferencial, pois ocorre na RCU, porém não na DC."
+        },
+        {
+          "key": "d",
+          "text": "A inflamação transmural ocorre na DC e pode resultar em estenoses, úlceras e perfurações em qualquer segmento do trato gastrointestinal e boca."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A inflamação transmural ocorre na doença de Crohn e pode resultar em estenoses, úlceras e perfurações em qualquer segmento do trato gastrointestinal, da boca ao ânus.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_082",
+      "statement": "As doenças in amatórias intestinais na infância caracterizam-se por também poderem apresentar manifestações extraintestinais. Com relação a esse conjunto de manifestações, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "As manifestações articulares raramente são encontradas, sendo as menos frequentes."
+        },
+        {
+          "key": "b",
+          "text": "Pode haver diminuição da densidade mineral óssea na população pediátrica com doença inflamatória intestinal."
+        },
+        {
+          "key": "c",
+          "text": "As manifestações articulares em crianças com doenças inflamatórias intestinais são mais prevalentes na colite ulcerativa que na doença de Crohn."
+        },
+        {
+          "key": "d",
+          "text": "A presença de lesões orais aftosas, eritema nodoso e uveítes excluem doença inflamatória intestinal."
+        },
+        {
+          "key": "e",
+          "text": "Deficit de crescimento e atraso de desenvolvimento puberal não são manifestações extraintestinais das doenças inflamatórias intestinais na infância."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Crianças com doença inflamatória intestinal podem apresentar diminuição da densidade mineral óssea, relacionada à inflamação crônica, desnutrição e uso de corticoides.",
+      "theme": "dii_dc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_083",
+      "statement": "Observe as afirmativas sobre o tratamento cirúrgico nos portadores de doença de Crohn: I. O tratamento cirúrgico pro lático está indicado em pacientes bem controlados pelo tratamento clínico evitando-se assim um maior risco de complicações. II. A ressecção intestinal é o método de escolha e deve ser ampla, principalmente na primeira vez em que se utiliza o tratamento cirúrgico, visto que aproximadamente 50% dos pacientes operados têm recidiva da doença, que deve ser evitada. III. Em pacientes com fístulas, a ressecção em bloco é a mais indicada e a reconstituição do trânsito intestinal deve ser por meio de anastomoses términoterminal ou láterolateral. IV. A enteroplastia é uma boa opção quando existem múltiplas estenoses anulares e segmentares, sobretudo se o paciente já tiver feito cirurgia. Assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas I e II estão corretas."
+        },
+        {
+          "key": "b",
+          "text": "Apenas I e IV estão corretas."
+        },
+        {
+          "key": "c",
+          "text": "Apenas II e III estão corretas."
+        },
+        {
+          "key": "d",
+          "text": "Apenas III e IV estão corretas."
+        },
+        {
+          "key": "e",
+          "text": "Apenas II, III e IV estão corretas."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A ressecção intestinal em bloco é indicada em fístulas (III correta) e a estenoplastia é boa opção para múltiplas estenoses curtas, especialmente em reoperados (IV correta); cirurgia profilática não é indicada em doença bem controlada e a ressecção não precisa ser ampla (I e II incorretas) — III e IV corretas.",
+      "theme": "dii_dc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_084",
+      "statement": "Uma paciente de 28 anos recebeu o diagnóstico de doença de Crohn, com acometimento perianal e do intestino delgado, onde apresenta uma área de estenose não obstrutiva na transição jejunoileal. Atualmente está com seis evacuações ao dia, algumas cólicas e um trajeto stuloso na região perianal. Demonstra desejo de engravidar nos próximos seis meses. Assinale a alternativa CORRETA com relação ao tratamento para esse caso.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A paciente deve ser tratada com sulfassalazina e prednisona, pois são drogas seguras na gestação."
+        },
+        {
+          "key": "b",
+          "text": "A paciente teria indicação de uso de azatioprina e infliximab, mas, como não são drogas seguras para uso na gestação, deverá iniciar o tratamento apenas no puerpério."
+        },
+        {
+          "key": "c",
+          "text": "Das drogas com atividade anti-TNF, a mais segura para o caso é o certolizumab, pois essa droga não atravessa a barreira placentária."
+        },
+        {
+          "key": "d",
+          "text": "A paciente deve receber orientação contrária à gestação, pois a tendência é a doença se agravar durante o período gestacional."
+        },
+        {
+          "key": "e",
+          "text": "Como a paciente ainda não recebeu nenhum tratamento para a sua doença, deve iniciar sulfassalazina e progredir para prednisona e, posteriormente, azatioprina apenas se não atingir a remissão clínica."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Entre as drogas anti-TNF, o certolizumabe pegol é considerado o mais seguro na gestação por não atravessar significativamente a barreira placentária (não possui a região Fc responsável pelo transporte ativo transplacentário).",
+      "theme": "dii_dc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_085",
+      "statement": "Paciente, 20 anos, apresenta dor abdominal recorrente em fossa ilíaca direita. Tomogra a de abdome sem contraste, realizada no período de crise, não mostrou “borramento” em quadrante inferior direito, nem liquido livre ou coleções. Adicionalmente o paciente relata que há vários períodos com diarreia sanguinolenta e distensão abdominal. O exame físico do doente identifica sinais de artrites, eritema nodoso e uveite. Diagnóstico mais provável é de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doença de Whipple."
+        },
+        {
+          "key": "b",
+          "text": "Retocolite ulcerativa."
+        },
+        {
+          "key": "c",
+          "text": "Apendicite aguda."
+        },
+        {
+          "key": "d",
+          "text": "Doença de Crohn."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Dor recorrente em fossa ilíaca direita, diarreia sanguinolenta, distensão abdominal e manifestações extraintestinais (artrite, eritema nodoso, uveíte), sem achados de apendicite na TC, sugerem doença de Crohn como diagnóstico mais provável.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_086",
+      "statement": "Sobre a Doença de Crohn, assinale a alternativa INCORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O risco de desenvolvimento de carcinoma do cólon é menor que na colite ulcerativa."
+        },
+        {
+          "key": "b",
+          "text": "As manifestações extracolônicas são semelhantes àquelas associadas a retocolite ulcerativa."
+        },
+        {
+          "key": "c",
+          "text": "Achados radiológicos característicos são lesões salteadas, defeitos de contorno, úlceras longitudinais e transversas, estenoses e defeitos nodulares irregulares."
+        },
+        {
+          "key": "d",
+          "text": "A maioria das manifestações extracolônicas melhora com a ressecção do intestino doente, incluindo a colangite esclerosante primária."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A maioria das manifestações extracolônicas da doença de Crohn melhora com a ressecção do intestino doente, EXCETO a colangite esclerosante primária, que segue curso independente da atividade intestinal — sendo essa a afirmação incorreta.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_089",
+      "statement": "Na doença de Crohn,",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a corticoterapia deve ser mantida por tempo prolongado nos casos de falta de resposta com o ácido 5 aminossalicílico."
+        },
+        {
+          "key": "b",
+          "text": "a mesalazina é a droga padrão-ouro para o tratamento da forma colônica."
+        },
+        {
+          "key": "c",
+          "text": "a corticoterapia deve ser evitada para indução do tratamento."
+        },
+        {
+          "key": "d",
+          "text": "Adalimumabe, Infliximabe e Certolizumabe são imunobiológicos anti-TNF (fator de necrose tumoral) indicados para o tratamento adequado."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Adalimumabe, infliximabe e certolizumabe são os principais imunobiológicos anti-TNF indicados no tratamento da doença de Crohn moderada a grave.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_092",
+      "statement": "Assinale a alternativa INCORRETA sobre a doença de Crohn:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A doença de Crohn é uma doença inflamatória intestinal inespecífica e pode afetar qualquer segmento do trato gastrointestinal."
+        },
+        {
+          "key": "b",
+          "text": "15% dos pacientes com doença de Crohn têm doença limitada ao cólon."
+        },
+        {
+          "key": "c",
+          "text": "A doença de Crohn é uma inflamação predominantemente da mucosa caracterizada por uma parede colônica espessada."
+        },
+        {
+          "key": "d",
+          "text": "O processo inflamatório pode afetar todo o cólon e imitar colite ulcerativa, ou pode afetar apenas segmentos do cólon."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A doença de Crohn é caracterizada por inflamação TRANSMURAL (não limitada à mucosa), com parede colônica espessada — sendo essa a afirmação incorreta a identificar.",
+      "theme": "dii_dc",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_095",
+      "statement": "Paciente gestante com doença in amatória intestinal, pode fazer tratamento com todas as drogas abaixo, exceto esta, que se constitui em contraindicação absoluta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aminosalicilatos"
+        },
+        {
+          "key": "b",
+          "text": "Metronidazol"
+        },
+        {
+          "key": "c",
+          "text": "Metotrexate"
+        },
+        {
+          "key": "d",
+          "text": "Anti-TNF"
+        },
+        {
+          "key": "e",
+          "text": "Azatioprina"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O metotrexato é teratogênico e constitui contraindicação absoluta na gestação de pacientes com DII, diferente dos aminosalicilatos, metronidazol, anti-TNF e azatioprina, que podem ser usados com monitoramento.",
+      "theme": "dii_dc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_096",
+      "statement": "Homem, 26 anos, estudante em tratamento de hipotireoidismo, refere ter iniciado há 2 anos com dor lombar crônica, sem relação com esforço físico, com piora matinal e em repouso. Faz uso esporádico de ibuprofeno, com melhora parcial. Neste período, vem apresentando episódios de diarreia intermitente sem produtos patológicos, associado a desconforto abdominal. Relata período de aumento do estresse e fadiga. Ao exame físico, chama a atenção discreta palidez e distensão abdominal. Com base nos dados clínicos, qual a hipótese mais provável para este paciente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doença celíaca."
+        },
+        {
+          "key": "b",
+          "text": "Doença de Crohn."
+        },
+        {
+          "key": "c",
+          "text": "Parasitose."
+        },
+        {
+          "key": "d",
+          "text": "Síndrome do intestino irritável."
+        },
+        {
+          "key": "e",
+          "text": "Intolerância à lactose."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Dor lombar crônica inflamatória (piora matinal, melhora com atividade) associada a diarreia intermitente e desconforto abdominal sugere doença de Crohn com manifestação articular axial (espondiloartrite associada).",
+      "theme": "dii_dc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_097",
+      "statement": "Paciente com 32 anos, portador de doença de Crohn, submetido a enterectomia de íleo terminal, pode desenvolver as seguintes condições, exceto",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "deficiência de vitamina B12."
+        },
+        {
+          "key": "b",
+          "text": "anemia megaloblástica."
+        },
+        {
+          "key": "c",
+          "text": "baixos níveis de ferro sérico."
+        },
+        {
+          "key": "d",
+          "text": "diarreia colerética."
+        },
+        {
+          "key": "e",
+          "text": "depleção dos reservatórios de sais biliares."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Após ressecção de íleo terminal por doença de Crohn, o paciente pode desenvolver deficiência de vitamina B12, anemia megaloblástica, depleção de sais biliares e diarreia colerética — mas não baixos níveis de ferro sérico diretamente, já que o ferro é absorvido principalmente no duodeno/jejuno proximal, não no íleo terminal.",
+      "theme": "dii_dc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_098",
+      "statement": "Pacientes portadores de DII e que sofreram ressecção do cólon tendem a apresentar que tipo de complicação renal",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Obstrução Ureteral"
+        },
+        {
+          "key": "b",
+          "text": "Glomerulonefrite"
+        },
+        {
+          "key": "c",
+          "text": "Nefrite Tubulointersticial"
+        },
+        {
+          "key": "d",
+          "text": "Fístulas Enterovesicais"
+        },
+        {
+          "key": "e",
+          "text": "Litíase Renal"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Pacientes com DII submetidos à ressecção colônica têm maior risco de litíase renal (cálculos de oxalato de cálcio, por hiperoxalúria entérica) como complicação renal característica.",
+      "theme": "dii_dc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_099",
+      "statement": "Marque a alternativa que correlaciona certo as colunas abaixo: 1 - Retocolite ulcerativa; 2 - Doença de Crohn; 3 - Ambas; 4 - Ambas, porém mais comum na retocolite; a) História familiar positiva; b) Acomete a mucosa de forma homogênea e ascendente; c) Alterações inflamatórias transmurais; d) Risco para câncer de cólon;",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "1A, 2D, 3B, 4C"
+        },
+        {
+          "key": "b",
+          "text": "1C, 2B, 3D, 4A"
+        },
+        {
+          "key": "c",
+          "text": "1C, 2A, 3B, 4D"
+        },
+        {
+          "key": "d",
+          "text": "1B, 2C, 3A, 4D"
+        },
+        {
+          "key": "e",
+          "text": "1B, 2D, 3A, 4C"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Sequência correta: história familiar positiva (comum a ambas, 3), acometimento contínuo/ascendente da mucosa (mais típico da RCU, mas descrito para Crohn na coluna b — gabarito aponta 1B), alterações transmurais (Crohn, 2C), risco de câncer de cólon (ambas, mas mais associado à RCU, 4D) — combinação 1B-2C-3A-4D conforme gabarito.",
+      "theme": "dii_dc",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}

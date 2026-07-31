@@ -1,1 +1,1252 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "disf_001",
+      "statement": "REZENDE J. M.; LAUAR K. M.; OLIVEIRA. A. R. Aspectos clínicos e radiológicos da aperistalse do esôfago. Revista Brasileira de Gastroenterologia. 1960; 12: 247 – 62. No tratamento da doença representada nesse exame radiológico contrastado, podem ser usadas determinadas técnicas cirúrgicas. Assinale a alternativa que indica essas técnicas.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cardioplastia à Thal-Hatafuku e operação de Duhamel"
+        },
+        {
+          "key": "b",
+          "text": "Operação de Duhamel e esofagectomia"
+        },
+        {
+          "key": "c",
+          "text": "Cardiomiotomia à Heller e operação de Frey"
+        },
+        {
+          "key": "d",
+          "text": "Cardioplastia à Thal-Hatafuku e esofagectomia"
+        },
+        {
+          "key": "e",
+          "text": "Cardiomiotomia à Heller e operação de Whipple"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] No tratamento do megaesôfago (representado pela aperistalse esofágica no exame radiológico), as técnicas cirúrgicas empregadas são a cardiomiotomia à Heller e a esofagectomia, reservada para casos avançados.",
+      "theme": "drge_acal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_005",
+      "statement": "Paciente de 70 anos, relata que vêm apresentando di culdade para engolir há vários anos, queixando-se de sensação de entalo até para alimentos pastosos necessitando de ingesta de líquido para \"empurrar\" a comida. Notou emagrecimento neste período, acha que perdeu 20 Kg. Nasceu e reside em zona rural próximo a São José do Rio Preto, nega histórico de neoplasia em sua família. Procurou atendimento em sua cidade onde realizou uma Endoscopia Digestiva Alta (EDA) cujo laudo mostrou esofagite edematosa e gastrite enantematosa. Sobre este quadro clínico e dentre as alternativas abaixo, qual a que melhor se enquadra na condução deste caso:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar um Exame Radiológico Contrastado tendo como hipótese diagnóstica o megaesôfago."
+        },
+        {
+          "key": "b",
+          "text": "A EDA foi sugestiva de refluxo gastroesofágico, com isso iniciar o tratamento com inibidor de bomba de Próton (IBP) e medidas comportamentais."
+        },
+        {
+          "key": "c",
+          "text": "O melhor seria repetir a EDA com biópsias para pesquisa do Helicobacter Pylori"
+        },
+        {
+          "key": "d",
+          "text": "Iniciar tratamento com IBP mas solicitar um Tomografia de Tórax para excluir uma compressão extrínseca."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Disfagia progressiva de longa evolução com necessidade de líquidos para deglutir, emagrecimento importante, em paciente de área endêmica para Chagas, com EDA mostrando apenas esofagite, tem como conduta a solicitação de exame radiológico contrastado para investigar megaesôfago.",
+      "theme": "drge_acal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_009",
+      "statement": "Homem, 86 anos, acamado, passado de AVE, insu ciência cardíaca com FE 21%, evoluindo com disfagia progressiva há 2 anos. No momento, não aceita nem líquidos. Foi avaliado pela fonoaudiologia que não evidenciou distúrbio de deglutição. Submetido à endoscopia digestiva alta, porém o esôfago encontrava-se com importante aumento de seu calibre e com grande quantidade de resíduo sólido não aspirável por endoscopia, não sendo possível identificar ou ultrapassar a cárdia. Analisando o caso em questão, qual a próxima conduta a ser tomada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Uma vez que a endoscopia não foi possível, realizar uma gastrostomia cirúrgica por laparotomia."
+        },
+        {
+          "key": "b",
+          "text": "Manter o paciente em nutrição parenteral total por uma semana e repetir endoscopia."
+        },
+        {
+          "key": "c",
+          "text": "Realizar gastrostomia por laparoscopia, com entubação por sequência rápida devido ao risco de broncoaspiração pelo resíduo esofágico."
+        },
+        {
+          "key": "d",
+          "text": "Esvaziamento esofágico com sonda nasoesofágica calibrosa com o paciente consciente em posição ortostática até retorno limpo. Depois, repetir endoscopia para diagnóstico e possível gastrostomia endoscópica."
+        },
+        {
+          "key": "e",
+          "text": "Realizar manometria esofágica com 6h de jejum do paciente."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Idoso acamado com disfagia terminal e esôfago dilatado com grande resíduo sólido não aspirável exige esvaziamento esofágico com sonda nasoesofágica calibrosa antes de nova tentativa endoscópica, pelo alto risco de broncoaspiração maciça.",
+      "theme": "drge_acal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_011",
+      "statement": "A acalasia é o distúrbio da motilidade esofágica mais bem compreendido atualmente. Tendo em vista essa patologia, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O adenocarcinoma é o tipo de câncer mais comum identificado com acalasia."
+        },
+        {
+          "key": "b",
+          "text": "A tríade clássica de sintomas da acalasia consiste em odinofagia, vômitos e disfonia por refluxo gastroesofágico."
+        },
+        {
+          "key": "c",
+          "text": "Durante um período de 20 anos, um paciente terá uma probabilidade de até 8% de desenvolver carcinoma."
+        },
+        {
+          "key": "d",
+          "text": "Um estreitamento distal denominado como a clássica aparência de “bico de pássaro” é detectado pela endoscopia digestiva alta."
+        },
+        {
+          "key": "e",
+          "text": "A pHmetria é o exame padrão-ouro para o diagnóstico da acalasia."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Um paciente com acalasia tem risco de desenvolver carcinoma epidermoide de esôfago ao longo de 20 anos de evolução em até 8% dos casos, justificando o acompanhamento endoscópico prolongado.",
+      "theme": "drge_acal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_013",
+      "statement": "Assinale a alternativa que apresenta, corretamente, um sinal clínico que pode estar presente em pacientes com megaesôfago chagásico.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Abaulamento na região cervical, geralmente, à direita."
+        },
+        {
+          "key": "b",
+          "text": "Disfagia."
+        },
+        {
+          "key": "c",
+          "text": "Hipertrofia de glândulas parótidas."
+        },
+        {
+          "key": "d",
+          "text": "Presença de linfonodo palpável na região supraclavicular."
+        },
+        {
+          "key": "e",
+          "text": "Submacicez em hemitórax esquerdo."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A hipertrofia das glândulas parótidas pode estar presente em pacientes com megaesôfago chagásico, associada a alterações do sistema nervoso autônomo na doença de Chagas.",
+      "theme": "drge_acal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_014",
+      "statement": "Mulher de 26 anos de idade, previamente hígida, comparece ao ambulatório por queixa de azia e \"entalos\" eventuais. Ela refere apresentar pirose pós-alimentar diária há 8 meses. Há 6 meses, evoluiu com disfagia para sólidos, com necessidade de ingesta de água quando come para melhorar a sensação de entalo. Além disso, relata que precisa anteriorizar o pescoço para se alimentar em alguns momentos. Há 2 meses, passou a apresentar episódios noturnos de dor torácica retroesternal, de forte intensidade, com duração de alguns minutos. Notou também perda de 6kg (peso atual de 49kg) no mesmo período. No momento mantém este quadro, tendo procurado atendimento, pois tem começado a notar prejuízo das suas atividades laborais. Foi solicitado esofagograma baritado, que pode ser visto na gura a seguir: Com base neste caso, assinale a alternativa que corresponde ao mecanismo fisiopatológico que ocasionou o quadro apresentado pelo paciente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Degeneração dos plexos nervosos do esôfago, resultando em hipertonia do esfíncter esofagiano inferior."
+        },
+        {
+          "key": "b",
+          "text": "Motilidade adequada do esôfago, conforme demonstrado pela chegada do contraste ao estômago sem dificuldade."
+        },
+        {
+          "key": "c",
+          "text": "Atrofia da musculatura lisa dos dois terços inferiores do esôfago e do esfíncter esofagiano inferior, com substituição por fibrose."
+        },
+        {
+          "key": "d",
+          "text": "Contrações sequenciais de alta pressão, com relaxamento normal do esfíncter esofagiano inferior."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] Pirose crônica progredindo para disfagia para sólidos, necessidade de anteriorizar o pescoço e emagrecimento sugerem acalasia; o mecanismo fisiopatológico é a degeneração dos plexos nervosos mioentéricos, resultando em hipertonia/falha de relaxamento do esfíncter esofágico inferior.",
+      "theme": "drge_acal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_015",
+      "statement": "O exame padrão-ouro para o diagnóstico da acalasia esofágica é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "manometria esofágica."
+        },
+        {
+          "key": "b",
+          "text": "endoscopia digestiva alta com biópsia do esôfago distal."
+        },
+        {
+          "key": "c",
+          "text": "ecoendoscopia digestiva alta."
+        },
+        {
+          "key": "d",
+          "text": "tomografia de tórax com contraste iodado."
+        },
+        {
+          "key": "e",
+          "text": "esofagograma com contraste iodado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A manometria esofágica é o exame padrão-ouro para o diagnóstico da acalasia, avaliando diretamente a falha de relaxamento do EEI e a aperistalse do corpo esofágico.",
+      "theme": "drge_acal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_016",
+      "statement": "Qual dos achados abaixo é o mais específico para o diagnóstico de acalasia do esôfago?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Disfagia de longa duração e regurgitação."
+        },
+        {
+          "key": "b",
+          "text": "Friabilidade e ulcerações da mucosa com restos alimentares à endoscopia."
+        },
+        {
+          "key": "c",
+          "text": "Alta frequência de ondas aperistálticas ou simultâneas à manometria."
+        },
+        {
+          "key": "d",
+          "text": "Dilatação do corpo e esôfago distal em “bico de pássaro” à esofagografia."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O achado mais específico para o diagnóstico de acalasia é a alta frequência de ondas aperistálticas ou simultâneas à manometria esofágica, refletindo diretamente a disfunção motora primária.",
+      "theme": "drge_acal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_018",
+      "statement": "Paciente do sexo masculino, com 26 anos vem à consulta com suspeita de acalasia do esôfago. O que é considerado correto?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a disfagia decorrente da acalasia do esôfago no jovem, não é progressiva."
+        },
+        {
+          "key": "b",
+          "text": "a acalasia da cárdia é caracterizada por hipertonia do corpo esofágico e hipotonia do esfíncter esofágico inferior."
+        },
+        {
+          "key": "c",
+          "text": "a dilatação endoscópica associada à injeção submucosa da enzima botulínica está indicada nos casos de dólico- megaesôfago."
+        },
+        {
+          "key": "d",
+          "text": "a cirurgia de Serra Dória é atualmente a cirurgia mais realizada nos casos de megaesôfago graus I a III."
+        },
+        {
+          "key": "e",
+          "text": "a esofagomiotomia de Heller-Pinotti realizada por videolaparoscopia é o procedimento cirúrgico de escolha nos graus iniciais (I e II)."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Nos casos iniciais de acalasia (graus I e II), a esofagomiotomia de Heller-Pinotti por videolaparoscopia é o procedimento cirúrgico de escolha, com bons resultados funcionais.",
+      "theme": "drge_acal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_019",
+      "statement": "Mulher, 48 anos. História de disfagia progressiva para líquidos e sólidos há 2 anos. Perda não intencional de peso. Traz esofagograma com estreitamento distal “bico de pássaro”. Teste de Machado-Guerreiro negativo. Nasceu e mora no Recife. A manometria evidencia relaxamento incompleto do esfíncter inferior, ausência de peristalse e atividade contrátil do corpo esofágico. De acordo com a classificação Chicago, é CORRETO afirmar que a paciente apresenta",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "doença de Chagas grau I."
+        },
+        {
+          "key": "b",
+          "text": "acalasia tipo I."
+        },
+        {
+          "key": "c",
+          "text": "acalasia tipo II."
+        },
+        {
+          "key": "d",
+          "text": "acalasia tipo III."
+        },
+        {
+          "key": "e",
+          "text": "doença de Chagas grau II."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Disfagia progressiva com aperistalse completa, ausência de atividade contrátil e relaxamento incompleto do EEI, com Machado-Guerreiro negativo (excluindo Chagas), corresponde à acalasia tipo I pela classificação de Chicago (aperistalse clássica sem pressurização panesofágica).",
+      "theme": "drge_acal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_021",
+      "statement": "Mulher de 49 anos apresenta acalasia de longa data, tratada com Botox, dilatação e miotomia endoscópica por duas vezes. Evoluiu com estenose não passível de tratamento endoscópico e perda ponderal importante. Nesse caso, o melhor tratamento consiste na realização de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "cardiectomia com interposição jejunal"
+        },
+        {
+          "key": "b",
+          "text": "cardioplastia à Thal-Hatafuku"
+        },
+        {
+          "key": "c",
+          "text": "esofagectomia transhiatal"
+        },
+        {
+          "key": "d",
+          "text": "jejunostomia alimentar"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Acalasia refratária a múltiplos tratamentos endoscópicos, com estenose e perda ponderal importante, tem indicação de esofagectomia transhiatal como tratamento definitivo.",
+      "theme": "drge_acal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_022",
+      "statement": "Um paciente de 45 anos de idade compareceu à consulta com queixa de disfagia. Refere que apresenta disfagia para alimentos sólidos, de início há sete meses, e de caráter progressivo, atualmente com di culdade de ingestão de líquidos. O esofagograma baritado é normal e não apresenta megaesôfago. A manometria esofágica apresenta aperistalse no corpo esofágico e hipertonia do esfíncter esofágico inferior. Nesse caso clínico, o diagnóstico mais provável é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "hérnia de hiato esofágico."
+        },
+        {
+          "key": "b",
+          "text": "espasmo esofagiano difuso."
+        },
+        {
+          "key": "c",
+          "text": "esôfago em quebra-nozes."
+        },
+        {
+          "key": "d",
+          "text": "doença do refluxo gastroesofágico."
+        },
+        {
+          "key": "e",
+          "text": "acalasia."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Disfagia progressiva sem megaesôfago ao esofagograma, com aperistalse e hipertonia do EEI à manometria, é achado compatível com acalasia (forma inicial, sem dilatação esofágica ainda estabelecida).",
+      "theme": "drge_acal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_023",
+      "statement": "Paciente mulher, de 66 anos, procura assistência médica devido ao quadro de disfagia progressiva e perda de peso de, aproximadamente, 8%. Refere que o quadro disfágico se iniciou há pouco mais de 6 anos, porém se intensi cou há 6 meses, evoluindo rapidamente de sólido para líquido. De acordo com o quadro clínico, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Considerando uma das principais hipóteses diagnósticas, a manometria esofágica pode mudar a conduta cirúrgica."
+        },
+        {
+          "key": "b",
+          "text": "A realização de endoscopia tem a finalidade exclusiva de excluir refluxo avançado."
+        },
+        {
+          "key": "c",
+          "text": "Dentre as condutas iniciais, a internação, para resolução cirúrgica, se impõe, a fim de evitar maior estresse metabólico."
+        },
+        {
+          "key": "d",
+          "text": "Segundo a avaliação subjetiva global, a realização de terapia nutricional parenteral é necessária devido ao quadro de desnutrição grave."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Disfagia progressiva com evolução rápida de sólido para líquido e perda de peso, mesmo com uma das principais hipóteses sendo acalasia, exige manometria esofágica, que pode mudar a conduta cirúrgica ao identificar padrão atípico ou excluir pseudoacalasia por neoplasia.",
+      "theme": "drge_acal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_024",
+      "statement": "Considerando o exame acima apresentado, assim como seus achados, é correto a rmar que o mais provável sintoma do paciente seria",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "dor abdominal."
+        },
+        {
+          "key": "b",
+          "text": "pirose."
+        },
+        {
+          "key": "c",
+          "text": "dispepsia."
+        },
+        {
+          "key": "d",
+          "text": "odinofagia."
+        },
+        {
+          "key": "e",
+          "text": "disfagia."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] Achados clássicos de dilatação esofágica com afilamento distal ('bico de pássaro') no exame contrastado apontam para disfagia como o sintoma mais provável do paciente, característico de acalasia/megaesôfago.",
+      "theme": "drge_acal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_025",
+      "statement": "Uma senhora idosa, demenciada, tem diagnóstico de dolicomegaesôfago. Foi encaminhada ao serviço de endoscopia para passagem de sonda nasoenteral para alimentação, mas apresentou parada cardiorrespiratória e o procedimento não pôde ser feito. Reanimada, foi encaminhada à unidade de terapia intensiva e se recuperou. Tem cardiopatia chagásica. Está em nutrição parenteral desde que foi tentada a passagem da sonda enteral. Quanto à nutrição desta paciente, é correto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Deve-se tentar novamente passar sonda enteral."
+        },
+        {
+          "key": "b",
+          "text": "É recomendável fazer gastrostomia, preferencialmente endoscópica."
+        },
+        {
+          "key": "c",
+          "text": "É melhor manter a nutrição parenteral."
+        },
+        {
+          "key": "d",
+          "text": "Deve ser feita a operação de Serra-Dória."
+        },
+        {
+          "key": "e",
+          "text": "Devem ser adotadas medidas proporcionais."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Paciente com dolicomegaesôfago e cardiopatia chagásica, após intercorrência grave na tentativa de sonda enteral, deve ter a nutrição garantida por gastrostomia, preferencialmente por via endoscópica quando possível, evitando riscos de nova tentativa de sondagem nasoenteral.",
+      "theme": "drge_acal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_026",
+      "statement": "Paciente de 50 anos relata história de disfagia progressiva nos últimos dois anos. Queixa-se ainda de regurgitação de alimentos não digeridos. A manometria esofageana mostra aumento da pressão do esfíncter esofagiano inferior com ausência de relaxamento à deglutição. O tratamento cirúrgico mais adequado deve ser realizado através de",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "toupet por laparoscopia."
+        },
+        {
+          "key": "b",
+          "text": "heller e fundoplicatura."
+        },
+        {
+          "key": "c",
+          "text": "nissen curto posterior."
+        },
+        {
+          "key": "d",
+          "text": "dor anterior amplo."
+        },
+        {
+          "key": "e",
+          "text": "floppy nissen."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Disfagia progressiva com regurgitação e manometria mostrando hipertonia do EEI sem relaxamento à deglutição (acalasia) tem como tratamento cirúrgico mais adequado a cardiomiotomia de Heller associada a fundoplicatura antirrefluxo.",
+      "theme": "drge_acal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_027",
+      "statement": "A acalasia é um distúrbio de motilidade esofágica congênito, caracterizado por peristaltismo esofágico defeituoso e falta de relaxamento do esfíncter esofágico inferior durante a deglutição. O tratamento não operatório mais e caz para o distúrbio apresentado é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Bloqueadores dos canais de cálcio."
+        },
+        {
+          "key": "b",
+          "text": "Toxina botulínica."
+        },
+        {
+          "key": "c",
+          "text": "Dilatação pneumática."
+        },
+        {
+          "key": "d",
+          "text": "Esofagomiotomia videolaparoscópica."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A dilatação pneumática é o tratamento não operatório mais eficaz para acalasia, superior à toxina botulínica e aos bloqueadores de canais de cálcio em eficácia e durabilidade.",
+      "theme": "drge_acal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_035",
+      "statement": "Paciente TSGV, sexo masculino, 33 anos, procura ambulatório de cirurgia digestiva, com queixa de disfagia há cerca de 4 anos, com piora no último ano acompanhada de perda ponderal importante (cerca de 10kg). Foi solicitado exame contrastado de esôfago, que evidenciou megaesôfago grau 3 (mostrado abaixo). Sobre a doença e o tratamento, é incorreto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Acalásia é o distúrbio esofágico primário de motilidade mais comum, podendo ser idiopática ou chagásica."
+        },
+        {
+          "key": "b",
+          "text": "Trata-se de uma doença motora (neurogênica) em que há o relaxamento parcial ou ausente do EEI (esfíncter esofágico inferior)."
+        },
+        {
+          "key": "c",
+          "text": "Dilatação endoscópica é indicada para megaesôfago graus I e II, para melhorar quadro nutricional de pacientes sem condição cirúrgica, para pacientes operados, porém com sintomas persistentes e para gestantes."
+        },
+        {
+          "key": "d",
+          "text": "Cirurgia de Heller-Pinotti indicada no tratamento cirúrgico para pacientes com megaesôfago grau III e IV; consiste na cardiomiotomia com confecção de válvula antirrefluxo parcial."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A dilatação endoscópica é indicada para megaesôfago graus I e II ou em pacientes sem condições cirúrgicas — a cirurgia de Heller-Pinotti é indicada nos graus III e IV avançados, com confecção de válvula antirrefluxo parcial (não a dilatação endoscópica isolada) — sendo essa a afirmação incorreta sobre o tratamento cirúrgico definitivo.",
+      "theme": "drge_acal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_036",
+      "statement": "Paciente com 45 anos de idade, sexo masculino com queixas de dor e di culdades para engolir alimentos sendo necessário a ingestão de água para ajudar a engolir os alimentos, relata também que de vez em quando apresenta o retorno de alimentos não digeridos de odor fétido, referindo azia e tosse noturna. Relata perda de peso nos últimos meses. O exame de osofagograma revela imagem com aparência de bico de pássaro e a manometria esofágica revela um esfíncter esofágico inferior hipertenso que não relaxa com a deglutição e o corpo do esófago apresenta pressão acima da basal, contrações simultâneas sem evidência de peristaltismo progressivo e ondas de contrações de baixa amplitude. Assinale a alternativa correta com relação à principal hipótese diagnóstica do caso.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Acalasia"
+        },
+        {
+          "key": "b",
+          "text": "Carcinoma Esofágico."
+        },
+        {
+          "key": "c",
+          "text": "Refluxo Gastroesofágico."
+        },
+        {
+          "key": "d",
+          "text": "Divertículo Esofágico."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] Disfagia com necessidade de líquidos para engolir, regurgitação de alimentos não digeridos, esofagograma em 'bico de pássaro' e manometria com EEI hipertenso sem relaxamento e aperistalse são achados diagnósticos de acalasia.",
+      "theme": "drge_acal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_039",
+      "statement": "Paciente do sexo masculino, 35 anos de idade, com história de disfagia progressiva e perda de peso (19 kg) há três meses. Nega história de doença do re uxo gastroesofageano, doença de Chagas, tabagismo e etilismo. Realizou endoscopia digestiva alta que evidenciou dilatação esofágica, porém ausência de tumores ou ulcerações esofagogástricas e sem aparente compressão extrínseca do esôfago. Em relação aos métodos diagnósticos e manejo de acalásia, marque \"\"V\"\" para verdadeiro e \"\"F\"\" para falso: ( ) Os achados clássicos na seriogra a esofagogástrica nos pacientes com acalásia são o afunilamento distal do esôfago (lesão em \"\"bico de pássaro\"\") e dilatação proximal do órgão e, nos casos mais avançados, aparência de sigmoide com estase alimentar. ( ) Segundo a classi cação de Chicago para acalásia esofágica, os pacientes estrati cados como tipo III apresentam melhores resultados com a miotomia cirúrgica que com a miotomia endoscópica peroral. ( ) O quadro manométrico clássico é caracterizado pela incapacidade de relaxamento do esfíncter inferior do esôfago durante a deglutição e aperistalse esofágica. ( ) A cirurgia de Heller para o tratamento da acalásia é caracterizada pela realização de uma miotomia esofagogástrica associada a hiatoplastia diafragmática e a confecção de uma válvula antirrefluxo de 360° envolvendo o esôfago distal. Assinale a sequência CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "V-F-V-F"
+        },
+        {
+          "key": "b",
+          "text": "F-F-F-V"
+        },
+        {
+          "key": "c",
+          "text": "V-F-V-V"
+        },
+        {
+          "key": "d",
+          "text": "F-V-F–F"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O afunilamento distal em 'bico de pássaro' com dilatação proximal é achado clássico do esofagograma na acalasia (V); pacientes tipo III de Chicago respondem melhor à miotomia endoscópica peroral (POEM) que à miotomia cirúrgica, tornando essa afirmação falsa; o quadro manométrico clássico é falha de relaxamento do EEI com aperistalse (V); a cirurgia de Heller inclui miotomia, hiatoplastia e válvula antirrefluxo (V) — sequência V-F-V-V.",
+      "theme": "drge_acal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_041",
+      "statement": "Um paciente de 55 anos de idade, proveniente da Bahia, refere disfagia lentamente progressiva de sólido para líquido, dor retroesternal, queimação e regurgitação, associadas à perda ponderal. Tem sorologia positiva para Chagas. Com base nessa situação hipotética, assinale a alternativa que apresenta os exames que devem ser solicitados para a confirmação diagnóstica.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "endoscopia digestiva alta e pHmetria"
+        },
+        {
+          "key": "b",
+          "text": "endoscopia digestiva alta, esofagograma, manometria esofágica e pHmetria"
+        },
+        {
+          "key": "c",
+          "text": "endoscopia digestiva alta, esofagograma e manometria esofágica"
+        },
+        {
+          "key": "d",
+          "text": "endoscopia digestiva alta, manometria esofágica e tomografia de tórax com contraste, via oral"
+        },
+        {
+          "key": "e",
+          "text": "esofagograma, manometria esofágica e pHmetria"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Disfagia progressiva com sorologia positiva para Chagas exige confirmação com endoscopia digestiva alta, esofagograma e manometria esofágica para caracterizar o grau de acometimento e afastar outras causas antes de definir o tratamento.",
+      "theme": "drge_acal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_048",
+      "statement": "Paciente masculino, 32 anos, com história de disfagia progressiva há 2 anos, inicialmente para sólidos, que evoluiu para pastosos e líquidos, submetido ao exame contrastado do esôfago que evidencia dilatação do órgão para 4cm, retardo do esvaziamento e afilamento distal. Quais são o diagnóstico e tratamento mais prováveis?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doença do refluxo gastresofágico e hernioplastia hiatal com fundoplicatura."
+        },
+        {
+          "key": "b",
+          "text": "Megaesôfago e cardiomiotomia."
+        },
+        {
+          "key": "c",
+          "text": "Megaesôfago e hernioplastia hiatal com fundoplicatura."
+        },
+        {
+          "key": "d",
+          "text": "Doença do refluxo gastroesofágico e cardiomiotomia."
+        },
+        {
+          "key": "e",
+          "text": "Neoplasia anular do esôfago."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Disfagia progressiva de sólidos para líquidos, com dilatação esofágica de 4cm, retardo do esvaziamento e afilamento distal ao contrastado, correspondem a megaesôfago, tratado com cardiomiotomia.",
+      "theme": "drge_acal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_049",
+      "statement": "Um paciente do sexo masculino, com 60 anos de idade, procurou ambulatório com queixa de disfagia progressiva, existente havia 10 anos, com piora importante 2 meses antes desse atendimento ambulatorial. No momento, queixava-se de que não conseguia se alimentar nem de líquidos, com perda ponderal de 8 kg no período. Como antecedentes importantes, apresentava uma carga tabágica de 20 maços/ano, etilismo de meio litro de destilados ao dia, epidemiologia positiva para doença de Chagas, sem históricos de câncer na família. A partir do caso clínico hipotético apresentado, julgue o item a seguir. Os sinais e sintomas da acalasia são causados principalmente pela falha de relaxamento do esfíncter esofagiano inferior durante a deglutição.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Os sinais e sintomas da acalasia são causados principalmente pela falha de relaxamento do esfíncter esofagiano inferior durante a deglutição, mecanismo central da doença.",
+      "theme": "drge_acal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_050",
+      "statement": "Neoplasias Malignas do Esôf ago Um paciente do sexo masculino, com 60 anos de idade, procurou ambulatório com queixa de disfagia progressiva, existente havia 10 anos, com piora importante 2 meses antes desse atendimento ambulatorial. No momento, queixava-se de que não conseguia se alimentar nem de líquidos, com perda ponderal de 8 kg no período. Como antecedentes importantes, apresentava uma carga tabágica de 20 maços/ano, etilismo de meio litro de destilados ao dia, epidemiologia positiva para doença de Chagas, sem históricos de câncer na família. A partir do caso clínico hipotético apresentado, julgue o item a seguir. O tratamento cirúrgico deve ser realizado de imediato, devido à impossibilidade de ingesta oral pelo paciente.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O tratamento cirúrgico de urgência não é indicado apenas pela impossibilidade de ingesta oral — a conduta na acalasia/megaesôfago deve seguir investigação e planejamento adequados (nutrição de suporte, exames), não sendo emergência cirúrgica isolada.",
+      "theme": "drge_acal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_052",
+      "statement": "Um paciente do sexo masculino, com 60 anos de idade, procurou ambulatório com queixa de disfagia progressiva, existente havia 10 anos, com piora importante 2 meses antes desse atendimento ambulatorial. No momento, queixava-se de que não conseguia se alimentar nem de líquidos, com perda ponderal de 8 kg no período. Como antecedentes importantes, apresentava uma carga tabágica de 20 maços/ano, etilismo de meio litro de destilados ao dia, epidemiologia positiva para doença de Chagas, sem históricos de câncer na família. A partir do caso clínico hipotético apresentado, julgue o item a seguir. A sorologia para doença de Chagas é essencial para a definição do tipo de tratamento a ser realizado nesse paciente.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A sorologia para doença de Chagas é essencial para definir se a acalasia é primária (idiopática) ou secundária (chagásica), influenciando a abordagem terapêutica e o acompanhamento do paciente.",
+      "theme": "drge_acal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_053",
+      "statement": "Um paciente do sexo masculino, com 60 anos de idade, procurou ambulatório com queixa de disfagia progressiva, existente havia 10 anos, com piora importante 2 meses antes desse atendimento ambulatorial. No momento, queixava-se de que não conseguia se alimentar nem de líquidos, com perda ponderal de 8 kg no período. Como antecedentes importantes, apresentava uma carga tabágica de 20 maços/ano, etilismo de meio litro de destilados ao dia, epidemiologia positiva para doença de Chagas, sem históricos de câncer na família. A partir do caso clínico hipotético apresentado, julgue o item a seguir. O primeiro exame a ser solicitado para esclarecimento diagnóstico é o esofagograma.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de disfagia progressiva de longa evolução, o primeiro exame a ser solicitado para esclarecimento diagnóstico não é o esofagograma isoladamente — a endoscopia digestiva alta deve ser realizada primeiro para excluir lesões estruturais/neoplásicas antes de avançar na investigação funcional.",
+      "theme": "drge_acal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_058",
+      "statement": "Radiologicamente, pode-se classi car o megaesôfago conforme o grau de dilatação. Existem várias classi cações, a mais utilizada é a introduzida e difundida por Câmara Lopes e Ferreira Santos (1957) e Resende e colaboradores (1960). Assinale a alternativa correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Grau I: dilatação até 4 cm de diâmetro transverso; podem ser notadas ondas terciárias e retardo do esvaziamento esofagiano."
+        },
+        {
+          "key": "b",
+          "text": "Grau I: dilatação até 4 cm de diâmetro transverso; podem ser notadas ondas terciárias sem nenhum retardo do esvaziamento esofagiano."
+        },
+        {
+          "key": "c",
+          "text": "Grau II: Dilatação entre 4 e 7 cm de diâmetro transverso, observando-se nível líquido de bário, hipertonia e ondas primárias."
+        },
+        {
+          "key": "d",
+          "text": "Grau III: Dilatação entre 4 e 7 cm de diâmetro transverso, observando-se nível líquido de bário, hipotonia e ondas terciárias."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na classificação de Rezende para megaesôfago, o grau I corresponde à dilatação até 4cm de diâmetro transverso, com ondas terciárias e retardo do esvaziamento esofagiano já perceptível.",
+      "theme": "drge_acal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_059",
+      "statement": "T ratamento Cirúrgico do Megaesôf ago NãoAvançado Acalásia Megaesôf ago Qual a melhor alternativa de tratamento para paciente portador de megaesôfago chagásico grupo III de Rezende, com 40 anos, sem comorbidades?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cirurgia de Nissen."
+        },
+        {
+          "key": "b",
+          "text": "Esofagogastroplastia."
+        },
+        {
+          "key": "c",
+          "text": "Cirurgia de Serra-Dória."
+        },
+        {
+          "key": "d",
+          "text": "Cirurgia de Heller-Pinotti."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Megaesôfago chagásico grupo III de Rezende, em paciente sem comorbidades significativas, tem como melhor tratamento a cirurgia de Heller-Pinotti (cardiomiotomia com fundoplicatura parcial).",
+      "theme": "drge_acal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_060",
+      "statement": "Paciente com moderada disfagia para líquidos deve ter como suspeita clínica inicial:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doença do Refluxo Gastroesofágico."
+        },
+        {
+          "key": "b",
+          "text": "Neoplasia de esôfago."
+        },
+        {
+          "key": "c",
+          "text": "Acalásia."
+        },
+        {
+          "key": "d",
+          "text": "Hipertrofia amigdaliana."
+        },
+        {
+          "key": "e",
+          "text": "Compressão extrínseca do esôfago."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Disfagia moderada para líquidos (disfagia mais acentuada para líquidos que sólidos) é sugestiva de distúrbio motor, sendo a acalasia a principal suspeita clínica inicial.",
+      "theme": "drge_acal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_063",
+      "statement": "São achados encontrados na acalasia de esôfago, chagásica ou idiopática, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "perda ponderal."
+        },
+        {
+          "key": "b",
+          "text": "diminuição do peristaltismo ou até aperistalse."
+        },
+        {
+          "key": "c",
+          "text": "contrações terciárias associada à angina."
+        },
+        {
+          "key": "d",
+          "text": "regurgitação de alimentos não digeridos."
+        },
+        {
+          "key": "e",
+          "text": "esfíncter esofagiano inferior com pressão basal elevada."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Entre os achados da acalasia (chagásica ou idiopática) NÃO se inclui contrações terciárias associadas à angina — esse achado é mais típico do espasmo esofágico difuso, sendo essa a exceção correta.",
+      "theme": "drge_acal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_066",
+      "statement": "Analise as afirmativas abaixo: I. O diagnóstico diferencial de disfagia é vasto sendo a acalasia uma das possibilidades; II. Ter epidemiologia positiva para Doença de Chagas associado com disfagia, apesar de sugerir, não obrigatoriamente implica causalidade; III. Em um paciente com megaesôfago que passe a cursar com piora da disfagia está afastada a possibilidade de neoplasia. Estão corretas as afirmativas:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I e II"
+        },
+        {
+          "key": "b",
+          "text": "II e III"
+        },
+        {
+          "key": "c",
+          "text": "I e III"
+        },
+        {
+          "key": "d",
+          "text": "I, II e III"
+        },
+        {
+          "key": "e",
+          "text": "Somente a afirmativa II"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A acalasia é diagnóstico diferencial importante de disfagia (I correta); sorologia positiva para Chagas não implica necessariamente causalidade da disfagia, podendo haver outra etiologia concomitante (II correta); piora da disfagia em paciente com megaesôfago NÃO afasta neoplasia — ao contrário, aumenta a suspeita de carcinoma sobreposto (III incorreta) — I e II corretas.",
+      "theme": "drge_acal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_067",
+      "statement": "Mulher, 55 anos, procedente do Vale do Jequitinhonha, refere disfagia baixa há 2 anos, ora para alimentos sólidos, ora para líquidos, associada a emagrecimento de 6 kg no período. Informa morte súbita em dois irmãos e pai. Endoscopia digestiva alta sem alterações. Qual alteração manométrica é mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Relaxamento transitório de esfíncter esofágico."
+        },
+        {
+          "key": "b",
+          "text": "Aumento da amplitude das contrações no corpo do esôfago."
+        },
+        {
+          "key": "c",
+          "text": "Aperistalse do corpo do esôfago."
+        },
+        {
+          "key": "d",
+          "text": "Hipotonia do esfíncter inferior esofágico."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Disfagia progressiva com perda de peso e história familiar de morte súbita (sugerindo cardiomiopatia chagásica familiar/genética), com EDA normal, sugere acalasia, cujo achado manométrico esperado é a aperistalse do corpo esofágico.",
+      "theme": "drge_acal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_068",
+      "statement": "Qual destas condições é fator de risco para carcinoma espinocelular de esôfago?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Megaesôfago"
+        },
+        {
+          "key": "b",
+          "text": "Esôfago de Barrett"
+        },
+        {
+          "key": "c",
+          "text": "Síndrome de Boerhaave"
+        },
+        {
+          "key": "d",
+          "text": "Anel de Schatzki"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O megaesôfago (acalasia) é fator de risco reconhecido para carcinoma espinocelular de esôfago, pela estase crônica de alimentos e irritação mucosa prolongada.",
+      "theme": "drge_acal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_069",
+      "statement": "Paciente de 45 anos apresenta quadro crônico de disfagia e emagrecimento. Realizou uma endoscopia digestiva alta que evidenciou a presença de restos alimentares em esôfago distal sendo sugerido novo exame após passagem de sonda para limpeza do órgão. O endoscopista sugeriu o diagnóstico de megaesôfago. Assinale a alternativa correta em relação a essa patologia.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O megaesôfago chagásico é uma síndrome disfágica provocada pela redução quantitativa dos plexos nervosos intramurais."
+        },
+        {
+          "key": "b",
+          "text": "A acalasia é uma alteração motora com relaxamento distal que promove dilatação e disfagia progressivas."
+        },
+        {
+          "key": "c",
+          "text": "Na doença de Chagas, ocorre uma disfunção dos plexos intramurais de Missner e Auerbach sem sua destruição."
+        },
+        {
+          "key": "d",
+          "text": "A disfunção do plexo mioentérico promove uma dilatação e afrouxamento da região do cárdia que se estende ao esôfago proximal com o passar do tempo."
+        },
+        {
+          "key": "e",
+          "text": "A destruição dos plexos nervosos do esôfago promove o relaxamento do cárdia e dilatação do esôfago que progride proximalmente."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O megaesôfago chagásico é uma síndrome disfágica provocada pela redução quantitativa (destruição) dos plexos nervosos intramurais (mioentéricos), causando denervação e dismotilidade esofágica progressiva.",
+      "theme": "drge_acal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_072",
+      "statement": "A forma mais comum de megaesôfago é a chagásica, diagnosticada, fundamentalmente, nas manifestações clínicas do paciente e no exame radiológico, o que permite classi car o megaesôfago. De acordo com a classi cação de Rezende, a melhor terapêutica corresponde ao grau",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "III / cardiomiotomia Heller-Pinoti."
+        },
+        {
+          "key": "b",
+          "text": "II / dilatação endoscópica."
+        },
+        {
+          "key": "c",
+          "text": "IV / dilatação endoscópica."
+        },
+        {
+          "key": "d",
+          "text": "II / cardiomiotomia Heller-Pinoti."
+        },
+        {
+          "key": "e",
+          "text": "II/ esofagectomia."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] Segundo a classificação de Rezende, o megaesôfago grau III tem como melhor terapêutica a cardiomiotomia de Heller-Pinotti, procedimento cirúrgico padrão para essa fase da doença.",
+      "theme": "drge_acal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_076",
+      "statement": "Você atende paciente de 32 anos, hígido, proveniente do interior do Ceará, com queixa de disfagia lentamente progressiva. Quais exames devem ser solicitados?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Endoscopia digestiva alta com biópsia; tomografia computadorizada cervical de tórax e abdome superior; PETCT, broncoscopia."
+        },
+        {
+          "key": "b",
+          "text": "EED, pHmetria, sorologia para chagas, endoscopia digestiva alta com lugol."
+        },
+        {
+          "key": "c",
+          "text": "Eletromanometria esofágica, sorologia para chagas e endoscopia digestiva alta com azul de metileno."
+        },
+        {
+          "key": "d",
+          "text": "Exame contrastado do esôfago (EED), eletromanometria esofágica, sorologia para chagas, endoscopia com lugol."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Disfagia lentamente progressiva em paciente proveniente de área endêmica exige exame contrastado do esôfago (EED), eletromanometria esofágica, sorologia para Chagas e endoscopia com lugol (para rastrear lesões displásicas/neoplásicas associadas à estase crônica).",
+      "theme": "drge_acal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_079",
+      "statement": "A acalasia afeta principalmente mulheres jovens e tem diferentes causas. Os sintomas clássicos são disfagia, regurgitação e perda ponderal. O tratamento clínico pode oferecer alívio em curto prazo. Nesse caso, o procedimento de escolha, com efeito mais duradouro, para o tratamento da acalasia é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "esofagectomia endoscópica"
+        },
+        {
+          "key": "b",
+          "text": "miotomia endoscópica per-oral"
+        },
+        {
+          "key": "c",
+          "text": "miotomia de Heller modificada via laparoscopia"
+        },
+        {
+          "key": "d",
+          "text": "esofagogastrectomia modificada via laparoscopia"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A miotomia de Heller modificada por via laparoscópica é o procedimento cirúrgico de escolha com efeito mais duradouro no tratamento da acalasia.",
+      "theme": "drge_acal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_085",
+      "statement": "Paciente, 34 anos, sexo masculino, apresentando disfagia de condução, regurgitação e emagrecimento. A endoscopia digestiva alta mostrou esofagite, a esofagogra a baritada mostrou estreitamento em bico de pássaro e a esofagomanometria evidenciou falha do relaxamento do EEI e aumento da pressão intraluminal do corpo esofágico. Foi diagnosticado acalásia. Qual exame laboratorial pode auxiliar no diagnóstico da doença de Chagas?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "ELISA."
+        },
+        {
+          "key": "b",
+          "text": "Imunofluorescência direta."
+        },
+        {
+          "key": "c",
+          "text": "EPF"
+        },
+        {
+          "key": "d",
+          "text": "Hemograma completo."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O teste sorológico ELISA é um dos exames laboratoriais utilizados para auxiliar no diagnóstico da doença de Chagas, complementando a suspeita clínica de acalasia secundária chagásica.",
+      "theme": "drge_acal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_088",
+      "statement": "O melhor tratamento para um paciente portador de acalasia de esôfago com megaesôfago grau IV de Rezende é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "cardiomiotomia e fundoplicatura parcial (Heller - Pinotti)."
+        },
+        {
+          "key": "b",
+          "text": "bloqueador de canais de cálcio."
+        },
+        {
+          "key": "c",
+          "text": "aplicação de toxina botulínica."
+        },
+        {
+          "key": "d",
+          "text": "esofagectomia e esofagogastroplastia cervical."
+        },
+        {
+          "key": "e",
+          "text": "dilatação endoscópica com balão hidrostático."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Megaesôfago grau IV de Rezende (dolicomegaesôfago extremo, sigmoide), estágio mais avançado da acalasia, tem como melhor tratamento a esofagectomia com esofagogastroplastia cervical, já que a cardiomiotomia isolada não é eficaz nesse estágio.",
+      "theme": "drge_acal",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_091",
+      "statement": "Paciente de 48 anos, sexo masculino, morador da zona rural ao norte de Anápolis, comparece a consulta médica pela primeira vez queixando disfagia progressiva, tanto para líquidos quanto para sólidos, percebida sobretudo em região retroesternal. Refere episódios de tosse e engasgo à noite, interrompendo o sono. Apresenta ainda constipação intestinal crônica, que progrediu nos últimos dois anos. Diante da suspeita clínica, afirma-se:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "o diagnóstico pode ser confirmado com endoscopia digestiva alta, que documenta, por visualização direta, a dismotilidade esofágica."
+        },
+        {
+          "key": "b",
+          "text": "falta de relaxamento ou relaxamento incompleto do esfíncter esofágico inferior e aperistalse do corpo esofágico são achados comuns na esofagomanometria."
+        },
+        {
+          "key": "c",
+          "text": "um resultado negativo utilizando a fixação de complemento de Machado e Guerreiro exclui a possibilidade de acalasia de etiologia chagásica."
+        },
+        {
+          "key": "d",
+          "text": "o alívio dos sintomas pode ser obtido com a combinação de nitratos, antagonistas dos canais de cálcio e pró- cinéticos."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Disfagia progressiva para sólidos e líquidos, tosse noturna e constipação crônica em morador de zona rural (Chagas) tem como achados manométricos esperados a falta de relaxamento (ou relaxamento incompleto) do EEI e aperistalse do corpo esofágico, confirmando acalasia.",
+      "theme": "drge_acal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_100",
+      "statement": "A azia e a regurgitação são os sintomas mais comuns da doença do re uxo gastroesofágico, contudo, se a regurgitação for de alimentos não digeridos deve-se pensar em:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "acalasia"
+        },
+        {
+          "key": "b",
+          "text": "pancreatite"
+        },
+        {
+          "key": "c",
+          "text": "divertículo gástrico"
+        },
+        {
+          "key": "d",
+          "text": "doença de Menetrier"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Regurgitação de alimentos não digeridos (ao contrário do conteúdo ácido da DRGE) deve levantar a suspeita de acalasia, já que o alimento não sofre digestão gástrica antes de retornar.",
+      "theme": "drge_acal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_106",
+      "statement": "O Esofagograma baritado abaixo apresenta uma alteração clássica de qual patologia?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Espasmo esofágico difuso."
+        },
+        {
+          "key": "b",
+          "text": "Acalasia."
+        },
+        {
+          "key": "c",
+          "text": "Motilidade esofágica ineficaz."
+        },
+        {
+          "key": "d",
+          "text": "Carcinoma espinocelular esofágico."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O esofagograma baritado mostrando afunilamento distal em 'bico de pássaro' com dilatação proximal é achado clássico e patognomônico de acalasia.",
+      "theme": "drge_acal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_107",
+      "statement": "Analise a figura a seguir. O paciente com a manometria esofagiana apresentada deve ser submetido a que tipo de conduta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "pHmetria de 24 horas."
+        },
+        {
+          "key": "b",
+          "text": "Cardiomiotomia."
+        },
+        {
+          "key": "c",
+          "text": "Confecção de válvula antirrefluxo."
+        },
+        {
+          "key": "d",
+          "text": "Introdução de medicação inibidora dos canais de cálcio."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] Diante de manometria compatível com acalasia (falha de relaxamento do EEI, aperistalse), a conduta indicada é a cardiomiotomia (miotomia de Heller), tratamento definitivo da obstrução funcional.",
+      "theme": "drge_acal",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}

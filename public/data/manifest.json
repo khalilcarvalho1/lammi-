@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T00:04:12.304Z",
+  "generatedAt": "2026-07-31T10:06:53.611Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,7 +26,7 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 5396,
+  "totalQuestions": 5829,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
@@ -52,10 +52,18 @@
     "hip_di": 1,
     "dm_dx": 34,
     "dm_tto": 80,
-    "drge_dx": 151,
+    "drge_acal": 43,
+    "dii_dc": 58,
+    "int_celiac": 32,
+    "drge_dx": 217,
     "drge_be": 38,
+    "int_hdb": 98,
     "dup_hda": 109,
     "cirr_compl": 100,
+    "panc_ag": 63,
+    "panc_cron": 12,
+    "dii_rcu": 38,
+    "int_disab": 23,
     "dup_geral": 71,
     "dup_hp": 26,
     "dup_aine": 5,
@@ -911,8 +919,10 @@
     {
       "area": "gastroenterologia",
       "slug": "acalasia",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "drge_acal"
+      ],
+      "questionsCount": 43,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -975,8 +985,10 @@
     {
       "area": "gastroenterologia",
       "slug": "crohn",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "dii_dc"
+      ],
+      "questionsCount": 58,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -1023,8 +1035,10 @@
     {
       "area": "gastroenterologia",
       "slug": "doenca-celiaca",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "int_celiac"
+      ],
+      "questionsCount": 32,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -1035,7 +1049,7 @@
         "drge_dx",
         "drge_be"
       ],
-      "questionsCount": 189,
+      "questionsCount": 255,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -1075,6 +1089,16 @@
     },
     {
       "area": "gastroenterologia",
+      "slug": "hemorragia-digestiva-baixa",
+      "themes": [
+        "int_hdb"
+      ],
+      "questionsCount": 98,
+      "flashcardsCount": 0,
+      "casosCount": 0
+    },
+    {
+      "area": "gastroenterologia",
       "slug": "hepatites",
       "themes": [],
       "questionsCount": 0,
@@ -1094,16 +1118,21 @@
     {
       "area": "gastroenterologia",
       "slug": "pancreatite",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "panc_ag",
+        "panc_cron"
+      ],
+      "questionsCount": 75,
       "flashcardsCount": 0,
       "casosCount": 0
     },
     {
       "area": "gastroenterologia",
       "slug": "retocolite",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "dii_rcu"
+      ],
+      "questionsCount": 38,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -1112,6 +1141,16 @@
       "slug": "sii",
       "themes": [],
       "questionsCount": 0,
+      "flashcardsCount": 0,
+      "casosCount": 0
+    },
+    {
+      "area": "gastroenterologia",
+      "slug": "sindromes-disabsortivas",
+      "themes": [
+        "int_disab"
+      ],
+      "questionsCount": 23,
       "flashcardsCount": 0,
       "casosCount": 0
     },

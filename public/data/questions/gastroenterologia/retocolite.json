@@ -1,1 +1,1088 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "dii_001",
+      "statement": "A retocolite ulcerativa é uma doença in amatória intestinal crônica não contagiosa, em que há in amação e ulcerações no intestino grosso (cólon) e no reto em sua camada mais super cial, a mucosa. A manifestação hepática mais comum desta patologia é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Colangite esclerosante primária."
+        },
+        {
+          "key": "b",
+          "text": "Hepatite fulminante."
+        },
+        {
+          "key": "c",
+          "text": "Fibrose portal."
+        },
+        {
+          "key": "d",
+          "text": "Insuficiência hepática."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A manifestação hepática mais comum associada à retocolite ulcerativa é a colangite esclerosante primária, doença colestática crônica das vias biliares intra e extra-hepáticas.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_002",
+      "statement": "Várias doenças têm sido associadas à Colangite Esclerosante Primária. Qual doença abaixo está mais associada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Úlcera péptica."
+        },
+        {
+          "key": "b",
+          "text": "Colite ulcerativa."
+        },
+        {
+          "key": "c",
+          "text": "Pancreatite."
+        },
+        {
+          "key": "d",
+          "text": "Doença de Crohn."
+        },
+        {
+          "key": "e",
+          "text": "Diverticulite."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A colangite esclerosante primária está mais fortemente associada à colite ulcerativa (retocolite), presente em até 70-80% dos pacientes com CEP.",
+      "theme": "dii_rcu",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_004",
+      "statement": "Homem, 45 anos de idade, apresenta icterícia de longa duração, sem sinais de insu ciência hepática ao exame físico. Exames laboratoriais mostram transaminases normais e fosfatase alcalina 4 vezes acima do limite superior da no rmalidade. Recentemente, iniciou quadro de diarreia muco sanguinolenta com 4 episódios ao dia e discreto emagrecimento. Quais são as hipóteses diagnósticas mais prováveis?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cirrose hepática e amebíase."
+        },
+        {
+          "key": "b",
+          "text": "Hepatite autoimune e doença de Crohn."
+        },
+        {
+          "key": "c",
+          "text": "Colangite esclerosante primária e retocolite ulcerativa."
+        },
+        {
+          "key": "d",
+          "text": "Câncer de cólon e metástases hepáticas."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Icterícia colestática (fosfatase alcalina elevada) associada a diarreia mucossanguinolenta é quadro compatível com colangite esclerosante primária e retocolite ulcerativa concomitantes, associação clássica entre as duas doenças.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_015",
+      "statement": "Homem, 34 anos de idade, apresenta níveis de fosfatase alcalina persistentemente elevados. Retocolite ulcerativa diagnosticada há 3 anos. Exame físico e demais exames laboratoriais sem alterações. Qual é o diagnóstico que melhor explica a alteração apresentada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Calculose biliar."
+        },
+        {
+          "key": "b",
+          "text": "Colangite esclerosante primária."
+        },
+        {
+          "key": "c",
+          "text": "Hepatite medicamentosa."
+        },
+        {
+          "key": "d",
+          "text": "Hepatite autoimune."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Fosfatase alcalina persistentemente elevada em paciente com retocolite ulcerativa é altamente sugestiva de colangite esclerosante primária, mesmo sem outras alterações clínicas.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_017",
+      "statement": "Júlio César, 28 anos, vai ao consultório com queixa de dor abdominal e diarreia intermitentes há cerca de 7 anos, eventualmente com tenesmo e hematoquezia, negando emagrecimento. Exames laboratoriais de 1 mês atrás revelam VHS: 68 mm, Hb: 11,3 g/dL, VCM: 74 ft , HCM: 22 pg, Leucócitos: 8.900 μ/L. Você solicita colonoscopia que revela intenso enantema e friabilidade da mucosa, exibindo múltiplas úlceras ovaladas, recobertas por exsudato fibrinoso, além da perda do brilho e do padrão vascular do cólon [VIDE IMAGEM], estendendo-se, de forma contínua, do reto até o cólon transverso, por vezes, com aspecto tubular. As biópsias revelaram abscesso de criptas. Marcadores revelam p-Anca positivo, e ASCA negativo. Diante do caso, analise as 4 afirmativas abaixo, julgando-as como verdadeiras ou falsas. I. A hipótese mais provável é doença de Crohn, podendo-se esperar fístulas, abscessos cavitários ou estenoses, sendo necessário complementar a investigação com exame de imagem (TC ou ressonância). II. Essa doença costuma acometer todas as camadas da parede do intestino (comprometimento transmural). III. A hipótese mais provável é a retocolite ulcerativa. O acometimento exclusivo do cólon e o caráter contínuo da inflamação reforçam essa hipótese. IV. Essa doença costuma ser mais intensa nos segmentos proximais do cólon, diminuindo sua inflamação no sentido distal. Qual(is) é(são) correta(s).",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas a III."
+        },
+        {
+          "key": "b",
+          "text": "Apenas II e III."
+        },
+        {
+          "key": "c",
+          "text": "Apenas a I."
+        },
+        {
+          "key": "d",
+          "text": "Apenas I e II."
+        },
+        {
+          "key": "e",
+          "text": "I, II e IV."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] O acometimento contínuo do reto ao cólon transverso, com friabilidade mucosa, abscessos de criptas e p-ANCA positivo/ASCA negativo, é quadro clássico de retocolite ulcerativa, caracterizada por comprometimento contínuo exclusivo do cólon.",
+      "theme": "dii_rcu",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_019",
+      "statement": "Adolescente de 12 anos de idade, com queixa de perda de peso nos últimos quatro meses e fezes amolecidas com média de três evacuações diárias. Nas últimas semanas, notou sangue vivo misturado com as fezes. Sempre foi saudável, com alimentação normal. Atualmente com hif?orexia e não está tomando leite de vaca pois acha que piora os sintomas. Qual o DIAGNÓSTICO MAIS PROVÁVEL para explicar este quadro?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Alergia à proteína do leite de vaca"
+        },
+        {
+          "key": "b",
+          "text": "Doença celíaca"
+        },
+        {
+          "key": "c",
+          "text": "Intolerância à lactose"
+        },
+        {
+          "key": "d",
+          "text": "Retocolite ulcerativa"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Perda de peso, diarreia com sangue vivo progressiva em adolescente, sem uso de leite de vaca relacionado, é quadro compatível com retocolite ulcerativa como diagnóstico mais provável.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_021",
+      "statement": "Paciente de 32 anos, do sexo masculino, comparece referindo diarreia volumosa, associada à perda de sangue e muco, emagrecimento e lesão de borda anal. Assinale a alternativa correta quanto ao diagnóstico mais provável.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Síndrome de intestino irritável."
+        },
+        {
+          "key": "b",
+          "text": "Doença de Chron."
+        },
+        {
+          "key": "c",
+          "text": "Retocolite ulcerativa."
+        },
+        {
+          "key": "d",
+          "text": "Colite amebiana."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diarreia volumosa com sangue e muco, emagrecimento e lesão de borda anal (fístula/fissura) em homem jovem sugerem fortemente doença de Crohn, dado o acometimento perianal característico.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_022",
+      "statement": "A retocolite ulcerativa (RU) é uma doença caracterizada por episódios recorrentes de in amação dos cólons, limitada à mucosa, que comumente acomete o reto e pode se estender na forma de uma lesão contínua para acometer outras partes do cólon. A RU é classi cada como uma doença in amatória intestinal, juntamente com a Doença de Crohn (DC); embora sejam agrupadas em uma conceituação comum, guardam entre si diferenças clínicas importantes. Sobre as doenças inflamatórias intestinais, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A RU ocorre predominantemente no reto e sigmoide, mas nos casos mais severos pode apresentar lesões mais disseminadas, inclusive em porções mais altas do trato digestório, como estômago e esôfago."
+        },
+        {
+          "key": "b",
+          "text": "Na DC, de forma semelhante à RU as lesões são limitadas à mucosa."
+        },
+        {
+          "key": "c",
+          "text": "A RU apresenta manifestações extra intestinais, sendo a mais comum delas a artrite de grandes articulações."
+        },
+        {
+          "key": "d",
+          "text": "Na RU as lesões são mais profundas e com maior destruição da mucosa, com aproximadamente 85% dos pacientes evoluindo para colectomia após 10 anos de doença."
+        },
+        {
+          "key": "e",
+          "text": "O diagnóstico de DC deve ser suspeitado em pacientes com diarreia por um período superior a 2 meses, com ou sem presença de sangramento, associado à alterações em colonoscopia."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A artrite de grandes articulações é a manifestação extraintestinal mais comum da retocolite ulcerativa, geralmente correlacionada com a atividade da doença intestinal.",
+      "theme": "dii_rcu",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_023",
+      "statement": "Paciente com doença in amatória intestinal evolui com colangite esclerosante primária, portanto, possui risco aumentado de apresentar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "linfoma hepático"
+        },
+        {
+          "key": "b",
+          "text": "hepatocarcinoma"
+        },
+        {
+          "key": "c",
+          "text": "colangiocarcinoma"
+        },
+        {
+          "key": "d",
+          "text": "adenocarcinoma na 2ª porção duodenal"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Pacientes com colangite esclerosante primária associada à DII têm risco significativamente aumentado de desenvolver colangiocarcinoma, complicação temida dessa associação.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_024",
+      "statement": "Paciente do sexo feminino, 28 anos, é trazida por familiares para avaliação médica devido a quadro de diarreia com muco e sangue há 2 semanas, com piora progressiva, associada a tenesmo e cólica em Fossa Ilíaca Esquerda (FIE) e Flanco Esquerdo (FE) de leve intensidade que melhorava após a defecação. Nega vômitos e febre. Nega episódios anteriores. Encontrava-se bastante pálida e desidratada, taquicárdica, eupneica e normotensa. Seu abdome era plano, ácido, indolor à palpação. Toque retal discretamente doloroso, com sangue em dedo de luva, sem massas ou nodulações palpáveis. A paciente foi então internada para investigação. Ao hemograma: hemoglobina 9g/dl e hematócrito 28%. Foi submetida a colonoscopia que evidenciou reto e cólon sigmóide com mucosas circunferencialmente acometidas, bastante hiperemiadas e friáveis, contendo múltiplas úlceras rasas. Assinale a alternativa INCORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Leucocitose discreta, elevados níveis de Proteína C Reativa e de Calprotectina fecal são esperados no perfil laboratorial desta paciente."
+        },
+        {
+          "key": "b",
+          "text": "Caso não seja tratada adequadamente, esta paciente pode evoluir com múltiplas fístulas perianais complexas."
+        },
+        {
+          "key": "c",
+          "text": "O tratamento inicial desta paciente possivelmente envolverá Mesalazina oral e retal e corticoides."
+        },
+        {
+          "key": "d",
+          "text": "O uso de Infliximabe não está indicado neste momento do tratamento desta paciente."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Colite ulcerativa não costuma evoluir com múltiplas fístulas perianais complexas (característica da doença de Crohn) — sendo essa a afirmação incorreta sobre a apresentação e evolução da retocolite ulcerativa descrita no caso.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_025",
+      "statement": "Paciente com diagnóstico de RCUI (retocolite ulcerativa) que evoluiu para a forma grave da doença, sem melhoras após corticoterapia venosa habitual, tem como melhor opção terapêutica:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Metotrexate."
+        },
+        {
+          "key": "b",
+          "text": "Ciclosporina venosa."
+        },
+        {
+          "key": "c",
+          "text": "Corticoide em doses imunossupressoras."
+        },
+        {
+          "key": "d",
+          "text": "Mesalazina."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Retocolite ulcerativa grave refratária à corticoterapia venosa tem como melhor opção terapêutica de resgate a ciclosporina venosa (ou infliximabe), evitando colectomia de urgência quando possível.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_028",
+      "statement": "Paciente de 29 anos, feminina, portadora de retocolite ulcerativa com queixa de diarreia, sangue, muco e perda de peso, em uso de mesalazina, doses baixas de corticoide e azatioprina e, mesmo com otimização das drogas mencionadas, não tem conseguido melhora clínica. Já teve 2 internações prévias por descompensação clínica. Atualmente, está com fortes dores abdominais, diarreia com frequência de 6 evacuações ao dia, muco nas fezes, náuseas e vômitos frequentes, dores articulares. Colonoscopia atual demonstra pancolite – (Mayo 2) com calprotectina fecal de 2 400 e PCR de 14,5. Diante deste caso, a melhor opção terapêutica é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "aumentar corticoide, manter demais drogas e associar metrotrexate."
+        },
+        {
+          "key": "b",
+          "text": "substituir mesalazina por sulfasalazina e aumentar azatioprina."
+        },
+        {
+          "key": "c",
+          "text": "devido à refratariedade da doença, iniciar uso de terapia biológica em mono e/ou em comboterapia inicialmente."
+        },
+        {
+          "key": "d",
+          "text": "retirar corticoides, retirar mesalazina e deixar ciclosporina em monoterapia."
+        },
+        {
+          "key": "e",
+          "text": "retirar todas as drogas e indicar cirurgia curativa de colectomia total com bolsa ileal (J- pouch)."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Retocolite ulcerativa refratária apesar de otimização de mesalazina, corticoide e azatioprina (falha de tiopurinas) tem indicação de iniciar terapia biológica, em monoterapia ou comboterapia conforme gravidade.",
+      "theme": "dii_rcu",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_029",
+      "statement": "Paciente de 29 anos, masculino, desde 2015 com dores abdominais, diarreia, muco e sangue nas fezes, realizou colonoscopia, que evidenciou se tratar de uma retocolite ulcerativa. Iniciou uso de Mesalazina sem grandes melhoras, sendo necessário uso esporádico de prednisona. Há 01 mês, teve quadro de abdome agudo perfurativo com peritonite, sendo submetido à laparotomia de urgência com sigmoide com grandes áreas de in amação ativa com perfuração e abscesso (retocolite aguda grave perfurada). Foi realizada colostomia proximal com sepultamento do coto retal distal (H artman). Após sua recuperação e agora, nos controles ambulatoriais, é correto afirmar que",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a melhor estratégia terapêutica é otimizar toda a terapia convencional e altas doses de corticoide como manutenção."
+        },
+        {
+          "key": "b",
+          "text": "a melhor estratégia terapêutica é dose máxima de mesalazina e azatioprina."
+        },
+        {
+          "key": "c",
+          "text": "a melhor estratégia terapêutica é terapia biológica (anti tnf-alfa) inicialmente em comboterapia com azatiorpina."
+        },
+        {
+          "key": "d",
+          "text": "a melhor estratégia terapêutica é metrotrexate e corticoides em doses imunossupressoras."
+        },
+        {
+          "key": "e",
+          "text": "devido a cirurgia já ter realizado a ressecção do local de maior inflamação, não se faz necessário manter drogas de manutenção com efeitos colaterais altos."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Após cirurgia de urgência (Hartmann) por retocolite ulcerativa grave perfurada, a melhor estratégia de manutenção é a terapia biológica anti-TNF em comboterapia com azatioprina, já que a doença ainda pode acometer o reto remanescente.",
+      "theme": "dii_rcu",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_031",
+      "statement": "Em qual situação há indicação mandatória de tratamento cirúrgico na retocolite ulcerativa?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pacientes com diagnóstico de colite fulminante sem resposta ao tratamento clínico."
+        },
+        {
+          "key": "b",
+          "text": "Pacientes que apresentam remissão da doença com uso de terapia imunobiológica."
+        },
+        {
+          "key": "c",
+          "text": "Pacientes com manifestações extraintestinais persistentes da doença."
+        },
+        {
+          "key": "d",
+          "text": "Adolescentes com diagnóstico recente."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Colite fulminante sem resposta ao tratamento clínico é indicação mandatória (absoluta) de tratamento cirúrgico de urgência na retocolite ulcerativa.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_032",
+      "statement": "Um jovem de 20 anos de idade procurou atendimento médico com queixa de diarreia (10 episódios por dia), persistente havia seis meses, com perda de muco e sangue. O paciente a rmou que havia perdido 10 kg de peso nesse período. Por meio de uma colonoscopia, chegou-se ao diagnóstico de retocolite ulcerativa idiopática (RCUI). Com relação ao caso clínico hipotético precedente e a aspectos relacionados à patologia mencionada, julgue o item subsequente. Calprotectina fecal acima de 200 UI indica atividade da RCUI.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Calprotectina fecal acima de 200 UI/g indica atividade inflamatória intestinal ativa em pacientes com retocolite ulcerativa, sendo marcador não invasivo útil no monitoramento.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_034",
+      "statement": "Mulher, 54 anos, com retocolite ulcerativa apresenta quadro de megacolon tóxico com indicação cirúrgica. Pode-se afirmar que o procedimento cirúrgico melhor indicado é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "proctocolectomia com anastomose íleo anal com bolsa ileal."
+        },
+        {
+          "key": "b",
+          "text": "proctocolectomia com ileostomia."
+        },
+        {
+          "key": "c",
+          "text": "colectomia total com ileostomia e preservação do reto."
+        },
+        {
+          "key": "d",
+          "text": "colectomia total com ileorretoanastomose."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "No megacólon tóxico associado à retocolite ulcerativa, a colectomia total com ileostomia e preservação do reto é o procedimento cirúrgico de escolha, evitando cirurgia extensa demais em paciente grave.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_035",
+      "statement": "Mulher de 32 anos relata história de diarreia com muco, pus e sangue há seis meses, associada a febre, perda de peso e anemia. Apresenta lesões de pele descritas como pioderma gangrenoso e quadro de artrite em sacroilíacas. A colonoscopia evidenciou ulcerações difusas em retossigmoide e ausência de lesões macroscópicas em cólon descendente, cólon transverso, cólon ascendente e no íleo terminal. O diagnóstico mais provável e o exame que define a atividade da doença, respectivamente, são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "doença de Crohn / ASCA em altos títulos."
+        },
+        {
+          "key": "b",
+          "text": "colite ulcerativa / P-Anca em altos títulos ."
+        },
+        {
+          "key": "c",
+          "text": "colite ulcerativa / calprotectina fecal em altos títulos ."
+        },
+        {
+          "key": "d",
+          "text": "doença de Crohn / calprotectina fecal em altos títulos ."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diarreia mucossanguinolenta, pioderma gangrenoso e artrite sacroilíaca, com ulcerações limitadas ao retossigmoide (acometimento contínuo e distal), correspondem à colite ulcerativa; a calprotectina fecal é o exame que define a atividade da doença.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_036",
+      "statement": "Paciente de 19 anos de idade apresenta queixa de dor abdominal difusa do tipo cólica, poliartralgia e diarreia com cerca de seis evacuações por dia, com muco e eventualmente sangue, acompanhada de perda de cerca de 6 kg. Os sintomas iniciaram há três meses. O paciente associa o início do quadro a uma crise ansiosa devido a problemas emocionais. Nega contato com alimentos possivelmente contaminados ou o uso de qualquer medicamento precedendo o quadro clínico. Nesse caso, a hipótese diagnóstica é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Colite isquêmica."
+        },
+        {
+          "key": "b",
+          "text": "Diverticulite aguda."
+        },
+        {
+          "key": "c",
+          "text": "Retocolite ulcerativa idiopática."
+        },
+        {
+          "key": "d",
+          "text": "Colite pseudomembranosa."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Dor em cólica, poliartralgia, diarreia com muco e sangue e perda de peso, sem exposição a fatores de risco infecciosos, são compatíveis com retocolite ulcerativa idiopática como principal hipótese diagnóstica.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_037",
+      "statement": "Leia o caso clínico a seguir. Um paciente do sexo masculino de 25 anos, com diagnóstico de retocolite ulcerativa e achado colonoscópico de comprometimento retal e pancolônico com enantema, apagamento do quadro vascular e leve friabilidade da mucosa ao contato com o aparelho. Nesse caso, o diagnóstico e o laudo são, respectivamente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "retocolite ulcerativa Mayo 3, devido à grande extensão da doença."
+        },
+        {
+          "key": "b",
+          "text": "retocolite ulcerativa Mayo 2, devido à grande extensão da doença, mas com mucosa pouco inflamada."
+        },
+        {
+          "key": "c",
+          "text": "retocolite ulcerativa Mayo 1, devido ao aspecto da mucosa descrita, mas sem relação com a extensão."
+        },
+        {
+          "key": "d",
+          "text": "colite indeterminada ou Mayo 0, pois a forma pancolônica não é própria da retocolite ulcerativa."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Comprometimento retal e pancolônico com enantema leve e apagamento vascular, sem ulcerações profundas, corresponde à retocolite ulcerativa Mayo 1 (atividade leve), independente da extensão da doença.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_040",
+      "statement": "Leia o caso clínico a seguir. Paciente de 30 anos, do sexo masculino, portador de retocolite ulcerativa, forma pancolônica em uso de mesalazina 4,8 g ao dia, que necessitou de corticoterapia por três vezes no último ano. Nesse caso, a melhor indicação de tratamento é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "manutenção do corticoide por tempo prolongado para evitar recaídas."
+        },
+        {
+          "key": "b",
+          "text": "aumento das doses de mesalazina acima de 5 gramas ao dia."
+        },
+        {
+          "key": "c",
+          "text": "introdução de azatioprina ou 6 mercapto purina."
+        },
+        {
+          "key": "d",
+          "text": "introdução de ciclosporina pela comodidade terapêutica."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Retocolite ulcerativa pancolônica com múltiplas necessidades de corticoterapia no último ano (dependência de corticoide) tem indicação de introduzir azatioprina ou 6-mercaptopurina como terapia de manutenção poupadora de esteroides.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_042",
+      "statement": "Qual é a medicação inicial de escolha para o tratamento da retocolite ulcerativa?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Azatioprina."
+        },
+        {
+          "key": "b",
+          "text": "Corticoide."
+        },
+        {
+          "key": "c",
+          "text": "Aminosalicilato."
+        },
+        {
+          "key": "d",
+          "text": "Metotrexate."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Os aminosalicilatos (mesalazina/sulfassalazina) são a medicação de escolha inicial no tratamento da retocolite ulcerativa leve a moderada.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_043",
+      "statement": "Sobre a Retocolite Ulcerativa, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Costuma acometer os segmentos colônicos mais profundamente, desde a mucosa até a serosa."
+        },
+        {
+          "key": "b",
+          "text": "Fístulas enterocólicas, enterocutâneas ou anoperineais são características da retocolite ulcerativa."
+        },
+        {
+          "key": "c",
+          "text": "Em geral, a doença apresenta atividade mais intensa nos segmentos colônicos proximais acometidos, diminuindo distalmente."
+        },
+        {
+          "key": "d",
+          "text": "A presença de pólipos inflamatórios ou pseudopólipos, que são lesões expansivas focais cicatriciais, é exclusiva da retocolite ulcerativa."
+        },
+        {
+          "key": "e",
+          "text": "Caracteristicamente acomete a camada mucosa do cólon, exclusivamente, desde a linha pectínea, deixando livre o intestino delgado."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A retocolite ulcerativa acomete exclusivamente a camada mucosa do cólon, iniciando-se na linha pectínea/reto e estendendo-se proximalmente de forma contínua, sem acometer o intestino delgado.",
+      "theme": "dii_rcu",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_055",
+      "statement": "Homem, 54 anos, com colite ulcerativa idiopática e quadro de megacólon tóxico. Diante deste diagnóstico, o tratamento cirúrgico mais adequado é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "proctocolectomia com anastomose ileo anal com confecção de bolsa ileal"
+        },
+        {
+          "key": "b",
+          "text": "colectomia total com ileostomia e preservação do reto"
+        },
+        {
+          "key": "c",
+          "text": "colectomia total e ileorretoanastomose"
+        },
+        {
+          "key": "d",
+          "text": "colostomia de transverso em alça"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "No megacólon tóxico por colite ulcerativa idiopática, o tratamento cirúrgico mais adequado é a colectomia total com ileostomia e preservação do reto, evitando cirurgia extensa em paciente grave.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_056",
+      "statement": "Um homem de 54 anos queixa-se de prurido generalizado e fadiga. É portador de retocolite ulcerativa e faz uso de mesalazina. Nega etilismo ou tabagismo. Ao exame físico, as mucosas são coradas, hidratadas e ictéricas. Não há outras anormalidades no restante do exame. Exames de laboratório: Hg: 12,4g/dL; LG: 5.670/mm³; plq: 213.000/mm³; creat: 0,8mg/dL; ur: 15mg/dL; Ca: 8,8mg/dL; BT: 3,5mg/dL; BD: 2,8mg/dL; FA: 346U/L; GGT: 450U/L; AST: 84U/L; ALT: 58U/L. Ultrassonogra a abdominal: fígado, pâncreas e vias biliares sem anormalidades; imagens hiperecogênicas com sombra acústica posterior nos cálices renais direitos e esquerdos; ureteres de calibre normal; bexiga sem alterações. assinale o teste diagnóstico MAIS ADEQUADO na propedêutica desse paciente.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Colangiorresonância."
+        },
+        {
+          "key": "b",
+          "text": "Punção-biópsia hepática guiada por US."
+        },
+        {
+          "key": "c",
+          "text": "Tomografia computadorizada do abdômen."
+        },
+        {
+          "key": "d",
+          "text": "Ultrassonografia endoscópica."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de colestase (FA e GGT elevadas) em paciente com retocolite ulcerativa, sem alterações nas vias biliares à ultrassonografia convencional, a colangiorressonância é o exame mais adequado para investigar colangite esclerosante primária.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_057",
+      "statement": "São indicações de tratamento cirúrgico na colite ulcerativa, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "manifestações extraintestinais."
+        },
+        {
+          "key": "b",
+          "text": "displasia."
+        },
+        {
+          "key": "c",
+          "text": "intratabilidade"
+        },
+        {
+          "key": "d",
+          "text": "hemorragia colônica intensa."
+        },
+        {
+          "key": "e",
+          "text": "megacólon tóxico."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "As manifestações extraintestinais isoladas (sem falha de tratamento clínico) não são, por si só, indicação cirúrgica na colite ulcerativa — sendo essa a exceção entre as opções, já que displasia, intratabilidade, hemorragia intensa e megacólon tóxico são indicações reconhecidas.",
+      "theme": "dii_rcu",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_064",
+      "statement": "Paciente de 30 anos, do sexo masculino, portador de retocolite ulcerativa, em tratamento com mesalazina oral na dose de 4,8 g/dia, mantendo crises de diarreia sanguinolenta e cólicas abdominais, níveis de PCR elevados e colonoscopia evidenciando retocolite Mayo 2. Nos últimos meses, fez uso de prednisona por curtos períodos, trazendo benefícios satisfatórios. Neste caso, seria adequado",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "manter corticoterapia como droga de manutenção e suspender a mesalazina."
+        },
+        {
+          "key": "b",
+          "text": "aumentar a dose da mesalazina, já que está usando baixas doses."
+        },
+        {
+          "key": "c",
+          "text": "iniciar tiopurinas."
+        },
+        {
+          "key": "d",
+          "text": "associar corticoides, via retal e oral como resgate."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Retocolite ulcerativa com resposta transitória a corticoide, mas dependência de esteroides para controle sintomático, tem indicação de iniciar tiopurinas (azatioprina) como terapia de manutenção poupadora de corticoide.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_068",
+      "statement": "Paciente de quarenta e cinco anos de idade queixa-se de diarreia persistente há 6 meses, com 5 a 10 episódios de fezes líquidas por dia, sem produtos patológicos, associada a dor abdominal e atulência, mas sem febre e sem perda de peso. Tendo esse caso clínico como referência, julgue o item subsecutivo. Nos casos de diarreia crônica com suspeita de doença in amatória intestinal, o anticorpo anti Saccharomyces cerevisiae (ASCA) tem alta sensibilidade para retocolite ulcerativa.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O ASCA (anticorpo anti-Saccharomyces cerevisiae) tem alta sensibilidade para doença de Crohn, não para retocolite ulcerativa (que se associa mais ao p-ANCA) — a afirmação está errada.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_072",
+      "statement": "Adolescente de 13 anos, sexo masculino, queixa-se de diarreia e dor abdominal há várias semanas. Mãe relata que há dez dias, após ter passado alguns dias em colônia de férias, seu lho passou a apresentar fezes semilíquidas a líquidas, duas a três vezes por dia, com algumas raias de sangue e catarro e febre baixa não aferida. Exame físico: T- 37,9°C, palidez cutâneo- mucosa +/4+, abdome discretamente doloroso em fossa ilíaca esquerda, sem sinais de patologia cirúrgica aguda. Na consulta de retorno, a mãe trouxe os exames solicitados: Hb 9,3g/dl, HT28%, macrocitose, VHS: 75 mm/1ª hora. Endoscopia baixa – presença de in amação contínua na mucosa retal e cólon esquerdo, com íleo terminal normal. A hipótese diagnóstica é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doença celíaca."
+        },
+        {
+          "key": "b",
+          "text": "Colite ulcerativa."
+        },
+        {
+          "key": "c",
+          "text": "Doença de Crohn."
+        },
+        {
+          "key": "d",
+          "text": "Doença ulcerosa péptica."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diarreia com sangue e muco de início após período em colônia de férias, com inflamação contínua da mucosa retal e cólon esquerdo poupando o íleo terminal, é quadro compatível com colite ulcerativa.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_073",
+      "statement": "Homem de 30 anos, portador de Retocolite Ulcerativa há 12 anos, refere 8 a 10 evacuações ao dia, mucossanguinolentas, associadas a dor abdominal e febre no último mês. Está em uso de Mesalazina 2 g/dia e Azatioprina 150 mg/dia. Na consulta encontrava-se taquicárdico, hidratado e com abdome doloroso à palpação profunda, sem sinais de irritação peritoneal. Exames laboratoriais evidenciam Hb = 11,7 mg/dl; leucócitos = 4.200/mm³ sem desvio; plaquetas = 530.000/mm³; U = 36 mg/dl Cr = 1,2 mg/dl; PCR = 75 mg/dl, Sat Fe = 7%; albumina = 3,2 g/dl. Última colonoscopia realizada há 1 ano: enantema difuso do cólon esquerdo, com perda do padrão vascular, sem erosões ou friabilidade. Cólon direito e transverso sem alterações. O manejo mais adequado nesse caso é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A internação hospitalar é necessária e deve ser afastada infecção por Clostridium difficile e CMV."
+        },
+        {
+          "key": "b",
+          "text": "O tratamento é hospitalar com doses elevadas do derivado 5-ASA e a avaliação da Coloproctologia é essencial devido ao mau prognóstico do paciente."
+        },
+        {
+          "key": "c",
+          "text": "O paciente deve ser internado em UTI e deve receber infliximabe 5 mg/kg como tratamento de escolha inicial para a forma grave da doença."
+        },
+        {
+          "key": "d",
+          "text": "O tratamento pode ser realizado de forma ambulatorial já que, na maioria dos casos, onúmero elevado de evacuações reflete atividade inflamatória em reto distal."
+        },
+        {
+          "key": "e",
+          "text": "As doses da mesalazina e da azatioprina podem ser aumentadas em consulta para 4g/dia e 200 mg/dia e o paciente necessita de um retorno ambulatorial precoce."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Retocolite ulcerativa com muitas evacuações sanguinolentas, febre e PCR muito elevada, mesmo com colonoscopia prévia mostrando doença leve, exige internação para descartar infecção sobreposta (Clostridium difficile, CMV) antes de intensificar imunossupressão.",
+      "theme": "dii_rcu",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_074",
+      "statement": "Homem, 17 anos, refere hábito intestinal normal com uma evacuação diária, e que há 2 meses passou a evacuar 10 vezes ao dia com emergência evacuatória, sensação de evacuação incompleta, presença de muco e sangue nas fezes, emagrecimento de 10Kg nesse período. Assinale a hipótese diagnóstica:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doença de Crohn."
+        },
+        {
+          "key": "b",
+          "text": "Retocolite ulcerativa"
+        },
+        {
+          "key": "c",
+          "text": "Doença hemorroidária"
+        },
+        {
+          "key": "d",
+          "text": "Neoplasia de reto inferior"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Aumento abrupto da frequência evacuatória, urgência, tenesmo, muco e sangue nas fezes com emagrecimento importante são quadro clássico de retocolite ulcerativa.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_075",
+      "statement": "Assinale os segmentos intestinais mais frequentemente acometidos pela colite ulcerativa:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Reto e descendente"
+        },
+        {
+          "key": "b",
+          "text": "Íleo terminal"
+        },
+        {
+          "key": "c",
+          "text": "Reto e sigmoide"
+        },
+        {
+          "key": "d",
+          "text": "Íleo e jejuno"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O reto e o cólon sigmoide são os segmentos mais frequentemente acometidos pela colite ulcerativa, com a doença se estendendo proximalmente a partir do reto de forma contínua.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_076",
+      "statement": "Paciente feminina, de 23 anos, refere que iniciou diarreia, inicialmente aquosa, após uso de antibióticos por quadro de sinusopatia, que evoluiu com presença de muco e sangue associado. Apresentava ritmo intestinal normal até início do quadro. O exame físico revela abdômen com dor leve, difusa à palpação e sem sinais de irritação peritoneal. Realizado ileocolonoscopia que mostra enantema, friabilidade da mucosa em todos os segmentos avaliados, inclusive íleo-terminal. Anatomopatológico mostrou: sinais inflamatórios, com presença de microabscessos. Qual a principál hipótese diagnóstica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doença de Crohn"
+        },
+        {
+          "key": "b",
+          "text": "Colite pseudomembranosa"
+        },
+        {
+          "key": "c",
+          "text": "Colite infecciosa"
+        },
+        {
+          "key": "d",
+          "text": "Colite ulcerativa"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diarreia aquosa pós-antibiótico evoluindo com muco e sangue, com friabilidade contínua em todos os segmentos incluindo íleo terminal e microabscessos crípticos, é compatível com colite ulcerativa (com possível ileíte de refluxo).",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_077",
+      "statement": "Diante de um paciente com suspeita de doença in amatória intestinal virgem de tratamento, diferenciar entre doença de Crohn e retocolite ulcerativa pode ter relevância na orientação, prognóstico, assim como na tomada de decisão quanto ao tratamento clínico e cirúrgico. Qual dos seguintes fatores abaixo está mais fortemente associado ao diagnóstico de retocolite ulcerativa?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Presença de granuloma não caseoso na histologia."
+        },
+        {
+          "key": "b",
+          "text": "Inflamação do cólon descontínua, poupando o reto."
+        },
+        {
+          "key": "c",
+          "text": "Inflamação contínua, simétrica e difusa do reto distal, estendendo-se de modo proximal para acometer todo ou parte do cólon."
+        },
+        {
+          "key": "d",
+          "text": "Positividade para o anticorpo anti Saccharomyces Cerevisiae (ASCA) IgA."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A inflamação contínua, simétrica e difusa do reto distal, estendendo-se proximalmente para acometer todo ou parte do cólon, é o fator mais fortemente associado ao diagnóstico de retocolite ulcerativa.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_080",
+      "statement": "C.I.D., 24 anos, masculino, caucasiano, procurou ambulatório de clínica médica por apresentar há 3 meses diarreia sanguinolenta, emagrecimento, febre e nódulos violáceos dolorosos na região pré-tibial bilateralmente. Realizou colonoscopia, que mostrou processo in amatório comprometendo sigmoide, cólon descendente e cólon transverso. A pesquisa do anticorpo anticitoplasma de neutro lo (p-ANCA) foi positiva. Sobre a principal hipótese diagnóstica do caso, assinale a alternativa FALSA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Trata-se de uma afecção associada à colangite esclerosante primária."
+        },
+        {
+          "key": "b",
+          "text": "O processo inflamatório fica limitado à mucosa e à submucosa superficial, sem acometimento das camadas mais profundas, exceto na doença fulminante."
+        },
+        {
+          "key": "c",
+          "text": "Os níveis fecais da calprotectina se correlacionam muito bem com a inflamação histológica e permitem prever as recaídas."
+        },
+        {
+          "key": "d",
+          "text": "As principais indicações de tratamento cirúrgico são presença de fístulas ou obstrução intestinal."
+        },
+        {
+          "key": "e",
+          "text": "Os pacientes com doença de longa duração correm maior risco de desenvolver displasia e carcinoma epiteliais colônicos."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "É a afirmação FALSA: na retocolite ulcerativa o processo inflamatório é limitado à mucosa e submucosa mesmo na doença fulminante (não há exceção para acometimento profundo) — diferente da doença de Crohn, que é classicamente transmural.",
+      "theme": "dii_rcu",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_087",
+      "statement": "É exemplo de doença inflamatória não formadora de granulomas:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "tuberculose."
+        },
+        {
+          "key": "b",
+          "text": "hanseníase."
+        },
+        {
+          "key": "c",
+          "text": "doença de Crohn."
+        },
+        {
+          "key": "d",
+          "text": "retocolite ulcerativa."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A retocolite ulcerativa é exemplo de doença inflamatória intestinal que classicamente NÃO forma granulomas, diferente da doença de Crohn, tuberculose e hanseníase.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_088",
+      "statement": "A doença de Crohn é uma forma de doença in amatória intestinal e o diagnóstico diferencial da mesma ocorre principalmente com a retocolite uncerativa idiopática. São características desta última (retocolite) que ajudam a diferenciá-la da doença de Crohn:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "1. Acometimento de todo trato gastrointestinal (podendo acometer da boca ao ânus). 2. Áreas de mucosa preservada. 3. Acometimento transmural da parede intestinal."
+        },
+        {
+          "key": "b",
+          "text": "2. Anticorpo característico é o ASCA (Anti-Sacharomyces). 2. Acometimento exclusivo da mucosa intestinal. 3. Maior acometimento perianal."
+        },
+        {
+          "key": "c",
+          "text": "1. Acometimento intestinal contínuo e ascendente. 2. Lesão exclusiva da mucosa intestinal. 3. Anticorpo característico é o P-ANCA."
+        },
+        {
+          "key": "d",
+          "text": "1. Acometimento predominante do ileo terminal. 2. Anticorpo característico é o P- ANCA. 3. Lesão exclusivamente de mucosa intestinal."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O acometimento intestinal contínuo e ascendente a partir do reto, a lesão exclusiva da mucosa e a positividade para p-ANCA são características que ajudam a diferenciar a retocolite ulcerativa da doença de Crohn.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_090",
+      "statement": "Um homem de 29 anos apresenta diarreia com fezes pastosas misturadas com sangue vivo, 4-5 vezes ao dia, há dois anos. No início do quadro, realizou colonoscopia com biópsias do sigmoide que mostrou infiltrado misto difuso, linfoplasmocitose basal, atro a e irregularidade de criptas, e erosões super ciais. Há 6 meses, iniciou dor lombar persistente, que o desperta do sono, piora ao acordar, e que melhora 2 horas após iniciar suas atividades. Apresenta hematócrito de 32%, hemoglobina de 10,5 g/dl, proteína C- reativa elevada, antígeno HLA-B27 reagente. Ressonância magnética mostra sinais de in amação sacroilíacas intra-articular com edema importante da medula óssea justa- articular. Qual tratamento medicamentoso traz mais benefício para este doente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Budesonida oral."
+        },
+        {
+          "key": "b",
+          "text": "Infliximabe e azatioprina."
+        },
+        {
+          "key": "c",
+          "text": "Mesalazina e tacrolimus."
+        },
+        {
+          "key": "d",
+          "text": "Sulfassalazina e prednisona."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diarreia sanguinolenta crônica com biópsia mostrando colite crônica, associada a espondiloartrite HLA-B27 positiva com sacroiliíte, é quadro de DII com manifestação extraintestinal articular; o tratamento com infliximabe associado a azatioprina trata tanto a doença intestinal quanto a articular.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_091",
+      "statement": "Qual das alternativas abaixo NÃO é uma indicação para cirurgia na colite ulcerativa?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Colite com sintomas refratários ao tratamento clínico."
+        },
+        {
+          "key": "b",
+          "text": "Alterações displásicas no cólon."
+        },
+        {
+          "key": "c",
+          "text": "Presença de manifestações extraintestinais como artrite e espondilite anquilosante refratários ao tratamento clínico."
+        },
+        {
+          "key": "d",
+          "text": "Sangramento colônico maciço."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A presença isolada de manifestações extraintestinais (artrite, espondilite) não é, por si só, indicação cirúrgica na colite ulcerativa quando não há refratariedade da doença intestinal de base — sendo essa a exceção entre as opções listadas.",
+      "theme": "dii_rcu",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}

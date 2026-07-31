@@ -1,0 +1,688 @@
+{
+  "questions": [
+    {
+      "id": "sdis_001",
+      "statement": "Paciente de 4 anos é atendido no ambulatório com queixa de diarreia há seis meses. Apresenta de 4 a 6 evacuações por dia, fezes que variam de aquosas para semilíquidas com algum conteúdo de muco e, às vezes, restos alimentares. O paciente não apresenta outros sintomas associados e tem boa aceitação alimentar. Chegou a ser tratado como verminose, mas o parasitológico de fezes foi negativo. Há três meses, a mãe foi orientada a trocar o leite para o sem lactose, mas não houve mudanças. A criança está com peso, estatura e velocidade de crescimento adequados para a idade e exame físico normal. Em relação ao caso clínico descrito e aos conhecimentos médicos relacionados, julgue o item a seguir. Fezes aquosas, claras e de odor pútrido são alterações comum em casos de esteatorreia.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Fezes aquosas, claras e de odor fétido são características de diarreia osmótica/aquosa, não de esteatorreia — a esteatorreia se caracteriza por fezes gordurosas, brilhantes e que flutuam, não por fezes aquosas claras, tornando essa afirmação incorreta.",
+      "theme": "int_disab",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_013",
+      "statement": "Paciente apresenta-se ao oftalmologista com mioarrtmia oculomastigatória acompanhada de paralisia do olhar vertical supranuclear. Apresenta outras queixas sistêmicas como febre, artrite, adenomegalias e síndrome disabsortiva. Relata biópsia de duodeno por endoscopia digestiva alta evidenciando macrófagos PAS+. Ainda não apresentou o resultado ao seu médico assistente. Com esses dados, podemos fechar o diagnóstico de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doença celíaca."
+        },
+        {
+          "key": "b",
+          "text": "Síndrome de Zollinger-Elisson."
+        },
+        {
+          "key": "c",
+          "text": "Doença de Whipple."
+        },
+        {
+          "key": "d",
+          "text": "Doença de Crohn."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Miorritmia oculomastigatória, paralisia do olhar vertical supranuclear, febre, artrite, adenomegalias, síndrome disabsortiva e macrófagos PAS-positivos na biópsia duodenal fecham o diagnóstico de doença de Whipple.",
+      "theme": "int_disab",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_015",
+      "statement": "Criança de 7 anos apresenta, há um ano, dor abdominal recorrente, atulência e distensão abdominal após ingestão de leite. Crescimento, desenvolvimento e exame físico: normais. AP: descendente de japoneses, com história familiar semelhante para o irmão de 14 anos. O diagnóstico mais provável é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "alergia à proteína do leite de vaca."
+        },
+        {
+          "key": "b",
+          "text": "deficiência ontogênica de lactase."
+        },
+        {
+          "key": "c",
+          "text": "síndrome de má-absorção de gordura."
+        },
+        {
+          "key": "d",
+          "text": "gastrite antral por infecção pelo Helicobacter pylori."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Dor abdominal, flatulência e distensão após ingestão de leite em criança asiática, com história familiar semelhante, sem prejuízo do crescimento, é quadro típico de deficiência ontogênica de lactase (hipolactasia tipo adulto).",
+      "theme": "int_disab",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_018",
+      "statement": "Mãe em consulta com pediatra refere que o lho de 8 anos, desde os 6 anos de idade, tem diarreia diariamente, sempre no início da noite, acompanhada de dor abdominal em cólica de forte intensidade e fezes explosivas. Realizou tratamento com vários cursos de mebendazol sem resposta favorável. Em relação ao diário alimentar, observou-se que a criança não toma café da manhã, almoça na escola e ao chegar a casa às 17:00, onde habitualmente toma um copo de leite ou de iogurte ou pão com requeijão. Nega rinite, asma, dermatite ou outros fenômenos alérgicos. Antecedentes familiares negativos para atopia. Exame físico sem alterações, peso e altura normais para idade. Quanto a este quadro, a alternativa CORRETA para a primeira hipótese a ser aventada é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Alergia à Proteína do Leite de Vaca."
+        },
+        {
+          "key": "b",
+          "text": "Giardíase."
+        },
+        {
+          "key": "c",
+          "text": "Doença Celíaca."
+        },
+        {
+          "key": "d",
+          "text": "Intolerância à lactose."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diarreia diária relacionada temporalmente à ingestão de leite/derivados, sem sinais de atopia, sem repercussão no crescimento, é quadro sugestivo de intolerância à lactose como primeira hipótese.",
+      "theme": "int_disab",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_021",
+      "statement": "Policial de 28 anos, sexo masculino, há quatro meses foi vítima de agressão por arma de fogo, tendo sido submetido à ressecção de grande parte do intestino delgado (da transição jejuno-ileal até 15cm da papila ileocecal). Em relação a esse paciente, assinale a alternativa INCORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Há risco aumentado de desenvolver cálculos renais e biliares."
+        },
+        {
+          "key": "b",
+          "text": "Ocorre atrofia das vilosidades intestinais em decorrência da diarreia crônica."
+        },
+        {
+          "key": "c",
+          "text": "Tem indicação de receber vitamina B12 por via parenteral."
+        },
+        {
+          "key": "d",
+          "text": "Tem indicação de usar bloqueador H2 por via oral."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Após ressecção extensa de intestino delgado (síndrome do intestino curto), não há indicação rotineira de bloqueador H2 oral como medida específica — a atrofia vilositária decorre da própria perda de superfície absortiva e hipersecreção ácida, não sendo essa a afirmação correta sobre o manejo.",
+      "theme": "int_disab",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_023",
+      "statement": "Paciente diabético, com história de diarréia aquosa e distensão abdominal recorrente que se manifesta usualmente após ingestão de leite ou derivados. Qual o exame de escolha para o diagnóstico de diarréia secundária a intolerância a lactose neste caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Calprotectina fecal."
+        },
+        {
+          "key": "b",
+          "text": "Teste sérico de tolerância a lactose."
+        },
+        {
+          "key": "c",
+          "text": "Teste respiratório do hidrogênio expirado."
+        },
+        {
+          "key": "d",
+          "text": "Dosagem de anticorpos antitransglutaminase IgA."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O teste respiratório do hidrogênio expirado é o exame de escolha para diagnóstico de intolerância à lactose, avaliando a fermentação bacteriana da lactose não absorvida.",
+      "theme": "int_disab",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_026",
+      "statement": "Paciente de 2 anos comparece em consulta pediátrica de rotina com queixa de diarreia frequente, com fezes de aspecto gorduroso (boiam no vaso) e bastante malcheirosas. Exame físico com discreto aumento do fígado, sem outras alterações. Antecedentes pessoais pólipos nasais. Assinale a hipótese diagnóstica mais adequada.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Fibrose Cística."
+        },
+        {
+          "key": "b",
+          "text": "Doença Celíaca."
+        },
+        {
+          "key": "c",
+          "text": "Doença de Crohn."
+        },
+        {
+          "key": "d",
+          "text": "Retocolite ulcerativa."
+        },
+        {
+          "key": "e",
+          "text": "Parasitose intestinal."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Fezes gordurosas malcheirosas que flutuam, hepatomegalia discreta e pólipos nasais em criança pequena sugerem fibrose cística como hipótese diagnóstica mais adequada.",
+      "theme": "int_disab",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_027",
+      "statement": "A condição a seguir pode estar relacionada à esteatorréia grave é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Alergia a proteína do leite da vaca;"
+        },
+        {
+          "key": "b",
+          "text": "Doença celíaca;"
+        },
+        {
+          "key": "c",
+          "text": "Síndrome do intestino irritável;"
+        },
+        {
+          "key": "d",
+          "text": "Enteropatia ambiental;"
+        },
+        {
+          "key": "e",
+          "text": "Fibrose cística."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A fibrose cística é condição genética classicamente associada à esteatorreia grave, por insuficiência pancreática exócrina secundária ao espessamento das secreções.",
+      "theme": "int_disab",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_028",
+      "statement": "Mulher, 35 anos, há cinco anos com poliartralgias. Há um ano apresenta diarreia, febre e perda ponderal. Evolui com de cit cognitivo, di culdade para dormir e movimentos involuntários. Exame neurológico: oftalmoplegia supranuclear, nistagmo e miorritmia oculofacial e oculomastigatória. O tratamento adequado é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Anfotericina B, por 14 dias, seguido de fluconazol."
+        },
+        {
+          "key": "b",
+          "text": "Ceftriaxona, por 14 dias, seguido de sulfametoxazol/trimetoprima."
+        },
+        {
+          "key": "c",
+          "text": "Penicilina cristalina, por 14 dias, seguida de amoxicilina."
+        },
+        {
+          "key": "d",
+          "text": "Hidroxicloroquina associada à prednisona"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Poliartralgias, diarreia, febre, perda de peso e manifestações neurológicas (oftalmoplegia supranuclear, miorritmia) confirmam doença de Whipple; o tratamento adequado é ceftriaxona por 14 dias seguida de sulfametoxazol-trimetoprima prolongado.",
+      "theme": "int_disab",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_033",
+      "statement": "Paciente do sexo masculino, 38 anos de idade, apresenta-se ao médico com queixas articulares e perda de peso há 4/6 meses. Ele relata apetite preservado, mas tem tido 6 a 8 episódios de diarreia com fezes fétidas todos os dias. Também apresenta dor migratória nos joelhos e ombros. Os exames das fezes demonstram esteatorreia. Qual dos seguintes diagnósticos é mais provável de ser positivo nesse paciente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Anticorpos lgA séricos antiendomisial."
+        },
+        {
+          "key": "b",
+          "text": "Anticorpos lgA séricos antigliadina."
+        },
+        {
+          "key": "c",
+          "text": "PCR sérica para Tropheryma whipplei."
+        },
+        {
+          "key": "d",
+          "text": "Biópsia do intestino delgado demonstrando hiperplasia das criptas e redução da altura das vilosidades."
+        },
+        {
+          "key": "e",
+          "text": "Toxina do Clostridium difficile nas fezes."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Perda de peso, diarreia com esteatorreia, dor articular migratória e sintomas sistêmicos sugerem doença de Whipple, confirmada por PCR sérica para Tropheryma whipplei.",
+      "theme": "int_disab",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_035",
+      "statement": "O teste de absorção de D-xilose mede o nível de D-xilose, um tipo de açúcar, em uma amostra de sangue ou de urina. Este teste é indicado para:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pacientes com suspeita de DMRI."
+        },
+        {
+          "key": "b",
+          "text": "Pacientes com suspeita de bexiga hiperativa."
+        },
+        {
+          "key": "c",
+          "text": "Pacientes com suspeita de epilepsia."
+        },
+        {
+          "key": "d",
+          "text": "Pacientes com síndrome de má-absorção."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O teste de absorção de D-xilose é indicado para diferenciar má absorção de origem mucosa (intestinal) de insuficiência pancreática exócrina em pacientes com síndrome de má absorção.",
+      "theme": "int_disab",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_040",
+      "statement": "Em relação às síndromes disabsortivas, marque a opção CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Anemia, osteomalácia e hipoalbuminemia são manifestações clínicas frequentes."
+        },
+        {
+          "key": "b",
+          "text": "Supercrescimento bacteriano pode estar relacionado, através de desconjugação de sais biliares."
+        },
+        {
+          "key": "c",
+          "text": "Cegueira noturna, neuropatia periférica, noctúria e fenômenos hemorrágicos podem estar presentes."
+        },
+        {
+          "key": "d",
+          "text": "A e B estão corretas."
+        },
+        {
+          "key": "e",
+          "text": "Todas assertivas estão corretas."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Nas síndromes disabsortivas, anemia/osteomalácia/hipoalbuminemia (deficiências de ferro, vitamina D e proteínas), supercrescimento bacteriano com desconjugação de sais biliares, e deficiências de vitaminas lipossolúveis (cegueira noturna por vitamina A, neuropatia por B12, sangramentos por vitamina K) são todas manifestações reconhecidas — todas as assertivas corretas.",
+      "theme": "int_disab",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_042",
+      "statement": "A síndrome de proliferação bacteriana compreende um grupo de desordens que cursam com diarreia e esteatorreia com níveis elevados de ácido fólico. Nessa síndrome, a anemia macrocítica está relacionada principalmente à deficiência de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ácidos biliares conjugados."
+        },
+        {
+          "key": "b",
+          "text": "Ferro."
+        },
+        {
+          "key": "c",
+          "text": "Ácido fólico."
+        },
+        {
+          "key": "d",
+          "text": "Tiamina"
+        },
+        {
+          "key": "e",
+          "text": "Vitamina B12."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Na síndrome de supercrescimento bacteriano do intestino delgado (SIBO), as bactérias consomem a vitamina B12 disponível (ao contrário do ácido fólico, que é produzido pelas bactérias), causando anemia macrocítica por deficiência de B12.",
+      "theme": "int_disab",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_043",
+      "statement": "O supercrescimento bacteriano jejunoileal é uma importante causa de diarreia crônica disabsortiva. Assinale a alternativa que NÃO contém uma causa de supercrescimento bacteriano:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Esclerose sistêmica."
+        },
+        {
+          "key": "b",
+          "text": "Acloridria gástrica, incluindo uso de IBP."
+        },
+        {
+          "key": "c",
+          "text": "Doença de Crohn com fístula gastrocólica."
+        },
+        {
+          "key": "d",
+          "text": "Formação de pseudomembranas por Clostridium difficile."
+        },
+        {
+          "key": "e",
+          "text": "Diabetes mellitus."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A formação de pseudomembranas por Clostridium difficile é causa de colite, não de supercrescimento bacteriano do intestino delgado — sendo essa a exceção entre as causas listadas de SIBO.",
+      "theme": "int_disab",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_045",
+      "statement": "Em relação à investigação da diarreia crônica em adultos, considere as seguintes afirmativas: I. Na suspeita de doença pancreática alcoólica, espera-se gordura fecal maior que 7 g/24h; II. O supercrescimento bacteriano pode estar associado à síndrome do intestino irritável; III. A presença de mucosa duodenal normal à endoscopia afasta a possibilidade de doença celíaca. Está/Estão CORRETA (S) a (s) afirmativa (s):",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I, apenas."
+        },
+        {
+          "key": "b",
+          "text": "II, apenas."
+        },
+        {
+          "key": "c",
+          "text": "III, apenas."
+        },
+        {
+          "key": "d",
+          "text": "I e II, apenas."
+        },
+        {
+          "key": "e",
+          "text": "I, II e III."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Na doença pancreática alcoólica espera-se esteatorreia com gordura fecal acima de 7g/24h (I correta); o SIBO pode mimetizar/associar-se à síndrome do intestino irritável (II correta); mas mucosa duodenal normal à endoscopia NÃO afasta doença celíaca, já que lesões podem ser focais ou sutis, exigindo biópsia (III incorreta) — I e II corretas.",
+      "theme": "int_disab",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_047",
+      "statement": "O teste da D-xilose tem indicação para pacientes com suspeita de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Intolerância à glicose."
+        },
+        {
+          "key": "b",
+          "text": "Pancreatite crônica."
+        },
+        {
+          "key": "c",
+          "text": "Retocolite ulcerativa."
+        },
+        {
+          "key": "d",
+          "text": "Diarreia devido a diabetes mellitus."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O teste da D-xilose tem indicação para diferenciar má absorção mucosa de insuficiência pancreática exócrina, como na suspeita de pancreatite crônica.",
+      "theme": "int_disab",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_048",
+      "statement": "Qual situação seria a mais provável, das alternativas abaixo, como causadora de sobrecrescimento bacteriano do intestino delgado, e qual teste poderia confirmar esse diagnóstico?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doença diverticular, teste de tolerância oral à lactulose."
+        },
+        {
+          "key": "b",
+          "text": "Gastrite crônica, gastrina sérica."
+        },
+        {
+          "key": "c",
+          "text": "Esclerodermia, teste respiratório de hidrogênio com lactulose."
+        },
+        {
+          "key": "d",
+          "text": "Colecistectomia prévia, tomografia computadorizada de abdome."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A esclerodermia (esclerose sistêmica), pela dismotilidade intestinal e estase de conteúdo, é causa reconhecida de supercrescimento bacteriano; o teste respiratório de hidrogênio com lactulose é o exame confirmatório.",
+      "theme": "int_disab",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_049",
+      "statement": "Mãe comparece à Unidade Básica de Saúde com lha de 7 meses, previamente hígida, com quadro de diarreia há 12 dias, com fezes líquidas desde o início do quadro. Nega cirurgias prévias, vômitos, febre ou presença de sangue nas fezes. Atualmente apresenta dermatite em região de fraldas e evacuações explosivas. Alimentada exclusivamente com leite materno até completar 4 meses de idade, sua alimentação consiste em leite em pó integral, suco e papa de frutas. Não apresenta perda de peso signi cante. Com base no quadro clínico apresentado, o diagnóstico e a conduta adequada para esta lactente são, respectivamente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "doença celíaca; dieta isenta de glúten."
+        },
+        {
+          "key": "b",
+          "text": "intolerância à lactose; dieta isenta de lactose."
+        },
+        {
+          "key": "c",
+          "text": "alergia ao leite de vaca; dieta isenta de leite."
+        },
+        {
+          "key": "d",
+          "text": "fibrose cística; terapia de reposição enzimática."
+        },
+        {
+          "key": "e",
+          "text": "doença inflamatória intestinal; antibioticoterapia."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diarreia aquosa após introdução de leite em pó integral, com dermatite de fralda e evacuações explosivas, sem perda de peso significativa, sugere intolerância à lactose; a conduta é dieta isenta de lactose.",
+      "theme": "int_disab",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_050",
+      "statement": "Mulher de 22 anos de idade se apresenta no ambulatório e queixa-se de diarreia com distensão e dor abdominal em cólica, por muitos anos. Ela descreve três evacuações diarreicas ou aquosas por dia com distensão abdominal e cólica antes de cada evacuação. Períodos de jejum aliviam completamente os sintomas. Não há perda de peso, febre ou hematoquezia. Exame físico dentro da normalidade. Sigmoidoscopia exível e culturas de fezes são normais. Avaliação das fezes mostra concentração de sódio de 30 mEq/L, potássio de 40 mEq/L e osmolaridade de 30 mOsm/L. A terapia apropriada para essa paciente é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Loperamida."
+        },
+        {
+          "key": "b",
+          "text": "Hiosciamina."
+        },
+        {
+          "key": "c",
+          "text": "Psílio."
+        },
+        {
+          "key": "d",
+          "text": "Prednisona."
+        },
+        {
+          "key": "e",
+          "text": "Dieta livre de lactose."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Diarreia crônica que melhora completamente com jejum, com gap osmótico fecal elevado (osmolaridade 30 menos 2x(Na+K)=positivo), é compatível com diarreia osmótica por má absorção de lactose; a conduta é dieta isenta de lactose.",
+      "theme": "int_disab",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_052",
+      "statement": "Paciente com quadro de diarreia espumosa, com fezes brilhantes que flutuam no vaso associado à anemia e hipoalbuminemia. Cabe afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Trata-se de uma diarreia secretória."
+        },
+        {
+          "key": "b",
+          "text": "Cabe a solicitação do teste de D-Xilose, que neste caso seria alterado."
+        },
+        {
+          "key": "c",
+          "text": "Para este tipo de diarreia a dosagem do sudam seria negativa."
+        },
+        {
+          "key": "d",
+          "text": "Não cabe a solicitação do anticorpo antiendomísio."
+        },
+        {
+          "key": "e",
+          "text": "No caso de diarreia secretória o pH fecal é de < 6,0."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diarreia espumosa com fezes brilhantes que flutuam (esteatorreia) associada a hipoalbuminemia justifica a solicitação do teste de D-xilose, que estaria alterado se houver comprometimento da mucosa do intestino delgado.",
+      "theme": "int_disab",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_053",
+      "statement": "Homem de 55 anos, com atulência e diarreia intermitente há 20 anos, relata piora há 5 anos. Nega perda de peso. Antitransglutaminase tecidual normal, biópsia do duodeno distal: in ltrado linfomononuclear, com vilosidades e criptas preservadas. Hematócrito 45%, glicemia 92 mg/dl. Colonoscopia normal. Parasitológicos e sorologia para Giardia negativos. Glicemia 86 mg/dl. Tem dieta rica em leguminosas, frutas, lacticínios e cereais ricos em bras. Que de ciência melhor explica este quadro?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Amilase pancreática e salivar."
+        },
+        {
+          "key": "b",
+          "text": "Imunoglobulina A tecidual."
+        },
+        {
+          "key": "c",
+          "text": "Dissacaridase na borda em escova intestinal."
+        },
+        {
+          "key": "d",
+          "text": "Transportador de membrana GLUT-5 da frutose."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Flatulência e diarreia crônica relacionadas a dieta rica em lacticínios, com biópsia duodenal normal (vilosidades e criptas preservadas, apenas infiltrado inflamatório leve) e antitransglutaminase negativo, sugerem deficiência de dissacaridase (lactase) na borda em escova intestinal.",
+      "theme": "int_disab",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_054",
+      "statement": "Criança em idade pré-escolar foi atendida na Unidade Básica de Saúde, por diversas vezes, com quadro diarreico semelhante: diarreia importante e evacuações explosivas logo após a ingestão de alimentos. No atendimento atual a criança encontra-se desidratada, apresenta assadura perianal e distensão abdominal. Os exames laboratoriais evidenciaram a presença de substâncias redutoras nas fezes e pH fecal menor do que 5,5. Qual a suspeita diagnóstica principal?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Diarreia infecciosa persistente."
+        },
+        {
+          "key": "b",
+          "text": "Diarreia aguda recorrente."
+        },
+        {
+          "key": "c",
+          "text": "Parasitose intestinal."
+        },
+        {
+          "key": "d",
+          "text": "Intolerância à lactose."
+        },
+        {
+          "key": "e",
+          "text": "Doença inflamatória pélvica."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diarreia explosiva relacionada à alimentação, com substâncias redutoras positivas nas fezes e pH fecal ácido (<5,5), é achado clássico de intolerância à lactose em criança.",
+      "theme": "int_disab",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_055",
+      "statement": "Em pacientes com diarreia crônica podemos fazer uso de vários testes para avaliação das causas de má absorção. Assinale a alternativa INCORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O teste quantitativo de gordura fecal é o teste padrão-ouro para má absorção de gordura, com o qual todos os outros testes são comparados."
+        },
+        {
+          "key": "b",
+          "text": "O teste qualitativo de gordura fecal é feito através da coloração de Sudan para pesquisa de gordura nas fezes."
+        },
+        {
+          "key": "c",
+          "text": "O teste da D-xilose é um teste utilizado para distinguir má absorção da mucosa do intestino delgado da má absorção devido à insuficiência pancreática."
+        },
+        {
+          "key": "d",
+          "text": "O teste respiratório de hidrogênio é utilizado no diagnostico de deficiência de lactase."
+        },
+        {
+          "key": "e",
+          "text": "O teste de estimulação pela secretina é o teste padrão-ouro da função gástrica."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "O teste de estimulação pela secretina é o padrão-ouro para avaliação da função pancreática exócrina, não da função gástrica — sendo essa a afirmação incorreta entre as descritas sobre os testes de má absorção.",
+      "theme": "int_disab",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}

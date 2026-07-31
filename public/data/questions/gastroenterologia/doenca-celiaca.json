@@ -1,1 +1,952 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "sdis_002",
+      "statement": "Antônio, de 15 meses, apresenta episódios recorrentes de dor abdominal sem sinais de invasividade. Segundo a mãe, o quadro começou após a introdução completa da dieta complementar aos 8 meses. Ao exame físico, chama atenção distensão abdominal e palidez cutâneo mucosa. Não há sinais de irritação peritoneal ou organomegalia palpáveis. A avaliação nutricional mostra que Antônio está entre os escores Z -2 e -3 em estatura para a idade e IMC para a idade. Hemograma recente demonstra anemia com características que sugerem sideropenia. A hipótese mais provável para o quadro é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doença de Whipple."
+        },
+        {
+          "key": "b",
+          "text": "Giardíase."
+        },
+        {
+          "key": "c",
+          "text": "Espru não tropical."
+        },
+        {
+          "key": "d",
+          "text": "Intolerância à lactose."
+        },
+        {
+          "key": "e",
+          "text": "Síndrome do intestino irritável."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Dor abdominal recorrente após introdução da dieta complementar, distensão, palidez, déficit de crescimento e anemia ferropriva sugerem espru não tropical (doença celíaca) como diagnóstico mais provável nessa faixa etária.",
+      "theme": "int_celiac",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_003",
+      "statement": "Mulher, 21 anos de idade, procura atendimento ambulatorial para investigação de diarreia crônica. Faz uso de anticoncepcional injetável. Ao exame, apresenta-se em bom estado geral, descorada +/4+. Realizados exames laboratoriais, com Hb: 10,5g/dL, ferritina 25ng/mL, vitamina D 11ng/dL. Solicitada endoscopia digestiva alta, com achado de redução do pregueado mucoso em segunda porção duodenal. Diante do quadro clínico, indique a conduta terapêutica inicial mais adequada.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Suspender o método contraceptivo."
+        },
+        {
+          "key": "b",
+          "text": "Adotar dieta isenta de glúten."
+        },
+        {
+          "key": "c",
+          "text": "Realizar corticoterapia."
+        },
+        {
+          "key": "d",
+          "text": "Fazer uso de imunobiológico."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Redução do pregueado duodenal com anemia ferropriva e deficiência de vitamina D sugere doença celíaca; a conduta terapêutica inicial é a dieta isenta de glúten.",
+      "theme": "int_celiac",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_004",
+      "statement": "Mulher, 21 anos de idade, procura atendimento ambulatorial para investigação de diarreia crônica. Faz uso de anticoncepcional injetável. Ao exame, apresenta-se em bom estado geral, descorada +/4+. Realizados exames laboratoriais, com Hb: 10,5g/dL, ferritina 25ng/mL, vitamina D 11ng/dL. Solicitada endoscopia digestiva alta, com achado de redução do pregueado mucoso em segunda porção duodenal. Diante do quadro clínico, Identifique o anticorpo associado ao diagnóstico mais provável.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Anticélula parietal."
+        },
+        {
+          "key": "b",
+          "text": "Antitransglutaminase tecidual."
+        },
+        {
+          "key": "c",
+          "text": "Anti-Saccharomyces cerevisae (ASCA)."
+        },
+        {
+          "key": "d",
+          "text": "Anticitoplasma de neutrófilo (ANCA)."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O anticorpo antitransglutaminase tecidual é o marcador sorológico associado ao diagnóstico de doença celíaca, sugerido pelo achado endoscópico de redução do pregueado duodenal.",
+      "theme": "int_celiac",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_005",
+      "statement": "Mulher, 21 anos de idade, procura atendimento ambulatorial para investigação de diarreia crônica. Faz uso de anticoncepcional injetável. Ao exame, apresenta-se em bom estado geral, descorada +/4+. Realizados exames laboratoriais, com Hb: 10,5g/dL, ferritina 25ng/mL, vitamina D 11ng/dL. Solicitada endoscopia digestiva alta, com achado de redução do pregueado mucoso em segunda porção duodenal. Diante do quadro clínico, Com relação às alterações esperadas para confirmação do diagnóstico mais provável, é correto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "As lesões acometem mais o íleo, mas podem ocorrer em todo o tubo digestivo."
+        },
+        {
+          "key": "b",
+          "text": "Os anticorpos são úteis para o diagnóstico, sendo a biópsia gástrica o padrão-ouro."
+        },
+        {
+          "key": "c",
+          "text": "A realização de uma colonoscopia é essencial para avaliação, pois as alterações são mais frequentes no cólon."
+        },
+        {
+          "key": "d",
+          "text": "No anatomopatológico, observa-se redução da relação vilo/cripta e infiltração de linfócitos na mucosa."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "No anatomopatológico da doença celíaca observa-se redução da relação vilo/cripta (atrofia vilositária com hiperplasia de criptas) e infiltração linfocitária da mucosa duodenal.",
+      "theme": "int_celiac",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_006",
+      "statement": "A doença celíaca (DC) é uma enteropatia imunomediada causada por sensibilidade permanente ao glúten em indivíduos geneticamente predispostos. Na DC é correto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A forma clássica da DC é caracterizada pela presença de constipação intestinal refratária ao tratamento, distensão abdominal, dor epigástrica e perda de peso."
+        },
+        {
+          "key": "b",
+          "text": "Os principais testes para o diagnóstico da doença celíaca são a calprotectina fecal e o anticorpo antiendomísio da classe lgG e lgM."
+        },
+        {
+          "key": "c",
+          "text": "Em pacientes com DC deve ser evitado trigo, milho, cevada e lentilha."
+        },
+        {
+          "key": "d",
+          "text": "Nas formas atípicas da DC pode ocorrer anemia por deficiência de ferro refratária à ferroterapia oral, artralgias ou artrites e atraso puberal."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Nas formas atípicas da doença celíaca podem ocorrer manifestações extraintestinais como anemia ferropriva refratária à reposição oral, artralgias/artrites e atraso puberal.",
+      "theme": "int_celiac",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_007",
+      "statement": "Paciente de 16 anos, sexo feminino, com história de alteração do hábito intestinal, com períodos de diarreia persistente e distensão abdominal, associada a fraqueza das unhas, queda de cabelo e lesões herpetiformes pruriginosas. O exame laboratorial que pode orientar a hipótese diagnóstica mais provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "antitireoglobulina."
+        },
+        {
+          "key": "b",
+          "text": "antiendomísio."
+        },
+        {
+          "key": "c",
+          "text": "antiglargina."
+        },
+        {
+          "key": "d",
+          "text": "p-ANCA."
+        },
+        {
+          "key": "e",
+          "text": "antiperoxidase."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diarreia crônica com distensão abdominal associada a fragilidade ungueal, queda de cabelo e lesões herpetiformes pruriginosas (dermatite herpetiforme) sugere doença celíaca; o anticorpo antiendomísio orienta o diagnóstico.",
+      "theme": "int_celiac",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_008",
+      "statement": "Paciente de 32 anos vem à consulta para avaliação de quadro de desconforto abdominal difuso e distensão abdominal, com 10 meses de evolução, sem alteração evidente do hábito intestinal. A paciente é magra, com índice de massa corpórea pouco acima do limite inferior do normal, porém nega perda ponderal nos últimos meses. Relata ainda que apresentava anemia por de ciência de ferro, atribuída ao sangramento menstrual regular, porém sem recuperação completa da anemia após a reposição com sulfato ferroso e indução de amenorreia com o uso de anticoncepcional hormonal injetável trimestral. Diante desse quadro clínico, deve-se:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "não indicar a investigação complementar nesse momento, devido ao provável diagnóstico de síndrome do intestino irritável."
+        },
+        {
+          "key": "b",
+          "text": "realizar colonoscopia para investigação de sangramento, justificando a provável perda crônica de ferro."
+        },
+        {
+          "key": "c",
+          "text": "investigar com dosagem de IgA total, pesquisar anticorpo antitransglutaminase tecidual e realizar endoscopia digestiva alta com biópsias do duodeno."
+        },
+        {
+          "key": "d",
+          "text": "repor sulfato ferroso endovenoso antes da realização de outros exames complementares, além de prescrever dieta rica em fibras para tratamento da queixa de desconforto e distensão abdominal."
+        },
+        {
+          "key": "e",
+          "text": "realizar endoscopia digestiva alta e colonoscopia para investigação de provável doença de Crohn."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Anemia ferropriva refratária à reposição oral, mesmo com amenorreia induzida, deve ser investigada com dosagem de IgA total, antitransglutaminase tecidual e endoscopia com biópsias duodenais para descartar doença celíaca.",
+      "theme": "int_celiac",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_009",
+      "statement": "Acerca do diagnóstico de doença celíaca, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A biópsia de intestino delgado não é mais necessária para o diagnóstico."
+        },
+        {
+          "key": "b",
+          "text": "A presença do HLA DQ2 ou DQ8 confirma o diagnóstico."
+        },
+        {
+          "key": "c",
+          "text": "Anticorpo antitransglutaminase positivo, acima de dez vezes o limite de normalidade, e anticorpo antiendomísio também positivo, em outra coleta de sangue, são suficientes para o diagnóstico."
+        },
+        {
+          "key": "d",
+          "text": "Se houver forte suspeita clínica, o glúten deverá ser retirado da dieta imediatamente e o anticorpo antitransglutaminase deverá ser solicitado."
+        },
+        {
+          "key": "e",
+          "text": "Pacientes assintomáticos sempre precisam de biópsia de intestino delgado para o diagnóstico."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Segundo os critérios atuais, anticorpo antitransglutaminase positivo acima de 10 vezes o limite de normalidade associado a antiendomísio positivo em outra amostra é suficiente para o diagnóstico de doença celíaca, dispensando biópsia em casos selecionados.",
+      "theme": "int_celiac",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_010",
+      "statement": "Qual dos quadros dematológicos abaixo está mais associado a doença celíaca?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Vitiligo."
+        },
+        {
+          "key": "b",
+          "text": "Dermatite herpetiforme."
+        },
+        {
+          "key": "c",
+          "text": "Psoríase."
+        },
+        {
+          "key": "d",
+          "text": "Eritema nodoso."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A dermatite herpetiforme é o quadro dermatológico classicamente mais associado à doença celíaca, refletindo depósitos de IgA na pele.",
+      "theme": "int_celiac",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_011",
+      "statement": "Mulher de 32 anos de idade é avaliada por um quadro de perda de peso e síndrome de má absorção há 6 meses. Seu irmão tem diabete melito tipo 1, e a mãe doença autoimune da tireoide. Exame físico: normal; IMC: 19kg/m². Exames séricos: hemoglobina: 11,0 g/dL, alanina aminotransferase (TGP): 60 U/L, aspartato aminotransferase (TGO): 42 U/L, bilirrubina total: 0,9 mg/dL, ferritina: 6 ng/dL. Nesse momento, o melhor exame de triagem é o anticorpo",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "antitransglutaminase lgA."
+        },
+        {
+          "key": "b",
+          "text": "antigliadina lgA."
+        },
+        {
+          "key": "c",
+          "text": "anti-Saccharomyces cerevisiae IgA."
+        },
+        {
+          "key": "d",
+          "text": "antimitocondrial."
+        },
+        {
+          "key": "e",
+          "text": "antimúsculo liso."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de perda de peso, síndrome de má absorção e história familiar de doenças autoimunes, o anticorpo antitransglutaminase IgA é o melhor exame de triagem inicial para doença celíaca.",
+      "theme": "int_celiac",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_012",
+      "statement": "Em pacientes portadores de doença celíaca, os grãos que têm menor probabilidade de causar problemas são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aveia e cevada."
+        },
+        {
+          "key": "b",
+          "text": "Aveia e centeio."
+        },
+        {
+          "key": "c",
+          "text": "Trigo e centeio."
+        },
+        {
+          "key": "d",
+          "text": "Arroz e milho."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Arroz e milho são os grãos com menor probabilidade de conter glúten e causar reação em pacientes com doença celíaca, sendo seguros na dieta isenta de glúten.",
+      "theme": "int_celiac",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_014",
+      "statement": "Paciente masculino de 50 anos é diagnosticado com linfoma primário de intestino delgado. Dentre várias condições clínicas que afetam o trato gastrointestinal, uma está classicamente associada a esta neoplasia. Qual é esta condição?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doença celíaca."
+        },
+        {
+          "key": "b",
+          "text": "Doença de Crohn."
+        },
+        {
+          "key": "c",
+          "text": "Doença diverticular."
+        },
+        {
+          "key": "d",
+          "text": "Síndrome de Peutz-Jeghers."
+        },
+        {
+          "key": "e",
+          "text": "Polipose adenomatosa familiar."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A doença celíaca está classicamente associada a maior risco de linfoma primário de intestino delgado (linfoma de células T associado a enteropatia), complicação temida da doença não tratada.",
+      "theme": "int_celiac",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_016",
+      "statement": "Homem, 33 anos de idade, encontra-se em acompanhamento de anemia ferropriva refratária, necessitando de reposição parenteral de ferro a cada 6 meses. Tem como comorbidade hipotireoidismo por Doença de Hashimoto, em uso de levotiroxina 200 mcg/dia. Durante a investigação da etiologia da ferropenia, foram encontrados os seguintes resultados de exames relevantes: Dosagem de lgA normal, anticorpo antitransglutaminase tecidual positivo, anticorpo antiendomísio positivo. O próximo passo da investigação deve incluir:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Colonoscopia, com biópsia de íleo terminal."
+        },
+        {
+          "key": "b",
+          "text": "Endoscopia digestiva alta, com biópsia da segunda porção duodenal."
+        },
+        {
+          "key": "c",
+          "text": "Biópsia de medula óssea."
+        },
+        {
+          "key": "d",
+          "text": "Retoscopia com biópsia de reto."
+        },
+        {
+          "key": "e",
+          "text": "Endoscopia digestiva alta, com biópsia do fundo gástrico."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Anemia ferropriva refratária com antitransglutaminase e antiendomísio positivos, mesmo com IgA normal, tem diagnóstico de doença celíaca confirmado por endoscopia digestiva alta com biópsia da segunda porção duodenal.",
+      "theme": "int_celiac",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_017",
+      "statement": "Mulher, 22 anos, antecedente de tireoidite de Hashimoto, queixando-se de distensão abdominal, atulência e plenitude gástrica há vários anos. Atribui sintomas à ingestão de massas, frituras e bebidas fermentadas. Nos últimos 3 meses refere surgimento de lesões bolhosas e pruriginosas em cotovelos, joelhos e dorso. Qual é o exame diagnóstico mais adequado?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Teste do hidrogênio expirado"
+        },
+        {
+          "key": "b",
+          "text": "Antitransglutaminase tecidual."
+        },
+        {
+          "key": "c",
+          "text": "Pesquisa HLA DQ2 e DR3."
+        },
+        {
+          "key": "d",
+          "text": "Dosagem de IgM específica."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Distensão abdominal crônica associada a lesões bolhosas pruriginosas (dermatite herpetiforme) em paciente com tireoidite de Hashimoto sugere doença celíaca; o antitransglutaminase tecidual é o exame diagnóstico mais adequado.",
+      "theme": "int_celiac",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_019",
+      "statement": "São condições associadas a doença celíaca, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dermatite Herpetiforme."
+        },
+        {
+          "key": "b",
+          "text": "Síndrome de Turner."
+        },
+        {
+          "key": "c",
+          "text": "Diabetes melito tipo I."
+        },
+        {
+          "key": "d",
+          "text": "Síndrome de Down."
+        },
+        {
+          "key": "e",
+          "text": "Deficiência de IgG."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A deficiência seletiva de IgA (não de IgG) é a condição imunológica classicamente associada à doença celíaca, podendo inclusive causar falso-negativo nos testes sorológicos baseados em IgA — sendo a IgG a exceção correta entre as opções.",
+      "theme": "int_celiac",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_020",
+      "statement": "A doença celíaca pode se apresentar em adultos, sob formas atípicas, em que não necessariamente existe diarreia grave. São possíveis manifestações extraintestinais da doença celíaca todas as citadas abaixo. EXCETO.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hiperesplenismo."
+        },
+        {
+          "key": "b",
+          "text": "Anemia ferropriva."
+        },
+        {
+          "key": "c",
+          "text": "Osteoporose."
+        },
+        {
+          "key": "d",
+          "text": "Infertilidade."
+        },
+        {
+          "key": "e",
+          "text": "Nefropatia por IgA."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O hiperesplenismo NÃO é manifestação extraintestinal clássica da doença celíaca (ao contrário, pode haver hipoesplenismo/atrofia esplênica) — sendo essa a exceção entre as manifestações listadas.",
+      "theme": "int_celiac",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_022",
+      "statement": "Segundo o protocolo clínico e diretrizes terapêuticas da doença celíaca, do Ministério da Saúde, a doença celíaca (DC) é uma enteropatia crônica do intestino delgado, de caráter autoimune, desencadeada pela exposição ao glúten em indivíduos geneticamente predispostos. Em relação a doença celíaca (DC), assinale a afirmativa INCORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O tratamento da DC consiste na dieta sem glúten, independentemente das manifestações clínicas. A adoção da dieta isenta de glúten deve ser prescrita, porém pequenas transgressões a ela, mesmo que sucessivas, não trazem nenhum malefício no curso da doença."
+        },
+        {
+          "key": "b",
+          "text": "Para o diagnóstico definitivo da DC é imprescindível a realização de endoscopia digestiva alta com biópsia de intestino delgado com vista à realização de exame histopatológico, considerado o padrão-ouro para o diagnóstico."
+        },
+        {
+          "key": "c",
+          "text": "Os marcadores sorológicos são úteis para identificar os indivíduos que deverão ser submetidos à biópsia de intestino delgado e também para acompanhamento do paciente celíaco, como, por exemplo, para detectar transgressão à dieta."
+        },
+        {
+          "key": "d",
+          "text": "A forma não clássica (atípica) da DC caracteriza-se por quadro mono ou oligossintomático, em que as manifestações digestivas estão ausentes ou, quando presentes, ocupam um segundo plano."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Pequenas transgressões à dieta sem glúten, mesmo que sucessivas, TÊM malefícios no curso da doença celíaca (risco de complicações como linfoma e atrofia vilositária persistente) — sendo essa a afirmação incorreta.",
+      "theme": "int_celiac",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_024",
+      "statement": "NÃO é característica da Doença Celíaca:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aumento dos linfócitos intraepiteliais."
+        },
+        {
+          "key": "b",
+          "text": "Presença de anticorpos antiendomísio."
+        },
+        {
+          "key": "c",
+          "text": "Atrofia das vilosidades ao nível de íleo terminal."
+        },
+        {
+          "key": "d",
+          "text": "Associação com dermatite herpertiforme."
+        },
+        {
+          "key": "e",
+          "text": "Clínica de esteatorreia."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A doença celíaca causa atrofia das vilosidades principalmente no duodeno e jejuno proximal, não no íleo terminal — sendo essa a característica que NÃO corresponde à doença celíaca.",
+      "theme": "int_celiac",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_025",
+      "statement": "Mulher de 41 anos, queixa-se de diarreia, com cerca de 6 evacuações ao dia, líquidas, em pequenas quantidades, associadas a cólicas. É etilista de destilados, meio litro por dia. Há cerca de um mês, cou internada para tratamento de infecção urinária e investigação de anemia, quando apresentou endoscopia com hiperplasia de criptas e atro a vilositária sem sangramentos, e dosagens de antitransglutaminase (anti-Ttg) positiva e p-ANCA e ASCA negativas. O diagnóstico, nesse caso, é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Retocolite ulcerativa."
+        },
+        {
+          "key": "b",
+          "text": "Doença de Crohn."
+        },
+        {
+          "key": "c",
+          "text": "Pancreatite crônica."
+        },
+        {
+          "key": "d",
+          "text": "Doença celíaca."
+        },
+        {
+          "key": "e",
+          "text": "Colite pseudomembranosa."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diarreia crônica com hiperplasia de criptas, atrofia vilositária e antitransglutaminase positiva, com p-ANCA e ASCA negativos, confirma o diagnóstico de doença celíaca.",
+      "theme": "int_celiac",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_029",
+      "statement": "Sobre a doença celíaca, assinale a alternativa incorreta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A manifestação dermatológica clássica é a dermatite herpetiforme. Essa manifestação não costuma responder à retirada do glúten da dieta."
+        },
+        {
+          "key": "b",
+          "text": "Os pacientes podem apresentar dois tipos clássicos de HLA: HLA-DQ2 e HL DQ8."
+        },
+        {
+          "key": "c",
+          "text": "Podem ser solicitados os anticorpos antitransglutaminase e antiendomísio, ambos com boa sensibilidade. Todavia, há discreta preponderância de sensibilidade do antitransglutaminase em relação ao antiendomísio."
+        },
+        {
+          "key": "d",
+          "text": "Pode haver um quadro anêmico associado, tanto por anemia de doença crônica, quanto por deficiência de B12 e/ou deficiência de ferro."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A dermatite herpetiforme costuma responder bem à retirada do glúten da dieta (além do uso de dapsona) — sendo essa a afirmação incorreta sobre a manifestação dermatológica clássica da doença celíaca.",
+      "theme": "int_celiac",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_030",
+      "statement": "Erupção cutânea eventualmente observada em associação à doença celíaca está melhor descrita na seguinte assertiva:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Úlceras dolorosas, de bordos violáceos, predominando no tronco e partes proximais dos membros."
+        },
+        {
+          "key": "b",
+          "text": "Nódulos eritematovioláceos, dolorosos, predominando na face anterior dos membros inferiores."
+        },
+        {
+          "key": "c",
+          "text": "Pústulas estéreis desencadeadas por traumas cutâneos mínimos."
+        },
+        {
+          "key": "d",
+          "text": "Vesículas/bolhas com base eritematosa, pruriginosas em troncos e membros."
+        },
+        {
+          "key": "e",
+          "text": "Placas eritematosas, bem delimitadas, descamativas em tronco e membros."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A erupção cutânea associada à doença celíaca (dermatite herpetiforme) caracteriza-se por vesículas/bolhas com base eritematosa, pruriginosas, distribuídas em tronco e membros.",
+      "theme": "int_celiac",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_031",
+      "statement": "Um homem de 25 anos com diarreia, atulência e meteorismo há 9 meses apresenta anticorpos antiendomísio e antitransglutaminase tissular positivos. Ele mais provavelmente se beneficiará de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dieta sem glúten."
+        },
+        {
+          "key": "b",
+          "text": "Enemas de corticosteroide."
+        },
+        {
+          "key": "c",
+          "text": "Metronidazol oral por tempo prolongado."
+        },
+        {
+          "key": "d",
+          "text": "Infliximabe."
+        },
+        {
+          "key": "e",
+          "text": "Corticosteroide sistêmico."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diarreia crônica com flatulência e sorologia positiva para antiendomísio e antitransglutaminase tecidual beneficia-se do tratamento com dieta isenta de glúten, confirmando doença celíaca.",
+      "theme": "int_celiac",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_032",
+      "statement": "O diagnóstico de doença celíaca é muito importante. É preciso levantar a hipótese diagnóstica em crianças com sintomas gastrintestinais evidentes e também naquelas com sintomas menos evidentes. Pacientes com as seguintes doenças são considerados de alto risco para o desenvolvimento de doença celíaca:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Síndrome de Down, doença hepática por vírus da hepatite B e síndrome de Turner."
+        },
+        {
+          "key": "b",
+          "text": "Diabetes mellitus tipo I, diabetes mellitus tipo II e doença hepática autoimune."
+        },
+        {
+          "key": "c",
+          "text": "Doença tireoidiana autoimune, doença hepática autoimune e diabetes mellitus tipo I."
+        },
+        {
+          "key": "d",
+          "text": "Doença tireoidiana autoimune, síndrome de Down, cirrose por vírus da hepatite C."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Doença tireoidiana autoimune, doença hepática autoimune e diabetes mellitus tipo I são condições de alto risco reconhecidas para o desenvolvimento de doença celíaca.",
+      "theme": "int_celiac",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_034",
+      "statement": "Sobre a doença celíaca, podemos afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "São fatores de risco para doença celíaca os indivíduos com diabete melito tipo I e II, doença autoimune da tireoide, cirrose biliar primária, síndrome de Turner e síndrome de Down."
+        },
+        {
+          "key": "b",
+          "text": "A amamentação e o tempo de introdução do trigo na dieta podem reduzir o risco ou atrasar o aparecimento da doença celíaca em crianças sob risco."
+        },
+        {
+          "key": "c",
+          "text": "O tratamento da doença celíaca previne a progressão da doença, porém não há remissão com melhora do padrão histológico."
+        },
+        {
+          "key": "d",
+          "text": "O tratamento é realizado com corticoide, seguido de manutenção com azatioprina."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A amamentação prolongada e a introdução mais tardia do glúten (trigo) na dieta podem reduzir o risco ou atrasar o aparecimento da doença celíaca em crianças geneticamente predispostas.",
+      "theme": "int_celiac",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_036",
+      "statement": "Jovem com diabetes mellitus tipo 1 com diarreia persistente, é recomendável que se avalie a possível associação com a seguinte doença:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doença celíaca."
+        },
+        {
+          "key": "b",
+          "text": "Colite ulcerativa."
+        },
+        {
+          "key": "c",
+          "text": "Doença de Crohn."
+        },
+        {
+          "key": "d",
+          "text": "Doença de Whipple."
+        },
+        {
+          "key": "e",
+          "text": "Doença de Wilson."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Em pacientes com diabetes mellitus tipo 1 e diarreia persistente, é recomendável avaliar a possível associação com doença celíaca, dada a base autoimune comum entre as duas condições.",
+      "theme": "int_celiac",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_037",
+      "statement": "Homem, 25 anos, com DM tipo 1, possui diarreia crônica. HbA1C é de 6%. Fundoscopia normal. O diagnóstico atribuído foi de diarreia pelo diabetes. Pode-se afirmar que é importante no diagnóstico diferencial da diarreia, neste paciente, solicitar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "T3L, T4L e TSH."
+        },
+        {
+          "key": "b",
+          "text": "Dosagem de B12"
+        },
+        {
+          "key": "c",
+          "text": "Fator antinuclear."
+        },
+        {
+          "key": "d",
+          "text": "Anticorpos para pesquisa de doença celíaca."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diarreia crônica em paciente com DM tipo 1, mesmo com bom controle glicêmico (afastando neuropatia autonômica diabética como causa), deve ser investigada com pesquisa de anticorpos para doença celíaca, associação autoimune reconhecida.",
+      "theme": "int_celiac",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_038",
+      "statement": "Paciente do sexo masculino, branco, procurou auxílio médico com queixa de diarreia aquosa com dois anos de evolução, cerca de 7 evacuações ao dia, com restos alimentares, acompanhada de distensão abdominal, de caráter cíclico, recorrente. Evoluiu com anemia, cólicas abdominais recorrentes, persistência da diarreia e perda ponderal importante. Qual o tratamento indicado para o caso acima relatado?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dieta de glúten, evitando aveia, arroz e milho; no início, é recomendada dieta sem lactose até melhora dos sintomas; reposição de vitaminas e minerais, principalmente vitamina A e potássio."
+        },
+        {
+          "key": "b",
+          "text": "Dieta sem glúten, evitando cereais de trigo, centeio e cevada; no inicio, é recomendada dieta sem lactose até melhora dos sintomas; reposição de vitaminas e minerais, principalmente vitamina D e cálcio."
+        },
+        {
+          "key": "c",
+          "text": "Dieta rica em proteínas e com cereais de trigo, centeio e cevada; no inicio, é recomendada dieta sem lactose até melhora dos sintomas; reposição de vitaminas e minerais, principalmente vitamina D e cálcio."
+        },
+        {
+          "key": "d",
+          "text": "Dieta rica em proteínas e carboidratos complexos; no inicio, é recomendada reposição de vitaminas e minerais, principalmente sódio, bicarbonato, zinco; solução de reidratação oral até melhora dos sintomas."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O tratamento da condição descrita (doença celíaca) consiste em dieta sem glúten (evitando trigo, centeio e cevada), com restrição inicial de lactose até melhora dos sintomas e reposição de vitamina D e cálcio.",
+      "theme": "int_celiac",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_039",
+      "statement": "Paciente do sexo masculino, branco, procurou auxílio médico com queixa de diarreia aquosa com dois anos de evolução, cerca de 7 evacuações ao dia, com restos alimentares, acompanhada de distensão abdominal, de caráter cíclico, recorrente. Evoluiu com anemia, cólicas abdominais recorrentes, persistência da diarreia e perda ponderal importante. Os exames complementares que confirmariam o diagnóstico de Doença celíaca para este caso seriam dosagem sérica de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Anticorpos antiendomísio (EMA) e anticorpos antitransglutaminase tecidual (anti-tTG);"
+        },
+        {
+          "key": "b",
+          "text": "Desidrogenase lática elevada e níveis elevados de ß2 microglobulina;"
+        },
+        {
+          "key": "c",
+          "text": "Anticorpos anti- nucleares e anticorpos anti-DNA positivos;"
+        },
+        {
+          "key": "d",
+          "text": "Gastrina elevada (hipergastrinemia) e teste de estimulação pela secretina."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O diagnóstico de doença celíaca no caso descrito é confirmado pela dosagem sérica de anticorpos antiendomísio (EMA) e antitransglutaminase tecidual (anti-tTG).",
+      "theme": "int_celiac",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_041",
+      "statement": "Na investigação da diarréia crônica devem ser questionadas a presença de história familiar e o exame físico deve ser completo. Das causas abaixo a determinante para um processo de diarréia crônica por má absorção é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Colite Amebiana."
+        },
+        {
+          "key": "b",
+          "text": "Carcinoma medular de tireoide."
+        },
+        {
+          "key": "c",
+          "text": "Diabetes."
+        },
+        {
+          "key": "d",
+          "text": "Esclerodermia."
+        },
+        {
+          "key": "e",
+          "text": "Doença celíaca."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Entre as causas listadas, a doença celíaca é a etiologia classicamente determinante de diarreia crônica por má absorção intestinal verdadeira, diferente das demais opções (mecanismos secretores, osmóticos ou motores).",
+      "theme": "int_celiac",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_044",
+      "statement": "Um paciente com quarenta anos de idade procurou o ambulatório de clínica médica e informou que, nos últimos doze meses, tem apresentado episódios de diarreia de forma habitual, com pelo menos um episódio por semana. Relatou ainda que suas fezes apresentavam característica volumosa, pastosa, aspecto gorduroso e sem sangue. O paciente negou dor, anorexia, náuseas, vômitos, febre, sudorese e calafrios. No período relatado, informou haver perdido cerca de 10 kg. Reportou ainda haver tentado suspender leite e derivados, mas não percebeu melhora nos sintomas. Nunca fez uso de bebida alcoólica ou cigarro. O exame físico nada revelou de anormal. No prontuário consta sorologia negativa para HIV. Acerca do caso clínico apresentado, julgue o item que se segue. Uma avaliação sorológica é indicada a esse paciente para que se pesquisem anticorpos antiendomísio e antitransglutaminase tecidual.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diarreia crônica com perda de peso e fezes gordurosas, sem outras causas evidentes, justifica avaliação sorológica com anticorpos antiendomísio e antitransglutaminase tecidual para investigar doença celíaca.",
+      "theme": "int_celiac",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_046",
+      "statement": "Homem de 22 anos se encontra em investigação de anemia microcítica, cuja análise pela cinética do ferro aponta como etiologia a carência de ferro (anemia ferropriva). A reposição do elemento por via oral não logra êxito, por mais que as doses e intervalos de administração fossem corretas e a taxa de adesão fosse de quase 100%. Buscando entender as razões para tal comportamento, procura-se rever eventuais dados de anamnese e exame físico que não tivessem recebido a atenção devida. Dentro dessa perspectiva, ele se queixa da presença de lesões pruriginosas em seus cotovelos. Ao exame, há agrupamentos de lesões vesiculosas ou papulovesiculosas, com fundo ocasionalmente eritematoso, de distribuição simétrica, em cotovelos, joelhos, nuca, nádegas e região sacra. A pesquisa de anticorpos antitransglutaminase é positiva. O diagnóstico CORRETO para a lesão cutânea e a melhor conduta a ser instituída no caso, respectivamente, são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sarna norueguesa; pesquisa de HIV e introdução da terapia antirretroviral."
+        },
+        {
+          "key": "b",
+          "text": "Porfiria cutânea tarda; abstenção do álcool e administração de hematina."
+        },
+        {
+          "key": "c",
+          "text": "Doença de Whipple; uso de sulfametoxazol + trimetoprima por 12 meses."
+        },
+        {
+          "key": "d",
+          "text": "Dermatite herpetiforme; dieta livre de glúten e início de dapsona."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Anemia ferropriva refratária à reposição oral associada a lesões vesiculopapulosas pruriginosas simétricas (dermatite herpetiforme) e antitransglutaminase positivo confirma doença celíaca; o tratamento é dieta isenta de glúten associada a dapsona para a lesão cutânea.",
+      "theme": "int_celiac",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "sdis_051",
+      "statement": "É causa de anemia microcítica por má-absorção de ferro:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "doença de Crohn do íleo terminal"
+        },
+        {
+          "key": "b",
+          "text": "retocolite ulcerativa"
+        },
+        {
+          "key": "c",
+          "text": "doença celíaca"
+        },
+        {
+          "key": "d",
+          "text": "gastrectomia"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A doença celíaca é causa reconhecida de anemia microcítica por má absorção de ferro no duodeno/jejuno proximal, local primário de acometimento da doença.",
+      "theme": "int_celiac",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}

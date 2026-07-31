@@ -5643,6 +5643,1958 @@
       "difficulty": "medio",
       "reviewed": false,
       "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_002",
+      "statement": "Marque a alternativa CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A disfagia por doença neoplásica ocorre com mais frequência em idosos, evolui de forma lenta e gradativa, havendo uma perda ponderal acentuada."
+        },
+        {
+          "key": "b",
+          "text": "Pacientes com doença do refluxo gastroesofagiano desenvolvem frequentemente disfagia, após longa história de pirose."
+        },
+        {
+          "key": "c",
+          "text": "O anel de Schatzki é uma obstrução mecânica da luz esofagiana, cursando com disfagia não progressiva e sem perda de peso."
+        },
+        {
+          "key": "d",
+          "text": "Distúrbios esofagianos são a causa mais frequente de dor torácica."
+        },
+        {
+          "key": "e",
+          "text": "O esfíncter superior do esôfago é o principal mecanismo antirrefluxo."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O anel de Schatzki é uma obstrução mecânica anelar da luz esofágica distal que causa disfagia intermitente e não progressiva, sem perda de peso significativa, diferente da disfagia neoplásica.",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_003",
+      "statement": "O divertículo faringoesofágico é o divertículo esofágico mais comum. Situa-se herniando em uma região denominada trígono de Killian. A complicação mais mórbida do não tratamento desta doença em pacientes idosos é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Carcinoma escamoso."
+        },
+        {
+          "key": "b",
+          "text": "Esôfago de Barret."
+        },
+        {
+          "key": "c",
+          "text": "Pneumonias por aspiração."
+        },
+        {
+          "key": "d",
+          "text": "Perda ponderal."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A principal complicação do divertículo de Zenker não tratado em idosos é a pneumonia por aspiração recorrente, decorrente da regurgitação de conteúdo alimentar retido.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_004",
+      "statement": "Sobre os distúrbios neuromusculares do esôfago, assinale a alternativa INCORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O divertículo de Zenker é um divertículos falso, de pulsão."
+        },
+        {
+          "key": "b",
+          "text": "Os divertículos faringoesofágicos menores tem melhor redução dos sintomas com o tratamento cirúrgico, enquanto os maiores se beneficiam mais do tratamento endoscópico."
+        },
+        {
+          "key": "c",
+          "text": "Os divertículos epifrênicos são divertículos verdadeiros e estão associados com acalásia e outros distúrbios da motilidade esofágica."
+        },
+        {
+          "key": "d",
+          "text": "Disfagia progressiva, perda ponderal e regurgitação fazem o quadro clínico da acalasia."
+        },
+        {
+          "key": "e",
+          "text": "O padrão ouro para o diagnóstico da acalasia é a manometria esofágica. O esofagograma pode mostrar a típica imagem do bico de pássaro."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Os divertículos faringoesofágicos maiores respondem melhor ao tratamento cirúrgico (não endoscópico), enquanto os menores podem se beneficiar de abordagem endoscópica — sendo essa a afirmação incorreta sobre os distúrbios neuromusculares do esôfago.",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_006",
+      "statement": "Uma paciente de 48 anos chega ao hospital com relato de vômitos frequentes há 1 dia, progredindo para dor intensa em região subesternal nas últimas horas. Com base no caso clínico e nos conhecimentos médicos correlacionados, julgue o item a seguir. Uma das hipóteses diagnósticas para essa paciente é a de ruptura esofágica associada à síndrome de Mallory-Weiss.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Vômitos frequentes progredindo para dor torácica intensa sugerem ruptura esofágica (síndrome de Boerhaave), diagnóstico diferencial da síndrome de Mallory-Weiss (que causa laceração mucosa, não perfuração transmural) nesse contexto.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_007",
+      "statement": "Uma paciente de 48 anos chega ao hospital com relato de vômitos frequentes há 1 dia, progredindo para dor intensa em região subesternal nas últimas horas. Com base no caso clínico e nos conhecimentos médicos correlacionados, julgue o item a seguir. O diagnóstico de uma possível perfuração esofágica pode ser feito por meio de uma radiogra a do tórax, que pode demonstrar um hidropneumotórax, ou de uma esofagografia com contraste.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O diagnóstico de perfuração esofágica pode ser feito por radiografia de tórax (evidenciando hidropneumotórax ou pneumomediastino) ou por esofagografia com contraste.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_008",
+      "statement": "Uma paciente de 48 anos chega ao hospital com relato de vômitos frequentes há 1 dia, progredindo para dor intensa em região subesternal nas últimas horas. Com base no caso clínico e nos conhecimentos médicos correlacionados, julgue o item a seguir. O tratamento cirúrgico não está indicado para todos os pacientes com perfuração do esôfago, pois a conduta depende de fatores como a estabilidade do paciente, a extensão da contaminação e a localização da perfuração. Caso o paciente esteja instável, necessitará de uma rápida avaliação e tratamento imediato.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O tratamento cirúrgico não é indicado universalmente na perfuração esofágica — a conduta depende da estabilidade do paciente, extensão da contaminação e localização da lesão, sendo o tratamento imediato reservado a pacientes instáveis.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_010",
+      "statement": "Associe os métodos diagnósticos (coluna da esquerda) às respectivas situações clínicas (coluna da direita). 1 - Manometria esofágica 2 - Ecoendoscopia 3 - pHmetria esofágica de 24 horas 4 - Endoscopia digestiva alta ( )Doença do refluxo gastroesofágico ( )Acalásia de esôfago ( )Gastrite por refluxo alcalino ( )Leiomioma de esôfago A sequência numérica correta, de cima para baixo, da coluna da direita, é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "1–4–3–2"
+        },
+        {
+          "key": "b",
+          "text": "2–4–3–1"
+        },
+        {
+          "key": "c",
+          "text": "3–1–2–4"
+        },
+        {
+          "key": "d",
+          "text": "3–1–4–2"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A sequência correta associando método a situação clínica é: pHmetria esofágica (DRGE), manometria esofágica (acalasia), endoscopia digestiva alta (gastrite por refluxo alcalino) e ecoendoscopia (leiomioma de esôfago).",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_012",
+      "statement": "Idoso de 72 anos apresenta quadro clínico de disfagia intermitente, tosse, salivação excessiva e regurgitação ocasional de conteúdo alimentar não digerido. Foi realizada esofagogra a com bário que revelou a presença de divertículo de Zenker. Essa alteração na parede esofágica se localiza na região anatômica conhecida como:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "orifício de Fruchaud"
+        },
+        {
+          "key": "b",
+          "text": "triângulo de Sedillot"
+        },
+        {
+          "key": "c",
+          "text": "triângulo de Larrey"
+        },
+        {
+          "key": "d",
+          "text": "triângulo de Killian"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O divertículo de Zenker localiza-se especificamente na região do triângulo de Killian, área de fraqueza entre os músculos constritor inferior da faringe e cricofaríngeo.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_017",
+      "statement": "Um homem de 75 anos, com disfagia progressiva há 8 meses, anorexia e emagrecimento, foi diagnosticado com câncer de terço médio do esôfago. No estadiamento, detectou-se disseminação local com invasão da aorta e brônquio-fonte esquerdo, metástases ganglionares mediastinais e fígado. Qual é a justi cativa para o comportamento agressivo desse tipo de câncer?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "estar localizado no terço médio do esôfago"
+        },
+        {
+          "key": "b",
+          "text": "o tipo histológico mais comum ser o adenocarcinoma"
+        },
+        {
+          "key": "c",
+          "text": "estar relacionado com o esôfago de Barrett"
+        },
+        {
+          "key": "d",
+          "text": "ausência da camada serosa do esôfago"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A ausência da camada serosa no esôfago favorece a disseminação local precoce do câncer esofágico para estruturas adjacentes (aorta, brônquios, mediastino), explicando o comportamento agressivo desse tumor.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_020",
+      "statement": "Uma paciente de 27 anos de idade, 46kg, tabagista, dependente química, apresenta-se ao serviço de emergência relatando quadro de episódios repetidos de vômitos, dor retroesternal, disfagia e hematêmese iniciados há 24 horas. No momento, apresenta-se com mal estar, temperatura axilar = 38,5ºC, dor retroesternal e torácica, além de taquicardia, taquipneia e sudorese. Considerando o quadro clínico descrito, o provável diagnóstico é de",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "laceração de Mallory-Weiss."
+        },
+        {
+          "key": "b",
+          "text": "perfuração de úlcera gástrica na junção esofagogástrica."
+        },
+        {
+          "key": "c",
+          "text": "ruptura aguda esofágica."
+        },
+        {
+          "key": "d",
+          "text": "neoplasia da junção esofagogástrica com invasão de estruturas adjacentes."
+        },
+        {
+          "key": "e",
+          "text": "infarto agudo do miocárdio (IAM) em paciente jovem."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Vômitos repetidos, dor retroesternal, disfagia, hematêmese e sinais de sepse (febre, taquicardia) sugerem ruptura esofágica aguda (síndrome de Boerhaave), emergência cirúrgica grave.",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_028",
+      "statement": "Mulher, 46 anos de idade, refere dor torácica e regurgitação após refeições há 2 anos, com piora progressiva. Quando tem dor, apresenta melhora após a ingestão de líquidos. A queixa é mais intensa após refeições sólidas, evitando alimentos com esta consistência. Associadamente tem regurgitação durante o sono. Perdeu 5 Kg (IMC atual: 20 kg/m²). Realizou endoscopia digestiva alta, com achado de esofagite erosiva distal leve (grau A de Los Angeles) e gastrite erosiva leve de antro. Iniciou uso pantoprazol sem melhora dos sintomas. Retornou à consulta, quando foi solicitada uma radiografia contrastada de esôfago, estômago e duodeno. Considerando a principal hipótese diagnóstica, qual é o tratamento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Esofagectomia subtotal."
+        },
+        {
+          "key": "b",
+          "text": "Hiatoplastia e fundoplicatura parcial."
+        },
+        {
+          "key": "c",
+          "text": "Hiatoplastia e fundoplicatura total."
+        },
+        {
+          "key": "d",
+          "text": "Cardiomiotomia e fundoplicatura parcial."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Dor torácica e regurgitação desencadeadas por alimentos sólidos, com melhora ao ingerir líquidos, esofagite leve sem resposta ao IBP, e radiografia contrastada solicitada para elucidação, sugerem acalasia; o tratamento é cardiomiotomia associada a fundoplicatura parcial.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_029",
+      "statement": "T ratamento Clínico da DRGE Uma paciente, feminina, 75 anos, IMC: 32, sem outras comorbidades, vem ao consultório médico com queixa de azia e quadro dispéptico. A azia tem melhora com inibidor de bomba protônica em dose de manutenção. Após anamnese e exame físico, foi solicitada uma endoscopia alta que evidenciou uma hérnia hiatal de deslizamento, com a junção esofago- gástrica a 5 cm do pinçamento diafragmático. Assinale a alternativa correta a respeito desta patologia",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "As hérnias hiatais do tipo III são aquelas em que existe a hérnia de deslizamento e outras estruturas associadas; por exemplo, o grande omento"
+        },
+        {
+          "key": "b",
+          "text": "Apenas 10% de todas as hérnias hiatais são do tipo I, e poucas precisam de tratamento cirúrgico."
+        },
+        {
+          "key": "c",
+          "text": "A grande maioria das hérnias paraesofágicas são do tipo II, em torno de 90%. Apenas uma minoria das hérnias paraesofágicas são do tipo III."
+        },
+        {
+          "key": "d",
+          "text": "Nesta paciente, como ele controla a sintomatologia do refluxo gastroesofâgico com inibidor da bomba protônica, a cirurgia da hérnia hiatal não está indicada, sendo melhor manter o tratamento conservador"
+        },
+        {
+          "key": "e",
+          "text": "As hérnias hiatais do tipo II, assintomáticas, devem sempre ser operadas, independente da idade e condições clínicas do paciente, devido ao risco de isquemia e perfuração."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Nas hérnias hiatais tipo III, há tanto a hérnia de deslizamento quanto o componente paraesofágico, podendo incluir herniação de outras estruturas como o grande omento.",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_030",
+      "statement": "Assinale a alternativa que indica corretamente o principal fator de risco para a disfagia permanente pós fundoplicatura de Nissen.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Presença de disfagia pré-operatória"
+        },
+        {
+          "key": "b",
+          "text": "Regurgitação como sintoma principal"
+        },
+        {
+          "key": "c",
+          "text": "PHmetria com índice de sintomas positivo"
+        },
+        {
+          "key": "d",
+          "text": "Seriografia mostrando hérnia de hiato paraesofágica"
+        },
+        {
+          "key": "e",
+          "text": "Presença de distúrbio motor inespecífico à manometria"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A presença de disfagia pré-operatória é o principal fator de risco identificado para disfagia permanente após fundoplicatura de Nissen, refletindo distúrbio motor esofágico subjacente não corrigido pela cirurgia.",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_031",
+      "statement": "Na investigação de um paciente com queixa de disfagia, qual exame serve para orientar condutas clínicas e cirúrgicas, demonstrando pontos de estenose, estase, aspecto da mucosa e coleta de fragmentos. Qual dos exames atende a essa necessidade?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Manometria de alta resolução."
+        },
+        {
+          "key": "b",
+          "text": "Endoscopia digestiva alta."
+        },
+        {
+          "key": "c",
+          "text": "Cintilografia esofágica."
+        },
+        {
+          "key": "d",
+          "text": "Esofagograma digital."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A endoscopia digestiva alta é o exame que orienta condutas clínicas e cirúrgicas na disfagia, permitindo avaliar diretamente pontos de estenose, estase, aspecto da mucosa e coletar biópsias.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_032",
+      "statement": "Homem de 71 anos queixa-se de tosse irritativa, salivação excessiva, disfagia, regurgitação constante, mau hálito e alterações da voz há 8 meses. Na investigação diagnóstica, encontrou-se o achado (diâmetro = 2,6 cm), demonstrado a seguir. A conduta mais indicada para esse paciente é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "diverticulectomia isolada e rafia da base em dois planos de sutura, com fio monofilamentar inabsorvível."
+        },
+        {
+          "key": "b",
+          "text": "diverticulectomia endoscópica com grampeamento da base com clips metálicos sem miotomia."
+        },
+        {
+          "key": "c",
+          "text": "diverticulopexia com miotomia incompleta, usando-se laser de argônio para melhor cicatrização."
+        },
+        {
+          "key": "d",
+          "text": "diverticulectomia ou diverticuloplexia com miotomia proximal e distal dos músculos tireofaríngeo e cricofaríngeo."
+        },
+        {
+          "key": "e",
+          "text": "procedimento endoscópico de Dohlman, técnica mais indicada pelo risco cirúrgico do paciente."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Tosse irritativa, salivação excessiva, disfagia, regurgitação, halitose e achado de formação de 2,6cm sugerem divertículo de Zenker; o tratamento é diverticulectomia (ou diverticulopexia) associada a miotomia dos músculos cricofaríngeo e tireofaríngeo.",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_033",
+      "statement": "Mulher, 64 anos, queixa de dor retroesternal leve, náusea e tosse seca pós-prandial há 2 anos. Você solicita exame radiológico de tórax cujo resultado é a seguinte imagem abaixo. Qual diagnostico mais provável para essa paciente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Neoplasia esofágica"
+        },
+        {
+          "key": "b",
+          "text": "Hérnia gástrica hiatal"
+        },
+        {
+          "key": "c",
+          "text": "Abscesso pulmonar"
+        },
+        {
+          "key": "d",
+          "text": "Cavitação pulmonar"
+        },
+        {
+          "key": "e",
+          "text": "Derrame pericárdico"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] Dor retroesternal, náusea e tosse pós-prandial, com imagem radiológica sugestiva de estrutura anômala em tórax, é achado compatível com hérnia hiatal.",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_034",
+      "statement": "É o divertículo faringoesofágico mais comum encontrado hoje em dia. Apresenta-se, geralmente, em pacientes idosos na sétima década de vida e tem sido postulado como resultado de perda da elasticidade tecidual e tônus muscular com a idade. É encontrado especificamente herniando no triângulo de Killian.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Divertículo de Meckel."
+        },
+        {
+          "key": "b",
+          "text": "Divertículo de Zenker."
+        },
+        {
+          "key": "c",
+          "text": "Divertículo de Hinchey."
+        },
+        {
+          "key": "d",
+          "text": "Divertículo de Hiss."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O divertículo de Zenker é o divertículo faringoesofágico mais comum, típico de idosos, decorrente da perda de elasticidade tecidual e herniação no triângulo de Killian.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_037",
+      "statement": "Assinale a alternativa que corresponde ao tipo de hérnia mais comum que gera sintomas de refluxo gastroesofágico.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hérnia hiatal por deslizamento."
+        },
+        {
+          "key": "b",
+          "text": "Hérnia de Spiegel."
+        },
+        {
+          "key": "c",
+          "text": "Hérnia de Zenker."
+        },
+        {
+          "key": "d",
+          "text": "Hérnia epigástrica."
+        },
+        {
+          "key": "e",
+          "text": "Hérnia hiatal paraesofágica."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A hérnia hiatal por deslizamento (tipo I) é o tipo mais comum associado a sintomas de refluxo gastroesofágico.",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_038",
+      "statement": "Assinale a alternativa que corresponde aos 3 locais anatômicos de estreitamento do esôfago.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Constrição pelo músculo milo-hióideo, constrição traqueal e constrição gastroesofágica."
+        },
+        {
+          "key": "b",
+          "text": "Constrição pelo músculo cricofaríngeo, constrição broncoaórtica e constrição diafragmática."
+        },
+        {
+          "key": "c",
+          "text": "Constrição pelo músculo omo-hióideo, constrição brônquica e constrição pericárdica."
+        },
+        {
+          "key": "d",
+          "text": "Constrição pelo músculo cricofaríngeo, constrição traqueal e constrição gastroesofágica."
+        },
+        {
+          "key": "e",
+          "text": "Constrição pelo músculo tireofaríngeo, constrição broncoaórtica e constrição gastroesofágica."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Os três locais anatômicos de estreitamento fisiológico do esôfago são: constrição pelo músculo cricofaríngeo (superior), constrição broncoaórtica (cruzamento com aorta/brônquio) e constrição diafragmática (hiato esofágico).",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_040",
+      "statement": "A seriogra a contrastada abaixo de esôfago, estômago e duodeno tem maiores chances de serem encontradas em pacientes com o diagnóstico de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Acalásia."
+        },
+        {
+          "key": "b",
+          "text": "Carcinoma espinocelular."
+        },
+        {
+          "key": "c",
+          "text": "Adenocarcinoma."
+        },
+        {
+          "key": "d",
+          "text": "Espasmo esofágico difuso."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O achado radiológico de esôfago em 'saca-rolhas' com contrações não coordenadas é característico do espasmo esofágico difuso, distúrbio motor primário distinto da acalasia.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_042",
+      "statement": "O divertículo de Zenker é uma patologia encontrada em pacientes idosos que se localiza no seguinte órgão:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "ceco"
+        },
+        {
+          "key": "b",
+          "text": "esôfago"
+        },
+        {
+          "key": "c",
+          "text": "cólon sigmoide"
+        },
+        {
+          "key": "d",
+          "text": "intestino delgado"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O divertículo de Zenker localiza-se no esôfago (região faringoesofágica cervical).",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_043",
+      "statement": "Paciente de 72 anos chega ao consultório se queixando de disfagia. Relata também que vem apresentando tosse, salivação excessiva, regurgitação de alimentos mal digeridos e halitose. Qual o provável diagnóstico?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Divertículo de Meckel."
+        },
+        {
+          "key": "b",
+          "text": "Úlcera gástrica."
+        },
+        {
+          "key": "c",
+          "text": "Volvo intestinal."
+        },
+        {
+          "key": "d",
+          "text": "Divertículo de Zenker."
+        },
+        {
+          "key": "e",
+          "text": "Divertículo epifrênico."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Disfagia, tosse, salivação excessiva, regurgitação de alimentos mal digeridos e halitose em idoso são achados clássicos de divertículo de Zenker.",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_044",
+      "statement": "JPR, 72 anos, sexo masculino, queixando disfagia progressiva inicialmente para sólidos, halitose, regurgitação alimentar, tosse crônica e emagrecimento. Foi atendido por gastroenterologista que solicitou endoscopia digestiva alta. O endoscópio progrediu até 25cm da arcada dentária superior e atingiu cavidade em fundo cego com restos alimentares. Foi solicitado exame contrastado do esôfago que pode ser visto abaixo. Qual é o diagnóstico MAIS PROVÁVEL e a MELHOR CONDUTA para o caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A imagem é compatível com megaesôfago e a endoscopia deve ser repetida para realização de dilatação do esfíncter esofágico inferior"
+        },
+        {
+          "key": "b",
+          "text": "A imagem é compatível com neoplasia de esôfago e fístula esofagobrônquica, e está indicada a introdução de prótese esofágica expansível"
+        },
+        {
+          "key": "c",
+          "text": "A imagem é de um grande divertículo do esôfago médio e a ressecção está indicada porque o mesmo está comprimindo o lúmen do órgão"
+        },
+        {
+          "key": "d",
+          "text": "Trata-se de divertículo de Zenker e o tratamento implica em miotomia do músculo cricofaríngeo"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Disfagia progressiva com halitose, regurgitação e imagem de cavidade em fundo cego contrastada compatível com grande divertículo do esôfago médio (não Zenker), com compressão luminal, tem indicação de ressecção cirúrgica.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_045",
+      "statement": "O divertículo faringoesofágico (de Zenker) é o mais comum divertículo esofágico encontrado hoje em dia. Ele é encontrado, especificamente, herniando no triângulo de Killian que apresenta os limites anatômicos dos músculos.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tireofaríngeo e cricofaríngeo."
+        },
+        {
+          "key": "b",
+          "text": "Tireofaríngeo e aritenoides."
+        },
+        {
+          "key": "c",
+          "text": "Cricoaritenóide lateral e posterior."
+        },
+        {
+          "key": "d",
+          "text": "Cricofaríngeo e cricoaritenóide posterior."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O triângulo de Killian é delimitado pelos músculos tireofaríngeo (superiormente) e cricofaríngeo (inferiormente), área de fraqueza onde se forma o divertículo de Zenker.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_046",
+      "statement": "Mulher, 88 anos de idade, com quadro de disfagia, regurgitação de alimentos não digeridos, murmúrios no pescoço após alimentação, halitose e emagrecimento, foi admitida na UTI por broncoaspiração e pneumonia. Baseado na história e na imagem abaixo do deglutograma, assinale a alternativa com o diagnóstico mais provável.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Divertículo de Zencker."
+        },
+        {
+          "key": "b",
+          "text": "Tumor do mediastino."
+        },
+        {
+          "key": "c",
+          "text": "Bócio mergulhante de tireoide."
+        },
+        {
+          "key": "d",
+          "text": "Higroma cístico."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] Disfagia, regurgitação de alimentos não digeridos, ruídos cervicais após alimentação, halitose e emagrecimento, complicados por broncoaspiração e pneumonia em idosa, são quadro clássico de divertículo de Zenker.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_047",
+      "statement": "Um homem de 45 anos em um churrasco ingeriu rapidamente grande quantidade de cerveja e alimentos. Subitamente começou a presentar vômitos violentos, dor em mediastino, odinofagia e dispneia. Qual o diagnóstico provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pancreatite aguda."
+        },
+        {
+          "key": "b",
+          "text": "Síndrome de Boerhaave."
+        },
+        {
+          "key": "c",
+          "text": "Tromboembolismo pulmonar."
+        },
+        {
+          "key": "d",
+          "text": "Pneumotórax espontâneo."
+        },
+        {
+          "key": "e",
+          "text": "Angina mesentérica."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Vômitos violentos após ingestão copiosa de alimentos e álcool, seguidos de dor mediastinal, odinofagia e dispneia, são quadro clássico de síndrome de Boerhaave (ruptura esofágica espontânea).",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_051",
+      "statement": "Um paciente do sexo masculino, com 60 anos de idade, procurou ambulatório com queixa de disfagia progressiva, existente havia 10 anos, com piora importante 2 meses antes desse atendimento ambulatorial. No momento, queixava-se de que não conseguia se alimentar nem de líquidos, com perda ponderal de 8 kg no período. Como antecedentes importantes, apresentava uma carga tabágica de 20 maços/ano, etilismo de meio litro de destilados ao dia, epidemiologia positiva para doença de Chagas, sem históricos de câncer na família. A partir do caso clínico hipotético apresentado, julgue o item a seguir. Câncer de esôfago é uma das possíveis hipóteses diagnósticas, pois o paciente apresenta vários fatores de risco para essa doença.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O paciente descrito (tabagismo, etilismo importante, disfagia progressiva de longa data) apresenta múltiplos fatores de risco para câncer de esôfago (carcinoma espinocelular), tornando essa uma hipótese diagnóstica relevante a ser excluída.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_054",
+      "statement": "O esôfago passa por alterações características com o envelhecimento que podem resultar no aparecimento de divertículos de Zenker. Dentre as abaixo, qual a alternativa correta sobre esta condição?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Divertículos de Zenker são também denominados divertículos epifrênicos."
+        },
+        {
+          "key": "b",
+          "text": "É encontrado especificamente herniando no triângulo de Killian."
+        },
+        {
+          "key": "c",
+          "text": "São categorizados como divertículos verdadeiros."
+        },
+        {
+          "key": "d",
+          "text": "O divertículo de Zenker é raramente encontrado."
+        },
+        {
+          "key": "e",
+          "text": "O diagnóstico do divertículo de Zenker é feito por endoscopia digestiva alta."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O divertículo de Zenker é encontrado especificamente herniando no triângulo de Killian, área de fraqueza entre os músculos constritor inferior da faringe e cricofaríngeo.",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_055",
+      "statement": "As hérnias de hiato classificadas como tipo I são caracterizadas por deslocamento superior:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "da cárdia no mediastino anterior."
+        },
+        {
+          "key": "b",
+          "text": "da cárdia no mediastino posterior."
+        },
+        {
+          "key": "c",
+          "text": "tanto da cárdia quanto do fundo gástrico."
+        },
+        {
+          "key": "d",
+          "text": "do fundo gástrico e pelo posicionamento normal da cárdia ."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "As hérnias hiatais tipo I são caracterizadas pelo deslocamento superior da cárdia para o mediastino posterior, mantendo a relação anatômica normal entre cárdia e fundo gástrico.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_056",
+      "statement": "Homem 65 anos de idade apresenta-se na unidade de saúde com quadro de regurgitação noturna de comida há muitos meses. Os sintomas têm se tornado pior recentemente, fazendo-o levantar a noite. Nega odinofagia ou disfagia. Sua esposa percebeu que sua voz também mudou e que ele esta com halitose. Ele a rma não ter outros problemas médicos, mas que seus sintomas atuais têm afetado sua qualidade de vida. Qual dos seguintes é o estudo mais adequado para o diagnóstico?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "PHmetria por 24 horas."
+        },
+        {
+          "key": "b",
+          "text": "Endoscopia digestiva alta."
+        },
+        {
+          "key": "c",
+          "text": "Esofagograma baritado."
+        },
+        {
+          "key": "d",
+          "text": "Manometria esofagiana."
+        },
+        {
+          "key": "e",
+          "text": "TC de tórax."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Regurgitação noturna de alimentos, halitose e mudança de voz, sem odinofagia ou disfagia evidente, sugerem divertículo de Zenker; o esofagograma baritado é o estudo mais adequado para diagnóstico, evitando o risco de perfuração da endoscopia às cegas.",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_057",
+      "statement": "Analise a imagem a seguir. Após o diagnóstico, o paciente em questão deverá ser submetido a uma",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "drenagem torácica fechada."
+        },
+        {
+          "key": "b",
+          "text": "punção pericárdica."
+        },
+        {
+          "key": "c",
+          "text": "hiatoplastia."
+        },
+        {
+          "key": "d",
+          "text": "laparotomia exploradora."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] Diante de imagem sugestiva de hérnia hiatal volumosa sintomática, a hiatoplastia (correção cirúrgica do hiato) é a conduta indicada.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_061",
+      "statement": "Sobre um paciente com queixa de disfagia alta e com halitose importante, podemos fazer hipótese diagnóstica de",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "refluxo gastroesofágico."
+        },
+        {
+          "key": "b",
+          "text": "acalásia."
+        },
+        {
+          "key": "c",
+          "text": "neoplasia de esôfago."
+        },
+        {
+          "key": "d",
+          "text": "divertículo de Zenker."
+        },
+        {
+          "key": "e",
+          "text": "esofagite."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Disfagia alta (orofaríngea/cervical) associada a halitose importante sugere divertículo de Zenker, pela retenção e putrefação de alimentos no saco diverticular.",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_062",
+      "statement": "Paciente com suspeita de síndrome de Boerhaave. Qual melhor abordagem na investigação radiológica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Exame com contraste de sulfato de bário."
+        },
+        {
+          "key": "b",
+          "text": "Exame com contraste hidrossolúvel."
+        },
+        {
+          "key": "c",
+          "text": "Realizar tomografia com contraste radioativo."
+        },
+        {
+          "key": "d",
+          "text": "Deve ser utilizado contraste hidrossolúvel."
+        },
+        {
+          "key": "e",
+          "text": "O uso de exame contrastado está formalmente contraindicado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na suspeita de síndrome de Boerhaave, deve-se usar contraste hidrossolúvel (não bário) na esofagografia, pelo risco de mediastinite química grave caso o bário extravase para o mediastino através da perfuração.",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_064",
+      "statement": "Paciente comparece ao serviço de emergência por disfagia e dor torácica, traz um raio-x de tórax realizado em outro serviço com dupla silhueta cardíaca e ausência de bolha gástrica, hemograma com discreta anemia sem leucocitose e eletrocardiograma com bloqueio de ramo direito. Qual o diagnóstico e causa dos sintomas?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Acalasia com disfagia e dor torácica pela dismotilidade esofágica."
+        },
+        {
+          "key": "b",
+          "text": "Dissecção da aorta com disfagia por compressão esofágica e dor por distensão da camada muscular da aorta."
+        },
+        {
+          "key": "c",
+          "text": "Hérnia de hiato gigante com disfagia pela compressão do colo da hérnia ao nível do hiato e dor pela arritmia por compressão atrial pela hérnia."
+        },
+        {
+          "key": "d",
+          "text": "Infarto agudo do miocárdio em fase inicial sem alterações isquêmicas ainda ao eletrocardiograma."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Disfagia e dor torácica com dupla silhueta cardíaca e ausência de bolha gástrica ao Rx, sem outras alterações cardíacas agudas, sugerem acalasia/megaesôfago volumoso causando compressão e sintomas por dismotilidade esofágica.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_065",
+      "statement": "Paciente de 65 anos, chega ao PS com dor torácica após vômitos posteriormente à copiosa refeição. Ao exame físico está taquicárdico e taquipnêico com hálito etílico, sinal de Hamman presente. Raio-X de tórax mostra pequeno derrame pleural à esquerda. Qual o diagnóstico e exame para esse caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Síndrome de Maalory Weis, endoscopia."
+        },
+        {
+          "key": "b",
+          "text": "Síndrome de Boerhaave, tomografia computadorizada."
+        },
+        {
+          "key": "c",
+          "text": "Síndrome de Plummer-Vinson, endoscopia."
+        },
+        {
+          "key": "d",
+          "text": "Infarto agudo do miocárdio, eletrocardiograma e enzimas cardíacas."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Dor torácica após vômitos copiosos, com sinal de Hamman (crepitação mediastinal à ausculta cardíaca) e derrame pleural à radiografia, é quadro clássico de síndrome de Boerhaave; a tomografia computadorizada é o exame confirmatório.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_070",
+      "statement": "Mulher de 60 anos de idade refere dor epigástrica, tosse e náuseas após as refeições há cerca de 1 ano. Realizou uma radiografia de tórax com a imagem abaixo: Qual é o diagnóstico mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Neoplasia esofágica."
+        },
+        {
+          "key": "b",
+          "text": "Abscesso pulmonar."
+        },
+        {
+          "key": "c",
+          "text": "Hérnia gástrica hiatal."
+        },
+        {
+          "key": "d",
+          "text": "Tuberculose."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] Dor epigástrica, tosse e náuseas pós-prandiais, com imagem radiológica torácica sugestiva de estrutura contendo ar/nível hidroaéreo retrocardíaco, correspondem a hérnia gástrica hiatal.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_071",
+      "statement": "Mulher, 31 anos de idade, com queixa de pirose há cerca de 4 anos, com melhora após tratamento com 40mg de omeprazol ao dia. Mantém, no entanto, queixa importante de regurgitação e epigastralgia após se alimentar. Endoscopia digestiva alta mostra esofagite leve e hérnia de hiato, por deslizamento, de 4cm. Radiogra a contrastada do esôfago, estômago e duodeno revela hérnia de hiato, por deslizamento, de 4cm de extensão. Antecedentes pessoais: nega comorbidades, não faz uso regular de medicações, IMC = 27 kg/m². Assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cirurgia não deve ser indicada nesse momento, por se tratar de paciente com hérnia hiatal maior que 3cm."
+        },
+        {
+          "key": "b",
+          "text": "Considerando a boa resposta ao medicamento prescrito, deve-se manter omeprazol, dobrado a dosagem."
+        },
+        {
+          "key": "c",
+          "text": "A conduta para o caso deve ser Hiatoplastia com fundoplicatura por meio da técnica de Nissen."
+        },
+        {
+          "key": "d",
+          "text": "Deve ser indicada correção cirúrgica pela técnica de bypass gástrico em Y de Roux, uma vez que IMC > 25 kg/m², conforme evidências da literatura."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Hérnia de hiato por deslizamento de 4cm com sintomas persistentes de regurgitação e epigastralgia, apesar de controle parcial da pirose com IBP, tem indicação de hiatoplastia com fundoplicatura de Nissen.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_073",
+      "statement": "Homem, 88 anos, refere disfagia cervical, tosse, salivação excessiva, regurgitação espontânea de alimentos não digeridos, com odor fétido e halitose há 5 anos, com piora progressiva. A hipótese diagnóstica e o exame complementar são",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "neoplasia de esôfago cérvico-torácico e esofagograma."
+        },
+        {
+          "key": "b",
+          "text": "divertículo de Zencker e esofagograma."
+        },
+        {
+          "key": "c",
+          "text": "doença do refluxo gastroesofágico e endoscopia digestiva alta."
+        },
+        {
+          "key": "d",
+          "text": "hérnia hiatal deslizante e endoscopia digestiva alta."
+        },
+        {
+          "key": "e",
+          "text": "divertículo de Meckel e endoscopia digestiva alta."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Disfagia cervical, tosse, salivação excessiva, regurgitação fétida de alimentos não digeridos com piora progressiva em idoso são achados clássicos de divertículo de Zenker; o esofagograma é o exame complementar indicado.",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_074",
+      "statement": "Considere um paciente do sexo masculino, de 68 anos, com história de disfagia que ocorre no meio da deglutição associada à halitose, perda ponderal e por vezes regurgitação, que foi encaminhado ao ambulatório para investigação com hipótese diagnóstica de divertículo de esôfago. Assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Os divertículos de pulsão são considerados verdadeiros acometendo todas as camadas do esôfago."
+        },
+        {
+          "key": "b",
+          "text": "Os divertículos de tração são mais comuns na região faringoesofageana."
+        },
+        {
+          "key": "c",
+          "text": "Existe uma relação entre tuberculose pulmonar e o desenvolvimento do divertículo de Zenker."
+        },
+        {
+          "key": "d",
+          "text": "O divertículo de Zenker é considerado não verdadeiro e acomete a região faringoesofageana."
+        },
+        {
+          "key": "e",
+          "text": "Os divertículos epifrênicos são os mais comuns de serem encontrados."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O divertículo de Zenker é considerado um pseudodivertículo (falso), pois não envolve todas as camadas da parede esofágica, acometendo especificamente a região faringoesofageana.",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_075",
+      "statement": "Homem de 29 anos deu entrada na UPA 24 horas após vômitos forçados e apresentou a tríade de Mackler, sendo reconhecida por um médico da emergência, que o encaminhou para o hospital de referência em cirurgia. Assinale a alternativa que corretamente corresponda à tríade de Mackler e ao que ela sinaliza.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Vômito, dor torácica e enfisema de partes moles. Sinaliza ruptura espontânea esofágica."
+        },
+        {
+          "key": "b",
+          "text": "Náusea, vômito e dor torácica. Sinaliza ruptura espontânea esofágica."
+        },
+        {
+          "key": "c",
+          "text": "Vômito, dor torácica e hematêmese. Sinaliza laceração espontânea da mucosa esofágica."
+        },
+        {
+          "key": "d",
+          "text": "Dor torácica, enfisema de partes moles e sinal de Hamman. Sinaliza pneumomediastino espontâneo."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A tríade de Mackler (vômito, dor torácica e enfisema subcutâneo/de partes moles) sinaliza ruptura espontânea esofágica (síndrome de Boerhaave).",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_077",
+      "statement": "Sobre o Divertículo de Zenker, assinale a CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "É um divertículo verdadeiro, localizado na parede posterior da faringe, na área de transição entre o músculo constritor inferior da faringe e o músculo cricofaríngeo."
+        },
+        {
+          "key": "b",
+          "text": "É originado através de defeito muscular na parede posterior da faringe, na área de transição entre o músculo constritor inferior da faringe e o músculo cricofaríngeo."
+        },
+        {
+          "key": "c",
+          "text": "Por tratar-se de lesão pré-neoplásica, deve-se sempre procurar focos sincrônicos na investigação pré-operatória."
+        },
+        {
+          "key": "d",
+          "text": "É um pseudo-divertículo, localizado na transição esofagogástrica, região hipotônica do esfíncter esofagiano inferior."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O divertículo de Zenker é originado por um defeito muscular adquirido na parede posterior da faringe, na área de transição entre o músculo constritor inferior da faringe e o músculo cricofaríngeo.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_078",
+      "statement": "Assinale, entre as patologias abaixo, a que tem como referência anatômica o Triângulo de Killian.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hérnia Inguinal Direta"
+        },
+        {
+          "key": "b",
+          "text": "Hérnia Inguinal Indireta"
+        },
+        {
+          "key": "c",
+          "text": "Divertículo de Zencker"
+        },
+        {
+          "key": "d",
+          "text": "Divertículo de Tração ou verdadeiro do esôfago"
+        },
+        {
+          "key": "e",
+          "text": "Gastrinoma na Neoplasia Endócrina Múltipla Tipo 1 (MEN 1)"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O triângulo de Killian é a referência anatômica do divertículo de Zenker, área de fraqueza entre os músculos constritor inferior da faringe e cricofaríngeo.",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_080",
+      "statement": "O divertículo esofágico de Zenker é uma herniação que ocorre através do triângulo de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hasselbach"
+        },
+        {
+          "key": "b",
+          "text": "Callot"
+        },
+        {
+          "key": "c",
+          "text": "Budd"
+        },
+        {
+          "key": "d",
+          "text": "Killian"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O divertículo esofágico de Zenker herniação ocorre através do triângulo de Killian.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_081",
+      "statement": "Um homem de 56 anos deu entrada na emergência, após muitos episódios de vômitos, com quadro de dor torácica baixa, rigidez abdominal, en sema subcutâneo e hipotensão. A radiogra a de tórax mostrou derrame pleural à esquerda e pneumomediastino. O diagnóstico é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "síndrome de Mallory-Weiss."
+        },
+        {
+          "key": "b",
+          "text": "acalásia."
+        },
+        {
+          "key": "c",
+          "text": "síndrome de Boerhaave."
+        },
+        {
+          "key": "d",
+          "text": "ruptura de varizes de esôfago."
+        },
+        {
+          "key": "e",
+          "text": "DRGE agudizada."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Vômitos repetidos seguidos de dor torácica baixa, rigidez abdominal, enfisema subcutâneo, hipotensão, derrame pleural e pneumomediastino são quadro clássico de síndrome de Boerhaave.",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_082",
+      "statement": "Qual patologia abaixo apresenta, tipicamente na radiogra a contrastada com bário, o esôfago em saca-rolhas e pseudodivertículos em um paciente com disfagia?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Espasmo esofágico."
+        },
+        {
+          "key": "b",
+          "text": "Esclerodermia."
+        },
+        {
+          "key": "c",
+          "text": "Miastenia grave."
+        },
+        {
+          "key": "d",
+          "text": "Corpo estranho."
+        },
+        {
+          "key": "e",
+          "text": "Acalasia."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O esôfago em 'saca-rolhas' com pseudodivertículos ao contrastado com bário é achado radiológico clássico do espasmo esofágico difuso.",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_083",
+      "statement": "A principal causa de perfuração esofágica é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tumor perfurado."
+        },
+        {
+          "key": "b",
+          "text": "Iatrogênica."
+        },
+        {
+          "key": "c",
+          "text": "Síndrome de Boerhaave."
+        },
+        {
+          "key": "d",
+          "text": "Trauma perfurante."
+        },
+        {
+          "key": "e",
+          "text": "Ingestão de soda cáustica."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A principal causa de perfuração esofágica atualmente é iatrogênica (relacionada a procedimentos endoscópicos), superando a síndrome de Boerhaave e outras causas traumáticas.",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_086",
+      "statement": "Os divertículos de tração do esôfago são causados ou originados principalmente por qual dos fatores relacionados abaixo?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Por serem divertículos falsos ou de pulsão originam-se da fraqueza da camada muscular do corpo do esôfago."
+        },
+        {
+          "key": "b",
+          "text": "Por serem divertículos falsos ou de pulsão originam-se da fraqueza da camada muscular do segmento distal do esôfago."
+        },
+        {
+          "key": "c",
+          "text": "Por serem divertículos falsos ou de pulsão originam-se da fraqueza da camada muscular do segmento proximal do esôfago."
+        },
+        {
+          "key": "d",
+          "text": "Por serem divertículos verdadeiros originam-se pela retração da camada muscular do segmento proximal do esôfago motivada pela cicatrização fibrótica retrátil crônica de processos inflamatórios da região."
+        },
+        {
+          "key": "e",
+          "text": "Por serem divertículos verdadeiros originam-se pela retração da camada muscular do corpo do esôfago motivada pela cicatrização fibrótica retrátil crônica de processos inflamatórios da região."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Os divertículos de tração são divertículos verdadeiros (envolvem todas as camadas da parede esofágica), originados pela retração da camada muscular do segmento proximal do esôfago devido à cicatrização fibrótica retrátil de processos inflamatórios mediastinais adjacentes (como linfadenite tuberculosa).",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_087",
+      "statement": "Na investigação diagnóstica dos distúrbios do esôfago, qual o exame que propicia um número importante de informações sobre a função do corpo esofágico e do es ncter inferior do esôfago? Também permite ao cirurgião excluir distúrbios primários de motilidade como acalasia, além de possibilitar planejamento do melhor procedimento cirúrgico.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "PHmetria esofágica."
+        },
+        {
+          "key": "b",
+          "text": "Seriografia esofágica."
+        },
+        {
+          "key": "c",
+          "text": "Arteriografia esofágica."
+        },
+        {
+          "key": "d",
+          "text": "Manometria esofágica."
+        },
+        {
+          "key": "e",
+          "text": "Endoscopia digestiva alta."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A manometria esofágica fornece informações detalhadas sobre a função do corpo esofágico e do esfíncter inferior, permitindo excluir distúrbios primários de motilidade como acalasia e auxiliando no planejamento cirúrgico.",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_089",
+      "statement": "Das alternativas abaixo qual NÃO se enquadra nas patologias do esôfago:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Exames de alta complexidade como tomografia ou ressonância não necessariamente são mandatórios na avaliação inicial de ingestão de corpo estranho (CE), que não está restrita somente a crianças. Neste contexto, a radiografia simples pode evidenciar material radiopaco no trajeto e descartar perfurações. No contexto de CE esofágico, a remoção urgente deve ser realizada na presença de sintomas respiratórios ou sialorréia."
+        },
+        {
+          "key": "b",
+          "text": "Remoção de pilhas e baterias é mandatória de imediato, mesmo caso já tenham alcançado o estômago, independente do tamanho, pelo risco de estenose e perfuração e o mesmo se aplica à ingestão de pacotes de cocaína."
+        },
+        {
+          "key": "c",
+          "text": "A cardiomiotomia anterior, associada à fundoplicatura em 3 planos, atualmente é a prática mais utilizada para tratamento da acalásia inicial e megaesôfagos não avançados."
+        },
+        {
+          "key": "d",
+          "text": "Urgências oncológicas no câncer de esôfago geralmente se manifestam por sangramentos, perfurações e obstrução e geralmente o tratamento cirúrgico definitivo para a doença não é indicado como abordagem inicial."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A cardiomiotomia anterior associada à fundoplicatura em 3 planos NÃO é a técnica padrão para acalasia — a técnica consagrada é a miotomia com fundoplicatura parcial (não em 3 planos) — sendo essa a alternativa que não se enquadra corretamente entre as patologias do esôfago.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_090",
+      "statement": "Paciente do sexo masculino, 64 anos, natural e residente em Belo Horizonte, procura UBS por estar apresentando nas últimas semanas disfagia, halitose, sialorréia, regurgitação líquida, tosse e deglutição ruidosa. Relata melhora da disfagia quando ele próprio comprime a região cervical esquerda com a mão espalmada ou inclina a cabeça para esse mesmo lado. Refere emagrecimento de 5Kg em dois meses. O exame inicial MAIS ADEQUADO para se fazer o diagnóstico dessa afecção é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "endoscopia digestiva alta."
+        },
+        {
+          "key": "b",
+          "text": "esofagograma baritado."
+        },
+        {
+          "key": "c",
+          "text": "manometria esofágica."
+        },
+        {
+          "key": "d",
+          "text": "tomografia de cabeça e pescoço."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Disfagia, halitose, sialorreia, regurgitação, tosse, deglutição ruidosa e melhora com compressão cervical manual (sinal característico) sugerem divertículo de Zenker; o esofagograma baritado é o exame inicial mais adequado.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_092",
+      "statement": "Paciente do sexo masculino, de 50 anos, obeso, procedente de Barreiras-BA, apresentando disfagia intermitente com alimentos sólidos há seis meses. Relatava ainda pirose retroesternal frequente há seis anos. Neste caso, o diagnóstico mais provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "síndrome de Plummer-Vinson."
+        },
+        {
+          "key": "b",
+          "text": "divertículo de Zenker."
+        },
+        {
+          "key": "c",
+          "text": "megaesôfago chagásico."
+        },
+        {
+          "key": "d",
+          "text": "estenose péptica de esôfago."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Disfagia intermitente para sólidos com pirose retroesternal crônica de longa data em paciente obeso sugere estenose péptica do esôfago como complicação da DRGE não tratada.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_093",
+      "statement": "FMC, masculino, 70 anos, queixa-se de disfagia há 3 anos associada a halitose e regurgitação de alimentos não digeridos. Refere também que frequentemente percebe abaulamento na região cervical, mas que nem sempre é perceptível. Sobre o caso clínico podemos afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Trata-se de provável distúrbio motor do esôfago. Assim o diagnóstico será confirmado após uma esofagomanometria."
+        },
+        {
+          "key": "b",
+          "text": "Devido a idade, devemos considerar como principal hipótese o câncer de esôfago. Assim, realizar uma endoscopia digestiva alta deve ser a primeira medida."
+        },
+        {
+          "key": "c",
+          "text": "a principal hipótese é de divertículo esofágico verdadeiro, formado em área de fraqueza entre hipofaringe e esôfago conhecida como trígono de Killian."
+        },
+        {
+          "key": "d",
+          "text": "considerando a principal hipótese de divertículo de Zencker, devemos evitar a indicação inicial da endoscopia digestiva alta, pelo risco de perfuração acidental."
+        },
+        {
+          "key": "e",
+          "text": "A confirmação diagnóstica provavelmente será mediante uma pHmetria ou após melhora clínica com IBP (prova terapêutica."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Disfagia, halitose, regurgitação de alimentos não digeridos e abaulamento cervical intermitente em idoso sugerem divertículo de Zenker, formado na área de fraqueza entre hipofaringe e esôfago (trígono de Killian) — sendo um divertículo falso (não verdadeiro).",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_094",
+      "statement": "Originalmente descrito por Zenker e Von Ziemssen, o divertículo faringo-esofágico é o divertículo esofágico mais comum. Encontra-se herniando em uma região denominada trígono de Killian. A complicação mais mórbida do não tratamento desta doença em pacientes idosos é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Abscesso pulmonar e/ou pneumonias por aspiração."
+        },
+        {
+          "key": "b",
+          "text": "Perfuração esofágica."
+        },
+        {
+          "key": "c",
+          "text": "Esôfago de Barret"
+        },
+        {
+          "key": "d",
+          "text": "Caquexia."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A principal complicação do divertículo de Zenker não tratado em idosos é o abscesso pulmonar e/ou pneumonia por aspiração, decorrente da regurgitação crônica de conteúdo retido.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_095",
+      "statement": "Divertículos esofágicos são, por de nição, formações saculares ou receptáculos formados pela protusão de uma ou mais camadas da parede do esôfago. Sobre os divertículos esofágicos assinale a opção incorreta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O Divertículo de Zencker localiza-se na transição entre a faringe e o esôfago cervical e, portanto, não pertence ao esôfago anatomicamente."
+        },
+        {
+          "key": "b",
+          "text": "O Divertículo de Killian-Jamieson é um raro divertículo esofágico."
+        },
+        {
+          "key": "c",
+          "text": "Uma complicação rara pode ser o carcinoma do divertículo."
+        },
+        {
+          "key": "d",
+          "text": "São mais comuns em pacientes negros."
+        },
+        {
+          "key": "e",
+          "text": "São mais comuns nos homens."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Os divertículos esofágicos (incluindo Zenker) não têm associação demonstrada com maior prevalência em pacientes negros — sendo essa a afirmação incorreta entre as características epidemiológicas descritas.",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_096",
+      "statement": "Um paciente de 45 anos de idade foi ao serviço de emergência com história de vômitos múltiplos e dor torácica há três dias. Evoluiu com febre e dor epigástrica. Ao exame físico, encontrava-se em regular mau estado geral, desidratado, pálido, com en sema cervical, taquicárdico e taquipneico. A ausculta pulmonar mostrou redução do murmúrio vesicular em hemitórax esquerdo e submacicez à percussão da metade inferior do hemitórax esquerdo. O abdome apresentou-se com discreta dor à palpação em epigástrio. A radiogra a de tórax mostrou um discreto pneumomediastino e derrame pleural de aproximadamente metade do hemitórax esquerdo. Com base nessa situação hipotética, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Trata-se de pneumonia complicada com empiema pleural e a conduta é punção pleural e antibióticos."
+        },
+        {
+          "key": "b",
+          "text": "Trata-se de pancreatite aguda biliar e a conduta é programar colecistectomia."
+        },
+        {
+          "key": "c",
+          "text": "Trata-se de síndrome de Boerhaave e o esofagograma confirma a suspeita diagnóstica."
+        },
+        {
+          "key": "d",
+          "text": "Trata-se de úlcera duodenal perfurada e deve-se realizar endoscopia digestiva alta."
+        },
+        {
+          "key": "e",
+          "text": "Trata-se de pneumonia por H1N1 e deve-se introduzir os eltamivir no tratamento após punção pleural diagnóstica."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Vômitos múltiplos, dor torácica, febre, enfisema cervical, redução do murmúrio vesicular e derrame pleural esquerdo com pneumomediastino configuram síndrome de Boerhaave; o esofagograma confirma o diagnóstico.",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_097",
+      "statement": "Homem de 65 anos, branco, refere disfagia para sólidos e emagrecimento de 5 quilos há 1 ano. Durante as refeições, nota abaulamento no pescoço, que depois desaparece. Nega queimação retroesternal, etilismo e tabagismo. Nunca morou em zona rural. O diagnóstico mais provável é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "megaesôfago chagásico"
+        },
+        {
+          "key": "b",
+          "text": "câncer do esôfago."
+        },
+        {
+          "key": "c",
+          "text": "estenose péptica."
+        },
+        {
+          "key": "d",
+          "text": "divertículo de Zenker."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Disfagia para sólidos com abaulamento cervical transitório durante as refeições, sem pirose, tabagismo ou etilismo, é quadro característico de divertículo de Zenker.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_098",
+      "statement": "A complicação mais aguda e grave relacionada ao diagnóstico que se conclui da imagem abaixo é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sangramento"
+        },
+        {
+          "key": "b",
+          "text": "Obstrução esofagiana"
+        },
+        {
+          "key": "c",
+          "text": "Broncoaspiração"
+        },
+        {
+          "key": "d",
+          "text": "Formação de fístula"
+        },
+        {
+          "key": "e",
+          "text": "Carcinoma de células escamosas"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] A complicação mais aguda e grave associada ao divertículo de Zenker é a broncoaspiração, decorrente da regurgitação do conteúdo retido no saco diverticular.",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_099",
+      "statement": "Paciente feminina refere dor torácica e disfagia. A endoscopia digestiva alta revelou hiperperistaltismo esofágico, enquanto a manometria do esôfago não identi cou alteração na pressão e no relaxamento do esfíncter esofagiano inferior; a amplitude pressórica foi de 408 mmHg com ondas de contração de nove segundos. Qual o diagnóstico da paciente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Motilidade esofágica ineficaz."
+        },
+        {
+          "key": "b",
+          "text": "Distúrbio inespecífico da motilidade esofágica."
+        },
+        {
+          "key": "c",
+          "text": "Esôfago quebra nozes."
+        },
+        {
+          "key": "d",
+          "text": "Acalasia."
+        },
+        {
+          "key": "e",
+          "text": "Espasmo esofágico difuso."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Dor torácica e disfagia com manometria mostrando amplitude pressórica muito elevada (>220mmHg, hipercontração) e relaxamento normal do EEI correspondem ao esôfago em quebra-nozes (jackhammer esophagus).",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_101",
+      "statement": "A miotomia dos músculos cricofaringeo e tirofaríngeo é parte fundamental no tratamento cirúrgico de",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "divetículo de Zenker."
+        },
+        {
+          "key": "b",
+          "text": "divertículo epifrênico."
+        },
+        {
+          "key": "c",
+          "text": "divertículo médio esofagiano."
+        },
+        {
+          "key": "d",
+          "text": "divertículos esofagiano em geral."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A miotomia dos músculos cricofaríngeo e tireofaríngeo é parte fundamental do tratamento cirúrgico do divertículo de Zenker, aliviando a hipertonia do esfíncter esofágico superior que contribui para sua formação.",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_102",
+      "statement": "O termo afagia episódica é em geral atribuído aos pacientes que apresentam:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "membranas esofágicas."
+        },
+        {
+          "key": "b",
+          "text": "lesão cáustica do esôfago."
+        },
+        {
+          "key": "c",
+          "text": "compressão extrínseca vascular do esôfago proximal."
+        },
+        {
+          "key": "d",
+          "text": "anel de schatzki."
+        },
+        {
+          "key": "e",
+          "text": "compressão extrínseca posterior do esôfago médio."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O termo afagia episódica (síndrome do bolo alimentar impactado) é classicamente atribuído a pacientes com anel de Schatzki, obstrução mecânica anelar da junção esofagogástrica.",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_103",
+      "statement": "Dentre as hérnias hiatais, qual a que mais comumente pode originar a incompetência da cárdia?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hérnia de Morgagni."
+        },
+        {
+          "key": "b",
+          "text": "Hérnia de rolamento."
+        },
+        {
+          "key": "c",
+          "text": "Hérnia paraesofágica."
+        },
+        {
+          "key": "d",
+          "text": "Hérnia de Bochdaleck."
+        },
+        {
+          "key": "e",
+          "text": "Hérnia de deslizamento."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A hérnia hiatal por deslizamento (tipo I) é a que mais comumente origina incompetência da cárdia, por deslocar a junção esofagogástrica para o tórax, comprometendo o mecanismo antirrefluxo.",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_104",
+      "statement": "O divertículo do terço médio do esôfago é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Anomalia congênita."
+        },
+        {
+          "key": "b",
+          "text": "Hipotensão muscular nesse segmento."
+        },
+        {
+          "key": "c",
+          "text": "Causado por orifício na camada muscular da parede do esôfago nesse ponto."
+        },
+        {
+          "key": "d",
+          "text": "Divertículo falso causado por tração externa principalmente causada por inflamação de linfonodos mediastinais."
+        },
+        {
+          "key": "e",
+          "text": "Divertículo verdadeiro causado por tração externa principalmente causada por inflamação e retração de linfonodos mediastinais."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "O divertículo do terço médio do esôfago é classicamente um divertículo verdadeiro, causado por tração externa decorrente de inflamação e retração de linfonodos mediastinais adjacentes (divertículo de tração).",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_105",
+      "statement": "Quais destas ondas peristálticas são responsáveis por contrações desordenadas do esôfago?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aperistalse."
+        },
+        {
+          "key": "b",
+          "text": "Ondas primárias."
+        },
+        {
+          "key": "c",
+          "text": "Ondas terciárias."
+        },
+        {
+          "key": "d",
+          "text": "Ondas secundárias."
+        },
+        {
+          "key": "e",
+          "text": "Ondas antiperistálticas."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "As ondas terciárias são responsáveis por contrações desordenadas e não peristálticas do esôfago, associadas a distúrbios motores como o espasmo esofágico difuso.",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_108",
+      "statement": "Observe os exames a seguir, para responder a questão. A opção de tratamento para essa patologia consiste em:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dilatação endoscópica."
+        },
+        {
+          "key": "b",
+          "text": "Prótese endoscópica."
+        },
+        {
+          "key": "c",
+          "text": "Miotomia esofágica por endoscopia (POEM)."
+        },
+        {
+          "key": "d",
+          "text": "Diverticulectomia por via laparoscópica."
+        },
+        {
+          "key": "e",
+          "text": "Diverticulectomia e miotomia por via cervical."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] O tratamento definitivo do divertículo de Zenker (mostrado nos exames) consiste em diverticulectomia associada a miotomia do músculo cricofaríngeo por via cervical, abordagem cirúrgica clássica e eficaz.",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_109",
+      "statement": "Uma paciente de 27 anos de idade, 46 Kg, tabagista, dependente química, apresenta-se ao serviço de emergência relatando quadro de episódios repetidos de vômitos, dor retroesternal, disfagia e hematêmese iniciados há 24 horas. No momento, apresenta-se com mal-estar, temperatura axilar 38,5°C, dor retroesternal e torácica, além de taquicardia, taquipneia e sudorese. Considerando o quadro clínico descrito, o provável diagnóstico é de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "laceração de Mallory-Weiss."
+        },
+        {
+          "key": "b",
+          "text": "perfuração de úlcera gástrica na junção esofagogástrica."
+        },
+        {
+          "key": "c",
+          "text": "síndrome de Boerhaave."
+        },
+        {
+          "key": "d",
+          "text": "neoplasia de junção esofagogástrica com invasão de estruturas adjacentes."
+        },
+        {
+          "key": "e",
+          "text": "infarto agudo do miocárdio em paciente jovem."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Vômitos repetidos, dor retroesternal, disfagia e hematêmese, associados a febre e taquicardia/taquipneia, são compatíveis com síndrome de Boerhaave (ruptura esofágica espontânea).",
+      "theme": "drge_dx",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "disf_110",
+      "statement": "Radiograf ia de tórax Homem de 42 anos de idade queixa-se de tosse seca há 6 meses, pior aos grandes esforços e ao decúbito. A radiogra a de tórax está mostrada a seguir. Qual exame complementar é necessário para a avaliação da causa da tosse?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Endoscopia digestiva alta."
+        },
+        {
+          "key": "b",
+          "text": "Broncoscopia com lavado."
+        },
+        {
+          "key": "c",
+          "text": "Ecodopplercardiograma."
+        },
+        {
+          "key": "d",
+          "text": "Angiografia torácica."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Tosse crônica seca, pior aos esforços e ao decúbito, com radiografia de tórax sugestiva de hérnia hiatal, exige endoscopia digestiva alta para avaliar a mucosa esofágica e confirmar a hérnia como causa da tosse (mecanismo de refluxo/aspiração).",
+      "theme": "drge_dx",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
     }
   ]
 }

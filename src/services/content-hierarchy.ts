@@ -335,6 +335,7 @@ export const AREAS: Area[] = [
           { id: 'int_celiac',label: 'Doença celíaca' },
           { id: 'int_hdb',   label: 'Hemorragia digestiva baixa' },
           { id: 'int_sii',   label: 'SII' },
+          { id: 'int_disab', label: 'Outras síndromes disabsortivas (Whipple, SIBO, intolerâncias)' },
         ]
       },
     ]

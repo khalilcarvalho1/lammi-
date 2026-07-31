@@ -1,1 +1,2220 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "panc_001",
+      "statement": "Menina, 13 anos, é admitida no Setor de Emergência com queixa de vômitos e dor abdominal forte que levam à posição com quadris e joelhos exionados. Relata que seu início foi súbito, há cinco horas, e que a dor não cessa. Exame físico: posição antálgica; anictérica; discreta distensão abdominal; dor à palpação de todo o andar superior do abdome. US abdominal: colédoco com calibre nos limites superiores da normalidade. Pode-se a rmar que, para con rmar a hipótese diagnóstica mais provável, o exame laboratorial melhor indicado é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "LDH"
+        },
+        {
+          "key": "b",
+          "text": "amilase"
+        },
+        {
+          "key": "c",
+          "text": "lipase"
+        },
+        {
+          "key": "d",
+          "text": "fosfatase alcalina"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de dor abdominal súbita intensa em criança com posição antálgica genupeitoral, o exame laboratorial mais indicado para confirmar a hipótese de pancreatite aguda é a lipase sérica, mais específica que a amilase.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_002",
+      "statement": "Mulher de 42 anos é encaminhada para o hospital com quadro de dor em andar superior do abdome, irradiada para o dorso associada a um episódio de vômito bilioso há 24 horas. Ela refere que está na la para realização de colecistectomia devido a colelitíase sintomática. Ao exame físico ela se encontra consciente e orientada, desidratada, e com mucosas ictéricas. Os sinais vitais são: pulso de 110 bpm, frequência respiratória de 22 ipm, pressão arterial de 90 por 40 mmHg, temperatura de 36,2° C e saturação de O₂ de 88. O exame cardiorrespiratório mostra taquicardia e murmúrio vesicular abolido em base pulmonar esquerda. Seu abdome está distendido, com ruídos abdominais diminuídos, timpânico, com dor a palpação, mas sem dor a descompressão brusca e o toque retal não apresenta alterações. O médico plantonista suspeita de pancreatite aguda. Para confirmação diagnóstica o próximo passo é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar colangiorressonância"
+        },
+        {
+          "key": "b",
+          "text": "Solicitar radiografia do abdome"
+        },
+        {
+          "key": "c",
+          "text": "Solicitar tomografia de abdome"
+        },
+        {
+          "key": "d",
+          "text": "Dosagem das enzimas pancreáticas"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Dor abdominal irradiada para o dorso com vômito bilioso em paciente com colelitíase conhecida, suspeita de pancreatite aguda, tem como próximo passo diagnóstico a dosagem das enzimas pancreáticas (amilase/lipase).",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_003",
+      "statement": "Mulher de 37 anos é encaminhada ao setor de pronto atendimento do hospital com queixa de dor em abdome superior em faixa irradiada para o dorso e associada a distensão abdominal e náuseas há 2 dias. No exame físico, ela apresenta-se desidratada, levemente dispneica e ansiosa. O exame cardiopulmonar não apresenta anormalidades e no exame abdominal ela apresenta distensão abdominal, ruídos hidroaéreos presentes e dor a palpação do andar superior, mas sem dor a descompressão brusca. São solicitados exames laboratoriais que mostram hematócrito de 36%; hemoglobina de 11,6 mg/dL; leucócitos de 12.000 mm3; amilase de 1280 U/L; lipase de 530 U/L. Uma ultrassonogra a de abdome é solicitada e revela cálculos no interior da vesícula biliar, mas sem sinais de colicistite aguda. Assinale a alternativa que contém as prioridades na condução deste caso.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Reposição hídrica, controle da dor e alimentação oral precoce"
+        },
+        {
+          "key": "b",
+          "text": "Bloqueio da acidez gástrica, antibioticoterapia e nutrição parenteral"
+        },
+        {
+          "key": "c",
+          "text": "Anticoagulação, antibioticoterapia e descompressão gástrica por sonda"
+        },
+        {
+          "key": "d",
+          "text": "Drogas pró cinéticas, transfusão de hemoderivados e nutrição parenteral"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Pancreatite aguda leve, sem sinais de gravidade, tem como prioridades a reposição hídrica vigorosa, controle adequado da dor e alimentação oral precoce assim que tolerada, acelerando a recuperação.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_004",
+      "statement": "O cirurgião é comumente chamado para avaliar pacientes com pancreatite aguda. As dosagens séricas de amilase e lipase fazem parte dos critérios diagnósticos de doença. Em relação a essas enzimas, é CORRETO afirmar que",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "qualquer valor de lipase é suficiente para o diagnóstico, já que só o pâncreas produz essa enzima."
+        },
+        {
+          "key": "b",
+          "text": "a amilase é menos sensível, porém é a mais específica."
+        },
+        {
+          "key": "c",
+          "text": "após 48h do quadro clínico, a lipase é a mais sensível."
+        },
+        {
+          "key": "d",
+          "text": "a insuficiência renal não afeta as dosagens dessas enzimas ."
+        },
+        {
+          "key": "e",
+          "text": "as amilases pancreática e salivar são moléculas idênticas."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Após 48h do início do quadro, a lipase permanece elevada por mais tempo que a amilase (que normaliza mais rapidamente), tornando-a mais sensível nessa fase tardia da doença.",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_005",
+      "statement": "Paciente de 58 anos vem à emergência por quadro de dor e distensão abdominal, náuseas e vômitos há 3 dias. Associado, relata icterícia de escleras, colúria e acolia. Os exames evidenciaram amilase 850 U/L (Valor de Referência – VR até 100 U/L) e hiperbilirrubinemia às custas de bilirrubina direta. Além disso, ALT 126 U/L (alanina aminotransferase – VR 40 U/L) e AST 82 U/L (aspartato aminotransferase – VR 40 U/L). Sobre o caso, analise as assertivas abaixo: I. Nova dosagem de amilase sérica em 2400 U/L dois dias após é indicativo de mau prognóstico. II. Lesão na cabeça do pâncreas pode ser diagnosticada neste caso com a tomogra a computadorizada do abdome, e, dentre os diagnósticos diferenciais, devemos considerar pancreatite autoimune por IgG4. III. Elevações dos níveis de ALT (alanina aminotransferase) superior a 3 vezes o valor de referência sugere cálculo biliar como causa da pancreatite. Quais estão corretas?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas I e II."
+        },
+        {
+          "key": "b",
+          "text": "Apenas I e III."
+        },
+        {
+          "key": "c",
+          "text": "Apenas II e III."
+        },
+        {
+          "key": "d",
+          "text": "I, II e III."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Elevação progressiva da amilase é indicativo de mau prognóstico (I correta); lesão de cabeça de pâncreas pode simular pancreatite, incluindo pancreatite autoimune por IgG4 como diagnóstico diferencial (II correta); ALT elevada mais de 3x o valor de referência tem alto valor preditivo para etiologia biliar da pancreatite (III correta) — todas as assertivas corretas.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_007",
+      "statement": "Homem, 41 anos encontra-se em avaliação clínica para um quadro de hipercalcemia secundária a hiperparatiroidismo. Quais dos quadros de abdome agudo abaixo estão relacionados a essa condição?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Diverticulite e colecistite"
+        },
+        {
+          "key": "b",
+          "text": "Apendicite e úlcera péptica perfurada"
+        },
+        {
+          "key": "c",
+          "text": "Diverticulite e pancreatite"
+        },
+        {
+          "key": "d",
+          "text": "Úlcera péptica perfurada e pancreatite"
+        },
+        {
+          "key": "e",
+          "text": "Trombose mesentérica e pancreatite"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A hipercalcemia secundária a hiperparatireoidismo é fator de risco reconhecido para pancreatite aguda, além de estar associada a outras condições de abdome agudo.",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_008",
+      "statement": "No que se refere à pancreatite aguda, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Só é possível liberar dieta via oral para o paciente quando houver melhora da dor e normalização dos níveis séricos de amilase."
+        },
+        {
+          "key": "b",
+          "text": "Só é possível liberar dieta via oral para o paciente quando houver melhora da dor e a tomografia de abdome não mostrar nenhuma complicação local."
+        },
+        {
+          "key": "c",
+          "text": "Só é possível liberar dieta via oral para o paciente quando houver melhora do quadro doloroso, sendo que, se esse se mantiver após 48 horas de jejum, dever-se-á iniciar nutrição parenteral exclusiva."
+        },
+        {
+          "key": "d",
+          "text": "Só é possível liberar dieta via oral para o paciente quando houver melhora do quadro doloroso, sendo que, se esse se mantiver após 48 horas de jejum, dever-se-á solicitar passagem endoscópica de sonda até após a papila duodenal e iniciar dieta enteral (mesmo que em baixo volume)."
+        },
+        {
+          "key": "e",
+          "text": "A dieta enteral por sonda é contraindicada nos pacientes com pancreatite grave, sob ventilação mecânica, em uso de droga vasoativa."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Na pancreatite aguda, a liberação de dieta oral é definida pela melhora clínica da dor; se o jejum persistir além de 48h sem melhora, deve-se iniciar dieta enteral por sonda nasojejunal (após a papila), preferível à nutrição parenteral.",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_009",
+      "statement": "Homem de 55 anos apresenta desconforto epigástrico e plenitude gástrica. AP: etilista e internação prévia por pancreatite aguda há 2 semanas. TC de abdome: conforme imagem. A conduta correta é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "observação clínica e seguimento com exame de imagem."
+        },
+        {
+          "key": "b",
+          "text": "laparotomia exploradora de urgência."
+        },
+        {
+          "key": "c",
+          "text": "drenagem percutânea."
+        },
+        {
+          "key": "d",
+          "text": "EDA para possível conduta terapêutica."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] Desconforto epigástrico e plenitude gástrica após pancreatite aguda há 2 semanas, com achado tomográfico compatível com coleção líquida peripancreática precoce, deve ser inicialmente conduzido com observação clínica e seguimento por imagem, já que muitas coleções agudas resolvem espontaneamente.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_010",
+      "statement": "No que se refere à pancreatite aguda, assinale alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A pancreatite necrosante precisa de intervenção cirúrgica o mais brevemente possível do seu diagnóstico."
+        },
+        {
+          "key": "b",
+          "text": "A pancreatite necrosante apresenta coleção peripancreática diferente da pancreatite aguda edematosa intersticial ao exame tomográfico."
+        },
+        {
+          "key": "c",
+          "text": "As complicações tardias na pancreatite necrosante (acima de quatro semanas) são representadas pelas coleções fluidas e pelos pseudocistos."
+        },
+        {
+          "key": "d",
+          "text": "O pseudocisto é a complicação tardia mais comum após a pancreatite necrosante."
+        },
+        {
+          "key": "e",
+          "text": "A intervenção diante de complicações da pancreatite necrosante deve ser realizada por cirurgia, pois o acesso percutâneo ou endoscópico não é eficaz para a remoção da necrose."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A pancreatite necrosante apresenta coleção necrótica aguda (heterogênea, com debris) à tomografia, diferente da coleção fluida peripancreática homogênea da pancreatite edematosa intersticial.",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_011",
+      "statement": "Masculino, com quadro clínico sugestivo de pancreatite aguda é admitido na emergência do hospital. Na admissão, ele apresenta um hematócrito de 36%; hemoglobina de 12 mg/dl; leucócitos de 12.000; glicemia de 145 mg/dl; AST sérica de 140 U/L; amilase de 1200 U/L; ureia de 20 mg/dl e DHL de 250 UI/L. Submetido aos procedimentos de rotina, como hidratação vigorosa, analgesia e transferido para a Unidade Terapia Intensiva. Com relação a utilização da tomografia computadorizada abdominal, podemos afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Deve ser utilizada em todos os pacientes com pancreatite aguda, após 72 horas do início dos sintomas."
+        },
+        {
+          "key": "b",
+          "text": "Não deve ser empregada antes de três dias após o início dos sintomas, exceto quando houver dúvida diagnóstica."
+        },
+        {
+          "key": "c",
+          "text": "Deve ser empregada na fase inicial dos sintomas, pois define a gravidade com o índice de Balthazar-Ranson."
+        },
+        {
+          "key": "d",
+          "text": "Pode ser realizada, em pacientes graves, sem o uso de contraste endovenoso para definição da presença de necrose."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A tomografia computadorizada não deve ser realizada rotineiramente nas primeiras 72 horas de pancreatite aguda, exceto quando há dúvida diagnóstica, pois a extensão da necrose pode não estar totalmente definida antes desse período.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_012",
+      "statement": "manifestação clínica e parasitose intestinal estão relacionadas em:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "pancreatite aguda = ascaridíase."
+        },
+        {
+          "key": "b",
+          "text": "prolapso retal = enterobíase."
+        },
+        {
+          "key": "c",
+          "text": "síndrome de Loeffler (migração errática para a via respiratória) = tricuríase."
+        },
+        {
+          "key": "d",
+          "text": "diarreia sanguinolenta = ancilostomíase."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A ascaridíase é causa reconhecida de pancreatite aguda por obstrução da papila duodenal/ducto pancreático pelo verme migrante.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_013",
+      "statement": "Mulher, 31 anos de idade, com obesidade grau 1 está internada devido a pancreatite aguda leve. Evoluiu com melhora da dor, 2 dias após o início dos sintomas. Tem diabete melito tipo 2 e hipotireoidismo. Foi submetida a ultrassonogra a de abdome que evidenciou vesícula biliar de paredes nas, sem cálculos e com via biliar de 0,4 cm. Nega uso abusivo de álcool. Qual é o próximo passo?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Realizar ecoendoscopia."
+        },
+        {
+          "key": "b",
+          "text": "Colecistectomia com colangiografia."
+        },
+        {
+          "key": "c",
+          "text": "Tratamento com ácido ursodesoxicólico."
+        },
+        {
+          "key": "d",
+          "text": "Realizar tomografia de abdome."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Pancreatite aguda leve sem cálculos, via biliar fina e sem etilismo (idiopática/biliar oculta) em paciente jovem deve ser investigada com ecoendoscopia para pesquisa de microlitíase biliar não visível ao ultrassom convencional.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_014",
+      "statement": "Assinale a alternativa que indica corretamente a complicação mais comumente encontrada a longo prazo, após a pancreatite aguda.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "icterícia obstrutiva"
+        },
+        {
+          "key": "b",
+          "text": "pancreatite crônica"
+        },
+        {
+          "key": "c",
+          "text": "abscesso pancreático"
+        },
+        {
+          "key": "d",
+          "text": "pseudocisto pancreático"
+        },
+        {
+          "key": "e",
+          "text": "trombose da veia esplênica"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O pseudocisto pancreático é a complicação tardia mais comumente encontrada após um episódio de pancreatite aguda, geralmente surgindo após 4 semanas de evolução.",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_015",
+      "statement": "Mulher de 42 anos teve alta hospitalar há 5 semanas, após internamento por pancreatite aguda grave. Estava bem, clinicamente, quando voltou a apresentar dor abdominal, náuseas e vômitos, além de elevação das enzimas pancreáticas. Qual a complicação mais provável, nesse momento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pseudocisto pancreático."
+        },
+        {
+          "key": "b",
+          "text": "Coleções necróticas agudas."
+        },
+        {
+          "key": "c",
+          "text": "Trombose de veia esplênica."
+        },
+        {
+          "key": "d",
+          "text": "Abcessos peripancreáticos agudos."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Dor abdominal recorrente, náuseas, vômitos e elevação de enzimas pancreáticas cerca de 5 semanas após pancreatite aguda grave sugerem pseudocisto pancreático como complicação mais provável nesse intervalo de tempo.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_016",
+      "statement": "Na pancreatite aguda, necessitamos estrati car a gravidade para que possamos de nir a melhor conduta para cada caso. Assim, assinale a alternativa correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Na pancreatite aguda grave, a cirurgia está indicada em todos os casos de necrose pancreática."
+        },
+        {
+          "key": "b",
+          "text": "A única conduta nutricional preconizada na pancreatite aguda grave é a nutrição parenteral em virtude da promoção de repouso intestinal."
+        },
+        {
+          "key": "c",
+          "text": "Pacientes com pancreatite aguda leve de causa biliar, após melhora, não necessitarão remover a vesícula."
+        },
+        {
+          "key": "d",
+          "text": "A nutrição enteral por sonda nasoentérica, mesmo com posicionamento distal após o ângulo de Treitz, estimula a secreção exógena do pâncreas, agravando o quadro na pancreatite aguda."
+        },
+        {
+          "key": "e",
+          "text": "Pacientes com pancreatite aguda grave, apresentando necrose infectada, após 2-3 semanas de evolução e falha nos antibióticos, deverão submeter-se a uma drenagem da coleção ou necrose infectada, inicialmente, se possível, por métodos percutâneos ou endoscópicos."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Na necrose pancreática infectada refratária a antibióticos após 2-3 semanas de evolução, a drenagem (preferencialmente por métodos percutâneos ou endoscópicos, step-up approach) é a conduta inicial recomendada antes de cirurgia mais invasiva.",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_017",
+      "statement": "No que diz respeito a pancreatite crônica, a causa mais comum entre os adultos e a causa mais comum entre as crianças são, respectivamente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "alcoólica e fibrose cística."
+        },
+        {
+          "key": "b",
+          "text": "hereditária e idiopática."
+        },
+        {
+          "key": "c",
+          "text": "idiopática e fibrose cística."
+        },
+        {
+          "key": "d",
+          "text": "alcoólica e hereditária."
+        },
+        {
+          "key": "e",
+          "text": "alcoólica e congênita (pancreas divisum)."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A causa mais comum de pancreatite crônica em adultos é o consumo abusivo de álcool, enquanto em crianças é a fibrose cística.",
+      "theme": "panc_cron",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_018",
+      "statement": "Homem, 49 anos, com dor no andar superior do abdome, amilasemia de admissão de 2.460 U/dl (valor de referência até 160 U/dl), há 72 horas em tratamento com jejum, hidratação e analgesia em hospital de média complexidade, sem Unidade de Terapia 1 ntensiva. As frequências cardíacas e respiratória estão em 106 batimentos e 26 incursões respiratórias por minuto, a amilasemia elevou-se para 4.280 U/dl, o hematócrito está em 55% (valor de referência de 36 a 46%), os glóbulos brancos de 16.000/ml (valor de referência de 4.000 a 10.000/ml), a ureia e creatinina, respectivamente, de 150 (valor de referência de 16 a 40 mg/dl) e 2,8 (valor de referência de 0,6 a 1,2 mg/dl), as bilirrubinas totais de 6,4 mg/dl (valor de referência de 0,2 a 1,0 mg/dl) e bilirrubina direta de 4,4 mg/dl. Após tomogra a de abdome (que mostrou coleções peripancreáticas), foi solicitada a transferência para hospital terciário. Quais os achados que podem justi car o encaminhamento para o hospital terciário?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A leucocitose, a hiperbilirrubinemia e a amilasemia."
+        },
+        {
+          "key": "b",
+          "text": "As coleções peripancreáticas, a amilasemia e a leucocitose."
+        },
+        {
+          "key": "c",
+          "text": "As coleções peripancreáticas e a hiperbilirrubinemia."
+        },
+        {
+          "key": "d",
+          "text": "A hemoconcentração e a azotemia."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A hemoconcentração (hematócrito elevado) e a azotemia (ureia/creatinina elevadas) são marcadores precoces de gravidade e terceiro espaçamento volêmico, justificando a transferência para hospital terciário com suporte intensivo.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_019",
+      "statement": "Homem de 26 anos refere dor em andar superior do abdome, acompanhada de náuseas e sensação de empachamento. Após três dias, apresenta piora da dor, com necessidade de mor na. Exame físico na admissão: BEG, abdome globoso, doloroso à palpação de epigástrio. Exames laboratoriais na admissão: Hb 14,2 g/dL; HT 40%; GB 19 000/mm3; plaquetas 224 000/ mm³; TGO 88 U/L; TGP 102 U/L; GGT 504 U/L; FA 199 U/L; BT 1,5 mg/dL, glicemia 150 mg/dL, DHL 250 U/L, amilase 2 600 U/L. TC de abdome no terceiro dia apresenta: De acordo com a principal hipótese diagnóstica, é correto afirmar que",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "o antibiótico deveria ter sido introduzido na admissão."
+        },
+        {
+          "key": "b",
+          "text": "a TC de abdome deve ser realizada o mais precoce possível."
+        },
+        {
+          "key": "c",
+          "text": "a hipocalcemia é um critério de gravidade."
+        },
+        {
+          "key": "d",
+          "text": "a CPRE está indicada após estabilização clínica."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de pancreatite aguda grave com necessidade de morfina e elevação importante de enzimas hepáticas/pancreáticas, a hipocalcemia é reconhecida como critério de gravidade (saponificação de cálcio por necrose gordurosa peripancreática).",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_021",
+      "statement": "Mulher de 33 anos de idade é encaminhada a hospital terciário devido a dor abdominal de forte intensidade há 36 horas. Refere início da dor na região superior do abdome, que depois tornou-se difusa. Apresentou vômitos e náuseas, porém sem alteração do hábito intestinal. Nega febre. No exame clínico, está em regular estado geral, Sat.O2 de 89%, FC: 100 bpm, FR: 20 ipm, PA: 100x60mmHg. Ausculta pulmonar diminuída na base esquerda. O abdome está levemente distendido, doloroso difusamente, com sinais de irritação peritoneal no andar superior do abdome. O toque retal não tem alterações. Realizados os seguintes exames laboratoriais: Hb: 11,3 g/dL; Ht: 31%; Leucócitos: 16.320 /mm3; PCR: 170 mg/dL; Creatinina: 1,18 mg/dL; Ureia: 55 mg/dL; TGO: 290 U/L: TGP: 313 U/L; BD: 1,9 mg/dL; FA: 145 U/L; GGT: 123 U/L; Amilase: 1280 U/L; Lipase: 2500 U/L. Realizado ultrassom de abdome superior: vesícula biliar distendida, paredes nas, microcálculos móveis no interior; via biliar de 0,8cm (normal até 0,5cm), porém não visualizado o colédoco distal nem o pâncreas devido a interposição gasosa. Está indicada a realização de exame de imagem adicional neste momento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Não está indicada a realização de exame."
+        },
+        {
+          "key": "b",
+          "text": "Sim, está indicada tomografia de abdome."
+        },
+        {
+          "key": "c",
+          "text": "Sim, está indicada colangioressonância."
+        },
+        {
+          "key": "d",
+          "text": "Sim, está indicada ecoendoscopia."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de quadro grave com sinais de irritação peritoneal e amilase/lipase muito elevadas, mas sem visualização adequada do pâncreas ao ultrassom por interposição gasosa, está indicada tomografia de abdome para melhor caracterização do quadro e gravidade.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_022",
+      "statement": "Uma paciente de cinquenta anos de idade, obesa, deu entrada no pronto-socorro com dor abdominal em andar superior há quatro dias e vômitos incoercíveis. Apresentava abdome distendido e doloroso, sem descompressão brusca positiva. Exames laboratoriais mostravam amilase 1.250 U/L, leucócitos 15.000, proteína C-reativa 120 mg/dL, ureia 120 mg/dL e creatinina 1,8 mg/dL. Com base nesse caso hipotético, julgue os itens que se seguem. I. O primeiro exame de imagem que deverá ser realizado é a tomografia computadorizada. II. Jejum oral, hidratação venosa e analgesia são o tripé do tratamento. III. Deve-se introduzir antibioticoterapia para o tratamento da doença. IV. A passagem de sonda nasoenteral para nutrição é mandatória no tratamento. A quantidade de itens certos é igual a",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "0."
+        },
+        {
+          "key": "b",
+          "text": "1."
+        },
+        {
+          "key": "c",
+          "text": "2."
+        },
+        {
+          "key": "d",
+          "text": "3."
+        },
+        {
+          "key": "e",
+          "text": "4."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Jejum oral, hidratação venosa e analgesia são o tripé fundamental do tratamento inicial da pancreatite aguda (II correta); a TC não é obrigatória de imediato sem dúvida diagnóstica, antibioticoterapia profilática não é rotina, e SNE não é mandatória em todos os casos — apenas 1 item correto.",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_023",
+      "statement": "Um paciente de 78 anos de idade queixa-se de dor abdominal aguda em epigástrio e anco direito há vinte dias. Já procurou dois serviços anteriormente, sendo que, no primeiro, cou internado por cinco dias e recebeu o diagnóstico de colecistite aguda e, no segundo, foi observado um problema no pâncreas (SIC). Não tem consigo nenhum documento o cial. Chegou ao pronto-socorro com dor em epigástrio (4/10), desidratado, descorado, anictérico e afebril. Apresentava massa palpável em epigástrio, sem sinais de irritação peritoneal. Exames laboratoriais revelaram: hemoglobina de 11 mg/dl; leucócitos de 14.000; glicemia de 108; amilase de 92; e lipase de 72. Realizou, também, a tomogra a abdominal com contraste mostrada no corte abaixo. Com base nesse caso hipotético, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A ecoendoscopia com biópsia é a melhor orientação."
+        },
+        {
+          "key": "b",
+          "text": "O tratamento deverá ser cirúrgico."
+        },
+        {
+          "key": "c",
+          "text": "O tratamento deverá ser conservador, sem antibiótico e com suporte nutricional."
+        },
+        {
+          "key": "d",
+          "text": "O tratamento deverá ser agressivo, com antibiótico e nutrição parenteral."
+        },
+        {
+          "key": "e",
+          "text": "A biópsia percutânea deverá ser realizada antes da decisão terapêutica."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Massa epigástrica palpável, fixa, cerca de 6 semanas após episódio de pancreatite aguda, com CEA normal, é compatível com pseudocisto pancreático como complicação tardia mais provável.",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_024",
+      "statement": "Assinale a alternativa que apresenta a situação em que o início do suporte nutricional precoce está mais bem indicado.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "terceiro pós-operatório de lise de bridas em paciente eutrófico"
+        },
+        {
+          "key": "b",
+          "text": "paciente em uso de droga vasoativa, em dose elevada"
+        },
+        {
+          "key": "c",
+          "text": "paciente com pancreatite aguda grave"
+        },
+        {
+          "key": "d",
+          "text": "paciente em quinto pós-operatório de colectomia direita, com boa evolução"
+        },
+        {
+          "key": "e",
+          "text": "primeiro pós-operatório de colectomia total, com ileostomia, em paciente de baixo risco nutricional ainda em íleo paralítico"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A pancreatite aguda grave é situação em que o suporte nutricional precoce (preferencialmente enteral) está bem indicado, dado o estado hipercatabólico e o risco de desnutrição rápida nesses pacientes.",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_025",
+      "statement": "Uma mulher de 23 anos, obesa, com 15 semanas de gestação, é internada por dor epigástrica irradiada para o dorso, náuseas e vômitos, há 2 dias. Está em bom estado geral, desidratada, eupneica, anictérica e afebril. Pulso: 90 bpm, PA: 110 × 80 mmHg. O abdome é globoso e doloroso à palpação de epigástrio. Hemoglobina: 11 g/dL, leucócitos: 17.500/mm3, amilase: 860 U/L, gama- glutamiltransferase: 30 U/L, fosfatase alcalina: 30 U/L, AST (aspartato aminotransferase): 25 U/L, ALT (alanina aminotransferase): 24 U/L e bilirrubinas totais: 1,3 mg/dL. O ultrassom mostra microcálculos em vesícula biliar, sem dilatação de vias biliares. É feito o diagnóstico de pancreatite aguda biliar. Classificação da pancreatite quanto à gravidade e conduta inicial para essa paciente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Leve. Tratamento clínico e observação, sem antibiótico e sem outros exames de imagem."
+        },
+        {
+          "key": "b",
+          "text": "Moderada. CPRE (colangiopancreatografia retrógrada endoscópica)."
+        },
+        {
+          "key": "c",
+          "text": "Leve. Recomendável antibioticoterapia profilática, por se tratar de gestante."
+        },
+        {
+          "key": "d",
+          "text": "Gravidade ainda indeterminada. Antibioticoterapia empírica."
+        },
+        {
+          "key": "e",
+          "text": "Grave (leucocitose). Ressonância nuclear magnética, por causa da gestação."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Gestante com pancreatite aguda biliar sem sinais de gravidade (leve) deve receber tratamento clínico e observação, sem necessidade de antibioticoterapia profilática ou exames de imagem adicionais além do ultrassom já realizado.",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_026",
+      "statement": "Na pancreatite aguda, são critérios de Ranson de admissão, exceto:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Contagem de global de leucócitos."
+        },
+        {
+          "key": "b",
+          "text": "Glicemia."
+        },
+        {
+          "key": "c",
+          "text": "Idade."
+        },
+        {
+          "key": "d",
+          "text": "Dosagem de lipase sérica."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A dosagem de lipase sérica não faz parte dos critérios de Ranson de admissão, que incluem idade, glicemia, leucócitos, DHL e AST/TGO.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_027",
+      "statement": "Paciente feminina de 50 anos, inicia com quadro de dor abdominal súbita com 12 horas de evolução. Durante avaliação em pronto atendimento, o médico assistente formula a hipótese diagnóstica de pancreatite aguda. Em relação ao diagnóstico e tratamento desta paciente, analise as assertivas abaixo: I) A base do diagnóstico desta patologia são os achados clínicos associados a uma elevação dos níveis das enzimas pancreáticas no plasma. II) A lipase é um marcador mais especí co que a amilase, pois esta pode estar elevada em inúmeras condições, como na úlcera péptica perfurada e na salpingite. III) A base do tratamento desta patologia é a reposição agressiva de líquidos e eletrólitos. IV) Os cálculos biliares e o uso abusivo de álcool representam de 70% a 80% dos casos desta patologia, podendo ser causada também por trauma fechado ou ser induzida por medicamentos. Estão corretas as assertivas",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "II apenas."
+        },
+        {
+          "key": "b",
+          "text": "I e II apenas."
+        },
+        {
+          "key": "c",
+          "text": "III e IV apenas."
+        },
+        {
+          "key": "d",
+          "text": "II, III e IV apenas."
+        },
+        {
+          "key": "e",
+          "text": "todas assertivas estão corretas."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "O diagnóstico de pancreatite aguda baseia-se em achados clínicos e elevação enzimática (I correta); a lipase é mais específica que a amilase, que pode se elevar em outras condições (II correta); o tratamento se baseia em reposição agressiva de fluidos e eletrólitos (III correta); litíase biliar e álcool respondem por 70-80% dos casos, com trauma e drogas como outras causas (IV correta) — todas corretas.",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_028",
+      "statement": "Assinale a alternativa que corresponde, na avalia- ção tomográfica da pancreatite aguda, à classificação de BALTHAZAR C.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pâncreas normal"
+        },
+        {
+          "key": "b",
+          "text": "Edema do pâncreas"
+        },
+        {
+          "key": "c",
+          "text": "Presença de uma coleção"
+        },
+        {
+          "key": "d",
+          "text": "Presença de duas ou mais coleções"
+        },
+        {
+          "key": "e",
+          "text": "Inflamação peripancreática com perda dos contornos pancreáticos"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Na classificação tomográfica de Balthazar, o grau C corresponde à inflamação peripancreática com perda dos contornos normais do pâncreas, sem coleção líquida definida.",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_029",
+      "statement": "Mulher, 39 anos, com dor epigástrica aguda, intensa 9/10, acompanhada de náuseas e vômitos e com irradiação para o dorso é avaliado no pronto-atendimento. Ao exame, PA 90 x 60 mmHg, T: 37ºC, FR 22 irpm, pulso 105 bpm, taquipneica, hipoidratada, ansiosa, ictérica +2/4. IMC 32 kg/m². Ausculta pulmonar: estertores em bases bilaterais. Abdome: rígido e doloroso a palpação, ruídos hidroaéreos reduzidos, presença de equimoses periumbilicais. Pulsos nos e débeis. Tempo de enchimento capilar > 3 segundos. Exames laboratoriais: Hb 15 g/dL Ht 50% 17500 leucocitos/mm³ , Ur 83 mg/dL Cr: 1,5 mg/dL, TGO 55 U/L (VR < 50 U/L), TGP 62 U/L (VR < 68 U/L) Glicemia 350 mg/dL gasometria arterial pH 7,25 pCO2 30 mmHg pO2 90 mmHg HCO3 20 mmHg Anion Gap 18 mEq/L saturação O2 92%. LEGENDA: PA: pressão arterial; T: temperatura; FR: frequência respiratória; irpm: incursões respiratórias por minuto; bpm: batimentos por minuto; IMC: índice de massa corporal; TEC: empo de enchimento capilar; Hb: hemoglobina; Ht: hematócrito; Ur: ureia; Cr: creatinina. Qual o diagnóstico mais provável e manejo inicial mais adequado?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apendicite aguda; hidratação, laparotomia e antibioticoterapia."
+        },
+        {
+          "key": "b",
+          "text": "Cetoacidose diabética; hidratação intravenosa e insulinoterapia."
+        },
+        {
+          "key": "c",
+          "text": "Ruptura de gravidez ectópica; hidratação intravenosa e laparotomia."
+        },
+        {
+          "key": "d",
+          "text": "Pancreatite aguda; hidratação intravenosa e suspensão da dieta oral."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Dor epigástrica intensa irradiada para o dorso, com sinais de gravidade (taquipneia, hipotensão, icterícia, equimoses periumbilicais - sinal de Cullen), obesidade e alterações metabólicas, é quadro de pancreatite aguda grave; o manejo inicial inclui hidratação intravenosa vigorosa e suspensão da dieta oral.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_030",
+      "statement": "Homem de 65 anos, dá entrada na UTI com pancreatite aguda biliar. Evoluiu no quinto dia de internação com piora clínica. Exame físico: febril (38ºC), PA 100 x 60 mmHg, FC 125 bpm, abdome globoso, doloroso e tenso à palpação de todo abdome. Exames laboratoriais: GB = 19000/ mm³; DHL = 450 U/L; TGO = 280 U/L; BT = 3,0 mg/dL (BD = 2,1 mg/dL); amilase = 1850 U/L; lipase = 3500 U/L. TC de abdome: imagem a seguir. Em relação ao caso, é correto afirmar que",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a cirurgia, quando indicada, deve ser realizada o mais tardiamente possível, uma vez que a intervenção precoce é associada à elevada morbimortalidade."
+        },
+        {
+          "key": "b",
+          "text": "a dieta parenteral é preferível à dieta enteral até que os níveis de amilase e lipase normalizem."
+        },
+        {
+          "key": "c",
+          "text": "o uso de antibiótico profilático está associado à redução significativa da morbi-mortalidade."
+        },
+        {
+          "key": "d",
+          "text": "a colangiopancreatografia retrógrada endoscópica está indicada nos casos depancreatite associada à icterícia."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] Piora clínica no 5º dia de pancreatite aguda biliar grave, com sinais de irritação peritoneal e enzimas muito elevadas, sugere necrose complicada; a CPRE está indicada especificamente nos casos de pancreatite biliar associada a colangite/icterícia obstrutiva.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_031",
+      "statement": "Uma paciente de 76 anos de idade foi ao serviço de emergência com história de dor abdominal epigástrica e muitos vômitos há três dias. Nos exames da admissão, apresentava uma amilase de 3.552 e uma proteína C reativa de 20. Estava desidratada com muita dor à palpação em andar superior do abdome. Feito o diagnóstico de pancreatite aguda, optou-se pela realização de tomogra a de abdome com contraste endovenoso, que demonstrou necrose pancreática de aproximadamente 50% do órgão e uma coleção líquida de aproximadamente 5 cm na porção caudal. Com base nesse caso hipotético, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Trata-se de paciente com pancreatite aguda grave, classificada como Baltazar E, e está indicado o tratamento em unidade de terapia intensiva."
+        },
+        {
+          "key": "b",
+          "text": "Trata-se de paciente com pancreatite aguda grave, classificada como Baltazar D."
+        },
+        {
+          "key": "c",
+          "text": "Trata-se de paciente com pancreatite aguda leve, classificada como Baltazar E, e está indicado o tratamento em unidade de terapia intensiva."
+        },
+        {
+          "key": "d",
+          "text": "Trata-se de paciente com pancreatite aguda leve, classificada como Baltazar D, e está indicado o tratamento operatório de gastroduodenopancreatectomia."
+        },
+        {
+          "key": "e",
+          "text": "Trata-se de paciente com pancreatite aguda grave, classificada como Baltazar E, e está indicado o tratamento clínico."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Necrose pancreática de aproximadamente 50% com coleção líquida caracteriza pancreatite aguda grave, classificada como Balthazar E (presença de duas ou mais coleções ou gás retroperitoneal), com indicação de tratamento em unidade de terapia intensiva.",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_032",
+      "statement": "Um homem de 32 anos está internado por pancreatite aguda. Está estável hemodinamicamente, afebril, e tem boa perfusão peri- férica, com tempo de enchimento capilar < 2 segundos. Amilase: 750 UI/L, bilirrubina total: 1,5 mg/dL, leucócitos: 17.500/mm3, PCR (proteína C reativa): 250 mg/L, fosfatase alcalina: 150 U/L, gama-GT: 80 U/L. O ultrassom mostra colelitíase, com múltiplos cál- culos de até 0,5 cm de diâmetro e pequena dilatação de vias biliares. Além de jejum, analgesia e hidratação parenteral, o trata- mento inicial desse paciente deve incluir",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "antibioticoterapia, por causa da leucocitose > 16.000/mm3, que é preditor de gravidade."
+        },
+        {
+          "key": "b",
+          "text": "antibioticoterapia, por causa de PCR > 150 mg/L, indicando necrose pancreática com infecção associada."
+        },
+        {
+          "key": "c",
+          "text": "antibioticoterapia, devido à presença de dilatação de vias biliares, para prevenir colangite."
+        },
+        {
+          "key": "d",
+          "text": "CPRE (colangiopancreatografia retrógrada endoscópica), por causa da dilatação das vias biliares associada a PCR elevado."
+        },
+        {
+          "key": "e",
+          "text": "apenas observação e controle clínico."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Paciente estável, sem sinais de infecção ou necrose confirmada, mesmo com leucocitose e PCR elevados (inflamatórios, não necessariamente infecciosos), deve ser mantido apenas em observação e controle clínico, sem antibioticoterapia empírica não indicada nesse momento.",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_033",
+      "statement": "Homem, 53 anos de idade, apresentou episódio de pancreatite aguda com aumento progressivo do abdome e no oitavo dia de internação evoluiu com desconforto respiratório, hipotensão, oligúria e a pressão intra-abdominal atingiu 23 mmHg, com adoção de suporte cardiovascular, respiratório e renal. Com base nas alterações siológicas, nos achados físicos e de imagem (vide figura), qual o procedimento mais efetivo para melhorar as alterações observadas?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Drenagem percutânea."
+        },
+        {
+          "key": "b",
+          "text": "Sondagem gástrica e retal."
+        },
+        {
+          "key": "c",
+          "text": "Laparotomia com peritoneostomia."
+        },
+        {
+          "key": "d",
+          "text": "Drenagem endoscópica."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] Coleções peripancreáticas com aumento progressivo do abdome, desconforto respiratório, hipotensão, oligúria e pressão intra-abdominal de 23mmHg (síndrome compartimental abdominal) exigem laparotomia descompressiva com peritoneostomia como procedimento mais efetivo.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_034",
+      "statement": "Primigesta, 28 anos de idade, com 14 semanas de gestação, apresentou quadro de dor abdominal de forte intensidade na região do epigastro com irradiação para dorso, acompanhada de vômitos. Exames laboratoriais con rmaram pancreatite aguda. Apresentou boa aceitação da dieta no 3º dia após os sintomas, além de normalização de todos os exames laboratoriais. Realizado ultrassom de abdome superior que evidenciou múltiplos cálculos na vesícula biliar de 0,2 a 0,5cm, sem dilatação da via biliar. Qual é a conduta neste momento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ultrassom endoscópico."
+        },
+        {
+          "key": "b",
+          "text": "Colangiografia endoscópica com avental de chumbo."
+        },
+        {
+          "key": "c",
+          "text": "Acompanhamento clínico pré-natal."
+        },
+        {
+          "key": "d",
+          "text": "Colecistectomia."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Gestante com pancreatite biliar leve resolvida, com colelitíase confirmada e sem dilatação de via biliar, tem indicação de colecistectomia ainda durante a gestação (preferencialmente no segundo trimestre) para prevenir recorrência.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_035",
+      "statement": "Homem, 40a, procura atendimento médico referindo dor em andar superior do abdome, com irradiação para ancos, associada a náusea e vômitos. Antecedentes pessoais: etilismo há 15 anos, 1 garrafa de destilada/dia. Amilase= 854UI/L, Lipase= 378UI/L, AST= 308UI/L, ALT= 674UI/L. Ultrassonografia de abdome: colelitíase e coledocolitíase, sem dilatação de vias biliares extra-hepáticas. AS ALTERAÇÕES DA AMILASE E LIPASE ESTÃO ASSOCIADAS A:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cirrose hepática."
+        },
+        {
+          "key": "b",
+          "text": "Colangite."
+        },
+        {
+          "key": "c",
+          "text": "Obstrução do ducto cístico."
+        },
+        {
+          "key": "d",
+          "text": "Obstrução do ducto pancreático."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Etilismo importante com elevação de amilase/lipase e evidência de coledocolitíase sem dilatação de vias biliares extra-hepáticas sugere obstrução do ducto pancreático (papila comum) como mecanismo fisiopatológico das alterações enzimáticas.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_036",
+      "statement": "A pancreatite aguda tem como causas principais a litíase biliar e a ingestão alcoólica. Para o seu diagnóstico, o exame indicado é a:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "cintilografia com gálio"
+        },
+        {
+          "key": "b",
+          "text": "ultrassonografia pélvica"
+        },
+        {
+          "key": "c",
+          "text": "TC de abdômen com contraste"
+        },
+        {
+          "key": "d",
+          "text": "colangiografia endoscópica retrógrada"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Para o diagnóstico de pancreatite aguda de causa biliar ou alcoólica, a tomografia computadorizada de abdome com contraste é o exame de escolha para confirmação e avaliação de gravidade quando indicada.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_037",
+      "statement": "Homem, 55 anos, diabético e dislipidêmico com diagnóstico aos 51 anos. Em uso de glibenclamida 5 mg, 3x/dia e sinvastatina 20 mg,1x/noite. Não tolerou uso prévio de metformina. Procura atendimento em emergência devido a quadro de vômitos, distensão e dor abdominal. Nega tabagismo e etilismo. Informa que seu pai teve um acidente vascular cerebral isquêmico com 61 anos e faleceu em decorrência de infarto agudo do miocárdio aos 70 anos; mãe obesa e dislipidêmica e irmã de 45 anos com aterosclerose. Exames na admissão - glicemia de jejum: 250 mg/dL; transaminases acima de 180 U/L; triglicerídios: 1.880 mg/dL; amilase: 500 U/L (30-118); lipase: 250 U/L (<68); creatinina: 2,2 mg/dL; leucócitos: 18.000/mm3. Considerando a suspeita diagnóstica de pancreatite, as informações referidas pelo paciente e os exames realizados, qual a causa mais provável e qual o diagnóstico diferencial a ser estabelecido?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pancreatite em decorrência de hepatite - infarto agudo do miocárdio."
+        },
+        {
+          "key": "b",
+          "text": "Pancreatite devido à hipertrigliceridemia - pancreatite de etiologia biliar (colelitíase)."
+        },
+        {
+          "key": "c",
+          "text": "Pancreatite devido à insuficiência renal - úlcera gástrica."
+        },
+        {
+          "key": "d",
+          "text": "Pancreatite em decorrência de diabetes descompensado - septicemia."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Triglicerídeos extremamente elevados (>1000mg/dL) em paciente diabético mal controlado, com forte história familiar de dislipidemia/doença cardiovascular, sugerem pancreatite por hipertrigliceridemia como causa mais provável; a colelitíase é o principal diagnóstico diferencial etiológico a excluir.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_038",
+      "statement": "Puérpera, 32 anos, procura a emergência 3 semanas após parto normal, com quadro de icterícia e dor abdominal. Apresenta-se sonolenta, TA: 80/50 mmHg, FC: 135 bpm, FR: 29 rpm. Exames mostram Hb: 12,1 g/dL, Ht: 35,8%, leucócitos totais: 19650, bastões: 4%, sódio: 142 mEq/L, potássio: 4,8 mEq/L, glicose: 232 mg/dL, amilase: 3850 (até 200), lipase: 980 (até 140), TGO: 360 (até 40), TGP: 290 (até 45). Qual das alternativas abaixo NÃO faz parte dos critérios de gravidade da pancreatite?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "TGO."
+        },
+        {
+          "key": "b",
+          "text": "Amilase."
+        },
+        {
+          "key": "c",
+          "text": "Leucócitos."
+        },
+        {
+          "key": "d",
+          "text": "Glicose."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A dosagem de amilase isolada não faz parte formalmente dos critérios de gravidade de Ranson, que utilizam glicose, leucócitos, idade, DHL e AST na admissão (não a amilase, cujo valor absoluto não se correlaciona com gravidade).",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_039",
+      "statement": "Em um caso de pancreatite aguda biliar foi realizada tomogra a computadorizada de abdome e pelve com contraste que evidenciou presença de borramento da gordura peripancreática, sem presença de coleção ou necrose tecidual. A partir da escala de índice de gravidade da TC (CTSI) esse caso pode ser avaliado como:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "CSTI 1"
+        },
+        {
+          "key": "b",
+          "text": "CSTI 2"
+        },
+        {
+          "key": "c",
+          "text": "CSTI 4"
+        },
+        {
+          "key": "d",
+          "text": "CSTI 5"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Borramento da gordura peripancreática sem coleção ou necrose corresponde ao índice de gravidade tomográfica (CTSI) grau 2, refletindo inflamação leve/moderada sem complicações locais significativas.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_040",
+      "statement": "Homem de 60 anos relata que, há dois dias, apresenta dor abdominal em barra, de forte intensidade, localizada em andar superior de abdômen, evoluindo com febre, náuseas e vômitos. No exame físico, havia distensão abdominal e peristalse débil; PA = 100x60mmHg, FC = 115bpm e FR = 18irpm. O exame laboratorial mostra Hb = 12g/dL, leucócitos = 15.000/mm³ , bastões = 10%, glicemia = 140mg/dL, creatinina = 1,6mg/dL, ureia = 100mg/dL, amilase = 1.500U/L e lipase = 250U/L. A tomografia computadorizada de abdômen identificou pâncreas aumentado difusamente e coleções peripancreáticas. Nesse momento, a abordagem de maior importância é realizar nesse paciente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "reposição vigorosa de cristaloides"
+        },
+        {
+          "key": "b",
+          "text": "nutrição enteral com reforço lipídico"
+        },
+        {
+          "key": "c",
+          "text": "antibioticoterapia precoce com meropenem"
+        },
+        {
+          "key": "d",
+          "text": "drenagem precoce das coleções pancreáticas"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Distensão abdominal, peristalse débil e sinais de gravidade laboratorial (leucocitose, azotemia) com coleções peripancreáticas em pancreatite aguda tornam a reposição vigorosa de cristaloides a abordagem de maior importância nesse momento inicial.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_041",
+      "statement": "São indicações para cirurgia em paciente portador de pancreatite crônica, exceto:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Obstrução biliar."
+        },
+        {
+          "key": "b",
+          "text": "Dor intratável."
+        },
+        {
+          "key": "c",
+          "text": "Insuficiência endócrina."
+        },
+        {
+          "key": "d",
+          "text": "Suspeita de neoplasia."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "São indicações cirúrgicas na pancreatite crônica: obstrução biliar, dor intratável e suspeita de neoplasia — a insuficiência endócrina (diabetes secundário) não é, isoladamente, indicação cirúrgica, sendo essa a exceção correta.",
+      "theme": "panc_cron",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_045",
+      "statement": "Uma paciente de 64 anos de idade foi ao serviço de emergência com história de dor epigástrica com irradiação para o dorso e múltiplos episódios de vômitos há dois dias. Ao exame físico, encontrava-se em regular estado geral, desidratada e pálida. Estava com frequência cardíaca de 120 bpm, frequência respiratória de 20 ipm e dor à palpação abdominal epigástrica, com defesa muscular. Com base nesse caso hipotético, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Trata-se de pancreatite aguda leve se o ultrassom de abdome não mostrar coleção pancreática."
+        },
+        {
+          "key": "b",
+          "text": "Se a radiografia de tórax não mostrou pneumoperitôneo, não se trata de úlceraduodenal."
+        },
+        {
+          "key": "c",
+          "text": "Trata-se de pancreatite aguda se a dosagem da amilase for cinco vezes acima do normal."
+        },
+        {
+          "key": "d",
+          "text": "Trata-se de infarto agudo do miocárdio, devendo-se realizar cateterismo cardíaco de urgência."
+        },
+        {
+          "key": "e",
+          "text": "Trata-se de abdome agudo. Sendo assim, é indicado tratamento cirúrgico de emergência."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O diagnóstico de pancreatite aguda é firmado quando a amilase sérica está elevada acima de 3 vezes (não necessariamente 5 vezes) o limite superior da normalidade, associada ao quadro clínico compatível.",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_046",
+      "statement": "Uma senhora de 35 anos teve, há 8 meses, pancreatite aguda biliar grave, que melhorou com tratamento clínico. Ficou internada por várias semanas. Alguns dias após a alta, passou a apresentar vômitos pós-alimentares, sensação de plenitude gástrica precoce e notou abaulamento no epigástrio. Não sabe referir se teve febre. Fez a tomogra a computadorizada ilustrada a seguir. Diagnóstico mais provável:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pseudocisto de pâncreas."
+        },
+        {
+          "key": "b",
+          "text": "Hematoma peripancreático."
+        },
+        {
+          "key": "c",
+          "text": "Abscesso pancreático."
+        },
+        {
+          "key": "d",
+          "text": "Necrose pancreática delimitada."
+        },
+        {
+          "key": "e",
+          "text": "Cisto pancreático."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Vômitos pós-alimentares, plenitude gástrica precoce e abaulamento epigástrico após pancreatite biliar grave são achados clássicos de pseudocisto de pâncreas, complicação tardia comum.",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_047",
+      "statement": "Homem de 54 anos está internado na Unidade de Terapia Intensiva há 10 dias devido a pancreatite aguda grave. Está com máscara de oxigênio, saturando 92%, taquicárdico (110 bpm) e função renal normal. Exames laboratoriais: Hb 10,6 g/dL; leucócitos 16 mil/mm³; PCR 273 mg/dL. Tomogra a atual de abdome. Além do suporte de terapia intensiva, qual é a conduta neste momento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Antibioticoterapia"
+        },
+        {
+          "key": "b",
+          "text": "Drenagem da coleção."
+        },
+        {
+          "key": "c",
+          "text": "Dieta enteral por sonda."
+        },
+        {
+          "key": "d",
+          "text": "Necrosectomia"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Paciente estável hemodinamicamente com necessidade de oxigênio, sem sinais de infecção confirmada, no 10º dia de pancreatite grave, deve manter suporte de terapia intensiva com dieta enteral por sonda, estratégia nutricional preferencial nesses casos.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_048",
+      "statement": "Mulher, 43 anos, foi internada em hospital terciário com quadro de dor abdominal de início súbito e icterícia há 2 dias. Ao exame físico: bom estado geral, fácies dolorosa, mucosas, mucosas descoradas e ictéricas 2+/4+. Frequência cardíaca: 108 bpm, frequência respiratória: 24 irpm. Abdome plano, tenso, difusamente doloroso e sem sinais de irritação peritoneal. Exames laboratoriais: hemoglobina: 13,7 g/dL; leucócitos: 8.756 (4% bastões e 96% neutró los); bilirrubina total: 6,62 mg/dl; bilirrubina direta: 5,2 mg/dl; fosfatase alcalina: 571 U/L; TGO: 52 U/L; TGP: 41 U/L; albumina: 3,8 g/dl; INR: 1,1; amilase: 862 U/L e lipase: 120 U/L. Na admissão, foi solicitado uma colangioressonância magnética. Qual a melhor conduta imediata?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Indicação de colangiopancreatografia retrógrada endoscópica (CPRE) com papilotomia e extração dos cálculos e colecistectomia em outro momento."
+        },
+        {
+          "key": "b",
+          "text": "Tratamento clínico com jejum, hidratação endovenosa, analgesia e sintomáticos."
+        },
+        {
+          "key": "c",
+          "text": "Tratamento clínico com jejum, hidratação endovenosa, analgesia, sintomáticos e antibióticos."
+        },
+        {
+          "key": "d",
+          "text": "Indicação de colecistectomia com colangiopancreatografia retrógrada endoscópica (CPRE), papilotomia e extração dos cálculos no mesmo ato."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Dor abdominal súbita com icterícia obstrutiva (bilirrubina direta elevada, fosfatase alcalina muito alta) sugere coledocolitíase associada; a melhor conduta imediata é CPRE com papilotomia e extração de cálculos, seguida de colecistectomia em outro momento.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_049",
+      "statement": "Um homem de 35 anos teve pancreatite aguda necrotizante, provavelmente relacionada a droga. A tomogra a ilustrada a seguir foi feita um mês e meio após o processo agudo. O paciente vem tendo febre e di culdade para se alimentar e desconforto abdominal, principalmente em quadrante inferior direito. Tem aumento moderado dos leucócitos. Melhor conduta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Drenagem percutânea."
+        },
+        {
+          "key": "b",
+          "text": "Drenagem endoscópica."
+        },
+        {
+          "key": "c",
+          "text": "Observação"
+        },
+        {
+          "key": "d",
+          "text": "Cistogastroanastomose."
+        },
+        {
+          "key": "e",
+          "text": "Aspiração percutânea."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] Coleção organizada com sintomas (febre, dificuldade alimentar, desconforto) cerca de 6 semanas após pancreatite necrotizante, já delimitada (walled-off necrosis), tem indicação de drenagem, sendo a via percutânea uma opção inicial adequada.",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_050",
+      "statement": "A principal função da hiperidratação venosa no tratamento da pancreatite aguda é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Prevenção do sequestro hídrico para o terceiro espaço;"
+        },
+        {
+          "key": "b",
+          "text": "Preservação da função renal;"
+        },
+        {
+          "key": "c",
+          "text": "Preservação do sistema cardiovascular."
+        },
+        {
+          "key": "d",
+          "text": "Preservação da microcirculação pancreática e evitar evolução para necrose pancreática;"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A principal função da hidratação vigorosa na pancreatite aguda é preservar a microcirculação pancreática, prevenindo a progressão para necrose por isquemia tecidual.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_051",
+      "statement": "Assinale a alternativa que representa a forma de tratamento correta em um paciente com pancreatite crônica com dor moderada que não necessita de analgésico de ação central.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cirurgia de Frey."
+        },
+        {
+          "key": "b",
+          "text": "Cirurgia de Duval."
+        },
+        {
+          "key": "c",
+          "text": "Cirurgia de Puestow."
+        },
+        {
+          "key": "d",
+          "text": "Tratamento medicamentoso."
+        },
+        {
+          "key": "e",
+          "text": "Pancreatectomia distal com pancreato enterostomia."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Pancreatite crônica com dor moderada, controlável sem analgesia de ação central, deve ser tratada inicialmente com terapia medicamentosa otimizada, reservando cirurgia para casos refratários ou com dor intratável.",
+      "theme": "panc_cron",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_052",
+      "statement": "Para paciente de 66 anos, diagnosticado com pancreatite aguda, todas as condutas médicas imediatas abaixo estão indicadas, exceto uma. Assinale-a.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hidratação parenteral para evitar perda de função renal e progressão para necrose pancreática."
+        },
+        {
+          "key": "b",
+          "text": "Analgesia sistêmica, inclusive com administração de opioides."
+        },
+        {
+          "key": "c",
+          "text": "Realização de ultrassonografia abdominal para diagnóstico etiológico."
+        },
+        {
+          "key": "d",
+          "text": "Colecistectomia com colangiografia intraoperatória."
+        },
+        {
+          "key": "e",
+          "text": "Oxigenoterapia para manter a saturação de oxigênio acima de 95%."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A colecistectomia com colangiografia intraoperatória não é conduta médica IMEDIATA na admissão da pancreatite aguda — deve ser realizada após resolução do quadro agudo (mesma internação ou eletiva), sendo essa a exceção entre as condutas listadas.",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_053",
+      "statement": "Com relação ao tratamento cirúrgico da pancreatite crônica, indique a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Paciente com indicação cirúrgica que tem ducto pancreático de cinco milimetros de diâmetro é melhor tratado pela pancreatojejustomia em Y de Roux."
+        },
+        {
+          "key": "b",
+          "text": "A escolha do procedimento cirúrgico independe da presença ou ausência de dilatação do ducto pancreático."
+        },
+        {
+          "key": "c",
+          "text": "Nos casos de dor intratável clinicamente, a melhor alternativa cirúrgica é a duodenopancreatectomia mesmo com dilatação do ducto pancreático."
+        },
+        {
+          "key": "d",
+          "text": "A obstrução distal do ducto pancreático pode, ocasionalmente, ser tratada com pancreatectomia corpo-caudal."
+        },
+        {
+          "key": "e",
+          "text": "Os procedimentos descompressivos estão associados com a alta taxa de sucesso nos pacientes com envolvimento glandular difuso sem dilatação do ducto pancreático."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A obstrução distal isolada do ducto pancreático principal pode, em casos selecionados, ser tratada com pancreatectomia corpo-caudal, quando a doença está localizada e não há dilatação difusa do ducto.",
+      "theme": "panc_cron",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_054",
+      "statement": "Atualmente, a etiologia mais comum de pancreatite crônica no adulto é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Alcoólica."
+        },
+        {
+          "key": "b",
+          "text": "Traumática (trauma fechado)."
+        },
+        {
+          "key": "c",
+          "text": "Idiopática."
+        },
+        {
+          "key": "d",
+          "text": "Hereditária autossômica dominante."
+        },
+        {
+          "key": "e",
+          "text": "Autoimune."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A etiologia mais comum de pancreatite crônica no adulto é a alcoólica, respondendo pela maioria dos casos na população geral.",
+      "theme": "panc_cron",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_055",
+      "statement": "Paciente feminina, 52 anos, é internada no setor de emergência com quadro de 20 horas de evolução de dor abdominal aguda de forte intensidade associada a náuseas e vômitos. A dor localiza-se no andar superior do abdome anterior e irradia- se para o dorso. O hemograma mostra 16.000 leucócitos e a amilase sérica é de 3.750 UI/dl. Após atendimento inicial, e com evolução clínica favorável, qual exame complementar está indicado para de nição do diagnóstico etiológico mais provável do quadro clínico apresentado?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ultrassonografia endoscópica."
+        },
+        {
+          "key": "b",
+          "text": "Seriografia contrastada de esôfago, estômago e duodeno."
+        },
+        {
+          "key": "c",
+          "text": "Tomografia axial computadorizada."
+        },
+        {
+          "key": "d",
+          "text": "Endoscopia digestiva alta."
+        },
+        {
+          "key": "e",
+          "text": "Ecografia abdominal."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Após resolução clínica favorável de pancreatite aguda com etiologia não esclarecida, a ecografia abdominal é o exame inicial indicado para investigar a causa mais provável (colelitíase), sendo simples, disponível e de baixo custo.",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_056",
+      "statement": "Você é o médico da enfermaria que assumiu o caso de um paciente masculino de 36 anos, admitido por queixas de dor abdominal intensa e náuseas com vômitos. Dentre os exames laboratoriais da entrada, destaca-se lipase sérica de 1.065 U/L. Foi realizado diagnóstico de pancreatite aguda alcoólica. O caso foi manejado com jejum, tratamento suportivo incluindo hidratação, antieméticos e analgésicos opioides. Agora, no terceiro dia de internamento, o paciente apresenta melhora importante da dor abdominal e não apresenta mais episódios de náuseas ou êmese. Sinais vitais dentro da normalidade. Ao exame físico, RHA presentes e ausência de dor abdominal. Nova dosagem de lipase sérica = 1.071 U/L. Ele se queixa de fome. Nesse caso, a conduta correta é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar tomografia computadorizada de abdome."
+        },
+        {
+          "key": "b",
+          "text": "Aguardar diminuição dos valores séricos de lipase."
+        },
+        {
+          "key": "c",
+          "text": "Manter jejum até suspensão dos analgésicos."
+        },
+        {
+          "key": "d",
+          "text": "Iniciar antibioticoterapia."
+        },
+        {
+          "key": "e",
+          "text": "Reiniciar dieta via oral."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Melhora clínica completa da dor e tolerância alimentar são os critérios para reintrodução da dieta oral na pancreatite aguda, independentemente da normalização completa dos níveis enzimáticos (que podem permanecer elevados por mais tempo).",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_057",
+      "statement": "Paciente de 23 anos com história de microcálculos em vesícula biliar e 2 episódios de pancreatite biliar. Realizou CPER com papilotomia e retirada de cálculos. No pós- imediato, evoluiu com importante em epigastro e vômitos. Amilase de 5x acima do valor normal. Foi realizado um TC de abdome 72 h após a CPER, e a paciente ainda apresentava dor. O exame evidenciou pâncreas edemaciado e uma coleção líquida adjacente à cabeça pancreática. Em relação ao score Balthazar, assinale a alternativa que indica o grau adequado.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Grau A"
+        },
+        {
+          "key": "b",
+          "text": "Grau B"
+        },
+        {
+          "key": "c",
+          "text": "Grau C"
+        },
+        {
+          "key": "d",
+          "text": "Grau D"
+        },
+        {
+          "key": "e",
+          "text": "Grau E"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Coleção líquida peripancreática aguda com pâncreas edemaciado, sem necrose, corresponde ao grau D de Balthazar (uma coleção fluida única).",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_058",
+      "statement": "Homem de 62 anos, torneiro mecânico, apresentou quadro de dor abdominal epigástrica em faixa com inicio há 24 horas. Dosagem de amilase e lipase muito elevadas. Após 12 horas de internação, apresentava contração da musculatura da face e do lábio superior à percussão do nervo facial, assim como esparmo carpal ao se medir a presão arterial. Por esses sinais, identifique o distúrbio hidroeletrolítico MAIS PROVÁVEL nesse caso:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hipercalcemia."
+        },
+        {
+          "key": "b",
+          "text": "Hipercalemia."
+        },
+        {
+          "key": "c",
+          "text": "Hipocalcemia."
+        },
+        {
+          "key": "d",
+          "text": "Hipocalemia."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Sinal de Chvostek (contração facial à percussão do nervo facial) e sinal de Trousseau (espasmo carpal) são sinais clássicos de hipocalcemia, achado de mau prognóstico na pancreatite aguda por saponificação do cálcio na necrose gordurosa.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_059",
+      "statement": "Em relação à pancreatite aguda assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O diagnóstico de pancreatite aguda é estabelecido na presença de dor abdominal característica e níveis séricos de amilase e/ou lipase acima de duas vezes o limite superior da normalidade."
+        },
+        {
+          "key": "b",
+          "text": "A tomografia computadorizada do abdome utilizando contraste endovenoso permite avaliar com precisão a presença e a extensão da necrose pancreática quando realizada precocemente, antes do 3° dia do início do quadro."
+        },
+        {
+          "key": "c",
+          "text": "De acordo com os critérios de Atlanta, revisados em 2013, a presença de falência orgânica que persiste por mais de 48 horas caracteriza a presença de pancreatite aguda grave."
+        },
+        {
+          "key": "d",
+          "text": "Pacientes com pancreatite aguda grave que apresentam necrose pancreática devem receber antibioticoprofilaxia com objetivo de prevenir complicações infeciosas."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Segundo os critérios de Atlanta revisados (2013), a falência orgânica persistente por mais de 48 horas caracteriza pancreatite aguda grave, diferenciando-a da forma moderadamente grave (falência transitória).",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_060",
+      "statement": "Certo paciente de 65 anos de idade, etilista pesado, vem apresentando intensa dor abdominal, associada a náuseas e vômitos há oito horas, após nova ingesta alcoólica. É o terceiro episódio abdominal no mesmo mês. Em vista disso, são realizados exames laboratoriais que indicam transaminases hepáticas normais, bilirrubinas normais e lipase cinco vezes maior que o limite superior da normalidade. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue o item a seguir. Opiodes podem ser realizados no controle da dor.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Opioides podem e devem ser utilizados no controle da dor da pancreatite aguda quando necessário, sem contraindicação específica relacionada à fisiopatologia da doença.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_061",
+      "statement": "Certo paciente de 65 anos de idade, etilista pesado, vem apresentando intensa dor abdominal, associada a náuseas e vômitos há oito horas, após nova ingesta alcoólica. É o terceiro episódio abdominal no mesmo mês. Em vista disso, são realizados exames laboratoriais que indicam transaminases hepáticas normais, bilirrubinas normais e lipase cinco vezes maior que o limite superior da normalidade. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue o item a seguir. A cirurgia de Whipple pode ser empregada para o tratamento da dor, com bons resultados, e tem taxa de morbidade baixa.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A cirurgia de Whipple (duodenopancreatectomia) NÃO é indicada rotineiramente para tratamento da dor na pancreatite crônica pela sua morbidade elevada — é reservada para suspeita de malignidade ou doença localizada na cabeça do pâncreas refratária, tornando essa afirmação incorreta sobre baixa morbidade.",
+      "theme": "panc_cron",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_062",
+      "statement": "Certo paciente de 65 anos de idade, etilista pesado, vem apresentando intensa dor abdominal, associada a náuseas e vômitos há oito horas, após nova ingesta alcoólica. É o terceiro episódio abdominal no mesmo mês. Em vista disso, são realizados exames laboratoriais que indicam transaminases hepáticas normais, bilirrubinas normais e lipase cinco vezes maior que o limite superior da normalidade. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue o item a seguir. A técnica cirúrgica de Puestow pode ser usada para descompressão do ducto pancreático.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A técnica de Puestow (pancreatojejunostomia látero-lateral) pode ser usada para descompressão do ducto pancreático dilatado em pacientes com pancreatite crônica e dor refratária.",
+      "theme": "panc_cron",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_063",
+      "statement": "Certo paciente de 65 anos de idade, etilista pesado, vem apresentando intensa dor abdominal, associada a náuseas e vômitos há oito horas, após nova ingesta alcoólica. É o terceiro episódio abdominal no mesmo mês. Em vista disso, são realizados exames laboratoriais que indicam transaminases hepáticas normais, bilirrubinas normais e lipase cinco vezes maior que o limite superior da normalidade. Com base nesse caso clínico e nos conhecimentos médicos correlatos, julgue o item a seguir. Trata-se de pancreatite aguda biliar.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Apesar do etilismo importante, transaminases e bilirrubinas normais tornam a etiologia biliar pouco provável neste caso — a pancreatite é mais consistente com etiologia alcoólica, tornando essa afirmação (de que seria biliar) incorreta.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_064",
+      "statement": "Um senhor de 52 anos é internado por dor abdominal em faixa em epigástrio, irradiada para o dorso, há 2 dias, acompanhada de náuseas e vômitos. Apesar da fácies de dor, está em bom estado geral, anictérico e afebril. Pulso: 90 bpm, rítmico. PA: 130 × 80 mmHg; frequência respiratória: 18 irpm. Tem dor em epigástrio à palpação do abdome, mas sem peritonismo ou distensão. O ultrassom mostra múltiplos cálculos na vesícula biliar. Amilase: 1.500 U/L, leucócitos: 10.100/mm³, creatinina: 0,8 mg/dl. No primeiro dia após a internação, apresenta febre, mas sem repercussão hemodinâmica. Novo leucograma: com 9.500 leucócitos/mm³. Melhor conduta, neste momento:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Observação clínica e pesquisa de foco infeccioso."
+        },
+        {
+          "key": "b",
+          "text": "Tomografia de abdome para descartar necrose pancreática, eventualmente infectada."
+        },
+        {
+          "key": "c",
+          "text": "Ressonância magnética para avaliar provável complicação pancreática."
+        },
+        {
+          "key": "d",
+          "text": "Laparotomia ou laparoscopia diagnóstica, pela provável complicação infecciosa quepode exigir debridamento cirúrgico e drenagem."
+        },
+        {
+          "key": "e",
+          "text": "Antibioticoterapia empírica e monitorização clínica."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Febre no primeiro dia após pancreatite biliar não complicada, sem repercussão hemodinâmica e com leucograma em queda, é achado inespecífico precoce; a conduta adequada é observação clínica com pesquisa de foco infeccioso, sem necessidade imediata de antibioticoterapia empírica ou intervenção invasiva.",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_065",
+      "statement": "Um senhor de 55 anos, previamente hígido, é internado por dor abdominal epigástrica em faixa, náuseas e vômitos há 2 dias. Está em regular estado geral; desidratado; afebril. Pulso: 120 bpm; PA: 80 x 40 mmHg; frequência respiratória: 20 irpm. O abdome é doloroso difusamente, principalmente no andar superior; não tem sinais de irritação peritoneal. Hemograma: hemoglobina = 15,8 g/dl; leucócitos = 18.500/mm³; amilase = 3.500 U/L; lipase = 2.000 U/L; creatinina = 2,0 mg/dl. A radiogra a de abdome não mostra pneumoperitônio. Foi iniciada já a reanimação volêmica, com boa resposta inicial da frequência cardíaca e da pressão arterial. Conduta nesse momento:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tomografia de abdome com contraste endovenoso, para melhor esclarecimento do quadro e decisão da conduta a tomar."
+        },
+        {
+          "key": "b",
+          "text": "Antibioticoterapia intravenosa empírica."
+        },
+        {
+          "key": "c",
+          "text": "Laparotomia com debridamento e drenagem."
+        },
+        {
+          "key": "d",
+          "text": "Drenagem guiada por radiologia intervencionista."
+        },
+        {
+          "key": "e",
+          "text": "Jejum, analgesia e monitorização em unidade de terapia intensiva."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Pancreatite aguda grave com instabilidade inicial já respondendo à reposição volêmica deve ser conduzida com jejum, analgesia e monitorização em unidade de terapia intensiva, sem indicação de antibioticoterapia ou intervenção cirúrgica nesse momento.",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_066",
+      "statement": "Qual a melhor forma de tratamento para um paciente com pancreatite crônica, cujo único sintoma é dor moderada que não necessita de analgésico de ação central?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Manutenção ou otimização do tratamento medicamentoso."
+        },
+        {
+          "key": "b",
+          "text": "Cirurgia de Duval."
+        },
+        {
+          "key": "c",
+          "text": "Cirurgia de Puestow."
+        },
+        {
+          "key": "d",
+          "text": "Pancreatectomia distal com pancreato-enterostomia."
+        },
+        {
+          "key": "e",
+          "text": "Cirurgia de Frey."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Pancreatite crônica com dor moderada controlável sem analgesia de ação central deve ter o tratamento medicamentoso mantido ou otimizado como primeira linha, antes de considerar intervenção cirúrgica.",
+      "theme": "panc_cron",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_067",
+      "statement": "Assinale a assertiva CORRETA sobre pancreatite crônica:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tabagismo, apesar de estar associado a uma progressão da doença pancreática induzida pelo álcool, não é fator de risco independente para a ocorrência dessa condição clínica."
+        },
+        {
+          "key": "b",
+          "text": "Pode manifestar-se com diarreia crônica, esteatorreia, perda de peso e fadiga."
+        },
+        {
+          "key": "c",
+          "text": "A histologia, inflamação crônica é suficiente para firmar o diagnóstico da doença."
+        },
+        {
+          "key": "d",
+          "text": "Os níveis séricos de amilase e lipase costumam estar muito elevados (cerca de 3 vezes acima do valor normal)."
+        },
+        {
+          "key": "e",
+          "text": "A queixa de dor abdominal costuma acompanhar-se de defesa involuntária e dor à descompressão brusca ao exame físico do abdome."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A pancreatite crônica pode manifestar-se com diarreia crônica, esteatorreia, perda de peso e fadiga, refletindo a insuficiência pancreática exócrina progressiva característica da doença.",
+      "theme": "panc_cron",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_068",
+      "statement": "Paciente do sexo feminino, 58 anos, encaminhada com história de que há 3 meses foi internada em UTI de outro hospital. Refere que cou 10 dias com intubação orotraqueal, com droga vasoativa, e que precisou de hemodiálise. Recebeu alta após 28 dias de internação, sem ter sido submetida a nenhum tratamento cirúrgico, percutâneo ou endoscópico. Atualmente, queixa de dor epigástrica constante de leve intensidade, sem fatores de melhora. Relata, ainda, anorexia e perda de 5% do peso nos últimos 2 meses. Nega febre ou uso de antibióticos. Traz consigo exame tomográ co, conforme segue, realizado há 4 dias. Frente ao caso exposto, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Trata-se, provavelmente, de um tumor mucinoso de pâncreas; indica-se esplenopancreatectomia."
+        },
+        {
+          "key": "b",
+          "text": "Pseudocisto de pâncreas, indica-se drenagem percutânea."
+        },
+        {
+          "key": "c",
+          "text": "Complicação de pancreatite, que deve ser drenada o mais breve possível."
+        },
+        {
+          "key": "d",
+          "text": "Abcesso pancreático; deve-se instituir antibioticoterapia."
+        },
+        {
+          "key": "e",
+          "text": "Trata-se de loja necrótica; deve ser acompanhada ambulatorialmente."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Coleção pancreática que persiste sem sinais de infecção ativa (sem febre, sem uso de antibióticos), meses após episódio grave, com aspecto de necrose delimitada organizada, deve ser acompanhada ambulatorialmente quando assintomática ou pouco sintomática, evitando intervenção desnecessária.",
+      "theme": "panc_cron",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_069",
+      "statement": "Considere um paciente em 9º dia de pancreatite aguda moderadamente grave. Dentre os itens a seguir, aquele que deve constar da prescrição é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Antibioticoterapia."
+        },
+        {
+          "key": "b",
+          "text": "Octreotida."
+        },
+        {
+          "key": "c",
+          "text": "Inibidor da bomba de prótons."
+        },
+        {
+          "key": "d",
+          "text": "Morfina."
+        },
+        {
+          "key": "e",
+          "text": "Nutrição"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "No 9º dia de pancreatite aguda moderadamente grave, a nutrição (preferencialmente enteral) deve constar da prescrição, dado o estado catabólico prolongado e a necessidade de suporte nutricional precoce.",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_070",
+      "statement": "Um paciente de 54 anos de idade, etilista de uma garrafa de destilado por dia durante trinta anos, apresenta quadro de dor abdominal constante há cinco anos. Há um ano, relata piora dos sintomas, apresentando perda de 3 kg nesse período. Aumentou o emprego de analgésicos, porém com resposta parcial. Ao exame físico, encontrava-se com índice de massa corpórea de 23, abdome plano e ácido e dor em região epigástrica à palpação profunda. Realizou tomogra a de abdome, que mostrou dilatação do ducto pancreático principal, além de calci cações junto à cabeça pancreática, que se encontrava aumentada de tamanho. Com base nesse caso hipotético, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O paciente é portador de uma neoplasia pancreática e deve ser submetido à gastroduodeno pancreatectomia."
+        },
+        {
+          "key": "b",
+          "text": "A pancreatografia endoscópica é o tratamento de escolha para aliviar a dor do paciente por meio da descompressão ductal."
+        },
+        {
+          "key": "c",
+          "text": "Deve ser solicitada biópsia guiada por ultrassom transparietal para comprovação da doença."
+        },
+        {
+          "key": "d",
+          "text": "Está indicada a realização de cirurgia de Puestow para descompressão do ductopancreático principal."
+        },
+        {
+          "key": "e",
+          "text": "A melhor maneira de tratar definitivamente o paciente é por meio da cirurgia de Begerpara remoção do tecido pancreático comprometido pela doença."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Etilismo crônico importante com dor abdominal de longa data, calcificações pancreáticas e dilatação ductal principal são achados clássicos de pancreatite crônica calcificante; o tratamento definitivo mais eficaz para descompressão e alívio da dor é a cirurgia de Frey (ressecção parcial da cabeça pancreática com drenagem ductal longitudinal).",
+      "theme": "panc_cron",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_071",
+      "statement": "Mulher de 52 anos dá entrada na emergência com quadro de pancreatite aguda grave. Nesses casos a reposição vigorosa de uidos tem importante fator prognóstico. Para monitorar essa reposição, os melhores parâmetros laboratoriais a serem utilizados a cada 8 a 12h o início da reposição da ureia (BUN) e:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "lactato"
+        },
+        {
+          "key": "b",
+          "text": "albumina"
+        },
+        {
+          "key": "c",
+          "text": "creatinina"
+        },
+        {
+          "key": "d",
+          "text": "hematócrito"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O hematócrito seriado, junto com a ureia (BUN), é o principal parâmetro laboratorial para monitorar a adequação da reposição volêmica na pancreatite aguda grave, refletindo hemoconcentração/diluição.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_072",
+      "statement": "Homem de 73 anos de idade está internado por pancreatite aguda grave há 23 dias. Há 4 dias, apresentou piora no estado geral e aumento da leucocitose, sem melhora com o uso de imipenem. Hoje foi realizada nova tomogra a de abdome, abaixo. Qual é a conduta para o caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Drenagem transgástrica por endoscopia."
+        },
+        {
+          "key": "b",
+          "text": "Necrosectomia por laparotomia."
+        },
+        {
+          "key": "c",
+          "text": "Necrosectomia videolaparoscópica."
+        },
+        {
+          "key": "d",
+          "text": "Drenagem percutânea guiada por tomografia."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Piora clínica com leucocitose progressiva sem resposta a antibiótico de amplo espectro (imipenem) após 23 dias de pancreatite grave sugere necrose infectada refratária; a drenagem percutânea guiada por tomografia é a conduta inicial recomendada (step-up approach) antes de necrosectomia cirúrgica.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_073",
+      "statement": "Paciente de 74 anos é atendida na sala de emergência do hospital com dor epigástrica irradiada para o dorso há 12 horas. Ela refere ser diabética controlada com hipoglicemiantes e ter colelitíase assintomática descoberta há três anos. Ao exame físico a paciente está desconfortável, com temperatura de 37,8º C, frequência cardíaca de 112 btm, pressão arterial de 120 / 70 mmHg e frequência respiratória de 28 ipm. Seu abdome está distendido e sensível à palpação no epigástrio e mesogástrio. Exames laboratoriais revelam um hematócrito de 44%, hemoglobina de 14,5 g/dL, leucócitos de 22.000/mm3, glicemia de 160 g/dL, sódio de 139 mmol/L, potássio de 4,7 mmol/L, creatinina de 2,2 mg/dL, bilirrubina total de 3,2 mg/dL (bilirrubina direta de 2,4 mg/dL), AST de 340 U/L, ALT de 430 U/L, desidrogenase lática de 440 U/L, nível sérico de amilase de 1350 IU/L. Uma gasometria revela pH 7,41, PaCO 2 de 33mmHg, pO2 78 mmHg, HCO3 de 16 mEq/L, CO2T de 17,7 mmol/L, BE de – 6.0 mmol/L e Sat O2 de 90%. Uma tomogra a de abdome é solicitada e revela um pâncreas aumentado de tamanho com edema difuso e barramento de gordura. Sobre a gravidade e manejo inicial desta paciente podemos afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pancreatite grave - Ressuscitação agressiva com cristaloides, monitorização, oxigênio complementar e observação em UTI."
+        },
+        {
+          "key": "b",
+          "text": "Pancreatite leve - Ressuscitação agressiva com cristaloides e colecistectomia assim que a paciente estabilizar."
+        },
+        {
+          "key": "c",
+          "text": "Pancreatite leve - Ressuscitação agressiva, papilotomia endoscópica assim que paciente estabilizar."
+        },
+        {
+          "key": "d",
+          "text": "Pancreatite grave - Ressuscitação com droga vasoativa, antibioticoprofilaxia e somatostatina."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Paciente idosa com pancreatite aguda e sinais de gravidade (leucocitose importante, taquipneia, acidose metabólica) tem indicação de ressuscitação agressiva com cristaloides, monitorização e observação em UTI, classificando-se como pancreatite grave.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_074",
+      "statement": "Paciente masculino de 50 anos, com história de etilismo, chega à UPA com quadro de dor abdominal em faixa de forte intensidade e vômitos. Tem dor à palpação epigástrica e está afebril. Estável hemodinamicamente. Os exames demonstram um hemograma com 15.000 leucócitos, amilase de 1.200 mg/dl e glicemia de 145 mg/dl. Qual a conduta mais CORRETA?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Encaminhar para internação hospitalar, antibioticoterapia e alta se houver melhora em 24h."
+        },
+        {
+          "key": "b",
+          "text": "Encaminhar para internação hospitalar, antibioticoterapia, hidratação parenteral, analgesia e alta pós-melhora do quadro."
+        },
+        {
+          "key": "c",
+          "text": "Encaminhar para internação hospitalar, analgesia, hidratação parenteral, jejum e alta após melhoria clínica."
+        },
+        {
+          "key": "d",
+          "text": "Observação na UPA por 24h, analgesia e alta após melhora clínica."
+        },
+        {
+          "key": "e",
+          "text": "Encaminhar para internação hospitalar com indicação de tratamento cirúrgico após a hidratação, tendo em vista que a leucocitose sugere complicação infecciosa."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Pancreatite aguda alcoólica estável hemodinamicamente, sem sinais de infecção, deve ser tratada com internação hospitalar, analgesia, hidratação parenteral e jejum, com alta após melhora clínica — sem necessidade de antibioticoterapia empírica.",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_075",
+      "statement": "O diagnóstico de complicação séptica na pancreatite é dado na tomografia computadorizada por:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "presença de cálculo na colédoco."
+        },
+        {
+          "key": "b",
+          "text": "presença de focos gasosos no retroperitônio."
+        },
+        {
+          "key": "c",
+          "text": "aumento difuso de pâncreas."
+        },
+        {
+          "key": "d",
+          "text": "aumento da cabeça do pâncreas."
+        },
+        {
+          "key": "e",
+          "text": "dilatação do ducto pancreático."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O diagnóstico de complicação séptica (necrose infectada) na pancreatite é dado pela presença de focos gasosos no retroperitônio à tomografia computadorizada, sinal indireto de infecção por bactérias produtoras de gás.",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_076",
+      "statement": "Paciente obesa é admitida com quadro de dor abdominal intensa, náuseas e vômitos. Ao exame físico, encontra-se taquipneica (FR = 26 irpm); hipotensa (PA = 96 x 70 mmHg); taquicárdica (FC = 114 bpm); hipohidratada 2+/4+, com distensão abdominal e peristalse ausente. Pensando na causa provável do quadro de abdome agudo, a observação da existência de múltiplas lesões cutâneas compatíveis com xantoma eruptivo levou o médico assistente a considerar o diagnóstico de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Úlcera péptica perfurada por síndrome de Zollinger-Ellison."
+        },
+        {
+          "key": "b",
+          "text": "Pancreatite aguda por hipertrigliceridemia."
+        },
+        {
+          "key": "c",
+          "text": "Infarto enteromesentérico por vasculite."
+        },
+        {
+          "key": "d",
+          "text": "Colecistite alitiásica enfisematosa."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Dor abdominal aguda com xantomas eruptivos cutâneos em paciente obesa sugere pancreatite aguda por hipertrigliceridemia grave como diagnóstico mais provável.",
+      "theme": "panc_ag",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_077",
+      "statement": "A pancreatite aguda consiste na in amação do pâncreas causada pela liberação de enzimas pancreáticas ativadas. As causas mais comuns são colelitíase e ingestão excessiva de álcool. O quadro clínico pode variar de leve a grave, com necrose pancreática, processo in amatório sistêmico com choque e falência de múltiplos órgãos. Em relação ao diagnóstico desta patologia, analise as asserções abaixo e a relação proposta entre elas: I - A realização precoce de tomogra a computadorizada de abdome com contraste endovenoso permite a con rmação diagnóstica, porém não altera o prognóstico e a sobrevida. PORTANTO; II - Ela deve ser solicitada em todos os casos para auxiliar na definição do tratamento a ser instituído.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "As duas assertivas são proposições verdadeiras, e a segunda é uma justificativa correta da primeira."
+        },
+        {
+          "key": "b",
+          "text": "As duas assertivas são proposições verdadeiras, mas a segunda não é uma justificativa correta da primeira."
+        },
+        {
+          "key": "c",
+          "text": "A primeira assertiva é uma proposição verdadeira, e a segunda é falsa."
+        },
+        {
+          "key": "d",
+          "text": "A primeira assertiva é uma proposição falsa, e a segunda é verdadeira."
+        },
+        {
+          "key": "e",
+          "text": "As duas assertivas são proposições falsas."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A TC precoce confirma o diagnóstico mas não altera necessariamente o prognóstico/sobrevida quando realizada apenas para confirmação (I verdadeira); porém a TC NÃO deve ser solicitada rotineiramente em todos os casos, apenas quando há dúvida diagnóstica ou suspeita de complicação (II falsa) — ambas as assertivas são, na verdade, avaliadas como falsas pelo gabarito, refletindo a recomendação de uso seletivo, não universal, da TC.",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_078",
+      "statement": "Em relação à paciente da questão anterior (29), que exame deveríam ser solicitados, além dos já apresentados, para calcular a Ranson da admissão?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cálcio, ALT e creatinina"
+        },
+        {
+          "key": "b",
+          "text": "AST, DHL e glicose"
+        },
+        {
+          "key": "c",
+          "text": "Ureia, DHL e cálcio"
+        },
+        {
+          "key": "d",
+          "text": "ALT, DHL e ureia"
+        },
+        {
+          "key": "e",
+          "text": "Creatinina, glicose e cálcio"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Os critérios de Ranson de admissão adicionais incluem AST (TGO), DHL e glicose, complementando idade e leucometria já mencionadas no caso.",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "panc_079",
+      "statement": "Mulher, 34 anos, admitida na emergência com dor epigástrica importante e vômitos. Leucograma = 16.000; amilase = 1.020 e USG: colelitíase com vias biliares normais. No 4º dia de internamento, estava assintomática e aceitando dieta. Nesse momento, gama GT e fosfatase alcalina normais. Em relação à colecistectomia, deve-se:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Realizá-la no mesmo internamento."
+        },
+        {
+          "key": "b",
+          "text": "Realizá-la em 2 semanas por via aberta."
+        },
+        {
+          "key": "c",
+          "text": "Realizá-la em 3 semanas por via laparoscópica."
+        },
+        {
+          "key": "d",
+          "text": "Não realizá-la nos próximos 6 meses."
+        },
+        {
+          "key": "e",
+          "text": "Realizar junto com uma anastomose bílio-digestiva."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Pancreatite biliar leve resolvida, com colelitíase confirmada, tem indicação de colecistectomia ainda no mesmo internamento, prevenindo recorrência precoce do quadro.",
+      "theme": "panc_ag",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dii_outlier_panc",
+      "statement": "Um paciente de 54 anos, etilista de 1 garrafa de destilado por dia durante 30 anos, apresenta quadro de dor abdominal constante há 5 anos. Há 1 ano, relata piora dos sintomas, apresentando perda de 3kg nesse período. Aumentou o emprego de analgésicos, porém com resposta parcial. Ao exame físico, encontrava-se com índice de massa corpórea = 23, abdome plano e ácido e dor na região epigástrica à palpação profunda. Realizou tomogra a de abdome, que mostrou dilatação do ducto pancreático principal, além de calci cações junto à cabeça pancreática, que se encontrava aumentada de tamanho. Com base nesse caso hipotético, assinale a alternativa correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "o paciente é portador de neoplasia pancreática e deve ser submetido a gastroduodenopancreatectomia"
+        },
+        {
+          "key": "b",
+          "text": "a pancreatografia endoscópica é o tratamento de escolha para aliviar a dor do paciente por meio da descompressão ductal"
+        },
+        {
+          "key": "c",
+          "text": "deve ser solicitada biópsia guiada por ultrassonografia transparietal para comprovação da doença"
+        },
+        {
+          "key": "d",
+          "text": "a melhor maneira de tratar definitivamente o paciente é a cirurgia de Beger para remoção do tecido pancreático comprometido pela doença"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Paciente com pancreatite crônica calcificante (etilismo importante, dor crônica, calcificações e ducto pancreático dilatado à TC) refratária a analgesia tem indicação de cirurgia de Frey/Beger (ressecção parcial da cabeça pancreática com drenagem ductal) para tratamento definitivo da dor.",
+      "theme": "panc_cron",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}

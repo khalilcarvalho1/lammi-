@@ -1,0 +1,2872 @@
+{
+  "questions": [
+    {
+      "id": "hdb_001",
+      "statement": "Um paciente de 68 anos apresentou sangramento via retal recente, cessando espontaneamente. Em seguida, procurou o atendimento médico ambulatorial para iniciar a investigação da causa desse episódio. Com base no caso descrito e nos conhecimentos médicos correlatos, julgue o item a seguir. Em mais de 95% dos pacientes com sangramento gastrointestinal baixo, a fonte da hemorragia é o cólon, sendo o intestino delgado apenas ocasionalmente responsável.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Em mais de 95% dos pacientes com hemorragia digestiva baixa, a fonte do sangramento é o cólon, sendo o intestino delgado responsável apenas por uma pequena minoria dos casos.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_002",
+      "statement": "Um paciente de 68 anos apresentou sangramento via retal recente, cessando espontaneamente. Em seguida, procurou o atendimento médico ambulatorial para iniciar a investigação da causa desse episódio. Com base no caso descrito e nos conhecimentos médicos correlatos, julgue o item a seguir. A cintilografia com tecnécio-99m é o método mais sensível e preciso para localizar o sangramento gastrointestinal, tanto no intestino delgado quanto no grosso.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A cintilografia com tecnécio-99m é o método mais sensível para localizar hemorragia digestiva (detecta sangramentos de baixo débito), mas sua precisão anatômica é limitada, sendo menos precisa que a angiografia — a afirmação de alta precisão está exagerada.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_003",
+      "statement": "Um paciente de 68 anos apresentou sangramento via retal recente, cessando espontaneamente. Em seguida, procurou o atendimento médico ambulatorial para iniciar a investigação da causa desse episódio. Com base no caso descrito e nos conhecimentos médicos correlatos, julgue o item a seguir. A angiogra a seletiva pode detectar hemorragia na faixa de 0,5 a 1,0 mL/min e geralmente é usada para o diagnóstico de hemorragia contínua, apresentando capacidade terapêutica.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A angiografia seletiva detecta sangramentos na faixa de 0,5 a 1,0 mL/min, sendo indicada para hemorragia contínua e apresentando capacidade terapêutica (embolização) simultânea ao diagnóstico.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_004",
+      "statement": "Um paciente de 68 anos apresentou sangramento via retal recente, cessando espontaneamente. Em seguida, procurou o atendimento médico ambulatorial para iniciar a investigação da causa desse episódio. Com base no caso descrito e nos conhecimentos médicos correlatos, julgue o item a seguir. O carcinoma colorretal é uma das causas de hemorragia digestiva baixa, porém é uma causa incomum de sangramento significativo.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O carcinoma colorretal é causa reconhecida de hemorragia digestiva baixa, porém tipicamente causa sangramento crônico/oculto, sendo incomum como causa de sangramento agudo significativo.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_005",
+      "statement": "Um paciente de 68 anos apresentou sangramento via retal recente, cessando espontaneamente. Em seguida, procurou o atendimento médico ambulatorial para iniciar a investigação da causa desse episódio. Com base no caso descrito e nos conhecimentos médicos correlatos, julgue o item a seguir. A angiodisplasia também pode ser uma causa de sangramento digestivo baixo, suas lesões são consideradas degenerativas adquiridas e são usualmente associadas à estenose da artéria aorta e à insu ciência renal, especialmente em pacientes idosos.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A angiodisplasia NÃO está usualmente associada a estenose aórtica e insuficiência renal como afirmado (essa associação é discutível/controversa na literatura atual) — mas é reconhecida como lesão degenerativa adquirida comum em idosos.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_006",
+      "statement": "Um paciente de 68 anos apresentou sangramento via retal recente, cessando espontaneamente. Em seguida, procurou o atendimento médico ambulatorial para iniciar a investigação da causa desse episódio. Com base no caso descrito e nos conhecimentos médicos correlatos, julgue o item a seguir. Uma das principais causas de sangramento anorretal são as hemorroidas e as fissuras anais.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Hemorroidas e fissuras anais são causas frequentes de sangramento anorretal (doenças orificiais), tipicamente sangue vivo ao final da evacuação.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_007",
+      "statement": "Sangramento na População Pediátrica Lactente, sexo masculino, seis meses de idade, apresenta episódio súbito de enterorragia com moderada repercussão hemodinâmica. Qual é o exame mais adequado para o esclarecimento diagnóstico?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ultrassonografia de abdome."
+        },
+        {
+          "key": "b",
+          "text": "Tomografia computadorizada de abdome."
+        },
+        {
+          "key": "c",
+          "text": "Mapeamento com Tc99."
+        },
+        {
+          "key": "d",
+          "text": "Endoscopia digestiva alta."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Enterorragia súbita com repercussão hemodinâmica em lactente, sem outras alterações, tem no mapeamento com Tc99 (cintilografia para divertículo de Meckel) o exame mais adequado para esclarecimento diagnóstico nessa faixa etária.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_008",
+      "statement": "Os casos de hemorragia digestiva oculta são de nidos por ausência de lesões que expliquem o sangramento nos exames de endoscopia digestiva alta e ileocolonoscopia. Sobre esse assunto, analisar os itens abaixo: I. A investigação com cintilogra a com hemácias marcadas, angiotomogra a e cápsula endoscópica requer algum grau de sangramento ativo para identificar a fonte de sangramento. II. A principal causa de hemorragia digestiva oculta são erosões em intestino delgado. III. A enteroscopia com duplo balão deve ser o primeiro exame a ser feito em casos de hemorragia digestiva oculta em paciente instável hemodinamicamente. Está(ão) CORRETO(S):",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Somente o item I."
+        },
+        {
+          "key": "b",
+          "text": "Somente os itens I e III."
+        },
+        {
+          "key": "c",
+          "text": "Somente os itens II e III."
+        },
+        {
+          "key": "d",
+          "text": "Nenhum dos itens."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Métodos como cintilografia, angiotomografia e cápsula endoscópica requerem sangramento ativo para identificar a fonte (I correta); a principal causa de hemorragia oculta são as erosões/angiodisplasias em intestino delgado (II correta); mas a enteroscopia com duplo balão não é o primeiro exame em paciente instável, que deve ser estabilizado e investigado com métodos menos invasivos primeiro (III incorreta) — I e II corretas, mas o gabarito aponta D (nenhum item correto), sinalizando discordância possível da fonte quanto à ordem de prioridade em paciente instável.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_009",
+      "statement": "Um homem de 63 anos, hipertenso e diabético não insulino dependente apresenta queixa de hematoquezia há quatro meses e nega tenesmo, perda ponderal ou história familiar para neoplasia. Ao exame: Paciente eutró co, hipocorado 2+/4+, anictérico, acianótico, eupneico em ar ambiente e afebril. Restante do exame físico sem alterações evolutivas. O prosseguimento da investigação deve ser com:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pesquisa de sangue:oculto nas fezes;"
+        },
+        {
+          "key": "b",
+          "text": "Toque retal e colonoscopia;"
+        },
+        {
+          "key": "c",
+          "text": "Tomografia computadorizada de abdome e sangue oculto nas fezes;"
+        },
+        {
+          "key": "d",
+          "text": "Prescrever sulfato ferroso oral e reavaliar em três meses"
+        },
+        {
+          "key": "e",
+          "text": "Toque retal e enema opaco."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Hematoquezia crônica sem sinais de alarme evidentes em paciente de meia-idade deve ser investigada com toque retal e colonoscopia, exame padrão para avaliação etiológica do sangramento colônico.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_010",
+      "statement": "Sobre o manejo da hemorragia digestiva baixa (HDB) em adultos, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A doença diverticular dos cólons é a principal causa de HDB, sendo que, na maioria dos casos, ocorre resolução espontânea do sangramento."
+        },
+        {
+          "key": "b",
+          "text": "A angiografia dos vasos mesentéricos pode ser indicada nos casos de HDB, contudo há a desvantagem de não serem possíveis as intervenções terapêuticas durante o exame."
+        },
+        {
+          "key": "c",
+          "text": "O exame de escolha para o diagnóstico topográfico e etiológico da HDB em pacientes hemodinamicamente estáveis é a cintilografia com hemácias marcadas."
+        },
+        {
+          "key": "d",
+          "text": "Em pacientes com enterorragia volumosa não está indicada a endoscopia digestiva alta, já que essa é a apresentação clínica típica dos sangramentos colônicos."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A doença diverticular dos cólons é a principal causa de hemorragia digestiva baixa, e a maioria dos episódios cessa espontaneamente sem necessidade de intervenção.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_011",
+      "statement": "Paciente de 60 anos de idade dá entrada no pronto socorro com hemorragia digestiva baixa. O cirurgião deve pensar como principal hipótese diagnóstica:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doença hemorroidária"
+        },
+        {
+          "key": "b",
+          "text": "Neoplasia colorretal"
+        },
+        {
+          "key": "c",
+          "text": "Angiodisplasia"
+        },
+        {
+          "key": "d",
+          "text": "Doença diverticular de cólon"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Em paciente de 60 anos com hemorragia digestiva baixa, a doença diverticular de cólon é a principal hipótese diagnóstica a ser considerada, dada sua alta prevalência nessa faixa etária.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_012",
+      "statement": "A hemorragia digestiva baixa (HDB) é de nida como sangramento de uma fonte distal ao ligamento de Treitz, portanto pode se originar do intestino delgado, cólon e reto. Em relação à hemorragia digestiva baixa, é CORRETO afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A cintilografia detecta sangramento mais lentos, em torno de 2 a 3 ml por minuto com boa precisão de sítio de sangramento."
+        },
+        {
+          "key": "b",
+          "text": "A colonoscopia é contraindicada em casos de hemorragia digestiva baixa grave autolimitada, mesmo com paciente estável."
+        },
+        {
+          "key": "c",
+          "text": "Pacientes com hemorragia digestiva baixa refratária ao tratamento clínico, a opção seria a retossigmoidectomia."
+        },
+        {
+          "key": "d",
+          "text": "A colonoscopia deve ser o primeiro exame a ser solicitado ao diagnóstico de hemorragia digestiva baixa com instabilidade hemodinâmica."
+        },
+        {
+          "key": "e",
+          "text": "A angiografia pode ser método diagnóstico e terapêutico, mas requer uma taxa de sangramento de pelo menos de 1 ml por minuto."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A cintilografia com hemácias marcadas detecta sangramentos mais lentos, na faixa de 0,1 ml/min, sendo mais sensível que a angiografia para detectar sangramentos de baixo débito, embora com menor precisão de localização.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_013",
+      "statement": "Hemorragia Digestiva Alta Não Varicosa HDA Nâo Varicosa Sobre hemorragia digestiva, considere as seguintes afirmativas: 1. Ângulo de Treitz é o reparo anatômico que define o limite entre hemorragia digestiva alta e baixa. 2. Varizes de esôfago, úlcera péptica, diverticulose colônica e angiodisplasia perfazem 85% das hemorragias agudas. 3. Cerca de 85% dos casos de hemorragia digestiva aguda decorrem de sangramentos acima do Ângulo de Treitz. 4. O intestino delgado é o responsável por 5 a 8% das hemorragias agudas. Assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Somente a afirmativa 4 é verdadeira."
+        },
+        {
+          "key": "b",
+          "text": "Somente as afirmativas 1 e 4 são verdadeiras."
+        },
+        {
+          "key": "c",
+          "text": "Somente as afirmativas 2 e 3 são verdadeiras."
+        },
+        {
+          "key": "d",
+          "text": "Somente as afirmativas 1, 2 e 3 são verdadeiras."
+        },
+        {
+          "key": "e",
+          "text": "As afirmativas 1, 2, 3 e 4 são verdadeiras."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Ângulo de Treitz define o limite HDA/HDB (1 verdadeira); varizes, úlcera péptica, diverticulose e angiodisplasia perfazem a maioria das hemorragias agudas (2 verdadeira); cerca de 85% das hemorragias agudas originam-se acima do ângulo de Treitz — HDA é mais comum que HDB (3 verdadeira); mas o intestino delgado responde por apenas 1-5% das hemorragias, não 5-8% (4 falsa) — apenas 1, 2 e 3 corretas.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_014",
+      "statement": "Mulher, 60 anos, apresenta constipação intestinal há 6 meses, acompanhada de hematoquezia e emagrecimento de 5 Kg no período. Refere hábito intestinal diário e fezes de consistência normal antes desse período. Assinale a alternativa que apresenta, respectivamente, a hipótese diagnóstica e exame complementar corretos.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Neoplasia de intestino delgado – enteroscopia."
+        },
+        {
+          "key": "b",
+          "text": "Retocolite ulcerativa – enterorressonância."
+        },
+        {
+          "key": "c",
+          "text": "Doença diverticular – retossigmoidoscopia."
+        },
+        {
+          "key": "d",
+          "text": "Neoplasia de sigmoide – colonoscopia."
+        },
+        {
+          "key": "e",
+          "text": "Neoplasia de íleo terminal – cápsula endoscópica."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Mudança do hábito intestinal com constipação, hematoquezia e emagrecimento em mulher de 60 anos sugere fortemente neoplasia de sigmoide; o exame diagnóstico é a colonoscopia.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_015",
+      "statement": "Mulher de 49 anos de idade apresenta sangramento retal intermitente e dor abdominal há 2 meses. Refere que não há febre ou dor anal e perdeu 3 kg de peso no período. Não há história pessoal ou familiar de câncer. Exame físico: sinais vitais normais; IMC: 22 kg/m²; abdome: leve dor à palpação do quadrante inferior esquerdo; exame retal com hemorroidas grandes e friáveis. Exames séricos: hemoglobina: 10,2 g/dL e ferritina: 5 ng/mL. Quanto à principal hipótese diagnóstica, o manuseio inicial correto é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "solicitar uma colonoscopia."
+        },
+        {
+          "key": "b",
+          "text": "solicitar uma sigmoidoscopia flexível."
+        },
+        {
+          "key": "c",
+          "text": "solicitar uma tomografia de abdome com contraste oral, retal e intravenoso."
+        },
+        {
+          "key": "d",
+          "text": "prescrever o tratamento tópico de hemorroidas."
+        },
+        {
+          "key": "e",
+          "text": "prescrever terapia como ferro oral."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Sangramento retal intermitente com dor abdominal, perda de peso, anemia ferropriva e achado de hemorroidas ao exame não exclui causa proximal mais grave — a colonoscopia completa é o exame inicial correto para investigação etiológica completa nesse contexto com sinais de alarme.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_016",
+      "statement": "Homem de 68 anos de idade dá entrada na emergência por queixa de sangue vivo em moderada quantidade por via anal há 2 dias. Refere que já apresentou quadros semelhantes a este previamente. PA = 90 x 65 mmHg; FC = 120 bpm; abdome sem alterações; toque retal: presença de sangue vivo sem patologia ori cial ou tumorações. Assinale a alternativa com a hipótese diagnóstica mais provável para o paciente.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Diverticulite colônica."
+        },
+        {
+          "key": "b",
+          "text": "Varizes esofágicas."
+        },
+        {
+          "key": "c",
+          "text": "Divertículo de Meckel."
+        },
+        {
+          "key": "d",
+          "text": "Neoplasia de cólon sigmoide."
+        },
+        {
+          "key": "e",
+          "text": "Diverticulose colônica."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Sangue vivo recorrente pela via anal, com episódio prévio semelhante, sem massa ao toque retal, em idoso, é quadro clássico de diverticulose colônica sangrante.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_017",
+      "statement": "Em relação à hemorragia digestiva baixa, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Acima dos 50 anos, a causa mais frequente é a neoplasia intestinal."
+        },
+        {
+          "key": "b",
+          "text": "Abaixo dos 50 anos, a causa mais frequente é a angiodisplasia."
+        },
+        {
+          "key": "c",
+          "text": "O sangramento diverticular raramente cessa espontaneamente."
+        },
+        {
+          "key": "d",
+          "text": "95% dos casos originam-se do cólon."
+        },
+        {
+          "key": "e",
+          "text": "Angiodisplasia não é causa de sangramento digestivo baixo, somente de sangramento digestivo alto."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Cerca de 95% dos casos de hemorragia digestiva baixa originam-se do cólon, sendo essa a afirmação correta sobre a epidemiologia da HDB.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_018",
+      "statement": "Homem, 76 anos, em investigação de anemia crônica e dor abdominal leve sem localização preferencial. Tem endoscopia digestiva alta normal. Do ponto de vista gastrointestinal, a hipótese diagnóstica e o exame complementar para prosseguir a investigação são",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "adenocarcinoma de cólon sigmoide, retossigmoidoscopia."
+        },
+        {
+          "key": "b",
+          "text": "adenocarcinoma de delgado, enteroscopia."
+        },
+        {
+          "key": "c",
+          "text": "adenocarcinoma de cólon direito, colonoscopia."
+        },
+        {
+          "key": "d",
+          "text": "divertículo de Meckel, enteroscopia."
+        },
+        {
+          "key": "e",
+          "text": "diverticulose dos cólons, tomografía de abdome."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Anemia crônica com dor abdominal leve e endoscopia digestiva alta normal em idoso indica investigação por adenocarcinoma de cólon direito (que frequentemente se manifesta com anemia insidiosa), sendo a colonoscopia o exame de escolha.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_019",
+      "statement": "Paciente de 65 anos, sexo masculino, admitido no PS com quadro de Hemorragia Digestiva Baixa (HDB). Nesse caso, assinale a alternativa que contempla a conduta correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A avaliação inicial compreende o exame proctológico e a pesquisa de sangue oculto fecal."
+        },
+        {
+          "key": "b",
+          "text": "A abordagem cirúrgica está indicada no 2º episódio de hemorragia digestiva baixa quando a doença diverticular for a causa."
+        },
+        {
+          "key": "c",
+          "text": "A forma hipertônica da doença diverticular é causa de sangramento maciço."
+        },
+        {
+          "key": "d",
+          "text": "A neoplasia colorretal é a principal causa de HDB nessa faixa etária."
+        },
+        {
+          "key": "e",
+          "text": "A maioria cessa espontaneamente e a colonoscopia é o exame padrão-ouro."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A maioria dos episódios de HDB cessa espontaneamente e a colonoscopia é considerada o exame padrão-ouro para diagnóstico topográfico e etiológico em pacientes estáveis.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_020",
+      "statement": "A(s) causa(s) mais frequente(s) de hemorragia digestiva baixa em adultos menores de 50 anos é/são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doenças anorretais."
+        },
+        {
+          "key": "b",
+          "text": "Doença diverticular dos cólons."
+        },
+        {
+          "key": "c",
+          "text": "Isquemia mesentérica."
+        },
+        {
+          "key": "d",
+          "text": "Neoplasias."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "As doenças anorretais (hemorroidas, fissuras) são a causa mais frequente de hemorragia digestiva baixa em adultos com menos de 50 anos.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_021",
+      "statement": "Paciente do sexo masculino, 72 anos, hipertenso, diabético em tratamento com acompanhamento irregular devido à pandemia, vem ao pronto-socorro pálido, taquicárdico e com quadro de enterorragia franca (fezes com sangue vivo) em moderada quantidade. Tem ecografia abdominal total há 3 meses com colelitíase, sem outros achados. Considerando o quadro clínico apresentado e os conhecimentos sobre hemorragia digestiva, é correto a rmar que esse paciente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "necessita realizar apenas colonoscopia, sem endoscopia digestiva alta, porque hematêmese ocorre somente na hemorragia digestiva alta e enterorragia somente na hemorragia digestiva baixa."
+        },
+        {
+          "key": "b",
+          "text": "necessita de endoscopia digestiva alta, porque enterorragia pode ocorrer em casos de hemorragia digestiva alta de grande volume."
+        },
+        {
+          "key": "c",
+          "text": "necessita realizar colonoscopia após preparo de cólon e dieta sem fibras por 72 horas, sem endoscopia digestiva alta, porque a forma de apresentação de hemorragia digestiva alta se dá através de melena e não de enterorragia."
+        },
+        {
+          "key": "d",
+          "text": "necessita realizar colonoscopia, porque a hemorragia digestiva baixa pode se apresentar com enterorragia, sendo a principal responsável pelas hemorragias digestivas e correspondendo a 80% dos casos."
+        },
+        {
+          "key": "e",
+          "text": "não precisa de investigação endoscópica, uma vez que a hemorragia digestiva alta representa a minoria das hemorragias digestivas (15%), e a maioria para de sangrar no primeiro episódio."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Enterorragia franca de grande volume pode, na verdade, se originar de hemorragia digestiva alta (por trânsito acelerado), justificando a necessidade de endoscopia digestiva alta mesmo diante de sangramento aparentemente baixo.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_022",
+      "statement": "Uma paciente do sexo feminino, com 51 anos de idade, procurou uma unidade básica de saúde (UBS) com queixas de hematoquezia, astenia e dor abdominal leve. Negou alterações de ritmo intestinal, alteração na característica das fezes e perda de peso. Relatou que tinha sido submetida a cirurgia para tratamento de hemorroidas havia 5 anos. No exame físico da paciente, o médico constatou, de relevante, somente mucosas moderadamente hipocoradas. Considerando esse caso clínico hipotético, julgue o item seguintes. O médico da UBS deve solicitar colonoscopia para investigação da hematoquezia.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Hematoquezia em paciente de 51 anos, mesmo sem outros sinais de alarme, justifica investigação com colonoscopia para excluir causas colônicas significativas, incluindo neoplasia.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_023",
+      "statement": "Uma paciente do sexo feminino, com 51 anos de idade, procurou uma unidade básica de saúde (UBS) com queixas de hematoquezia, astenia e dor abdominal leve. Negou alterações de ritmo intestinal, alteração na característica das fezes e perda de peso. Relatou que tinha sido submetida a cirurgia para tratamento de hemorroidas havia 5 anos. No exame físico da paciente, o médico constatou, de relevante, somente mucosas moderadamente hipocoradas. Considerando esse caso clínico hipotético, julgue o item seguintes. No momento, bastam o tratamento da anemia e o acompanhamento dos sintomas.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Não basta apenas tratar a anemia e observar — a hematoquezia nessa paciente exige investigação etiológica completa com colonoscopia antes de assumir causa benigna, sendo essa a afirmação incorreta.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_024",
+      "statement": "Em geral, a incidência de sangramento gastrointestinal baixo aumenta com a idade, assim como sua etiologia passa a ser mais frequente. Com relação às hemorragias digestivas baixas, julgue os itens subsequentes. I. Na maioria das vezes (95%), o sangramento é colônico e, em uma minoria (5%), de delgado. II. A principal causa de sangramento colônico é a doença diverticular dos cólons (30-40%). III. Em geral, os sangramentos baixos são autolimitados e param de sangrar em quase 90% dos casos. IV. Entre outras causas de sangramento baixo, podem ser citados divertículo de Meckel, doença de Crohn, colite infecciosa, proctite por irradiação e angiodisplasia. A quantidade de itens certos é igual a.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "0."
+        },
+        {
+          "key": "b",
+          "text": "1."
+        },
+        {
+          "key": "c",
+          "text": "2."
+        },
+        {
+          "key": "d",
+          "text": "3."
+        },
+        {
+          "key": "e",
+          "text": "4."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Todas as quatro afirmativas sobre epidemiologia da HDB (predomínio colônico, doença diverticular como principal causa, resolução espontânea na maioria dos casos, e diversidade etiológica) estão corretas.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_025",
+      "statement": "Assinale a alternativa que apresenta a situação em que a indicação de angiotomografia é inapropriada.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "suspeita de fístula aortoduodenal"
+        },
+        {
+          "key": "b",
+          "text": "sangramento digestivo alto após a endoscopia normal"
+        },
+        {
+          "key": "c",
+          "text": "sangramento digestivo baixo contínuo de pequena quantidade antes da colonoscopia"
+        },
+        {
+          "key": "d",
+          "text": "sangramento digestivo (com sinais de sangramento ativo) e hipotensão controlada com cristaloide antes da colonoscopia"
+        },
+        {
+          "key": "e",
+          "text": "sangramento de origem indeterminada"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A angiotomografia não é indicada rotineiramente para sangramento digestivo baixo contínuo de pequena quantidade antes da colonoscopia, situação em que a colonoscopia tem melhor rendimento diagnóstico direto.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_026",
+      "statement": "Em RX simples de abdome, a observação mais específica para colite isquêmica é a presença de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "sinal da impressão do polegar."
+        },
+        {
+          "key": "b",
+          "text": "espessamento da parede do cólon."
+        },
+        {
+          "key": "c",
+          "text": "ar fora de alça."
+        },
+        {
+          "key": "d",
+          "text": "distensão do cólon."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O sinal da impressão do polegar ('thumbprinting'), causado por edema e hemorragia submucosa, é o achado radiográfico mais específico de colite isquêmica na radiografia simples de abdome.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_027",
+      "statement": "Criança, sexo masculino, 4 anos, acompanhado da mãe que relata sangramento retal maciço há 3 horas associado à taquicardia e sonolência. Nega dor abdominal. Ao toque retal, sem sangue em dedo de luva. Após reposição volêmica e estabilidade hemodinâmica, foi realizada endoscopia digestiva alta que foi normal. Qual o diagnóstico mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Trombose de veia porta."
+        },
+        {
+          "key": "b",
+          "text": "Divertículo de Meckel."
+        },
+        {
+          "key": "c",
+          "text": "Enterocolite necrotizante."
+        },
+        {
+          "key": "d",
+          "text": "Intussussepção ileo-cólica."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Sangramento retal maciço súbito com taquicardia e sonolência em criança pequena, sem dor abdominal e sem sangue ao toque retal, com EDA normal, sugere fortemente divertículo de Meckel como causa mais provável.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_028",
+      "statement": "Um paciente de 82 anos de idade foi levado ao serviço de emergência com história de melena há três dias. Na admissão, estava hemodinamicamente normal. Realizou endoscopia digestiva alta sem alterações. Com base nessa situação hipotética, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Na colonoscopia, foi identificada doença diverticular do cólon sigmoide, sem sinais de sangramento no momento do exame, sendo mandatório realizar colectomia de emergência."
+        },
+        {
+          "key": "b",
+          "text": "Na colonoscopia, foi identificado um tumor de reto a 3 cm da borda anal, sendo mandatório realizar exenteração pélvica."
+        },
+        {
+          "key": "c",
+          "text": "Na colonoscopia, foi identificada uma angiodisplasia de ceco e o melhor tratamento é o com radioterapia hemostática."
+        },
+        {
+          "key": "d",
+          "text": "Na colonoscopia, foi identificado um tumor de 2 cm em cólon sigmoide, com sangramento, e o melhor tratamento é realizar retossigmoidectomia."
+        },
+        {
+          "key": "e",
+          "text": "Na colonoscopia, não foram identificadas lesões, sendo melhor a laparotomiaexploradora para realizar a enterectomia total."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de melena com endoscopia alta normal e colonoscopia identificando tumor sangrante de 2cm em sigmoide, o tratamento adequado é a ressecção cirúrgica (retossigmoidectomia) da lesão neoplásica.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_029",
+      "statement": "Qual das seguintes é a causa mais comum de hemorragia digestiva baixa?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Neoplasia."
+        },
+        {
+          "key": "b",
+          "text": "Angiodisplasia."
+        },
+        {
+          "key": "c",
+          "text": "Diverticulose."
+        },
+        {
+          "key": "d",
+          "text": "Fístulas."
+        },
+        {
+          "key": "e",
+          "text": "Vasculites."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A diverticulose colônica é a causa mais comum de hemorragia digestiva baixa na população geral.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_030",
+      "statement": "Homem, 63a, veio ao Pronto Socorro referindo dor abdominal em cólica e um episódio de evacuação com sangue vivo há 1 dia. Exame físico: PA= 130x80 mmHg, FC= 78bpm, FR= 14irpm, oximetria de pulso (ar ambiente)= 98%; abdome: plano, normotenso, sem visceromegalia e sem irritação peritoneal; toque retal: sem sangue em dedo de luva ou massa. Hematócrito= 36%, hemoglobina= 11,8g/dL, RNI= 1,02 e R= 0,97. Endoscopia digestiva alta: normal. A CONDUTA É:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pesquisa de sangue oculto nas fezes."
+        },
+        {
+          "key": "b",
+          "text": "Radiograma de abdome ortostático e decúbito."
+        },
+        {
+          "key": "c",
+          "text": "Colonoscopia."
+        },
+        {
+          "key": "d",
+          "text": "Ultrassonografia de abdome."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Dor em cólica com um episódio de sangue vivo nas fezes, sem alterações significativas ao exame físico e exames laboratoriais normais, tem indicação de colonoscopia como próximo passo diagnóstico após estabilização.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_031",
+      "statement": "O médico de uma UPA atende a paciente de 78 anos, sexo masculino, com enterorragia maciça e instabilidade hemodinâmica. Após instituídas medidas de suporte e de estabilização hemodinâmica, o paciente foi submetido a endoscopia digestiva alta, sendo excluídas doenças do trato digestivo superior. Diante disso, o exame a ser indicado para definir o diagnóstico etiológico deverá ser",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "enterografia."
+        },
+        {
+          "key": "b",
+          "text": "tomografia computadorizada de abdômen."
+        },
+        {
+          "key": "c",
+          "text": "angiografia mesentérica."
+        },
+        {
+          "key": "d",
+          "text": "colonoscopia."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Após exclusão de causa alta por endoscopia digestiva alta normal em paciente com enterorragia maciça e instabilidade, a colonoscopia é o exame indicado para definir o diagnóstico etiológico colônico.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_032",
+      "statement": "Um homem de 69 anos se queixa de dispneia aos esforços e fraqueza. Nega doenças atuais ou prévias conhecidas. Não faz uso de medicamentos, e nega tabagismo ou etilismo. O exame físico não revela anormalidades. Exames de laboratório: Hg: 9,6g/dL; Hct: 29%; VCM: 78fL; HCM: 25,2pg; CHCM: 30g/dL; Reticulócitos: 0,5%; LG: 5.670/mm3; plq: 198.000/mm3; Fe: 34ng/mL; CTLF: 410mcg/dL; IST: 14%; ferritina: 6mcg/dL; creat: 0,9mg/dL. Considerando o caso descrito, assinale a alternativa que apresenta a conduta MAIS ADEQUADA para esse paciente.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Realizar exame endoscópico dos tratos digestivos alto e baixo."
+        },
+        {
+          "key": "b",
+          "text": "Solicitar eletroforese de hemoglobina."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar mielograma e biópsia de medula óssea."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar pesquisa de sangue oculto nas fezes."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Anemia ferropriva microcítica em homem idoso, sem outras causas evidentes, exige investigação endoscópica completa (alta e baixa) para excluir perda sanguínea gastrointestinal crônica, principalmente neoplásica.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_033",
+      "statement": "A hemorragia digestiva é um problema potencialmente grave e comum. A Hemorragia Digestiva Alta (HDA) é de nida como sangramento do trato digestivo acima do ângulo de Treitz. Já a Hemorragia Digestiva Baixa (HDB) é um sangramento distal a esse ângulo. A hemorragia baixa ocorre com menor frequência que a hemorragia digestiva alta. Porém sua incidência aumenta com a idade, sendo uma situação comum em idosos. Sobre as hemorragias digestivas, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A causa mais comum de hemorragia digestiva alta são as varizes de esôfago."
+        },
+        {
+          "key": "b",
+          "text": "A maioria dos sangramentos digestivos necessitam de tratamento cirúrgico para controle da hemorragia."
+        },
+        {
+          "key": "c",
+          "text": "A doença diverticular é a principal causa de hemorragia digestiva baixa nos pacientes com mais de 70 anos."
+        },
+        {
+          "key": "d",
+          "text": "Na síndrome de Mallory-Weiss, o sangramento é oriundo de uma ruptura esofágica e o tratamento cirúrgico é necessário."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A doença diverticular é a principal causa de hemorragia digestiva baixa em pacientes com mais de 70 anos, refletindo a alta prevalência de diverticulose nessa faixa etária.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_034",
+      "statement": "Um paciente de 63 anos, do sexo masculino, procura o Pronto Atendimento de um hospital com queixa de sangramento vermelho vivo via anal. Refere que há alguns meses notara presença de sangue junto às evacuações esporadicamente e acreditou que era hemorroida, porém houve aumento da frequência até que hoje se desesperou porque passou a apresentar sangramento em grande quantidade, com saída de coágulos, e se sentiu mais fraco, tendo inclusive caído ao se levantar para ir ao banheiro. Pediu aos vizinhos que o ajudassem porque mora sozinho. De comorbidades, tem diagnóstico de hipertensão arterial sistêmica em uso de losartana. Nega outras doenças, uso de outras medicações e cirurgias prévias. Ao exame físico, está em regular estado geral, sudoreico, hipocorado, com frequência cardíaca de 122 bpm, PA: 100x60 mmHg, afebril. É digna de nota ainda a presença de dor à palpação de fossa ilíaca esquerda e hipogástrio, sem massas palpáveis ou sinais de irritação peritoneal. À inspeção anal, há presença de sangue e dois botões hemorroidários exteriorizados, não redutíveis, sem sinais de trombose e, ao toque, o esfíncter anal é hipotônico, a mucosa retal é lisa e há presença de sangue em luva. Considerando exclusivamente as informações apresentadas, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A provável causa do sangramento é câncer colorretal e as medidas terapêuticas iniciais devem incluir expansão volêmica com cristaloides e hemoderivados com monitorização intensiva e programação de endoscopia digestiva alta e colonoscopia nas próximas 24 horas a depender da estabilização hemodinâmica e possibilidade de preparo do cólon."
+        },
+        {
+          "key": "b",
+          "text": "provável causa do sangramento é câncer colorretal e as medidas terapêuticas iniciais devem incluir expansão volêmica com cristaloides e hemoderivados seguida de colonoscopia imediata para controle do sangramento."
+        },
+        {
+          "key": "c",
+          "text": "A provável causa do sangramento é doença diverticular do cólon e as medidas terapêuticas iniciais devem incluir expansão volêmica com cristaloides e hemoderivados seguida de colonoscopia imediata para controle do sangramento."
+        },
+        {
+          "key": "d",
+          "text": "A provável causa do sangramento é doença diverticular do cólon e as medidas terapêuticas iniciais devem incluir expansão volêmica com cristaloides e hemoderivados com monitorização intensiva e programação de endoscopia digestiva alta e colonoscopia nas próximas 24 horas a depender da estabilização hemodinâmica e possibilidade de preparo do cólon."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Sangramento vermelho vivo progressivo com coágulos, hipotensão e taquicardia em idoso com fatores de risco para diverticulose, sem massa palpável, sugere doença diverticular do cólon como causa mais provável, com manejo incluindo expansão volêmica e programação de endoscopia/colonoscopia conforme estabilização.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_035",
+      "statement": "Em relação às hemorragias agudas do trato gastrointestinal, assinale a alternativa incorreta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hematoquezia geralmente está presente nos casos de sangramento digestivo baixo, embora também possa ocorrer em sangramentos originados no trato gastrointestinal alto."
+        },
+        {
+          "key": "b",
+          "text": "A hemorragia digestiva baixa é definida por sangramento que se origina do intestino grosso, ou seja, do ceco em diante."
+        },
+        {
+          "key": "c",
+          "text": "O sangramento cessa espontaneamente na maioria dos casos de hemorragia digestiva aguda baixa."
+        },
+        {
+          "key": "d",
+          "text": "Colonoscopia, sigmoidoscopia e angiografia podem ser usados na propedêutica de hemorragia digestiva baixa."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A hemorragia digestiva baixa é definida por sangramento originado distalmente ao ângulo de Treitz (não apenas do ceco em diante) — sendo essa a afirmação incorreta sobre a definição de HDB.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_036",
+      "statement": "Nos pacientes idosos que apresentam hemorragia gastrointestinal e com endoscopia digestiva alta e colonoscopia sem indicação da fonte do sangramento, a causa mais comum a ser suspeitada é a presença de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Úlcera da doença de Crohn."
+        },
+        {
+          "key": "b",
+          "text": "Angiodisplasia jejunal."
+        },
+        {
+          "key": "c",
+          "text": "Divertículo de Meckel."
+        },
+        {
+          "key": "d",
+          "text": "Divertículo Zenker."
+        },
+        {
+          "key": "e",
+          "text": "Divertículo duodenal."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Em idosos com hemorragia gastrointestinal sem fonte identificada por EDA e colonoscopia, a causa mais comum a ser suspeitada é a angiodisplasia jejunal (do intestino delgado).",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_037",
+      "statement": "Paciente de 75 anos, em tratamento para câncer de próstata há 1 ano, submetido a prostatectomia radical e radioterapia, com quadro de tenesmo, diarreia com muco e episódios de hematoquezia. Ao toque retal, queixa-se dor intensa. Qual o diagnóstico mais provável para o caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Invasão tumoral local"
+        },
+        {
+          "key": "b",
+          "text": "Retocolite ulcerativa"
+        },
+        {
+          "key": "c",
+          "text": "Retite actínica"
+        },
+        {
+          "key": "d",
+          "text": "Gastroenterocolite aguda"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Tenesmo, diarreia com muco e hematoquezia em paciente com história de radioterapia pélvica prévia (câncer de próstata) são achados clássicos de retite (proctite) actínica.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_038",
+      "statement": "A causa mais frequente de hemorragia digestiva baixa em pacientes na sexta e sétima décadas de vida é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "neoplasia."
+        },
+        {
+          "key": "b",
+          "text": "angiodisplasia."
+        },
+        {
+          "key": "c",
+          "text": "polipose colônica."
+        },
+        {
+          "key": "d",
+          "text": "doença hemorroidária."
+        },
+        {
+          "key": "e",
+          "text": "doença diverticular do cólon."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A doença diverticular do cólon é a causa mais frequente de hemorragia digestiva baixa em pacientes na sexta e sétima décadas de vida.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_039",
+      "statement": "Carolina, 71 anos queixa-se de pequeno sangramento às evacuações de moderada quantidade há 02 semanas. As fezes normalmente são de coloração normal, sem dores para evacuar, sem história prévia de constipação. A paciente não apresenta comorbidades e não tem histórico familiar de neoplasia. As causas de hemorragia digestiva baixa mais prováveis:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doenças orificiais e Angiodisplasia"
+        },
+        {
+          "key": "b",
+          "text": "Moléstia diverticular e Neoplasia colorretal"
+        },
+        {
+          "key": "c",
+          "text": "Doenças orificiais e Moléstia diverticular"
+        },
+        {
+          "key": "d",
+          "text": "Neoplasia colorretal e Doença inflamatória intestinal"
+        },
+        {
+          "key": "e",
+          "text": "Doença hemorroidária e Doença de Crohn"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Sangramento indolor recorrente sem alteração do hábito intestinal em idosa, sem fatores de risco familiares, tem como causas mais prováveis a doença orificial e a moléstia diverticular, as etiologias mais comuns e benignas nessa apresentação.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_040",
+      "statement": "Considera-se \"Hemorragia Digestiva Baixa\" (HDB) qualquer sangramento cuja origem seja distal ao ângulo de Treitz (após a transição duodeno jejunal), o que abrange quase todo o intestino delgado, todo segmento colônico e o reto. (...) Existem inúmeras causas para HDB, cuja frequência pode variar com a literatura estudada. Sobre \"Hemorragia digestiva baixa\", marque a alternativa incorreta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Os pólipos benignos e carcinomas determinam a perda de sangue de forma crônica, como sangue oculto ou perdas sanguíneas inderteminantes."
+        },
+        {
+          "key": "b",
+          "text": "As neoplasias malignas podem se manifestar com HDB em mais de 10 a 15% dos casos."
+        },
+        {
+          "key": "c",
+          "text": "Todo paciente até a terceira década de vida com anemia crônica tem indicação de colonoscopia e endoscopia digestiva alta para excluir processo neoplástico."
+        },
+        {
+          "key": "d",
+          "text": "Os quadros de colite ulcerativa frequentemente apresentam diarreia com variável quantidade de hematoquezia. O quadro é acompanhado de dores abdominais, sensação de esvaziamento incompleto do reto após as evacuações (tenesmo retal), dor ao evacuar (puxo) e urgência evacuatória."
+        },
+        {
+          "key": "e",
+          "text": "Colite isquêmica é afecção mais comum entre idosos que apresentam doença arteriosclerótica generalizada; há perfusão visceral menos nesses pacientes, determinando insquemia localizada."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "É incorreto afirmar que todo paciente até a terceira década de vida com anemia crônica precisa de investigação endoscópica completa para excluir neoplasia — em jovens sem sinais de alarme, causas benignas são muito mais prováveis, tornando a investigação exaustiva rotineira desnecessária nessa faixa etária.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_041",
+      "statement": "Jovem de 23 anos, professora de creche, refere não ter mais “energia” para lidar com as crianças. Além disso, vem sentindo importante cansaço para as atividades físicas que costumava fazer. Ao exame, parece hipocorada, tireoide palpável e tópica. Após o resultado de exames laboratoriais, identi cada uma anemia. A cinética de ferro mostrava: ferritina 12, saturação de transferrina 8%. Diante do caso, assinale a sequência de exames mais indicada para investigação diagnóstica.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cápsula endoscópica, colonoscopia, tomografia."
+        },
+        {
+          "key": "b",
+          "text": "Colonoscopia, endoscopia, cápsula endoscópica."
+        },
+        {
+          "key": "c",
+          "text": "Colonoscopia, endoscopia, tomografia."
+        },
+        {
+          "key": "d",
+          "text": "Endoscopia, colonoscopia, tomografia."
+        },
+        {
+          "key": "e",
+          "text": "Endoscopia, colonoscopia, cápsula endoscópica."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Anemia ferropriva grave em jovem sem sintomas gastrointestinais evidentes exige investigação sequencial com endoscopia digestiva alta, colonoscopia e, se ambas negativas, cápsula endoscópica para avaliar o intestino delgado.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_042",
+      "statement": "Homem de 69 anos de idade é atendido na emergência com hematoquezia iniciada há 4 horas. Encontra-se pálido, porém vigil e orientado. A pressão arterial é 110/80 mmHg, a freqüência respiratória de 24 irpm e a freqüência cardíaca de 96 bpm. O hematócrito no momento é de 24%, enquanto que em exame de rotina recente era de 32%. Qual das opções a seguir representa a melhor abordagem para a localização do sangramento intestinal deste paciente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A angiografia é mais apropriada para esta hemorragia gastrointestinal (GI) maciça;"
+        },
+        {
+          "key": "b",
+          "text": "A angiografia é pouco útil, já que o paciente não está estável;"
+        },
+        {
+          "key": "c",
+          "text": "A colonoscopia é mais conveniente para localizar a hemorragia caso seja maciça;"
+        },
+        {
+          "key": "d",
+          "text": "A colonoscopia pode ser diagnóstica e terapêutica neste caso leve de hemorragia GI;"
+        },
+        {
+          "key": "e",
+          "text": "A cirurgia imediata com localização intraoperatória é adequada;"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Diante de hematoquezia com queda de hematócrito recente em idoso, a angiografia é a abordagem mais apropriada para localizar hemorragia gastrointestinal maciça e potencialmente ativa.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_043",
+      "statement": "A hemorragia digestiva baixa, na população geral, tem como causa mais frequente a:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "neoplasia"
+        },
+        {
+          "key": "b",
+          "text": "angiodisplasia"
+        },
+        {
+          "key": "c",
+          "text": "doença diverticular"
+        },
+        {
+          "key": "d",
+          "text": "doença hemorroidária"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A doença diverticular é a causa mais frequente de hemorragia digestiva baixa na população geral.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_044",
+      "statement": "Um homem de 35 anos de idade previamente hígido é atendido na emergência 4 horas depois de ter completado uma maratona, com um quadro de dor abdominal tipo cólica, mais intensa em quadrante inferior esquerdo e um episódio de hematoquezia. Ao exame físico, estava hemodinamicamente estável e apresentava dor à palpação na fossa ilíaca esquerda. O exame a ser feito para o diagnóstico e a mais provável causa dos sintomas são,respectivamente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Anuscopia hemorróidas."
+        },
+        {
+          "key": "b",
+          "text": "Colonoscopia colite isquêmica."
+        },
+        {
+          "key": "c",
+          "text": "Colonoscopia diverticulite aguda."
+        },
+        {
+          "key": "d",
+          "text": "Tomografia computadorizada tumor sangrante do cólon direito."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Dor abdominal em cólica e hematoquezia após esforço físico intenso (maratona), em jovem hígido, com dor localizada em fossa ilíaca esquerda, sugerem colite isquêmica desencadeada por hipoperfusão intestinal transitória durante o exercício extremo; a colonoscopia confirma o diagnóstico.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_045",
+      "statement": "Dentre as apresentadas abaixo, as principais etiologias de sangramentos massivos do cólon são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Câncer e doença inflamatória intestinal."
+        },
+        {
+          "key": "b",
+          "text": "Diverticulose e colite ulcerativa."
+        },
+        {
+          "key": "c",
+          "text": "Angiodisplasia e diverticulose."
+        },
+        {
+          "key": "d",
+          "text": "Colite ulcerrativa e angiodisplasia."
+        },
+        {
+          "key": "e",
+          "text": "Diverticulose e colite ulcerativa."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Angiodisplasia e diverticulose são as principais etiologias de sangramentos maciços do cólon, especialmente em pacientes idosos.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_046",
+      "statement": "A causa mais comum da hemorragia maciça no trato gastrointestinal baixo é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Carcinoma."
+        },
+        {
+          "key": "b",
+          "text": "Diverticulose."
+        },
+        {
+          "key": "c",
+          "text": "Diverticulite."
+        },
+        {
+          "key": "d",
+          "text": "Pólipos."
+        },
+        {
+          "key": "e",
+          "text": "Colite ulcerativa."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A diverticulose é a causa mais comum de hemorragia maciça do trato gastrointestinal baixo, mesmo sendo a diverticulite (inflamação) menos associada a sangramento significativo.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_047",
+      "statement": "Para a determinação do local de sangramento por arteriogra a seletiva na hemorragia digestiva baixa é necessário que esteja sangrando a uma velocidade de pelo menos:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "0,05 a 0,1 ml por minuto."
+        },
+        {
+          "key": "b",
+          "text": "0,05 a 0,1 ml por minuto."
+        },
+        {
+          "key": "c",
+          "text": "0,5 a 1 ml por minuto."
+        },
+        {
+          "key": "d",
+          "text": "3 a 10 ml por minuto."
+        },
+        {
+          "key": "e",
+          "text": "3 a 5 ml por minuto."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A arteriografia seletiva requer uma taxa de sangramento de pelo menos 0,5 a 1 mL/minuto para localizar com sucesso o sítio hemorrágico na hemorragia digestiva baixa.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_048",
+      "statement": "Paciente masculino, 75 anos, lhe procura em sua UBS com história de anemia ferropriva. Já realizou duas colonoscopias e duas endoscopias sem alterações. Apresenta sangue oculto + nas fezes e cintilogra a realizada no momento do sangramento sugere foco de hemorragia em alça jejunal. No momento não apresenta sangramento. Qual dos exames abaixo é o mais indicado para auxiliar no diagnóstico deste paciente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Angiografia."
+        },
+        {
+          "key": "b",
+          "text": "Tomografia Computadorizada."
+        },
+        {
+          "key": "c",
+          "text": "Ultrassonografia."
+        },
+        {
+          "key": "d",
+          "text": "Cápsula Endoscópica."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Anemia ferropriva refratária, com colonoscopias e endoscopias normais, e cintilografia sugerindo foco em alça jejunal, sem sangramento ativo no momento, tem na cápsula endoscópica o exame mais indicado para complementar a investigação do intestino delgado.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_049",
+      "statement": "Paciente com quadro de hemorragia digestiva baixa. Realiza colonoscopia que não apresenta alterações. Durante acompanhamento ambulatorial, mantém-se assintomático, a despeito de quadro de anemia. Qual o MELHOR exame complementar visando a investigação do sítio do sangramento, neste paciente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Nova colonoscopia."
+        },
+        {
+          "key": "b",
+          "text": "Enteroscopia."
+        },
+        {
+          "key": "c",
+          "text": "Arteriografia."
+        },
+        {
+          "key": "d",
+          "text": "Cintilografia intestinal."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Após colonoscopia normal em paciente assintomático mas anêmico, a enteroscopia é o melhor exame complementar para investigar o intestino delgado como possível sítio de sangramento oculto.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_050",
+      "statement": "São causas de hemorragia digestiva baixa, apresentando-se com sangue vivo nas fezes, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sangue deglutido."
+        },
+        {
+          "key": "b",
+          "text": "Volvo."
+        },
+        {
+          "key": "c",
+          "text": "Colite alérgica."
+        },
+        {
+          "key": "d",
+          "text": "Pólipo juvenil."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O sangue deglutido (de origem alta, como epistaxe ou hemorragia oral) pode se manifestar como sangue na luz intestinal, mas não é considerado uma causa primária de hemorragia digestiva BAIXA — sendo essa a exceção entre as causas listadas.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_051",
+      "statement": "Mulher de 71 anos, previamente hígida, iniciou com sangramento digestivo baixo, apresentando sangue vivo nas fezes em moderada quantidade. Durante o atendimento, encontra-se estável hemodinamicamente, abdome ácido e sem sinais de peritonite. A principal hipótese diagnóstica, que corresponde a causa mais prevalente de sangramento digestivo com as características descritas nesta faixa etária é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Polipose intestinal."
+        },
+        {
+          "key": "b",
+          "text": "Tumor de cólon."
+        },
+        {
+          "key": "c",
+          "text": "Diverticulose colônica."
+        },
+        {
+          "key": "d",
+          "text": "Angiodisplasia."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Sangramento digestivo baixo com sangue vivo, estável hemodinamicamente, em mulher idosa, tem a diverticulose colônica como principal hipótese diagnóstica, causa mais prevalente nessa faixa etária.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_052",
+      "statement": "A hemorragia gastrointestinal obscura requer uma abordagem cuidadosa para o diagnóstico e tratamento. Entre as causas específicas, aparecem as lesões do intestino delgado. Destas hemorragias nos pacientes idosos, 40% são causadas por:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Neoplasia."
+        },
+        {
+          "key": "b",
+          "text": "Angiodisplasias."
+        },
+        {
+          "key": "c",
+          "text": "Doença de Crohn."
+        },
+        {
+          "key": "d",
+          "text": "Divertículo de Meckel."
+        },
+        {
+          "key": "e",
+          "text": "Invaginação intestinal."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Entre as causas específicas de hemorragia obscura do intestino delgado em idosos, as angiodisplasias respondem por cerca de 40% dos casos, sendo a etiologia mais comum nessa localização e faixa etária.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_053",
+      "statement": "Comparado com a hemorragia GI alta, a hemorragia GI baixa é uma causa muito menos frequente de hospitalização, sendo o cólon a fonte do sangramento em 95% dos casos. Assinale, abaixo, a etiologia mais frequente de sangramento colônico agudo.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Isquemia."
+        },
+        {
+          "key": "b",
+          "text": "Neoplasia."
+        },
+        {
+          "key": "c",
+          "text": "Doença anorretal."
+        },
+        {
+          "key": "d",
+          "text": "Doença diverticular."
+        },
+        {
+          "key": "e",
+          "text": "Doença intestinal inflamatória."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A doença diverticular é a etiologia mais frequente de sangramento colônico agudo, respondendo pela maioria dos casos de hemorragia digestiva baixa significativa.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_054",
+      "statement": "A hemorragia digestiva é rara em crianças, mas é um tema de grande importância por se tratar muitas vezes de uma emergência além de causar uma apreensão à família. As causas são diversas e a sistematização com a epidemiologia por idade, facilita na investigação diagnóstica. Uma das causas mais comuns de hemorragia digestiva baixa na faixa etária entre 0 a 30 dias é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "síndrome hemolítico-urêmica."
+        },
+        {
+          "key": "b",
+          "text": "doença inflamatória intestinal."
+        },
+        {
+          "key": "c",
+          "text": "coagulopatia por deficiência vitamínica."
+        },
+        {
+          "key": "d",
+          "text": "divertículo de Meckel."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Na faixa etária de 0 a 30 dias de vida, a coagulopatia por deficiência de vitamina K (doença hemorrágica do recém-nascido) é uma das causas mais comuns de hemorragia digestiva baixa neonatal.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_055",
+      "statement": "Sobre o manejo da hemorragia digestiva alta em adultos, é correto afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "o exame de escolha para o dignóstico topográfico e etiológico da HDB em pacientes hemodinamicamente estáveis é a cintilografia com hemácias marcadas."
+        },
+        {
+          "key": "b",
+          "text": "a angiografia dos vasos mesentéricos pode ser indicada nos casos de HDB, contudo tem a desvantagem de não serem possíveis as intervenções terapêuticas durante o exame."
+        },
+        {
+          "key": "c",
+          "text": "a doença diverticular dos cólons é a principal causa de HDB, sendo que na maioria dos casos, ocorre resolução espontânea do sangramento."
+        },
+        {
+          "key": "d",
+          "text": "a pacientes com enterorragia volumosa não está indicada a endoscopia digestiva alta, já que essa é a presentação clinica tipica dos sangramentos colonicos."
+        },
+        {
+          "key": "e",
+          "text": "em casos de HDB causada exclusivamente por doença diverticular dos cólons, deve-se ter o cuidado necessário com hemorragias pois a resolução do sangramento, por qualquer meio, é impossível."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A doença diverticular dos cólons é a principal causa de hemorragia digestiva baixa, e na maioria dos casos ocorre resolução espontânea do sangramento sem necessidade de intervenção.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_056",
+      "statement": "Quanto às indicações de solicitação de colonoscopia pelo médico da estratégia da saúde da família marque a alternativa incorreta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Investigação de anemia ferropriva por causa desconhecida, sem outros sinais e sintomas que orientem investigação inicial."
+        },
+        {
+          "key": "b",
+          "text": "Sangramento persistente em trato gastrointestinal inferior não atribuível a doença orificial."
+        },
+        {
+          "key": "c",
+          "text": "Episódio de melena ainda não investigado."
+        },
+        {
+          "key": "d",
+          "text": "Quando câncer colorretal ou pólipo adenomatoso avançado ocorreu em familiar de primeiro grau antes dos 60 anos ou em dois familiares de primeiro gau em qualquer idade, solicitar colonoscopia aos 40 anos ou 10 anos antes da idade de acometimento do familiar mais jovem. Se câncer colorretal ou pólipo adenomatoso avançado que ocorreu em familiar de primeiro grau com idade maior que 60 anos, solicitar colonoscopia aos 50 anos."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "É incorreto restringir a solicitação de colonoscopia por história familiar apenas ao critério descrito de forma isolada — os critérios de rastreamento familiar de câncer colorretal descritos na alternativa D estão corretos e completos, tornando as demais opções (A, B, C) as indicações padrão verdadeiras — a questão busca a única alternativa incorreta entre elas, sendo C (melena não investigada) na verdade indicação válida de colonoscopia, tornando-a a exceção correta.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_057",
+      "statement": "Paciente OAF, masculino, 67 anos, informa que há 5 meses apresenta constipação intestinal, com vários episódios intermitentes, de hematoquezia e outros de melena. Procurou assistência médica e realizou colonoscopia, cujo laudo foi de ausência de lesões em todo o colo. Qual é a causa mais comum de hemorragia gastrointestinal originada no intestino delgado?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Angiodisplasia"
+        },
+        {
+          "key": "b",
+          "text": "Neoplasia"
+        },
+        {
+          "key": "c",
+          "text": "Divertículo"
+        },
+        {
+          "key": "d",
+          "text": "Divertículo de Meckel"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A angiodisplasia é a causa mais comum de hemorragia gastrointestinal originada especificamente no intestino delgado, especialmente em idosos.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_058",
+      "statement": "Sobre hemorragia digestiva baixa (HDB) é correto afirmar, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a maioria das HDB representa emergência médica devido à instabilidade hemodinâmica que grande parte dos pacientes manifesta."
+        },
+        {
+          "key": "b",
+          "text": "Por definição é aquela hemorragia em que a etiologia se situa abaixo do ângulo duodeno-jejunal"
+        },
+        {
+          "key": "c",
+          "text": "O exame endoscópico pode ser feito na vigência do sangramento."
+        },
+        {
+          "key": "d",
+          "text": "Doença diverticular, tumores e angiodisplasia são as principais causas de HDB no idoso."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A maioria dos episódios de HDB NÃO representa emergência com instabilidade hemodinâmica — a maior parte é autolimitada e de baixo débito, sendo essa a afirmação incorreta (exceção) entre as listadas.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_059",
+      "statement": "Em relação a exames radiológicos e endoscópicos na presença de hemorragia digestiva, assinale a alternativa CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Os exames radiológicos são os mais indicados para determinar o local exato do sangramento."
+        },
+        {
+          "key": "b",
+          "text": "As guidelines específicas para a indicação precoce de endoscopia em pacientes pediátricos apontam que intervenções precoces diminuem a necessidade de transfusões."
+        },
+        {
+          "key": "c",
+          "text": "Os métodos endoscópicos não permitem determinar o local exato do sangramento."
+        },
+        {
+          "key": "d",
+          "text": "As cintilografias são úteis no diagnóstico de divertículo de Meckel, o qual pode se manifestar como causa de hemorragia digestiva baixa"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "As cintilografias com hemácias marcadas são particularmente úteis no diagnóstico de divertículo de Meckel (cintilografia com pertecnetato, que identifica mucosa gástrica ectópica), causa importante de HDB em crianças e jovens.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_060",
+      "statement": "Como causas de hemorragia digestiva baixa podemos citar, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Infecção por H.Pylori"
+        },
+        {
+          "key": "b",
+          "text": "Carcinoma colorretal"
+        },
+        {
+          "key": "c",
+          "text": "Fissura Anal"
+        },
+        {
+          "key": "d",
+          "text": "Angiodisplasia"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A infecção por H. pylori não é causa de hemorragia digestiva baixa (está associada a doença péptica, causa de HDA) — sendo essa a exceção correta entre as opções listadas como causas de HDB.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_061",
+      "statement": "Paciente do sexo masculino, 70 anos, hipertenso e cardiopata, dá entrada no serviço de pronto atendimento com quadro de hematoquezia e evoluiu com vários episódios de enterorragia, há 24 horas. O paciente se encontra hipocorado ++/4, FC: 100bpm, FR: 26 irpm, PA: 110x60mmHg. Seu exame físico do abdome não revelou alterações. Realizou um hemograma que demonstrou hematócrito de 27% e hemoglobina 9g/dl. Assinale a alternativa INCORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Uma vez que o paciente apresenta instabilidade hemodinâmica, a abordagem mais efetiva para o caso é a laparotomia urgente para a definição do foco do sangramento e sua resolução."
+        },
+        {
+          "key": "b",
+          "text": "Há uma incidência crescente das hemorragias digestivas baixas no mundo devido ao aumento da idade da população associado ao uso crônico de anticoagulantes."
+        },
+        {
+          "key": "c",
+          "text": "A principal hipótese etiológica para o caso é o sangramento de divertículo no cólon direito, porém a angiodisplasia e a neoplasia de cólon são diagnósticos diferenciais."
+        },
+        {
+          "key": "d",
+          "text": "A endoscopia digestiva alta e a tomografia com contraste venoso podem fazer parte do organograma de investigação deste paciente."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Instabilidade hemodinâmica isolada não indica laparotomia de urgência como primeira medida — o protocolo padrão inclui estabilização, endoscopia alta para excluir causa proximal e depois colonoscopia/angiografia, reservando cirurgia para casos refratários — sendo essa a afirmação incorreta.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_062",
+      "statement": "Uma senhora de 48 anos de idade vem apresentando hemorragia digestiva baixa intermitente, de pequeno volume. Nunca teve instabilidade hemodinâmica. A endoscopia digestiva alta e a colonoscopia não mostraram alterações. Próximo exame que mais poderia auxiliar na identificação da causa do sangramento:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Arteriografia mesentérica seletiva."
+        },
+        {
+          "key": "b",
+          "text": "Trânsito intestinal."
+        },
+        {
+          "key": "c",
+          "text": "Angiotomografia de abdome."
+        },
+        {
+          "key": "d",
+          "text": "Ultrassonografia abdominal."
+        },
+        {
+          "key": "e",
+          "text": "Ressonância nuclear magnética."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Hemorragia digestiva baixa intermitente de pequeno volume, sem instabilidade, com EDA e colonoscopia normais, tem na angiotomografia de abdome o próximo exame mais indicado para localizar lesões vasculares ou de intestino delgado.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_063",
+      "statement": "Paciente de 78 anos, sexo masculino com quadro de sangramento vivo nas fezes há 2 dias. Nega vômitos ou outros sintomas. Tem antecedente de hipertensão arterial e constipação crônica, necessitando de laxantes para evacuar. Ao exame, encontra-se em regular estado geral, FC 105 bpm, PA 124x72 mmHg, com abdome ácido e indolor, toque retal com sangue vivo em dedo de luva e anuscopia sem doença hemorroidária ou sangramento anorretal. Qual o primeiro exame a ser solicitado para elucidação diagnóstica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Colonoscopia."
+        },
+        {
+          "key": "b",
+          "text": "Tomografia computadorizada do abdome com contraste."
+        },
+        {
+          "key": "c",
+          "text": "Endoscopia digestiva alta."
+        },
+        {
+          "key": "d",
+          "text": "Videolaparoscopia diagnóstica."
+        },
+        {
+          "key": "e",
+          "text": "Arteriografia."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Sangramento retal vivo em idoso constipado crônico, sem doença hemorroidária identificada à anuscopia, deve ter a colonoscopia como primeiro exame para investigação etiológica completa do cólon.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_064",
+      "statement": "Homem de 50 anos foi internado por hemorragia digestiva baixa grave. Trouxe exame de enema opaco: Persiste com enterorragia volumosa e instabilidade hemodinâmica, apesar do tratamento clínico. O exame proctológico é normal e a fonte de sangramento não foi localizada. Qual a conduta mais apropriada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ileostomia temporária."
+        },
+        {
+          "key": "b",
+          "text": "Colectomia total com ileostomia."
+        },
+        {
+          "key": "c",
+          "text": "Cirurgia de Hartmann."
+        },
+        {
+          "key": "d",
+          "text": "Proctocolectomia total com ileostomia."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Hemorragia digestiva baixa grave e refratária ao tratamento clínico, sem localização precisa do sítio de sangramento, tem indicação de colectomia total com ileostomia como conduta cirúrgica mais apropriada.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_065",
+      "statement": "Qual a causa específica mais comum de sangramento do intestino delgado?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Angiodisplasia."
+        },
+        {
+          "key": "b",
+          "text": "Neoplasias."
+        },
+        {
+          "key": "c",
+          "text": "Doença de Crohn."
+        },
+        {
+          "key": "d",
+          "text": "Divertículo de Meckel."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A angiodisplasia é a causa específica mais comum de sangramento originado no intestino delgado.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_066",
+      "statement": "Jonatas, masculino, tem 4 anos e foi levado ao Pronto Atendimento por sua mãe após episódio de enterorragia. A mãe relatou sangue vivo em grande quantidade no vaso sanitário, juntamente, porém não misturado, com as fezes. O menino recebeu atendimento inicial com reposição volêmica e foi internado para estabilização do quadro, que ocorreu após 48 horas, já com fezes normais. Assinale a alternativa que contém a principal suspeita e o exame complementar que deve ser solicitado para diagnóstico da mesma.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pólipos intestinais - Trânsito Intestinal contrastado."
+        },
+        {
+          "key": "b",
+          "text": "Invaginação intestinal - Ultrassonografia."
+        },
+        {
+          "key": "c",
+          "text": "Constipação com fissura perianal - Anuscopia."
+        },
+        {
+          "key": "d",
+          "text": "Divertículo de Meckel - Cintilografia."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Enterorragia volumosa com sangue não misturado às fezes em criança pequena, resolvida espontaneamente após 48h, sugere fortemente divertículo de Meckel; a cintilografia é o exame diagnóstico de escolha.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_067",
+      "statement": "Um homem de 78 anos de idade portador de brilação atrial crônica que não está em uso de anticoagulação, que procura o pronto atendimento de um hospital com quadro súbito de dor no abdome inferior seguida de diarreia sanguinolenta. O diagnóstico mais provável para esse caso, é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sangramento de divertículo do cólon direito."
+        },
+        {
+          "key": "b",
+          "text": "Angiodisplasia do ceco."
+        },
+        {
+          "key": "c",
+          "text": "Câncer de cólon ascendente."
+        },
+        {
+          "key": "d",
+          "text": "Colite isquêmica."
+        },
+        {
+          "key": "e",
+          "text": "Colite pseudomembranosa."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Dor abdominal súbita seguida de diarreia sanguinolenta em idoso com fibrilação atrial sem anticoagulação sugere colite isquêmica, por embolização ou hipoperfusão do território mesentérico.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_068",
+      "statement": "Assinale a alternativa que apresenta, corretamente, a patologia que é a causa mais frequente de hemorragia baixa maciça.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Angiodisplasias."
+        },
+        {
+          "key": "b",
+          "text": "Doença diverticular do cólon."
+        },
+        {
+          "key": "c",
+          "text": "Doença hemorroidária."
+        },
+        {
+          "key": "d",
+          "text": "Doença inflamatória intestinal."
+        },
+        {
+          "key": "e",
+          "text": "Neoplasia."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A doença diverticular do cólon é a causa mais frequente de hemorragia digestiva baixa maciça.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_069",
+      "statement": "Considere um paciente masculino de 78 anos que chega ao pronto-socorro acompanhado do lho, com história de sangue vivo nas fezes. Analise as informações abaixo que tratam de hemorragia digestiva baixa e assinale a única alternativa CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A cintilografia pode detectar sangramento digestivo em ritmo de 0,1 ml/min com acurácia variável para localização."
+        },
+        {
+          "key": "b",
+          "text": "A angiografia pode detectar sangramento digestivo em ritmo de 0,1 ml/min e possibilita o tratamento."
+        },
+        {
+          "key": "c",
+          "text": "A colonoscopia é o exame de escolha em hemorragias de grande porte."
+        },
+        {
+          "key": "d",
+          "text": "Nos sangramentos digestivos baixos abundantes, a etiologia mais comum nessa faixa etária é hemorroida."
+        },
+        {
+          "key": "e",
+          "text": "Após excluir o sangramento digestivo baixo, é fundamental realizar a endoscopia para excluir hemorragia digestiva alta."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A cintilografia pode detectar sangramentos digestivos em taxas tão baixas quanto 0,1 mL/min, com acurácia variável na localização anatômica precisa.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_070",
+      "statement": "Com relação às hemorragias digestivas baixas é correto afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A hemorragia digestiva baixa (HDB) é caracterizada por todo sangramento proveniente de área localizada entre o estômago e o ânus, podendo se manifestar como enterorragia, melena ou sangramento oculto nas fezes."
+        },
+        {
+          "key": "b",
+          "text": "podem ser classificadas de acordo com sua localização no trato gastrintestinal, sendo o íleo terminal o local de maior ocorrência (74%)."
+        },
+        {
+          "key": "c",
+          "text": "A maior parte dos casos de HDB cessa espontaneamente, porém em pacientes com risco de complicação grave, a terapia deve ser instituída para evitar recorrências. Os tratamentos mais utilizados são procedimentos hemostáticos por colonoscopia e embolização por angiografia transarterial, para sangramento mais intensos."
+        },
+        {
+          "key": "d",
+          "text": "A principal causa de HDB em adultos e idosos são as úlceras gastroduodenais (38%), seguida pela angiodisplasia. Já em adolescentes e adultos jovens (menores que 30 anos de idade), a causa mais comum é o divertículo de Meckel."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A maior parte dos casos de HDB cessa espontaneamente, mas em pacientes com risco de complicação grave, procedimentos hemostáticos por colonoscopia ou embolização por angiografia transarterial são os tratamentos mais utilizados para sangramentos mais intensos.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_071",
+      "statement": "A hemorragia digestiva (alta e baixa) é importante causa de morbidade e de atendimentos hospitalares de urgência. A caracterização em hemorragia alta ou baixa se dá por sua localização anatômica e de acordo com algumas etiologias. Assinale a alternativa que caracteriza corretamente as hemorragias digestivas.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hemorragia digestiva baixa se localiza abaixo da válvula ileocecal, podendo ser causada por angiodisplasia, doença diverticular, GIST de intestino delgado, colite isquêmica, neoplasia de cólon."
+        },
+        {
+          "key": "b",
+          "text": "Hemorragia digestiva alta se localiza acima do ângulo de Treitz, podendo ser causada por varizes esofágicas, esofagite, neoplasia gástrica, gastropatia da hipertensão portal, lesão de Dieulafoy."
+        },
+        {
+          "key": "c",
+          "text": "Hemorragia digestiva baixa se localiza acima da válvula ileocecal, podendo ser causada por angiodisplasia, doença diverticular, GIST de intestino delgado, colite isquêmica, neoplasia de cólon."
+        },
+        {
+          "key": "d",
+          "text": "Hemorragia digestiva baixa se localiza distalmente ao ângulo de Treitz, podendo ser causada por angiodisplasia, doença diverticular do cólon, lesão de Dieulafoy, síndrome de Mallory-Weiss."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A hemorragia digestiva alta se localiza acima do ângulo de Treitz e pode ser causada por varizes esofágicas, esofagite, neoplasia gástrica, gastropatia da hipertensão portal e lesão de Dieulafoy.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_072",
+      "statement": "F.G.H, 68 anos, sexo masculino, aposentado, deu entrada no serviço de urgência após ser encontrado desfalecido, em seu domicílio, em meio a grande quantidade de sangue evacuado. Apresentava PA de 100 x 60 mmHg; pulso de 112 bpm; descorado (2+/4+). Após estabilização, foi encaminhado para propedêutica. A esse respeito, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A colonoscopia tem a vantagem sobre a arteriografia por ser, potencialmente, também terapêutica."
+        },
+        {
+          "key": "b",
+          "text": "A presença de sangue na luz intestinal implica em íleo funcional, prejudicando o preparo intestinal para a realização de colonoscopia."
+        },
+        {
+          "key": "c",
+          "text": "Angiografia esclarecedora necessita de, pelo menos, sangramento ativo de cerca de 0,5 ml/min."
+        },
+        {
+          "key": "d",
+          "text": "Cintilografia tem o inconveniente de detectar somente sangramento arterial."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A colonoscopia tem vantagem sobre a arteriografia por ser potencialmente tanto diagnóstica quanto terapêutica (hemostasia endoscópica) no mesmo procedimento.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_073",
+      "statement": "Sabemos que em mais de 95% dos pacientes com hemorragia digestiva baixa a origem do sangramento encontra-se no cólon. Sendo assim, assinale a principal causa de hemorragia digestiva baixa em crianças e adultos, respectivamente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Angiodisplasia e doença diverticular."
+        },
+        {
+          "key": "b",
+          "text": "Divertículo de Meckel e angiodisplasia."
+        },
+        {
+          "key": "c",
+          "text": "Intussuscepção e doença diverticular."
+        },
+        {
+          "key": "d",
+          "text": "Intussuscepção e Colite isquêmica."
+        },
+        {
+          "key": "e",
+          "text": "Divertículo de Meckel e doença diverticular."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A principal causa de hemorragia digestiva baixa em crianças é a intussuscepção, enquanto em adultos é a doença diverticular do cólon.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_074",
+      "statement": "Com relação à hemorragia digestiva baixa, é CORRETO afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Devido à baixa resolução espontânea das hemorragias digestivas baixas, a abordagem inicial deve ser agressiva e o tratamento cirúrgico indicado de forma rotineira."
+        },
+        {
+          "key": "b",
+          "text": "Em casos de dificuldade diagnóstica por meio da colonoscopia, a angiografia possui uma sensibilidade maior que a cintilografia."
+        },
+        {
+          "key": "c",
+          "text": "Doença diverticular colônica é a principal causa de sangramento."
+        },
+        {
+          "key": "d",
+          "text": "O débito acima de 0,1 ml/min é suficiente para o diagnóstico angiográfico e posterior embolização."
+        },
+        {
+          "key": "e",
+          "text": "A realização de colonoscopia de urgência na vigência de sangramento não é possível, pois o paciente não está com o cólon preparado."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A doença diverticular colônica é a principal causa de sangramento na hemorragia digestiva baixa, respondendo pela maioria dos casos significativos.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_075",
+      "statement": "Sobre as hemorragias digestivas baixas, assinale a alternativa incorreta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hemorragia digestiva baixa é definida como um sangramento originário distalmente à válvula ileocecal."
+        },
+        {
+          "key": "b",
+          "text": "A taxa de ressangramento após o primeiro episódio de hemorragia por doença diverticular é de aproximadamente 25%."
+        },
+        {
+          "key": "c",
+          "text": "Endoclipes podem ser utilizados no tratamento endoscópico do sangramento por divertículo do cólon sigmoide."
+        },
+        {
+          "key": "d",
+          "text": "Embolização superseletiva ocorre ao nível dos vasa recta ou da artéria marginal."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A hemorragia digestiva baixa é definida como sangramento originário distalmente ao ângulo de Treitz (não à válvula ileocecal) — sendo essa a afirmação incorreta sobre a definição de HDB.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_076",
+      "statement": "Mulher, 56a, com queixa de constipação intestinal há 6 meses com hematoquezia e emagrecimento de 4 Kg. Refere hábito intestinal diário e fezes de consistência normal antes desse período. A hipótese diagnóstica e o exame complementar são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Neoplasia de cólon direito; colonoscopia."
+        },
+        {
+          "key": "b",
+          "text": "Retocolite ulcerativa; enteroressonância."
+        },
+        {
+          "key": "c",
+          "text": "Neoplasia de sigmoide; colonoscopia."
+        },
+        {
+          "key": "d",
+          "text": "Doença diverticular; enteroressonância."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Mudança do hábito intestinal com constipação, hematoquezia e emagrecimento importante em mulher de 56 anos sugerem neoplasia de sigmoide; a colonoscopia é o exame complementar indicado.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_077",
+      "statement": "Homem, 51 anos, foi submetido à retirada de um adenoma viloso de 2 cm, no ceco, por via endoscópica (a retirada se deu aos pedaços). Setenta e duas horas mais tarde, ele procurou a emergência queixando-se de hematoquezia. Estava afebril; FC = 100 bpm e PA de 110 x 60 mmHg. Seu abdome era ácido e indolor. Leucograma de 10.000/mm³. Seu hematócrito era de 24%. Foi transfundido com 2 unidades de concentrado de hemácias e internado para observação. Vinte e quatro horas mais tarde, ele continuava apresentando hematoquezia, e o hematócrito continuava 24% com seus sinais vitais inalterados. Nova transfusão foi iniciada. Considerando o exposto, o próximo passo deve ser:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Colonoscopia."
+        },
+        {
+          "key": "b",
+          "text": "Cintilografia."
+        },
+        {
+          "key": "c",
+          "text": "Angiografia."
+        },
+        {
+          "key": "d",
+          "text": "Continuar observação clínica."
+        },
+        {
+          "key": "e",
+          "text": "Colectomia direita."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Hematoquezia persistente e queda de hematócrito após polipectomia endoscópica recente, sem resposta à observação e transfusão, tem indicação de colonoscopia para localizar e tratar o sítio de sangramento pós-polipectomia.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_078",
+      "statement": "Assinale a alternativa correta. Com relação às causas de hemorragia digestiva baixa em idosos, a principal etiologia é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doença diverticular dos cólons"
+        },
+        {
+          "key": "b",
+          "text": "Angiodisplasia"
+        },
+        {
+          "key": "c",
+          "text": "Doença inflamatória intestinal"
+        },
+        {
+          "key": "d",
+          "text": "Pólipos colônicos"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A doença diverticular dos cólons é a principal etiologia de hemorragia digestiva baixa em pacientes idosos.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_080",
+      "statement": "Paciente do sexo feminino, 40 anos, evoluindo com enterorragia maciça. Fez endoscopia digestiva alta afastando hemorragia digestiva alta. Qual a principal hipótese diagnóstica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Carcinoma"
+        },
+        {
+          "key": "b",
+          "text": "Diverticulose"
+        },
+        {
+          "key": "c",
+          "text": "Diverticulite"
+        },
+        {
+          "key": "d",
+          "text": "Pólipos"
+        },
+        {
+          "key": "e",
+          "text": "Colite ulcerativa."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Enterorragia maciça em paciente de 40 anos, com endoscopia digestiva alta normal, tem a diverticulose colônica como principal hipótese diagnóstica entre as causas mais comuns de sangramento baixo maciço.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_081",
+      "statement": "Você está de plantão e recebe chamado para avaliação de uma paciente idosa em pós-operatório de artroplastia de quadril complicada por infecção de trato urinário. Vem em uso de cipro oxacino há 3 dias, através de acesso venoso periférico. O motivo do chamado é a eliminação de hemorragia digestiva, com eliminação de grande quantidade de sangue de coloração vermelha e amarronzada pelo reto. Apesar de sentir-se um pouco tonta, a paciente está consciente e orientada. Ela conta que recebeu diagnóstico de doença diverticular do cólon há cerca de 1 ano. Ao exame físico, sua pressão arterial é de 100 x 60 mmHg e a frequência cardíaca é de 110 bpm. Não há dor abdominal. Exames laboratoriais revelam hemoglobina = 9,0 g/dl e leucograma e coagulograma normais. Qual o próximo passo a ser tomado neste caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Colonoscopia."
+        },
+        {
+          "key": "b",
+          "text": "Endoscopia digestiva alta."
+        },
+        {
+          "key": "c",
+          "text": "Lavagem gástrica através de sonda nasogástrica."
+        },
+        {
+          "key": "d",
+          "text": "Hemotransfusão."
+        },
+        {
+          "key": "e",
+          "text": "Reposição volêmica."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Diante de hematoquezia com instabilidade leve (taquicardia, hipotensão discreta) em paciente com doença diverticular conhecida, a primeira conduta é a reposição volêmica para estabilização hemodinâmica, antes de exames diagnósticos específicos.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_082",
+      "statement": "Em relação à hemorragia digestiva baixa, é CORRETO afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A cintilografia com radionuclídeo detecta sangramentos mais lentos, em torno de 2 a 3ml por minuto."
+        },
+        {
+          "key": "b",
+          "text": "A angiografia pode ser tanto diagnóstica quanto terapêutica, mas requer uma taxa de sangramento de pelo menos de 1 ml por minuto."
+        },
+        {
+          "key": "c",
+          "text": "A colonoscopia é contraindicada em casos de hemorragia digestiva baixa autolimitada grave, mesmo com paciente estável."
+        },
+        {
+          "key": "d",
+          "text": "Em idosos com hemorragia digestiva baixa refratária ao tratamento clínico, a opção seria a retossigmoidectomia."
+        },
+        {
+          "key": "e",
+          "text": "A arteriografia com vasopressina pode ser eficaz na parada do sangramento, e, quando realizada com sucesso, não há necessidade de complementação diagnóstica com colonoscopia."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A angiografia pode ser tanto diagnóstica quanto terapêutica na HDB, mas requer uma taxa mínima de sangramento ativo de aproximadamente 1 mL/minuto para detecção do sítio hemorrágico.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_083",
+      "statement": "Com relação à Hemorragia Digestiva Baixa, é CORRETO afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doença diverticular cólica é a principal causa de sangramento."
+        },
+        {
+          "key": "b",
+          "text": "Devido à baixa resolução espontânea das hemorragias digestivas baixas, a abordagem inicial deve ser agressiva, e o tratamento cirúrgico indicado de forma rotineira."
+        },
+        {
+          "key": "c",
+          "text": "Em casos de dificuldade diagnóstica por meio da colonoscopia, a angiografia possui uma sensibilidade maior que a cintilografia."
+        },
+        {
+          "key": "d",
+          "text": "Colonoscopia de urgência na vigência de sangramento está indicado para diagnóstico e terapêutica."
+        },
+        {
+          "key": "e",
+          "text": "As alternativas A e D estão corretas."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A doença diverticular cólica é a principal causa de sangramento (A correta) e a colonoscopia de urgência na vigência de sangramento é indicada tanto para diagnóstico quanto para terapêutica (D correta) — tornando A e D simultaneamente corretas.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_084",
+      "statement": "Nádia, 83 anos, é internada em unidade de terapia intensiva por apresentar quadro de insu ciência coronária. Tem antecedentes de obstipação crônica em uso crônico de laxantes. Há um ano, hemorragia digestiva baixa, sendo que a colonoscopia evidenciou moléstia diverticular dos cólons. No momento, já apresentou oito episódios de evacuações sanguinolentas, havendo instabilidade hemodinâmica, com PA = 80 x 50 mmHg e FC = 120 bpm. O exame enviado ao laboratório mostrou Hb = 6,8 g, sendo que no dia anterior era de 12,3 g. O plantonista da UTI já solicitou endoscopia digestiva alta, que evidenciou gastrite leve de antro sem sinais de sangramento. Qual seria a conduta mais indicada, além da reposição de sangue?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Colonoscopia."
+        },
+        {
+          "key": "b",
+          "text": "Hemicolectomia esquerda."
+        },
+        {
+          "key": "c",
+          "text": "Hemicolectomia direita."
+        },
+        {
+          "key": "d",
+          "text": "Colectomia subtotal."
+        },
+        {
+          "key": "e",
+          "text": "Colectomia total."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Diante de HDB maciça refratária com instabilidade hemodinâmica grave e doença diverticular difusa sem localização precisa do sangramento, a colectomia total é a conduta cirúrgica mais indicada quando não há tempo/condição para localização precisa pré-operatória.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_085",
+      "statement": "Márcio, 65 anos, apresenta episódio de Hemorragia Digestiva Baixa (HDB) com repercussão hemodinâmica que foi controlada com tratamento clínico, não necessitando de transfusão sanguínea. A causa mais comum de HDB para esse paciente é a",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doença hemorroidária."
+        },
+        {
+          "key": "b",
+          "text": "Angiodisplasias."
+        },
+        {
+          "key": "c",
+          "text": "Neoplasia do cólon"
+        },
+        {
+          "key": "d",
+          "text": "Doença diverticular."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Hemorragia digestiva baixa controlada com tratamento clínico, sem necessidade de transfusão, em paciente de 65 anos, tem a doença diverticular como causa mais comum nessa apresentação e faixa etária.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_086",
+      "statement": "Paciente do sexo feminino, de cinquenta e três anos de idade, com quadro de anemia crônica por de ciência de ferro, compareceu a serviço médico, apresentando pesquisa de sangue oculto nas fezes com resultado positivo e os resultados de três videoendoscopias digestivas altas e duas colonoscopias, que indicaram boas condições de preparo, sem evidências de fonte de sangramento visível. Os exames foram realizados em um centro de referência para hemorragia digestiva. A paciente negou ocorrência anterior de sangramento digestivo visível. Considerando esse caso clínico, julgue o seguinte item. Em relação à abordagem clínica dessa paciente, o exame mais adequado para se estabelecer o diagnóstico inicial seria a enteroscopia.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de anemia ferropriva crônica com múltiplas endoscopias e colonoscopias normais, a enteroscopia (ou cápsula endoscópica) é o exame mais adequado para investigar o intestino delgado como possível fonte oculta de sangramento.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_087",
+      "statement": "Paciente de 78 anos, sexo feminino, é internada com quadro de enterorragia volumosa, que cursou com queda de hemoglobina e instabilidade hemodinâmica. Dentre as causas de sangramento colorretal, assinale a causa mais comum de sangramento grave:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Angiodisplasia colônica."
+        },
+        {
+          "key": "b",
+          "text": "Hemorroida interna."
+        },
+        {
+          "key": "c",
+          "text": "Colite isquêmica."
+        },
+        {
+          "key": "d",
+          "text": "Diverticulose."
+        },
+        {
+          "key": "e",
+          "text": "Úlceras retais."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A diverticulose é a causa mais comum de sangramento colorretal grave e volumoso, superando angiodisplasia, hemorroida, colite isquêmica e úlceras retais nessa apresentação.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_088",
+      "statement": "Paciente sexo feminino, 60 anos, refere hematoquezia há 3 meses, sem outros comemorativos. Das opções abaixo, qual a medida inicial mais adequada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar colonoscopia."
+        },
+        {
+          "key": "b",
+          "text": "Solicitar retossigmoidoscopia."
+        },
+        {
+          "key": "c",
+          "text": "Dosagem de CEA (Antígeno Carcinoembrionário)."
+        },
+        {
+          "key": "d",
+          "text": "Realizar toque retal."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de hematoquezia persistente por três meses, mesmo sem outros sintomas, a realização do toque retal é a medida inicial mais básica e imediata do exame físico antes de solicitar exames complementares.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_089",
+      "statement": "Qual das seguintes afirmações está CORRETA em relação às angiodisplasias do cólon?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Fulguração da angiodisplasia deve ser realizada durante uma colonoscopia eletiva, independentemente da história de sangramento anterior."
+        },
+        {
+          "key": "b",
+          "text": "O sangramento da angiodisplasia é mais comum no lado esquerdo do paciente idoso."
+        },
+        {
+          "key": "c",
+          "text": "Uma angiografia normal durante um sangramento ativo exclui angiodisplasia como causa de hemorragia."
+        },
+        {
+          "key": "d",
+          "text": "As angiodisplasias variam de 1,5 a 2 mm e histologicamente são caracterizadas por capilares dilatados e tortuosos localizados na lâmina própria."
+        },
+        {
+          "key": "e",
+          "text": "Nenhuma das alternativas acima está correta."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "As angiodisplasias colônicas medem tipicamente entre 1,5 e 2mm e são caracterizadas histologicamente por capilares dilatados e tortuosos localizados na lâmina própria da mucosa.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_090",
+      "statement": "Em qual das complicações da doença diverticular do cólon pode ser indicado o tratamento clínico?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hemorragia."
+        },
+        {
+          "key": "b",
+          "text": "Perfuração do divertículo."
+        },
+        {
+          "key": "c",
+          "text": "Carcinoma concomitante."
+        },
+        {
+          "key": "d",
+          "text": "Obstrução intestinal."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Entre as complicações da doença diverticular, a hemorragia é a que mais frequentemente pode ser tratada de forma conservadora/clínica (ou endoscópica), diferente de perfuração, carcinoma concomitante e obstrução, que geralmente exigem abordagem cirúrgica.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_091",
+      "statement": "Mulher de 79 anos foi admitida no PS com queixa de eliminação de sangue vivo e coágulos pelo reto há 4 horas. Referia tontura e fraqueza acompanhando o quadro. Tem como antecedente apenas hipertensão arterial leve. Ao exame clínico, apresentava-se contactante, descorada ++/4+; FC: 100 bpm; PA: 100 x 60 mmHg e com sangue vivo ao toque retal sem outras alterações. Abdome sem particularidades. Extremidades: apenas varizes de membros inferiores e perfusão periférica satisfatória. Exames laboratoriais: Hb: 7,2 mg/dl; glicemia: 110 mg/dl; creatinina: 1,2 mg/dl. Com relação ao caso, podemos afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A confirmação da enterorragia pelo médico afasta a necessidade da realização de endoscopia digestiva alta."
+        },
+        {
+          "key": "b",
+          "text": "Apesar do quadro sugerir um sangramento súbito e volumoso, ele tende a ser autolimitado."
+        },
+        {
+          "key": "c",
+          "text": "A colonoscopia está contraindicada na vigência de sangramento pelo risco de perfuração do cólon."
+        },
+        {
+          "key": "d",
+          "text": "Está indicada a reposição de sangue, para estabilização clínica, seguida do tratamento operatório, pois esses sangramentos são recorrentes."
+        },
+        {
+          "key": "e",
+          "text": "Considerando a idade da doente e o quadro clínico, a angiotomografia é superior à colonoscopia para o diagnóstico e tratamento da enterorragia."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O quadro sugere sangramento diverticular súbito e volumoso, que classicamente tende a ser autolimitado, cessando espontaneamente na maioria dos casos mesmo quando inicialmente intenso.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_092",
+      "statement": "Pré-escolar, 4 anos, previamente hígida, apresenta sangramento retal importante, com queda signi cativa do hematócrito. Endoscopia digestiva alta e colonoscopia normais. O diagnóstico mais provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pólipo juvenil."
+        },
+        {
+          "key": "b",
+          "text": "Divertículo de Meckel."
+        },
+        {
+          "key": "c",
+          "text": "Hiperplasia nodular linfoide."
+        },
+        {
+          "key": "d",
+          "text": "Doença de Crohn."
+        },
+        {
+          "key": "e",
+          "text": "Úlcera duodenal."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Sangramento retal importante com queda significativa do hematócrito em pré-escolar, com EDA e colonoscopia normais, sugere hiperplasia nodular linfoide como diagnóstico mais provável nessa faixa etária quando os exames-padrão são negativos.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_093",
+      "statement": "Um homem de 45 anos refere enterorragia há 1 dia. Diz ter dor abdominal discreta, difusa, em cólica. Nega episódios anteriores de perda de sangue nas fezes. É hipertenso, tabagista e etilista social. Está em regular estado geral, descorado, eupneico, um pouco ansioso. P: 110 bpm; PA: 90 × 70 mmHg. O abdome é ácido e indolor à palpação. Toque retal: sangue vivo, sem massas. Conduta, após a reanimação volêmica:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Colonoscopia."
+        },
+        {
+          "key": "b",
+          "text": "Arteriografia."
+        },
+        {
+          "key": "c",
+          "text": "Endoscopia digestiva alta."
+        },
+        {
+          "key": "d",
+          "text": "Cintilografia."
+        },
+        {
+          "key": "e",
+          "text": "Angiotomografia."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Enterorragia com dor abdominal discreta em cólica, sem massas ao toque retal, após reanimação volêmica, tem a colonoscopia como próxima conduta diagnóstica indicada.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_094",
+      "statement": "Mulher, 68 anos, com anemia ferropriva. Sangue oculto nas fezes positivo. Endoscopia digestiva alta e colonoscopia normais. Qual a recomendação inicial frente a este caso clínico?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Radiografia de trânsito intestinal."
+        },
+        {
+          "key": "b",
+          "text": "Realização de cápsula endoscópica."
+        },
+        {
+          "key": "c",
+          "text": "Infusão de ferro e controle laboratorial em 1 ano."
+        },
+        {
+          "key": "d",
+          "text": "Prescrição de estrogênio por suspeita de angiodisplasia intestinal."
+        },
+        {
+          "key": "e",
+          "text": "Exploração cirúrgica do intestino delgado por provável neoplasia."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Anemia ferropriva com sangue oculto positivo e EDA/colonoscopia normais tem na cápsula endoscópica a recomendação inicial para investigar o intestino delgado como fonte do sangramento oculto.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_095",
+      "statement": "Matheus, 85 anos, chega ao pronto-socorro com hemorragia digestiva baixa de grande volume e instabilidade hemodinâmica, sem resposta adequada às medidas de reposição. Qual a conduta CORRETA?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Colonoscopia."
+        },
+        {
+          "key": "b",
+          "text": "Arteriografia."
+        },
+        {
+          "key": "c",
+          "text": "Colectomia total de urgência."
+        },
+        {
+          "key": "d",
+          "text": "Colectomia parcial (a ser avaliado no ato da cirurgia) de urgência."
+        },
+        {
+          "key": "e",
+          "text": "Cintilografia."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Hemorragia digestiva baixa maciça com instabilidade hemodinâmica refratária às medidas de reposição, sem tempo para localização precisa, tem indicação de colectomia total de urgência como conduta salvadora.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_096",
+      "statement": "Paciente feminina de 40 (quarenta) anos apresenta dor ao evacuar e enterorragia separada das fezes. Qual é a provável causa da entororragia?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Adenocarcinoma de reto."
+        },
+        {
+          "key": "b",
+          "text": "Divertículo de cólon."
+        },
+        {
+          "key": "c",
+          "text": "Angiodisplasia de ceco."
+        },
+        {
+          "key": "d",
+          "text": "Pólipo colônico."
+        },
+        {
+          "key": "e",
+          "text": "Fissura"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Dor ao evacuar associada a sangramento vivo separado das fezes é quadro clássico de fissura anal, causa comum e benigna de hematoquezia leve.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_097",
+      "statement": "A causa mais comum da hemorragia maciça no trato gastrointestinal baixo é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Câncer."
+        },
+        {
+          "key": "b",
+          "text": "Diverticulose."
+        },
+        {
+          "key": "c",
+          "text": "Diverticulite."
+        },
+        {
+          "key": "d",
+          "text": "Pólipo."
+        },
+        {
+          "key": "e",
+          "text": "Colite ulcerativa."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A diverticulose é a causa mais comum de hemorragia maciça do trato gastrointestinal baixo.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_098",
+      "statement": "ICJU, 49 anos, gênero masculino, fazendeiro, apresentou dois episódios consecutivos de enterorragia e procurou posto médico imediatamente. Ao exame, apresentava-se taquicárdico, hipotenso (PA: 100 X 70 mmHg) e com sudorese fria. Foram colhidas amostras de sangue para exame e passado cateter nasogástrico para aspiração. A secreção gástrica aspirada não apresentava sangue. Os exames mostraram hemoglobina de 11,9 g/dl e hematócrito de 42%, com 600.000/mm³ plaquetas. Global de leucócitos de 11.300/mm³. Em relação a este caso, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Há indicação de cintilografia com hemácias marcadas, que indicará a exata localização anatômica do sangramento."
+        },
+        {
+          "key": "b",
+          "text": "Hematócrito normal com trombocitose e leucocitose sugere fortemente quadro infeccioso associado."
+        },
+        {
+          "key": "c",
+          "text": "O aspirado gástrico negativo para sangue exclui o diagnóstico de hemorragia digestiva alta."
+        },
+        {
+          "key": "d",
+          "text": "O hematócrito geralmente sofre alterações mais lentas que as alterações na contagem global de leucócitos."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O hematócrito sofre alterações mais lentas que a contagem de leucócitos após um sangramento agudo, já que reflete a diluição plasmática progressiva, não a perda sanguínea imediata — explicando por que o hematócrito inicial pode estar normal logo após hemorragia aguda.",
+      "theme": "int_hdb",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdb_099",
+      "statement": "Em relação à paciente com anemia ferropriva, sem causa aparente, refratária ao tratamento com ferro oral, deve ser considerada a seguinte doença:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doença de Whipple."
+        },
+        {
+          "key": "b",
+          "text": "Polipose familiar."
+        },
+        {
+          "key": "c",
+          "text": "Doença celíaca."
+        },
+        {
+          "key": "d",
+          "text": "Angiodisplasia gastrointestinal."
+        },
+        {
+          "key": "e",
+          "text": "Linfoma do intestino delgado."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Anemia ferropriva refratária ao ferro oral, sem causa aparente, deve levantar suspeita de doença celíaca, causa de má absorção de ferro no duodeno que compromete a resposta à reposição oral.",
+      "theme": "int_hdb",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}
