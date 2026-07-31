@@ -1306,6 +1306,1902 @@
       "reviewed": false,
       "created_at": "2026-07-28T00:00:00.000Z",
       "source": "SCMM R1 2024"
+    },
+    {
+      "id": "dmca_001",
+      "statement": "Durante plantão na emergência, um médico está tratando um escolar de oito anos, em cetoacidose diabética, com infusão contínua de insulina regular. Os exames laboratoriais de admissão indicaram: glicose sérica = 510mg/dL, gasometria venosa com pH = 7,25 e cetonúria de 4+. Após quatro horas de infusão de soro siológico e insulina, a glicose caiu para 215mg/dL e o pH estabilizou em 7,32, embora as cetonas permanecessem elevadas. A conduta, nesse momento, deve ser:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Manter infusão de insulina regular IV + soro fisiológico IV."
+        },
+        {
+          "key": "b",
+          "text": "Trocar a insulina regular IV para insulina de ação prolongada IM + soro fisiológico IV."
+        },
+        {
+          "key": "c",
+          "text": "Manter infusão de insulina regular IV e associar glicose a 5% ao soro fisiológico IV."
+        },
+        {
+          "key": "d",
+          "text": "Trocar a insulina regular IV para insulina NPH IM + solução de glicose a 5%."
+        },
+        {
+          "key": "e",
+          "text": "Nenhuma das anteriores."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Glicemia em queda com pH em melhora, mas cetonas ainda elevadas, indica que a cetoacidose ainda não foi resolvida; deve-se manter a infusão de insulina regular IV e associar glicose a 5% ao soro para permitir continuar a insulina sem causar hipoglicemia.",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_002",
+      "statement": "Paciente, 18 anos, é trazida ao Serviço de Emergência do HUAP/UFF com náuseas e vômitos, dor abdominal difusa de moderada intensidade e taquipneia. Relata ainda, no último mês, poliúria e polidipsia. Ao exame físico, hipohidratada (2+/4+), com hálito cetônico, respiração de Kussmaul, PA = 88x56mmHg, FC = 115bpm, dor abdominal difusa sem sinais de irritação peritoneal. Sobre o tratamento dessa paciente é correto afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "é desnecessária a reposição de potássio caso este esteja normal."
+        },
+        {
+          "key": "b",
+          "text": "deve ser feita a reposição de bicarbonato caso o pH seja menor que 7,3."
+        },
+        {
+          "key": "c",
+          "text": "deve ser iniciada insulina venosa imediatamente."
+        },
+        {
+          "key": "d",
+          "text": "deve ser iniciada hidratação venosa com solução salina a 0,9%."
+        },
+        {
+          "key": "e",
+          "text": "deve ser interrompida a infusão de insulina tão logo haja normalização da glicemia."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O tratamento inicial da cetoacidose diabética no adulto começa com hidratação venosa vigorosa com solução salina a 0,9%, antes mesmo de iniciar a insulina, para corrigir a depleção volêmica.",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_003",
+      "statement": "A cetoacidose diabética (CAD) é um conjunto de alterações clínico-laboratoriais decorrentes da insu ciente ação insulínica e do aumento da produção de hormônios contrarreguladores da insulina, em resposta a alguma situação de estresse. Sobre este assunto, é correto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A reposição de insulina pode ser iniciada juntamente à fase de expansão ou na segunda hora do tratamento, após a expansão inicial."
+        },
+        {
+          "key": "b",
+          "text": "Recomenda-se a administração de insulina regular por via subcutânea."
+        },
+        {
+          "key": "c",
+          "text": "As principais causas de CAD são infecções (virais ou bacterianas) e falta de adesão ao tratamento, ocorrendo com mais frequência em indivíduos com diabetes mellitus tipo 2."
+        },
+        {
+          "key": "d",
+          "text": "A reposição de bicarbonato deve ser feita quando o pH for menor ou igual a 7,3."
+        },
+        {
+          "key": "e",
+          "text": "O valor da glicemia, como critério diagnóstico de cetoacidose diabética, deve ser maior que 600 mg/dl."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na CAD, a insulina deve ser iniciada após a expansão volêmica inicial (na primeira hora ou início da segunda hora), nunca por via subcutânea, e o bicarbonato é reservado para pH ≤ 6,9-7,0 (não simplesmente ≤7,3); a alternativa correta reconhece o momento de início da insulina em relação à expansão.",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_004",
+      "statement": "Um paciente de dezesseis anos de idade foi levado ao pronto-socorro, por seu treinador de basquete, com quadro de queda do estado geral, dor abdominal e náuseas, iniciadas há um dia. O treinador contou que estão na cidade, instalados em um hotel próximo, por causa dos jogos escolares da temporada e que notou que, há três dias, o jovem vinha apresentando aumento da ingesta hídrica e “várias idas ao banheiro para urinar”, algumas delas durante a última partida de basquete, dois dias antes. Disse também que os pais do garoto moram em uma cidade vizinha e os encontrarão no hospital, mas já adiantaram que o paciente não faz nenhum tratamento médico, que suas vacinas estão atualizadas e que ele sempre foi um garoto saudável. Ao exame físico, o jovem encontrava-se sonolento, desidratado (+++/4) , com frequência cardíaca de 110 bpm, frequência respiratória de 22 ipm, pressão arterial de 95 x 50 mmHg e dextro 324 mg/dL. Urina 1 mostrou presença de glicosúria e cetonúria 3+. O laboratório mostrou os seguintes resultados: pH 7,22; bicarbonato 14 mEq/L; sódio sérico 135 mmol/L; e potássio sérico 4,5 mmol/L. Com base nesse caso hipotético, assinale a alternativa que apresenta, respectivamente, o diagnóstico mais provável e o tratamento inicial na sala de emergência.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "cetoacidose diabética e hidratação oral e insulina NPH subcutânea"
+        },
+        {
+          "key": "b",
+          "text": "estado hiperglicêmico hiperosmolar e hidratação venosa com solução salina e insulina regular EV em bomba de infusão contínua"
+        },
+        {
+          "key": "c",
+          "text": "cetoacidose diabética e hidratação venosa com solução salina e insulina regular EV em bomba de infusão contínua"
+        },
+        {
+          "key": "d",
+          "text": "estado hiperglicêmico hiperosmolar e hidratação venosa com solução salina e insulina NPH subcutânea"
+        },
+        {
+          "key": "e",
+          "text": "cetoacidose diabética e hidratação venosa com solução salina e insulina NPH subcutânea"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Poliúria/polidipsia com desidratação, hálito cetônico, glicemia 324, pH 7,22 e bicarbonato baixo em adolescente confirmam cetoacidose diabética; o tratamento inicial é hidratação venosa com solução salina e insulina regular em bomba de infusão contínua.",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_005",
+      "statement": "Mulher de 20 anos está em tratamento para cetoacidose diabética desencadeada por infecção urinária. Recebe insulina endovenosa, hidratação e reposição de potássio. Está consciente, orientada e hemodinamicamente estável. A gasometria e os exames laboratoriais mostram: pH 7,32, bicarbonato 14 mEq/L, cloro 115 mEq/L, sódio 139 mEq/L, glicemia 150 mg/dL, albumina: 4,0 g/dL. Os exames laboratoriais sugerem que a paciente",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "recebeu excesso de hidratação com cloreto de sódio."
+        },
+        {
+          "key": "b",
+          "text": "permanece em cetoacidose diabética."
+        },
+        {
+          "key": "c",
+          "text": "ainda está desidratada."
+        },
+        {
+          "key": "d",
+          "text": "está em sepse de foco urinário."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "pH normalizado (7,32) mas bicarbonato ainda baixo (14) e cloro elevado (115) sugerem acidose hiperclorêmica dilucional, um efeito esperado do excesso de hidratação com cloreto de sódio durante o tratamento da CAD.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_006",
+      "statement": "Em um atendimento ambulatorial de rotina, um paciente adulto, jovem, aguardando atendimento na sala de espera, evoluiu com palidez, diaforese e torpor. Refere ser diabético insulinodependente e relata que saiu atrasado de casa e, por isso, não se alimentou pela manhã, tendo aplicado normalmente suas doses habituais de insulina NPH humana na noite anterior e nesta manhã. Foi realizada a dosagem de glicemia capilar, com resultado de 50 mg/dL. O paciente foi, então, encaminhado para o atendimento urgente, administrando-se solução de glicose 50% endovenosa e revertendo-se o quadro hipoglicêmico, com normalização dos níveis glicêmicos e melhora do estado geral. Com base nesse caso hipotético, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Devem ser investigadas no paciente outras causas de hipoglicemia, pois medicamentos hipoglicemiantes são as causas menos comuns em adultos."
+        },
+        {
+          "key": "b",
+          "text": "No jovem, a hipoglicemia autoimune é a causa mais comum de hipoglicemia."
+        },
+        {
+          "key": "c",
+          "text": "Deve ser realizado um exame de imagem para se excluir insulinoma, causa comum em indivíduos sabidamente diabéticos e já medicados."
+        },
+        {
+          "key": "d",
+          "text": "Deve ser suspensa a insulinoterapia e iniciado um hipoglicemiante oral."
+        },
+        {
+          "key": "e",
+          "text": "O paciente apresentou a tríade de Whipple: sinais e sintomas de hipoglicemia; níveis glicêmicos baixos (< 55 mg/dL); e resolução do quadro quando a normoglicemia foi estabelecida."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "O quadro de hipoglicemia sintomática (palidez, diaforese, torpor), com glicemia baixa confirmada e resolução completa com a correção glicêmica, caracteriza a tríade de Whipple, critério clínico clássico para hipoglicemia verdadeira.",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_007",
+      "statement": "Menina, 6 anos de idade, com antecedente de Diabetes Mellitus tipo 1, em uso regular de insulina NPH, foi admitida no serviço de emergência há 2 horas, devido a quadro de vômitos e dor abdominal há 3 dias. Os exames coletados e as medidas realizadas na sala de emergência estão descritos na tabela abaixo. Ao exame, paciente encontra-se em regular estado geral, mucosas secas, FC: 115bpm, frequência respiratória de 35 ipm, PA 90/50 mmHg, tempo de enchimento capilar de 4 segundos. Queixa-se apenas de fraqueza. Dentre as medidas a serem realizadas na terceira hora, inclui-se:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Suspender insulinoterapia."
+        },
+        {
+          "key": "b",
+          "text": "Introduzir dieta pobre em potássio."
+        },
+        {
+          "key": "c",
+          "text": "Adicionar glicose à fluidoterapia."
+        },
+        {
+          "key": "d",
+          "text": "Adicionar bicarbonato à fluidoterapia."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Na fase de manutenção do tratamento da CAD pediátrica, com melhora clínica e laboratorial, adiciona-se glicose à fluidoterapia para permitir continuar a infusão de insulina sem risco de hipoglicemia.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_008",
+      "statement": "Em relação ao tratamento da cetoacidose diabética, é correto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "o uso de bicarbonato deve ser reservado para pH < 7,20."
+        },
+        {
+          "key": "b",
+          "text": "para correção da desidratação, deve ser realizada solução de NaCℓ a 0,45%."
+        },
+        {
+          "key": "c",
+          "text": "em casos leves a moderados, o tratamento pode ser realizado com insulina intramuscular."
+        },
+        {
+          "key": "d",
+          "text": "a hiperpotassemia é complicação frequente do tratamento."
+        },
+        {
+          "key": "e",
+          "text": "o uso de soro glicosado a 5% deve ser reservado para casos de hipoglicemia."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O uso de insulina por via intramuscular pode ser considerado em casos leves a moderados de CAD quando não há acesso a bomba de infusão contínua, embora a via intravenosa seja preferencial nos casos graves.",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_009",
+      "statement": "Dois pacientes (pacientes A e B) deram entrada no pronto-socorro com descompensação diabética grave. Paciente A: mulher, 15 anos, quadro de poliúria e polidipsia, dor abdominal, hálito cetônico e glicemia sérica 625 mg/dL. Paciente B: mulher, 75 anos, portadora de diabetes mellitus tipo 2 desde os 50 anos de idade, com quadro de pólis, glicemia sérica de 1.200 mg/dL. Considerando-se as informações, assinale a alternativa CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Parâmetro: Ânion gap (mEq/L); Paciente A: < 12; Paciente B: >12"
+        },
+        {
+          "key": "b",
+          "text": "Parâmetro: Osmolaridade (mOsm/L); Paciente A: >320; Paciente B: <320"
+        },
+        {
+          "key": "c",
+          "text": "Parâmetro: Potássio (mEq/L); Paciente A: 3,1; Paciente B: 6"
+        },
+        {
+          "key": "d",
+          "text": "Parâmetro: pH; Paciente A: >7,3; Paciente B: <7,3"
+        },
+        {
+          "key": "e",
+          "text": "Parâmetro: Déficit de água (mL/kg); Paciente A: 200; Paciente B: 100"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Paciente jovem com hiperglicemia extrema (625) e cetoacidose apresenta hipopotassemia relativa (K real baixo apesar do sérico possivelmente normal/alto pela acidose), enquanto idosa com EHH (1200) tem menor depleção de potássio corporal — o parâmetro potássio reflete essa diferença fisiopatológica entre os quadros.",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_010",
+      "statement": "Mulher, 19 anos, procura a emergência por poliúria, polidipsia, náuseas, vômitos e dor abdominal. Está em tratamento irregular para diabete melito tipo 1. Apresenta-se desidratada, com hálito cetônico e com respiração de Kussmaul. Exames iniciais: glicemia capilar 420 mg/dL, pH arterial 7.25, bicarbonato de 8 mEq/L, cetonúria positiva mas com débito urinário normal. Em relação ao manejo inicial dessa paciente, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "É necessária a reposição de bicarbonato neste momento."
+        },
+        {
+          "key": "b",
+          "text": "A reposição de fluidos deve ser feita com solução de NaCl 0,45%."
+        },
+        {
+          "key": "c",
+          "text": "É importante medir o potássio antes de iniciar a infusão IV de insulina pelo risco de arritmias."
+        },
+        {
+          "key": "d",
+          "text": "Quando a glicemia plasmática estiver abaixo de 250 mg/dL e a cetonemia for negativa, pode-se descontinuar a infusão de insulina IV."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Antes de iniciar a infusão intravenosa de insulina na CAD, é fundamental verificar o nível de potássio sérico, pelo risco de hipopotassemia grave e arritmias quando a insulina desloca o potássio para o intracelular.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_011",
+      "statement": "Paciente 16 anos com quadro agudo de náuseas, vômitos, fraqueza e dor abdominal. Chega ao PA desidratado e hálito cetônico. HGT 542, gasometria ph 7.0, HCO3 12. A respeito da condição que afeta o adolescente, faz parte de sua fisiopatologia",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "o aumento da osmolaridade urinária"
+        },
+        {
+          "key": "b",
+          "text": "a redução glucagon"
+        },
+        {
+          "key": "c",
+          "text": "a redução gliconeogenese"
+        },
+        {
+          "key": "d",
+          "text": "a redução de GH"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na fisiopatologia da cetoacidose diabética, ocorre redução do glucagon insulina-dependente... na verdade, o aumento (não redução) do glucagon e da gliconeogênese hepática são centrais na fisiopatologia — a alternativa correta reflete o aumento da osmolaridade urinária secundária à glicosúria osmótica.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_012",
+      "statement": "Menina de 5 anos comparece ao pronto-socorro com queixa de náusea, vômitos e dor abdominal há 1 dia, com piora agora após ingerir doce em uma festa infantil. Nega diarreia. Refere urina em grande quantidade, e voltou a ter enurese noturna há 1 semana. Nega alteração da cor ou odor da urina. Ao exame: criança desidratada de 2° grau, hipoativa, porém pedindo para beber água, taquicárdica, porém sem alterações na ausculta cardíaca, taquipneica, porém sem alterações na ausculta pulmonar, abdome doloroso a palpação profunda difusamente, sem outras alterações. Qual sua principal hipótese diagnóstica e conduta nesse caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Diabetes Mellitus, solicitar para colher glicemia amanhã após jejum de 8 horas."
+        },
+        {
+          "key": "b",
+          "text": "Gastroenterocolite Aguda (GECA, soro de rehidratação via oral)."
+        },
+        {
+          "key": "c",
+          "text": "Diabetes Mellitus, realizar glicemia agora."
+        },
+        {
+          "key": "d",
+          "text": "Gastroenterocolite Aguda (GECA, soro de rehidratação endovenoso)."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Poliúria com enurese noturna recente, desidratação e dor abdominal em criança, associada a doce ingerido recentemente, justificam a realização IMEDIATA da glicemia (não aguardar jejum), dada a alta suspeita de diabetes mellitus descompensado.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_013",
+      "statement": "Fernanda, oito anos, é trazida à emergência, após ser encontrada desacordada em casa. A família informa que a criança tem DM tipo 01. Ao exame físico: EGMau, sonolenta, desidratada, taquipneica, hálito frutado. AR: MV+ diminuído em base esquerda com crepitantes nos, FR: 28 ipm, Sat.O2: 92% (ar ambiente). ACV: RCR 2T BNF, sem sopros, FC: 130 bpm, TPC: 4 segundos, PA: 85:55 mmHg. Os exames laboratoriais de admissão mostraram: Glicemia = 600 mg/dL, pH = 7,25, Cetonas = 4+ na urina. Após quatro horas de infusão de soro siológico e insulina, a glicose caiu para 235mg/dL e o pH estabilizou em 7,32, com corpos cetônicos ainda presentes na urina. A conduta, nesse momento, deve ser:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Trocar a insulina IV para insulina de ação prolongada IM + solução de glicose a 5%."
+        },
+        {
+          "key": "b",
+          "text": "Manter infusão de insulina IV e associar glicose a 5% ao soro fisiológico IV."
+        },
+        {
+          "key": "c",
+          "text": "Trocar a insulina IV para insulina de ação prolongada IM + soro fisiológico IV."
+        },
+        {
+          "key": "d",
+          "text": "Manter infusão de insulina IV + soro fisiológico IV."
+        },
+        {
+          "key": "e",
+          "text": "Nenhuma das anteriores está correta."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Glicemia em queda com pH melhorando, mas cetonas urinárias ainda presentes, mantendo o padrão de tratamento em curso, indica manter a infusão de insulina IV associada à soro fisiológico IV, sem trocar via de administração.",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_014",
+      "statement": "Homem de 50 anos, com cetoacidose diabética, está recebendo solução salina a 0,45% e insulina regular endovenosa na dose de 0,1 U/kg/h. Exames laboratoriais atuais: sódio 140 mmol/L, potássio 4,0 mmol/L, glicose 180 mg/dL, pH 7,28 e bicarbonato 10 mmol/L. As próximas medidas são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "manter insulina 0,1 U/kg/h e iniciar suplementação de potássio."
+        },
+        {
+          "key": "b",
+          "text": "manter insulina 0,1 U/kg/h e iniciar suplementação de soro glicosado."
+        },
+        {
+          "key": "c",
+          "text": "reduzir insulina para 0,05 U/kg/h e iniciar suplementação de soro glicosado e de potássio."
+        },
+        {
+          "key": "d",
+          "text": "reduzir insulina para 0,05 U/kg/h, trocar solução salina a 0,45% para soro fisiológico e iniciar suplementação de potássio."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Redução do bicarbonato/pH com glicemia já controlada (180) indica reduzir a dose de insulina (para 0,05 U/kg/h), iniciar soro glicosado para evitar hipoglicemia, e continuar suplementação de potássio, mantendo a correção da acidose residual.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_015",
+      "statement": "Paciente de 18 anos deu entrada no PS com dor abdominal e vômitos. Ao exame físico apresenta-se com respiração acidótica, FR= 27 mov/min, FC= 120 bat/min. Os exames iniciais mostraram glicemia: 370mg/dl, glicosúria ++++ e cetonúria ++++. Após ser medicada com hidratação e insulina regular, novos exames foram realizados: glicemia: 170mg/dl, glicosúria ausente e cetonúria ++++. A conduta mais adequada neste momento é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solução de Na Cl 0,9% + insulina regular EV"
+        },
+        {
+          "key": "b",
+          "text": "Solução de glicose a 5% + insulina regular EV"
+        },
+        {
+          "key": "c",
+          "text": "Solução NaCl 0,9% + solução de glicose a 5% + insulina regular EV"
+        },
+        {
+          "key": "d",
+          "text": "Solução de NaCl 0,9% + insulina regular SC"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Melhora da glicemia (170) mas cetonúria ainda muito positiva (persistência de cetose) indica associar soro glicosado à solução salina e manter insulina regular EV, permitindo continuar tratando a cetoacidose sem causar hipoglicemia.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_016",
+      "statement": "Com relação à cetoacidose diabética, podemos afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Está comprovado que os análogos da insulina, de ação ultra-rápida, são melhores que a insulina regular, levando a uma compensação mais rápida."
+        },
+        {
+          "key": "b",
+          "text": "O tratamento com bicarbonato de sódio não deve ser protelado se o paciente estiver com um pH de sangue arterial menor que 7,20."
+        },
+        {
+          "key": "c",
+          "text": "O sódio total corporal costuma estar elevado."
+        },
+        {
+          "key": "d",
+          "text": "O potássio sérico costuma diminuir, após a compensação da acidose."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O potássio sérico costuma diminuir após a compensação da acidose e início da insulinoterapia, já que a correção da acidose e a ação insulínica deslocam potássio para o meio intracelular, exigindo monitorização e reposição.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_017",
+      "statement": "Paciente de 15 anos, gênero feminino, admitida no departamento de emergência por quadro de confusão mental, dor abdominal intensa de localização difusa associado à dispnéia. Segundo a família, a paciente já apresentava há 2 meses queixas de poliúria, polidipsia e perda de 8 kg no período. Ao exame físico percebia-se desidratada +++/4+, FC = 120bpm, FR = 30ipm, PA = 110x70, abdome doloroso difusamente sem visceromegalias ou descompressão brusca dolorosa. Exames laboratoriais: hemograma (Ht = 44%, leucócitos totais = 18.000 com 76% de segmentados, plaquetas = 220 mil), glicemia = 380mg/dl, Na = 144mmol/L, K = 3,8mmol/L, creatinina = 1,4mg/dl, bilirrubina total = 1,0mg/dl e gasometria arterial pH = 7,15, pO₂ = 80mmHg, pCO₂ = 17mmHg, HCO₃ = 6mEq/L, sat O₂ = 94%. Com relação à conduta deste caso assinale a alternativa correta",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Após expansão salina inicial na primeira hora a hidratação deste paciente deve ser realizada com solução salina a 0,45%."
+        },
+        {
+          "key": "b",
+          "text": "Não será possível a introdução da insulinoterapia sem antes repor potássio."
+        },
+        {
+          "key": "c",
+          "text": "A insulinoterapia deve ser prontamente prescrita, em bomba de infusão contínua, sem necessidade de reposição de potássio."
+        },
+        {
+          "key": "d",
+          "text": "O provável fator de descompensação é de natureza infecciosa, estando indicada a introdução de antibioticoterapia na primeira hora."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Paciente com CAD grave (pH 7,15, potássio 3,8 ainda dentro da faixa mas tendendo a cair) pode iniciar insulinoterapia em bomba de infusão contínua sem necessidade de aguardar reposição de potássio, desde que o nível sérico não esteja baixo (<3,3 mEq/L).",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_018",
+      "statement": "São fatores de risco associados a edema cerebral em pacientes com cetoacidose diabética todos os abaixo, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cetoacidose grave (pH < 7,1)."
+        },
+        {
+          "key": "b",
+          "text": "Glicemia superior a 800mg/dL no momento do diagnóstico."
+        },
+        {
+          "key": "c",
+          "text": "Necessidade de correção volêmica superior a 50ml/Kg nas primeiras 4 horas."
+        },
+        {
+          "key": "d",
+          "text": "Baixa idade."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A glicemia elevada isoladamente não é fator de risco reconhecido para edema cerebral na CAD pediátrica — os fatores de risco incluem acidose grave, alta necessidade volêmica e baixa idade, sendo esse item a exceção correta.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_019",
+      "statement": "Jovem de 18 anos, masculino, se apresenta com cetoacidose diabética, pH 7,2 e 400 mg/dL de glicemia. Em relação a aferição do potássio:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Níveis séricos devem estar aumentados por conta da acidose."
+        },
+        {
+          "key": "b",
+          "text": "É provável que os níveis de potássio estejam acima de 5 mEq/L."
+        },
+        {
+          "key": "c",
+          "text": "É provável que os níveis de potássio estejam abaixo de 3 mEq/L."
+        },
+        {
+          "key": "d",
+          "text": "É provável haver déficit de potássio total apesar dos níveis séricos."
+        },
+        {
+          "key": "e",
+          "text": "Os níveis séricos retratam a realidade corporal."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Apesar do potássio sérico poder estar normal ou até elevado na apresentação da CAD (por deslocamento transcelular pela acidose), há sempre déficit significativo do potássio corporal total, que se manifesta clinicamente durante o tratamento com insulina.",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_020",
+      "statement": "Paciente 57 anos, com diagnóstico prévio de hipertensão e hipotireoidismo em tratamento regular. Foi diagnosticado com diabetes há cerca de 2 anos, para a qual foi prescrita medicação que interrompeu por conta própria após 6 meses de tratamento. Internado há 1 semana com critérios para cetoacidose diabética. Feito tratamento em CTI com alta para enfermaria após melhora clínica e laboratorial, já fora da bomba de infusão venosa de insulina, apenas para ajuste da medicação via subcutânea. Pergunta-se: Na enfermaria, o paciente apresentava-se clinicamente bem, com glicemias discretamente elevadas em uso de insulina NPH Basal + bôlus via subcutânea. Exames laboratoriais sem alterações, exceto por exame de urina (EAS) coletado no dia com cetonúria (3+). Qual o significado dessa alteração e conduta a tomar?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Paciente encontra-se ainda em cetoacidose e deve ser reiniciada hidratação venosa vigorosa e bomba de infusão com insulina regular venosa."
+        },
+        {
+          "key": "b",
+          "text": "Paciente possivelmente está em cetoacidose, deve-se coletar uma gasometria venosa para confirmação e reiniciar tratamento com insulina NPH venosa e hidratação em CTI."
+        },
+        {
+          "key": "c",
+          "text": "Paciente encontra- se em fase de melhora do quadro de cetoacidose apresentado, quando há redução da concentração sérica de betahidroxibutirato e aumento da sua conversão a acetoacetato, que é identificado na urina pelo método de cetonúria. Deve-se seguir o ajuste de insulina NPH via subcutânea visando a alta do paciente."
+        },
+        {
+          "key": "d",
+          "text": "Paciente encontra-se claramente em melhora do quadro de cetoacidose e possivelmente o exame está incorreto. Deve- se manter o tratamento com insulina regular por via intramuscular e solicitar novo exame de EAS."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Cetonúria positiva durante a fase de melhora reflete a conversão de betahidroxibutirato (predominante na fase aguda) para acetoacetato (detectado pela fita de cetonúria), um achado esperado na resolução da cetoacidose, não indicando piora — deve-se manter o ajuste de insulina subcutânea.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_021",
+      "statement": "Paciente 57 anos, com diagnóstico prévio de hipertensão e hipotireoidismo em tratamento regular. Foi diagnosticado com diabetes há cerca de 2 anos, para a qual foi prescrita medicação que interrompeu por conta própria após 6 meses de tratamento. Internado há 1 semana com critérios para cetoacidose diabética. Feito tratamento em CTI com alta para enfermaria após melhora clínica e laboratorial, já fora da bomba de infusão venosa de insulina, apenas para ajuste da medicação via subcutânea. Pergunta-se: Para diagnóstico do quadro inicial de cetoacidose diabética, os critérios observados foram:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Glicemia > 600 mg/dL; Cetonemia, Bicarbonato sérico > 15 mmol/L."
+        },
+        {
+          "key": "b",
+          "text": "Glicemia > 250 mg/dL; Bicarbonato sérico < 15 mmol/L; pH sérico < 7,3."
+        },
+        {
+          "key": "c",
+          "text": "Glicemia > 250 mg/dL; Osmolaridade sérica efetiva > 320 mOsm/Kg; pH sérico > 7,3."
+        },
+        {
+          "key": "d",
+          "text": "Glicemia > 600 mg/dL ; Cetonemia; Osmolaridade sérica efetiva > 320 mOsm/Kg."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Os critérios diagnósticos da CAD incluem glicemia >250mg/dL, bicarbonato sérico <15mmol/L e pH sérico <7,3, diferenciando-a do estado hiperosmolar hiperglicêmico.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_022",
+      "statement": "CBS, sexo masculino, 11 anos de idade, internado por apresentar primo descompensação de diabetes melitus tipo 1, com quadro de cetoacidose diabética. No momento, em uso de venóclise de manutenção comSF0,9% e KCl, além de Insulina Regular 0,1U/kh/hora, em bomba de infusão contínua endovenosa. Ao ser reavaliado novamente pela plantonista de emergência, está sem vômitos, hidratado, consciente e orientado com dor abdominal difusa leve, apresenta glicemia capilar = 250mg/dL e gasometria venosa com pH= 7,15, Bic=8, K= 4,0. Qual seria a conduta ideal da plantonista nesse momento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Suspender o soro e a insulina e não dar bicarbonato."
+        },
+        {
+          "key": "b",
+          "text": "Manter o soro fisiológico, reduzir infusão de insulina para 0,05U/kg/hora, dar bicarbonato e reavaliar gasometria após 2 horas."
+        },
+        {
+          "key": "c",
+          "text": "Manter o soro fisiológico, manter dose de insulina de 0,1U/kg/hora até glicemia próxima de 100mg/dl, dar bicarbonato em bolus e reavaliar glicemia capilar após 1 hora."
+        },
+        {
+          "key": "d",
+          "text": "Introduzir glicose ao soro, manter dose de insulina de 0,1U/kg/hora, não dar bicarbonato e reavaliar glicemia capilar após 1 hora e gasometria após 2 horas."
+        },
+        {
+          "key": "e",
+          "text": "Introduzir glicose ao soro, reduzir dose de insulina para 0,05U/kg/hora, não dar bicarbonato e reavaliar glicemia capilar após 1 hora e gasometria após 2 horas."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Glicemia em queda (250) com acidose ainda presente (pH 7,15) indica introduzir glicose ao soro para permitir manter a dose de insulina (0,1U/kg/h) sem hipoglicemia, sem uso de bicarbonato (reservado para acidose mais grave), reavaliando em intervalos curtos.",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_023",
+      "statement": "Um paciente diabético de 48 anos foi internado em coma hiperosmolar. Que alterações dos eletrólitos séricos são esperadas após o início da infusão endovenosa de insulina?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Elevação dos níveis de potássio e magnésio"
+        },
+        {
+          "key": "b",
+          "text": "Redução dos níveis séricos de sódio e potássio"
+        },
+        {
+          "key": "c",
+          "text": "Redução dos níveis de sódio e cálcio"
+        },
+        {
+          "key": "d",
+          "text": "Elevação dos níveis de sódio e potássio"
+        },
+        {
+          "key": "e",
+          "text": "Elevação do nível de sódio e redução do nível de potássio"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Após início da insulinoterapia no estado hiperosmolar, espera-se elevação do sódio sérico corrigido (à medida que a hiperglicemia se resolve e a água livre retorna ao intracelular) e redução do potássio sérico (deslocamento intracelular pela ação insulínica).",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_024",
+      "statement": "GLA, 27 anos, grávida, portadora de diabetes mellitus, evoluiu com descompensação e cetoacidose. Assinale a alternativa que representa a condução CORRETA do caso apresentado:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O sódio, o potássio, o cloro e o bicarbonato são íons utilizados na fórmula de cálculo do anion gap."
+        },
+        {
+          "key": "b",
+          "text": "A infusão venosa de insulina pode ser suspensa assim que a hiperglicemia estiver controlada, por volta de 180 a 250 mg/dL (VR < 99 mg/dL)."
+        },
+        {
+          "key": "c",
+          "text": "A acidose metabólica deve ser corrigida com infusões de bicarbonato de sódio até se atingir um pH > 7.30 (VR = 7.35 a 7.45)"
+        },
+        {
+          "key": "d",
+          "text": "A ureia e a glicose são componentes osmoticamente mais importantes que o sódio sérico."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O sódio, o potássio, o cloro e o bicarbonato são os íons utilizados no cálculo do ânion gap [(Na) - (Cl + HCO3)], parâmetro fundamental na avaliação da acidose metabólica da CAD.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_025",
+      "statement": "João, 48 anos, vai à consulta, levando exames laboratoriais (glicemia de jejum 150 mg/dl) realizados, porque \"sua mãe tem diabetes\". Nega comorbidades, é sedentário, nega tabagismo, tem alimentação rica em carboidratos de alto índice glicêmico, diz não gostar muito de frutas e verduras. Ao exame, IMC de 27, circunferência abdominal 93 cm. João retorna à consulta na Unidade de Saúde da Família para acompanhamento do seu tratamento para diabetes. Hoje, com 52 anos, está em uso de 14 unidades de insulina NPH à noite, além de metformina 3 vezes ao dia. Algumas das complicações às quais este paciente com diabetes pode desenvolver estão descritas nas alternativas abaixo, assinale a CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O rastreamento da retinopatia e microalbuminúria devem ser realizados após 10 anos de diagnóstico de DM."
+        },
+        {
+          "key": "b",
+          "text": "A avaliação da sensibilidade tátil dos pés é realizada com monofilamento de 50 g em um ponto de cada pé."
+        },
+        {
+          "key": "c",
+          "text": "As complicações agudas, que podem ocorrer com João, são: hipoglicemia, cetoacidose e retinopatia."
+        },
+        {
+          "key": "d",
+          "text": "Uma orientação aconselhada na consulta com João deve ser o reconhecimento dos sintomas de hipoglicemia."
+        },
+        {
+          "key": "e",
+          "text": "Caso João chegasse à unidade com tontura, sudorese e tremor, dever-se-ia suspeitar de hiperglicemia."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Uma orientação essencial na consulta de acompanhamento de diabetes é o reconhecimento precoce dos sintomas de hipoglicemia pelo paciente, permitindo intervenção rápida e prevenção de complicações graves.",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_026",
+      "statement": "Na pediatria, o diagnóstico de cetoacidose diabética é feito com base nos seguintes critérios laboratoriais:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hiperglicemia (glicemia > 200 mg/dl; acidose metabólica (pH venoso < 7,3 e (ou) bicarbonato < 15 mEq/L); e presença de cetonemia (> 3 mg/dl)."
+        },
+        {
+          "key": "b",
+          "text": "Hiperglicemia (glicemia > 200 mg/dl; acidose metabólica (pH arterial > 7,3 e bicarbonato > 15 mEq/L); e presença de cetonemia (> 3 mg/dl)."
+        },
+        {
+          "key": "c",
+          "text": "Hiperglicemia (glicemia > 200 mg/dl; acidose metabólica (pH venoso < 7,3 e (ou) bicarbonato > 15 mEq/L); e ausência de cetonemia."
+        },
+        {
+          "key": "d",
+          "text": "Hiperglicemia (glicemia > 600 mg/dl; acidose metabólica (pH arterial > 7,3 e bicarbonato > 15 mEq/L); e ausência de cetonemia."
+        },
+        {
+          "key": "e",
+          "text": "hiperglicemia (glicemia > 600 mg/dL); acidose metabólica (pH arterial < 7,3 e (ou) bicarbonato > 15 mEq/L); e presença de cetonemia (> 3 mg/dL)."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Os critérios diagnósticos pediátricos de CAD incluem hiperglicemia (glicemia >200mg/dL), acidose metabólica (pH venoso <7,3 e/ou bicarbonato <15mEq/L) e presença de cetonemia (>3mg/dL).",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_027",
+      "statement": "Assinale a alternativa CORRETA em relação à reposição do bicarbonato no tratamento da cetoacidose diabética.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Atualmente não há indicação para que seja realizada no tratamento da cetoacidose diabética, exceto durante a ressuscitação, com o intuito de se preservar a ação da insulina."
+        },
+        {
+          "key": "b",
+          "text": "É considerada um dos recursos que evitam a ocorrência de edema cerebral em crianças."
+        },
+        {
+          "key": "c",
+          "text": "Pode levar à hipóxia cerebral decorrente da diminuição da afinidade da hemoglobina pelo oxigênio."
+        },
+        {
+          "key": "d",
+          "text": "Também pode causar hiponatremia e hipocalemia."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Atualmente não há indicação rotineira de reposição de bicarbonato no tratamento da CAD, sendo reservada para situações extremas de ressuscitação, já que pode prejudicar a liberação de oxigênio tecidual e causar outros efeitos adversos.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_028",
+      "statement": "Quanto aos fatores relacionados à fisiopatologia da cetoacidose diabética (CAD), assinale a alternativa CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O aumento do fluxo de água livre do compartimento intracelular para o extracelular, decorrente da elevação da osmolaridade plasmática, leva à hipernatremia."
+        },
+        {
+          "key": "b",
+          "text": "O aumento do fluxo de água livre do compartimento intracelular para o extracelular, decorrente da elevação da osmolaridade plasmática, leva à hiponatremia dilucional."
+        },
+        {
+          "key": "c",
+          "text": "O equilíbrio entre os compartimentos intracelular e extracelular raramente leva à alteração nos níveis de sódio."
+        },
+        {
+          "key": "d",
+          "text": "A elevação de ácidos graxos livres no plasma contribui para o aumento da natremia."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O aumento do fluxo de água livre do intracelular para o extracelular, decorrente da hiperosmolaridade plasmática por hiperglicemia, causa hiponatremia dilucional (sódio sérico medido mais baixo que o real).",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_029",
+      "statement": "Paciente de 17 anos, gênero feminino, admitida no departamento de emergência por quadro de confusão mental, dor abdominal intensa de localização difusa associada à dispneia. Segundo a família, a paciente já apresentava há 2 meses queixas de poliúria, polidipsia e perda de 8 kg nos últimos 2 meses. Ao exame físico percebia-se desidratada +++/4+, FC=120bpm, FR=30ipm, PA=110x70, abdome doloroso difusamente sem visceromegalias ou descompressão brusca dolorosa. Exames laboratoriais: hemograma (Ht=44%, leucócitos totais=8.000 com 56% de segmentados, plaquetas=220 mil), glicemia=280mg/dl, Na=144mmol/L, K=3,2mmol/L, creatinina=1,4mg/dl, bilirrubina total=1,0mg/dl e gasometria arterial ph=7,15, pO2=80mmHg, pCO2=17mmHg, HCO3=6mEq/L, sat O2=94%. Após reposição de 2 litros de solução salina na primeira hora de admissão hospitalar, qual deve ser a próxima medida terapêutica para este caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Introdução de insulina Regular em bomba de infusão contínua"
+        },
+        {
+          "key": "b",
+          "text": "Reposição de potássio"
+        },
+        {
+          "key": "c",
+          "text": "Reposição de bicarbonato de sódio"
+        },
+        {
+          "key": "d",
+          "text": "Prescrever antibioticoterapia de amplo espectro"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Após a expansão volêmica inicial na CAD grave com hipopotassemia (K=3,2), a próxima medida terapêutica é a reposição de potássio antes ou concomitante ao início da insulina, prevenindo hipopotassemia grave e arritmias.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_030",
+      "statement": "Sobre o tratamento da cetoacidose diabética, assinale a alternativa CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Quando a glicemia for superior a 500mg/dL, deve-se fazer uma dose de ataque de insulina regular (1UI/Kg) visandoa redução rápida da glicemia."
+        },
+        {
+          "key": "b",
+          "text": "Quando a glicemia atinge 200 a 250mg/dL, deve-se suspender a infusão de insulina regular (0,1UI/Kg/hora) e iniciar com insulina NPH (0,5UI/Kg/hora)."
+        },
+        {
+          "key": "c",
+          "text": "Enquanto estiver recebendo a infusão de insulina regular (0,1UI/K g/hora), o paciente não pode receber alimentação por via oral."
+        },
+        {
+          "key": "d",
+          "text": "A interrupção da infusão de insulina regular está condicionada à estabilização da glicemia, normalização do ânion gap e cetonemia negativa."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A interrupção da infusão de insulina regular na CAD está condicionada à resolução completa do quadro: estabilização da glicemia, normalização do ânion gap e cetonemia negativa (não apenas melhora da glicemia isolada).",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_031",
+      "statement": "M.J.S. de 65 anos, foi encontrado por vizinhos desacordado em casa, sendo levado ao Pronto Socorro pelo SAMU. Segundo informações, ele é diabético e usa insulina. Sua mulher e lhos estavam fora de casa há 7 dias, visitando parentes. Ao exame: hipocorado 1+/4+, desidratado 3+/4+, acianótico, e anictérico. Havia desvio da comissura labial para a direita e hemiparesia esquerda com re exo cutâneo-plantar em extensão. Isocoria foto- reagente. PA: 170 x 100 mmHg. PR: 105 BPM. FR 24 IRPM. Tax: 37°C. RCI com SS 2+/6+ em FA e BEE. MV audível universalmente, sem RA. Abdômen: NDN. MMII: pulsos pediosos reduzidos bilateramente. Exames laboratoriais: Glicose: 900 mg/dl; creatina: 2,0 mg/dl; uréia: 120 mg/dl; sódio 156 mEq/L; potássio: 2,8 mEq/L; cloreto: 122 mEq/L; bicarbonato: 18 mEq/L. EAS: glicosúria 3+; cetonúria: negativa; proteínas 1+; piócitos 6/campo; hemácias 2/campo. Tomogra a Computadorizada do crânio: hipodensidade fronto- temporo-parietal D. Assinale a alternativa que contém o conjunto de diagnósticos CORRETOS para a paciente: Ainda em relação ao enunciado acima. Assinale a alternativa que contém o tratamento inicial de escolha para o quadro metabólico:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hidratação venosa com salina a 0,45% e reposição de potássio."
+        },
+        {
+          "key": "b",
+          "text": "Hidratação venosa com salina a 0,45% e insulina regular venosa de bolus."
+        },
+        {
+          "key": "c",
+          "text": "Hidratação venosa com salina a 0,45% e reposição de bicarbonato de sódio."
+        },
+        {
+          "key": "d",
+          "text": "Hidratação venosa com Soro fisiológico hipertonico e insulina regular venosa em bolus."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Paciente idoso desidratado com glicemia extremamente elevada (900), cetonúria negativa, hipernatremia e sinais de AVC é compatível com estado hiperosmolar hiperglicêmico com AVC isquêmico concomitante; o tratamento inicial inclui hidratação venosa com salina hipotônica (0,45%) e insulina regular em infusão (não bolus).",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_032",
+      "statement": "M.J.S. de 65 anos, foi encontrado por vizinhos desacordado em casa, sendo levado ao Pronto Socorro pelo SAMU. Segundo informações, ele é diabético e usa insulina. Sua mulher e lhos estavam fora de casa há 7 dias, visitando parentes. Ao exame: hipocorado 1+/4+, desidratado 3+/4+, acianótico, e anictérico. Havia desvio da comissura labial para a direita e hemiparesia esquerda com re exo cutâneo-plantar em extensão. Isocoria foto- reagente. PA: 170 x 100 mmHg. PR: 105 BPM. FR 24 IRPM. Tax: 37°C. RCI com SS 2+/6+ em FA e BEE. MV audível universalmente, sem RA. Abdômen: NDN. MMII: pulsos pediosos reduzidos bilateramente. Exames laboratoriais: Glicose: 900mg/dl; creatina: 2,0 mg/dl; uréia: 120mg/dl; sódio 156 mEq/L; potássio: 2,8 mEq/L; cloreto: 122 mEq/L; bicarbonato: 18 mEq/L. EAS: glicosúria 3+; cetonúria: negativa; proteínas 1+; piócitos 6/campo; hemácias 2/campo. Tomogra a Computadorizada do crânio: hipodensidade fronto- temporo-parietal D. Assinale a alternativa que contém o conjunto de diagnósticos CORRETOS para a paciente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cetoacidose diabética e Acidente vascular encefálico hemorrágico."
+        },
+        {
+          "key": "b",
+          "text": "Cetoacidose diabética e Acidente vascular encefálico isquêmico."
+        },
+        {
+          "key": "c",
+          "text": "Estado hiperosmolar hiperglicêmico não cetótico e Acidente vascular encefálico hemorrágico."
+        },
+        {
+          "key": "d",
+          "text": "Estado hiperosmolar hiperglicêmico não cetótico e Acidente vascular encefálico isquêmico."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O quadro de glicemia extrema sem cetonúria, hiperosmolaridade e déficit neurológico focal (hipodensidade à TC, sugerindo isquemia) é compatível com estado hiperosmolar hiperglicêmico associado a AVC isquêmico.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_033",
+      "statement": "Paciente de 17 anos, 50kg, é admitido na unidade de emergência do Hospital Alcides Carneiro com quadro de náuseas, vômitos, dor abdominal e alteração do nível de consciência. Sinais vitais: PA: 100 x 50 mmHg, FC: 120 bpm, FR: 28 irpm, Tax: 36oC. Exames laboratoriais: Sódio: 126 mEq/L (N: 135-145), Potássio: 4,3 mEq/L (N: 3,5-5,5), Cloro: 100 mEq/L (N: 98- 107), Glicemia: 380 mg/dL (N: 70-99), Hemoglobina: 15,3 g/dL (N: 12-16), Leucócitos: 17000 (0/2/0/0/2/85/10/3) (N: 4000-11000), Plaquetas: 267.000 (N: 150.000- 450.000), Uréia: 75 mg/dL (N: 13-43), Creatinina: 1,4 mg/dL (0,6-1,1), pH: 7,12 (N: 7,35- 7,45), HCO3: 10mEq/L (N: 22-26), pCO2: 24 mmHg (N: 35-45), reação do nitroprussiato na urina positiva (N: negativa). Considerando a principal hipótese diagnóstica, qual(is) a(s) assertiva(s) reflete(m) o tratamento adicional? I. Insulina Regular intravenosa 5 UI em bolus; II. Acréscimo de cloreto de potássio 30mEq por litro de soro fisiológico.; III. Insulina Regular intravenosa 5 UI/h",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas III está correta."
+        },
+        {
+          "key": "b",
+          "text": "Apenas II está correta."
+        },
+        {
+          "key": "c",
+          "text": "Todas as assertivas estão corretas."
+        },
+        {
+          "key": "d",
+          "text": "Nenhuma das assertivas está correta."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de CAD grave confirmada (pH 7,12, HCO3 10), o tratamento adicional correto inclui insulina regular intravenosa contínua (5UI/h, não em bolus único) associada à reposição de potássio (cloreto de potássio no soro), sendo ambas corretas.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_034",
+      "statement": "As descompensações agudas mais importantes do Diabetes mellitus são a cedoacidose diabética (CAD) e o estado hiperosmolar (EHO). Sobre as características clínico-laboratoriais dessas duas condições, assinale a alternativa INCORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A CAD tem instalação mais rápida (geralmente dentro de 24 horas), enquanto o EHO se desenvolve mais insidiosamente."
+        },
+        {
+          "key": "b",
+          "text": "O acometimento neurológico é mais pronunciado no EHO, podendo, inclusive, apresentar sinais focais e convulsões."
+        },
+        {
+          "key": "c",
+          "text": "A dor abdominal é comumente observada na CAD, sendo sua frequência proporcional ao grau de acidose metabólica."
+        },
+        {
+          "key": "d",
+          "text": "Os níveis glicêmicos são, em média, mais elevados no EHO, podendo atingir valores acima de 1000mg/dL."
+        },
+        {
+          "key": "e",
+          "text": "A presença de níveis elevados de amilase e lipase em um paciente com CAD define a pancreatite aguda como fator precipitante da descompensação."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Níveis elevados de amilase e lipase são comuns na própria CAD (mesmo sem pancreatite), por isso não definem isoladamente pancreatite aguda como causa da descompensação — sendo essa a afirmação incorreta entre as características diferenciais de CAD e EHH.",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_035",
+      "statement": "Uma criança de sete anos é admitida no pronto-socorro com queixa de sonolência. A mãe relata que a criança vem emagrecendo muito nas últimas semanas, apesar de alimentar-se muito bem. Relata também que, nos últimos três dias, passou a beber mais água e a urinar mais vezes, porém, nas últimas 24 horas, tem cado cada vez mais sonolenta e que, por achar que se tratava de hipoglicemia, deu um chocolate para a criança, mas ela vomitou após ingeri-lo. O exame físico é normal, exceto pela sonolência excessiva (Glasgow 14). Os exames solicitados apresentaram os seguintes resultados: Hemograma: Hb = 13 Ht = 40 16.750; leucócitos (2%bastões, 40% segmentados, 4% eosinó los, 2% basó los, 12% monócitos, 40% linfócitos), 234.000 plaquetas; Glicemia:1130 mg/dL; Ureia: 36 mg/dL; Creatinina: 0,5 mg/dL; Gasometria venosa: pH = 7,20; PCO₂ = 22 mmHg PO₂ = 40 mmHg; bicarbonato = 8 mmol/LBE = -15 satO₂ = 75%; Exame simples de urina (EAS): densidade urinária = 1002, pH = cetonúria ++++, nitrito negativo, ausência de proteína, hemácias ou leucócitos; Liquor: 3 leucócitos/mm³, O hermácias, protéina = 20 mg/dL, glicose = 610 mg/dL. O tratamento imediato é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "manitol a 20 %, com infusão de 1 grama/kg de peso."
+        },
+        {
+          "key": "b",
+          "text": "desmopressina nasal."
+        },
+        {
+          "key": "c",
+          "text": "insulina intravenosa."
+        },
+        {
+          "key": "d",
+          "text": "expansão volêmica com 20 ml/hg de peso, com soro fisiológico a 0,9%."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Sonolência progressiva, hiperglicemia extrema (1130), acidose grave (pH 7,20, HCO3 8) e cetonúria intensa confirmam CAD grave; o tratamento imediato é insulina intravenosa, associada à hidratação adequada já em curso.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_036",
+      "statement": "Uma criança de sete anos é admitida no pronto-socorro com queixa de sonolência. A mãe relata que a criança vem emagrecendo muito nas últimas semanas, apesar de alimentar-se muito bem. Relata também que, nos últimos três dias, passou a beber mais água e a urinar mais vezes, porém, nas últimas 24 horas, tem cado cada vez mais sonolenta e que, por achar que se tratava de hipoglicemia, deu um chocolate para a criança, mas ela vomitou após ingeri-lo. O exame físico é normal, exceto pela sonolência excessiva (Glasgow 14). Os exames solicitados apresentaram os seguintes resultados: Hemograma: Hb = 13 Ht = 40 16.750; leucócitos (2%bastões, 40% segmentados, 4% eosinó los, 2% basó los, 12% monócitos, 40% linfócitos), 234.000 plaquetas; Glicemia:1130 mg/dL; Ureia: 36 mg/dL; Creatinina: 0,5 mg/dL; Gasometria venosa: pH = 7,20; PCO₂ = 22 mmHg PO₂ = 40 mmHg; bicarbonato = 8 mmol/LBE = -15 satO₂ = 75%; Exame simples de urina (EAS): densidade urinária = 1002, pH = cetonúria ++++, nitrito negativo, ausência de proteína, hemácias ou leucócitos; Liquor: 3 leucócitos/mm³, O hermácias, protéina = 20 mg/dL, glicose = 610 mg/dL. Diante desse exposto, a principal hipótese diagnóstica é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "encefalite viral."
+        },
+        {
+          "key": "b",
+          "text": "diabetes insipidus."
+        },
+        {
+          "key": "c",
+          "text": "cetoacidose diabética."
+        },
+        {
+          "key": "d",
+          "text": "tumor de sistema nervoso central."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Emagrecimento, poliúria/polidipsia, hiperglicemia extrema, acidose metabólica grave e cetonúria intensa confirmam cetoacidose diabética como principal hipótese diagnóstica nesta criança.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_037",
+      "statement": "Paciente feminina, 24 anos, moradora de rua, admitida com quadro relatado de náuseas, vômitos e dor abdominal há 3 dias, com piora progressiva e obnubilação mental nas últimas 24 horas. Sem uso de drogas ou álcool. Comorbidades e uso de medicações são desconhecidas. Ao exame físico: PA: 90 x 60 mmHg; FC: 120 bpm; FR: 32 irpm; sonolenta, desidratada 3+/4+, presença de hálito cetônico. Exames laboratoriais: hemograma com leucocitose sem desvio; urina com cetonúria 3+/4+ e glicosúria 4+/4+; glicemia: 500 mg/dl; Na: 135 mg/dl (VR: 135-145 mg/dl); K: 5,5 mEq/L; pH: 7,16 HCO₃: 12 mEq/L (VR: 22-26 mEq/L) pCO₂: 28 mmHg (VR: 35-45 mmHg); lactato: 2,5 mEq/L (VR: até 2 mEq/L); radiogra a de tórax normal; eletrocardiograma com taquicardia sinusal. LEGENDA: PA: pressão arterial; FC: frequência cardíaca; bpm: batimentos por minuto; FR: frequência respiratória; irpm: incursões respiratórias por minuto; Na: sódio; K: potássio; HCO₃: bicarbonato; VR: valor de referência. Considerando o diagnóstico mais provável e sua fisiopatologia, qual a afirmativa CORRETA?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O quadro é de acidose metabólica com ânion gap elevado, causada primariamente pela perda de bicarbonato."
+        },
+        {
+          "key": "b",
+          "text": "Com o tratamento adequado, a hiperglicemia deve apresentar resolução posterior à correção da cetose."
+        },
+        {
+          "key": "c",
+          "text": "Níveis elevados de glucagon e catecolaminas, isoladamente, são capazes de produzir o quadro clínicolaboratorial."
+        },
+        {
+          "key": "d",
+          "text": "A cetose que ocorre se relaciona à lipólise, liberação de ácidos graxos livres e formação hepática de corpos cetônicos."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A cetose na cetoacidose diabética resulta da lipólise (deficiência insulínica leva à quebra de triglicerídeos), liberação de ácidos graxos livres e sua conversão hepática em corpos cetônicos (beta-hidroxibutirato e acetoacetato).",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_038",
+      "statement": "Mulher, 16 anos de idade, diabética tipo 1, chega no pronto-socorro desidratada, com dor abdominal, náuseas e vômitos. Sinais vitais e exames iniciais: FC = 130 bpm; FR = 30 irpm; PA = 100 x 70 mmHg; glicemia capilar = 600 mg/dl; potássio = 4,0 mEq/L; glicemia plasmática = 800 mg/dl; pH = 7,15 e HCO₃ = 8 mEq/L. Após oito horas: glicemia plasmática = 150 mg/dl; (em uso de bomba de insulina 2 UI/h) pH = 7,2 e HCO₃ = 13 mEq/L. Qual a conduta mais adequada neste momento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Soro glicosado 5% 100 ml/hora e manter a bomba de insulina."
+        },
+        {
+          "key": "b",
+          "text": "Desligar a bomba de insulina e bicarbonato de sódio 1 mEq/kg"
+        },
+        {
+          "key": "c",
+          "text": "Desligar a bomba e aplicar 10 UI de insulina regular via subcutânea."
+        },
+        {
+          "key": "d",
+          "text": "Bicarbonato de sódio 1 mEq/kg e aplicar 10 UI de insulina regular."
+        },
+        {
+          "key": "e",
+          "text": "Desligar a bomba de insulina e aplicar 0,1 U/kg de insulina NPH."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Glicemia já controlada (150) mas acidose ainda não totalmente resolvida (pH 7,2, HCO3 13) indica manter a bomba de insulina associada a soro glicosado a 5%, permitindo continuar corrigindo a cetoacidose sem hipoglicemia.",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_039",
+      "statement": "Mulher, 22 anos, é internada em unidade de emergência com quadro de polidipsia, poliúria e adinamia há 4 dias. Nos últimos dois dias cou mais prostrada e passou a apresentar náuseas e vômitos. O exame físico da chegada mostra: paciente desidratada, sonolenta, apresenta respiração de Kussmaul e hálito cetótico. Exames complementares: dextro = 420 mg/dl; cetonúria positiva; pH sérico = 7,16; bicarbonato sérico = 12. Durante o tratamento correto dessa paciente, as complicações mais esperadas e potencialmente graves são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Amaurose, hiperglicemia refratária e oligúria."
+        },
+        {
+          "key": "b",
+          "text": "Hipoglicemia, hipocalemia e edema cerebral."
+        },
+        {
+          "key": "c",
+          "text": "Neuropatia periférica, infecção e hipotireoidismo."
+        },
+        {
+          "key": "d",
+          "text": "Neuropatia, hipomagnesemia e mielinólise pontinha."
+        },
+        {
+          "key": "e",
+          "text": "Hiponatremia, plaquetopenia e rabdomiólise."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Durante o tratamento da CAD grave, as complicações mais esperadas e potencialmente graves incluem hipoglicemia (por excesso de insulina), hipocalemia (pelo deslocamento transcelular do potássio) e edema cerebral (especialmente em crianças).",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_040",
+      "statement": "Menina, 5 anos de idade, portadora de Diabetes Mellitus tipo 1 está em sala de emergência há três horas recebendo tratamento para cetoacidose diabética. Desde a entrada no pronto-socorro, recebeu três expansões de 20 mL por kg se soro siológico, duas correções de potássio e duas doses de insulina ultra-rápida de 0,1 U/Kg. A glicemia inicial era de 484 mg/dL e no momento está 78 mg/dL. Evoluiu com quadro de confusão mental, bradicardia e hipertensão arterial. A complicação apresentada pela paciente é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hipoglicemia relativa"
+        },
+        {
+          "key": "b",
+          "text": "Mielinólise pontina"
+        },
+        {
+          "key": "c",
+          "text": "Edema cerebral"
+        },
+        {
+          "key": "d",
+          "text": "Hipercalemia"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Confusão mental, bradicardia e hipertensão durante o tratamento da CAD pediátrica, com queda rápida da glicemia, são sinais clássicos de edema cerebral, complicação grave e potencialmente fatal do tratamento.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_041",
+      "statement": "Menina de 5 anos comparece ao pronto-socorro com queixa de náusea, vômitos e dor abdominal há 1 dia, com piora agora após ingerir doce em uma festa infantil. Nega diarreia. Refere urina em grande quantidade, e voltou a ter enurese noturna há 1 semana. Nega alteração da cor ou odor da urina. Ao exame: criança desidratada de 2° grau, hipoativa, porém pedindo para beber água, taquicárdica, porém sem alterações na ausculta cardíaca, taquipneica, porém sem alterações na ausculta pulmonar, abdome doloroso a palpação profunda difusamente, sem outras alterações. Qual sua principal hipótese diagnóstica e conduta nesse caso:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Diabetes Mellitus, realizar glicemia agora."
+        },
+        {
+          "key": "b",
+          "text": "Gastroenterocolite Aguda (GECA), soro de rehidratação via oral."
+        },
+        {
+          "key": "c",
+          "text": "Diabetes Mellitus, solicitar para colher glicemia amanhã após jejum de 8 horas."
+        },
+        {
+          "key": "d",
+          "text": "Gastroenterocolite Aguda (GECA), soro de rehidratação endovenoso."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Poliúria com enurese noturna recente e desidratação em criança, mesmo sem outros sintomas evidentes, justificam realizar a glicemia imediatamente (não aguardar jejum), dada a alta suspeita clínica de diabetes descompensado.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_042",
+      "statement": "Jovem, 21 anos, foi trazida pelos pais, que referiam apresentar sonolência e confusão mental esta manhã. Na noite anterior, ela se queixava de mal-estar, náuseas, dores lombares e dor miccional. Seu exames iniciais demonstram glicemia capilar de 500 mg/dl e piúria no exame de urina. Familiares alegam que ela não possuía, previamente, diabetes. Assim, a hipótese diagnóstica inicial foi de um quadro de Cetoacidose que teve como gatilho uma infecção urinária. Nesse caso, marque a opção CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Alterações hormonais na CAD e no EHH desencadeiam o aumento da produção hepática e renal de glicose e a redução de sua captação pelos tecidos periféricos sensíveis à insulina, resultando, assim, em hiperglicemia e consequente hiperosmolalidade no espaço extracelular."
+        },
+        {
+          "key": "b",
+          "text": "Hiperglicemia é resultante de redução da utilização periférica apenas de glicose."
+        },
+        {
+          "key": "c",
+          "text": "No estado hiperglicêmico hiperosmolar, a concentração de insulina, que é adequada para promover a utilização de glicose nos tecidos periféricos, é, ao mesmo tempo, insuficiente para sustar a lipólise acentuada e a cetogênese, como normalmente ocorre de modo intenso na CAD."
+        },
+        {
+          "key": "d",
+          "text": "Entre as drogas ilícitas, a cocaína pode ser a causa de episódios recorrentes de CAD em jovens, apenas quando associado à falha do esquema de insulina."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na fisiopatologia da CAD e do EHH, as alterações hormonais (déficit de insulina, excesso de contrarreguladores) aumentam a produção hepática/renal de glicose e reduzem sua captação periférica, resultando em hiperglicemia e hiperosmolalidade extracelular.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_043",
+      "statement": "Assinale a a rmativa correta que relaciona o caso clínico de pacientes portadores de diabetes com o diagnóstico da sua complicação aguda:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Mulher de 75 anos, hemiparesia à direita, com glicemia de 980 mg/dL, pH 7,45,cetonúria pouco positiva – Diagnóstico = Cetoacidose Diabética."
+        },
+        {
+          "key": "b",
+          "text": "Homem de 29 anos, dor abdominal e vômitos, com glicemia de 350 mg/dL, pH 7,25,bicarbonato 15 mEq/L – Diagnóstico = Estado hiperosmolar hiperglicêmico."
+        },
+        {
+          "key": "c",
+          "text": "Mulher de 15 anos, torporosa, com glicemia de 520 mg/dL, pH 7,09, bicarbonato 8mEq/L – Diagnóstico = Estado hiperosmolar hiperglicêmico."
+        },
+        {
+          "key": "d",
+          "text": "Homem de 45 anos, hálito cetônico, com glicemia de 410 mg/dL, pH 7,3, cetonúriamuito positiva – Diagnóstico = Cetoacidose Diabética."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Hálito cetônico, glicemia 410, pH 7,3 (levemente reduzido) e cetonúria muito positiva são achados clássicos e suficientes para o diagnóstico de cetoacidose diabética.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_044",
+      "statement": "Paciente de 34 anos de idade, sabidamente diabético, evolui com grande descompensação clínica secundariamente à pneumonia comunitária. Dá entrada no hospital bastante dispneico, sudoreico, sua glicemia está em 500 mg/dl, seu K em 3,2. Bastante desidratado. Foi iniciado volume e insulina em bomba de Infusão. Desse modo, qual é o RISCO que essa conduta provoca imediatamente no paciente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Piora da acidose."
+        },
+        {
+          "key": "b",
+          "text": "Arritmia cardíaca."
+        },
+        {
+          "key": "c",
+          "text": "Hipoglicemia."
+        },
+        {
+          "key": "d",
+          "text": "Piora do choque."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O início de insulina e volume em paciente hipopotassêmico (K=3,2) traz risco imediato de arritmia cardíaca, já que a insulina desloca ainda mais potássio para o intracelular, agravando a hipopotassemia já presente.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_045",
+      "statement": "Um paciente de 4 anos, em tratamento para cetoacidose diabética, vem recebendo 4 unidades/hora de insulina regular EV. Encontra-se, ainda, acidótico: bicarbonato de 9 mEq/l na última determinação. A glicemia capilar revela uma taxa de glicose de 129 mg/dl. Qual seria a melhor conduta no momento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Diminuir a infusão de insulina pela metade."
+        },
+        {
+          "key": "b",
+          "text": "Diminuir a infusão de insulina a ¼."
+        },
+        {
+          "key": "c",
+          "text": "Suspender a insulina."
+        },
+        {
+          "key": "d",
+          "text": "Manter a infusão de insulina e iniciar infusão de glicose."
+        },
+        {
+          "key": "e",
+          "text": "Manter a infusão de insulina e fazer bicarbonato."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Acidose persistente (bicarbonato 9) com glicemia já normalizada (129) indica manter a infusão de insulina (necessária para resolver a cetoacidose) e iniciar infusão de glicose concomitante, evitando hipoglicemia sem interromper a correção da acidose.",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_046",
+      "statement": "Homem, universitário de 22 anos, com história de consumo abusivo de álcool, é levado por amigos ao serviço de emergência com história de náuseas, vômito e dor abdominal. Segundo os acompanhantes, ele estava bebendo há cinco dias, quando esses sintomas se manifestaram. Desconhecem outra história médica nem sabem relatar que estava tomando outras substâncias ou medicações. Ao exame, o paciente cochilou na maca, podia ser facilmente acordado, falas inapropriadas e obedecia a comandos simples. Afebril, sua pulsação é de 125 bpm, a pressão arterial é de 125/80 mmHg e a frequência respiratória é de 16 mpm. Possui hálito etílio, hiperemia conjuntival, anictérico, ausculta pulmonar limpa, ausculta cardíaca com taquicardia regular. Abdome com ruídos hipocinéticos, desconforto epigástrico à palpação profunda e sem sinais de peritonismo. Extremidades com edema periférico de +/4 e em dé cits neurológicos focais. Laboratoriais iniciais: Na: 145 mEq/L, K: 5 mEq/L, CI: 105 mEq/L; HCO3: 14 mEq/l, Uréia:43 mg/dL e Creatinina: 1,5 mg/dL, Glicose Sérica: 142 mg/dL, Acetest® fracamente positivo para cetonas. Urina I: cetonúria, ausência de glicosúria, de células e de cilindros ou cristais. O rastreio de fármacos na urina resultou negativo. Raio X abdominal mostrou um padrão normal de gases intestinais, sem sinais de obstrução. Com base nessa história e nos dados, responda à questão. Qual é o provável diagnóstico para esse jovem?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Diabetes insipidus."
+        },
+        {
+          "key": "b",
+          "text": "Sepse."
+        },
+        {
+          "key": "c",
+          "text": "Cetoacidose diabética."
+        },
+        {
+          "key": "d",
+          "text": "Alcalose metabólica."
+        },
+        {
+          "key": "e",
+          "text": "Cetoacidose alcoólica."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Consumo abusivo de álcool com jejum prolongado, acidose leve com ânion gap aumentado, cetonemia positiva mas glicemia normal/baixa (142) são achados clássicos de cetoacidose alcoólica, diagnóstico diferencial importante da CAD diabética.",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_047",
+      "statement": "A respeito da Cetoacidose Diabética (CAD), complicação aguda do diabetes melito, julgue o item subsecutivo. Pneumonia, infecção do trato urinário, abuso de álcool, infarto do miocárdio e uso de corticoides são exemplos de fatores precipitantes de CAD.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Pneumonia, infecção urinária, abuso de álcool, infarto do miocárdio e uso de corticoides são exemplos reconhecidos de fatores precipitantes de cetoacidose diabética, por aumentarem hormônios contrarreguladores ou reduzirem a aderência ao tratamento.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_048",
+      "statement": "Assinale a opção que indica uma condição que não favorece a ocorrência de cetoacidose diabética:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pancreatite."
+        },
+        {
+          "key": "b",
+          "text": "Hemocromatose."
+        },
+        {
+          "key": "c",
+          "text": "Acromegalia."
+        },
+        {
+          "key": "d",
+          "text": "Hipotireoidismo."
+        },
+        {
+          "key": "e",
+          "text": "Uso de corticosteroides."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O hipotireoidismo não é fator de risco reconhecido para cetoacidose diabética — diferente de pancreatite, hemocromatose, acromegalia e uso de corticosteroides, que são condições que podem precipitar ou favorecer a CAD por diversos mecanismos (dano pancreático, hormônios contrarreguladores).",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_049",
+      "statement": "A tabela a seguir mostra os parâmetros diagnósticos da cetoacidose diabética e do estado hiperosmolar hiperglicêmico (segundo a American Diabetes Association). (VER IMAGEM) Pode-se a rmar que 1, 2, 3 e 4 correspondem, respectivamente, aos quadros de",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Estado hiperosmolar hiperglicêmico, cetoacidose leve, cetoacidose moderada,cetoacidose grave."
+        },
+        {
+          "key": "b",
+          "text": "Cetoacidose leve, cetoacidose moderada, cetoacidose grave e estado hiperosmolarhiperglicêmico."
+        },
+        {
+          "key": "c",
+          "text": "Cetoacidose moderada, estado hiperosmolar hiperglicêmico, cetoacidose grave,cetoacidose leve."
+        },
+        {
+          "key": "d",
+          "text": "Cetoacidose leve, cetoacidose moderada, estado hiperosmolar hiperglicêmico ecetoacidose grave."
+        },
+        {
+          "key": "e",
+          "text": "Cetoacidose grave, cetoacidose leve, cetoacidose moderada e estado hiperosmolarhiperglicêmico."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "[ATENÇÃO: esta questão faz referência a uma tabela/imagem citada no PDF original que não foi capturada na extração de texto] Os critérios da ADA classificam as crises hiperglicêmicas por gravidade crescente de cetoacidose (leve, moderada, grave, conforme pH/bicarbonato) até o estado hiperosmolar hiperglicêmico, que representa quadro distinto com hiperosmolaridade extrema e pouca cetose.",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_050",
+      "statement": "Qual deve ser a redução ADEQUADA da glicemia, por hora, num paciente com cetoacidose diabética?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "51-70 mg/dl."
+        },
+        {
+          "key": "b",
+          "text": "71-100 mg/dl."
+        },
+        {
+          "key": "c",
+          "text": "101-150 mg/dl."
+        },
+        {
+          "key": "d",
+          "text": "30-50 mg/dl."
+        },
+        {
+          "key": "e",
+          "text": "Depende do valor da glicemia inicial."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A redução adequada e segura da glicemia no tratamento da CAD deve ser de 51 a 70 mg/dL por hora, evitando queda muito rápida que aumenta o risco de edema cerebral.",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_051",
+      "statement": "Paciente feminina, 15 anos, deu entrada no hospital com dispneia, mal-estar e grande agitação. Sua respiração era ruidosa, com alta frequência e com hiperventilação. Em seus exames, foi encontrada acidose metabólica bem como glicemia de 620 mg/dl. Sendo, então, abordada como cetoacidose metabólica decorrente de primeira manifestação clínica, assim hidratada e iniciada insulina. Após melhora inicial, começou novo quadro, agora de rebaixamento de consciência e nova di culdade respiratória. Sendo suspeitada complicação cerebral. Aponte a alternativa contendo o possível diagnóstico para esse quadro clínico:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Edema cerebral citotóxico."
+        },
+        {
+          "key": "b",
+          "text": "Encefalopatia diabética."
+        },
+        {
+          "key": "c",
+          "text": "Mielinólise pontina."
+        },
+        {
+          "key": "d",
+          "text": "Hipertensão cerebral por hiperemia."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Rebaixamento de consciência e nova dificuldade respiratória após melhora inicial da CAD, com suspeita de complicação cerebral, é compatível com edema cerebral citotóxico, complicação grave especialmente em crianças/adolescentes.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_052",
+      "statement": "Paciente de 12 anos dá entrada na emergência, trazido pelo SAMU, proveniente da escola, onde apresentou quadro de desmaio há 20 minutos. Apresenta-se desidratado grau 2, torporoso, com padrão respiratório de Kussmaul, aspecto muito emagrecido. Na conduta imediata desse caso, está correto:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "administrar solução fisiológica em pinça aberta até que apresente diurese clara."
+        },
+        {
+          "key": "b",
+          "text": "realizar imediatamente tomografia ou ressonância magnética de crânio."
+        },
+        {
+          "key": "c",
+          "text": "coletar gasometria venosa, glicemia e eletrólitos."
+        },
+        {
+          "key": "d",
+          "text": "acionar o conselho tutelar."
+        },
+        {
+          "key": "e",
+          "text": "reposição volêmica e administração de bicarbonato."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de criança com quadro sugestivo de CAD (desidratação, torpor, respiração de Kussmaul), a conduta imediata é coletar gasometria venosa, glicemia e eletrólitos para confirmar o diagnóstico e guiar o tratamento inicial.",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_053",
+      "statement": "Um paciente com 14 anos chega ao pronto-socorro com história de tosse e febre há 3 dias. Mãe refere que há 1 dia o paciente apresenta quadro de poliúria, polidipsia, náuseas e vômitos e que há 2 horas começou a car sonolento. Ao exame físico, consciente, desidratado 3+/4+, taquicárdico, com respiração de Kussmaul e dor à palpação abdominal. Glicosimetria capilar: 540 mg/dL. Sobre o quadro que o paciente apresenta, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A hipocalemia está presente nos momentos iniciais."
+        },
+        {
+          "key": "b",
+          "text": "A hipernatremia é característica da fase inicial."
+        },
+        {
+          "key": "c",
+          "text": "A acidose proporciona a saída do potássio do intracelular para o extracelular."
+        },
+        {
+          "key": "d",
+          "text": "O uso de bicarbonato está indicado em todos os casos."
+        },
+        {
+          "key": "e",
+          "text": "Utiliza-se a insulina NPH para corrigir a acidose."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Na fase inicial da CAD, a acidose promove a saída de potássio do meio intracelular para o extracelular (troca H+/K+), podendo mascarar a real depleção de potássio corporal com níveis séricos normais ou até elevados.",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_054",
+      "statement": "O estado hiperosmolar caracteriza-se por:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Instalação súbita e rápida de sintomas, idade do paciente inferior a 40 anos, acidose metabólica."
+        },
+        {
+          "key": "b",
+          "text": "Dor abdominal, náuseas, vômitos, taquipneia, respiração de Kussmaul."
+        },
+        {
+          "key": "c",
+          "text": "Desidratação profunda, estupor ou coma, níveis glicêmicos em geral acima de 500 mg/dl, com pH acima de 7,30."
+        },
+        {
+          "key": "d",
+          "text": "Paciente em estado de vigília, alerta e agitado, glicemia em torno de 250 mg/dl, hiperpotassemia, hiponatremia e hemodiluição."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O estado hiperosmolar hiperglicêmico caracteriza-se por desidratação profunda, estupor ou coma, glicemia geralmente acima de 500-600mg/dL, com pH acima de 7,30 (ausência de acidose significativa, diferente da CAD).",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_055",
+      "statement": "Durante a abordagem de crises hiperglicêmicas, basicamente separamos em duas grandes síndromes, a da Cetoacidose Diabética e a do Estado Hiperglicêmico Hiperosmolar. Existem diversas diferenças entre as duas situações clínicas, porém NÃO faz parte a seguinte. Indique-a.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tipo de medicação ambulatorial influencia na gravidade."
+        },
+        {
+          "key": "b",
+          "text": "Cetose predomina na DM1."
+        },
+        {
+          "key": "c",
+          "text": "Mortalidade costuma ser maior na EHH."
+        },
+        {
+          "key": "d",
+          "text": "A desidratação é importante em ambas."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O tipo de medicação ambulatorial usada previamente não é considerado fator determinante de gravidade entre CAD e EHH — sendo essa a característica que NÃO diferencia adequadamente as duas condições entre as opções listadas.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_056",
+      "statement": "Durante a gênese da grave condição metabólica denominada de Cetoacidose Diabética, aponte a alternativa que NÃO pode ser considerada como parte da gênese da descompensação diabética.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Liberação excessiva de hormônios contrarreguladores, entre eles o glucagon, as catecolaminas, o cortisol e o hormônio de crescimento."
+        },
+        {
+          "key": "b",
+          "text": "Aumento da produção hepática e renal de glicose."
+        },
+        {
+          "key": "c",
+          "text": "Diminuição de hormônios contrarreguladores provoca a liberação excessiva de ácidos graxos livres do tecido adiposo."
+        },
+        {
+          "key": "d",
+          "text": "Hiperglicemia é resultante de três mecanismos: ativação da gliconeogênese, da glicogenólise e redução da utilização periférica de glicose."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A diminuição (não aumento) dos hormônios contrarreguladores não faz parte da gênese da CAD — pelo contrário, é o AUMENTO de glucagon, catecolaminas e cortisol que contribui para a lipólise excessiva — sendo essa a afirmação incorreta.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_057",
+      "statement": "Paciente do sexo masculino, 20 anos, vai ao consultório endocrinológico por encaminhamento do otorrinolaringologista, devido à alteração no resultado da curva glicêmica. Paciente refere tontura e mal-estar após alimentação. Refere alimentação irregular, sem nenhum tipo de restrição. Nega antecedentes patológicos. Tabagista (um maço/dia), etilista social. Nega antecedentes familiares de diabetes mellitus, bem como de outras patologias. Exame físico dentro da normalidade, inclusive índice de massa corpórea e palpação tireoideana. Resultado da curva glicêmica: glicemia basal 80 mg%, uma hora 95 mg%, duas horas 98 mg%, três horas 80 mg%, quatro horas 54 mg%, cinco horas 78 mg%. Qual a hipótese diagnóstica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hipoglicemia pré-diabética."
+        },
+        {
+          "key": "b",
+          "text": "Hipoglicemia reativa."
+        },
+        {
+          "key": "c",
+          "text": "Diabetes insipidus."
+        },
+        {
+          "key": "d",
+          "text": "Resistência à insulina."
+        },
+        {
+          "key": "e",
+          "text": "Hipoglicemia secundária a alterações hormonais."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Tontura e mal-estar pós-prandial com glicemia de 54mg/dL na quarta hora da curva glicêmica (padrão de queda tardia após pico), sem outros achados, é quadro clássico de hipoglicemia reativa (pós-prandial funcional).",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_058",
+      "statement": "São dados típicos dos dé cits de água e eletrólitos em Cetoacidose Diabética (C.A.D.) e Estado Hiperglicêmico Hiperosmolar (E.H.H.):",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "sódio (mEq/kg)/ C.A.D. 5 a 13/ E.H.H. 7 a 10."
+        },
+        {
+          "key": "b",
+          "text": "cloreto (mEq/kg)/ C.A.D. 5 a 15/ E.H.H. 3 a 5."
+        },
+        {
+          "key": "c",
+          "text": "potássio (mEq/kg)/ C.A.D. 3 a 5/ E.H.H. 4 a 6."
+        },
+        {
+          "key": "d",
+          "text": "água total (L)/ C.A.D. 9/ E.H.H. 6."
+        },
+        {
+          "key": "e",
+          "text": "água (ml/kg)/ C.A.D. 100 a 200/ E.H.H. 100."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Os déficits de água e eletrólitos são tipicamente maiores na CAD (incluindo potássio corporal total) proporcionalmente ao grau de descompensação, refletindo a perda urinária osmótica prolongada característica de ambos os quadros, com padrões específicos documentados na literatura clássica.",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_059",
+      "statement": "Menino, 6 anos, há três dias apresentando dor abdominal difusa, com 1 episódio de vômito, sem alterações do hábito intestinal. Mãe refere que nos últimos meses criança emagreceu 2 kg, apesar de estar comendo muito bem. Refere ainda que está acordando a noite para urinar frequentemente e como a criança está mais apática, veio ao atendimento de emergência com o seguinte quadro: obnubilado, FR = 40 irpm, sem esforço respiratório, palidez cutânea, dor abdominal difusa à palpação, sem sinais de peritonismo. Olhos encovados, saliva espessa. Glicemia: 700 mg/dl. Gasometria em ar ambiente com PH = 7,1; PO2 = 100 mmHg; PCO2 = 20 mmHg; HCO3 = 5; BE = -20; Sat. = 98%. Sódio: 125 mEq/L. Foi feito o diagnóstico de cetoacidose diabética e iniciado soro de hidratação endovenoso e esquema de insulina. Em relação à hiponatremia deste paciente, é CORRETO afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O valor real está abaixo de 120 mEq/L e, portanto, existem chances elevadas de evoluir para edema cerebral."
+        },
+        {
+          "key": "b",
+          "text": "O valor real é de aproximadamente 135 mEq/L e, portanto, devemos apenas observar a variação deste sódio conforme o controle da glicemia."
+        },
+        {
+          "key": "c",
+          "text": "O valor é real e devemos manter a observação da variação de sódio conforme o controle da glicemia."
+        },
+        {
+          "key": "d",
+          "text": "O valor real é de aproximadamente 130 mEq/L e devemos fazer medidas de proteção para o edema cerebral para que não caia mais do que 12 mEq/dia."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Hiponatremia na CAD é frequentemente dilucional (falsamente baixa pela hiperglicemia); corrigindo pelo fator de correção (1,6mEq/L para cada 100mg/dL de glicose acima de 100), o sódio real corrigido geralmente é maior que o medido, exigindo apenas observação da variação conforme controle glicêmico, com atenção ao risco de edema cerebral se a correção for muito rápida.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_060",
+      "statement": "Mulher, 16 anos, queixa-se de dor abdominal de forte intensidade há 12 horas. Exame físico: desidratada ++/4+; descorada +/4+; T = 36,2°C; FC = 134 bpm; FR = 32 irpm; oximetria de pulso = 96% (ar ambiente); PA = 96 x 64 mmHg. Ausculta cardíaca e pulmonar normais. Abdome: levemente distendido com dor difusa à palpação profunda; punho-percussão lombar: negativa. Rigidez de nuca: ausente. Extremidades: frias. Glicemia capilar = 342 mg/dl. A conduta inicial é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tomografia de abdome."
+        },
+        {
+          "key": "b",
+          "text": "Administração de insulina."
+        },
+        {
+          "key": "c",
+          "text": "Hidratação e dosagem de potássio."
+        },
+        {
+          "key": "d",
+          "text": "Dosagem de amilase e lipase."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Dor abdominal intensa com desidratação, taquicardia e hiperglicemia (342) em adolescente exige hidratação e dosagem de potássio como conduta inicial, antes de iniciar insulina, para avaliar segurança da insulinoterapia.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_061",
+      "statement": "Menina de 12 anos com DM tipo I, deu entrada no PS com cetoacidose diabética. Após insulinoterapia em infusão contínua e correção da desidratação, houve importante redução da glicemia e normalização do pH sanguíneo, porém a cetonúria medida por fita reagente acentuou-se. Em relação a esse caso, qual a conduta mais apropriada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aumentar a velocidade de infusão intravenosa da insulina."
+        },
+        {
+          "key": "b",
+          "text": "Pesquisar uma fonte não identificada de infecção."
+        },
+        {
+          "key": "c",
+          "text": "Manter o esquema terapêutico já que o comportamento observado da cetonúria é normal."
+        },
+        {
+          "key": "d",
+          "text": "Mudar o tipo de insulina que vem sendo utilizada."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Cetonúria que se intensifica durante a resolução da CAD, apesar de melhora clínica e laboratorial (glicemia e pH normalizando), reflete a conversão normal de betahidroxibutirato para acetoacetato — comportamento esperado, devendo-se manter o esquema terapêutico.",
+      "theme": "dm_cad",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_062",
+      "statement": "Paciente do sexo masculino, 68 anos, com diabetes melito tipo 2 há 30 anos, em uso de insulina e metformina, apresentando episódios frequentes de hipoglicemia. Assinale a melhor conduta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Deve-se pesquisar a função renal do paciente, pois podemos estar diante de diminuição da depuração renal de insulina devido à nefropatia diabética."
+        },
+        {
+          "key": "b",
+          "text": "Aumentar a dose de metformina e diminuir a dose de insulina, pois a primeira não apresenta risco de hipoglicemia."
+        },
+        {
+          "key": "c",
+          "text": "Devemos diminuir a dose de insulina, pois é mais provável tratar-se de um processo de reversão de glicotoxicidade."
+        },
+        {
+          "key": "d",
+          "text": "Não devemos nos preocupar com hipoglicemias em pacientes com mais de 60 anos, pois estes apresentam maior proporção de hipoglicemias assintomáticas."
+        },
+        {
+          "key": "e",
+          "text": "Manter o tratamento farmacológico e apenas orientá-los a se alimentarem de 3 em 3 horas."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Idoso com DM2 de longa data em insulina e metformina, com hipoglicemias frequentes, deve ter a função renal investigada, já que a nefropatia diabética reduz a depuração de insulina, prolongando seu efeito e aumentando o risco de hipoglicemia.",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_063",
+      "statement": "Homem, 52 anos, é trazido à emergência hospitalar após ter sido encontrado caminhando desorientado, sem condição para fornecer informações. Sudorético, portava em sua carteira de identidade a receita na qual estava prescrita insulina NPH humana. Considerando o caso descrito, qual a conduta inicial mais adequada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Colocar o paciente em repouso até que esteja apto a dar informações."
+        },
+        {
+          "key": "b",
+          "text": "Medir glicemia capilar."
+        },
+        {
+          "key": "c",
+          "text": "Medir pressão arterial."
+        },
+        {
+          "key": "d",
+          "text": "Medir temperatura axilar."
+        },
+        {
+          "key": "e",
+          "text": "Encaminhar para ressonância magnética de encéfalo."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Paciente desorientado com receita de insulina NPH em posse, sudorético, tem a hipoglicemia como principal suspeita; a conduta inicial mais adequada é medir a glicemia capilar imediatamente.",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "dmca_064",
+      "statement": "Paciente diabética, de 54 anos, está em uso de sulfonilureia e metformina; inapetente há quatro dias, é levada a atendimento hospitalar com quadro clínico de dor de cabeça, confusão, tontura, fraqueza, sudorese, taquicardia e tremor. O diagnóstico mais provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "cetoacidose."
+        },
+        {
+          "key": "b",
+          "text": "hipoglicemia."
+        },
+        {
+          "key": "c",
+          "text": "descompensação hiperglicêmica aguda."
+        },
+        {
+          "key": "d",
+          "text": "síndrome hiperosmolar não-cetótica."
+        },
+        {
+          "key": "e",
+          "text": "normoglicemia."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Dor de cabeça, confusão, tontura, fraqueza, sudorese, taquicardia e tremor após jejum prolongado em paciente usando sulfonilureia (risco de hipoglicemia) são sintomas clássicos de hipoglicemia.",
+      "theme": "dm_cad",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
     }
   ]
 }

@@ -386,6 +386,7 @@ export const AREAS: Area[] = [
           { id: 'hip_acrom', label: 'Acromegalia' },
           { id: 'hip_prol',  label: 'Prolactinoma' },
           { id: 'hip_di',    label: 'Diabetes insipidus' },
+          { id: 'hip_hipopit', label: 'Hipopituitarismo e eixo hipotálamo-hipofisário' },
         ]
       },
       {

@@ -1,1 +1,564 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "hipof_001",
+      "statement": "No Hipogonadismo Hipogonadotrófico é esperado encontrar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Produção excessiva de esteróides sexuais e atraso puberal."
+        },
+        {
+          "key": "b",
+          "text": "Produção insuficiente de gonadotrofinas levando a uma precocidade puberal."
+        },
+        {
+          "key": "c",
+          "text": "Produção insuficiente de gonadotrofinas e atraso puberal."
+        },
+        {
+          "key": "d",
+          "text": "Produção excessiva de esteróides sexuais e de gonadotrofinas levando a uma precocidade puberal."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "No hipogonadismo hipogonadotrófico, há produção insuficiente de gonadotrofinas (LH/FSH) pela hipófise, resultando em deficiência de esteroides sexuais e atraso puberal, diferente do hipogonadismo hipergonadotrófico (falência gonadal primária).",
+      "theme": "hip_hipopit",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hipof_002",
+      "statement": "Considere dois pacientes. O primeiro tem TSH de 6,8 mUI/L (VR = 0,5 – 5,0 mUI/L) e T4L de 2,4 (VR = 0,90 – 1,80 ng/ml); o segundo apresenta TSH de 2,50 mUI/L e T4L de 0,35 ng/dl. Estes pacientes apresentam respectivamente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hipertireoidismo primário e hipotiroidismo central."
+        },
+        {
+          "key": "b",
+          "text": "Hipertireoidismo primário e hipotiroidismo primário."
+        },
+        {
+          "key": "c",
+          "text": "Hipertireoidismo central e hipotireoidismo primário."
+        },
+        {
+          "key": "d",
+          "text": "Hipertireoidismo central e hipotireoidismo central."
+        },
+        {
+          "key": "e",
+          "text": "Hipertireoidismo central e hipotiroidismo de causa indefinida."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Paciente 1 (TSH elevado, T4L elevado) é incompatível com padrão usual — mas considerando o padrão de hipertireoidismo central (TSH inadequadamente normal/alto com T4L elevado, por adenoma hipofisário secretor de TSH); paciente 2 (TSH normal, T4L baixo) é compatível com hipotireoidismo central, já que na forma primária o TSH estaria elevado compensatoriamente.",
+      "theme": "hip_hipopit",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hipof_003",
+      "statement": "Quando ocorre elevação da prolactina sérica também ocorre:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aumento da progesterona."
+        },
+        {
+          "key": "b",
+          "text": "Diminuição das gonadotropinas."
+        },
+        {
+          "key": "c",
+          "text": "Aumento do estradiol."
+        },
+        {
+          "key": "d",
+          "text": "Hiperestimulação ovariana podendo resultar em gestação gemelar."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A hiperprolactinemia inibe a secreção pulsátil de GnRH hipotalâmico, causando diminuição das gonadotrofinas (LH/FSH) e consequente hipogonadismo hipogonadotrófico.",
+      "theme": "hip_prol",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hipof_004",
+      "statement": "Paciente do sexo feminino, 21 anos de idade, vem para consulta de acompanhamento por pan-hipopituitarismo após ressecção de craniofaringeoma na infância. Exames de rotina revelaram baixo nível de TSH. Qual a conduta apropriada nesse caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Reduzir a dose de levotiroxina."
+        },
+        {
+          "key": "b",
+          "text": "Aumentar a dose de levotiroxina."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar dosagem de T4 livre."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar ressonância nuclear magnética cerebral."
+        },
+        {
+          "key": "e",
+          "text": "Solicitar dosagem de tireoglobulina e anti-peroxidase."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Paciente com pan-hipopituitarismo e TSH baixo deve ter a dose de reposição de levotiroxina guiada pela dosagem de T4 livre (não pelo TSH, que é inadequado como parâmetro de monitorização no hipotireoidismo central/secundário).",
+      "theme": "hip_hipopit",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hipof_005",
+      "statement": "Um homem de 60 anos, vítima de traumatismo cranioencefálico grave há alguns meses, apresenta-se com insu ciência hipofisária. Qual dos fatores abaixo NÃO está associado à deficiência de hormônio do crescimento nesse caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dislipidemia."
+        },
+        {
+          "key": "b",
+          "text": "Aterosclerose."
+        },
+        {
+          "key": "c",
+          "text": "Aumento da densidade mineral óssea."
+        },
+        {
+          "key": "d",
+          "text": "Aumento da relação cintura-quadril."
+        },
+        {
+          "key": "e",
+          "text": "Disfunção ventricular esquerda."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O aumento da densidade mineral óssea NÃO está associado à deficiência de GH — pelo contrário, a deficiência de GH está associada à REDUÇÃO da densidade óssea (osteoporose), sendo essa a exceção correta entre as alterações metabólicas associadas.",
+      "theme": "hip_hipopit",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hipof_006",
+      "statement": "O hormônio antidiurético (ADH) é sintetizado na(o):",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Suprarrenal (porção glomerulosa)."
+        },
+        {
+          "key": "b",
+          "text": "Suprarrenal (porção fascicular)."
+        },
+        {
+          "key": "c",
+          "text": "Parênquima renal."
+        },
+        {
+          "key": "d",
+          "text": "Hipotálamo."
+        },
+        {
+          "key": "e",
+          "text": "Neuro-hipófise."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O hormônio antidiurético (ADH/vasopressina) é sintetizado nos núcleos hipotalâmicos (supraóptico e paraventricular) e armazenado/liberado pela neuro-hipófise.",
+      "theme": "hip_hipopit",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hipof_007",
+      "statement": "Abaixo, todos são produtos secretórios do hipotálamo, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "TSH (hormônio estimulante da tireóide)."
+        },
+        {
+          "key": "b",
+          "text": "GnRH (fator liberador da gonadotrofina)."
+        },
+        {
+          "key": "c",
+          "text": "TRH (hormônio liberador de tirotrofina)."
+        },
+        {
+          "key": "d",
+          "text": "GHRH (hormônio liberador do hormônio do crescimento)."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O TSH é produzido pela adeno-hipófise (não pelo hipotálamo) — o hipotálamo produz o TRH, que estimula a liberação hipofisária de TSH, sendo essa a exceção correta entre os produtos secretórios hipotalâmicos listados.",
+      "theme": "hip_hipopit",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hipof_008",
+      "statement": "Mulher, 35 anos, refere tonturas, náuseas, vômitos e dor abdominal há 1 mês, que pioraram há 1 semana. Há 8 anos apresenta apatia, fraqueza, sonolência diurna e depressão. Nega outras queixas. Antecedentes: G3P2A1, em amenorreia desde o último parto há 8 anos quando apresentou hemorragia vaginal com necessidade de transfusão sanguínea. Não amamentou lho. Exame físico: fala lenta e rouca, pele ressecada, edema de face e MMII, ausência de pelos pubianos e axilares, tireoide normopalpável, FC = 56 bpm; PA = 80 X 55 mmHg. Sem outras alterações. Exames laboratoriais: Hb = 9,6 g/dL; GB=7.400/mm³; Plaquetas =150.000/mm³; glicemia: 63 mg/dL; creatinina: 0,9 mg/dL; sódio: 134 mEq/L; potássio: 5,6 mEq/L. Quais alterações hormonais são compatíveis com a hipótese diagnóstica mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "TSH = 1,3 mUI/L (VR: 0,4 - 4,5) e T4 livre = 0,5 ng/dL (VR: 0,9 - 1,8)."
+        },
+        {
+          "key": "b",
+          "text": "FSH = 0,1 UI/L (VR: 15 - 30) e Prolactina = 87 ng/ml (VR: <25)."
+        },
+        {
+          "key": "c",
+          "text": "ACTH = 56 pg/ml (VR = 10 - 40) e cortisol = 4,2 µg/dl (VR: 5 - 20)."
+        },
+        {
+          "key": "d",
+          "text": "LH = 37 UI/L (VR: 1,3 - 13) e estradiol <20 pg/ml (VR: <160)."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Amenorreia pós-parto hemorrágico com necessidade de transfusão, sem lactação, associada a hipotireoidismo central (TSH baixo/inapropriadamente normal com T4L baixo) e outras deficiências hormonais são compatíveis com síndrome de Sheehan (necrose hipofisária pós-parto).",
+      "theme": "hip_hipopit",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hipof_009",
+      "statement": "Mulher de 35 anos apresenta, dois meses após o parto, alteração de campo visual, insu ciência adrenal secundária, T4 livre baixo com TSH normal, associado à suspensão de lactação. Sobre o quadro relatado, é correto afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "As alterações que apresenta devem ter sido causadas por hemorragia periparto."
+        },
+        {
+          "key": "b",
+          "text": "Cirurgia de descompressão hipofisária corrige as deficiências endócrinas."
+        },
+        {
+          "key": "c",
+          "text": "À RNM, pode apresentar aumento homogêneo da hipófise e grande reforço pelogadolíneo."
+        },
+        {
+          "key": "d",
+          "text": "Presume-se que certamente tenha também deficiências de GH e gonadotrofinas,geralmente mais tardias que as de ACTH e TSH."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Deficiências hormonais múltiplas após hemorragia periparto grave, com suspensão de lactação e alteração de campo visual, confirmam síndrome de Sheehan, causada por necrose hipofisária isquêmica durante o parto complicado por hemorragia.",
+      "theme": "hip_hipopit",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hipof_010",
+      "statement": "Marque a afirmativa correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Na acromegalia existe deficiência do hormônio GH."
+        },
+        {
+          "key": "b",
+          "text": "No Diabetes Insipido existe secreção aumentada do hormônio antidiurético (ADH)."
+        },
+        {
+          "key": "c",
+          "text": "Puberdade precoce é definida como surgimento dos caracteres sexuais secundários em idade inferior a 12 anos."
+        },
+        {
+          "key": "d",
+          "text": "No hipopituitarismo com deficiência de gonadotrofinas pode levar a oligomenorreia e infertilidade."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "No hipopituitarismo com deficiência de gonadotrofinas (LH/FSH), pode ocorrer oligomenorreia e infertilidade, refletindo a insuficiência do eixo hipotálamo-hipófise-gonadal.",
+      "theme": "hip_hipopit",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hipof_011",
+      "statement": "O Hipopituitarismo resulta da menor produção de um ou mais hormônios tró cos da hipó se anterior, como consequência de distúrbios hereditários ou adquiridos. Quanto à sua apresentação clínica, assinale a afirmativa correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A falência dos hormônios tróficos associada à compressão ou destruição da hipófise ocorre habitualmente na forma sequencial GH>FSH>LH>TSH>ACTH."
+        },
+        {
+          "key": "b",
+          "text": "Durante a infância, a característica de apresentação é o hipogonadismo e nos adultos, a hipoglicemia grave é o sintoma mais precoce."
+        },
+        {
+          "key": "c",
+          "text": "A apoplexia hipofisária é uma emergência endócrina que pode resultar em poliúria e polidipsia que refletem a ausência de secreção de vasopressina."
+        },
+        {
+          "key": "d",
+          "text": "Quando as lesões acometem a hipófise posterior , ocorre hipotensão, hemorragia do sistema nervoso central e morte."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na falência hipofisária progressiva por compressão ou destruição tumoral, a perda dos hormônios trópicos costuma seguir sequência típica GH>FSH/LH>TSH>ACTH, com o GH sendo tipicamente o primeiro a ser perdido.",
+      "theme": "hip_hipopit",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hipof_012",
+      "statement": "Julgue o item a seguir, relativo à deficiência de crescimento do corpo. Diversos genes responsáveis por codi car fatores de transcrição estão implicados na etiologia da de ciência combinada dos hormônios hipofisários (pan-hipopituitarismo), sendo o gene PROP-1 o mais frequentemente envolvido.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O gene PROP1 é o fator de transcrição mais frequentemente envolvido na etiologia da deficiência combinada de hormônios hipofisários (pan-hipopituitarismo) de causa genética.",
+      "theme": "hip_hipopit",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hipof_013",
+      "statement": "Paciente de 42 anos, masculino, procura atendimento eletivo, acompanhado pela esposa, após ter realizado consulta com urologista para investigação de disfunção erétil. Ao exame físico você observa galactorreia bilateral, palidez facial e sinais de envelhecimento precoce e realiza pesquisa de perda de campo visual por confrontação que não identi ca alterações. Paciente trouxe exames laboratoriais solicitados pelo médico com testosterona total de 180 ng/dl, prolactina de 48 ng/ml e ressonância nuclear magnética de hipó se com achado de tumor em região de hipó se à esquerda medindo 20 mm no maior diâmetro, com desvio de haste hipo sária para a direita estando localizado a 3 mm do quiasma óptico. (Prolactina: 5- 20 ng/dl, Testosterona: 280- 1500 ng/dl). O próximo passo da abordagem nesta consulta deve ser:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Orientar o paciente da benignidade do quadro devido ao diagnóstico de incidentaloma de hipófise e de disfunção erétil de causa psicogênica."
+        },
+        {
+          "key": "b",
+          "text": "Informar ao paciente que, no exame físico, a presença de galactorreia bilateral é um achado comum nos casos de hiperprolactinemia em homens."
+        },
+        {
+          "key": "c",
+          "text": "Informar que os sinais de palidez facial e envelhecimento precoce são devido ao hipogonadismo secundário a um tumor de localização hiposifária."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar campimetria visual computadorizada, uma vez que a pesquisa de perda de campo visual por confrontação é um método clínico de pouca utilidade."
+        },
+        {
+          "key": "e",
+          "text": "Indicar cirurgia transesfenoidal devido se tratar de tumor não funcionante, pois uma prolactina de 48 ng/ml afasta o diagnóstico de macroprolactinoma."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Disfunção erétil, galactorreia bilateral, testosterona baixa e prolactina elevada, associadas a macroadenoma hipofisário próximo ao quiasma óptico, indicam hipogonadismo secundário ao efeito de massa/hiperprolactinemia do tumor hipofisário — mesmo com campimetria por confrontação normal, deve-se investigar formalmente com campimetria computadorizada dado o tamanho e proximidade do tumor ao quiasma.",
+      "theme": "hip_prol",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hipof_014",
+      "statement": "S.Q.S, sexo feminino, 30 anos, apresentou quadro de amenorreia, atro a dos órgãos genitais externos, queda de pelos, astenia e fenômenos distró cos cutâneos, após parto vaginal do seu último lho há 2 anos. O mesmo foi complicado por atonia uterina com hemorragia volumosa, necessitando histerectomia puerperal. Diante desta sintomatologia, estamos frente a:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Síndrome de Kallmann."
+        },
+        {
+          "key": "b",
+          "text": "Síndrome de Sheehan."
+        },
+        {
+          "key": "c",
+          "text": "Hipotireoidismo."
+        },
+        {
+          "key": "d",
+          "text": "Anovulação crônica."
+        },
+        {
+          "key": "e",
+          "text": "Hiperprolactinemia."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Amenorreia, atrofia genital, queda de pelos, astenia e alterações cutâneas após parto complicado por hemorragia grave com histerectomia de urgência são quadro clássico de síndrome de Sheehan (necrose hipofisária isquêmica pós-parto).",
+      "theme": "hip_hipopit",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hipof_015",
+      "statement": "Mulher de 38 anos comparece para consulta com quadro de redução da libido, atro a mamária, ganho de peso, fala arrastada e astenia intensa. Exame físico: mamas atró cas, anasarca (+/4+) e redução da pili cação genital. Uma avaliação laboratorial mostra T4 livre baixo; TSH no limite inferior; cortisol basal = 05 mcg/dl após estimulação com ACTH (valor de referência > 18 mcg/dl); testosterona baixa e FSH e LH nos limites inferiores. Qual o exame mais provavelmente revelará a causa da sua doença?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tomografia de abdome."
+        },
+        {
+          "key": "b",
+          "text": "Cintilografia de tireoide."
+        },
+        {
+          "key": "c",
+          "text": "Teste combinado da pituitária anterior."
+        },
+        {
+          "key": "d",
+          "text": "Ressonância nuclear magnética de encéfalo."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Redução da libido, atrofia mamária, hipotireoidismo central, hipocortisolismo secundário (sem resposta ao ACTH) e hipogonadismo, em conjunto, sugerem pan-hipopituitarismo; a ressonância magnética de encéfalo (sela túrcica) é o exame mais indicado para identificar a causa estrutural (tumor, necrose, infiltração).",
+      "theme": "hip_hipopit",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hipof_016",
+      "statement": "Paciente com história de tumor hipo sário há 1 ano em reposição de levotiroxina diária e testosterona injetável mensal. Do ponto de vista laboratorial, quais exames são necessários para o seguimento destas 2 reposições hormonais, respectivamente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "TSH e LH."
+        },
+        {
+          "key": "b",
+          "text": "TSH e testosterona sérica."
+        },
+        {
+          "key": "c",
+          "text": "T4 livre e testosterona sérica."
+        },
+        {
+          "key": "d",
+          "text": "T4 livre e sulfato de DHEA."
+        },
+        {
+          "key": "e",
+          "text": "T3 reverso e di-hidrotestosterona."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O seguimento da reposição de levotiroxina em hipotireoidismo central deve ser feito com T4 livre (não TSH, inadequado nesse contexto), e o seguimento da reposição de testosterona deve ser feito com testosterona sérica.",
+      "theme": "hip_hipopit",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hipof_017",
+      "statement": "Paciente feminina, de 45 anos, encaminhada por adinamia, lenti cação psicomotora e sintomas depressivos. Os sintomas tornaram-se mais intensos há uma semana, quando iniciou sintomas compatíveis com infecção de trato respiratório. Ao exame físico: PA 90/60 mmHg, palidez cutânea intensa e rarefação de pelos pubianos. Segundo familiares, a paciente apresentou complicação obstétrica hemorrágica em seu último parto, há 8 anos. Não conseguiu amamentar o lho e apresenta amenorreia desde então. Exames laboratoriais: TSH = 8,0 (0,3-5 mUl/mL), T4L = 0.3 ng/dL (0,7-1,8 ng/dL) e glicemia = 45 mg/dL. Trata-se, provavelmente, de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Insuficiência adrenal secundária a tuberculose."
+        },
+        {
+          "key": "b",
+          "text": "Hipotireoidismo autoimune."
+        },
+        {
+          "key": "c",
+          "text": "Necrose hipofisária pós-parto."
+        },
+        {
+          "key": "d",
+          "text": "Adrenalite autoimune."
+        },
+        {
+          "key": "e",
+          "text": "Hipotireoidismo e insuficiência adrenal autoimune."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Adinamia, lentificação psicomotora, hipotensão, hipotireoidismo central (TSH pouco elevado com T4L baixo) e hipoglicemia, em mulher com história de hemorragia obstétrica grave e falha de lactação há anos, são compatíveis com necrose hipofisária pós-parto (síndrome de Sheehan) de apresentação tardia, precipitada por infecção respiratória atual.",
+      "theme": "hip_hipopit",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hipof_018",
+      "statement": "Mulher de 35 anos está em investigação para astenia crônica. Na avaliação laboratorial, encontra-se TSH < 0,01 mcU/L e T4 livre < 0,1 ng/mL. Dentre os abaixo, o próximo exame a ser solicitado deve ser:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "cintilografia tireoideana."
+        },
+        {
+          "key": "b",
+          "text": "anticorpo antirreceptor de tireotrofina (TRab)."
+        },
+        {
+          "key": "c",
+          "text": "anticorpo antitireoperoxidase."
+        },
+        {
+          "key": "d",
+          "text": "ultrassonografia de tireoide."
+        },
+        {
+          "key": "e",
+          "text": "ressonância magnética de sela turca."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "TSH muito suprimido com T4 livre muito baixo (padrão incompatível com hipotireoidismo primário clássico) sugere causa central (hipofisária/hipotalâmica); o próximo exame indicado é a ressonância magnética de sela túrcica para avaliar a região hipofisária.",
+      "theme": "hip_hipopit",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hipof_019",
+      "statement": "A maioria dos portadores da síndrome da sela vazia apresenta níveis:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "baixos de ADH e de prolactina"
+        },
+        {
+          "key": "b",
+          "text": "normais de ADH e de prolactina"
+        },
+        {
+          "key": "c",
+          "text": "baixos de ADH e normais de prolactina"
+        },
+        {
+          "key": "d",
+          "text": "normais de ADH e baixos de prolactina"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A maioria dos portadores de síndrome da sela vazia apresenta função hipofisária preservada, com níveis normais de ADH e prolactina, já que o tecido hipofisário funcional geralmente permanece comprimido mas funcionante na periferia da sela.",
+      "theme": "hip_hipopit",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    }
+  ]
+}

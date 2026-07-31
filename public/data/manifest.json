@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T10:06:53.611Z",
+  "generatedAt": "2026-07-31T10:50:38.013Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,7 +26,7 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 5829,
+  "totalQuestions": 6016,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
@@ -47,10 +47,12 @@
     "cardio_semiologia": 70,
     "peri_tampon": 13,
     "cardio_valvopatias": 140,
-    "dm_cad": 43,
-    "dm_compl": 7,
+    "dm_cad": 107,
+    "dm_compl": 51,
     "hip_di": 1,
     "dm_dx": 34,
+    "hip_hipopit": 17,
+    "hip_prol": 2,
     "dm_tto": 80,
     "drge_acal": 43,
     "dii_dc": 58,
@@ -59,6 +61,8 @@
     "drge_be": 38,
     "int_hdb": 98,
     "dup_hda": 109,
+    "hep_c": 1,
+    "hep_b": 59,
     "cirr_compl": 100,
     "panc_ag": 63,
     "panc_cron": 12,
@@ -702,7 +706,7 @@
       "themes": [
         "dm_cad"
       ],
-      "questionsCount": 43,
+      "questionsCount": 107,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -712,7 +716,7 @@
       "themes": [
         "dm_compl"
       ],
-      "questionsCount": 7,
+      "questionsCount": 51,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -811,8 +815,11 @@
     {
       "area": "endocrinologia",
       "slug": "hipofise",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "hip_hipopit",
+        "hip_prol"
+      ],
+      "questionsCount": 19,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -1100,8 +1107,11 @@
     {
       "area": "gastroenterologia",
       "slug": "hepatites",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "hep_c",
+        "hep_b"
+      ],
+      "questionsCount": 60,
       "flashcardsCount": 0,
       "casosCount": 0
     },
