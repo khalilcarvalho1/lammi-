@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T23:22:24.933Z",
+  "generatedAt": "2026-07-31T00:04:12.304Z",
   "areas": [
     "cardiologia",
     "cirurgia-geral",
@@ -26,7 +26,7 @@
     "reumatologia",
     "urologia"
   ],
-  "totalQuestions": 4896,
+  "totalQuestions": 5396,
   "totalFlashcards": 15,
   "totalCasos": 13,
   "questionThemeCounts": {
@@ -52,6 +52,13 @@
     "hip_di": 1,
     "dm_dx": 34,
     "dm_tto": 80,
+    "drge_dx": 151,
+    "drge_be": 38,
+    "dup_hda": 109,
+    "cirr_compl": 100,
+    "dup_geral": 71,
+    "dup_hp": 26,
+    "dup_aine": 5,
     "inf_antibioticos": 126,
     "arb_dengue": 158,
     "sep_tto": 62,
@@ -1024,8 +1031,11 @@
     {
       "area": "gastroenterologia",
       "slug": "drge",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "drge_dx",
+        "drge_be"
+      ],
+      "questionsCount": 189,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -1056,8 +1066,10 @@
     {
       "area": "gastroenterologia",
       "slug": "hemorragia-digestiva",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "dup_hda"
+      ],
+      "questionsCount": 100,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -1072,8 +1084,10 @@
     {
       "area": "gastroenterologia",
       "slug": "hipertensao-portal",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "cirr_compl"
+      ],
+      "questionsCount": 100,
       "flashcardsCount": 0,
       "casosCount": 0
     },
@@ -1112,8 +1126,13 @@
     {
       "area": "gastroenterologia",
       "slug": "ulcera-peptica",
-      "themes": [],
-      "questionsCount": 0,
+      "themes": [
+        "dup_geral",
+        "dup_hda",
+        "dup_hp",
+        "dup_aine"
+      ],
+      "questionsCount": 111,
       "flashcardsCount": 0,
       "casosCount": 0
     },

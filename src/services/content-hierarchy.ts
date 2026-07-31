@@ -288,6 +288,7 @@ export const AREAS: Area[] = [
           { id: 'dup_hp',   label: 'H. pylori' },
           { id: 'dup_aine', label: 'Úlcera por AINE' },
           { id: 'dup_hda',  label: 'HDA por úlcera' },
+          { id: 'dup_geral',label: 'Classificação, cirurgia e síndromes pós-gastrectomia' },
         ]
       },
       {

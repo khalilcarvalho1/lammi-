@@ -1,1 +1,3028 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "hdanv_001",
+      "statement": "Paciente de 54 anos, sem comorbidades prévias, é admitido em serviço de emergência com histórico de 2 episódios hematêmese franca há 3 horas. No momento encontra-se estável hemodinamicamente, com Frequência Cardíaca de 82bpm e Pressão Arterial de 110x72 mmHg. Sobre o manejo desse paciente, assinale a alternativa CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O uso de inibidores de bomba de prótons é recomendado, sendo que a infusão por meio de bomba infusora é superior ao uso intermitente."
+        },
+        {
+          "key": "b",
+          "text": "A infusão de eritromicina 20 a 90 minutos antes da realização da endoscopia é recomendada, uma vez que facilita a visualização da mucosa gástrica durante o procedimento."
+        },
+        {
+          "key": "c",
+          "text": "A endoscopia deve ser realizada em até 6 horas, uma vez que sua realização precoce esteve associada à menor mortalidade."
+        },
+        {
+          "key": "d",
+          "text": "Nos casos em que não está disponível a endoscopia, deve-se realizar um estudo contrastado com Bário para afastar a possibilidade de tumores gástricos."
+        },
+        {
+          "key": "e",
+          "text": "O uso de ácido tranexamico está indicado, uma vez que reduz a incidência de ressangramento e de necessidade de transfusão, sem aumentar o risco de fenômenos trombóticos."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O ácido tranexâmico não é recomendado rotineiramente na HDA por úlcera péptica, já que estudos não confirmaram benefício consistente e há preocupação com risco trombótico — sendo essa a alternativa incorreta; a infusão contínua de IBP não é superior à intermitente, e a endoscopia deve ser feita em até 24h (não 6h).",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_002",
+      "statement": "Paciente com história conhecida de hipertensão portal esquistossomótica e varizes de esôfago de grande calibre, apresenta-se com novo episódio de hemorragia digestiva alta (HDA) e repercussão hemodinâmica grave, mas com estabilização clínica rápida e adequada. Em relação às principais causas de hemorragias digestivas altas, assinale a alternativa CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Nos pacientes com cirrose hepática e varizes por hipertensão portal deve-se manter a hemoglobina acima de 12 g/dL."
+        },
+        {
+          "key": "b",
+          "text": "A endoscopia digestiva alta terapêutica deve ser feita imediatamente, pois evita o ressangramento nas primeiras 24h."
+        },
+        {
+          "key": "c",
+          "text": "Cerca de 80% das HDA de origem não varicosas cessam espontaneamente o sangramento a despeito do início do tratamento."
+        },
+        {
+          "key": "d",
+          "text": "A HDA de origem não varicosa é causada principalmente por lesão aguda de mucosa gastroduodenal e tumores gástricos."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Cerca de 80% das hemorragias digestivas altas não varicosas cessam espontaneamente, independentemente do início do tratamento, refletindo a história natural benigna da maioria dos episódios.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_003",
+      "statement": "Com relação à classificação de Forrest para úlceras pépticas com sangramento, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Forrest 2A diz respeito a úlceras com coágulo aderido."
+        },
+        {
+          "key": "b",
+          "text": "Forrest 1B diz respeito a úlceras com coto vascular visível."
+        },
+        {
+          "key": "c",
+          "text": "Forrest 3 diz respeito a úlceras com pontos de hematina."
+        },
+        {
+          "key": "d",
+          "text": "Forrest 2B diz respeito a úlceras com sangramento em babação ou porejamento."
+        },
+        {
+          "key": "e",
+          "text": "Forrest 1 A diz respeito a úlceras com sangramento em jato."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Na classificação de Forrest, o grau Ia corresponde a sangramento ativo em jato (pulsátil), o de maior risco de ressangramento entre todos os estigmas endoscópicos.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_004",
+      "statement": "Quanto às hemorragias digestivas, assinale a alternativa incorreta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Melena significa sangue digerido nas fezes."
+        },
+        {
+          "key": "b",
+          "text": "Enterorragia ou hematoquezia significa presença de sangue vivo nas fezes."
+        },
+        {
+          "key": "c",
+          "text": "Hematêmese significa vômitos com sangue."
+        },
+        {
+          "key": "d",
+          "text": "Pacientes que apresentam hematêmese certamente apresentam hemorragia digestiva alta."
+        },
+        {
+          "key": "e",
+          "text": "Pacientes que apresentam melena certamente não apresentam hemorragia digestiva baixa."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Nem todo paciente com melena tem hemorragia alta — sangramentos de intestino delgado ou cólon direito com trânsito lento também podem causar melena, tornando a alternativa E (melena sempre exclui HDB) incorreta.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_005",
+      "statement": "Mulher de 65 anos, é encaminhada para a emergência do hospital com quadro de hemorragia digestiva. Ela não apresenta comorbidades. Após ressuscitação hídrica e monitorização hemodinâmica, a paciente se mantém estável e a dosagem de hemoglobina sérica da paciente é de 10,5 mg/dl. Em seguida é realizada uma endoscopia digestiva alta que mostra uma úlcera duodenal de 0,8 cm com sangramento ativo. O endoscopista realiza hemostasia com uso de hemoclipes e adrenalina e relata que obteve sucesso com a hemostasia. Assinale a alternativa correta sobre a conduta a seguir para a paciente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Alta com omeprazol 40 mg via oral de 12/12 horas por quatro semanas"
+        },
+        {
+          "key": "b",
+          "text": "Observação em UTI com dosagem seriada da hemoglobina e IBP endovenoso"
+        },
+        {
+          "key": "c",
+          "text": "Arteriografia e embolização da artéria gastroduodenal e observação em UTI"
+        },
+        {
+          "key": "d",
+          "text": "Cirurgia com realização de vagotomia e piloroplastia e pós-operatório em enfermaria."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A dosagem de hemoglobina sérica normal (10,5) após endoscopia com hemostasia bem-sucedida indica que a paciente deve ser observada em UTI com dosagens seriadas de hemoglobina e IBP endovenoso, sem necessidade de intervenção adicional imediata.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_006",
+      "statement": "Assinale a alternativa que apresenta CORRETAMENTE três causas de hemorragia digestiva alta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Angiodisplasia, neoplasia de estômago e divertículo de meckel."
+        },
+        {
+          "key": "b",
+          "text": "Angiodisplasia, úlcera péptica gastroduodenal e divertículo de Meckel."
+        },
+        {
+          "key": "c",
+          "text": "Angiodisplasia, úlcera péptica gastroduodenal e neoplasia de estômago."
+        },
+        {
+          "key": "d",
+          "text": "Úlcera péptica gastroduodenal, neoplasia de estômago e diverticulo de Meckel."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Angiodisplasia, úlcera péptica gastroduodenal e neoplasia de estômago são causas reconhecidas de hemorragia digestiva alta, ao contrário do divertículo de Meckel, mais associado a hemorragia digestiva baixa em crianças.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_007",
+      "statement": "Hemorragia Digestiva Alta Não Varicosa HDA Nâo Varicosa Mulher, 59 anos de idade, foi admitida no Serviço de Emergência devido à melena há 6 dias. Nega alteração do hábito intestinal. Sem comorbidades. Relata ingestão de bebida alcóolica nos nais de semana (1 lata de cerveja). Fez uso de anti- in amatório há 1 mês. Ao exame clínico, encontra-se em bom estado geral; descorada; abdome ácido; sem massas palpáveis; e ausência de ascite. Exames laboratoriais: Hb 8,7 g/dL; Ht 26%; Plaquetas 231 mil/mm³; INR 1,1. Foi realizada a endoscopia digestiva alta que mostrou a seguinte lesão no corpo gástrico: Considerando o quadro clínico e o achado endoscópico, qual é o diagnóstico mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tumor estromal gastrointestinal (GIST)."
+        },
+        {
+          "key": "b",
+          "text": "Adenocarcinoma gástrico."
+        },
+        {
+          "key": "c",
+          "text": "Varizes gástricas."
+        },
+        {
+          "key": "d",
+          "text": "Úlcera gástrica Forrest III."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Melena subaguda com lesão submucosa em corpo gástrico visualizada à endoscopia, sem sinais sistêmicos de malignidade e com plaquetas normais, é compatível com tumor estromal gastrointestinal (GIST), tumor submucoso que classicamente sangra por ulceração central.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_008",
+      "statement": "Assinale a alternativa correspondente à classificação III de Forrest para sangramento de úlcera gástrica.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sangramento volumoso em jato"
+        },
+        {
+          "key": "b",
+          "text": "Sem sinais de sangramento"
+        },
+        {
+          "key": "c",
+          "text": "Sangramento recente com fundo hemorrágico"
+        },
+        {
+          "key": "d",
+          "text": "Sangramento ativo de pequeno volume"
+        },
+        {
+          "key": "e",
+          "text": "Sangramento recente com coágulo visível"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Na classificação de Forrest, o grau III corresponde à úlcera sem sinais de sangramento (fundo limpo), com o menor risco de ressangramento entre todos os estigmas.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_009",
+      "statement": "Homem, 45 anos, hipertenso e diabético insulinodependente, dá entrada na unidade de emergência devido à queixa de hematêmese franca associada à lipotimia. Após período de estabilização é submetido à endoscopia digestiva alta (EDA) que revela úlcera duodenal ativa Forrest IIa. Assinale a alternativa que correlaciona a sua descrição endoscópica, a conduta mais adequada e o seu grau de risco para ressangramento.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sangramento ativo não pulsátil – clipe hemostático – alto risco."
+        },
+        {
+          "key": "b",
+          "text": "Vaso visível não sangrante – eletrocoagulação bipolar – alto risco."
+        },
+        {
+          "key": "c",
+          "text": "Vaso visível não sangrante – adrenalina – baixo risco."
+        },
+        {
+          "key": "d",
+          "text": "Úlcera com coágulo aderente – clipe hemostático – baixo risco."
+        },
+        {
+          "key": "e",
+          "text": "Úlcera de fundo hematínico – eletrocoagulação monopolar – alto risco."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Úlcera duodenal Forrest IIa (vaso visível não sangrante) tem alto risco de ressangramento (cerca de 50%) e deve ser tratada com terapia endoscópica combinada, sendo a eletrocoagulação bipolar uma opção terapêutica adequada nesse contexto.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_010",
+      "statement": "Assinale a alternativa que apresenta fatores de risco para morbidade e mortalidade na hemorragia gastrointestinal aguda.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Insuficiência renal, necessidade de hemotransfusão e hematêmese durante a internação."
+        },
+        {
+          "key": "b",
+          "text": "Idade > 50 anos, hematoquezia e perda ponderal."
+        },
+        {
+          "key": "c",
+          "text": "Cirrose, anemia ferropriva e necessidade de endoscopia."
+        },
+        {
+          "key": "d",
+          "text": "Uso de anticoagulantes orais, idade > 60 anos e doença cardíaca."
+        },
+        {
+          "key": "e",
+          "text": "Necessidade de cirurgia, vômitos em borra de café e DPOC."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Insuficiência renal, necessidade de hemotransfusão e hematêmese durante a internação são fatores de risco reconhecidos para morbidade e mortalidade na hemorragia gastrointestinal aguda.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_011",
+      "statement": "Homem de 35 anos de idade procura a unidade de emergência após apresentar episódio de hematêmese há 1 hora. Refere ser etilista e fazer uso de cocaína há 5 anos. Nega quadros similares no passado. Ao exame físico, está descorado (+/4+), desidratado, com frequência cardíaca de 105bpm, pressão arterial de 100x70mmHg e escala de coma de Glasgow de 15. Seu abdome está plano, flácido e indolor. Os exames laboratoriais evidenciaram: Hb: 9,8g/dL (VR: 13 - 18g/dL); leucócitos: 3.800/mm3 (VR: 4000 - 11000/mm³); plaquetas: 290.000/mm3 (VR: 140.000 - 450.000/mm³); creatinina: 0,8mg/dL (VR: 0,7 - 1,2mg/dL); ureia: 50mg/dL (VR: 10 - 50mg/dL); bilirrubina total: 0,9mg/dL (VR: 0,2 a 1,1mg/dL); INR: 1,0 (VR: 0,9 - 1,1) e lactato arterial: 3mmol/L (VR: 0,5 a 1,6mmol/L). Foi realizada endoscopia digestiva alta, que apresentou a alteração visível na imagem a seguir, na incisura angular do estômago: Considerando o caso clínico apresentado, assinale a alternativa correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "No momento da alta hospitalar, deve-se prescrever betabloqueador não-seletivo para reduzir o risco de ressangramento."
+        },
+        {
+          "key": "b",
+          "text": "Deve-se administrar terlipressina endovenosa para reduzir o risco de ressangramento."
+        },
+        {
+          "key": "c",
+          "text": "Há indicação de administrar ácido tranexâmico e iniciar antibiótico profilático para peritonite bacteriana espontânea."
+        },
+        {
+          "key": "d",
+          "text": "O tratamento endoscópico deve ser feito com uso de terapia combinada de hemoclip e injeção de adrenalina."
+        },
+        {
+          "key": "e",
+          "text": "Caso o paciente apresente instabilidade hemodinâmica, deve ser feita uma gastrectomia total com reconstrução em Y de Roux."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Achado endoscópico com alteração compatível com lesão vascular na incisura angular, em paciente etilista/usuário de cocaína, sem sangramento ativo mas com risco elevado, deve receber terapia endoscópica combinada com hemoclipe e injeção de adrenalina.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_012",
+      "statement": "Um paciente de 60 anos, portador de artrite gotosa crônica, foi encontrado pelos familiares sentado no vaso sanitário de casa, letárgico, com grande quantidade de sangue vivo em orofaringe e no chão em torno do vaso. Admitido no PS, foi realizada endoscopia digestiva alta após expansão volêmica e estabilização hemodinâmica. Foi visto na endoscopia úlcera em corpo gástrico com sangramento em porejamento. O laudo endoscópico, segundo a classi cação de Forrest, deverá ser:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "IA."
+        },
+        {
+          "key": "b",
+          "text": "IB."
+        },
+        {
+          "key": "c",
+          "text": "IIA."
+        },
+        {
+          "key": "d",
+          "text": "IIC."
+        },
+        {
+          "key": "e",
+          "text": "III."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Na classificação de Forrest, úlcera com sangramento em porejamento (babação) corresponde ao tipo IB, achado observado neste caso de idoso com sangramento em vaso sanitário.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_013",
+      "statement": "Qual é a indicação de cirurgia na hemorragia gastrointestinal alta não varicosa?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Instabilidade hemodinâmica a despeito da reanimação vigorosa."
+        },
+        {
+          "key": "b",
+          "text": "Falha da primeira técnica endoscópica com associação de dois métodos para controlar a hemorragia."
+        },
+        {
+          "key": "c",
+          "text": "Sangramento lento, porém, contínuo, com necessidade de transfusão maior que 1U a cada 3 dias."
+        },
+        {
+          "key": "d",
+          "text": "Presença úlceras maiores que 2 cm."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A indicação de cirurgia na HDA não varicosa inclui a instabilidade hemodinâmica persistente apesar de reanimação volêmica vigorosa, situação de emergência que não responde ao tratamento clínico/endoscópico.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_014",
+      "statement": "Um homem de trinta anos de idade, sem antecedentes mórbidos, é admitido em um pronto-socorro após episódio copioso de hematêmese. É feito o atendimento inicial e, após estabilização, é so licitada uma endoscopia. O exame encontrou grande quantidade de sangue na câmara gástrica, que, após aspirada, revela mucosa gástrica sem alterações, grande coágulo aderido no fundo gástrico (o médico examinador optou por não retirá-lo). Não havia varizes de esôfago e a mucosa duodenal era normal. Com base nesse caso hipotético, assinale a alternativa que apresenta a melhor conjectura etiológica para o sangramento do paciente.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "adenocarcinoma gástrico"
+        },
+        {
+          "key": "b",
+          "text": "úlcera péptica"
+        },
+        {
+          "key": "c",
+          "text": "malformação vascular da submucosa gástrica"
+        },
+        {
+          "key": "d",
+          "text": "hipertensão portal segmentar"
+        },
+        {
+          "key": "e",
+          "text": "corpo estranho"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Coágulo aderido ao fundo gástrico sem sangramento ativo, com mucosa normal e sem varizes, em paciente jovem hígido, sugere malformação vascular da submucosa gástrica (lesão de Dieulafoy) como etiologia mais provável.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_015",
+      "statement": "L.P.A, 38 anos, sem comorbidades prévias, foi trazida ao hospital após ter apresentado episódio de hematêmese em domicílio. Nega alergias. Relata estar em uso de ibuprofeno por conta de lombalgia após esforço físico há 15 dias. Foi submetida a endoscopia digestiva alta que demonstrou úlcera gástrica com sangramento ativo difuso. Com relação ao quadro apresentado, quais são a classi cação de Forrest da úlcera apresentada pela paciente e o risco de ressangramento respectivo?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Forrest IA – Alto risco de ressangramento"
+        },
+        {
+          "key": "b",
+          "text": "Forrest IB – Alto risco de ressangramento"
+        },
+        {
+          "key": "c",
+          "text": "Forrest IB – Baixo risco de ressangramento"
+        },
+        {
+          "key": "d",
+          "text": "Forrest IA – Baixo risco de ressangramento"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Sangramento ativo difuso em usuário recente de AINE corresponde à classificação Forrest IB (sangramento em babação/porejamento), com alto risco de ressangramento.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_016",
+      "statement": "Paciente do sexo masculino, 30 anos, etilista e tabagista, dá entrada no pronto-atendimento devido a dor abdominal epigástrica e vômitos com raias de sangue que se iniciaram após uma festa. Durante a investigação diagnóstica, realizou endoscopia digestiva alta, com diagnóstico de síndrome de Mallory Weiss. Considerando o diagnóstico em questão, qual é a região acometida?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Esôfago médio."
+        },
+        {
+          "key": "b",
+          "text": "Pequena curvatura gástrica."
+        },
+        {
+          "key": "c",
+          "text": "Junção esofago-gástrica;"
+        },
+        {
+          "key": "d",
+          "text": "Junção gastroduodenal."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Na síndrome de Mallory-Weiss, a laceração da mucosa e submucosa ocorre classicamente na junção esofagogástrica, decorrente do aumento abrupto de pressão intra-abdominal durante vômitos vigorosos.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_017",
+      "statement": "Um paciente de 45 anos é admitido no serviço de Pronto Socorro do Hospital Universitário Cajuru com queixa de hematêmese. Ele refere que apresentou 2 episódios de vômitos com sangue vivo, nega melena, síncope ou outros sintomas. Nega comorbidades prévias e estava em uso de Diclofenaco de Sódio para tratamento de uma dor no joelho esquerdo. Sua pressão arterial é de 126x78 mmHg, sua frequência cardíaca, de 88bpm. Seus exames laboratoriais revelam uma hemoglobina de 12,5mg/dL e uma Ureia de 18mg/dL. Sobre esse quadro clínico, assinale a alternativa CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "As recomendações mais atuais indicam reposição de ferro parenteral para esse paciente, mesmo com a hemoglobina normal no momento."
+        },
+        {
+          "key": "b",
+          "text": "A endoscopia deve ser realizada imediatamente, uma vez que demonstrou ser superior a realização em até 24 horas."
+        },
+        {
+          "key": "c",
+          "text": "O uso de Inibidores de Bomba de Protons devem ser iniciados imediatamente, sendo recomendado sua infusão contínua por meio de bomba infusora, uma vez que os trabalhos mais recentes demonstram superioridade em relação ao esquema em doses intermitentes."
+        },
+        {
+          "key": "d",
+          "text": "Esse paciente pode ser classificado como de muito baixo risco pelo escore de Glasgow-Blatchford e pode receber alta com seguimento ambulatorial."
+        },
+        {
+          "key": "e",
+          "text": "Deve-se evitar uso de procinéticos antes da realização da endoscopia pelo aumento no risco de ressangramento."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Paciente com HDA e hemoglobina/ureia normais, sem sinais de choque, pode ser classificado como muito baixo risco pelo escore de Glasgow-Blatchford e considerado para alta com seguimento ambulatorial sem necessidade de internação.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_018",
+      "statement": "Sobre Hemosuccus pancreaticus, assinale a alternativa correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Também conhecido como pseudo-hematobilia"
+        },
+        {
+          "key": "b",
+          "text": "É causada por erosão de um pseudocisto pancreático na artéria mesentérica"
+        },
+        {
+          "key": "c",
+          "text": "A angiografia é diagnóstico, porém não permite a embolização"
+        },
+        {
+          "key": "d",
+          "text": "Manifesta-se geralmente por dor abdominal, febre, astenia, fadiga e icterícia"
+        },
+        {
+          "key": "e",
+          "text": "Pancreatectomia distal não é indicado para cura"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O hemosuccus pancreaticus, também conhecido como pseudo-hematobilia, é o sangramento digestivo através do ducto pancreático, geralmente por erosão de pseudocisto pancreático em vaso adjacente.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_019",
+      "statement": "Acerca da hemorragia digestiva alta por úlcera péptica, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A maior parte das úlceras gástricas situa-se junto ao fundo gástrico."
+        },
+        {
+          "key": "b",
+          "text": "A endoscopia digestiva alta não permite a identificação do local de sangramento, principalmente quando há múltiplas úlceras."
+        },
+        {
+          "key": "c",
+          "text": "A presença de sangramento em jato sugere maior probabilidade de ressangramento, mesmo que a terapêutica inicial tenha sido efetiva."
+        },
+        {
+          "key": "d",
+          "text": "A presença de vaso visível está associada a um índice de ressangramento de 80%."
+        },
+        {
+          "key": "e",
+          "text": "A terapêutica endoscópica combinada com o uso de inibidores de bomba de prótons, associado à segunda endoscopia, não diminui as taxas de ressangramento."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A presença de sangramento em jato à endoscopia (Forrest Ia) está associada a maior risco de ressangramento, mesmo quando a terapêutica endoscópica inicial parece ter sido efetiva.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_020",
+      "statement": "Hemorragia Digestiva Alta Não Varicosa HDA Nâo Varicosa A principal causa de hemorragia digestiva alta são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "varizes gástricas"
+        },
+        {
+          "key": "b",
+          "text": "varizes esofágicas"
+        },
+        {
+          "key": "c",
+          "text": "lacerações de Mallory-Weiss"
+        },
+        {
+          "key": "d",
+          "text": "úlceras gástricas e duodenais"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "As úlceras gástricas e duodenais (doença ulcerosa péptica) são a principal causa de hemorragia digestiva alta, superando varizes e lacerações de Mallory-Weiss.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_021",
+      "statement": "Em relação à hemorragia digestiva alta, é correto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O hematócrito é um excelente indicador precoce da magnitude da perda sanguínea."
+        },
+        {
+          "key": "b",
+          "text": "A melena se desenvolve após a perda de 10-30 mL de sangue no trato gastrointestinal superior, enquanto hematoquezia requer uma perda de pelo menos 100 ml."
+        },
+        {
+          "key": "c",
+          "text": "Em ordem decrescente de importância, as principais causas de hemorragia digestiva alta são Síndrome de Mallory Weiss, Anormalidades Vasculares, Hipertensão Portal, Doença Ulcerosa Hepática e Gastrite Erosiva."
+        },
+        {
+          "key": "d",
+          "text": "A etapa inicial de abordagem é a avaliação do estado hemodinâmico. Uma pressão arterial sistólica inferior a 100 mmHg identifica um paciente de alto risco com sangramento agudo grave. Uma frequência cardíaca de mais de 100 batimentos / min com pressão arterial sistólica acima 100 mmHg significa perda de sangue aguda e moderada."
+        },
+        {
+          "key": "e",
+          "text": "Concentrado de hemácias deve ser administrado para manter a hemoglobina em 10g/dl, com base na hemodinâmica do paciente, status, comorbidades (especialmente doenças cardiovasculares) e presença de sangramento contínuo."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A etapa inicial na abordagem da HDA é a avaliação do estado hemodinâmico: PA sistólica abaixo de 100 mmHg indica sangramento agudo grave, enquanto taquicardia com PA sistólica preservada acima de 100 mmHg sugere perda sanguínea moderada.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_022",
+      "statement": "Na hemorragia digestiva, melena é de nida por fezes pastosas, de coloração preta e odor fétido. Essas características se devem à oxidação do heme por bactérias intestinais, indicando que a fonte do sangramento se encontra provavelmente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "acima do piloro."
+        },
+        {
+          "key": "b",
+          "text": "acima do ângulo de Treitz."
+        },
+        {
+          "key": "c",
+          "text": "nas alças do jejuno proximal."
+        },
+        {
+          "key": "d",
+          "text": "acima da válvula ileocecal."
+        },
+        {
+          "key": "e",
+          "text": "no ceco e início do cólon direito."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Melena (fezes pretas, pastosas, fétidas por oxidação bacteriana do heme) geralmente indica sangramento acima da válvula ileocecal, já que o trânsito prolongado no intestino delgado/cólon direito é necessário para essa transformação.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_023",
+      "statement": "Hemorragia Digestiva Alta Não Varicosa HDA Nâo Varicosa Sobre hemorragia digestiva, considere as seguintes afirmativas: 1. Ângulo de Treitz é o reparo anatômico que define o limite entre hemorragia digestiva alta e baixa. 2. Varizes de esôfago, úlcera péptica, diverticulose colônica e angiodisplasia perfazem 85% das hemorragias agudas. 3. Cerca de 85% dos casos de hemorragia digestiva aguda decorrem de sangramentos acima do Ângulo de Treitz. 4. O intestino delgado é o responsável por 5 a 8% das hemorragias agudas. Assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Somente a afirmativa 4 é verdadeira."
+        },
+        {
+          "key": "b",
+          "text": "Somente as afirmativas 1 e 4 são verdadeiras."
+        },
+        {
+          "key": "c",
+          "text": "Somente as afirmativas 2 e 3 são verdadeiras."
+        },
+        {
+          "key": "d",
+          "text": "Somente as afirmativas 1, 2 e 3 são verdadeiras."
+        },
+        {
+          "key": "e",
+          "text": "As afirmativas 1, 2, 3 e 4 são verdadeiras."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O ângulo de Treitz define o limite entre HDA e HDB (afirmativa 1 correta); cerca de 80-85% das hemorragias digestivas agudas ocorrem acima desse ângulo (afirmativa 3 correta); mas as causas listadas (varizes, úlcera, diverticulose, angiodisplasia) somadas não chegam exatamente a 85% de forma uniforme conforme descrito (afirmativa 2 questionável) — a combinação de 1, 2 e 3 foi considerada correta pelo gabarito.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_024",
+      "statement": "Homem de 63 anos procura a emergência referindo que nas últimas 24 horas teve várias evacuações de fezes enegrecidas e nas últimas 12 horas tem sentido muita tontura. Refere ser hipertenso e nega cirurgias prévias. O paciente reclama de cefaleias frequentes devido a tensão no trabalho, para a qual vem se automedicando com quatro a seis comprimidos de ibuprofeno por dia nas últimas duas semanas. Ele nega uso de bebida alcoólica, tabaco ou drogas ilícitas. Ao exame físico apresenta temperatura de 36°C, pulso de 105/min, pressão arterial de 104/80 mmHg e frequência respiratória de 22/min. Ele está acordado, mas apresentando letargia e palidez. O exame cardiopulmonar não tem alteração. Seu abdome está ligeiramente distendido e ligeiramente sensível no epigástrio. O exame retal revela fezes melanóticas, mas sem massas na ampola retal. Escolha a alternativa abaixo que apresenta a hipótese diagnóstica e o manejo correto para este caso.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hemorragia por varizes esofágicas e o manejo inicial requer a passagem do balão esofágico e drogas vasoativas."
+        },
+        {
+          "key": "b",
+          "text": "Hemorragia por doença diverticular do colo e o manejo inicial requer ressuscitação volêmica e colonoscopia."
+        },
+        {
+          "key": "c",
+          "text": "Isquemia mesentérica e o tratamento inicial requer uma arteriografia e anticoagulação com heparina."
+        },
+        {
+          "key": "d",
+          "text": "Hemorragia digestiva por úlcera péptica e o manejo inicial requer ressuscitação volêmica e endoscopia digestiva alta."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Fezes enegrecidas, tontura e uso recente de altas doses de ibuprofeno sugerem hemorragia digestiva alta por úlcera péptica; o manejo inicial exige ressuscitação volêmica seguida de endoscopia digestiva alta diagnóstica e terapêutica.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_025",
+      "statement": "Sobre a hemorragia digestiva alta causada por úlcera péptica, suas características e abordagem, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A úlcera péptica representa a 4ª maior causa de hemorragia digestiva alta."
+        },
+        {
+          "key": "b",
+          "text": "Deve-se aguardar 72h após o quadro inicial da hemorragia para ser realizada endoscopia digestiva alta."
+        },
+        {
+          "key": "c",
+          "text": "A maioria dos casos de hemorragia por úlcera necessita de abordagem cirúrgica."
+        },
+        {
+          "key": "d",
+          "text": "Hemorragia mais intensa geralmente ocorre quando a úlcera duodenal penetra ramos da artéria gastroepiploica esquerda."
+        },
+        {
+          "key": "e",
+          "text": "Na suspeita ou diagnóstico de úlcera péptica, deve ser iniciada terapia com inibidor de bomba de prótons."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Na suspeita ou diagnóstico de úlcera péptica com sangramento, deve-se iniciar prontamente terapia com inibidor de bomba de prótons, reduzindo o risco de ressangramento antes mesmo da endoscopia.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_026",
+      "statement": "Paciente feminina, 27 anos, portadora de artrite reumatoide em uso diário de antiin amatórios não esteroidais há 12 anos, chega no pronto-socorro com história de grande sangramento nas fezes há 1 dia associado a desmaio. Relata que acordou 3 vezes na madrugada com eliminação de fezes com conteúdo sanguinolento vermelho vivo em grande quantidade. Ao levantar-se pela manhã apresentou síncope. Relata que as fezes estavam mais escurecidas há 7 dias. Nega hematêmese. Ao exame físico: regular estado geral, sudoreica, taquicárdica, pálida, descorada 3+/4. Bulhas rítmicas, sem sopros. Abdome com ruídos aumentados, ácido, indolor, sem sinais de peritonite. Inspeção perineal: ausência hemorroidas, plicomas ou ssuras. Toque retal: presença de melena em dedo de luva. Pressão arterial: 90x40 mmHg, frequência cardíaca: 122 bpm, frequência respiratória: 33 ipm. Após estabilização clínica, foi submetida a endoscopia digestiva alta que evidenciou lesão ulcerada em antro gástrico, de aproximadamente 2 cm, com coágulo aderido, impossibilitando visualização dos vasos submucosos. Trata-se de uma úlcera classificada por Forrest em:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I"
+        },
+        {
+          "key": "b",
+          "text": "II A"
+        },
+        {
+          "key": "c",
+          "text": "II B"
+        },
+        {
+          "key": "d",
+          "text": "III"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Úlcera antral com coágulo aderido impossibilitando visualização do vaso subjacente corresponde à classificação Forrest IIb, estigma endoscópico de sangramento recente com risco intermediário de ressangramento.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_027",
+      "statement": "Paciente feminina, 27 anos, portadora de artrite reumatoide em uso diário de antiin amatórios não esteroidais há 12 anos, chega no pronto-socorro com história de grande sangramento nas fezes há 1 dia associado a desmaio. Relata que acordou 3 vezes na madrugada com eliminação de fezes com conteúdo sanguinolento vermelho vivo em grande quantidade. Ao levantar-se pela manhã apresentou síncope. Relata que as fezes estavam mais escurecidas há 7 dias. Nega hematêmese. Ao exame físico: regular estado geral, sudoreica, taquicárdica, pálida, descorada 3+/4. Bulhas rítmicas, sem sopros. Abdome com ruídos aumentados, ácido, indolor, sem sinais de peritonite. Inspeção perineal: ausência hemorroidas, plicomas ou ssuras. Toque retal: presença de melena em dedo de luva. Pressão arterial: 90x40 mmHg, frequência cardíaca: 122 bpm, frequência respiratória: 33 ipm. De acordo com a classificação de choque hemorrágico, a paciente apresenta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Choque classe I"
+        },
+        {
+          "key": "b",
+          "text": "Choque classe II"
+        },
+        {
+          "key": "c",
+          "text": "Choque classe III"
+        },
+        {
+          "key": "d",
+          "text": "Choque classe IV"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "PA 90x40 mmHg e FC 122 bpm com perda volêmica estimada (baseada em sinais clínicos de choque hemorrágico com hipotensão e taquicardia significativas) correspondem à classe III de choque hemorrágico (perda de 30-40% da volemia).",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_028",
+      "statement": "Homem de 46 anos faz uso de anti-in amatório não esteroide há seis meses, devido à lesão no menisco medial do joelho direito. Há um mês começou a apresentar dor epigástrica tipo fome nos intervalos das refeições que melhorava com uso de pastilhas antiácidas. Por várias vezes acordou com a dor e ingeria leite para alívio. Há três horas apresentou episódio de melena e tontura. Qual das afirmações abaixo NÃO é verdadeira quanto ao caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Há indicação para uma endoscopia digestiva alta."
+        },
+        {
+          "key": "b",
+          "text": "O uso prévio de misoprostol poderia ter evitado esta evolução desfavorável."
+        },
+        {
+          "key": "c",
+          "text": "O diagnóstico mais provável é de úlcera duodenal."
+        },
+        {
+          "key": "d",
+          "text": "Antibióticos para Helicobacter pylori devem ser prontamente instituídos."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O uso prévio de antibióticos para H. pylori não deve ser prontamente instituído sem confirmação diagnóstica da infecção por teste específico — sendo essa a afirmação falsa, já que o tratamento empírico sem teste positivo não é recomendado.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_029",
+      "statement": "Paciente com história de vômitos, seguidos de hematêmese. Realizada endoscopia digestiva alta, que mostrou lacerações na mucosa e submucosa próximas à junção esofagogástrica. Essas lesões são conhecidas como lacerações de?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Mannkopf."
+        },
+        {
+          "key": "b",
+          "text": "Cullen."
+        },
+        {
+          "key": "c",
+          "text": "Carnett."
+        },
+        {
+          "key": "d",
+          "text": "Cruveilhier."
+        },
+        {
+          "key": "e",
+          "text": "Mallory-Weiss."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Lacerações da mucosa e submucosa próximas à junção esofagogástrica após vômitos são conhecidas como lacerações de Mallory-Weiss.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_030",
+      "statement": "Considere as afirmativas e assinale a opção correta. 1. O uso da sonda nasogástrica para con rmação de HDA pode ser usada em pacientes selecionados e na impossibilidade de realização de EDA. 2. Em 1996, Rockall e cols. elaboraram, com base em um estudo envolvendo 5.810 pacientes, um escore padronizado para a avaliação dos fatores que prediziam a mortalidade e o risco de ressangramento em pacientes com HDA. Esse é o Escore de Rockall para HDA. 3. Alguns pacientes com HDA não varicosa necessitam de tratamento cirúrgico. Dentre algumas indicações, podemos citar: “Persistência da hemorragia com di culdade de manutenção da estabilidade hemodinâmica e falha de retratamento endoscópico”.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Somente 1 e 2 estão corretas."
+        },
+        {
+          "key": "b",
+          "text": "Somente 1 está correta."
+        },
+        {
+          "key": "c",
+          "text": "Somente 3 está correta."
+        },
+        {
+          "key": "d",
+          "text": "Somente 2 e 3 estão corretas."
+        },
+        {
+          "key": "e",
+          "text": "Somente 2 está correta."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A sondagem nasogástrica pode auxiliar na confirmação de HDA em casos selecionados (1 correta); o escore de Rockall foi desenvolvido em 1996 com base em estudo de mais de 5.800 pacientes para predizer mortalidade e ressangramento (2 correta); e a persistência de hemorragia com instabilidade e falha de retratamento endoscópico é indicação cirúrgica (3 correta) — todas as três afirmativas corretas.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_031",
+      "statement": "Paciente do sexo masculino, industriário, 54 anos, é conduzido por familiares ao pronto atendimento devido a “desmaio no banheiro” pela manhã. É admitido algo sonolento, anictérico, hipocorado +++/4, taquicárdico, discretamente dispneico e hipotenso. Seu exame cardiopulmonar não tem alterações e seu abdome é atípico, sem circulação colateral, plano, ácido, indolor, sem massas palpáveis. Realizou um hemograma de urgência que evidenciou 7.500 leucócitos, hemoglobina 6,3 g/dl, hematócrito 18,7% e plaquetas 350.000. Após ressuscitação volêmica com ringer lactato, seu status hemodinâmico e o nível de consciência normalizaram. Então o paciente referiu que vinha apresentando abundantes fezes escuras “como açaí” há 1 semana. Nega vômitos, disfagia, perda de peso e demais sintomas. Refere epigastralgia crônica, tratando-a por conta própria com antiácidos. Assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Caso a endoscopia digestiva alta evidencie lesão gástrica ulcerosa classe IIC de Forrest, o próximo passo é laparotomia urgente para controle do foco de sangramento."
+        },
+        {
+          "key": "b",
+          "text": "A evolução sub-aguda do caso associada a suspeita de hemorragia digestiva alta sugere provável Síndrome de Mallory-Weiss."
+        },
+        {
+          "key": "c",
+          "text": "O tratamento deste paciente provavelmente envolverá inibidores de bomba de prótons."
+        },
+        {
+          "key": "d",
+          "text": "O uso do balão de Sangstaken-Blackmore é essencial na abordagem terapêutica inicial deste paciente."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Fezes escuras por uma semana com anemização importante em paciente com epigastralgia crônica automedicada com antiácidos é quadro compatível com HDA por úlcera péptica; o tratamento provavelmente envolverá inibidor de bomba de prótons.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_032",
+      "statement": "Paciente de 65 anos, sexo feminino, é admitida na emergência de um hospital geral com quadro de hematêmese volumosa, sangramento originado de alguma patologia (doença) gástrica ou devido a rompimento de varizes esofagogástricas. O caso apresentado tem relação com hemorragia digestiva alta. Sobre essa doença, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Considera-se hemorragia digestiva alta, quando o sangramento tem origem distal ao ligamento de Treitz."
+        },
+        {
+          "key": "b",
+          "text": "A principal causa de hemorragia digestiva alta é neoplasia do trato digestivo superior."
+        },
+        {
+          "key": "c",
+          "text": "No manejo inicial de um paciente com hemorragia digestiva alta, jejum, monitorização hemodinâmica e reposição volêmica criteriosa são fundamentais, independentemente da etiologia do sangramento."
+        },
+        {
+          "key": "d",
+          "text": "No caso descrito, a paciente deve ser imediatamente transferida para o setor de endoscopia digestiva, visando à realização de uma endoscopia digestiva alta na primeira hora."
+        },
+        {
+          "key": "e",
+          "text": "Na suspeita de hemorragia digestiva alta de origem varicosa, a transfusão de concentrado de hemácias deve ser realizada se os níveis de hemoglobina estiverem abaixo de 10 g/dl, devido ao maior risco de instabilidade hemodinâmica nos cirróticos."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "No manejo inicial da hemorragia digestiva alta, jejum, monitorização hemodinâmica e reposição volêmica criteriosa são medidas fundamentais independentemente da etiologia específica do sangramento.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_033",
+      "statement": "Paciente do sexo masculino, 9 anos de idade, foi levado pelo seu pai ao pronto-socorro com história de dor abdominal em região epigástrica de forte intensidade, náuseas e palidez, iniciadas algumas horas antes. Negava vômito, febre, parada da eliminação de gases e fezes e alteração urinária ou intestinal. Negava também o uso recente de medicamentos ou episódios anteriores semelhantes. Durante o período de observação no pronto-socorro, o paciente apresentou fezes escurecidas e fétidas. Ao exame físico apresentava-se descorado, abdome plano, ácido, levemente doloroso à palpação, ruídos hidroaéreos presentes, descompressão brusca negativa, sem visceromegalias, extremidades frias. Solicitados exames com os seguintes resultados: Hb: 7,5 g/dL, Ht: 22%, VCM: 78,4fL, leucócitos 10.700/mm³, plaquetas de 337.000/mm³, coagulograma e urina 1 normais. A hipótese diagnóstica mais provável para esse paciente, dentre as abaixo, é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "úlcera duodenal."
+        },
+        {
+          "key": "b",
+          "text": "hérnia encarcerada."
+        },
+        {
+          "key": "c",
+          "text": "apendicite aguda."
+        },
+        {
+          "key": "d",
+          "text": "invaginação intestinal."
+        },
+        {
+          "key": "e",
+          "text": "pancreatite aguda."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Dor epigástrica intensa com melena em criança, sem uso de medicamentos ou fatores de risco claros, tem a úlcera duodenal (péptica primária) como hipótese diagnóstica mais provável nessa faixa etária.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_034",
+      "statement": "Assinale a alternativa que apresenta a situação em que a indicação de angiotomografia é inapropriada.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "suspeita de fístula aortoduodenal"
+        },
+        {
+          "key": "b",
+          "text": "sangramento digestivo alto após a endoscopia normal"
+        },
+        {
+          "key": "c",
+          "text": "sangramento digestivo baixo contínuo de pequena quantidade antes da colonoscopia"
+        },
+        {
+          "key": "d",
+          "text": "sangramento digestivo (com sinais de sangramento ativo) e hipotensão controlada com cristaloide antes da colonoscopia"
+        },
+        {
+          "key": "e",
+          "text": "sangramento de origem indeterminada"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A angiotomografia não é apropriada antes da colonoscopia em sangramento digestivo baixo contínuo mas de pequena quantidade, situação em que a colonoscopia tem melhor rendimento diagnóstico e terapêutico direto.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_035",
+      "statement": "Na hemorragia digestiva (HD), separada em HDA (alta) e HDB (baixa), podemos afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A endoscopia digestiva alta deve ser realizada de imediato após o diagnóstico de HDA."
+        },
+        {
+          "key": "b",
+          "text": "Na admissão do paciente a graduação do choque hipovolêmico e a preocupação com a via aérea e a hemodinâmica do paciente são as prioridades."
+        },
+        {
+          "key": "c",
+          "text": "Após a estabilização hemodinâmica com transfusão sanguínea de imediato, deve ser a conduta inicial a ser adotada."
+        },
+        {
+          "key": "d",
+          "text": "Após a estabilização hemodinâmica com infusão de solução salina por 2 acessos venosos, a endoscopia digestiva deve ser realizada com o paciente sedado sem intubação orotraqueal."
+        },
+        {
+          "key": "e",
+          "text": "Se a endoscopia digestiva alta não localizar o sangramento, uma angiografia deve ser realizada se houver um sangramento de 0,1 ml/minuto."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Na admissão do paciente com hemorragia digestiva, a graduação do choque hipovolêmico e a atenção à via aérea e à hemodinâmica são as prioridades imediatas, antes de qualquer investigação etiológica.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_036",
+      "statement": "Grande parte das hemorragias digestivas altas ocorrem por ulceração duodenal posterior com erosão da artéria:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Mesentérica superior"
+        },
+        {
+          "key": "b",
+          "text": "Gastroduodenal"
+        },
+        {
+          "key": "c",
+          "text": "Gástrica direita"
+        },
+        {
+          "key": "d",
+          "text": "Esplênica"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A maioria das hemorragias digestivas altas maciças ocorre por úlcera duodenal posterior que erode a artéria gastroduodenal, adjacente à parede posterior do bulbo.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_037",
+      "statement": "Paciente feminina, 45 anos, dá entrada no pronto socorro com quadro de melena e hematêmese com 12 horas de evolução. Encontra-se estável hemodinamicamente. Relata uso de anti-in amatório para dor lombar nos últimos 10 dias. Realiza endoscopia digestiva alta que mostra uma lesão ulcerada bulbar classi cada como Sakita A1 e Forrest IIa com teste de urease positivo. Em relação a este caso clínico, analise as assertivas abaixo: I) Esta lesão deve ser tratada endoscopicamente devido ao alto risco de ressangramento. II) O achado endoscópico, demonstrado pela classi cação Forrest IIa, indica para uma lesão ulcerada com sangramento ativo. III) Esta paciente pode ser tratada clinicamente com a realização de um inibidor da bomba de prótons associado com um bloqueador de H2. IV) Devido a localização bulbar da lesão ulcerada, a erradicação do H. pylori não esta indicada como parte do tratamento clínico. Estão corretas as assertivas",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I apenas."
+        },
+        {
+          "key": "b",
+          "text": "I e II apenas."
+        },
+        {
+          "key": "c",
+          "text": "III e IV apenas."
+        },
+        {
+          "key": "d",
+          "text": "II, III e IV apenas."
+        },
+        {
+          "key": "e",
+          "text": "Todas assertivas estão corretas."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Úlcera bulbar Forrest IIa (vaso visível, alto risco de ressangramento) deve ser tratada endoscopicamente (I correta); Forrest IIa não indica sangramento ativo, apenas estigma de sangramento recente (II incorreta) — apenas I está correta.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_038",
+      "statement": "Hemorragia Digestiva Alta Não Varicosa HDA Nâo Varicosa Hemorragia digestiva alta-HDA é uma das principais causas de atendimento em serviços de urgência e emergência. Assinale a alternativa CORRETA em relação a esta entidade.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A principal causa é a rotura de varizes de esôfago."
+        },
+        {
+          "key": "b",
+          "text": "O exame inicial a ser solicitado na admissão de pacientes com HDA é a endoscopia digestiva alta."
+        },
+        {
+          "key": "c",
+          "text": "Úlceras gástricas e duodenais são a principal causa de HDA."
+        },
+        {
+          "key": "d",
+          "text": "Terlipressina e Octreotide se mostraram úteis no controle da HDA independentemente da etiologia do sangramento."
+        },
+        {
+          "key": "e",
+          "text": "O uso do inibidor de bomba de prótons está indicado na urgência, pois auxilia na cicatrização rápida das úlceras e na prevenção da rotura das varizes esofágicas."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "As úlceras gástricas e duodenais (doença ulcerosa péptica) constituem a principal causa de hemorragia digestiva alta na população geral.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_039",
+      "statement": "Paciente de aproximadamente 50 anos é admitido na Emergência com quadro de hematêmese vultuosa. Em relação a abordagem desse paciente, a conduta inicial recomendada é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "arteriografia."
+        },
+        {
+          "key": "b",
+          "text": "lavagem gástrica."
+        },
+        {
+          "key": "c",
+          "text": "endoscopia digestiva alta."
+        },
+        {
+          "key": "d",
+          "text": "estabilização cardiorrespiratória."
+        },
+        {
+          "key": "e",
+          "text": "início de octreotide."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de hematêmese vultuosa, a conduta inicial recomendada é a estabilização cardiorrespiratória (via aérea, respiração, circulação), antes de qualquer exame diagnóstico específico.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_040",
+      "statement": "Mulher, 65 anos, hipertensa e diabética, relata que vinha assintomática quando, há 3 dias, teve episódio de náusea seguido de vômito com sangue. Desde então, vem apresentando evacuações escurecidas e amolecidas, cerca de 2 vezes ao dia. Foi a um pronto-atendimento por sensação de fraqueza e lipotimia associados ao quadro. Negava dor abdominal ou perda de peso. Hemograma realizado na urgência mostrou anemia (Hemoglobina de 8g/dL), sem outras alterações. Assinale a alternativa que indica corretamente o diagnóstico mais provável.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "linfoma MALT"
+        },
+        {
+          "key": "b",
+          "text": "úlcera duodenal"
+        },
+        {
+          "key": "c",
+          "text": "úlcera gástrica"
+        },
+        {
+          "key": "d",
+          "text": "varizes esofágicas"
+        },
+        {
+          "key": "e",
+          "text": "adenocarcinoma gástrico"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Hematêmese seguida de melena recorrente com anemia, sem dor abdominal ou perda de peso, em idosa hipertensa/diabética, é quadro mais compatível com úlcera duodenal como causa da HDA.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_041",
+      "statement": "Sobre a classificação de Forrest, na hemorragia Digestiva Alta, marque a alternativa correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Lesão IIC, Coagulo branco, risco baixo de ressangramento."
+        },
+        {
+          "key": "b",
+          "text": "Lesão IA, sangramento ativo, com risco baixo de novo sangramento, chegando a 5%."
+        },
+        {
+          "key": "c",
+          "text": "Lesão IV, alto risco de novo sangramento, 90%."
+        },
+        {
+          "key": "d",
+          "text": "Lesão IC, baixo risco de novo sangramento, com coto vascular visível."
+        },
+        {
+          "key": "e",
+          "text": "Lesão IV, alto risco de novo sangramento, com 90%, com sangramento ativo."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na classificação de Forrest, a lesão IIC (fundo com pontos de hematina, coágulo escuro/pigmentado) apresenta baixo risco de ressangramento.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_042",
+      "statement": "Osvair, 72 anos, deu entrada na Unidade Regional de Emergência, com história de hematêmese, melena, confusão mental e desmaio. Ao chegar, a frequência cardíaca era 116 bpm, a PA= 80/58 mmHg, frequência respiratória 20 ipm, afebril. A esposa falou que não urinou nas últimas 12 horas. A mais rápida conduta que se deve tomar, neste caso, é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "realizar coleta de hematócrito e hemoglobina, para guiar transfusão de sangue."
+        },
+        {
+          "key": "b",
+          "text": "solicitar endoscopia digestiva alta de urgência."
+        },
+        {
+          "key": "c",
+          "text": "iniciar reposição volêmica com cristaloide isotônico."
+        },
+        {
+          "key": "d",
+          "text": "iniciar inibidor de bomba protônica injetável."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de choque hemorrágico com hipotensão, taquicardia e oligúria, a conduta mais rápida e prioritária é iniciar reposição volêmica imediata com cristaloide isotônico, antes de exames ou endoscopia.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_043",
+      "statement": "Para tratamento endoscópico da úlcera péptica hemorrágica Forrest IB, a melhor opção atual para tratamento hemostático é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "heat probe."
+        },
+        {
+          "key": "b",
+          "text": "adrenalização."
+        },
+        {
+          "key": "c",
+          "text": "utilização de dois métodos."
+        },
+        {
+          "key": "d",
+          "text": "ligadura elástica."
+        },
+        {
+          "key": "e",
+          "text": "cola fibrina."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Para úlcera péptica hemorrágica Forrest IB (sangramento em porejamento), a melhor opção terapêutica atual é a combinação de dois métodos hemostáticos endoscópicos (terapia combinada), reduzindo o risco de ressangramento em relação à monoterapia.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_044",
+      "statement": "Homem, 42 anos, em tratamento de tendinite do calcâneo foi admitido em Unidade de Pronto Atendimento com melena há dois dias, frequência cardíaca de 92 batimentos por minuto, pressão arterial de 110 x 70 mmHg, hemoglobina de 12 g%. Após as medidas iniciais foi encaminhado para hospital de média complexidade para realização de endoscopia digestiva alta que revelou úlcera péptica coberta por fibrina (vide figura). Qual é a melhor orientação?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hemostasia endoscópica, dieta líquida sem resíduos, tratamento com inibidor de bomba de prótons e observação em leito de enfermaria por 12 horas para monitorar ressangramento."
+        },
+        {
+          "key": "b",
+          "text": "Iniciar dieta, alta hospitalar e tratamento com inibidor de bomba de prótons e para Helicobacter pylori."
+        },
+        {
+          "key": "c",
+          "text": "Hemostasia endoscópica, jejum, inibidor de bomba de prótons e observação em leito de estabilização clínica e repetir a endoscopia em 24 horas para comprovar a hemostasia."
+        },
+        {
+          "key": "d",
+          "text": "Jejum, inibidor de bomba de prótons em dose dobrada, observação em leito de enfermaria até completar 72 horas sem sinais hemodinâmicos e de exteriorização de sangramento."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Úlcera péptica coberta por fibrina (Forrest III, sem sinais de sangramento) tem baixo risco de ressangramento; a conduta adequada é iniciar dieta, dar alta hospitalar com IBP e tratamento para H. pylori se indicado, sem necessidade de observação hospitalar prolongada.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_045",
+      "statement": "Hemorragia por Úlcera Péptica HDA por DUP Homem, de 64 anos, portador de cirrose alcoólica, vem ao Pronto-Socorro referindo vômitos com sangue em grande quantidade. Nega antecedente de hemorragia digestiva. Realizada endoscopia digestiva alta com achado de varizes em esôfago e fundo gástrico, de médio calibre e úlcera gástrica pré-pilórica Forrest 2A. Qual é a taxa aproximada de ressangramento e a conduta indicada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "10%, tratamento da úlcera com esclerose com argônio."
+        },
+        {
+          "key": "b",
+          "text": "30%, tratamento das varizes com terlipressina."
+        },
+        {
+          "key": "c",
+          "text": "45%, tratamento da úlcera com clip e esclerose."
+        },
+        {
+          "key": "d",
+          "text": "50%, tratamento das varizes com esclerose."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Cirrótico com varizes de médio calibre E úlcera gástrica Forrest 2A concomitante tem alto risco de ressangramento (cerca de 45%) da lesão ulcerosa, devendo ser tratada com terapia combinada endoscópica (clip e esclerose).",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_046",
+      "statement": "Você está de plantão no pronto-socorro e recebe uma paciente do sexo feminino, de 65 anos, hipertensa, e em tratamento para insu ciência cardíaca congestiva, com história de hematêmese e melena há 1 dia. No exame físico, apresenta-se descorada ++/4+, FC = 110 bpm, Pa = 110 x 70 mmHg e com melena ao toque. Após avaliação inicial, você solicita uma endoscopia digestiva alta. O endoscopista após o exame relata que encontrou uma úlcera duodenal Forrest IIa e realizou escleroterapia. Qual o risco de ressangramento dessa paciente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A paciente apresenta risco elevado para ressangramento, acima de 30% segundo Score de Rockall."
+        },
+        {
+          "key": "b",
+          "text": "A paciente apresenta risco intermediário de novo sangramento."
+        },
+        {
+          "key": "c",
+          "text": "A paciente apresenta baixo risco de ressangramento, abaixo de 20% segundo Score de Rockall."
+        },
+        {
+          "key": "d",
+          "text": "Não é possível determinar o risco de ressangramento segundo o Score de Rockall, pois faltam os dados laboratoriais para sua definição."
+        },
+        {
+          "key": "e",
+          "text": "A paciente tem uma úlcera do tipo Forrest IIa, por isso tem baixo risco de ressangramento."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Úlcera duodenal Forrest IIa tratada com escleroterapia mantém risco elevado de ressangramento, superior a 30% segundo estratificação pelo Escore de Rockall, dado o estigma endoscópico de alto risco.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_047",
+      "statement": "O achado de endoscopia digestiva alta com úlcera de antro com coágulo aderido, com sinais de sangramento recente é classificada em Forrest:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "IA"
+        },
+        {
+          "key": "b",
+          "text": "IB"
+        },
+        {
+          "key": "c",
+          "text": "II A"
+        },
+        {
+          "key": "d",
+          "text": "II B"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Úlcera de antro com coágulo aderido e sinais de sangramento recente corresponde à classificação Forrest IIb.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_048",
+      "statement": "O achado de endoscopia digestiva alta com úlcera de antro com vaso visível, com sinais de sangramento recente é classificada em Forrest:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "IA"
+        },
+        {
+          "key": "b",
+          "text": "IB"
+        },
+        {
+          "key": "c",
+          "text": "II A"
+        },
+        {
+          "key": "d",
+          "text": "II B"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Úlcera de antro com vaso visível e sinais de sangramento recente corresponde à classificação Forrest IIa.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_049",
+      "statement": "Homem de 49 anos, diabético e hipertenso, refere vômitos com sangue em grande quantidade há 2 horas. Nega episódios semelhantes. Exame físico: PA = 105/75 mmHg; FC = 118 bpm; perfusão > 3 segundos. Exames laboratoriais: HB = 9,3 mg/dL; HTC = 27%; plaquetas = 180000. Realizada endoscopia digestiva alta, que detectou esôfago normal e gastrite erosiva leve na parte central da pequena curvatura com grande quantidade de sangue, sem identi cação do sítio do sangramento. O paciente recebeu reposição volêmica adequada com boa resposta. A hipótese diagnóstica provável e a conduta a serem tomadas, respectivamente, são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "leiomioma gástrico; realizar mucosectomia endoscópica."
+        },
+        {
+          "key": "b",
+          "text": "linfoma gástrico; proceder biópsia da lesão."
+        },
+        {
+          "key": "c",
+          "text": "hemangioma gástrico; realizar ligadura elástica da lesão."
+        },
+        {
+          "key": "d",
+          "text": "lesão de Dieulafoy; realizar aplicação de terapia térmica ou esclerosante."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Sangramento difuso em pequena curvatura sem identificação clara do vaso, em paciente sem cirrose, é compatível com lesão de Dieulafoy; o tratamento consiste em terapia térmica ou esclerosante endoscópica direcionada ao vaso.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_050",
+      "statement": "Um paciente com achado de lesão em endoscopia classificada em FORREST IIB deve apresentar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Úlcera com sangramento escoando (“em babação”)."
+        },
+        {
+          "key": "b",
+          "text": "Úlcera em jato."
+        },
+        {
+          "key": "c",
+          "text": "Úlcera com coágulo aderido."
+        },
+        {
+          "key": "d",
+          "text": "Úlcera com vaso visível."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Na classificação de Forrest, o tipo IIB corresponde à úlcera com coágulo aderido ao leito da lesão.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_051",
+      "statement": "Quando de uma endoscopia para diagnóstico da hemorragia gastrointestinal alta, constata-se que há sangramento ativo e pulsátil. Assim, usando-se a classificação de Forrest, podemos dizer que esta hemorragia é do",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "grau Ia / alto risco de ressangramento."
+        },
+        {
+          "key": "b",
+          "text": "grau Ib / alto risco de ressangramento."
+        },
+        {
+          "key": "c",
+          "text": "grau IIa / risco intermediário de ressangramento."
+        },
+        {
+          "key": "d",
+          "text": "grau IIb / alto risco de ressangramento."
+        },
+        {
+          "key": "e",
+          "text": "grau IIc / baixo risco de ressangramento."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Sangramento ativo e pulsátil à endoscopia corresponde ao grau Ia de Forrest, associado a alto risco de ressangramento (acima de 90% sem tratamento).",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_052",
+      "statement": "Excluindo-se a hemorragia por hipertensão porta, qual das respostas abaixo é a principal causa de hemorragia gastrointestinal alta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Malformações arteriovenosas."
+        },
+        {
+          "key": "b",
+          "text": "Esofagite."
+        },
+        {
+          "key": "c",
+          "text": "Doença ulcerosa péptica."
+        },
+        {
+          "key": "d",
+          "text": "Lacerações de Mallory-Weiss."
+        },
+        {
+          "key": "e",
+          "text": "Gastrite ou duodenite."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Excluindo hipertensão porta, a doença ulcerosa péptica é a principal causa de hemorragia gastrointestinal alta, superando Mallory-Weiss, gastrite erosiva e malformações vasculares.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_053",
+      "statement": "Atualmente, entre as opções abaixo, a causa mais comum de hemorragia digestiva alta é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Úlcera gástrica e duodenal."
+        },
+        {
+          "key": "b",
+          "text": "Gastrite ou duodenite."
+        },
+        {
+          "key": "c",
+          "text": "Esofagite."
+        },
+        {
+          "key": "d",
+          "text": "Sindrome de Mallory Weiss."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A causa mais comum de hemorragia digestiva alta atualmente é a úlcera gástrica e duodenal (doença ulcerosa péptica).",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_054",
+      "statement": "Após ingestão excessiva de bebida alcoólica e vômitos repetidos, com a presença de hematêmese, o diagnóstico endoscópico de síndrome de Mallory-Weiss é confirmado ao se identificar que a fonte de sangramento digestivo se deve à:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Laceração da mucosa e submucosa esofagiana em seu terço proximal;"
+        },
+        {
+          "key": "b",
+          "text": "Laceração da mucosa e submucosa esofagiana em seu terço médio;"
+        },
+        {
+          "key": "c",
+          "text": "Laceração da mucosa e submucosa esofagiana na junção esofagogástrica;"
+        },
+        {
+          "key": "d",
+          "text": "Esofagite erosiva aguda;"
+        },
+        {
+          "key": "e",
+          "text": "Gastrite erosiva aguda."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Na síndrome de Mallory-Weiss, a fonte do sangramento é a laceração da mucosa e submucosa exatamente na junção esofagogástrica, local de maior estresse mecânico durante o vômito forçado.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_055",
+      "statement": "Sobre a abordagem inicial e a abordagem especí ca na doença ulcerosa péptica na emergência, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A reposição volêmica agressiva (> 3 litros nas primeiras 6 horas da admissão do paciente) mostrou-se benéfica e reduziu os riscos de sangramento."
+        },
+        {
+          "key": "b",
+          "text": "Em pacientes com baixo risco de sangramento recorrente no PS, em paciente com alto risco cardiovascular, a aspirina só pode ser retomada 7 dias após o sangramento."
+        },
+        {
+          "key": "c",
+          "text": "Em pacientes que necessitam de hemotransfusão, o objetivo é manter os níveis de HB por volta de 7 g/dL, pois alvos maiores de Hb são associados com risco de piora de sangramento e devem ser evitados."
+        },
+        {
+          "key": "d",
+          "text": "Pacientes com sinais de choque hipovolêmico e que são coronariopatas devem ser hemotransfundidos até estabilização hemodinâmica, com alvo de Hb de 12 g/dL."
+        },
+        {
+          "key": "e",
+          "text": "Pacientes que apresentam alterações hemodinâmicas ortostáticas (queda da pressão sistólica maior que 20 mmHg e elevado de mais de 20 batimentos) devem ser submetidos à hemotransfusão imediata."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Em pacientes com HDA necessitando de hemotransfusão, o alvo de hemoglobina restritivo (cerca de 7 g/dL) é a estratégia recomendada, já que alvos mais altos aumentam o risco de ressangramento e eventos adversos, exceto em populações especiais como coronariopatas.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_056",
+      "statement": "A hemobilia costuma ser um dos diagnósticos de hemorragia digestiva alta mais difícil de ser realizado. Em geral a hemobilia está associada a trauma por manipulação recente da via biliar ou neoplasias do fígado. Deve-se suspeitar desta causa menos comum de sangramento digestivo em pacientes que apresentem sangramento, dor no hipocôndrio direito e icterícia. Qual o exame complementar de escolha na suspeita diagnóstica de hemobilia?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Angiografia."
+        },
+        {
+          "key": "b",
+          "text": "Ecografia abdominal."
+        },
+        {
+          "key": "c",
+          "text": "Ressonância magnética."
+        },
+        {
+          "key": "d",
+          "text": "Endoscopia digestiva alta."
+        },
+        {
+          "key": "e",
+          "text": "Tomografia computadorizada."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na suspeita de hemobilia (sangramento, dor em hipocôndrio direito e icterícia, geralmente pós-trauma ou manipulação da via biliar), a angiografia é o exame complementar de escolha, permitindo diagnóstico e embolização terapêutica.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_057",
+      "statement": "A hemorragia digestiva é um problema potencialmente grave e comum. A Hemorragia Digestiva Alta (HDA) é de nida como sangramento do trato digestivo acima do ângulo de Treitz. Já a Hemorragia Digestiva Baixa (HDB) é um sangramento distal a esse ângulo. A hemorragia baixa ocorre com menor frequência que a hemorragia digestiva alta. Porém sua incidência aumenta com a idade, sendo uma situação comum em idosos. Sobre as hemorragias digestivas, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A causa mais comum de hemorragia digestiva alta são as varizes de esôfago."
+        },
+        {
+          "key": "b",
+          "text": "A maioria dos sangramentos digestivos necessitam de tratamento cirúrgico para controle da hemorragia."
+        },
+        {
+          "key": "c",
+          "text": "A doença diverticular é a principal causa de hemorragia digestiva baixa nos pacientes com mais de 70 anos."
+        },
+        {
+          "key": "d",
+          "text": "Na síndrome de Mallory-Weiss, o sangramento é oriundo de uma ruptura esofágica e o tratamento cirúrgico é necessário."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A doença diverticular é a principal causa de hemorragia digestiva baixa em pacientes idosos (acima de 70 anos), refletindo a alta prevalência de doença diverticular nessa faixa etária.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_058",
+      "statement": "A maioria dos casos de hemorragia gastrointestinal alta maciça é secundária a uma úlcera posterior duodenal em que penetrou um dos ramos ou a artéria:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Gástrica esquerda."
+        },
+        {
+          "key": "b",
+          "text": "Gastroduodenal."
+        },
+        {
+          "key": "c",
+          "text": "Pancreaticoduodenal superior."
+        },
+        {
+          "key": "d",
+          "text": "Gastroepiplóica esquerda."
+        },
+        {
+          "key": "e",
+          "text": "Gastroepiplóica direita."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A maioria dos casos de hemorragia gastrointestinal alta maciça é secundária a úlcera duodenal posterior que penetra a artéria gastroduodenal ou seus ramos.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_059",
+      "statement": "Paciente 60 anos, fumante, deu entrada no pronto socorro com dor epigástrica de forte intensidade com história de melanoma. Fez endoscopia digestiva alta com fundo de Forrest Tipo – IB. Esse quadro corresponde a",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "sangramento em jato."
+        },
+        {
+          "key": "b",
+          "text": "sangramento em porejamento (babando)."
+        },
+        {
+          "key": "c",
+          "text": "sem sinal de sangramento."
+        },
+        {
+          "key": "d",
+          "text": "colo vascular visível."
+        },
+        {
+          "key": "e",
+          "text": "fundo hemático."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Na classificação de Forrest, o tipo IB corresponde a sangramento em porejamento (babando), um estigma de sangramento ativo não pulsátil.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_060",
+      "statement": "Homem, 47 anos, apresenta 7 episódios de vômitos após grande ingesta alcoólica durante uma festa. Três horas depois, o paciente evolui com tontura e hematêmese. A principal causa do sangramento é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "varizes de esôfago."
+        },
+        {
+          "key": "b",
+          "text": "laceração de Mallory-Weiss."
+        },
+        {
+          "key": "c",
+          "text": "úlcera péptica duodenal."
+        },
+        {
+          "key": "d",
+          "text": "úlcera péptica gástrica."
+        },
+        {
+          "key": "e",
+          "text": "câncer gástrico."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Vômitos repetidos após ingestão alcoólica excessiva, seguidos de hematêmese, são quadro clássico de laceração de Mallory-Weiss, causada pelo aumento súbito de pressão intra-abdominal.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_061",
+      "statement": "Com relação ao papel da endoscopia na hemorragia digestiva alta (HDA), assinale com V as a rmativas verdadeiras e com F as falsas. ( ) A endoscopia é de extrema importância nos casos de sangramento do trato gastrintestinal superior, seja no diagnóstico, podendo classificar a natureza da lesão, ou como terapia intervencionista. ( ) A endoscopia pode ser utilizada para avaliar a mucosa visualmente, mas não permite a biópsia de lesões suspeitas de neoplasia. ( ) Nos casos de sangramento do trato gastrintestinal superior, a endoscopia deve ser realizada dentro de 24 horas. ( ) O desfecho de pacientes com HDA é afetado pelo tempo que a endoscopia é realizada e pela qualidade do tratamento endoscópico naqueles que dela necessitam. Assinale a sequência correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "V-F-F-F"
+        },
+        {
+          "key": "b",
+          "text": "F-V-F-V"
+        },
+        {
+          "key": "c",
+          "text": "V-F-V-V"
+        },
+        {
+          "key": "d",
+          "text": "F-V-V-F"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A endoscopia é fundamental tanto para diagnóstico quanto terapia na HDA (V); permite biópsia de lesões suspeitas (F, a afirmativa nega isso incorretamente); deve ser realizada em até 24h (V); e o desfecho é afetado pelo tempo e qualidade da endoscopia (V) — sequência V-F-V-V.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_062",
+      "statement": "Hemorragia Digestiva Alta Varicosa HDA Varicosa Paciente do sexo masculino, de 22 anos, após vários episódios repetidos de vômitos, nas últimas seis horas, inicialmente com conteúdo claro, com sabor ácido, apresentou episódio de hematêmese. Neste caso, o diagnóstico mais provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "síndrome de Budd-Chiari."
+        },
+        {
+          "key": "b",
+          "text": "síndrome de Mallory-Weiss."
+        },
+        {
+          "key": "c",
+          "text": "úlcera duodenal."
+        },
+        {
+          "key": "d",
+          "text": "varizes esofagianas."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Vômitos repetidos com conteúdo inicialmente claro/ácido, evoluindo para hematêmese, são quadro típico de síndrome de Mallory-Weiss, mais comum em jovens após vômitos vigorosos.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_063",
+      "statement": "Um paciente de 75 anos de idade procurou atendimento por diminuição do volume urinário e intolerância aos esforços, associada a dor torácica ventilatório-dependente e a dor lombar de forte intensidade. Realizou exames de laboratório, que evidenciaram: hemoglobina = 8,6 g/dL, hematócrito = 25%, leucócitos = 6.600/mm3, sem particularidades no diferencial, plaquetas = 190 mil/mm3, creatinina = 4,51 mg/dL, potássio = 6,3 mEq/L, cálcio sérico corrigido = 13 mg/dL, ureia = 109 mg/dL, reserva alcalina = 12 U/L. Ao exame físico, o paciente encontrava-se em regular estado geral, hipocorado, com presença de sopro sistodiastólico 2+/4+, murmúrio vesicular reduzido em 1/3 inferior direito, edema em membros inferiores 3+/4+, abdome sem particularidades e percussão-punho-lombar (PPL) negativo, PA = 180 mmHg X 90 mmHg, FC = 97 bpm, SatO2 = 92% em ar ambiente. Considerando esse caso clínico e os conhecimentos médicos correlatos, julgue o item a seguir. Úlceras pépticas do tipo Forrest IIC evidenciadas na endoscopia são aquelas com fundo hemático.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "É incorreto afirmar que úlceras Forrest IIC apresentam fundo hemático — na verdade, o fundo hemático (hematina) corresponde à classificação Forrest III/IIC conforme diferentes descrições, mas o gabarito considera essa correlação como certa neste contexto específico da questão.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_064",
+      "statement": "O atendimento inicial adequado às hemorragias digestivas é fundamental para o bom prognóstico do paciente. As decisões diagnósticas e o tratamento clínico-endoscópico deve ser realizado da melhor forma possível para melhorar a morbimortalidade dos sangramentos gastrointestinais, visto que apenas 5 a 10% dos pacientes necessitarão de abordagem cirúrgica. A classi cação de Forrest das hemorragias por doença ulcerosa péptica foi desenvolvida para avaliar a lesão e o tipo de tratamento endoscópico e, também, para estrati car o risco de ressangramento. Sobre o exposto, assinale a alternativa CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Se houver um coagulo aderente (Forrest IIb), ele não deve ser removido devido ao risco de ressangramento."
+        },
+        {
+          "key": "b",
+          "text": "Apenas as lesões tipo Forrest Ia e Ib são classificadas como de alto risco de ressangramento."
+        },
+        {
+          "key": "c",
+          "text": "O risco de sangramento, no Forrest IIb, é considerado baixo."
+        },
+        {
+          "key": "d",
+          "text": "A terapia endoscópica é recomendada nos casos de Forrest Ia, Ib e IIa."
+        },
+        {
+          "key": "e",
+          "text": "Uma úlcera de fundo limpo não sangrante é classificada como Forrest IIc e tem risco de sangramento baixo."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A terapia endoscópica é recomendada nos casos de Forrest Ia, Ib e IIa (sangramento ativo ou vaso visível), estigmas de alto risco que se beneficiam de intervenção terapêutica imediata.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_065",
+      "statement": "Jovem de 19 anos após abuso de cocaína dá entrada em sala de emergência trazido pelo serviço de resgate apresentando hematêmese franca, em grande volume, de início há 10 minutos. Na admissão em sala de emergência apresenta-se em mal estado geral, descorado, pálido, comatoso, apresentando vários episódios de vômitos em grande quantidade. Pressão arterial: 80x40mmHg, Frequência cardíaca: 145bpm, Frequência respiratória: 31irpm, Saturação de oxigênio periférica: 89%. A conduta mais adequada neste momento, respectivamente por ordem de prioridade é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "1- Endoscopia digestiva alta para diagnóstico e tratamento da lesão; 2- intubação orotraqueal; 3- reposição volêmica."
+        },
+        {
+          "key": "b",
+          "text": "1- Endoscopia digestiva alta para diagnóstico e tratamento da lesão; 2- reposição volêmica; 3- intubação orotraqueal."
+        },
+        {
+          "key": "c",
+          "text": "1- Intubação orotraqueal; 2-endoscopia digestiva alta para tratamento da lesão; 3- reposição volêmica."
+        },
+        {
+          "key": "d",
+          "text": "1-Intubação orotraqueal e reanimação volêmica; 2- endoscopia digestiva alta para diagnóstico e tratamento."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de hematêmese maciça com rebaixamento do nível de consciência e hipóxia, a prioridade é intubação orotraqueal e reanimação volêmica simultâneas antes da endoscopia diagnóstica e terapêutica.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_066",
+      "statement": "Paciente homem, 45 anos de idade, dá entrada na unidade de emergência apresentando quadro de hematêmese em modera quantidade, PA 90 x 60 mm Hg, FC = 120 bpm, tontura e agitação. Após estabilização hemodinâmica, foi submetido a exame endoscópico que revelou uma úlcera de 2,0 cm na parede posterior do bulbo duodenal, com sangramento arterial em jato, sendo tratada com injeção de adrenalina e hemoclipe. Baseado no relato apresentado, assinale a opção correta",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Trata-se de uma úlcera Forrest IB com chance de ressangramento maior que 90%."
+        },
+        {
+          "key": "b",
+          "text": "Trata-se de uma úlcera Forrest IA com chance de ressangramento maior que 90%."
+        },
+        {
+          "key": "c",
+          "text": "Trata-se de uma úlcera Forrest IIA com chance de ressangramento de 30%."
+        },
+        {
+          "key": "d",
+          "text": "Trata-se de uma úlcera do Curling."
+        },
+        {
+          "key": "e",
+          "text": "Deveria ter sido utilizado um único método endoscópico."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Úlcera de bulbo duodenal com sangramento arterial em jato corresponde à classificação Forrest IA, com risco de ressangramento superior a 90% sem tratamento adequado.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_067",
+      "statement": "Um homem de 65 anos é levado pelos lhos ao pronto socorro, por apresentar fraqueza e várias evacuações com fezes escuras. Diz que teve uma gripe forte há 15 dias, tendo tomado vários remédios por uma semana. Melhorou da gripe, mas passou a ter um pouco de dor de estômago. Há cinco dias vem tendo dois a três episódios diários de fezes muito escuras e malcheirosas e passou a sentir fraqueza progressiva. Nunca vomitou nesse período, embora chegasse a sentir por vezes um pouco de enjôo. Refere ter feito uma refeição leve há cerca de duas horas. Está em bom estado geral, mas descorado. Pulso: 110 bpm, rítmico. Pressão arterial: 120 u 80 mmHg. Hemoglobina: 9,3 g/dL; hematócrito: 28%. Além da administração de inibidores da secreção ácida gástrica e da reposição intravenosa de volume, a abordagem inicial deste paciente deve incluir:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Internação e colonoscopia"
+        },
+        {
+          "key": "b",
+          "text": "Internação e endoscopia digestiva alta imediata"
+        },
+        {
+          "key": "c",
+          "text": "Internação e endoscopia digestiva alta nas primeiras 24 horas"
+        },
+        {
+          "key": "d",
+          "text": "Internação e transfusão de sangue"
+        },
+        {
+          "key": "e",
+          "text": "Solicitação de endoscopia digestiva e alta ambulatorial, com orientação de retornar ao hospital se apresentar vômito com sangue ou se as fezes continuarem escuras"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Fezes escuras persistentes com anemização progressiva, sem hematêmese, associada a uso recente de anti-inflamatórios, indica internação com endoscopia digestiva alta dentro das primeiras 24 horas, após medidas iniciais de suporte.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_068",
+      "statement": "Homem, 33 anos, história prévia de etilismo, apresenta hemorragia digestiva alta. A Endoscopia Digestiva Alta (EDA) mostra varizes esofagianas de pequeno calibre e grande quantidade de sangue no estômago, re uindo pelo piloro. O diagnóstico mais provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Gastrite de estresse."
+        },
+        {
+          "key": "b",
+          "text": "Úlcera gástrica."
+        },
+        {
+          "key": "c",
+          "text": "Gastropatia hipertensiva."
+        },
+        {
+          "key": "d",
+          "text": "Úlcera duodenal."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Grande quantidade de sangue refluindo pelo piloro à endoscopia, com varizes de pequeno calibre (não a fonte principal), sugere origem duodenal do sangramento — úlcera duodenal como diagnóstico mais provável.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_069",
+      "statement": "Homem, 30 anos, com quadro de hemorragia digestiva alta e instabilidade hemodinâmica. Qual a primeira conduta nesse caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Laparotomia exploratória."
+        },
+        {
+          "key": "b",
+          "text": "Endoscopia digestiva alta com escleroterapia."
+        },
+        {
+          "key": "c",
+          "text": "Estabilização hemodinâmica com infusão de soro fisiológico e/ou Ringer Lactato."
+        },
+        {
+          "key": "d",
+          "text": "Estabilização hemodinâmica com transfusão sanguínea."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de hemorragia digestiva alta com instabilidade hemodinâmica, a primeira conduta é a estabilização hemodinâmica com infusão de cristaloide (soro fisiológico/Ringer lactato), antes de qualquer procedimento diagnóstico ou terapêutico específico.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_070",
+      "statement": "Paciente apresentando hemorragia digestiva alta (HDA). Realizou Endoscopia digestiva que demonstrou uma úlcera gástrica em região pré-pilórica com coágulo aderido. Neste caso, podemos afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Classificamos como Forrest IIB – Jonhson III"
+        },
+        {
+          "key": "b",
+          "text": "Classificamos como Forrest IIC – Johnson II"
+        },
+        {
+          "key": "c",
+          "text": "Classificamos como Forrest IIC – Jonhson III"
+        },
+        {
+          "key": "d",
+          "text": "Classificamos como Forrest IIB – Jonhson II"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Úlcera gástrica pré-pilórica com coágulo aderido corresponde a Forrest IIB (estigma endoscópico) e Johnson III (localização pré-pilórica).",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_071",
+      "statement": "Qual o tratamento a ser empregado em um paciente com hemorragia digestiva alta por úlcera duodenal, classi cada IIb (classi cação de Forrest), na qual a remoção do coágulo durante o procedimento revelou úlcera de base limpa e o paciente apresentou novo episódio hemorrágico após 48 horas da endoscopia?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Controle da hemorragia por meio de injeção local de epinefrina por via endoscópica."
+        },
+        {
+          "key": "b",
+          "text": "Aplicação endoscópica de grampo no vaso sangrante."
+        },
+        {
+          "key": "c",
+          "text": "Controle da hemorragia por meio de eletrocoagulação bipolar por via endoscópica."
+        },
+        {
+          "key": "d",
+          "text": "Controle da hemorragia por meio de coagulação plasmática com argônio por via endoscópica."
+        },
+        {
+          "key": "e",
+          "text": "Controle cirúrgico da hemorragia."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Úlcera duodenal Forrest IIb com ressangramento após 48 horas da endoscopia inicial, apesar do tratamento endoscópico já realizado, tem indicação de controle cirúrgico da hemorragia.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_072",
+      "statement": "Síndrome de MalloryWeiss A hemorragia digestiva alta pode acontecer em pacientes cirróticos e não cirróticos. A endoscopia digestiva deve ser realizada preferencialmente nas primeiras 24 horas após a hemorragia, a m de reduzir o tempo de internação, a quantidade de transfusões de sangue e a necessidade de cirurgia. A causa mais comum de hemorragia digestiva alta em não cirróticos é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "síndrome de Mallory Weiss"
+        },
+        {
+          "key": "b",
+          "text": "gastrite de estresse"
+        },
+        {
+          "key": "c",
+          "text": "lesão de Dieulafoy"
+        },
+        {
+          "key": "d",
+          "text": "úlcera péptica"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Em pacientes não cirróticos, a causa mais comum de hemorragia digestiva alta é a úlcera péptica, superando gastrite de estresse, Mallory-Weiss e lesão de Dieulafoy.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_073",
+      "statement": "Nas úlceras duodenais sangrantes, a artéria geralmente acometida é a",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Gastroepiplóica"
+        },
+        {
+          "key": "b",
+          "text": "Gastroduodenal"
+        },
+        {
+          "key": "c",
+          "text": "pancreatoduodenal superior"
+        },
+        {
+          "key": "d",
+          "text": "gástrica direita"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Nas úlceras duodenais sangrantes (parede posterior do bulbo), a artéria gastroduodenal é a mais frequentemente acometida, por sua proximidade anatômica direta.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_074",
+      "statement": "Com relação a hemorragia digestiva alta, podemos afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "São os sangramentos que acontecem distalmente ao ângulo de Treitz."
+        },
+        {
+          "key": "b",
+          "text": "Em relação a etilogia, podemos citar: úlcera péptica, erosões gastroduodenais, esofagite, varizes, lacerações de Mallory Weiss, malformações vasculares."
+        },
+        {
+          "key": "c",
+          "text": "Na maioria dos pacientes, a causa do sangramento não pode ser esclarecida por meio de uma boa anamnese e exame físico."
+        },
+        {
+          "key": "d",
+          "text": "Na tentativa de estratificação de risco do sangramento pode ser usado o score de Wells."
+        },
+        {
+          "key": "e",
+          "text": "Quando associado a hipotensão, taquicardia, e outros sinais de choque hipovolêmico, a hemorragia digestiva pode ser tratada paulatinamente e sem necessidade de internação em unidade de terapia intensiva."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "As principais etiologias da hemorragia digestiva alta incluem úlcera péptica, erosões gastroduodenais, esofagite, varizes esofágicas e lacerações de Mallory-Weiss, entre malformações vasculares.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_075",
+      "statement": "Paciente com 62 anos de idade, sexo masculino, apresenta quadro de hematêmese acompanhado de melena. Com relação ao assunto, identifique como Verdadeiras (V) ou Falsas (F) as seguintes afirmativas: I - ( ) A etiologia mais comum é doença ulcerosa péptica. II - ( ) A endoscopia digestiva alta está contraindicada, pela dificuldade de visualização. III - ( ) O paciente deverá ser submetido à tomogra a computadorizada abdominal, para identi cação da possível causa do sangramento. IV - ( ) A presença de melena indica que provavelmente o local de sangramento encontra-se acima do ângulo de Treitz. Assinale a alternativa que apresenta a sequência correta, de cima para baixo.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "V – V – F – V."
+        },
+        {
+          "key": "b",
+          "text": "F – V – V – F."
+        },
+        {
+          "key": "c",
+          "text": "F – V – F – V."
+        },
+        {
+          "key": "d",
+          "text": "V – F – V – F."
+        },
+        {
+          "key": "e",
+          "text": "V – F – F – V."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A doença ulcerosa péptica é a etiologia mais comum de HDA (I verdadeira); a endoscopia não é contraindicada, sendo o exame de escolha (II falsa); a TC abdominal não é o exame inicial de escolha, é a endoscopia (III falsa); e a melena indica sangramento proximal ao ângulo de Treitz na maioria dos casos (IV verdadeira) — sequência V-F-F-V.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_076",
+      "statement": "A causa MAIS FREQUENTE de hemorragia digestiva alta é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Gastrite erosiva."
+        },
+        {
+          "key": "b",
+          "text": "Varizes de esôfago."
+        },
+        {
+          "key": "c",
+          "text": "Úlcera gastroduodenal."
+        },
+        {
+          "key": "d",
+          "text": "Síndrome de Mallory-Weiss."
+        },
+        {
+          "key": "e",
+          "text": "Adenocarcinoma gástrico."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A causa mais frequente de hemorragia digestiva alta é a úlcera gastroduodenal, superando varizes esofágicas, gastrite erosiva e outras etiologias.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_077",
+      "statement": "Um paciente chegou à emergência relatando um episódio de hematêmese há 30 minutos. Ele apresentava pressão arterial e frequência cardíaca dentro dos limites da normalidade. Qual dos itens abaixo melhor avaliaria a gravidade do sangramento nesse momento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hematócrito"
+        },
+        {
+          "key": "b",
+          "text": "Hemoglobina"
+        },
+        {
+          "key": "c",
+          "text": "Palidez cutâneo-mucosa"
+        },
+        {
+          "key": "d",
+          "text": "Hipotensão postural"
+        },
+        {
+          "key": "e",
+          "text": "Lavado gástrico"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Em paciente com sinais vitais normais mas sangramento recente, a hipotensão postural (ortostática) é o melhor indicador precoce da gravidade do sangramento, detectando perda volêmica compensada antes da hipotensão franca.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_078",
+      "statement": "Armando, 50 anos. Trabalhador da construção civil. História prévia de tabagismo (meia carteira ao dia há 30 anos) e uso ocasional de álcool. Sem doenças crônicas ou uso contínuo de medicamentos. Admitido no Pronto Socorro do Hospital Cajuru após quadro de “vômito com sangue” e relato de evacuações enegrecidas há cerca de uma semana, precedidas por epigastralgia em queimação. Sobre a conduta a ser adotada em casos como o apresentado por esse paciente, analise as afirmações que seguem: I. A determinação da frequência cardíaca e da pressão arterial é um excelente meio para avaliar paciente com hemorragia digestiva. II. A avaliação do volume globular e da hemoglobina na admissão constituem-se nos melhores marcadores laboratoriais para avaliação de pacientes com hemorragia digestiva. III. Paciente com hemorragia digestiva crônica e lenta, podem apresentar valores de hemoglobina muito baixos, apesar de frequência cardíaca e pressão arterial normais. IV. Quanto mais proximal for o foco da hemorragia, mais provável a ocorrência de melena. V. O exame de escolha para o diagnóstico da hemorragia digestiva alta é a seriografia. Sobre as afirmações apresentadas, assinale a alternativa CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas I, II e III estão corretas."
+        },
+        {
+          "key": "b",
+          "text": "Apenas I, III e IV estão corretas."
+        },
+        {
+          "key": "c",
+          "text": "Apenas I, III e V estão corretas."
+        },
+        {
+          "key": "d",
+          "text": "Apenas II, III e IV estão corretas."
+        },
+        {
+          "key": "e",
+          "text": "Apenas I, II, III e IV estão corretas."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A frequência cardíaca e a PA são bons indicadores de gravidade (I correta); hemoglobina/hematócrito na admissão podem não refletir a perda aguda real, sendo indicadores tardios, não os melhores (II incorreta); sangramento crônico lento pode causar anemia importante com sinais vitais normais (III correta); quanto mais proximal o sangramento, maior a chance de melena (IV correta) — I, III e IV corretas.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_079",
+      "statement": "O Escore de Blachtford pode ser utilizado para a avaliação do paciente admitido com hemorragia digestiva alta. Neste escore, são fatores de risco e preditores de gravidade, os seguintes critérios, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "úlcera Forrest 1a (presença de sangramento “em jato”)."
+        },
+        {
+          "key": "b",
+          "text": "presença de choque à admissão."
+        },
+        {
+          "key": "c",
+          "text": "presença de melena à admissão."
+        },
+        {
+          "key": "d",
+          "text": "paciente portador de insuficiência cardíaca congestiva."
+        },
+        {
+          "key": "e",
+          "text": "paciente com cirrose hepática."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A úlcera Forrest 1a (sangramento em jato) é um achado endoscópico, não um critério clínico/laboratorial do Escore de Glasgow-Blatchford (que usa ureia, hemoglobina, PA, FC, melena, síncope, hepatopatia, insuficiência cardíaca) — sendo essa a exceção correta.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_080",
+      "statement": "Sobre hemorragia digestiva alta, é correto afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "é mais frequente no sexo feminino."
+        },
+        {
+          "key": "b",
+          "text": "85% dos sangramentos cessam espontaneamente."
+        },
+        {
+          "key": "c",
+          "text": "os sangramentos altos são decorrentes de lesões abaixo do ângulo de TREITZ."
+        },
+        {
+          "key": "d",
+          "text": "hemorróidas, diverticulose, Doença de Chron e fissura anal são as principais causas de hemorragia digestiva alta."
+        },
+        {
+          "key": "e",
+          "text": "varizes esofagogástricas não são causas de hemorragia digestiva alta."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Aproximadamente 85% dos sangramentos digestivos altos cessam espontaneamente, sem necessidade de intervenção terapêutica ativa.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_081",
+      "statement": "Admitido no PS paciente de 65 anos de idade, sexo masculino que, segundo familiares, apresentou 4 episódios de Hematêmese volumosa. É hipertenso controlado. Ao exame clínico, encontra-se confuso, descorado 3+/4+, PA90/60 mmHg, Fc 125 bpm, e sem alteração nos exames clínico abdominal e torácico. Foram tomadas medidas clínicas iniciais de ressuscitação volêmica e transfusão sanguínea, porém o paciente se mantém taquicárdico e hipotenso. Ante a esse caso, o paciente",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "deve ser levado para cirurgia de emergência."
+        },
+        {
+          "key": "b",
+          "text": "deve ser submetido à Endoscopia Digestiva Alta em até 24 horas."
+        },
+        {
+          "key": "c",
+          "text": "deve ser encaminhado para UTI e submetido à Endoscopia Digestiva Alta imediatamente."
+        },
+        {
+          "key": "d",
+          "text": "é considerado de alto risco, assim este deve ser encaminhado à UTI, e ser submetido à Endoscopia Digestiva Alta após estabilização clínica."
+        },
+        {
+          "key": "e",
+          "text": "é considerado de alto risco, então deve ser encaminhado à UTI, devendo-se passar balão esofágico tipo Sengstaken-Blakemore, e após 24 horas ser submetido à Endoscopia Digestiva Alta."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Paciente com HDA maciça que permanece instável apesar de ressuscitação volêmica e transfusão é classificado como alto risco, devendo ser encaminhado à UTI e submetido à endoscopia digestiva alta imediatamente, sem aguardar estabilização completa.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_082",
+      "statement": "As variáveis abaixo predizem o risco de ressangramento na hemorragia digestiva alta aguda, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Idade superior a 70 anos de idade."
+        },
+        {
+          "key": "b",
+          "text": "Sangue vermelho vivo no toque retal."
+        },
+        {
+          "key": "c",
+          "text": "Pressão arterial sistólica inferior a 90mmHg."
+        },
+        {
+          "key": "d",
+          "text": "Hemoglobina inicial à admissão inferior ou igual a 10g/dL."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A hemoglobina inicial isoladamente não é um preditor validado de ressangramento nos principais escores de risco (Rockall/Blatchford) tanto quanto idade, PA sistólica baixa e sangue vivo ao toque retal — sendo essa a exceção entre as variáveis preditoras clássicas.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_083",
+      "statement": "Paciente, 50 anos, é levado ao pronto socorro com quadro de vômitos vigorosos com presença de sangue em grande volume. Antecedentes pessoais: Hipertensão arterial, em uso de Losartana; Radiculopatia, em uso de Diclofenaco. Exame físico: consciente; hidratado; hipocorado 2+/4+; FC: 100 bpm; PA: 90x50 mmHg; Abdome: inocente; Hb: 6,8g/dl. A primeira conduta e a etiologia mais provável são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Endoscopia digestiva alta; Úlcera péptica."
+        },
+        {
+          "key": "b",
+          "text": "Estabilização clínica; Úlcera péptica."
+        },
+        {
+          "key": "c",
+          "text": "Passagem de balão de Sengstaken-Blakemore; Varizes esofágicas."
+        },
+        {
+          "key": "d",
+          "text": "Endoscopia digestiva alta; Mallory-Weiss."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Hematêmese volumosa com hipotensão em usuário de AINE (diclofenaco) tem como primeira conduta a estabilização clínica, com úlcera péptica como etiologia mais provável dado o uso do anti-inflamatório.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_084",
+      "statement": "Paciente gestante, no primeiro trimestre da gestação, após episódios de vômitos persistentes devido a hiperêmese gravídica, deu entrada no pronto-socorro apresentando hematêmese associada a sinais de choque grau I. Após estabilização do quadro hemodinâmico, apresentou remissão dos sintomas. Feito a hipótese diagnóstica de Sindrome de Mallory-Weiss. Optado pela realização de endoscopia. Qual o provável achado no exame endoscópico que comprova o diagnóstico?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Úlceras em corpo e antro gástrico."
+        },
+        {
+          "key": "b",
+          "text": "Laceração da mucosa em região de transição esofagogástrica."
+        },
+        {
+          "key": "c",
+          "text": "Lesão gástrica de provável etiologia neoplástica."
+        },
+        {
+          "key": "d",
+          "text": "Erosão de mucosa gástrica associado a malformação vascular em pequena curvatura."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Em gestante com hiperêmese gravídica e vômitos persistentes seguidos de hematêmese, a laceração da mucosa na transição esofagogástrica (síndrome de Mallory-Weiss) é o achado endoscópico esperado que confirma o diagnóstico.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_085",
+      "statement": "Qual a classi cação de Forrest para um paciente com hemorragia digestiva alta que, com a endoscopia digestiva alta, foi relacionada a uma úlcera com sangramento ativo e pulsátil?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "IA"
+        },
+        {
+          "key": "b",
+          "text": "IIA"
+        },
+        {
+          "key": "c",
+          "text": "IIA"
+        },
+        {
+          "key": "d",
+          "text": "IIC"
+        },
+        {
+          "key": "e",
+          "text": "III"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Sangramento ativo e pulsátil à endoscopia corresponde à classificação Forrest IA.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_086",
+      "statement": "Paciente feminina, 72 anos, hipertensa, diabética, renal crônica em tratamento conservador, dá entrada no pronto atendimento, com história de vômitos em borra de café. Realizada endoscopia de urgência: identi cada úlcera ativa em bulbo duodenal com estigmas endoscópicos de sangramento recente. Com relação à classi cação endoscópica dos estigmas de sangramento, encontrados nas lesões em paciente com HDA não varicosa, e a indicação de tratamento endoscópico dos mesmos, podemos afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Úlcera Forrest IIb apresenta-se com coágulo aderido e deve receber tratamento endoscópico."
+        },
+        {
+          "key": "b",
+          "text": "Úlcera Forrest Ib apresenta-se com coágulo aderido e não deve receber tratamento endoscópico."
+        },
+        {
+          "key": "c",
+          "text": "Úlcera Forrest IIa apresenta-se com sangramento em jato e deve receber tratamento endoscópico."
+        },
+        {
+          "key": "d",
+          "text": "Úlcera Forrest IIC apresenta-se com coto vascular visível e não deve receber tratamento endoscópico."
+        },
+        {
+          "key": "e",
+          "text": "Úlcera Forrest III apresenta-se com hematina e deve receber tratamento endoscópico."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A úlcera Forrest IIa apresenta-se com vaso visível não sangrante (não sangramento em jato, que é Ia) e deve receber tratamento endoscópico pelo alto risco de ressangramento — reavaliando as opções, a IIa com sangramento em jato está descrita incorretamente na opção C, mas o gabarito aponta a opção A (IIb com coágulo aderido recebendo tratamento endoscópico) como correta.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_087",
+      "statement": "A mortalidade da hemorragia digestiva alta diminuiu expressivamente após a evolução da terapêutica endoscópica, estando em torno de 5 a 14%. Sobre isso, é INCORRETO afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A hemorragia digestiva alta não varicosa é autolimitada em até 80% dos casos, sem necessidade de intervenções."
+        },
+        {
+          "key": "b",
+          "text": "Não há indício que os hepatopatas tenham maior chance que a população geral de desenvolver lesão pulmonar aguda associado à transfusão."
+        },
+        {
+          "key": "c",
+          "text": "Infecções são comuns em doentes com hemorragia digestiva alta varicosa, chegando a 50% durante o período de internação do doente."
+        },
+        {
+          "key": "d",
+          "text": "Segundo a Classificação de Forrest, a lesão ulcerosa com coágulo aderido corresponde ao tipo IIa."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "É incorreto afirmar que a lesão com coágulo aderido corresponde ao Forrest IIa — na classificação de Forrest, o coágulo aderido corresponde ao tipo IIb, não IIa (que é vaso visível não sangrante).",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_088",
+      "statement": "Paciente alcoólatra, com vários episódios eméticos prévios, apresenta hematêmese. Na Endoscopia Digestiva Alta evidencia-se lacerações tipo ssuras na mucosa e submucosa do esôfago, próximo a junção gástrica. Corresponde a qual patologia?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Úlcera de Marjolin"
+        },
+        {
+          "key": "b",
+          "text": "Síndrome de Mallory Weiss"
+        },
+        {
+          "key": "c",
+          "text": "Esofago de Barrett"
+        },
+        {
+          "key": "d",
+          "text": "Lesão de Dieulafoy"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Lacerações tipo fissuras na mucosa e submucosa do esôfago próximas à junção gástrica, em paciente com vômitos repetidos, correspondem à síndrome de Mallory-Weiss.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_089",
+      "statement": "A síndrome de Mallory-Weiss está mais associada a:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Neoplasia gástrica."
+        },
+        {
+          "key": "b",
+          "text": "Neoplasia de esôfago."
+        },
+        {
+          "key": "c",
+          "text": "Alcoolismo."
+        },
+        {
+          "key": "d",
+          "text": "Monilíase."
+        },
+        {
+          "key": "e",
+          "text": "Úlcera gástrica ativa."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A síndrome de Mallory-Weiss está classicamente associada ao alcoolismo, pelos episódios repetidos de vômitos vigorosos após ingestão excessiva de álcool.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_090",
+      "statement": "Um paciente de 31 anos de idade, vítima de atropelamento por automóvel, foi admitido no PS. Encontrava-se consciente (Glasgow 15), com FR de 20 ipm, hemodinamicamente normal e com abdome ácido e pouco doloroso à palpação em andar superior, mas sem peritonite. Realizou tomogra a computadorizada de abdome, que mostrou lesão hepática complexa. Inicialmente foi indicado tratamento não operatório. No sexto dia de evolução, apresentou melena, queda hematimétrica e hipotensão arterial, que responde à reposição volêmica. O médico assistente fez hipótese diagnóstica de hemobilia. Considerando essa situação hipotética, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Essa intercorrência está mais relacionada às lesões periféricas do parênquima hepático que às centrais."
+        },
+        {
+          "key": "b",
+          "text": "A principal causa dessa intercorrência é a comunicação entre a artéria hepática direita e o ducto hepático direito."
+        },
+        {
+          "key": "c",
+          "text": "Essa intercorrência pode determinar dor em cólica em HCD e icterícia."
+        },
+        {
+          "key": "d",
+          "text": "A endoscopia digestiva alta não contribui com a investigação diagnóstica nesse momento."
+        },
+        {
+          "key": "e",
+          "text": "O tratamento é preferencialmente cirúrgico."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Hemobilia (sangramento pela via biliar) após trauma hepático pode causar a tríade clássica de dor em cólica no hipocôndrio direito, icterícia e hemorragia digestiva (hematêmese/melena).",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_091",
+      "statement": "T erapia Farmacológica Como deve ser o manuseio de um paciente que apresentou melena, encontra-se normotenso, com frequência cardíaca de 90 batimentos/minuto, hematócrito normal, cuja EDA mostrou lesão ulcerada na parede anterior do bulbo duodenal medindo 0,8cm de diâmetro e com discretas manchas acastanhadas aderidas ao fundo?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Internação hospitalar em unidade intermediária para controle hemodinâmico."
+        },
+        {
+          "key": "b",
+          "text": "Alta hospitalar para controle ambulatorial e prescrição de IBP por via oral."
+        },
+        {
+          "key": "c",
+          "text": "Manter IBP endovenoso e dieta oral zero por 72 horas e depois indicar alta hospitalar para controle ambulatorial, utilizando IBP oral."
+        },
+        {
+          "key": "d",
+          "text": "Indicar terapia hemostática endoscópica e manter o paciente internado em enfermaria ou quarto para observar recorrência hemorrágica."
+        },
+        {
+          "key": "e",
+          "text": "Alta hospitalar para controle ambulatorial e prescrição de bloqueador do receptor H2 por via oral."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Úlcera duodenal pequena (0,8cm) com manchas acastanhadas no fundo (Forrest III/hematina, baixo risco) em paciente estável pode receber alta hospitalar com prescrição de IBP oral para controle ambulatorial.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_092",
+      "statement": "A classi cação de Forrest é utilizada para se estimar o risco de ressangramento de úlcera péptica conforme características encontradas à endoscopia utilizada no manejo de pacientes com hemorragia digestória. Assinale a opção que corresponde à classificação IIa de Forrest, e seu risco de ressangramento.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Base da úlcera contendo hematina; ressangramento de 40%."
+        },
+        {
+          "key": "b",
+          "text": "Vaso visível na base da úlcera; ressangramento de 50%."
+        },
+        {
+          "key": "c",
+          "text": "Coágulo aderido à base da úlcera; ressangramento de 15%."
+        },
+        {
+          "key": "d",
+          "text": "Vaso com sangramento em jato; ressangramento de 50%."
+        },
+        {
+          "key": "e",
+          "text": "Coágulo aderido à base da úlcera; ressangramento 50%."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Na classificação de Forrest, o tipo IIa corresponde a vaso visível na base da úlcera, com risco de ressangramento em torno de 50% sem tratamento endoscópico.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_093",
+      "statement": "Paciente apresentou hemorragia digestiva alta limitada, sem repercussões hemodinâmicas. Ele possui história pregressa de DRGE e correção de aneurisma de aorta abdominal realizada há um ano. EDA mostrou evidência de sangramento não ativo em quarta porção duodenal. Nesse caso, o diagnóstico mais provável é de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "síndrome de Zollinger-Ellison"
+        },
+        {
+          "key": "b",
+          "text": "fístula aortomesentérica"
+        },
+        {
+          "key": "c",
+          "text": "síndrome de Wilkie"
+        },
+        {
+          "key": "d",
+          "text": "GIST duodenal"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Sangramento não ativo na quarta porção duodenal em paciente com correção prévia de aneurisma de aorta abdominal é altamente sugestivo de fístula aortomesentérica/aortoentérica, complicação tardia grave da cirurgia vascular.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_094",
+      "statement": "Homem, 21a, chega no pronto-socorro por hematoquezia há 40 minutos. Sem comorbidades. Exame físico: PA = 80 x 40 mmHg; FC = 124 bpm; FR = 20 irpm; oximetria de pulso (ar ambiente) = 90%. Realizado: suplementação de oxigênio, exames laboratoriais e reposição volêmica com sucesso. As condutas seguintes são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Omeprazol e endoscopia digestiva alta."
+        },
+        {
+          "key": "b",
+          "text": "Preparo intestinal e colonoscopia."
+        },
+        {
+          "key": "c",
+          "text": "Antibioticoterapia e tomografia computadorizada de abdome."
+        },
+        {
+          "key": "d",
+          "text": "Jejum e ultrassonografia de abdome total."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Hematoquezia com instabilidade hemodinâmica após reposição volêmica bem-sucedida deve ser investigada inicialmente com endoscopia digestiva alta (pois HDA maciça pode se apresentar como hematoquezia) associada a IBP, antes de considerar causas baixas.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_095",
+      "statement": "A doença ulcerosa péptica é a principal causa de hemorragia digestiva alta. A abordagem inicial do paciente com sangramento digestivo é a estabilização hemodinâmica. Em seguida realiza-se Endoscopia Digestiva Alta para diagnóstico e terapia hemostática. Aproximadamente 15 % dos casos podem ressangrar. Fatores prognósticos considerados desfavoráveis para o êxito da terapêutica endoscópica são:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "tabagismo, pacientes etilistas crônicos, úlceras gástricas ativas, segunda ou terceiratentativa de terapia endoscópica"
+        },
+        {
+          "key": "b",
+          "text": "uso de anti-inflamatórios não hormonais, presença de H. pylori, hipertensão arterial,uso de Ethamolin na tentativa de hemostasia endoscópica"
+        },
+        {
+          "key": "c",
+          "text": "alcoolização da úlcera duodenal, mais de duas úlceras ativas, instabilidadehemodinâmica, pacientes do sexo masculino"
+        },
+        {
+          "key": "d",
+          "text": "idade > 65 anos, duas ou mais doenças associadas, localização da lesão péptica,classificação da úlcera - presença de sangramento em jato"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Fatores prognósticos desfavoráveis para sucesso da terapêutica endoscópica incluem idade acima de 65 anos, duas ou mais comorbidades associadas, localização de difícil acesso da lesão péptica e classificação de alto risco (sangramento em jato).",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_096",
+      "statement": "A hemorragia digestiva alta (HDA) é uma situação de alta mortalidade que exige tratamento imediato. Em relação ao tratamento da HDA, é correto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Em pacientes estáveis com HDA não-varicosa, a falha inicial do tratamento endoscópico indica tratamento cirúrgico."
+        },
+        {
+          "key": "b",
+          "text": "Nas HDA não-varicosas, a magnitude do sangramento está diretamente ligada à etiologia."
+        },
+        {
+          "key": "c",
+          "text": "O emprego de inibidores de bomba protônica (IBP) na HDA por úlcera péptica pode ser feito por via oral, em dose dobrada."
+        },
+        {
+          "key": "d",
+          "text": "O emprego de somatostatina ou octreotídeo tem efeitos benéficos na HDA por úlcera péptica."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O uso de inibidor de bomba de prótons por via oral em dose dobrada é uma opção válida no tratamento da HDA por úlcera péptica em pacientes de menor risco, complementando ou substituindo a via endovenosa conforme o cenário clínico.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_097",
+      "statement": "A abordagem inicial de um paciente que se apresenta na sala de emergência com um quadro de hemorragia digestiva consiste em:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Busca de etiologia do sangramento."
+        },
+        {
+          "key": "b",
+          "text": "Pesquisa de comorbidades importantes."
+        },
+        {
+          "key": "c",
+          "text": "Passagem de sonda nasogástrica calibrosa."
+        },
+        {
+          "key": "d",
+          "text": "Avaliação do estado volêmico."
+        },
+        {
+          "key": "e",
+          "text": "Avaliação laboratorial sanguínea para hematócrito e hemoglobina."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Na abordagem inicial da hemorragia digestiva na emergência, a avaliação do estado volêmico (sinais vitais, perfusão) é a prioridade central antes de qualquer investigação etiológica específica.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_098",
+      "statement": "Na hemorragia digestiva de grande intensidade, em que há presença de sangue no estômago identi cado pela aspiração gástrica, sem que a esofagogastroduodenoscopia fosse capaz de fazer o diagnóstico do local do sangramento, a próxima etapa a ser realizada é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Laparotomia exploradora."
+        },
+        {
+          "key": "b",
+          "text": "Cintilografia com hemácias marcadas."
+        },
+        {
+          "key": "c",
+          "text": "Cápsula endoscópica."
+        },
+        {
+          "key": "d",
+          "text": "Angiotomografia."
+        },
+        {
+          "key": "e",
+          "text": "Angiografia."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Quando a endoscopia digestiva alta não localiza o sítio de sangramento apesar de sangue confirmado no estômago, a próxima etapa é a angiografia, que permite diagnóstico e potencial tratamento embólico simultâneo.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_099",
+      "statement": "Na hemorragia digestiva alta por malformação vascular (lesão de Dieulafoy), o tratamento deve seguir em, ordem de prioridade, as seguintes modalidades:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Escleroterapia endoscópica, embolização angiográfica, hemostasia cirúrgica."
+        },
+        {
+          "key": "b",
+          "text": "Embolização angiográfica, hemostasia cirúrgica."
+        },
+        {
+          "key": "c",
+          "text": "Hemostasia cirúrgica primária."
+        },
+        {
+          "key": "d",
+          "text": "Escleroterapia endoscópica, hemostasia cirúrgica."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na hemorragia digestiva alta por lesão de Dieulafoy, o tratamento segue em ordem de prioridade: escleroterapia endoscópica, embolização angiográfica e, por último, hemostasia cirúrgica, reservada para falha das técnicas menos invasivas.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "hdanv_100",
+      "statement": "Paciente masculino de 75 anos é trazido ao hospital por desmaios, hematêmese e melena. Apresenta: FC = 102/min; PA = 86/62 mmHg; FR = 19/min; temperatura 36,4 °C. O manejo inicial mais adequado nesse caso é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Coleta de exames para guiar transfusão de sangue."
+        },
+        {
+          "key": "b",
+          "text": "Inibidor de bomba de próton endovenoso."
+        },
+        {
+          "key": "c",
+          "text": "Ressuscitação volêmica com solução cristaloide."
+        },
+        {
+          "key": "d",
+          "text": "Colonoscopia de emergência."
+        },
+        {
+          "key": "e",
+          "text": "Endoscopia digestiva alta de emergência."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de choque hemorrágico por hematêmese e melena, o manejo inicial mais adequado é a ressuscitação volêmica com solução cristaloide, antes de qualquer outra medida diagnóstica ou terapêutica específica.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}

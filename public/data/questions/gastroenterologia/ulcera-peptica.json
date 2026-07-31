@@ -1,1 +1,3304 @@
-{"questions":[]}
+{
+  "questions": [
+    {
+      "id": "dup_001",
+      "statement": "Paciente feminina, 55 anos, é portadora de diarreia crônica, dor em abdome superior, e com úlceras gástricas de localização atípica e de difícil controle. Durante investigação diagnóstica, aventa-se a hipótese de essa paciente ser portadora da síndrome de Zollinger-Ellison. Nesse caso, o tumor causador tem como localização mais frequente o:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Antrogástrico."
+        },
+        {
+          "key": "b",
+          "text": "Duodeno."
+        },
+        {
+          "key": "c",
+          "text": "Figado."
+        },
+        {
+          "key": "d",
+          "text": "Pâncreas."
+        },
+        {
+          "key": "e",
+          "text": "Colédoco."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Na síndrome de Zollinger-Ellison, o gastrinoma tem como localização mais frequente o duodeno, seguido do pâncreas, formando o chamado 'triângulo do gastrinoma'.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_002",
+      "statement": "Qual a causa mais comum de hemorragia gastrointestinal alta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Lacerações tipo Mallory-Weiss."
+        },
+        {
+          "key": "b",
+          "text": "Laceração ou lesão de Cameron."
+        },
+        {
+          "key": "c",
+          "text": "Doença ulcerosa péptica."
+        },
+        {
+          "key": "d",
+          "text": "Varizes gastroesofágicas."
+        },
+        {
+          "key": "e",
+          "text": "Gastropatia por hipertensão portal."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A doença ulcerosa péptica é a causa mais comum de hemorragia digestiva alta, superando varizes, Mallory-Weiss e outras etiologias.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_003",
+      "statement": "Assinale a alternativa que contempla o tratamento de escolha para a infecção pelo H. pylori: (IV CONSENSO BRASILEIRO SOBRE A INFECÇÃO POR HELICOBACTER PYLORI - 2018)",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ranitidina 150 mg 12/12 horas + Claritromicina 500 mg 12/12 horas + Amoxacilina 500mg 8/8horas, por 7 dias."
+        },
+        {
+          "key": "b",
+          "text": "Omeprazol 10mg 12/12 horas + Clariromicina 500 mg 12/12 horas + Amoxacilina 500mg 8/8 horas; por 14 dias."
+        },
+        {
+          "key": "c",
+          "text": "Omeprazol 20 mg 12/12 horas + Claritromicina 500 mg 12/12 horas + Amoxacilina 1 g 12/12 horas, 7 dias."
+        },
+        {
+          "key": "d",
+          "text": "Omeprazol 20 mg 12/12 horas + Amoxacilina 1 g 12/12 horas, 14 dias."
+        },
+        {
+          "key": "e",
+          "text": "Pantoprazol 40 mg 12/12horas + Claritromicina 500 mg 12/12 horas + Amoxacilina 1 g 12/12 horas, por 14 dias."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Segundo o IV Consenso Brasileiro sobre H. pylori (2018), o esquema de primeira linha é IBP em dose plena + claritromicina 500mg + amoxicilina 1g, ambos de 12/12h, por 14 dias.",
+      "theme": "dup_hp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_004",
+      "statement": "Paciente masculino, 30 anos, encaminhado da unidade de pronto atendimento de nível secundário devido a hipótese de abdome agudo obstrutivo por bridas. Queixa-se de dor abdominal súbita há 8 horas, intensa, em facada, em andar superior do abdome, associada a um episódio de vômito, com piora progressiva durante a observação, sem melhora com analgésicos. Nega trauma recente. Tem histórico de laparotomia prévia por ferimento de arma de fogo. Ao exame físico: regular estado geral, desidratado, taquicárdico, afebril. Semiologia cardiopulmonar normal. Abdome distendido, doloroso difusamente, tenso, com defesa involuntária à palpação. São realizadas as radiogra as de abdome agudo abaixo. A principal hipótese diagnóstica é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Úlcera péptica perfurada."
+        },
+        {
+          "key": "b",
+          "text": "Pancreatite."
+        },
+        {
+          "key": "c",
+          "text": "Apendicite."
+        },
+        {
+          "key": "d",
+          "text": "Ureterolitíase."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Dor abdominal súbita, intensa, com defesa involuntária e pneumoperitônio à radiografia, em paciente com fatores de risco, é quadro clássico de úlcera péptica perfurada.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_005",
+      "statement": "Assinale a alternativa que se associa a condições de aumento da secreção péptica gástrica como na síndrome de Zollinger- Ellison.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Carcinoma epidermoide de estômago"
+        },
+        {
+          "key": "b",
+          "text": "Gastrinoma"
+        },
+        {
+          "key": "c",
+          "text": "GIST duodenal"
+        },
+        {
+          "key": "d",
+          "text": "Insulinoma"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O gastrinoma (tumor produtor de gastrina) é a condição associada ao aumento da secreção péptica gástrica na síndrome de Zollinger-Ellison.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_006",
+      "statement": "Homem de 72 anos queixava-se de epigastralgia em queimação há 3 semanas. É portador de HAS e faz uso de enalapril, sinvastatina e AAS para prevenção primária de eventos cardiovasculares. Realizou EDA. Após o resultado, recebeu a prescrição de omeprazol 20mg em jejum por 4 semanas, com resolução completa dos sintomas. Endoscopia Digestiva Alta (EDA): gastrite endoscópica enantematosa moderada do antro; úlcera na transição do corpo para o antro na curvatura menor, de fundo limpo, bordas regulares e planas, de 8mm, sem sinais de sangramento recente. Teste da urease negativo. Bx: gastrite crônica do antro; sem sinais de malignidade. Assinale a alternativa que apresenta a conduta MAIS adequada para esse paciente nesse momento.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Substituir o AAS por prasugrel."
+        },
+        {
+          "key": "b",
+          "text": "Repetir a EDA."
+        },
+        {
+          "key": "c",
+          "text": "Manter o uso do omeprazol por tempo indeterminado."
+        },
+        {
+          "key": "d",
+          "text": "Suspender o uso do AAS."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Úlcera péptica cicatrizada, sem H. pylori, em uso de AAS para prevenção primária (sem indicação cardiovascular estabelecida), tem como conduta mais adequada suspender o AAS, já que o risco de sangramento supera o benefício nesse contexto.",
+      "theme": "dup_aine",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_007",
+      "statement": "Homem, 48a, retorna assintomático à Unidade Básica de Saúde. Há três meses iniciou tratamento com omeprazol, após endoscopia digestiva alta (EDA) ter evidenciado úlcera em corpo gástrico de 1cm, bordas planas e nítidas, fundo com brina, sem sangramento ativo. Pesquisa para Helicobacter pylori=negativa. Exame físico: PA=114x76mmHg; FC=68bpm; FR=14irpm; restante sem alterações. A CONDUTA É:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Manter omeprazol até completar seis meses de tratamento."
+        },
+        {
+          "key": "b",
+          "text": "Repetir a EDA, independente da melhora dos sintomas."
+        },
+        {
+          "key": "c",
+          "text": "Repetir a EDA caso os sintomas persistam, após seis meses de tratamento."
+        },
+        {
+          "key": "d",
+          "text": "Suspender omeprazol e dar alta ambulatorial."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Úlcera gástrica sem H. pylori, tratada com omeprazol, deve ter a EDA repetida ao final do tratamento (independente da melhora sintomática) para confirmar cicatrização e excluir malignidade.",
+      "theme": "dup_hp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_008",
+      "statement": "Acerca da classificação de SAKITA para úlceras gástricas, é correto afirmar que H1 corresponde à úlcera",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "com ilhas de tecido de regeneração, com convergência nítida de pregas e intensa hiperemia marginal."
+        },
+        {
+          "key": "b",
+          "text": "com bordas planas e nítidas, fundo com fibrina e, por vezes, restos necróticos"
+        },
+        {
+          "key": "c",
+          "text": "com a formação de uma cicatriz vermelha com reação inflamatória adjacente residual."
+        },
+        {
+          "key": "d",
+          "text": "com fibrina tênue, discreta convergência de pregas e com hiperemia marginal."
+        },
+        {
+          "key": "e",
+          "text": "em que as bordas tornam-se bem definidas, às vezes elevadas, tomando forma mais nítida, e o fundo com fibrina espessa e clara."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Na classificação de Sakita, a fase H1 corresponde à úlcera com fibrina tênue, discreta convergência de pregas e hiperemia marginal, fase inicial de cicatrização.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_009",
+      "statement": "As úlceras gástricas são doenças importantes, que acometem a população brasileira, com uma siopatologia variada, sendo a infecção pelo H. pylori muito relevante. Pela classi cação de Johnson modi cada, a úlcera tipo I é a mais frequente. A localização e os níveis de acidez do estômago relacionados ao tipo I de úlcera gástrica são, respectivamente,",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "corpo gástrico e níveis altos de acidez."
+        },
+        {
+          "key": "b",
+          "text": "pequena curvatura próximo à incisura angular e níveis altos de acidez."
+        },
+        {
+          "key": "c",
+          "text": "pequena curvatura próximo à incisura angular e níveis baixos ou normais de acidez."
+        },
+        {
+          "key": "d",
+          "text": "pré-pilórica e níveis baixos ou normais de acidez."
+        },
+        {
+          "key": "e",
+          "text": "pré-pilórica e níveis altos de acidez."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Na classificação de Johnson modificada, a úlcera tipo I localiza-se na pequena curvatura próxima à incisura angular, associada a níveis baixos ou normais de acidez gástrica.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_010",
+      "statement": "Quanto ao Helicobacter pylori nas doenças dispépticas, assinale a alternativa correspondente ao tratamento que faz parte da primeira linha.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Levofloxacina e bismuto"
+        },
+        {
+          "key": "b",
+          "text": "Testes fenotípicos ou genotípicos de susceptibilidade antimicrobiana"
+        },
+        {
+          "key": "c",
+          "text": "Inibidor da bomba de prótons, doxiciclina e tetraciclina"
+        },
+        {
+          "key": "d",
+          "text": "Inibidor da bomba de prótons isoladamente, até cessarem os sintomas"
+        },
+        {
+          "key": "e",
+          "text": "Inibidor da bomba de prótons, amoxicilina e claritromicina"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "O esquema de primeira linha para tratamento do H. pylori é IBP associado a amoxicilina e claritromicina.",
+      "theme": "dup_hp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_011",
+      "statement": "Levando em consideração a incidência do refluxo alcalino em nosso meio, é INCORRETO afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Após gastrectomias parciais, refluxo biliar é comum."
+        },
+        {
+          "key": "b",
+          "text": "A maioria dos pacientes que apresentam essa patologia foram submetidos a gastrectomias parciais, sendo feita a reconstrução do tipo Billroth II."
+        },
+        {
+          "key": "c",
+          "text": "Todos os pacientes com refluxo alcalino serão sintomáticos durante o processo."
+        },
+        {
+          "key": "d",
+          "text": "Em pacientes que não respondem ao tratamento clínico, a conversão para reconstrução do tipo Y-de-Roux não é uma opção."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Nem todos os pacientes com refluxo alcalino pós-gastrectomia são sintomáticos — a afirmação de que todos serão sintomáticos está incorreta, já que a gastrite de refluxo biliar é frequente mas nem sempre causa sintomas clínicos relevantes.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_012",
+      "statement": "A doença ulcerosa péptica é uma patologia relativamente comum na população. Conforme a classi cação modi cada de Johnson, temos como correto:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "As lesões ulcerosas localizadas em região pré-pilórica são classificadas como tipo IV, e estão associadas à normocloridria."
+        },
+        {
+          "key": "b",
+          "text": "As lesões ulcerosas localizadas em região de pequena curvatura são classificadas como tipo I e estão associadas com hipocloridria."
+        },
+        {
+          "key": "c",
+          "text": "As lesões ulcerosas tipo V ocorrem somente próximo à cárdia e estão associadas ao uso de anti-inflamatórios não esteroidais."
+        },
+        {
+          "key": "d",
+          "text": "As lesões ulcerosas localizadas em grande curvatura são classificadas como tipo IV e estão associadas à hipercloridria."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Na classificação de Johnson, as úlceras pré-pilóricas (tipo III) associam-se a hipercloridria; as de pequena curvatura (tipo I) associam-se a hipocloridria/normocloridria — sendo a opção sobre úlceras tipo V (associadas a AINE, podendo ocorrer em qualquer localização) a correta entre as listadas.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_013",
+      "statement": "Um homem de setenta anos de idade, com antecedentes de hipertensão arterial sistêmica e tabagismo, foi atendido no pronto-socorro devido a vômitos incoercíveis iniciados havia um dia. Encontrava-se em mau estado geral, desidratado, c o m frequência cardíaca de 120 bpm e com pressão arterial de 80 mmHg x 60 mmHg. Seu abdome estava ácido e indolor, com distensão do epigastro. Foi passada uma sonda nasogástrica com débito inicial de 1.500 mL. Com base nesse caso hipotético, assinale a alternativa que apresenta o melhor exame para a determinação do diagnóstico etiológico desse paciente, após estabilização inicial.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "endoscopia digestiva alta"
+        },
+        {
+          "key": "b",
+          "text": "exame contrastado de esôfago, estômago e duodeno"
+        },
+        {
+          "key": "c",
+          "text": "tomografia computadorizada de abdome"
+        },
+        {
+          "key": "d",
+          "text": "radiografia simples de abdome"
+        },
+        {
+          "key": "e",
+          "text": "ultrassonografia de abdome"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Débito nasogástrico volumoso com vômitos incoercíveis e distensão epigástrica sugere obstrução pilórica; após estabilização, a endoscopia digestiva alta é o melhor exame para determinar a etiologia (péptica, neoplásica).",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_014",
+      "statement": "Paciente do sexo feminino, 62 anos, tabagista, hipertensa e diabética, com queixa de sintomas dispépticos há cerca de 6 meses. Em atendimento médico prévio, foi prescrito Omeprazol 40mg diário, o qual fez uso por 4 meses, sem resposta satisfatória da sua sintomatologia, evoluindo com anorexia. Evolui com emagrecimento de cerca de 5kg no período. Nega febre, uso crônico de anti-in amatórios não hormonais e história familiar de neoplasias do trato gastrointestinal. Você solicita endoscopia digestiva alta e esta evidencia lesão plana, com ulceração rasa e bordas elevadas, de cerca de 2cm, em incisura angularis. Qual das conclusões a seguir sobre o caso descrito é falsa?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Os dados fornecidos não nos permitem diferenciar com segurança diagnósticos como úlcera benigna, neoplasia gástrica precoce ou neoplasia gástrica avançada."
+        },
+        {
+          "key": "b",
+          "text": "A observação de anorexia e perda de peso, associada ao fato de ulceração gástrica persistente a despeito do tratamento com inibidor de bomba de prótons pode sugerir etiologia maligna para a lesão descrita."
+        },
+        {
+          "key": "c",
+          "text": "A cromoscopia com uso de corantes, a ecoendoscopia e a injeção de solução salina na camada submucosa abaixo da lesão podem fornecer dados referentes a possível ressecabilidade endoscópica da lesão."
+        },
+        {
+          "key": "d",
+          "text": "Uma vez que a endoscopia não evidenciou lesão tipo Borrmann IV, a conduta mais segura é o tratamento empírico para Helicobacter pylori, a troca do omeprazol pelo esomeprazol e a repetição da endoscopia após 4 meses."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Diante de úlcera gástrica persistente sem resposta ao IBP, com anorexia e perda de peso, mesmo sem Borrmann IV, a conduta mais segura NÃO é o tratamento empírico prolongado sem biópsia adicional — é necessário investigar malignidade ativamente, tornando essa opção a falsa.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_015",
+      "statement": "Mulher, 72 anos foi submetida à tratamento cirúrgico por quadro de abdome agudo perfurativo secundário à úlcera perfurada a cerca de um mês. Não sabe referir a qual cirurgia foi submetida. Refere que, após alimentar-se, apresenta quadro de dor abdominal em cólicas, taquicardia, rubor facial e, frequentemente, diarreia explosiva. Os sintomas ocorrem minutos após a refeição, muitas vezes enquanto ela ainda se encontra sentada à mesa. Qual a cirurgia do estômago é mais frequentemente associada a esse quadro?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Gastrectomia parcial com reconstrução a Billroth I."
+        },
+        {
+          "key": "b",
+          "text": "Gastrectomia parcial com reconstrução a Billroth II."
+        },
+        {
+          "key": "c",
+          "text": "Gastrectomia total."
+        },
+        {
+          "key": "d",
+          "text": "Gastrectomia subtotal com Y de Roux."
+        },
+        {
+          "key": "e",
+          "text": "Antrectomia sem vagotomia superseletiva."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Dor em cólica, taquicardia, rubor facial e diarreia explosiva minutos após a alimentação, em paciente com histórico de cirurgia por úlcera perfurada, é quadro clássico de síndrome de dumping, mais associada à gastrectomia com reconstrução a Billroth II.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_016",
+      "statement": "Homem de 64 anos de idade compareceu previamente ao ambulatório com queixa de plenitude pós-prandial, saciedade precoce e epigastralgia há três meses. Tinha história prévia de diabetes mellitus tipo 2, estando em uso de metformina. Exame físico sem alterações. Apresentou o resultado de endoscopia digestiva alta solicitada previamente, que evidenciou gastrite erosiva de antro, sendo então iniciado o uso de inibidor de bomba de próton. Retorna ao ambulatório após 4 semanas, referindo melhora parcial dos sintomas. Nesta ocasião, apresentou o resultado do anatomopatológico da biópsia de estômago, que evidenciou ausência de atipias intestinais e pesquisa para H. pylori positiva. Qual é a conduta terapêutica de primeira linha a ser adotada neste momento e qual exame deverá ser solicitado posteriormente para controle de erradicação da infecção pelo H. pylori?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Omeprazol, amoxicilina e claritromicina. Solicitar sorologia para H. pylori."
+        },
+        {
+          "key": "b",
+          "text": "Omeprazol, clindamicina e levofloxacino. Repetir a endoscopia digestiva alta."
+        },
+        {
+          "key": "c",
+          "text": "Omeprazol, amoxicilina e levofloxacino. Pesquisa do antígeno fecal para H. pylori."
+        },
+        {
+          "key": "d",
+          "text": "Omeprazol, metronidazol e levofloxacino. Repetir a endoscopia digestiva alta."
+        },
+        {
+          "key": "e",
+          "text": "Omeprazol, amoxicilina e claritromicina. Pesquisa do antígeno fecal para H. pylori."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Gastrite erosiva com H. pylori positivo deve ser tratada com IBP + amoxicilina + claritromicina (esquema de primeira linha), com controle de erradicação preferencialmente pela pesquisa do antígeno fecal.",
+      "theme": "dup_hp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_017",
+      "statement": "Paciente masculino, 55 anos de idade, é admitido no pronto-socorro devido a quadro de dor abdominal súbita em região de mesogástrio, há 6 horas, associado a náuseas e vômitos esverdeados. Tem antecedentes de tabagismo e uso recente de anti-in amatórios para tratamento de dor lombar. Ao exame físico, encontra-se descorado, desidratado, taquicárdico e normotenso. Ao exame abdominal, apresenta dor à palpação super cial e profunda, porém sem sinais de peritonite. Exames laboratoriais: Leucócitos: 16.000/uL; Bilirrubinas totais: 1,1 mg/dL; Amilase 393 U/L; Creatinina 1,5 mg/dL; Proteína C reativa: 150 mg/L. Considerando a principal hipótese etiológica para o caso, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A principal hipótese diagnóstica é a embolia mesentérica, devendo-se iniciar prontamente anticoagulação com enoxaparina."
+        },
+        {
+          "key": "b",
+          "text": "A radiografia simples de abdome sem o achado de pneumoperitônio exclui a hipótese diagnóstica de úlcera gástrica perfurada."
+        },
+        {
+          "key": "c",
+          "text": "As complicações mais comuns da doença ulcerosa péptica são o sangramento digestivo e a obstrução."
+        },
+        {
+          "key": "d",
+          "text": "Os achados tomográficos prováveis para esse caso incluem a presença de edema e borramento da gordura peripancreática."
+        },
+        {
+          "key": "e",
+          "text": "Em caso de úlcera péptica perfurada, há recomendação para antibioticoterapia de amplo espectro de maneira rotineira."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Nas complicações da doença ulcerosa péptica, o sangramento digestivo e a obstrução são as mais comuns; a ausência de pneumoperitônio na radiografia simples não exclui perfuração, já que sua sensibilidade é limitada.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_018",
+      "statement": "MLD, feminina, 43 anos, artrose de joelho em uso excessivo de AINES, chega ao serviço de emergência relatando dor retroesternal 6/10, que começou após alimentação. A paciente relata que já apresentou episódios semelhantes em que a dor iniciou após se alimentar e cessou espontaneamente após algumas horas. Qual a principal hipótese diagnóstica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Angina instável"
+        },
+        {
+          "key": "b",
+          "text": "Doença do refluxo gastroesofágico"
+        },
+        {
+          "key": "c",
+          "text": "Úlcera duodenal"
+        },
+        {
+          "key": "d",
+          "text": "Úlcera gástrica"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Dor retroesternal desencadeada por alimentação, com episódios recorrentes e cessação espontânea, em paciente usuária crônica de AINEs, sugere úlcera gástrica como principal hipótese.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_019",
+      "statement": "Paciente do sexo masculino, 45 anos, com início recente de sintomas dispépticos, é submetido a endoscopia digestiva alta, que mostra úlcera em bulbo duodenal com pesquisa para Helicobacter pylori positiva. Assinale a alternativa correta em relação ao tratamento para erradicação da bactéria:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Amoxicilina 1000 mg de 12/12 h, claritromicina 500 mg de 12/12 h, pantoprazol 40 mg de 12/12 h, por 14 dias."
+        },
+        {
+          "key": "b",
+          "text": "Amoxicilina 500 mg de 12/12 h, claritromicina 500 mg de 12/12 h, pantoprazol 40 mg de 12/12 h, por 14 dias."
+        },
+        {
+          "key": "c",
+          "text": "Amoxicilina 1000 mg de 12/12 h, claritromicina 1000 mg de 12/12 h, pantoprazol 40 mg de 12/12 h, por 7 dias."
+        },
+        {
+          "key": "d",
+          "text": "Amoxicilina 1000 mg de 12/12 h, claritromicina 500 mg de 12/12 h, pantoprazol 40 mg de 1x/dia, por 14 dias."
+        },
+        {
+          "key": "e",
+          "text": "Amoxicilina 500 mg de 12/12 h, claritromicina 500 mg de 12/12 h, pantoprazol 40 mg de 12/12 h, por 7 dias."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O esquema recomendado para erradicação do H. pylori em úlcera duodenal é amoxicilina 1000mg + claritromicina 500mg + IBP (pantoprazol 40mg), todos de 12/12h, por 14 dias.",
+      "theme": "dup_hp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_020",
+      "statement": "A úlcera péptica duodenal é uma doença digestiva com múltiplos fatores etiológicos que pode necessitar de tratamento cirúrgico. Havendo complicações da doença ulcerosa duodenal, é mais recomendado realizar",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "vagotomia de células parietais + antrectomia, em caso de perfuração."
+        },
+        {
+          "key": "b",
+          "text": "gastrujejunostomia + tratamento para H. pylori, em caso de obstrução."
+        },
+        {
+          "key": "c",
+          "text": "gastrectomia total + ligadura da a. gastroduodenal, em caso de hemorragia."
+        },
+        {
+          "key": "d",
+          "text": "rafia com patch omento + tratamento para H. pylori, em caso de intratabilidade."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Nas complicações da úlcera duodenal, a obstrução pilórica é tratada com gastrojejunostomia associada a tratamento para H. pylori, evitando ressecções mais extensas quando possível.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_021",
+      "statement": "Sobre as reconstruções pós-gastrectomia assinale a correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "1- Reconstrução a Billroth I; 2- reconstrução a Billroth II; 3- reconstrução em Y-Roux."
+        },
+        {
+          "key": "b",
+          "text": "1- Reconstrução a Billroth II; 2- reconstrução a Billroth I; 3- reconstrução em Y-Roux."
+        },
+        {
+          "key": "c",
+          "text": "1- Reconstrução a Billroth II; 2- reconstrução em Y-Roux; 3-reconstrução a Billroth I."
+        },
+        {
+          "key": "d",
+          "text": "1- Reconstrução em Y-Roux; 2- reconstrução a Billroth II; 3- reconstrução a Billroth I."
+        },
+        {
+          "key": "e",
+          "text": "1- Reconstrução em Y-Roux; 2- reconstrução a Billroth I; 3- reconstrução a Billroth II."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Na reconstrução pós-gastrectomia, a sequência anatômica correta corresponde a: Billroth II (gastrojejunostomia com alça aferente e eferente), Y-de-Roux (alça em Y sem alça aferente cega) e Billroth I (gastroduodenostomia direta).",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_022",
+      "statement": "A alteração fisiológica causada pela vagotomia troncular é a seguinte:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Diminuição do volume da vesícula biliar"
+        },
+        {
+          "key": "b",
+          "text": "Aumento da sensibilidade à histamina"
+        },
+        {
+          "key": "c",
+          "text": "Aumento da secreção exócrina do pâncreas"
+        },
+        {
+          "key": "d",
+          "text": "Diminuição do fluxo biliar pós-prandial"
+        },
+        {
+          "key": "e",
+          "text": "Hipoplasia das células secretoras de gastrina"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A vagotomia troncular reduz o tônus vagal para a vesícula biliar e vias biliares, diminuindo o fluxo biliar pós-prandial, entre outros efeitos autonômicos sobre o trato digestivo.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_023",
+      "statement": "Paciente de 68 anos, internado, com diagnóstico de abdômen agudo por úlcera gástrica perfurada, com necessidade de realização de gastrectomia total. Após alta, quais os cuidados que devem ser tomados em relação ao risco de anemia neste paciente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Paciente com risco de anemia, por deficiência de ácido fólico; deve ser feita, de imediato, a reposição endovenosa, devido estoque baixo dessa vitamina."
+        },
+        {
+          "key": "b",
+          "text": "Há risco de ferropenia, que pode ser precoce, devido sangramento, e também de deficiência de vitamina B12 a longo prazo."
+        },
+        {
+          "key": "c",
+          "text": "Há risco de deficiência de vitamina B12 precoce e a reposição da vitamina deve ser iniciada."
+        },
+        {
+          "key": "d",
+          "text": "Se dieta for adequada, não haverá qualquer necessidade de monitoramento de deficiências e anemia."
+        },
+        {
+          "key": "e",
+          "text": "Deve ser iniciada, e mantida por toda a vida, reposição de polivitamínico, via oral."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Após gastrectomia total, há risco de ferropenia precoce (por perda da acidez gástrica necessária à absorção do ferro) e de deficiência de vitamina B12 a longo prazo (por perda do fator intrínseco produzido pelas células parietais).",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_024",
+      "statement": "Um homem de 50 anos, portador de doença ulcerosa péptica refratária ao tratamento clínico (inibidor de bomba protônica há oito semanas) evolui com esteatorreia (seis evacuações/dia). Foi solicitada endoscopia digestiva alta e o exame evidenciou múltiplas úlceras em antro gástrico, primeira porção do duodeno e duas úlceras em porção distal do duodeno. Com base na hipótese mais provável, o marcador que se elevado auxiliaria no diagnóstico seria:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Colecistocinina"
+        },
+        {
+          "key": "b",
+          "text": "Somatostatina"
+        },
+        {
+          "key": "c",
+          "text": "Glucagon"
+        },
+        {
+          "key": "d",
+          "text": "Gastrina"
+        },
+        {
+          "key": "e",
+          "text": "Peptídeo intestinal vasoativo"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Úlcera péptica refratária ao IBP com múltiplas úlceras em locais atípicos e diarreia/esteatorreia sugere síndrome de Zollinger-Ellison; o marcador diagnóstico é a gastrina sérica elevada.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_025",
+      "statement": "Paciente feminino, 61 anos de idade, obesa, submetida a endoscopia digestiva alta em decorrência de queixa dispéptica persistente. Relato de uso de anti-in amatórios frequente, devido a dores lombares. Diagnosticou-se úlcera do fundo gástrico. De acordo com o sistema modi cado de classi cação anatômica de Johnson para úlceras gástricas, assinale a alternativa que classifica corretamente a úlcera do paciente em questão.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tipo II."
+        },
+        {
+          "key": "b",
+          "text": "Tipo III."
+        },
+        {
+          "key": "c",
+          "text": "Tipo IV."
+        },
+        {
+          "key": "d",
+          "text": "Tipo V."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Segundo a classificação de Johnson, a úlcera localizada no fundo gástrico (próxima à cárdia) é classificada como tipo V, frequentemente associada ao uso de AINEs.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_026",
+      "statement": "Leia o caso clínico a seguir. Paciente do sexo feminino, de 20 anos, com dispepsia há seis meses, sem tratamentos prévios. Foi submetida a endoscopia que evidenciou gastrite antral enantematosa leve. A avaliação histopatológica demonstrou presença de Helicobacter pylori em pequena quantidade no antro gástrico. Neste caso, a conduta inicial mais apropriada é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Lanzoprazol 30 mg/1x/dia, por 28 dias."
+        },
+        {
+          "key": "b",
+          "text": "Lanzoprazol 30 mg + domperidona 10 mg/2x/dia, por 28 dias."
+        },
+        {
+          "key": "c",
+          "text": "Lanzoprazol 30 mg/2x/dia + Claritomicina 500 mg/2x/ dia + Amoxicilina 1000 mg/2x/dia, por 14 dias."
+        },
+        {
+          "key": "d",
+          "text": "Lanzoprazol 30 mg/2x + Amoxicilina 1000 mg/2x + levofloxacina 500 mg/1x, por 10 dia"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Gastrite antral leve com H. pylori em pequena quantidade tem indicação de erradicação com esquema tríplice (IBP + claritromicina + amoxicilina) por 14 dias.",
+      "theme": "dup_hp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_027",
+      "statement": "Homem, 59 anos, admitido na emergência após hematêmese e melena, estável hemodinamicamente. Hipertenso, em uso de enalapril, negando uso de anti-in amatórios não esteroides. Submetido a uma endoscopia digestiva alta que revela úlcera gástrica pré-pilórica com vaso visível e teste da urease positivo. Qual a conduta neste momento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tratar o Helicobacter pylori e fazer inibidor da bomba de prótons intravenoso."
+        },
+        {
+          "key": "b",
+          "text": "Tratar a úlcera endoscopicamente com esclerose e cauterização."
+        },
+        {
+          "key": "c",
+          "text": "Rafia cirúrgica da úlcera."
+        },
+        {
+          "key": "d",
+          "text": "Apenas inibidor da bomba de prótons intravenoso."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Úlcera gástrica com vaso visível (Forrest IIa, alto risco de ressangramento) deve ser tratada endoscopicamente com esclerose e cauterização (terapia combinada), além do tratamento clínico com IBP.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_028",
+      "statement": "A gura abaixo ilustra uma alternativa para o tratamento das úlceras gastroduodenais complicadas por perfuração > 3cm. Trata-se de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Antrectomia com reconstrução em Y de Roux."
+        },
+        {
+          "key": "b",
+          "text": "Antrectomia com reconstrução a Bilroth II."
+        },
+        {
+          "key": "c",
+          "text": "Antrectomia com reconstrução a Bilroth I."
+        },
+        {
+          "key": "d",
+          "text": "Antrectomia com reconstrução a Siwert I."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Perfuração de úlcera gastroduodenal maior que 3cm, quando não permite rafia simples, pode ser tratada com antrectomia e reconstrução a Billroth II.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_029",
+      "statement": "Paciente de 50 anos, masculino, vai à consulta devido a quadro de dispepsia, sensação de plenitude pós-prandial, perda ponderal de cerca de 10Kg nos últimos 60 dias e dor abdominal esporádica. O paciente tem histórico de ser tabagista e hipertenso, atualmente em uso de hidroclorotiazida e losartan, e faz uso irregular de inibidor de bomba devido à gastrectomia parcial decorrente de úlcera gástrica há 10 anos. Após investigação, o paciente recebeu diagnóstico de neoplasia gástrica. Sobre esse quadro, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O diagnóstico mais provável, nesse caso, é linfoma gástrico."
+        },
+        {
+          "key": "b",
+          "text": "A presença de massa palpável em fundo gástrico, nódulo axilar e periumbilical é indicação para cirurgia de urgência."
+        },
+        {
+          "key": "c",
+          "text": "No adenocarcinoma, a consanguinidade e o tipo sanguíneo não são fatores de risco para a doença."
+        },
+        {
+          "key": "d",
+          "text": "A presença de gastrite atrófica e a cirurgia de gastrectomia parcial geralmente atrasam o surgimento de neoplasias gástricas."
+        },
+        {
+          "key": "e",
+          "text": "Em fases iniciais da doença, o prognóstico de cura é acima de 90%."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Neoplasia gástrica diagnosticada em fase inicial (precoce, restrita à mucosa/submucosa) tem prognóstico de cura excelente, acima de 90% após tratamento adequado.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_030",
+      "statement": "Em relação à doença ulcerosa péptica, é CORRETO afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Até 50% dos pacientes com hemorragia digestiva alta ulcerosa são assintomáticos, antes do episódio de hemorragia."
+        },
+        {
+          "key": "b",
+          "text": "A despeito do tratamento atual, a prevalência de obstrução gástrica em pacientes com úlceras pré- pilóricas ou duodenais é alta, em torno de 60%."
+        },
+        {
+          "key": "c",
+          "text": "As úlceras gástricas e duodenais com boa resposta clínica ao tratamento dispensam endoscopia de controle."
+        },
+        {
+          "key": "d",
+          "text": "A infecção pelo Helicobacterpylori associada à úlcera gástrica ocorre em torno de 95% dos casos."
+        },
+        {
+          "key": "e",
+          "text": "Presença de Helicobacter pylori não foi associada à prevalência de câncer gástrico."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Até 50% dos pacientes com hemorragia digestiva alta por úlcera péptica são assintomáticos antes do episódio hemorrágico, tornando o sangramento a primeira manifestação da doença em muitos casos.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_031",
+      "statement": "Um homem de 45 anos procura atendimento devido à epigastralgia em queimação há 6 meses, a qual melhora com a alimentação e com o uso de ranitidina. Ele nega uso de anti-in amatórios não esteroides, assim como etilismo e tabagismo. Realizou endoscopia digestiva alta que revelou gastrite erosiva crônica e úlcera duodenal. A pesquisa de H. pylori foi positiva. Ele apresenta história de alergia grave à benzilpenicilina (ana laxia). Assinale a alternativa que contém o tratamento recomendado para esse paciente.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Inibidor de bomba de prótons em dose padrão +amoxicilina 1,0 g + claritromicina 500 mg, 2 vezes/dia, durante 7 dias."
+        },
+        {
+          "key": "b",
+          "text": "Inibidor de Bomba de Prótons em dose padrão, 2 vezes/dia + subcitrato de bismuto coloidal 120 mg, 4 vezes/dia + cloridrato de tetraciclina 500 mg, 4 vezes/dia + metronidazol 250 mg, 4 vezes/dia, durante 7 a 10 dias."
+        },
+        {
+          "key": "c",
+          "text": "Inibidor de bomba de prótons em dose padrão + amoxicilina 1,0 g, 2 vezes/dia nos primeiros 5 dias, seguido de Inibidor de bomba de prótons em dose padrão + claritromicina 500 mg + tinidazol 500 mg, 2 vezes/dia, por mais 5 dias."
+        },
+        {
+          "key": "d",
+          "text": "Inibidor de Bomba de Prótons em dose padrão, 2 vezes/dia +claritromicina 500 mg, 2 vezes/dia + metronidazol 500 mg, 2 vezes/dia, durante 10 a 14 dias."
+        },
+        {
+          "key": "e",
+          "text": "Inibidor de bomba de prótons em dose padrão +amoxicilina 1,0 g + claritromicina 500 mg, 2 vezes/dia, durante 10 dias."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Paciente com alergia grave (anafilaxia) à penicilina não pode receber amoxicilina; o esquema alternativo para erradicação do H. pylori é IBP + subcitrato de bismuto + tetraciclina + metronidazol (esquema quádruplo com bismuto), por 7-10 dias.",
+      "theme": "dup_hp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_032",
+      "statement": "Qual o componente nutricional que mais se torna deficiente após ressecção gástrica total?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Vitamina B12."
+        },
+        {
+          "key": "b",
+          "text": "Cálcio."
+        },
+        {
+          "key": "c",
+          "text": "Ácido fólico."
+        },
+        {
+          "key": "d",
+          "text": "Ferro."
+        },
+        {
+          "key": "e",
+          "text": "Zinco."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Após ressecção gástrica total, a deficiência de vitamina B12 é o componente nutricional mais frequentemente afetado, devido à perda das células parietais produtoras de fator intrínseco.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_033",
+      "statement": "Homem, 39 anos, refere, em atendimento ambulatorial, ter gastrite há muitos anos. Queixa-se de azia e queimação, com ritmicidade a três tempos (dói, come, passa) e alguns despertares noturnos com dor, com períodos de acalmia que podem durar meses. É tabagista, sem outras comorbidades, e refere ter pai e um irmão com sintomas semelhantes. Com base nesse caso, assinale a alternativa que apresenta o diagnóstico mais provável.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Neoplasia de estômago."
+        },
+        {
+          "key": "b",
+          "text": "Úlcera duodenal."
+        },
+        {
+          "key": "c",
+          "text": "Úlcera gástrica."
+        },
+        {
+          "key": "d",
+          "text": "Gastrite aguda."
+        },
+        {
+          "key": "e",
+          "text": "Doença do refluxo gastroesofágico."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Dor epigástrica com ritmicidade (dói-come-passa), despertar noturno, períodos de acalmia e história familiar são achados clássicos de úlcera duodenal.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_034",
+      "statement": "Pacientes portadores de ulceração duodenal aguda podem desenvolver na história natural da doença obstrução pilórica e cursar com vômitos frequentes, o que ocasiona um distúrbio na homeostase destes pacientes. Das alternativas a seguir, qual o distúrbio associado a esse quadro?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Alcalose metabólica hipoclorêmica hipocalêmica."
+        },
+        {
+          "key": "b",
+          "text": "Acidose metabólica hipoclorêmica hipernatrêmica."
+        },
+        {
+          "key": "c",
+          "text": "Acidose metabólica hiperclorêmica hipercalêmica."
+        },
+        {
+          "key": "d",
+          "text": "Alcalose metabólica hiperclorêmica hiponatrêmica."
+        },
+        {
+          "key": "e",
+          "text": "Alcalose respiratória hipocarbônica hipercalêmica."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A obstrução pilórica por úlcera duodenal crônica causa vômitos repetidos com perda de ácido clorídrico e potássio, resultando em alcalose metabólica hipoclorêmica e hipocalêmica.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_035",
+      "statement": "As úlceras gástricas podem ocorrer em qualquer local no estômago, apesar de geralmente estarem presentes na curvatura menor, perto da incisura angularis. Sobre a classificação de Johnson, assinale a correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Úlcera tipo I: sempre estão associadas à secreção excessiva de ácidos."
+        },
+        {
+          "key": "b",
+          "text": "Úlcera tipo II: geralmente estão associadas a uma elevada secreção de ácido, em combinação com uma úlcera duodenal."
+        },
+        {
+          "key": "c",
+          "text": "Úlcera tipo III: são úlceras em corpo gástrico e responsáveis por cerca de 90% das lesões."
+        },
+        {
+          "key": "d",
+          "text": "As úlceras gástricas do tipo IV. ocorrem em uma parte distal do corpo gástrico, próximo ao piloro."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Na classificação de Johnson, a úlcera tipo II (corpo gástrico associada a úlcera duodenal concomitante) geralmente associa-se a hipersecreção ácida elevada.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_036",
+      "statement": "Paciente feminina, 39 anos, queixando-se de epigastralgia há 5 meses, realiza endoscopia digestiva alta com úlcera ativa na parede anterior do bulbo duodenal, com teste de urease positivo. Assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A cultura da mucosa gástrica é o método de escolha para o diagnóstico de H. pylori quando uma endoscopia é realizada."
+        },
+        {
+          "key": "b",
+          "text": "A sorologia é o método de escolha para se realizar confirmação da erradicação após o tratamento."
+        },
+        {
+          "key": "c",
+          "text": "Deve-se realizar o teste da uréase apenas em úlceras com sangramento recente."
+        },
+        {
+          "key": "d",
+          "text": "Histologia, cultura e teste rápido da urease são os testes invasivos para o diagnóstico de H. pylori."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Os testes invasivos para diagnóstico de H. pylori (que exigem endoscopia com biópsia) incluem histologia, cultura e teste rápido da urease.",
+      "theme": "dup_hp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_037",
+      "statement": "Paciente de 44 anos com história de úlceras duodenais a endoscopia digestiva alta, pirose, dor retroesternal, regurgitações, diarreia aquosa e perda ponderal de 5 kg há 90 dias. Fez tratamento com omeprazol sem melhora. O provável diagnóstico seria de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Gastrinoma."
+        },
+        {
+          "key": "b",
+          "text": "Pancreatite aguda."
+        },
+        {
+          "key": "c",
+          "text": "Tumor de cárdia."
+        },
+        {
+          "key": "d",
+          "text": "Acalasia."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Úlceras duodenais múltiplas refratárias ao IBP, associadas a diarreia aquosa e perda ponderal, sugerem síndrome de Zollinger-Ellison (gastrinoma).",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_038",
+      "statement": "Os mecanismos pelos quais a infecção crônica pelo H. Pylori contribui para a formação de úlcera duodenal incluem os relatados abaixo, EXCETO",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Estímulo da secreção de gastrina."
+        },
+        {
+          "key": "b",
+          "text": "Indução de metaplasia gástrica no duodeno."
+        },
+        {
+          "key": "c",
+          "text": "Aumento da produção de somatostatina."
+        },
+        {
+          "key": "d",
+          "text": "Estímulo de reação inflamatória e resposta imune significativas."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O H. pylori não aumenta a produção de somatostatina — pelo contrário, reduz as células D produtoras de somatostatina, contribuindo para hipergastrinemia; essa é a exceção entre os mecanismos patogênicos listados.",
+      "theme": "dup_hp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_039",
+      "statement": "Pode-se afirmar que o distúrbio metabólico apontado como o mais típico da estenose hipertrófica do piloro é a",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "alcalose metabólica hipoclorêmica"
+        },
+        {
+          "key": "b",
+          "text": "acidose metabólica hipoclorêmica"
+        },
+        {
+          "key": "c",
+          "text": "acidose metabólica hiperclorêmica"
+        },
+        {
+          "key": "d",
+          "text": "alcalose metabólica hiperclorêmica"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O distúrbio metabólico mais típico da estenose hipertrófica do piloro (vômitos repetidos com perda de HCl e potássio) é a alcalose metabólica hipoclorêmica.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_040",
+      "statement": "Leia o caso clínico a seguir. Paciente procedente do interior de Goiás, do sexo feminino, de 35 anos, com história prévia de tratamento de gastrite crônica relacionada ao H. pylori há um ano atrás, tendo utilizado o esquema tríplice (IBP + Amoxicilina 1 g + Claritromicina 500 mg), duas vezes ao dia por sete dias.Na sua última endoscopia, há 20 dias, evidenciou úlcera duodenal em cicatrização (fase H2 da classi cação de Sakita) com anatomopatológico mostrando gastrite crônica leve, com atividade leve e presença do H. pylori (+/3+). Nesse caso, qual é a melhor conduta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Retratar com tratamento tríplice (IBP + Amoxicilina 1 g + Claritromicina 500 mg), duas vezes ao dia, dessa vez estendido por 14 dias."
+        },
+        {
+          "key": "b",
+          "text": "Retratar com tratamento tríplice (IBP + Amoxicilina 1 g + metronidazol 500 mg), duas vezes ao dia, por sete dias."
+        },
+        {
+          "key": "c",
+          "text": "Retratar com tratamento tríplice (IBP + Amoxicilina 1g), duas vezes ao dia, + Levofloxacina 500 mg, uma vez ao dia, por 14 dias."
+        },
+        {
+          "key": "d",
+          "text": "Retratar com tratamento quádruplo (IBP + Amoxicilina 1 g + metronidazol 500 mg + Furazolidona 200 mg), duas vezes ao dia, por sete dias."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Falha de erradicação após esquema tríplice padrão (7 dias) indica retratamento com esquema estendido por 14 dias ou troca de antibióticos, conforme resistência local — a extensão para 14 dias com o mesmo esquema é opção válida de retratamento inicial.",
+      "theme": "dup_hp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_041",
+      "statement": "Mulher de 45 anos apresenta dor epigástrica em queimação associada a sensação de plenitude pós-prandial, há aproximadamente 1 ano. Refere que alguns alimentos costumam causar mais sintomas, como frituras, refrigerantes e molhos industrializados. EDA: pangastrite enantemática leve e gastrite erosiva antral intensa associada a bulboduodenite erosiva leve com teste da urease positivo. O tratamento de escolha é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "amoxicilina 1 g, claritromicina 500 mg e IBP em dose plena, todos de 12/12 h, por 7 dias."
+        },
+        {
+          "key": "b",
+          "text": "amoxicilina 1 g, claritromicina 500 mg e IBP em dose plena, todos de 12/12 h, por 14 dias."
+        },
+        {
+          "key": "c",
+          "text": "levofloxacina 500 mg 1 x ao dia, claritromicina 500 mg e IBP em dose plena de 12/12 h por 7 dias."
+        },
+        {
+          "key": "d",
+          "text": "levofloxacina 500 mg 1 x ao dia, claritromicina 500 mg e IBP em dose plena de 12/12 h por 14 dias."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Dispepsia com gastrite/bulboduodenite erosiva e H. pylori positivo tem indicação de tratamento tríplice (amoxicilina + claritromicina + IBP em dose plena) por 14 dias.",
+      "theme": "dup_hp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_042",
+      "statement": "Paciente, 48 anos, masculino, internado na unidade de terapia intensiva, em ventilação mecânica, por traumatismo cranioencefálico e pneumonia aspirativa, evolui com melena, apresentando queda de hemoglobina e necessidade de hemotransfusão. Sobre o caso, assinale alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Está indicada endoscopia digestiva alta com provável ligadura de varizes de fundo gástrico."
+        },
+        {
+          "key": "b",
+          "text": "Está-se diante de um caso de gastropatia hipertensiva portal."
+        },
+        {
+          "key": "c",
+          "text": "É úlcera péptica relacionada à presença do H. Pylori."
+        },
+        {
+          "key": "d",
+          "text": "Provável hemorragia digestiva alta por lesão de Dieulafoy."
+        },
+        {
+          "key": "e",
+          "text": "Provável hemorragia digestiva alta por úlceras de Cushing."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Melena com queda de hemoglobina em paciente crítico em ventilação mecânica por TCE é quadro clássico de úlcera de Cushing (úlcera de estresse associada a lesão do sistema nervoso central).",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_043",
+      "statement": "Mulher, 28a, com queixa de queimação no andar superior do abdome, retorna para avaliação de resultado de endoscopia digestiva alta (EDA), realizada há 3 semanas. Antecedentes pessoais: uso regular de inibidor da bomba de protóns (IBP) há 2 anos e tabagismo 10 maços/ano. EDA: uma úlcera duodenal ativa e pesquisa de Helicobacter pylori negativa. A CONDUTA É:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Indicar pesquisa de sangue oculto."
+        },
+        {
+          "key": "b",
+          "text": "Substituir por sucralfato por 2 semanas e repetir EDA."
+        },
+        {
+          "key": "c",
+          "text": "Indicar pHmetria e ajustar dose IBP."
+        },
+        {
+          "key": "d",
+          "text": "Manter IBP até a úlcera duodenal cicatrizar."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Úlcera duodenal ativa com H. pylori negativo em usuário crônico de IBP deve manter o tratamento com IBP até a cicatrização completa da lesão, investigando outras causas (AINE oculto, Zollinger-Ellison) se persistir.",
+      "theme": "dup_hp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_044",
+      "statement": "Inibidores de bomba de prótons são frequentemente prescritos em associação com outros medicamentos. Entretanto, algumas interações medicamentosas podem ser limitantes ou cursar com eventos adversos graves. EM RELAÇÃO À ASSOCIAÇÃO COM OMEPRAZOL É CORRETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Fenobarbital; redução de ação anticonvulsivante."
+        },
+        {
+          "key": "b",
+          "text": "Fluconazol; aumento de toxicidade hepática."
+        },
+        {
+          "key": "c",
+          "text": "Clopidogrel; redução de atividade antiplaquetária."
+        },
+        {
+          "key": "d",
+          "text": "Warfarina; redução de atividade anticoagulante."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O omeprazol reduz a ativação hepática do clopidogrel (inibição do CYP2C19), diminuindo sua atividade antiplaquetária — interação clinicamente relevante entre as listadas.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_045",
+      "statement": "A descoberta do Helicobacter pylori (Hp) foi uma das maiores conquistas da história moderna da gastroenterologia. O Hp acomete 50% da população mundial, com maior prevalência em regiões de menor nível socioeconômico e baixo saneamento. A maioria das pessoas infectadas permanece assintomática, mas uma parte desenvolverá a doença. É necessário testar e, se comprovado, tratar a infecção por Hp quando há presença de",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "metaplasia intestinal, tumor estromal gastrointestinal (GIST) e úlcera duodenal."
+        },
+        {
+          "key": "b",
+          "text": "doença ulcerosa péptica, uso prolongado de AAS e anti-inflamatórios, e doença do refluxo gastroesofágico."
+        },
+        {
+          "key": "c",
+          "text": "linfoma MALT gástrico, dispepsia funcional e vários pólipos hiperplásicos."
+        },
+        {
+          "key": "d",
+          "text": "gastrite atrófica, câncer gástrico em parente de primeiro grau e forte desejo do paciente."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "É necessário testar e tratar o H. pylori na presença de gastrite atrófica, câncer gástrico em parente de primeiro grau, ou forte desejo do paciente, mesmo sem outras indicações clássicas.",
+      "theme": "dup_hp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_046",
+      "statement": "Um paciente do sexo masculino, de 35 anos de idade, procurou atendimento médico por apresentar epigastralgia, tipo queimação, associada a pirose havia três meses, principalmente após refeições e durante o sono. Foi realizado exame de endoscopia digestiva alta, que sugeriu o diagnóstico de doença do refluxo gastroesofágico (DRGE). Com relação ao caso clínico hipotético precedente e a aspectos relacionados à DRGE, julgue o item a seguir. Nos casos de pacientes com DRGE de longa data, o uso contínuo de inibidor de bomba de prótons (IBP) pode comprometer a absorção da vitamina B12.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O uso contínuo de IBP reduz a acidez gástrica necessária para liberar a vitamina B12 ligada a proteínas alimentares, podendo comprometer sua absorção em uso prolongado.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_047",
+      "statement": "Qual dos seguintes testes é o mais apropriado para um homem de 50 anos que completou um curso de amoxicilina, claritromicina e omeprazol há 06 semanas para uma úlcera duodenal associada ao Helicobacter pylori que estava causando sangramento gastrointestinal?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sorologia para Helicobacter pylori."
+        },
+        {
+          "key": "b",
+          "text": "Pesquisa do antígeno fecal para Helicobacter pylori."
+        },
+        {
+          "key": "c",
+          "text": "Teste respiratório com lactulose radiomarcada."
+        },
+        {
+          "key": "d",
+          "text": "Endoscopia Digestiva Alta e biópsia de mucosa duodenal."
+        },
+        {
+          "key": "e",
+          "text": "Endoscopia Digestiva Alta e teste de urease."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Após tratamento de erradicação do H. pylori em paciente com sangramento gastrointestinal recente, a pesquisa do antígeno fecal é o teste não invasivo mais apropriado para confirmar a cura, evitando falsos negativos da urease em contexto de sangramento.",
+      "theme": "dup_hp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_048",
+      "statement": "Sobre as úlceras pépticas, é correto afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A incidência de úlcera péptica tem aumentado nos últimos dez anos."
+        },
+        {
+          "key": "b",
+          "text": "Pacientes idosos estão mais sujeitos a complicações."
+        },
+        {
+          "key": "c",
+          "text": "Houve uma redução na incidência de complicações com a introdução dos inibidores da bomba de prótons."
+        },
+        {
+          "key": "d",
+          "text": "Houve um aumento na mortalidade devido à indução de cepas resistentes do H. pylori pelo tratamento antibiótico indiscriminado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Pacientes idosos estão mais sujeitos a complicações da úlcera péptica (sangramento, perfuração), muitas vezes com apresentação clínica atenuada e maior mortalidade associada.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_049",
+      "statement": "Paciente feminina, 45 anos, dá entrada no pronto socorro com quadro de melena e hematêmese com 12 horas de evolução. Encontra-se estável hemodinamicamente. Relata uso de anti-in amatório para dor lombar nos últimos 10 dias. Realiza endoscopia digestiva alta que mostra uma lesão ulcerada bulbar classi cada como Sakita A1 e Forrest IIa com teste de urease positivo. Em relação a este caso clínico, analise as assertivas abaixo: I) Esta lesão deve ser tratada endoscopicamente devido ao alto risco de ressangramento. II) O achado endoscópico, demonstrado pela classi cação Forrest IIa, indica para uma lesão ulcerada com sangramento ativo. III) Esta paciente pode ser tratada clinicamente com a realização de um inibidor da bomba de prótons associado com um bloqueador de H2. IV) Devido a localização bulbar da lesão ulcerada, a erradicação do H. pylori não esta indicada como parte do tratamento clínico. Estão corretas as assertivas",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I apenas."
+        },
+        {
+          "key": "b",
+          "text": "I e II apenas."
+        },
+        {
+          "key": "c",
+          "text": "III e IV apenas."
+        },
+        {
+          "key": "d",
+          "text": "II, III e IV apenas."
+        },
+        {
+          "key": "e",
+          "text": "Todas assertivas estão corretas."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Úlcera bulbar Forrest IIa (vaso visível, alto risco de ressangramento) deve ser tratada endoscopicamente (I correta); Forrest IIa não indica sangramento ativo, mas sim estigma de sangramento recente sem sangramento em curso (II incorreta) — tornando I a única correta entre as opções.",
+      "theme": "dup_hda",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_050",
+      "statement": "Paciente foi submetido a uma cirurgia de Billroth dois. Evoluindo no 15º dia pós-operatório com mal-estar, taquicardia e sudorese, logo após refeição rica em carboidratos. A principal hipótese diagnóstica é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Síndrome de estenose pilórica."
+        },
+        {
+          "key": "b",
+          "text": "Hérnia interna encarcerada."
+        },
+        {
+          "key": "c",
+          "text": "Hérnia interna com estrangulamento."
+        },
+        {
+          "key": "d",
+          "text": "Dumping."
+        },
+        {
+          "key": "e",
+          "text": "Obstrução intestinal."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Sudorese, taquicardia e desmaio 15 dias após Billroth II, desencadeados por refeição rica em carboidratos, são quadro clássico de síndrome de dumping.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_051",
+      "statement": "Em relação as síndromes pós-gastrectomia, marque a alternativa correta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Síndrome de dumping: o bolo alimentar hipertônico passa para o lúmen do intestino delgado induzindo uma rápida passagem de líquidos extracelulares para o lúmen intestinal para tentar obter a isotonicidade, ocorre então uma distensão do lúmen intestinal provocando respostas autonômicas como taquicardia, rubor e tonturas."
+        },
+        {
+          "key": "b",
+          "text": "Síndrome da alça aferente: ocorre como resultado de uma obstrução parcial da alça aferente que é incapaz de esvaziar o conteúdo em seu interior. o tratamento é sempre clínico, com uso de inibidor de bomba de prótons e pro-cinéticos que irão auxiliar no esvaziamento do seu conteúdo."
+        },
+        {
+          "key": "c",
+          "text": "Gastrite de refluxo alcalino: após a gastrectomia, o refluxo de bile é comum, e o volume e a composição da bile são os fatores mais importantes no desenvolvimento dessa complicação. o tratamento com dieta pobre em lipídeos melhora os sintomas sem necessidade de tratamento medicamentoso ou cirúrgico."
+        },
+        {
+          "key": "d",
+          "text": "Obstrução da alça aferente: a obstrução é uma condição comum nos pacientes submetidos a gastrectomia subtotal a Billroth II, e a endoscopia digestiva alta auxilia na tentativa de desobstruir com uma taxa de sucesso de cerca de 80% dos casos."
+        },
+        {
+          "key": "e",
+          "text": "Atonia gástrica: ocorre o acúmulo de secreções pancreáticas e hepatobiliares no lúmen do estômago remanescente nos casos de gastrectomia subtotal a Billroth II. o tratamento indicado e sempre a conversão da anastomose a Billroth II em Billroth I ou a realização de Y de Roux."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na síndrome de dumping, o bolo alimentar hipertônico no intestino delgado causa deslocamento rápido de líquido extracelular para o lúmen intestinal, gerando distensão e resposta autonômica (taquicardia, rubor, tontura).",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_052",
+      "statement": "Quando está indicado obter um nível de gastrina sérica em jejum?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pacientes com queixa de dispepsia aguardando cirurgia"
+        },
+        {
+          "key": "b",
+          "text": "História familiar de tumor de intestino"
+        },
+        {
+          "key": "c",
+          "text": "Hipocalcemia"
+        },
+        {
+          "key": "d",
+          "text": "Constipação inexplicável"
+        },
+        {
+          "key": "e",
+          "text": "Pacientes com recidiva pós-operatória da úlcera"
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A dosagem de gastrina sérica em jejum está indicada em pacientes com recidiva pós-operatória de úlcera péptica, para investigar gastrinoma não diagnosticado previamente.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_053",
+      "statement": "Na pro laxia da úlcera de estresse, em pacientes internados em UTI, ventilados mecanicamente por > de 48 horas, o nível de pH gástrico deve ser mantido acima de",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "3."
+        },
+        {
+          "key": "b",
+          "text": "5."
+        },
+        {
+          "key": "c",
+          "text": "2."
+        },
+        {
+          "key": "d",
+          "text": "4."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Na profilaxia de úlcera de estresse em pacientes ventilados por mais de 48 horas, recomenda-se manter o pH gástrico acima de 4 para reduzir o risco de sangramento por lesão aguda de mucosa.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_054",
+      "statement": "Homem de 60 anos com quadro clínico de dispepsia e com úlceras duodenais e gástricas recorrentes (endoscopia digestiva alta), apesar do uso de omeprazol em dose dobrada, com teste para Helicobacter pylori negativo e biópsia sem sinais de neoplasia. O exame que mais provavelmente ajudará no diagnóstico do paciente é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Repetir biópsia de mais de uma lesão gástrica e duodenal."
+        },
+        {
+          "key": "b",
+          "text": "Gastrina sérica."
+        },
+        {
+          "key": "c",
+          "text": "Anticorpo anti-endomísio."
+        },
+        {
+          "key": "d",
+          "text": "ASCA (Anti-Saccharomyces cerevisiae)."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Úlceras duodenais e gástricas recorrentes refratárias ao IBP, com H. pylori negativo e sem neoplasia, indicam investigação com dosagem de gastrina sérica para descartar síndrome de Zollinger-Ellison.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_055",
+      "statement": "Inibidores da Bomba de Prótons IBP Mulher de 21 anos de idade é avaliada com quadro de azia, pirose e dor epigástrica há 3 semanas. Nega uso de medicamentos, etilismo, tabagismo, viagem recente ou patologias prévias. Seu pai teve câncer gástrico aos 73 anos de idade. Exame físico: hidratada, corada, anictérica e afebril; sinais vitais normais; cardiopulmonar sem alterações; desconforto leve à palpação do andar superior do abdômen, sem massas ou órgãos palpáveis. Nesse momento, a melhor conduta é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "prescrever o tratamento para erradicação do Helicobacter pylori."
+        },
+        {
+          "key": "b",
+          "text": "realizar teste terapêutico com antiácido e domperidona por 2 meses e reavaliar."
+        },
+        {
+          "key": "c",
+          "text": "realizar o teste terapêutico com ranitidina por 4 semanas e reavaliar."
+        },
+        {
+          "key": "d",
+          "text": "solicitar o teste respiratório para o Helicobacter pylori."
+        },
+        {
+          "key": "e",
+          "text": "solicitar uma endoscopia digestiva alta."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Jovem sem sinais de alarme e sem fatores de risco (idade <60 anos, sem história familiar relevante) com dispepsia deve ser tratada com estratégia 'testar e tratar' H. pylori antes de indicar endoscopia.",
+      "theme": "dup_hp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_056",
+      "statement": "Faz parte dos sinais e sintomas clássicos da Síndrome de Zollinger-Ellison:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Úlcera péptica refratária, esofagite grave e/ou diarreia secretória persistente."
+        },
+        {
+          "key": "b",
+          "text": "Úlceras em cólon e reto, diarreia osmótica e metaplasia intestinal de esôfago cervical."
+        },
+        {
+          "key": "c",
+          "text": "Vômitos incoercíveis, do abdominal e perda ponderal."
+        },
+        {
+          "key": "d",
+          "text": "Icterícia, febre e dor abdominal."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A tríade clássica da síndrome de Zollinger-Ellison inclui úlcera péptica refratária, esofagite grave e/ou diarreia secretória persistente, refletindo a hipersecreção ácida maciça.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_057",
+      "statement": "José, 39 anos, trabalha como feirante e vem queixando-se de dor epigástrica em queimação com irradiação superior até a região da faringe. Relata que apresenta os sintomas há vários anos, intercalando períodos de aumento ou diminuição da queixa. Já fez uso de omeprazol, sendo o último ciclo realizado há cerca de 5 anos, em conjunto com terapia de erradicação de Helicobacter pylori. Refere que a dor abdominal melhora com alimentação. Nega despertar noturno, perda de peso ou disfagia. Sobre o quadro de José, é correto afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a presença de dor que melhora com alimentação fala a favor de úlcera duodenal, sendo, portanto, uma indicação de endoscopia digestiva alta para diagnosticar tal condição"
+        },
+        {
+          "key": "b",
+          "text": "no caso de José, os sinais de alerta têm valor preditivo positivo baixo. Mesmo quando presentes, a probabilidade de malignidade no exame endoscópico é baixa"
+        },
+        {
+          "key": "c",
+          "text": "endoscopia digestiva alta é o exame padrão-ouro para diagnóstico de doença do refluxo gastresofágico, tendo um alto valor preditivo negativo. Um exame normal praticamente exclui a possibilidade dessa doença."
+        },
+        {
+          "key": "d",
+          "text": "a pesquisa sorológica para Helicobacter pylori pode ser útil, pois ele apresenta sintomas crônicos recorrentes. Esse exame detecta anticorpos lgM e lgG e é útil na diferenciação entre infecção ativa e infecção prévia"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Sinais de alarme (perda de peso, disfagia, sangramento) têm baixo valor preditivo positivo isolado para malignidade em pacientes jovens sem outros fatores de risco, mesmo quando presentes.",
+      "theme": "dup_hp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_058",
+      "statement": "Paciente com 47 anos, masculino, pardo, natural de São Bernardo, metalúrgico. Queixa-se de dor epigástrica de forte intensidade há 1 ano. Refere que há 8 anos iniciou quadro de dor epigástrica de fraca intensidade, sem irradiação, que piorava com alimentos gordurosos e pimenta e melhorava com hidróxido de alumínio. O período doloroso tinha duração de uma semana, seguido de acalmia por aproximadamente seis meses. De um ano para cá a dor piorou de intensidade e os períodos de acalmia diminuíram. Nega perda de peso. Etilista social e tabagista de 1 maço/dia há 25 anos. Exame físico normal. Qual sua hipótese diagnóstica e conduta inicial?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pancreatite crônica e ultrassom"
+        },
+        {
+          "key": "b",
+          "text": "Gastrite e endoscopia"
+        },
+        {
+          "key": "c",
+          "text": "Verminose e protoparasitológico"
+        },
+        {
+          "key": "d",
+          "text": "Doença ulcerosa péptica e endoscopia"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Dor epigástrica crônica com ritmicidade (piora/melhora com dieta), evoluindo com aumento de intensidade e diminuição dos períodos de acalmia, sugere doença ulcerosa péptica; a conduta é endoscopia digestiva alta.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_059",
+      "statement": "De acordo com a classificação de Johnson, as úlceras gástricas localizadas somente na pequena curvatura são do tipo:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I"
+        },
+        {
+          "key": "b",
+          "text": "II"
+        },
+        {
+          "key": "c",
+          "text": "III"
+        },
+        {
+          "key": "d",
+          "text": "IV"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na classificação de Johnson, as úlceras localizadas exclusivamente na pequena curvatura correspondem ao tipo I, o subtipo mais frequente.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_060",
+      "statement": "Homem, 44 anos, reconsulta por epigastralgia tipo queimação nas últimas semanas, que piora após as refeições e que o faz despertar durante o sono. Emagrecimento de 4 Kg neste período. Uso diário de ácido acetilsalicílico (AAS) 100 mg tamponado há três meses. Há 2 semanas, com cansaço fácil e sonolência excessiva, fato este que o motivou a procurar atendimento, quando foram solicitados exames e prescrito inibidor de bomba de prótons em dose dupla. Retorna com melhora parcial do quadro e com os seguintes resultados de exames: hematócrito 32%, hemoglobina 9,6 g/dL VCM 75 fL, leucócitos de 7400/mm³ (diferencial normal), plaquetas 258.000/mm³, coagulograma normal. Endoscopia digestiva alta evidenciou lesão no antro gástrico, próxima ao piloro, como mostra a imagem. Em relação a esse quadro clínico, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O uso de AAS tamponado não confere risco para lesão gástrica, mas para lesão duodenal."
+        },
+        {
+          "key": "b",
+          "text": "A biópsia da lesão gástrica deve ser feita sempre nas bordas para afastar a possibilidade de etiologia neoplásica."
+        },
+        {
+          "key": "c",
+          "text": "Se a pesquisa histológica do Helicobacter pylori no fundo da lesão for negativa, afasta- se a infecção por essa bactéria."
+        },
+        {
+          "key": "d",
+          "text": "O resultado do hemograma e da endoscopia digestiva alta indicam a necessidade de investigação colônica neste momento."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Toda lesão ulcerada gástrica identificada à endoscopia deve ter biópsias das bordas realizadas para excluir malignidade, independentemente da suspeita clínica inicial de benignidade.",
+      "theme": "dup_aine",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_061",
+      "statement": "Paciente masculino, 75 anos, é submetido a gastrectomia parcial devido a adenocarcinoma de antro gástrico, com reconstrução a Bilroth II. Após cerca de 3 meses iniciou quadro de náuseas, vômitos, sensação de plenitude gástrica, dor abdominal em cólica e diarreia explosiva cerca de 20 a 30 minutos após ingesta alimentar. Exame físico sem alterações. Qual o diagnóstico mais provável para este paciente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Síndrome de Dumping precoce"
+        },
+        {
+          "key": "b",
+          "text": "Fístula de anastomose gastro-jejunal"
+        },
+        {
+          "key": "c",
+          "text": "Hérnia interna"
+        },
+        {
+          "key": "d",
+          "text": "Síndrome de Dumping tardio"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Náuseas, vômitos, plenitude, cólica e diarreia explosiva 20-30 minutos após a refeição, em paciente com Billroth II, são compatíveis com síndrome de dumping precoce.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_062",
+      "statement": "A principal razão para buscar erradicar o Helicobacter pylori em pacientes com úlcera péptica é para:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "reduzir a recorrência"
+        },
+        {
+          "key": "b",
+          "text": "aumentar a velocidade da cura"
+        },
+        {
+          "key": "c",
+          "text": "encurtar o período dos sintomas"
+        },
+        {
+          "key": "d",
+          "text": "diminuir a incidência de complicações"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A principal razão para erradicar o H. pylori em pacientes com úlcera péptica é reduzir a taxa de recorrência da doença, praticamente eliminando a recidiva quando a erradicação é bem-sucedida.",
+      "theme": "dup_hp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_063",
+      "statement": "Mulher, 50 anos de idade, portadora de artrite reumatoide, cujo tratamento exigirá a introdução de anti-in amatórios não esteroides (AINES) por tempo prolongado, apresenta endoscopia digestiva alta com gastrite leve antral e teste da urease positivo. A conduta indicada para essa paciente é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "indicar o inibidor da bomba de prótons por 30 dias, antes do início dos anti- inflamatórios não esteroidais, e mantê-lo durante todo o período de uso desses AINES."
+        },
+        {
+          "key": "b",
+          "text": "tratar a gastrite com inibidor de bomba de prótons; repetir a endoscopia para observar resolução da inflamação e confirmar se há H. pylori por biópsia e, só após, iniciar os AINES."
+        },
+        {
+          "key": "c",
+          "text": "indicar a erradicação do Helicobacter pylori, seguida do uso de inibidor da bomba de prótons (IBP), enquanto durar o tratamento com anti-inflamatórios não esteroidais."
+        },
+        {
+          "key": "d",
+          "text": "tratar a gastrite com IBP; fazer um teste respiratório para confirmar a presença do H. pylori e trata-la, caso positivo. Só após, dar início ao tratamento com anti-inflamatórios não esteroidais."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Paciente com necessidade de AINE prolongado e H. pylori positivo deve primeiro erradicar a bactéria e manter IBP durante todo o período de uso do anti-inflamatório, reduzindo o risco combinado de lesão gástrica.",
+      "theme": "dup_aine",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_064",
+      "statement": "Nos pacientes com úlceras pépticas tipo I e IV de Johnson, é correto afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Há hipersecreção ácida e o ácido clorídrico é coenzima em sua formação."
+        },
+        {
+          "key": "b",
+          "text": "Há hipersecreção ácida e o ácido clorídrico é fator principal em sua formação."
+        },
+        {
+          "key": "c",
+          "text": "Não há hipersecreção ácida e o ácido clorídrico não participa em sua formação."
+        },
+        {
+          "key": "d",
+          "text": "Não há hipersecreção ácida, porém o ácido clorídrico é cofator em sua formação."
+        },
+        {
+          "key": "e",
+          "text": "Nenhuma das alternativas anteriores."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Nas úlceras tipo I e IV de Johnson não há hipersecreção ácida, mas o ácido clorídrico atua como cofator na formação da lesão sobre uma mucosa já fragilizada.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_065",
+      "statement": "Homem, 64 anos de idade, com antecedente cirúrgico de gastrectomia parcial com reconstrução tipo Billroth II há cerca de 30 anos devido a úlcera gástrica, procurou atendimento ambulatorial com queixa de episódios de dor em região epigástrica há 12 meses. Refere que nos últimos 5 meses evoluiu com di culdade de aceitação da dieta, inicialmente para alimentos sólidos, e no momento apresenta também disfagia para líquidos, com perda ponderal de 12kg. Paciente não possui outros antecedentes pessoais e relata não ter realizado qualquer exame nos últimos anos. Qual é a alternativa correta?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O primeiro exame a ser solicitado deve ser de radiografia contrastado (EED, uma vez que uma das hipóteses é de megaesôfago."
+        },
+        {
+          "key": "b",
+          "text": "A gastrite alcalina é uma das principais hipóteses diagnósticas e deve ser instituído tratamento clínico com antiácidos locais."
+        },
+        {
+          "key": "c",
+          "text": "A principal hipótese diagnóstica é de neoplasia maligna no coto gástrico. Deve ser solicitada endoscopia digestiva alta com biópsia."
+        },
+        {
+          "key": "d",
+          "text": "Fazer teste terapêutico com inibidor de bomba de próton por 6 a 8 semanas. Se não houver melhora, solicitar endoscopia digestiva alta para complementar a avaliação diagnóstica."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Disfagia progressiva com perda ponderal importante em paciente com gastrectomia parcial prévia (mais de 20-30 anos) sugere fortemente neoplasia maligna no coto gástrico, exigindo endoscopia com biópsia.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_066",
+      "statement": "Em paciente portador de úlcera gástrica pré-pilórica (Tipo III), com indicação de tratamento cirúrgico, a operação de escolha é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Gastrectomia subtotal com reconstrução a Billrtoh II."
+        },
+        {
+          "key": "b",
+          "text": "Gastrectomia total."
+        },
+        {
+          "key": "c",
+          "text": "Antrectomia + vagotomia troncular."
+        },
+        {
+          "key": "d",
+          "text": "Antrectomia com reconstituição em Y de Roux."
+        },
+        {
+          "key": "e",
+          "text": "Piloroplastia Heineke-Mikulicz."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Úlcera gástrica pré-pilórica (tipo III de Johnson), associada a hipercloridria, tem como operação de escolha a antrectomia associada a vagotomia troncular.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_067",
+      "statement": "Amanda, nascida e criada no berço do samba, sempre curtia os preparativos deste dia. Após a última feijoada de que participou, queixou-se de dor abdominal moderada seguida de náuseas e vômitos. Após a persistência do desconforto, preferiu procurar um serviço de emergência. No Pronto Atendimento foi avaliada; ao exame clínico, apresentava-se hemodinamicamente estável e afebril, com o aparelho cardiorrespiratório sem alterações, mas com o exame do abdome revelando peristalse presente, sendo o mesmo ácido e doloroso à palpação em hipocôndrito direito, com dor intensa a ponto de limitar a inspiração e que se irradiava para o ombro direito. Exames complementares foram solicitados, revelando o leucograma leucocitose com desvio para a esquerda e o hepatograma, elevação discreta das transaminases, da fosfatase alcalina e da bilirrubina total (à custa da fração direta). O exame de imagem, realizado na emergência, fechou a hipótese diagnóstica mais provável para o caso acima. Após 48 horas da abordagem inicial, Amanda foi submetida a tratamento cirúrgico. No pós-operatório, Amanda apresentou importante dor em andar superior do abdome, em barra, associada ao aparecimento de hematomas em região umbilical e anco direito, sendo internada no CTI. A conduta seguinte foi conservadora, permanecendo a paciente internada por longo período. Após a alta hospitalar, foi acompanhada no ambulatório da Cirurgia Geral, não apresentando novas intercorrências. Qual foi o provável exame de imagem solicitado na unidade de emergência para o esclarecimento do diagnóstico da patologia inicialmente apresentada pela paciente e seu resultado esperado?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tomografia computadorizada de abdome - presença de massa em região hipogástrica aderida a anexos"
+        },
+        {
+          "key": "b",
+          "text": "Ultrassonografia abdominal - presença de cálculo impactado em infundíbulo da vesícula biliar com espessamento da parede da mesma"
+        },
+        {
+          "key": "c",
+          "text": "Rotina de abdome agudo - presença de líquido livre na cavidade abdominal e pneumoperitôneo"
+        },
+        {
+          "key": "d",
+          "text": "Endoscopia digestiva alta - presença de úlcera de fundo sujo na parede posterior do estômago"
+        },
+        {
+          "key": "e",
+          "text": "Ressonância nuclear magnética - presença de massa em topografia de pâncreas com aspecto inflamatório"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Dor em hipocôndrio direito irradiada para o ombro, com leucocitose e elevação de enzimas hepáticas/biliares em paciente pós-feijoada, sugere colecistite aguda; a ultrassonografia abdominal é o exame de escolha na emergência.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_068",
+      "statement": "As úlceras de Curling e de Cushing estão relacionadas a qual condição clínica respectivamente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Vômitos incoercíveis e Helicobacter Pylori;"
+        },
+        {
+          "key": "b",
+          "text": "Queimaduras e traumas cerebrais"
+        },
+        {
+          "key": "c",
+          "text": "Diverticulite e aneurisma de aorta roto"
+        },
+        {
+          "key": "d",
+          "text": "Vagotomia e piloroplastia"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "As úlceras de Curling estão associadas a grandes queimaduras, enquanto as úlceras de Cushing estão relacionadas a traumas cranioencefálicos e outras lesões do sistema nervoso central.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_069",
+      "statement": "O procedimento cirúrgico denominado \"\"Y de Roux\"\" está indicado para pacientes submetidos vagotomia troncular e gastrectomia à Bilroth II para tratamento de úlcera péptica e que apresentam como complicação pós-operatória:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Esvaziamento precoce;"
+        },
+        {
+          "key": "b",
+          "text": "Esvaziamento tardio;"
+        },
+        {
+          "key": "c",
+          "text": "Síndrome da alça eferente;"
+        },
+        {
+          "key": "d",
+          "text": "Antrectomia incompleta;"
+        },
+        {
+          "key": "e",
+          "text": "Gastrite alcalina."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A reconstrução em Y de Roux é indicada como tratamento cirúrgico da gastrite alcalina de refluxo, complicação pós-operatória da vagotomia troncular com gastrectomia a Billroth II.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_070",
+      "statement": "Assinale a alternativa que apresenta, corretamente, em qual patologia o sinal de Jobert pode estar presente.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Colangite supurativa ascendente."
+        },
+        {
+          "key": "b",
+          "text": "Colecistite aguda."
+        },
+        {
+          "key": "c",
+          "text": "Pancreatite aguda."
+        },
+        {
+          "key": "d",
+          "text": "Tumor de cabeça de pâncreas."
+        },
+        {
+          "key": "e",
+          "text": "Úlcera gástrica perfurada."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "O sinal de Jobert (timpanismo à percussão do hipocôndrio direito por perda da macicez hepática) está classicamente associado à úlcera gástrica perfurada, pelo pneumoperitônio livre resultante.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_071",
+      "statement": "Paciente de 68 anos, sexo feminino, portadora de doença arterial coronariana, em uso de AAS 100 mg ao dia, procura assistência médica devido a dor epigástrica. É realizada uma endoscopia digestiva alta que mostra a presença de uma úlcera gástrica, a qual é submetida a biópsia. Histologia mostra a presença da bactéria Helicobacter pylori. A paciente é orientada a fazer o tratamento para a erradicação com esomeprazol, claritromicina e amoxicilina durante 14 dias e, após 30 dias do término do tratamento proposto, realizar um novo exame para veri car se houve a erradicação da bactéria. São exames utilizados para essa finalidade, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "histologia."
+        },
+        {
+          "key": "b",
+          "text": "teste da urease."
+        },
+        {
+          "key": "c",
+          "text": "pesquisa do antígeno fecal."
+        },
+        {
+          "key": "d",
+          "text": "teste da ureia respiratória."
+        },
+        {
+          "key": "e",
+          "text": "sorologia IGG; IGM."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A sorologia IgG/IgM para H. pylori não deve ser usada para controle de erradicação, pois os anticorpos permanecem positivos por meses/anos mesmo após cura bem-sucedida — sendo essa a exceção correta.",
+      "theme": "dup_hp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_072",
+      "statement": "A lesão ulcerada péptica representa uma solução de continuidade de mucosa que ultrapassa os limites da muscular da mucosa. Ao contrário da úlcera, a erosão não ultrapassa a muscular da mucosa da parede gástrica e, em razão de seu caráter superficial, mantém elementos glandulares em sua base que favorecem uma rápida cicatrização, sem sequelas. O(s) local(is) mais comum(ns) de perfuração por úlcera péptica é(são):",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "incisura angularis e bulbo duodenal."
+        },
+        {
+          "key": "b",
+          "text": "região pré-pilórica."
+        },
+        {
+          "key": "c",
+          "text": "grande curvatura gástrica em terço médio."
+        },
+        {
+          "key": "d",
+          "text": "bulbo duodenal e pequena curvatura do antro gástrico."
+        },
+        {
+          "key": "e",
+          "text": "Ângulo de Hiss e corpo gástrico parede posterior."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Os locais mais comuns de perfuração por úlcera péptica são o bulbo duodenal (parede anterior) e a pequena curvatura do antro gástrico.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_073",
+      "statement": "Homem, 48 anos, fumante. Queixa-se de dor epigástrica importante e náusea. Realizou endoscopia digestiva alta que evidenciou úlcera duodenal em parede anterior da 1ª porção. Iniciado tratamento com omeprazol, erradicação do H. pylori e medidas dietéticas. Orientou-se o paciente para a possibilidade de complicações cirúrgicas e da necessidade de cirurgia para o tratamento dessas complicações. Qual das complicações abaixo é a mais frequente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sangramento"
+        },
+        {
+          "key": "b",
+          "text": "Obstrução pilórica"
+        },
+        {
+          "key": "c",
+          "text": "Malignização"
+        },
+        {
+          "key": "d",
+          "text": "Perfuração"
+        },
+        {
+          "key": "e",
+          "text": "Zollinger - Ellisson"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Entre as complicações cirúrgicas da úlcera duodenal, a hemorragia é a mais frequente, superando perfuração, obstrução e malignização.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_074",
+      "statement": "Sobre a Doença Ulcerosa Péptica, é correto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "H. pylori é um organismo produtor de urease que coloniza a mucosa do antro gástrico em quase 100% das pessoas com úlcera gástrica e 80% daqueles com úlcera duodenal."
+        },
+        {
+          "key": "b",
+          "text": "Estresse, café e álcool são fatores amplamente relacionados à doença ulcerosa péptica, diferentemente dos anti- inflamatórios não-hormonais que não têm qualquer comprovação."
+        },
+        {
+          "key": "c",
+          "text": "Os sintomas ulcerosos são caracterizados por ritmicidade e periodicidade."
+        },
+        {
+          "key": "d",
+          "text": "Celecoxibe, ibuprofeno e naproxeno estão igualmente associados ao risco de eventos gastrointestinais sérios e eventos cardiovasculares desfavoráveis."
+        },
+        {
+          "key": "e",
+          "text": "A pesquisa do H. pylori é desnecessária nos pacientes com história de doença ulcerosa péptica e que estão usando dupla anti-agregação plaquetária."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Os sintomas da doença ulcerosa péptica são classicamente caracterizados por ritmicidade (relação com alimentação) e periodicidade (períodos de melhora e piora ao longo do tempo).",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_075",
+      "statement": "Estrutura e Mecanismos Patogênicos Com relação à doença ulcerosa péptica, assinale a alternativa incorreta:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Acredita-se que 90% das úlceras duodenais e aproximadamente 75% das úlceras gástricas estão associadas à infecção por H. pylori."
+        },
+        {
+          "key": "b",
+          "text": "Quando o H. pylori é erradicado como parte do tratamento da úlcera, a recidiva da úlcera é extremamente rara."
+        },
+        {
+          "key": "c",
+          "text": "O H. pylori é um bastonete Gram-negativo helicoidal com quatro a seis flagelos."
+        },
+        {
+          "key": "d",
+          "text": "O H. pylori é microaerófilo e pode viver em qualquer tipo de epitélio do trato gastrointestinal."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O H. pylori é um bastonete Gram-negativo, mas microaerófilo, não sobrevivendo em qualquer tipo de epitélio — restringe-se principalmente ao epitélio gástrico e áreas de metaplasia gástrica no duodeno, tornando essa a afirmação incorreta.",
+      "theme": "dup_hp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_076",
+      "statement": "Paciente com passado de Gastrectomia total, com reconstrução em Y de Roux, vem com queixa de sudorese, sensação de desmaio, vômito e taquicardia, geralmente 40 minutos após ingesta alimentar. Qual a principal hipótese diagnóstica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Gastrite alcalina de refluxo."
+        },
+        {
+          "key": "b",
+          "text": "Síndrome da alça eferente."
+        },
+        {
+          "key": "c",
+          "text": "Síndrome de dumping precoce."
+        },
+        {
+          "key": "d",
+          "text": "Síndrome de dumping tardio."
+        },
+        {
+          "key": "e",
+          "text": "Síndrome da alça curta."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Sudorese, sensação de desmaio, vômito e taquicardia cerca de 40 minutos após a alimentação em paciente com Y de Roux sugerem síndrome de dumping precoce, pela rápida chegada de conteúdo hiperosmolar ao intestino delgado.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_077",
+      "statement": "Mulher de 62 anos queixa-se de epigastralgia em queimação há dois meses, associada a náuseas após a alimentação. Nega pirose, regurgitação, vômitos, disfagia, sangramentos, anorexia, perda ponderal ou quaisquer outras queixas. Desconhece doenças prévias ou em familiares de primeiro grau. O exame físico não revela anormalidades. Esofagogastroduodenoscopia: esôfago e duodeno normais; leve hiperemia na mucosa antral; teste da urease positivo. Assinale a conduta MAIS ADEQUADA nesse caso.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Prescrever amoxicilina, claritromicina e inibidor de bomba de prótons por sete dias esolicitar teste respiratório de urease após um mês."
+        },
+        {
+          "key": "b",
+          "text": "Prescrever amoxicilina, claritromicina e inibidor de bomba de prótons por 14 dias erepetir a endoscopia após um mês."
+        },
+        {
+          "key": "c",
+          "text": "Prescrever inibidor de bomba de prótons por oito semanas e, se os sintomaspersistirem, prescrever antidepressivo tricíclico."
+        },
+        {
+          "key": "d",
+          "text": "Prescrever inibidor de bomba de prótons por oito semanas e repetir a endoscopia seos sintomas persistirem."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Dispepsia com teste da urease positivo, sem sinais de alarme, tem indicação de tratamento de erradicação do H. pylori com esquema tríplice por 7 dias e controle com teste respiratório após um mês.",
+      "theme": "dup_hp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_078",
+      "statement": "A doença que se caracteriza por diarreia, úlceras pépticas, tumor pancreático ou duodenal e hipergastrinemia é a:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Doença de Whipple."
+        },
+        {
+          "key": "b",
+          "text": "Síndrome de Zollinger-Ellison."
+        },
+        {
+          "key": "c",
+          "text": "Espru tropical."
+        },
+        {
+          "key": "d",
+          "text": "Doença de Ménétrier."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A tríade diarreia, úlceras pépticas recorrentes, tumor pancreático/duodenal e hipergastrinemia caracteriza a síndrome de Zollinger-Ellison.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_079",
+      "statement": "Paciente 35 anos, apresenta dor crônica em joelho esquerdo, faz uso contínuo de antiin amatório por conta própria. Há 15 dias queixa de dor epigástrica, em queimação, de forte intensidade, piorada nas últimas 2 horas, quando procurou serviço de urgência. Ao exame presença de dor em epigastro associado á descompressão dolorosa",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "No Rx de abdome agudo é esperado presença de ar subdiafragmático na posição ortostática."
+        },
+        {
+          "key": "b",
+          "text": "Leucocitose com desvio à esquerda é mandatório no hemograma."
+        },
+        {
+          "key": "c",
+          "text": "O tratamento cirúrgico é uma gastrectomia com reconstrução em \"\"Y de Roux\"\"."
+        },
+        {
+          "key": "d",
+          "text": "A úlcera duodenal que perfura é de parede posterior."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Em úlcera péptica perfurada com pneumoperitônio, o achado esperado ao Rx de abdome em ortostase é a presença de ar livre subdiafragmático (pneumoperitônio), sinal clássico dessa complicação.",
+      "theme": "dup_aine",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_080",
+      "statement": "Um paciente de 75 anos de idade procurou atendimento por diminuição do volume urinário e intolerância aos esforços, associada a dor torácica ventilatório-dependente e a dor lombar de forte intensidade. Realizou exames de laboratório, que evidenciaram: hemoglobina = 8,6 g/dL, hematócrito = 25%, leucócitos = 6.600/mm³, sem particularidades no diferencial, plaquetas = 190 mil/mm³, creatinina = 4,51 mg/dL, potássio = 6,3 mEq/L, cálcio sérico corrigido = 13 mg/dL, ureia = 109 mg/dL, reserva alcalina = 12 U/L. Ao exame físico, o paciente encontrava-se em regular estado geral, hipocorado, com presença de sopro sistodiastólico 2+/4+, murmúrio vesicular reduzido em 1/3 inferior direito, edema em membros inferiores 3+/4+, abdome sem particularidades e percussão-punho-lombar (PPL) negativo, PA = 180 mmHg X 90 mmHg, FC = 97 bpm, SatO2 = 92% em ar ambiente. Considerando esse caso clínico e os conhecimentos médicos correlatos, julgue o item a seguir. Pacientes com dor crônica fazem uso frequente de anti-inflamatórios não esteroidais (AINES), que são associados a úlceras pépticas, de localização gástrica, mais frequentes que no duodeno.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Certo."
+        },
+        {
+          "key": "b",
+          "text": "Errado."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O uso de AINEs está associado a úlceras pépticas de localização gástrica mais frequentemente do que duodenal, diferente da associação clássica do H. pylori com úlceras duodenais.",
+      "theme": "dup_aine",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_081",
+      "statement": "Pac. ♀, 60 anos, submetido a Gastrectomia a D2 e \"\"Y\"\" de Roux para tratamento de um adenocarcinoma gástrico. Qual a importância do \"\"Y\"\" de Roux nesse procedimento?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Profilaxia da deficiência de Vit. B12"
+        },
+        {
+          "key": "b",
+          "text": "Profilaxia da S. de Dumping"
+        },
+        {
+          "key": "c",
+          "text": "Profilaxia da gastrite alcalina"
+        },
+        {
+          "key": "d",
+          "text": "Profilaxia da perda de peso pôs-gastrectomia"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A reconstrução em Y de Roux após gastrectomia com linfadenectomia D2 tem como principal benefício a profilaxia da gastrite alcalina de refluxo, ao desviar a bile do coto gástrico remanescente.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_082",
+      "statement": "São situações especiais em que está indicada a escolha do uso de inibidores H2 (Ranitidina) para pro laxia de úlcera de estresse em detrimento aos bloqueadores de bomba de prótons (Omeprazol) por motivos de interação medicamentosa:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Pacientes em uso de ácido acetilsalicílico e clopidogrel."
+        },
+        {
+          "key": "b",
+          "text": "Pacientes em uso de ácido acetilsalicílico."
+        },
+        {
+          "key": "c",
+          "text": "Pacientes em uso de clopidogrel, fenitoína e corticoides via enteral."
+        },
+        {
+          "key": "d",
+          "text": "Pacientes em uso de clopidogrel e corticóide via enteral."
+        },
+        {
+          "key": "e",
+          "text": "Pacientes em uso de clopidogrel e fenitoína via enteral."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "Pacientes em uso de fenitoína (interage com omeprazol via CYP2C19) e corticoide enteral (menor interação relevante com bloqueadores H2) são situações em que o uso de ranitidina pode ser preferido ao omeprazol para profilaxia de úlcera de estresse, evitando interações medicamentosas.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_083",
+      "statement": "Paciente com epigastralgia refratária, realizou endoscopia com identi cação de várias lesões ulceradas em estômago e dosagem de gastrina elevada. Que síndrome pode estar relacionada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Paterson Kelly."
+        },
+        {
+          "key": "b",
+          "text": "Zolinger Ellison."
+        },
+        {
+          "key": "c",
+          "text": "Mallory Weiss."
+        },
+        {
+          "key": "d",
+          "text": "Prune Belly."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Múltiplas úlceras gástricas refratárias associadas à gastrina sérica elevada são compatíveis com síndrome de Zollinger-Ellison.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_084",
+      "statement": "Assinale qual o esquema terapêutico considerado como primeira opção para o tratamento do H. Pylori de acordo com o IV Consenso Brasileiro do H. Pylori:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "IBP (dose plena) + amoxicilina 1G + Claritromicina 500 MG 2 vezes ao dia – durante 14 dias."
+        },
+        {
+          "key": "b",
+          "text": "IBP (dose plena + amoxicilina 1G + Claritromicina 500 MG 2 vezes ao dia, durante 07 dias."
+        },
+        {
+          "key": "c",
+          "text": "A alternativa (A) e (E), durante 10 dias."
+        },
+        {
+          "key": "d",
+          "text": "IBP (dose plena) + amoxicilina 1G + Metronidazol 400 MG duas vezes ao dia 14 dias."
+        },
+        {
+          "key": "e",
+          "text": "IBP (dose plena 1 x dia) + tetraciclina 500 MG (6 em 6 horas) + Claritromicina 500 MG (2 x dia), durante 14 dias."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O esquema de primeira linha do IV Consenso Brasileiro do H. Pylori é IBP em dose plena + amoxicilina 1g + claritromicina 500mg, ambos de 12/12h, por 14 dias.",
+      "theme": "dup_hp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_085",
+      "statement": "A respeito da doença ulcerosa péptica complicada, assinale a alternativa INCORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O local mais acometido por perfuração é a parede anterior do duodeno."
+        },
+        {
+          "key": "b",
+          "text": "A hemorragia é a complicação mais comum."
+        },
+        {
+          "key": "c",
+          "text": "É a principal causa de morte e de indicação cirúrgica."
+        },
+        {
+          "key": "d",
+          "text": "As neoplasias são a principal causa de obstrução ao esvaziamento gástrico e a doença ulcerosa péptica é a causa de menos de dez por cento dos casos."
+        },
+        {
+          "key": "e",
+          "text": "A endoscopia digestiva alta é o exame de escolha na suspeita de úlcera péptica perfurada."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "A endoscopia digestiva alta NÃO é o exame de escolha na suspeita de úlcera péptica perfurada — a perfuração é diagnóstico clínico/radiológico (Rx/TC com pneumoperitônio), sendo a endoscopia contraindicada nesse contexto pelo risco de agravar a perfuração; essa é a afirmação incorreta.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_086",
+      "statement": "Mulher de 54 anos com antecedente cirúrgico de uma gastrectomia parcial com reconstrução gastrojejunal (tipo Billroth II) por úlcera hemorrágica, realizada há 10 meses, foi encaminhada ao ambulatório com hipótese diagnóstica de uma síndrome pós-gastrectomia. Relatava dor predominantemente no andar superior do abdômen com piora signi cativa após as refeições. Como fator de melhora, relata alívio imediato após ocorrência de vômitos, que na maioria das vezes era de aspecto biliosos e em jato sem fazer menção à presença de restos alimentares. Trazia consigo alguns exames laboratoriais que revelavam uma anemia discreta, eletrólitos, marcadores hepáticos e pancreáticos normais, o exame de urina não apresentava nenhuma alteração e a pesquisa de sangue oculto nas fezes era negativa. Diante do exposto, qual o diagnóstico mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Gastrite alcalina de refluxo."
+        },
+        {
+          "key": "b",
+          "text": "Dumpingtardio."
+        },
+        {
+          "key": "c",
+          "text": "Síndrome da alça aferente."
+        },
+        {
+          "key": "d",
+          "text": "Síndrome de Zollinger-Ellison."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Dor epigástrica com alívio após vômito bilioso em jato, sem restos alimentares, após gastrectomia Billroth II, é quadro clássico de síndrome da alça aferente (obstrução parcial intermitente).",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_087",
+      "statement": "Considere as assertivas abaixo sobre Helicobacter pylori. I - As taxas de resistência do Helicobacter pylori para amoxicilina e para claritromicina são altas em muitos países, mas não no Brasil. II. - No tratamento, o uso de doses duplas de inibidores da bomba de prótons (40 mg de omeprazol ou equivalentes, 2 vezes/dia) com antibióticos aumenta as chances de erradicação da bactéria. III. - Em consequência da alta prevalência da infecção pelo Helicobacter pylori em nosso meio, o risco de reinfecção é alto em adultos após o tratamento de erradicação da bactéria. Quais são corretas?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas I"
+        },
+        {
+          "key": "b",
+          "text": "Apenas II"
+        },
+        {
+          "key": "c",
+          "text": "Apenas III"
+        },
+        {
+          "key": "d",
+          "text": "Apenas I e II"
+        },
+        {
+          "key": "e",
+          "text": "I, II e III"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "As taxas de resistência do H. pylori à claritromicina são altas também no Brasil (I incorreta); doses duplas de IBP aumentam a eficácia de erradicação (II correta); e o risco de reinfecção é considerado baixo em adultos após erradicação bem-sucedida em países desenvolvidos, mas relativamente mais alto em regiões de baixo saneamento como o Brasil (III correta) — II e III corretas.",
+      "theme": "dup_hp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_088",
+      "statement": "Homem, 33 anos, história prévia de etilismo, apresenta hemorragia digestiva alta. A Endoscopia Digestiva Alta (EDA) mostra varizes esofagianas de pequeno calibre e grande quantidade de sangue no estômago, re uindo pelo piloro. O diagnóstico mais provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Gastrite de estresse."
+        },
+        {
+          "key": "b",
+          "text": "Úlcera gástrica."
+        },
+        {
+          "key": "c",
+          "text": "Gastropatia hipertensiva."
+        },
+        {
+          "key": "d",
+          "text": "Úlcera duodenal."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Grande quantidade de sangue refluindo pelo piloro à endoscopia, com varizes de pequeno calibre (não a fonte principal do sangramento), sugere origem duodenal do sangramento — úlcera duodenal como diagnóstico mais provável.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_089",
+      "statement": "Quanto às síndromes pós-gastrectomias, indique se são verdadeiras (V) ou falsas (F) as afirmativas abaixo. ( ) A síndrome de Dumping precoce ocorre de 20 a 30 minutos após a refeição e está associada à hipoglicemia. ( ) A síndrome de Dumping tardio deve ser tratada com refeições pequenas e frequentes e com a diminuição da quantidade de carboidratos. ( ) A gastrite alcalina apresenta dor que não alivia com a alimentação e o uso de antiácidos. ( ) A síndrome do antro retido ocorre devido a secreções biliares e pancreáticas no antro residual, diminuindo a gastrina e ocasionando o aparecimento de úlceras. ( ) O distúrbio metabólico mais comum é a anemia megaloblástica devido à diminuição de fator intrínseco. Assinale a alternativa que apresenta a sequência CORRETA, de cima para baixo.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "V-F-V-F-F"
+        },
+        {
+          "key": "b",
+          "text": "V-F-F-V-F"
+        },
+        {
+          "key": "c",
+          "text": "F-V-V-F-F"
+        },
+        {
+          "key": "d",
+          "text": "F-F-V-F-V"
+        },
+        {
+          "key": "e",
+          "text": "F-V-F-V-V"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Na síndrome de dumping precoce (ocorre 20-30 min após a refeição, associada a distensão intestinal, não hipoglicemia) a primeira afirmativa está incorreta; o dumping tardio (2-3h, hipoglicemia reativa) melhora com fracionamento e redução de carboidratos (correta); a gastrite alcalina causa dor que não alivia com alimentação/antiácidos (correta); a síndrome do antro retido aumenta (não diminui) a gastrina, causando úlceras (incorreta); e a anemia mais comum é ferropriva, não megaloblástica, no curto prazo (incorreta) — sequência F-V-V-F-F.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_090",
+      "statement": "Assinale a alternativa que responde CORRETAMENTE à pergunta abaixo. Qual é o tratamento de primeira escolha na maioria dos casos de linfoma gástrico tipo MALT (mucosa-associated lynphoid tissue)?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Ressecção cirúrgica."
+        },
+        {
+          "key": "b",
+          "text": "Quimioterapia."
+        },
+        {
+          "key": "c",
+          "text": "Radioterapia."
+        },
+        {
+          "key": "d",
+          "text": "Quimioterapia mais radioterapia."
+        },
+        {
+          "key": "e",
+          "text": "Erradicação do H. pylori."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "O tratamento de primeira escolha para o linfoma gástrico tipo MALT associado ao H. pylori é a erradicação da bactéria, que induz remissão completa na maioria dos casos em estágio inicial.",
+      "theme": "dup_hp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_091",
+      "statement": "Paciente apresentando hemorragia digestiva alta (HDA). Realizou Endoscopia digestiva que demonstrou uma úlcera gástrica em região pré-pilórica com coágulo aderido. Neste caso, podemos afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Classificamos como Forrest IIB – Jonhson III"
+        },
+        {
+          "key": "b",
+          "text": "Classificamos como Forrest IIC – Johnson II"
+        },
+        {
+          "key": "c",
+          "text": "Classificamos como Forrest IIC – Jonhson III"
+        },
+        {
+          "key": "d",
+          "text": "Classificamos como Forrest IIB – Jonhson II"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Úlcera gástrica pré-pilórica com coágulo aderido corresponde a Forrest IIb (classificação endoscópica de sangramento) e Johnson III (localização pré-pilórica).",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_092",
+      "statement": "Dentre as úlceras gástricas, a tipo IV na classificação de Johnson é localizada:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "No duodeno."
+        },
+        {
+          "key": "b",
+          "text": "Na pequena curvatura na incisura angular."
+        },
+        {
+          "key": "c",
+          "text": "Na grande curvatura na região pré-pilórica."
+        },
+        {
+          "key": "d",
+          "text": "Na pequena curvatura perto da junção gastroesofágica."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Na classificação de Johnson, a úlcera tipo IV localiza-se na pequena curvatura próxima à junção gastroesofágica (alta), associada a níveis normais/baixos de acidez.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_093",
+      "statement": "Paciente de 50 anos de idade com úlcera gástrica na incisura angularis, apresenta hemorragia digestiva alta que não cessa com tratamento clínico e endoscópico. O procedimento cirúrgico indicado é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Gastrectomia distal com reconstrução a BI."
+        },
+        {
+          "key": "b",
+          "text": "Gastrectomia subtotal com reconstrução a BII."
+        },
+        {
+          "key": "c",
+          "text": "Hemigastrectomia com reconstrução em Y de Roux."
+        },
+        {
+          "key": "d",
+          "text": "Antrectomia com reconstrução a BI e vagotomia troncular."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Úlcera gástrica na incisura angularis com hemorragia refratária ao tratamento clínico/endoscópico tem indicação de gastrectomia distal com reconstrução a Billroth I.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_094",
+      "statement": "Homem, 65 anos, Hipertensão Arterial Sistêmica (HAS) e dislipidemia, em uso de enalapril e atorvastatina é internado com quadro de abdome agudo, hipotensão arterial e anemia. Laparotomia exploradora: úlcera duodenal perfurada com peritonite e hemoperitôneo. São feitas vagotomia e anastomose tipo Billroth I. Evolui favoravelmente, progredindo alimentação oral e andando com facilidade. Na segunda semana de internação, 3 horas após o almoço, subitamente apresenta tonteiras, confusão menta, palpitações e sudorese profusa. PA =120/70 mmHg; FC = 110 bpm SaTO₂ 95% em ar ambiente. O diagnóstico provavel é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Síndrome de dumping."
+        },
+        {
+          "key": "b",
+          "text": "Hemorragia digestiva aguda."
+        },
+        {
+          "key": "c",
+          "text": "Embolia pulmonar."
+        },
+        {
+          "key": "d",
+          "text": "Infarto do miocárdio em parede inferior."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Tontura, confusão, palpitações e sudorese profusa cerca de 3 horas após a refeição, em paciente pós-Billroth I, sugerem síndrome de dumping (nesse caso, mais compatível com componente tardio pelo tempo de latência).",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_095",
+      "statement": "O teste com o melhor custo efetivo para avaliar a eficácia do tratamento de erradicação do Helicobacter pylori é o(a):",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "antígeno fecal"
+        },
+        {
+          "key": "b",
+          "text": "teste da urease"
+        },
+        {
+          "key": "c",
+          "text": "sorologia no plasma"
+        },
+        {
+          "key": "d",
+          "text": "endoscopia digestiva"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O teste do antígeno fecal é considerado o exame com melhor custo-efetividade para avaliar a eficácia do tratamento de erradicação do H. pylori, sendo não invasivo e acessível.",
+      "theme": "dup_hp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_096",
+      "statement": "Nas úlceras duodenais sangrantes, a artéria geralmente acometida é a",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Gastroepiplóica"
+        },
+        {
+          "key": "b",
+          "text": "Gastroduodenal"
+        },
+        {
+          "key": "c",
+          "text": "pancreatoduodenal superior"
+        },
+        {
+          "key": "d",
+          "text": "gástrica direita"
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Nas úlceras duodenais sangrantes (parede posterior do bulbo), a artéria gastroduodenal é a mais frequentemente acometida, por sua proximidade anatômica direta.",
+      "theme": "dup_hda",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_097",
+      "statement": "O teste da secretina venosa é util no diagnóstico da síndrome de:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Mirizzi."
+        },
+        {
+          "key": "b",
+          "text": "Gardner."
+        },
+        {
+          "key": "c",
+          "text": "Zollinger-Ellison."
+        },
+        {
+          "key": "d",
+          "text": "Plummer-Vinson."
+        },
+        {
+          "key": "e",
+          "text": "Verner-Morrison."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O teste da secretina intravenosa (que paradoxalmente aumenta a gastrina no gastrinoma) é útil no diagnóstico da síndrome de Zollinger-Ellison.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_098",
+      "statement": "A gastrectomia distal associada à vagotomia troncular deve ser realizada no tratamento da úlcera gástrica dos tipos:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I e II."
+        },
+        {
+          "key": "b",
+          "text": "II e III."
+        },
+        {
+          "key": "c",
+          "text": "I e IV."
+        },
+        {
+          "key": "d",
+          "text": "III e IV."
+        },
+        {
+          "key": "e",
+          "text": "II e V."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "A gastrectomia distal associada à vagotomia troncular é indicada no tratamento cirúrgico das úlceras tipos II e III de Johnson (corpo gástrico com componente hipersecretor e pré-pilórica), ambas associadas a hipercloridria.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_099",
+      "statement": "A úlcera gástrica é resultado da ação cloridropéptica sobre a mucosa gástrica, havendo perda circunscrita da mucosa desde o revestimento epitelial até camadas mais profundas. Diante disso, Sakita descreveu o ciclo vital da úlcera gástrica. A classi cação A2 de Sakita caracteriza-se a úlcera como: (LEITÃO OR, SOARES LFP, FREITAS LRT, HASHIBA K, PISANI JC. Endoscopia Digestiva Alta em: Coelho 3ª edição Aparelho Digestivo - Clínica e Cirurgia 2005).",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Recoberta de fibrina espessa e restos necróticos ou de pequenos coágulos, margens talhadas a pique, contornos irregulars, bordas eritematosas e mucosa circunjacente edemaciada"
+        },
+        {
+          "key": "b",
+          "text": "Recoberta com fina camada de fibrina no fundo da lesão, fenômenos de reparação epitelial nas bordas e acumulação da convergência de pregas que são regulares"
+        },
+        {
+          "key": "c",
+          "text": "Recoberta de fibrina mais clara no fundo da lesão, sem restos necróticos ou coágulos"
+        },
+        {
+          "key": "d",
+          "text": "Recoberta de fina camada de fibrina no fundo da lesão, fenômenos de reparação epitelial nas bordas e acumulação da convergência de pregas que são regulares mas com epitelização das bordas mais acentuadas e a lesão é ligeiramente mais rasa"
+        },
+        {
+          "key": "e",
+          "text": "Nenhuma das alternativas acima está correta"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Na classificação de Sakita, a fase A2 caracteriza-se por úlcera recoberta de fibrina espessa e restos necróticos ou pequenos coágulos, com margens talhadas a pique e mucosa circunjacente edemaciada.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_100",
+      "statement": "A respeito das complicações das úlceras pépticas gastroduodenais, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A complicação mais frequente é a estenose do piloro."
+        },
+        {
+          "key": "b",
+          "text": "Na presença de hemorragia, o tratamento cirúrgico está indicado de imediato."
+        },
+        {
+          "key": "c",
+          "text": "No tratamento cirúrgico das complicações, a tendência atual é limitar o procedimento à resolução da complicação, evitando-se o tratamento definitivo da úlcera."
+        },
+        {
+          "key": "d",
+          "text": "No caso de perfuração, o tratamento é clínico. A cirurgia está reservada para os casos com evolução desfavorável."
+        },
+        {
+          "key": "e",
+          "text": "No caso de estenose do piloro, o tratamento inicial é a erradicação do H. pylori."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "No tratamento cirúrgico atual das complicações da úlcera péptica, a tendência é limitar o procedimento à resolução da complicação (sutura, hemostasia), evitando cirurgias definitivas mais extensas (vagotomia/antrectomia) na urgência.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_101",
+      "statement": "Paciente do sexo masculino, 48 anos portador de úlcera duodenal, diagnosticada há cerca de 5 anos, realizando a terapia proposta. A despeito do boa adesão ao tratamento, permanece com os sintomas. Evoluindo, no período, com recrudescimento do quadro e, episódios de hemorragia digestiva. A dosagem de gastrina sérica foi de 207pg/mL. Qual dos abaixo é o mais importante para definir a presença de um gastrinoma?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Serotonina"
+        },
+        {
+          "key": "b",
+          "text": "Somatostatina"
+        },
+        {
+          "key": "c",
+          "text": "Secretina"
+        },
+        {
+          "key": "d",
+          "text": "Colecistocinina"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Diante de gastrina sérica limítrofe (207 pg/mL) em paciente com suspeita de gastrinoma, o teste da secretina (que causa aumento paradoxal da gastrina no gastrinoma) é o mais importante para confirmar o diagnóstico.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_102",
+      "statement": "Um médico em seu consultório, atende um paciente com 50 anos de idade com histórico de gastrectomia devido a doença ulcerosa há cerca de 2 anos. Refere que após a cirurgia tem apresentado episódios de dor abdominal, náuseas e vômitos, algumas vezes os sintomas melhoram espotaneamente e em outras evolui com diarreia explosiva. Relata também taquicardia, tonturas e visão turva. É sabido que as síndromes pós gastrectomia podem ocorrer em alguns pacientes, mas em pouquíssimos casos chegam a incapacitar ao paciente. Com relação às síndromes pós gastrectomia, assinale a alternativa correta. I - A síndrome de dumping é mais comum após gastrectomia parcial com reconstrução de Billroth II e menos comum na gastrectomia tipo Billroth I. II - O dumping ocorre em razão da rápida passagem do alimento de baixa osmolaridade do estômago para o intestino delgado. III - Os sintomas associados à síndrome de dumping precoce parecem ser secundários à liberação de vários agentes hormonais, como serotonina, neurotensina e enteroglucagon.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I e III estão corretas."
+        },
+        {
+          "key": "b",
+          "text": "Somente III está correta."
+        },
+        {
+          "key": "c",
+          "text": "II e III estão corretas."
+        },
+        {
+          "key": "d",
+          "text": "I e II estão corretas."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A síndrome de dumping é mais comum após Billroth II (perda do mecanismo pilórico regulador, I correta) e ocorre pela rápida passagem de conteúdo hiperosmolar (não hipo-osmolar) para o delgado (II incorreta); os sintomas precoces relacionam-se à liberação de hormônios como serotonina, neurotensina e enteroglucagon (III correta) — I e III corretas.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_103",
+      "statement": "São características endoscópicas de benignidade de uma úlcera gástrica, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Bordas arredondadas, planas ou pouco elevadas"
+        },
+        {
+          "key": "b",
+          "text": "Fundo limpo, recoberto por fibrina"
+        },
+        {
+          "key": "c",
+          "text": "Amputação abrupta das pregas mucosas"
+        },
+        {
+          "key": "d",
+          "text": "Tamanho menor 2 cm"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A amputação abrupta das pregas mucosas (interrupção súbita, sem convergência gradual) é sinal endoscópico de malignidade, não de benignidade — sendo essa a exceção correta entre as características listadas.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_104",
+      "statement": "São considerados fatores de risco para úlcera gástrica associada ao estresse, EXCETO:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Jejum prolongado."
+        },
+        {
+          "key": "b",
+          "text": "Ventilação mecânica prolongada."
+        },
+        {
+          "key": "c",
+          "text": "Instabilidade hemodinâmica."
+        },
+        {
+          "key": "d",
+          "text": "Traumatismo cranioencefálico."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O jejum prolongado isoladamente não é fator de risco clássico para úlcera de estresse — os fatores de risco reconhecidos incluem ventilação mecânica prolongada, coagulopatia, instabilidade hemodinâmica e trauma cranioencefálico (Cushing) ou queimaduras (Curling).",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_105",
+      "statement": "A infecção por Helicobacter pylori (HP) é uma das infecções bacterianas crônicas mais comuns em humanos. De acordo com o IV Consenso Brasileiro sobre o HP,",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "o teste rápido da urease é recomendado para controle de terapia de erradicação."
+        },
+        {
+          "key": "b",
+          "text": "o exame histológico é o método padrão-ouro para diagnóstico da infecção."
+        },
+        {
+          "key": "c",
+          "text": "a triagem do HP após a terapia de erradicação deve ser realizada pelo menos quatro semanas após o término do tratamento."
+        },
+        {
+          "key": "d",
+          "text": "a realização de cultura com antibiograma antes do início do tratamento é recomendada devido à crescente resistência bacteriana."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Segundo o IV Consenso Brasileiro, a pesquisa de erradicação do H. pylori deve ser realizada pelo menos quatro semanas após o término do tratamento antibiótico, para evitar falsos negativos.",
+      "theme": "dup_hp",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_106",
+      "statement": "Paciente masculino, 65 anos, evoluindo com plenitude pós prandial progressiva associada à perda de peso. Apresenta tratamento crônico de doença péptica, sendo por duas vezes diagnosticado úlcera de bulbo duodenal, nos últimos 03 anos. Fez tratamento com inibidores de bomba de prótons (IBP) por 12 semanas, sem melhora do quadro. Já tratou Helicobacter pylori por duas vezes. Realizou endoscopia digestiva alta que impossibilitou a passagem do aparelho ou de uma sonda alimentar, devido à estenose pilórica. As biópsias realizadas no exame foram negativas para malignidade. A conduta mais adequada é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Dobrar a dose do IBP e alta para casa com dieta líquida restrita."
+        },
+        {
+          "key": "b",
+          "text": "Internação e realização de gastrostomia endoscópica para estabelecimento de via alimentar."
+        },
+        {
+          "key": "c",
+          "text": "Internação, terapia nutricional parenteral e preparação para tratamento cirúrgico da estenose pilórica."
+        },
+        {
+          "key": "d",
+          "text": "Internação e cirurgia de urgência devido ao quadro obstrutivo alto."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Estenose pilórica confirmada endoscopicamente (impossibilidade de passagem do aparelho), sem malignidade e refratária a tratamento clínico prolongado, tem indicação de internação com suporte nutricional e preparo para tratamento cirúrgico definitivo.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_107",
+      "statement": "Paciente feminina, 72 anos, hipertensa, diabética, renal crônica em tratamento conservador, dá entrada no pronto atendimento, com história de vômitos em borra de café. Realizada endoscopia de urgência: identi cada úlcera ativa em bulbo duodenal com estigmas endoscópicos de sangramento recente. Com relação à propedêutica, em caso de presença de úlcera péptica ativa, podemos afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tanto a úlcera gástrica quanto a úlcera duodenal devem ser biopsiadas durante a realização de endoscopia para fins de diagnóstico diferencial com neoplasia, não havendo necessidade de realizar nova endoscopia após o tratamento para controle de cura."
+        },
+        {
+          "key": "b",
+          "text": "Apenas a úlcera gástrica deve ser biopsiada durante a realização de endoscopia para fins de diagnóstico diferencial com neoplasia, havendo necessidade de realizar nova endoscopia após o tratamento para controle de cura."
+        },
+        {
+          "key": "c",
+          "text": "Apenas a úlcera duodenal deve ser biopsiada durante a realização de endoscopia para fins de diagnóstico diferencial com neoplasia, sendo necessário realizar nova endoscopia após o tratamento para controle de cura."
+        },
+        {
+          "key": "d",
+          "text": "Tanto a úlcera gástrica quanto a úlcera duodenal devem ser biopsiadas durante a realização de endoscopia para fins de diagnóstico diferencial com neoplasia, havendo necessidade de realizar nova endoscopia após o tratamento para controle de cura."
+        },
+        {
+          "key": "e",
+          "text": "Apenas a úlcera gástrica deve ser biopsiada durante a realização de endoscopia para fins de diagnóstico diferencial com neoplasia, não havendo necessidade de realizar nova endoscopia após o tratamento para controle de cura."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Tanto a úlcera gástrica quanto a duodenal devem ser biopsiadas para excluir malignidade, mas apenas a úlcera gástrica necessita de endoscopia de controle para confirmar cicatrização completa, já que a úlcera duodenal raramente é maligna.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_108",
+      "statement": "Paciente de 60 anos, sexo feminino, relata que há 6 meses iniciou um quadro de dor em região epigástrica de moderada intensidade, sem irradiação e 2 vezes por semana. Há 3 meses evoluiu com piora da intensidade e da frequência do sintoma. Refere dor epigástrica diária, principalmente após a alimentação. Foi à consulta com o gastroenterologista, que solicitou uma endoscopia digestiva alta. O exame histológico evidenciou gastrite crônica com presença de H. pylori. De acordo com o IV Consenso Brasileiro sobre a infecção por Helicobacter pylori, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A fase adulta é considerada o período de maior risco para aquisição de H. pylori."
+        },
+        {
+          "key": "b",
+          "text": "Os seres humanos são o único reservatório e principal fonte de transmissão de H. pylori."
+        },
+        {
+          "key": "c",
+          "text": "A pesquisa de H. pylori após a terapia de erradicação deverá ser realizada pelo menos 12 semanas após o término do tratamento."
+        },
+        {
+          "key": "d",
+          "text": "O teste do antígeno fecal usando anticorpos monoclonais é o exame padrão ouro para o diagnóstico não invasivo de infecção por H. pylori."
+        },
+        {
+          "key": "e",
+          "text": "O teste rápido da urease é o exame recomendado para controle da erradicação de H. pylori após o tratamento, sem a necessidade de exame adicional."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Segundo o IV Consenso Brasileiro, os seres humanos são o único reservatório natural conhecido e a principal fonte de transmissão do H. pylori, geralmente por via oral-oral ou fecal-oral na infância.",
+      "theme": "dup_hp",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_109",
+      "statement": "Paciente de 50 anos, submetida à gastrectomia parcial tipo Billroth II, por doença benigna. Duas semanas após a cirurgia evoluiu com dor epigástrica intensa após refeição, seguida de vômito volumoso contendo principalmente bile. Qual diagnóstico mais provável?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Torção do coto gástrico."
+        },
+        {
+          "key": "b",
+          "text": "Fístula do bulbo duodenal."
+        },
+        {
+          "key": "c",
+          "text": "Síndrome da alça aferente."
+        },
+        {
+          "key": "d",
+          "text": "Síndrome de dumping."
+        },
+        {
+          "key": "e",
+          "text": "Úlcera de anastomose com hemorragia digestiva ativa."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Dor epigástrica intensa após refeição seguida de vômito bilioso volumoso, duas semanas após Billroth II, é quadro clássico de síndrome da alça aferente por obstrução parcial intermitente.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_110",
+      "statement": "O tratamento ideal da gastrite alcalina por refluxo após a gastrectomia com reconstrução a Billroth I (BI) e Billroth II (BII) é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Conversão de gastrectomia a BI em gastrectomia a BII"
+        },
+        {
+          "key": "b",
+          "text": "Gastrectomia total"
+        },
+        {
+          "key": "c",
+          "text": "Gastrojejunostomia em Y de Roux"
+        },
+        {
+          "key": "d",
+          "text": "Realizar uma segunda gastroenteroanastomose"
+        },
+        {
+          "key": "e",
+          "text": "Tratamento conservador"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O tratamento definitivo da gastrite alcalina refratária após Billroth I ou II é a conversão cirúrgica para reconstrução em Y de Roux, que desvia a bile do coto gástrico.",
+      "theme": "dup_geral",
+      "difficulty": "dificil",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "id": "dup_111",
+      "statement": "Pedreiro de 25 anos, natural do estado do Rio de Janeiro, vai a uma Unidade de Pronto Atendimento (UPA), referindo que nos últimos quatro meses tem apresentado dor epigástrica em queimação e di culdade para se alimentar, sentindo plenitude pós- prandial, o que restringe sua ingesta. Na última semana, tem apresentado vômitos frequentes, di cultando sua ingesta alimentar. Veio acompanhado pela mãe, que informa que o paciente perdeu 6 kg em seis meses. Ao exame físico: altura = 1,71 m; peso = 45 kg; PA = 100 x 50 mmHg; FC = 110 bpm; desidratado ++/4+; hipocorado +/4+; anictérico; acianótico e apirético. Ao exame do abdome, este encontra-se escavado, com abaulamento discreto na região epigástrica. A ausculta revela peristalse normal; à palpação está indolor, não se notam massas ou tumorações e há borborigmo quando se palpa a região discretamente abaulada. Imediatamente após o exame, o paciente apresentou vômito de aspecto esverdeado. Os exames pulmonar e cardiovascular não apresentaram alterações. Em quadros clínicos semelhantes a esse, o distúrbio hidroeletrolítico mais frequente é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Alcalose hipomagnesiana."
+        },
+        {
+          "key": "b",
+          "text": "Acidose hiperclorêmica."
+        },
+        {
+          "key": "c",
+          "text": "Acidose hipernatrêmica."
+        },
+        {
+          "key": "d",
+          "text": "Alcalose hipocalêmica."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Vômitos repetidos por obstrução pilórica de longa data (perda de HCl e potássio gástrico) causam classicamente alcalose metabólica hipocalêmica e hipoclorêmica.",
+      "theme": "dup_geral",
+      "difficulty": "medio",
+      "reviewed": false,
+      "created_at": "2026-07-30T00:00:00.000Z"
+    }
+  ]
+}
