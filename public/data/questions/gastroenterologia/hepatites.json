@@ -1807,6 +1807,2328 @@
       "difficulty": "dificil",
       "reviewed": false,
       "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_061",
+      "statement": "Considerando os quadros de hepatite, assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Taxas de anticorpo antinuclear ou antimúsculo liso, em geral, são menores que 1/20 nos casos de hepatite autoimune."
+        },
+        {
+          "key": "b",
+          "text": "A hepatite alcoólica aguda, frequentemente, cursa com elevação da AST menores que 500 U/L e relação AST/ALT > 2."
+        },
+        {
+          "key": "c",
+          "text": "Nas hepatites virais agudas, em geral, o aumento das transaminases é proporcional ao da fosfatase alcalina e gama glutamil-transferase."
+        },
+        {
+          "key": "d",
+          "text": "O aumento progressivo dos níveis séricos da ceruloplasmina é o principal responsável pelo desenvolvimento da doença de Wilson."
+        },
+        {
+          "key": "e",
+          "text": "As hepatites medicamentosas ocupam o segundo lugar na ocorrência de casos de hepatite fulminante em todo o mundo, sendo o paracetamol sua principal causa."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Na hepatite alcoólica aguda, classicamente a AST é menor que 500 U/L e a relação AST/ALT é maior que 2, um padrão clássico para diferenciar de outras causas de hepatite. Na hepatite autoimune os títulos de FAN/anti-músculo liso costumam ser mais altos (não menores que 1/20); nas hepatites virais agudas o padrão é hepatocelular (transaminases desproporcionalmente elevadas em relação à FA/GGT); e na doença de Wilson a ceruloplasmina está tipicamente baixa, não elevada.",
+      "theme": "hep_b",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] ABC R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_062",
+      "statement": "O HAV e formado por um capsídeo de formato icosaedrico composto pelas proteínasestruturais VP1, VP2 e VP3, o qual envolve o genoma viral. Podemos determinar comocorreto que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O genoma do HAV é constituído por uma molécula de RNA de fita simples, compolaridade positiva, que não funciona como RNA mensageiro, com aproximadamente 7,5kilobases."
+        },
+        {
+          "key": "b",
+          "text": "O genoma do HAV é constituído por umaujhhi molécula de RNA de fita quadrupla,com polaridade positiva, que também funciona como RNA mensageiro, comaproximadamente 7,5 kilobases."
+        },
+        {
+          "key": "c",
+          "text": "O genoma do HAV é constituído por uma molécula de RNA de fita triplas, compolaridade negativa, que também funciona como RNA mensageiro, comaproximadamente 7,5 kilobases."
+        },
+        {
+          "key": "d",
+          "text": "O genoma do HAV é constituído por uma molécula de RNA de fita simples, compolaridade positiva, que também funciona como RNA mensageiro, comaproximadamente 7,5 kilobases."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O genoma do HAV é uma molécula de RNA fita simples, polaridade positiva, que funciona diretamente como RNA mensageiro (dispensando transcrição reversa), com aproximadamente 7,5 kilobases.",
+      "theme": "hep_a",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] SCMMA R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_063",
+      "statement": "Homem, 35 anos, procura atendimento após ser informado sobre resultado positivo para hepatite C em exame de triagem para doação de sangue. Nega comorbidades, consumo de bebidas alcoólicas e uso de tabaco. Exame físico sem alterações. Qual é o exame mais indicado para confirmação diagnóstica?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "RNA-HCV."
+        },
+        {
+          "key": "b",
+          "text": "Anti-Hbe."
+        },
+        {
+          "key": "c",
+          "text": "Genotipagem vírus C."
+        },
+        {
+          "key": "d",
+          "text": "Anti-Hbc IgM."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O anti-HCV é apenas um teste de triagem; a confirmação diagnóstica da infecção ativa pelo HCV exige a detecção do RNA-HCV (carga viral) no sangue.",
+      "theme": "hep_c",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] USP-RP R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_064",
+      "statement": "A idade na qual se dá o contato com o vírus HAV exerce importante influência na evolução clínica. Sobre isso, pode-se afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A infecção, quando ocorre em crianças menores de seis anos, está, frequentemente, associada a quadro clínico mais sintomático."
+        },
+        {
+          "key": "b",
+          "text": "A infecção, quando ocorre em crianças menores de seis anos, está, frequentemente, associada a quadro clínico somente assintomático."
+        },
+        {
+          "key": "c",
+          "text": "A infecção, quando ocorre em crianças menores de seis anos, está, frequentemente, associada a quadro clínico pouco sintomático ou assintomático."
+        },
+        {
+          "key": "d",
+          "text": "A infecção, quando ocorre em crianças menores de seis anos, está, nunca é associada a quadro clínico pouco sintomático ou assintomático."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A infecção pelo HAV em crianças menores de 6 anos é frequentemente pouco sintomática ou assintomática, ao contrário de adultos e idosos, em quem a doença tende a ser mais sintomática e ictérica.",
+      "theme": "hep_a",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] ISCMSC R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_065",
+      "statement": "Paciente de 64 anos, HBsAg positivo, mas com HBV-DNA indetectável e ALT e AST normais, será submetido a tratamento quimioterápico imunossupressor para linfoma recém-diagnosticado. Ele não tem histórico de hepatite B reativada previamente. A estratégia para prevenir a reativação da hepatite B nesse paciente é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "indicar conduta expectante para hepatite B, uma vez que o paciente é portador inativo, e o risco de reativação é muito baixo"
+        },
+        {
+          "key": "b",
+          "text": "vacinar contra hepatite A, hepatite B e herpes zoster, duas semanas antes do início da quimioterapia para o tratamento do linfoma"
+        },
+        {
+          "key": "c",
+          "text": "prescrever entecavir antes do início da quimioterapia, além de manter durante todo o período de imunossupressão e por um período após a sua conclusão"
+        },
+        {
+          "key": "d",
+          "text": "monitorar os níveis de HBV-DNA, ALT e AST a cada duas semanas, durante e após a quimioterapia, e iniciar o tratamento antiviral, se houver evidência de reativação"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Pacientes HBsAg positivos que serão submetidos a quimioterapia imunossupressora (alto risco de reativação, como em linfoma) devem receber profilaxia antiviral (entecavir ou tenofovir) antes do início do tratamento, mantida durante toda a imunossupressão e por um período após seu término, independentemente da carga viral basal.",
+      "theme": "hep_b",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] UERJ R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_066",
+      "statement": "Para crianças menores de 12 anos, a decisão de iniciar a terapia deverá serindividualizada. Os casos devem ser referenciados para centros com experiência notratamento de hepatite C. Sendo correto que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Crianças com genótipo 3 têm menores níveis de aminotransferases nos primeiros doisanos de vida, mas podem eliminar espontaneamente o vírus antes dos cinco anos deidade."
+        },
+        {
+          "key": "b",
+          "text": "Crianças com genótipo 3 têm maiores níveis de aminotransferases nos primeiros doisanos de vida, nunca podem eliminar espontaneamente o vírus antes dos cinco anos deidade."
+        },
+        {
+          "key": "c",
+          "text": "Crianças com genótipo 3 têm maiores níveis de aminotransferases nos primeiros doisanos de vida, mas podem eliminar espontaneamente o vírus antes dos cinco anos deidade."
+        },
+        {
+          "key": "d",
+          "text": "Crianças com genótipo 3 têm maiores níveis de aminotransferases nos primeiros doisanos de vida, mas podem eliminar espontaneamente o vírus antes dos cinco meses deidade."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Crianças com hepatite C genótipo 3 apresentam maiores níveis de aminotransferases nos primeiros dois anos de vida, mas ainda podem eliminar espontaneamente o vírus antes dos cinco anos de idade.",
+      "theme": "hep_c",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] SCML R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_067",
+      "statement": "Homem, 55 anos de idade, tratado para hepatite C há 1 ano, com resposta virológica sustentada (RVS), apresentava APRI = 0,6 pré-tratamento. Retorna para seguimento pós-cura assintomático. Exames laboratoriais: ALT = 32 UI/L, AST = 28 UI/L, plaquetas = 180.000/mm³, HCV-RNA indetectável. Qual é o seguimento mais adequado?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Alta do seguimento, pois APRI <1 pré-tratamento indica ausência de fibrose."
+        },
+        {
+          "key": "b",
+          "text": "Elastografia ou ultrassonografia para avaliar grau de fibrose pós-tratamento."
+        },
+        {
+          "key": "c",
+          "text": "Repetir HCV-RNA em um ano."
+        },
+        {
+          "key": "d",
+          "text": "Ultrassonografia semestral para rastreamento de carcinoma hepatocelular."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O APRI é um marcador não invasivo indireto e não substitui a avaliação formal do grau de fibrose; como o estágio de fibrose pré-tratamento não foi definitivamente estabelecido, o seguimento pós-RVS mais adequado é solicitar elastografia ou ultrassonografia para definir o grau de fibrose e assim orientar a necessidade (ou não) de rastreamento de CHC.",
+      "theme": "hep_c",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] UNIFESP R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_068",
+      "statement": "Menino, 14a, previamente hígido, retorna à Unidade Básica de Saúde para avaliação de exames. Na consulta anterior, há dois dias, referia fadiga, anorexia, náuseas, mal-estar geral, vômitos e pele amarelada há sete dias. Hábito intestinal: fezes esbranquiçadas, sem sangue ou muco. Hábito urinário: urina escura. Frequenta escola em turno integral, com vários casos semelhantes que começaram há 20 dias. Exame físico: PA=102/80mmHg; FC=110bpm; FR=22irpm; bom estado geral; consciente; acianótico; ictérico 2+/4;afebril; hipocorado +/4+; mucosas úmidas. Abdome: fígado palpável a 2cm do rebordo costal direito, fibroelástico, borda aguda, superfície lisa, doloroso à palpação; sinal de Blumberg ausente; baço não palpável e não percutível. Exames laboratoriais: ALT=2.503UI/L; AST=2.165UI/L; gamaGT=195UI/L; fosfatase alcalina=680UI/L; bilirrubina total=9mg/dL; bilirrubina direta=7,8mg/dL. O exame laboratorial que confirma a hipótese diagnóstica mais provável é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Sorologia para hepatite A (anti-HAV IgM reagente)."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Quadro típico de hepatite aguda (icterícia, colúria, acolia fecal, hepatomegalia dolorosa, transaminases muito elevadas) em adolescente com contexto epidemiológico de surto escolar recente é altamente sugestivo de hepatite A; a confirmação se dá pela sorologia anti-HAV IgM reagente.",
+      "theme": "hep_a",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] UNICAMP R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_069",
+      "statement": "Homem, 53 anos, com insuficiência renal crônica em iminência de diálise realiza sorologias de hepatites virais. O resultado revela: HbsAg +; anticorpo contra o core do vírus da hepatite B (anti-Hbc) +; anticorpo contra o antígeno de superfície da hepatite B (anti-Hbs) +. Pode-se afirmar que a explicação mais provável desse resultado é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "hepatite B em um passado remoto"
+        },
+        {
+          "key": "b",
+          "text": "período de janela imunológica"
+        },
+        {
+          "key": "c",
+          "text": "vacinação prévia para hepatite B"
+        },
+        {
+          "key": "d",
+          "text": "HbsAg de um subtipo com heterotipo do anti-Hbs"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A positividade simultânea de HBsAg, anti-HBc e anti-HBs (que normalmente seria neutralizante) é um achado atípico descrito principalmente em populações imunossuprimidas/dialíticas, explicado pela presença de um subtipo de HBsAg heterotípico não neutralizado pelo anti-HBs circulante do paciente.",
+      "theme": "hep_b",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] UFRJ R3CM 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_070",
+      "statement": "Homem, 60a, comparece à Unidade Básica de Saúde referindo fraqueza, indisposição, aumento do volume abdominal e edema de membros inferiores há três meses. Exame físico: afebril, acianótico, anictérico, eupneico, hidratado. PA=124/82mmHg, FC=82bpm. Ausculta pulmonar e cardíaca sem alterações. Abdômen: ascite volumosa, membros inferiores com edema moderado. Presença de ginecomastia. Exames laboratoriais: sorologia para Hepatite C=não reagente; sorologia para hepatite B: HBsAg=positivo, antiHBs=negativo, anti-HBc=positivo, anti-HBe=positivo, HBeAg=negativo, HIV=negativo. A hipótese diagnóstica, que determina a conduta, é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hepatopatia crônica (cirrose hepática) secundária a hepatite B."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Ascite, edema de membros inferiores, ginecomastia e sorologia com HBsAg positivo caracterizam hepatopatia crônica (cirrose hepática) descompensada secundária à infecção crônica pelo vírus da hepatite B.",
+      "theme": "hep_b",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] UNICAMP R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_071",
+      "statement": "Homem, 53 anos, assintomático, comparece à Unidade Básica de Saúde buscando orientações sobre os resultados de exames realizados para doação de sangue. Antecedente de cirurgia para correção de fratura de fêmur aos 18 anos de idade devido acidente automobilístico. Exame físico: obesidade grau II. Exames laboratoriais: HBsAg = não reagente; anti HBc IgG = não reagente; anti HBsAg = reagente; anti HCV = reagente; AST = 18 U/L (VR: 15-37); ALT = 57 U/L (VR: 10-49) Qual é a conduta mais adequada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar elastografia hepática."
+        },
+        {
+          "key": "b",
+          "text": "Repetir os exames em 6 meses"
+        },
+        {
+          "key": "c",
+          "text": "Indicar biópsia hepática"
+        },
+        {
+          "key": "d",
+          "text": "Solicitar RNA HCV"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O anti-HCV reagente isoladamente não confirma infecção ativa; deve-se solicitar RNA-HCV para confirmar viremia antes de qualquer conduta adicional como elastografia ou biópsia.",
+      "theme": "hep_c",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] USP-RP R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_072",
+      "statement": "Um paciente do sexo masculino procura atendimento médico para check-up de rotina. Ele não tem histórico de vacinação para hepatite B e nunca apresentou sintomas de infecções hepáticas. Ao realizar exames laboratoriais, o médico detecta que o paciente tem sorologia negativa para HBsAg, anti-HBc e anti-HBs. De acordo com o Protocolo Clínico e Diretrizes Terapêuticas para Hepatite B do Ministério da Saúde de 2023, assinale a alternativa que apresenta a melhor conduta para prevenir a infecção pelo vírus da hepatite B nesse paciente.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Administrar a vacina contra hepatite B em dose única."
+        },
+        {
+          "key": "b",
+          "text": "Iniciar um esquema de três doses da vacina contra hepatite B."
+        },
+        {
+          "key": "c",
+          "text": "Administrar imunoglobulina contra hepatite B sem a vacina."
+        },
+        {
+          "key": "d",
+          "text": "Repetir a sorologia em 6 meses antes de tomar qualquer medida."
+        },
+        {
+          "key": "e",
+          "text": "Iniciar tratamento antiviral para profilaxia pré-- exposição."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Paciente totalmente susceptível (HBsAg, anti-HBc e anti-HBs negativos), sem vacinação prévia, deve iniciar o esquema vacinal completo de três doses contra hepatite B, conforme o PCDT do Ministério da Saúde.",
+      "theme": "hep_b",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] SCMRP R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_073",
+      "statement": "Devem ser observados os critérios de inclusão e exclusão de pacientes constantes para Hepatite C:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Duração e a monitorização do tratamento, bem como a verificação periódica das doses prescritas e não as dispensadas, a adequação de uso do medicamento e os critérios de interrupção do tratamento."
+        },
+        {
+          "key": "b",
+          "text": "Duração e a monitorização do tratamento, bem como a verificação periódica das doses prescritas e dispensadas, a adequação de uso do medicamento e os critérios de interrupção do tratamento."
+        },
+        {
+          "key": "c",
+          "text": "Duração e a monitorização do tratamento, bem como a verificação periódica das doses prescritas e dispensadas, a adequação de uso do medicamento e nunca os critérios de interrupção do tratamento."
+        },
+        {
+          "key": "d",
+          "text": "Duração e não a monitorização do tratamento, bem como a verificação periódica das doses prescritas e dispensadas, a adequação de uso do medicamento e os critérios de interrupção do tratamento."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O acompanhamento do tratamento da hepatite C deve incluir a duração e monitorização do tratamento, a verificação periódica das doses tanto prescritas quanto efetivamente dispensadas, a adequação do uso do medicamento e os critérios de interrupção — sem nenhuma dessas etapas ser dispensável.",
+      "theme": "hep_c",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] CMC R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_074",
+      "statement": "Mulher de 32 anos é examinada como parte do rastreamento de contatos de um caso de hepatite aguda relacionada ao vírus da hepatite A (VHA) em uma creche. Relata que trabalha como enfermeira pediátrica e que nasceu e foi criada na capital do estado de São Paulo, sem nenhuma viagem recente. Ela está assintomática, não tem antecedentes mórbidos, seu exame físico é normal e não toma nenhuma medicação regularmente. Em relação à enfermeira avaliada, nesse momento, a próxima ação de maior efetividade prática é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "administrar imunoglobulina para o VHA."
+        },
+        {
+          "key": "b",
+          "text": "aplicar uma dose da vacina contra o VHA."
+        },
+        {
+          "key": "c",
+          "text": "solicitar hemograma, bioquímica e perfil hepático."
+        },
+        {
+          "key": "d",
+          "text": "solicitar sorologias para as hepatites virais."
+        },
+        {
+          "key": "e",
+          "text": "tranquilizá-la e seguimento observacional."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Para contatos próximos saudáveis (1 a 40 anos) de caso de hepatite A, a profilaxia pós-exposição mais efetiva é a vacina (dose única), reservando a imunoglobulina para grupos de maior risco (menores de 1 ano, maiores de 40 anos, imunossuprimidos, hepatopatas crônicos).",
+      "theme": "hep_a",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] SUS-SP R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_075",
+      "statement": "Gestante, 31 anos de idade, 27 semanas de gestação, procura obstetra com exames séricos de transaminases normais e os seguintes exames sorológicos: HBsAg positivo, anti-HBc positivo, HBeAg positivo e anti-HBs negativo. Qual é a alternativa mais adequada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Trata-se de hepatite crônica na fase imunorreativa."
+        },
+        {
+          "key": "b",
+          "text": "A presença do HBeAg indica alta replicação viral."
+        },
+        {
+          "key": "c",
+          "text": "Não está indicada profilaxia com tenofovir."
+        },
+        {
+          "key": "d",
+          "text": "A amamentação estará contraindicada."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "HBeAg reagente indica alta replicação viral. Nesse caso as transaminases normais com HBeAg positivo sugerem fase imunotolerante (não imunorreativa), a profilaxia com tenofovir no terceiro trimestre é indicada em gestantes com alta carga viral/HBeAg positivo para reduzir a transmissão vertical, e o aleitamento materno não é contraindicado em mães HBsAg positivas desde que o RN receba vacina e imunoglobulina.",
+      "theme": "hep_b",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] UNIFESP R3CM 2024",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_076",
+      "statement": "Homem de 58 anos, ex-usuário de drogas injetáveis, é avaliado para tratamento de infecção pelo genótipo 1 do vírus da hepatite C com fibrose em estágio 2. Os exames laboratoriais basais apresentam resultados normais para: hemograma, creatinina, bilirrubina, fosfatase alcalina e albumina. Outros exames séricos: alanina aminotransferase: 64 U/L, aspartato aminotransferase: 54 U/L; HIV: negativo; DNA para o vírus da hepatite B: inferior a 20 IU/mL; HBsAg: positivo. Nega uso de qualquer medicamento. O tratamento com um regime antiviral de ação direta, sem interferon, é iniciado. Após 4 semanas, ele evolui com icterícia, sem dor abdominal ou febre. Considerando a principal hipótese diagnóstica para a evolução descrita, é correto afirmar que o próximo exame a ser solicitado é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "anticorpo do músculo liso."
+        },
+        {
+          "key": "b",
+          "text": "DNA do vírus da hepatite B."
+        },
+        {
+          "key": "c",
+          "text": "RNA do vírus da hepatite C."
+        },
+        {
+          "key": "d",
+          "text": "sorologia para hepatite A."
+        },
+        {
+          "key": "e",
+          "text": "tomografia de abdome total."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Paciente HBsAg positivo (mesmo com DNA-VHB basal indetectável) tratado com antivirais de ação direta para hepatite C tem risco de reativação da hepatite B durante o tratamento; o surgimento de icterícia após início do DAA deve levar à dosagem do DNA do vírus da hepatite B para investigar reativação.",
+      "theme": "hep_b",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] Sírio Libanês - SP R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_077",
+      "statement": "A hepatite C e causada pelo HCV. Esse virus foi o primeiro membro do genero Hepacivirus, da familia Flaviridae. Sendo correto que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "E importante destacar que a infeccao pelo HCV ja e a maior responsavel por cirrose e transplante hepatico no mundo ocidental."
+        },
+        {
+          "key": "b",
+          "text": "E importante destacar que a infeccao pelo HCV nao e a responsavel por cirrose ou transplante hepatico no mundo ocidental."
+        },
+        {
+          "key": "c",
+          "text": "E importante destacar que a infeccao pelo HCV ja e a maior responsavel por cirrose e nao por transplante hepatico no mundo ocidental."
+        },
+        {
+          "key": "d",
+          "text": "E importante destacar que a infeccao pelo HCV e a menor responsavel por cirrose e transplante hepatico no mundo ocidental."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A infecção pelo HCV é atualmente a principal causa de cirrose hepática e de transplante de fígado no mundo ocidental.",
+      "theme": "hep_c",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] ISCMA R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_078",
+      "statement": "Uma mulher de 52 anos é internada com insuficiência renal aguda rapidamente progressiva, acompanhada de artralgias, púrpura palpável em membros inferiores e fadiga intensa há duas semanas. Relata também parestesia distal, episódios de fenômeno de Raynaud no inverno e uma história de hepatite C crônica tratada irregularmente. Ao exame físico, apresenta PA 160/100 mmHg sem sinais pulmonares relevantes. Abdome sem hepatoesplenomegalia. Presença de púrpuras não trombocitopênicas nas pernas. Exames laboratoriais: creatinina: 3,1mg/dL; C4: indetectável; C3: baixo; Fatores reumatoides e FAN: negativos; Anti-dsDNA: negativo; ANCA: negativo; PCR; elevada; Anti-HCV positivo. Exame de urina: hemácias dismórficas, proteinúria 2g/24h. A biópsia renal revela: Glomerulonefrite membranoproliferativa com hipercelularidade e depósitos subendoteliais. Imunofluorescência: IgM e C3 em padrão granular, além de depósitos de C1q, formando aspecto \"em mosaico\" (pseudoclobetas); presença de trombos intraluminais PAS-positivos compatíveis com crioclobs. O diagnóstico mais provável, neste caso, é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Glomerulonefrite lúpica classe IV."
+        },
+        {
+          "key": "b",
+          "text": "Granulomatose com poliangiite."
+        },
+        {
+          "key": "c",
+          "text": "Granulomatose eosinofílica com poliangiite."
+        },
+        {
+          "key": "d",
+          "text": "Crioglobulinemia mista associada ao HCV."
+        },
+        {
+          "key": "e",
+          "text": "Glomerulonefrite pós-estreptocócica."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O quadro de glomerulonefrite membranoproliferativa com depósitos de crioglobulinas, púrpura palpável, artralgias e hipocomplementenemia (C4 indetectável) em paciente com hepatite C crônica é característico de crioglobulinemia mista associada ao HCV.",
+      "theme": "hep_c",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] UEPA R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_079",
+      "statement": "Homem, 62a, em seguimento ambulatorial por neoplasia hematológica, é avaliado para transplante de células-tronco hematopoiéticas. Exame físico: PA=120/80mmHg, FC=70bpm, FR=14irpm. Auscultas cardíaca e pulmonar sem alterações. Abdome flácido, indolor, fígado não palpável, baço não percutível, macicez móvel negativa, sem circulação colateral. Ausência de telangiectasias e eritema palmar. Exames laboratoriais: HBsAg=reagente, anti-HBc=reagente, anti-HBs=não reagente, DNA VHB=não detectado, ALT=25UI/L, bilirrubina total=0,8mg/dL, RNI=1,0, albumina=3,8g/dL, creatinina=0,9mg/dL. Sorologias de HIV e hepatite C não reagentes. Ultrassonografia de abdome sem alterações. A CONDUTA É:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Prescrever terapia antiviral antes do transplante de células-tronco."
+        },
+        {
+          "key": "b",
+          "text": "Prescrever terapia antiviral se aumento de ALT durante o monitoramento."
+        },
+        {
+          "key": "c",
+          "text": "Prescrever terapia antiviral se aumento de DNA VHB durante o monitoramento."
+        },
+        {
+          "key": "d",
+          "text": "Prescrever terapia antiviral se sinais clínicos de descompensação hepática."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Pacientes HBsAg positivos candidatos a transplante de células-tronco hematopoiéticas apresentam risco muito elevado de reativação da hepatite B devido ao grau extremo de imunossupressão, sendo recomendada profilaxia antiviral antes do início do condicionamento, independentemente do nível de DNA-VHB.",
+      "theme": "hep_b",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] UNICAMP R3CM 2026",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_080",
+      "statement": "O Ministério da Saúde do Brasil recomenda que a primeira dose da vacina contra hepatite B seja administrada na:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "maternidade, nas primeiras 6 horas de vida do recém-nascido."
+        },
+        {
+          "key": "b",
+          "text": "maternidade, nas primeiras 12 horas de vida do recém-nascido."
+        },
+        {
+          "key": "c",
+          "text": "maternidade, nas primeiras 24 horas de vida do recém-nascido."
+        },
+        {
+          "key": "d",
+          "text": "unidade básica de saúde, com sete dias de vida do recém-nascido."
+        },
+        {
+          "key": "e",
+          "text": "unidade básica de saúde, com um mês de vida do bebê."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O Ministério da Saúde recomenda a aplicação da primeira dose da vacina contra hepatite B ainda na maternidade, preferencialmente nas primeiras 12 horas de vida.",
+      "theme": "hep_b",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] UNESC-ES R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_081",
+      "statement": "A vacina contra a Hepatite B é uma das principais medidas de saúde pública para prevenir a infecção pelo seu vírus, que pode causar doenças hepáticas graves. Sobre a vacina contra a Hepatite B, é CORRETO afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "É ineficaz e não oferece proteção contra a infecção pelo vírus da Hepatite B."
+        },
+        {
+          "key": "b",
+          "text": "Deve ser administrada exclusivamente a crianças acima de um ano de idade."
+        },
+        {
+          "key": "c",
+          "text": "O esquema vacinal contra a Hepatite B consiste em duas doses, com um intervalo de seis meses entre elas."
+        },
+        {
+          "key": "d",
+          "text": "É composta por proteínas de superfície do vírus obtidas por meio da técnica de DNA recombinante."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A vacina contra hepatite B é composta por proteínas do envelope viral (HBsAg) obtidas por engenharia genética (técnica de DNA recombinante), e não por vírus atenuado ou inativado.",
+      "theme": "hep_b",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] HOB-DF R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_082",
+      "statement": "Em pacientes com infecção pelo vírus da hepatite C, a glomerulopatia mais comumente encontrada é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "membranoproliferativa."
+        },
+        {
+          "key": "b",
+          "text": "esclerosante focal."
+        },
+        {
+          "key": "c",
+          "text": "lesão mínima."
+        },
+        {
+          "key": "d",
+          "text": "membranosa."
+        },
+        {
+          "key": "e",
+          "text": "mesangial."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A glomerulopatia mais comumente associada à infecção crônica pelo HCV é a glomerulonefrite membranoproliferativa, geralmente mediada por crioglobulinemia.",
+      "theme": "hep_c",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] IAMSPE R3CM 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_083",
+      "statement": "A infecção crônica é definida pela presença persistente do HBsAg no soro de umindivíduo por um período de seis meses ou mais. Sendo correto o item:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Durante o curso da infecção, nunca podem ocorrer integrações de parte do genomado HBV ao genoma do hospedeiro."
+        },
+        {
+          "key": "b",
+          "text": "Antes do curso da infecção, podem ocorrer integrações de parte do genoma do HBVao genoma do hospedeiro."
+        },
+        {
+          "key": "c",
+          "text": "Durante o curso da infecção, podem ocorrer integrações de parte do genoma do HBVao genoma do hospedeiro."
+        },
+        {
+          "key": "d",
+          "text": "Durante o curso da infecção, podem ocorrer integrações de parte do genoma do HBVmas não ao genoma do hospedeiro."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Durante o curso da infecção crônica pelo HBV pode ocorrer integração de fragmentos do genoma viral ao genoma do hospedeiro, fenômeno relacionado ao risco de carcinoma hepatocelular mesmo na ausência de cirrose.",
+      "theme": "hep_b",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] SCML R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_084",
+      "statement": "O anti-HBc total, isoladamente, indica contato previo com o virus. Sendo correto que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Por isso, o resultado reagente desse marcador pode ser interpretado sem a realizacao de outros marcadores diretos da presenca do virus."
+        },
+        {
+          "key": "b",
+          "text": "Por isso, o resultado reagente desse marcador nao pode ser interpretado sem a realizacao de outros marcadores diretos da presenca do virus."
+        },
+        {
+          "key": "c",
+          "text": "Por isso, o resultado reagente desse marcador sempre pode ser interpretado sem a realizacao de outros marcadores da presenca do virus."
+        },
+        {
+          "key": "d",
+          "text": "Por isso, o resultado reagente desse marcador nao pode ser interpretado mesmo com a realizacao de outros marcadores diretos da presenca do virus."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O anti-HBc total isolado indica apenas contato prévio com o vírus, mas não diferencia infecção passada resolvida, infecção crônica ou falso-positivo; por isso não pode ser interpretado sem a associação a outros marcadores diretos (HBsAg, anti-HBs) da presença do vírus.",
+      "theme": "hep_b",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] ISCMA R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_085",
+      "statement": "Uma paciente de 44 anos e com diagnóstico de hepatite C, não tratada, desenvolveu quadro de porfiria. O tratamento instituído consistiu antivirais de ação direta contra o HCV, hidroxicloroquina e flebotomias regulares. O tipo de porfiria em questão é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "porfiria aguda intermitente;"
+        },
+        {
+          "key": "b",
+          "text": "protoporfiria eritropoiética;"
+        },
+        {
+          "key": "c",
+          "text": "porfiria cutânea tardia;"
+        },
+        {
+          "key": "d",
+          "text": "porfiria variegata;"
+        },
+        {
+          "key": "e",
+          "text": "protoporfiria ligada ao X."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A porfiria cutânea tarda é fortemente associada à infecção crônica pelo HCV, e seu tratamento combina o controle da hepatite C (antivirais de ação direta), flebotomias regulares e, eventualmente, hidroxicloroquina em baixas doses.",
+      "theme": "hep_c",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] ENARE R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_086",
+      "statement": "Sobre os marcadores sorológicos e virológicos da Hepatite B, observe as alternativasabaixo e assinale a incorreta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Nos casos típicos, o HBsAg deixa de ser identificável 1 a 2 meses após o início daicterícia e, raras vezes, persiste por mais de 6 meses"
+        },
+        {
+          "key": "b",
+          "text": "O anti-HBc é prontamente demonstrável no soro, começando 1 a 2 semanas após oaparecimento de HBsAg e precedendo os níveis identificáveis do antiHBs por semanas ameses."
+        },
+        {
+          "key": "c",
+          "text": "Depois que uma pessoa é infectada pelo HBV, o primeiro marcador virológicoidentificável no soro em 1 a 12 semanas, em geral entre 8 e 12 semanas, é o HBsAg."
+        },
+        {
+          "key": "d",
+          "text": "Após o desaparecimento do HBsAg, o anticorpo para o HBsAg (anti-HBs) torna-seidentificável no soro e continua detectável indefinidamente depois disso."
+        },
+        {
+          "key": "e",
+          "text": "O HBsAg circulante precede as elevações da atividade das aminotransferases séricas eos sintomas clínicos em 2 a 6 semanas, que se tornam indetectáveis após a fase ictéricaou sintomática da hepatite B aguda na quase totalidade dos casos."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O HBsAg costuma ser o primeiro marcador detectável no soro após a infecção pelo HBV, em média por volta de 30 dias (podendo variar de poucas semanas até cerca de 9-12 semanas), e não tipicamente entre 8 e 12 semanas como afirma a alternativa — tornando-a a incorreta. Os demais itens descrevem corretamente a cinética dos marcadores sorológicos da hepatite B.",
+      "theme": "hep_b",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] SMS-PATOS R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_087",
+      "statement": "Homem, 22 anos, procura a emergência com quadro de icterícia há 2 semanas, dor em hipocôndrio direito e náuseas. O paciente faz uso de drogas injetáveis. São realizados exames laboratoriais: TGP 102 UI/L, TGO 40 UI/L; BT 3,6 mg/dL e BD 2,4 mg/dL; HBsAg negativo, Anti-HBs reagente (>1000 UI/L), Anti-HbC IgM e total negativos; Anti-HAV IgM e total negativos; Anti-HCV reagente; PCR HCV 6.000.000 UI/mL, Genótipo HCV 1b. Em relação ao caso, afirma-se: I. A ocorrência de icterícia sugere o genótipo CC do gene IL28B, que indica uma chance pequena de resolução espontânea do HCV após a infecção aguda. II. O painel sorológico e a condição do paciente apontam para um risco baixo de reinfecção pelo HCV após a infecção atual. III. O tratamento com sofosbuvir e ledipasvir neste paciente diminuiria a chance de cronificação do HCV. Está/Estão correta(s) apenas a(s) afirmativa(s)",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I."
+        },
+        {
+          "key": "b",
+          "text": "II."
+        },
+        {
+          "key": "c",
+          "text": "III."
+        },
+        {
+          "key": "d",
+          "text": "II e III."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O tratamento da hepatite C aguda com antivirais de ação direta (sofosbuvir/ledipasvir) reduz a chance de cronificação (item III correto). A apresentação ictérica na hepatite C aguda está, na verdade, associada a MAIOR chance de resolução espontânea (não ao genótipo CC do IL28B com pior prognóstico, item I incorreto), e não confere imunidade protetora duradoura contra reinfecção, especialmente em usuários de drogas injetáveis (item II incorreto).",
+      "theme": "hep_c",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] PUC-RS R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_088",
+      "statement": "Mulher de 38 anos desenvolve artralgia, púrpura e fraqueza por meses tendo sido diagnosticada com síndrome de crioglobulinemia mista. A causa mais comum desta síndrome é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "lúpus eritematoso sistêmico."
+        },
+        {
+          "key": "b",
+          "text": "tuberculose pulmonar."
+        },
+        {
+          "key": "c",
+          "text": "hepatite C."
+        },
+        {
+          "key": "d",
+          "text": "linfoma de Hodgkin."
+        },
+        {
+          "key": "e",
+          "text": "dermatomiosite/polimiosite."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A causa mais comum de crioglobulinemia mista é a infecção crônica pelo vírus da hepatite C.",
+      "theme": "hep_c",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] HSL-SP R3CM 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_089",
+      "statement": "Paciente durante exames de rotina teve os seguintes resultados: HBSAG Negativo; Anti-HBS positivo; anti-HBC IGG positivo; anti-HBC IGM negativo. Qual o significado dos seguintes exames?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Paciente portador crônico ativo"
+        },
+        {
+          "key": "b",
+          "text": "Paciente vacinado para hepatite B"
+        },
+        {
+          "key": "c",
+          "text": "Paciente com hepatite B crônica portado inativo"
+        },
+        {
+          "key": "d",
+          "text": "Paciente tem imunidade ao vírus da hepatite B por meio de contato com vírus da Hepatite B"
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "HBsAg negativo com anti-HBs e anti-HBc IgG positivos caracteriza infecção natural pregressa e resolvida pelo HBV, com imunidade adquirida por contato com o vírus (perfil distinto do vacinado, que teria apenas anti-HBs positivo).",
+      "theme": "hep_b",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] CERMAM R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_090",
+      "statement": "Durante o plantão em uma UPA em Santos, você atende um menino de 5 anos de idade, pesando 18 kg, com história de, há 10 dias, ter apresentado febre baixa, inapetência alimentar, dor abdominal difusa e leve, evacuações líquidas 3 a 4 vezes ao dia, sem produtos patológicos e náuseas, que melhoraram após 2 a 3 dias de sintomas, segundo a mãe. Evoluiu bem no período, mas há 3 dias passou a apresentar icterícia em escleras, evoluindo com acolia e colúria há 2 dias. Hoje, a mãe procurou a UPA, pois além de piora da icterícia, de persistência da acolia e da colúria, notou que a criança está alternando períodos de sonolência diurna excessiva com irritabilidade e choro, fora do seu comportamento habitual. Nega antecedentes patológicos ou atraso do neurodesenvolvimento, nega uso de medicamentos recentemente, nega história familiar de comorbidades. A mãe diz que perdeu a caderneta de vacinas da criança poucas semanas antes dela completar 1 ano de idade, e que está desatualizada desde então. Ao exame físico, o paciente apresenta-se em REG, pálido, hipocorado +2/4 icterícia em escleras e pele +3/4, sem lesões de pele, ECG 12 (3 abre os olhos ao comando verbal; 3 desorientado; 5 localiza a dor), hepatomegalia com fígado palpável a 4 cm do RCD, fibroelástico e superfície lisa, baço não palpável, sem outras alterações ao exame físico. Você monitora o paciente, realiza os primeiros os cuidados na sala de emergência, solicita a coleta de exames laboratoriais, que retornam com os seguintes resultados: Bilirrubina total: 20 mg/L Bilirrubina direta: 12 mg/dL Bilirrubina indireta: 8 mg/dL TGP/ALT: 2.420 U/L TGO/AST: 1.980 U/L GGT: 98 U/L FA: 120 U/L CPK: 350 U/L Cr: 0,7 mg/dL Ur: 38 mg/dL TP: 40 seg INR: 2,8 Hb: 8 g/dL Glóbulos brancos: 18.000/mm3 (neutrófilos: 8% leucócitos: 75% monócitos: 12% eosinófilos: 3% basófilos: 2%) Plaquetas: 90.000/mm3 Proteína C Reativa: 120 mg/dL Urina tipo 1: sem alterações Considerando o caso clínico, a faixa etária do paciente e a epidemiologia da principal hipótese diagnóstica em questão, assinale a alternativa que apresenta uma provável etiologia para esta hipótese diagnóstica.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hepatite A."
+        },
+        {
+          "key": "b",
+          "text": "Herpes vírus."
+        },
+        {
+          "key": "c",
+          "text": "Febre amarela."
+        },
+        {
+          "key": "d",
+          "text": "Leptospirose."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Criança pequena com quadro prodrômico gastrointestinal seguido de icterícia progressiva, coagulopatia (INR 2,8) e rebaixamento do nível de consciência configura insuficiência hepática aguda; considerando a faixa etária e a epidemiologia brasileira (saneamento precário, vacinação incompleta), a hepatite A é a etiologia mais provável de hepatite fulminante nessa população pediátrica.",
+      "theme": "hep_a",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] USP OUTRAS PROVAS 2026",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_091",
+      "statement": "O HBV é capaz de infectar, primariamente, células hepáticas:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Após ser transportado para o poro nuclear, o capsídeo não libera o genoma no interior do núcleo celular."
+        },
+        {
+          "key": "b",
+          "text": "Após ser transportado para o poro nuclear, o capsídeo libera o genoma no exterior do núcleo celular."
+        },
+        {
+          "key": "c",
+          "text": "Após ser transportado para o poro nuclear, o capsídeo libera o genoma no interior do núcleo celular."
+        },
+        {
+          "key": "d",
+          "text": "Após ser transportado para o poro nuclear, o capsídeo retém o genoma no interior do núcleo celular."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Após ser transportado até o poro nuclear, o capsídeo do HBV libera o genoma viral no interior do núcleo da célula hepática, onde ocorre a formação do cccDNA.",
+      "theme": "hep_b",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] CMC R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_092",
+      "statement": "Mulher, 34 anos, realizou há 7 meses testes rápidos para infecções sexualmente transmissíveis, somente com HBsAg reagente, confirmado por HBsAg sérico. Retorna com novos exames: HBsAg reagente, anti-HBc total reagente, HBeAg positivo, HBV-DNA detectável (níveis elevados) e TGP dentro da normalidade. Está assintomática. Exame físico, demais exames laboratoriais e exames de imagem: sem alterações. Em relação ao caso, afirma-se: I. Paciente encontra-se em fase aguda da doença com alto poder de contágio. II. A doença não é grave, pois a paciente apresenta níveis de TGP dentro da normalidade. III. Nessa fase da doença, espera-se Anti-HBe não detectável. Está/Estão correta(s) apenas a(s) afirmativa(s):",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I."
+        },
+        {
+          "key": "b",
+          "text": "III."
+        },
+        {
+          "key": "c",
+          "text": "I e II."
+        },
+        {
+          "key": "d",
+          "text": "II e III."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Positividade de HBsAg há mais de 6 meses caracteriza infecção crônica (não aguda, item I incorreto), e na fase com HBeAg positivo (replicação ativa) espera-se anti-HBe não detectável, já que a soroconversão ainda não ocorreu (item III correto); a normalidade da ALT (fase imunotolerante) não significa ausência de gravidade/necessidade de acompanhamento (item II incorreto).",
+      "theme": "hep_b",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] PUC-RS R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_093",
+      "statement": "Um homem de 50 anos em tratamento para hepatite C, com cirrose hepática compensada CHILD PUGH A, tem histórico de falha terapéutica.com uso prévio de antivirais de ação direta. O médico assistente do serviço de atenção especializada prescreveu um novo esquema terapêutico, recomendado pelo Ministério da Saúde. O esquema prescrito foi:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "sofosbuvir/velpastavir/ribavirina por 24 semanas;"
+        },
+        {
+          "key": "b",
+          "text": "sofosbuvir/daclatasvir por 12 semanas;"
+        },
+        {
+          "key": "c",
+          "text": "sofosbuvir/pibrentasvir + glecaprevir por 12 semanas;"
+        },
+        {
+          "key": "d",
+          "text": "sofosbuvir/velpastavir por 12 semanas;"
+        },
+        {
+          "key": "e",
+          "text": "sofosbuvir/ribavirina por 24 semanas."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Para pacientes com falha terapêutica prévia a antivirais de ação direta, o esquema de resgate recomendado pelo Ministério da Saúde é sofosbuvir + velpatasvir + ribavirina por 24 semanas.",
+      "theme": "hep_c",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] ENARE R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_094",
+      "statement": "Durante exame de rotina, solicitaram ao paciente, de 16 anos, AntiHBs e HBsAg, sem seu conhecimento, quando pegou o resultado ficou muito preocupado quando leu AntiHBs > 1000, mesmo com HBsAg não reagente. Qual conduta CORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Encaminhar ao infectologista para iniciar tratamento para Hepatite B."
+        },
+        {
+          "key": "b",
+          "text": "Orientar que possivelmente este resultado se deve a vacinação prévia e tranquilizá-lo."
+        },
+        {
+          "key": "c",
+          "text": "Encaminhar ao infectologista para dar prosseguimento à investigação para Hepatite B."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar os demais marcadores para Hepatite B e já o orientar sobre possíveis tratamentos."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Anti-HBs muito elevado (>1000) com HBsAg não reagente é o perfil sorológico esperado após vacinação contra hepatite B, devendo o paciente ser tranquilizado.",
+      "theme": "hep_b",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] UERN R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_095",
+      "statement": "Em relação à infecção pelo vírus da hepatite B (HBV), assinale a alternativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O HBsAg negativo e anti-HBc total positivo confirmam imunidade vacinal."
+        },
+        {
+          "key": "b",
+          "text": "O anti-HBs positivo e anti-HBc total negativo confirmam imunidade vacinal."
+        },
+        {
+          "key": "c",
+          "text": "O HBeAg positivo indica sempre infecção resolvida."
+        },
+        {
+          "key": "d",
+          "text": "O anti-HBs positivo e HBsAg positivo indicam janela imunológica."
+        },
+        {
+          "key": "e",
+          "text": "A presença isolada de anti-HBc IgM indica imunidade duradoura pós-vacinal."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Anti-HBs positivo isolado, com anti-HBc total negativo, é o perfil sorológico característico de imunidade vacinal contra a hepatite B (ausência de anti-HBc afasta contato natural com o vírus).",
+      "theme": "hep_b",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] SCMRP R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_096",
+      "statement": "Sobre as hepatites virais, assinale a alternativa INCORRETA.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A hepatite B, geralmente, se apresenta como um quadro agudo e autolimitado, porém a forma crônica da doença pode ocorrer, sendo que crianças e recém-nascidos correspondem à população com maior risco de cronificação."
+        },
+        {
+          "key": "b",
+          "text": "Tanto a hepatite B quanto a hepatite C conferem risco aumentado de carcinoma hepatocelular e a hepatite B pode levar ao câncer mesmo sem passar pelo estágio de cirrose."
+        },
+        {
+          "key": "c",
+          "text": "A hepatite C é a que apresenta maior taxa de complicações extra-hepáticas, sendo a poliarterite nodosa e a glomerulonefrite membranosa as mais comuns."
+        },
+        {
+          "key": "d",
+          "text": "A hepatite A e a hepatite E apresentam transmissão oral-fecal."
+        },
+        {
+          "key": "e",
+          "text": "A dosagem do anticorpo Anti-HbS para profissionais de saúde é importante para determinar a necessidade de revacinação."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A alternativa é incorreta porque as manifestações extra-hepáticas mais comumente associadas à hepatite C são a crioglobulinemia mista e a glomerulonefrite membranoproliferativa — e não a poliarterite nodosa e a glomerulonefrite membranosa, que são classicamente mais associadas à hepatite B. As demais afirmações sobre HBV/HCV, transmissão fecal-oral de HAV/HAE e monitorização de anti-HBs em profissionais de saúde estão corretas.",
+      "theme": "hep_c",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] SCM-SP R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_097",
+      "statement": "A abordagem laboratorial inicial e de rotina do paciente portador da hepatite C crônica possui múltiplos objetivos, sendo correto que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Os exames não podem definir o momento de início do tratamento; o tipo de tratamento instituído; a qualidade da resposta obtida com a terapêutica; e o rastreamento de câncer."
+        },
+        {
+          "key": "b",
+          "text": "Os exames podem definir o momento de início do tratamento; o tipo de tratamento instituído; a qualidade da resposta obtida com a terapêutica; e não o rastreamento de câncer."
+        },
+        {
+          "key": "c",
+          "text": "Os exames podem definir o momento de início do tratamento; o tipo de tratamento instituído; a qualidade da resposta obtida com a terapêutica; e o rastreamento de câncer."
+        },
+        {
+          "key": "d",
+          "text": "Os exames podem definir o momento de início do tratamento; nunca o tipo de tratamento instituído; a qualidade da resposta obtida com a terapêutica; e o rastreamento de câncer."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A avaliação laboratorial de rotina na hepatite C crônica serve para definir o momento de início do tratamento, o tipo de esquema terapêutico, a qualidade da resposta virológica e também o rastreamento de carcinoma hepatocelular em pacientes com fibrose avançada/cirrose.",
+      "theme": "hep_c",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] HOA R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_098",
+      "statement": "No curso da infeccao pelo HBV, o HBsAg:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "E produzido em pequenas quantidades e pode ser detectado no sangue da maioria dos individuos infectados cerca de 30 dias apos a infeccao."
+        },
+        {
+          "key": "b",
+          "text": "E produzido em grandes quantidades e nao pode ser detectado no sangue da maioria dos individuos infectados cerca de 10 dias apos a infeccao."
+        },
+        {
+          "key": "c",
+          "text": "E produzido em grandes quantidades e pode ser detectado no sangue da maioria dos individuos infectados cerca de 100 dias apos a infeccao."
+        },
+        {
+          "key": "d",
+          "text": "E produzido em grandes quantidades e pode ser detectado no sangue da maioria dos individuos infectados cerca de 30 dias apos a infeccao."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O HBsAg é produzido em grandes quantidades durante a infecção pelo HBV e pode ser detectado no sangue da maioria dos indivíduos infectados por volta de 30 dias após a exposição.",
+      "theme": "hep_b",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] ISCMA R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_099",
+      "statement": "Paciente masculino, 45 anos, agricultor, morador de uma área rural no interior do Rio Grande do Sul. História Clínica: O paciente foi atendido em um hospital de campanha três semanas após uma enchente que devastou sua comunidade. Ele relata múltiplos problemas de saúde desde que foi deslocado para um abrigo temporário superlotado. Nos últimos sete dias, desenvolveu diarreia aquosa, associada a dores abdominais e vômitos. Além disso, descreve episódios de febre intermitente, cefaleia e dor retro-orbitária. O paciente também apresenta uma lesão puntiforme no pé direito, resultado de uma ferida causada por um pedaço de metal enferrujado durante a enchente. Relata, ainda, dores musculares e cãibras nos últimos dias. Sua esposa, que está no mesmo abrigo, desenvolveu sintomas respiratórios agudos. Ele expressa preocupação com a segurança das filhas adolescentes, temendo violência sexual no abrigo. Exames Físicos: - PA: 90/60 mmHg -FC:105 bpm - Temperatura:38,4°C Ao exame físico revela desidratação moderada, abdome doloroso à palpação difusa, lesão puntiforme com eritema e edema no pé direito, além de icterícia leve. História de Saúde: Paciente hipertenso, em uso irregular de medicamentos. Tem histórico de episódios anteriores de dengue, mas nunca apresentou hepatite ou outra doença infecciosa crônica. A icterícia leve no paciente levanta a suspeita de hepatite A. Qual das seguintes medidas é a mais adequada para o manejo inicial da hepatite A no contexto apresentado no texto?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Administração de antivirais específicos e internação hospitalar."
+        },
+        {
+          "key": "b",
+          "text": "Hidratação oral vigorosa e repouso, com controle sintomático."
+        },
+        {
+          "key": "c",
+          "text": "Uso de antibióticos de amplo espectro e suplementação hepática."
+        },
+        {
+          "key": "d",
+          "text": "Tratamento com corticoides para reduzir a inflamação hepática."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Considerando a hipótese de hepatite A levantada no enunciado, o manejo inicial é de suporte clínico — hidratação oral vigorosa, repouso e controle sintomático — já que não há tratamento antiviral específico e a doença costuma ser autolimitada.",
+      "theme": "hep_a",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] UNITAU R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_100",
+      "statement": "Com relação ao diagnóstico da infecção pelo vírus da hepatite C é CORRETO afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A sorologia mostrando anti-HCV positivo confirma o diagnóstico."
+        },
+        {
+          "key": "b",
+          "text": "O exame confirmatório usado na prática clínica é o PCR qualitativo."
+        },
+        {
+          "key": "c",
+          "text": "A confirmação diagnóstica é feita pelo PCR quantitativo."
+        },
+        {
+          "key": "d",
+          "text": "A biópsia hepática é imprescindível para confirmar a infecção."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O diagnóstico confirmatório da infecção pelo HCV é feito pela detecção do RNA viral por PCR quantitativo, que também fornece a carga viral basal para orientar o tratamento; o anti-HCV isolado é apenas triagem.",
+      "theme": "hep_c",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] IOVALE R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_101",
+      "statement": "A infecção por HAV em indivíduos com mais de 50 anos:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Evolui de forma mais leve e assintomática, ocorrendo icterícia em mais de 70% dos pacientes."
+        },
+        {
+          "key": "b",
+          "text": "Evolui de forma mais grave e sintomática, ocorrendo icterícia em mais de 99% dos pacientes."
+        },
+        {
+          "key": "c",
+          "text": "Evolui de forma mais grave e sempre assintomática, ocorrendo icterícia em mais de 70% dos pacientes."
+        },
+        {
+          "key": "d",
+          "text": "Evolui de forma mais grave e sintomática, ocorrendo icterícia em mais de 70% dos pacientes."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A hepatite A em indivíduos com mais de 50 anos evolui de forma mais grave e sintomática, com icterícia presente em mais de 70% dos casos, ao contrário do padrão predominantemente assintomático da infância.",
+      "theme": "hep_a",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] SCM-CG R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_102",
+      "statement": "Paciente masculino, de 53 anos, veio à consulta por desejar submeter-se a um check-up por insistência da esposa com quem se casara recentemente. Informou não realizar acompanhamento de saúde há muitos anos. No momento, não fazia uso de medicamentos nem apresentava queixas relacionadas à sua saúde. Trouxe resultado de um exame realizado há 11 anos em que constava: Amostra reagente para o anticorpo contra o vírus da hepatite C (anti-HCV). Informou nunca ter feito tratamento específico para hepatite C. Com base no quadro, qual a conduta mais adequada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar AST e ALT; se os resultados estiverem dentro da faixa da normalidade, manter o acompanhamento com os mesmos exames anualmente."
+        },
+        {
+          "key": "b",
+          "text": "Solicitar carga viral para hepatite C; se estiver com carga viral indetectável, encerrar a investigação para hepatite C."
+        },
+        {
+          "key": "c",
+          "text": "Iniciar tratamento com antivirais de ação direta para hepatite C."
+        },
+        {
+          "key": "d",
+          "text": "Considerar o caso como cura espontânea com desenvolvimento de imunidade permanente para hepatite C e encerrar a investigação."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de um anti-HCV reagente antigo sem investigação posterior, não se pode presumir cura espontânea; a conduta adequada é solicitar a carga viral (RNA-HCV) — se indetectável, encerra-se a investigação; se detectável, confirma-se infecção ativa e indica-se tratamento.",
+      "theme": "hep_c",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] HCPA R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_103",
+      "statement": "Sobre as hepatites virais, assinale a alternativa INCORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Os vírus causadores de todas as hepatites virais são vírus RNA."
+        },
+        {
+          "key": "b",
+          "text": "As hepatites virais A e E são transmitidas pela via fecal-oral."
+        },
+        {
+          "key": "c",
+          "text": "A vacina da hepatite B (recombinante) é recomendada, de forma universal, a partir do nascimento. A aplicação da 1ª dose nas primeiras 12-24 horas de vida resulta em alta eficácia na prevenção da infecção transmitida verticalmente."
+        },
+        {
+          "key": "d",
+          "text": "A vacina hepatite A (inativada) purificada é indicada no calendário básico de vacinação da criança do Ministério da Saúde."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A afirmação é incorreta porque nem todos os vírus causadores de hepatite são RNA vírus: o vírus da hepatite B é um hepadnavírus de DNA. As demais alternativas sobre transmissão fecal-oral de HAV/HAE e o esquema vacinal contra hepatite B ao nascimento estão corretas.",
+      "theme": "hep_b",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] HOA-AC R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_104",
+      "statement": "Sobre a hepatite A é correto afirmar:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O surgimento de manifestação extra-hepática é frequente."
+        },
+        {
+          "key": "b",
+          "text": "É a hepatite viral menos prevalente na infância."
+        },
+        {
+          "key": "c",
+          "text": "É doença de notificação compulsória."
+        },
+        {
+          "key": "d",
+          "text": "A vacina contra a hepatite A é composta por vírus vivo atenuado."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A hepatite A é uma doença de notificação compulsória no Brasil; manifestações extra-hepáticas são raras (diferente de HBV/HCV), a vacina é inativada (não de vírus vivo atenuado), e a doença é historicamente muito prevalente na infância em áreas de saneamento precário.",
+      "theme": "hep_a",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] HMA-SP R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_105",
+      "statement": "Chega ao berçário um recém-nascido com 1 hora de vida, filho de mãe com HBsAg positivo diagnosticada durante o pré-natal. Sobre a conduta específica para esse RN, deve-se:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "manter a rotina de cuidados neonatais, administrando a vacina contra a hepatite B respeitando-se o calendário preconizado pelo Programa Nacional de Imunizações, pois o exame da mãe indica que ela já está imunizada para hepatite."
+        },
+        {
+          "key": "b",
+          "text": "administrar vacina contra hepatite B o quanto antes, preferencialmente nas primeiras12 horas de vida e administrar imunoglobulina humana anti-hepatite B."
+        },
+        {
+          "key": "c",
+          "text": "administrar vacina contra hepatite B o quanto antes, preferencialmente nas primeiras12 horas de vida; contraindicar aleitamento materno e não administrar imunoglobulinahumana anti-hepatite B."
+        },
+        {
+          "key": "d",
+          "text": "administrar somente imunoglobulina humana anti-hepatite B nas primeiras 12-24horas de vida e adiar vacina de hepatite B."
+        },
+        {
+          "key": "e",
+          "text": "prescrever antiviral e imunoglobulina humana anti- -hepatite B nas primeiras 72 horasde vida."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Recém-nascido de mãe HBsAg positiva deve receber, o quanto antes (preferencialmente nas primeiras 12 horas de vida), tanto a vacina contra hepatite B quanto a imunoglobulina humana anti-hepatite B, medidas que juntas reduzem drasticamente o risco de transmissão vertical.",
+      "theme": "hep_b",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] SMS-PIRACICABA R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_106",
+      "statement": "Rafaela, 32 anos, recebeu uma transfusão sanguínea há 15 anos. O teste mais apropriado para rastreio de hepatite C é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Anticorpo anti-HCV."
+        },
+        {
+          "key": "b",
+          "text": "Alanina aminotransferase (ALT)."
+        },
+        {
+          "key": "c",
+          "text": "RNA do HCV."
+        },
+        {
+          "key": "d",
+          "text": "Biópsia hepática."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O teste inicial apropriado para rastreio de hepatite C em paciente com fator de risco (transfusão prévia) é a pesquisa do anticorpo anti-HCV.",
+      "theme": "hep_c",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] SCML R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_107",
+      "statement": "Leia o caso clínico. Homem de 35 anos com história de hepatite há um ano. O médico assistente solicitou exames para hepatite A, B e C, cujos resultados foram os seguintes: Anti-HBc IgG = positivo / HBsAg = positivo / HBeAg = positivo / DNA HBV = 2.008.545 UI/mL / ALT = 35 U/mL (VR: <40 UI/mL) / Anti-HAV IgG = positivo / Anti-HAV Igm = negativo / Anti-HCV = negativo. Após seis meses, os exames foram repetidos e apresentaram: HBsAg = positivo / HBeAg = positivo / DNA HBV = 108 UI/mL / ALT = 38 U/mL. Qual é o diagnóstico do paciente?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Infecção crônica pelo HBV, sem sinais de inflamação hepática atual."
+        },
+        {
+          "key": "b",
+          "text": "Hepatite B pregressa, em fase de cura virológica."
+        },
+        {
+          "key": "c",
+          "text": "Infecção crônica pelo HBV, com inflamação hepática atual."
+        },
+        {
+          "key": "d",
+          "text": "Cirrose hepática por HBV."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Apesar da persistência de HBsAg e HBeAg positivos, a ALT permaneceu normal em ambas as avaliações (com queda expressiva do DNA-VHB), o que caracteriza infecção crônica pelo HBV sem sinais bioquímicos de inflamação hepática atual.",
+      "theme": "hep_b",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] SES-GO R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_108",
+      "statement": "A Secretaria de Estado da Saúde de São Paulo registrou, de janeiro até o dia 4 de julhodeste ano, 1.602 casos e 123 óbitos causados por infecções pelos diferentes vírus causadores de hepatite. Esses números apresentam uma tendência de queda no númerode mortes relacionadas registradas nos últimos cinco anos. (Disponível em<https://bvsms.saude.gov.br/bvs/publicacoes/manual_tecnico_diagnostico_hepatites_virais.pdf>.Acesso em: 7 dez. 2023). Um dos motivos da redução da prevalência e da gravidade dashepatites virais crônicas é a (o)",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "vacinação contra a hepatite C."
+        },
+        {
+          "key": "b",
+          "text": "aumento da eficácia dos novos interferons."
+        },
+        {
+          "key": "c",
+          "text": "erradicação da hepatite E no Brasil."
+        },
+        {
+          "key": "d",
+          "text": "eficácia dos antivirais contra a hepatite C."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "A redução da prevalência e gravidade da hepatite C crônica nos últimos anos deve-se principalmente à alta eficácia dos antivirais de ação direta, que curam a maioria dos pacientes tratados; não existe vacina contra hepatite C.",
+      "theme": "hep_c",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] SES-DF R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_109",
+      "statement": "Quatro pacientes adultos aguardam atendimento. Auxiliar de enfermagem: HBsAg não reagente, anti HBc total reagente, anti-HBs reagente. Motorista da ambulância:HBsAg não reagente, anti HBc total não reagente, anti-HBs não reagente. Enfermeiro: HBsAg reagente, anti HBc IgM reagente, anti-HBs não reagente. Diretor do Hospital: HBsAg não reagente, anti HBc total não reagente, anti-HBs reagente. Avalie o perfil sorológico da hepatite B viral (HBV) e assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O auxiliar de enfermagem e o motorista da ambulância devem ser vacinados contra o VHB."
+        },
+        {
+          "key": "b",
+          "text": "O motorista da ambulância e o diretor do hospital apresentam contato prévio com o VHB."
+        },
+        {
+          "key": "c",
+          "text": "O enfermeiro apresenta infecção recente pelo VHB."
+        },
+        {
+          "key": "d",
+          "text": "O enfermeiro deve receber uma dose de reforço da vacina contra o VHB."
+        },
+        {
+          "key": "e",
+          "text": "O diretor do hospital apresenta infecção crônica pelo VHB."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "O perfil HBsAg reagente com anti-HBc IgM reagente do enfermeiro caracteriza infecção recente (aguda) pelo HBV. O auxiliar de enfermagem já tem imunidade natural (não precisa de vacina), o motorista é susceptível (precisa vacinar, mas não teve contato prévio), e o diretor tem perfil vacinal (não infecção crônica).",
+      "theme": "hep_b",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] FGV OUTRAS PROVAS 2024",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_110",
+      "statement": "Gabriela, 45 anos, tem histórico de transfusão sanguínea na década de 80. Atualmente, ela apresenta elevação das transaminases e testes sorológicos positivos para um vírus. Qual é o vírus mais provavelmente responsável pelos sintomas de Gabriela?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Vírus da hepatite C (HCV)."
+        },
+        {
+          "key": "b",
+          "text": "HIV."
+        },
+        {
+          "key": "c",
+          "text": "Vírus da hepatite A (HAV)."
+        },
+        {
+          "key": "d",
+          "text": "Vírus da hepatite B (HBV)."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Transfusão sanguínea na década de 1980, período anterior à triagem sorológica para hepatite C (implementada apenas a partir de 1990), é fator de risco clássico para infecção pelo HCV, principal causa de elevação crônica de transaminases nesse contexto.",
+      "theme": "hep_c",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] HOA R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_111",
+      "statement": "O HCV é um vírus cujo genoma é constituído por uma única molécula de RNA de polaridade positiva, que possui, aproximadamente, 9.600 bases.",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O genoma viral é traduzido via IRES para produzir uma poliproteína, que é clivada durante e após a tradução por proteases celulares e virais em dez produtos gênicos. A região amino-terminal não codifica as proteínas estruturais, que são aquelas incorporadas na partícula viral: a proteína do capsídeo (C) e as glicoproteínas de envelope (E1 e E2)."
+        },
+        {
+          "key": "b",
+          "text": "O genoma viral é traduzido via IRES para produzir uma poliproteína, que é clivada durante e após a tradução por proteases celulares e virais em dez produtos gênicos. A região amino-terminal codifica as proteínas estruturais, que são aquelas incorporadas na partícula viral: a proteína do capsídeo (C) e as glicoproteínas de envelope (E1 e E2)."
+        },
+        {
+          "key": "c",
+          "text": "O genoma viral é traduzido via IRES para produzir uma poliproteína, que é clivada durante e após a tradução por proteases celulares e virais em dez produtos gênicos. A região amino-terminal codifica as proteínas estruturais, que são aquelas nunca incorporadas na partícula viral: a proteína do capsídeo (C) e as glicoproteínas de envelope (E1 e E2)."
+        },
+        {
+          "key": "d",
+          "text": "O genoma viral é traduzido via IRES para produzir uma poliproteína, que é clivada durante e não após a tradução por proteases celulares e virais em dez produtos gênicos. A região amino-terminal codifica as proteínas estruturais, que são aquelas incorporadas na partícula viral: a proteína do capsídeo (C) e as glicoproteínas de envelope (E1 e E2)."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "No genoma do HCV, a região amino-terminal da poliproteína codifica as proteínas estruturais que compõem a partícula viral: a proteína do capsídeo (C) e as glicoproteínas de envelope (E1 e E2).",
+      "theme": "hep_c",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] OASE R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_112",
+      "statement": "O papel da resposta imune inata na resolução da infecção pelo HBV ainda não estátotalmente elucidado. Sendo correto que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A infecção pelo HBV pode ser espontaneamente curada (desaparecimento viral) antesdo desenvolvimento de uma resposta imune humoral."
+        },
+        {
+          "key": "b",
+          "text": "A infecção pelo HBV pode ser espontaneamente curada (desaparecimento viral)somente após do desenvolvimento de uma resposta imune humoral."
+        },
+        {
+          "key": "c",
+          "text": "A infecção pelo HBV não pode ser espontaneamente curada (desaparecimento viral)antes do desenvolvimento de uma resposta imune humoral."
+        },
+        {
+          "key": "d",
+          "text": "A infecção pelo HBV pode ser espontaneamente curada (sem o desaparecimento viral)antes do desenvolvimento de uma resposta imune humoral."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A infecção pelo HBV pode ser espontaneamente controlada (com clareamento viral) antes mesmo do desenvolvimento completo da resposta imune humoral, graças ao papel importante da imunidade inata e celular nesse processo.",
+      "theme": "hep_b",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] SCMMA R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_113",
+      "statement": "Um paciente, contactante de pessoa com Hepatite B, chega em seu consultório com os seguintes exames: HBsAg não reagente; Anti-HBc total reagente; Anti-HBc IgM não reagente; HBeAg não reagente; Anti-HBe não reagente; e AntiHBs reagente. Estes exames significam:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hepatite B aguda."
+        },
+        {
+          "key": "b",
+          "text": "Hepatite B crônica."
+        },
+        {
+          "key": "c",
+          "text": "Hepatite B cura funcional."
+        },
+        {
+          "key": "d",
+          "text": "Imunizado por vacinação."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "HBsAg negativo, anti-HBc total reagente (mas IgM negativo) e anti-HBs reagente em contactante de caso de hepatite B indicam infecção passada resolvida com imunidade adquirida, compatível com cura da infecção.",
+      "theme": "hep_b",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] UERN R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_114",
+      "statement": "A transmissão vertical do vírus da hepatite B ocorre durante a gestação e o parto, e é a principal fonte de transmissão em áreas endêmicas. A transmissão depende da carga viral e do estado imunológico da mãe. Na maioria desses casos, a infecção torna-se crônica. São sorologias encontradas nesses pacientes com hepatite B crônica inativa: I.Anti-Hbe: reagente. II. Anti-Hbc total: reagente. III. HbsAg: reagente. Quais estão corretas?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apenas I."
+        },
+        {
+          "key": "b",
+          "text": "Apenas III."
+        },
+        {
+          "key": "c",
+          "text": "Apenas I e II."
+        },
+        {
+          "key": "d",
+          "text": "Apenas II e III."
+        },
+        {
+          "key": "e",
+          "text": "I, II e III."
+        }
+      ],
+      "correct_key": "e",
+      "explanation": "No portador inativo da hepatite B crônica (HBsAg positivo há mais de 6 meses, com soroconversão para anti-HBe), espera-se HBsAg reagente, anti-HBc total reagente e anti-HBe reagente simultaneamente.",
+      "theme": "hep_b",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] UFSC R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_115",
+      "statement": "Gestante, G3P2, 26 anos, idade gestacional de 29 semanas, veio encaminhada de unidade básica de saúde devido aos seus resultados sorológicos referentes à hepatite B. O resumo destes exames estão listados a seguir: HBsAg: positivo HBeAg: negativo Anti HBsAg: negativo Anti HBeAg: positivo Anti HBcAg: positivo Baseado nestes exames sorológicos qual das alternativas é considerada correta para essa gestante?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Solicitar carga viral."
+        },
+        {
+          "key": "b",
+          "text": "Iniciar tenofovir."
+        },
+        {
+          "key": "c",
+          "text": "Solicitar novo anti HBsAg."
+        },
+        {
+          "key": "d",
+          "text": "Solicitar novo HBsAg."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Gestante HBsAg positiva deve ter a carga viral (DNA-VHB) solicitada para avaliar a necessidade de profilaxia antiviral no terceiro trimestre, independentemente do status de HBeAg/anti-HBe.",
+      "theme": "hep_b",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] USP-RP R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_116",
+      "statement": "Mulher, 24 anos de idade, está planejando uma gestação. Traz a seguinte sorologia: HBsAg positivo, anti-HBs negativo, anti-HBc total positivo, HBeAg positivo. Ela nega qualquer queixa clínica e o exame físico foi normal. A interpretação correta da sorologia dessa paciente é:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Contato com o virus B, gerando imunização."
+        },
+        {
+          "key": "b",
+          "text": "Virus B inativo e não replicante."
+        },
+        {
+          "key": "c",
+          "text": "Contato com o virus B, que está replicante."
+        },
+        {
+          "key": "d",
+          "text": "Imunização pós-vacina e falso-positivo."
+        },
+        {
+          "key": "e",
+          "text": "Imunização por vacina e contato secundário."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "HBsAg positivo, anti-HBs negativo, anti-HBc total positivo e HBeAg positivo caracterizam infecção pelo vírus B em replicação ativa (alta infectividade), exigindo avaliação e possível profilaxia antes/durante a gestação.",
+      "theme": "hep_b",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] HSL-SP R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_117",
+      "statement": "Masculino, 60 anos, cirrótico, portador do vírus da hepatite C foi submetido ao tratamento antiviral específico. Evoluiu satisfatoriamente e atingiu a resposta virológica sustentada. O rastreamento do carcinoma hepatocelular, em pacientes cirróticos, deve ser realizado:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a cada seis meses."
+        },
+        {
+          "key": "b",
+          "text": "uma vez por ano."
+        },
+        {
+          "key": "c",
+          "text": "a cada dois anos."
+        },
+        {
+          "key": "d",
+          "text": "a cada três anos."
+        },
+        {
+          "key": "e",
+          "text": "a cada cinco anos."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "O rastreamento de carcinoma hepatocelular em pacientes cirróticos, mesmo após resposta virológica sustentada ao tratamento da hepatite C, deve ser mantido semestralmente (a cada seis meses) com ultrassonografia.",
+      "theme": "hep_c",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] FGV OUTRAS PROVAS 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_118",
+      "statement": "De modo geral, a hepatite C aguda apresenta evolucao subclinica, com cerca de 80% de casos assintomaticos e anictericos, dificultando o diagnostico. Esta correto que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aproximadamente, 98% dos casos podem apresentar ictericia e 10% a 20% apresentam sintomas inespecificos, como anorexia, astenia, mal-estar e dor abdominal."
+        },
+        {
+          "key": "b",
+          "text": "Aproximadamente, 20% a 30% dos casos podem apresentar ictericia e 10% a 20% apresentam sintomas inespecificos, como anorexia, astenia, mal-estar e nunca a dor abdominal."
+        },
+        {
+          "key": "c",
+          "text": "Aproximadamente, 20% a 30% dos casos podem apresentar ictericia e 10% a 20% apresentam sintomas inespecificos, exceto anorexia, astenia, mal-estar e dor abdominal."
+        },
+        {
+          "key": "d",
+          "text": "Aproximadamente, 20% a 30% dos casos podem apresentar ictericia e 10% a 20% apresentam sintomas inespecificos, como anorexia, astenia, mal-estar e dor abdominal."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Na hepatite C aguda, aproximadamente 20-30% dos casos apresentam icterícia e 10-20% apresentam sintomas inespecíficos como anorexia, astenia, mal-estar e dor abdominal, sendo a maioria dos casos subclínica.",
+      "theme": "hep_c",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] ISCMA R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_119",
+      "statement": "Paciente do sexo feminino, 39 anos, refere que realizou exames de rotina solicitados pela sua ginecologista, com resultado de anti-HCV positivo. Relata que foi orientada a procurar o clínico para avaliação. A conduta a seguir nesse caso é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "informar à paciente que ela é portadora de hepatite C e que deverá iniciar imediatamente tratamento antivírus."
+        },
+        {
+          "key": "b",
+          "text": "informar à paciente que apenas com esse exame não é possível diagnosticar hepatite C, e deve-se solicitar a dosagem do RNA-HCV."
+        },
+        {
+          "key": "c",
+          "text": "informar à paciente que ela é portadora de hepatite C, e deve-se solicitar elastografia hepática."
+        },
+        {
+          "key": "d",
+          "text": "informar à paciente que apenas com esse exame não é possível diagnosticar hepatite C, e deve-se solicitar a dosagem do DNA-HCV."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O anti-HCV positivo isolado, encontrado em exame de rotina, não é suficiente para diagnosticar hepatite C; é necessário solicitar o RNA-HCV para confirmação.",
+      "theme": "hep_c",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] ABC R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_120",
+      "statement": "Dos seguintes marcadores sorológicos e virais, marque a alternativa que se esperaencontrar na hepatite B aguda:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "HBsAg positivo, anti HBs negativo, HBeAg positivo, anti HBc IgM positivo."
+        },
+        {
+          "key": "b",
+          "text": "HBsAg positivo, anti HBs negativo, HBeAg negativo, anti HBc IgG positivo."
+        },
+        {
+          "key": "c",
+          "text": "HBsAg negativo, anti HBs positivo, HBeAg negativo, anti HBc IgM positivo."
+        },
+        {
+          "key": "d",
+          "text": "HBsAg negativo, anti HBs positivo, HBeAg positivo, anti HBc IgG positivo."
+        },
+        {
+          "key": "e",
+          "text": "HBsAg positivo, anti HBs positivo, HBeAg positivo, anti HBc IgM e IgG negativos"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Na hepatite B aguda espera-se HBsAg positivo, anti-HBs negativo, HBeAg positivo (replicação ativa) e anti-HBc IgM positivo (marcador de infecção recente).",
+      "theme": "hep_b",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] SEMAD R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_121",
+      "statement": "Francisca, 33 anos, está grávida há dois meses. Muito preocupada, durante a consulta com o médico de família e comunidade, em sua UBS, questionou sobre os exames de hepatite. Sua preocupação era porque no ano passado tinha apresentado um quadro de icterícia com diarréia, embora não tenha relatado contato com sangue e tenha tido contato sexual apenas com seu parceiro. Sabendo da preocupação em relação à hepatite B, assinale abaixo a questão mais CORRETA:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "O anti-HBs (anticorpo superficial do vírus da hepatite B) em altos níveis identifica imunidade. É um marcador que serve como resposta vacinal."
+        },
+        {
+          "key": "b",
+          "text": "O HBsAg (antígeno de superfície do vírus da hepatite B) é o primeiro marcador a aparecer, muitas vezes antes da sintomatologia de hepatite, estando presente no portador crônico."
+        },
+        {
+          "key": "c",
+          "text": "O HBsAg presente em mulheres grávidas representa um risco de transmissão vertical."
+        },
+        {
+          "key": "d",
+          "text": "Todas as respostas estão corretas."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Todas as afirmações estão corretas: o anti-HBs em altos títulos indica imunidade (frequentemente de origem vacinal), o HBsAg é o primeiro marcador a surgir (podendo preceder os sintomas e persistir no portador crônico), e a presença de HBsAg em gestante representa risco real de transmissão vertical do HBV.",
+      "theme": "hep_b",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] UERN R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_122",
+      "statement": "Recém-nascido prematuro de 32 semanas, peso de nascimento 1100g, cuja mãe é HbsAg positiva. Qual deve ser a conduta adequada?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Imunoglobulina para hepatite B nas primeiras 12h de vida e esquema vacinal conforme Programa Nacional de Imunizações, com doses de vacina contra hepatite B com 0, 2 e 6 meses."
+        },
+        {
+          "key": "b",
+          "text": "Sorologia para hepatite B nas primeiras 12h de vida e esquema vacinal conforme Programa Nacional de Imunizações com doses de vacina contra hepatite B com 0, 1, 2 e 6 meses."
+        },
+        {
+          "key": "c",
+          "text": "Imunoglobulina para hepatite B nas primeiras 12h de vida e esquema vacinal conforme Programa Nacional de Imunizações, com doses de vacina contra hepatite B com 0, 1, 2 e 6 meses."
+        },
+        {
+          "key": "d",
+          "text": "Dosar sorologias da mãe e bebê, fazer imunoglobulina para hepatite B apenas se recém-nascido HbsAg positivo, esquema vacinal conforme Programa Nacional de Imunizações, com doses de vacina contra hepatite B com 0, 2 e 6 meses."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Recém-nascidos prematuros de baixo peso, filhos de mães HBsAg positivas, devem receber imunoglobulina anti-hepatite B nas primeiras 12 horas de vida associada a um esquema vacinal estendido (0, 1, 2 e 6 meses), já que a resposta imune à vacina é menos eficaz nesses recém-nascidos.",
+      "theme": "hep_b",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] UNITAU R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_123",
+      "statement": "Bernardo, 30 anos, comparece à consulta em UBS para realização de exames de rotina. Um grupo de doenças frequentemente rastreadas em exames de rotina são as hepatites virais (principalmente hepatite B e C). Caso Bernardo tenha indicação, quais dos exames a seguir você solicitaria para realizar esse rastreio?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Anti-HBS e HbsAg."
+        },
+        {
+          "key": "b",
+          "text": "Anti-HCV e HbsAg."
+        },
+        {
+          "key": "c",
+          "text": "Anti-HCV e Anti-HBS."
+        },
+        {
+          "key": "d",
+          "text": "Anti-HCV e HbcAg."
+        },
+        {
+          "key": "e",
+          "text": "Anti-HBS e HbcAg."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "O rastreio de rotina para hepatites virais em adultos com indicação inclui a pesquisa de anti-HCV (hepatite C) e HBsAg (hepatite B).",
+      "theme": "hep_b",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] ENARE R3CM 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_124",
+      "statement": "Gestante, 30 anos, da entrada no serviço em trabalho de parto. Ao verificar o cartão de pré-natal, nota-se que a gestante apresenta HBSAg positivo. Nesse caso, a melhor conduta é",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "manter apenas cuidados de rotina, pois o recém-nascido não apresenta risco para hepatite B."
+        },
+        {
+          "key": "b",
+          "text": "realizar sorologia pareada da mãe e do recém-nascido para definir a conduta."
+        },
+        {
+          "key": "c",
+          "text": "administrar imunoglobulina e vacina de hepatite B no recém-nascido."
+        },
+        {
+          "key": "d",
+          "text": "proibir aleitamento materno, pelo risco de contaminação do recém-nascido."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Gestante HBsAg positiva em trabalho de parto: o recém-nascido deve receber imunoglobulina e vacina contra hepatite B, medida que reduz drasticamente a transmissão vertical; o aleitamento materno não é contraindicado.",
+      "theme": "hep_b",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] ABC R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_125",
+      "statement": "As hepatites são comuns nas crianças em todo o mundo, em especial em populações de baixa renda e em áreas de saneamento básico deficiente. Os programas de vacinação contra hepatite ajudam na prevenção. Diante do exposto, assinale a alternativa CORRETA",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "A hepatite aguda é preocupante na infância e tem etiologia infecciosa, com predomínio das hepatites A a G, com cerca de 5% de causas não conhecidas"
+        },
+        {
+          "key": "b",
+          "text": "A hepatite viral D, também conhecida como hepatite por agente delta, é um vírus que requer o vírus B para sua replicação e causa coinfecção com outras hepatites virais"
+        },
+        {
+          "key": "c",
+          "text": "A presença de HBsAg significa infecção aguda ou crônica pelo vírus da hepatite B, sendo que a antigenemia aparece no início da doença e, geralmente, é transitória, mas se mantém na infecção crônica"
+        },
+        {
+          "key": "d",
+          "text": "Uma das grandes preocupações de saúde pública é a infecção aguda fulminante ou a crônica pela hepatite A, em especial em populações pobres e sem acesso à vacinação"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "A presença de HBsAg significa infecção aguda ou crônica pelo HBV; a antigenemia surge no início da doença, é geralmente transitória nos casos agudos autolimitados, mas se mantém persistente na infecção crônica.",
+      "theme": "hep_b",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] PSU-MG R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_126",
+      "statement": "Gestante com 35 semanas e 2 dias de gestação que evolui para parto vaginal sem intercorrências. O pré-natal foi adequado, e a sorologia para hepatite B revelava HBsAg positivo. O recém-nascido, do sexo masculino, é pequeno para a idade gestacional, com peso de nascimento de 1.850 g. Qual a conduta a ser adotada para a prevenção de hepatite B nesse caso?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Vacina para hepatite B nas primeiras 12 horas de vida, sem necessidade de administração de imunoglobulina para hepatite B."
+        },
+        {
+          "key": "b",
+          "text": "Imunoglobulina específica contra a hepatite B, e a vacina para hepatite B só poderá ser administrada após atingir peso acima de 2.000 g."
+        },
+        {
+          "key": "c",
+          "text": "Vacina para hepatite B nas primeiras 12 horas de vida e imunoglobulina específica contra a hepatite B."
+        },
+        {
+          "key": "d",
+          "text": "Imunoglobulina específica contra a hepatite B, e aplicar a vacina para hepatite B após 30 dias de vida, em razão da prematuridade."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Independentemente do peso de nascimento, todo recém-nascido de mãe HBsAg positiva deve receber vacina contra hepatite B nas primeiras 12 horas de vida associada à imunoglobulina específica; o baixo peso pode indicar esquema vacinal estendido, mas não justifica atrasar ou omitir a imunoglobulina.",
+      "theme": "hep_b",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] IOG R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_127",
+      "statement": "Menina, 10 meses, é trazida pelo pai à Unidade Básica de Saúde. Ele relata que, há dez dias, a filha iniciou com febre, inapetência, náuseas e alguns episódios de vômito. Hoje ele se preocupou, pois a menina acordou \"amarelada\" e evacuou fezes esbranquiçadas. A febre e as manifestações iniciais desapareceram, e ela já está mais disposta. A alimentação é adequada, seu hábito intestinal é regular e nunca havia apresentado evacuação semelhante à eliminada hoje. A criança convive diariamente na creche com mais cinco crianças da mesma idade, algumas outras com mais de 15 meses e duas cuidadoras adultas jovens. O pai refere ainda que, tanto na sua moradia quanto nas casas da região, o saneamento básico é precário. Ao exame físico, apresenta mucosas ictéricas, leve distensão abdominal e hepatomegalia (3 cm abaixo do rebordo costal direito). Em relação ao diagnóstico mais provável, afirma-se: I. É realizado com o marcador positivo para o anticorpo anti-HVA IgM. II. A orientação pós- exposição para os contatos de convívio diário da criança é realizar vacina da hepatite A. III. Na evolução desses casos, a rápida diminuição do nível das aminotransferases, concomitante com o aumento das bilirrubinas e com o prolongamento do tempo de protrombina são preditores de mau prognóstico. Estão corretas as afirmativas",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "I e II, apenas."
+        },
+        {
+          "key": "b",
+          "text": "I e III, apenas."
+        },
+        {
+          "key": "c",
+          "text": "II e III apenas."
+        },
+        {
+          "key": "d",
+          "text": "I, II e III."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "O diagnóstico de hepatite A é confirmado por anti-HAV IgM reagente (item I), a profilaxia pós-exposição para contatos íntimos saudáveis é a vacina (item II), e a dissociação bilirrubina-transaminases (queda rápida das aminotransferases com elevação de bilirrubinas e alargamento do TP) é um conhecido preditor de mau prognóstico/evolução fulminante (item III) — todas as afirmativas estão corretas.",
+      "theme": "hep_a",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] PUC-RS R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_128",
+      "statement": "Em uma Unidade Básica de Saúde, o médico de família e comunidade atende, na mesma semana, 4 crianças entre 7 e 9 anos com quadro de febre baixa, fadiga, náuseas e icterícia há 4 dias. Exames laboratoriais evidenciam anticorpo IgM anti-HAV. A equipe de saúde identifica que todas frequentam a mesma escola, em cuja rua houve um transbordamento de esgoto na semana anterior ao início dos sintomas. Considerando as diretrizes de vigilância em saúde para controle de doenças transmissíveis e a organização da rede de atenção, qual deve ser o plano de intervenção?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Determinar o isolamento hospitalar dos casos para interromper a cadeia de transmissão fecal-oral na comunidade."
+        },
+        {
+          "key": "b",
+          "text": "Notificar o surto imediatamente e realizar a busca ativa de sintomáticos na escola e nos domicílios."
+        },
+        {
+          "key": "c",
+          "text": "Prescrever imunoglobulina humana para contatos da escola e domicílio."
+        },
+        {
+          "key": "d",
+          "text": "Suspender as atividades escolares por 45 dias para aguardar o término do período de incubação viral."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Diante de um provável surto de hepatite A associado a falha de saneamento (transbordamento de esgoto), a conduta de vigilância em saúde adequada é notificar imediatamente o surto e realizar busca ativa de sintomáticos na escola e nos domicílios, sem necessidade de isolamento hospitalar ou suspensão prolongada das aulas.",
+      "theme": "hep_a",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] INEP REVALIDA REVALIDA 2026",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_129",
+      "statement": "Na idade adulta, a doença Hepatite C pode evoluir para cirrose e CHC, estima-se quea evolução para o óbito:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Aumente em até 26 vezes nos adultos quando o HCV é adquirido na infância, seja portransmissão vertical ou parenteral."
+        },
+        {
+          "key": "b",
+          "text": "Reduza em até 26 vezes nos adultos quando o HCV é adquirido na infância, seja portransmissão vertical ou parenteral."
+        },
+        {
+          "key": "c",
+          "text": "Aumente em até 26 vezes nos adultos quando o HCV não é adquirido na infância, sejapor transmissão vertical ou parenteral."
+        },
+        {
+          "key": "d",
+          "text": "Aumente em até 26 vezes nos adultos quando o HCV é adquirido na infância, seja portransmissão vertical, mas não parenteral"
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "A aquisição da hepatite C na infância (por transmissão vertical ou parenteral) está associada a um aumento de até 26 vezes no risco de evolução para óbito relacionado à doença hepática na idade adulta, refletindo a longa duração da infecção crônica não tratada.",
+      "theme": "hep_c",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] SCML R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_130",
+      "statement": "As Infecções Sexualmente Transmissíveis (IST) são causadas por vírus, bactérias ou outros microrganismos. Elas são transmitidas, principalmente, por meio do contato sexual (oral, vaginal, anal) sem o uso de camisinha masculina ou feminina, com uma pessoa que esteja infectada. A vacina seria um recurso importante para prevenir essas infecções. Existe vacina contra a seguinte IST:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "tricomoníase."
+        },
+        {
+          "key": "b",
+          "text": "sífilis."
+        },
+        {
+          "key": "c",
+          "text": "HIV."
+        },
+        {
+          "key": "d",
+          "text": "hepatite B."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "Entre as infecções sexualmente transmissíveis, a hepatite B é a única para a qual existe vacina eficaz disponível; não há vacinas para tricomoníase, sífilis ou HIV.",
+      "theme": "hep_b",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] FAMEMA R1 2025",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_131",
+      "statement": "Uma paciente gestante portadora crônica do vírus da hepatite B, com elevada carga viral, apresenta indicação de submeter-se ao tratamento antiviral. Em um contexto de gestação, a droga de predileção é o(a):",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Tenofovir."
+        },
+        {
+          "key": "b",
+          "text": "Entecavir."
+        },
+        {
+          "key": "c",
+          "text": "Lamivudine."
+        },
+        {
+          "key": "d",
+          "text": "Interferon-peguilado."
+        },
+        {
+          "key": "e",
+          "text": "Ribavirina."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "Em gestantes portadoras crônicas de hepatite B com alta carga viral e indicação de tratamento antiviral, o tenofovir é a droga de escolha por seu perfil de segurança estabelecido na gestação.",
+      "theme": "hep_b",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] FGV OUTRAS PROVAS 2024",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_132",
+      "statement": "Em relação às hepatites virais, é correto afirmar que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "a hepatite A ocorre por transmissão oral-fecal e sempre tem evolução benigna."
+        },
+        {
+          "key": "b",
+          "text": "o perfil sorológico revelando anti-HbsAg positivo e anti HBc total negativo é compatível com o de indivíduos previamente vacinados."
+        },
+        {
+          "key": "c",
+          "text": "a evolução para cronicidade ocorre com maior frequência na hepatite B."
+        },
+        {
+          "key": "d",
+          "text": "o vírus B e C são geralmente eliminados até dois meses após a infecção aguda."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Anti-HBs positivo com anti-HBc total negativo é o perfil sorológico compatível com vacinação prévia contra hepatite B. A hepatite A nem sempre é benigna (pode raramente fulminar), a hepatite C tem taxa de cronificação maior que a hepatite B em adultos, e HBV/HCV frequentemente não são eliminados em dois meses, podendo cronificar.",
+      "theme": "hep_b",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] HSA-GUARUJA R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_133",
+      "statement": "Uma primigesta com 22 anos, dona de casa, comparece à unidade de saúde da família (USF) apresentando os resultados de exames solicitados na primeira consulta de pré-natal, realizada há 3 semanas, ao final do primeiro trimestre de gestação. Permanece sem queixas, refere estar usando regularmente o ácido fólico e o sulfato ferroso prescritos, mas diz estar preocupada com o exame de hepatite B. O médico verifica que a tipagem sanguínea é O+, que os testes rápidos para sífilis, HIV e hepatite C foram não reagentes e que todos os outros exames estão dentro da normalidade, apresentando a gestante, no entanto, AgHBs não reagente, Anti-HBc total não reagente e Anti-HBs reagente. Nesse caso, a interpretação dos últimos exames da paciente e a conduta a ser adotada são, respectivamente,",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Resultado compatível com hepatite B aguda; solicitar exames bioquímicos e encaminhar a paciente para acompanhamento no pré-natal de alto risco."
+        },
+        {
+          "key": "b",
+          "text": "Resultado compatível com hepatite B crônica; solicitar exames mais específicos e encaminhar a paciente para acompanhamento no pré-natal de alto risco."
+        },
+        {
+          "key": "c",
+          "text": "Resultado indicativo de suscetibilidade ao vírus da hepatite B; orientar a paciente a iniciar o esquema vacinal e a continuar o acompanhamento pré-natal na USF."
+        },
+        {
+          "key": "d",
+          "text": "Resultado indicativo de imunidade ao vírus da hepatite B; esclarecer a paciente de que não há motivo de preocupação e orientá-la a continuar o acompanhamento pré-natal na USF."
+        }
+      ],
+      "correct_key": "d",
+      "explanation": "AgHBs não reagente, anti-HBc total não reagente e anti-HBs reagente isolado indicam imunidade ao HBV (provavelmente vacinal), devendo a gestante ser tranquilizada e seguir o pré-natal normalmente, sem necessidade de vacinação ou investigação adicional.",
+      "theme": "hep_b",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] INEP REVALIDA 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_134",
+      "statement": "Paciente de 25 anos de idade comparece à Unidade Básica de Saúde informando que teve contato com água de enchente, sem uso de proteção há 15 dias. Iniciou há uma semana com febre de 38%, mialgia, náuseas, vômitos e dor no hipocôndrio direito. Há dois dias relata que teve melhora parcial do quadro, mas ficou ictérico. Ao exame apresenta-se corado, hidratado, ictérico (++/4+), acianótico. Restante do exame físico estava normal, exceto no exame de abdome, onde apresentou dor à palpação no hipocôndrio direito e hepatomegalia a 4cm do RCD. No dia anterior havia realizado laboratoriais onde foi visto hemograma sem alterações, bilirrubinas totais de 16mg/dL (à custa de bilirrubina direta = 14mg/dL), TGO = 500U/L e TGP = 3.000U/L. Ureia, creatinina e eletrólitos sem alterações. Levando em consideração os aspectos epidemiológicos, dos exames abaixo, qual é o indicado para a confirmação diagnóstica deste caso:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Biologia molecular (RT-PCR) para leptospirose"
+        },
+        {
+          "key": "b",
+          "text": "Exame sorológico para febre amarela (dosagem de anticorpo IgG)"
+        },
+        {
+          "key": "c",
+          "text": "Exame sorológico para hepatite A (Anti-HAV IgM)"
+        },
+        {
+          "key": "d",
+          "text": "Teste rápido imunocromatográfico para o diagnóstico de leishmaniose visceral"
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Apesar do contexto epidemiológico de enchente sugerir leptospirose, a elevação muito acentuada e desproporcional das transaminases (TGP=3.000 U/L, TGO=500 U/L) em relação à bilirrubina é típica de hepatite viral aguda — diferente da leptospirose, em que a hiperbilirrubinemia é desproporcionalmente maior que a discreta elevação das transaminases. O exame indicado para confirmação é a sorologia para hepatite A (Anti-HAV IgM).",
+      "theme": "hep_a",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] PSU-MG R1 2024",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_135",
+      "statement": "Mais de 90% dos adultos infectados conseguem reverter os sintomas e desenvolver anticorpos específicos contra os antígenos HBeAg e HBsAg circulantes, que garantem proteção de longo prazo contra a doença. Está correto que:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Apesar da recuperação clínica, o DNA do HBV ainda pode ser detectado em níveis basais e sua expressão é controlada pela imunidade humoral e não pela celular."
+        },
+        {
+          "key": "b",
+          "text": "Apesar da recuperação clínica, o DNA do HBV ainda pode ser detectado em níveis basais e sua expressão é controlada pela imunidade humoral e celular."
+        },
+        {
+          "key": "c",
+          "text": "Apesar da recuperação clínica, o DNA do HBV não pode ser detectado em níveis basais e sua expressão é controlada pela imunidade humoral e celular."
+        },
+        {
+          "key": "d",
+          "text": "Apesar da recuperação clínica, o DNA do HBV ainda pode ser detectado em níveis basais e sua expressão não é controlada pela imunidade humoral e celular."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Mesmo após a recuperação clínica da hepatite B aguda, o DNA do HBV (cccDNA) pode permanecer detectável em níveis basais nos hepatócitos, mantido sob controle por vigilância imunológica humoral e celular contínua.",
+      "theme": "hep_b",
+      "difficulty": "dificil",
+      "source": "[PÚBLICA] SCM-CG R1 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_136",
+      "statement": "Uma criança de 8 anos, previamente saudável, é avaliada por quadro de febre baixa, náuseas, prostração, dor abdominal e icterícia. Há 2 dias, os pais notaram urina escura e fezes claras. A criança frequenta escola pública e, recentemente, colegas de classe apresentaram sintomas semelhantes. No exame, observa-se hepatomegalia dolorosa e icterícia. AST e ALT estão significativamente elevadas; bilirrubina total: 6,5 mg/dL (direta: 4,2 mg/dL). Aguarda resultado de sorologias. De acordo com os dados apresentados, a conduta imediata adequada consiste em:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Iniciar antibioticoterapia empírica com ceftriaxona, devido à possibilidade de colangite aguda."
+        },
+        {
+          "key": "b",
+          "text": "Realizar lavagem gástrica e uso de carvão ativado devido à suspeita de intoxicação exógena."
+        },
+        {
+          "key": "c",
+          "text": "Instituir medidas de suporte clínico e sintomático, com hidratação, alimentação leve e observação."
+        },
+        {
+          "key": "d",
+          "text": "Iniciar tratamento com antivirais, como ribavirina, enquanto aguarda sorologia."
+        }
+      ],
+      "correct_key": "c",
+      "explanation": "Quadro típico de hepatite A aguda em criança com contexto de surto escolar: a conduta imediata adequada é o suporte clínico e sintomático (hidratação, alimentação leve, observação), sem indicação de antibióticos, antivirais ou medidas de descontaminação.",
+      "theme": "hep_a",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] EINSTEIN OUTRAS PROVAS 2026",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_137",
+      "statement": "Mulher, 28 anos, procura atendimento médico após seu irmão receber o diagnóstico de hepatite B. Assintomática. Exames laboratoriais: HBsAg negativo; anti HBc IgG positivo; HBeAg negativo; anti HBs positivo; anti HBe positivo. Como devemos interpretar estes resultados?",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Cura funcional da hepatite B."
+        },
+        {
+          "key": "b",
+          "text": "Vacinação prévia para hepatite B."
+        },
+        {
+          "key": "c",
+          "text": "Imunotolerância ao vírus B."
+        },
+        {
+          "key": "d",
+          "text": "Infecção crônica pelo vírus B."
+        }
+      ],
+      "correct_key": "a",
+      "explanation": "HBsAg negativo com anti-HBc IgG, anti-HBs e anti-HBe positivos e HBeAg negativo caracterizam infecção pregressa pelo HBV resolvida com soroconversão completa, compatível com cura funcional da hepatite B.",
+      "theme": "hep_b",
+      "difficulty": "medio",
+      "source": "[PÚBLICA] USP-RP R3CM 2023",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
+    },
+    {
+      "id": "hepv_138",
+      "statement": "Homem, 28 anos de idade, previamente hígido, procura a Unidade Básica de Saúde (UBS) com queixa de icterícia, náuseas, hiporexia e mal-estar geral há 5 dias. Refere que a urina está muito escura (\"cor de Coca-Cola\") e as fezes mais claras. Teve um episódio de febre (38,2°C) no primeiro dia dos sintomas. Ao ser questionado sobre possíveis fontes de infecção no último mês, nega viagens recentes ou consumo de alimentos de risco, como frutos do mar crus ou água de fonte não tratada. Informa ser homem que faz sexo com homens (HSH) e relata ter tido um novo parceiro sexual recentemente. Refere não ter recebido a vacina contra hepatite A ou B. Ao exame físico, apresenta-se em bom estado geral, afebril, normocorado, com icterícia escleral (++/4+). O abdome está flácido, com dor leve à palpação profunda do hipocôndrio direito, sem visceromegalias. O restante do exame está sem alterações. Foram solicitados exames laboratoriais que mostraram: ALT (TGP) 2.850 U/L; AST (TGO) 1.980 U/L; Bilirrubina total 9,5 mg/dL (Direta 7,8 mg/dL). Os marcadores para hepatites virais retornaram com os seguintes resultados: Anti-VHA IgM: Reagente; Anti-VHA IgG: Não Reagente; HBsAg: Não Reagente; Anti-HBc total: Não Reagente; Anti-HCV: Não Reagente. Sorologias para HIV e sífilis foram negativas. Com base nos resultados dos marcadores sorológicos apresentados, indique o diagnóstico correto para este paciente:",
+      "alternatives": [
+        {
+          "key": "a",
+          "text": "Hepatite B aguda."
+        },
+        {
+          "key": "b",
+          "text": "Hepatite A aguda."
+        },
+        {
+          "key": "c",
+          "text": "Hepatite C aguda."
+        },
+        {
+          "key": "d",
+          "text": "Coinfecção aguda por hepatites A e C."
+        }
+      ],
+      "correct_key": "b",
+      "explanation": "Anti-VHA IgM reagente, com HBsAg, anti-HBc total e anti-HCV não reagentes, confirma o diagnóstico de hepatite A aguda, apesar dos fatores de risco sexuais apresentados pelo paciente.",
+      "theme": "hep_a",
+      "difficulty": "facil",
+      "source": "[PÚBLICA] PSU-AL R1 2026",
+      "reviewed": false,
+      "created_at": "2026-07-31T00:00:00.000Z"
     }
   ]
 }
