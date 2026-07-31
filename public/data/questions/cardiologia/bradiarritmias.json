@@ -51,7 +51,7 @@
         }
       ],
       "correct_key": "d",
-      "explanation": "",
+      "explanation": "Resposta segue o gabarito oficial da fonte (BAV 2º grau Mobitz II), achado compatível com uso de betabloqueador em dose alta (propranolol 120mg/dia).",
       "theme": "arr_brady",
       "difficulty": "medio",
       "reviewed": true,
@@ -169,7 +169,7 @@
         }
       ],
       "correct_key": "a",
-      "explanation": "",
+      "explanation": "Resposta segue o gabarito oficial (BAV 2º grau Mobitz II associado a bloqueio bifascicular — ramo direito + divisão ântero-superior), configurando doença infra-hissiana do sistema de condução, coerente com a gravidade clínica da paciente.",
       "theme": "arr_brady",
       "difficulty": "dificil",
       "reviewed": true,
@@ -254,7 +254,7 @@
         }
       ],
       "correct_key": "c",
-      "explanation": "",
+      "explanation": "Resposta segue o gabarito oficial (BAV 2º grau Mobitz I), achado frequentemente incidental/benigno em pacientes hígidos com alto tônus vagal, especialmente durante esforço.",
       "theme": "arr_brady",
       "difficulty": "medio",
       "reviewed": true,
@@ -287,7 +287,7 @@
         }
       ],
       "correct_key": "c",
-      "explanation": "",
+      "explanation": "Resposta segue o gabarito oficial: BAVT atribuído ao uso de amitriptilina (antidepressivo tricíclico com efeitos cronotrópicos/dromotrópicos negativos e cardiotoxicidade conhecida), e não ao betabloqueador atenolol, que classicamente causa graus menores de bloqueio.",
       "theme": "arr_brady",
       "difficulty": "dificil",
       "reviewed": true,
@@ -316,7 +316,7 @@
         }
       ],
       "correct_key": "c",
-      "explanation": "",
+      "explanation": "Diante de BAVT, a conduta padrão pelo algoritmo de bradicardia instável é o marca-passo transcutâneo, não drogas inotrópicas isoladas.",
       "theme": "arr_brady",
       "difficulty": "medio",
       "reviewed": true,
@@ -377,7 +377,7 @@
         }
       ],
       "correct_key": "c",
-      "explanation": "",
+      "explanation": "Síncopes recorrentes com bradicardia grave sugerem alto grau de bloqueio (provavelmente BAVT/Mobitz II), justificando marca-passo transcutâneo imediato em vez de apenas drogas.",
       "theme": "arr_brady",
       "difficulty": "medio",
       "reviewed": true,
@@ -523,7 +523,7 @@
         }
       ],
       "correct_key": "c",
-      "explanation": "",
+      "explanation": "Bradicardia instável (hipotensão, sintomática) em cardiopata isquêmico grave — resposta segue o gabarito oficial (BAVT, marca-passo).",
       "theme": "arr_brady",
       "difficulty": "medio",
       "reviewed": true,
@@ -572,7 +572,7 @@
         }
       ],
       "correct_key": "b",
-      "explanation": "",
+      "explanation": "Resposta segue o gabarito oficial (Errado); extrassístoles supraventriculares tipicamente geram pausa não-compensatória (ao contrário das ventriculares, que geram pausa compensatória), tornando a afirmativa incorreta.",
       "theme": "arr_brady",
       "difficulty": "dificil",
       "reviewed": true,
@@ -605,7 +605,7 @@
         }
       ],
       "correct_key": "d",
-      "explanation": "",
+      "explanation": "Quadro de bradicardia sintomática grave (queda por síncope/pré-síncope) em uso de betabloqueador sugere bloqueio avançado, indicando marca-passo temporário como conduta imediata.",
       "theme": "arr_brady",
       "difficulty": "medio",
       "reviewed": true,
@@ -754,7 +754,7 @@
         }
       ],
       "correct_key": "d",
-      "explanation": "",
+      "explanation": "Repetição do mesmo caso-conceito de outra questão do lote — bradicardia sintomática grave em uso de betabloqueador, indicando marca-passo temporário.",
       "theme": "arr_brady",
       "difficulty": "medio",
       "reviewed": true,
