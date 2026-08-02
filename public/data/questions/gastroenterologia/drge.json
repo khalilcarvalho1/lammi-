@@ -5937,8 +5937,9 @@
       "explanation": "Dor torácica e regurgitação desencadeadas por alimentos sólidos, com melhora ao ingerir líquidos, esofagite leve sem resposta ao IBP, e radiografia contrastada solicitada para elucidação, sugerem acalasia; o tratamento é cardiomiotomia associada a fundoplicatura parcial.",
       "theme": "drge_dx",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/disf_028_p11_4.jpeg"
     },
     {
       "id": "disf_029",
@@ -6061,8 +6062,9 @@
       "explanation": "Tosse irritativa, salivação excessiva, disfagia, regurgitação, halitose e achado de formação de 2,6cm sugerem divertículo de Zenker; o tratamento é diverticulectomia (ou diverticulopexia) associada a miotomia dos músculos cricofaríngeo e tireofaríngeo.",
       "theme": "drge_dx",
       "difficulty": "dificil",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/disf_032_p12_5.jpeg"
     },
     {
       "id": "disf_033",
@@ -6090,11 +6092,12 @@
         }
       ],
       "correct_key": "b",
-      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] Dor retroesternal, náusea e tosse pós-prandial, com imagem radiológica sugestiva de estrutura anômala em tórax, é achado compatível com hérnia hiatal.",
+      "explanation": "[",
       "theme": "drge_dx",
       "difficulty": "dificil",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/disf_033_p13_6.jpeg"
     },
     {
       "id": "disf_034",
@@ -6213,8 +6216,9 @@
       "explanation": "O achado radiológico de esôfago em 'saca-rolhas' com contrações não coordenadas é característico do espasmo esofágico difuso, distúrbio motor primário distinto da acalasia.",
       "theme": "drge_dx",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/disf_040_p16_8.jpeg"
     },
     {
       "id": "disf_042",
@@ -6301,8 +6305,9 @@
       "explanation": "Disfagia progressiva com halitose, regurgitação e imagem de cavidade em fundo cego contrastada compatível com grande divertículo do esôfago médio (não Zenker), com compressão luminal, tem indicação de ressecção cirúrgica.",
       "theme": "drge_dx",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/disf_044_p17_9.jpeg"
     },
     {
       "id": "disf_045",
@@ -6354,11 +6359,12 @@
         }
       ],
       "correct_key": "a",
-      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] Disfagia, regurgitação de alimentos não digeridos, ruídos cervicais após alimentação, halitose e emagrecimento, complicados por broncoaspiração e pneumonia em idosa, são quadro clássico de divertículo de Zenker.",
+      "explanation": "[",
       "theme": "drge_dx",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/disf_046_p18_10.jpeg"
     },
     {
       "id": "disf_047",
@@ -6526,11 +6532,12 @@
         }
       ],
       "correct_key": "c",
-      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] Diante de imagem sugestiva de hérnia hiatal volumosa sintomática, a hiatoplastia (correção cirúrgica do hiato) é a conduta indicada.",
+      "explanation": "[",
       "theme": "drge_dx",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/disf_057_p22_11.jpeg"
     },
     {
       "id": "disf_061",
@@ -6674,11 +6681,12 @@
         }
       ],
       "correct_key": "c",
-      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] Dor epigástrica, tosse e náuseas pós-prandiais, com imagem radiológica torácica sugestiva de estrutura contendo ar/nível hidroaéreo retrocardíaco, correspondem a hérnia gástrica hiatal.",
+      "explanation": "[",
       "theme": "drge_dx",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/disf_070_p27_12.jpeg"
     },
     {
       "id": "disf_071",
@@ -7310,11 +7318,12 @@
         }
       ],
       "correct_key": "c",
-      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] A complicação mais aguda e grave associada ao divertículo de Zenker é a broncoaspiração, decorrente da regurgitação do conteúdo retido no saco diverticular.",
+      "explanation": "[",
       "theme": "drge_dx",
       "difficulty": "dificil",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/disf_098_p36_13.jpeg"
     },
     {
       "id": "disf_099",
@@ -7530,11 +7539,12 @@
         }
       ],
       "correct_key": "e",
-      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] O tratamento definitivo do divertículo de Zenker (mostrado nos exames) consiste em diverticulectomia associada a miotomia do músculo cricofaríngeo por via cervical, abordagem cirúrgica clássica e eficaz.",
+      "explanation": "[",
       "theme": "drge_dx",
       "difficulty": "dificil",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/disf_108_p39_16.jpeg"
     },
     {
       "id": "disf_109",
@@ -7593,8 +7603,9 @@
       "explanation": "Tosse crônica seca, pior aos esforços e ao decúbito, com radiografia de tórax sugestiva de hérnia hiatal, exige endoscopia digestiva alta para avaliar a mucosa esofágica e confirmar a hérnia como causa da tosse (mecanismo de refluxo/aspiração).",
       "theme": "drge_dx",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/disf_110_p40_17.jpeg"
     }
   ]
 }

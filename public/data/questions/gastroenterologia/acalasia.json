@@ -26,11 +26,12 @@
         }
       ],
       "correct_key": "d",
-      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] No tratamento do megaesôfago (representado pela aperistalse esofágica no exame radiológico), as técnicas cirúrgicas empregadas são a cardiomiotomia à Heller e a esofagectomia, reservada para casos avançados.",
+      "explanation": "[",
       "theme": "drge_acal",
       "difficulty": "dificil",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/disf_001_p1_1.jpeg"
     },
     {
       "id": "disf_005",
@@ -178,11 +179,12 @@
         }
       ],
       "correct_key": "a",
-      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] Pirose crônica progredindo para disfagia para sólidos, necessidade de anteriorizar o pescoço e emagrecimento sugerem acalasia; o mecanismo fisiopatológico é a degeneração dos plexos nervosos mioentéricos, resultando em hipertonia/falha de relaxamento do esfíncter esofágico inferior.",
+      "explanation": "[",
       "theme": "drge_acal",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/disf_014_p5_2.jpeg"
     },
     {
       "id": "disf_015",
@@ -422,11 +424,12 @@
         }
       ],
       "correct_key": "e",
-      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] Achados clássicos de dilatação esofágica com afilamento distal ('bico de pássaro') no exame contrastado apontam para disfagia como o sintoma mais provável do paciente, característico de acalasia/megaesôfago.",
+      "explanation": "[",
       "theme": "drge_acal",
       "difficulty": "dificil",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/disf_024_p9_3.jpeg"
     },
     {
       "id": "disf_025",
@@ -545,8 +548,9 @@
       "explanation": "A dilatação endoscópica é indicada para megaesôfago graus I e II ou em pacientes sem condições cirúrgicas — a cirurgia de Heller-Pinotti é indicada nos graus III e IV avançados, com confecção de válvula antirrefluxo parcial (não a dilatação endoscópica isolada) — sendo essa a afirmação incorreta sobre o tratamento cirúrgico definitivo.",
       "theme": "drge_acal",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/disf_035_p14_7.jpeg"
     },
     {
       "id": "disf_036",
@@ -1217,8 +1221,9 @@
       "explanation": "O esofagograma baritado mostrando afunilamento distal em 'bico de pássaro' com dilatação proximal é achado clássico e patognomônico de acalasia.",
       "theme": "drge_acal",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/disf_106_p38_14.jpeg"
     },
     {
       "id": "disf_107",
@@ -1242,11 +1247,12 @@
         }
       ],
       "correct_key": "b",
-      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] Diante de manometria compatível com acalasia (falha de relaxamento do EEI, aperistalse), a conduta indicada é a cardiomiotomia (miotomia de Heller), tratamento definitivo da obstrução funcional.",
+      "explanation": "[",
       "theme": "drge_acal",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/disf_107_p39_15.jpeg"
     }
   ]
 }
