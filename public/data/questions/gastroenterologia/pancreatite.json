@@ -230,11 +230,12 @@
         }
       ],
       "correct_key": "a",
-      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] Desconforto epigástrico e plenitude gástrica após pancreatite aguda há 2 semanas, com achado tomográfico compatível com coleção líquida peripancreática precoce, deve ser inicialmente conduzido com observação clínica e seguimento por imagem, já que muitas coleções agudas resolvem espontaneamente.",
+      "explanation": "[",
       "theme": "panc_ag",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/panc_009_p4_2.jpeg"
     },
     {
       "id": "panc_010",
@@ -501,8 +502,9 @@
       "explanation": "A hemoconcentração (hematócrito elevado) e a azotemia (ureia/creatinina elevadas) são marcadores precoces de gravidade e terceiro espaçamento volêmico, justificando a transferência para hospital terciário com suporte intensivo.",
       "theme": "panc_ag",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/panc_018_p7_3.jpeg"
     },
     {
       "id": "panc_019",
@@ -529,8 +531,9 @@
       "explanation": "Diante de pancreatite aguda grave com necessidade de morfina e elevação importante de enzimas hepáticas/pancreáticas, a hipocalcemia é reconhecida como critério de gravidade (saponificação de cálcio por necrose gordurosa peripancreática).",
       "theme": "panc_ag",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/panc_019_p8_4.jpeg"
     },
     {
       "id": "panc_021",
@@ -557,8 +560,9 @@
       "explanation": "Diante de quadro grave com sinais de irritação peritoneal e amilase/lipase muito elevadas, mas sem visualização adequada do pâncreas ao ultrassom por interposição gasosa, está indicada tomografia de abdome para melhor caracterização do quadro e gravidade.",
       "theme": "panc_ag",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/panc_021_p9_5.jpeg"
     },
     {
       "id": "panc_022",
@@ -621,8 +625,9 @@
       "explanation": "Massa epigástrica palpável, fixa, cerca de 6 semanas após episódio de pancreatite aguda, com CEA normal, é compatível com pseudocisto pancreático como complicação tardia mais provável.",
       "theme": "panc_ag",
       "difficulty": "dificil",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/panc_023_p10_6.jpeg"
     },
     {
       "id": "panc_024",
@@ -830,11 +835,12 @@
         }
       ],
       "correct_key": "a",
-      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] Piora clínica no 5º dia de pancreatite aguda biliar grave, com sinais de irritação peritoneal e enzimas muito elevadas, sugere necrose complicada; a CPRE está indicada especificamente nos casos de pancreatite biliar associada a colangite/icterícia obstrutiva.",
+      "explanation": "[",
       "theme": "panc_ag",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/panc_030_p13_7.jpeg"
     },
     {
       "id": "panc_031",
@@ -922,11 +928,12 @@
         }
       ],
       "correct_key": "a",
-      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] Coleções peripancreáticas com aumento progressivo do abdome, desconforto respiratório, hipotensão, oligúria e pressão intra-abdominal de 23mmHg (síndrome compartimental abdominal) exigem laparotomia descompressiva com peritoneostomia como procedimento mais efetivo.",
+      "explanation": "[",
       "theme": "panc_ag",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/panc_033_p15_8.jpeg"
     },
     {
       "id": "panc_034",
@@ -1213,8 +1220,9 @@
       "explanation": "Vômitos pós-alimentares, plenitude gástrica precoce e abaulamento epigástrico após pancreatite biliar grave são achados clássicos de pseudocisto de pâncreas, complicação tardia comum.",
       "theme": "panc_ag",
       "difficulty": "dificil",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/panc_046_p19_9.jpeg"
     },
     {
       "id": "panc_047",
@@ -1241,8 +1249,9 @@
       "explanation": "Paciente estável hemodinamicamente com necessidade de oxigênio, sem sinais de infecção confirmada, no 10º dia de pancreatite grave, deve manter suporte de terapia intensiva com dieta enteral por sonda, estratégia nutricional preferencial nesses casos.",
       "theme": "panc_ag",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/panc_047_p19_10.jpeg"
     },
     {
       "id": "panc_048",
@@ -1298,11 +1307,12 @@
         }
       ],
       "correct_key": "a",
-      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] Coleção organizada com sintomas (febre, dificuldade alimentar, desconforto) cerca de 6 semanas após pancreatite necrotizante, já delimitada (walled-off necrosis), tem indicação de drenagem, sendo a via percutânea uma opção inicial adequada.",
+      "explanation": "[",
       "theme": "panc_ag",
       "difficulty": "dificil",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/panc_049_p20_11.jpeg"
     },
     {
       "id": "panc_050",
@@ -1849,8 +1859,9 @@
       "explanation": "Coleção pancreática que persiste sem sinais de infecção ativa (sem febre, sem uso de antibióticos), meses após episódio grave, com aspecto de necrose delimitada organizada, deve ser acompanhada ambulatorialmente quando assintomática ou pouco sintomática, evitando intervenção desnecessária.",
       "theme": "panc_cron",
       "difficulty": "dificil",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/panc_068_p27_12.jpeg"
     },
     {
       "id": "panc_069",
@@ -1969,8 +1980,9 @@
       "explanation": "Piora clínica com leucocitose progressiva sem resposta a antibiótico de amplo espectro (imipenem) após 23 dias de pancreatite grave sugere necrose infectada refratária; a drenagem percutânea guiada por tomografia é a conduta inicial recomendada (step-up approach) antes de necrosectomia cirúrgica.",
       "theme": "panc_ag",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/panc_072_p28_13.jpeg"
     },
     {
       "id": "panc_073",
