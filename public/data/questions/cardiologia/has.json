@@ -6586,8 +6586,9 @@
       "explanation": "Diante de novo diagnóstico de diabetes em paciente obeso e hipertenso, mantém-se o anti-hipertensivo (já controlado, 130/80), orientam-se MEV e é razoável iniciar metformina já ao diagnóstico (paciente obeso, HbA1c elevada — critério para início precoce), além de considerar estatina dado o perfil de risco metabólico combinado.",
       "theme": "has_tto",
       "difficulty": "dificil",
-      "reviewed": false,
-      "created_at": "2026-07-27T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-27T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/has_227_p18_2.jpeg"
     },
     {
       "id": "has_228",
@@ -7643,11 +7644,12 @@
         }
       ],
       "correct_key": "a",
-      "explanation": "ATENÇÃO: eletrocardiograma citado mas não disponível na extração do PDF. PA já em estágio 2 (166/104) mesmo após MEV, com evidência de lesão de órgão-alvo (retinopatia hipertensiva grau 1, proteinúria 1+), justifica início de terapia combinada — Anlodipino+Enalapril é a combinação preferencial de primeira linha, evitando a combinação IECA+BRA (captopril+valsartana, não recomendada) e a combinação hidralazina+BRA ou tiazídico+betabloqueador (não preferenciais para início nesse contexto).",
+      "explanation": "PA já em estágio 2 (166/104) mesmo após MEV, com evidência de lesão de órgão-alvo (retinopatia hipertensiva grau 1, proteinúria 1+), justifica início de terapia combinada — Anlodipino+Enalapril é a combinação preferencial de primeira linha, evitando a combinação IECA+BRA (captopril+valsartana, não recomendada) e a combinação hidralazina+BRA ou tiazídico+betabloqueador (não preferenciais para início nesse contexto).",
       "theme": "has_tto",
       "difficulty": "dificil",
-      "reviewed": false,
-      "created_at": "2026-07-27T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-27T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/has_262_p31_3.jpeg"
     },
     {
       "id": "has_263",
@@ -8151,11 +8153,12 @@
         }
       ],
       "correct_key": "c",
-      "explanation": "ATENÇÃO: eletrocardiograma citado mas não disponível na extração do PDF. PA não controlada (160x90) em esquema com propranolol (não ideal para diabético/paciente negro) e presença de microalbuminúria (150mg/24h, marcador de nefropatia diabética incipiente) apontam para a substituição do esquema atual por um IECA, que trata a PA e oferece nefroproteção específica simultaneamente — mais racional que apenas aumentar doses ou associar IECA+BRA (combinação não recomendada).",
+      "explanation": "PA não controlada (160x90) em esquema com propranolol (não ideal para diabético/paciente negro) e presença de microalbuminúria (150mg/24h, marcador de nefropatia diabética incipiente) apontam para a substituição do esquema atual por um IECA, que trata a PA e oferece nefroproteção específica simultaneamente — mais racional que apenas aumentar doses ou associar IECA+BRA (combinação não recomendada).",
       "theme": "has_tto",
       "difficulty": "dificil",
-      "reviewed": false,
-      "created_at": "2026-07-27T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-27T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/has_279_p37_4.jpeg"
     },
     {
       "id": "has_280",
