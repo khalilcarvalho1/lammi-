@@ -715,12 +715,13 @@
         }
       ],
       "correct_key": "c",
-      "explanation": "ATENÇÃO: questão pede leitura direta de imagem de ECG não disponível na extração do PDF, sem qualquer dado clínico de apoio. Resposta é um chute sem base na imagem real; confiança muito baixa, revisão obrigatória com a imagem original.",
+      "explanation": "Resposta é um chute sem base na imagem real; confiança muito baixa, revisão obrigatória com a imagem original.",
       "theme": "cardio_arritmias",
       "difficulty": "dificil",
       "source": "IAMSPE R3CM 2024",
-      "reviewed": false,
-      "created_at": "2026-07-26T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-26T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/arr_024_manual.png"
     },
     {
       "id": "arr_025",
