@@ -480,12 +480,13 @@
         }
       ],
       "correct_key": "d",
-      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Paciente pós-operatória com dor torácica intensa, dispneia súbita e hipotensão configura instabilidade hemodinâmica associada a taquiarritmia — indicação de cardioversão elétrica sincronizada imediata.",
+      "explanation": "Paciente pós-operatória com dor torácica intensa, dispneia súbita e hipotensão configura instabilidade hemodinâmica associada a taquiarritmia — indicação de cardioversão elétrica sincronizada imediata.",
       "theme": "cardio_arritmias",
       "difficulty": "medio",
       "source": "HNJ R1 2023",
-      "reviewed": false,
-      "created_at": "2026-07-26T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-26T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/arr_016_manual.png"
     },
     {
       "id": "arr_017",
