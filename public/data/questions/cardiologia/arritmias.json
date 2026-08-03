@@ -837,12 +837,13 @@
         }
       ],
       "correct_key": "a",
-      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Evolução rápida para confusão mental e hipotensão caracteriza instabilidade hemodinâmica grave, indicando cardioversão elétrica sincronizada imediata, independentemente do ritmo específico documentado.",
+      "explanation": "Evolução rápida para confusão mental e hipotensão caracteriza instabilidade hemodinâmica grave, indicando cardioversão elétrica sincronizada imediata, independentemente do ritmo específico documentado.",
       "theme": "cardio_arritmias",
       "difficulty": "medio",
       "source": "ISCMSC R1 2022",
-      "reviewed": false,
-      "created_at": "2026-07-26T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-26T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/arr_028_manual.webp"
     },
     {
       "id": "arr_029",
