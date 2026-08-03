@@ -3678,11 +3678,12 @@
         }
       ],
       "correct_key": "c",
-      "explanation": "ATENÇÃO: a questão faz referência a uma imagem tomográfica não disponível na extração do PDF, tornando a resposta de menor confiança — achado incidental sugestivo de tuberculose pulmonar em paciente jovem vítima de trauma.",
+      "explanation": "Achado incidental sugestivo de tuberculose pulmonar em paciente jovem vítima de trauma.",
       "theme": "tb_dx",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/tb3_025_p10_1.jpeg"
     },
     {
       "id": "tb3_026",
@@ -4977,8 +4978,9 @@
       "explanation": "Diante de sintomas persistentes com três baciloscopias negativas, a cultura do escarro é o exame mais indicado neste momento para confirmar o diagnóstico, dada sua maior sensibilidade em relação à baciloscopia direta.",
       "theme": "tb_lat",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/tb3_070_p25_2.jpeg"
     },
     {
       "id": "tb3_071",
@@ -7741,8 +7743,9 @@
       "explanation": "Vômito, artralgia e urina avermelhada são considerados eventos adversos MENORES do esquema básico de TB, manejáveis sem suspensão do tratamento — diferente de reações maiores como urticária/hepatite, trombocitopenia/convulsões ou nefrite intersticial.",
       "theme": "tb_tto",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/tb3_171_p59_3.png"
     },
     {
       "id": "tb3_172",
@@ -7914,11 +7917,12 @@
         }
       ],
       "correct_key": "e",
-      "explanation": "ATENÇÃO: a questão faz referência a uma radiografia de tórax não disponível na extração do PDF. O quadro de meningite tuberculosa em paciente HIV positivo (líquor com pleocitose linfomononuclear, proteína elevada, glicose baixa) exige tratamento com esquema estendido (2RHZE + 7RH) associado a corticosteroide, conforme recomendação do Ministério da Saúde.",
+      "explanation": "O quadro de meningite tuberculosa em paciente HIV positivo (líquor com pleocitose linfomononuclear, proteína elevada, glicose baixa) exige tratamento com esquema estendido (2RHZE + 7RH) associado a corticosteroide, conforme recomendação do Ministério da Saúde.",
       "theme": "tb_tto",
       "difficulty": "dificil",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/tb3_177_p61_4.jpeg"
     },
     {
       "id": "tb3_178",
