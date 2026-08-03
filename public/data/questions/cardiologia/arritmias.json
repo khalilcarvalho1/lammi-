@@ -1050,12 +1050,13 @@
         }
       ],
       "correct_key": "a",
-      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Haloperidol é droga classicamente associada a prolongamento de QT/Torsades de Pointes. Paciente ainda com PA mensurável (60x30, hipotenso mas não em PCR/sem pulso), sugerindo taquiarritmia polimórfica tipo Torsades — tratamento de escolha é sulfato de magnésio IV.",
+      "explanation": "Haloperidol é droga classicamente associada a prolongamento de QT/Torsades de Pointes. Paciente ainda com PA mensurável (60x30, hipotenso mas não em PCR/sem pulso), sugerindo taquiarritmia polimórfica tipo Torsades — tratamento de escolha é sulfato de magnésio IV.",
       "theme": "cardio_arritmias",
       "difficulty": "dificil",
       "source": "SURCE R1 2023",
-      "reviewed": false,
-      "created_at": "2026-07-26T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-26T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/arr_035_manual.png"
     },
     {
       "id": "arr_036",
