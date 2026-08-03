@@ -962,12 +962,13 @@
         }
       ],
       "correct_key": "a",
-      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Em lactente assintomático com achado incidental, a arritmia sinusal (variação respiratória fisiológica da FC) é o achado benigno mais comum nessa faixa etária, sendo a resposta mais provável por prevalência — porém sem confirmação pela imagem real.",
+      "explanation": "Em lactente assintomático com achado incidental, a arritmia sinusal (variação respiratória fisiológica da FC) é o achado benigno mais comum nessa faixa etária, sendo a resposta mais provável por prevalência — porém sem confirmação pela imagem real.",
       "theme": "cardio_arritmias",
       "difficulty": "dificil",
       "source": "UNESP R1 2023",
-      "reviewed": false,
-      "created_at": "2026-07-26T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-26T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/arr_032_manual.webp"
     },
     {
       "id": "arr_033",
