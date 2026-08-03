@@ -1147,12 +1147,13 @@
         }
       ],
       "correct_key": "b",
-      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. PA 80/50 configura instabilidade hemodinâmica franca, exigindo cardioversão ELÉTRICA (não química) sincronizada, com sedação leve prévia — fibrilação atrial é a hipótese diagnóstica mais provável nesse contexto.",
+      "explanation": "PA 80/50 configura instabilidade hemodinâmica franca, exigindo cardioversão ELÉTRICA (não química) sincronizada, com sedação leve prévia — fibrilação atrial é a hipótese diagnóstica mais provável nesse contexto.",
       "theme": "cardio_arritmias",
       "difficulty": "medio",
       "source": "ENARE R1 2024",
-      "reviewed": false,
-      "created_at": "2026-07-26T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-26T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/arr_038_manual.png"
     },
     {
       "id": "arr_039",
