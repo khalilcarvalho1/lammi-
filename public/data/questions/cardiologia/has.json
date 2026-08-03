@@ -8793,8 +8793,9 @@
       "explanation": "Hipertensão de difícil controle em paciente jovem, com potássio no limite inferior (3,4, discretamente baixo) mesmo em uso de BRA (que tenderia a elevar o potássio), sódio no limite superior e sem outras causas aparentes, sugere hiperaldosteronismo primário. Como o uso de BRA (losartana) pode interferir na relação aldosterona/renina, a conduta correta é trocar por uma classe que não interfira no eixo SRAA (amlodipina) antes de solicitar aldosterona e atividade de renina plasmáticas.",
       "theme": "has_dx",
       "difficulty": "dificil",
-      "reviewed": false,
-      "created_at": "2026-07-28T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-28T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/has_301_p9_1.jpeg"
     },
     {
       "id": "has_302",
@@ -8818,11 +8819,12 @@
         }
       ],
       "correct_key": "a",
-      "explanation": "ATENÇÃO: gráfico da MAPA citado mas não capturado integralmente na extração do PDF (apenas a média de 24h foi preservada em texto). Paciente obeso (IMC ~31), com HAS resistente (3 classes em dose máxima) e queixa de elevações pressóricas domiciliares apesar de boa aderência é o perfil clássico de SAHOS como causa secundária/agravante de HAS resistente — a causa secundária mais prevalente nesse contexto.",
+      "explanation": "Paciente obeso (IMC ~31), com HAS resistente (3 classes em dose máxima) e queixa de elevações pressóricas domiciliares apesar de boa aderência é o perfil clássico de SAHOS como causa secundária/agravante de HAS resistente — a causa secundária mais prevalente nesse contexto.",
       "theme": "has_dx",
       "difficulty": "dificil",
-      "reviewed": false,
-      "created_at": "2026-07-28T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-28T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/has_302_p9_2.jpeg"
     },
     {
       "id": "has_303",
