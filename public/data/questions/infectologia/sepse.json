@@ -374,11 +374,12 @@
         }
       ],
       "correct_key": "b",
-      "explanation": "ATENÇÃO: o enunciado original faz referência a uma lista de afirmações (I a IV) que não foram capturadas na extração do PDF, tornando a resposta de menor confiança. De forma geral, na ausência de um teste diagnóstico padrão-ouro para sepse, o julgamento clínico combinado com múltiplos parâmetros (não um único biomarcador isolado) permanece o recurso mais confiável para a tomada de decisão.",
+      "explanation": "Itens I e IV estão corretos: lactato sérico elevado (>2 mmol/L) indica hipoperfusão tecidual mesmo sem hipotensão (choque críptico), e oligúria aguda (<0,5 mL/kg/h por 2h apesar de reposição volêmica adequada) é critério reconhecido de disfunção orgânica (SOFA renal). Item II está errado: o qSOFA usa rebaixamento do nível de consciência, PAS ≤100 mmHg e FREQUÊNCIA RESPIRATÓRIA ≥22 irpm — não frequência cardíaca. Item III está errado: o NEWS utiliza pressão arterial SISTÓLICA (não diastólica), além de frequência respiratória, saturação de O2, uso de O2 suplementar, frequência cardíaca, nível de consciência e temperatura.",
       "theme": "sep_tto",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-26T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-26T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/sep_013_p5_1.jpeg"
     },
     {
       "id": "sep_014",
