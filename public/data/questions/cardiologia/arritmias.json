@@ -560,12 +560,13 @@
         }
       ],
       "correct_key": "a",
-      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF, presumivelmente evidenciando fibrilação atrial dado o contexto de palpitações. Paciente idoso com AVC isquêmico prévio já confere CHA2DS2-VASc elevado (2 pontos só pelo AVC); diante de provável FA, a anticoagulação oral plena é mandatória, substituindo o AAS isolado (insuficiente para prevenção de AVC em FA).",
+      "explanation": "Paciente idoso com AVC isquêmico prévio já confere CHA2DS2-VASc elevado (2 pontos só pelo AVC); diante de provável FA, a anticoagulação oral plena é mandatória, substituindo o AAS isolado (insuficiente para prevenção de AVC em FA).",
       "theme": "cardio_arritmias",
       "difficulty": "medio",
       "source": "USP R1 2023",
-      "reviewed": false,
-      "created_at": "2026-07-26T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-26T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/arr_019_manual.png"
     },
     {
       "id": "arr_020",
