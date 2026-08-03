@@ -1882,11 +1882,12 @@
         }
       ],
       "correct_key": "a",
-      "explanation": "ATENÇÃO: a questão faz referência a um gráfico não disponível na extração do PDF, com curvas de viremia e resposta de IgG ao longo do tempo. Em infecção secundária por dengue, a resposta de IgG tende a ser mais precoce e de maior magnitude, refletindo a memória imunológica prévia — a resposta correta corresponde às linhas indicadas pelo gabarito oficial.",
+      "explanation": "Em infecção secundária por dengue, a resposta de IgG tende a ser mais precoce e de maior magnitude, refletindo a memória imunológica prévia — a resposta correta corresponde às linhas indicadas pelo gabarito oficial.",
       "theme": "arb_dengue",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-29T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-29T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/arb_108_p38_1.jpeg"
     },
     {
       "id": "arb_109",
