@@ -1520,8 +1520,9 @@
       "explanation": "Na fase de manutenção do tratamento da CAD pediátrica, com melhora clínica e laboratorial, adiciona-se glicose à fluidoterapia para permitir continuar a infusão de insulina sem risco de hipoglicemia.",
       "theme": "dm_cad",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-31T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-31T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/dmca_007_p3_1.jpeg"
     },
     {
       "id": "dmca_008",
@@ -2745,11 +2746,12 @@
         }
       ],
       "correct_key": "b",
-      "explanation": "[ATENÇÃO: esta questão faz referência a uma tabela/imagem citada no PDF original que não foi capturada na extração de texto] Os critérios da ADA classificam as crises hiperglicêmicas por gravidade crescente de cetoacidose (leve, moderada, grave, conforme pH/bicarbonato) até o estado hiperosmolar hiperglicêmico, que representa quadro distinto com hiperosmolaridade extrema e pouca cetose.",
+      "explanation": "[",
       "theme": "dm_cad",
       "difficulty": "dificil",
-      "reviewed": false,
-      "created_at": "2026-07-31T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-31T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/dmca_049_p19_2.jpeg"
     },
     {
       "id": "dmca_050",
