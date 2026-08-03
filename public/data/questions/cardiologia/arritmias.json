@@ -358,12 +358,13 @@
         }
       ],
       "correct_key": "b",
-      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. O quadro é sugestivo de arritmia precipitada por distúrbio hidroeletrolítico/volêmico da própria diálise (ultrafiltração excessiva); o tratamento inicial adequado é a correção da causa de base (volume/eletrólitos), não a cardioversão elétrica como conduta primária.",
+      "explanation": "O quadro é sugestivo de arritmia precipitada por distúrbio hidroeletrolítico/volêmico da própria diálise (ultrafiltração excessiva); o tratamento inicial adequado é a correção da causa de base (volume/eletrólitos), não a cardioversão elétrica como conduta primária.",
       "theme": "cardio_arritmias",
       "difficulty": "medio",
       "source": "SES-DF R1 2022",
-      "reviewed": false,
-      "created_at": "2026-07-26T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-26T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/arr_012_manual.jpg"
     },
     {
       "id": "arr_013",
