@@ -142,11 +142,12 @@
         }
       ],
       "correct_key": "a",
-      "explanation": "[ATENÇÃO: esta questão faz referência a uma imagem (radiografia/TC/esofagograma/deglutograma/figura) citada no PDF original que não foi capturada na extração de texto] O acometimento contínuo do reto ao cólon transverso, com friabilidade mucosa, abscessos de criptas e p-ANCA positivo/ASCA negativo, é quadro clássico de retocolite ulcerativa, caracterizada por comprometimento contínuo exclusivo do cólon.",
+      "explanation": "[",
       "theme": "dii_rcu",
       "difficulty": "dificil",
-      "reviewed": false,
-      "created_at": "2026-07-30T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-30T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/dii_017_p6_1.jpeg"
     },
     {
       "id": "dii_019",
