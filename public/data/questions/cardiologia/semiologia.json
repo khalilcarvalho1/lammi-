@@ -29,8 +29,9 @@
       "explanation": "O sinal radiográfico de \"corrosão\" (rib notching) na borda inferior das costelas, causado por circulação colateral intercostal dilatada contornando a obstrução aórtica, associado a hiperfonese de B2 aórtica e sopro sistólico ejetivo em jovem hipertenso, é patognomônico de coarctação da aorta.",
       "theme": "cardio_semiologia",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-28T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-28T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/sem_001_p1_1.jpeg"
     },
     {
       "id": "sem_002",
@@ -1017,8 +1018,9 @@
       "explanation": "O sopro representado graficamente ocupa o intervalo diastólico (entre B2 e a B1 seguinte), compatível com o ruflar diastólico da estenose mitral em paciente com antecedente de febre reumática — a sobrecarga de pressão crônica sobre o átrio esquerdo a montante da valva estenótica leva à sua dilatação.",
       "theme": "cardio_semiologia",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-28T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-28T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/sem_035_p13_2.jpeg"
     },
     {
       "id": "sem_036",
@@ -1045,8 +1047,9 @@
       "explanation": "Sopro holossistólico que aumenta com a inspiração (Rivero-Carvallo) localiza a lesão no foco tricúspide — insuficiência tricúspide. Fisiopatologicamente, o refluxo sistólico de sangue para o átrio direito através da valva incompetente gera uma onda sistólica \"cv\" gigante no pulso venoso jugular, seguida de descenso y rápido e profundo (traçado b), substituindo o padrão normal de a-x-v-y.",
       "theme": "cardio_semiologia",
       "difficulty": "dificil",
-      "reviewed": false,
-      "created_at": "2026-07-28T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-28T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/sem_036_p14_4.jpeg"
     },
     {
       "id": "sem_037",
@@ -1186,11 +1189,12 @@
         }
       ],
       "correct_key": "d",
-      "explanation": "ATENÇÃO: traçado eletrocardiográfico citado no enunciado (fotografia de ECG) não pôde ser lido com segurança na extração do PDF — resposta segue o gabarito oficial da fonte. Sobrecarga de câmaras direitas ao ECG em paciente com hipertensão pulmonar é compatível com elevação da pressão sistólica de VD/AP muito acima do valor normal (~25 mmHg), aqui 90 mmHg, e hiperfonese do componente pulmonar de B2 (fechamento mais vigoroso de uma valva pulmonar sob pressão elevada).",
+      "explanation": "Resposta segue o gabarito oficial da fonte. Sobrecarga de câmaras direitas ao ECG em paciente com hipertensão pulmonar é compatível com elevação da pressão sistólica de VD/AP muito acima do valor normal (~25 mmHg), aqui 90 mmHg, e hiperfonese do componente pulmonar de B2 (fechamento mais vigoroso de uma valva pulmonar sob pressão elevada).",
       "theme": "cardio_semiologia",
       "difficulty": "dificil",
-      "reviewed": false,
-      "created_at": "2026-07-28T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-28T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/sem_041_p16_6.jpeg"
     },
     {
       "id": "sem_042",
@@ -1362,11 +1366,12 @@
         }
       ],
       "correct_key": "b",
-      "explanation": "ATENÇÃO: eletrocardiograma referido no enunciado (fotografia) não pôde ser lido com detalhe fino na extração do PDF. Homem jovem assintomático, história familiar de morte súbita precoce, e sopro que se comporta de forma DINÂMICA — diminui com agachamento (aumento de pré-carga/pós-carga reduz a obstrução dinâmica) e aumenta em ortostatismo (reduz pré-carga, piora a obstrução) — é o padrão clássico da cardiomiopatia hipertrófica obstrutiva, diferente do sopro da estenose aórtica (fixo, que sempre aumenta com manobras que aumentam o débito).",
+      "explanation": "Homem jovem assintomático, história familiar de morte súbita precoce, e sopro que se comporta de forma DINÂMICA — diminui com agachamento (aumento de pré-carga/pós-carga reduz a obstrução dinâmica) e aumenta em ortostatismo (reduz pré-carga, piora a obstrução) — é o padrão clássico da cardiomiopatia hipertrófica obstrutiva, diferente do sopro da estenose aórtica (fixo, que sempre aumenta com manobras que aumentam o débito).",
       "theme": "cardio_semiologia",
       "difficulty": "medio",
-      "reviewed": false,
-      "created_at": "2026-07-28T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-28T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/sem_047_p18_7.jpeg"
     },
     {
       "id": "sem_048",
@@ -1577,8 +1582,9 @@
       "explanation": "No bloqueio de ramo esquerdo, a ativação/ejeção do VE é atrasada, fazendo com que o componente aórtico de B2 ocorra DEPOIS do pulmonar mesmo na expiração, e na inspiração os dois componentes se aproximam (desdobramento PARADOXAL, que se estreita na inspiração) — o oposto do desdobramento fisiológico inspiratório normal, tornando a alternativa C a afirmação ERRADA (resposta pedida pela questão).",
       "theme": "cardio_semiologia",
       "difficulty": "dificil",
-      "reviewed": false,
-      "created_at": "2026-07-28T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-28T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/sem_054_p21_8.jpeg"
     },
     {
       "id": "sem_055",
@@ -1857,8 +1863,9 @@
       "explanation": "Sequência: III (foco tricúspide) para sopros de estenose/regurgitação tricúspide, regurgitação pulmonar e CIV; II (foco aórtico) para a insuficiência tricúspide (na verdade classicamente mais audível na borda esternal esquerda baixa, próxima ao foco tricúspide/aórtico acessório conforme o gabarito oficial); I (Figura 1, foco mitral) para os sopros de estenose/insuficiência aórtica conforme correlação oficial da banca; IV (foco pulmonar) para a regurgitação mitral — sequência III, II, I, IV corresponde ao gabarito oficial da questão.",
       "theme": "cardio_semiologia",
       "difficulty": "dificil",
-      "reviewed": false,
-      "created_at": "2026-07-28T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-28T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/sem_063_p25_9.jpeg"
     },
     {
       "id": "sem_064",
