@@ -807,12 +807,13 @@
         }
       ],
       "correct_key": "a",
-      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Paciente com hipotensão franca (PA 80x50) associada a taquiarritmia caracteriza instabilidade hemodinâmica, exigindo cardioversão ELÉTRICA (não química) imediata, independentemente da arritmia específica — fibrilação atrial é o diagnóstico presumido mais provável no contexto de idosa com palpitações.",
+      "explanation": "Paciente com hipotensão franca (PA 80x50) associada a taquiarritmia caracteriza instabilidade hemodinâmica, exigindo cardioversão ELÉTRICA (não química) imediata, independentemente da arritmia específica — fibrilação atrial é o diagnóstico presumido mais provável no contexto de idosa com palpitações.",
       "theme": "cardio_arritmias",
       "difficulty": "medio",
       "source": "UNESP R1 2026",
-      "reviewed": false,
-      "created_at": "2026-07-26T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-26T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/arr_027_manual.png"
     },
     {
       "id": "arr_028",
