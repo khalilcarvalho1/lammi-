@@ -2955,12 +2955,13 @@
         }
       ],
       "correct_key": "c",
-      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF, presumindo fibrilação atrial pelo contexto de risco. HTN, DM e SAOS são fatores de risco bem estabelecidos para FA — afirmativa correta e verificável independentemente da imagem, ao contrário das demais opções que contêm afirmações absolutas/incorretas (cardioversão 'indicada na emergência' de forma universal, ablação 'nunca' indicada).",
+      "explanation": "HTN, DM e SAOS são fatores de risco bem estabelecidos para FA — afirmativa correta e verificável independentemente da imagem, ao contrário das demais opções que contêm afirmações absolutas/incorretas (cardioversão 'indicada na emergência' de forma universal, ablação 'nunca' indicada).",
       "theme": "cardio_arritmias",
       "difficulty": "medio",
       "source": "HNMD R1 2022",
-      "reviewed": false,
-      "created_at": "2026-07-26T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-26T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/arr_098_manual.png"
     },
     {
       "id": "arr_099",
