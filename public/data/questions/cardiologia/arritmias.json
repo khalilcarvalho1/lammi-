@@ -2414,12 +2414,13 @@
         }
       ],
       "correct_key": "c",
-      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF, presumindo fibrilação atrial paroxística induzida por exercício/estimulante pelo ritmo irregular. Paciente jovem, estável hemodinamicamente, sem fatores de risco significativos adicionais para AVC (CHA2DS2-VASc baixo): a conduta inicial mais apropriada é controle de frequência com betabloqueador, sem necessidade de cardioversão elétrica imediata ou cateterismo (sem indícios de isquemia).",
+      "explanation": "Paciente jovem, estável hemodinamicamente, sem fatores de risco significativos adicionais para AVC (CHA2DS2-VASc baixo): a conduta inicial mais apropriada é controle de frequência com betabloqueador, sem necessidade de cardioversão elétrica imediata ou cateterismo (sem indícios de isquemia).",
       "theme": "cardio_arritmias",
       "difficulty": "medio",
       "source": "USP R1 2024",
-      "reviewed": false,
-      "created_at": "2026-07-26T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-26T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/arr_080_manual.png"
     },
     {
       "id": "arr_081",
