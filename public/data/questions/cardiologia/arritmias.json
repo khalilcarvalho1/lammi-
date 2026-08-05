@@ -1587,12 +1587,13 @@
         }
       ],
       "correct_key": "c",
-      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Paciente hemodinamicamente estável (PA normal/elevada, boa perfusão) com taquicardia de início agudo: a conduta inicial padrão, presumindo taquicardia regular de QRS estreito, é manobra vagal, antes de qualquer intervenção farmacológica ou elétrica.",
+      "explanation": "Paciente hemodinamicamente estável (PA normal/elevada, boa perfusão) com taquicardia de início agudo: a conduta inicial padrão, presumindo taquicardia regular de QRS estreito, é manobra vagal, antes de qualquer intervenção farmacológica ou elétrica.",
       "theme": "cardio_arritmias",
       "difficulty": "medio",
       "source": "SUS-SP R1 2024",
-      "reviewed": false,
-      "created_at": "2026-07-26T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-26T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/arr_053_manual.png"
     },
     {
       "id": "arr_054",
