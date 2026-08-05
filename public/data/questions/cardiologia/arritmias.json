@@ -1961,12 +1961,13 @@
         }
       ],
       "correct_key": "c",
-      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Paciente estável com taquicardia regular de início súbito, já tratado com adenosina 6mg sem resposta completa relatada: o próximo passo padrão do algoritmo é escalar para adenosina 12mg, mantendo a hipótese de TSV.",
+      "explanation": "Paciente estável com taquicardia regular de início súbito, já tratado com adenosina 6mg sem resposta completa relatada: o próximo passo padrão do algoritmo é escalar para adenosina 12mg, mantendo a hipótese de TSV.",
       "theme": "cardio_arritmias",
       "difficulty": "medio",
       "source": "HSL-SP R1 2025",
-      "reviewed": false,
-      "created_at": "2026-07-26T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-26T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/arr_065_manual.png"
     },
     {
       "id": "arr_066",
