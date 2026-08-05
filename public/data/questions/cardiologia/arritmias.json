@@ -1708,12 +1708,13 @@
         }
       ],
       "correct_key": "a",
-      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF, presumindo fibrilação atrial pelo contexto (ritmo irregular). Paciente hemodinamicamente estável com início <48h (8 horas): a conduta inicial mais segura/universal é controle de frequência cardíaca, enquanto se avalia a duração exata e a estratégia de ritmo.",
+      "explanation": "Paciente hemodinamicamente estável com início <48h (8 horas): a conduta inicial mais segura/universal é controle de frequência cardíaca, enquanto se avalia a duração exata e a estratégia de ritmo.",
       "theme": "cardio_arritmias",
       "difficulty": "medio",
       "source": "SES-DF R3CM 2026",
-      "reviewed": false,
-      "created_at": "2026-07-26T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-26T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/arr_057_manual.png"
     },
     {
       "id": "arr_058",
