@@ -3018,12 +3018,13 @@
         }
       ],
       "correct_key": "b",
-      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF, presumindo fibrilação atrial pelo ritmo irregular. Paciente hemodinamicamente aceitável (PA110/70, perfusão preservada) apesar de sintomas de congestão leve: conduta inicial padrão é controle de frequência com betabloqueador, sem indicação de cardioversão elétrica imediata (não há instabilidade franca) nem manobra vagal (ineficaz em FA).",
+      "explanation": "Paciente hemodinamicamente aceitável (PA110/70, perfusão preservada) apesar de sintomas de congestão leve: conduta inicial padrão é controle de frequência com betabloqueador, sem indicação de cardioversão elétrica imediata (não há instabilidade franca) nem manobra vagal (ineficaz em FA).",
       "theme": "cardio_arritmias",
       "difficulty": "medio",
       "source": "USP-RP R3CM 2025",
-      "reviewed": false,
-      "created_at": "2026-07-26T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-26T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/arr_100_manual.png"
     }
   ]
 }
