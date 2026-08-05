@@ -2477,12 +2477,13 @@
         }
       ],
       "correct_key": "e",
-      "explanation": "ATENÇÃO: ritmo do monitor citado mas não disponível na extração do PDF. Overdose de antidepressivo tricíclico classicamente causa arritmias ventriculares (bloqueio de canal de sódio) evoluindo para TV/FV. Em parada cardiorrespiratória (paciente sem pulso), o tratamento correto é sempre desfibrilação (choque NÃO sincronizado), associado a adrenalina pelo algoritmo de PCR — única opção com terminologia internamente consistente (desfibrilação = choque não sincronizado).",
+      "explanation": "Overdose de antidepressivo tricíclico classicamente causa arritmias ventriculares (bloqueio de canal de sódio) evoluindo para TV/FV. Em parada cardiorrespiratória (paciente sem pulso), o tratamento correto é sempre desfibrilação (choque NÃO sincronizado), associado a adrenalina pelo algoritmo de PCR — única opção com terminologia internamente consistente (desfibrilação = choque não sincronizado).",
       "theme": "cardio_arritmias",
       "difficulty": "dificil",
       "source": "BOS R1 2025",
-      "reviewed": false,
-      "created_at": "2026-07-26T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-26T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/arr_082_manual.webp"
     },
     {
       "id": "arr_083",
