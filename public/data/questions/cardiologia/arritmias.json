@@ -2746,12 +2746,13 @@
         }
       ],
       "correct_key": "a",
-      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Paciente mantém pressão arterial mensurável (88/60, com pulso), excluindo parada cardiorrespiratória/FV (opção D incompatível com pulso presente). Dada a instabilidade (hipotensão, hipoxemia) em contexto de taquicardia de complexo largo sustentada em cardiopatia isquêmica, o tratamento correto é cardioversão elétrica SINCRONIZADA com 100J — resposta com confiança moderada-baixa dada a ambiguidade da nomenclatura nas opções do enunciado original.",
+      "explanation": "Paciente mantém pressão arterial mensurável (88/60, com pulso), excluindo parada cardiorrespiratória/FV (opção D incompatível com pulso presente). Dada a instabilidade (hipotensão, hipoxemia) em contexto de taquicardia de complexo largo sustentada em cardiopatia isquêmica, o tratamento correto é cardioversão elétrica SINCRONIZADA com 100J — resposta com confiança moderada-baixa dada a ambiguidade da nomenclatura nas opções do enunciado original.",
       "theme": "cardio_arritmias",
       "difficulty": "dificil",
       "source": "PUC-SP R1 2025",
-      "reviewed": false,
-      "created_at": "2026-07-26T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-26T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/arr_091_manual.webp"
     },
     {
       "id": "arr_092",
