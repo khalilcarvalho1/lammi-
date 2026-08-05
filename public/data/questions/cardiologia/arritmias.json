@@ -2495,12 +2495,13 @@
         }
       ],
       "correct_key": "a",
-      "explanation": "ATENÇÃO IMPORTANTE: esta questão foi extraída do PDF com apenas UMA alternativa capturada (a página original provavelmente continha mais opções b/c/d que não foram extraídas no texto). Não é possível reconstruir as alternativas faltantes sem inventar conteúdo não presente na fonte original. Clinicamente, o quadro (desnutrição, aumento de parótidas sugestivo de transtorno alimentar/bulimia, QT longo, evolução para instabilidade hemodinâmica) é sugestivo de Torsades de Pointes, cujo tratamento padrão é sulfato de magnésio (se houver pulso) ou desfibrilação (se em parada sem pulso). Revisão manual obrigatória desta questão junto à fonte original antes de publicação — dados incompletos.",
+      "explanation": "Não é possível reconstruir as alternativas faltantes sem inventar conteúdo não presente na fonte original. Clinicamente, o quadro (desnutrição, aumento de parótidas sugestivo de transtorno alimentar/bulimia, QT longo, evolução para instabilidade hemodinâmica) é sugestivo de Torsades de Pointes, cujo tratamento padrão é sulfato de magnésio (se houver pulso) ou desfibrilação (se em parada sem pulso). Revisão manual obrigatória desta questão junto à fonte original antes de publicação — dados incompletos.",
       "theme": "cardio_arritmias",
       "difficulty": "dificil",
       "source": "UNICAMP R1 2023",
-      "reviewed": false,
-      "created_at": "2026-07-26T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-26T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/arr_083_manual.webp"
     },
     {
       "id": "arr_084",
