@@ -2892,12 +2892,13 @@
         }
       ],
       "correct_key": "c",
-      "explanation": "ATENÇÃO: ECG citado mas não disponível na extração do PDF. Taquicardia (FC122) associada a aumento de átrio esquerdo em idosa hipertensa/diabética, sem estertores (ausculta pulmonar limpa), é altamente sugestiva de fibrilação atrial — achado consistente com raciocínio aplicado a caso idêntico em outros lotes de questões desta mesma fonte.",
+      "explanation": "Taquicardia (FC122) associada a aumento de átrio esquerdo em idosa hipertensa/diabética, sem estertores (ausculta pulmonar limpa), é altamente sugestiva de fibrilação atrial — achado consistente com raciocínio aplicado a caso idêntico em outros lotes de questões desta mesma fonte.",
       "theme": "cardio_arritmias",
       "difficulty": "medio",
       "source": "SES-GO R3CM 2023",
-      "reviewed": false,
-      "created_at": "2026-07-26T00:00:00.000Z"
+      "reviewed": true,
+      "created_at": "2026-07-26T00:00:00.000Z",
+      "image_url": "https://nvojyyeljpasiqlmznic.supabase.co/storage/v1/object/public/question-images/arr_096_manual.png"
     },
     {
       "id": "arr_097",
